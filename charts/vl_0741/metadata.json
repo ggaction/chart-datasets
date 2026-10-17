@@ -1,0 +1,78 @@
+{
+  "id": "vl_0741",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "4b9c77244d697b6d774ff9da52b92484a5c0f05baea192209abc7f9995b93eb0",
+      "actions": 6,
+      "topOptions": 13
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a6e3aec7ed9316fc7864b0e5317fce0c339e70f8ab24638a4a6873856074bd81",
+      "actions": 7,
+      "topOptions": 14
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4f161077b8354a31de94591b51abfc4888835dac090ebdb62d85c32b59b14613",
+      "actions": 8,
+      "topOptions": 18
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "145bcf814f24d2ee5a13a67b807bcd7c59e6cb64c65a4b8065dee56cf4b98bd6",
+      "actions": 10,
+      "topOptions": 22
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "reviewed-source-correction-profile-preserved",
+    "explanation": "Codex rechecked immutable prior terminal, every current source/runtime-verified model-authored program, original stage profile, current ownership diagnostics and source-bound display/layout correction evidence; original model stop/usage retained without a new model call."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "bb0667fcafd960e8dac50e586c316388f35824f97d282908d88030a05d013a6a",
+      "bytes": 2676
+    },
+    "data.json": {
+      "sha256": "027931ff7c75bbe7affbf18ad73d94047f67be4ae252458835080524551ebf28",
+      "bytes": 1257
+    },
+    "resolved-source.vl.json": {
+      "sha256": "bb0667fcafd960e8dac50e586c316388f35824f97d282908d88030a05d013a6a",
+      "bytes": 2676
+    },
+    "G1.gg.mjs": {
+      "sha256": "4b9c77244d697b6d774ff9da52b92484a5c0f05baea192209abc7f9995b93eb0",
+      "bytes": 1379
+    },
+    "G2.gg.mjs": {
+      "sha256": "a6e3aec7ed9316fc7864b0e5317fce0c339e70f8ab24638a4a6873856074bd81",
+      "bytes": 1374
+    },
+    "G3.gg.mjs": {
+      "sha256": "4f161077b8354a31de94591b51abfc4888835dac090ebdb62d85c32b59b14613",
+      "bytes": 1326
+    },
+    "G4.gg.mjs": {
+      "sha256": "145bcf814f24d2ee5a13a67b807bcd7c59e6cb64c65a4b8065dee56cf4b98bd6",
+      "bytes": 1374
+    },
+    "vega-lite.svg": {
+      "sha256": "5728bec645adcf0a736594a8feac5020d4b8538cf83d77ee52f957f79d96b9dc",
+      "bytes": 4779
+    },
+    "ggaction.svg": {
+      "sha256": "bb9efe88d16c33729f3118a6e94c2f592b897d6c13b2040219e8fa2ed3d34199",
+      "bytes": 2002
+    }
+  }
+}

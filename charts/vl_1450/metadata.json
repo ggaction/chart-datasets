@@ -1,0 +1,111 @@
+{
+  "id": "vl_1450",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "47ecd9c171102fd9d7ac001106e613be56bd4627457cc97e83242014140d69ad",
+      "actions": 7,
+      "topOptions": 14
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a5ac355670570806ff537dc5cd6f8813b73a3e5ce17c938ecab350ecb71bdb86",
+      "actions": 9,
+      "topOptions": 18
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "12fb69aafadbcbde4c2401540d89c05bd22c3c71d6cea50e5e071db7d0460eb2",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f52aa088f922dd998137f942aedce52ef6a3f1bf4bf3e08e6298c8ebdc7fab43",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "175768e91eda021cdb960f5b9159538f34e664271568f8d2628024887dc6dd8f",
+      "actions": 16,
+      "topOptions": 28
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "e6e6a6ef2f1813dc0db77a77ad30da3063640be21308b7e683dc69d18f08244b",
+      "actions": 18,
+      "topOptions": 32
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "307ed9b511d56906dd6f5583c9c9a1128c2883868d6ac22e4f80dd642ca374c5",
+      "actions": 19,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Proposed patch inserts absent explicit axis-title fontWeight700 after regrouping already focused editors; identical focused owners were present in accepted G7, so no meaningful new ownership transfer. Full accepted terminal module and raw source reviewed: positional domains and constant appearance channels already at focused owners; remaining initial axis font sizes/positions/values/visibility/content and source shape/curve definitions are retained. No absent default or scalar/repartitioning stage justified. Stop metadata is human review, not a new model-authored code or chart."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8c94786c37f0cf1e6d5e40bbb48be95818b11cff8c543523c9767189a4fe2ce4",
+      "bytes": 11899
+    },
+    "data.json": {
+      "sha256": "a805ba2b83438f3665aaf9162c548ec4c4dca8b15de985aadb9d07690d0e0111",
+      "bytes": 9476
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8c94786c37f0cf1e6d5e40bbb48be95818b11cff8c543523c9767189a4fe2ce4",
+      "bytes": 11899
+    },
+    "G1.gg.mjs": {
+      "sha256": "47ecd9c171102fd9d7ac001106e613be56bd4627457cc97e83242014140d69ad",
+      "bytes": 1506
+    },
+    "G2.gg.mjs": {
+      "sha256": "a5ac355670570806ff537dc5cd6f8813b73a3e5ce17c938ecab350ecb71bdb86",
+      "bytes": 1524
+    },
+    "G3.gg.mjs": {
+      "sha256": "12fb69aafadbcbde4c2401540d89c05bd22c3c71d6cea50e5e071db7d0460eb2",
+      "bytes": 1484
+    },
+    "G4.gg.mjs": {
+      "sha256": "f52aa088f922dd998137f942aedce52ef6a3f1bf4bf3e08e6298c8ebdc7fab43",
+      "bytes": 1634
+    },
+    "G5.gg.mjs": {
+      "sha256": "175768e91eda021cdb960f5b9159538f34e664271568f8d2628024887dc6dd8f",
+      "bytes": 1630
+    },
+    "G6.gg.mjs": {
+      "sha256": "e6e6a6ef2f1813dc0db77a77ad30da3063640be21308b7e683dc69d18f08244b",
+      "bytes": 1688
+    },
+    "G7.gg.mjs": {
+      "sha256": "307ed9b511d56906dd6f5583c9c9a1128c2883868d6ac22e4f80dd642ca374c5",
+      "bytes": 1730
+    },
+    "vega-lite.svg": {
+      "sha256": "7f336d9438b3d034d30da1a8a89474e6424652f676389f3ed5a4098f98418c15",
+      "bytes": 34926
+    },
+    "ggaction.svg": {
+      "sha256": "ed34ec95fc94b0bb2324895c5ee2bbc14ba086852e7b2c5e0a5dd60e12c90672",
+      "bytes": 20110
+    }
+  }
+}

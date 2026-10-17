@@ -1,0 +1,202 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Wild fires",
+  "title": {
+    "text": "California wildfires - top 20 by size",
+    "subtitle": "Acres. Source: Cal fire",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Name": "August Complex",
+        "Date": "Aug-20",
+        "Size": "1032648",
+        "Deaths": "1",
+        "Detail": "Top 20 wildfires in CA"
+      },
+      {
+        "Name": "Dixie",
+        "Date": "Jul-21",
+        "Size": "487764",
+        "Deaths": "0",
+        "Detail": "Source: Cal Fire"
+      },
+      {
+        "Name": "Mendocino Complex",
+        "Date": "Jul-18",
+        "Size": "459123",
+        "Deaths": "1",
+        "Detail": ""
+      },
+      {
+        "Name": "SCU Lightning Complex",
+        "Date": "Aug-20",
+        "Size": "279895",
+        "Deaths": "0",
+        "Detail": ""
+      },
+      {
+        "Name": "Creek Fire",
+        "Date": "Sep-20",
+        "Size": "379895",
+        "Deaths": "0",
+        "Detail": ""
+      },
+      {
+        "Name": "LNU Lightning Complex",
+        "Date": "Aug-20",
+        "Size": "363895",
+        "Deaths": "6",
+        "Detail": ""
+      },
+      {
+        "Name": "North Complex",
+        "Date": "Aug-20",
+        "Size": "318935",
+        "Deaths": "15",
+        "Detail": ""
+      },
+      {
+        "Name": "Thomas",
+        "Date": "Dec-17",
+        "Size": "281893",
+        "Deaths": "2",
+        "Detail": ""
+      },
+      {
+        "Name": "Cedar",
+        "Date": "Oct-03",
+        "Size": "273246",
+        "Deaths": "15",
+        "Detail": ""
+      },
+      {
+        "Name": "Rush",
+        "Date": "Aug-21",
+        "Size": "271911",
+        "Deaths": "0",
+        "Detail": ""
+      },
+      {
+        "Name": "Rim",
+        "Date": "Aug-13",
+        "Size": "257314",
+        "Deaths": "0",
+        "Detail": ""
+      },
+      {
+        "Name": "Zaca",
+        "Date": "Jul-07",
+        "Size": "240207",
+        "Deaths": "0",
+        "Detail": ""
+      },
+      {
+        "Name": "Carr",
+        "Date": "Jul-18",
+        "Size": "229651",
+        "Deaths": "8",
+        "Detail": ""
+      },
+      {
+        "Name": "Matilija",
+        "Date": "Sep-32",
+        "Size": "220000",
+        "Deaths": "0",
+        "Detail": ""
+      },
+      {
+        "Name": "Witch",
+        "Date": "Oct-07",
+        "Size": "197990",
+        "Deaths": "2",
+        "Detail": ""
+      },
+      {
+        "Name": "Klamath Theater Complex",
+        "Date": "Jul-77",
+        "Size": "192038",
+        "Deaths": "2",
+        "Detail": ""
+      },
+      {
+        "Name": "Marble Cone",
+        "Date": "Jun-08",
+        "Size": "177866",
+        "Deaths": "0",
+        "Detail": ""
+      },
+      {
+        "Name": "Laguna",
+        "Date": "Sep-70",
+        "Size": "175425",
+        "Deaths": "5",
+        "Detail": ""
+      },
+      {
+        "Name": "SGF Complex",
+        "Date": "Aug-20",
+        "Size": "170384",
+        "Deaths": "0",
+        "Detail": ""
+      },
+      {
+        "Name": "Basin Complex",
+        "Date": "Jun-08",
+        "Size": "162818",
+        "Deaths": "0",
+        "Detail": ""
+      }
+    ]
+  },
+  "height": 300,
+  "width": 235,
+  "mark": {
+    "type": "bar",
+    "color": "#86d0bb"
+  },
+  "encoding": {
+    "x": {
+      "field": "Name",
+      "type": "nominal",
+      "sort": "-y",
+      "axis": {
+        "title": null,
+        "grid": false,
+        "ticks": false,
+        "labelAngle": 45
+      }
+    },
+    "y": {
+      "field": "Size",
+      "type": "quantitative",
+      "title": "",
+      "axis": {
+        "grid": false
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Date",
+        "type": "nominal"
+      },
+      {
+        "field": "Name",
+        "type": "nominal"
+      },
+      {
+        "field": "Size",
+        "type": "quantitative",
+        "title": "Size of fire (acres)"
+      },
+      {
+        "field": "Deaths",
+        "type": "quantitative"
+      }
+    ]
+  }
+}

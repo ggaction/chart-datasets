@@ -1,0 +1,113 @@
+{
+  "id": "vl_0830",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "514d82d195e30bb66e5c178fa02bcb3d4cc89cf56c481a73aa1cca98453a1daf",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9346d0ff8a0981b556c22a0ebe2c13d79de89a5aebfb4e9193b204d1982268e2",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "d768207e6f2a2d6d698a5a8875dd9cfb0b6f03368a55d532b78c26f0bc7b878f",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "dc37d2e58a98f020cc87757dbd24263cf26c6c9740f30763590b0e28361a29cf",
+      "actions": 13,
+      "topOptions": 28
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4cf24c62a81812aed4634f27806443164df8c3b7887d39b8c85a0bb84c4738e1",
+      "actions": 15,
+      "topOptions": 30
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "4f7d719832277b994bc938b1d601bfdf01ef0f301120a38106b7ef85e5010aaa",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "24eac845c0a61af8fb1853565a6a5f6bf9261d09eba5e3a785ddef705b34c1e7",
+      "actions": 15,
+      "topOptions": 32
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/data_ONS-cznb.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full terminal code/source reread: actual300x180plot, sourcecucumberRPI temporalrows/blue2line/yearticks/penceYtitle and sourceheader retained. Seven current programs allPASS, identicalSVG, frontierempty. ExactGLMstop bindsG7; protected styles/layout remaincreation."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "5db812797e58c3e7c90e35cee1d4d626a849b81e5e2bbb512a0913e5bddde918",
+      "bytes": 1068
+    },
+    "data.json": {
+      "sha256": "dfb29a3af4d7b669e8f9d0d816ee0efdb675a188a1da236d631ae21f88ec6167",
+      "bytes": 88891
+    },
+    "resolved-source.vl.json": {
+      "sha256": "ea349beef54b25a4c2953ac001abfd2aa02a48572852420daf1f923e46384fcf",
+      "bytes": 106556
+    },
+    "G1.gg.mjs": {
+      "sha256": "514d82d195e30bb66e5c178fa02bcb3d4cc89cf56c481a73aa1cca98453a1daf",
+      "bytes": 1884
+    },
+    "G2.gg.mjs": {
+      "sha256": "9346d0ff8a0981b556c22a0ebe2c13d79de89a5aebfb4e9193b204d1982268e2",
+      "bytes": 1864
+    },
+    "G3.gg.mjs": {
+      "sha256": "d768207e6f2a2d6d698a5a8875dd9cfb0b6f03368a55d532b78c26f0bc7b878f",
+      "bytes": 1818
+    },
+    "G4.gg.mjs": {
+      "sha256": "dc37d2e58a98f020cc87757dbd24263cf26c6c9740f30763590b0e28361a29cf",
+      "bytes": 1838
+    },
+    "G5.gg.mjs": {
+      "sha256": "4cf24c62a81812aed4634f27806443164df8c3b7887d39b8c85a0bb84c4738e1",
+      "bytes": 1939
+    },
+    "G6.gg.mjs": {
+      "sha256": "4f7d719832277b994bc938b1d601bfdf01ef0f301120a38106b7ef85e5010aaa",
+      "bytes": 1996
+    },
+    "G7.gg.mjs": {
+      "sha256": "24eac845c0a61af8fb1853565a6a5f6bf9261d09eba5e3a785ddef705b34c1e7",
+      "bytes": 1944
+    },
+    "vega-lite.svg": {
+      "sha256": "ab7aca8f1724cd8d93e8ad84f1d41c6aeab98ced1fae08e76d866b5330eac251",
+      "bytes": 12913
+    },
+    "ggaction.svg": {
+      "sha256": "3073c45d731e8df35c1b4c609baaee712033cfc8fe58f1649d5b27e0239b8ab5",
+      "bytes": 20914
+    }
+  }
+}

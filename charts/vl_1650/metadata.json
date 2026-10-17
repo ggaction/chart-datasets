@@ -1,0 +1,78 @@
+{
+  "id": "vl_1650",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "37eb917785c203039413562a9c387e40d32928cd81af3e5bb47307e908a8c0cd",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1cd99352c81bd3666af266a9d3c92e5349ad799f2f594ed3f921be8fc7ffbefd",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ada4dc774c73b011f9ce203a552a8a018f736e975adbeb0f3f5dd12884c2f9a3",
+      "actions": 16,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3f87edd0d0a360fb4696598e504f041f630aee9cf2f51d1b84ef3725c601b1fd",
+      "actions": 18,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Four meaningful stages: high-level scatter with raw-data derivation, paired axis paint, paired component groups, individual ticks/title typography. Source whole274x102 and plot200x60 exact; no fabricated defaults or padding stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "384be8a3549a0fab7e8a2647e830d26550408c0fda6c1034ea2cd0f04d611626",
+      "bytes": 963
+    },
+    "data.json": {
+      "sha256": "c446d3837d6ed0215cf8fcadce0a76ae77cf309095d1414fa10f57007eeea71b",
+      "bytes": 438
+    },
+    "resolved-source.vl.json": {
+      "sha256": "384be8a3549a0fab7e8a2647e830d26550408c0fda6c1034ea2cd0f04d611626",
+      "bytes": 963
+    },
+    "G1.gg.mjs": {
+      "sha256": "37eb917785c203039413562a9c387e40d32928cd81af3e5bb47307e908a8c0cd",
+      "bytes": 2171
+    },
+    "G2.gg.mjs": {
+      "sha256": "1cd99352c81bd3666af266a9d3c92e5349ad799f2f594ed3f921be8fc7ffbefd",
+      "bytes": 2319
+    },
+    "G3.gg.mjs": {
+      "sha256": "ada4dc774c73b011f9ce203a552a8a018f736e975adbeb0f3f5dd12884c2f9a3",
+      "bytes": 2293
+    },
+    "G4.gg.mjs": {
+      "sha256": "3f87edd0d0a360fb4696598e504f041f630aee9cf2f51d1b84ef3725c601b1fd",
+      "bytes": 2281
+    },
+    "vega-lite.svg": {
+      "sha256": "37024ac6859e64faa7d43cece15a8c9f343bfc2f3bb0b77473475fae7986b05b",
+      "bytes": 6544
+    },
+    "ggaction.svg": {
+      "sha256": "cf17c081865865a8375a9d877e5ef112c5074faf35e2a034b58d534a5c6f2dbc",
+      "bytes": 4723
+    }
+  }
+}

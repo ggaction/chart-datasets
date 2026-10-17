@@ -1,0 +1,634 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Quantidade de ingressantes no curso",
+    "fontSize": 15
+  },
+  "data": {
+    "values": [
+      {
+        "": "146",
+        "periodo_ingresso": "2020.1",
+        "sexo": "Masculino",
+        "contagem": "86",
+        "porcentagem": "82.69"
+      },
+      {
+        "": "145",
+        "periodo_ingresso": "2020.1",
+        "sexo": "Feminino",
+        "contagem": "18",
+        "porcentagem": "17.31"
+      },
+      {
+        "": "144",
+        "periodo_ingresso": "2019.2",
+        "sexo": "Masculino",
+        "contagem": "92",
+        "porcentagem": "81.42"
+      },
+      {
+        "": "143",
+        "periodo_ingresso": "2019.2",
+        "sexo": "Feminino",
+        "contagem": "21",
+        "porcentagem": "18.58"
+      },
+      {
+        "": "142",
+        "periodo_ingresso": "2019.1",
+        "sexo": "Masculino",
+        "contagem": "82",
+        "porcentagem": "86.32"
+      },
+      {
+        "": "141",
+        "periodo_ingresso": "2019.1",
+        "sexo": "Feminino",
+        "contagem": "13",
+        "porcentagem": "13.68"
+      },
+      {
+        "": "140",
+        "periodo_ingresso": "2018.2",
+        "sexo": "Masculino",
+        "contagem": "96",
+        "porcentagem": "88.89"
+      },
+      {
+        "": "139",
+        "periodo_ingresso": "2018.2",
+        "sexo": "Feminino",
+        "contagem": "12",
+        "porcentagem": "11.11"
+      },
+      {
+        "": "138",
+        "periodo_ingresso": "2018.1",
+        "sexo": "Masculino",
+        "contagem": "87",
+        "porcentagem": "88.78"
+      },
+      {
+        "": "137",
+        "periodo_ingresso": "2018.1",
+        "sexo": "Feminino",
+        "contagem": "11",
+        "porcentagem": "11.22"
+      },
+      {
+        "": "136",
+        "periodo_ingresso": "2017.2",
+        "sexo": "Masculino",
+        "contagem": "87",
+        "porcentagem": "82.86"
+      },
+      {
+        "": "135",
+        "periodo_ingresso": "2017.2",
+        "sexo": "Feminino",
+        "contagem": "18",
+        "porcentagem": "17.14"
+      },
+      {
+        "": "134",
+        "periodo_ingresso": "2017.1",
+        "sexo": "Masculino",
+        "contagem": "83",
+        "porcentagem": "86.46"
+      },
+      {
+        "": "133",
+        "periodo_ingresso": "2017.1",
+        "sexo": "Feminino",
+        "contagem": "13",
+        "porcentagem": "13.54"
+      },
+      {
+        "": "132",
+        "periodo_ingresso": "2016.2",
+        "sexo": "Masculino",
+        "contagem": "96",
+        "porcentagem": "78.69"
+      },
+      {
+        "": "131",
+        "periodo_ingresso": "2016.2",
+        "sexo": "Feminino",
+        "contagem": "26",
+        "porcentagem": "21.31"
+      },
+      {
+        "": "129",
+        "periodo_ingresso": "2016.1",
+        "sexo": "Feminino",
+        "contagem": "10",
+        "porcentagem": "9.43"
+      },
+      {
+        "": "130",
+        "periodo_ingresso": "2016.1",
+        "sexo": "Masculino",
+        "contagem": "96",
+        "porcentagem": "90.57"
+      },
+      {
+        "": "127",
+        "periodo_ingresso": "2015.2",
+        "sexo": "Feminino",
+        "contagem": "21",
+        "porcentagem": "19.63"
+      },
+      {
+        "": "128",
+        "periodo_ingresso": "2015.2",
+        "sexo": "Masculino",
+        "contagem": "86",
+        "porcentagem": "80.37"
+      },
+      {
+        "": "126",
+        "periodo_ingresso": "2015.1",
+        "sexo": "Masculino",
+        "contagem": "103",
+        "porcentagem": "88.03"
+      },
+      {
+        "": "125",
+        "periodo_ingresso": "2015.1",
+        "sexo": "Feminino",
+        "contagem": "14",
+        "porcentagem": "11.97"
+      },
+      {
+        "": "124",
+        "periodo_ingresso": "2014.2",
+        "sexo": "Masculino",
+        "contagem": "80",
+        "porcentagem": "85.11"
+      },
+      {
+        "": "123",
+        "periodo_ingresso": "2014.2",
+        "sexo": "Feminino",
+        "contagem": "14",
+        "porcentagem": "14.89"
+      },
+      {
+        "": "121",
+        "periodo_ingresso": "2014.1",
+        "sexo": "Feminino",
+        "contagem": "20",
+        "porcentagem": "16.81"
+      },
+      {
+        "": "122",
+        "periodo_ingresso": "2014.1",
+        "sexo": "Masculino",
+        "contagem": "99",
+        "porcentagem": "83.19"
+      },
+      {
+        "": "120",
+        "periodo_ingresso": "2013.2",
+        "sexo": "Masculino",
+        "contagem": "94",
+        "porcentagem": "82.46"
+      },
+      {
+        "": "119",
+        "periodo_ingresso": "2013.2",
+        "sexo": "Feminino",
+        "contagem": "20",
+        "porcentagem": "17.54"
+      },
+      {
+        "": "118",
+        "periodo_ingresso": "2013.1",
+        "sexo": "Masculino",
+        "contagem": "93",
+        "porcentagem": "84.55"
+      },
+      {
+        "": "117",
+        "periodo_ingresso": "2013.1",
+        "sexo": "Feminino",
+        "contagem": "17",
+        "porcentagem": "15.45"
+      },
+      {
+        "": "116",
+        "periodo_ingresso": "2012.2",
+        "sexo": "Masculino",
+        "contagem": "88",
+        "porcentagem": "76.52"
+      },
+      {
+        "": "115",
+        "periodo_ingresso": "2012.2",
+        "sexo": "Feminino",
+        "contagem": "27",
+        "porcentagem": "23.48"
+      },
+      {
+        "": "114",
+        "periodo_ingresso": "2012.1",
+        "sexo": "Masculino",
+        "contagem": "108",
+        "porcentagem": "89.26"
+      },
+      {
+        "": "113",
+        "periodo_ingresso": "2012.1",
+        "sexo": "Feminino",
+        "contagem": "13",
+        "porcentagem": "10.74"
+      },
+      {
+        "": "112",
+        "periodo_ingresso": "2011.2",
+        "sexo": "Masculino",
+        "contagem": "98",
+        "porcentagem": "88.29"
+      },
+      {
+        "": "111",
+        "periodo_ingresso": "2011.2",
+        "sexo": "Feminino",
+        "contagem": "13",
+        "porcentagem": "11.71"
+      },
+      {
+        "": "109",
+        "periodo_ingresso": "2011.1",
+        "sexo": "Feminino",
+        "contagem": "21",
+        "porcentagem": "20.59"
+      },
+      {
+        "": "110",
+        "periodo_ingresso": "2011.1",
+        "sexo": "Masculino",
+        "contagem": "81",
+        "porcentagem": "79.41"
+      },
+      {
+        "": "108",
+        "periodo_ingresso": "2010.2",
+        "sexo": "Masculino",
+        "contagem": "76",
+        "porcentagem": "80.85"
+      },
+      {
+        "": "107",
+        "periodo_ingresso": "2010.2",
+        "sexo": "Feminino",
+        "contagem": "18",
+        "porcentagem": "19.15"
+      },
+      {
+        "": "106",
+        "periodo_ingresso": "2010.1",
+        "sexo": "Masculino",
+        "contagem": "85",
+        "porcentagem": "87.63"
+      },
+      {
+        "": "105",
+        "periodo_ingresso": "2010.1",
+        "sexo": "Feminino",
+        "contagem": "12",
+        "porcentagem": "12.37"
+      },
+      {
+        "": "103",
+        "periodo_ingresso": "2009.2",
+        "sexo": "Feminino",
+        "contagem": "8",
+        "porcentagem": "11.76"
+      },
+      {
+        "": "104",
+        "periodo_ingresso": "2009.2",
+        "sexo": "Masculino",
+        "contagem": "60",
+        "porcentagem": "88.24"
+      },
+      {
+        "": "102",
+        "periodo_ingresso": "2009.1",
+        "sexo": "Masculino",
+        "contagem": "62",
+        "porcentagem": "79.49"
+      },
+      {
+        "": "101",
+        "periodo_ingresso": "2009.1",
+        "sexo": "Feminino",
+        "contagem": "16",
+        "porcentagem": "20.51"
+      },
+      {
+        "": "100",
+        "periodo_ingresso": "2008.2",
+        "sexo": "Masculino",
+        "contagem": "43",
+        "porcentagem": "86.0"
+      },
+      {
+        "": "99",
+        "periodo_ingresso": "2008.2",
+        "sexo": "Feminino",
+        "contagem": "7",
+        "porcentagem": "14.0"
+      },
+      {
+        "": "98",
+        "periodo_ingresso": "2008.1",
+        "sexo": "Masculino",
+        "contagem": "36",
+        "porcentagem": "87.8"
+      },
+      {
+        "": "97",
+        "periodo_ingresso": "2008.1",
+        "sexo": "Feminino",
+        "contagem": "5",
+        "porcentagem": "12.2"
+      },
+      {
+        "": "96",
+        "periodo_ingresso": "2007.2",
+        "sexo": "Masculino",
+        "contagem": "33",
+        "porcentagem": "80.49"
+      },
+      {
+        "": "95",
+        "periodo_ingresso": "2007.2",
+        "sexo": "Feminino",
+        "contagem": "8",
+        "porcentagem": "19.51"
+      },
+      {
+        "": "93",
+        "periodo_ingresso": "2007.1",
+        "sexo": "Feminino",
+        "contagem": "15",
+        "porcentagem": "36.59"
+      },
+      {
+        "": "94",
+        "periodo_ingresso": "2007.1",
+        "sexo": "Masculino",
+        "contagem": "26",
+        "porcentagem": "63.41"
+      },
+      {
+        "": "91",
+        "periodo_ingresso": "2006.2",
+        "sexo": "Feminino",
+        "contagem": "6",
+        "porcentagem": "16.67"
+      },
+      {
+        "": "92",
+        "periodo_ingresso": "2006.2",
+        "sexo": "Masculino",
+        "contagem": "30",
+        "porcentagem": "83.33"
+      },
+      {
+        "": "90",
+        "periodo_ingresso": "2006.1",
+        "sexo": "Masculino",
+        "contagem": "34",
+        "porcentagem": "87.18"
+      },
+      {
+        "": "89",
+        "periodo_ingresso": "2006.1",
+        "sexo": "Feminino",
+        "contagem": "5",
+        "porcentagem": "12.82"
+      },
+      {
+        "": "88",
+        "periodo_ingresso": "2005.2",
+        "sexo": "Masculino",
+        "contagem": "35",
+        "porcentagem": "89.74"
+      },
+      {
+        "": "87",
+        "periodo_ingresso": "2005.2",
+        "sexo": "Feminino",
+        "contagem": "4",
+        "porcentagem": "10.26"
+      },
+      {
+        "": "85",
+        "periodo_ingresso": "2005.1",
+        "sexo": "Feminino",
+        "contagem": "7",
+        "porcentagem": "18.92"
+      },
+      {
+        "": "86",
+        "periodo_ingresso": "2005.1",
+        "sexo": "Masculino",
+        "contagem": "30",
+        "porcentagem": "81.08"
+      },
+      {
+        "": "84",
+        "periodo_ingresso": "2004.2",
+        "sexo": "Masculino",
+        "contagem": "31",
+        "porcentagem": "83.78"
+      },
+      {
+        "": "83",
+        "periodo_ingresso": "2004.2",
+        "sexo": "Feminino",
+        "contagem": "6",
+        "porcentagem": "16.22"
+      },
+      {
+        "": "82",
+        "periodo_ingresso": "2004.1",
+        "sexo": "Masculino",
+        "contagem": "29",
+        "porcentagem": "80.56"
+      },
+      {
+        "": "81",
+        "periodo_ingresso": "2004.1",
+        "sexo": "Feminino",
+        "contagem": "7",
+        "porcentagem": "19.44"
+      },
+      {
+        "": "80",
+        "periodo_ingresso": "2003.2",
+        "sexo": "Masculino",
+        "contagem": "34",
+        "porcentagem": "89.47"
+      },
+      {
+        "": "79",
+        "periodo_ingresso": "2003.2",
+        "sexo": "Feminino",
+        "contagem": "4",
+        "porcentagem": "10.53"
+      },
+      {
+        "": "78",
+        "periodo_ingresso": "2003.1",
+        "sexo": "Masculino",
+        "contagem": "32",
+        "porcentagem": "86.49"
+      },
+      {
+        "": "77",
+        "periodo_ingresso": "2003.1",
+        "sexo": "Feminino",
+        "contagem": "5",
+        "porcentagem": "13.51"
+      },
+      {
+        "": "76",
+        "periodo_ingresso": "2002.2",
+        "sexo": "Masculino",
+        "contagem": "31",
+        "porcentagem": "81.58"
+      },
+      {
+        "": "75",
+        "periodo_ingresso": "2002.2",
+        "sexo": "Feminino",
+        "contagem": "7",
+        "porcentagem": "18.42"
+      },
+      {
+        "": "74",
+        "periodo_ingresso": "2002.1",
+        "sexo": "Masculino",
+        "contagem": "29",
+        "porcentagem": "82.86"
+      },
+      {
+        "": "73",
+        "periodo_ingresso": "2002.1",
+        "sexo": "Feminino",
+        "contagem": "6",
+        "porcentagem": "17.14"
+      },
+      {
+        "": "71",
+        "periodo_ingresso": "2001.2",
+        "sexo": "Feminino",
+        "contagem": "4",
+        "porcentagem": "10.53"
+      },
+      {
+        "": "72",
+        "periodo_ingresso": "2001.2",
+        "sexo": "Masculino",
+        "contagem": "34",
+        "porcentagem": "89.47"
+      },
+      {
+        "": "70",
+        "periodo_ingresso": "2001.1",
+        "sexo": "Masculino",
+        "contagem": "28",
+        "porcentagem": "80.0"
+      },
+      {
+        "": "69",
+        "periodo_ingresso": "2001.1",
+        "sexo": "Feminino",
+        "contagem": "7",
+        "porcentagem": "20.0"
+      },
+      {
+        "": "68",
+        "periodo_ingresso": "2000.2",
+        "sexo": "Masculino",
+        "contagem": "29",
+        "porcentagem": "80.56"
+      },
+      {
+        "": "67",
+        "periodo_ingresso": "2000.2",
+        "sexo": "Feminino",
+        "contagem": "7",
+        "porcentagem": "19.44"
+      },
+      {
+        "": "65",
+        "periodo_ingresso": "2000.1",
+        "sexo": "Feminino",
+        "contagem": "5",
+        "porcentagem": "14.29"
+      },
+      {
+        "": "66",
+        "periodo_ingresso": "2000.1",
+        "sexo": "Masculino",
+        "contagem": "30",
+        "porcentagem": "85.71"
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "x": {
+      "field": "periodo_ingresso",
+      "type": "ordinal",
+      "title": "Periodo de ingresso"
+    },
+    "y": {
+      "field": "contagem",
+      "type": "quantitative",
+      "aggregate": "sum",
+      "title": "Quantidade de alunos"
+    },
+    "tooltip": [
+      {
+        "field": "periodo_ingresso",
+        "type": "ordinal",
+        "title": "Período"
+      },
+      {
+        "field": "sexo",
+        "type": "ordinal",
+        "title": "Sexo"
+      },
+      {
+        "field": "contagem",
+        "type": "quantitative",
+        "title": "Quantidade"
+      }
+    ],
+    "color": {
+      "field": "sexo",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Masculino",
+          "Feminino"
+        ],
+        "scheme": "set2"
+      },
+      "title": "Sexo"
+    },
+    "order": {
+      "aggregate": "sum",
+      "field": "contagem"
+    }
+  }
+}

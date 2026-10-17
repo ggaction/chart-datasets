@@ -1,0 +1,480 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Debt/GDP per capita staitsics-World ",
+    "subtitle": "The following chart shows Debt/GDp per capita for the whole world",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "date": "31/12/2021",
+        " Per Capita (US $)": "12262.9346",
+        "Outstanding Debt": "1.04029E+11",
+        "Debt/GDP per capita": "8483236.607",
+        "Years": "2021"
+      },
+      {
+        "date": "31/12/2020",
+        " Per Capita (US $)": "10936.0575",
+        "Outstanding Debt": "1.0589E+11",
+        "Debt/GDP per capita": "9682689.303",
+        "Years": "2020"
+      },
+      {
+        "date": "31/12/2019",
+        " Per Capita (US $)": "11407.4793",
+        "Outstanding Debt": "73536345315",
+        "Debt/GDP per capita": "6446327.307",
+        "Years": "2019"
+      },
+      {
+        "date": "31/12/2018",
+        " Per Capita (US $)": "11366.0737",
+        "Outstanding Debt": "61821792421",
+        "Debt/GDP per capita": "5439151.113",
+        "Years": "2018"
+      },
+      {
+        "date": "31/12/2017",
+        " Per Capita (US $)": "10825.9024",
+        "Outstanding Debt": "46107666542",
+        "Debt/GDP per capita": "4259013.691",
+        "Years": "2017"
+      },
+      {
+        "date": "31/12/2016",
+        " Per Capita (US $)": "10286.4113",
+        "Outstanding Debt": "55750278788",
+        "Debt/GDP per capita": "5419798.719",
+        "Years": "2016"
+      },
+      {
+        "date": "31/12/2015",
+        " Per Capita (US $)": "10231.7026",
+        "Outstanding Debt": "57333751899",
+        "Debt/GDP per capita": "5603539.718",
+        "Years": "2015"
+      },
+      {
+        "date": "31/12/2014",
+        " Per Capita (US $)": "10976.3835",
+        "Outstanding Debt": "75334319046",
+        "Debt/GDP per capita": "6863309.673",
+        "Years": "2014"
+      },
+      {
+        "date": "31/12/2013",
+        " Per Capita (US $)": "10815.58",
+        "Outstanding Debt": "90073641743",
+        "Debt/GDP per capita": "8328137.903",
+        "Years": "2013"
+      },
+      {
+        "date": "31/12/2012",
+        " Per Capita (US $)": "10648.2372",
+        "Outstanding Debt": "95808640755",
+        "Debt/GDP per capita": "8997605.797",
+        "Years": "2012"
+      },
+      {
+        "date": "31/12/2011",
+        " Per Capita (US $)": "10544.8758",
+        "Outstanding Debt": "92585525384",
+        "Debt/GDP per capita": "8780143.753",
+        "Years": "2011"
+      },
+      {
+        "date": "31/12/2010",
+        " Per Capita (US $)": "9621.1283",
+        "Outstanding Debt": "60439448644",
+        "Debt/GDP per capita": "6281950.179",
+        "Years": "2010"
+      },
+      {
+        "date": "31/12/2009",
+        " Per Capita (US $)": "8890.8011",
+        "Outstanding Debt": "42300847722",
+        "Debt/GDP per capita": "4757821.848",
+        "Years": "2009"
+      },
+      {
+        "date": "31/12/2008",
+        " Per Capita (US $)": "9489.966",
+        "Outstanding Debt": "21487336753",
+        "Debt/GDP per capita": "2264216.411",
+        "Years": "2008"
+      },
+      {
+        "date": "31/12/2007",
+        " Per Capita (US $)": "8743.396",
+        "Outstanding Debt": "9833092338",
+        "Debt/GDP per capita": "1124630.789",
+        "Years": "2007"
+      },
+      {
+        "date": "31/12/2006",
+        " Per Capita (US $)": "7854.1044",
+        "Outstanding Debt": "13666660759",
+        "Debt/GDP per capita": "1740066.093",
+        "Years": "2006"
+      },
+      {
+        "date": "31/12/2005",
+        " Per Capita (US $)": "7337.4898",
+        "Outstanding Debt": "34714264905",
+        "Debt/GDP per capita": "4731081.862",
+        "Years": "2005"
+      },
+      {
+        "date": "31/12/2004",
+        " Per Capita (US $)": "6859.584",
+        "Outstanding Debt": "62139796027",
+        "Debt/GDP per capita": "9058828.644",
+        "Years": "2004"
+      },
+      {
+        "date": "31/12/2003",
+        " Per Capita (US $)": "6163.079",
+        "Outstanding Debt": "71912955980",
+        "Debt/GDP per capita": "11668348.89",
+        "Years": "2003"
+      },
+      {
+        "date": "31/12/2002",
+        " Per Capita (US $)": "5565.5925",
+        "Outstanding Debt": "70469729806",
+        "Debt/GDP per capita": "12661676.15",
+        "Years": "2002"
+      },
+      {
+        "date": "31/12/2001",
+        " Per Capita (US $)": "5427.3912",
+        "Outstanding Debt": "59901804093",
+        "Debt/GDP per capita": "11036942.41",
+        "Years": "2001"
+      },
+      {
+        "date": "31/12/2000",
+        " Per Capita (US $)": "5533.053",
+        "Outstanding Debt": "49322126517",
+        "Debt/GDP per capita": "8914088.934",
+        "Years": "2000"
+      },
+      {
+        "date": "31/12/1999",
+        " Per Capita (US $)": "5425.0493",
+        "Outstanding Debt": "57496136237",
+        "Debt/GDP per capita": "10598269.81",
+        "Years": "1999"
+      },
+      {
+        "date": "31/12/1998",
+        " Per Capita (US $)": "5297.2682",
+        "Outstanding Debt": "66739842976",
+        "Debt/GDP per capita": "12598917.11",
+        "Years": "1998"
+      },
+      {
+        "date": "31/12/1997",
+        " Per Capita (US $)": "5384.6921",
+        "Outstanding Debt": "52568901205",
+        "Debt/GDP per capita": "9762656.848",
+        "Years": "1997"
+      },
+      {
+        "date": "31/12/1996",
+        " Per Capita (US $)": "5481.6149",
+        "Outstanding Debt": "42009082557",
+        "Debt/GDP per capita": "7663632.583",
+        "Years": "1996"
+      },
+      {
+        "date": "31/12/1995",
+        " Per Capita (US $)": "5439.8087",
+        "Outstanding Debt": "41586611940",
+        "Debt/GDP per capita": "7644866.618",
+        "Years": "1995"
+      },
+      {
+        "date": "31/12/1994",
+        " Per Capita (US $)": "4957.6365",
+        "Outstanding Debt": "30211445450",
+        "Debt/GDP per capita": "6093921.055",
+        "Years": "1994"
+      },
+      {
+        "date": "31/12/1993",
+        " Per Capita (US $)": "4662.7868",
+        "Outstanding Debt": "29139537930",
+        "Debt/GDP per capita": "6249382.436",
+        "Years": "1993"
+      },
+      {
+        "date": "31/12/1992",
+        " Per Capita (US $)": "4659.4677",
+        "Outstanding Debt": "27771636514",
+        "Debt/GDP per capita": "5960259.476",
+        "Years": "1992"
+      },
+      {
+        "date": "31/12/1991",
+        " Per Capita (US $)": "4426.0346",
+        "Outstanding Debt": "26664291722",
+        "Debt/GDP per capita": "6024420.081",
+        "Years": "1991"
+      },
+      {
+        "date": "31/12/1990",
+        " Per Capita (US $)": "4314.3387",
+        "Outstanding Debt": "23303762710",
+        "Debt/GDP per capita": "5401468.065",
+        "Years": "1990"
+      },
+      {
+        "date": "31/12/1989",
+        " Per Capita (US $)": "3890.9621",
+        "Outstanding Debt": "24649990786",
+        "Debt/GDP per capita": "6335191.696",
+        "Years": "1989"
+      },
+      {
+        "date": "31/12/1988",
+        " Per Capita (US $)": "3790.8071",
+        "Outstanding Debt": "26523969177",
+        "Debt/GDP per capita": "6996918.724",
+        "Years": "1988"
+      },
+      {
+        "date": "31/12/1987",
+        " Per Capita (US $)": "3452.7768",
+        "Outstanding Debt": "30618322055",
+        "Debt/GDP per capita": "8867738.585",
+        "Years": "1987"
+      },
+      {
+        "date": "31/12/1986",
+        " Per Capita (US $)": "3087.5317",
+        "Outstanding Debt": "35348075575",
+        "Debt/GDP per capita": "11448651.87",
+        "Years": "1986"
+      },
+      {
+        "date": "31/12/1985",
+        " Per Capita (US $)": "2657.4963",
+        "Outstanding Debt": "37665035197",
+        "Debt/GDP per capita": "14173127.99",
+        "Years": "1985"
+      },
+      {
+        "date": "31/12/1984",
+        " Per Capita (US $)": "2579.8572",
+        "Outstanding Debt": "37706647293",
+        "Debt/GDP per capita": "14615788.54",
+        "Years": "1984"
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      },
+      {
+        "date": "",
+        " Per Capita (US $)": "",
+        "Outstanding Debt": "",
+        "Debt/GDP per capita": "",
+        "Years": ""
+      }
+    ],
+    "format": {
+      "parse": {
+        "Years": "date"
+      }
+    }
+  },
+  "height": 300,
+  "width": 260,
+  "mark": {
+    "type": "bar",
+    "color": "#245ace"
+  },
+  "encoding": {
+    "x": {
+      "field": "Years",
+      "type": "temporal",
+      "axis": {
+        "title": "Years",
+        "grid": false,
+        "ticks": false,
+        "labelAngle": 45
+      }
+    },
+    "y": {
+      "field": "Debt/GDP per capita",
+      "type": "quantitative",
+      "title": "Debt/GDP per capita",
+      "axis": {
+        "grid": false
+      }
+    }
+  }
+}

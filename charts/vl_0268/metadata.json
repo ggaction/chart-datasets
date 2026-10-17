@@ -1,0 +1,124 @@
+{
+  "id": "vl_0268",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ad66f18b61e2a1964843071ac6b05089494840d5bde44c981a08d7f78efaf6b6",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e07e929d031fd5ca0ea2bc3c297d70bf8df3ac7795b02e50249f6dbe175989f6",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "20f77c4f11915247005d174f53898cdecea0b72ea26ce6d7fb1d6a232190603d",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f8cf7891b2f5c68614382a8245904e9312436e9b8a2a8e263ce3498c364e714d",
+      "actions": 18,
+      "topOptions": 37
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c13e4207b4a3f6830a97714e2b6abfd995e65f2ac54cb48dee18eaed5c4fb965",
+      "actions": 19,
+      "topOptions": 41
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "5513b87e72927b87d227c85e345e2543e14a62420380358bd7de3bfc588bbbf8",
+      "actions": 20,
+      "topOptions": 41
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "7f69f360c5f8265c7bcf645642256df3e6a5b3188fc8863fe94993b5f82f38f1",
+      "actions": 22,
+      "topOptions": 47
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "51659ac8388e6a643260ba9e0b88503e4d17654f994f6069cc1f926ab1cf4fe7",
+      "actions": 23,
+      "topOptions": 49
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-datasets/data/iowa-electricity.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All8 reviewed actual programs pass current source and identical-family checks; no default padding, retain source innerplot and complete-axis creation."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "2b59852658ca483f3f2f2a418dade48c24e0d60efd21e257f0028b50fa45d116",
+      "bytes": 817
+    },
+    "data.json": {
+      "sha256": "90f5f29523476c2af3b718f8123b53a0ccb029ada50485f5a136a4e092e857df",
+      "bytes": 4822
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0f9d07fde94c8c444957051e72a24a385ffe8cb9cea27f82373beb02bc833239",
+      "bytes": 6630
+    },
+    "G1.gg.mjs": {
+      "sha256": "ad66f18b61e2a1964843071ac6b05089494840d5bde44c981a08d7f78efaf6b6",
+      "bytes": 2561
+    },
+    "G2.gg.mjs": {
+      "sha256": "e07e929d031fd5ca0ea2bc3c297d70bf8df3ac7795b02e50249f6dbe175989f6",
+      "bytes": 2549
+    },
+    "G3.gg.mjs": {
+      "sha256": "20f77c4f11915247005d174f53898cdecea0b72ea26ce6d7fb1d6a232190603d",
+      "bytes": 2540
+    },
+    "G4.gg.mjs": {
+      "sha256": "f8cf7891b2f5c68614382a8245904e9312436e9b8a2a8e263ce3498c364e714d",
+      "bytes": 2453
+    },
+    "G5.gg.mjs": {
+      "sha256": "c13e4207b4a3f6830a97714e2b6abfd995e65f2ac54cb48dee18eaed5c4fb965",
+      "bytes": 2403
+    },
+    "G6.gg.mjs": {
+      "sha256": "5513b87e72927b87d227c85e345e2543e14a62420380358bd7de3bfc588bbbf8",
+      "bytes": 2411
+    },
+    "G7.gg.mjs": {
+      "sha256": "7f69f360c5f8265c7bcf645642256df3e6a5b3188fc8863fe94993b5f82f38f1",
+      "bytes": 2549
+    },
+    "G8.gg.mjs": {
+      "sha256": "51659ac8388e6a643260ba9e0b88503e4d17654f994f6069cc1f926ab1cf4fe7",
+      "bytes": 2596
+    },
+    "vega-lite.svg": {
+      "sha256": "726dd6528ab4153a95edfde07a4e1a4cdd51f78d789fd49b57a2ef0dc3a9eea0",
+      "bytes": 13879
+    },
+    "ggaction.svg": {
+      "sha256": "f43edb4117818d45fec24d4ad5584c5dca140c6bea622d6d83aaf523e7a9e8bf",
+      "bytes": 10227
+    }
+  }
+}

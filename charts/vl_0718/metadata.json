@@ -1,0 +1,124 @@
+{
+  "id": "vl_0718",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "2ec36b69d022a1be94e52d575e4b9199a6a495fc3968888a2e4466a27fd403a8",
+      "actions": 22,
+      "topOptions": 56
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e9716852cc3e248db4c6a82306b93def6caafbb0dedf46c25a98e93194712d6c",
+      "actions": 23,
+      "topOptions": 60
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "31f6a9a011518f87ab3e71d2345e2cba8c7d4ec85aa13249c34fb3b4ec417aa7",
+      "actions": 24,
+      "topOptions": 61
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c650a09e935f9e66ddda87427fbcafb6845fe9b3ad6901995cc8e80dd55fe14e",
+      "actions": 26,
+      "topOptions": 66
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "67603f1edba3c570e94b758448fa11ce32a875859e5b03a21d623f2542ba5e77",
+      "actions": 27,
+      "topOptions": 67
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d7d29d61f57a6b6448c5b4c477797a7a0c8e4afb4caf25cd663a262b868d0334",
+      "actions": 30,
+      "topOptions": 67
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "1e22537f819fa08df0887ceb01908c1ae6576f678f454c07a96c0d8f1fe0e563",
+      "actions": 30,
+      "topOptions": 68
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "69229640573da5b22c1bb1e5ccc8c1985495c82b13ab3da7d4771497646007b6",
+      "actions": 31,
+      "topOptions": 69
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/US%20Migration%204%20CSV.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Reviewed eight meaningful accepted stages and exact family output. Stage8 cap reached; remaining concrete ownership boundaries disclosed in terminal-frontier-disclosure.json; no claim of exhaustion."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "cf0eb762149f0c3bd8b43cc6ee4377ed2b3b5f0d0404f98aacfded070ed96601",
+      "bytes": 1180
+    },
+    "data.json": {
+      "sha256": "4224d6136e2bd2037f68f5e63b06a16ad4c71258bb3cccc0da08d46eeca4237b",
+      "bytes": 37148
+    },
+    "resolved-source.vl.json": {
+      "sha256": "5e885e02491564559406a1624a2ce3597ad931fd188bda0ca98a10d26bee773c",
+      "bytes": 45516
+    },
+    "G1.gg.mjs": {
+      "sha256": "2ec36b69d022a1be94e52d575e4b9199a6a495fc3968888a2e4466a27fd403a8",
+      "bytes": 3815
+    },
+    "G2.gg.mjs": {
+      "sha256": "e9716852cc3e248db4c6a82306b93def6caafbb0dedf46c25a98e93194712d6c",
+      "bytes": 3791
+    },
+    "G3.gg.mjs": {
+      "sha256": "31f6a9a011518f87ab3e71d2345e2cba8c7d4ec85aa13249c34fb3b4ec417aa7",
+      "bytes": 3782
+    },
+    "G4.gg.mjs": {
+      "sha256": "c650a09e935f9e66ddda87427fbcafb6845fe9b3ad6901995cc8e80dd55fe14e",
+      "bytes": 3913
+    },
+    "G5.gg.mjs": {
+      "sha256": "67603f1edba3c570e94b758448fa11ce32a875859e5b03a21d623f2542ba5e77",
+      "bytes": 3925
+    },
+    "G6.gg.mjs": {
+      "sha256": "d7d29d61f57a6b6448c5b4c477797a7a0c8e4afb4caf25cd663a262b868d0334",
+      "bytes": 3912
+    },
+    "G7.gg.mjs": {
+      "sha256": "1e22537f819fa08df0887ceb01908c1ae6576f678f454c07a96c0d8f1fe0e563",
+      "bytes": 3928
+    },
+    "G8.gg.mjs": {
+      "sha256": "69229640573da5b22c1bb1e5ccc8c1985495c82b13ab3da7d4771497646007b6",
+      "bytes": 3974
+    },
+    "vega-lite.svg": {
+      "sha256": "47868213b00870769f8832fe7a3aa570e985da0291138c54237b0f5c4215cf80",
+      "bytes": 98390
+    },
+    "ggaction.svg": {
+      "sha256": "5a8131d1dbeb943ed86c5b90b7096d60f5152e5e5f3c9d61ca124bfa427280db",
+      "bytes": 59781
+    }
+  }
+}

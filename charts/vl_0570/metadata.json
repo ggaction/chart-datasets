@@ -1,0 +1,124 @@
+{
+  "id": "vl_0570",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "e3f6476bb29afc5fd69a767ed4fee1fbeae7988d2bbd2d92f64f388de3daffdd",
+      "actions": 20,
+      "topOptions": 50
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e4cd537745d2e18a3d8530fa0d1ee716de9f1b73bee45db410968067f427066a",
+      "actions": 24,
+      "topOptions": 58
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "76c6a51c9f8296065a67fffad4068cfe19d105cf2e60bfff026a5574ebd393db",
+      "actions": 26,
+      "topOptions": 62
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e595674fe45591cd1ddf7cfbabcea970f3b2f53ae08a9b6e16d781babb5d599b",
+      "actions": 27,
+      "topOptions": 66
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "50e5dccf0fdb03e5731aad279c24529c56e267a85ba68bb421890c6750684185",
+      "actions": 27,
+      "topOptions": 68
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0e52f19a40c18155c3cbf60f6e33b2c5376271ff0a478336da18ebcfdb4e59ea",
+      "actions": 29,
+      "topOptions": 73
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "853479f473778d91cafbefb11b85c2ded8d81c371cf80346c5a698d56a89e490",
+      "actions": 30,
+      "topOptions": 74
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "98aa237aa8cad89b6fd1d515ad85d85844bf31e97c2cc3bffb7575c5d2ea1f6b",
+      "actions": 34,
+      "topOptions": 75
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/ch6_Government/usYieldCurve.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Reviewed eight meaningful accepted stage ownership changes, current normal source/render/exact-family verification passed; source data/design retained with no stage padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ca304f8a017008a2b2e42955d19ea3ce3bf86740c86388ae8e46481919749a4f",
+      "bytes": 1547
+    },
+    "data.json": {
+      "sha256": "06bd7942b5132697421141959ccd3dc42489d83d96bad2b7236afd17d4a2f989",
+      "bytes": 2063
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d0a869d30ae346b75fa1debdbd49b224b82b7b5483951302a50196f6296813b6",
+      "bytes": 3948
+    },
+    "G1.gg.mjs": {
+      "sha256": "e3f6476bb29afc5fd69a767ed4fee1fbeae7988d2bbd2d92f64f388de3daffdd",
+      "bytes": 3063
+    },
+    "G2.gg.mjs": {
+      "sha256": "e4cd537745d2e18a3d8530fa0d1ee716de9f1b73bee45db410968067f427066a",
+      "bytes": 3185
+    },
+    "G3.gg.mjs": {
+      "sha256": "76c6a51c9f8296065a67fffad4068cfe19d105cf2e60bfff026a5574ebd393db",
+      "bytes": 3254
+    },
+    "G4.gg.mjs": {
+      "sha256": "e595674fe45591cd1ddf7cfbabcea970f3b2f53ae08a9b6e16d781babb5d599b",
+      "bytes": 3214
+    },
+    "G5.gg.mjs": {
+      "sha256": "50e5dccf0fdb03e5731aad279c24529c56e267a85ba68bb421890c6750684185",
+      "bytes": 3254
+    },
+    "G6.gg.mjs": {
+      "sha256": "0e52f19a40c18155c3cbf60f6e33b2c5376271ff0a478336da18ebcfdb4e59ea",
+      "bytes": 3397
+    },
+    "G7.gg.mjs": {
+      "sha256": "853479f473778d91cafbefb11b85c2ded8d81c371cf80346c5a698d56a89e490",
+      "bytes": 3432
+    },
+    "G8.gg.mjs": {
+      "sha256": "98aa237aa8cad89b6fd1d515ad85d85844bf31e97c2cc3bffb7575c5d2ea1f6b",
+      "bytes": 3432
+    },
+    "vega-lite.svg": {
+      "sha256": "98445e6dd16d4316ae2f6acbb9faf94d58b980ea6701ddf89257a72b90a89491",
+      "bytes": 18608
+    },
+    "ggaction.svg": {
+      "sha256": "3f3d7f35036227faec14272e88d0a2b665c97a7ed0f41719d59727a193f1fd8d",
+      "bytes": 11614
+    }
+  }
+}

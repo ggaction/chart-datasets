@@ -1,0 +1,91 @@
+{
+  "id": "vl_1823",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "68e4c9147782879d3b750bb3fd7e702e9ed551978945dfdf74e24fd6c06bcb69",
+      "actions": 17,
+      "topOptions": 43
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5493a901afd0a21cbf6563231f9429246adeab80fa9c346ddbf458197d833418",
+      "actions": 18,
+      "topOptions": 45
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e647dae6a27ec5f4064ecb5beb45b736a2290dd0fbbfa8b7033659005b84c4fa",
+      "actions": 19,
+      "topOptions": 48
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0b9ccfb8cae70275573ce0138e513413bfa68fb9497b5e32d1205c636720f2c0",
+      "actions": 20,
+      "topOptions": 49
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7c182de3989c59befbbb4fb61405c49187b02b6082e20d4ccb1334b08c7ef2df",
+      "actions": 21,
+      "topOptions": 49
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/covid19pb/covid19pb.github.io/master/data/paraiba/dados_pb_covid19_boletim_FaixaEtaria.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full original source and all final GLM code reviewed:976raw records retained, fixed initial filters/fold/sex summaries999+728 and both source arc geometries/colors exact. Current source/code/runtime-bound polar proof preserves both30px labels with explicitly disclosed2.934687988149335px native radial displacement; original stale GAP comment is historical, no dynamic diagnostic claim. All five accepted stages have current strict source/layout/family/dependency PASS. Shared radius/color/theta scales and legend title/symbol already focused; protected legend font sizes stay at birth. No mandatory ownership boundary remains; retained exact model stop reviewed, no artificial padding or new response."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "6e1d76b619c7f8294341f523bd17347f808840f7f4561b4f1c0d45f0e53282d0",
+      "bytes": 1967
+    },
+    "data.json": {
+      "sha256": "1e1e4c36aa15ea340de939a1ab2cf2b8d07609d05ac0fe688de20a30d3ae502d",
+      "bytes": 191244
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e673efae11a9ca7c42dbe629da2b9423999e72daf6fe5683eb4e3b3b00097ac1",
+      "bytes": 228228
+    },
+    "G1.gg.mjs": {
+      "sha256": "68e4c9147782879d3b750bb3fd7e702e9ed551978945dfdf74e24fd6c06bcb69",
+      "bytes": 2520
+    },
+    "G2.gg.mjs": {
+      "sha256": "5493a901afd0a21cbf6563231f9429246adeab80fa9c346ddbf458197d833418",
+      "bytes": 2540
+    },
+    "G3.gg.mjs": {
+      "sha256": "e647dae6a27ec5f4064ecb5beb45b736a2290dd0fbbfa8b7033659005b84c4fa",
+      "bytes": 2522
+    },
+    "G4.gg.mjs": {
+      "sha256": "0b9ccfb8cae70275573ce0138e513413bfa68fb9497b5e32d1205c636720f2c0",
+      "bytes": 2547
+    },
+    "G5.gg.mjs": {
+      "sha256": "7c182de3989c59befbbb4fb61405c49187b02b6082e20d4ccb1334b08c7ef2df",
+      "bytes": 2574
+    },
+    "vega-lite.svg": {
+      "sha256": "6b6689b69eabf4828fd1f8419f5de844da16516f4ea8e47350d744ec08351922",
+      "bytes": 4012
+    },
+    "ggaction.svg": {
+      "sha256": "410b1a425722d0667b49ccb7ab6cbf731f02273aa0b93bb44123e9e86d9f5aa8",
+      "bytes": 2544
+    }
+  }
+}

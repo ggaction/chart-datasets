@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "(M10) Household monthly mortgage rate",
+  "title": {
+    "text": "Household montly mortgage rate",
+    "subtitle": "Monthly average, standard variable rate. Source: BoE",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/M10.DataHub.Monetary.HHMortgageRate.csv"
+  },
+  "height": 300,
+  "width": 310,
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "axis": {
+        "grid": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              3,
+              4
+            ]
+          },
+          "axis": {
+            "grid": false
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "color": "darkblue"
+          }
+        },
+        {
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "value": 0.1
+        },
+        "tooltip": [
+          {
+            "field": "Date",
+            "type": "temporal",
+            "format": "%B, %Y"
+          },
+          {
+            "field": "Value",
+            "title": "Mortgage rate",
+            "type": "quantitative",
+            "format": ""
+          }
+        ]
+      }
+    }
+  ]
+}

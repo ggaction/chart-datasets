@@ -1,0 +1,122 @@
+{
+  "id": "vl_1112",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ad09d2e303c7ef5b404724984fb89a17406d7996d5640ca45f887f9290d69618",
+      "actions": 27,
+      "topOptions": 64
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "766ced5a21301b53d1ab2af43f5a4d5409e24902d4c562b71a0e6f4269893dfe",
+      "actions": 29,
+      "topOptions": 66
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "bfd3ae70231e347f3ed883aa6191b3977669b0e1e5f93874246fa731fb75994c",
+      "actions": 32,
+      "topOptions": 72
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "bad46c581e069d692a2f1bce7664c7a2ddaf2ccb96eba54947743f745589e9ee",
+      "actions": 32,
+      "topOptions": 76
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "0301fdff206faf73060e89f546e97f57327dd69eb7751ade6730a2ac629fbf00",
+      "actions": 36,
+      "topOptions": 76
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "7e810915241b46b6470b262be0c0b4edef01ddb6c843e643447afe96fe67e76b",
+      "actions": 37,
+      "topOptions": 77
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "9e91a49f83c8ed7d79d62e69e93921a98bc19ba0a8667fed28374d80a7607e34",
+      "actions": 37,
+      "topOptions": 78
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "2f0c0810ed7eca7423aeb119abb7026efce9f3b22f110b5c267238602a0a50af",
+      "actions": 38,
+      "topOptions": 79
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex fully reread source and exact final GLM code:406raw retained,392validcircles and initial brush[55,160]/[13,37] rectangle+whiteoutline, native size30/.7implicit bridge, source ordinal colors/unknown grey, viewport-resolved innerplot, complete axes/grid/legend/title preserved. Current02661 all eight accepted stages pass strict source/data/family/DOM checks. Unknown grey was independently reproved necessary at encoding birth; remaining legend title paint and brush scales are honest cap remainder. No further model call."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9d87774e3dd81c1ea85b7841c01aec7022923a585e6ac9499896005a9a4a3367",
+      "bytes": 114782
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d4b2321dcaf4a807d91a4ad93c592776243df571eab9ca90a788b51888b581cb",
+      "bytes": 114783
+    },
+    "G1.gg.mjs": {
+      "sha256": "ad09d2e303c7ef5b404724984fb89a17406d7996d5640ca45f887f9290d69618",
+      "bytes": 4152
+    },
+    "G2.gg.mjs": {
+      "sha256": "766ced5a21301b53d1ab2af43f5a4d5409e24902d4c562b71a0e6f4269893dfe",
+      "bytes": 4206
+    },
+    "G3.gg.mjs": {
+      "sha256": "bfd3ae70231e347f3ed883aa6191b3977669b0e1e5f93874246fa731fb75994c",
+      "bytes": 4188
+    },
+    "G4.gg.mjs": {
+      "sha256": "bad46c581e069d692a2f1bce7664c7a2ddaf2ccb96eba54947743f745589e9ee",
+      "bytes": 4232
+    },
+    "G5.gg.mjs": {
+      "sha256": "0301fdff206faf73060e89f546e97f57327dd69eb7751ade6730a2ac629fbf00",
+      "bytes": 4272
+    },
+    "G6.gg.mjs": {
+      "sha256": "7e810915241b46b6470b262be0c0b4edef01ddb6c843e643447afe96fe67e76b",
+      "bytes": 4156
+    },
+    "G7.gg.mjs": {
+      "sha256": "9e91a49f83c8ed7d79d62e69e93921a98bc19ba0a8667fed28374d80a7607e34",
+      "bytes": 4186
+    },
+    "G8.gg.mjs": {
+      "sha256": "2f0c0810ed7eca7423aeb119abb7026efce9f3b22f110b5c267238602a0a50af",
+      "bytes": 4221
+    },
+    "vega-lite.svg": {
+      "sha256": "5c0fb109ee6d91694fb005527a04f378aa88520821b74d73de15e8d29fd8f0ea",
+      "bytes": 138697
+    },
+    "ggaction.svg": {
+      "sha256": "0958822d8ae3e57b98273c158c95fd5b35d25c503032051b2b505da3b93744af",
+      "bytes": 57494
+    }
+  }
+}

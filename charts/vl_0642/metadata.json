@@ -1,0 +1,102 @@
+{
+  "id": "vl_0642",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "0ef76f5ce7ec87e3cc25e576f25813a4f659329bc3bc5e67d9d8bf75c71dc870",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "77c7354346ab7d1e1d01243c16bc93e8faf520861ca05ba5e3024afb6f8206f5",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "868d773bdecae7ce64adcc69ced9f0e80249736f312683d2d67bbd65a5a5a20d",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a596ed45aede3010b0a845491849ef276c9078b3382c9a19314fcfbf01d22e61",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "12b06c03b20a51476e53ab174a62e384d340be4cfc980409fa2c7654c2b5fa94",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8ede8ac73bf51a0c42e41a05eb89276c7245db00a881c7c9813e45cec66039ea",
+      "actions": 18,
+      "topOptions": 40
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/classes/main/E4E_macro/US_BEA_GDP_GVAbyIndustry.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full accepted G6 and exact G7 diff reviewed. G7 solely moves native-equivalent generic sans-serif into another legend editor; no meaningful design ownership boundary. All other remaining source geometry protected, palette/scales/axis format/title paint already focused. Stop at six without padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "39ad0f6f60478f059eb4a4a1bb0e2d263c49882f681c281b5e0016ee81c9c563",
+      "bytes": 1830
+    },
+    "data.json": {
+      "sha256": "eedd4305556d05868b3e4c1416531eea1db541bd9fcd8af6a69430fdb4460fae",
+      "bytes": 3884
+    },
+    "resolved-source.vl.json": {
+      "sha256": "fd37a035d0bf2039c4f362caf8ab422a0049c58fda920b18f4106d8f00c2c5ee",
+      "bytes": 6417
+    },
+    "G1.gg.mjs": {
+      "sha256": "0ef76f5ce7ec87e3cc25e576f25813a4f659329bc3bc5e67d9d8bf75c71dc870",
+      "bytes": 2197
+    },
+    "G2.gg.mjs": {
+      "sha256": "77c7354346ab7d1e1d01243c16bc93e8faf520861ca05ba5e3024afb6f8206f5",
+      "bytes": 2188
+    },
+    "G3.gg.mjs": {
+      "sha256": "868d773bdecae7ce64adcc69ced9f0e80249736f312683d2d67bbd65a5a5a20d",
+      "bytes": 2154
+    },
+    "G4.gg.mjs": {
+      "sha256": "a596ed45aede3010b0a845491849ef276c9078b3382c9a19314fcfbf01d22e61",
+      "bytes": 2094
+    },
+    "G5.gg.mjs": {
+      "sha256": "12b06c03b20a51476e53ab174a62e384d340be4cfc980409fa2c7654c2b5fa94",
+      "bytes": 2250
+    },
+    "G6.gg.mjs": {
+      "sha256": "8ede8ac73bf51a0c42e41a05eb89276c7245db00a881c7c9813e45cec66039ea",
+      "bytes": 2198
+    },
+    "vega-lite.svg": {
+      "sha256": "7eaac3aa82c1f367bcbdf3ce938767ae917d50bd6c1878a0c10890b8adfc2805",
+      "bytes": 15304
+    },
+    "ggaction.svg": {
+      "sha256": "5e08911701adac9aceef70cfae822c824f43185634f4344d5ec54d79814889b6",
+      "bytes": 9165
+    }
+  }
+}

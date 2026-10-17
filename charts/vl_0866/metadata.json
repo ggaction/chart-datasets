@@ -1,0 +1,89 @@
+{
+  "id": "vl_0866",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "be598eff81e111d00409631c4f86ad8eecb16ccb2343b7e7efb3dc2b139d337e",
+      "actions": 9,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "eb847548af8dab7a83f25952eb875a745831ec9cdf1996241fa88122d578a035",
+      "actions": 11,
+      "topOptions": 28
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "76d329658359c1742e1476c62a051fc0a383d5b6907f008bbfd630e0e293b3d8",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f8c5aa4efac19cfca23090b2441367e83ca86910def5719dee4f4eeaebb2749c",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "54ddc990064a902ada6c89204a9840826849b02abb064e7f0dba264f9ed09053",
+      "actions": 14,
+      "topOptions": 29
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Five source-checked exact-family stages. Axis guide aggregate, whole-axis style and component ownership are decomposed; remaining rotated label/font/offset geometry and title source text remain at valid creation. Only implicit horizontal grid defaults and already focused title/scale/mark editors remain; no scalar or redundant stages added."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "15a4be3f2001d1097328e504097133772dc0e0465895060f9c7f4749345f9d45",
+      "bytes": 5123
+    },
+    "data.json": {
+      "sha256": "2f7556b7a13f73a48ef8bcd266ac823041307d19dc8c6921b5c4ae5503aa4555",
+      "bytes": 3405
+    },
+    "resolved-source.vl.json": {
+      "sha256": "15a4be3f2001d1097328e504097133772dc0e0465895060f9c7f4749345f9d45",
+      "bytes": 5123
+    },
+    "G1.gg.mjs": {
+      "sha256": "be598eff81e111d00409631c4f86ad8eecb16ccb2343b7e7efb3dc2b139d337e",
+      "bytes": 1895
+    },
+    "G2.gg.mjs": {
+      "sha256": "eb847548af8dab7a83f25952eb875a745831ec9cdf1996241fa88122d578a035",
+      "bytes": 1799
+    },
+    "G3.gg.mjs": {
+      "sha256": "76d329658359c1742e1476c62a051fc0a383d5b6907f008bbfd630e0e293b3d8",
+      "bytes": 1854
+    },
+    "G4.gg.mjs": {
+      "sha256": "f8c5aa4efac19cfca23090b2441367e83ca86910def5719dee4f4eeaebb2749c",
+      "bytes": 1848
+    },
+    "G5.gg.mjs": {
+      "sha256": "54ddc990064a902ada6c89204a9840826849b02abb064e7f0dba264f9ed09053",
+      "bytes": 1839
+    },
+    "vega-lite.svg": {
+      "sha256": "a2f98a3b64a565ba4948d4927f4102ac4a98ba334c3e6c234476b7f4aefb5e4f",
+      "bytes": 7369
+    },
+    "ggaction.svg": {
+      "sha256": "c8202535c1ec73e436ad2f8db9d5c8f17fca7f1922ad85e85095c1a23d56e3e9",
+      "bytes": 8943
+    }
+  }
+}

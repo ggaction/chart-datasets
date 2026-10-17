@@ -1,0 +1,102 @@
+{
+  "id": "vl_0059",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "7682e60efb3fe1a91b4095eca2dab2411b86deb8300e6977e828879e255a3296",
+      "actions": 13,
+      "topOptions": 34
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "40f37dfab93308acb69589f38ad50c40fd4d0c06c7b6f67194ba07c8acaad6e3",
+      "actions": 15,
+      "topOptions": 38
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7ccbe5e55ddc019b854a40186feb335d51ea72a4a29a56a3a7ccd8868a0bdd35",
+      "actions": 17,
+      "topOptions": 42
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "2f9adb2b647daf04dd4fee728010f833807b852105162bca183e4ecb255e5630",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "0a315fc769d4e76eff1f93b3e6da100ebecd5ee16e206bb9873b7cd278367a44",
+      "actions": 20,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b8fcca5793db9362f4a7105d1f0fcdddf50ba1a1cdb7ccbf456c3a80c34f7362",
+      "actions": 20,
+      "topOptions": 43
+    }
+  ],
+  "sourceUrls": [
+    "https://www.trafforddatalab.io/interactive_graphics_companion/data/gapminder_dquakes.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reread complete frozen source, raw schema and full final G6 program; normal source/native checks allpass. Both source color/size scales and pointstroke/opacity already use focusedencoders, nativeoutlinewidth remains markstyle; existinghorizontalgrid and source13px titleweight use focusededitors. Both complete axes contain onlyprotected sourcefontsizes/offsets/disabledticks and native sans-serif family, so no mandatoryfrontier remains. Repeated proposed G7 movedonlynative fontFamily sans-serif and was rejected asdefault-onlypadding; actual responseusage retained. HoststopG6 addsnomodelresponse and no chartpixels."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "76ecff7518bb099fe2398677c44728fefbd0a4615f8b357b25f59f6129882cc5",
+      "bytes": 1655
+    },
+    "data.json": {
+      "sha256": "7209e25716ed977c8fe9f7df4315339db3796ed85812917f29b9dd22ba1866b1",
+      "bytes": 358645
+    },
+    "resolved-source.vl.json": {
+      "sha256": "edcf66979d41b3f0b2c3913b862074b27713b695de702c7f3c9c992468fb6f28",
+      "bytes": 439777
+    },
+    "G1.gg.mjs": {
+      "sha256": "7682e60efb3fe1a91b4095eca2dab2411b86deb8300e6977e828879e255a3296",
+      "bytes": 2497
+    },
+    "G2.gg.mjs": {
+      "sha256": "40f37dfab93308acb69589f38ad50c40fd4d0c06c7b6f67194ba07c8acaad6e3",
+      "bytes": 2397
+    },
+    "G3.gg.mjs": {
+      "sha256": "7ccbe5e55ddc019b854a40186feb335d51ea72a4a29a56a3a7ccd8868a0bdd35",
+      "bytes": 2463
+    },
+    "G4.gg.mjs": {
+      "sha256": "2f9adb2b647daf04dd4fee728010f833807b852105162bca183e4ecb255e5630",
+      "bytes": 2505
+    },
+    "G5.gg.mjs": {
+      "sha256": "0a315fc769d4e76eff1f93b3e6da100ebecd5ee16e206bb9873b7cd278367a44",
+      "bytes": 2533
+    },
+    "G6.gg.mjs": {
+      "sha256": "b8fcca5793db9362f4a7105d1f0fcdddf50ba1a1cdb7ccbf456c3a80c34f7362",
+      "bytes": 2549
+    },
+    "vega-lite.svg": {
+      "sha256": "6c7aa3126a0d0dec4e4edb7ea7f3a10b41815934313ba3504971e1b3a9e10d06",
+      "bytes": 57518
+    },
+    "ggaction.svg": {
+      "sha256": "8864a1837078f99759792c66e850f54cab2f966963807cf643904f9bf70544be",
+      "bytes": 33599
+    }
+  }
+}

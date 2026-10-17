@@ -1,0 +1,124 @@
+{
+  "id": "vl_0615",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "14bb73b4bb9570bbed35823837b7d7a84b8d4b550e2776c30ba7f840f024f7ec",
+      "actions": 19,
+      "topOptions": 43
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f3d803bbe164c38ebe57c18727f43d78f6fe2f78f6159e68d057df846f9357b1",
+      "actions": 21,
+      "topOptions": 46
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b6414c07418aa2a1e7f3854834c4f46f5de454588838909b4346d618dc8d9c60",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1c222ce163fb3bf15e957a75f9a15d67a6bf7626713d3e3e2441672f069060a8",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4bd2536f68fc5c3b430e6ac2f1818e0c46d7dd5f1340375a62d9913f95d88ddf",
+      "actions": 23,
+      "topOptions": 50
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "1d8d51a1d3f37383628daf0911248f3c29367cc2b672f322f5160b453e7b575d",
+      "actions": 25,
+      "topOptions": 52
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "1be5ab60faffcd360ab70a3247b84458ff745c1d07fdda388ee56599ac3b1037",
+      "actions": 25,
+      "topOptions": 52
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "0c955f77d3134180613d882f2982d2157597083e38dbdecd0375db84973b53ec",
+      "actions": 26,
+      "topOptions": 53
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/Global_WB_GDPperCapita.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full final program/source reread:62rawrows retained, original89-series color domain incl nonpaintedMIC,88painted countryseries5456vertices with native logGDP/ordered twofold partitions; sharedXY/color policies assigned once afterallconsumers. Source500x300plot/style/title preserved, necessary4secondfacade reported. All8current-pin stage/source checks pass; titlepaint remains atcreation undercap."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "df43f20cf03a21f5d076f734e473ed27bd062f4d7ba89e6428bf30afbc34954e",
+      "bytes": 2549
+    },
+    "data.json": {
+      "sha256": "9835bb7309be41eaf624f3578e34bf1dfb6c235812482ec05e4dc2b174cee4bf",
+      "bytes": 142185
+    },
+    "resolved-source.vl.json": {
+      "sha256": "858578b9bc55c6137dc2cf9f4e3d9bcb111ff008c3107b2c52088a768c48bc00",
+      "bytes": 167268
+    },
+    "G1.gg.mjs": {
+      "sha256": "14bb73b4bb9570bbed35823837b7d7a84b8d4b550e2776c30ba7f840f024f7ec",
+      "bytes": 4079
+    },
+    "G2.gg.mjs": {
+      "sha256": "f3d803bbe164c38ebe57c18727f43d78f6fe2f78f6159e68d057df846f9357b1",
+      "bytes": 4008
+    },
+    "G3.gg.mjs": {
+      "sha256": "b6414c07418aa2a1e7f3854834c4f46f5de454588838909b4346d618dc8d9c60",
+      "bytes": 3968
+    },
+    "G4.gg.mjs": {
+      "sha256": "1c222ce163fb3bf15e957a75f9a15d67a6bf7626713d3e3e2441672f069060a8",
+      "bytes": 3966
+    },
+    "G5.gg.mjs": {
+      "sha256": "4bd2536f68fc5c3b430e6ac2f1818e0c46d7dd5f1340375a62d9913f95d88ddf",
+      "bytes": 3882
+    },
+    "G6.gg.mjs": {
+      "sha256": "1d8d51a1d3f37383628daf0911248f3c29367cc2b672f322f5160b453e7b575d",
+      "bytes": 3984
+    },
+    "G7.gg.mjs": {
+      "sha256": "1be5ab60faffcd360ab70a3247b84458ff745c1d07fdda388ee56599ac3b1037",
+      "bytes": 3932
+    },
+    "G8.gg.mjs": {
+      "sha256": "0c955f77d3134180613d882f2982d2157597083e38dbdecd0375db84973b53ec",
+      "bytes": 3962
+    },
+    "vega-lite.svg": {
+      "sha256": "b2ffb15346058645a115d99dfe9c4b7ba931efc1e87e2d7d67d52dd2640dca32",
+      "bytes": 134667
+    },
+    "ggaction.svg": {
+      "sha256": "004bb3e633b8f6b556e81a2f4008b540b5a1c620d7b9e0f1cd2c1092a0b946a1",
+      "bytes": 221666
+    }
+  }
+}

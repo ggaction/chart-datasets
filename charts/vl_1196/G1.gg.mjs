@@ -1,0 +1,58 @@
+// DOCS: doc-6c2c08869091f6a0, doc-fc11e9fb291905d1, doc-ca3e770693a924c8, doc-dfae58344d5a524e
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({ width: 337, height: 370, margin: { left: 29, top: 40, right: 8, bottom: 30 } })
+    .createData({ id: "raw", values: data })
+    .filterData({ id: "data_valid", field: "Year", noneOf: [""] })
+    .createComputedData({
+      id: "data_plot",
+      as: "Total_billion_num",
+      expression: { op: "toNumber", operand: { field: "Total_billion" } }
+    })
+    .createBarPlot({
+      x: { field: "Year", fieldType: "temporal", temporalUnit: "year", scale: { domain: [421630510344, 1629591889655], nice: false } },
+      y: { field: "Total_billion_num", scale: { domain: [0, 110] } },
+      guides: false
+    })
+    .editBarMark({ fill: "rgb(0,47,167" })
+    .encodeBarWidth({ pixels: 5 })
+    .createGuides({
+      axes: {
+        x: {
+          line: {},
+          ticksAndLabels: {
+            values: [473385600000, 631152000000, 788918400000, 946684800000, 1104537600000, 1262304000000, 1420070400000, 1577836800000],
+            ticks: { length: 0 },
+            labels: {
+              fontSize: 10,
+              offset: 2,
+              rotation: { value: 45, unit: "degrees" },
+              format: "%Y"
+            }
+          },
+          title: false
+        },
+        y: {
+          line: {},
+          ticksAndLabels: {
+            values: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110],
+            ticks: { length: 5 },
+            labels: { fontSize: 10, offset: 7 }
+          },
+          title: false
+        }
+      },
+      grid: false,
+      legend: false
+    })
+    .createTitle({
+      text: "IMF lending outstanding",
+      titleStyle: { fontSize: 13, fontWeight: 700, fontFamily: "sans-serif", color: "black" },
+      subtitleStyle: { fontSize: 10, fontStyle: "italic", fontWeight: 400, fontFamily: "sans-serif", color: "black" }
+    })
+    .editTitle({ gap: 3, offset: -13, alongOffset: -23.68 })
+    .editTitle({ subtitle: "Credit outstanding to all members, SDRs (billions), Source: IMF" });
+}

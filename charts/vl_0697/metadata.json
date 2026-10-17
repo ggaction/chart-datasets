@@ -1,0 +1,56 @@
+{
+  "id": "vl_0697",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c961197f151e72a836ecfa2e19031f32f3ff25e9687f265c993c0ac926e6aab4",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e6533be253ef3c55f149c4ceb320d95eec437c1fe3cf32fb6f73ca837f62c3b4",
+      "actions": 13,
+      "topOptions": 28
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 2 genuine ownership stages, 77 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "c8a52cb8f27930ca7a53222793c6b1fb7ac6400391bce7fd50fb9a05b16d94d0",
+      "bytes": 1350
+    },
+    "data.json": {
+      "sha256": "89053cad976369d575020cb72f4a2ab8b3b556b7d5f4152a586ed5d7e4fcdea7",
+      "bytes": 123
+    },
+    "resolved-source.vl.json": {
+      "sha256": "02cfbb661f96936c8fd7610aa63fab7eec148c95762e4895b6e53974ba510d78",
+      "bytes": 1351
+    },
+    "G1.gg.mjs": {
+      "sha256": "c961197f151e72a836ecfa2e19031f32f3ff25e9687f265c993c0ac926e6aab4",
+      "bytes": 1224
+    },
+    "G2.gg.mjs": {
+      "sha256": "e6533be253ef3c55f149c4ceb320d95eec437c1fe3cf32fb6f73ca837f62c3b4",
+      "bytes": 1240
+    },
+    "vega-lite.svg": {
+      "sha256": "179a51fc06c21dea9d6ff46a054a51910f02edbbc9d4c126076f82341e821170",
+      "bytes": 2454
+    },
+    "ggaction.svg": {
+      "sha256": "d0907a43c1d3a6637e721c4515bb1b200b16a5d5c79054d371f25b510b1bb7bd",
+      "bytes": 1958
+    }
+  }
+}

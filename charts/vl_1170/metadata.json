@@ -1,0 +1,122 @@
+{
+  "id": "vl_1170",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "18c12f8afe4ac67d5d2c3c38ba12783c922b4b75d52e5c2e4128be4267f9b54f",
+      "actions": 7,
+      "topOptions": 14
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "77c43135319ff1ac8f61250b88ca4437ac944a3fc46ab555e7ee9d6d5e0fc86e",
+      "actions": 8,
+      "topOptions": 15
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "16782d23dbd9edd0410775c27ecd16d0f805d7111a70c1a02bced86431b7f0c7",
+      "actions": 9,
+      "topOptions": 19
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "69709559f4054106056f1414e22b0c56ee3ae291121b0a5b05ead4f971eecf3c",
+      "actions": 10,
+      "topOptions": 20
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "57f834707c5d7a42d17befea2bd75ec71f5bad47cfb150bbc5a07cf4d5e5715a",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "be25c412b7e0b1628c78f3e40eeba2a135b6a3b91f38a62f38e000a43c78cf99",
+      "actions": 16,
+      "topOptions": 28
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "9c1924022d49ea3df948312f41bcadddc389ed5cb6135bd90440a20ac68842b3",
+      "actions": 18,
+      "topOptions": 28
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "1564b08e39702cbd4f4683991013ca6e3b00aef14370d053e1602ed76f91e66b",
+      "actions": 18,
+      "topOptions": 29
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "회전 라벨과 원본 크기를 유지하며 가이드 → 완성된 축 → 축 스타일 → 구성 요소 편집으로 분해했다. 마지막 단계는 기존 그리드 스타일을 editHorizontalGrid로 옮겼으며 8단계가 모두 동일하게 렌더링된다."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "03ffcdb09577535ede96e5dd51d205df46fa266b413196ad14141932e75d1a5f",
+      "bytes": 1966
+    },
+    "data.json": {
+      "sha256": "00d7f3a43eef66a850caec3e4e89689d7bf26e52b3504ed7ae98807b21863081",
+      "bytes": 1130
+    },
+    "resolved-source.vl.json": {
+      "sha256": "03ffcdb09577535ede96e5dd51d205df46fa266b413196ad14141932e75d1a5f",
+      "bytes": 1966
+    },
+    "G1.gg.mjs": {
+      "sha256": "18c12f8afe4ac67d5d2c3c38ba12783c922b4b75d52e5c2e4128be4267f9b54f",
+      "bytes": 1760
+    },
+    "G2.gg.mjs": {
+      "sha256": "77c43135319ff1ac8f61250b88ca4437ac944a3fc46ab555e7ee9d6d5e0fc86e",
+      "bytes": 1724
+    },
+    "G3.gg.mjs": {
+      "sha256": "16782d23dbd9edd0410775c27ecd16d0f805d7111a70c1a02bced86431b7f0c7",
+      "bytes": 1610
+    },
+    "G4.gg.mjs": {
+      "sha256": "69709559f4054106056f1414e22b0c56ee3ae291121b0a5b05ead4f971eecf3c",
+      "bytes": 1656
+    },
+    "G5.gg.mjs": {
+      "sha256": "57f834707c5d7a42d17befea2bd75ec71f5bad47cfb150bbc5a07cf4d5e5715a",
+      "bytes": 1910
+    },
+    "G6.gg.mjs": {
+      "sha256": "be25c412b7e0b1628c78f3e40eeba2a135b6a3b91f38a62f38e000a43c78cf99",
+      "bytes": 1894
+    },
+    "G7.gg.mjs": {
+      "sha256": "9c1924022d49ea3df948312f41bcadddc389ed5cb6135bd90440a20ac68842b3",
+      "bytes": 1848
+    },
+    "G8.gg.mjs": {
+      "sha256": "1564b08e39702cbd4f4683991013ca6e3b00aef14370d053e1602ed76f91e66b",
+      "bytes": 1848
+    },
+    "vega-lite.svg": {
+      "sha256": "b552b167a7ad1a26d4a35aec29004d3a252d4a01f2f2855737202b8bd343b8ac",
+      "bytes": 16482
+    },
+    "ggaction.svg": {
+      "sha256": "363bef7a93eab38c132f00aaad219b98ad24d27cfc72b75198bd9488fd91e8ed",
+      "bytes": 14870
+    }
+  }
+}

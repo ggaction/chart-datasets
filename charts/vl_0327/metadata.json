@@ -1,0 +1,69 @@
+{
+  "id": "vl_0327",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5a811239a26be4a97894789a31d399ff9b4b32cf2b7fae4273eeb30d69c9a278",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "019c39a7fa6557fadb87528b9982d4f4ce0d99c537b4491ac00d7c6280b8f7bc",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "3e61d3df5ec4c7f24b29fdaa242b046f6e41f59e3377e43e2ed03ab9a116a62b",
+      "actions": 14,
+      "topOptions": 34
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/sadieward/sadieward.github.io/main/data_IMF_creditCLEAN.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Entire actualG3 reviewed. RejectedG4 invents absent default axisline colors instead of transferring explicitstyle. Paired completeaxes contain only emptyline/ticks, exactsourcevalues, measuredrotated font/offset, hidden titlefalse. No grid/legend. Position scales and barstyle alreadyfocused; title paint already lives in existingwhole editTitle. Splitting its remaining subtitleStyle/text or peeling another scalar from title would pad sameeditor. Three genuinelydistinct stages exhaust existingmeaningful frontier."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "2124241f6becf676366f82a28c5a554b77bd7e2e73aa4af665d94abddea0b021",
+      "bytes": 881
+    },
+    "data.json": {
+      "sha256": "586247d5416a5a0616f3791a600b620a4239176c49a33d6d68eee034dc66ab58",
+      "bytes": 9069
+    },
+    "resolved-source.vl.json": {
+      "sha256": "4a7be0bd30d457262bb3e91ea2efcf69d29af3b25a84a7cd6cfd25421a8f8bb8",
+      "bytes": 11517
+    },
+    "G1.gg.mjs": {
+      "sha256": "5a811239a26be4a97894789a31d399ff9b4b32cf2b7fae4273eeb30d69c9a278",
+      "bytes": 1998
+    },
+    "G2.gg.mjs": {
+      "sha256": "019c39a7fa6557fadb87528b9982d4f4ce0d99c537b4491ac00d7c6280b8f7bc",
+      "bytes": 1952
+    },
+    "G3.gg.mjs": {
+      "sha256": "3e61d3df5ec4c7f24b29fdaa242b046f6e41f59e3377e43e2ed03ab9a116a62b",
+      "bytes": 1974
+    },
+    "vega-lite.svg": {
+      "sha256": "921e5397a1ac22a63d4fb20820bc240f7712ea77099211ac97bb15ebb5e53cba",
+      "bytes": 15004
+    },
+    "ggaction.svg": {
+      "sha256": "414546ac06a7017e7e75dc00b2f90d18314d6bcb0a95b4802481f8da46532bd5",
+      "bytes": 13320
+    }
+  }
+}

@@ -1,0 +1,1396 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Dollar value: down and down",
+    "subtitle": [
+      "$100 / Consumer Prices Index. Source: Minneapolis Fed",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "dx": 0,
+    "dy": 0,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 250,
+  "height": 300,
+  "data": {
+    "values": [
+      {
+        "year": "1800",
+        "index": "51",
+        "change": "",
+        "source:": " "
+      },
+      {
+        "year": "1801",
+        "index": "50",
+        "change": "-0.02",
+        "source:": ""
+      },
+      {
+        "year": "1802",
+        "index": "43",
+        "change": "-0.14",
+        "source:": ""
+      },
+      {
+        "year": "1803",
+        "index": "45",
+        "change": "0.05",
+        "source:": ""
+      },
+      {
+        "year": "1804",
+        "index": "45",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1805",
+        "index": "45",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1806",
+        "index": "47",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1807",
+        "index": "44",
+        "change": "-0.06",
+        "source:": ""
+      },
+      {
+        "year": "1808",
+        "index": "48",
+        "change": "0.09",
+        "source:": ""
+      },
+      {
+        "year": "1809",
+        "index": "47",
+        "change": "-0.02",
+        "source:": ""
+      },
+      {
+        "year": "1810",
+        "index": "47",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1811",
+        "index": "50",
+        "change": "0.06",
+        "source:": ""
+      },
+      {
+        "year": "1812",
+        "index": "51",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1813",
+        "index": "58",
+        "change": "0.14",
+        "source:": ""
+      },
+      {
+        "year": "1814",
+        "index": "63",
+        "change": "0.09",
+        "source:": ""
+      },
+      {
+        "year": "1815",
+        "index": "55",
+        "change": "-0.13",
+        "source:": ""
+      },
+      {
+        "year": "1816",
+        "index": "51",
+        "change": "-0.07",
+        "source:": ""
+      },
+      {
+        "year": "1817",
+        "index": "48",
+        "change": "-0.06",
+        "source:": ""
+      },
+      {
+        "year": "1818",
+        "index": "46",
+        "change": "-0.04",
+        "source:": ""
+      },
+      {
+        "year": "1819",
+        "index": "46",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1820",
+        "index": "42",
+        "change": "-0.09",
+        "source:": ""
+      },
+      {
+        "year": "1821",
+        "index": "40",
+        "change": "-0.05",
+        "source:": ""
+      },
+      {
+        "year": "1822",
+        "index": "40",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1823",
+        "index": "36",
+        "change": "-0.10",
+        "source:": ""
+      },
+      {
+        "year": "1824",
+        "index": "33",
+        "change": "-0.08",
+        "source:": ""
+      },
+      {
+        "year": "1825",
+        "index": "34",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1826",
+        "index": "34",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1827",
+        "index": "34",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1828",
+        "index": "33",
+        "change": "-0.03",
+        "source:": ""
+      },
+      {
+        "year": "1829",
+        "index": "32",
+        "change": "-0.03",
+        "source:": ""
+      },
+      {
+        "year": "1830",
+        "index": "32",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1831",
+        "index": "32",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1832",
+        "index": "30",
+        "change": "-0.06",
+        "source:": ""
+      },
+      {
+        "year": "1833",
+        "index": "29",
+        "change": "-0.03",
+        "source:": ""
+      },
+      {
+        "year": "1834",
+        "index": "30",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1835",
+        "index": "31",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1836",
+        "index": "33",
+        "change": "0.06",
+        "source:": ""
+      },
+      {
+        "year": "1837",
+        "index": "34",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1838",
+        "index": "32",
+        "change": "-0.06",
+        "source:": ""
+      },
+      {
+        "year": "1839",
+        "index": "32",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1840",
+        "index": "30",
+        "change": "-0.06",
+        "source:": ""
+      },
+      {
+        "year": "1841",
+        "index": "31",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1842",
+        "index": "29",
+        "change": "-0.06",
+        "source:": ""
+      },
+      {
+        "year": "1843",
+        "index": "28",
+        "change": "-0.03",
+        "source:": ""
+      },
+      {
+        "year": "1844",
+        "index": "28",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1845",
+        "index": "28",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1846",
+        "index": "27",
+        "change": "-0.04",
+        "source:": ""
+      },
+      {
+        "year": "1847",
+        "index": "28",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1848",
+        "index": "26",
+        "change": "-0.07",
+        "source:": ""
+      },
+      {
+        "year": "1849",
+        "index": "25",
+        "change": "-0.04",
+        "source:": ""
+      },
+      {
+        "year": "1850",
+        "index": "25",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1851",
+        "index": "25",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1852",
+        "index": "25",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1853",
+        "index": "25",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1854",
+        "index": "27",
+        "change": "0.08",
+        "source:": ""
+      },
+      {
+        "year": "1855",
+        "index": "28",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1856",
+        "index": "27",
+        "change": "-0.04",
+        "source:": ""
+      },
+      {
+        "year": "1857",
+        "index": "28",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1858",
+        "index": "26",
+        "change": "-0.07",
+        "source:": ""
+      },
+      {
+        "year": "1859",
+        "index": "27",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1860",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1861",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1862",
+        "index": "30",
+        "change": "0.11",
+        "source:": ""
+      },
+      {
+        "year": "1863",
+        "index": "37",
+        "change": "0.23",
+        "source:": ""
+      },
+      {
+        "year": "1864",
+        "index": "47",
+        "change": "0.27",
+        "source:": ""
+      },
+      {
+        "year": "1865",
+        "index": "46",
+        "change": "-0.02",
+        "source:": ""
+      },
+      {
+        "year": "1866",
+        "index": "44",
+        "change": "-0.04",
+        "source:": ""
+      },
+      {
+        "year": "1867",
+        "index": "42",
+        "change": "-0.05",
+        "source:": ""
+      },
+      {
+        "year": "1868",
+        "index": "40",
+        "change": "-0.05",
+        "source:": ""
+      },
+      {
+        "year": "1869",
+        "index": "40",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1870",
+        "index": "38",
+        "change": "-0.05",
+        "source:": ""
+      },
+      {
+        "year": "1871",
+        "index": "36",
+        "change": "-0.05",
+        "source:": ""
+      },
+      {
+        "year": "1872",
+        "index": "36",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1873",
+        "index": "36",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1874",
+        "index": "34",
+        "change": "-0.06",
+        "source:": ""
+      },
+      {
+        "year": "1875",
+        "index": "33",
+        "change": "-0.03",
+        "source:": ""
+      },
+      {
+        "year": "1876",
+        "index": "32",
+        "change": "-0.03",
+        "source:": ""
+      },
+      {
+        "year": "1877",
+        "index": "32",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1878",
+        "index": "29",
+        "change": "-0.09",
+        "source:": ""
+      },
+      {
+        "year": "1879",
+        "index": "28",
+        "change": "-0.03",
+        "source:": ""
+      },
+      {
+        "year": "1880",
+        "index": "29",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1881",
+        "index": "29",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1882",
+        "index": "29",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1883",
+        "index": "28",
+        "change": "-0.03",
+        "source:": ""
+      },
+      {
+        "year": "1884",
+        "index": "27",
+        "change": "-0.04",
+        "source:": ""
+      },
+      {
+        "year": "1885",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1886",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1887",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1888",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1889",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1890",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1891",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1892",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1893",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1894",
+        "index": "26",
+        "change": "-0.04",
+        "source:": ""
+      },
+      {
+        "year": "1895",
+        "index": "25",
+        "change": "-0.04",
+        "source:": ""
+      },
+      {
+        "year": "1896",
+        "index": "25",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1897",
+        "index": "25",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1898",
+        "index": "25",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1899",
+        "index": "25",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1900",
+        "index": "25",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1901",
+        "index": "25",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1902",
+        "index": "26",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1903",
+        "index": "27",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1904",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1905",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1906",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1907",
+        "index": "28",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1908",
+        "index": "27",
+        "change": "-0.04",
+        "source:": ""
+      },
+      {
+        "year": "1909",
+        "index": "27",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1910",
+        "index": "28",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1911",
+        "index": "28",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1912",
+        "index": "29",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1913",
+        "index": "29.7",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1914",
+        "index": "30.1",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1915",
+        "index": "30.4",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1916",
+        "index": "32.7",
+        "change": "0.08",
+        "source:": ""
+      },
+      {
+        "year": "1917",
+        "index": "38.5",
+        "change": "0.18",
+        "source:": ""
+      },
+      {
+        "year": "1918",
+        "index": "45.2",
+        "change": "0.17",
+        "source:": ""
+      },
+      {
+        "year": "1919",
+        "index": "52.1",
+        "change": "0.15",
+        "source:": ""
+      },
+      {
+        "year": "1920",
+        "index": "60.2",
+        "change": "0.16",
+        "source:": ""
+      },
+      {
+        "year": "1921",
+        "index": "53.6",
+        "change": "-0.11",
+        "source:": ""
+      },
+      {
+        "year": "1922",
+        "index": "50.3",
+        "change": "-0.06",
+        "source:": ""
+      },
+      {
+        "year": "1923",
+        "index": "51.2",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1924",
+        "index": "51.5",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1925",
+        "index": "52.7",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1926",
+        "index": "53.2",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1927",
+        "index": "52.2",
+        "change": "-0.02",
+        "source:": ""
+      },
+      {
+        "year": "1928",
+        "index": "51.6",
+        "change": "-0.01",
+        "source:": ""
+      },
+      {
+        "year": "1929",
+        "index": "51.6",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1930",
+        "index": "50.2",
+        "change": "-0.03",
+        "source:": ""
+      },
+      {
+        "year": "1931",
+        "index": "45.7",
+        "change": "-0.09",
+        "source:": ""
+      },
+      {
+        "year": "1932",
+        "index": "41",
+        "change": "-0.10",
+        "source:": ""
+      },
+      {
+        "year": "1933",
+        "index": "38.9",
+        "change": "-0.05",
+        "source:": ""
+      },
+      {
+        "year": "1934",
+        "index": "40.2",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1935",
+        "index": "41.2",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1936",
+        "index": "41.7",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1937",
+        "index": "43.2",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1938",
+        "index": "42.3",
+        "change": "-0.02",
+        "source:": ""
+      },
+      {
+        "year": "1939",
+        "index": "41.8",
+        "change": "-0.01",
+        "source:": ""
+      },
+      {
+        "year": "1940",
+        "index": "42.1",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1941",
+        "index": "44.2",
+        "change": "0.05",
+        "source:": ""
+      },
+      {
+        "year": "1942",
+        "index": "49.1",
+        "change": "0.11",
+        "source:": ""
+      },
+      {
+        "year": "1943",
+        "index": "52",
+        "change": "0.06",
+        "source:": ""
+      },
+      {
+        "year": "1944",
+        "index": "52.9",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1945",
+        "index": "54.1",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1946",
+        "index": "58.6",
+        "change": "0.08",
+        "source:": ""
+      },
+      {
+        "year": "1947",
+        "index": "67.1",
+        "change": "0.15",
+        "source:": ""
+      },
+      {
+        "year": "1948",
+        "index": "72.2",
+        "change": "0.08",
+        "source:": ""
+      },
+      {
+        "year": "1949",
+        "index": "71.5",
+        "change": "-0.01",
+        "source:": ""
+      },
+      {
+        "year": "1950",
+        "index": "72.3",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1951",
+        "index": "78",
+        "change": "0.08",
+        "source:": ""
+      },
+      {
+        "year": "1952",
+        "index": "79.8",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1953",
+        "index": "80.4",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1954",
+        "index": "80.7",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1955",
+        "index": "80.5",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "1956",
+        "index": "81.7",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1957",
+        "index": "84.4",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1958",
+        "index": "86.7",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1959",
+        "index": "87.6",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1960",
+        "index": "88.9",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1961",
+        "index": "89.8",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1962",
+        "index": "90.9",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1963",
+        "index": "92",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1964",
+        "index": "93.2",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "1965",
+        "index": "94.7",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1966",
+        "index": "97.5",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1967",
+        "index": "100.2",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1968",
+        "index": "104.5",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1969",
+        "index": "110.2",
+        "change": "0.05",
+        "source:": ""
+      },
+      {
+        "year": "1970",
+        "index": "116.7",
+        "change": "0.06",
+        "source:": ""
+      },
+      {
+        "year": "1971",
+        "index": "121.7",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1972",
+        "index": "125.7",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1973",
+        "index": "133.4",
+        "change": "0.06",
+        "source:": ""
+      },
+      {
+        "year": "1974",
+        "index": "148.2",
+        "change": "0.11",
+        "source:": ""
+      },
+      {
+        "year": "1975",
+        "index": "161.7",
+        "change": "0.09",
+        "source:": ""
+      },
+      {
+        "year": "1976",
+        "index": "171",
+        "change": "0.06",
+        "source:": ""
+      },
+      {
+        "year": "1977",
+        "index": "182.1",
+        "change": "0.06",
+        "source:": ""
+      },
+      {
+        "year": "1978",
+        "index": "196",
+        "change": "0.08",
+        "source:": ""
+      },
+      {
+        "year": "1979",
+        "index": "218.1",
+        "change": "0.11",
+        "source:": ""
+      },
+      {
+        "year": "1980",
+        "index": "247.6",
+        "change": "0.14",
+        "source:": ""
+      },
+      {
+        "year": "1981",
+        "index": "273.2",
+        "change": "0.10",
+        "source:": ""
+      },
+      {
+        "year": "1982",
+        "index": "290",
+        "change": "0.06",
+        "source:": ""
+      },
+      {
+        "year": "1983",
+        "index": "299.3",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1984",
+        "index": "312.2",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1985",
+        "index": "323.2",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1986",
+        "index": "329.4",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1987",
+        "index": "341.4",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1988",
+        "index": "355.4",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1989",
+        "index": "372.5",
+        "change": "0.05",
+        "source:": ""
+      },
+      {
+        "year": "1990",
+        "index": "392.6",
+        "change": "0.05",
+        "source:": ""
+      },
+      {
+        "year": "1991",
+        "index": "409.3",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "1992",
+        "index": "421.7",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1993",
+        "index": "434.1",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1994",
+        "index": "445.4",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1995",
+        "index": "457.9",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1996",
+        "index": "471.3",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "1997",
+        "index": "482.4",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1998",
+        "index": "489.8",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "1999",
+        "index": "500.6",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "2000",
+        "index": "517.5",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "2001",
+        "index": "532.1",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "2002",
+        "index": "540.5",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "2003",
+        "index": "552.8",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "2004",
+        "index": "567.6",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "2005",
+        "index": "586.9",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "2006",
+        "index": "605.8",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "2007",
+        "index": "623.1",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "2008",
+        "index": "647",
+        "change": "0.04",
+        "source:": ""
+      },
+      {
+        "year": "2009",
+        "index": "644.7",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "2010",
+        "index": "655.3",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "2011",
+        "index": "676",
+        "change": "0.03",
+        "source:": ""
+      },
+      {
+        "year": "2012",
+        "index": "689.9",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "�2013",
+        "index": "700",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "�2014",
+        "index": "711.4",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "�2015",
+        "index": "712.3",
+        "change": "0.00",
+        "source:": ""
+      },
+      {
+        "year": "�2016",
+        "index": "721.2",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "�2017",
+        "index": "736.6",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "�2018",
+        "index": "754.6",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "�2019",
+        "index": "768.3",
+        "change": "0.02",
+        "source:": ""
+      },
+      {
+        "year": "�2020",
+        "index": "777.7",
+        "change": "0.01",
+        "source:": ""
+      },
+      {
+        "year": "�2021",
+        "index": "814.3",
+        "change": "0.05",
+        "source:": ""
+      },
+      {
+        "year": "�2022",
+        "index": "879.4",
+        "change": "0.08",
+        "source:": ""
+      }
+    ],
+    "format": {
+      "parse": {
+        "year": "date"
+      }
+    }
+  },
+  "mark": {
+    "type": "line",
+    "color": "rgb(128,0,0)",
+    "strokeWidth": 2,
+    "opacity": 1
+  },
+  "transform": [
+    {
+      "calculate": "100/datum.index",
+      "as": "dollarValue"
+    },
+    {
+      "calculate": "year(datum.year)",
+      "as": "time"
+    },
+    {
+      "filter": "datum.time>1940"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "title": null
+    },
+    "y": {
+      "field": "dollarValue",
+      "type": "quantitative",
+      "title": null
+    }
+  }
+}

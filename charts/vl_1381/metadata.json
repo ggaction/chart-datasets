@@ -1,0 +1,122 @@
+{
+  "id": "vl_1381",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "a0a123ea8c5c32e3003a90d08d4a74f2c76e10218c3b25367a4c0256f6cc9d3d",
+      "actions": 6,
+      "topOptions": 14
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "11b447232270f15880faef7e6a96e01f38159cac3bcfb759559186d8d1035a86",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b87e4cb06ac3c4431f718b28563c7a0b0a346727808a69a563d995d9e6d4cb46",
+      "actions": 9,
+      "topOptions": 17
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "9bb8493fc2b5bcfb38547af01f720348f8ed95d0710edd36a9104724de04b6df",
+      "actions": 11,
+      "topOptions": 21
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "51bb05959f03fa017f273653047a4cc916056cd52fb31b5d4021839a27812a02",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d99ab6971f7e3ecc1690e64c1139ccd123c8caccba204ff576ed45702a5a57e5",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ffd23b28e695b40aa1ab5e70ffd3726a2874e70d67c647149b0d0ccdbca299eb",
+      "actions": 20,
+      "topOptions": 33
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "bd2615742964e408613c60b6752a559346dd1594c47786da7498fda156755215",
+      "actions": 21,
+      "topOptions": 34
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct source-identical programs. Paired axes move together; whole-axis paint decomposed into focused components, then existing legend title style transferred. Implicit source-default grid paint extraction rejected; full frozen source and default external legend spacing preserved."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "1ea8f4ea8ae9cd2010a5cbb2c5e34ba47ab23ddae271c338174b5750e0ee75e5",
+      "bytes": 6358
+    },
+    "data.json": {
+      "sha256": "1f4cb71479ad5707e1b320fe8658ec8def399cb626b3ab5e311d22d69b39724a",
+      "bytes": 4806
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1ea8f4ea8ae9cd2010a5cbb2c5e34ba47ab23ddae271c338174b5750e0ee75e5",
+      "bytes": 6358
+    },
+    "G1.gg.mjs": {
+      "sha256": "a0a123ea8c5c32e3003a90d08d4a74f2c76e10218c3b25367a4c0256f6cc9d3d",
+      "bytes": 2484
+    },
+    "G2.gg.mjs": {
+      "sha256": "11b447232270f15880faef7e6a96e01f38159cac3bcfb759559186d8d1035a86",
+      "bytes": 2590
+    },
+    "G3.gg.mjs": {
+      "sha256": "b87e4cb06ac3c4431f718b28563c7a0b0a346727808a69a563d995d9e6d4cb46",
+      "bytes": 2651
+    },
+    "G4.gg.mjs": {
+      "sha256": "9bb8493fc2b5bcfb38547af01f720348f8ed95d0710edd36a9104724de04b6df",
+      "bytes": 2738
+    },
+    "G5.gg.mjs": {
+      "sha256": "51bb05959f03fa017f273653047a4cc916056cd52fb31b5d4021839a27812a02",
+      "bytes": 2747
+    },
+    "G6.gg.mjs": {
+      "sha256": "d99ab6971f7e3ecc1690e64c1139ccd123c8caccba204ff576ed45702a5a57e5",
+      "bytes": 3078
+    },
+    "G7.gg.mjs": {
+      "sha256": "ffd23b28e695b40aa1ab5e70ffd3726a2874e70d67c647149b0d0ccdbca299eb",
+      "bytes": 3016
+    },
+    "G8.gg.mjs": {
+      "sha256": "bd2615742964e408613c60b6752a559346dd1594c47786da7498fda156755215",
+      "bytes": 3119
+    },
+    "vega-lite.svg": {
+      "sha256": "806ef9f639d7f999ca226e35d5c4d23c6b79ab998f1beba74cd978f36bfd7861",
+      "bytes": 11497
+    },
+    "ggaction.svg": {
+      "sha256": "ace37c6b07172d41b85cef603b5804694dff8db8149816afc65364196a351b53",
+      "bytes": 7638
+    }
+  }
+}

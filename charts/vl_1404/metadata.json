@@ -1,0 +1,89 @@
+{
+  "id": "vl_1404",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "cec5ae2ea3126c79d05881bbd18b1d42c0d868a24b3e11556fa57148009c64ee",
+      "actions": 7,
+      "topOptions": 15
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0316c865481ba34088b33d7ff447d06b13295f80736fec141362e069a654c449",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7736180fd9a968cd1c87f3aa8eacd265a69d6f55ff85ec298b1393f2e5661548",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1faa57acd639a7d7117301872fd1839a23a2a3a999afcf03088617d870b08a2d",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "22b33535814201ddf852cb14e2272bf3174c375aac6f639ac89374ff9f9208d6",
+      "actions": 14,
+      "topOptions": 26
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Host model:null remainingfrontier audit retained exactly; attempted G6 coarsening/reorder rejected, G5allauthoredpoliciesfocused, only creationgeometry remains. New stop record makes existing hash-bound completion reachable to centralqueue; raw originalmodelstop/failures preserved."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "b040fc00dc1e85fe92d51362c7c020d6e0bd9eeae8ce4c604152022d9c4054e3",
+      "bytes": 1103
+    },
+    "data.json": {
+      "sha256": "724aaeb4ceecd750954d228339c185bf9e605b13a0845704f019b7587b49bd38",
+      "bytes": 450
+    },
+    "resolved-source.vl.json": {
+      "sha256": "b040fc00dc1e85fe92d51362c7c020d6e0bd9eeae8ce4c604152022d9c4054e3",
+      "bytes": 1103
+    },
+    "G1.gg.mjs": {
+      "sha256": "cec5ae2ea3126c79d05881bbd18b1d42c0d868a24b3e11556fa57148009c64ee",
+      "bytes": 1270
+    },
+    "G2.gg.mjs": {
+      "sha256": "0316c865481ba34088b33d7ff447d06b13295f80736fec141362e069a654c449",
+      "bytes": 1279
+    },
+    "G3.gg.mjs": {
+      "sha256": "7736180fd9a968cd1c87f3aa8eacd265a69d6f55ff85ec298b1393f2e5661548",
+      "bytes": 1215
+    },
+    "G4.gg.mjs": {
+      "sha256": "1faa57acd639a7d7117301872fd1839a23a2a3a999afcf03088617d870b08a2d",
+      "bytes": 1263
+    },
+    "G5.gg.mjs": {
+      "sha256": "22b33535814201ddf852cb14e2272bf3174c375aac6f639ac89374ff9f9208d6",
+      "bytes": 1337
+    },
+    "vega-lite.svg": {
+      "sha256": "b2377495438be412a10d9c1c7d98894ba02e094a635944b0c3e6bd8342758f4a",
+      "bytes": 8364
+    },
+    "ggaction.svg": {
+      "sha256": "2912009e096b48767376cad48fedd5cf497b6c7eafd20d4945cd14345d32064e",
+      "bytes": 5668
+    }
+  }
+}

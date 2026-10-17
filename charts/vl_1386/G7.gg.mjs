@@ -1,0 +1,39 @@
+// DOCS: doc-e790db38fc2a278a (createScatterPlot), doc-dfae58344d5a524e (createCanvas), doc-2bd5de4bd99e314a (Basic Charts)
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({
+      width: 228,
+      height: 231,
+      margin: { left: 18, top: 9, right: 10, bottom: 22 }
+    })
+    .createData({ values: data })
+    .createScatterPlot({
+      x: { field: "x", fieldType: "quantitative" },
+      y: { field: "y", fieldType: "quantitative" },
+      guides: false
+    })
+    .createXAxis({
+      line: {},
+      ticksAndLabels: { labels: { offset: 7 } },
+      title: false
+    })
+    .createYAxis({
+      line: {},
+      ticksAndLabels: { labels: { offset: 6 } },
+      title: false
+    })
+    .createHorizontalGrid({ color: '#ddd', lineWidth: 1 })
+    .editXScale({ domain: [0, 14] })
+    .editYScale({ domain: [0, 9] })
+    .editXAxisLabels({ fontSize: 10 })
+    .editYAxisLabels({ fontSize: 10 })
+    .encodePointRadius({ value: 4.47213595499958 })
+    .editPointMark({
+      fill: "#4c78a8",
+      opacity: 0.7
+    })
+    .createVerticalGrid({color:'#ddd'});
+}

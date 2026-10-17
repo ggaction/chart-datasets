@@ -1,0 +1,78 @@
+{
+  "id": "vl_1066",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ff4e86e75c12f21f0f73423693320998a111e6386282531649332ef18c97204f",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "6eb31a576d2dafdaec32a78a01c03ace3be9db92562bc502cc87d18e9a0fc459",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8b794c37883ba600ab989a5c2ab6a2a5ab79bc40dd3f2e7e3118519a42d1324b",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7c41aed01706a29bc0f88ad1f6d0cb99203ff51d1c3137d658409a7e3ea69700",
+      "actions": 19,
+      "topOptions": 31
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full finalG4 code and concreteOwnershipFrontier reviewed: no mandatory boundary remains. Remaining barconstantfill/cornerRadius/width + protected X/Yscale/domain/tick/fontsize/offset/rotation/titletext settings are irreducible under existing public vocabulary; no padding/native-only stages. All4currentruntime normal fullsource/family verifications pass; actualsource zero-baseline proof retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "59a19d7ce56edaf4b6da80d34bb6585e4db6c56d28dc88fd1b7f31299de6f14b",
+      "bytes": 1381
+    },
+    "data.json": {
+      "sha256": "63f5d57dd8e0b600fe32f711399b1ef8077209a9390d555ecc7a4e9c00873740",
+      "bytes": 318
+    },
+    "resolved-source.vl.json": {
+      "sha256": "569f32178b5de186e6e2444c6575956cd334d04388dd1d67964e2d5a5e4f335e",
+      "bytes": 1382
+    },
+    "G1.gg.mjs": {
+      "sha256": "ff4e86e75c12f21f0f73423693320998a111e6386282531649332ef18c97204f",
+      "bytes": 1600
+    },
+    "G2.gg.mjs": {
+      "sha256": "6eb31a576d2dafdaec32a78a01c03ace3be9db92562bc502cc87d18e9a0fc459",
+      "bytes": 1628
+    },
+    "G3.gg.mjs": {
+      "sha256": "8b794c37883ba600ab989a5c2ab6a2a5ab79bc40dd3f2e7e3118519a42d1324b",
+      "bytes": 1802
+    },
+    "G4.gg.mjs": {
+      "sha256": "7c41aed01706a29bc0f88ad1f6d0cb99203ff51d1c3137d658409a7e3ea69700",
+      "bytes": 1784
+    },
+    "vega-lite.svg": {
+      "sha256": "396f57a60aaa247c4fd110a290ca43dd7eb034d55be0f219f50e886a85c4f5a1",
+      "bytes": 19543
+    },
+    "ggaction.svg": {
+      "sha256": "cc54f32b088e7ad871da6b0478ebfcbf76af0be9e66ed6a05b279292029579a8",
+      "bytes": 12202
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "vl_0563",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "2b6b81ce5269854a55e542f7f9149299eedc670c8ac53ca2b1bc4567caf182af",
+      "actions": 11,
+      "topOptions": 30
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ea7dcefcd26d3d59374f1a4b5d9e314df7db29cbfd62622675719a46793c2749",
+      "actions": 12,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "5caa70d6c3a1837227dc69b996415b24bdddb0a139d7debc999951c5371dd711",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "94e402ef3cc7b9f7a85038c3e028923cb6a2fe40b82dcf1602ef9982704f0721",
+      "actions": 13,
+      "topOptions": 31
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/ch7_Trade/USmigrationByType.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full acceptedG4 audited: minimalpie facade requiredcategory/value, palette/donut radius/polar frame focused; title initialfont13 protected, subtitleStyle moved beforetext and titleweight alreadyeditor; legendfont10 actualfailedintermediate protected, no otherlegendstyle/sourceaxis/grid exists. No remaining meaningful frontier; stop4."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "4436d1afabc8cf45382e32cbfd85f7069e9085a2689ea440ae2eb8478bfeb4b8",
+      "bytes": 1207
+    },
+    "data.json": {
+      "sha256": "9458908406f5d1503cdb62e6afce7706cff7229512755df4b3569a294d804e19",
+      "bytes": 462
+    },
+    "resolved-source.vl.json": {
+      "sha256": "764cf9fce7086ebf76a5425ba16828bd26035dfcc8693926f8c2d3443e4964ae",
+      "bytes": 1637
+    },
+    "G1.gg.mjs": {
+      "sha256": "2b6b81ce5269854a55e542f7f9149299eedc670c8ac53ca2b1bc4567caf182af",
+      "bytes": 1308
+    },
+    "G2.gg.mjs": {
+      "sha256": "ea7dcefcd26d3d59374f1a4b5d9e314df7db29cbfd62622675719a46793c2749",
+      "bytes": 1329
+    },
+    "G3.gg.mjs": {
+      "sha256": "5caa70d6c3a1837227dc69b996415b24bdddb0a139d7debc999951c5371dd711",
+      "bytes": 1364
+    },
+    "G4.gg.mjs": {
+      "sha256": "94e402ef3cc7b9f7a85038c3e028923cb6a2fe40b82dcf1602ef9982704f0721",
+      "bytes": 1358
+    },
+    "vega-lite.svg": {
+      "sha256": "ef480c7e59c8d534e24c913c1d2fb12640846460ea169f5ec1eaf3f8e752a0bd",
+      "bytes": 6100
+    },
+    "ggaction.svg": {
+      "sha256": "4800a3406b1d10183ec0cd30c217449a1e96ababf1b0024146da20bbb4d5297e",
+      "bytes": 3792
+    }
+  }
+}

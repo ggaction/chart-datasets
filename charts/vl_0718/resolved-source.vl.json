@@ -1,0 +1,1879 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "State": "Alabama",
+        "Population": "5039877",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "2887",
+        "ValueC": "0.057283144"
+      },
+      {
+        "State": "Alabama",
+        "Population": "5039877",
+        "Type1": "Nonimmigrants",
+        "Value": "49893",
+        "ValueC": "0.989964636"
+      },
+      {
+        "State": "Alabama",
+        "Population": "5039877",
+        "Type1": "Naturalizations",
+        "Value": "1614",
+        "ValueC": "0.032024591"
+      },
+      {
+        "State": "Alabama",
+        "Population": "5039877",
+        "Type1": "Refugees",
+        "Value": "0",
+        "ValueC": "0"
+      },
+      {
+        "State": "Alabama",
+        "Population": "5039877",
+        "Type1": "Asylees",
+        "Value": "25",
+        "ValueC": "0.000496044"
+      },
+      {
+        "State": "Alaska",
+        "Population": "732673",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "761",
+        "ValueC": "0.103866254"
+      },
+      {
+        "State": "Alaska",
+        "Population": "732673",
+        "Type1": "Nonimmigrants",
+        "Value": "48380",
+        "ValueC": "6.603218625"
+      },
+      {
+        "State": "Alaska",
+        "Population": "732673",
+        "Type1": "Naturalizations",
+        "Value": "890",
+        "ValueC": "0.121473017"
+      },
+      {
+        "State": "Alaska",
+        "Population": "732673",
+        "Type1": "Refugees",
+        "Value": "12",
+        "ValueC": "0.001637838"
+      },
+      {
+        "State": "Alaska",
+        "Population": "732673",
+        "Type1": "Asylees",
+        "Value": "N/A",
+        "ValueC": "N/A"
+      },
+      {
+        "State": "Arizona",
+        "Population": "7276316",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "14466",
+        "ValueC": "0.198809398"
+      },
+      {
+        "State": "Arizona",
+        "Population": "7276316",
+        "Type1": "Nonimmigrants",
+        "Value": "486163",
+        "ValueC": "6.681444291"
+      },
+      {
+        "State": "Arizona",
+        "Population": "7276316",
+        "Type1": "Naturalizations",
+        "Value": "17512",
+        "ValueC": "0.240671241"
+      },
+      {
+        "State": "Arizona",
+        "Population": "7276316",
+        "Type1": "Refugees",
+        "Value": "422",
+        "ValueC": "0.005799638"
+      },
+      {
+        "State": "Arizona",
+        "Population": "7276316",
+        "Type1": "Asylees",
+        "Value": "151",
+        "ValueC": "0.002075226"
+      },
+      {
+        "State": "Arkansas",
+        "Population": "3025891",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "2586",
+        "ValueC": "0.085462431"
+      },
+      {
+        "State": "Arkansas",
+        "Population": "3025891",
+        "Type1": "Nonimmigrants",
+        "Value": "29548",
+        "ValueC": "0.976505763"
+      },
+      {
+        "State": "Arkansas",
+        "Population": "3025891",
+        "Type1": "Naturalizations",
+        "Value": "2074",
+        "ValueC": "0.068541795"
+      },
+      {
+        "State": "Arkansas",
+        "Population": "3025891",
+        "Type1": "Refugees",
+        "Value": "41",
+        "ValueC": "0.001354973"
+      },
+      {
+        "State": "Arkansas",
+        "Population": "3025891",
+        "Type1": "Asylees",
+        "Value": "12",
+        "ValueC": "0.000396577"
+      },
+      {
+        "State": "California",
+        "Population": "39237836",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "135181",
+        "ValueC": "0.344516961"
+      },
+      {
+        "State": "California",
+        "Population": "39237836",
+        "Type1": "Nonimmigrants",
+        "Value": "1859671",
+        "ValueC": "4.739484104"
+      },
+      {
+        "State": "California",
+        "Population": "39237836",
+        "Type1": "Naturalizations",
+        "Value": "171863",
+        "ValueC": "0.438003258"
+      },
+      {
+        "State": "California",
+        "Population": "39237836",
+        "Type1": "Refugees",
+        "Value": "986",
+        "ValueC": "0.002512881"
+      },
+      {
+        "State": "California",
+        "Population": "39237836",
+        "Type1": "Asylees",
+        "Value": "5197",
+        "ValueC": "0.013244869"
+      },
+      {
+        "State": "Colorado",
+        "Population": "5812069",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "10146",
+        "ValueC": "0.174567783"
+      },
+      {
+        "State": "Colorado",
+        "Population": "5812069",
+        "Type1": "Nonimmigrants",
+        "Value": "167072",
+        "ValueC": "2.87457014"
+      },
+      {
+        "State": "Colorado",
+        "Population": "5812069",
+        "Type1": "Naturalizations",
+        "Value": "8819",
+        "ValueC": "0.151735982"
+      },
+      {
+        "State": "Colorado",
+        "Population": "5812069",
+        "Type1": "Refugees",
+        "Value": "265",
+        "ValueC": "0.004559478"
+      },
+      {
+        "State": "Colorado",
+        "Population": "5812069",
+        "Type1": "Asylees",
+        "Value": "135",
+        "ValueC": "0.002322753"
+      },
+      {
+        "State": "Connecticut",
+        "Population": "3605597",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "8646",
+        "ValueC": "0.239793854"
+      },
+      {
+        "State": "Connecticut",
+        "Population": "3605597",
+        "Type1": "Nonimmigrants",
+        "Value": "71392",
+        "ValueC": "1.98003271"
+      },
+      {
+        "State": "Connecticut",
+        "Population": "3605597",
+        "Type1": "Naturalizations",
+        "Value": "11705",
+        "ValueC": "0.324634173"
+      },
+      {
+        "State": "Connecticut",
+        "Population": "3605597",
+        "Type1": "Refugees",
+        "Value": "59",
+        "ValueC": "0.001636345"
+      },
+      {
+        "State": "Connecticut",
+        "Population": "3605597",
+        "Type1": "Asylees",
+        "Value": "187",
+        "ValueC": "0.005186381"
+      },
+      {
+        "State": "Delaware",
+        "Population": "1003384",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "1830",
+        "ValueC": "0.182382817"
+      },
+      {
+        "State": "Delaware",
+        "Population": "1003384",
+        "Type1": "Nonimmigrants",
+        "Value": "13458",
+        "ValueC": "1.341261172"
+      },
+      {
+        "State": "Delaware",
+        "Population": "1003384",
+        "Type1": "Naturalizations",
+        "Value": "1808",
+        "ValueC": "0.180190236"
+      },
+      {
+        "State": "Delaware",
+        "Population": "1003384",
+        "Type1": "Refugees",
+        "Value": "12",
+        "ValueC": "0.001195953"
+      },
+      {
+        "State": "Delaware",
+        "Population": "1003384",
+        "Type1": "Asylees",
+        "Value": "44",
+        "ValueC": "0.004385161"
+      },
+      {
+        "State": "District of Columbia",
+        "Population": "670050",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "1915",
+        "ValueC": "0.285799567"
+      },
+      {
+        "State": "District of Columbia",
+        "Population": "670050",
+        "Type1": "Nonimmigrants",
+        "Value": "82283",
+        "ValueC": "12.28012835"
+      },
+      {
+        "State": "District of Columbia",
+        "Population": "670050",
+        "Type1": "Naturalizations",
+        "Value": "1822",
+        "ValueC": "0.271920006"
+      },
+      {
+        "State": "District of Columbia",
+        "Population": "670050",
+        "Type1": "Refugees",
+        "Value": "N/A",
+        "ValueC": "N/A"
+      },
+      {
+        "State": "District of Columbia",
+        "Population": "670050",
+        "Type1": "Asylees",
+        "Value": "124",
+        "ValueC": "0.018506082"
+      },
+      {
+        "State": "Florida",
+        "Population": "21781128",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "83227",
+        "ValueC": "0.382106014"
+      },
+      {
+        "State": "Florida",
+        "Population": "21781128",
+        "Type1": "Nonimmigrants",
+        "Value": "3157503",
+        "ValueC": "14.49650817"
+      },
+      {
+        "State": "Florida",
+        "Population": "21781128",
+        "Type1": "Naturalizations",
+        "Value": "109235",
+        "ValueC": "0.501512135"
+      },
+      {
+        "State": "Florida",
+        "Population": "21781128",
+        "Type1": "Refugees",
+        "Value": "222",
+        "ValueC": "0.001019231"
+      },
+      {
+        "State": "Florida",
+        "Population": "21781128",
+        "Type1": "Asylees",
+        "Value": "852",
+        "ValueC": "0.003911643"
+      },
+      {
+        "State": "Georgia",
+        "Population": "10799566",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "20033",
+        "ValueC": "0.185498195"
+      },
+      {
+        "State": "Georgia",
+        "Population": "10799566",
+        "Type1": "Nonimmigrants",
+        "Value": "274610",
+        "ValueC": "2.542787368"
+      },
+      {
+        "State": "Georgia",
+        "Population": "10799566",
+        "Type1": "Naturalizations",
+        "Value": "16476",
+        "ValueC": "0.152561686"
+      },
+      {
+        "State": "Georgia",
+        "Population": "10799566",
+        "Type1": "Refugees",
+        "Value": "368",
+        "ValueC": "0.003407544"
+      },
+      {
+        "State": "Georgia",
+        "Population": "10799566",
+        "Type1": "Asylees",
+        "Value": "136",
+        "ValueC": "0.00125931"
+      },
+      {
+        "State": "Hawaii",
+        "Population": "1441553",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "2452",
+        "ValueC": "0.170094336"
+      },
+      {
+        "State": "Hawaii",
+        "Population": "1441553",
+        "Type1": "Nonimmigrants",
+        "Value": "49868",
+        "ValueC": "3.45932477"
+      },
+      {
+        "State": "Hawaii",
+        "Population": "1441553",
+        "Type1": "Naturalizations",
+        "Value": "3801",
+        "ValueC": "0.263673968"
+      },
+      {
+        "State": "Hawaii",
+        "Population": "1441553",
+        "Type1": "Refugees",
+        "Value": "0",
+        "ValueC": "0"
+      },
+      {
+        "State": "Hawaii",
+        "Population": "1441553",
+        "Type1": "Asylees",
+        "Value": "25",
+        "ValueC": "0.001734241"
+      },
+      {
+        "State": "Idaho",
+        "Population": "1900923",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "1714",
+        "ValueC": "0.090166724"
+      },
+      {
+        "State": "Idaho",
+        "Population": "1900923",
+        "Type1": "Nonimmigrants",
+        "Value": "21397",
+        "ValueC": "1.125611085"
+      },
+      {
+        "State": "Idaho",
+        "Population": "1900923",
+        "Type1": "Naturalizations",
+        "Value": "1537",
+        "ValueC": "0.080855458"
+      },
+      {
+        "State": "Idaho",
+        "Population": "1900923",
+        "Type1": "Refugees",
+        "Value": "269",
+        "ValueC": "0.01415102"
+      },
+      {
+        "State": "Idaho",
+        "Population": "1900923",
+        "Type1": "Asylees",
+        "Value": "23",
+        "ValueC": "0.001209939"
+      },
+      {
+        "State": "Illinois",
+        "Population": "12671469",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "26228",
+        "ValueC": "0.206984683"
+      },
+      {
+        "State": "Illinois",
+        "Population": "12671469",
+        "Type1": "Nonimmigrants",
+        "Value": "341868",
+        "ValueC": "2.697935022"
+      },
+      {
+        "State": "Illinois",
+        "Population": "12671469",
+        "Type1": "Naturalizations",
+        "Value": "22684",
+        "ValueC": "0.17901634"
+      },
+      {
+        "State": "Illinois",
+        "Population": "12671469",
+        "Type1": "Refugees",
+        "Value": "372",
+        "ValueC": "0.002935729"
+      },
+      {
+        "State": "Illinois",
+        "Population": "12671469",
+        "Type1": "Asylees",
+        "Value": "1036",
+        "ValueC": "0.008175848"
+      },
+      {
+        "State": "Indiana",
+        "Population": "6805985",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "7223",
+        "ValueC": "0.106127181"
+      },
+      {
+        "State": "Indiana",
+        "Population": "6805985",
+        "Type1": "Nonimmigrants",
+        "Value": "77584",
+        "ValueC": "1.139937864"
+      },
+      {
+        "State": "Indiana",
+        "Population": "6805985",
+        "Type1": "Naturalizations",
+        "Value": "6112",
+        "ValueC": "0.089803313"
+      },
+      {
+        "State": "Indiana",
+        "Population": "6805985",
+        "Type1": "Refugees",
+        "Value": "202",
+        "ValueC": "0.002967976"
+      },
+      {
+        "State": "Indiana",
+        "Population": "6805985",
+        "Type1": "Asylees",
+        "Value": "378",
+        "ValueC": "0.005553935"
+      },
+      {
+        "State": "Iowa",
+        "Population": "3193079",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "3450",
+        "ValueC": "0.108046184"
+      },
+      {
+        "State": "Iowa",
+        "Population": "3193079",
+        "Type1": "Nonimmigrants",
+        "Value": "26690",
+        "ValueC": "0.835870331"
+      },
+      {
+        "State": "Iowa",
+        "Population": "3193079",
+        "Type1": "Naturalizations",
+        "Value": "3304",
+        "ValueC": "0.103473794"
+      },
+      {
+        "State": "Iowa",
+        "Population": "3193079",
+        "Type1": "Refugees",
+        "Value": "245",
+        "ValueC": "0.007672845"
+      },
+      {
+        "State": "Iowa",
+        "Population": "3193079",
+        "Type1": "Asylees",
+        "Value": "35",
+        "ValueC": "0.001096121"
+      },
+      {
+        "State": "Kansas",
+        "Population": "2934582",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "3399",
+        "ValueC": "0.115825695"
+      },
+      {
+        "State": "Kansas",
+        "Population": "2934582",
+        "Type1": "Nonimmigrants",
+        "Value": "28612",
+        "ValueC": "0.974994054"
+      },
+      {
+        "State": "Kansas",
+        "Population": "2934582",
+        "Type1": "Naturalizations",
+        "Value": "2961",
+        "ValueC": "0.10090023"
+      },
+      {
+        "State": "Kansas",
+        "Population": "2934582",
+        "Type1": "Refugees",
+        "Value": "167",
+        "ValueC": "0.005690759"
+      },
+      {
+        "State": "Kansas",
+        "Population": "2934582",
+        "Type1": "Asylees",
+        "Value": "39",
+        "ValueC": "0.00132898"
+      },
+      {
+        "State": "Kentucky",
+        "Population": "4509394",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "4401",
+        "ValueC": "0.097596262"
+      },
+      {
+        "State": "Kentucky",
+        "Population": "4509394",
+        "Type1": "Nonimmigrants",
+        "Value": "41308",
+        "ValueC": "0.916043264"
+      },
+      {
+        "State": "Kentucky",
+        "Population": "4509394",
+        "Type1": "Naturalizations",
+        "Value": "5047",
+        "ValueC": "0.111921912"
+      },
+      {
+        "State": "Kentucky",
+        "Population": "4509394",
+        "Type1": "Refugees",
+        "Value": "669",
+        "ValueC": "0.014835696"
+      },
+      {
+        "State": "Kentucky",
+        "Population": "4509394",
+        "Type1": "Asylees",
+        "Value": "72",
+        "ValueC": "0.001596667"
+      },
+      {
+        "State": "Louisiana",
+        "Population": "4624047",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "3137",
+        "ValueC": "0.067841006"
+      },
+      {
+        "State": "Louisiana",
+        "Population": "4624047",
+        "Type1": "Nonimmigrants",
+        "Value": "71089",
+        "ValueC": "1.537376242"
+      },
+      {
+        "State": "Louisiana",
+        "Population": "4624047",
+        "Type1": "Naturalizations",
+        "Value": "2338",
+        "ValueC": "0.05056177"
+      },
+      {
+        "State": "Louisiana",
+        "Population": "4624047",
+        "Type1": "Refugees",
+        "Value": "7",
+        "ValueC": "0.000151383"
+      },
+      {
+        "State": "Louisiana",
+        "Population": "4624047",
+        "Type1": "Asylees",
+        "Value": "514",
+        "ValueC": "0.011115804"
+      },
+      {
+        "State": "Maine",
+        "Population": "1372247",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "899",
+        "ValueC": "0.065512987"
+      },
+      {
+        "State": "Maine",
+        "Population": "1372247",
+        "Type1": "Nonimmigrants",
+        "Value": "34573",
+        "ValueC": "2.519444386"
+      },
+      {
+        "State": "Maine",
+        "Population": "1372247",
+        "Type1": "Naturalizations",
+        "Value": "1153",
+        "ValueC": "0.084022774"
+      },
+      {
+        "State": "Maine",
+        "Population": "1372247",
+        "Type1": "Refugees",
+        "Value": "40",
+        "ValueC": "0.002914927"
+      },
+      {
+        "State": "Maine",
+        "Population": "1372247",
+        "Type1": "Asylees",
+        "Value": "43",
+        "ValueC": "0.003133547"
+      },
+      {
+        "State": "Maryland",
+        "Population": "6165129",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "17284",
+        "ValueC": "0.280350987"
+      },
+      {
+        "State": "Maryland",
+        "Population": "6165129",
+        "Type1": "Nonimmigrants",
+        "Value": "118418",
+        "ValueC": "1.920770839"
+      },
+      {
+        "State": "Maryland",
+        "Population": "6165129",
+        "Type1": "Naturalizations",
+        "Value": "19797",
+        "ValueC": "0.321112502"
+      },
+      {
+        "State": "Maryland",
+        "Population": "6165129",
+        "Type1": "Refugees",
+        "Value": "282",
+        "ValueC": "0.004574114"
+      },
+      {
+        "State": "Maryland",
+        "Population": "6165129",
+        "Type1": "Asylees",
+        "Value": "1171",
+        "ValueC": "0.018993925"
+      },
+      {
+        "State": "Massachusetts",
+        "Population": "6984723",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "22431",
+        "ValueC": "0.32114373"
+      },
+      {
+        "State": "Massachusetts",
+        "Population": "6984723",
+        "Type1": "Nonimmigrants",
+        "Value": "232671",
+        "ValueC": "3.331141407"
+      },
+      {
+        "State": "Massachusetts",
+        "Population": "6984723",
+        "Type1": "Naturalizations",
+        "Value": "24085",
+        "ValueC": "0.344823982"
+      },
+      {
+        "State": "Massachusetts",
+        "Population": "6984723",
+        "Type1": "Refugees",
+        "Value": "230",
+        "ValueC": "0.003292901"
+      },
+      {
+        "State": "Massachusetts",
+        "Population": "6984723",
+        "Type1": "Asylees",
+        "Value": "450",
+        "ValueC": "0.006442632"
+      },
+      {
+        "State": "Michigan",
+        "Population": "10050811",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "13929",
+        "ValueC": "0.138585832"
+      },
+      {
+        "State": "Michigan",
+        "Population": "10050811",
+        "Type1": "Nonimmigrants",
+        "Value": "367311",
+        "ValueC": "3.654540912"
+      },
+      {
+        "State": "Michigan",
+        "Population": "10050811",
+        "Type1": "Naturalizations",
+        "Value": "11716",
+        "ValueC": "0.116567708"
+      },
+      {
+        "State": "Michigan",
+        "Population": "10050811",
+        "Type1": "Refugees",
+        "Value": "534",
+        "ValueC": "0.005313004"
+      },
+      {
+        "State": "Michigan",
+        "Population": "10050811",
+        "Type1": "Asylees",
+        "Value": "191",
+        "ValueC": "0.001900344"
+      },
+      {
+        "State": "Minnesota",
+        "Population": "5707390",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "8774",
+        "ValueC": "0.153730514"
+      },
+      {
+        "State": "Minnesota",
+        "Population": "5707390",
+        "Type1": "Nonimmigrants",
+        "Value": "60045",
+        "ValueC": "1.05205707"
+      },
+      {
+        "State": "Minnesota",
+        "Population": "5707390",
+        "Type1": "Naturalizations",
+        "Value": "9400",
+        "ValueC": "0.16469875"
+      },
+      {
+        "State": "Minnesota",
+        "Population": "5707390",
+        "Type1": "Refugees",
+        "Value": "273",
+        "ValueC": "0.004783272"
+      },
+      {
+        "State": "Minnesota",
+        "Population": "5707390",
+        "Type1": "Asylees",
+        "Value": "240",
+        "ValueC": "0.004205074"
+      },
+      {
+        "State": "Mississippi",
+        "Population": "2949965",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "1165",
+        "ValueC": "0.039491994"
+      },
+      {
+        "State": "Mississippi",
+        "Population": "2949965",
+        "Type1": "Nonimmigrants",
+        "Value": "23049",
+        "ValueC": "0.781331304"
+      },
+      {
+        "State": "Mississippi",
+        "Population": "2949965",
+        "Type1": "Naturalizations",
+        "Value": "951",
+        "ValueC": "0.032237671"
+      },
+      {
+        "State": "Mississippi",
+        "Population": "2949965",
+        "Type1": "Refugees",
+        "Value": "0",
+        "ValueC": "0"
+      },
+      {
+        "State": "Mississippi",
+        "Population": "2949965",
+        "Type1": "Asylees",
+        "Value": "71",
+        "ValueC": "0.002406808"
+      },
+      {
+        "State": "Missouri",
+        "Population": "6168187",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "5002",
+        "ValueC": "0.081093521"
+      },
+      {
+        "State": "Missouri",
+        "Population": "6168187",
+        "Type1": "Nonimmigrants",
+        "Value": "46900",
+        "ValueC": "0.760353083"
+      },
+      {
+        "State": "Missouri",
+        "Population": "6168187",
+        "Type1": "Naturalizations",
+        "Value": "4540",
+        "ValueC": "0.073603475"
+      },
+      {
+        "State": "Missouri",
+        "Population": "6168187",
+        "Type1": "Refugees",
+        "Value": "290",
+        "ValueC": "0.004701544"
+      },
+      {
+        "State": "Missouri",
+        "Population": "6168187",
+        "Type1": "Asylees",
+        "Value": "91",
+        "ValueC": "0.001475312"
+      },
+      {
+        "State": "Montana",
+        "Population": "1104271",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "404",
+        "ValueC": "0.036585222"
+      },
+      {
+        "State": "Montana",
+        "Population": "1104271",
+        "Type1": "Nonimmigrants",
+        "Value": "13403",
+        "ValueC": "1.213741917"
+      },
+      {
+        "State": "Montana",
+        "Population": "1104271",
+        "Type1": "Naturalizations",
+        "Value": "456",
+        "ValueC": "0.041294211"
+      },
+      {
+        "State": "Montana",
+        "Population": "1104271",
+        "Type1": "Refugees",
+        "Value": "39",
+        "ValueC": "0.003531742"
+      },
+      {
+        "State": "Montana",
+        "Population": "1104271",
+        "Type1": "Asylees",
+        "Value": "4",
+        "ValueC": "0.00036223"
+      },
+      {
+        "State": "Nebraska",
+        "Population": "1963692",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "2915",
+        "ValueC": "0.148444868"
+      },
+      {
+        "State": "Nebraska",
+        "Population": "1963692",
+        "Type1": "Nonimmigrants",
+        "Value": "76023",
+        "ValueC": "3.871431976"
+      },
+      {
+        "State": "Nebraska",
+        "Population": "1963692",
+        "Type1": "Naturalizations",
+        "Value": "2655",
+        "ValueC": "0.135204503"
+      },
+      {
+        "State": "Nebraska",
+        "Population": "1963692",
+        "Type1": "Refugees",
+        "Value": "125",
+        "ValueC": "0.00636556"
+      },
+      {
+        "State": "Nebraska",
+        "Population": "1963692",
+        "Type1": "Asylees",
+        "Value": "51",
+        "ValueC": "0.002597149"
+      },
+      {
+        "State": "Nevada",
+        "Population": "3143991",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "7290",
+        "ValueC": "0.231870893"
+      },
+      {
+        "State": "Nevada",
+        "Population": "3143991",
+        "Type1": "Nonimmigrants",
+        "Value": "251956",
+        "ValueC": "8.013890625"
+      },
+      {
+        "State": "Nevada",
+        "Population": "3143991",
+        "Type1": "Naturalizations",
+        "Value": "8061",
+        "ValueC": "0.256393864"
+      },
+      {
+        "State": "Nevada",
+        "Population": "3143991",
+        "Type1": "Refugees",
+        "Value": "97",
+        "ValueC": "0.003085251"
+      },
+      {
+        "State": "Nevada",
+        "Population": "3143991",
+        "Type1": "Asylees",
+        "Value": "108",
+        "ValueC": "0.003435124"
+      },
+      {
+        "State": "New Hampshire",
+        "Population": "1388992",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "1675",
+        "ValueC": "0.120591047"
+      },
+      {
+        "State": "New Hampshire",
+        "Population": "1388992",
+        "Type1": "Nonimmigrants",
+        "Value": "13539",
+        "ValueC": "0.974735636"
+      },
+      {
+        "State": "New Hampshire",
+        "Population": "1388992",
+        "Type1": "Naturalizations",
+        "Value": "1960",
+        "ValueC": "0.141109524"
+      },
+      {
+        "State": "New Hampshire",
+        "Population": "1388992",
+        "Type1": "Refugees",
+        "Value": "59",
+        "ValueC": "0.004247685"
+      },
+      {
+        "State": "New Hampshire",
+        "Population": "1388992",
+        "Type1": "Asylees",
+        "Value": "14",
+        "ValueC": "0.001007925"
+      },
+      {
+        "State": "New Jersey",
+        "Population": "9267130",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "37844",
+        "ValueC": "0.408368071"
+      },
+      {
+        "State": "New Jersey",
+        "Population": "9267130",
+        "Type1": "Nonimmigrants",
+        "Value": "364637",
+        "ValueC": "3.934734918"
+      },
+      {
+        "State": "New Jersey",
+        "Population": "9267130",
+        "Type1": "Naturalizations",
+        "Value": "39953",
+        "ValueC": "0.431125926"
+      },
+      {
+        "State": "New Jersey",
+        "Population": "9267130",
+        "Type1": "Refugees",
+        "Value": "72",
+        "ValueC": "0.00077694"
+      },
+      {
+        "State": "New Jersey",
+        "Population": "9267130",
+        "Type1": "Asylees",
+        "Value": "661",
+        "ValueC": "0.007132737"
+      },
+      {
+        "State": "New Mexico",
+        "Population": "2115877",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "2821",
+        "ValueC": "0.13332533"
+      },
+      {
+        "State": "New Mexico",
+        "Population": "2115877",
+        "Type1": "Nonimmigrants",
+        "Value": "28707",
+        "ValueC": "1.356742382"
+      },
+      {
+        "State": "New Mexico",
+        "Population": "2115877",
+        "Type1": "Naturalizations",
+        "Value": "2556",
+        "ValueC": "0.120800973"
+      },
+      {
+        "State": "New Mexico",
+        "Population": "2115877",
+        "Type1": "Refugees",
+        "Value": "36",
+        "ValueC": "0.001701422"
+      },
+      {
+        "State": "New Mexico",
+        "Population": "2115877",
+        "Type1": "Asylees",
+        "Value": "33",
+        "ValueC": "0.001559637"
+      },
+      {
+        "State": "New York",
+        "Population": "19835913",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "76127",
+        "ValueC": "0.383783696"
+      },
+      {
+        "State": "New York",
+        "Population": "19835913",
+        "Type1": "Nonimmigrants",
+        "Value": "1183339",
+        "ValueC": "5.965639192"
+      },
+      {
+        "State": "New York",
+        "Population": "19835913",
+        "Type1": "Naturalizations",
+        "Value": "89989",
+        "ValueC": "0.453667043"
+      },
+      {
+        "State": "New York",
+        "Population": "19835913",
+        "Type1": "Refugees",
+        "Value": "710",
+        "ValueC": "0.003579366"
+      },
+      {
+        "State": "New York",
+        "Population": "19835913",
+        "Type1": "Asylees",
+        "Value": "1954",
+        "ValueC": "0.00985082"
+      },
+      {
+        "State": "North Carolina",
+        "Population": "10551162",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "15732",
+        "ValueC": "0.149102061"
+      },
+      {
+        "State": "North Carolina",
+        "Population": "10551162",
+        "Type1": "Nonimmigrants",
+        "Value": "164368",
+        "ValueC": "1.55781894"
+      },
+      {
+        "State": "North Carolina",
+        "Population": "10551162",
+        "Type1": "Naturalizations",
+        "Value": "13173",
+        "ValueC": "0.124848808"
+      },
+      {
+        "State": "North Carolina",
+        "Population": "10551162",
+        "Type1": "Refugees",
+        "Value": "502",
+        "ValueC": "0.00475777"
+      },
+      {
+        "State": "North Carolina",
+        "Population": "10551162",
+        "Type1": "Asylees",
+        "Value": "259",
+        "ValueC": "0.002454706"
+      },
+      {
+        "State": "North Dakota",
+        "Population": "774948",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "996",
+        "ValueC": "0.128524753"
+      },
+      {
+        "State": "North Dakota",
+        "Population": "774948",
+        "Type1": "Nonimmigrants",
+        "Value": "11443",
+        "ValueC": "1.476615205"
+      },
+      {
+        "State": "North Dakota",
+        "Population": "774948",
+        "Type1": "Naturalizations",
+        "Value": "1324",
+        "ValueC": "0.170850173"
+      },
+      {
+        "State": "North Dakota",
+        "Population": "774948",
+        "Type1": "Refugees",
+        "Value": "30",
+        "ValueC": "0.003871227"
+      },
+      {
+        "State": "North Dakota",
+        "Population": "774948",
+        "Type1": "Asylees",
+        "Value": "4",
+        "ValueC": "0.000516164"
+      },
+      {
+        "State": "Ohio",
+        "Population": "11780017",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "11932",
+        "ValueC": "0.101290176"
+      },
+      {
+        "State": "Ohio",
+        "Population": "11780017",
+        "Type1": "Nonimmigrants",
+        "Value": "104930",
+        "ValueC": "0.890745743"
+      },
+      {
+        "State": "Ohio",
+        "Population": "11780017",
+        "Type1": "Naturalizations",
+        "Value": "11284",
+        "ValueC": "0.095789335"
+      },
+      {
+        "State": "Ohio",
+        "Population": "11780017",
+        "Type1": "Refugees",
+        "Value": "453",
+        "ValueC": "0.003845495"
+      },
+      {
+        "State": "Ohio",
+        "Population": "11780017",
+        "Type1": "Asylees",
+        "Value": "337",
+        "ValueC": "0.002860777"
+      },
+      {
+        "State": "Oklahoma",
+        "Population": "3986639",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "3703",
+        "ValueC": "0.09288526"
+      },
+      {
+        "State": "Oklahoma",
+        "Population": "3986639",
+        "Type1": "Nonimmigrants",
+        "Value": "32595",
+        "ValueC": "0.817606008"
+      },
+      {
+        "State": "Oklahoma",
+        "Population": "3986639",
+        "Type1": "Naturalizations",
+        "Value": "3695",
+        "ValueC": "0.09268459"
+      },
+      {
+        "State": "Oklahoma",
+        "Population": "3986639",
+        "Type1": "Refugees",
+        "Value": "25",
+        "ValueC": "0.000627095"
+      },
+      {
+        "State": "Oklahoma",
+        "Population": "3986639",
+        "Type1": "Asylees",
+        "Value": "26",
+        "ValueC": "0.000652178"
+      },
+      {
+        "State": "Oregon",
+        "Population": "4246155",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "6381",
+        "ValueC": "0.150277133"
+      },
+      {
+        "State": "Oregon",
+        "Population": "4246155",
+        "Type1": "Nonimmigrants",
+        "Value": "63444",
+        "ValueC": "1.494151768"
+      },
+      {
+        "State": "Oregon",
+        "Population": "4246155",
+        "Type1": "Naturalizations",
+        "Value": "6422",
+        "ValueC": "0.151242713"
+      },
+      {
+        "State": "Oregon",
+        "Population": "4246155",
+        "Type1": "Refugees",
+        "Value": "138",
+        "ValueC": "0.003249999"
+      },
+      {
+        "State": "Oregon",
+        "Population": "4246155",
+        "Type1": "Asylees",
+        "Value": "34",
+        "ValueC": "0.000800724"
+      },
+      {
+        "State": "Pennsylvania",
+        "Population": "12964056",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "17306",
+        "ValueC": "0.133492173"
+      },
+      {
+        "State": "Pennsylvania",
+        "Population": "12964056",
+        "Type1": "Nonimmigrants",
+        "Value": "159304",
+        "ValueC": "1.228812958"
+      },
+      {
+        "State": "Pennsylvania",
+        "Population": "12964056",
+        "Type1": "Naturalizations",
+        "Value": "19693",
+        "ValueC": "0.15190462"
+      },
+      {
+        "State": "Pennsylvania",
+        "Population": "12964056",
+        "Type1": "Refugees",
+        "Value": "402",
+        "ValueC": "0.003100881"
+      },
+      {
+        "State": "Pennsylvania",
+        "Population": "12964056",
+        "Type1": "Asylees",
+        "Value": "460",
+        "ValueC": "0.003548272"
+      },
+      {
+        "State": "Puerto Rico",
+        "Population": "3263584",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "1326",
+        "ValueC": "0.040630178"
+      },
+      {
+        "State": "Puerto Rico",
+        "Population": "3263584",
+        "Type1": "Nonimmigrants",
+        "Value": "30833",
+        "ValueC": "0.944758891"
+      },
+      {
+        "State": "Puerto Rico",
+        "Population": "3263584",
+        "Type1": "Naturalizations",
+        "Value": "1174",
+        "ValueC": "0.035972722"
+      },
+      {
+        "State": "Puerto Rico",
+        "Population": "3263584",
+        "Type1": "Refugees",
+        "Value": "0",
+        "ValueC": "0"
+      },
+      {
+        "State": "Puerto Rico",
+        "Population": "3263584",
+        "Type1": "Asylees",
+        "Value": "11",
+        "ValueC": "0.000337053"
+      },
+      {
+        "State": "Rhode Island",
+        "Population": "1095610",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "2218",
+        "ValueC": "0.2024443"
+      },
+      {
+        "State": "Rhode Island",
+        "Population": "1095610",
+        "Type1": "Nonimmigrants",
+        "Value": "18613",
+        "ValueC": "1.698870949"
+      },
+      {
+        "State": "Rhode Island",
+        "Population": "1095610",
+        "Type1": "Naturalizations",
+        "Value": "2979",
+        "ValueC": "0.271903323"
+      },
+      {
+        "State": "Rhode Island",
+        "Population": "1095610",
+        "Type1": "Refugees",
+        "Value": "47",
+        "ValueC": "0.004289848"
+      },
+      {
+        "State": "Rhode Island",
+        "Population": "1095610",
+        "Type1": "Asylees",
+        "Value": "41",
+        "ValueC": "0.003742208"
+      },
+      {
+        "State": "South Carolina",
+        "Population": "5190705",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "4378",
+        "ValueC": "0.084343071"
+      },
+      {
+        "State": "South Carolina",
+        "Population": "5190705",
+        "Type1": "Nonimmigrants",
+        "Value": "56713",
+        "ValueC": "1.092587616"
+      },
+      {
+        "State": "South Carolina",
+        "Population": "5190705",
+        "Type1": "Naturalizations",
+        "Value": "2544",
+        "ValueC": "0.049010684"
+      },
+      {
+        "State": "South Carolina",
+        "Population": "5190705",
+        "Type1": "Refugees",
+        "Value": "99",
+        "ValueC": "0.001907255"
+      },
+      {
+        "State": "South Carolina",
+        "Population": "5190705",
+        "Type1": "Asylees",
+        "Value": "37",
+        "ValueC": "0.000712813"
+      },
+      {
+        "State": "South Dakota",
+        "Population": "895376",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "681",
+        "ValueC": "0.076057433"
+      },
+      {
+        "State": "South Dakota",
+        "Population": "895376",
+        "Type1": "Nonimmigrants",
+        "Value": "7640",
+        "ValueC": "0.853272815"
+      },
+      {
+        "State": "South Dakota",
+        "Population": "895376",
+        "Type1": "Naturalizations",
+        "Value": "960",
+        "ValueC": "0.107217526"
+      },
+      {
+        "State": "South Dakota",
+        "Population": "895376",
+        "Type1": "Refugees",
+        "Value": "51",
+        "ValueC": "0.005695931"
+      },
+      {
+        "State": "South Dakota",
+        "Population": "895376",
+        "Type1": "Asylees",
+        "Value": "10",
+        "ValueC": "0.001116849"
+      },
+      {
+        "State": "Tennessee",
+        "Population": "6975218",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "7277",
+        "ValueC": "0.104326488"
+      },
+      {
+        "State": "Tennessee",
+        "Population": "6975218",
+        "Type1": "Nonimmigrants",
+        "Value": "75300",
+        "ValueC": "1.079536152"
+      },
+      {
+        "State": "Tennessee",
+        "Population": "6975218",
+        "Type1": "Naturalizations",
+        "Value": "4625",
+        "ValueC": "0.066306171"
+      },
+      {
+        "State": "Tennessee",
+        "Population": "6975218",
+        "Type1": "Refugees",
+        "Value": "315",
+        "ValueC": "0.004515988"
+      },
+      {
+        "State": "Tennessee",
+        "Population": "6975218",
+        "Type1": "Asylees",
+        "Value": "78",
+        "ValueC": "0.001118245"
+      },
+      {
+        "State": "Texas",
+        "Population": "29527941",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "78873",
+        "ValueC": "0.267113105"
+      },
+      {
+        "State": "Texas",
+        "Population": "29527941",
+        "Type1": "Nonimmigrants",
+        "Value": "2002632",
+        "ValueC": "6.782159311"
+      },
+      {
+        "State": "Texas",
+        "Population": "29527941",
+        "Type1": "Naturalizations",
+        "Value": "77025",
+        "ValueC": "0.260854626"
+      },
+      {
+        "State": "Texas",
+        "Population": "29527941",
+        "Type1": "Refugees",
+        "Value": "929",
+        "ValueC": "0.003146173"
+      },
+      {
+        "State": "Texas",
+        "Population": "29527941",
+        "Type1": "Asylees",
+        "Value": "803",
+        "ValueC": "0.002719458"
+      },
+      {
+        "State": "Utah",
+        "Population": "3337975",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "5552",
+        "ValueC": "0.166328388"
+      },
+      {
+        "State": "Utah",
+        "Population": "3337975",
+        "Type1": "Nonimmigrants",
+        "Value": "65486",
+        "ValueC": "1.961848126"
+      },
+      {
+        "State": "Utah",
+        "Population": "3337975",
+        "Type1": "Naturalizations",
+        "Value": "3961",
+        "ValueC": "0.118664759"
+      },
+      {
+        "State": "Utah",
+        "Population": "3337975",
+        "Type1": "Refugees",
+        "Value": "183",
+        "ValueC": "0.005482366"
+      },
+      {
+        "State": "Utah",
+        "Population": "3337975",
+        "Type1": "Asylees",
+        "Value": "225",
+        "ValueC": "0.006740614"
+      },
+      {
+        "State": "Vermont",
+        "Population": "645570",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "423",
+        "ValueC": "0.065523491"
+      },
+      {
+        "State": "Vermont",
+        "Population": "645570",
+        "Type1": "Nonimmigrants",
+        "Value": "12962",
+        "ValueC": "2.007838035"
+      },
+      {
+        "State": "Vermont",
+        "Population": "645570",
+        "Type1": "Naturalizations",
+        "Value": "591",
+        "ValueC": "0.091547005"
+      },
+      {
+        "State": "Vermont",
+        "Population": "645570",
+        "Type1": "Refugees",
+        "Value": "47",
+        "ValueC": "0.007280388"
+      },
+      {
+        "State": "Vermont",
+        "Population": "645570",
+        "Type1": "Asylees",
+        "Value": "N/A",
+        "ValueC": "N/A"
+      },
+      {
+        "State": "Virginia",
+        "Population": "8642274",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "20428",
+        "ValueC": "0.236372973"
+      },
+      {
+        "State": "Virginia",
+        "Population": "8642274",
+        "Type1": "Nonimmigrants",
+        "Value": "152928",
+        "ValueC": "1.769534268"
+      },
+      {
+        "State": "Virginia",
+        "Population": "8642274",
+        "Type1": "Naturalizations",
+        "Value": "20732",
+        "ValueC": "0.239890566"
+      },
+      {
+        "State": "Virginia",
+        "Population": "8642274",
+        "Type1": "Refugees",
+        "Value": "272",
+        "ValueC": "0.00314732"
+      },
+      {
+        "State": "Virginia",
+        "Population": "8642274",
+        "Type1": "Asylees",
+        "Value": "777",
+        "ValueC": "0.008990689"
+      },
+      {
+        "State": "Washington",
+        "Population": "7738692",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "22145",
+        "ValueC": "0.28615947"
+      },
+      {
+        "State": "Washington",
+        "Population": "7738692",
+        "Type1": "Nonimmigrants",
+        "Value": "243103",
+        "ValueC": "3.141396505"
+      },
+      {
+        "State": "Washington",
+        "Population": "7738692",
+        "Type1": "Naturalizations",
+        "Value": "19511",
+        "ValueC": "0.25212271"
+      },
+      {
+        "State": "Washington",
+        "Population": "7738692",
+        "Type1": "Refugees",
+        "Value": "480",
+        "ValueC": "0.006202599"
+      },
+      {
+        "State": "Washington",
+        "Population": "7738692",
+        "Type1": "Asylees",
+        "Value": "335",
+        "ValueC": "0.004328897"
+      },
+      {
+        "State": "West Virginia",
+        "Population": "1782959",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "494",
+        "ValueC": "0.02770675"
+      },
+      {
+        "State": "West Virginia",
+        "Population": "1782959",
+        "Type1": "Nonimmigrants",
+        "Value": "8205",
+        "ValueC": "0.460190055"
+      },
+      {
+        "State": "West Virginia",
+        "Population": "1782959",
+        "Type1": "Naturalizations",
+        "Value": "486",
+        "ValueC": "0.027258058"
+      },
+      {
+        "State": "West Virginia",
+        "Population": "1782959",
+        "Type1": "Refugees",
+        "Value": "N/A",
+        "ValueC": "N/A"
+      },
+      {
+        "State": "West Virginia",
+        "Population": "1782959",
+        "Type1": "Asylees",
+        "Value": "5",
+        "ValueC": "0.000280433"
+      },
+      {
+        "State": "Wisconsin",
+        "Population": "5895908",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "5025",
+        "ValueC": "0.085228603"
+      },
+      {
+        "State": "Wisconsin",
+        "Population": "5895908",
+        "Type1": "Nonimmigrants",
+        "Value": "49929",
+        "ValueC": "0.846841572"
+      },
+      {
+        "State": "Wisconsin",
+        "Population": "5895908",
+        "Type1": "Naturalizations",
+        "Value": "5029",
+        "ValueC": "0.085296446"
+      },
+      {
+        "State": "Wisconsin",
+        "Population": "5895908",
+        "Type1": "Refugees",
+        "Value": "371",
+        "ValueC": "0.0062925"
+      },
+      {
+        "State": "Wisconsin",
+        "Population": "5895908",
+        "Type1": "Asylees",
+        "Value": "146",
+        "ValueC": "0.002476294"
+      },
+      {
+        "State": "Wyoming",
+        "Population": "578803",
+        "Type1": "Lawful Permanent Residents",
+        "Value": "280",
+        "ValueC": "0.0483757"
+      },
+      {
+        "State": "Wyoming",
+        "Population": "578803",
+        "Type1": "Nonimmigrants",
+        "Value": "5827",
+        "ValueC": "1.006732861"
+      },
+      {
+        "State": "Wyoming",
+        "Population": "578803",
+        "Type1": "Naturalizations",
+        "Value": "227",
+        "ValueC": "0.039218871"
+      },
+      {
+        "State": "Wyoming",
+        "Population": "578803",
+        "Type1": "Refugees",
+        "Value": "0",
+        "ValueC": "0"
+      },
+      {
+        "State": "Wyoming",
+        "Population": "578803",
+        "Type1": "Asylees",
+        "Value": "0",
+        "ValueC": "0"
+      }
+    ]
+  },
+  "title": {
+    "fontSize": 13,
+    "subtitleFontSize": 13,
+    "text": "Total Immigrants by State as percentage of population",
+    "subtitle": [
+      "Source: Homeland Security",
+      ""
+    ],
+    "anchor": "start"
+  },
+  "width": 800,
+  "height": 800,
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "y": {
+      "field": "State",
+      "sort": {
+        "op": "sum",
+        "order": "ascending",
+        "field": "ValueC"
+      },
+      "axis": {
+        "title": null
+      }
+    },
+    "x": {
+      "aggregate": "sum",
+      "field": "ValueC",
+      "axis": {
+        "title": "Migration as % of State Population"
+      }
+    },
+    "color": {
+      "field": "Type1",
+      "legend": {
+        "orient": "none",
+        "columns": 13,
+        "legendX": -100,
+        "legendY": -30,
+        "offset": 10,
+        "title": null
+      }
+    },
+    "tooltip": [
+      {
+        "field": "ValueC",
+        "title": "Migration as % of State Population"
+      }
+    ]
+  }
+}

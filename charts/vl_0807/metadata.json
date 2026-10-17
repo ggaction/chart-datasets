@@ -1,0 +1,124 @@
+{
+  "id": "vl_0807",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "4538f5d955c033c215acdffbb31b3b12db8bfec8b7403e7d53bfcbc6f8534b0b",
+      "actions": 17,
+      "topOptions": 44
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "977a7ad5289f414012121129129770b28ed605d72e2c94cfca4b33e9caeb85b6",
+      "actions": 19,
+      "topOptions": 48
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "aa9eff50aabbc51db3edbabb3fa96c40dbdc82386583080abfe8ba700748a48f",
+      "actions": 20,
+      "topOptions": 49
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c40583272bcd1e0a66ce837d4840d1489e2f5d38ce4568e354392c950b302c54",
+      "actions": 22,
+      "topOptions": 52
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "b23b4ef634a0e84eb4d6ed356f2a62246f9f084d17000039ebaa56d59c260d64",
+      "actions": 23,
+      "topOptions": 56
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ee8199530bec06683685dac22e2580ab9305f69e2a146f3bdc83a01eb197119d",
+      "actions": 24,
+      "topOptions": 58
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d7dc32493baf480a966188f15f4537e6d550ef3a1c76460f0a7f8be7eb4f1766",
+      "actions": 26,
+      "topOptions": 62
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "5d0e1b81a23ef0498e7d0804f65f63aacf568b5d04d7c4c7a342b925f6da6a83",
+      "actions": 30,
+      "topOptions": 62
+    }
+  ],
+  "sourceUrls": [
+    "https://gist.githubusercontent.com/khang-dao/6de62fe05acaffae40ec138c9bbae6f7/raw/06c60fb3ea1ef680ccfbaebbdfa63a116eff88ac/olympics-1986-2016-cleaned-2.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original source and accepted family reread: 550 typed raw rows, all 76 stacked intervals computed before split into 73 painted and three transparent row layers; exact frozen 900x200 plot, typography, guides, legend and native default spacing. G8 decomposes paired whole-axis paint editors into focused line, tick and title editors. Normal source-bound lowering and exact family output checks pass. Eight meaningful stages reached without claiming frontier exhaustion."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "53d53f84b3987f1f4ed89ab59b080633e1d541f4c87dba7964b997e3e32e6158",
+      "bytes": 1200
+    },
+    "data.json": {
+      "sha256": "9073a737d09fea6087fb9d187825ad2010da16717a1017aececb7c18593265fa",
+      "bytes": 27707
+    },
+    "resolved-source.vl.json": {
+      "sha256": "c32073d2ff77aa0eacbc6a6c85662d7c0a5c0b4f8678188f00d949c9873e3b0b",
+      "bytes": 37557
+    },
+    "G1.gg.mjs": {
+      "sha256": "4538f5d955c033c215acdffbb31b3b12db8bfec8b7403e7d53bfcbc6f8534b0b",
+      "bytes": 3440
+    },
+    "G2.gg.mjs": {
+      "sha256": "977a7ad5289f414012121129129770b28ed605d72e2c94cfca4b33e9caeb85b6",
+      "bytes": 3368
+    },
+    "G3.gg.mjs": {
+      "sha256": "aa9eff50aabbc51db3edbabb3fa96c40dbdc82386583080abfe8ba700748a48f",
+      "bytes": 3353
+    },
+    "G4.gg.mjs": {
+      "sha256": "c40583272bcd1e0a66ce837d4840d1489e2f5d38ce4568e354392c950b302c54",
+      "bytes": 3337
+    },
+    "G5.gg.mjs": {
+      "sha256": "b23b4ef634a0e84eb4d6ed356f2a62246f9f084d17000039ebaa56d59c260d64",
+      "bytes": 3273
+    },
+    "G6.gg.mjs": {
+      "sha256": "ee8199530bec06683685dac22e2580ab9305f69e2a146f3bdc83a01eb197119d",
+      "bytes": 3303
+    },
+    "G7.gg.mjs": {
+      "sha256": "d7dc32493baf480a966188f15f4537e6d550ef3a1c76460f0a7f8be7eb4f1766",
+      "bytes": 3365
+    },
+    "G8.gg.mjs": {
+      "sha256": "5d0e1b81a23ef0498e7d0804f65f63aacf568b5d04d7c4c7a342b925f6da6a83",
+      "bytes": 3405
+    },
+    "vega-lite.svg": {
+      "sha256": "788228ced7eadeca967a46805a02557880f3295151a2abef6af76e5067d396df",
+      "bytes": 30503
+    },
+    "ggaction.svg": {
+      "sha256": "430640a81a447e0263e19737e56b0cfc8ee25393a59618b62ac926b5e1573459",
+      "bytes": 23647
+    }
+  }
+}

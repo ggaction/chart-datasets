@@ -1,0 +1,124 @@
+{
+  "id": "vl_0687",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "56dc11502080ec7f5a07bc98f457541a3e21fced13fd800ff296f814e0bd64bb",
+      "actions": 15,
+      "topOptions": 38
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a7fd539872c1d40044cb0516914636682e5d8377022c6565f2378f5d76007291",
+      "actions": 17,
+      "topOptions": 42
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "86169c6eeb86b389b6af4d454b7a3eac5f517315d50e175af2cb409d7bb0913c",
+      "actions": 18,
+      "topOptions": 44
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ced093bf96e155bfb5eb21ec573f5b702632f15e5dc12a4bf8ef8ba8fe362f7c",
+      "actions": 19,
+      "topOptions": 46
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "8c4737f858e1b17efbe295928ebf71b20d4c003a158e3c05dea14e8c0c24108a",
+      "actions": 21,
+      "topOptions": 50
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "30de7f0bdcd847f33298f3679aadf79633e02e87d69458f8281367eb07a57357",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "b2b08b0e9050e891185d1987b29b9c88a8398a41d4de690d4287a3185216f935",
+      "actions": 24,
+      "topOptions": 50
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "be49a425ea983fd9d97f6a10a581f56063a36554a9d372d0b78b06a12d5dd45f",
+      "actions": 24,
+      "topOptions": 50
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/ondata/covid19italia/master/elaborazioni/dpc_covid19/terapiaIntensiva/processing/terapiaIntensivaNaz.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; remaining frontier is disclosed under the authorized8-stage cap; exhaustive lowest-level decomposition is NOT claimed. 8 genuine ownership stages, 451 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Authorized eight-stage cap reached."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "19b8e541ddf68c145783ba1684687eed80b96a060468c7f1bbd83bb679a4406a",
+      "bytes": 1570
+    },
+    "data.json": {
+      "sha256": "42c15ef0ce5676c61062a873c1bceb0682ede44d40c87d42d703a6eea7790d0a",
+      "bytes": 346746
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e7f0273fe87a64515d9bc4c68a8feeaafa60fa588c16c14db861a26430c8ac03",
+      "bytes": 395262
+    },
+    "G1.gg.mjs": {
+      "sha256": "56dc11502080ec7f5a07bc98f457541a3e21fced13fd800ff296f814e0bd64bb",
+      "bytes": 5382
+    },
+    "G2.gg.mjs": {
+      "sha256": "a7fd539872c1d40044cb0516914636682e5d8377022c6565f2378f5d76007291",
+      "bytes": 5400
+    },
+    "G3.gg.mjs": {
+      "sha256": "86169c6eeb86b389b6af4d454b7a3eac5f517315d50e175af2cb409d7bb0913c",
+      "bytes": 5437
+    },
+    "G4.gg.mjs": {
+      "sha256": "ced093bf96e155bfb5eb21ec573f5b702632f15e5dc12a4bf8ef8ba8fe362f7c",
+      "bytes": 5489
+    },
+    "G5.gg.mjs": {
+      "sha256": "8c4737f858e1b17efbe295928ebf71b20d4c003a158e3c05dea14e8c0c24108a",
+      "bytes": 5531
+    },
+    "G6.gg.mjs": {
+      "sha256": "30de7f0bdcd847f33298f3679aadf79633e02e87d69458f8281367eb07a57357",
+      "bytes": 5537
+    },
+    "G7.gg.mjs": {
+      "sha256": "b2b08b0e9050e891185d1987b29b9c88a8398a41d4de690d4287a3185216f935",
+      "bytes": 5523
+    },
+    "G8.gg.mjs": {
+      "sha256": "be49a425ea983fd9d97f6a10a581f56063a36554a9d372d0b78b06a12d5dd45f",
+      "bytes": 5511
+    },
+    "vega-lite.svg": {
+      "sha256": "3716a9fa3eaf8f6534162c4ed967dc2cf4de993207567bbe6f471a61b9cad0b9",
+      "bytes": 590901
+    },
+    "ggaction.svg": {
+      "sha256": "09c5373401bb4c243fde9659b24254b3a99c4a3f6fee555ad02e33762a5eabdd",
+      "bytes": 223661
+    }
+  }
+}

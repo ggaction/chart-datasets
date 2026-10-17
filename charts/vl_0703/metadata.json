@@ -1,0 +1,124 @@
+{
+  "id": "vl_0703",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "be5ef47f80f75b22dc4d447d86ce64d4ae0b691283319e4e408cead0458f50a7",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9cd534f52f408f957f38ab37ceba215c2d901248721c96513410c0a90405e27b",
+      "actions": 18,
+      "topOptions": 37
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b11a8b1004b122b21d6d6ab16a9e2334ab11062cd62d06004732245bf81b0cbf",
+      "actions": 21,
+      "topOptions": 42
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "190693a2b470ed8b8d95d7e2e6589503634253d2bdf9433cb57e5b7834e8d851",
+      "actions": 22,
+      "topOptions": 46
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "a6084cfb0accb68e43eb9f09f34869525ca21b45838b597dc892e969aca6e909",
+      "actions": 24,
+      "topOptions": 52
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b31237197529baf506a9df76c9791d2c16af2153cdc232296fd35f0e0deb31f0",
+      "actions": 25,
+      "topOptions": 54
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "c5583083af2c3c4e8af23270c193f95975ad2b359f827f8c05e16babb7173590",
+      "actions": 31,
+      "topOptions": 59
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "5fa32ef0a514017b9fe0fef8b82a2441a8885842e2de8d131bf1d49427409400",
+      "actions": 32,
+      "topOptions": 62
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/matsim-scenarios/matsim-duesseldorf/b160620ef3d645969b5060b436391be3bc378cb6/src/main/simwrapper/overview/sim_srv.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original source and final G8 program read. All eight equivalent whole-chart programs pass current native/source/global/family verification with all40 ancestor rows,35 nonzero source rectangles and5 zero-area intervals retained, exact two220x200 inner plots, all source guide values/fonts/paint/legend/header and actual Canvas geometry. The cap honestly leaves facet-header and parent-title paint ownership and the semantic bar appearance scaffold; this is an eight-stage cap, not exhaustive decomposition. Original failures and all GLM costs remain preserved, including exact zero-paid G3 retained revalidation; no chart pixels were inspected."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ec0950e7be22592a5b68dc838f13a565b9be2e1a35e9a9757e6d5a753b62b1a6",
+      "bytes": 1061
+    },
+    "data.json": {
+      "sha256": "8e0334bf08a06d10f42bfb1a5e1612379610c7bceb93e4bfd23c0a664561c800",
+      "bytes": 8331
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f15d8f2e95afb204a07a5ceac310dc5a7774a7d536da9717353643dea2b5893e",
+      "bytes": 10846
+    },
+    "G1.gg.mjs": {
+      "sha256": "be5ef47f80f75b22dc4d447d86ce64d4ae0b691283319e4e408cead0458f50a7",
+      "bytes": 5198
+    },
+    "G2.gg.mjs": {
+      "sha256": "9cd534f52f408f957f38ab37ceba215c2d901248721c96513410c0a90405e27b",
+      "bytes": 5278
+    },
+    "G3.gg.mjs": {
+      "sha256": "b11a8b1004b122b21d6d6ab16a9e2334ab11062cd62d06004732245bf81b0cbf",
+      "bytes": 5197
+    },
+    "G4.gg.mjs": {
+      "sha256": "190693a2b470ed8b8d95d7e2e6589503634253d2bdf9433cb57e5b7834e8d851",
+      "bytes": 5157
+    },
+    "G5.gg.mjs": {
+      "sha256": "a6084cfb0accb68e43eb9f09f34869525ca21b45838b597dc892e969aca6e909",
+      "bytes": 5521
+    },
+    "G6.gg.mjs": {
+      "sha256": "b31237197529baf506a9df76c9791d2c16af2153cdc232296fd35f0e0deb31f0",
+      "bytes": 5547
+    },
+    "G7.gg.mjs": {
+      "sha256": "c5583083af2c3c4e8af23270c193f95975ad2b359f827f8c05e16babb7173590",
+      "bytes": 5485
+    },
+    "G8.gg.mjs": {
+      "sha256": "5fa32ef0a514017b9fe0fef8b82a2441a8885842e2de8d131bf1d49427409400",
+      "bytes": 5511
+    },
+    "vega-lite.svg": {
+      "sha256": "fefe3d97008840b9514fe8798dad7ae0f2fb2b19bc2e17bd7f52c67e5e5aac93",
+      "bytes": 23693
+    },
+    "ggaction.svg": {
+      "sha256": "f06b1c7f72777ee3abaed71821ab140406f9e3de4319a7fd54522ade4e3127f3",
+      "bytes": 15114
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_1840",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5b1f2a65fee9ce4b51d40532ca7bfde1e737a554196f3e710abbdcb3fcfa2546",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "8d3ad10336e4624895f1a3108686448855bb598ea50a02938c1bab9a3e6789d0",
+      "actions": 18,
+      "topOptions": 44
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "63bb5fd8561c99f229bd6022c9428bea7d2bc2301f0353eee544e9dd6d5a54a0",
+      "actions": 20,
+      "topOptions": 50
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "03e138deb508ad97478f3dae50778549b306195a3924a4c4fb09657b16658723",
+      "actions": 22,
+      "topOptions": 56
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "6295a277c424f8fa25c339527cb6a872fac80d2e9671cb5fdb1f3bfc5b973caf",
+      "actions": 28,
+      "topOptions": 60
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "34a0ba8e9e143fb10f545b514d37f3670096b246034243b620adce4856619338",
+      "actions": 30,
+      "topOptions": 60
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "0e18351e5709ea1bea9d01177b247c08cb0fe921756e05ee1d90172fbf607bf5",
+      "actions": 33,
+      "topOptions": 67
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "bd974a0b013981ffaf3a17ca334551af8e998275aae6f00028b023fc52c70879",
+      "actions": 35,
+      "topOptions": 70
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/elasComputacao/raio-x-dados/main/data/dados-processados/raca.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full originalsource and complete finalG8 reread; all8accepted codeSHAs+ordinary verification records pass.491typedraw→95source countcircles,5color+8sizesamples/all64glyphs/sourcefonts/712x228plot retained; original910x310sourceCanvas stayscontract, measured native-default layout expands onlyouter/margins to947x376. Pairedaxes/scales/paint andcompletelegend/pointpaint/legendfocusedstyles are real boundaries, no defaultpadding. Source runtime/public exactG7/G8canaries verified eagerfit and samefamily output. Cap8withremainingcharttitlepaint disclosed, noexhaustionclaim; allpaidfailurehistory retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "d915aa09a3be4293426f7baf4bdc17ef27ac182a745e9bf66c549180a0b4f1f9",
+      "bytes": 1846
+    },
+    "data.json": {
+      "sha256": "fdf9bcb727b1d8ca4eaa364942c499892410649846f953c786bb862458718c91",
+      "bytes": 42155
+    },
+    "resolved-source.vl.json": {
+      "sha256": "4a9a18a63a1710e75063395d3ecaadefa1e3aa409e6ddbc64068b56c6a8c18b8",
+      "bytes": 53728
+    },
+    "G1.gg.mjs": {
+      "sha256": "5b1f2a65fee9ce4b51d40532ca7bfde1e737a554196f3e710abbdcb3fcfa2546",
+      "bytes": 4349
+    },
+    "G2.gg.mjs": {
+      "sha256": "8d3ad10336e4624895f1a3108686448855bb598ea50a02938c1bab9a3e6789d0",
+      "bytes": 4285
+    },
+    "G3.gg.mjs": {
+      "sha256": "63bb5fd8561c99f229bd6022c9428bea7d2bc2301f0353eee544e9dd6d5a54a0",
+      "bytes": 4211
+    },
+    "G4.gg.mjs": {
+      "sha256": "03e138deb508ad97478f3dae50778549b306195a3924a4c4fb09657b16658723",
+      "bytes": 4377
+    },
+    "G5.gg.mjs": {
+      "sha256": "6295a277c424f8fa25c339527cb6a872fac80d2e9671cb5fdb1f3bfc5b973caf",
+      "bytes": 4403
+    },
+    "G6.gg.mjs": {
+      "sha256": "34a0ba8e9e143fb10f545b514d37f3670096b246034243b620adce4856619338",
+      "bytes": 4445
+    },
+    "G7.gg.mjs": {
+      "sha256": "0e18351e5709ea1bea9d01177b247c08cb0fe921756e05ee1d90172fbf607bf5",
+      "bytes": 4367
+    },
+    "G8.gg.mjs": {
+      "sha256": "bd974a0b013981ffaf3a17ca334551af8e998275aae6f00028b023fc52c70879",
+      "bytes": 4369
+    },
+    "vega-lite.svg": {
+      "sha256": "39213faf97c982e65fa7af9f31ba751ef0c46e1d9cfc72105f22801709e4e9bf",
+      "bytes": 59800
+    },
+    "ggaction.svg": {
+      "sha256": "80e1026adb9e3db81e3ecb7d9dd4e6e0e6994b96a280d39393b561a3726c4271",
+      "bytes": 33149
+    }
+  }
+}

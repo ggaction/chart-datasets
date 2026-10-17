@@ -1,0 +1,122 @@
+{
+  "id": "vl_1240",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "bc11c5d9308c4e33e9bafaa4fa9f7ce1320d056b891e9551de19116bbe5075fc",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "29751c9d7b60621d41cc7440402817a772be4f69770a75730eff77dbcc3f5f2d",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a166a95409b7f30b2acbb2b2d6acffbe297f7f1f27c255f80fad86ca7124b962",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f98085243f22a35dd9a4506ae404e992e272a29db9b538ac938e0208cf054a06",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "360c206204379472a56f2f8b4bed5aec12198e0c5679baae14faaa85d1749a66",
+      "actions": 16,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ad373c385e0eea3ac7fabc13fc5df3a526c3b2a9620b4dee385370b04ebd1e3a",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "a83153f43658803a598e9e0bcb49ce5f3eec8e4ebdab8bda399f9736fb7322ae",
+      "actions": 19,
+      "topOptions": 40
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "8f9b9c347c34577fe2867d07bcc618645f2287cf9dc7e0e5b04e678713967953",
+      "actions": 25,
+      "topOptions": 44
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct GLM programs: full source repeat chart; full position/color scales; guide families; paired complete axes; paired grid paint; paired whole-axis style; focused legend-label paint; paired focused axis components. All8 original raw rows/40foldvertices/5linepaths/full10color palette/20actual glyphs preserved, own-G1 SVG/PNG exact in every stage. Maximum8 reached; remaining legend symbol refinement not claimed exhausted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "66cfd18d03b032819f0ca1f81b3fb5d00baed6dd8600b7ebac78e0fe99c472ca",
+      "bytes": 1846
+    },
+    "data.json": {
+      "sha256": "fa576ca193fbdba4859ad603b44b9ef7a765eb22a0d8cc36fd667a7644d6416d",
+      "bytes": 949
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e687c87d0356075a3c6792ae5b90bce93489b0fceed17135cdfb42184cf7acc5",
+      "bytes": 1841
+    },
+    "G1.gg.mjs": {
+      "sha256": "bc11c5d9308c4e33e9bafaa4fa9f7ce1320d056b891e9551de19116bbe5075fc",
+      "bytes": 4381
+    },
+    "G2.gg.mjs": {
+      "sha256": "29751c9d7b60621d41cc7440402817a772be4f69770a75730eff77dbcc3f5f2d",
+      "bytes": 4412
+    },
+    "G3.gg.mjs": {
+      "sha256": "a166a95409b7f30b2acbb2b2d6acffbe297f7f1f27c255f80fad86ca7124b962",
+      "bytes": 4352
+    },
+    "G4.gg.mjs": {
+      "sha256": "f98085243f22a35dd9a4506ae404e992e272a29db9b538ac938e0208cf054a06",
+      "bytes": 4312
+    },
+    "G5.gg.mjs": {
+      "sha256": "360c206204379472a56f2f8b4bed5aec12198e0c5679baae14faaa85d1749a66",
+      "bytes": 4370
+    },
+    "G6.gg.mjs": {
+      "sha256": "ad373c385e0eea3ac7fabc13fc5df3a526c3b2a9620b4dee385370b04ebd1e3a",
+      "bytes": 4536
+    },
+    "G7.gg.mjs": {
+      "sha256": "a83153f43658803a598e9e0bcb49ce5f3eec8e4ebdab8bda399f9736fb7322ae",
+      "bytes": 4562
+    },
+    "G8.gg.mjs": {
+      "sha256": "8f9b9c347c34577fe2867d07bcc618645f2287cf9dc7e0e5b04e678713967953",
+      "bytes": 4588
+    },
+    "vega-lite.svg": {
+      "sha256": "e5c6a56f9d1d8a3977f122589a2027689e0bdca0c439ab5ecbfaefb06a1425c2",
+      "bytes": 13012
+    },
+    "ggaction.svg": {
+      "sha256": "086e42bae55564fa9de6a454c298b5e14ef5fe28ef4df03d3172c2ae36b8c4af",
+      "bytes": 9398
+    }
+  }
+}

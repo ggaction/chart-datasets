@@ -1,0 +1,113 @@
+{
+  "id": "vl_0619",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5eec0c0f323e60aca558dcac90001e76e69b23b92e3c72cbee60dc9865082049",
+      "actions": 22,
+      "topOptions": 49
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "98b5e80faf190a24c57a2a912161ddd9dfa052d519251d540efd302082296685",
+      "actions": 23,
+      "topOptions": 53
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "f0c131129450468047290ec51e6a7b408a792d49b08707fc1cf5b54076cbbe26",
+      "actions": 24,
+      "topOptions": 55
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a9c07af111c31e2e09871f279080a1e355239f24b44a3b400b34f34ab400a97a",
+      "actions": 25,
+      "topOptions": 57
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "6902801ca2db8bf8e1ed82814163fa069366261a994fd3dd51d73edcb27896f0",
+      "actions": 27,
+      "topOptions": 59
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "f40e488fc7f35dc1a45ffc57e5cd590ef7a8b4b85652739f284b164d5ed1bdeb",
+      "actions": 29,
+      "topOptions": 61
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "f1b8874ff20ee4ae8fe209b1592cf1031b1641c035712f2c5e91f75c8534aede",
+      "actions": 31,
+      "topOptions": 61
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/ch2_Growth/solowModel.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex full source and final G7 program reread after reviewing every exact GLM diff. All source raw101 rows and202 folded line/duplicate constant rule rows, coordinates, paints, title/subtitle hardlines, guide policies and frozen plot preserved. Concrete mandatory ownership frontier is empty. Optional legend symbol recipe remains at creation because the actual native default recipe caused10.8px Canvas overflow; moving it is not a valid refinement under unchanged source geometry. Stop honestly at7 rather than padding; all failed requests and usage retained, zero API for this host stop."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "c8a119ce5559782f10d69bff9072837b5ca5f1437a2911ee7febbb4fda562726",
+      "bytes": 1471
+    },
+    "data.json": {
+      "sha256": "bd3b32449d9b67933b8913135a7abc64542140da5033d5923fb4d02c72089e02",
+      "bytes": 26589
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a9f76a32d40acfca0d0b321424f3105d9ce28fa9e1f97835aaa1d98898c8deb4",
+      "bytes": 33682
+    },
+    "G1.gg.mjs": {
+      "sha256": "5eec0c0f323e60aca558dcac90001e76e69b23b92e3c72cbee60dc9865082049",
+      "bytes": 2352
+    },
+    "G2.gg.mjs": {
+      "sha256": "98b5e80faf190a24c57a2a912161ddd9dfa052d519251d540efd302082296685",
+      "bytes": 2388
+    },
+    "G3.gg.mjs": {
+      "sha256": "f0c131129450468047290ec51e6a7b408a792d49b08707fc1cf5b54076cbbe26",
+      "bytes": 2437
+    },
+    "G4.gg.mjs": {
+      "sha256": "a9c07af111c31e2e09871f279080a1e355239f24b44a3b400b34f34ab400a97a",
+      "bytes": 2479
+    },
+    "G5.gg.mjs": {
+      "sha256": "6902801ca2db8bf8e1ed82814163fa069366261a994fd3dd51d73edcb27896f0",
+      "bytes": 2591
+    },
+    "G6.gg.mjs": {
+      "sha256": "f40e488fc7f35dc1a45ffc57e5cd590ef7a8b4b85652739f284b164d5ed1bdeb",
+      "bytes": 2605
+    },
+    "G7.gg.mjs": {
+      "sha256": "f1b8874ff20ee4ae8fe209b1592cf1031b1641c035712f2c5e91f75c8534aede",
+      "bytes": 2591
+    },
+    "vega-lite.svg": {
+      "sha256": "02eb059cdb4dc5aa67d8ddd7e22677479fb41400d70a7355f19fec499072204f",
+      "bytes": 37410
+    },
+    "ggaction.svg": {
+      "sha256": "82f680ed89ccca3b3bedabc7d8e9f4b49e04831edddc884d8c02dd0b2a83024d",
+      "bytes": 38004
+    }
+  }
+}

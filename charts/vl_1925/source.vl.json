@@ -1,0 +1,85 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Covid-19 data, from ECDC",
+  "data": {
+    "url": "https://raw.githubusercontent.com/RDeconomist/vega/master/db_ecdc_wide.csv"
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "country",
+        "oneOf": [
+          "UK",
+          "France",
+          "Germany",
+          "Portugal",
+          "Spain",
+          "Italy",
+          "Ireland",
+          "Austria",
+          "Switzerland"
+        ]
+      }
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "cases_cml",
+      "type": "quantitative",
+      "axis": {
+        "title": "Cases",
+        "grid": false,
+        "tickCount": 14,
+        "labelOverlap": "greedy"
+      }
+    },
+    "y": {
+      "field": "deaths_cml",
+      "type": "quantitative",
+      "axis": {
+        "title": "Deaths",
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "country",
+      "type": "nominal",
+      "scale": {
+        "scheme": "inferno"
+      }
+    },
+    "size": {
+      "value": 30
+    },
+    "tooltip": [
+      {
+        "field": "date2",
+        "type": "temporal",
+        "title": "Date"
+      },
+      {
+        "field": "country",
+        "type": "nominal"
+      }
+    ]
+  },
+  "title": {
+    "text": "COVID-19 - CASES AND DEATHS, WITH COUNTRY SELECTOR",
+    "anchor": "start",
+    "color": "black"
+  },
+  "config": {
+    "background": "#FcFdFd"
+  },
+  "height": 400,
+  "width": 600,
+  "mark": {
+    "type": "circle",
+    "opacity": 1.0,
+    "color": "red",
+    "point": {
+      "color": "black",
+      "size": 0.0
+    }
+  }
+}

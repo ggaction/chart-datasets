@@ -1,0 +1,197 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Borrowing levels in relation to global GDP",
+    "subtitle": "The outstadning credit levels of the IMF in relation to global GDP levels",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Date": "2022",
+        "numbers": "0.012113758"
+      },
+      {
+        "Date": "2021",
+        "numbers": "0.01182152"
+      },
+      {
+        "Date": "2020",
+        "numbers": "0.012500348"
+      },
+      {
+        "Date": "2019",
+        "numbers": "0.008452453"
+      },
+      {
+        "Date": "2018",
+        "numbers": "0.007188581"
+      },
+      {
+        "Date": "2017",
+        "numbers": "0.005692305"
+      },
+      {
+        "Date": "2016",
+        "numbers": "0.007335563"
+      },
+      {
+        "Date": "2015",
+        "numbers": "0.0076445"
+      },
+      {
+        "Date": "2014",
+        "numbers": "0.00953599"
+      },
+      {
+        "Date": "2013",
+        "numbers": "0.011697876"
+      },
+      {
+        "Date": "2012",
+        "numbers": "0.012774485"
+      },
+      {
+        "Date": "2011",
+        "numbers": "0.012682949"
+      },
+      {
+        "Date": "2010",
+        "numbers": "0.009157492"
+      },
+      {
+        "Date": "2009",
+        "numbers": "0.007050141"
+      },
+      {
+        "Date": "2008",
+        "numbers": "0.003410688"
+      },
+      {
+        "Date": "2007",
+        "numbers": "0.001695361"
+      },
+      {
+        "Date": "2006",
+        "numbers": "0.002679737"
+      },
+      {
+        "Date": "2005",
+        "numbers": "0.007386014"
+      },
+      {
+        "Date": "2004",
+        "numbers": "0.014451115"
+      },
+      {
+        "Date": "2003",
+        "numbers": "0.018924462"
+      },
+      {
+        "Date": "2002",
+        "numbers": "0.020726391"
+      },
+      {
+        "Date": "2001",
+        "numbers": "0.018152062"
+      },
+      {
+        "Date": "2000",
+        "numbers": "0.014946099"
+      },
+      {
+        "Date": "1999",
+        "numbers": "0.017967543"
+      },
+      {
+        "Date": "1998",
+        "numbers": "0.021528982"
+      },
+      {
+        "Date": "1997",
+        "numbers": "0.01695771"
+      },
+      {
+        "Date": "1996",
+        "numbers": "0.013551317"
+      },
+      {
+        "Date": "1995",
+        "numbers": "0.013862204"
+      },
+      {
+        "Date": "1994",
+        "numbers": "0.011189424"
+      },
+      {
+        "Date": "1993",
+        "numbers": "0.011655815"
+      },
+      {
+        "Date": "1992",
+        "numbers": "0.011108655"
+      },
+      {
+        "Date": "1991",
+        "numbers": "0.011110122"
+      },
+      {
+        "Date": "1990",
+        "numbers": "0.010592619"
+      },
+      {
+        "Date": "1989",
+        "numbers": "0.012324995"
+      },
+      {
+        "Date": "1988",
+        "numbers": "0.013959984"
+      },
+      {
+        "Date": "1987",
+        "numbers": "0.018010778"
+      },
+      {
+        "Date": "1986",
+        "numbers": "0.023565384"
+      },
+      {
+        "Date": "1985",
+        "numbers": "0.031387529"
+      },
+      {
+        "Date": "1984",
+        "numbers": "0.031422206"
+      }
+    ]
+  },
+  "height": 300,
+  "width": 600,
+  "mark": {
+    "type": "bar",
+    "color": "#2b1d70"
+  },
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "nominal",
+      "axis": {
+        "title": null,
+        "grid": false,
+        "ticks": false,
+        "labelAngle": 45
+      }
+    },
+    "y": {
+      "field": "numbers",
+      "type": "quantitative",
+      "title": "",
+      "axis": {
+        "grid": false
+      }
+    }
+  }
+}

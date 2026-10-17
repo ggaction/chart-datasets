@@ -1,0 +1,102 @@
+{
+  "id": "vl_0974",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9d7caa35dce812062974bd0ee427e44e548d89943a16d5315c2ac80750686760",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "d3f10909fc9846b1475ab05aaad2139847bc2f4524f420a0404ca2204cd2c323",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8be4cd37fbfbd445818e561d42ba55b91aa59af54c19f252f6e15e3555d6d8dc",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "b55d59cf4dae052588389fe0d6f82bde802db84ea6e2f06c58cbaa1f78bc1f80",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "a280c106b602dd26d40954fd889bba16d86291d018a1725fa294ce720e235a48",
+      "actions": 19,
+      "topOptions": 41
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "342081181b41829c442faaf88e9c16e91410822d474407f46893f973fe250b8e",
+      "actions": 20,
+      "topOptions": 42
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/harrywright25/harrywright25.github.io/main/data_IMF_creditOutstanding.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Stop after6 meaningful stages. Full original source and final code read: original IMF CSV data and empty raw key retained, source-valid dated observations and mint bar geometry preserve300x300innerplot, source45degree year labels, hidden axis titles, no grids/legend, exact13px bold chart title and10px italic full subtitle. Source fonts remain at creation; title color/weight/normal style moved coherently to focused editor while exact resolved graphics are retained. All current6809 source/native/family checks pass and combined mandatory ownership frontier is empty. This is a Codex host final-review stop, model:null/newModelResponse:false; no model stop or new paid response is claimed."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "06e76517383554b18e8e0d3a91866aa1b261198bdb02127ffead65a82a89a670",
+      "bytes": 902
+    },
+    "data.json": {
+      "sha256": "48d8440d7317188d6e1872651c030725152b92d32ab7e1bb8502f479e0fcf524",
+      "bytes": 12291
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0e13c1e9c15db6782458f1a991eff3013dd0c22821bba6f601b3d287e94121e6",
+      "bytes": 15098
+    },
+    "G1.gg.mjs": {
+      "sha256": "9d7caa35dce812062974bd0ee427e44e548d89943a16d5315c2ac80750686760",
+      "bytes": 2536
+    },
+    "G2.gg.mjs": {
+      "sha256": "d3f10909fc9846b1475ab05aaad2139847bc2f4524f420a0404ca2204cd2c323",
+      "bytes": 2420
+    },
+    "G3.gg.mjs": {
+      "sha256": "8be4cd37fbfbd445818e561d42ba55b91aa59af54c19f252f6e15e3555d6d8dc",
+      "bytes": 2581
+    },
+    "G4.gg.mjs": {
+      "sha256": "b55d59cf4dae052588389fe0d6f82bde802db84ea6e2f06c58cbaa1f78bc1f80",
+      "bytes": 2553
+    },
+    "G5.gg.mjs": {
+      "sha256": "a280c106b602dd26d40954fd889bba16d86291d018a1725fa294ce720e235a48",
+      "bytes": 2500
+    },
+    "G6.gg.mjs": {
+      "sha256": "342081181b41829c442faaf88e9c16e91410822d474407f46893f973fe250b8e",
+      "bytes": 2521
+    },
+    "vega-lite.svg": {
+      "sha256": "2a5511ae13dc71cac77470f93a0fd92cc472fc8c418922594aa9c9dce0062005",
+      "bytes": 14231
+    },
+    "ggaction.svg": {
+      "sha256": "c6d5142fcc8723f4b5542d5ff227c7dc755d01e0450c31470f3f3cd0ef4869ee",
+      "bytes": 9043
+    }
+  }
+}

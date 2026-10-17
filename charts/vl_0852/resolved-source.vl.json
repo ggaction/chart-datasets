@@ -1,0 +1,8874 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Z-scores for online vs in-store stocks",
+    "subtitle": "Weekly data of z-score for selceted firms",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Date": "08/01/2018",
+        "Stock": "Costco",
+        "Value": "-1.353817711"
+      },
+      {
+        "Date": "16/01/2018",
+        "Stock": "Costco",
+        "Value": "-1.330047653"
+      },
+      {
+        "Date": "23/01/2018",
+        "Stock": "Costco",
+        "Value": "-1.315318339"
+      },
+      {
+        "Date": "30/01/2018",
+        "Stock": "Costco",
+        "Value": "-1.280325917"
+      },
+      {
+        "Date": "06/02/2018",
+        "Stock": "Costco",
+        "Value": "-1.380860455"
+      },
+      {
+        "Date": "13/02/2018",
+        "Stock": "Costco",
+        "Value": "-1.387562766"
+      },
+      {
+        "Date": "21/02/2018",
+        "Stock": "Costco",
+        "Value": "-1.371219848"
+      },
+      {
+        "Date": "28/02/2018",
+        "Stock": "Costco",
+        "Value": "-1.330976428"
+      },
+      {
+        "Date": "07/03/2018",
+        "Stock": "Costco",
+        "Value": "-1.358638906"
+      },
+      {
+        "Date": "14/03/2018",
+        "Stock": "Costco",
+        "Value": "-1.379971807"
+      },
+      {
+        "Date": "21/03/2018",
+        "Stock": "Costco",
+        "Value": "-1.368718997"
+      },
+      {
+        "Date": "28/03/2018",
+        "Stock": "Costco",
+        "Value": "-1.387942377"
+      },
+      {
+        "Date": "05/04/2018",
+        "Stock": "Costco",
+        "Value": "-1.36731265"
+      },
+      {
+        "Date": "12/04/2018",
+        "Stock": "Costco",
+        "Value": "-1.347229793"
+      },
+      {
+        "Date": "19/04/2018",
+        "Stock": "Costco",
+        "Value": "-1.298390845"
+      },
+      {
+        "Date": "26/04/2018",
+        "Stock": "Costco",
+        "Value": "-1.296906028"
+      },
+      {
+        "Date": "03/05/2018",
+        "Stock": "Costco",
+        "Value": "-1.314488034"
+      },
+      {
+        "Date": "10/05/2018",
+        "Stock": "Costco",
+        "Value": "-1.290968163"
+      },
+      {
+        "Date": "17/05/2018",
+        "Stock": "Costco",
+        "Value": "-1.258443981"
+      },
+      {
+        "Date": "24/05/2018",
+        "Stock": "Costco",
+        "Value": "-1.264008476"
+      },
+      {
+        "Date": "01/06/2018",
+        "Stock": "Costco",
+        "Value": "-1.277801754"
+      },
+      {
+        "Date": "08/06/2018",
+        "Stock": "Costco",
+        "Value": "-1.225842347"
+      },
+      {
+        "Date": "15/06/2018",
+        "Stock": "Costco",
+        "Value": "-1.197942293"
+      },
+      {
+        "Date": "22/06/2018",
+        "Stock": "Costco",
+        "Value": "-1.168318317"
+      },
+      {
+        "Date": "29/06/2018",
+        "Stock": "Costco",
+        "Value": "-1.184933206"
+      },
+      {
+        "Date": "09/07/2018",
+        "Stock": "Costco",
+        "Value": "-1.169572055"
+      },
+      {
+        "Date": "16/07/2018",
+        "Stock": "Costco",
+        "Value": "-1.138929752"
+      },
+      {
+        "Date": "23/07/2018",
+        "Stock": "Costco",
+        "Value": "-1.107660071"
+      },
+      {
+        "Date": "30/07/2018",
+        "Stock": "Costco",
+        "Value": "-1.105544055"
+      },
+      {
+        "Date": "06/08/2018",
+        "Stock": "Costco",
+        "Value": "-1.07725216"
+      },
+      {
+        "Date": "13/08/2018",
+        "Stock": "Costco",
+        "Value": "-1.102017488"
+      },
+      {
+        "Date": "20/08/2018",
+        "Stock": "Costco",
+        "Value": "-1.040967147"
+      },
+      {
+        "Date": "27/08/2018",
+        "Stock": "Costco",
+        "Value": "-1.019963413"
+      },
+      {
+        "Date": "04/09/2018",
+        "Stock": "Costco",
+        "Value": "-0.978956057"
+      },
+      {
+        "Date": "11/09/2018",
+        "Stock": "Costco",
+        "Value": "-0.904083648"
+      },
+      {
+        "Date": "18/09/2018",
+        "Stock": "Costco",
+        "Value": "-0.981548753"
+      },
+      {
+        "Date": "25/09/2018",
+        "Stock": "Costco",
+        "Value": "-0.992704877"
+      },
+      {
+        "Date": "02/10/2018",
+        "Stock": "Costco",
+        "Value": "-0.965835379"
+      },
+      {
+        "Date": "09/10/2018",
+        "Stock": "Costco",
+        "Value": "-1.061527576"
+      },
+      {
+        "Date": "16/10/2018",
+        "Stock": "Costco",
+        "Value": "-1.033951338"
+      },
+      {
+        "Date": "23/10/2018",
+        "Stock": "Costco",
+        "Value": "-1.025545105"
+      },
+      {
+        "Date": "30/10/2018",
+        "Stock": "Costco",
+        "Value": "-1.032065509"
+      },
+      {
+        "Date": "06/11/2018",
+        "Stock": "Costco",
+        "Value": "-0.9630074"
+      },
+      {
+        "Date": "13/11/2018",
+        "Stock": "Costco",
+        "Value": "-0.978825868"
+      },
+      {
+        "Date": "20/11/2018",
+        "Stock": "Costco",
+        "Value": "-1.095614535"
+      },
+      {
+        "Date": "28/11/2018",
+        "Stock": "Costco",
+        "Value": "-1.008751621"
+      },
+      {
+        "Date": "06/12/2018",
+        "Stock": "Costco",
+        "Value": "-0.986228295"
+      },
+      {
+        "Date": "13/12/2018",
+        "Stock": "Costco",
+        "Value": "-1.038913422"
+      },
+      {
+        "Date": "20/12/2018",
+        "Stock": "Costco",
+        "Value": "-1.270285316"
+      },
+      {
+        "Date": "28/12/2018",
+        "Stock": "Costco",
+        "Value": "-1.231618049"
+      },
+      {
+        "Date": "07/01/2019",
+        "Stock": "Costco",
+        "Value": "-1.192557667"
+      },
+      {
+        "Date": "14/01/2019",
+        "Stock": "Costco",
+        "Value": "-1.176807351"
+      },
+      {
+        "Date": "22/01/2019",
+        "Stock": "Costco",
+        "Value": "-1.150031737"
+      },
+      {
+        "Date": "29/01/2019",
+        "Stock": "Costco",
+        "Value": "-1.166491086"
+      },
+      {
+        "Date": "05/02/2019",
+        "Stock": "Costco",
+        "Value": "-1.156253037"
+      },
+      {
+        "Date": "12/02/2019",
+        "Stock": "Costco",
+        "Value": "-1.149462065"
+      },
+      {
+        "Date": "20/02/2019",
+        "Stock": "Costco",
+        "Value": "-1.108321589"
+      },
+      {
+        "Date": "27/02/2019",
+        "Stock": "Costco",
+        "Value": "-1.100898908"
+      },
+      {
+        "Date": "06/03/2019",
+        "Stock": "Costco",
+        "Value": "-1.091581225"
+      },
+      {
+        "Date": "13/03/2019",
+        "Stock": "Costco",
+        "Value": "-0.956157448"
+      },
+      {
+        "Date": "20/03/2019",
+        "Stock": "Costco",
+        "Value": "-0.951419691"
+      },
+      {
+        "Date": "27/03/2019",
+        "Stock": "Costco",
+        "Value": "-0.932231341"
+      },
+      {
+        "Date": "03/04/2019",
+        "Stock": "Costco",
+        "Value": "-0.907989316"
+      },
+      {
+        "Date": "10/04/2019",
+        "Stock": "Costco",
+        "Value": "-0.883273286"
+      },
+      {
+        "Date": "17/04/2019",
+        "Stock": "Costco",
+        "Value": "-0.883668439"
+      },
+      {
+        "Date": "25/04/2019",
+        "Stock": "Costco",
+        "Value": "-0.883352393"
+      },
+      {
+        "Date": "02/05/2019",
+        "Stock": "Costco",
+        "Value": "-0.906330999"
+      },
+      {
+        "Date": "09/05/2019",
+        "Stock": "Costco",
+        "Value": "-0.894980102"
+      },
+      {
+        "Date": "16/05/2019",
+        "Stock": "Costco",
+        "Value": "-0.863546475"
+      },
+      {
+        "Date": "23/05/2019",
+        "Stock": "Costco",
+        "Value": "-0.85491617"
+      },
+      {
+        "Date": "31/05/2019",
+        "Stock": "Costco",
+        "Value": "-0.925780109"
+      },
+      {
+        "Date": "07/06/2019",
+        "Stock": "Costco",
+        "Value": "-0.795691276"
+      },
+      {
+        "Date": "14/06/2019",
+        "Stock": "Costco",
+        "Value": "-0.762912193"
+      },
+      {
+        "Date": "21/06/2019",
+        "Stock": "Costco",
+        "Value": "-0.715563666"
+      },
+      {
+        "Date": "28/06/2019",
+        "Stock": "Costco",
+        "Value": "-0.730369539"
+      },
+      {
+        "Date": "08/07/2019",
+        "Stock": "Costco",
+        "Value": "-0.689673006"
+      },
+      {
+        "Date": "15/07/2019",
+        "Stock": "Costco",
+        "Value": "-0.601152157"
+      },
+      {
+        "Date": "22/07/2019",
+        "Stock": "Costco",
+        "Value": "-0.604398473"
+      },
+      {
+        "Date": "29/07/2019",
+        "Stock": "Costco",
+        "Value": "-0.604715156"
+      },
+      {
+        "Date": "05/08/2019",
+        "Stock": "Costco",
+        "Value": "-0.723719074"
+      },
+      {
+        "Date": "12/08/2019",
+        "Stock": "Costco",
+        "Value": "-0.674550195"
+      },
+      {
+        "Date": "19/08/2019",
+        "Stock": "Costco",
+        "Value": "-0.640504126"
+      },
+      {
+        "Date": "26/08/2019",
+        "Stock": "Costco",
+        "Value": "-0.61793787"
+      },
+      {
+        "Date": "03/09/2019",
+        "Stock": "Costco",
+        "Value": "-0.505220219"
+      },
+      {
+        "Date": "10/09/2019",
+        "Stock": "Costco",
+        "Value": "-0.46594086"
+      },
+      {
+        "Date": "17/09/2019",
+        "Stock": "Costco",
+        "Value": "-0.510299117"
+      },
+      {
+        "Date": "24/09/2019",
+        "Stock": "Costco",
+        "Value": "-0.538072677"
+      },
+      {
+        "Date": "01/10/2019",
+        "Stock": "Costco",
+        "Value": "-0.569655091"
+      },
+      {
+        "Date": "08/10/2019",
+        "Stock": "Costco",
+        "Value": "-0.506490007"
+      },
+      {
+        "Date": "15/10/2019",
+        "Stock": "Costco",
+        "Value": "-0.454911231"
+      },
+      {
+        "Date": "22/10/2019",
+        "Stock": "Costco",
+        "Value": "-0.442373346"
+      },
+      {
+        "Date": "29/10/2019",
+        "Stock": "Costco",
+        "Value": "-0.474987082"
+      },
+      {
+        "Date": "05/11/2019",
+        "Stock": "Costco",
+        "Value": "-0.443484666"
+      },
+      {
+        "Date": "12/11/2019",
+        "Stock": "Costco",
+        "Value": "-0.432986748"
+      },
+      {
+        "Date": "19/11/2019",
+        "Stock": "Costco",
+        "Value": "-0.419150031"
+      },
+      {
+        "Date": "26/11/2019",
+        "Stock": "Costco",
+        "Value": "-0.427101748"
+      },
+      {
+        "Date": "04/12/2019",
+        "Stock": "Costco",
+        "Value": "-0.464638206"
+      },
+      {
+        "Date": "11/12/2019",
+        "Stock": "Costco",
+        "Value": "-0.474340468"
+      },
+      {
+        "Date": "18/12/2019",
+        "Stock": "Costco",
+        "Value": "-0.50161722"
+      },
+      {
+        "Date": "26/12/2019",
+        "Stock": "Costco",
+        "Value": "-0.470920142"
+      },
+      {
+        "Date": "03/01/2020",
+        "Stock": "Costco",
+        "Value": "-0.502730323"
+      },
+      {
+        "Date": "10/01/2020",
+        "Stock": "Costco",
+        "Value": "-0.458912694"
+      },
+      {
+        "Date": "17/01/2020",
+        "Stock": "Costco",
+        "Value": "-0.399745761"
+      },
+      {
+        "Date": "27/01/2020",
+        "Stock": "Costco",
+        "Value": "-0.361811603"
+      },
+      {
+        "Date": "03/02/2020",
+        "Stock": "Costco",
+        "Value": "-0.42105777"
+      },
+      {
+        "Date": "10/02/2020",
+        "Stock": "Costco",
+        "Value": "-0.32203722"
+      },
+      {
+        "Date": "18/02/2020",
+        "Stock": "Costco",
+        "Value": "-0.256210778"
+      },
+      {
+        "Date": "25/02/2020",
+        "Stock": "Costco",
+        "Value": "-0.393122685"
+      },
+      {
+        "Date": "03/03/2020",
+        "Stock": "Costco",
+        "Value": "-0.410177184"
+      },
+      {
+        "Date": "10/03/2020",
+        "Stock": "Costco",
+        "Value": "-0.357022382"
+      },
+      {
+        "Date": "17/03/2020",
+        "Stock": "Costco",
+        "Value": "-0.376228438"
+      },
+      {
+        "Date": "24/03/2020",
+        "Stock": "Costco",
+        "Value": "-0.551950412"
+      },
+      {
+        "Date": "31/03/2020",
+        "Stock": "Costco",
+        "Value": "-0.550436042"
+      },
+      {
+        "Date": "07/04/2020",
+        "Stock": "Costco",
+        "Value": "-0.403004817"
+      },
+      {
+        "Date": "15/04/2020",
+        "Stock": "Costco",
+        "Value": "-0.350089247"
+      },
+      {
+        "Date": "22/04/2020",
+        "Stock": "Costco",
+        "Value": "-0.356862639"
+      },
+      {
+        "Date": "29/04/2020",
+        "Stock": "Costco",
+        "Value": "-0.375430744"
+      },
+      {
+        "Date": "06/05/2020",
+        "Stock": "Costco",
+        "Value": "-0.355462153"
+      },
+      {
+        "Date": "13/05/2020",
+        "Stock": "Costco",
+        "Value": "-0.409378216"
+      },
+      {
+        "Date": "20/05/2020",
+        "Stock": "Costco",
+        "Value": "-0.387252207"
+      },
+      {
+        "Date": "28/05/2020",
+        "Stock": "Costco",
+        "Value": "-0.350111157"
+      },
+      {
+        "Date": "04/06/2020",
+        "Stock": "Costco",
+        "Value": "-0.34060558"
+      },
+      {
+        "Date": "11/06/2020",
+        "Stock": "Costco",
+        "Value": "-0.419841739"
+      },
+      {
+        "Date": "18/06/2020",
+        "Stock": "Costco",
+        "Value": "-0.429905779"
+      },
+      {
+        "Date": "25/06/2020",
+        "Stock": "Costco",
+        "Value": "-0.422237879"
+      },
+      {
+        "Date": "02/07/2020",
+        "Stock": "Costco",
+        "Value": "-0.380623271"
+      },
+      {
+        "Date": "10/07/2020",
+        "Stock": "Costco",
+        "Value": "-0.216959444"
+      },
+      {
+        "Date": "17/07/2020",
+        "Stock": "Costco",
+        "Value": "-0.228461422"
+      },
+      {
+        "Date": "24/07/2020",
+        "Stock": "Costco",
+        "Value": "-0.22055429"
+      },
+      {
+        "Date": "31/07/2020",
+        "Stock": "Costco",
+        "Value": "-0.216958425"
+      },
+      {
+        "Date": "07/08/2020",
+        "Stock": "Costco",
+        "Value": "-0.093846548"
+      },
+      {
+        "Date": "14/08/2020",
+        "Stock": "Costco",
+        "Value": "-0.130908109"
+      },
+      {
+        "Date": "21/08/2020",
+        "Stock": "Costco",
+        "Value": "-0.064229197"
+      },
+      {
+        "Date": "28/08/2020",
+        "Stock": "Costco",
+        "Value": "-0.034131854"
+      },
+      {
+        "Date": "04/09/2020",
+        "Stock": "Costco",
+        "Value": "-0.048540027"
+      },
+      {
+        "Date": "14/09/2020",
+        "Stock": "Costco",
+        "Value": "-0.077756875"
+      },
+      {
+        "Date": "21/09/2020",
+        "Stock": "Costco",
+        "Value": "-0.104572998"
+      },
+      {
+        "Date": "28/09/2020",
+        "Stock": "Costco",
+        "Value": "-0.024126157"
+      },
+      {
+        "Date": "05/10/2020",
+        "Stock": "Costco",
+        "Value": "0.047595475"
+      },
+      {
+        "Date": "12/10/2020",
+        "Stock": "Costco",
+        "Value": "0.190878997"
+      },
+      {
+        "Date": "19/10/2020",
+        "Stock": "Costco",
+        "Value": "0.183514786"
+      },
+      {
+        "Date": "26/10/2020",
+        "Stock": "Costco",
+        "Value": "0.14469249"
+      },
+      {
+        "Date": "02/11/2020",
+        "Stock": "Costco",
+        "Value": "0.09970851"
+      },
+      {
+        "Date": "09/11/2020",
+        "Stock": "Costco",
+        "Value": "0.104600405"
+      },
+      {
+        "Date": "16/11/2020",
+        "Stock": "Costco",
+        "Value": "0.223216814"
+      },
+      {
+        "Date": "23/11/2020",
+        "Stock": "Costco",
+        "Value": "0.238615288"
+      },
+      {
+        "Date": "01/12/2020",
+        "Stock": "Costco",
+        "Value": "0.366948991"
+      },
+      {
+        "Date": "08/12/2020",
+        "Stock": "Costco",
+        "Value": "0.28497708"
+      },
+      {
+        "Date": "15/12/2020",
+        "Stock": "Costco",
+        "Value": "0.237900905"
+      },
+      {
+        "Date": "22/12/2020",
+        "Stock": "Costco",
+        "Value": "0.156833948"
+      },
+      {
+        "Date": "30/12/2020",
+        "Stock": "Costco",
+        "Value": "0.259052152"
+      },
+      {
+        "Date": "07/01/2021",
+        "Stock": "Costco",
+        "Value": "0.205309845"
+      },
+      {
+        "Date": "14/01/2021",
+        "Stock": "Costco",
+        "Value": "0.159467535"
+      },
+      {
+        "Date": "22/01/2021",
+        "Stock": "Costco",
+        "Value": "0.159055822"
+      },
+      {
+        "Date": "29/01/2021",
+        "Stock": "Costco",
+        "Value": "0.077825046"
+      },
+      {
+        "Date": "05/02/2021",
+        "Stock": "Costco",
+        "Value": "0.106147641"
+      },
+      {
+        "Date": "12/02/2021",
+        "Stock": "Costco",
+        "Value": "0.086191278"
+      },
+      {
+        "Date": "22/02/2021",
+        "Stock": "Costco",
+        "Value": "0.065245378"
+      },
+      {
+        "Date": "01/03/2021",
+        "Stock": "Costco",
+        "Value": "-0.086817873"
+      },
+      {
+        "Date": "08/03/2021",
+        "Stock": "Costco",
+        "Value": "-0.254630932"
+      },
+      {
+        "Date": "15/03/2021",
+        "Stock": "Costco",
+        "Value": "-0.097208022"
+      },
+      {
+        "Date": "22/03/2021",
+        "Stock": "Costco",
+        "Value": "-0.064387156"
+      },
+      {
+        "Date": "29/03/2021",
+        "Stock": "Costco",
+        "Value": "0.114228783"
+      },
+      {
+        "Date": "06/04/2021",
+        "Stock": "Costco",
+        "Value": "0.146966847"
+      },
+      {
+        "Date": "13/04/2021",
+        "Stock": "Costco",
+        "Value": "0.188940685"
+      },
+      {
+        "Date": "20/04/2021",
+        "Stock": "Costco",
+        "Value": "0.242707196"
+      },
+      {
+        "Date": "27/04/2021",
+        "Stock": "Costco",
+        "Value": "0.230172114"
+      },
+      {
+        "Date": "04/05/2021",
+        "Stock": "Costco",
+        "Value": "0.278693361"
+      },
+      {
+        "Date": "11/05/2021",
+        "Stock": "Costco",
+        "Value": "0.302576283"
+      },
+      {
+        "Date": "18/05/2021",
+        "Stock": "Costco",
+        "Value": "0.340838844"
+      },
+      {
+        "Date": "25/05/2021",
+        "Stock": "Costco",
+        "Value": "0.362077478"
+      },
+      {
+        "Date": "02/06/2021",
+        "Stock": "Costco",
+        "Value": "0.322492646"
+      },
+      {
+        "Date": "09/06/2021",
+        "Stock": "Costco",
+        "Value": "0.317286107"
+      },
+      {
+        "Date": "16/06/2021",
+        "Stock": "Costco",
+        "Value": "0.312741213"
+      },
+      {
+        "Date": "23/06/2021",
+        "Stock": "Costco",
+        "Value": "0.416537481"
+      },
+      {
+        "Date": "30/06/2021",
+        "Stock": "Costco",
+        "Value": "0.447114307"
+      },
+      {
+        "Date": "08/07/2021",
+        "Stock": "Costco",
+        "Value": "0.541985371"
+      },
+      {
+        "Date": "15/07/2021",
+        "Stock": "Costco",
+        "Value": "0.580578372"
+      },
+      {
+        "Date": "22/07/2021",
+        "Stock": "Costco",
+        "Value": "0.627848683"
+      },
+      {
+        "Date": "29/07/2021",
+        "Stock": "Costco",
+        "Value": "0.698400144"
+      },
+      {
+        "Date": "05/08/2021",
+        "Stock": "Costco",
+        "Value": "0.846686641"
+      },
+      {
+        "Date": "12/08/2021",
+        "Stock": "Costco",
+        "Value": "0.864652972"
+      },
+      {
+        "Date": "19/08/2021",
+        "Stock": "Costco",
+        "Value": "0.938341197"
+      },
+      {
+        "Date": "26/08/2021",
+        "Stock": "Costco",
+        "Value": "0.897357152"
+      },
+      {
+        "Date": "02/09/2021",
+        "Stock": "Costco",
+        "Value": "0.993896469"
+      },
+      {
+        "Date": "10/09/2021",
+        "Stock": "Costco",
+        "Value": "1.028587368"
+      },
+      {
+        "Date": "17/09/2021",
+        "Stock": "Costco",
+        "Value": "0.981808513"
+      },
+      {
+        "Date": "24/09/2021",
+        "Stock": "Costco",
+        "Value": "1.050031604"
+      },
+      {
+        "Date": "01/10/2021",
+        "Stock": "Costco",
+        "Value": "0.889243144"
+      },
+      {
+        "Date": "08/10/2021",
+        "Stock": "Costco",
+        "Value": "0.918387128"
+      },
+      {
+        "Date": "15/10/2021",
+        "Stock": "Costco",
+        "Value": "0.922858137"
+      },
+      {
+        "Date": "22/10/2021",
+        "Stock": "Costco",
+        "Value": "1.167931846"
+      },
+      {
+        "Date": "29/10/2021",
+        "Stock": "Costco",
+        "Value": "1.25358548"
+      },
+      {
+        "Date": "05/11/2021",
+        "Stock": "Costco",
+        "Value": "1.432546382"
+      },
+      {
+        "Date": "12/11/2021",
+        "Stock": "Costco",
+        "Value": "1.466132331"
+      },
+      {
+        "Date": "19/11/2021",
+        "Stock": "Costco",
+        "Value": "1.60396091"
+      },
+      {
+        "Date": "29/11/2021",
+        "Stock": "Costco",
+        "Value": "1.778858949"
+      },
+      {
+        "Date": "06/12/2021",
+        "Stock": "Costco",
+        "Value": "1.599067742"
+      },
+      {
+        "Date": "13/12/2021",
+        "Stock": "Costco",
+        "Value": "1.798263982"
+      },
+      {
+        "Date": "20/12/2021",
+        "Stock": "Costco",
+        "Value": "1.726447065"
+      },
+      {
+        "Date": "28/12/2021",
+        "Stock": "Costco",
+        "Value": "1.859797246"
+      },
+      {
+        "Date": "04/01/2022",
+        "Stock": "Costco",
+        "Value": "1.856397047"
+      },
+      {
+        "Date": "11/01/2022",
+        "Stock": "Costco",
+        "Value": "1.506436896"
+      },
+      {
+        "Date": "19/01/2022",
+        "Stock": "Costco",
+        "Value": "1.242141081"
+      },
+      {
+        "Date": "26/01/2022",
+        "Stock": "Costco",
+        "Value": "1.186661222"
+      },
+      {
+        "Date": "02/02/2022",
+        "Stock": "Costco",
+        "Value": "1.50635384"
+      },
+      {
+        "Date": "09/02/2022",
+        "Stock": "Costco",
+        "Value": "1.569475358"
+      },
+      {
+        "Date": "16/02/2022",
+        "Stock": "Costco",
+        "Value": "1.433016183"
+      },
+      {
+        "Date": "24/02/2022",
+        "Stock": "Costco",
+        "Value": "1.376372522"
+      },
+      {
+        "Date": "03/03/2022",
+        "Stock": "Costco",
+        "Value": "1.604523958"
+      },
+      {
+        "Date": "10/03/2022",
+        "Stock": "Costco",
+        "Value": "1.601783111"
+      },
+      {
+        "Date": "17/03/2022",
+        "Stock": "Costco",
+        "Value": "1.768473895"
+      },
+      {
+        "Date": "24/03/2022",
+        "Stock": "Costco",
+        "Value": "1.812659161"
+      },
+      {
+        "Date": "31/03/2022",
+        "Stock": "Costco",
+        "Value": "1.959998414"
+      },
+      {
+        "Date": "07/04/2022",
+        "Stock": "Costco",
+        "Value": "2.227435069"
+      },
+      {
+        "Date": "14/04/2022",
+        "Stock": "Costco",
+        "Value": "2.080760774"
+      },
+      {
+        "Date": "22/04/2022",
+        "Stock": "Costco",
+        "Value": "1.925531205"
+      },
+      {
+        "Date": "29/04/2022",
+        "Stock": "Costco",
+        "Value": "1.60066262"
+      },
+      {
+        "Date": "06/05/2022",
+        "Stock": "Costco",
+        "Value": "1.364735769"
+      },
+      {
+        "Date": "13/05/2022",
+        "Stock": "Costco",
+        "Value": "1.314073156"
+      },
+      {
+        "Date": "20/05/2022",
+        "Stock": "Costco",
+        "Value": "0.641565402"
+      },
+      {
+        "Date": "27/05/2022",
+        "Stock": "Costco",
+        "Value": "1.093536881"
+      },
+      {
+        "Date": "06/06/2022",
+        "Stock": "Costco",
+        "Value": "1.107762127"
+      },
+      {
+        "Date": "13/06/2022",
+        "Stock": "Costco",
+        "Value": "0.939552133"
+      },
+      {
+        "Date": "21/06/2022",
+        "Stock": "Costco",
+        "Value": "1.029896136"
+      },
+      {
+        "Date": "28/06/2022",
+        "Stock": "Costco",
+        "Value": "1.075650804"
+      },
+      {
+        "Date": "06/07/2022",
+        "Stock": "Costco",
+        "Value": "1.275639643"
+      },
+      {
+        "Date": "13/07/2022",
+        "Stock": "Costco",
+        "Value": "1.272062376"
+      },
+      {
+        "Date": "20/07/2022",
+        "Stock": "Costco",
+        "Value": "1.538103641"
+      },
+      {
+        "Date": "27/07/2022",
+        "Stock": "Costco",
+        "Value": "1.522380585"
+      },
+      {
+        "Date": "03/08/2022",
+        "Stock": "Costco",
+        "Value": "1.735714684"
+      },
+      {
+        "Date": "10/08/2022",
+        "Stock": "Costco",
+        "Value": "1.67579821"
+      },
+      {
+        "Date": "17/08/2022",
+        "Stock": "Costco",
+        "Value": "1.813298641"
+      },
+      {
+        "Date": "24/08/2022",
+        "Stock": "Costco",
+        "Value": "1.704130996"
+      },
+      {
+        "Date": "31/08/2022",
+        "Stock": "Costco",
+        "Value": "1.52813081"
+      },
+      {
+        "Date": "08/09/2022",
+        "Stock": "Costco",
+        "Value": "1.586631257"
+      },
+      {
+        "Date": "15/09/2022",
+        "Stock": "Costco",
+        "Value": "1.373130536"
+      },
+      {
+        "Date": "22/09/2022",
+        "Stock": "Costco",
+        "Value": "1.237046897"
+      },
+      {
+        "Date": "29/09/2022",
+        "Stock": "Costco",
+        "Value": "1.1687968"
+      },
+      {
+        "Date": "06/10/2022",
+        "Stock": "Costco",
+        "Value": "1.198046514"
+      },
+      {
+        "Date": "13/10/2022",
+        "Stock": "Costco",
+        "Value": "1.077213071"
+      },
+      {
+        "Date": "20/10/2022",
+        "Stock": "Costco",
+        "Value": "1.049129708"
+      },
+      {
+        "Date": "27/10/2022",
+        "Stock": "Costco",
+        "Value": "1.322600151"
+      },
+      {
+        "Date": "03/11/2022",
+        "Stock": "Costco",
+        "Value": "1.237029063"
+      },
+      {
+        "Date": "10/11/2022",
+        "Stock": "Costco",
+        "Value": "1.461100056"
+      },
+      {
+        "Date": "17/11/2022",
+        "Stock": "Costco",
+        "Value": "1.529473463"
+      },
+      {
+        "Date": "25/11/2022",
+        "Stock": "Costco",
+        "Value": "1.632492419"
+      },
+      {
+        "Date": "02/12/2022",
+        "Stock": "Costco",
+        "Value": "1.305819787"
+      },
+      {
+        "Date": "09/12/2022",
+        "Stock": "Costco",
+        "Value": "1.209729635"
+      },
+      {
+        "Date": "16/12/2022",
+        "Stock": "Costco",
+        "Value": "1.029654866"
+      },
+      {
+        "Date": "23/12/2022",
+        "Stock": "Costco",
+        "Value": "1.039672792"
+      },
+      {
+        "Date": "03/01/2023",
+        "Stock": "Costco",
+        "Value": "0.961448336"
+      },
+      {
+        "Date": "08/01/2018",
+        "Stock": "T K Maxx",
+        "Value": "-2.070571391"
+      },
+      {
+        "Date": "16/01/2018",
+        "Stock": "T K Maxx",
+        "Value": "-2.027721852"
+      },
+      {
+        "Date": "23/01/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.903277161"
+      },
+      {
+        "Date": "30/01/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.856325189"
+      },
+      {
+        "Date": "06/02/2018",
+        "Stock": "T K Maxx",
+        "Value": "-2.055072772"
+      },
+      {
+        "Date": "13/02/2018",
+        "Stock": "T K Maxx",
+        "Value": "-2.075129194"
+      },
+      {
+        "Date": "21/02/2018",
+        "Stock": "T K Maxx",
+        "Value": "-2.047528231"
+      },
+      {
+        "Date": "28/02/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.734433851"
+      },
+      {
+        "Date": "07/03/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.736723001"
+      },
+      {
+        "Date": "14/03/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.77105428"
+      },
+      {
+        "Date": "21/03/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.725279862"
+      },
+      {
+        "Date": "28/03/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.825524335"
+      },
+      {
+        "Date": "05/04/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.630069803"
+      },
+      {
+        "Date": "12/04/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.741300182"
+      },
+      {
+        "Date": "19/04/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.736265394"
+      },
+      {
+        "Date": "26/04/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.623661452"
+      },
+      {
+        "Date": "03/05/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.69415369"
+      },
+      {
+        "Date": "10/05/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.707427999"
+      },
+      {
+        "Date": "17/05/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.552029297"
+      },
+      {
+        "Date": "24/05/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.438451637"
+      },
+      {
+        "Date": "01/06/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.361198527"
+      },
+      {
+        "Date": "08/06/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.153352851"
+      },
+      {
+        "Date": "15/06/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.142777972"
+      },
+      {
+        "Date": "22/06/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.146915806"
+      },
+      {
+        "Date": "29/06/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.142318502"
+      },
+      {
+        "Date": "09/07/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.118406337"
+      },
+      {
+        "Date": "16/07/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.141857169"
+      },
+      {
+        "Date": "23/07/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.032877186"
+      },
+      {
+        "Date": "30/07/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.069203971"
+      },
+      {
+        "Date": "06/08/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.000688607"
+      },
+      {
+        "Date": "13/08/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.950566929"
+      },
+      {
+        "Date": "20/08/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.826685675"
+      },
+      {
+        "Date": "27/08/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.55848702"
+      },
+      {
+        "Date": "04/09/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.374762935"
+      },
+      {
+        "Date": "11/09/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.423232683"
+      },
+      {
+        "Date": "18/09/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.484166987"
+      },
+      {
+        "Date": "25/09/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.426464994"
+      },
+      {
+        "Date": "02/10/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.42184794"
+      },
+      {
+        "Date": "09/10/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.376609756"
+      },
+      {
+        "Date": "16/10/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.337371879"
+      },
+      {
+        "Date": "23/10/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.583875226"
+      },
+      {
+        "Date": "30/10/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.433388711"
+      },
+      {
+        "Date": "06/11/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.462008855"
+      },
+      {
+        "Date": "13/11/2018",
+        "Stock": "T K Maxx",
+        "Value": "-0.556640198"
+      },
+      {
+        "Date": "20/11/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.180701908"
+      },
+      {
+        "Date": "28/11/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.085263418"
+      },
+      {
+        "Date": "06/12/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.214060214"
+      },
+      {
+        "Date": "13/12/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.274288731"
+      },
+      {
+        "Date": "20/12/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.587477762"
+      },
+      {
+        "Date": "28/12/2018",
+        "Stock": "T K Maxx",
+        "Value": "-1.459607358"
+      },
+      {
+        "Date": "07/01/2019",
+        "Stock": "T K Maxx",
+        "Value": "-1.199234963"
+      },
+      {
+        "Date": "14/01/2019",
+        "Stock": "T K Maxx",
+        "Value": "-1.184408966"
+      },
+      {
+        "Date": "22/01/2019",
+        "Stock": "T K Maxx",
+        "Value": "-1.002795907"
+      },
+      {
+        "Date": "29/01/2019",
+        "Stock": "T K Maxx",
+        "Value": "-1.002795907"
+      },
+      {
+        "Date": "05/02/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.958318661"
+      },
+      {
+        "Date": "12/02/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.909209456"
+      },
+      {
+        "Date": "20/02/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.82037272"
+      },
+      {
+        "Date": "27/02/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.722696134"
+      },
+      {
+        "Date": "06/03/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.688277656"
+      },
+      {
+        "Date": "13/03/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.63711444"
+      },
+      {
+        "Date": "20/03/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.631532612"
+      },
+      {
+        "Date": "27/03/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.583159378"
+      },
+      {
+        "Date": "03/04/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.572928076"
+      },
+      {
+        "Date": "10/04/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.454787023"
+      },
+      {
+        "Date": "17/04/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.397111487"
+      },
+      {
+        "Date": "25/04/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.395251623"
+      },
+      {
+        "Date": "02/05/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.453856532"
+      },
+      {
+        "Date": "09/05/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.510601203"
+      },
+      {
+        "Date": "16/05/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.596045392"
+      },
+      {
+        "Date": "23/05/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.64556376"
+      },
+      {
+        "Date": "31/05/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.820283658"
+      },
+      {
+        "Date": "07/06/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.667988332"
+      },
+      {
+        "Date": "14/06/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.535313434"
+      },
+      {
+        "Date": "21/06/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.57362082"
+      },
+      {
+        "Date": "28/06/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.57829228"
+      },
+      {
+        "Date": "08/07/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.384886542"
+      },
+      {
+        "Date": "15/07/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.242868725"
+      },
+      {
+        "Date": "22/07/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.454961047"
+      },
+      {
+        "Date": "29/07/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.339103927"
+      },
+      {
+        "Date": "05/08/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.781976272"
+      },
+      {
+        "Date": "12/08/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.686674543"
+      },
+      {
+        "Date": "19/08/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.68177838"
+      },
+      {
+        "Date": "26/08/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.503490046"
+      },
+      {
+        "Date": "03/09/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.426544367"
+      },
+      {
+        "Date": "10/09/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.177879687"
+      },
+      {
+        "Date": "17/09/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.274530013"
+      },
+      {
+        "Date": "24/09/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.329893296"
+      },
+      {
+        "Date": "01/10/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.321448447"
+      },
+      {
+        "Date": "08/10/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.318633125"
+      },
+      {
+        "Date": "15/10/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.031495233"
+      },
+      {
+        "Date": "22/10/2019",
+        "Stock": "T K Maxx",
+        "Value": "0.144916467"
+      },
+      {
+        "Date": "29/10/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.122516405"
+      },
+      {
+        "Date": "05/11/2019",
+        "Stock": "T K Maxx",
+        "Value": "0.037943542"
+      },
+      {
+        "Date": "12/11/2019",
+        "Stock": "T K Maxx",
+        "Value": "-0.039002138"
+      },
+      {
+        "Date": "19/11/2019",
+        "Stock": "T K Maxx",
+        "Value": "0.193689548"
+      },
+      {
+        "Date": "26/11/2019",
+        "Stock": "T K Maxx",
+        "Value": "0.166369185"
+      },
+      {
+        "Date": "04/12/2019",
+        "Stock": "T K Maxx",
+        "Value": "0.122092049"
+      },
+      {
+        "Date": "11/12/2019",
+        "Stock": "T K Maxx",
+        "Value": "0.170137356"
+      },
+      {
+        "Date": "18/12/2019",
+        "Stock": "T K Maxx",
+        "Value": "0.180500201"
+      },
+      {
+        "Date": "26/12/2019",
+        "Stock": "T K Maxx",
+        "Value": "0.210646693"
+      },
+      {
+        "Date": "03/01/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.250213615"
+      },
+      {
+        "Date": "10/01/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.353840946"
+      },
+      {
+        "Date": "17/01/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.385871524"
+      },
+      {
+        "Date": "27/01/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.221009538"
+      },
+      {
+        "Date": "03/02/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.156006712"
+      },
+      {
+        "Date": "10/02/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.288838493"
+      },
+      {
+        "Date": "18/02/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.481448264"
+      },
+      {
+        "Date": "25/02/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.1278125"
+      },
+      {
+        "Date": "03/03/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.211966969"
+      },
+      {
+        "Date": "10/03/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.037658758"
+      },
+      {
+        "Date": "17/03/2020",
+        "Stock": "T K Maxx",
+        "Value": "-1.499481337"
+      },
+      {
+        "Date": "24/03/2020",
+        "Stock": "T K Maxx",
+        "Value": "-1.638478133"
+      },
+      {
+        "Date": "31/03/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.998339089"
+      },
+      {
+        "Date": "07/04/2020",
+        "Stock": "T K Maxx",
+        "Value": "-1.105186061"
+      },
+      {
+        "Date": "15/04/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.952952966"
+      },
+      {
+        "Date": "22/04/2020",
+        "Stock": "T K Maxx",
+        "Value": "-1.133552435"
+      },
+      {
+        "Date": "29/04/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.645648723"
+      },
+      {
+        "Date": "06/05/2020",
+        "Stock": "T K Maxx",
+        "Value": "-1.010631483"
+      },
+      {
+        "Date": "13/05/2020",
+        "Stock": "T K Maxx",
+        "Value": "-1.355757931"
+      },
+      {
+        "Date": "20/05/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.710891531"
+      },
+      {
+        "Date": "28/05/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.405478081"
+      },
+      {
+        "Date": "04/06/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.334561774"
+      },
+      {
+        "Date": "11/06/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.539746775"
+      },
+      {
+        "Date": "18/06/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.465048509"
+      },
+      {
+        "Date": "25/06/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.709000737"
+      },
+      {
+        "Date": "02/07/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.625792038"
+      },
+      {
+        "Date": "10/07/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.690088704"
+      },
+      {
+        "Date": "17/07/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.516107757"
+      },
+      {
+        "Date": "24/07/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.517999296"
+      },
+      {
+        "Date": "31/07/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.60309879"
+      },
+      {
+        "Date": "07/08/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.275937861"
+      },
+      {
+        "Date": "14/08/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.047114588"
+      },
+      {
+        "Date": "21/08/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.632411305"
+      },
+      {
+        "Date": "28/08/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.309977733"
+      },
+      {
+        "Date": "04/09/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.301467299"
+      },
+      {
+        "Date": "14/09/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.274047067"
+      },
+      {
+        "Date": "21/09/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.396968392"
+      },
+      {
+        "Date": "28/09/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.261755047"
+      },
+      {
+        "Date": "05/10/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.080209063"
+      },
+      {
+        "Date": "12/10/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.037658758"
+      },
+      {
+        "Date": "19/10/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.306195401"
+      },
+      {
+        "Date": "26/10/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.318488167"
+      },
+      {
+        "Date": "02/11/2020",
+        "Stock": "T K Maxx",
+        "Value": "-0.626737434"
+      },
+      {
+        "Date": "09/11/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.239387946"
+      },
+      {
+        "Date": "16/11/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.257353093"
+      },
+      {
+        "Date": "23/11/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.32448744"
+      },
+      {
+        "Date": "01/12/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.61571733"
+      },
+      {
+        "Date": "08/12/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.666776952"
+      },
+      {
+        "Date": "15/12/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.791589815"
+      },
+      {
+        "Date": "22/12/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.813337294"
+      },
+      {
+        "Date": "30/12/2020",
+        "Stock": "T K Maxx",
+        "Value": "0.939095554"
+      },
+      {
+        "Date": "07/01/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.090384371"
+      },
+      {
+        "Date": "14/01/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.912619974"
+      },
+      {
+        "Date": "22/01/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.807664168"
+      },
+      {
+        "Date": "29/01/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.536291335"
+      },
+      {
+        "Date": "05/02/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.941932117"
+      },
+      {
+        "Date": "12/02/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.935048645"
+      },
+      {
+        "Date": "22/02/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.082164599"
+      },
+      {
+        "Date": "01/03/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.863864035"
+      },
+      {
+        "Date": "08/03/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.667394795"
+      },
+      {
+        "Date": "15/03/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.936946891"
+      },
+      {
+        "Date": "22/03/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.792679425"
+      },
+      {
+        "Date": "29/03/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.700614106"
+      },
+      {
+        "Date": "06/04/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.900878721"
+      },
+      {
+        "Date": "13/04/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.978707565"
+      },
+      {
+        "Date": "20/04/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.911320939"
+      },
+      {
+        "Date": "27/04/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.105892305"
+      },
+      {
+        "Date": "04/05/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.202702868"
+      },
+      {
+        "Date": "11/05/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.315649642"
+      },
+      {
+        "Date": "18/05/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.257541841"
+      },
+      {
+        "Date": "25/05/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.88889823"
+      },
+      {
+        "Date": "02/06/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.766019014"
+      },
+      {
+        "Date": "09/06/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.675523269"
+      },
+      {
+        "Date": "16/06/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.691717241"
+      },
+      {
+        "Date": "23/06/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.754587055"
+      },
+      {
+        "Date": "30/06/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.90318762"
+      },
+      {
+        "Date": "08/07/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.850796916"
+      },
+      {
+        "Date": "15/07/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.965104585"
+      },
+      {
+        "Date": "22/07/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.88889823"
+      },
+      {
+        "Date": "29/07/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.038451273"
+      },
+      {
+        "Date": "05/08/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.013685381"
+      },
+      {
+        "Date": "12/08/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.321497165"
+      },
+      {
+        "Date": "19/08/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.516529119"
+      },
+      {
+        "Date": "26/08/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.540431223"
+      },
+      {
+        "Date": "02/09/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.352089712"
+      },
+      {
+        "Date": "10/09/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.065276392"
+      },
+      {
+        "Date": "17/09/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.21250712"
+      },
+      {
+        "Date": "24/09/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.278473975"
+      },
+      {
+        "Date": "01/10/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.849209454"
+      },
+      {
+        "Date": "08/10/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.670428486"
+      },
+      {
+        "Date": "15/10/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.633142889"
+      },
+      {
+        "Date": "22/10/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.614978378"
+      },
+      {
+        "Date": "29/10/2021",
+        "Stock": "T K Maxx",
+        "Value": "0.742131816"
+      },
+      {
+        "Date": "05/11/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.288035264"
+      },
+      {
+        "Date": "12/11/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.083144651"
+      },
+      {
+        "Date": "19/11/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.296179016"
+      },
+      {
+        "Date": "29/11/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.262591906"
+      },
+      {
+        "Date": "06/12/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.451637714"
+      },
+      {
+        "Date": "13/12/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.498658624"
+      },
+      {
+        "Date": "20/12/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.436284799"
+      },
+      {
+        "Date": "28/12/2021",
+        "Stock": "T K Maxx",
+        "Value": "1.656035691"
+      },
+      {
+        "Date": "04/01/2022",
+        "Stock": "T K Maxx",
+        "Value": "1.843160894"
+      },
+      {
+        "Date": "11/01/2022",
+        "Stock": "T K Maxx",
+        "Value": "1.602298253"
+      },
+      {
+        "Date": "19/01/2022",
+        "Stock": "T K Maxx",
+        "Value": "1.055316375"
+      },
+      {
+        "Date": "26/01/2022",
+        "Stock": "T K Maxx",
+        "Value": "1.111932857"
+      },
+      {
+        "Date": "02/02/2022",
+        "Stock": "T K Maxx",
+        "Value": "1.393100627"
+      },
+      {
+        "Date": "09/02/2022",
+        "Stock": "T K Maxx",
+        "Value": "1.364771517"
+      },
+      {
+        "Date": "16/02/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.943863901"
+      },
+      {
+        "Date": "24/02/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.711740125"
+      },
+      {
+        "Date": "03/03/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.809984247"
+      },
+      {
+        "Date": "10/03/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.457462688"
+      },
+      {
+        "Date": "17/03/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.476726124"
+      },
+      {
+        "Date": "24/03/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.266754517"
+      },
+      {
+        "Date": "31/03/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.315876392"
+      },
+      {
+        "Date": "07/04/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.388114465"
+      },
+      {
+        "Date": "14/04/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.521031954"
+      },
+      {
+        "Date": "22/04/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.521031954"
+      },
+      {
+        "Date": "29/04/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.38329842"
+      },
+      {
+        "Date": "06/05/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.299502434"
+      },
+      {
+        "Date": "13/05/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.018427453"
+      },
+      {
+        "Date": "20/05/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.084268727"
+      },
+      {
+        "Date": "27/05/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.734936069"
+      },
+      {
+        "Date": "06/06/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.458015318"
+      },
+      {
+        "Date": "13/06/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.031983108"
+      },
+      {
+        "Date": "21/06/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.047475392"
+      },
+      {
+        "Date": "28/06/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.046506891"
+      },
+      {
+        "Date": "06/07/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.093951497"
+      },
+      {
+        "Date": "13/07/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.201427864"
+      },
+      {
+        "Date": "20/07/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.584856481"
+      },
+      {
+        "Date": "27/07/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.367967491"
+      },
+      {
+        "Date": "03/08/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.602285393"
+      },
+      {
+        "Date": "10/08/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.612737672"
+      },
+      {
+        "Date": "17/08/2022",
+        "Stock": "T K Maxx",
+        "Value": "1.148767929"
+      },
+      {
+        "Date": "24/08/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.743097708"
+      },
+      {
+        "Date": "31/08/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.546585241"
+      },
+      {
+        "Date": "08/09/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.947392091"
+      },
+      {
+        "Date": "15/09/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.792711473"
+      },
+      {
+        "Date": "22/09/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.513509026"
+      },
+      {
+        "Date": "29/09/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.448329194"
+      },
+      {
+        "Date": "06/10/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.813140538"
+      },
+      {
+        "Date": "13/10/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.821896917"
+      },
+      {
+        "Date": "20/10/2022",
+        "Stock": "T K Maxx",
+        "Value": "0.839407438"
+      },
+      {
+        "Date": "27/10/2022",
+        "Stock": "T K Maxx",
+        "Value": "1.476613031"
+      },
+      {
+        "Date": "03/11/2022",
+        "Stock": "T K Maxx",
+        "Value": "1.40754131"
+      },
+      {
+        "Date": "10/11/2022",
+        "Stock": "T K Maxx",
+        "Value": "1.709763441"
+      },
+      {
+        "Date": "17/11/2022",
+        "Stock": "T K Maxx",
+        "Value": "2.09953147"
+      },
+      {
+        "Date": "25/11/2022",
+        "Stock": "T K Maxx",
+        "Value": "2.396497836"
+      },
+      {
+        "Date": "02/12/2022",
+        "Stock": "T K Maxx",
+        "Value": "2.314441722"
+      },
+      {
+        "Date": "09/12/2022",
+        "Stock": "T K Maxx",
+        "Value": "2.106369479"
+      },
+      {
+        "Date": "16/12/2022",
+        "Stock": "T K Maxx",
+        "Value": "2.066318494"
+      },
+      {
+        "Date": "23/12/2022",
+        "Stock": "T K Maxx",
+        "Value": "2.247037954"
+      },
+      {
+        "Date": "03/01/2023",
+        "Stock": "T K Maxx",
+        "Value": "2.199171888"
+      },
+      {
+        "Date": "08/01/2018",
+        "Stock": "GAP",
+        "Value": "1.276443009"
+      },
+      {
+        "Date": "16/01/2018",
+        "Stock": "GAP",
+        "Value": "1.328262513"
+      },
+      {
+        "Date": "23/01/2018",
+        "Stock": "GAP",
+        "Value": "1.675834877"
+      },
+      {
+        "Date": "30/01/2018",
+        "Stock": "GAP",
+        "Value": "1.540597527"
+      },
+      {
+        "Date": "06/02/2018",
+        "Stock": "GAP",
+        "Value": "1.258748495"
+      },
+      {
+        "Date": "13/02/2018",
+        "Stock": "GAP",
+        "Value": "1.292874341"
+      },
+      {
+        "Date": "21/02/2018",
+        "Stock": "GAP",
+        "Value": "1.266331858"
+      },
+      {
+        "Date": "28/02/2018",
+        "Stock": "GAP",
+        "Value": "1.18544237"
+      },
+      {
+        "Date": "07/03/2018",
+        "Stock": "GAP",
+        "Value": "1.400304887"
+      },
+      {
+        "Date": "14/03/2018",
+        "Stock": "GAP",
+        "Value": "1.291610019"
+      },
+      {
+        "Date": "21/03/2018",
+        "Stock": "GAP",
+        "Value": "1.252429454"
+      },
+      {
+        "Date": "28/03/2018",
+        "Stock": "GAP",
+        "Value": "1.099497306"
+      },
+      {
+        "Date": "05/04/2018",
+        "Stock": "GAP",
+        "Value": "1.239789946"
+      },
+      {
+        "Date": "12/04/2018",
+        "Stock": "GAP",
+        "Value": "1.098185683"
+      },
+      {
+        "Date": "19/04/2018",
+        "Stock": "GAP",
+        "Value": "0.959297844"
+      },
+      {
+        "Date": "26/04/2018",
+        "Stock": "GAP",
+        "Value": "1.031927214"
+      },
+      {
+        "Date": "03/05/2018",
+        "Stock": "GAP",
+        "Value": "0.887943622"
+      },
+      {
+        "Date": "10/05/2018",
+        "Stock": "GAP",
+        "Value": "0.863732882"
+      },
+      {
+        "Date": "17/05/2018",
+        "Stock": "GAP",
+        "Value": "1.193750074"
+      },
+      {
+        "Date": "24/05/2018",
+        "Stock": "GAP",
+        "Value": "1.392524909"
+      },
+      {
+        "Date": "01/06/2018",
+        "Stock": "GAP",
+        "Value": "0.884120739"
+      },
+      {
+        "Date": "08/06/2018",
+        "Stock": "GAP",
+        "Value": "1.238346961"
+      },
+      {
+        "Date": "15/06/2018",
+        "Stock": "GAP",
+        "Value": "1.224330577"
+      },
+      {
+        "Date": "22/06/2018",
+        "Stock": "GAP",
+        "Value": "1.448589307"
+      },
+      {
+        "Date": "29/06/2018",
+        "Stock": "GAP",
+        "Value": "1.321169548"
+      },
+      {
+        "Date": "09/07/2018",
+        "Stock": "GAP",
+        "Value": "1.121121558"
+      },
+      {
+        "Date": "16/07/2018",
+        "Stock": "GAP",
+        "Value": "0.980230524"
+      },
+      {
+        "Date": "23/07/2018",
+        "Stock": "GAP",
+        "Value": "1.053436918"
+      },
+      {
+        "Date": "30/07/2018",
+        "Stock": "GAP",
+        "Value": "1.030320099"
+      },
+      {
+        "Date": "06/08/2018",
+        "Stock": "GAP",
+        "Value": "1.107379011"
+      },
+      {
+        "Date": "13/08/2018",
+        "Stock": "GAP",
+        "Value": "1.194712064"
+      },
+      {
+        "Date": "20/08/2018",
+        "Stock": "GAP",
+        "Value": "1.325713354"
+      },
+      {
+        "Date": "27/08/2018",
+        "Stock": "GAP",
+        "Value": "1.07141752"
+      },
+      {
+        "Date": "04/09/2018",
+        "Stock": "GAP",
+        "Value": "1.094535764"
+      },
+      {
+        "Date": "11/09/2018",
+        "Stock": "GAP",
+        "Value": "0.877485118"
+      },
+      {
+        "Date": "18/09/2018",
+        "Stock": "GAP",
+        "Value": "0.660434758"
+      },
+      {
+        "Date": "25/09/2018",
+        "Stock": "GAP",
+        "Value": "0.785013569"
+      },
+      {
+        "Date": "02/10/2018",
+        "Stock": "GAP",
+        "Value": "0.701532464"
+      },
+      {
+        "Date": "09/10/2018",
+        "Stock": "GAP",
+        "Value": "0.760820496"
+      },
+      {
+        "Date": "16/10/2018",
+        "Stock": "GAP",
+        "Value": "0.724543282"
+      },
+      {
+        "Date": "23/10/2018",
+        "Stock": "GAP",
+        "Value": "0.610531255"
+      },
+      {
+        "Date": "30/10/2018",
+        "Stock": "GAP",
+        "Value": "0.883901328"
+      },
+      {
+        "Date": "06/11/2018",
+        "Stock": "GAP",
+        "Value": "0.803574329"
+      },
+      {
+        "Date": "13/11/2018",
+        "Stock": "GAP",
+        "Value": "0.699927628"
+      },
+      {
+        "Date": "20/11/2018",
+        "Stock": "GAP",
+        "Value": "0.388984391"
+      },
+      {
+        "Date": "28/11/2018",
+        "Stock": "GAP",
+        "Value": "0.710291814"
+      },
+      {
+        "Date": "06/12/2018",
+        "Stock": "GAP",
+        "Value": "0.771184967"
+      },
+      {
+        "Date": "13/12/2018",
+        "Stock": "GAP",
+        "Value": "0.644215998"
+      },
+      {
+        "Date": "20/12/2018",
+        "Stock": "GAP",
+        "Value": "0.439512218"
+      },
+      {
+        "Date": "28/12/2018",
+        "Stock": "GAP",
+        "Value": "0.513361458"
+      },
+      {
+        "Date": "07/01/2019",
+        "Stock": "GAP",
+        "Value": "0.636442859"
+      },
+      {
+        "Date": "14/01/2019",
+        "Stock": "GAP",
+        "Value": "0.506080141"
+      },
+      {
+        "Date": "22/01/2019",
+        "Stock": "GAP",
+        "Value": "0.455085282"
+      },
+      {
+        "Date": "29/01/2019",
+        "Stock": "GAP",
+        "Value": "0.527000854"
+      },
+      {
+        "Date": "05/02/2019",
+        "Stock": "GAP",
+        "Value": "0.491696742"
+      },
+      {
+        "Date": "12/02/2019",
+        "Stock": "GAP",
+        "Value": "0.481235959"
+      },
+      {
+        "Date": "20/02/2019",
+        "Stock": "GAP",
+        "Value": "0.483851511"
+      },
+      {
+        "Date": "27/02/2019",
+        "Stock": "GAP",
+        "Value": "0.510002472"
+      },
+      {
+        "Date": "06/03/2019",
+        "Stock": "GAP",
+        "Value": "0.669523509"
+      },
+      {
+        "Date": "13/03/2019",
+        "Stock": "GAP",
+        "Value": "0.593685892"
+      },
+      {
+        "Date": "20/03/2019",
+        "Stock": "GAP",
+        "Value": "0.506080141"
+      },
+      {
+        "Date": "27/03/2019",
+        "Stock": "GAP",
+        "Value": "0.592378828"
+      },
+      {
+        "Date": "03/04/2019",
+        "Stock": "GAP",
+        "Value": "0.609377209"
+      },
+      {
+        "Date": "10/04/2019",
+        "Stock": "GAP",
+        "Value": "0.612035504"
+      },
+      {
+        "Date": "17/04/2019",
+        "Stock": "GAP",
+        "Value": "0.646347421"
+      },
+      {
+        "Date": "25/04/2019",
+        "Stock": "GAP",
+        "Value": "0.629191463"
+      },
+      {
+        "Date": "02/05/2019",
+        "Stock": "GAP",
+        "Value": "0.609396016"
+      },
+      {
+        "Date": "09/05/2019",
+        "Stock": "GAP",
+        "Value": "0.490624192"
+      },
+      {
+        "Date": "16/05/2019",
+        "Stock": "GAP",
+        "Value": "0.132988833"
+      },
+      {
+        "Date": "23/05/2019",
+        "Stock": "GAP",
+        "Value": "-0.000299177"
+      },
+      {
+        "Date": "31/05/2019",
+        "Stock": "GAP",
+        "Value": "-0.340778292"
+      },
+      {
+        "Date": "07/06/2019",
+        "Stock": "GAP",
+        "Value": "-0.402803265"
+      },
+      {
+        "Date": "14/06/2019",
+        "Stock": "GAP",
+        "Value": "-0.406762354"
+      },
+      {
+        "Date": "21/06/2019",
+        "Stock": "GAP",
+        "Value": "-0.401484518"
+      },
+      {
+        "Date": "28/06/2019",
+        "Stock": "GAP",
+        "Value": "-0.434475694"
+      },
+      {
+        "Date": "08/07/2019",
+        "Stock": "GAP",
+        "Value": "-0.367171746"
+      },
+      {
+        "Date": "15/07/2019",
+        "Stock": "GAP",
+        "Value": "-0.277173559"
+      },
+      {
+        "Date": "22/07/2019",
+        "Stock": "GAP",
+        "Value": "-0.302581943"
+      },
+      {
+        "Date": "29/07/2019",
+        "Stock": "GAP",
+        "Value": "-0.195599907"
+      },
+      {
+        "Date": "05/08/2019",
+        "Stock": "GAP",
+        "Value": "-0.421598681"
+      },
+      {
+        "Date": "12/08/2019",
+        "Stock": "GAP",
+        "Value": "-0.471078179"
+      },
+      {
+        "Date": "19/08/2019",
+        "Stock": "GAP",
+        "Value": "-0.576722519"
+      },
+      {
+        "Date": "26/08/2019",
+        "Stock": "GAP",
+        "Value": "-0.615503443"
+      },
+      {
+        "Date": "03/09/2019",
+        "Stock": "GAP",
+        "Value": "-0.72114764"
+      },
+      {
+        "Date": "10/09/2019",
+        "Stock": "GAP",
+        "Value": "-0.34804935"
+      },
+      {
+        "Date": "17/09/2019",
+        "Stock": "GAP",
+        "Value": "-0.370782342"
+      },
+      {
+        "Date": "24/09/2019",
+        "Stock": "GAP",
+        "Value": "-0.508521264"
+      },
+      {
+        "Date": "01/10/2019",
+        "Stock": "GAP",
+        "Value": "-0.524568769"
+      },
+      {
+        "Date": "08/10/2019",
+        "Stock": "GAP",
+        "Value": "-0.631759958"
+      },
+      {
+        "Date": "15/10/2019",
+        "Stock": "GAP",
+        "Value": "-0.455327876"
+      },
+      {
+        "Date": "22/10/2019",
+        "Stock": "GAP",
+        "Value": "-0.38204013"
+      },
+      {
+        "Date": "29/10/2019",
+        "Stock": "GAP",
+        "Value": "-0.487900034"
+      },
+      {
+        "Date": "05/11/2019",
+        "Stock": "GAP",
+        "Value": "-0.372539911"
+      },
+      {
+        "Date": "12/11/2019",
+        "Stock": "GAP",
+        "Value": "-0.477042458"
+      },
+      {
+        "Date": "19/11/2019",
+        "Stock": "GAP",
+        "Value": "-0.528614911"
+      },
+      {
+        "Date": "26/11/2019",
+        "Stock": "GAP",
+        "Value": "-0.497399825"
+      },
+      {
+        "Date": "04/12/2019",
+        "Stock": "GAP",
+        "Value": "-0.627688741"
+      },
+      {
+        "Date": "11/12/2019",
+        "Stock": "GAP",
+        "Value": "-0.611402448"
+      },
+      {
+        "Date": "18/12/2019",
+        "Stock": "GAP",
+        "Value": "-0.399683637"
+      },
+      {
+        "Date": "26/12/2019",
+        "Stock": "GAP",
+        "Value": "-0.372539911"
+      },
+      {
+        "Date": "03/01/2020",
+        "Stock": "GAP",
+        "Value": "-0.439041726"
+      },
+      {
+        "Date": "10/01/2020",
+        "Stock": "GAP",
+        "Value": "-0.357637049"
+      },
+      {
+        "Date": "17/01/2020",
+        "Stock": "GAP",
+        "Value": "-0.257228229"
+      },
+      {
+        "Date": "27/01/2020",
+        "Stock": "GAP",
+        "Value": "-0.372767301"
+      },
+      {
+        "Date": "03/02/2020",
+        "Stock": "GAP",
+        "Value": "-0.405778138"
+      },
+      {
+        "Date": "10/02/2020",
+        "Stock": "GAP",
+        "Value": "-0.37689394"
+      },
+      {
+        "Date": "18/02/2020",
+        "Stock": "GAP",
+        "Value": "-0.412655681"
+      },
+      {
+        "Date": "25/02/2020",
+        "Stock": "GAP",
+        "Value": "-0.691873774"
+      },
+      {
+        "Date": "03/03/2020",
+        "Stock": "GAP",
+        "Value": "-0.905069479"
+      },
+      {
+        "Date": "10/03/2020",
+        "Stock": "GAP",
+        "Value": "-1.096258386"
+      },
+      {
+        "Date": "17/03/2020",
+        "Stock": "GAP",
+        "Value": "-1.657445475"
+      },
+      {
+        "Date": "24/03/2020",
+        "Stock": "GAP",
+        "Value": "-1.687705338"
+      },
+      {
+        "Date": "31/03/2020",
+        "Stock": "GAP",
+        "Value": "-1.837630485"
+      },
+      {
+        "Date": "07/04/2020",
+        "Stock": "GAP",
+        "Value": "-1.847258574"
+      },
+      {
+        "Date": "15/04/2020",
+        "Stock": "GAP",
+        "Value": "-1.745474731"
+      },
+      {
+        "Date": "22/04/2020",
+        "Stock": "GAP",
+        "Value": "-1.828002181"
+      },
+      {
+        "Date": "29/04/2020",
+        "Stock": "GAP",
+        "Value": "-1.561163438"
+      },
+      {
+        "Date": "06/05/2020",
+        "Stock": "GAP",
+        "Value": "-1.8197494"
+      },
+      {
+        "Date": "13/05/2020",
+        "Stock": "GAP",
+        "Value": "-1.851384929"
+      },
+      {
+        "Date": "20/05/2020",
+        "Stock": "GAP",
+        "Value": "-1.796366653"
+      },
+      {
+        "Date": "28/05/2020",
+        "Stock": "GAP",
+        "Value": "-1.486888626"
+      },
+      {
+        "Date": "04/06/2020",
+        "Stock": "GAP",
+        "Value": "-1.136146909"
+      },
+      {
+        "Date": "11/06/2020",
+        "Stock": "GAP",
+        "Value": "-1.411238077"
+      },
+      {
+        "Date": "18/06/2020",
+        "Stock": "GAP",
+        "Value": "-1.305327879"
+      },
+      {
+        "Date": "25/06/2020",
+        "Stock": "GAP",
+        "Value": "-1.408487459"
+      },
+      {
+        "Date": "02/07/2020",
+        "Stock": "GAP",
+        "Value": "-1.116890302"
+      },
+      {
+        "Date": "10/07/2020",
+        "Stock": "GAP",
+        "Value": "-1.203544036"
+      },
+      {
+        "Date": "17/07/2020",
+        "Stock": "GAP",
+        "Value": "-1.032987187"
+      },
+      {
+        "Date": "24/07/2020",
+        "Stock": "GAP",
+        "Value": "-1.070124806"
+      },
+      {
+        "Date": "31/07/2020",
+        "Stock": "GAP",
+        "Value": "-0.966965227"
+      },
+      {
+        "Date": "07/08/2020",
+        "Stock": "GAP",
+        "Value": "-0.869307881"
+      },
+      {
+        "Date": "14/08/2020",
+        "Stock": "GAP",
+        "Value": "-0.731761869"
+      },
+      {
+        "Date": "21/08/2020",
+        "Stock": "GAP",
+        "Value": "-0.821166648"
+      },
+      {
+        "Date": "28/08/2020",
+        "Stock": "GAP",
+        "Value": "-0.393398789"
+      },
+      {
+        "Date": "04/09/2020",
+        "Stock": "GAP",
+        "Value": "-0.396149692"
+      },
+      {
+        "Date": "14/09/2020",
+        "Stock": "GAP",
+        "Value": "-0.425034603"
+      },
+      {
+        "Date": "21/09/2020",
+        "Stock": "GAP",
+        "Value": "-0.550201265"
+      },
+      {
+        "Date": "28/09/2020",
+        "Stock": "GAP",
+        "Value": "-0.440164712"
+      },
+      {
+        "Date": "05/10/2020",
+        "Stock": "GAP",
+        "Value": "-0.16094662"
+      },
+      {
+        "Date": "12/10/2020",
+        "Stock": "GAP",
+        "Value": "-0.154069647"
+      },
+      {
+        "Date": "19/10/2020",
+        "Stock": "GAP",
+        "Value": "-0.17882749"
+      },
+      {
+        "Date": "26/10/2020",
+        "Stock": "GAP",
+        "Value": "0.027491384"
+      },
+      {
+        "Date": "02/11/2020",
+        "Stock": "GAP",
+        "Value": "0.059126486"
+      },
+      {
+        "Date": "09/11/2020",
+        "Stock": "GAP",
+        "Value": "0.365853609"
+      },
+      {
+        "Date": "16/11/2020",
+        "Stock": "GAP",
+        "Value": "0.517154421"
+      },
+      {
+        "Date": "23/11/2020",
+        "Stock": "GAP",
+        "Value": "0.778491074"
+      },
+      {
+        "Date": "01/12/2020",
+        "Stock": "GAP",
+        "Value": "0.171914084"
+      },
+      {
+        "Date": "08/12/2020",
+        "Stock": "GAP",
+        "Value": "0.149906574"
+      },
+      {
+        "Date": "15/12/2020",
+        "Stock": "GAP",
+        "Value": "0.039870449"
+      },
+      {
+        "Date": "22/12/2020",
+        "Stock": "GAP",
+        "Value": "-0.045408118"
+      },
+      {
+        "Date": "30/12/2020",
+        "Stock": "GAP",
+        "Value": "0.010985681"
+      },
+      {
+        "Date": "07/01/2021",
+        "Stock": "GAP",
+        "Value": "0.15128231"
+      },
+      {
+        "Date": "14/01/2021",
+        "Stock": "GAP",
+        "Value": "0.27369807"
+      },
+      {
+        "Date": "22/01/2021",
+        "Stock": "GAP",
+        "Value": "0.301207101"
+      },
+      {
+        "Date": "29/01/2021",
+        "Stock": "GAP",
+        "Value": "-0.020650275"
+      },
+      {
+        "Date": "05/02/2021",
+        "Stock": "GAP",
+        "Value": "0.30945981"
+      },
+      {
+        "Date": "12/02/2021",
+        "Stock": "GAP",
+        "Value": "0.369980534"
+      },
+      {
+        "Date": "22/02/2021",
+        "Stock": "GAP",
+        "Value": "0.590053354"
+      },
+      {
+        "Date": "01/03/2021",
+        "Stock": "GAP",
+        "Value": "0.713844565"
+      },
+      {
+        "Date": "08/03/2021",
+        "Stock": "GAP",
+        "Value": "1.16637041"
+      },
+      {
+        "Date": "15/03/2021",
+        "Stock": "GAP",
+        "Value": "1.629899582"
+      },
+      {
+        "Date": "22/03/2021",
+        "Stock": "GAP",
+        "Value": "1.347931726"
+      },
+      {
+        "Date": "29/03/2021",
+        "Stock": "GAP",
+        "Value": "1.149864991"
+      },
+      {
+        "Date": "06/04/2021",
+        "Stock": "GAP",
+        "Value": "1.459207952"
+      },
+      {
+        "Date": "13/04/2021",
+        "Stock": "GAP",
+        "Value": "1.667196346"
+      },
+      {
+        "Date": "20/04/2021",
+        "Stock": "GAP",
+        "Value": "1.600640391"
+      },
+      {
+        "Date": "27/04/2021",
+        "Stock": "GAP",
+        "Value": "1.963927724"
+      },
+      {
+        "Date": "04/05/2021",
+        "Stock": "GAP",
+        "Value": "2.077628301"
+      },
+      {
+        "Date": "11/05/2021",
+        "Stock": "GAP",
+        "Value": "2.087335393"
+      },
+      {
+        "Date": "18/05/2021",
+        "Stock": "GAP",
+        "Value": "2.044349611"
+      },
+      {
+        "Date": "25/05/2021",
+        "Stock": "GAP",
+        "Value": "1.72266064"
+      },
+      {
+        "Date": "02/06/2021",
+        "Stock": "GAP",
+        "Value": "1.699089042"
+      },
+      {
+        "Date": "09/06/2021",
+        "Stock": "GAP",
+        "Value": "1.575681658"
+      },
+      {
+        "Date": "16/06/2021",
+        "Stock": "GAP",
+        "Value": "1.753165346"
+      },
+      {
+        "Date": "23/06/2021",
+        "Stock": "GAP",
+        "Value": "1.761485019"
+      },
+      {
+        "Date": "30/06/2021",
+        "Stock": "GAP",
+        "Value": "1.859933385"
+      },
+      {
+        "Date": "08/07/2021",
+        "Stock": "GAP",
+        "Value": "1.492677274"
+      },
+      {
+        "Date": "15/07/2021",
+        "Stock": "GAP",
+        "Value": "1.32986108"
+      },
+      {
+        "Date": "22/07/2021",
+        "Stock": "GAP",
+        "Value": "1.232449645"
+      },
+      {
+        "Date": "29/07/2021",
+        "Stock": "GAP",
+        "Value": "1.221317235"
+      },
+      {
+        "Date": "05/08/2021",
+        "Stock": "GAP",
+        "Value": "1.161478396"
+      },
+      {
+        "Date": "12/08/2021",
+        "Stock": "GAP",
+        "Value": "1.368825938"
+      },
+      {
+        "Date": "19/08/2021",
+        "Stock": "GAP",
+        "Value": "1.009794897"
+      },
+      {
+        "Date": "26/08/2021",
+        "Stock": "GAP",
+        "Value": "0.8608945"
+      },
+      {
+        "Date": "02/09/2021",
+        "Stock": "GAP",
+        "Value": "0.767657861"
+      },
+      {
+        "Date": "10/09/2021",
+        "Stock": "GAP",
+        "Value": "0.514387846"
+      },
+      {
+        "Date": "17/09/2021",
+        "Stock": "GAP",
+        "Value": "0.582575993"
+      },
+      {
+        "Date": "24/09/2021",
+        "Stock": "GAP",
+        "Value": "0.521345745"
+      },
+      {
+        "Date": "01/10/2021",
+        "Stock": "GAP",
+        "Value": "0.474031579"
+      },
+      {
+        "Date": "08/10/2021",
+        "Stock": "GAP",
+        "Value": "0.438841162"
+      },
+      {
+        "Date": "15/10/2021",
+        "Stock": "GAP",
+        "Value": "0.2905876"
+      },
+      {
+        "Date": "22/10/2021",
+        "Stock": "GAP",
+        "Value": "0.343735254"
+      },
+      {
+        "Date": "29/10/2021",
+        "Stock": "GAP",
+        "Value": "0.367511731"
+      },
+      {
+        "Date": "05/11/2021",
+        "Stock": "GAP",
+        "Value": "0.675207398"
+      },
+      {
+        "Date": "12/11/2021",
+        "Stock": "GAP",
+        "Value": "0.665417386"
+      },
+      {
+        "Date": "19/11/2021",
+        "Stock": "GAP",
+        "Value": "0.560521181"
+      },
+      {
+        "Date": "29/11/2021",
+        "Stock": "GAP",
+        "Value": "-0.31641254"
+      },
+      {
+        "Date": "06/12/2021",
+        "Stock": "GAP",
+        "Value": "-0.380749023"
+      },
+      {
+        "Date": "13/12/2021",
+        "Stock": "GAP",
+        "Value": "-0.524806845"
+      },
+      {
+        "Date": "20/12/2021",
+        "Stock": "GAP",
+        "Value": "-0.471659048"
+      },
+      {
+        "Date": "28/12/2021",
+        "Stock": "GAP",
+        "Value": "-0.370958441"
+      },
+      {
+        "Date": "04/01/2022",
+        "Stock": "GAP",
+        "Value": "-0.180406966"
+      },
+      {
+        "Date": "11/01/2022",
+        "Stock": "GAP",
+        "Value": "-0.288807765"
+      },
+      {
+        "Date": "19/01/2022",
+        "Stock": "GAP",
+        "Value": "-0.461966916"
+      },
+      {
+        "Date": "26/01/2022",
+        "Stock": "GAP",
+        "Value": "-0.333857152"
+      },
+      {
+        "Date": "02/02/2022",
+        "Stock": "GAP",
+        "Value": "-0.316963347"
+      },
+      {
+        "Date": "09/02/2022",
+        "Stock": "GAP",
+        "Value": "-0.364828891"
+      },
+      {
+        "Date": "16/02/2022",
+        "Stock": "GAP",
+        "Value": "-0.646388556"
+      },
+      {
+        "Date": "24/02/2022",
+        "Stock": "GAP",
+        "Value": "-0.787168603"
+      },
+      {
+        "Date": "03/03/2022",
+        "Stock": "GAP",
+        "Value": "-0.799838743"
+      },
+      {
+        "Date": "10/03/2022",
+        "Stock": "GAP",
+        "Value": "-0.795615505"
+      },
+      {
+        "Date": "17/03/2022",
+        "Stock": "GAP",
+        "Value": "-0.639349447"
+      },
+      {
+        "Date": "24/03/2022",
+        "Stock": "GAP",
+        "Value": "-0.827994752"
+      },
+      {
+        "Date": "31/03/2022",
+        "Stock": "GAP",
+        "Value": "-0.82377123"
+      },
+      {
+        "Date": "07/04/2022",
+        "Stock": "GAP",
+        "Value": "-0.92783239"
+      },
+      {
+        "Date": "14/04/2022",
+        "Stock": "GAP",
+        "Value": "-0.798356008"
+      },
+      {
+        "Date": "22/04/2022",
+        "Stock": "GAP",
+        "Value": "-1.138409409"
+      },
+      {
+        "Date": "29/04/2022",
+        "Stock": "GAP",
+        "Value": "-1.038812268"
+      },
+      {
+        "Date": "06/05/2022",
+        "Stock": "GAP",
+        "Value": "-1.00039608"
+      },
+      {
+        "Date": "13/05/2022",
+        "Stock": "GAP",
+        "Value": "-1.077228314"
+      },
+      {
+        "Date": "20/05/2022",
+        "Stock": "GAP",
+        "Value": "-1.250812183"
+      },
+      {
+        "Date": "27/05/2022",
+        "Stock": "GAP",
+        "Value": "-1.155483302"
+      },
+      {
+        "Date": "06/06/2022",
+        "Stock": "GAP",
+        "Value": "-1.284959826"
+      },
+      {
+        "Date": "13/06/2022",
+        "Stock": "GAP",
+        "Value": "-1.52114797"
+      },
+      {
+        "Date": "21/06/2022",
+        "Stock": "GAP",
+        "Value": "-1.551026927"
+      },
+      {
+        "Date": "28/06/2022",
+        "Stock": "GAP",
+        "Value": "-1.529684631"
+      },
+      {
+        "Date": "06/07/2022",
+        "Stock": "GAP",
+        "Value": "-1.564666608"
+      },
+      {
+        "Date": "13/07/2022",
+        "Stock": "GAP",
+        "Value": "-1.603773656"
+      },
+      {
+        "Date": "20/07/2022",
+        "Stock": "GAP",
+        "Value": "-1.431413076"
+      },
+      {
+        "Date": "27/07/2022",
+        "Stock": "GAP",
+        "Value": "-1.519765964"
+      },
+      {
+        "Date": "03/08/2022",
+        "Stock": "GAP",
+        "Value": "-1.389409088"
+      },
+      {
+        "Date": "10/08/2022",
+        "Stock": "GAP",
+        "Value": "-1.380718696"
+      },
+      {
+        "Date": "17/08/2022",
+        "Stock": "GAP",
+        "Value": "-1.204012778"
+      },
+      {
+        "Date": "24/08/2022",
+        "Stock": "GAP",
+        "Value": "-1.370579763"
+      },
+      {
+        "Date": "31/08/2022",
+        "Stock": "GAP",
+        "Value": "-1.482107172"
+      },
+      {
+        "Date": "08/09/2022",
+        "Stock": "GAP",
+        "Value": "-1.409686812"
+      },
+      {
+        "Date": "15/09/2022",
+        "Stock": "GAP",
+        "Value": "-1.502385038"
+      },
+      {
+        "Date": "22/09/2022",
+        "Stock": "GAP",
+        "Value": "-1.522662762"
+      },
+      {
+        "Date": "29/09/2022",
+        "Stock": "GAP",
+        "Value": "-1.590737926"
+      },
+      {
+        "Date": "06/10/2022",
+        "Stock": "GAP",
+        "Value": "-1.361344832"
+      },
+      {
+        "Date": "13/10/2022",
+        "Stock": "GAP",
+        "Value": "-1.355448513"
+      },
+      {
+        "Date": "20/10/2022",
+        "Stock": "GAP",
+        "Value": "-1.373137613"
+      },
+      {
+        "Date": "27/10/2022",
+        "Stock": "GAP",
+        "Value": "-1.182979938"
+      },
+      {
+        "Date": "03/11/2022",
+        "Stock": "GAP",
+        "Value": "-1.213935862"
+      },
+      {
+        "Date": "10/11/2022",
+        "Stock": "GAP",
+        "Value": "-1.106327364"
+      },
+      {
+        "Date": "17/11/2022",
+        "Stock": "GAP",
+        "Value": "-0.932384744"
+      },
+      {
+        "Date": "25/11/2022",
+        "Stock": "GAP",
+        "Value": "-0.618403517"
+      },
+      {
+        "Date": "02/12/2022",
+        "Stock": "GAP",
+        "Value": "-0.616929473"
+      },
+      {
+        "Date": "09/12/2022",
+        "Stock": "GAP",
+        "Value": "-0.756968081"
+      },
+      {
+        "Date": "16/12/2022",
+        "Stock": "GAP",
+        "Value": "-0.897006546"
+      },
+      {
+        "Date": "23/12/2022",
+        "Stock": "GAP",
+        "Value": "-1.028200461"
+      },
+      {
+        "Date": "03/01/2023",
+        "Stock": "GAP",
+        "Value": "-1.113300508"
+      },
+      {
+        "Date": "08/01/2018",
+        "Stock": "Etsy",
+        "Value": "-0.606038988"
+      },
+      {
+        "Date": "16/01/2018",
+        "Stock": "Etsy",
+        "Value": "-0.764352577"
+      },
+      {
+        "Date": "23/01/2018",
+        "Stock": "Etsy",
+        "Value": "-0.608279022"
+      },
+      {
+        "Date": "30/01/2018",
+        "Stock": "Etsy",
+        "Value": "-0.561232862"
+      },
+      {
+        "Date": "06/02/2018",
+        "Stock": "Etsy",
+        "Value": "-0.382757755"
+      },
+      {
+        "Date": "13/02/2018",
+        "Stock": "Etsy",
+        "Value": "-0.430549989"
+      },
+      {
+        "Date": "21/02/2018",
+        "Stock": "Etsy",
+        "Value": "-0.358114959"
+      },
+      {
+        "Date": "28/02/2018",
+        "Stock": "Etsy",
+        "Value": "-0.377529497"
+      },
+      {
+        "Date": "07/03/2018",
+        "Stock": "Etsy",
+        "Value": "-0.297626477"
+      },
+      {
+        "Date": "14/03/2018",
+        "Stock": "Etsy",
+        "Value": "-0.379770438"
+      },
+      {
+        "Date": "21/03/2018",
+        "Stock": "Etsy",
+        "Value": "-0.466394769"
+      },
+      {
+        "Date": "28/03/2018",
+        "Stock": "Etsy",
+        "Value": "-0.582889549"
+      },
+      {
+        "Date": "05/04/2018",
+        "Stock": "Etsy",
+        "Value": "-0.588862974"
+      },
+      {
+        "Date": "12/04/2018",
+        "Stock": "Etsy",
+        "Value": "-0.55152514"
+      },
+      {
+        "Date": "19/04/2018",
+        "Stock": "Etsy",
+        "Value": "-0.433537306"
+      },
+      {
+        "Date": "26/04/2018",
+        "Stock": "Etsy",
+        "Value": "-0.689676305"
+      },
+      {
+        "Date": "03/05/2018",
+        "Stock": "Etsy",
+        "Value": "-0.767339592"
+      },
+      {
+        "Date": "10/05/2018",
+        "Stock": "Etsy",
+        "Value": "-0.703118022"
+      },
+      {
+        "Date": "17/05/2018",
+        "Stock": "Etsy",
+        "Value": "-0.710585105"
+      },
+      {
+        "Date": "24/05/2018",
+        "Stock": "Etsy",
+        "Value": "-0.756137305"
+      },
+      {
+        "Date": "01/06/2018",
+        "Stock": "Etsy",
+        "Value": "-0.71506608"
+      },
+      {
+        "Date": "08/06/2018",
+        "Stock": "Etsy",
+        "Value": "-0.569448134"
+      },
+      {
+        "Date": "15/06/2018",
+        "Stock": "Etsy",
+        "Value": "-0.673994251"
+      },
+      {
+        "Date": "22/06/2018",
+        "Stock": "Etsy",
+        "Value": "-0.733735148"
+      },
+      {
+        "Date": "29/06/2018",
+        "Stock": "Etsy",
+        "Value": "-0.870392353"
+      },
+      {
+        "Date": "09/07/2018",
+        "Stock": "Etsy",
+        "Value": "-0.747176865"
+      },
+      {
+        "Date": "16/07/2018",
+        "Stock": "Etsy",
+        "Value": "-0.760618582"
+      },
+      {
+        "Date": "23/07/2018",
+        "Stock": "Etsy",
+        "Value": "-1.054842698"
+      },
+      {
+        "Date": "30/07/2018",
+        "Stock": "Etsy",
+        "Value": "-1.063803591"
+      },
+      {
+        "Date": "06/08/2018",
+        "Stock": "Etsy",
+        "Value": "-1.039906718"
+      },
+      {
+        "Date": "13/08/2018",
+        "Stock": "Etsy",
+        "Value": "-1.048121386"
+      },
+      {
+        "Date": "20/08/2018",
+        "Stock": "Etsy",
+        "Value": "-1.037666986"
+      },
+      {
+        "Date": "27/08/2018",
+        "Stock": "Etsy",
+        "Value": "-0.995848177"
+      },
+      {
+        "Date": "04/09/2018",
+        "Stock": "Etsy",
+        "Value": "-0.979418841"
+      },
+      {
+        "Date": "11/09/2018",
+        "Stock": "Etsy",
+        "Value": "-1.030945674"
+      },
+      {
+        "Date": "18/09/2018",
+        "Stock": "Etsy",
+        "Value": "-1.030199903"
+      },
+      {
+        "Date": "25/09/2018",
+        "Stock": "Etsy",
+        "Value": "-1.131759156"
+      },
+      {
+        "Date": "02/10/2018",
+        "Stock": "Etsy",
+        "Value": "-1.146693776"
+      },
+      {
+        "Date": "09/10/2018",
+        "Stock": "Etsy",
+        "Value": "-1.092926757"
+      },
+      {
+        "Date": "16/10/2018",
+        "Stock": "Etsy",
+        "Value": "-1.169843064"
+      },
+      {
+        "Date": "23/10/2018",
+        "Stock": "Etsy",
+        "Value": "-1.473028526"
+      },
+      {
+        "Date": "30/10/2018",
+        "Stock": "Etsy",
+        "Value": "-1.530529087"
+      },
+      {
+        "Date": "06/11/2018",
+        "Stock": "Etsy",
+        "Value": "-1.341598673"
+      },
+      {
+        "Date": "13/11/2018",
+        "Stock": "Etsy",
+        "Value": "-1.479749384"
+      },
+      {
+        "Date": "20/11/2018",
+        "Stock": "Etsy",
+        "Value": "-1.475269014"
+      },
+      {
+        "Date": "28/11/2018",
+        "Stock": "Etsy",
+        "Value": "-1.355787068"
+      },
+      {
+        "Date": "06/12/2018",
+        "Stock": "Etsy",
+        "Value": "-1.377443"
+      },
+      {
+        "Date": "13/12/2018",
+        "Stock": "Etsy",
+        "Value": "-1.411047292"
+      },
+      {
+        "Date": "20/12/2018",
+        "Stock": "Etsy",
+        "Value": "-1.487963901"
+      },
+      {
+        "Date": "28/12/2018",
+        "Stock": "Etsy",
+        "Value": "-1.469294682"
+      },
+      {
+        "Date": "07/01/2019",
+        "Stock": "Etsy",
+        "Value": "-1.377443"
+      },
+      {
+        "Date": "14/01/2019",
+        "Stock": "Etsy",
+        "Value": "-1.322182775"
+      },
+      {
+        "Date": "22/01/2019",
+        "Stock": "Etsy",
+        "Value": "-1.121304152"
+      },
+      {
+        "Date": "29/01/2019",
+        "Stock": "Etsy",
+        "Value": "-1.062310386"
+      },
+      {
+        "Date": "05/02/2019",
+        "Stock": "Etsy",
+        "Value": "-0.939841274"
+      },
+      {
+        "Date": "12/02/2019",
+        "Stock": "Etsy",
+        "Value": "-0.875619402"
+      },
+      {
+        "Date": "20/02/2019",
+        "Stock": "Etsy",
+        "Value": "-0.834547875"
+      },
+      {
+        "Date": "27/02/2019",
+        "Stock": "Etsy",
+        "Value": "-0.771819359"
+      },
+      {
+        "Date": "06/03/2019",
+        "Stock": "Etsy",
+        "Value": "-0.819041386"
+      },
+      {
+        "Date": "13/03/2019",
+        "Stock": "Etsy",
+        "Value": "-0.845276047"
+      },
+      {
+        "Date": "20/03/2019",
+        "Stock": "Etsy",
+        "Value": "-0.827287178"
+      },
+      {
+        "Date": "27/03/2019",
+        "Stock": "Etsy",
+        "Value": "-0.817541986"
+      },
+      {
+        "Date": "03/04/2019",
+        "Stock": "Etsy",
+        "Value": "-0.730593419"
+      },
+      {
+        "Date": "10/04/2019",
+        "Stock": "Etsy",
+        "Value": "-0.750831992"
+      },
+      {
+        "Date": "17/04/2019",
+        "Stock": "Etsy",
+        "Value": "-0.882004089"
+      },
+      {
+        "Date": "25/04/2019",
+        "Stock": "Etsy",
+        "Value": "-0.721599438"
+      },
+      {
+        "Date": "02/05/2019",
+        "Stock": "Etsy",
+        "Value": "-0.760575976"
+      },
+      {
+        "Date": "09/05/2019",
+        "Stock": "Etsy",
+        "Value": "-0.758327782"
+      },
+      {
+        "Date": "16/05/2019",
+        "Stock": "Etsy",
+        "Value": "-0.784562746"
+      },
+      {
+        "Date": "23/05/2019",
+        "Stock": "Etsy",
+        "Value": "-0.883503489"
+      },
+      {
+        "Date": "31/05/2019",
+        "Stock": "Etsy",
+        "Value": "-0.874517364"
+      },
+      {
+        "Date": "07/06/2019",
+        "Stock": "Etsy",
+        "Value": "-0.755626929"
+      },
+      {
+        "Date": "14/06/2019",
+        "Stock": "Etsy",
+        "Value": "-0.650280649"
+      },
+      {
+        "Date": "21/06/2019",
+        "Stock": "Etsy",
+        "Value": "-0.564498785"
+      },
+      {
+        "Date": "28/06/2019",
+        "Stock": "Etsy",
+        "Value": "-0.605884576"
+      },
+      {
+        "Date": "08/07/2019",
+        "Stock": "Etsy",
+        "Value": "-0.602875502"
+      },
+      {
+        "Date": "15/07/2019",
+        "Stock": "Etsy",
+        "Value": "-0.547944651"
+      },
+      {
+        "Date": "22/07/2019",
+        "Stock": "Etsy",
+        "Value": "-0.517845756"
+      },
+      {
+        "Date": "29/07/2019",
+        "Stock": "Etsy",
+        "Value": "-0.450123774"
+      },
+      {
+        "Date": "05/08/2019",
+        "Stock": "Etsy",
+        "Value": "-0.657805448"
+      },
+      {
+        "Date": "12/08/2019",
+        "Stock": "Etsy",
+        "Value": "-0.587825904"
+      },
+      {
+        "Date": "19/08/2019",
+        "Stock": "Etsy",
+        "Value": "-0.538915315"
+      },
+      {
+        "Date": "26/08/2019",
+        "Stock": "Etsy",
+        "Value": "-0.613409979"
+      },
+      {
+        "Date": "03/09/2019",
+        "Stock": "Etsy",
+        "Value": "-0.577460646"
+      },
+      {
+        "Date": "10/09/2019",
+        "Stock": "Etsy",
+        "Value": "-0.5374416"
+      },
+      {
+        "Date": "17/09/2019",
+        "Stock": "Etsy",
+        "Value": "-0.517809193"
+      },
+      {
+        "Date": "24/09/2019",
+        "Stock": "Etsy",
+        "Value": "-0.591052243"
+      },
+      {
+        "Date": "01/10/2019",
+        "Stock": "Etsy",
+        "Value": "-0.668070383"
+      },
+      {
+        "Date": "08/10/2019",
+        "Stock": "Etsy",
+        "Value": "-0.760189794"
+      },
+      {
+        "Date": "15/10/2019",
+        "Stock": "Etsy",
+        "Value": "-0.642397166"
+      },
+      {
+        "Date": "22/10/2019",
+        "Stock": "Etsy",
+        "Value": "-0.637867238"
+      },
+      {
+        "Date": "29/10/2019",
+        "Stock": "Etsy",
+        "Value": "-0.851554368"
+      },
+      {
+        "Date": "05/11/2019",
+        "Stock": "Etsy",
+        "Value": "-0.899124503"
+      },
+      {
+        "Date": "12/11/2019",
+        "Stock": "Etsy",
+        "Value": "-0.930082787"
+      },
+      {
+        "Date": "19/11/2019",
+        "Stock": "Etsy",
+        "Value": "-0.930837926"
+      },
+      {
+        "Date": "26/11/2019",
+        "Stock": "Etsy",
+        "Value": "-0.878738165"
+      },
+      {
+        "Date": "04/12/2019",
+        "Stock": "Etsy",
+        "Value": "-0.927281913"
+      },
+      {
+        "Date": "11/12/2019",
+        "Stock": "Etsy",
+        "Value": "-0.93107181"
+      },
+      {
+        "Date": "18/12/2019",
+        "Stock": "Etsy",
+        "Value": "-0.876492994"
+      },
+      {
+        "Date": "26/12/2019",
+        "Stock": "Etsy",
+        "Value": "-0.830252436"
+      },
+      {
+        "Date": "03/01/2020",
+        "Stock": "Etsy",
+        "Value": "-0.852235776"
+      },
+      {
+        "Date": "10/01/2020",
+        "Stock": "Etsy",
+        "Value": "-0.933345386"
+      },
+      {
+        "Date": "17/01/2020",
+        "Stock": "Etsy",
+        "Value": "-0.86284761"
+      },
+      {
+        "Date": "27/01/2020",
+        "Stock": "Etsy",
+        "Value": "-0.888621452"
+      },
+      {
+        "Date": "03/02/2020",
+        "Stock": "Etsy",
+        "Value": "-0.971247686"
+      },
+      {
+        "Date": "10/02/2020",
+        "Stock": "Etsy",
+        "Value": "-0.847687415"
+      },
+      {
+        "Date": "18/02/2020",
+        "Stock": "Etsy",
+        "Value": "-0.707450024"
+      },
+      {
+        "Date": "25/02/2020",
+        "Stock": "Etsy",
+        "Value": "-0.814333778"
+      },
+      {
+        "Date": "03/03/2020",
+        "Stock": "Etsy",
+        "Value": "-0.781856453"
+      },
+      {
+        "Date": "10/03/2020",
+        "Stock": "Etsy",
+        "Value": "-0.833639532"
+      },
+      {
+        "Date": "17/03/2020",
+        "Stock": "Etsy",
+        "Value": "-1.043818242"
+      },
+      {
+        "Date": "24/03/2020",
+        "Stock": "Etsy",
+        "Value": "-1.471029326"
+      },
+      {
+        "Date": "31/03/2020",
+        "Stock": "Etsy",
+        "Value": "-1.289026762"
+      },
+      {
+        "Date": "07/04/2020",
+        "Stock": "Etsy",
+        "Value": "-1.170230152"
+      },
+      {
+        "Date": "15/04/2020",
+        "Stock": "Etsy",
+        "Value": "-0.822216657"
+      },
+      {
+        "Date": "22/04/2020",
+        "Stock": "Etsy",
+        "Value": "-0.665343845"
+      },
+      {
+        "Date": "29/04/2020",
+        "Stock": "Etsy",
+        "Value": "-0.605945918"
+      },
+      {
+        "Date": "06/05/2020",
+        "Stock": "Etsy",
+        "Value": "-0.459733893"
+      },
+      {
+        "Date": "13/05/2020",
+        "Stock": "Etsy",
+        "Value": "-0.411758841"
+      },
+      {
+        "Date": "20/05/2020",
+        "Stock": "Etsy",
+        "Value": "-0.325707437"
+      },
+      {
+        "Date": "28/05/2020",
+        "Stock": "Etsy",
+        "Value": "-0.209956615"
+      },
+      {
+        "Date": "04/06/2020",
+        "Stock": "Etsy",
+        "Value": "0.194348282"
+      },
+      {
+        "Date": "11/06/2020",
+        "Stock": "Etsy",
+        "Value": "0.085820083"
+      },
+      {
+        "Date": "18/06/2020",
+        "Stock": "Etsy",
+        "Value": "0.124034531"
+      },
+      {
+        "Date": "25/06/2020",
+        "Stock": "Etsy",
+        "Value": "0.197405704"
+      },
+      {
+        "Date": "02/07/2020",
+        "Stock": "Etsy",
+        "Value": "0.57648944"
+      },
+      {
+        "Date": "10/07/2020",
+        "Stock": "Etsy",
+        "Value": "0.951752154"
+      },
+      {
+        "Date": "17/07/2020",
+        "Stock": "Etsy",
+        "Value": "0.86462349"
+      },
+      {
+        "Date": "24/07/2020",
+        "Stock": "Etsy",
+        "Value": "0.634575619"
+      },
+      {
+        "Date": "31/07/2020",
+        "Stock": "Etsy",
+        "Value": "0.64680319"
+      },
+      {
+        "Date": "07/08/2020",
+        "Stock": "Etsy",
+        "Value": "0.641454062"
+      },
+      {
+        "Date": "14/08/2020",
+        "Stock": "Etsy",
+        "Value": "0.723995989"
+      },
+      {
+        "Date": "21/08/2020",
+        "Stock": "Etsy",
+        "Value": "0.870738636"
+      },
+      {
+        "Date": "28/08/2020",
+        "Stock": "Etsy",
+        "Value": "0.569610694"
+      },
+      {
+        "Date": "04/09/2020",
+        "Stock": "Etsy",
+        "Value": "0.449263466"
+      },
+      {
+        "Date": "14/09/2020",
+        "Stock": "Etsy",
+        "Value": "0.430866961"
+      },
+      {
+        "Date": "21/09/2020",
+        "Stock": "Etsy",
+        "Value": "0.265294488"
+      },
+      {
+        "Date": "28/09/2020",
+        "Stock": "Etsy",
+        "Value": "0.564245248"
+      },
+      {
+        "Date": "05/10/2020",
+        "Stock": "Etsy",
+        "Value": "0.390240238"
+      },
+      {
+        "Date": "12/10/2020",
+        "Stock": "Etsy",
+        "Value": "0.666961989"
+      },
+      {
+        "Date": "19/10/2020",
+        "Stock": "Etsy",
+        "Value": "0.585708542"
+      },
+      {
+        "Date": "26/10/2020",
+        "Stock": "Etsy",
+        "Value": "0.510587768"
+      },
+      {
+        "Date": "02/11/2020",
+        "Stock": "Etsy",
+        "Value": "0.091288571"
+      },
+      {
+        "Date": "09/11/2020",
+        "Stock": "Etsy",
+        "Value": "0.125783529"
+      },
+      {
+        "Date": "16/11/2020",
+        "Stock": "Etsy",
+        "Value": "0.143413412"
+      },
+      {
+        "Date": "23/11/2020",
+        "Stock": "Etsy",
+        "Value": "0.246896774"
+      },
+      {
+        "Date": "01/12/2020",
+        "Stock": "Etsy",
+        "Value": "0.30652919"
+      },
+      {
+        "Date": "08/12/2020",
+        "Stock": "Etsy",
+        "Value": "0.258085463"
+      },
+      {
+        "Date": "15/12/2020",
+        "Stock": "Etsy",
+        "Value": "0.426483589"
+      },
+      {
+        "Date": "22/12/2020",
+        "Stock": "Etsy",
+        "Value": "0.391112319"
+      },
+      {
+        "Date": "30/12/2020",
+        "Stock": "Etsy",
+        "Value": "0.308835703"
+      },
+      {
+        "Date": "07/01/2021",
+        "Stock": "Etsy",
+        "Value": "0.501839456"
+      },
+      {
+        "Date": "14/01/2021",
+        "Stock": "Etsy",
+        "Value": "0.671775056"
+      },
+      {
+        "Date": "22/01/2021",
+        "Stock": "Etsy",
+        "Value": "0.763278329"
+      },
+      {
+        "Date": "29/01/2021",
+        "Stock": "Etsy",
+        "Value": "0.76712292"
+      },
+      {
+        "Date": "05/02/2021",
+        "Stock": "Etsy",
+        "Value": "1.206955615"
+      },
+      {
+        "Date": "12/02/2021",
+        "Stock": "Etsy",
+        "Value": "1.266933116"
+      },
+      {
+        "Date": "22/02/2021",
+        "Stock": "Etsy",
+        "Value": "1.155437242"
+      },
+      {
+        "Date": "01/03/2021",
+        "Stock": "Etsy",
+        "Value": "0.932854338"
+      },
+      {
+        "Date": "08/03/2021",
+        "Stock": "Etsy",
+        "Value": "0.547937992"
+      },
+      {
+        "Date": "15/03/2021",
+        "Stock": "Etsy",
+        "Value": "0.870372398"
+      },
+      {
+        "Date": "22/03/2021",
+        "Stock": "Etsy",
+        "Value": "1.072473175"
+      },
+      {
+        "Date": "29/03/2021",
+        "Stock": "Etsy",
+        "Value": "1.038532409"
+      },
+      {
+        "Date": "06/04/2021",
+        "Stock": "Etsy",
+        "Value": "1.244489864"
+      },
+      {
+        "Date": "13/04/2021",
+        "Stock": "Etsy",
+        "Value": "1.344768644"
+      },
+      {
+        "Date": "20/04/2021",
+        "Stock": "Etsy",
+        "Value": "1.188179576"
+      },
+      {
+        "Date": "27/04/2021",
+        "Stock": "Etsy",
+        "Value": "1.181237675"
+      },
+      {
+        "Date": "04/05/2021",
+        "Stock": "Etsy",
+        "Value": "0.871915614"
+      },
+      {
+        "Date": "11/05/2021",
+        "Stock": "Etsy",
+        "Value": "1.083272358"
+      },
+      {
+        "Date": "18/05/2021",
+        "Stock": "Etsy",
+        "Value": "1.149610675"
+      },
+      {
+        "Date": "25/05/2021",
+        "Stock": "Etsy",
+        "Value": "1.150382131"
+      },
+      {
+        "Date": "02/06/2021",
+        "Stock": "Etsy",
+        "Value": "1.327981229"
+      },
+      {
+        "Date": "09/06/2021",
+        "Stock": "Etsy",
+        "Value": "1.52527891"
+      },
+      {
+        "Date": "16/06/2021",
+        "Stock": "Etsy",
+        "Value": "1.535337761"
+      },
+      {
+        "Date": "23/06/2021",
+        "Stock": "Etsy",
+        "Value": "1.474214407"
+      },
+      {
+        "Date": "30/06/2021",
+        "Stock": "Etsy",
+        "Value": "1.854107976"
+      },
+      {
+        "Date": "08/07/2021",
+        "Stock": "Etsy",
+        "Value": "1.733409014"
+      },
+      {
+        "Date": "15/07/2021",
+        "Stock": "Etsy",
+        "Value": "1.693948994"
+      },
+      {
+        "Date": "22/07/2021",
+        "Stock": "Etsy",
+        "Value": "1.997246564"
+      },
+      {
+        "Date": "29/07/2021",
+        "Stock": "Etsy",
+        "Value": "2.101697495"
+      },
+      {
+        "Date": "05/08/2021",
+        "Stock": "Etsy",
+        "Value": "1.62740973"
+      },
+      {
+        "Date": "12/08/2021",
+        "Stock": "Etsy",
+        "Value": "1.751977155"
+      },
+      {
+        "Date": "19/08/2021",
+        "Stock": "Etsy",
+        "Value": "2.056821264"
+      },
+      {
+        "Date": "26/08/2021",
+        "Stock": "Etsy",
+        "Value": "2.274235439"
+      },
+      {
+        "Date": "02/09/2021",
+        "Stock": "Etsy",
+        "Value": "2.353770105"
+      },
+      {
+        "Date": "10/09/2021",
+        "Stock": "Etsy",
+        "Value": "2.048991871"
+      },
+      {
+        "Date": "17/09/2021",
+        "Stock": "Etsy",
+        "Value": "2.169197076"
+      },
+      {
+        "Date": "24/09/2021",
+        "Stock": "Etsy",
+        "Value": "2.08233886"
+      },
+      {
+        "Date": "01/10/2021",
+        "Stock": "Etsy",
+        "Value": "1.843480428"
+      },
+      {
+        "Date": "08/10/2021",
+        "Stock": "Etsy",
+        "Value": "2.242096551"
+      },
+      {
+        "Date": "15/10/2021",
+        "Stock": "Etsy",
+        "Value": "2.23046336"
+      },
+      {
+        "Date": "22/10/2021",
+        "Stock": "Etsy",
+        "Value": "2.671731091"
+      },
+      {
+        "Date": "29/10/2021",
+        "Stock": "Etsy",
+        "Value": "2.371607583"
+      },
+      {
+        "Date": "05/11/2021",
+        "Stock": "Etsy",
+        "Value": "2.282422609"
+      },
+      {
+        "Date": "12/11/2021",
+        "Stock": "Etsy",
+        "Value": "2.153687565"
+      },
+      {
+        "Date": "19/11/2021",
+        "Stock": "Etsy",
+        "Value": "2.209523738"
+      },
+      {
+        "Date": "29/11/2021",
+        "Stock": "Etsy",
+        "Value": "1.893113522"
+      },
+      {
+        "Date": "06/12/2021",
+        "Stock": "Etsy",
+        "Value": "1.55878847"
+      },
+      {
+        "Date": "13/12/2021",
+        "Stock": "Etsy",
+        "Value": "1.606994082"
+      },
+      {
+        "Date": "20/12/2021",
+        "Stock": "Etsy",
+        "Value": "1.381519349"
+      },
+      {
+        "Date": "28/12/2021",
+        "Stock": "Etsy",
+        "Value": "1.559566877"
+      },
+      {
+        "Date": "04/01/2022",
+        "Stock": "Etsy",
+        "Value": "1.486480959"
+      },
+      {
+        "Date": "11/01/2022",
+        "Stock": "Etsy",
+        "Value": "1.586779079"
+      },
+      {
+        "Date": "19/01/2022",
+        "Stock": "Etsy",
+        "Value": "1.264894634"
+      },
+      {
+        "Date": "26/01/2022",
+        "Stock": "Etsy",
+        "Value": "0.908799579"
+      },
+      {
+        "Date": "02/02/2022",
+        "Stock": "Etsy",
+        "Value": "0.973332391"
+      },
+      {
+        "Date": "09/02/2022",
+        "Stock": "Etsy",
+        "Value": "1.134274916"
+      },
+      {
+        "Date": "16/02/2022",
+        "Stock": "Etsy",
+        "Value": "0.904135182"
+      },
+      {
+        "Date": "24/02/2022",
+        "Stock": "Etsy",
+        "Value": "0.732307354"
+      },
+      {
+        "Date": "03/03/2022",
+        "Stock": "Etsy",
+        "Value": "0.653002643"
+      },
+      {
+        "Date": "10/03/2022",
+        "Stock": "Etsy",
+        "Value": "0.509707226"
+      },
+      {
+        "Date": "17/03/2022",
+        "Stock": "Etsy",
+        "Value": "0.768126146"
+      },
+      {
+        "Date": "24/03/2022",
+        "Stock": "Etsy",
+        "Value": "0.889918383"
+      },
+      {
+        "Date": "31/03/2022",
+        "Stock": "Etsy",
+        "Value": "0.892260553"
+      },
+      {
+        "Date": "07/04/2022",
+        "Stock": "Etsy",
+        "Value": "0.667412836"
+      },
+      {
+        "Date": "14/04/2022",
+        "Stock": "Etsy",
+        "Value": "0.6494563"
+      },
+      {
+        "Date": "22/04/2022",
+        "Stock": "Etsy",
+        "Value": "0.572945514"
+      },
+      {
+        "Date": "29/04/2022",
+        "Stock": "Etsy",
+        "Value": "0.475355802"
+      },
+      {
+        "Date": "06/05/2022",
+        "Stock": "Etsy",
+        "Value": "0.23255155"
+      },
+      {
+        "Date": "13/05/2022",
+        "Stock": "Etsy",
+        "Value": "0.063915913"
+      },
+      {
+        "Date": "20/05/2022",
+        "Stock": "Etsy",
+        "Value": "-0.118772743"
+      },
+      {
+        "Date": "27/05/2022",
+        "Stock": "Etsy",
+        "Value": "0.233332071"
+      },
+      {
+        "Date": "06/06/2022",
+        "Stock": "Etsy",
+        "Value": "0.160396335"
+      },
+      {
+        "Date": "13/06/2022",
+        "Stock": "Etsy",
+        "Value": "-0.211340584"
+      },
+      {
+        "Date": "21/06/2022",
+        "Stock": "Etsy",
+        "Value": "-0.261533006"
+      },
+      {
+        "Date": "28/06/2022",
+        "Stock": "Etsy",
+        "Value": "-0.233299447"
+      },
+      {
+        "Date": "06/07/2022",
+        "Stock": "Etsy",
+        "Value": "-0.149384431"
+      },
+      {
+        "Date": "13/07/2022",
+        "Stock": "Etsy",
+        "Value": "-0.245847629"
+      },
+      {
+        "Date": "20/07/2022",
+        "Stock": "Etsy",
+        "Value": "0.044326718"
+      },
+      {
+        "Date": "27/07/2022",
+        "Stock": "Etsy",
+        "Value": "0.121967946"
+      },
+      {
+        "Date": "03/08/2022",
+        "Stock": "Etsy",
+        "Value": "0.380772142"
+      },
+      {
+        "Date": "10/08/2022",
+        "Stock": "Etsy",
+        "Value": "0.225489685"
+      },
+      {
+        "Date": "17/08/2022",
+        "Stock": "Etsy",
+        "Value": "0.230979325"
+      },
+      {
+        "Date": "24/08/2022",
+        "Stock": "Etsy",
+        "Value": "-0.007434303"
+      },
+      {
+        "Date": "31/08/2022",
+        "Stock": "Etsy",
+        "Value": "-0.100015137"
+      },
+      {
+        "Date": "08/09/2022",
+        "Stock": "Etsy",
+        "Value": "-0.090557315"
+      },
+      {
+        "Date": "15/09/2022",
+        "Stock": "Etsy",
+        "Value": "-0.215874138"
+      },
+      {
+        "Date": "22/09/2022",
+        "Stock": "Etsy",
+        "Value": "-0.559510154"
+      },
+      {
+        "Date": "29/09/2022",
+        "Stock": "Etsy",
+        "Value": "-0.607587945"
+      },
+      {
+        "Date": "06/10/2022",
+        "Stock": "Etsy",
+        "Value": "-0.513009119"
+      },
+      {
+        "Date": "13/10/2022",
+        "Stock": "Etsy",
+        "Value": "-0.586307467"
+      },
+      {
+        "Date": "20/10/2022",
+        "Stock": "Etsy",
+        "Value": "-0.613104781"
+      },
+      {
+        "Date": "27/10/2022",
+        "Stock": "Etsy",
+        "Value": "-0.43734624"
+      },
+      {
+        "Date": "03/11/2022",
+        "Stock": "Etsy",
+        "Value": "-0.518526258"
+      },
+      {
+        "Date": "10/11/2022",
+        "Stock": "Etsy",
+        "Value": "-0.058242863"
+      },
+      {
+        "Date": "17/11/2022",
+        "Stock": "Etsy",
+        "Value": "0.005597663"
+      },
+      {
+        "Date": "25/11/2022",
+        "Stock": "Etsy",
+        "Value": "-0.028292942"
+      },
+      {
+        "Date": "02/12/2022",
+        "Stock": "Etsy",
+        "Value": "0.002313911"
+      },
+      {
+        "Date": "09/12/2022",
+        "Stock": "Etsy",
+        "Value": "-0.121259656"
+      },
+      {
+        "Date": "16/12/2022",
+        "Stock": "Etsy",
+        "Value": "-0.33038392"
+      },
+      {
+        "Date": "23/12/2022",
+        "Stock": "Etsy",
+        "Value": "-0.396131482"
+      },
+      {
+        "Date": "03/01/2023",
+        "Stock": "Etsy",
+        "Value": "-0.239287981"
+      },
+      {
+        "Date": "08/01/2018",
+        "Stock": "Ebay",
+        "Value": "0.243718894"
+      },
+      {
+        "Date": "16/01/2018",
+        "Stock": "Ebay",
+        "Value": "0.098474708"
+      },
+      {
+        "Date": "23/01/2018",
+        "Stock": "Ebay",
+        "Value": "0.279434585"
+      },
+      {
+        "Date": "30/01/2018",
+        "Stock": "Ebay",
+        "Value": "0.414605043"
+      },
+      {
+        "Date": "06/02/2018",
+        "Stock": "Ebay",
+        "Value": "0.149209463"
+      },
+      {
+        "Date": "13/02/2018",
+        "Stock": "Ebay",
+        "Value": "0.04078015"
+      },
+      {
+        "Date": "21/02/2018",
+        "Stock": "Ebay",
+        "Value": "0.216062185"
+      },
+      {
+        "Date": "28/02/2018",
+        "Stock": "Ebay",
+        "Value": "0.166975781"
+      },
+      {
+        "Date": "07/03/2018",
+        "Stock": "Ebay",
+        "Value": "0.220274733"
+      },
+      {
+        "Date": "14/03/2018",
+        "Stock": "Ebay",
+        "Value": "0.284562978"
+      },
+      {
+        "Date": "21/03/2018",
+        "Stock": "Ebay",
+        "Value": "0.334748283"
+      },
+      {
+        "Date": "28/03/2018",
+        "Stock": "Ebay",
+        "Value": "0.034552856"
+      },
+      {
+        "Date": "05/04/2018",
+        "Stock": "Ebay",
+        "Value": "-0.081569046"
+      },
+      {
+        "Date": "12/04/2018",
+        "Stock": "Ebay",
+        "Value": "-0.020211391"
+      },
+      {
+        "Date": "19/04/2018",
+        "Stock": "Ebay",
+        "Value": "0.079975883"
+      },
+      {
+        "Date": "26/04/2018",
+        "Stock": "Ebay",
+        "Value": "-0.057209321"
+      },
+      {
+        "Date": "03/05/2018",
+        "Stock": "Ebay",
+        "Value": "0.099390552"
+      },
+      {
+        "Date": "10/05/2018",
+        "Stock": "Ebay",
+        "Value": "0.346836757"
+      },
+      {
+        "Date": "17/05/2018",
+        "Stock": "Ebay",
+        "Value": "0.347935658"
+      },
+      {
+        "Date": "24/05/2018",
+        "Stock": "Ebay",
+        "Value": "0.372661778"
+      },
+      {
+        "Date": "01/06/2018",
+        "Stock": "Ebay",
+        "Value": "0.500322703"
+      },
+      {
+        "Date": "08/06/2018",
+        "Stock": "Ebay",
+        "Value": "0.513693415"
+      },
+      {
+        "Date": "15/06/2018",
+        "Stock": "Ebay",
+        "Value": "0.567358481"
+      },
+      {
+        "Date": "22/06/2018",
+        "Stock": "Ebay",
+        "Value": "0.45764693"
+      },
+      {
+        "Date": "29/06/2018",
+        "Stock": "Ebay",
+        "Value": "0.155803151"
+      },
+      {
+        "Date": "09/07/2018",
+        "Stock": "Ebay",
+        "Value": "0.288043019"
+      },
+      {
+        "Date": "16/07/2018",
+        "Stock": "Ebay",
+        "Value": "0.244085287"
+      },
+      {
+        "Date": "23/07/2018",
+        "Stock": "Ebay",
+        "Value": "0.18345986"
+      },
+      {
+        "Date": "30/07/2018",
+        "Stock": "Ebay",
+        "Value": "0.142799112"
+      },
+      {
+        "Date": "06/08/2018",
+        "Stock": "Ebay",
+        "Value": "0.029241127"
+      },
+      {
+        "Date": "13/08/2018",
+        "Stock": "Ebay",
+        "Value": "0.01202426"
+      },
+      {
+        "Date": "20/08/2018",
+        "Stock": "Ebay",
+        "Value": "-0.013434646"
+      },
+      {
+        "Date": "27/08/2018",
+        "Stock": "Ebay",
+        "Value": "0.066422114"
+      },
+      {
+        "Date": "04/09/2018",
+        "Stock": "Ebay",
+        "Value": "-0.120581721"
+      },
+      {
+        "Date": "11/09/2018",
+        "Stock": "Ebay",
+        "Value": "-0.358320312"
+      },
+      {
+        "Date": "18/09/2018",
+        "Stock": "Ebay",
+        "Value": "-0.373156319"
+      },
+      {
+        "Date": "25/09/2018",
+        "Stock": "Ebay",
+        "Value": "-0.23395637"
+      },
+      {
+        "Date": "02/10/2018",
+        "Stock": "Ebay",
+        "Value": "-0.307585836"
+      },
+      {
+        "Date": "09/10/2018",
+        "Stock": "Ebay",
+        "Value": "-0.55100227"
+      },
+      {
+        "Date": "16/10/2018",
+        "Stock": "Ebay",
+        "Value": "-0.50228226"
+      },
+      {
+        "Date": "23/10/2018",
+        "Stock": "Ebay",
+        "Value": "-0.556314"
+      },
+      {
+        "Date": "30/10/2018",
+        "Stock": "Ebay",
+        "Value": "-0.74533258"
+      },
+      {
+        "Date": "06/11/2018",
+        "Stock": "Ebay",
+        "Value": "-0.541844386"
+      },
+      {
+        "Date": "13/11/2018",
+        "Stock": "Ebay",
+        "Value": "-0.550269763"
+      },
+      {
+        "Date": "20/11/2018",
+        "Stock": "Ebay",
+        "Value": "-0.568585531"
+      },
+      {
+        "Date": "28/11/2018",
+        "Stock": "Ebay",
+        "Value": "-0.323886858"
+      },
+      {
+        "Date": "06/12/2018",
+        "Stock": "Ebay",
+        "Value": "-0.388175104"
+      },
+      {
+        "Date": "13/12/2018",
+        "Stock": "Ebay",
+        "Value": "-0.467848806"
+      },
+      {
+        "Date": "20/12/2018",
+        "Stock": "Ebay",
+        "Value": "-0.76767784"
+      },
+      {
+        "Date": "28/12/2018",
+        "Stock": "Ebay",
+        "Value": "-0.694781161"
+      },
+      {
+        "Date": "07/01/2019",
+        "Stock": "Ebay",
+        "Value": "-0.621334753"
+      },
+      {
+        "Date": "14/01/2019",
+        "Stock": "Ebay",
+        "Value": "-0.508326497"
+      },
+      {
+        "Date": "22/01/2019",
+        "Stock": "Ebay",
+        "Value": "-0.455577275"
+      },
+      {
+        "Date": "29/01/2019",
+        "Stock": "Ebay",
+        "Value": "-0.368943491"
+      },
+      {
+        "Date": "05/02/2019",
+        "Stock": "Ebay",
+        "Value": "-0.095122815"
+      },
+      {
+        "Date": "12/02/2019",
+        "Stock": "Ebay",
+        "Value": "-0.152267922"
+      },
+      {
+        "Date": "20/02/2019",
+        "Stock": "Ebay",
+        "Value": "-0.115636386"
+      },
+      {
+        "Date": "27/02/2019",
+        "Stock": "Ebay",
+        "Value": "0.138403227"
+      },
+      {
+        "Date": "06/03/2019",
+        "Stock": "Ebay",
+        "Value": "0.130893695"
+      },
+      {
+        "Date": "13/03/2019",
+        "Stock": "Ebay",
+        "Value": "0.067337958"
+      },
+      {
+        "Date": "20/03/2019",
+        "Stock": "Ebay",
+        "Value": "0.077961137"
+      },
+      {
+        "Date": "27/03/2019",
+        "Stock": "Ebay",
+        "Value": "0.000119123"
+      },
+      {
+        "Date": "03/04/2019",
+        "Stock": "Ebay",
+        "Value": "0.02374662"
+      },
+      {
+        "Date": "10/04/2019",
+        "Stock": "Ebay",
+        "Value": "0.167891625"
+      },
+      {
+        "Date": "17/04/2019",
+        "Stock": "Ebay",
+        "Value": "0.192801081"
+      },
+      {
+        "Date": "25/04/2019",
+        "Stock": "Ebay",
+        "Value": "0.198845318"
+      },
+      {
+        "Date": "02/05/2019",
+        "Stock": "Ebay",
+        "Value": "0.244817795"
+      },
+      {
+        "Date": "09/05/2019",
+        "Stock": "Ebay",
+        "Value": "0.036933716"
+      },
+      {
+        "Date": "16/05/2019",
+        "Stock": "Ebay",
+        "Value": "-0.026621742"
+      },
+      {
+        "Date": "23/05/2019",
+        "Stock": "Ebay",
+        "Value": "-0.385061457"
+      },
+      {
+        "Date": "31/05/2019",
+        "Stock": "Ebay",
+        "Value": "-0.508509834"
+      },
+      {
+        "Date": "07/06/2019",
+        "Stock": "Ebay",
+        "Value": "-0.417480444"
+      },
+      {
+        "Date": "14/06/2019",
+        "Stock": "Ebay",
+        "Value": "-0.346598232"
+      },
+      {
+        "Date": "21/06/2019",
+        "Stock": "Ebay",
+        "Value": "-0.17351428"
+      },
+      {
+        "Date": "28/06/2019",
+        "Stock": "Ebay",
+        "Value": "-0.138714432"
+      },
+      {
+        "Date": "08/07/2019",
+        "Stock": "Ebay",
+        "Value": "-0.1570302"
+      },
+      {
+        "Date": "15/07/2019",
+        "Stock": "Ebay",
+        "Value": "-0.064535516"
+      },
+      {
+        "Date": "22/07/2019",
+        "Stock": "Ebay",
+        "Value": "-0.055377632"
+      },
+      {
+        "Date": "29/07/2019",
+        "Stock": "Ebay",
+        "Value": "-6.39342E-05"
+      },
+      {
+        "Date": "05/08/2019",
+        "Stock": "Ebay",
+        "Value": "-0.42773723"
+      },
+      {
+        "Date": "12/08/2019",
+        "Stock": "Ebay",
+        "Value": "-0.324436309"
+      },
+      {
+        "Date": "19/08/2019",
+        "Stock": "Ebay",
+        "Value": "0.023013833"
+      },
+      {
+        "Date": "26/08/2019",
+        "Stock": "Ebay",
+        "Value": "-0.203735465"
+      },
+      {
+        "Date": "03/09/2019",
+        "Stock": "Ebay",
+        "Value": "-0.084499636"
+      },
+      {
+        "Date": "10/09/2019",
+        "Stock": "Ebay",
+        "Value": "-0.037244921"
+      },
+      {
+        "Date": "17/09/2019",
+        "Stock": "Ebay",
+        "Value": "0.036201208"
+      },
+      {
+        "Date": "24/09/2019",
+        "Stock": "Ebay",
+        "Value": "-0.100251208"
+      },
+      {
+        "Date": "01/10/2019",
+        "Stock": "Ebay",
+        "Value": "-0.217472291"
+      },
+      {
+        "Date": "08/10/2019",
+        "Stock": "Ebay",
+        "Value": "-0.276449086"
+      },
+      {
+        "Date": "15/10/2019",
+        "Stock": "Ebay",
+        "Value": "-0.031750414"
+      },
+      {
+        "Date": "22/10/2019",
+        "Stock": "Ebay",
+        "Value": "-0.13065545"
+      },
+      {
+        "Date": "29/10/2019",
+        "Stock": "Ebay",
+        "Value": "-0.002445074"
+      },
+      {
+        "Date": "05/11/2019",
+        "Stock": "Ebay",
+        "Value": "0.091148512"
+      },
+      {
+        "Date": "12/11/2019",
+        "Stock": "Ebay",
+        "Value": "0.182177902"
+      },
+      {
+        "Date": "19/11/2019",
+        "Stock": "Ebay",
+        "Value": "0.150674758"
+      },
+      {
+        "Date": "26/11/2019",
+        "Stock": "Ebay",
+        "Value": "0.323758711"
+      },
+      {
+        "Date": "04/12/2019",
+        "Stock": "Ebay",
+        "Value": "0.30617573"
+      },
+      {
+        "Date": "11/12/2019",
+        "Stock": "Ebay",
+        "Value": "0.50581749"
+      },
+      {
+        "Date": "18/12/2019",
+        "Stock": "Ebay",
+        "Value": "0.603990017"
+      },
+      {
+        "Date": "26/12/2019",
+        "Stock": "Ebay",
+        "Value": "0.720844707"
+      },
+      {
+        "Date": "03/01/2020",
+        "Stock": "Ebay",
+        "Value": "0.732200394"
+      },
+      {
+        "Date": "10/01/2020",
+        "Stock": "Ebay",
+        "Value": "0.857297123"
+      },
+      {
+        "Date": "17/01/2020",
+        "Stock": "Ebay",
+        "Value": "0.92323372"
+      },
+      {
+        "Date": "27/01/2020",
+        "Stock": "Ebay",
+        "Value": "0.521019611"
+      },
+      {
+        "Date": "03/02/2020",
+        "Stock": "Ebay",
+        "Value": "0.66076901"
+      },
+      {
+        "Date": "10/02/2020",
+        "Stock": "Ebay",
+        "Value": "0.709672077"
+      },
+      {
+        "Date": "18/02/2020",
+        "Stock": "Ebay",
+        "Value": "0.796671975"
+      },
+      {
+        "Date": "25/02/2020",
+        "Stock": "Ebay",
+        "Value": "0.523583807"
+      },
+      {
+        "Date": "03/03/2020",
+        "Stock": "Ebay",
+        "Value": "0.556552245"
+      },
+      {
+        "Date": "10/03/2020",
+        "Stock": "Ebay",
+        "Value": "0.537870084"
+      },
+      {
+        "Date": "17/03/2020",
+        "Stock": "Ebay",
+        "Value": "0.142615776"
+      },
+      {
+        "Date": "24/03/2020",
+        "Stock": "Ebay",
+        "Value": "0.159832642"
+      },
+      {
+        "Date": "31/03/2020",
+        "Stock": "Ebay",
+        "Value": "0.319729219"
+      },
+      {
+        "Date": "07/04/2020",
+        "Stock": "Ebay",
+        "Value": "0.384200801"
+      },
+      {
+        "Date": "15/04/2020",
+        "Stock": "Ebay",
+        "Value": "0.570472128"
+      },
+      {
+        "Date": "22/04/2020",
+        "Stock": "Ebay",
+        "Value": "0.60325751"
+      },
+      {
+        "Date": "29/04/2020",
+        "Stock": "Ebay",
+        "Value": "0.543547927"
+      },
+      {
+        "Date": "06/05/2020",
+        "Stock": "Ebay",
+        "Value": "0.332367144"
+      },
+      {
+        "Date": "13/05/2020",
+        "Stock": "Ebay",
+        "Value": "0.410941945"
+      },
+      {
+        "Date": "20/05/2020",
+        "Stock": "Ebay",
+        "Value": "0.728353959"
+      },
+      {
+        "Date": "28/05/2020",
+        "Stock": "Ebay",
+        "Value": "0.411491396"
+      },
+      {
+        "Date": "04/06/2020",
+        "Stock": "Ebay",
+        "Value": "0.751248669"
+      },
+      {
+        "Date": "11/06/2020",
+        "Stock": "Ebay",
+        "Value": "0.699964743"
+      },
+      {
+        "Date": "18/06/2020",
+        "Stock": "Ebay",
+        "Value": "0.851985394"
+      },
+      {
+        "Date": "25/06/2020",
+        "Stock": "Ebay",
+        "Value": "0.826709824"
+      },
+      {
+        "Date": "02/07/2020",
+        "Stock": "Ebay",
+        "Value": "0.853084574"
+      },
+      {
+        "Date": "10/07/2020",
+        "Stock": "Ebay",
+        "Value": "1.538277524"
+      },
+      {
+        "Date": "17/07/2020",
+        "Stock": "Ebay",
+        "Value": "1.284237631"
+      },
+      {
+        "Date": "24/07/2020",
+        "Stock": "Ebay",
+        "Value": "1.318304971"
+      },
+      {
+        "Date": "31/07/2020",
+        "Stock": "Ebay",
+        "Value": "1.355302901"
+      },
+      {
+        "Date": "07/08/2020",
+        "Stock": "Ebay",
+        "Value": "1.375083964"
+      },
+      {
+        "Date": "14/08/2020",
+        "Stock": "Ebay",
+        "Value": "1.40933436"
+      },
+      {
+        "Date": "21/08/2020",
+        "Stock": "Ebay",
+        "Value": "1.62600965"
+      },
+      {
+        "Date": "28/08/2020",
+        "Stock": "Ebay",
+        "Value": "2.050935692"
+      },
+      {
+        "Date": "04/09/2020",
+        "Stock": "Ebay",
+        "Value": "1.911552966"
+      },
+      {
+        "Date": "14/09/2020",
+        "Stock": "Ebay",
+        "Value": "1.77803086"
+      },
+      {
+        "Date": "21/09/2020",
+        "Stock": "Ebay",
+        "Value": "1.772902468"
+      },
+      {
+        "Date": "28/09/2020",
+        "Stock": "Ebay",
+        "Value": "1.813014044"
+      },
+      {
+        "Date": "05/10/2020",
+        "Stock": "Ebay",
+        "Value": "2.03756498"
+      },
+      {
+        "Date": "12/10/2020",
+        "Stock": "Ebay",
+        "Value": "2.368531043"
+      },
+      {
+        "Date": "19/10/2020",
+        "Stock": "Ebay",
+        "Value": "2.34929971"
+      },
+      {
+        "Date": "26/10/2020",
+        "Stock": "Ebay",
+        "Value": "2.378238378"
+      },
+      {
+        "Date": "02/11/2020",
+        "Stock": "Ebay",
+        "Value": "2.450951999"
+      },
+      {
+        "Date": "09/11/2020",
+        "Stock": "Ebay",
+        "Value": "2.078958795"
+      },
+      {
+        "Date": "16/11/2020",
+        "Stock": "Ebay",
+        "Value": "1.488824727"
+      },
+      {
+        "Date": "23/11/2020",
+        "Stock": "Ebay",
+        "Value": "1.704950566"
+      },
+      {
+        "Date": "01/12/2020",
+        "Stock": "Ebay",
+        "Value": "1.593224828"
+      },
+      {
+        "Date": "08/12/2020",
+        "Stock": "Ebay",
+        "Value": "1.63132138"
+      },
+      {
+        "Date": "15/12/2020",
+        "Stock": "Ebay",
+        "Value": "1.430214325"
+      },
+      {
+        "Date": "22/12/2020",
+        "Stock": "Ebay",
+        "Value": "1.4434017"
+      },
+      {
+        "Date": "30/12/2020",
+        "Stock": "Ebay",
+        "Value": "1.123974661"
+      },
+      {
+        "Date": "07/01/2021",
+        "Stock": "Ebay",
+        "Value": "0.913526385"
+      },
+      {
+        "Date": "14/01/2021",
+        "Stock": "Ebay",
+        "Value": "1.208043969"
+      },
+      {
+        "Date": "22/01/2021",
+        "Stock": "Ebay",
+        "Value": "1.49450257"
+      },
+      {
+        "Date": "29/01/2021",
+        "Stock": "Ebay",
+        "Value": "1.406770164"
+      },
+      {
+        "Date": "05/02/2021",
+        "Stock": "Ebay",
+        "Value": "1.62362907"
+      },
+      {
+        "Date": "12/02/2021",
+        "Stock": "Ebay",
+        "Value": "1.66355731"
+      },
+      {
+        "Date": "22/02/2021",
+        "Stock": "Ebay",
+        "Value": "1.409883811"
+      },
+      {
+        "Date": "01/03/2021",
+        "Stock": "Ebay",
+        "Value": "1.184416751"
+      },
+      {
+        "Date": "08/03/2021",
+        "Stock": "Ebay",
+        "Value": "0.909680231"
+      },
+      {
+        "Date": "15/03/2021",
+        "Stock": "Ebay",
+        "Value": "0.975433771"
+      },
+      {
+        "Date": "22/03/2021",
+        "Stock": "Ebay",
+        "Value": "1.100713557"
+      },
+      {
+        "Date": "29/03/2021",
+        "Stock": "Ebay",
+        "Value": "1.004372718"
+      },
+      {
+        "Date": "06/04/2021",
+        "Stock": "Ebay",
+        "Value": "0.9807455"
+      },
+      {
+        "Date": "13/04/2021",
+        "Stock": "Ebay",
+        "Value": "1.188079849"
+      },
+      {
+        "Date": "20/04/2021",
+        "Stock": "Ebay",
+        "Value": "0.968107575"
+      },
+      {
+        "Date": "27/04/2021",
+        "Stock": "Ebay",
+        "Value": "1.078734691"
+      },
+      {
+        "Date": "04/05/2021",
+        "Stock": "Ebay",
+        "Value": "0.931842153"
+      },
+      {
+        "Date": "11/05/2021",
+        "Stock": "Ebay",
+        "Value": "0.812423547"
+      },
+      {
+        "Date": "18/05/2021",
+        "Stock": "Ebay",
+        "Value": "0.672124697"
+      },
+      {
+        "Date": "25/05/2021",
+        "Stock": "Ebay",
+        "Value": "0.624686925"
+      },
+      {
+        "Date": "02/06/2021",
+        "Stock": "Ebay",
+        "Value": "0.779638166"
+      },
+      {
+        "Date": "09/06/2021",
+        "Stock": "Ebay",
+        "Value": "0.664798501"
+      },
+      {
+        "Date": "16/06/2021",
+        "Stock": "Ebay",
+        "Value": "0.591535429"
+      },
+      {
+        "Date": "23/06/2021",
+        "Stock": "Ebay",
+        "Value": "0.693004661"
+      },
+      {
+        "Date": "30/06/2021",
+        "Stock": "Ebay",
+        "Value": "0.911328583"
+      },
+      {
+        "Date": "08/07/2021",
+        "Stock": "Ebay",
+        "Value": "0.418085084"
+      },
+      {
+        "Date": "15/07/2021",
+        "Stock": "Ebay",
+        "Value": "0.691172973"
+      },
+      {
+        "Date": "22/07/2021",
+        "Stock": "Ebay",
+        "Value": "0.677985597"
+      },
+      {
+        "Date": "29/07/2021",
+        "Stock": "Ebay",
+        "Value": "0.375775425"
+      },
+      {
+        "Date": "05/08/2021",
+        "Stock": "Ebay",
+        "Value": "0.407644962"
+      },
+      {
+        "Date": "12/08/2021",
+        "Stock": "Ebay",
+        "Value": "0.268078899"
+      },
+      {
+        "Date": "19/08/2021",
+        "Stock": "Ebay",
+        "Value": "-0.301724656"
+      },
+      {
+        "Date": "26/08/2021",
+        "Stock": "Ebay",
+        "Value": "-0.215823659"
+      },
+      {
+        "Date": "02/09/2021",
+        "Stock": "Ebay",
+        "Value": "-0.092009168"
+      },
+      {
+        "Date": "10/09/2021",
+        "Stock": "Ebay",
+        "Value": "-0.163440552"
+      },
+      {
+        "Date": "17/09/2021",
+        "Stock": "Ebay",
+        "Value": "-0.31088254"
+      },
+      {
+        "Date": "24/09/2021",
+        "Stock": "Ebay",
+        "Value": "-0.58506961"
+      },
+      {
+        "Date": "01/10/2021",
+        "Stock": "Ebay",
+        "Value": "-0.601187575"
+      },
+      {
+        "Date": "08/10/2021",
+        "Stock": "Ebay",
+        "Value": "-0.283958339"
+      },
+      {
+        "Date": "15/10/2021",
+        "Stock": "Ebay",
+        "Value": "-0.16527224"
+      },
+      {
+        "Date": "22/10/2021",
+        "Stock": "Ebay",
+        "Value": "0.012390654"
+      },
+      {
+        "Date": "29/10/2021",
+        "Stock": "Ebay",
+        "Value": "-0.221318446"
+      },
+      {
+        "Date": "05/11/2021",
+        "Stock": "Ebay",
+        "Value": "-0.335059488"
+      },
+      {
+        "Date": "12/11/2021",
+        "Stock": "Ebay",
+        "Value": "-0.187068049"
+      },
+      {
+        "Date": "19/11/2021",
+        "Stock": "Ebay",
+        "Value": "-0.671886451"
+      },
+      {
+        "Date": "29/11/2021",
+        "Stock": "Ebay",
+        "Value": "-0.831783028"
+      },
+      {
+        "Date": "06/12/2021",
+        "Stock": "Ebay",
+        "Value": "-0.978492369"
+      },
+      {
+        "Date": "13/12/2021",
+        "Stock": "Ebay",
+        "Value": "-1.003401825"
+      },
+      {
+        "Date": "20/12/2021",
+        "Stock": "Ebay",
+        "Value": "-1.136007946"
+      },
+      {
+        "Date": "28/12/2021",
+        "Stock": "Ebay",
+        "Value": "-1.139671044"
+      },
+      {
+        "Date": "04/01/2022",
+        "Stock": "Ebay",
+        "Value": "-1.052488089"
+      },
+      {
+        "Date": "11/01/2022",
+        "Stock": "Ebay",
+        "Value": "-0.821159849"
+      },
+      {
+        "Date": "19/01/2022",
+        "Stock": "Ebay",
+        "Value": "-0.902665101"
+      },
+      {
+        "Date": "26/01/2022",
+        "Stock": "Ebay",
+        "Value": "-1.165862598"
+      },
+      {
+        "Date": "02/02/2022",
+        "Stock": "Ebay",
+        "Value": "-0.991679744"
+      },
+      {
+        "Date": "09/02/2022",
+        "Stock": "Ebay",
+        "Value": "-0.925376614"
+      },
+      {
+        "Date": "16/02/2022",
+        "Stock": "Ebay",
+        "Value": "-0.94259348"
+      },
+      {
+        "Date": "24/02/2022",
+        "Stock": "Ebay",
+        "Value": "-1.247184653"
+      },
+      {
+        "Date": "03/03/2022",
+        "Stock": "Ebay",
+        "Value": "-1.373197086"
+      },
+      {
+        "Date": "10/03/2022",
+        "Stock": "Ebay",
+        "Value": "-1.540420138"
+      },
+      {
+        "Date": "17/03/2022",
+        "Stock": "Ebay",
+        "Value": "-1.403967582"
+      },
+      {
+        "Date": "24/03/2022",
+        "Stock": "Ebay",
+        "Value": "-1.133260553"
+      },
+      {
+        "Date": "31/03/2022",
+        "Stock": "Ebay",
+        "Value": "-1.249565652"
+      },
+      {
+        "Date": "07/04/2022",
+        "Stock": "Ebay",
+        "Value": "-1.332536199"
+      },
+      {
+        "Date": "14/04/2022",
+        "Stock": "Ebay",
+        "Value": "-1.49334862"
+      },
+      {
+        "Date": "22/04/2022",
+        "Stock": "Ebay",
+        "Value": "-1.658190532"
+      },
+      {
+        "Date": "29/04/2022",
+        "Stock": "Ebay",
+        "Value": "-1.464043419"
+      },
+      {
+        "Date": "06/05/2022",
+        "Stock": "Ebay",
+        "Value": "-1.592986303"
+      },
+      {
+        "Date": "13/05/2022",
+        "Stock": "Ebay",
+        "Value": "-1.63071688"
+      },
+      {
+        "Date": "20/05/2022",
+        "Stock": "Ebay",
+        "Value": "-1.652695746"
+      },
+      {
+        "Date": "27/05/2022",
+        "Stock": "Ebay",
+        "Value": "-1.531445311"
+      },
+      {
+        "Date": "06/06/2022",
+        "Stock": "Ebay",
+        "Value": "-1.428877038"
+      },
+      {
+        "Date": "13/06/2022",
+        "Stock": "Ebay",
+        "Value": "-1.437851865"
+      },
+      {
+        "Date": "21/06/2022",
+        "Stock": "Ebay",
+        "Value": "-1.29370672"
+      },
+      {
+        "Date": "28/06/2022",
+        "Stock": "Ebay",
+        "Value": "-1.103772155"
+      },
+      {
+        "Date": "06/07/2022",
+        "Stock": "Ebay",
+        "Value": "-1.060546932"
+      },
+      {
+        "Date": "13/07/2022",
+        "Stock": "Ebay",
+        "Value": "-1.244071006"
+      },
+      {
+        "Date": "20/07/2022",
+        "Stock": "Ebay",
+        "Value": "-1.338214042"
+      },
+      {
+        "Date": "27/07/2022",
+        "Stock": "Ebay",
+        "Value": "-1.359826654"
+      },
+      {
+        "Date": "03/08/2022",
+        "Stock": "Ebay",
+        "Value": "-1.489135932"
+      },
+      {
+        "Date": "10/08/2022",
+        "Stock": "Ebay",
+        "Value": "-1.549394825"
+      },
+      {
+        "Date": "17/08/2022",
+        "Stock": "Ebay",
+        "Value": "-1.598114835"
+      },
+      {
+        "Date": "24/08/2022",
+        "Stock": "Ebay",
+        "Value": "-1.547746473"
+      },
+      {
+        "Date": "31/08/2022",
+        "Stock": "Ebay",
+        "Value": "-1.494813775"
+      },
+      {
+        "Date": "08/09/2022",
+        "Stock": "Ebay",
+        "Value": "-1.602693777"
+      },
+      {
+        "Date": "15/09/2022",
+        "Stock": "Ebay",
+        "Value": "-1.615331562"
+      },
+      {
+        "Date": "22/09/2022",
+        "Stock": "Ebay",
+        "Value": "-1.764055649"
+      },
+      {
+        "Date": "29/09/2022",
+        "Stock": "Ebay",
+        "Value": "-1.794276694"
+      },
+      {
+        "Date": "06/10/2022",
+        "Stock": "Ebay",
+        "Value": "-1.697935715"
+      },
+      {
+        "Date": "13/10/2022",
+        "Stock": "Ebay",
+        "Value": "-1.868455471"
+      },
+      {
+        "Date": "20/10/2022",
+        "Stock": "Ebay",
+        "Value": "-1.923219718"
+      },
+      {
+        "Date": "27/10/2022",
+        "Stock": "Ebay",
+        "Value": "-2.03641117"
+      },
+      {
+        "Date": "03/11/2022",
+        "Stock": "Ebay",
+        "Value": "-2.047950054"
+      },
+      {
+        "Date": "10/11/2022",
+        "Stock": "Ebay",
+        "Value": "-1.964430196"
+      },
+      {
+        "Date": "17/11/2022",
+        "Stock": "Ebay",
+        "Value": "-1.699034617"
+      },
+      {
+        "Date": "25/11/2022",
+        "Stock": "Ebay",
+        "Value": "-1.859480784"
+      },
+      {
+        "Date": "02/12/2022",
+        "Stock": "Ebay",
+        "Value": "-1.592803246"
+      },
+      {
+        "Date": "09/12/2022",
+        "Stock": "Ebay",
+        "Value": "-1.569359085"
+      },
+      {
+        "Date": "16/12/2022",
+        "Stock": "Ebay",
+        "Value": "-1.652695746"
+      },
+      {
+        "Date": "23/12/2022",
+        "Stock": "Ebay",
+        "Value": "-1.67357571"
+      },
+      {
+        "Date": "03/01/2023",
+        "Stock": "Ebay",
+        "Value": "-1.557636865"
+      },
+      {
+        "Date": "08/01/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.621587211"
+      },
+      {
+        "Date": "16/01/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.539883999"
+      },
+      {
+        "Date": "23/01/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.45861742"
+      },
+      {
+        "Date": "30/01/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.352553927"
+      },
+      {
+        "Date": "06/02/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.345481164"
+      },
+      {
+        "Date": "13/02/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.385395762"
+      },
+      {
+        "Date": "21/02/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.289011499"
+      },
+      {
+        "Date": "28/02/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.247406266"
+      },
+      {
+        "Date": "07/03/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.201545853"
+      },
+      {
+        "Date": "14/03/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.136735448"
+      },
+      {
+        "Date": "21/03/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.149612997"
+      },
+      {
+        "Date": "28/03/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.361571006"
+      },
+      {
+        "Date": "05/04/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.332927596"
+      },
+      {
+        "Date": "12/04/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.337506543"
+      },
+      {
+        "Date": "19/04/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.184765697"
+      },
+      {
+        "Date": "26/04/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.239642974"
+      },
+      {
+        "Date": "03/05/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.163392405"
+      },
+      {
+        "Date": "10/05/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.111262194"
+      },
+      {
+        "Date": "17/05/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.149754027"
+      },
+      {
+        "Date": "24/05/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.119729774"
+      },
+      {
+        "Date": "01/06/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.065528621"
+      },
+      {
+        "Date": "08/06/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.005720038"
+      },
+      {
+        "Date": "15/06/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.960662805"
+      },
+      {
+        "Date": "22/06/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.961085464"
+      },
+      {
+        "Date": "29/06/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.983445103"
+      },
+      {
+        "Date": "09/07/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.928187303"
+      },
+      {
+        "Date": "16/07/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.810584752"
+      },
+      {
+        "Date": "23/07/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.839453466"
+      },
+      {
+        "Date": "30/07/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.871548661"
+      },
+      {
+        "Date": "06/08/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.77499542"
+      },
+      {
+        "Date": "13/08/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.706733231"
+      },
+      {
+        "Date": "20/08/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.734192938"
+      },
+      {
+        "Date": "27/08/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.662380286"
+      },
+      {
+        "Date": "04/09/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.504820786"
+      },
+      {
+        "Date": "11/09/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.578591943"
+      },
+      {
+        "Date": "18/09/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.643543162"
+      },
+      {
+        "Date": "25/09/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.596344257"
+      },
+      {
+        "Date": "02/10/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.60090923"
+      },
+      {
+        "Date": "09/10/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.743196043"
+      },
+      {
+        "Date": "16/10/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.814149189"
+      },
+      {
+        "Date": "23/10/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.886370526"
+      },
+      {
+        "Date": "30/10/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.222087801"
+      },
+      {
+        "Date": "06/11/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.063739309"
+      },
+      {
+        "Date": "13/11/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.080139158"
+      },
+      {
+        "Date": "20/11/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.271343674"
+      },
+      {
+        "Date": "28/11/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.014511814"
+      },
+      {
+        "Date": "06/12/2018",
+        "Stock": "Alibaba",
+        "Value": "-0.984304394"
+      },
+      {
+        "Date": "13/12/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.041802543"
+      },
+      {
+        "Date": "20/12/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.320134751"
+      },
+      {
+        "Date": "28/12/2018",
+        "Stock": "Alibaba",
+        "Value": "-1.295915284"
+      },
+      {
+        "Date": "07/01/2019",
+        "Stock": "Alibaba",
+        "Value": "-1.08247797"
+      },
+      {
+        "Date": "14/01/2019",
+        "Stock": "Alibaba",
+        "Value": "-1.09980784"
+      },
+      {
+        "Date": "22/01/2019",
+        "Stock": "Alibaba",
+        "Value": "-1.078730367"
+      },
+      {
+        "Date": "29/01/2019",
+        "Stock": "Alibaba",
+        "Value": "-1.132677838"
+      },
+      {
+        "Date": "05/02/2019",
+        "Stock": "Alibaba",
+        "Value": "-1.041196718"
+      },
+      {
+        "Date": "12/02/2019",
+        "Stock": "Alibaba",
+        "Value": "-1.070502279"
+      },
+      {
+        "Date": "20/02/2019",
+        "Stock": "Alibaba",
+        "Value": "-1.092918029"
+      },
+      {
+        "Date": "27/02/2019",
+        "Stock": "Alibaba",
+        "Value": "-1.066162825"
+      },
+      {
+        "Date": "06/03/2019",
+        "Stock": "Alibaba",
+        "Value": "-1.026910163"
+      },
+      {
+        "Date": "13/03/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.996111322"
+      },
+      {
+        "Date": "20/03/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.846117543"
+      },
+      {
+        "Date": "27/03/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.890597114"
+      },
+      {
+        "Date": "03/04/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.813106516"
+      },
+      {
+        "Date": "10/04/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.775587057"
+      },
+      {
+        "Date": "17/04/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.750945146"
+      },
+      {
+        "Date": "25/04/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.69820911"
+      },
+      {
+        "Date": "02/05/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.700223942"
+      },
+      {
+        "Date": "09/05/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.701562433"
+      },
+      {
+        "Date": "16/05/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.690713689"
+      },
+      {
+        "Date": "23/05/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.820461123"
+      },
+      {
+        "Date": "31/05/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.877395584"
+      },
+      {
+        "Date": "07/06/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.836593317"
+      },
+      {
+        "Date": "14/06/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.744111876"
+      },
+      {
+        "Date": "21/06/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.685458402"
+      },
+      {
+        "Date": "28/06/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.710353994"
+      },
+      {
+        "Date": "08/07/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.62766465"
+      },
+      {
+        "Date": "15/07/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.530914054"
+      },
+      {
+        "Date": "22/07/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.5807334"
+      },
+      {
+        "Date": "29/07/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.683838282"
+      },
+      {
+        "Date": "05/08/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.891400295"
+      },
+      {
+        "Date": "12/08/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.863517714"
+      },
+      {
+        "Date": "19/08/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.81955948"
+      },
+      {
+        "Date": "26/08/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.886131034"
+      },
+      {
+        "Date": "03/09/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.85658598"
+      },
+      {
+        "Date": "10/09/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.81331806"
+      },
+      {
+        "Date": "17/09/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.810500049"
+      },
+      {
+        "Date": "24/09/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.924538163"
+      },
+      {
+        "Date": "01/10/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.932935228"
+      },
+      {
+        "Date": "08/10/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.975400182"
+      },
+      {
+        "Date": "15/10/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.888230139"
+      },
+      {
+        "Date": "22/10/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.890554977"
+      },
+      {
+        "Date": "29/10/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.894809943"
+      },
+      {
+        "Date": "05/11/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.839861935"
+      },
+      {
+        "Date": "12/11/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.873267459"
+      },
+      {
+        "Date": "19/11/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.908786276"
+      },
+      {
+        "Date": "26/11/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.846582554"
+      },
+      {
+        "Date": "04/12/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.897655903"
+      },
+      {
+        "Date": "11/12/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.914520762"
+      },
+      {
+        "Date": "18/12/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.864771716"
+      },
+      {
+        "Date": "26/12/2019",
+        "Stock": "Alibaba",
+        "Value": "-0.745379852"
+      },
+      {
+        "Date": "03/01/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.736644617"
+      },
+      {
+        "Date": "10/01/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.725105559"
+      },
+      {
+        "Date": "17/01/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.751085961"
+      },
+      {
+        "Date": "27/01/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.802342476"
+      },
+      {
+        "Date": "03/02/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.554569832"
+      },
+      {
+        "Date": "10/02/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.371818707"
+      },
+      {
+        "Date": "18/02/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.341160681"
+      },
+      {
+        "Date": "25/02/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.598894399"
+      },
+      {
+        "Date": "03/03/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.688713047"
+      },
+      {
+        "Date": "10/03/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.712904135"
+      },
+      {
+        "Date": "17/03/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.831225378"
+      },
+      {
+        "Date": "24/03/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.644881653"
+      },
+      {
+        "Date": "31/03/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.631327764"
+      },
+      {
+        "Date": "07/04/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.544143747"
+      },
+      {
+        "Date": "15/04/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.126990701"
+      },
+      {
+        "Date": "22/04/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.048358967"
+      },
+      {
+        "Date": "29/04/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.035368766"
+      },
+      {
+        "Date": "06/05/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.065589945"
+      },
+      {
+        "Date": "13/05/2020",
+        "Stock": "Alibaba",
+        "Value": "-0.042117333"
+      },
+      {
+        "Date": "20/05/2020",
+        "Stock": "Alibaba",
+        "Value": "0.141070425"
+      },
+      {
+        "Date": "28/05/2020",
+        "Stock": "Alibaba",
+        "Value": "0.004630535"
+      },
+      {
+        "Date": "04/06/2020",
+        "Stock": "Alibaba",
+        "Value": "0.08846123"
+      },
+      {
+        "Date": "11/06/2020",
+        "Stock": "Alibaba",
+        "Value": "0.225633785"
+      },
+      {
+        "Date": "18/06/2020",
+        "Stock": "Alibaba",
+        "Value": "0.360918351"
+      },
+      {
+        "Date": "25/06/2020",
+        "Stock": "Alibaba",
+        "Value": "0.502655664"
+      },
+      {
+        "Date": "02/07/2020",
+        "Stock": "Alibaba",
+        "Value": "0.693874154"
+      },
+      {
+        "Date": "10/07/2020",
+        "Stock": "Alibaba",
+        "Value": "1.130216684"
+      },
+      {
+        "Date": "17/07/2020",
+        "Stock": "Alibaba",
+        "Value": "0.794851338"
+      },
+      {
+        "Date": "24/07/2020",
+        "Stock": "Alibaba",
+        "Value": "0.860986044"
+      },
+      {
+        "Date": "31/07/2020",
+        "Stock": "Alibaba",
+        "Value": "1.080453448"
+      },
+      {
+        "Date": "07/08/2020",
+        "Stock": "Alibaba",
+        "Value": "1.084370459"
+      },
+      {
+        "Date": "14/08/2020",
+        "Stock": "Alibaba",
+        "Value": "1.056981051"
+      },
+      {
+        "Date": "21/08/2020",
+        "Stock": "Alibaba",
+        "Value": "1.249580169"
+      },
+      {
+        "Date": "28/08/2020",
+        "Stock": "Alibaba",
+        "Value": "1.414536629"
+      },
+      {
+        "Date": "04/09/2020",
+        "Stock": "Alibaba",
+        "Value": "1.263528769"
+      },
+      {
+        "Date": "14/09/2020",
+        "Stock": "Alibaba",
+        "Value": "0.993509138"
+      },
+      {
+        "Date": "21/09/2020",
+        "Stock": "Alibaba",
+        "Value": "0.792738044"
+      },
+      {
+        "Date": "28/09/2020",
+        "Stock": "Alibaba",
+        "Value": "1.093655193"
+      },
+      {
+        "Date": "05/10/2020",
+        "Stock": "Alibaba",
+        "Value": "1.129089737"
+      },
+      {
+        "Date": "12/10/2020",
+        "Stock": "Alibaba",
+        "Value": "1.472485599"
+      },
+      {
+        "Date": "19/10/2020",
+        "Stock": "Alibaba",
+        "Value": "1.140375113"
+      },
+      {
+        "Date": "26/10/2020",
+        "Stock": "Alibaba",
+        "Value": "1.140135621"
+      },
+      {
+        "Date": "02/11/2020",
+        "Stock": "Alibaba",
+        "Value": "0.854744625"
+      },
+      {
+        "Date": "09/11/2020",
+        "Stock": "Alibaba",
+        "Value": "1.050950747"
+      },
+      {
+        "Date": "16/11/2020",
+        "Stock": "Alibaba",
+        "Value": "1.033085566"
+      },
+      {
+        "Date": "23/11/2020",
+        "Stock": "Alibaba",
+        "Value": "0.987056175"
+      },
+      {
+        "Date": "01/12/2020",
+        "Stock": "Alibaba",
+        "Value": "1.158507734"
+      },
+      {
+        "Date": "08/12/2020",
+        "Stock": "Alibaba",
+        "Value": "1.098220166"
+      },
+      {
+        "Date": "15/12/2020",
+        "Stock": "Alibaba",
+        "Value": "1.081073462"
+      },
+      {
+        "Date": "22/12/2020",
+        "Stock": "Alibaba",
+        "Value": "1.139402955"
+      },
+      {
+        "Date": "30/12/2020",
+        "Stock": "Alibaba",
+        "Value": "1.251172342"
+      },
+      {
+        "Date": "07/01/2021",
+        "Stock": "Alibaba",
+        "Value": "1.0769032"
+      },
+      {
+        "Date": "14/01/2021",
+        "Stock": "Alibaba",
+        "Value": "1.028027849"
+      },
+      {
+        "Date": "22/01/2021",
+        "Stock": "Alibaba",
+        "Value": "1.260161258"
+      },
+      {
+        "Date": "29/01/2021",
+        "Stock": "Alibaba",
+        "Value": "1.138951918"
+      },
+      {
+        "Date": "05/02/2021",
+        "Stock": "Alibaba",
+        "Value": "1.344583804"
+      },
+      {
+        "Date": "12/02/2021",
+        "Stock": "Alibaba",
+        "Value": "1.239703799"
+      },
+      {
+        "Date": "22/02/2021",
+        "Stock": "Alibaba",
+        "Value": "1.103080957"
+      },
+      {
+        "Date": "01/03/2021",
+        "Stock": "Alibaba",
+        "Value": "1.054332447"
+      },
+      {
+        "Date": "08/03/2021",
+        "Stock": "Alibaba",
+        "Value": "0.78073419"
+      },
+      {
+        "Date": "15/03/2021",
+        "Stock": "Alibaba",
+        "Value": "0.963513263"
+      },
+      {
+        "Date": "22/03/2021",
+        "Stock": "Alibaba",
+        "Value": "1.004639726"
+      },
+      {
+        "Date": "29/03/2021",
+        "Stock": "Alibaba",
+        "Value": "0.955130172"
+      },
+      {
+        "Date": "06/04/2021",
+        "Stock": "Alibaba",
+        "Value": "1.163776995"
+      },
+      {
+        "Date": "13/04/2021",
+        "Stock": "Alibaba",
+        "Value": "1.412000676"
+      },
+      {
+        "Date": "20/04/2021",
+        "Stock": "Alibaba",
+        "Value": "1.319984031"
+      },
+      {
+        "Date": "27/04/2021",
+        "Stock": "Alibaba",
+        "Value": "1.436558312"
+      },
+      {
+        "Date": "04/05/2021",
+        "Stock": "Alibaba",
+        "Value": "1.287832725"
+      },
+      {
+        "Date": "11/05/2021",
+        "Stock": "Alibaba",
+        "Value": "1.163903836"
+      },
+      {
+        "Date": "18/05/2021",
+        "Stock": "Alibaba",
+        "Value": "1.175696575"
+      },
+      {
+        "Date": "25/05/2021",
+        "Stock": "Alibaba",
+        "Value": "1.21341339"
+      },
+      {
+        "Date": "02/06/2021",
+        "Stock": "Alibaba",
+        "Value": "1.178105687"
+      },
+      {
+        "Date": "09/06/2021",
+        "Stock": "Alibaba",
+        "Value": "1.244550401"
+      },
+      {
+        "Date": "16/06/2021",
+        "Stock": "Alibaba",
+        "Value": "1.433486619"
+      },
+      {
+        "Date": "23/06/2021",
+        "Stock": "Alibaba",
+        "Value": "1.558274585"
+      },
+      {
+        "Date": "30/06/2021",
+        "Stock": "Alibaba",
+        "Value": "1.468582778"
+      },
+      {
+        "Date": "08/07/2021",
+        "Stock": "Alibaba",
+        "Value": "1.878930716"
+      },
+      {
+        "Date": "15/07/2021",
+        "Stock": "Alibaba",
+        "Value": "1.737742902"
+      },
+      {
+        "Date": "22/07/2021",
+        "Stock": "Alibaba",
+        "Value": "1.747366021"
+      },
+      {
+        "Date": "29/07/2021",
+        "Stock": "Alibaba",
+        "Value": "1.693672016"
+      },
+      {
+        "Date": "05/08/2021",
+        "Stock": "Alibaba",
+        "Value": "1.378172494"
+      },
+      {
+        "Date": "12/08/2021",
+        "Stock": "Alibaba",
+        "Value": "1.276039986"
+      },
+      {
+        "Date": "19/08/2021",
+        "Stock": "Alibaba",
+        "Value": "1.112957328"
+      },
+      {
+        "Date": "26/08/2021",
+        "Stock": "Alibaba",
+        "Value": "1.293651485"
+      },
+      {
+        "Date": "02/09/2021",
+        "Stock": "Alibaba",
+        "Value": "1.500931869"
+      },
+      {
+        "Date": "10/09/2021",
+        "Stock": "Alibaba",
+        "Value": "1.509427612"
+      },
+      {
+        "Date": "17/09/2021",
+        "Stock": "Alibaba",
+        "Value": "1.500086551"
+      },
+      {
+        "Date": "24/09/2021",
+        "Stock": "Alibaba",
+        "Value": "1.447956341"
+      },
+      {
+        "Date": "01/10/2021",
+        "Stock": "Alibaba",
+        "Value": "1.247523201"
+      },
+      {
+        "Date": "08/10/2021",
+        "Stock": "Alibaba",
+        "Value": "1.255075164"
+      },
+      {
+        "Date": "15/10/2021",
+        "Stock": "Alibaba",
+        "Value": "1.424709247"
+      },
+      {
+        "Date": "22/10/2021",
+        "Stock": "Alibaba",
+        "Value": "1.321195681"
+      },
+      {
+        "Date": "29/10/2021",
+        "Stock": "Alibaba",
+        "Value": "1.373156914"
+      },
+      {
+        "Date": "05/11/2021",
+        "Stock": "Alibaba",
+        "Value": "1.579647876"
+      },
+      {
+        "Date": "12/11/2021",
+        "Stock": "Alibaba",
+        "Value": "1.588327215"
+      },
+      {
+        "Date": "19/11/2021",
+        "Stock": "Alibaba",
+        "Value": "1.801665852"
+      },
+      {
+        "Date": "29/11/2021",
+        "Stock": "Alibaba",
+        "Value": "1.639640056"
+      },
+      {
+        "Date": "06/12/2021",
+        "Stock": "Alibaba",
+        "Value": "1.450562808"
+      },
+      {
+        "Date": "13/12/2021",
+        "Stock": "Alibaba",
+        "Value": "1.399813656"
+      },
+      {
+        "Date": "20/12/2021",
+        "Stock": "Alibaba",
+        "Value": "1.329691424"
+      },
+      {
+        "Date": "28/12/2021",
+        "Stock": "Alibaba",
+        "Value": "1.43062647"
+      },
+      {
+        "Date": "04/01/2022",
+        "Stock": "Alibaba",
+        "Value": "1.342174692"
+      },
+      {
+        "Date": "11/01/2022",
+        "Stock": "Alibaba",
+        "Value": "1.281309246"
+      },
+      {
+        "Date": "19/01/2022",
+        "Stock": "Alibaba",
+        "Value": "1.025928314"
+      },
+      {
+        "Date": "26/01/2022",
+        "Stock": "Alibaba",
+        "Value": "0.534877485"
+      },
+      {
+        "Date": "02/02/2022",
+        "Stock": "Alibaba",
+        "Value": "0.865692047"
+      },
+      {
+        "Date": "09/02/2022",
+        "Stock": "Alibaba",
+        "Value": "1.163734858"
+      },
+      {
+        "Date": "16/02/2022",
+        "Stock": "Alibaba",
+        "Value": "1.076691656"
+      },
+      {
+        "Date": "24/02/2022",
+        "Stock": "Alibaba",
+        "Value": "0.886699006"
+      },
+      {
+        "Date": "03/03/2022",
+        "Stock": "Alibaba",
+        "Value": "0.789215744"
+      },
+      {
+        "Date": "10/03/2022",
+        "Stock": "Alibaba",
+        "Value": "0.758755073"
+      },
+      {
+        "Date": "17/03/2022",
+        "Stock": "Alibaba",
+        "Value": "1.052416079"
+      },
+      {
+        "Date": "24/03/2022",
+        "Stock": "Alibaba",
+        "Value": "1.23305391"
+      },
+      {
+        "Date": "31/03/2022",
+        "Stock": "Alibaba",
+        "Value": "1.214681366"
+      },
+      {
+        "Date": "07/04/2022",
+        "Stock": "Alibaba",
+        "Value": "1.067787443"
+      },
+      {
+        "Date": "14/04/2022",
+        "Stock": "Alibaba",
+        "Value": "0.89651905"
+      },
+      {
+        "Date": "22/04/2022",
+        "Stock": "Alibaba",
+        "Value": "0.689224908"
+      },
+      {
+        "Date": "29/04/2022",
+        "Stock": "Alibaba",
+        "Value": "0.123726581"
+      },
+      {
+        "Date": "06/05/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.144221893"
+      },
+      {
+        "Date": "13/05/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.19261826"
+      },
+      {
+        "Date": "20/05/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.346584945"
+      },
+      {
+        "Date": "27/05/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.133683157"
+      },
+      {
+        "Date": "06/06/2022",
+        "Stock": "Alibaba",
+        "Value": "0.138055272"
+      },
+      {
+        "Date": "13/06/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.457072597"
+      },
+      {
+        "Date": "21/06/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.315898756"
+      },
+      {
+        "Date": "28/06/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.351967073"
+      },
+      {
+        "Date": "06/07/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.156690758"
+      },
+      {
+        "Date": "13/07/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.267431875"
+      },
+      {
+        "Date": "20/07/2022",
+        "Stock": "Alibaba",
+        "Value": "0.081134786"
+      },
+      {
+        "Date": "27/07/2022",
+        "Stock": "Alibaba",
+        "Value": "0.030413796"
+      },
+      {
+        "Date": "03/08/2022",
+        "Stock": "Alibaba",
+        "Value": "0.553123188"
+      },
+      {
+        "Date": "10/08/2022",
+        "Stock": "Alibaba",
+        "Value": "0.642448662"
+      },
+      {
+        "Date": "17/08/2022",
+        "Stock": "Alibaba",
+        "Value": "0.625823509"
+      },
+      {
+        "Date": "24/08/2022",
+        "Stock": "Alibaba",
+        "Value": "0.39194271"
+      },
+      {
+        "Date": "31/08/2022",
+        "Stock": "Alibaba",
+        "Value": "0.193848383"
+      },
+      {
+        "Date": "08/09/2022",
+        "Stock": "Alibaba",
+        "Value": "0.279792801"
+      },
+      {
+        "Date": "15/09/2022",
+        "Stock": "Alibaba",
+        "Value": "0.180041027"
+      },
+      {
+        "Date": "22/09/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.072719248"
+      },
+      {
+        "Date": "29/09/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.143446876"
+      },
+      {
+        "Date": "06/10/2022",
+        "Stock": "Alibaba",
+        "Value": "0.01153432"
+      },
+      {
+        "Date": "13/10/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.207411962"
+      },
+      {
+        "Date": "20/10/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.130766682"
+      },
+      {
+        "Date": "27/10/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.25165204"
+      },
+      {
+        "Date": "03/11/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.861996056"
+      },
+      {
+        "Date": "10/11/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.655448553"
+      },
+      {
+        "Date": "17/11/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.705606069"
+      },
+      {
+        "Date": "25/11/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.746182818"
+      },
+      {
+        "Date": "02/12/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.725894551"
+      },
+      {
+        "Date": "09/12/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.867913709"
+      },
+      {
+        "Date": "16/12/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.90257302"
+      },
+      {
+        "Date": "23/12/2022",
+        "Stock": "Alibaba",
+        "Value": "-0.976118659"
+      },
+      {
+        "Date": "03/01/2023",
+        "Stock": "Alibaba",
+        "Value": "-0.96005698"
+      },
+      {
+        "Date": "08/01/2018",
+        "Stock": "Amazon",
+        "Value": "-1.370885203"
+      },
+      {
+        "Date": "16/01/2018",
+        "Stock": "Amazon",
+        "Value": "-1.324124693"
+      },
+      {
+        "Date": "23/01/2018",
+        "Stock": "Amazon",
+        "Value": "-1.308927361"
+      },
+      {
+        "Date": "30/01/2018",
+        "Stock": "Amazon",
+        "Value": "-1.304017887"
+      },
+      {
+        "Date": "06/02/2018",
+        "Stock": "Amazon",
+        "Value": "-1.3950443"
+      },
+      {
+        "Date": "13/02/2018",
+        "Stock": "Amazon",
+        "Value": "-1.362624064"
+      },
+      {
+        "Date": "21/02/2018",
+        "Stock": "Amazon",
+        "Value": "-1.364655751"
+      },
+      {
+        "Date": "28/02/2018",
+        "Stock": "Amazon",
+        "Value": "-1.345589056"
+      },
+      {
+        "Date": "07/03/2018",
+        "Stock": "Amazon",
+        "Value": "-1.371688248"
+      },
+      {
+        "Date": "14/03/2018",
+        "Stock": "Amazon",
+        "Value": "-1.373094976"
+      },
+      {
+        "Date": "21/03/2018",
+        "Stock": "Amazon",
+        "Value": "-1.395521744"
+      },
+      {
+        "Date": "28/03/2018",
+        "Stock": "Amazon",
+        "Value": "-1.350277769"
+      },
+      {
+        "Date": "05/04/2018",
+        "Stock": "Amazon",
+        "Value": "-1.385207008"
+      },
+      {
+        "Date": "12/04/2018",
+        "Stock": "Amazon",
+        "Value": "-1.34652662"
+      },
+      {
+        "Date": "19/04/2018",
+        "Stock": "Amazon",
+        "Value": "-1.310190652"
+      },
+      {
+        "Date": "26/04/2018",
+        "Stock": "Amazon",
+        "Value": "-1.286591292"
+      },
+      {
+        "Date": "03/05/2018",
+        "Stock": "Amazon",
+        "Value": "-1.297453153"
+      },
+      {
+        "Date": "10/05/2018",
+        "Stock": "Amazon",
+        "Value": "-1.288538139"
+      },
+      {
+        "Date": "17/05/2018",
+        "Stock": "Amazon",
+        "Value": "-1.26345995"
+      },
+      {
+        "Date": "24/05/2018",
+        "Stock": "Amazon",
+        "Value": "-1.268162293"
+      },
+      {
+        "Date": "01/06/2018",
+        "Stock": "Amazon",
+        "Value": "-1.266124492"
+      },
+      {
+        "Date": "08/06/2018",
+        "Stock": "Amazon",
+        "Value": "-1.220042696"
+      },
+      {
+        "Date": "15/06/2018",
+        "Stock": "Amazon",
+        "Value": "-1.206641514"
+      },
+      {
+        "Date": "22/06/2018",
+        "Stock": "Amazon",
+        "Value": "-1.163224515"
+      },
+      {
+        "Date": "29/06/2018",
+        "Stock": "Amazon",
+        "Value": "-1.192691296"
+      },
+      {
+        "Date": "09/07/2018",
+        "Stock": "Amazon",
+        "Value": "-1.163616356"
+      },
+      {
+        "Date": "16/07/2018",
+        "Stock": "Amazon",
+        "Value": "-1.137754357"
+      },
+      {
+        "Date": "23/07/2018",
+        "Stock": "Amazon",
+        "Value": "-1.109697618"
+      },
+      {
+        "Date": "30/07/2018",
+        "Stock": "Amazon",
+        "Value": "-1.108678653"
+      },
+      {
+        "Date": "06/08/2018",
+        "Stock": "Amazon",
+        "Value": "-1.068318165"
+      },
+      {
+        "Date": "13/08/2018",
+        "Stock": "Amazon",
+        "Value": "-1.082894998"
+      },
+      {
+        "Date": "20/08/2018",
+        "Stock": "Amazon",
+        "Value": "-1.031640929"
+      },
+      {
+        "Date": "27/08/2018",
+        "Stock": "Amazon",
+        "Value": "-1.018161277"
+      },
+      {
+        "Date": "04/09/2018",
+        "Stock": "Amazon",
+        "Value": "-0.971649424"
+      },
+      {
+        "Date": "11/09/2018",
+        "Stock": "Amazon",
+        "Value": "-0.91798979"
+      },
+      {
+        "Date": "18/09/2018",
+        "Stock": "Amazon",
+        "Value": "-0.985476842"
+      },
+      {
+        "Date": "25/09/2018",
+        "Stock": "Amazon",
+        "Value": "-0.985791104"
+      },
+      {
+        "Date": "02/10/2018",
+        "Stock": "Amazon",
+        "Value": "-0.990583255"
+      },
+      {
+        "Date": "09/10/2018",
+        "Stock": "Amazon",
+        "Value": "-1.086040042"
+      },
+      {
+        "Date": "16/10/2018",
+        "Stock": "Amazon",
+        "Value": "-1.027587365"
+      },
+      {
+        "Date": "23/10/2018",
+        "Stock": "Amazon",
+        "Value": "-1.064748797"
+      },
+      {
+        "Date": "30/10/2018",
+        "Stock": "Amazon",
+        "Value": "-1.02648751"
+      },
+      {
+        "Date": "06/11/2018",
+        "Stock": "Amazon",
+        "Value": "-0.934252709"
+      },
+      {
+        "Date": "13/11/2018",
+        "Stock": "Amazon",
+        "Value": "-0.985362321"
+      },
+      {
+        "Date": "20/11/2018",
+        "Stock": "Amazon",
+        "Value": "-1.101442084"
+      },
+      {
+        "Date": "28/11/2018",
+        "Stock": "Amazon",
+        "Value": "-1.003553999"
+      },
+      {
+        "Date": "06/12/2018",
+        "Stock": "Amazon",
+        "Value": "-1.05190735"
+      },
+      {
+        "Date": "13/12/2018",
+        "Stock": "Amazon",
+        "Value": "-1.192084809"
+      },
+      {
+        "Date": "20/12/2018",
+        "Stock": "Amazon",
+        "Value": "-1.290839503"
+      },
+      {
+        "Date": "28/12/2018",
+        "Stock": "Amazon",
+        "Value": "-1.218466926"
+      },
+      {
+        "Date": "07/01/2019",
+        "Stock": "Amazon",
+        "Value": "-1.18035086"
+      },
+      {
+        "Date": "14/01/2019",
+        "Stock": "Amazon",
+        "Value": "-1.160820733"
+      },
+      {
+        "Date": "22/01/2019",
+        "Stock": "Amazon",
+        "Value": "-1.152473226"
+      },
+      {
+        "Date": "29/01/2019",
+        "Stock": "Amazon",
+        "Value": "-1.158300646"
+      },
+      {
+        "Date": "05/02/2019",
+        "Stock": "Amazon",
+        "Value": "-1.156331889"
+      },
+      {
+        "Date": "12/02/2019",
+        "Stock": "Amazon",
+        "Value": "-1.142354919"
+      },
+      {
+        "Date": "20/02/2019",
+        "Stock": "Amazon",
+        "Value": "-1.123166952"
+      },
+      {
+        "Date": "27/02/2019",
+        "Stock": "Amazon",
+        "Value": "-1.095450589"
+      },
+      {
+        "Date": "06/03/2019",
+        "Stock": "Amazon",
+        "Value": "-1.110848427"
+      },
+      {
+        "Date": "13/03/2019",
+        "Stock": "Amazon",
+        "Value": "-0.976214445"
+      },
+      {
+        "Date": "20/03/2019",
+        "Stock": "Amazon",
+        "Value": "-0.931204861"
+      },
+      {
+        "Date": "27/03/2019",
+        "Stock": "Amazon",
+        "Value": "-0.917938836"
+      },
+      {
+        "Date": "03/04/2019",
+        "Stock": "Amazon",
+        "Value": "-0.892828035"
+      },
+      {
+        "Date": "10/04/2019",
+        "Stock": "Amazon",
+        "Value": "-0.917780876"
+      },
+      {
+        "Date": "17/04/2019",
+        "Stock": "Amazon",
+        "Value": "-0.881694459"
+      },
+      {
+        "Date": "25/04/2019",
+        "Stock": "Amazon",
+        "Value": "-0.897408088"
+      },
+      {
+        "Date": "02/05/2019",
+        "Stock": "Amazon",
+        "Value": "-0.891090866"
+      },
+      {
+        "Date": "09/05/2019",
+        "Stock": "Amazon",
+        "Value": "-0.866871898"
+      },
+      {
+        "Date": "16/05/2019",
+        "Stock": "Amazon",
+        "Value": "-0.856341242"
+      },
+      {
+        "Date": "23/05/2019",
+        "Stock": "Amazon",
+        "Value": "-0.864654864"
+      },
+      {
+        "Date": "31/05/2019",
+        "Stock": "Amazon",
+        "Value": "-0.913982467"
+      },
+      {
+        "Date": "07/06/2019",
+        "Stock": "Amazon",
+        "Value": "-0.789040302"
+      },
+      {
+        "Date": "14/06/2019",
+        "Stock": "Amazon",
+        "Value": "-0.752777199"
+      },
+      {
+        "Date": "21/06/2019",
+        "Stock": "Amazon",
+        "Value": "-0.710496615"
+      },
+      {
+        "Date": "28/06/2019",
+        "Stock": "Amazon",
+        "Value": "-0.735991486"
+      },
+      {
+        "Date": "08/07/2019",
+        "Stock": "Amazon",
+        "Value": "-0.685159449"
+      },
+      {
+        "Date": "15/07/2019",
+        "Stock": "Amazon",
+        "Value": "-0.600598026"
+      },
+      {
+        "Date": "22/07/2019",
+        "Stock": "Amazon",
+        "Value": "-0.604952604"
+      },
+      {
+        "Date": "29/07/2019",
+        "Stock": "Amazon",
+        "Value": "-0.60970361"
+      },
+      {
+        "Date": "05/08/2019",
+        "Stock": "Amazon",
+        "Value": "-0.690385478"
+      },
+      {
+        "Date": "12/08/2019",
+        "Stock": "Amazon",
+        "Value": "-0.635356949"
+      },
+      {
+        "Date": "19/08/2019",
+        "Stock": "Amazon",
+        "Value": "-0.66140646"
+      },
+      {
+        "Date": "26/08/2019",
+        "Stock": "Amazon",
+        "Value": "-0.507722853"
+      },
+      {
+        "Date": "03/09/2019",
+        "Stock": "Amazon",
+        "Value": "-0.472924695"
+      },
+      {
+        "Date": "10/09/2019",
+        "Stock": "Amazon",
+        "Value": "-0.5160124"
+      },
+      {
+        "Date": "17/09/2019",
+        "Stock": "Amazon",
+        "Value": "-0.502205236"
+      },
+      {
+        "Date": "24/09/2019",
+        "Stock": "Amazon",
+        "Value": "-0.53331148"
+      },
+      {
+        "Date": "01/10/2019",
+        "Stock": "Amazon",
+        "Value": "-0.560291422"
+      },
+      {
+        "Date": "08/10/2019",
+        "Stock": "Amazon",
+        "Value": "-0.466734732"
+      },
+      {
+        "Date": "15/10/2019",
+        "Stock": "Amazon",
+        "Value": "-0.451816249"
+      },
+      {
+        "Date": "22/10/2019",
+        "Stock": "Amazon",
+        "Value": "-0.463401538"
+      },
+      {
+        "Date": "29/10/2019",
+        "Stock": "Amazon",
+        "Value": "-0.443404412"
+      },
+      {
+        "Date": "05/11/2019",
+        "Stock": "Amazon",
+        "Value": "-0.424477332"
+      },
+      {
+        "Date": "12/11/2019",
+        "Stock": "Amazon",
+        "Value": "-0.41390069"
+      },
+      {
+        "Date": "19/11/2019",
+        "Stock": "Amazon",
+        "Value": "-0.432430324"
+      },
+      {
+        "Date": "26/11/2019",
+        "Stock": "Amazon",
+        "Value": "-0.430919266"
+      },
+      {
+        "Date": "04/12/2019",
+        "Stock": "Amazon",
+        "Value": "-0.491835724"
+      },
+      {
+        "Date": "11/12/2019",
+        "Stock": "Amazon",
+        "Value": "-0.458117293"
+      },
+      {
+        "Date": "18/12/2019",
+        "Stock": "Amazon",
+        "Value": "-0.486984593"
+      },
+      {
+        "Date": "26/12/2019",
+        "Stock": "Amazon",
+        "Value": "-0.483803753"
+      },
+      {
+        "Date": "03/01/2020",
+        "Stock": "Amazon",
+        "Value": "-0.502094155"
+      },
+      {
+        "Date": "10/01/2020",
+        "Stock": "Amazon",
+        "Value": "-0.437997112"
+      },
+      {
+        "Date": "17/01/2020",
+        "Stock": "Amazon",
+        "Value": "-0.331513244"
+      },
+      {
+        "Date": "27/01/2020",
+        "Stock": "Amazon",
+        "Value": "-0.350678282"
+      },
+      {
+        "Date": "03/02/2020",
+        "Stock": "Amazon",
+        "Value": "-0.397996491"
+      },
+      {
+        "Date": "10/02/2020",
+        "Stock": "Amazon",
+        "Value": "-0.346821275"
+      },
+      {
+        "Date": "18/02/2020",
+        "Stock": "Amazon",
+        "Value": "-0.248480459"
+      },
+      {
+        "Date": "25/02/2020",
+        "Stock": "Amazon",
+        "Value": "-0.386588269"
+      },
+      {
+        "Date": "03/03/2020",
+        "Stock": "Amazon",
+        "Value": "-0.266650608"
+      },
+      {
+        "Date": "10/03/2020",
+        "Stock": "Amazon",
+        "Value": "-0.452413947"
+      },
+      {
+        "Date": "17/03/2020",
+        "Stock": "Amazon",
+        "Value": "-0.372164046"
+      },
+      {
+        "Date": "24/03/2020",
+        "Stock": "Amazon",
+        "Value": "-0.584465295"
+      },
+      {
+        "Date": "31/03/2020",
+        "Stock": "Amazon",
+        "Value": "-0.537287212"
+      },
+      {
+        "Date": "07/04/2020",
+        "Stock": "Amazon",
+        "Value": "-0.384356713"
+      },
+      {
+        "Date": "15/04/2020",
+        "Stock": "Amazon",
+        "Value": "-0.260115683"
+      },
+      {
+        "Date": "22/04/2020",
+        "Stock": "Amazon",
+        "Value": "-0.388899314"
+      },
+      {
+        "Date": "29/04/2020",
+        "Stock": "Amazon",
+        "Value": "-0.402508519"
+      },
+      {
+        "Date": "06/05/2020",
+        "Stock": "Amazon",
+        "Value": "-0.386534002"
+      },
+      {
+        "Date": "13/05/2020",
+        "Stock": "Amazon",
+        "Value": "-0.428547839"
+      },
+      {
+        "Date": "20/05/2020",
+        "Stock": "Amazon",
+        "Value": "-0.410735391"
+      },
+      {
+        "Date": "28/05/2020",
+        "Stock": "Amazon",
+        "Value": "-0.358817257"
+      },
+      {
+        "Date": "04/06/2020",
+        "Stock": "Amazon",
+        "Value": "-0.330302563"
+      },
+      {
+        "Date": "11/06/2020",
+        "Stock": "Amazon",
+        "Value": "-0.436854965"
+      },
+      {
+        "Date": "18/06/2020",
+        "Stock": "Amazon",
+        "Value": "-0.427270153"
+      },
+      {
+        "Date": "25/06/2020",
+        "Stock": "Amazon",
+        "Value": "-0.453948189"
+      },
+      {
+        "Date": "02/07/2020",
+        "Stock": "Amazon",
+        "Value": "-0.334695103"
+      },
+      {
+        "Date": "10/07/2020",
+        "Stock": "Amazon",
+        "Value": "-0.243398249"
+      },
+      {
+        "Date": "17/07/2020",
+        "Stock": "Amazon",
+        "Value": "-0.214723048"
+      },
+      {
+        "Date": "24/07/2020",
+        "Stock": "Amazon",
+        "Value": "-0.206016438"
+      },
+      {
+        "Date": "31/07/2020",
+        "Stock": "Amazon",
+        "Value": "-0.186620576"
+      },
+      {
+        "Date": "07/08/2020",
+        "Stock": "Amazon",
+        "Value": "-0.101130761"
+      },
+      {
+        "Date": "14/08/2020",
+        "Stock": "Amazon",
+        "Value": "-0.10145101"
+      },
+      {
+        "Date": "21/08/2020",
+        "Stock": "Amazon",
+        "Value": "-0.068071173"
+      },
+      {
+        "Date": "28/08/2020",
+        "Stock": "Amazon",
+        "Value": "-0.039814819"
+      },
+      {
+        "Date": "04/09/2020",
+        "Stock": "Amazon",
+        "Value": "-0.110255962"
+      },
+      {
+        "Date": "14/09/2020",
+        "Stock": "Amazon",
+        "Value": "-0.069832673"
+      },
+      {
+        "Date": "21/09/2020",
+        "Stock": "Amazon",
+        "Value": "-0.065509941"
+      },
+      {
+        "Date": "28/09/2020",
+        "Stock": "Amazon",
+        "Value": "-0.003954002"
+      },
+      {
+        "Date": "05/10/2020",
+        "Stock": "Amazon",
+        "Value": "0.045754996"
+      },
+      {
+        "Date": "12/10/2020",
+        "Stock": "Amazon",
+        "Value": "0.224498321"
+      },
+      {
+        "Date": "19/10/2020",
+        "Stock": "Amazon",
+        "Value": "0.205527421"
+      },
+      {
+        "Date": "26/10/2020",
+        "Stock": "Amazon",
+        "Value": "0.160781654"
+      },
+      {
+        "Date": "02/11/2020",
+        "Stock": "Amazon",
+        "Value": "0.160419622"
+      },
+      {
+        "Date": "09/11/2020",
+        "Stock": "Amazon",
+        "Value": "0.117592804"
+      },
+      {
+        "Date": "16/11/2020",
+        "Stock": "Amazon",
+        "Value": "0.240299592"
+      },
+      {
+        "Date": "23/11/2020",
+        "Stock": "Amazon",
+        "Value": "0.258745406"
+      },
+      {
+        "Date": "01/12/2020",
+        "Stock": "Amazon",
+        "Value": "0.333534759"
+      },
+      {
+        "Date": "08/12/2020",
+        "Stock": "Amazon",
+        "Value": "0.257735231"
+      },
+      {
+        "Date": "15/12/2020",
+        "Stock": "Amazon",
+        "Value": "0.217819195"
+      },
+      {
+        "Date": "22/12/2020",
+        "Stock": "Amazon",
+        "Value": "0.155682374"
+      },
+      {
+        "Date": "30/12/2020",
+        "Stock": "Amazon",
+        "Value": "0.2782284"
+      },
+      {
+        "Date": "07/01/2021",
+        "Stock": "Amazon",
+        "Value": "0.221934287"
+      },
+      {
+        "Date": "14/01/2021",
+        "Stock": "Amazon",
+        "Value": "0.157903994"
+      },
+      {
+        "Date": "22/01/2021",
+        "Stock": "Amazon",
+        "Value": "0.155599828"
+      },
+      {
+        "Date": "29/01/2021",
+        "Stock": "Amazon",
+        "Value": "0.062105302"
+      },
+      {
+        "Date": "05/02/2021",
+        "Stock": "Amazon",
+        "Value": "0.144575039"
+      },
+      {
+        "Date": "12/02/2021",
+        "Stock": "Amazon",
+        "Value": "0.096499136"
+      },
+      {
+        "Date": "22/02/2021",
+        "Stock": "Amazon",
+        "Value": "-0.001220544"
+      },
+      {
+        "Date": "01/03/2021",
+        "Stock": "Amazon",
+        "Value": "-0.114113479"
+      },
+      {
+        "Date": "08/03/2021",
+        "Stock": "Amazon",
+        "Value": "-0.193937909"
+      },
+      {
+        "Date": "15/03/2021",
+        "Stock": "Amazon",
+        "Value": "-0.124091151"
+      },
+      {
+        "Date": "22/03/2021",
+        "Stock": "Amazon",
+        "Value": "-0.016146415"
+      },
+      {
+        "Date": "29/03/2021",
+        "Stock": "Amazon",
+        "Value": "0.061452064"
+      },
+      {
+        "Date": "06/04/2021",
+        "Stock": "Amazon",
+        "Value": "0.136164221"
+      },
+      {
+        "Date": "13/04/2021",
+        "Stock": "Amazon",
+        "Value": "0.172118284"
+      },
+      {
+        "Date": "20/04/2021",
+        "Stock": "Amazon",
+        "Value": "0.26216828"
+      },
+      {
+        "Date": "27/04/2021",
+        "Stock": "Amazon",
+        "Value": "0.225060096"
+      },
+      {
+        "Date": "04/05/2021",
+        "Stock": "Amazon",
+        "Value": "0.255636922"
+      },
+      {
+        "Date": "11/05/2021",
+        "Stock": "Amazon",
+        "Value": "0.253157726"
+      },
+      {
+        "Date": "18/05/2021",
+        "Stock": "Amazon",
+        "Value": "0.314807166"
+      },
+      {
+        "Date": "25/05/2021",
+        "Stock": "Amazon",
+        "Value": "0.36406114"
+      },
+      {
+        "Date": "02/06/2021",
+        "Stock": "Amazon",
+        "Value": "0.349598701"
+      },
+      {
+        "Date": "09/06/2021",
+        "Stock": "Amazon",
+        "Value": "0.34249181"
+      },
+      {
+        "Date": "16/06/2021",
+        "Stock": "Amazon",
+        "Value": "0.356871193"
+      },
+      {
+        "Date": "23/06/2021",
+        "Stock": "Amazon",
+        "Value": "0.41736371"
+      },
+      {
+        "Date": "30/06/2021",
+        "Stock": "Amazon",
+        "Value": "0.437693059"
+      },
+      {
+        "Date": "08/07/2021",
+        "Stock": "Amazon",
+        "Value": "0.585123266"
+      },
+      {
+        "Date": "15/07/2021",
+        "Stock": "Amazon",
+        "Value": "0.568595637"
+      },
+      {
+        "Date": "22/07/2021",
+        "Stock": "Amazon",
+        "Value": "0.676523813"
+      },
+      {
+        "Date": "29/07/2021",
+        "Stock": "Amazon",
+        "Value": "0.735161582"
+      },
+      {
+        "Date": "05/08/2021",
+        "Stock": "Amazon",
+        "Value": "0.817211453"
+      },
+      {
+        "Date": "12/08/2021",
+        "Stock": "Amazon",
+        "Value": "0.885020793"
+      },
+      {
+        "Date": "19/08/2021",
+        "Stock": "Amazon",
+        "Value": "0.977503106"
+      },
+      {
+        "Date": "26/08/2021",
+        "Stock": "Amazon",
+        "Value": "0.905885166"
+      },
+      {
+        "Date": "02/09/2021",
+        "Stock": "Amazon",
+        "Value": "1.006977784"
+      },
+      {
+        "Date": "10/09/2021",
+        "Stock": "Amazon",
+        "Value": "0.983050022"
+      },
+      {
+        "Date": "17/09/2021",
+        "Stock": "Amazon",
+        "Value": "0.912508752"
+      },
+      {
+        "Date": "24/09/2021",
+        "Stock": "Amazon",
+        "Value": "0.990502129"
+      },
+      {
+        "Date": "01/10/2021",
+        "Stock": "Amazon",
+        "Value": "0.82143406"
+      },
+      {
+        "Date": "08/10/2021",
+        "Stock": "Amazon",
+        "Value": "0.900586144"
+      },
+      {
+        "Date": "15/10/2021",
+        "Stock": "Amazon",
+        "Value": "1.002010731"
+      },
+      {
+        "Date": "22/10/2021",
+        "Stock": "Amazon",
+        "Value": "1.235078776"
+      },
+      {
+        "Date": "29/10/2021",
+        "Stock": "Amazon",
+        "Value": "1.256321996"
+      },
+      {
+        "Date": "05/11/2021",
+        "Stock": "Amazon",
+        "Value": "1.355339234"
+      },
+      {
+        "Date": "12/11/2021",
+        "Stock": "Amazon",
+        "Value": "1.488689415"
+      },
+      {
+        "Date": "19/11/2021",
+        "Stock": "Amazon",
+        "Value": "1.652557315"
+      },
+      {
+        "Date": "29/11/2021",
+        "Stock": "Amazon",
+        "Value": "1.650318371"
+      },
+      {
+        "Date": "06/12/2021",
+        "Stock": "Amazon",
+        "Value": "1.672211517"
+      },
+      {
+        "Date": "13/12/2021",
+        "Stock": "Amazon",
+        "Value": "1.699744316"
+      },
+      {
+        "Date": "20/12/2021",
+        "Stock": "Amazon",
+        "Value": "1.700490291"
+      },
+      {
+        "Date": "28/12/2021",
+        "Stock": "Amazon",
+        "Value": "1.88575402"
+      },
+      {
+        "Date": "04/01/2022",
+        "Stock": "Amazon",
+        "Value": "1.737725862"
+      },
+      {
+        "Date": "11/01/2022",
+        "Stock": "Amazon",
+        "Value": "1.537700081"
+      },
+      {
+        "Date": "19/01/2022",
+        "Stock": "Amazon",
+        "Value": "1.181270991"
+      },
+      {
+        "Date": "26/01/2022",
+        "Stock": "Amazon",
+        "Value": "1.178783134"
+      },
+      {
+        "Date": "02/02/2022",
+        "Stock": "Amazon",
+        "Value": "1.510838353"
+      },
+      {
+        "Date": "09/02/2022",
+        "Stock": "Amazon",
+        "Value": "1.483512939"
+      },
+      {
+        "Date": "16/02/2022",
+        "Stock": "Amazon",
+        "Value": "1.454693027"
+      },
+      {
+        "Date": "24/02/2022",
+        "Stock": "Amazon",
+        "Value": "1.475290398"
+      },
+      {
+        "Date": "03/03/2022",
+        "Stock": "Amazon",
+        "Value": "1.541817211"
+      },
+      {
+        "Date": "10/03/2022",
+        "Stock": "Amazon",
+        "Value": "1.557763957"
+      },
+      {
+        "Date": "17/03/2022",
+        "Stock": "Amazon",
+        "Value": "1.839568786"
+      },
+      {
+        "Date": "24/03/2022",
+        "Stock": "Amazon",
+        "Value": "1.792726238"
+      },
+      {
+        "Date": "31/03/2022",
+        "Stock": "Amazon",
+        "Value": "1.957673356"
+      },
+      {
+        "Date": "07/04/2022",
+        "Stock": "Amazon",
+        "Value": "2.160908766"
+      },
+      {
+        "Date": "14/04/2022",
+        "Stock": "Amazon",
+        "Value": "2.012073997"
+      },
+      {
+        "Date": "22/04/2022",
+        "Stock": "Amazon",
+        "Value": "1.896545691"
+      },
+      {
+        "Date": "29/04/2022",
+        "Stock": "Amazon",
+        "Value": "1.57761892"
+      },
+      {
+        "Date": "06/05/2022",
+        "Stock": "Amazon",
+        "Value": "1.327050779"
+      },
+      {
+        "Date": "13/05/2022",
+        "Stock": "Amazon",
+        "Value": "1.291279133"
+      },
+      {
+        "Date": "20/05/2022",
+        "Stock": "Amazon",
+        "Value": "0.750128472"
+      },
+      {
+        "Date": "27/05/2022",
+        "Stock": "Amazon",
+        "Value": "1.05576858"
+      },
+      {
+        "Date": "06/06/2022",
+        "Stock": "Amazon",
+        "Value": "1.102022093"
+      },
+      {
+        "Date": "13/06/2022",
+        "Stock": "Amazon",
+        "Value": "0.960765544"
+      },
+      {
+        "Date": "21/06/2022",
+        "Stock": "Amazon",
+        "Value": "1.003691468"
+      },
+      {
+        "Date": "28/06/2022",
+        "Stock": "Amazon",
+        "Value": "1.085882994"
+      },
+      {
+        "Date": "06/07/2022",
+        "Stock": "Amazon",
+        "Value": "1.294773343"
+      },
+      {
+        "Date": "13/07/2022",
+        "Stock": "Amazon",
+        "Value": "1.436112948"
+      },
+      {
+        "Date": "20/07/2022",
+        "Stock": "Amazon",
+        "Value": "1.581861908"
+      },
+      {
+        "Date": "27/07/2022",
+        "Stock": "Amazon",
+        "Value": "1.645464437"
+      },
+      {
+        "Date": "03/08/2022",
+        "Stock": "Amazon",
+        "Value": "1.704631879"
+      },
+      {
+        "Date": "10/08/2022",
+        "Stock": "Amazon",
+        "Value": "1.612298099"
+      },
+      {
+        "Date": "17/08/2022",
+        "Stock": "Amazon",
+        "Value": "1.851965526"
+      },
+      {
+        "Date": "24/08/2022",
+        "Stock": "Amazon",
+        "Value": "1.767048186"
+      },
+      {
+        "Date": "31/08/2022",
+        "Stock": "Amazon",
+        "Value": "1.587047556"
+      },
+      {
+        "Date": "08/09/2022",
+        "Stock": "Amazon",
+        "Value": "1.648797886"
+      },
+      {
+        "Date": "15/09/2022",
+        "Stock": "Amazon",
+        "Value": "1.378463952"
+      },
+      {
+        "Date": "22/09/2022",
+        "Stock": "Amazon",
+        "Value": "1.063963096"
+      },
+      {
+        "Date": "29/09/2022",
+        "Stock": "Amazon",
+        "Value": "1.112879751"
+      },
+      {
+        "Date": "06/10/2022",
+        "Stock": "Amazon",
+        "Value": "1.078546298"
+      },
+      {
+        "Date": "13/10/2022",
+        "Stock": "Amazon",
+        "Value": "0.966045968"
+      },
+      {
+        "Date": "20/10/2022",
+        "Stock": "Amazon",
+        "Value": "1.162129902"
+      },
+      {
+        "Date": "27/10/2022",
+        "Stock": "Amazon",
+        "Value": "1.442232594"
+      },
+      {
+        "Date": "03/11/2022",
+        "Stock": "Amazon",
+        "Value": "1.23803083"
+      },
+      {
+        "Date": "10/11/2022",
+        "Stock": "Amazon",
+        "Value": "1.480635024"
+      },
+      {
+        "Date": "17/11/2022",
+        "Stock": "Amazon",
+        "Value": "1.549091997"
+      },
+      {
+        "Date": "25/11/2022",
+        "Stock": "Amazon",
+        "Value": "1.609617888"
+      },
+      {
+        "Date": "02/12/2022",
+        "Stock": "Amazon",
+        "Value": "1.256814727"
+      },
+      {
+        "Date": "09/12/2022",
+        "Stock": "Amazon",
+        "Value": "1.248633204"
+      },
+      {
+        "Date": "16/12/2022",
+        "Stock": "Amazon",
+        "Value": "1.006112321"
+      },
+      {
+        "Date": "23/12/2022",
+        "Stock": "Amazon",
+        "Value": "1.005026988"
+      },
+      {
+        "Date": "03/01/2023",
+        "Stock": "Amazon",
+        "Value": "0.988831074"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Date": "date"
+      }
+    }
+  },
+  "height": 250,
+  "width": 400,
+  "mark": {
+    "type": "line",
+    "point": false,
+    "strokeWidth": 2
+  },
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "axis": {
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Z-Score",
+      "axis": {
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "Stock",
+      "type": "nominal",
+      "scale": {
+        "scheme": "set1"
+      },
+      "legend": {
+        "orient": "top-left"
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_0524",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1cf4c138a1bd0de59fe1a5ad425170d306ce7f1872c8998b2de9d53c6f17e15f",
+      "actions": 8,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "754518df72ebc42c22c4d93ce6207f89d291604b94a9ca01019d15c3b2ba863a",
+      "actions": 10,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "fa6bc37b80a5b919143c3763f355fadcaba41ec12d9700bca9bf275f8ede0487",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3f3474cf887d281d068780cbdc57aba3407bcded4023f2c6b4bf692b954ad956",
+      "actions": 13,
+      "topOptions": 26
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "b4f0f4a510eeb21531b7af2ae938cf1e33e15393642c8639ad524bbfbd3344ff",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "23d38044aef691ae0d584ec6b97f941b581e25da35aac1e27763d8f2cecf79f9",
+      "actions": 16,
+      "topOptions": 32
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "08f75c5d176b20cd77807fd9c9954f588515b42528895fddd1f0616c83d9b819",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "79802d926ac727117e66928e4263b68102350d4695cf6bce1765f5bac74f7e36",
+      "actions": 21,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [
+    "https://api.economicsobservatory.com/gbr/unem"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Reviewed full final code and all contiguous source/current-runtime/family verifications. User8-stagecap reached; remaining public ownership frontier disclosed:[{\"mandatory\":true,\"owner\":\"createXAxis\",\"boundary\":\"createXAxis existing paint/weight -> whole-axis editors, then components\",\"properties\":[\"ticksAndLabels.labels.format\"],\"note\":\"Move explicit existing paint together; protect measured creation geometry. Do not insert missing defaults.\"}]"
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "b5fec692ea57958b1f3639bde4fae61aeba79266f8ceb7d24eb06863b4bbd055",
+      "bytes": 781
+    },
+    "data.json": {
+      "sha256": "5875e63398ab3157fc74f742f63c0786023d22f50a49285411a2e4e8932d9ecb",
+      "bytes": 10955
+    },
+    "resolved-source.vl.json": {
+      "sha256": "18f30e92aa8c3b7197876060514086f5e0c2cfe153b4ed67f29e89ed4091d87f",
+      "bytes": 13892
+    },
+    "G1.gg.mjs": {
+      "sha256": "1cf4c138a1bd0de59fe1a5ad425170d306ce7f1872c8998b2de9d53c6f17e15f",
+      "bytes": 2023
+    },
+    "G2.gg.mjs": {
+      "sha256": "754518df72ebc42c22c4d93ce6207f89d291604b94a9ca01019d15c3b2ba863a",
+      "bytes": 2025
+    },
+    "G3.gg.mjs": {
+      "sha256": "fa6bc37b80a5b919143c3763f355fadcaba41ec12d9700bca9bf275f8ede0487",
+      "bytes": 1957
+    },
+    "G4.gg.mjs": {
+      "sha256": "3f3474cf887d281d068780cbdc57aba3407bcded4023f2c6b4bf692b954ad956",
+      "bytes": 1998
+    },
+    "G5.gg.mjs": {
+      "sha256": "b4f0f4a510eeb21531b7af2ae938cf1e33e15393642c8639ad524bbfbd3344ff",
+      "bytes": 1952
+    },
+    "G6.gg.mjs": {
+      "sha256": "23d38044aef691ae0d584ec6b97f941b581e25da35aac1e27763d8f2cecf79f9",
+      "bytes": 1994
+    },
+    "G7.gg.mjs": {
+      "sha256": "08f75c5d176b20cd77807fd9c9954f588515b42528895fddd1f0616c83d9b819",
+      "bytes": 2029
+    },
+    "G8.gg.mjs": {
+      "sha256": "79802d926ac727117e66928e4263b68102350d4695cf6bce1765f5bac74f7e36",
+      "bytes": 2123
+    },
+    "vega-lite.svg": {
+      "sha256": "a2a97041e23be8cbf8053193a395d5121bbad69c5bd588ddf88680e9318f05dc",
+      "bytes": 10503
+    },
+    "ggaction.svg": {
+      "sha256": "133328db72d21ff153c63e06da6468bbbee261af6077271904f49596286cfece",
+      "bytes": 7363
+    }
+  }
+}

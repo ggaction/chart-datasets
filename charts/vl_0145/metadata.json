@@ -1,0 +1,124 @@
+{
+  "id": "vl_0145",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "7adfa163d69996191410b0b70f7d567b1ee5863bf0cc5daa589a63e48b19e3e6",
+      "actions": 16,
+      "topOptions": 39
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5ad7a53658839cf7a6a3a9d145fbfe01ef854781e5fcb057fef6728eaa2ad26a",
+      "actions": 18,
+      "topOptions": 44
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "45c1b9768f5e70f19c55d21bfbe177ef299e5d36428637a5a332ea28847833d0",
+      "actions": 19,
+      "topOptions": 45
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f380ad1537f11105b94855446cfa8e1611cfd009d365203956f3a3fd18cad407",
+      "actions": 20,
+      "topOptions": 49
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f8a9a37de389fbe8ee6519a4c3abdae2068b819d58080dc35152a2c2574d4816",
+      "actions": 22,
+      "topOptions": 53
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "1f468714107dba6176e0e0f22482430c7b0a6c6b6b9cdc3d1c41bc060b2c869b",
+      "actions": 23,
+      "topOptions": 54
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "615afeccda1d2b9aaffa403caf4da0247e3b08d3b923f81febd79a0a954ab9c9",
+      "actions": 23,
+      "topOptions": 55
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "2bda0d6fdc9cfacd2e0c87e25f5caae555360598700e04e10dcc602cebfb6763",
+      "actions": 25,
+      "topOptions": 55
+    }
+  ],
+  "sourceUrls": [
+    "https://www.trafforddatalab.io/interactive_graphics_companion/data/gapminder.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original source and entire final GLM program reread; all8accepted stages/current source/style/guide/family checks pass. Source native transforms, source raw rows, plot and typography preserved. Exact title/axis/component moves reviewed. Remaining concrete public ownership opportunities recorded in cap-reviewed-source-frontier.json; stopping at8cap honestly, no padding or inventedAPI."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9398d496183c415f93556302f2af532a4043abfac9ed2c7f430e25ecda7779f9",
+      "bytes": 2061
+    },
+    "data.json": {
+      "sha256": "1586280bdbb4a2d64951d8f5a351cd7a86d24301d69ee0abe9228eba17fd6afb",
+      "bytes": 461856
+    },
+    "resolved-source.vl.json": {
+      "sha256": "56767461c5e1593805139cf929a05085011a138d93b2a31818312d56ddf3f490",
+      "bytes": 558161
+    },
+    "G1.gg.mjs": {
+      "sha256": "7adfa163d69996191410b0b70f7d567b1ee5863bf0cc5daa589a63e48b19e3e6",
+      "bytes": 2704
+    },
+    "G2.gg.mjs": {
+      "sha256": "5ad7a53658839cf7a6a3a9d145fbfe01ef854781e5fcb057fef6728eaa2ad26a",
+      "bytes": 2722
+    },
+    "G3.gg.mjs": {
+      "sha256": "45c1b9768f5e70f19c55d21bfbe177ef299e5d36428637a5a332ea28847833d0",
+      "bytes": 2713
+    },
+    "G4.gg.mjs": {
+      "sha256": "f380ad1537f11105b94855446cfa8e1611cfd009d365203956f3a3fd18cad407",
+      "bytes": 2675
+    },
+    "G5.gg.mjs": {
+      "sha256": "f8a9a37de389fbe8ee6519a4c3abdae2068b819d58080dc35152a2c2574d4816",
+      "bytes": 2798
+    },
+    "G6.gg.mjs": {
+      "sha256": "1f468714107dba6176e0e0f22482430c7b0a6c6b6b9cdc3d1c41bc060b2c869b",
+      "bytes": 2824
+    },
+    "G7.gg.mjs": {
+      "sha256": "615afeccda1d2b9aaffa403caf4da0247e3b08d3b923f81febd79a0a954ab9c9",
+      "bytes": 2840
+    },
+    "G8.gg.mjs": {
+      "sha256": "2bda0d6fdc9cfacd2e0c87e25f5caae555360598700e04e10dcc602cebfb6763",
+      "bytes": 2812
+    },
+    "vega-lite.svg": {
+      "sha256": "2057b8a66f0df098fbf22880b123f4ff04faecb88abbfacd774c24723e1b2b70",
+      "bytes": 16360
+    },
+    "ggaction.svg": {
+      "sha256": "dddc61711d7050a9a5df69dec5cc894555e4d83b12c20c7cd46f7b439529bb51",
+      "bytes": 19602
+    }
+  }
+}

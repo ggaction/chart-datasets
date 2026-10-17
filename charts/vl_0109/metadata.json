@@ -1,0 +1,124 @@
+{
+  "id": "vl_0109",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9a0fa6738477f2619a21954104e7a91a291af085d85ddd908872cd20cd3ce6d0",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "815221d1bd3128ff725c5a63299aee3f161eb15e6b904cb43c3b90521634feaf",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ed70e2b822efaf6f9ea167fadb7efa7ddc830ff7d345c39b5b55a0e810c482d9",
+      "actions": 20,
+      "topOptions": 46
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8f00e9b26a7aa6b31d5c097757a79220e600be208c6ea407a4b76078ea69307c",
+      "actions": 22,
+      "topOptions": 49
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "be3528a4f7489d6553de5f4ac520bf037ef7e5adda169faaf632d63436f4d3ef",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "54aecd020694587e6645d906233381babe076fac5e0dbe8b2c45ca5ef6073522",
+      "actions": 24,
+      "topOptions": 56
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "dfad9abeb5fa4901594108c57f8ab0218b4033792aee3192e45ba0dee3ac0162",
+      "actions": 30,
+      "topOptions": 58
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "524fa575fd54adade2ee90b1f48e3070604f36ea2c015fd7aa895a1eeeb37ad2",
+      "actions": 32,
+      "topOptions": 60
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/PremWoods/PremWoods.github.io/main/2020_values.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full frozen source/final code reread:113rawrows, source2022poverty/ODA scatter and regression,400x350plot, every source label retained,14actual source measuredXwidths prevent heuristic-only collision. Source size30/pointopacity0.7/red2pxline, shareddomains, four subtitlelines and axes/grids preserved. All8programs PASS identicalSVG; meaningful final directional grid paint boundary, eight-stage cap reached."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "67683f40e74c2520936c38483f63d22ba46aacc550155f470d9a7f8a7235c751",
+      "bytes": 1375
+    },
+    "data.json": {
+      "sha256": "c6606563c40e80fb3b184be847797bb6a70baca08b35cd271dff2183f084db8c",
+      "bytes": 10892
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f9086eb3df01fb0be55dafdd70c221ea907b74efb00c6e0b38746bc236edf100",
+      "bytes": 14970
+    },
+    "G1.gg.mjs": {
+      "sha256": "9a0fa6738477f2619a21954104e7a91a291af085d85ddd908872cd20cd3ce6d0",
+      "bytes": 4296
+    },
+    "G2.gg.mjs": {
+      "sha256": "815221d1bd3128ff725c5a63299aee3f161eb15e6b904cb43c3b90521634feaf",
+      "bytes": 4295
+    },
+    "G3.gg.mjs": {
+      "sha256": "ed70e2b822efaf6f9ea167fadb7efa7ddc830ff7d345c39b5b55a0e810c482d9",
+      "bytes": 4255
+    },
+    "G4.gg.mjs": {
+      "sha256": "8f00e9b26a7aa6b31d5c097757a79220e600be208c6ea407a4b76078ea69307c",
+      "bytes": 4359
+    },
+    "G5.gg.mjs": {
+      "sha256": "be3528a4f7489d6553de5f4ac520bf037ef7e5adda169faaf632d63436f4d3ef",
+      "bytes": 4381
+    },
+    "G6.gg.mjs": {
+      "sha256": "54aecd020694587e6645d906233381babe076fac5e0dbe8b2c45ca5ef6073522",
+      "bytes": 4591
+    },
+    "G7.gg.mjs": {
+      "sha256": "dfad9abeb5fa4901594108c57f8ab0218b4033792aee3192e45ba0dee3ac0162",
+      "bytes": 4573
+    },
+    "G8.gg.mjs": {
+      "sha256": "524fa575fd54adade2ee90b1f48e3070604f36ea2c015fd7aa895a1eeeb37ad2",
+      "bytes": 4587
+    },
+    "vega-lite.svg": {
+      "sha256": "4454ccceae770838dc9b09f4d39df1cd4a7bbc6685b51b43b476045c1fde43ab",
+      "bytes": 48941
+    },
+    "ggaction.svg": {
+      "sha256": "9ccc48ac66fbdf40869bb670cd369e842bdc2c64b8f80c948d537bc17b43cea0",
+      "bytes": 33977
+    }
+  }
+}

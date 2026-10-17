@@ -1,0 +1,78 @@
+{
+  "id": "vl_0736",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "254e396e0d2beed952e1f005ef7ef38c87a14c3c092935ab3b673b9b6dc4cfe8",
+      "actions": 9,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "120e96a7114d5dd51aae9493349881e05416ed4787d9e8ef3991a0cc80b5d03b",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4f3ab8fffc57209acb31459460921b974e489fdc52e5eade3297296921efc4f5",
+      "actions": 11,
+      "topOptions": 22
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "857b6fec1eec9066b9552a8aa79b0d4b50f43e82c87221bdc78d367979fde5ee",
+      "actions": 12,
+      "topOptions": 24
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed four distinct designs of action ownership: compact pie and guide declaration, explicit legend and symbol editor, focused legend-title style, and paired chart-title/subtitle typography. Source arc sectors match weighted angles/centers/radii/paint; all outputs exact. Legend label size and title/subtitle font sizes remain necessary creation geometry in fixed source margins; no additional meaningful decomposition. Explicit legend offset removed; actual library defaults retained (categorical8, size/gradient30). Plot dimensions preserved; outer canvas/margin expanded only by required7or29px. All stages remain identical."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "2e0f45c7bc3dd98e879f886f8f5d9bbe9ec05b8a312c9d322cfa533f8a54e309",
+      "bytes": 1017
+    },
+    "data.json": {
+      "sha256": "4dd5fb84f98ee71c8807c6ae12e76f2fa0101f0aa1053736f443dea34eef02da",
+      "bytes": 285
+    },
+    "resolved-source.vl.json": {
+      "sha256": "2e0f45c7bc3dd98e879f886f8f5d9bbe9ec05b8a312c9d322cfa533f8a54e309",
+      "bytes": 1017
+    },
+    "G1.gg.mjs": {
+      "sha256": "254e396e0d2beed952e1f005ef7ef38c87a14c3c092935ab3b673b9b6dc4cfe8",
+      "bytes": 1968
+    },
+    "G2.gg.mjs": {
+      "sha256": "120e96a7114d5dd51aae9493349881e05416ed4787d9e8ef3991a0cc80b5d03b",
+      "bytes": 1840
+    },
+    "G3.gg.mjs": {
+      "sha256": "4f3ab8fffc57209acb31459460921b974e489fdc52e5eade3297296921efc4f5",
+      "bytes": 1843
+    },
+    "G4.gg.mjs": {
+      "sha256": "857b6fec1eec9066b9552a8aa79b0d4b50f43e82c87221bdc78d367979fde5ee",
+      "bytes": 1990
+    },
+    "vega-lite.svg": {
+      "sha256": "ce1f53be4c50be17cf20488d70dbb13a142f04c98a3b7cef02d5504059ad9cb6",
+      "bytes": 6380
+    },
+    "ggaction.svg": {
+      "sha256": "c88e01599c4e5def317f3838c4459eeacf0af6ff472bbd129c29fc6b19952fd2",
+      "bytes": 3701
+    }
+  }
+}

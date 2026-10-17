@@ -1,0 +1,78 @@
+{
+  "id": "vl_1305",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6e84377d8016fecc7b023ab5dd00cbdd8556c96a14125d739a1188eba45541e7",
+      "actions": 10,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "3b69b4f7a9f18e5e769683eca69dcb50925545f206b39db7a83bbfc2bbea99ac",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "46d6d0f005bd1ffe2568abff83e686198f756d53158d22eb0b4836825b06f791",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "709b10a7a0118b1bbf8bcd6f5dde1681137219c426c7b897013e8ab412a5e1f6",
+      "actions": 14,
+      "topOptions": 29
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed actual complete final module and modelstop: source paints/explicit formats/scales already focused; remaining complete-axis settings are measured geometry/fonts/tick content, source has no further semantic styles. No padding or scalar quota split."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "b342b0fdae56e3ce798d7538f3be11c4e6d61deec84ffa44837e5afeec08a7ea",
+      "bytes": 2542
+    },
+    "data.json": {
+      "sha256": "09183f6fed9062d27e5a15f06ef60133779cd563d388bc63e9046bbcd560db02",
+      "bytes": 1363
+    },
+    "resolved-source.vl.json": {
+      "sha256": "ba1d49b9cc8caed91e1a72339f55c7fbecd0a24545b67ceafbd405bba963f77d",
+      "bytes": 4256
+    },
+    "G1.gg.mjs": {
+      "sha256": "6e84377d8016fecc7b023ab5dd00cbdd8556c96a14125d739a1188eba45541e7",
+      "bytes": 1994
+    },
+    "G2.gg.mjs": {
+      "sha256": "3b69b4f7a9f18e5e769683eca69dcb50925545f206b39db7a83bbfc2bbea99ac",
+      "bytes": 2020
+    },
+    "G3.gg.mjs": {
+      "sha256": "46d6d0f005bd1ffe2568abff83e686198f756d53158d22eb0b4836825b06f791",
+      "bytes": 2092
+    },
+    "G4.gg.mjs": {
+      "sha256": "709b10a7a0118b1bbf8bcd6f5dde1681137219c426c7b897013e8ab412a5e1f6",
+      "bytes": 2093
+    },
+    "vega-lite.svg": {
+      "sha256": "d20f370e25de941df9b71620dd84e5e6a529cd6188d3f26924b3c936aed4a82a",
+      "bytes": 15160
+    },
+    "ggaction.svg": {
+      "sha256": "7dddd089ac74f3da6516b4e2a43e3a8c27e51dce63b71ea826f707e545640873",
+      "bytes": 13275
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_0693",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5fcbac8af9c0f299264f8d2f447de84ac23be5d3c7e2ac7d7145920ebf2a04e4",
+      "actions": 23,
+      "topOptions": 54
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "152766cb194abb3e25367ae311b9582c8680e33273f09dab5170697e720bd042",
+      "actions": 24,
+      "topOptions": 58
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2ea331112dd6cabd16c9fd337b83ce711ac3121118997af32f84d7b43042c5b2",
+      "actions": 26,
+      "topOptions": 60
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7aec8fa8572e4cb9f4a6a23c53771d108fac08d5821bde3413c0dcdee32dddc4",
+      "actions": 28,
+      "topOptions": 64
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "cd683c31f271e7918a246ecf5f7e40c60a3534e40da58a8d51c924e8e3bf620e",
+      "actions": 33,
+      "topOptions": 65
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "a7f98de9d2b6d2aa21fc5235d98afe50f9482ad7b2f23915d992e5b1e55212d2",
+      "actions": 33,
+      "topOptions": 65
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "66b50bca8eff8bc5325357859aedc3dd26ad6ba95d5be2a358f74be1c7afa0a6",
+      "actions": 34,
+      "topOptions": 66
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "a6d32c0b0687735b450e01a8563e212b702fdcdf2db048778439373bd417a64b",
+      "actions": 34,
+      "topOptions": 67
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/mleo0010/FIT3179-DataVis2-ML/main/data/best_players_wins.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source/final GLM reread:410raw rows retained, fixed Total initial selection yields82 source line vertices and original5 ordered player series. Narrow source-bound visibility proof preserves all82 line rows and only5 actually painted text labels from77 source-opacity-zero labels, exact original texts/font12/counts/positions. Original plot800x450,16px header,14px axis/legend fonts and source tick label multiset retained. All8 current strict source/family/dependency checks PASS; final stage only moves existing header weight700 while font16 stays at creation. Cap8 reached with meaningful ownership boundaries."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9eba6528c99ff47428789730d184db8bf23a14856e0814bcc7fe7b7b36df0028",
+      "bytes": 3011
+    },
+    "data.json": {
+      "sha256": "ecba01be98d6321b1865778f7e3c4f6c89f11cdedf30edbeaf255edaffd3f84c",
+      "bytes": 45395
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d67139c5725b0023d6322d4be5d1c781a92447f7bd2880c5de4a25e3acd932a1",
+      "bytes": 58228
+    },
+    "G1.gg.mjs": {
+      "sha256": "5fcbac8af9c0f299264f8d2f447de84ac23be5d3c7e2ac7d7145920ebf2a04e4",
+      "bytes": 4313
+    },
+    "G2.gg.mjs": {
+      "sha256": "152766cb194abb3e25367ae311b9582c8680e33273f09dab5170697e720bd042",
+      "bytes": 4219
+    },
+    "G3.gg.mjs": {
+      "sha256": "2ea331112dd6cabd16c9fd337b83ce711ac3121118997af32f84d7b43042c5b2",
+      "bytes": 4273
+    },
+    "G4.gg.mjs": {
+      "sha256": "7aec8fa8572e4cb9f4a6a23c53771d108fac08d5821bde3413c0dcdee32dddc4",
+      "bytes": 4439
+    },
+    "G5.gg.mjs": {
+      "sha256": "cd683c31f271e7918a246ecf5f7e40c60a3534e40da58a8d51c924e8e3bf620e",
+      "bytes": 4408
+    },
+    "G6.gg.mjs": {
+      "sha256": "a7f98de9d2b6d2aa21fc5235d98afe50f9482ad7b2f23915d992e5b1e55212d2",
+      "bytes": 4253
+    },
+    "G7.gg.mjs": {
+      "sha256": "66b50bca8eff8bc5325357859aedc3dd26ad6ba95d5be2a358f74be1c7afa0a6",
+      "bytes": 4278
+    },
+    "G8.gg.mjs": {
+      "sha256": "a6d32c0b0687735b450e01a8563e212b702fdcdf2db048778439373bd417a64b",
+      "bytes": 4294
+    },
+    "vega-lite.svg": {
+      "sha256": "cc95c6522fbd359bd5fd299de2102f3a48461c122d227e576fb2c74974f4ce86",
+      "bytes": 48800
+    },
+    "ggaction.svg": {
+      "sha256": "af6923ee46f7ebff02d3366cde52e6461be7d0857a89e2738e4edea712a15716",
+      "bytes": 20984
+    }
+  }
+}

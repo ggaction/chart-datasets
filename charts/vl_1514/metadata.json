@@ -1,0 +1,111 @@
+{
+  "id": "vl_1514",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d6ae480cab21ed0f9f8e19ba11974a2fa56778aa796b514d64dccd9b9524e412",
+      "actions": 8,
+      "topOptions": 18
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "3f935002f67a01e79247671215650d897cf5dd2cd6dc5ab4c5278a42f04df99b",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7bdeda7912920cfff962cd1a192bb445f2a8c9af618b4ab452a45a5ad60cc85d",
+      "actions": 11,
+      "topOptions": 22
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7967fe609be7fcc25f4dae9ef062563ed67327a065c3c53cb1a04341d9900879",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f81eca5f55af65c9711a22fabd66e3755c7411887221541373be4540fe621637",
+      "actions": 13,
+      "topOptions": 24
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "c625fe748db51b046caba0746917548f119535f1683750b3a6b20b0dbc76b96f",
+      "actions": 15,
+      "topOptions": 28
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "db4ed32752f8a015fdd43be4d9bc33ab275c8bae3a1059ae4851655fb94892a1",
+      "actions": 19,
+      "topOptions": 28
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed full terminal code/source:433 source points,600x500 innerplot, correct TSNE domain/axes,source .8opacity. All seven accepted stages PASS and actual SVG identical. Concrete frontier empty; hashbound GLM stop leaves protected geometry at creation and does not invent defaults."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a3663887c813108f52b1e8df1ce5451640744de952f2abb44572d6638cc6dfc4",
+      "bytes": 64646
+    },
+    "data.json": {
+      "sha256": "ed1a763bc6320704665dda620a784f27b5e497a4e46bc6df2c00a039721065e2",
+      "bytes": 53679
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1398417c98ff37dd19f58f298be48ca48847b85f3b100071a028c5b3f1bbb7f8",
+      "bytes": 64647
+    },
+    "G1.gg.mjs": {
+      "sha256": "d6ae480cab21ed0f9f8e19ba11974a2fa56778aa796b514d64dccd9b9524e412",
+      "bytes": 1474
+    },
+    "G2.gg.mjs": {
+      "sha256": "3f935002f67a01e79247671215650d897cf5dd2cd6dc5ab4c5278a42f04df99b",
+      "bytes": 1492
+    },
+    "G3.gg.mjs": {
+      "sha256": "7bdeda7912920cfff962cd1a192bb445f2a8c9af618b4ab452a45a5ad60cc85d",
+      "bytes": 1513
+    },
+    "G4.gg.mjs": {
+      "sha256": "7967fe609be7fcc25f4dae9ef062563ed67327a065c3c53cb1a04341d9900879",
+      "bytes": 1561
+    },
+    "G5.gg.mjs": {
+      "sha256": "f81eca5f55af65c9711a22fabd66e3755c7411887221541373be4540fe621637",
+      "bytes": 1567
+    },
+    "G6.gg.mjs": {
+      "sha256": "c625fe748db51b046caba0746917548f119535f1683750b3a6b20b0dbc76b96f",
+      "bytes": 1721
+    },
+    "G7.gg.mjs": {
+      "sha256": "db4ed32752f8a015fdd43be4d9bc33ab275c8bae3a1059ae4851655fb94892a1",
+      "bytes": 1677
+    },
+    "vega-lite.svg": {
+      "sha256": "61bc7fb0a39a1aa9a263e2267ee0f21622a78336cab92e29afdcb2e0ff16e5a2",
+      "bytes": 141376
+    },
+    "ggaction.svg": {
+      "sha256": "447fec71e6dc17ae7f6efbe1151da6207dbb8a40d019c46abbc47e30341581b2",
+      "bytes": 57719
+    }
+  }
+}

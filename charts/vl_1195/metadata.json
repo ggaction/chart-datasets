@@ -1,0 +1,80 @@
+{
+  "id": "vl_1195",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f201cffeeccd74bcf1446f27341ffc21ae966272f3e668b0079c2de2caa12479",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b681c70ecca27abf85ca2325c65a1135b8e5661acc7587a069c6d766b0c54cba",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "d34b72baa076215d7f467ed992d663ba7e2c58c3b11fae4b5d9c96c2aa05a7ab",
+      "actions": 16,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c549c16a28d68ca97b777bd5d906537d877b25369c7db6e0ebf2b981cabbb327",
+      "actions": 16,
+      "topOptions": 32
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/Ben25Walker/Ben25Walker.github.io/main/data_IMF_creditOutstandingNEW.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed full accepted G4 and exact GLM stop: source numeric label format/titlepaint/axislines already focused; hiddenaxis titles/ticks,45degree geometry and measured fullXrange retain source behavior; no meaningful lower boundary remains. Honest4-stage profile."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9afd323d958a08f7686ef8f40cb89f5e8651f567ed743af10fae0bc52fafcede",
+      "bytes": 918
+    },
+    "data.json": {
+      "sha256": "1939f60139ed3b275f6e629b45529e50d7506319e52834163544571a396dcc72",
+      "bytes": 1939
+    },
+    "resolved-source.vl.json": {
+      "sha256": "7084a379af9f129895c481ebb4f6323942f469592b9d9624913f3e885813ba39",
+      "bytes": 3436
+    },
+    "G1.gg.mjs": {
+      "sha256": "f201cffeeccd74bcf1446f27341ffc21ae966272f3e668b0079c2de2caa12479",
+      "bytes": 1848
+    },
+    "G2.gg.mjs": {
+      "sha256": "b681c70ecca27abf85ca2325c65a1135b8e5661acc7587a069c6d766b0c54cba",
+      "bytes": 1878
+    },
+    "G3.gg.mjs": {
+      "sha256": "d34b72baa076215d7f467ed992d663ba7e2c58c3b11fae4b5d9c96c2aa05a7ab",
+      "bytes": 1903
+    },
+    "G4.gg.mjs": {
+      "sha256": "c549c16a28d68ca97b777bd5d906537d877b25369c7db6e0ebf2b981cabbb327",
+      "bytes": 1903
+    },
+    "vega-lite.svg": {
+      "sha256": "3fd0a7629368ef6959bfcc90c6744a58cdbaae2554a3802669432d4ef069b039",
+      "bytes": 13522
+    },
+    "ggaction.svg": {
+      "sha256": "bb91a9c68df3f2913022a71dbb56d17f58c5515c65d065aa2b936c00a01e3b4f",
+      "bytes": 12053
+    }
+  }
+}

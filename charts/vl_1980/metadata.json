@@ -1,0 +1,100 @@
+{
+  "id": "vl_1980",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "55f54000fd9b925f7c1714d59366db2b5071f1f923d8dea38e03b254be0c03d3",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ad4c819087a10eb3d21956610631d6e9e3bf0b9c21149ab493de1d89f720dfed",
+      "actions": 9,
+      "topOptions": 18
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "37c3b85a8bc879cdd71c366fb9149fd57cf8fc9224f2b3761ca89f43e8d32a01",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0d8bdd95a1f30dd010da6a9e65c366fe850c7f3c8401586a2cbb6b4cf62d264e",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "b8ab3277870e4ac9dbe08cd9daa32c6081dab57163d39e0646680f98ba6e5cef",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "cdef8935c365558075cb38a734eccba1b8e778ebfbd8a2c6ce375063283d5ea0",
+      "actions": 16,
+      "topOptions": 30
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Six meaningful stages verified. Full calendar interval bars retain exact boundaries; axes already use line/title component editors. Label-only ticksAndLabels editors each own a single remaining family, so renaming to label editors adds no design decomposition. Fixed-canvas fonts/offsets/tick lengths stay in complete axes; inferred grid appearance is not a quota stage. Source grid paint corrected using exact shared GLM color fragments, without changing action counts or decomposition."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "121bedb8031833b8276e0a20ef4c8addba0852952b6e4144cbebb2bb1fce56b2",
+      "bytes": 811
+    },
+    "data.json": {
+      "sha256": "e87309edd15e83a09ea7324e4c9b125e32af31f360e0e6ac931fd94f1b558afe",
+      "bytes": 273
+    },
+    "resolved-source.vl.json": {
+      "sha256": "121bedb8031833b8276e0a20ef4c8addba0852952b6e4144cbebb2bb1fce56b2",
+      "bytes": 811
+    },
+    "G1.gg.mjs": {
+      "sha256": "55f54000fd9b925f7c1714d59366db2b5071f1f923d8dea38e03b254be0c03d3",
+      "bytes": 2292
+    },
+    "G2.gg.mjs": {
+      "sha256": "ad4c819087a10eb3d21956610631d6e9e3bf0b9c21149ab493de1d89f720dfed",
+      "bytes": 2122
+    },
+    "G3.gg.mjs": {
+      "sha256": "37c3b85a8bc879cdd71c366fb9149fd57cf8fc9224f2b3761ca89f43e8d32a01",
+      "bytes": 2222
+    },
+    "G4.gg.mjs": {
+      "sha256": "0d8bdd95a1f30dd010da6a9e65c366fe850c7f3c8401586a2cbb6b4cf62d264e",
+      "bytes": 2176
+    },
+    "G5.gg.mjs": {
+      "sha256": "b8ab3277870e4ac9dbe08cd9daa32c6081dab57163d39e0646680f98ba6e5cef",
+      "bytes": 2170
+    },
+    "G6.gg.mjs": {
+      "sha256": "cdef8935c365558075cb38a734eccba1b8e778ebfbd8a2c6ce375063283d5ea0",
+      "bytes": 2164
+    },
+    "vega-lite.svg": {
+      "sha256": "5c37ded70cdd17fbbc1cb978903b6fb1dd3e32ee34b19ee4abe8b37ddf9c939a",
+      "bytes": 9073
+    },
+    "ggaction.svg": {
+      "sha256": "1c3a203e4ce21f4cd88e93e16338658f6f01807e95cdc416f0b892198f5f4f2d",
+      "bytes": 6574
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "vl_0684",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "da65259f37a331071adc01c2e2589b00a7d654e4c3350b34d4eca5a92f29652c",
+      "actions": 21,
+      "topOptions": 54
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2b933f430074b6b7a4e327a341b156e8a19e34ab0ed0bdfa46d95954d69b5a4e",
+      "actions": 22,
+      "topOptions": 56
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full originalsource16typedrawrows and completeG2program reread:640/332sourceflattenedbarrows retained, allsourcecounts/intervals/colors/outline exact; noaxes/grid/legend/title declared. Nativecolorpolicy now focusededitor; sourceXYscales and markpaint already meaningfulfocusedowners. No mandatoryfrontier remains; stop2 distinctstages rather than padding. Closed source-terminal oracle proof and allsource/family checks pass."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "6ab52933b67ebb3fdaf8122b256ca1c26b648470dbf70b22d0109dcea401e0c1",
+      "bytes": 3086
+    },
+    "data.json": {
+      "sha256": "d0adf69f6b34a468ee00d4d8b26f4b919bb2ba04ca3c737f0fd34121775957d0",
+      "bytes": 595
+    },
+    "resolved-source.vl.json": {
+      "sha256": "448beb12fc111fd8c094fa74d5414c14ea18fb892725cadafb39340707164cc0",
+      "bytes": 3087
+    },
+    "G1.gg.mjs": {
+      "sha256": "da65259f37a331071adc01c2e2589b00a7d654e4c3350b34d4eca5a92f29652c",
+      "bytes": 2098
+    },
+    "G2.gg.mjs": {
+      "sha256": "2b933f430074b6b7a4e327a341b156e8a19e34ab0ed0bdfa46d95954d69b5a4e",
+      "bytes": 2127
+    },
+    "vega-lite.svg": {
+      "sha256": "4a8441abb484294ebf0c3e8ecfcba390dc208c1a043f598fc7dd429d2eb6c328",
+      "bytes": 205072
+    },
+    "ggaction.svg": {
+      "sha256": "4e5b17c169ed92e41c92c734168629f2ac21f6a9cf48e341a8be52debbbc7930",
+      "bytes": 134334
+    }
+  }
+}

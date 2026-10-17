@@ -1,0 +1,124 @@
+{
+  "id": "vl_1674",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b58ba550a14b16b87c5677ba75fb4c9b93ee0ad2c8f82cb78efa8eb3ec7cfc46",
+      "actions": 9,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "93c2ff729a1da8d4cc14f4cc4aa4349f7d683c281cf5f908489bd9ac4248f2ba",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "3689b5a63dd6dfb5e00af2114cf9cebc1ff02d7f66b7576718c37080819b8b56",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "91423a88b8a9e13bdfc2d69fbc300bb101fbc18a33cb1a47155b9af07ff0db88",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "8818a95f3edbbc01081cca52ad586224ffabb817c8c05ab6f4ff48b364b7c89f",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "00df78d552c8966c32310a41c3cf44b52a94459a9ad07b19082e3a6c58cdacc9",
+      "actions": 18,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "557fa02116c10abb7f3588e9d5ff8275decbda0cdbd5a03e84139df56117b405",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4823d2159e515dddbdbf2df509d5ed58aaa76fbf77afbeeee23fb4c415d0e276",
+      "actions": 22,
+      "topOptions": 40
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/stocks.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct reviewed public ownership stages; source-SHA-bound17quarter ticks/grid9two-line visible labels strict oracle and exact family output PASS."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9eeae8d5937861f707287d4b2a6b79e6097b47bfea284176fd4419776e72179c",
+      "bytes": 737
+    },
+    "data.json": {
+      "sha256": "1bdaf793f6aae36096d9946eaddc54f313be476f70ff874ed70e2c0b676bac8c",
+      "bytes": 43591
+    },
+    "resolved-source.vl.json": {
+      "sha256": "9e26095d505020eb2cd0f76ef177b6ff8cf03d37d564cabf587c41a1d026072a",
+      "bytes": 55556
+    },
+    "G1.gg.mjs": {
+      "sha256": "b58ba550a14b16b87c5677ba75fb4c9b93ee0ad2c8f82cb78efa8eb3ec7cfc46",
+      "bytes": 3737
+    },
+    "G2.gg.mjs": {
+      "sha256": "93c2ff729a1da8d4cc14f4cc4aa4349f7d683c281cf5f908489bd9ac4248f2ba",
+      "bytes": 3739
+    },
+    "G3.gg.mjs": {
+      "sha256": "3689b5a63dd6dfb5e00af2114cf9cebc1ff02d7f66b7576718c37080819b8b56",
+      "bytes": 3867
+    },
+    "G4.gg.mjs": {
+      "sha256": "91423a88b8a9e13bdfc2d69fbc300bb101fbc18a33cb1a47155b9af07ff0db88",
+      "bytes": 3849
+    },
+    "G5.gg.mjs": {
+      "sha256": "8818a95f3edbbc01081cca52ad586224ffabb817c8c05ab6f4ff48b364b7c89f",
+      "bytes": 3745
+    },
+    "G6.gg.mjs": {
+      "sha256": "00df78d552c8966c32310a41c3cf44b52a94459a9ad07b19082e3a6c58cdacc9",
+      "bytes": 3785
+    },
+    "G7.gg.mjs": {
+      "sha256": "557fa02116c10abb7f3588e9d5ff8275decbda0cdbd5a03e84139df56117b405",
+      "bytes": 3807
+    },
+    "G8.gg.mjs": {
+      "sha256": "4823d2159e515dddbdbf2df509d5ed58aaa76fbf77afbeeee23fb4c415d0e276",
+      "bytes": 3755
+    },
+    "vega-lite.svg": {
+      "sha256": "fb285d863b2bba365fae5883b811936963e6a5c912a32987664ae8ee5f292bf6",
+      "bytes": 12125
+    },
+    "ggaction.svg": {
+      "sha256": "a3e663d5d1e351d5dcf163e70c99b2d117821f00f0931723d011726e48a26d38",
+      "bytes": 11657
+    }
+  }
+}

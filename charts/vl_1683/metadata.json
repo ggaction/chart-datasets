@@ -1,0 +1,113 @@
+{
+  "id": "vl_1683",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ba3d5afe7cc5402a63a0e3743b81f2acddde9d7c4aa481842a514c377fad1c4c",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b76cc0928848780467c38b9476e2f0270ab5462b467aa8568be1683f508061ad",
+      "actions": 18,
+      "topOptions": 44
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "cacac82f2780006f0df08a4db10b67ac8400003f379d7938df357d75e348d92c",
+      "actions": 19,
+      "topOptions": 46
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "07c02de789657fc405770c59aa7b10653bdf504928d6f370c23a794c5b79ac4c",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e974556b40fa1cb0dfede5111f6c57693bb8cda0af871223c5f8dd6bb7cb4621",
+      "actions": 22,
+      "topOptions": 48
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "50d71964ed607f28e9eb0fd1889901e3aa9c1b43c41578ce402a6f56dc3350ef",
+      "actions": 24,
+      "topOptions": 54
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ec60eecb0724abdfefe1c7cbc34efc40049815fafde3c3aa8ef97ae3d51db13b",
+      "actions": 30,
+      "topOptions": 57
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/stocks.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reread entire source and complete G7 plus all seven stage diffs. Mandatory concrete frontier is empty. Point fill/width remain necessary mark appearance; source .3 opacity and active stroke already encoded; paired axis fonts/tick values/offsets/flush and typed raw year/price/mean pipeline are protected geometry. All560raw/68points/7means and exact independently reproduced source/native estimator proof retained. Normal G7 source/identity checks pass; stop honestly at7, no default-only padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "84e9fa3dea8cb187706c388819985bdfae7e258e7530c36e11f4c13adbb4a402",
+      "bytes": 923
+    },
+    "data.json": {
+      "sha256": "1bdaf793f6aae36096d9946eaddc54f313be476f70ff874ed70e2c0b676bac8c",
+      "bytes": 43591
+    },
+    "resolved-source.vl.json": {
+      "sha256": "32fb7f1f5b50fc191d45bfae932fd56ecbcaf6dabae08b0056dfb481d395d34c",
+      "bytes": 55742
+    },
+    "G1.gg.mjs": {
+      "sha256": "ba3d5afe7cc5402a63a0e3743b81f2acddde9d7c4aa481842a514c377fad1c4c",
+      "bytes": 2470
+    },
+    "G2.gg.mjs": {
+      "sha256": "b76cc0928848780467c38b9476e2f0270ab5462b467aa8568be1683f508061ad",
+      "bytes": 2420
+    },
+    "G3.gg.mjs": {
+      "sha256": "cacac82f2780006f0df08a4db10b67ac8400003f379d7938df357d75e348d92c",
+      "bytes": 2488
+    },
+    "G4.gg.mjs": {
+      "sha256": "07c02de789657fc405770c59aa7b10653bdf504928d6f370c23a794c5b79ac4c",
+      "bytes": 2570
+    },
+    "G5.gg.mjs": {
+      "sha256": "e974556b40fa1cb0dfede5111f6c57693bb8cda0af871223c5f8dd6bb7cb4621",
+      "bytes": 2560
+    },
+    "G6.gg.mjs": {
+      "sha256": "50d71964ed607f28e9eb0fd1889901e3aa9c1b43c41578ce402a6f56dc3350ef",
+      "bytes": 2814
+    },
+    "G7.gg.mjs": {
+      "sha256": "ec60eecb0724abdfefe1c7cbc34efc40049815fafde3c3aa8ef97ae3d51db13b",
+      "bytes": 2752
+    },
+    "vega-lite.svg": {
+      "sha256": "e5ff26e1da1f181649e969f20427f37b7d3434f66df04eca6930638da26c62cd",
+      "bytes": 25718
+    },
+    "ggaction.svg": {
+      "sha256": "bd83cae6ef16711cef8d86a635f8bcb07b591b871254858f104a20b4d45f4f05",
+      "bytes": 13511
+    }
+  }
+}

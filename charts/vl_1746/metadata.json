@@ -1,0 +1,69 @@
+{
+  "id": "vl_1746",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "e8172525cee987364493ef474b442c9a8394aab51aac2a62df146f7175ad828a",
+      "actions": 8,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "235ce6f33236cbc1a44596a1dbf3c25095d14e7239955512cb6ee77b361a10f4",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "fd4c0eb527687384aa21434b9b82183dc5ea5fb98055bf5418d6788f4a329a8e",
+      "actions": 10,
+      "topOptions": 22
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex full terminal module/frontier review: source styles already owned by focused encodings/scales/axis components; source creation fonts and layout/selection retained; no explicit movable aggregate format/legendweight/gridpaint left. No manufactured default or same-owner scalar stages. All accepted family source/DOM validations required."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "51d7c2a595f359e98354d2ebeeaba997981e50a6748567bcf59c0a942e845984",
+      "bytes": 436
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1c0514c1688c9a0b671d8bef468eb9d1132c2547f9b4a4d3e97bebe92776bf72",
+      "bytes": 114284
+    },
+    "G1.gg.mjs": {
+      "sha256": "e8172525cee987364493ef474b442c9a8394aab51aac2a62df146f7175ad828a",
+      "bytes": 1143
+    },
+    "G2.gg.mjs": {
+      "sha256": "235ce6f33236cbc1a44596a1dbf3c25095d14e7239955512cb6ee77b361a10f4",
+      "bytes": 1203
+    },
+    "G3.gg.mjs": {
+      "sha256": "fd4c0eb527687384aa21434b9b82183dc5ea5fb98055bf5418d6788f4a329a8e",
+      "bytes": 1191
+    },
+    "vega-lite.svg": {
+      "sha256": "e92b6e74bcb53fecdd47853a2246561c03f7aaf61a796413cc37cf05c8c730cb",
+      "bytes": 178801
+    },
+    "ggaction.svg": {
+      "sha256": "999349afad90ddcc967512a7146fee9a3731ecfce39772cbaa9778ecde6d8c5c",
+      "bytes": 165436
+    }
+  }
+}

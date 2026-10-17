@@ -1,0 +1,122 @@
+{
+  "id": "vl_1586",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5f1defb8818cd7f41eb68b649ccca6a0b366030135fac9aab47f0106e591ee39",
+      "actions": 8,
+      "topOptions": 19
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ba2d8fab63567a8cb9d3d56057de1478e361c8b86297f36161407be0730b5d61",
+      "actions": 10,
+      "topOptions": 21
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e31e19eedafa843a290dc860b6ec34e15b6296c780aadf703c2e82f871ad13d8",
+      "actions": 10,
+      "topOptions": 20
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "44b058a382606f10e484fa31958f08aadd3b5e2d45c58384e71fae7437709fd4",
+      "actions": 11,
+      "topOptions": 21
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "551eaefa6b9193ce3ae974d0d436095a804e250d08b50ac1cc77da4b5ff6d2f4",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "4b575ecbe3393d48ad3b34fae2bb39029e3fa2f4d1e14132b212fac850ad7054",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ed42143c46774a3125c43a31b8e1bd256380ab7409a0935ca1bdf3702468baff",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "0b2b7cbd6a1592950f6779ceb998a10fde17b1695292d33a51b1a9db2bc68f9a",
+      "actions": 16,
+      "topOptions": 32
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful stages retain high-level scatter scaffold and fixed source canvas, refining positional scales, guide/axes families, grid paint/directional zIndex layering, color scale, and paired axis paint. Ceiling reached; source fat foreground grid layering verified by SVG object order."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "d28993e7519af975569454d297d538946cf350db82a440f59679fedf9ffad91d",
+      "bytes": 807
+    },
+    "data.json": {
+      "sha256": "153beb98d1b39c62e7ed66636322264185a33d1cb9285aa3840bb34217621580",
+      "bytes": 103
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d28993e7519af975569454d297d538946cf350db82a440f59679fedf9ffad91d",
+      "bytes": 807
+    },
+    "G1.gg.mjs": {
+      "sha256": "5f1defb8818cd7f41eb68b649ccca6a0b366030135fac9aab47f0106e591ee39",
+      "bytes": 1670
+    },
+    "G2.gg.mjs": {
+      "sha256": "ba2d8fab63567a8cb9d3d56057de1478e361c8b86297f36161407be0730b5d61",
+      "bytes": 1688
+    },
+    "G3.gg.mjs": {
+      "sha256": "e31e19eedafa843a290dc860b6ec34e15b6296c780aadf703c2e82f871ad13d8",
+      "bytes": 1592
+    },
+    "G4.gg.mjs": {
+      "sha256": "44b058a382606f10e484fa31958f08aadd3b5e2d45c58384e71fae7437709fd4",
+      "bytes": 1626
+    },
+    "G5.gg.mjs": {
+      "sha256": "551eaefa6b9193ce3ae974d0d436095a804e250d08b50ac1cc77da4b5ff6d2f4",
+      "bytes": 1590
+    },
+    "G6.gg.mjs": {
+      "sha256": "4b575ecbe3393d48ad3b34fae2bb39029e3fa2f4d1e14132b212fac850ad7054",
+      "bytes": 1580
+    },
+    "G7.gg.mjs": {
+      "sha256": "ed42143c46774a3125c43a31b8e1bd256380ab7409a0935ca1bdf3702468baff",
+      "bytes": 1571
+    },
+    "G8.gg.mjs": {
+      "sha256": "0b2b7cbd6a1592950f6779ceb998a10fde17b1695292d33a51b1a9db2bc68f9a",
+      "bytes": 1619
+    },
+    "vega-lite.svg": {
+      "sha256": "06b928f1c7d6e4aa68bc4faea8bf923f9611fb726902513b91ea6acc10a62dbe",
+      "bytes": 6802
+    },
+    "ggaction.svg": {
+      "sha256": "877b2f2379dc87919261dfe87f63b1e864ecb111cf068f13834584bdc46e5d4a",
+      "bytes": 4573
+    }
+  }
+}

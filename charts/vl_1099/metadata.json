@@ -1,0 +1,102 @@
+{
+  "id": "vl_1099",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8d921a7c47a517ecb51a704d336a49b3153b1e1c5adb16f9ab6acd1d10901630",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "db0d913f62a974e0fe8fa8c4ca46482b5b91ae304c4894705952e5aed41ff072",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b828ceb6412312d80c7c05cf4d782c08de520b21f5bcf02d9487dc6b5017460f",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1ca5e54f7d530cb353412fa289f60c13c0081ecda2cbc36676616d79c1dd1d9b",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "77e0bfe429524985ea37b213a2f87e5281e57d8311447965a4ad5e5d5ddd5646",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "51c65a89e15b0ef9bf0479f1659852cf55a3adf5b88a0daa4d09f014fcb2a35b",
+      "actions": 16,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/chartENV14.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Read all raw6 corrected programs and recovered exact original GLM focused symbol stage; full source/family checks pass current runtime, native legend spacing18 restored. Host frontier exhausted. RawG4 nativewidth2-only padding is explicitly disclosed for reviewed curation omission, preserving original stages/usage; eventual meaningful profile5, rawaccepted6."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "551021a079e30163b2c1d1a36b4239702fed46f02146d27cd3d61eaa9ebb3678",
+      "bytes": 1577
+    },
+    "data.json": {
+      "sha256": "6c51c10f8953390552ce50d3d146d272f1d3c198e6ddd38b31e6657a2012bad4",
+      "bytes": 15716
+    },
+    "resolved-source.vl.json": {
+      "sha256": "21a8f66a2c01b4235d6166669a19f6602f375158ec0d59004638266a6ae25fad",
+      "bytes": 20757
+    },
+    "G1.gg.mjs": {
+      "sha256": "8d921a7c47a517ecb51a704d336a49b3153b1e1c5adb16f9ab6acd1d10901630",
+      "bytes": 2738
+    },
+    "G2.gg.mjs": {
+      "sha256": "db0d913f62a974e0fe8fa8c4ca46482b5b91ae304c4894705952e5aed41ff072",
+      "bytes": 2677
+    },
+    "G3.gg.mjs": {
+      "sha256": "b828ceb6412312d80c7c05cf4d782c08de520b21f5bcf02d9487dc6b5017460f",
+      "bytes": 2525
+    },
+    "G4.gg.mjs": {
+      "sha256": "1ca5e54f7d530cb353412fa289f60c13c0081ecda2cbc36676616d79c1dd1d9b",
+      "bytes": 2524
+    },
+    "G5.gg.mjs": {
+      "sha256": "77e0bfe429524985ea37b213a2f87e5281e57d8311447965a4ad5e5d5ddd5646",
+      "bytes": 2560
+    },
+    "G6.gg.mjs": {
+      "sha256": "51c65a89e15b0ef9bf0479f1659852cf55a3adf5b88a0daa4d09f014fcb2a35b",
+      "bytes": 2567
+    },
+    "vega-lite.svg": {
+      "sha256": "9ff49c298e8a858857e4bcb5b17470b21888ba51957a7abd506ce755a1d42f20",
+      "bytes": 15432
+    },
+    "ggaction.svg": {
+      "sha256": "a1a6b5f17c5ad9559d6997f4717ec5a2eb8cffd0cbcfdcb215fd22e0ca158f7f",
+      "bytes": 12209
+    }
+  }
+}

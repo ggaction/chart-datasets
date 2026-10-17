@@ -1,0 +1,58 @@
+{
+  "id": "vl_0188",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "333db8148a5c6830ba559c907c53df5df12dd370d6d0d64dbf2fbefcdf8cd1ea",
+      "actions": 23,
+      "topOptions": 57
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "af89ecdbe5adf46611c3bafe7e96bb2603c2996f7e97ae4a5ee1abab4879f9b5",
+      "actions": 23,
+      "topOptions": 58
+    }
+  ],
+  "sourceUrls": [
+    "https://www.trafforddatalab.io/interactive_graphics_companion/data/gapminder.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 2 genuine ownership stages, 83 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "65915ab85c406491cdc6d91011fc1bf934348c0cec276a1d012620b345b1a042",
+      "bytes": 2253
+    },
+    "data.json": {
+      "sha256": "1586280bdbb4a2d64951d8f5a351cd7a86d24301d69ee0abe9228eba17fd6afb",
+      "bytes": 461856
+    },
+    "resolved-source.vl.json": {
+      "sha256": "4570c5b2ab7985e222e074712623a4cea02264b532793831fc8599c3da6eb16f",
+      "bytes": 558381
+    },
+    "G1.gg.mjs": {
+      "sha256": "333db8148a5c6830ba559c907c53df5df12dd370d6d0d64dbf2fbefcdf8cd1ea",
+      "bytes": 2033
+    },
+    "G2.gg.mjs": {
+      "sha256": "af89ecdbe5adf46611c3bafe7e96bb2603c2996f7e97ae4a5ee1abab4879f9b5",
+      "bytes": 2049
+    },
+    "vega-lite.svg": {
+      "sha256": "492b5a5282c074e60c441ddd0c6c30f73dbe6521953b4f7220cf15e04049fb09",
+      "bytes": 8807
+    },
+    "ggaction.svg": {
+      "sha256": "693f00bbd3da41f5b1223dce3d6a6d2b941de9905a7393f75a3f6df1434e82a4",
+      "bytes": 4996
+    }
+  }
+}

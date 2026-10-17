@@ -1,0 +1,2463 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Fish caught - by continent",
+    "subtitle": "Million tonnes. Source: Our World in Data",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 280,
+  "height": 300,
+  "data": {
+    "values": [
+      {
+        "Time": "1960",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.459097",
+        "Detail": "Capture fisheries production (million tonnes per year)"
+      },
+      {
+        "Time": "1961",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.487021",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.51229",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.519744",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.572091",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.571453",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.678673",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.622478",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.592916",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.600325",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.65129",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.659696",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.727052",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.8964",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.909226",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.87871",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.953008",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.918022",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.9156699",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.9524578",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.9797651",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Region": "Middle East & N. Africa",
+        "Value": "0.9960271",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.0389686",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.158072249",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.197100836",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.27679502",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.438603571",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.48251706",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.66038466",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.59865732",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.65571106",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.71433755",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.74222981",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Region": "Middle East & N. Africa",
+        "Value": "1.86543435",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.05831151",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.22665572",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.00692521",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.2209555",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.1740057",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.25329643",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.39834293",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.6848221",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.54454397",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.56855072",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.5903746",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.6934116",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.6665759",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.5544208",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.58713915",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.82214711",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.7529348",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.5914994",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Region": "Middle East & N. Africa",
+        "Value": "2.983781",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Region": "Middle East & N. Africa",
+        "Value": "3.1130477",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Region": "Middle East & N. Africa",
+        "Value": "3.2598728",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Region": "Middle East & N. Africa",
+        "Value": "3.252205",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Region": "Middle East & N. Africa",
+        "Value": "3.3827065",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Region": "Sub-Saharan Africa",
+        "Value": "1.970722",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Region": "Sub-Saharan Africa",
+        "Value": "2.142654",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Region": "Sub-Saharan Africa",
+        "Value": "2.292486",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Region": "Sub-Saharan Africa",
+        "Value": "2.426934",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Region": "Sub-Saharan Africa",
+        "Value": "2.710463",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Region": "Sub-Saharan Africa",
+        "Value": "2.787102",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Region": "Sub-Saharan Africa",
+        "Value": "2.963679",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.356596",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.867437",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.84962",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.356925",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.417916",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.74966",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.897681",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.904271",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.686952",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.404765",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.378711",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.358563",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.243742",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.087674",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.179779",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.158758",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.377302",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.282354",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.33269",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.572216",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Region": "Sub-Saharan Africa",
+        "Value": "4.381125",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Region": "Sub-Saharan Africa",
+        "Value": "4.3195053",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.950231",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Region": "Sub-Saharan Africa",
+        "Value": "4.06936424",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Region": "Sub-Saharan Africa",
+        "Value": "3.7462029",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Region": "Sub-Saharan Africa",
+        "Value": "4.6112243",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Region": "Sub-Saharan Africa",
+        "Value": "4.5219434",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Region": "Sub-Saharan Africa",
+        "Value": "4.2497841",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Region": "Sub-Saharan Africa",
+        "Value": "4.4959177",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Region": "Sub-Saharan Africa",
+        "Value": "4.4683602",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Region": "Sub-Saharan Africa",
+        "Value": "4.6586169",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Region": "Sub-Saharan Africa",
+        "Value": "4.8536474",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.02720095",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.2264139",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.3187455",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.3341658",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.6610372",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.9393573",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.8993675",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.4906205",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.6473515",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.6498865",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.659771",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Region": "Sub-Saharan Africa",
+        "Value": "5.998313",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Region": "Sub-Saharan Africa",
+        "Value": "6.184137",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Region": "Sub-Saharan Africa",
+        "Value": "6.630788",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Region": "Sub-Saharan Africa",
+        "Value": "6.477022",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Region": "Sub-Saharan Africa",
+        "Value": "6.664215",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Region": "Sub-Saharan Africa",
+        "Value": "6.7846322",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Region": "Sub-Saharan Africa",
+        "Value": "7.2259862",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Region": "N. America",
+        "Value": "3.64319",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Region": "N. America",
+        "Value": "3.886384",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Region": "N. America",
+        "Value": "4.01865",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Region": "N. America",
+        "Value": "3.865394",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Region": "N. America",
+        "Value": "3.730487",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Region": "N. America",
+        "Value": "3.889901",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Region": "N. America",
+        "Value": "3.798181",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Region": "N. America",
+        "Value": "3.605306",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Region": "N. America",
+        "Value": "3.903989",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Region": "N. America",
+        "Value": "3.841139",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Region": "N. America",
+        "Value": "4.187696",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Region": "N. America",
+        "Value": "4.201366",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Region": "N. America",
+        "Value": "3.945509",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Region": "N. America",
+        "Value": "3.975344",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Region": "N. America",
+        "Value": "3.930839",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Region": "N. America",
+        "Value": "3.879625",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Region": "N. America",
+        "Value": "4.225967",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Region": "N. America",
+        "Value": "4.313222",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Region": "N. America",
+        "Value": "4.890523",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Region": "N. America",
+        "Value": "5.036716",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Region": "N. America",
+        "Value": "5.080765",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Region": "N. America",
+        "Value": "5.147488",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Region": "N. America",
+        "Value": "5.382052",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Region": "N. America",
+        "Value": "5.52494",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Region": "N. America",
+        "Value": "6.026842",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Region": "N. America",
+        "Value": "6.194528",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Region": "N. America",
+        "Value": "6.413489",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Region": "N. America",
+        "Value": "7.310146",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Region": "N. America",
+        "Value": "7.375849",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Region": "N. America",
+        "Value": "7.142072",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Region": "N. America",
+        "Value": "7.3064",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Region": "N. America",
+        "Value": "6.745395",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Region": "N. America",
+        "Value": "6.605856",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Region": "N. America",
+        "Value": "6.770821",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Region": "N. America",
+        "Value": "6.710036",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Region": "N. America",
+        "Value": "6.180001",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Region": "N. America",
+        "Value": "5.987109",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Region": "N. America",
+        "Value": "6.056609",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Region": "N. America",
+        "Value": "5.767707",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Region": "N. America",
+        "Value": "5.879068",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Region": "N. America",
+        "Value": "5.792976",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Region": "N. America",
+        "Value": "6.059034",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Region": "N. America",
+        "Value": "6.090987",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Region": "N. America",
+        "Value": "6.142832",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Region": "N. America",
+        "Value": "6.209451",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Region": "N. America",
+        "Value": "6.107292",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Region": "N. America",
+        "Value": "5.981792",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Region": "N. America",
+        "Value": "5.81558",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Region": "N. America",
+        "Value": "5.32874",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Region": "N. America",
+        "Value": "5.227395",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Region": "N. America",
+        "Value": "5.376528",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Region": "N. America",
+        "Value": "6.003745",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Region": "N. America",
+        "Value": "5.934027",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Region": "N. America",
+        "Value": "6.020764",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Region": "N. America",
+        "Value": "5.861623",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Region": "N. America",
+        "Value": "5.908542",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Region": "N. America",
+        "Value": "5.806154",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Region": "Latin America & Caribbean",
+        "Value": "4.671328",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Region": "Latin America & Caribbean",
+        "Value": "6.546459",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Region": "Latin America & Caribbean",
+        "Value": "8.547022",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Region": "Latin America & Caribbean",
+        "Value": "8.632062",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Region": "Latin America & Caribbean",
+        "Value": "11.361808",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Region": "Latin America & Caribbean",
+        "Value": "9.3733",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Region": "Latin America & Caribbean",
+        "Value": "11.49294",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Region": "Latin America & Caribbean",
+        "Value": "12.692211",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Region": "Latin America & Caribbean",
+        "Value": "13.399881",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Region": "Latin America & Caribbean",
+        "Value": "11.790837",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Region": "Latin America & Caribbean",
+        "Value": "15.458646",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Region": "Latin America & Caribbean",
+        "Value": "13.889089",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Region": "Latin America & Caribbean",
+        "Value": "7.533262",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Region": "Latin America & Caribbean",
+        "Value": "5.359853",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Region": "Latin America & Caribbean",
+        "Value": "7.527796",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Region": "Latin America & Caribbean",
+        "Value": "6.721285",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Region": "Latin America & Caribbean",
+        "Value": "8.304752",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Region": "Latin America & Caribbean",
+        "Value": "6.846548",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Region": "Latin America & Caribbean",
+        "Value": "9.012259",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Region": "Latin America & Caribbean",
+        "Value": "10.147123",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Region": "Latin America & Caribbean",
+        "Value": "9.647005",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Region": "Latin America & Caribbean",
+        "Value": "10.44272379",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Region": "Latin America & Caribbean",
+        "Value": "11.53462004",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Region": "Latin America & Caribbean",
+        "Value": "9.376708254",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Region": "Latin America & Caribbean",
+        "Value": "12.19489137",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Region": "Latin America & Caribbean",
+        "Value": "13.94948194",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Region": "Latin America & Caribbean",
+        "Value": "16.06390378",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Region": "Latin America & Caribbean",
+        "Value": "14.05303987",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Region": "Latin America & Caribbean",
+        "Value": "16.48325201",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Region": "Latin America & Caribbean",
+        "Value": "17.92715771",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Region": "Latin America & Caribbean",
+        "Value": "16.17812198",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Region": "Latin America & Caribbean",
+        "Value": "17.14408514",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Region": "Latin America & Caribbean",
+        "Value": "17.94731833",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Region": "Latin America & Caribbean",
+        "Value": "19.29066074",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Region": "Latin America & Caribbean",
+        "Value": "24.25229892",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Region": "Latin America & Caribbean",
+        "Value": "21.60729968",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Region": "Latin America & Caribbean",
+        "Value": "21.79448094",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Region": "Latin America & Caribbean",
+        "Value": "19.26518709",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Region": "Latin America & Caribbean",
+        "Value": "12.47183378",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Region": "Latin America & Caribbean",
+        "Value": "18.3261651",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Region": "Latin America & Caribbean",
+        "Value": "20.051127",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Region": "Latin America & Caribbean",
+        "Value": "17.161775",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Region": "Latin America & Caribbean",
+        "Value": "18.285841",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Region": "Latin America & Caribbean",
+        "Value": "14.862476",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Region": "Latin America & Caribbean",
+        "Value": "19.789644",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Region": "Latin America & Caribbean",
+        "Value": "19.0217921",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Region": "Latin America & Caribbean",
+        "Value": "16.697575",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Region": "Latin America & Caribbean",
+        "Value": "16.5363642",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Region": "Latin America & Caribbean",
+        "Value": "16.756516",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Region": "Latin America & Caribbean",
+        "Value": "16.03079683",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Region": "Latin America & Caribbean",
+        "Value": "12.28064744",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Region": "Latin America & Caribbean",
+        "Value": "16.669851",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Region": "Latin America & Caribbean",
+        "Value": "12.64634983",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Region": "Latin America & Caribbean",
+        "Value": "12.977648",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Region": "Latin America & Caribbean",
+        "Value": "11.13377422",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Region": "Latin America & Caribbean",
+        "Value": "11.74237129",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Region": "Latin America & Caribbean",
+        "Value": "10.493944",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Region": "Europe & Central Asia",
+        "Value": "7.822578",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Region": "Europe & Central Asia",
+        "Value": "8.227795",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Region": "Europe & Central Asia",
+        "Value": "8.341651",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Region": "Europe & Central Asia",
+        "Value": "8.7592141",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Region": "Europe & Central Asia",
+        "Value": "9.516754",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Region": "Europe & Central Asia",
+        "Value": "10.733043",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Region": "Europe & Central Asia",
+        "Value": "11.420466",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Region": "Europe & Central Asia",
+        "Value": "11.999989",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Region": "Europe & Central Asia",
+        "Value": "11.796369",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Region": "Europe & Central Asia",
+        "Value": "11.254031",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Region": "Europe & Central Asia",
+        "Value": "11.926735",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Region": "Europe & Central Asia",
+        "Value": "12.067648",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Region": "Europe & Central Asia",
+        "Value": "12.211701",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Region": "Europe & Central Asia",
+        "Value": "12.491207",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Region": "Europe & Central Asia",
+        "Value": "12.634036",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Region": "Europe & Central Asia",
+        "Value": "12.416208",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Region": "Europe & Central Asia",
+        "Value": "13.398952",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Region": "Europe & Central Asia",
+        "Value": "13.309489",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Region": "Europe & Central Asia",
+        "Value": "12.5928077",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Region": "Europe & Central Asia",
+        "Value": "12.5115457",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Region": "Europe & Central Asia",
+        "Value": "12.6898454",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Region": "Europe & Central Asia",
+        "Value": "12.7824052",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Region": "Europe & Central Asia",
+        "Value": "12.3359011",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Region": "Europe & Central Asia",
+        "Value": "12.82197917",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Region": "Europe & Central Asia",
+        "Value": "13.1924131",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Region": "Europe & Central Asia",
+        "Value": "12.9396236",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Region": "Europe & Central Asia",
+        "Value": "12.72928349",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Region": "Europe & Central Asia",
+        "Value": "12.78497",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Region": "Europe & Central Asia",
+        "Value": "23.8495666",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Region": "Europe & Central Asia",
+        "Value": "22.9849849",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Region": "Europe & Central Asia",
+        "Value": "20.7604497",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Region": "Europe & Central Asia",
+        "Value": "19.8847206",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Region": "Europe & Central Asia",
+        "Value": "19.01561908",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Region": "Europe & Central Asia",
+        "Value": "17.57989367",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Region": "Europe & Central Asia",
+        "Value": "16.96231231",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Region": "Europe & Central Asia",
+        "Value": "18.37666825",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Region": "Europe & Central Asia",
+        "Value": "18.5425873",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Region": "Europe & Central Asia",
+        "Value": "18.93155849",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Region": "Europe & Central Asia",
+        "Value": "18.10769218",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Region": "Europe & Central Asia",
+        "Value": "17.27776199",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Region": "Europe & Central Asia",
+        "Value": "17.36191634",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Region": "Europe & Central Asia",
+        "Value": "17.05418012",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Region": "Europe & Central Asia",
+        "Value": "16.53034284",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Region": "Europe & Central Asia",
+        "Value": "15.66381394",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Region": "Europe & Central Asia",
+        "Value": "15.10629282",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Region": "Europe & Central Asia",
+        "Value": "14.88540359",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Region": "Europe & Central Asia",
+        "Value": "14.5700078",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Region": "Europe & Central Asia",
+        "Value": "14.64781758",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Region": "Europe & Central Asia",
+        "Value": "14.19042729",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Region": "Europe & Central Asia",
+        "Value": "14.39985736",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Region": "Europe & Central Asia",
+        "Value": "14.9272263",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Region": "Europe & Central Asia",
+        "Value": "14.43224117",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Region": "Europe & Central Asia",
+        "Value": "14.00430217",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Region": "Europe & Central Asia",
+        "Value": "14.51632756",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Region": "Europe & Central Asia",
+        "Value": "14.7103791",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Region": "Europe & Central Asia",
+        "Value": "15.16578729",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Region": "Europe & Central Asia",
+        "Value": "14.72036652",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Region": "South Asia",
+        "Value": "1.606536",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Region": "South Asia",
+        "Value": "1.45937",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Region": "South Asia",
+        "Value": "1.535096",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Region": "South Asia",
+        "Value": "1.609385",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Region": "South Asia",
+        "Value": "1.963544",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Region": "South Asia",
+        "Value": "2.014559",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Region": "South Asia",
+        "Value": "2.083872",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Region": "South Asia",
+        "Value": "2.110898",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Region": "South Asia",
+        "Value": "2.298085",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Region": "South Asia",
+        "Value": "2.385236",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Region": "South Asia",
+        "Value": "2.562578",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Region": "South Asia",
+        "Value": "2.674932",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Region": "South Asia",
+        "Value": "2.575689",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Region": "South Asia",
+        "Value": "2.905049",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Region": "South Asia",
+        "Value": "3.142381",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Region": "South Asia",
+        "Value": "2.952068",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Region": "South Asia",
+        "Value": "2.874718",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Region": "South Asia",
+        "Value": "3.049387",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Region": "South Asia",
+        "Value": "3.058658",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Region": "South Asia",
+        "Value": "3.06963",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Region": "South Asia",
+        "Value": "3.135319",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Region": "South Asia",
+        "Value": "3.154264",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Region": "South Asia",
+        "Value": "3.077758",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Region": "South Asia",
+        "Value": "3.213259",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Region": "South Asia",
+        "Value": "3.522683",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Region": "South Asia",
+        "Value": "3.494463",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Region": "South Asia",
+        "Value": "3.626706",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Region": "South Asia",
+        "Value": "3.516018",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Region": "South Asia",
+        "Value": "3.686494",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Region": "South Asia",
+        "Value": "4.105261",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Region": "South Asia",
+        "Value": "4.25478",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Region": "South Asia",
+        "Value": "4.397973",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Region": "South Asia",
+        "Value": "4.4727981",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Region": "South Asia",
+        "Value": "4.8519099",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Region": "South Asia",
+        "Value": "5.0142227",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Region": "South Asia",
+        "Value": "5.0278639",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Region": "South Asia",
+        "Value": "5.2738643",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Region": "South Asia",
+        "Value": "5.4315328",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Region": "South Asia",
+        "Value": "5.3242779",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Region": "South Asia",
+        "Value": "5.6142907",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Region": "South Asia",
+        "Value": "5.7786326",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Region": "South Asia",
+        "Value": "5.841406",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Region": "South Asia",
+        "Value": "5.875054",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Region": "South Asia",
+        "Value": "5.8866882",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Region": "South Asia",
+        "Value": "5.6064824",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Region": "South Asia",
+        "Value": "5.918023",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Region": "South Asia",
+        "Value": "6.288704",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Region": "South Asia",
+        "Value": "6.295077",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Region": "South Asia",
+        "Value": "6.618132",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Region": "South Asia",
+        "Value": "6.841162",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Region": "South Asia",
+        "Value": "7.432364",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Region": "South Asia",
+        "Value": "6.962749",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Region": "South Asia",
+        "Value": "7.520582",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Region": "South Asia",
+        "Value": "7.340697",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Region": "South Asia",
+        "Value": "7.75037",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Region": "South Asia",
+        "Value": "7.631274",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Region": "South Asia",
+        "Value": "7.943593",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Region": "East Asia & Pacific",
+        "Value": "11.502457",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Region": "East Asia & Pacific",
+        "Value": "12.567388",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Region": "East Asia & Pacific",
+        "Value": "13.094409",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Region": "East Asia & Pacific",
+        "Value": "13.137619",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Region": "East Asia & Pacific",
+        "Value": "13.159741",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Region": "East Asia & Pacific",
+        "Value": "14.078566",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Region": "East Asia & Pacific",
+        "Value": "14.711601",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Region": "East Asia & Pacific",
+        "Value": "15.822284",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Region": "East Asia & Pacific",
+        "Value": "17.24109",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Region": "East Asia & Pacific",
+        "Value": "17.470742",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Region": "East Asia & Pacific",
+        "Value": "18.157734",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Region": "East Asia & Pacific",
+        "Value": "19.471919",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Region": "East Asia & Pacific",
+        "Value": "20.804507",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Region": "East Asia & Pacific",
+        "Value": "21.700159",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Region": "East Asia & Pacific",
+        "Value": "22.029983",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Region": "East Asia & Pacific",
+        "Value": "22.16858",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Region": "East Asia & Pacific",
+        "Value": "22.846425",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Region": "East Asia & Pacific",
+        "Value": "23.689948",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Region": "East Asia & Pacific",
+        "Value": "23.998431",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Region": "East Asia & Pacific",
+        "Value": "23.395737",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Region": "East Asia & Pacific",
+        "Value": "23.800844",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Region": "East Asia & Pacific",
+        "Value": "24.926631",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Region": "East Asia & Pacific",
+        "Value": "25.5492348",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Region": "East Asia & Pacific",
+        "Value": "26.58696099",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Region": "East Asia & Pacific",
+        "Value": "27.73284914",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Region": "East Asia & Pacific",
+        "Value": "27.7020136",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Region": "East Asia & Pacific",
+        "Value": "29.90911489",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Region": "East Asia & Pacific",
+        "Value": "30.88451431",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Region": "East Asia & Pacific",
+        "Value": "31.16562227",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Region": "East Asia & Pacific",
+        "Value": "31.39866919",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Region": "East Asia & Pacific",
+        "Value": "31.17959732",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Region": "East Asia & Pacific",
+        "Value": "30.77163296",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Region": "East Asia & Pacific",
+        "Value": "31.85249791",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Region": "East Asia & Pacific",
+        "Value": "32.67994236",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Region": "East Asia & Pacific",
+        "Value": "33.91047422",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Region": "East Asia & Pacific",
+        "Value": "35.42974715",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Region": "East Asia & Pacific",
+        "Value": "36.81650235",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Region": "East Asia & Pacific",
+        "Value": "37.64628676",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Region": "East Asia & Pacific",
+        "Value": "37.91594355",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Region": "East Asia & Pacific",
+        "Value": "38.11333807",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Region": "East Asia & Pacific",
+        "Value": "37.81675345",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Region": "East Asia & Pacific",
+        "Value": "37.51759626",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Region": "East Asia & Pacific",
+        "Value": "37.31930373",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Region": "East Asia & Pacific",
+        "Value": "38.44745032",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Region": "East Asia & Pacific",
+        "Value": "38.66943353",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Region": "East Asia & Pacific",
+        "Value": "39.04011184",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Region": "East Asia & Pacific",
+        "Value": "39.38883186",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Region": "East Asia & Pacific",
+        "Value": "39.9174424",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Region": "East Asia & Pacific",
+        "Value": "39.4301364",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Region": "East Asia & Pacific",
+        "Value": "39.1523966",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Region": "East Asia & Pacific",
+        "Value": "39.95582286",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Region": "East Asia & Pacific",
+        "Value": "40.25228086",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Region": "East Asia & Pacific",
+        "Value": "40.72370877",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Region": "East Asia & Pacific",
+        "Value": "41.30717528",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Region": "East Asia & Pacific",
+        "Value": "42.95135341",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Region": "East Asia & Pacific",
+        "Value": "43.13482269",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Region": "East Asia & Pacific",
+        "Value": "42.31130196",
+        "Detail": ""
+      }
+    ],
+    "format": {
+      "parse": {
+        "Time": "date"
+      }
+    }
+  },
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "timeUnit": "year",
+      "field": "Time",
+      "title": null,
+      "axis": {
+        "format": "%Y",
+        "grid": false
+      }
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "Value",
+      "title": null,
+      "axis": {
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "Region",
+      "title": null,
+      "scale": {
+        "scheme": "yellowgreenblue"
+      },
+      "legend": {
+        "orient": "top-left"
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "Time",
+        "type": "temporal",
+        "timeUnit": "year",
+        "title": "Year"
+      },
+      {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "Fish caught (million tonnes)"
+      },
+      {
+        "field": "Region"
+      }
+    ]
+  }
+}

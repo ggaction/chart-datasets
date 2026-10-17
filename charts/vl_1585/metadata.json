@@ -1,0 +1,124 @@
+{
+  "id": "vl_1585",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "50253812d525761c8a87e20d1bf4d8e43dd99b30f52e10ee5fed07c81604ccf6",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f655a5d9dfd546d315bc7a3332b9e213a6f9df95611f22ee3eacb0f301bfa967",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "3f0e31bb042b67cdf5da176294259aba080bcd1afc2bb982b000ec2e92903086",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "9be23cef4542de8c0df43f196119893278054025570ccd5509e6494a1236ffa5",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "71eecc58227615535603f12bb2aec592b3d8388e2147b43111e6078359e5f755",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3d252cd8cc096df56afac11ba253666185cd18965986b0724023c3da002d3343",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ea41cbf7d161d576466186b1345c2fb60c1057fa4dccaf882c7ae32668709208",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "408a3870756bdeca77371b37d5cb300cb313fcbdd87fd5ef5bdc792c6b459452",
+      "actions": 22,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight accepted stages individually reviewed against accepted parent; genuine public API ownership transitions, preserved source data and approved geometry, and current source/family render checks pass."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "dbe03fe40afb2175134fe8429fe6312c004cad48bc11e63b756176dbc25aa11b",
+      "bytes": 573
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "c6ff4d5d551e21a85cc7334da0366959b84d0a96982fe44175295595c7c20a50",
+      "bytes": 114421
+    },
+    "G1.gg.mjs": {
+      "sha256": "50253812d525761c8a87e20d1bf4d8e43dd99b30f52e10ee5fed07c81604ccf6",
+      "bytes": 2257
+    },
+    "G2.gg.mjs": {
+      "sha256": "f655a5d9dfd546d315bc7a3332b9e213a6f9df95611f22ee3eacb0f301bfa967",
+      "bytes": 2275
+    },
+    "G3.gg.mjs": {
+      "sha256": "3f0e31bb042b67cdf5da176294259aba080bcd1afc2bb982b000ec2e92903086",
+      "bytes": 2235
+    },
+    "G4.gg.mjs": {
+      "sha256": "9be23cef4542de8c0df43f196119893278054025570ccd5509e6494a1236ffa5",
+      "bytes": 2261
+    },
+    "G5.gg.mjs": {
+      "sha256": "71eecc58227615535603f12bb2aec592b3d8388e2147b43111e6078359e5f755",
+      "bytes": 2313
+    },
+    "G6.gg.mjs": {
+      "sha256": "3d252cd8cc096df56afac11ba253666185cd18965986b0724023c3da002d3343",
+      "bytes": 2319
+    },
+    "G7.gg.mjs": {
+      "sha256": "ea41cbf7d161d576466186b1345c2fb60c1057fa4dccaf882c7ae32668709208",
+      "bytes": 2429
+    },
+    "G8.gg.mjs": {
+      "sha256": "408a3870756bdeca77371b37d5cb300cb313fcbdd87fd5ef5bdc792c6b459452",
+      "bytes": 2429
+    },
+    "vega-lite.svg": {
+      "sha256": "e859e18a24986dbb35afe8defe57c25093fad14f7c7cdb0875cd5c80a944d5db",
+      "bytes": 117745
+    },
+    "ggaction.svg": {
+      "sha256": "6aa63466f530d2daff6609ed38a666b199509af0a86460c834bedaa7e3aa8aa4",
+      "bytes": 52400
+    }
+  }
+}

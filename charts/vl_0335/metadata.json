@@ -1,0 +1,122 @@
+{
+  "id": "vl_0335",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1dc3389b18d0349d8748ff4ef051465434355bcc45b1c0ae40c03583120b1278",
+      "actions": 4,
+      "topOptions": 9
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "fe226d30de0258ea1d17d879331d5e6ae85419a528ca8acacb11f3bfc5ebe211",
+      "actions": 6,
+      "topOptions": 13
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b39061dcfafb53f64cae710b2e1afb691e9499683e26b4900eb1d58b6679cad8",
+      "actions": 7,
+      "topOptions": 15
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7b6919d4b41340398f91ed9c8a7ea3ff03da629575e9c0a5d96b412631281fb9",
+      "actions": 8,
+      "topOptions": 17
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "2ddcaabae2b036ab14ee4ba783b500dd3d09d7d08ec56d797eb9e4ac213c1cff",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "4f8a1ff89068cca969991efdaf532ac96768a41de1c19ab12d5fb5cf018c109a",
+      "actions": 11,
+      "topOptions": 27
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "8717e6439b60866220a77d883957568a8ccd96478b43cf1db4d6c3ffa2d32e1f",
+      "actions": 15,
+      "topOptions": 29
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "8ea29ad9476024a31c90e0c33b06c9f80f4301bc55ffbcf3eba4b7392caadc6b",
+      "actions": 17,
+      "topOptions": 29
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "상위 막대 선언 → scale → 가이드 → 축 전체 → 축 편집 → 축 구성 요소 → tick/label 개별 편집으로 8단계를 보존했다. 모든 단계의 SVG·PNG·그래픽 구조와 원본 크기가 같다."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "f23d45deb1ddba4f8f59147a3795fecc7802d3b3d9fef98c58ded2f9d5189f42",
+      "bytes": 739
+    },
+    "data.json": {
+      "sha256": "5e3e046645e998ba14f1b879cb493375a0869f2b9b3959b2990f0a013231e5fa",
+      "bytes": 275
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f23d45deb1ddba4f8f59147a3795fecc7802d3b3d9fef98c58ded2f9d5189f42",
+      "bytes": 739
+    },
+    "G1.gg.mjs": {
+      "sha256": "1dc3389b18d0349d8748ff4ef051465434355bcc45b1c0ae40c03583120b1278",
+      "bytes": 2249
+    },
+    "G2.gg.mjs": {
+      "sha256": "fe226d30de0258ea1d17d879331d5e6ae85419a528ca8acacb11f3bfc5ebe211",
+      "bytes": 2191
+    },
+    "G3.gg.mjs": {
+      "sha256": "b39061dcfafb53f64cae710b2e1afb691e9499683e26b4900eb1d58b6679cad8",
+      "bytes": 2214
+    },
+    "G4.gg.mjs": {
+      "sha256": "7b6919d4b41340398f91ed9c8a7ea3ff03da629575e9c0a5d96b412631281fb9",
+      "bytes": 2093
+    },
+    "G5.gg.mjs": {
+      "sha256": "2ddcaabae2b036ab14ee4ba783b500dd3d09d7d08ec56d797eb9e4ac213c1cff",
+      "bytes": 2033
+    },
+    "G6.gg.mjs": {
+      "sha256": "4f8a1ff89068cca969991efdaf532ac96768a41de1c19ab12d5fb5cf018c109a",
+      "bytes": 2271
+    },
+    "G7.gg.mjs": {
+      "sha256": "8717e6439b60866220a77d883957568a8ccd96478b43cf1db4d6c3ffa2d32e1f",
+      "bytes": 2255
+    },
+    "G8.gg.mjs": {
+      "sha256": "8ea29ad9476024a31c90e0c33b06c9f80f4301bc55ffbcf3eba4b7392caadc6b",
+      "bytes": 2209
+    },
+    "vega-lite.svg": {
+      "sha256": "53284f624742770b49aff09ad8c62df18ea3f83d395751b9e62c3d2e14648107",
+      "bytes": 6002
+    },
+    "ggaction.svg": {
+      "sha256": "54de27205fbe847334cf6a3c39eb2cf9321c63b6f5ef6cc5270c02fac0f9b530",
+      "bytes": 4004
+    }
+  }
+}

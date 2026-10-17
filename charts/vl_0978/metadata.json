@@ -1,0 +1,124 @@
+{
+  "id": "vl_0978",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "e459d05ebb033b72f2cd92b24a87b01d601518d7f3c7406ce821c14cf2002e35",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "984d7fbbc3eef977466b798bd38c73abd640bb5d4e4766ef7852593dd277313e",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "512136f218786f9f4b7ab3b0f8f1f8b8e80ba49cab20748f3b234d8c9046baf7",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a8b0953c755f702f86c76e30484a816da2229ee138154c567eca1ef93dfb674e",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "309b75a39cf48bbdc11f131cdad5a548ce02303f17c8f74b1870fa3ae22f9397",
+      "actions": 18,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "2fbb4c185cf6d3740856d15aec15b51f08702a367d2644e552bbf69b1f441eae",
+      "actions": 18,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ab6c3a3a98c5ae184a9fd54c5f3ebb92b60c8dcb7d19676e48aa594a0269411d",
+      "actions": 19,
+      "topOptions": 38
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "7530b6fcfaa0d7770103e40f898bf829a0808649e41fa435a0f2c046e547f560",
+      "actions": 20,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/harrywright25/harrywright25.github.io/main/share-renewable-w9.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full frozen renewable source and final code reread: all6153raw rows and numeric renewables/native year positions retained, source300x300plot/pointsize/implicitopacity0.7/font10/11/13/title/subtitle/grid/tick suppression exact. Narrow current source-bound four-stop D65-vs-D50 color approximation retains measured max6channel disclosure and full6153point geometry/proof. All eight stages current02661PASS; final level moves actual legend title weight, source font sizes at birth. Remaining chart-title weight honestly retained at cap; no extra stop request."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "d16cbdf70faacaf25b34eb088a18f1a6feedf789762fa04711730c5633674e6a",
+      "bytes": 1509
+    },
+    "data.json": {
+      "sha256": "47d70e299baeefdd61f0ee2c1e0ca507929d07a2105359163edf98a45941cbc2",
+      "bytes": 868244
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f7e18ac54d7c60bca09eb0f7e158a5bd5b3a5689a8b2ac65a9b9dc1dbc91e426",
+      "bytes": 1017402
+    },
+    "G1.gg.mjs": {
+      "sha256": "e459d05ebb033b72f2cd92b24a87b01d601518d7f3c7406ce821c14cf2002e35",
+      "bytes": 2386
+    },
+    "G2.gg.mjs": {
+      "sha256": "984d7fbbc3eef977466b798bd38c73abd640bb5d4e4766ef7852593dd277313e",
+      "bytes": 2374
+    },
+    "G3.gg.mjs": {
+      "sha256": "512136f218786f9f4b7ab3b0f8f1f8b8e80ba49cab20748f3b234d8c9046baf7",
+      "bytes": 2387
+    },
+    "G4.gg.mjs": {
+      "sha256": "a8b0953c755f702f86c76e30484a816da2229ee138154c567eca1ef93dfb674e",
+      "bytes": 2363
+    },
+    "G5.gg.mjs": {
+      "sha256": "309b75a39cf48bbdc11f131cdad5a548ce02303f17c8f74b1870fa3ae22f9397",
+      "bytes": 2444
+    },
+    "G6.gg.mjs": {
+      "sha256": "2fbb4c185cf6d3740856d15aec15b51f08702a367d2644e552bbf69b1f441eae",
+      "bytes": 2412
+    },
+    "G7.gg.mjs": {
+      "sha256": "ab6c3a3a98c5ae184a9fd54c5f3ebb92b60c8dcb7d19676e48aa594a0269411d",
+      "bytes": 2356
+    },
+    "G8.gg.mjs": {
+      "sha256": "7530b6fcfaa0d7770103e40f898bf829a0808649e41fa435a0f2c046e547f560",
+      "bytes": 2381
+    },
+    "vega-lite.svg": {
+      "sha256": "13d389a7a0c748ae5c4c3e75d2b9fd98fa0e68b553f24307d5c8c5982f147787",
+      "bytes": 2585117
+    },
+    "ggaction.svg": {
+      "sha256": "9451c29ee2e0a82b28cd34e4dd5922fad09a69d65c3517e0a3eecb8fba89288f",
+      "bytes": 594574
+    }
+  }
+}

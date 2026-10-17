@@ -1,0 +1,124 @@
+{
+  "id": "vl_1712",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "a1644f90cd4b19b908d38d82de20611ad9e95cb0e19c78c6115cd7bdc2dfe65a",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "06c4359d70a0715d5c5b70e1e20d63313f97b51134888b22eedeed9296b725b8",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "54f72ef99f02b144d4610d8e38f79a47fc5e19401eb5f183b44360c080ed9761",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "16abb678fd49b3df449c756e1eb5147548f48e06c07fafac9638ee2afa89c651",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "3433ad5502fec0cbf6a573424b45b3a610f42c68ebc2ac245ad18f8d0ff5c62a",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ebb1dcb56899bb79574a98089a0883eaaa0d3bb6e58bdf206632234ca7ffa1bc",
+      "actions": 16,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "5038905881b7e4a6f92e8131d0cf7e31392c8b97b649137e2fe4e9936e90876c",
+      "actions": 21,
+      "topOptions": 41
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "8424c4b05c33e4663e3b54b0fc56846886cca07705cd16aee37002c8505ad900",
+      "actions": 22,
+      "topOptions": 41
+    }
+  ],
+  "sourceUrls": [
+    "https://gicentre.github.io/data/westMidlands/westMidsCrimesAggregated.tsv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful public stages. Full source and immutable cumulative modules reviewed, final point-opacity channel ownership transfer and exact SVG/PNG/graphics family identity PASS; source plot, data, fonts and visibility retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "62e3b89af1cab29dd0f07db4c3b3f4419d639630154e8b0af15b783462711909",
+      "bytes": 465
+    },
+    "data.json": {
+      "sha256": "9cfb28bdf6257d937d4254562935a39a13497ab9183bfb26a9e2e56213ff02f8",
+      "bytes": 39849
+    },
+    "resolved-source.vl.json": {
+      "sha256": "5c4bb38baf134530503b89410c641a7f0aefcb10840d0ecc8d7b9793639c5109",
+      "bytes": 48638
+    },
+    "G1.gg.mjs": {
+      "sha256": "a1644f90cd4b19b908d38d82de20611ad9e95cb0e19c78c6115cd7bdc2dfe65a",
+      "bytes": 2892
+    },
+    "G2.gg.mjs": {
+      "sha256": "06c4359d70a0715d5c5b70e1e20d63313f97b51134888b22eedeed9296b725b8",
+      "bytes": 2896
+    },
+    "G3.gg.mjs": {
+      "sha256": "54f72ef99f02b144d4610d8e38f79a47fc5e19401eb5f183b44360c080ed9761",
+      "bytes": 2812
+    },
+    "G4.gg.mjs": {
+      "sha256": "16abb678fd49b3df449c756e1eb5147548f48e06c07fafac9638ee2afa89c651",
+      "bytes": 2864
+    },
+    "G5.gg.mjs": {
+      "sha256": "3433ad5502fec0cbf6a573424b45b3a610f42c68ebc2ac245ad18f8d0ff5c62a",
+      "bytes": 2854
+    },
+    "G6.gg.mjs": {
+      "sha256": "ebb1dcb56899bb79574a98089a0883eaaa0d3bb6e58bdf206632234ca7ffa1bc",
+      "bytes": 3098
+    },
+    "G7.gg.mjs": {
+      "sha256": "5038905881b7e4a6f92e8131d0cf7e31392c8b97b649137e2fe4e9936e90876c",
+      "bytes": 2985
+    },
+    "G8.gg.mjs": {
+      "sha256": "8424c4b05c33e4663e3b54b0fc56846886cca07705cd16aee37002c8505ad900",
+      "bytes": 3006
+    },
+    "vega-lite.svg": {
+      "sha256": "1754a11f06d2577c58c5f8bd05705a85f4126f209ae6cd5e0529fae1fef1c349",
+      "bytes": 132358
+    },
+    "ggaction.svg": {
+      "sha256": "eebfd7788f47398f30ef2a78a9a9593bf0213b83d2d5eb15a167a5e3886363c9",
+      "bytes": 68520
+    }
+  }
+}

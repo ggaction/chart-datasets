@@ -1,0 +1,70 @@
+// DOCS: doc-6c2c08869091f6a0 doc-fc11e9fb291905d1
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({ width: 1524, height: 337, margin: { left: 44, top: 10, right: 60, bottom: 127 } })
+    .createData({ values: data })
+    .createComputedData({
+      id: "numeric0",
+      as: "purchase count numeric",
+      expression: { op: "toNumber", operand: { field: "purchase count" } }
+    })
+    .createSummaryData({
+      id: "summary",
+      groupBy: ["page type", "gender"],
+      aggregates: [{ op: "sum", field: "purchase count numeric", as: "sum_purchase count" }]
+    })
+    .createSortedData({ id: "stackOrder", sortBy: [{ field: "gender", order: "descending" }] })
+    .createStackData({
+      category: "page type",
+      group: "gender",
+      value: "sum_purchase count"
+    })
+    .createBarPlot({
+      x: "page type",
+      y: { lower: "sum_purchase count_start", upper: "sum_purchase count_end" },
+      guides: false
+    })
+    .encodeColor({ field: "gender", layout: "overlay" })
+    .editXScale({
+      domain: ["", "account", "activities", "assignments", "bags", "blackcomb-gloves", "blog", "bottoms", "bras_tanks", "calendar", "cart", "catalog", "catalog-page-template", "category", "checkout", "community", "compose", "contact-luma", "content-page", "customer-service", "files", "fitness_equipment", "forgotpassword", "forgotuserid", "forum", "gear", "groups", "hero-page", "hiking", "home", "hoodies", "hoodies_sweatshirts", "ideas", "jackets", "luma", "members", "men", "mens", "messaging", "my-page", "notifications", "order", "order confirmation", "order-history", "pants", "preferences", "privacy-policy", "product", "product section", "product-page", "profile", "questions", "removable-thumb-slee", "running", "section-page-template", "sent", "shorts", "sign up", "signin", "signup", "social", "structure", "tanks", "tees", "thank-you", "tops", "trending", "watches", "woman", "women", "wrt-learning-ski-1"],
+      paddingInner: 0.1,
+      paddingOuter: 0.05
+    })
+    .editYScale({ domain: [0, 700], nice: false })
+    .editColorScale({ domain: ["F", "M"], palette: "tableau10" })
+    .encodeBarWidth({ pixels: 18 })
+    .editBarMark({ stroke: false })
+    .createXAxis({
+      line: { color: "#888" },
+      ticksAndLabels: {
+        ticks: { length: 5, color: "#888" },
+        labels: { fontSize: 10, offset: 7, color: "black", rotation: { value: -90, unit: "degrees" } }
+      },
+      title: { text: "page type", fontSize: 11, fontWeight: 700, color: "black" }
+    })
+    .createYAxis({
+      line: { color: "#888" },
+      ticksAndLabels: {
+        ticks: { length: 5, color: "#888" },
+        values: [0, 100, 200, 300, 400, 500, 600, 700],
+        labels: { fontSize: 10, offset: 7, color: "black" }
+      },
+      title: { text: "Sum of purchase count", fontSize: 11, fontWeight: 700, color: "black", rotation: { value: -90, unit: "degrees" } }
+    })
+    .createHorizontalGrid({ values: [0, 100, 200, 300, 400, 500, 600, 700], color: "#ddd" })
+    .createGuides({
+      axes: false,
+      grid: false,
+      legend: {
+        target: "barPlot",
+        position: "right",
+        title: "gender",
+        titleStyle: { fontSize: 11, fontWeight: 700, color: "black" },
+        labels: { fontSize: 10, color: "black" },
+        symbol: { layers: [{ type: "swatch", width: 10, height: 10 }] }
+      }
+    });
+}

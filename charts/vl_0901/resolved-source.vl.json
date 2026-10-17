@@ -1,0 +1,482 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A scatterplot showing body mass and flipper lengths of penguins.",
+  "data": {
+    "values": [
+      {
+        "": "1",
+        "Country": "Algeria",
+        "eng_mean": "3.4842573297059047",
+        "gdp_mean": "2.612195134299101",
+        "Cluster": "2"
+      },
+      {
+        "": "2",
+        "Country": "Argentina",
+        "eng_mean": "1.7898344194107163",
+        "gdp_mean": "1.8400373119615945",
+        "Cluster": "0"
+      },
+      {
+        "": "3",
+        "Country": "Australia",
+        "eng_mean": "1.5768592173833145",
+        "gdp_mean": "3.0191017445474007",
+        "Cluster": "0"
+      },
+      {
+        "": "4",
+        "Country": "Austria",
+        "eng_mean": "0.6563757102394941",
+        "gdp_mean": "1.8492145910800848",
+        "Cluster": "0"
+      },
+      {
+        "": "5",
+        "Country": "Bangladesh",
+        "eng_mean": "6.593875345790831",
+        "gdp_mean": "5.212469674223022",
+        "Cluster": "1"
+      },
+      {
+        "": "6",
+        "Country": "Belgium",
+        "eng_mean": "0.801577744948113",
+        "gdp_mean": "1.805304822660336",
+        "Cluster": "0"
+      },
+      {
+        "": "7",
+        "Country": "Brazil",
+        "eng_mean": "2.8670678306528528",
+        "gdp_mean": "2.138601832298213",
+        "Cluster": "2"
+      },
+      {
+        "": "8",
+        "Country": "Bulgaria",
+        "eng_mean": "-0.8601307947319348",
+        "gdp_mean": "1.7870302268403415",
+        "Cluster": "0"
+      },
+      {
+        "": "9",
+        "Country": "Chile",
+        "eng_mean": "3.7303247265312662",
+        "gdp_mean": "4.1505029887440745",
+        "Cluster": "2"
+      },
+      {
+        "": "10",
+        "Country": "China",
+        "eng_mean": "5.592132753720657",
+        "gdp_mean": "9.271803610841822",
+        "Cluster": "1"
+      },
+      {
+        "": "11",
+        "Country": "Colombia",
+        "eng_mean": "2.671664370200024",
+        "gdp_mean": "3.3743202260801604",
+        "Cluster": "2"
+      },
+      {
+        "": "12",
+        "Country": "Cyprus",
+        "eng_mean": "2.8411191470011325",
+        "gdp_mean": "3.909144867934218",
+        "Cluster": "2"
+      },
+      {
+        "": "13",
+        "Country": "Denmark",
+        "eng_mean": "-0.3219419617335612",
+        "gdp_mean": "1.8213319447235208",
+        "Cluster": "0"
+      },
+      {
+        "": "14",
+        "Country": "Ecuador",
+        "eng_mean": "4.433475993435717",
+        "gdp_mean": "2.668700239370989",
+        "Cluster": "2"
+      },
+      {
+        "": "15",
+        "Country": "Egypt",
+        "eng_mean": "4.054757843259427",
+        "gdp_mean": "4.791716294588673",
+        "Cluster": "2"
+      },
+      {
+        "": "16",
+        "Country": "Finland",
+        "eng_mean": "0.5544085160355768",
+        "gdp_mean": "2.0355838956823877",
+        "Cluster": "0"
+      },
+      {
+        "": "17",
+        "Country": "France",
+        "eng_mean": "0.3491122438239821",
+        "gdp_mean": "1.7060361003426967",
+        "Cluster": "0"
+      },
+      {
+        "": "18",
+        "Country": "Germany",
+        "eng_mean": "-0.4243557456466296",
+        "gdp_mean": "1.61215129157795",
+        "Cluster": "0"
+      },
+      {
+        "": "19",
+        "Country": "Greece",
+        "eng_mean": "1.072968594622746",
+        "gdp_mean": "0.8310258172535752",
+        "Cluster": "0"
+      },
+      {
+        "": "20",
+        "Country": "India",
+        "eng_mean": "5.269272808899367",
+        "gdp_mean": "5.829551237727484",
+        "Cluster": "1"
+      },
+      {
+        "": "21",
+        "Country": "Indonesia",
+        "eng_mean": "5.13543528867091",
+        "gdp_mean": "4.824123457420838",
+        "Cluster": "1"
+      },
+      {
+        "": "22",
+        "Country": "Iran",
+        "eng_mean": "5.420745241353567",
+        "gdp_mean": "2.984112432155809",
+        "Cluster": "2"
+      },
+      {
+        "": "23",
+        "Country": "Iraq",
+        "eng_mean": "5.793146594166851",
+        "gdp_mean": "6.043148614097685",
+        "Cluster": "1"
+      },
+      {
+        "": "24",
+        "Country": "Ireland",
+        "eng_mean": "1.4170691789696872",
+        "gdp_mean": "5.265091652450203",
+        "Cluster": "2"
+      },
+      {
+        "": "25",
+        "Country": "Italy",
+        "eng_mean": "0.1064321609894485",
+        "gdp_mean": "1.0490173748348377",
+        "Cluster": "0"
+      },
+      {
+        "": "26",
+        "Country": "Japan",
+        "eng_mean": "0.4094056768904016",
+        "gdp_mean": "1.6887942041626178",
+        "Cluster": "0"
+      },
+      {
+        "": "27",
+        "Country": "Luxembourg",
+        "eng_mean": "0.3992388869366498",
+        "gdp_mean": "3.742846110173806",
+        "Cluster": "0"
+      },
+      {
+        "": "28",
+        "Country": "Malaysia",
+        "eng_mean": "5.726179651554164",
+        "gdp_mean": "5.432118414558098",
+        "Cluster": "1"
+      },
+      {
+        "": "29",
+        "Country": "Mexico",
+        "eng_mean": "1.882854173716805",
+        "gdp_mean": "2.1321817257975004",
+        "Cluster": "0"
+      },
+      {
+        "": "30",
+        "Country": "Morocco",
+        "eng_mean": "3.760509092974506",
+        "gdp_mean": "4.311038746859846",
+        "Cluster": "2"
+      },
+      {
+        "": "31",
+        "Country": "Netherlands",
+        "eng_mean": "0.2929259802545604",
+        "gdp_mean": "2.03991976364493",
+        "Cluster": "0"
+      },
+      {
+        "": "32",
+        "Country": "New Zealand",
+        "eng_mean": "1.4443364625644566",
+        "gdp_mean": "2.5978841006597",
+        "Cluster": "0"
+      },
+      {
+        "": "33",
+        "Country": "Norway",
+        "eng_mean": "1.1743307435469588",
+        "gdp_mean": "2.3351990942129626",
+        "Cluster": "0"
+      },
+      {
+        "": "34",
+        "Country": "Oman",
+        "eng_mean": "8.753751031253225",
+        "gdp_mean": "4.854269119400929",
+        "Cluster": "1"
+      },
+      {
+        "": "35",
+        "Country": "Pakistan",
+        "eng_mean": "4.90548946038052",
+        "gdp_mean": "4.612309388330335",
+        "Cluster": "1"
+      },
+      {
+        "": "36",
+        "Country": "Peru",
+        "eng_mean": "2.9662028335829778",
+        "gdp_mean": "3.1179790836445944",
+        "Cluster": "2"
+      },
+      {
+        "": "37",
+        "Country": "Philippines",
+        "eng_mean": "3.390528577134127",
+        "gdp_mean": "3.6496085921613246",
+        "Cluster": "2"
+      },
+      {
+        "": "38",
+        "Country": "Portugal",
+        "eng_mean": "1.8856436070588083",
+        "gdp_mean": "1.7945681940214786",
+        "Cluster": "0"
+      },
+      {
+        "": "39",
+        "Country": "Saudi Arabia",
+        "eng_mean": "5.033356329134762",
+        "gdp_mean": "1.9302854749213487",
+        "Cluster": "2"
+      },
+      {
+        "": "40",
+        "Country": "Singapore",
+        "eng_mean": "5.5487297809461325",
+        "gdp_mean": "6.036983320023615",
+        "Cluster": "1"
+      },
+      {
+        "": "41",
+        "Country": "South Africa",
+        "eng_mean": "1.9727658806146824",
+        "gdp_mean": "1.9911051305038392",
+        "Cluster": "0"
+      },
+      {
+        "": "42",
+        "Country": "South Korea",
+        "eng_mean": "5.221947562462314",
+        "gdp_mean": "6.082938044173327",
+        "Cluster": "1"
+      },
+      {
+        "": "43",
+        "Country": "Spain",
+        "eng_mean": "1.4403321472969015",
+        "gdp_mean": "2.037055460686324",
+        "Cluster": "0"
+      },
+      {
+        "": "44",
+        "Country": "Sri Lanka",
+        "eng_mean": "3.916333778073553",
+        "gdp_mean": "4.673738126983465",
+        "Cluster": "2"
+      },
+      {
+        "": "45",
+        "Country": "Sweden",
+        "eng_mean": "0.0746073518048754",
+        "gdp_mean": "2.15402921520096",
+        "Cluster": "0"
+      },
+      {
+        "": "46",
+        "Country": "Switzerland",
+        "eng_mean": "0.0117794559621394",
+        "gdp_mean": "1.7296034396670856",
+        "Cluster": "0"
+      },
+      {
+        "": "47",
+        "Country": "Thailand",
+        "eng_mean": "5.863459603450725",
+        "gdp_mean": "4.748049614403914",
+        "Cluster": "1"
+      },
+      {
+        "": "48",
+        "Country": "Trinidad & Tobago",
+        "eng_mean": "3.3636432551208943",
+        "gdp_mean": "2.13479559561781",
+        "Cluster": "2"
+      },
+      {
+        "": "49",
+        "Country": "Turkey",
+        "eng_mean": "4.720874166975554",
+        "gdp_mean": "4.766054064475634",
+        "Cluster": "1"
+      },
+      {
+        "": "50",
+        "Country": "US",
+        "eng_mean": "0.5693149754176937",
+        "gdp_mean": "2.649624615984004",
+        "Cluster": "0"
+      },
+      {
+        "": "51",
+        "Country": "United Arab Emirates",
+        "eng_mean": "6.413563161100631",
+        "gdp_mean": "3.224211102005269",
+        "Cluster": "1"
+      },
+      {
+        "": "52",
+        "Country": "United Kingdom",
+        "eng_mean": "-0.3940085532441511",
+        "gdp_mean": "2.0251415733129297",
+        "Cluster": "0"
+      }
+    ]
+  },
+  "title": {
+    "text": "China and Everyone Else: 40 Years of Energy and GDP Growth",
+    "subtitle": "Source World Bank & BP",
+    "subtitleFontSize": 10,
+    "anchor": "start"
+  },
+  "height": 340,
+  "width": 440,
+  "background": "#fff0d8",
+  "transform": [
+    {
+      "calculate": "{'1': 'High gorwth','2': 'Moderate less effecient growth', '0': 'Low growth', '3': 'China', '4': 'Moderate growth',}[datum.Cluster]",
+      "as": "Growth Group"
+    }
+  ],
+  "layer": [
+    {
+      "mark": "point",
+      "encoding": {
+        "x": {
+          "field": "eng_mean",
+          "type": "quantitative",
+          "title": "Mean Rate of % Change in Energy Consumption",
+          "scale": {
+            "zero": false
+          }
+        },
+        "y": {
+          "field": "gdp_mean",
+          "type": "quantitative",
+          "title": "Mean Rate of % Change in GDP Growth",
+          "scale": {
+            "zero": false
+          }
+        },
+        "color": {
+          "field": "Growth Group",
+          "type": "nominal",
+          "scale": {
+            "range": [
+              "red",
+              "black",
+              "purple",
+              "orange",
+              "darkblue"
+            ]
+          },
+          "legend": {
+            "orient": "bottom-left",
+            "direction": "horizontal",
+            "offset": -49
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "type": "nominal"
+          },
+          {
+            "field": "eng_mean",
+            "type": "nominal",
+            "title": "Mean rate of change in energy consumption",
+            "format": ".2f"
+          },
+          {
+            "field": "gdp_mean",
+            "type": "nominal",
+            "title": "Mean rate of change in GDP Growth",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.Country == 'China'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "yOffset": -8,
+        "xOffset": -10,
+        "fontSize": 10,
+        "color": "darkred",
+        "fontStyle": "bold"
+      },
+      "encoding": {
+        "x": {
+          "field": "eng_mean",
+          "type": "quantitative",
+          "title": "Mean Rate of % Change in Energy Consumption",
+          "scale": {
+            "zero": false
+          }
+        },
+        "y": {
+          "field": "gdp_mean",
+          "type": "quantitative",
+          "title": "Mean Rate of % Change in GDP Growth",
+          "scale": {
+            "zero": false
+          }
+        },
+        "text": {
+          "field": "Country"
+        }
+      }
+    }
+  ]
+}

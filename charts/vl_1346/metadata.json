@@ -1,0 +1,89 @@
+{
+  "id": "vl_1346",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "dea807ab0f14c48b0ec314bb02f96697beeb5166241dc9751736702a19d772b0",
+      "actions": 13,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9086f348837eabcd8cd41888095a904fc3b5a479258fbeab43b9851491da4b8f",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "86e18cc116e1a73f8a3d2f7289231df8090246697d933f117ddb6a859aec29cb",
+      "actions": 16,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "33bb3d01ec1988599e88242ed861190fe5300d0ca6c08cf33eb86c63ca2b1140",
+      "actions": 17,
+      "topOptions": 34
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "fdd06831437076ce22191603cf49367f2e706ec69a9c314615551982f35f2f37",
+      "actions": 18,
+      "topOptions": 34
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Five meaningful stages; hash-bound Codex review documents labelMap construction dependency and all remaining protected/focused boundaries, with no fabricated model stop."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "6a9a3f11760b660eddc5fe1452bbce6aaa2908c49ddb237a7c0536d731f10aa9",
+      "bytes": 33391
+    },
+    "data.json": {
+      "sha256": "69ab5919fda89a93707a6724f9de606a07a4bf496ae5f9b9c37387a167a75f3c",
+      "bytes": 28985
+    },
+    "resolved-source.vl.json": {
+      "sha256": "6a9a3f11760b660eddc5fe1452bbce6aaa2908c49ddb237a7c0536d731f10aa9",
+      "bytes": 33391
+    },
+    "G1.gg.mjs": {
+      "sha256": "dea807ab0f14c48b0ec314bb02f96697beeb5166241dc9751736702a19d772b0",
+      "bytes": 3921
+    },
+    "G2.gg.mjs": {
+      "sha256": "9086f348837eabcd8cd41888095a904fc3b5a479258fbeab43b9851491da4b8f",
+      "bytes": 3833
+    },
+    "G3.gg.mjs": {
+      "sha256": "86e18cc116e1a73f8a3d2f7289231df8090246697d933f117ddb6a859aec29cb",
+      "bytes": 3881
+    },
+    "G4.gg.mjs": {
+      "sha256": "33bb3d01ec1988599e88242ed861190fe5300d0ca6c08cf33eb86c63ca2b1140",
+      "bytes": 3957
+    },
+    "G5.gg.mjs": {
+      "sha256": "fdd06831437076ce22191603cf49367f2e706ec69a9c314615551982f35f2f37",
+      "bytes": 3939
+    },
+    "vega-lite.svg": {
+      "sha256": "909d3a1cb34a13ca57a8baa7d416954b4f5cb8ce60fada1aa83e6f80171cd09f",
+      "bytes": 39057
+    },
+    "ggaction.svg": {
+      "sha256": "918d657379b08c713095578956d6c8f6255323a0aa439163d6cac5bc9a6be82d",
+      "bytes": 20229
+    }
+  }
+}

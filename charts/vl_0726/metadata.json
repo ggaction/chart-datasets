@@ -1,0 +1,124 @@
+{
+  "id": "vl_0726",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b7620833927180a0c72b5dd91b5afbdd0456f91e7d4ee22dd6fd7c68f64cb43b",
+      "actions": 9,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "694ac8d7bbf29624e70bfe07c8c9e6bf52d91dd76eec24a4419aa89c92703393",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "c80e9203583d48a130841b43a889082cf8a7d4d1fdf81734f822f78ef2f7e757",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "5e699a107fe3ebf56a9cf93f4f214873aad860c807e8f7659f2eda7010ae3608",
+      "actions": 12,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c0ca240f048e44b3cb9700cc558e364a8de3fe51fe78ee9489ec2507065c4f47",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "37b249d307c0df206537c00329fa177bfab67a8d16e047bfd5384ea69935bd79",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d6dbe2364ac8e57edb3f52d0dea1d4f42bb5be1456335498641b307fcc7d309b",
+      "actions": 15,
+      "topOptions": 37
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "9d7d0d61e0a22ee59907bb4d2d7af687970af7976b179dbc5265e1c1c65b5126",
+      "actions": 16,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/data_ONS-mgsz.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight accepted stage modules individually reviewed against source and accepted parents including grouped mark-channel refinement. Exact source/family SVG/PNG current-runtime gates pass, source fonts/data/fixed canvas retained and no padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "27b7c11d3313a1bbf4fa61bbcfcee85bf9ba757126f079ddb1d9f7bc8aee1eaf",
+      "bytes": 897
+    },
+    "data.json": {
+      "sha256": "5cde65928ac3f44a485af73377533fddc6e796cb08dfd949c782b2d2b1948c8c",
+      "bytes": 10157
+    },
+    "resolved-source.vl.json": {
+      "sha256": "6fd9c10c3d1d282427016cb4fa674ecf5b0247073eb1870618a4c3f04057d09c",
+      "bytes": 13012
+    },
+    "G1.gg.mjs": {
+      "sha256": "b7620833927180a0c72b5dd91b5afbdd0456f91e7d4ee22dd6fd7c68f64cb43b",
+      "bytes": 2007
+    },
+    "G2.gg.mjs": {
+      "sha256": "694ac8d7bbf29624e70bfe07c8c9e6bf52d91dd76eec24a4419aa89c92703393",
+      "bytes": 2008
+    },
+    "G3.gg.mjs": {
+      "sha256": "c80e9203583d48a130841b43a889082cf8a7d4d1fdf81734f822f78ef2f7e757",
+      "bytes": 1964
+    },
+    "G4.gg.mjs": {
+      "sha256": "5e699a107fe3ebf56a9cf93f4f214873aad860c807e8f7659f2eda7010ae3608",
+      "bytes": 1996
+    },
+    "G5.gg.mjs": {
+      "sha256": "c0ca240f048e44b3cb9700cc558e364a8de3fe51fe78ee9489ec2507065c4f47",
+      "bytes": 2135
+    },
+    "G6.gg.mjs": {
+      "sha256": "37b249d307c0df206537c00329fa177bfab67a8d16e047bfd5384ea69935bd79",
+      "bytes": 2152
+    },
+    "G7.gg.mjs": {
+      "sha256": "d6dbe2364ac8e57edb3f52d0dea1d4f42bb5be1456335498641b307fcc7d309b",
+      "bytes": 2124
+    },
+    "G8.gg.mjs": {
+      "sha256": "9d7d0d61e0a22ee59907bb4d2d7af687970af7976b179dbc5265e1c1c65b5126",
+      "bytes": 2142
+    },
+    "vega-lite.svg": {
+      "sha256": "e7f620e546b46313c72d7d8d5d2f3fece5829b6fe13ac14f4ee130ef2ee9617b",
+      "bytes": 6848
+    },
+    "ggaction.svg": {
+      "sha256": "b999bc853c817a260bc19e204b56859dcf4f632e44a41816617e333f9699dbfd",
+      "bytes": 5468
+    }
+  }
+}

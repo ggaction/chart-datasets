@@ -1,0 +1,124 @@
+{
+  "id": "vl_1387",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "77d5e7214e97220e5a1327fd68b6c2752c4553e8ecddb04ea0eb1c1802272809",
+      "actions": 7,
+      "topOptions": 17
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "bfca1bf0d5677c18ab4184000d6d03070d2fc8a8857b582641573b0f36c037d4",
+      "actions": 9,
+      "topOptions": 20
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "1367864b43d9282cb6e4f3966d9d1b9a1d2355d249897096b65818cd9068f2fd",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "efd010676e99d9041635c72d5e26c945d9d5987e6761ee3994fbfde442fd7cfd",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "924a031a439a617764b279166eb5cebb5a84f1f4f15798e886dd49c669d28dfe",
+      "actions": 13,
+      "topOptions": 28
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "c54e884e2fe682c7190ef5d41616001d3248efbf53c6de9a3dccb435b21300c3",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d25aeea89209ab2d4712742e2f6ace64effc766e73ecdd11ddef12ae43dcec62",
+      "actions": 17,
+      "topOptions": 32
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "c24267d541fe4713697f9b713ddcfa4d03322500b4510c5b10c61e24ec4aecb1",
+      "actions": 21,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/tableau/Visualization-Linting/e36a78027ee5ba556f361bff1df3a9ca2bfb4546/example-data/real/mens-100m-dash.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Reviewed full accepted G8: parsed historicaldates, numericvalues/source domains preserved; real pairedaxis700weight and focusedline/tick/grid components complete8meaningful levels. Nativeblue2 default-only rejected stages excluded."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "06da42986adc3e8f4e5604b11f15b7a9eb146cb398d00db584f29d3fae3b8448",
+      "bytes": 446
+    },
+    "data.json": {
+      "sha256": "7e925ad5c65ffd7ea9f757d5563cba74bbfaad34c26cc05b8a18fb7214529035",
+      "bytes": 3098
+    },
+    "resolved-source.vl.json": {
+      "sha256": "c4218d43844cd44c9278f2dcdd0030bea584fe65960b8a161cf6e7ad9d13dbe6",
+      "bytes": 4342
+    },
+    "G1.gg.mjs": {
+      "sha256": "77d5e7214e97220e5a1327fd68b6c2752c4553e8ecddb04ea0eb1c1802272809",
+      "bytes": 1898
+    },
+    "G2.gg.mjs": {
+      "sha256": "bfca1bf0d5677c18ab4184000d6d03070d2fc8a8857b582641573b0f36c037d4",
+      "bytes": 1900
+    },
+    "G3.gg.mjs": {
+      "sha256": "1367864b43d9282cb6e4f3966d9d1b9a1d2355d249897096b65818cd9068f2fd",
+      "bytes": 1838
+    },
+    "G4.gg.mjs": {
+      "sha256": "efd010676e99d9041635c72d5e26c945d9d5987e6761ee3994fbfde442fd7cfd",
+      "bytes": 1798
+    },
+    "G5.gg.mjs": {
+      "sha256": "924a031a439a617764b279166eb5cebb5a84f1f4f15798e886dd49c669d28dfe",
+      "bytes": 1840
+    },
+    "G6.gg.mjs": {
+      "sha256": "c54e884e2fe682c7190ef5d41616001d3248efbf53c6de9a3dccb435b21300c3",
+      "bytes": 1960
+    },
+    "G7.gg.mjs": {
+      "sha256": "d25aeea89209ab2d4712742e2f6ace64effc766e73ecdd11ddef12ae43dcec62",
+      "bytes": 1934
+    },
+    "G8.gg.mjs": {
+      "sha256": "c24267d541fe4713697f9b713ddcfa4d03322500b4510c5b10c61e24ec4aecb1",
+      "bytes": 2032
+    },
+    "vega-lite.svg": {
+      "sha256": "987b2cc8d3e1f8a2ee28689dc739a22246c2906101475d04d1af2a4fb695c045",
+      "bytes": 7784
+    },
+    "ggaction.svg": {
+      "sha256": "f80dbd110c85cdc1ddab46bf135d298ec99e0f618a2f8bcb86f1840289a3a929",
+      "bytes": 7518
+    }
+  }
+}

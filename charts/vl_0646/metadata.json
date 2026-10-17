@@ -1,0 +1,80 @@
+{
+  "id": "vl_0646",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "87cf1cd2d775b9892fe786a018d50c09b0222c6f77bd0ded7991b863e6fe57bf",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "6d8e61afe57592f9c76a54d1a2ae00b1562fe2fc83af966b7ed0dfee54546422",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e2902e6b50fb385a8a5f62b8aaea7eb89767e0df50e98a06d23590baaf420f6d",
+      "actions": 14,
+      "topOptions": 35
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "72c1d3b542ba7aa207434228278aac2d68d77124fbfc5d42976f44d9b65dc514",
+      "actions": 15,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/classes/main/E4E_macro/US_BEA_GDPsimple.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full acceptedG4 audited: piecategory/value requiredscaffold, color scale/domainrange and theta/polar/arc owners focused. Single top2-column legend with titlefalse and focusedlabels style; title initialfont13 and sourcelayout preserved, weight/sourcepaint/subtitle at wholeeditor. No Cartesian guides or further eligible styles; stop4."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "14913fe0a09645b890f6e7fade0ff24f8772fff954b7e9f113cc592da3a1ad1c",
+      "bytes": 1389
+    },
+    "data.json": {
+      "sha256": "7f716f9d16014596805fe87a32465ab664b2018b2a7252ead289ef8788e497de",
+      "bytes": 506
+    },
+    "resolved-source.vl.json": {
+      "sha256": "b4f73e92cf0b5780b2c8f6d984e205c8af6ec483baa86ce56f95b966f473c6db",
+      "bytes": 1907
+    },
+    "G1.gg.mjs": {
+      "sha256": "87cf1cd2d775b9892fe786a018d50c09b0222c6f77bd0ded7991b863e6fe57bf",
+      "bytes": 1646
+    },
+    "G2.gg.mjs": {
+      "sha256": "6d8e61afe57592f9c76a54d1a2ae00b1562fe2fc83af966b7ed0dfee54546422",
+      "bytes": 1662
+    },
+    "G3.gg.mjs": {
+      "sha256": "e2902e6b50fb385a8a5f62b8aaea7eb89767e0df50e98a06d23590baaf420f6d",
+      "bytes": 1686
+    },
+    "G4.gg.mjs": {
+      "sha256": "72c1d3b542ba7aa207434228278aac2d68d77124fbfc5d42976f44d9b65dc514",
+      "bytes": 1662
+    },
+    "vega-lite.svg": {
+      "sha256": "41955b654547f8004c191717ec1f053e7f66d02c58700482a4b8ed013330fc79",
+      "bytes": 5236
+    },
+    "ggaction.svg": {
+      "sha256": "39b8db491ac00e2346fcbde57b7f5885353cdbd0edf050ce4a0ee820e6f3d4c3",
+      "bytes": 3116
+    }
+  }
+}

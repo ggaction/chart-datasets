@@ -1,0 +1,67 @@
+{
+  "id": "vl_0655",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5ac9b5b214e6fbb43478d60ec316c8c165d8914142046dc474c38a0c6c9a1d60",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "7fbce1023ec55e418e3a7eefa345a7a8391f8ecaa1f40af47410c62ed9a5e704",
+      "actions": 13,
+      "topOptions": 28
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "f4f32ce6e1b49b59d41a7325d06627143e4e28fff53c3317d5cb71acfbfba87e",
+      "actions": 13,
+      "topOptions": 29
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Actual frontier audited: pie has no axes/grid, explicit source colors and angular range already focused, title nongeometric paint moved, remaining radius/title size/offset/text protects layout. Angular range actual code is degrees as public API requires, despite model stop wording radians. Source absolute legend placement is documented approximation; actual default gap retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "fdc81e3cbdb9f52b6578b4ff6377426edbc8503225d97ebf6ed53c1d9131d67c",
+      "bytes": 1402
+    },
+    "data.json": {
+      "sha256": "c9d775bd59ae0c87550b02bb7aa814844f117cb642f624290a3c060a531412af",
+      "bytes": 199
+    },
+    "resolved-source.vl.json": {
+      "sha256": "fdc81e3cbdb9f52b6578b4ff6377426edbc8503225d97ebf6ed53c1d9131d67c",
+      "bytes": 1402
+    },
+    "G1.gg.mjs": {
+      "sha256": "5ac9b5b214e6fbb43478d60ec316c8c165d8914142046dc474c38a0c6c9a1d60",
+      "bytes": 1333
+    },
+    "G2.gg.mjs": {
+      "sha256": "7fbce1023ec55e418e3a7eefa345a7a8391f8ecaa1f40af47410c62ed9a5e704",
+      "bytes": 1288
+    },
+    "G3.gg.mjs": {
+      "sha256": "f4f32ce6e1b49b59d41a7325d06627143e4e28fff53c3317d5cb71acfbfba87e",
+      "bytes": 1304
+    },
+    "vega-lite.svg": {
+      "sha256": "4557db423f3d1ee8e117d0a1131ab752bd87ab5901666b90347b768272acea9f",
+      "bytes": 5151
+    },
+    "ggaction.svg": {
+      "sha256": "d7590632808fb047cbb7438b336a40515ff2d02bf5e52f6b09af68888a3fe393",
+      "bytes": 2583
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "vl_0406",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c99958b38ea89653ac5377a7e0d5e402efd40d80a21add397aa54df9e26c068c",
+      "actions": 22,
+      "topOptions": 48
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ea1d7acf3c782a7ee9fafdc0409d773d9a1dcef612f7ff1ab4a243096fafcb7c",
+      "actions": 23,
+      "topOptions": 52
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "6a386499d17271764db1c382a6f2e9c164feebe929c241f504985daae37129ff",
+      "actions": 23,
+      "topOptions": 52
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "195314a4991b1957d0c4278c1e0406107f0ad017db4895f39f8d5475370b9d89",
+      "actions": 25,
+      "topOptions": 56
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "eb17ec16d048034f13423933136457ddfb65ce2ec7e0626902441a71e061e88a",
+      "actions": 29,
+      "topOptions": 60
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "89976440460694e21cf263d970fa3641e9d72d40d878b032a9e0cc285b7e0baf",
+      "actions": 31,
+      "topOptions": 62
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "46acd890f08eba5a8786b1fdf5f3abeb9dc5d0cb8418e09a99a1279850dc069b",
+      "actions": 31,
+      "topOptions": 63
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/productivity/BSD_Annual.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full original source and final G7 program reread. All current accepted source/runtime/raw/mark/axis/legend/family checks pass:23raw rows and92folded line/point observations, source300x300 plot, original metric mapping/colors/line width1, source visible X labels and source-bound hidden-label map retained at axis birth, bottom-left two-column legend and trailing blank subtitle preserved. Seven distinct coherent programs exhaust the actual mandatory ownership frontier. Native explicit point opacity1 remains a mark identity bridge and is not a meaningful standalone stage. Original GLM chain stop bytes/provenance and every failed response/usage remain retained; no extra model call or padding stage."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "23e4bfa1db4834000557cd89eb98b4c93d7ed291401794a17f04aa273b9b1995",
+      "bytes": 1828
+    },
+    "data.json": {
+      "sha256": "9f958595b25fa06714e9d383e66d31b41b0d1210fe9b3275a43f677f637a861f",
+      "bytes": 35770
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a70b6742815904de850f990ea86a94171a52252b75938f70819a1dcd655e3588",
+      "bytes": 42353
+    },
+    "G1.gg.mjs": {
+      "sha256": "c99958b38ea89653ac5377a7e0d5e402efd40d80a21add397aa54df9e26c068c",
+      "bytes": 3744
+    },
+    "G2.gg.mjs": {
+      "sha256": "ea1d7acf3c782a7ee9fafdc0409d773d9a1dcef612f7ff1ab4a243096fafcb7c",
+      "bytes": 3710
+    },
+    "G3.gg.mjs": {
+      "sha256": "6a386499d17271764db1c382a6f2e9c164feebe929c241f504985daae37129ff",
+      "bytes": 3709
+    },
+    "G4.gg.mjs": {
+      "sha256": "195314a4991b1957d0c4278c1e0406107f0ad017db4895f39f8d5475370b9d89",
+      "bytes": 3937
+    },
+    "G5.gg.mjs": {
+      "sha256": "eb17ec16d048034f13423933136457ddfb65ce2ec7e0626902441a71e061e88a",
+      "bytes": 3833
+    },
+    "G6.gg.mjs": {
+      "sha256": "89976440460694e21cf263d970fa3641e9d72d40d878b032a9e0cc285b7e0baf",
+      "bytes": 3806
+    },
+    "G7.gg.mjs": {
+      "sha256": "46acd890f08eba5a8786b1fdf5f3abeb9dc5d0cb8418e09a99a1279850dc069b",
+      "bytes": 3822
+    },
+    "vega-lite.svg": {
+      "sha256": "9bbfeb1c589a40d1196e90def67f10b80b629d9b7f9f60d68d3a691c6ccc5254",
+      "bytes": 38906
+    },
+    "ggaction.svg": {
+      "sha256": "4cb189402831e90c2ab4e0b7e85c612312f0df689477a6c3d3faa370f38e9304",
+      "bytes": 15511
+    }
+  }
+}

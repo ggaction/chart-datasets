@@ -1,0 +1,124 @@
+{
+  "id": "vl_1593",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6f7bf923412c4eadbdee92857f25462227cf0f4fb23ae7a622d4d258a6192984",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5fa2523095c11a8e51bb96153ca90219b33445cfcc10f7c9382d4ba07f8f0d0e",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "59eb0db6fe8e5248f2d0f6888d5aa84d2653e2634d16b88d14ecd8a2e67fd84d",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "b1938bae861efd2b017220c2e5e552f52903699506070314f28ab1b4f46ed23e",
+      "actions": 17,
+      "topOptions": 39
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ded764a67afde5bd96f11f4bd5fe86e6623044b2295753254b41011d5eab32c2",
+      "actions": 18,
+      "topOptions": 41
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "46044d1450faffd32a06bbd150c6be60a77313318f2c69c9272cd2466c8a60fc",
+      "actions": 20,
+      "topOptions": 47
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "0c2a28d0a44fe3531bc7dc035b97802b13cafe5c04cd71d017a75f2f93a04f51",
+      "actions": 21,
+      "topOptions": 49
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "7c70e54e2cfbaff856fac9cf90d09dc7bf26176ebef7d5e24cb8f4a15a1ee507",
+      "actions": 25,
+      "topOptions": 53
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Reviewed eight distinct accepted stages and terminal full GLM code: paired focused axis line, ticks-labels and title edits retain the source values; paired grid paint editors and legend title/labels ownership preserved. All current source/HCL392 checks and family output verification pass; cap8 is the stop condition."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "516a7247855ff8815e2b30e14253e5c38722d194292a4f494c7e1b1a3f9b699c",
+      "bytes": 783
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a6924b91b0f387e9a4031d054d5a97607682dc8a4e06ee4d5bb030eae43bdb11",
+      "bytes": 114631
+    },
+    "G1.gg.mjs": {
+      "sha256": "6f7bf923412c4eadbdee92857f25462227cf0f4fb23ae7a622d4d258a6192984",
+      "bytes": 2346
+    },
+    "G2.gg.mjs": {
+      "sha256": "5fa2523095c11a8e51bb96153ca90219b33445cfcc10f7c9382d4ba07f8f0d0e",
+      "bytes": 2278
+    },
+    "G3.gg.mjs": {
+      "sha256": "59eb0db6fe8e5248f2d0f6888d5aa84d2653e2634d16b88d14ecd8a2e67fd84d",
+      "bytes": 2267
+    },
+    "G4.gg.mjs": {
+      "sha256": "b1938bae861efd2b017220c2e5e552f52903699506070314f28ab1b4f46ed23e",
+      "bytes": 2227
+    },
+    "G5.gg.mjs": {
+      "sha256": "ded764a67afde5bd96f11f4bd5fe86e6623044b2295753254b41011d5eab32c2",
+      "bytes": 2279
+    },
+    "G6.gg.mjs": {
+      "sha256": "46044d1450faffd32a06bbd150c6be60a77313318f2c69c9272cd2466c8a60fc",
+      "bytes": 2489
+    },
+    "G7.gg.mjs": {
+      "sha256": "0c2a28d0a44fe3531bc7dc035b97802b13cafe5c04cd71d017a75f2f93a04f51",
+      "bytes": 2495
+    },
+    "G8.gg.mjs": {
+      "sha256": "7c70e54e2cfbaff856fac9cf90d09dc7bf26176ebef7d5e24cb8f4a15a1ee507",
+      "bytes": 2491
+    },
+    "vega-lite.svg": {
+      "sha256": "db2e333f251e470dc76f0d15a31b68201ab2853b1c9a7b6e6ec903706efb0083",
+      "bytes": 124930
+    },
+    "ggaction.svg": {
+      "sha256": "07c9b36d8b31f281eb8b0626feaea4488673613dd941e1e8b7280e00d3d0cbd9",
+      "bytes": 44207
+    }
+  }
+}

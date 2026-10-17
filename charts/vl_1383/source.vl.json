@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/queryverse/queryverse.github.io/517cec1d59eef7ee5ff4343834e728394cb6dc26/benchmarkresults/csvreader.csv"
+  },
+  "transform": [
+    {
+      "filter": "indexof(['Julia CSV.jl', 'Julia CSV.jl copycols', 'Julia CSV.jl parallel', 'Julia CSV.jl copycols parallel', 'Julia CSVFiles.jl', 'Julia CSVReader.jl', 'Julia TableReader.jl', 'Julia Pandas.jl', 'Julia TextParse.jl', 'Python Arrow', 'Python Arrow parallel', 'Python Pandas', 'R fread', 'R fread parallel', 'R readr'],datum.package)>=0"
+    },
+    {
+      "calculate": "datum.withna=='true' ? 'With NA values' : 'Without NA values'",
+      "as": "withna_verbal"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "timing",
+      "title": "seconds",
+      "aggregate": "min",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "package",
+      "type": "nominal"
+    },
+    "color": {
+      "field": "package",
+      "scale": {
+        "scheme": "category20"
+      },
+      "type": "nominal"
+    }
+  },
+  "mark": "bar",
+  "background": "white",
+  "width": 600,
+  "height": 400,
+  "config": {
+    "text": {
+      "baseline": "middle",
+      "align": "left"
+    },
+    "axis": {
+      "labelFontSize": 18
+    }
+  }
+}

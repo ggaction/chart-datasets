@@ -1,0 +1,78 @@
+{
+  "id": "vl_0657",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1db86992c1297df5939bbc7b885a9d5989bfe6f15c97bbf1fbaa8c463af873ef",
+      "actions": 8,
+      "topOptions": 19
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "50dea0790e07b6de8eb28cfa3735400d7edcf3e047df52179b3a84371f1308b0",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "87a7da4ace706edd4fecd98c6552653f062d4c4c0ffd39d11998b751db8d9b90",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "19fc7752420d384e1aa6221a58ada951fe448dd59c60c1a88dc71448e42d1e14",
+      "actions": 11,
+      "topOptions": 23
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Actual frontier audited: complete axis lines are empty default objects, labels contain only protected fontSize/offset/flush and titles contain only source text plus protected fontSize/offset. Explicit #ddd grid moved to narrow directional editor; scales already focused. No remaining authored nongeometric bundle to split without manufacturing defaults."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "427117d3bc5222333b3bc590a0fa4f933473a53861e6b54882043752db8571ba",
+      "bytes": 1096
+    },
+    "data.json": {
+      "sha256": "068bbf399661a710335a1b739050f07a5a58d0c68fd171081bade3267132d8e7",
+      "bytes": 246
+    },
+    "resolved-source.vl.json": {
+      "sha256": "427117d3bc5222333b3bc590a0fa4f933473a53861e6b54882043752db8571ba",
+      "bytes": 1096
+    },
+    "G1.gg.mjs": {
+      "sha256": "1db86992c1297df5939bbc7b885a9d5989bfe6f15c97bbf1fbaa8c463af873ef",
+      "bytes": 1516
+    },
+    "G2.gg.mjs": {
+      "sha256": "50dea0790e07b6de8eb28cfa3735400d7edcf3e047df52179b3a84371f1308b0",
+      "bytes": 1488
+    },
+    "G3.gg.mjs": {
+      "sha256": "87a7da4ace706edd4fecd98c6552653f062d4c4c0ffd39d11998b751db8d9b90",
+      "bytes": 1463
+    },
+    "G4.gg.mjs": {
+      "sha256": "19fc7752420d384e1aa6221a58ada951fe448dd59c60c1a88dc71448e42d1e14",
+      "bytes": 1489
+    },
+    "vega-lite.svg": {
+      "sha256": "03d57b03f29ebc5642ae7a85e07f570a8e9f69a32a12147838e0a935cbda3547",
+      "bytes": 7693
+    },
+    "ggaction.svg": {
+      "sha256": "c1a82c9369bb55598bd9e1cd03ff02d8743cf125b077c61fab500b5e4f0d8ece",
+      "bytes": 6061
+    }
+  }
+}

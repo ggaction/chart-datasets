@@ -1,0 +1,100 @@
+{
+  "id": "vl_0847",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "14843708c4955ae41a8af24b42c2cfa43473e6cce1f29d0f974afc6597202ac8",
+      "actions": 16,
+      "topOptions": 37
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9b57cc89352deb1d1c0f8036b155676bc55190b642d218cddb3cdb85a0b098a1",
+      "actions": 17,
+      "topOptions": 41
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2bfafbffbcd4f7ede1755f9e49f4688e9092f35088a1fa3786bcef72f411b5c5",
+      "actions": 19,
+      "topOptions": 47
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "02e1b8e368dd158ffd5765c04b22eefa7cc40864ee84e0edf7b86f79174e080d",
+      "actions": 21,
+      "topOptions": 51
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "d7121ca2a51f6f88c3b2160a47693efa859c8f40e0783de85e0818dcf19289a3",
+      "actions": 27,
+      "topOptions": 55
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3fe18ab0ade7f50ddec32b62fab24f8623786358a56811ae065d4dd893f8e17c",
+      "actions": 29,
+      "topOptions": 57
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reread the complete final program and original source: all252 raw rows, wick/body interval semantics, both source palettes,52weekly ticks and26 source-hidden labels, source10px rotated labels and11px titles are preserved. Complete palette, paired axis appearance and paired grid families are already focused. The remaining native stroke width1, geometry, source tick lists and hiding maps are creation requirements; no meaningful optional family remains. Current02661 normal source, DOM, data and family checks pass; stop honestly at six."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ef3906b702b80b024b57bfef54fdd531dac68e9f6eae1766be3eb90785b07855",
+      "bytes": 55802
+    },
+    "data.json": {
+      "sha256": "fa77ba4d25b81859f99270c76f5651528a0a8f534c89234345d48efbae816a84",
+      "bytes": 45595
+    },
+    "resolved-source.vl.json": {
+      "sha256": "ed002639b03e5c9631f88db23c163087e81e1534862f848d4e0e46b102f058f8",
+      "bytes": 55803
+    },
+    "G1.gg.mjs": {
+      "sha256": "14843708c4955ae41a8af24b42c2cfa43473e6cce1f29d0f974afc6597202ac8",
+      "bytes": 5935
+    },
+    "G2.gg.mjs": {
+      "sha256": "9b57cc89352deb1d1c0f8036b155676bc55190b642d218cddb3cdb85a0b098a1",
+      "bytes": 5943
+    },
+    "G3.gg.mjs": {
+      "sha256": "2bfafbffbcd4f7ede1755f9e49f4688e9092f35088a1fa3786bcef72f411b5c5",
+      "bytes": 6109
+    },
+    "G4.gg.mjs": {
+      "sha256": "02e1b8e368dd158ffd5765c04b22eefa7cc40864ee84e0edf7b86f79174e080d",
+      "bytes": 6171
+    },
+    "G5.gg.mjs": {
+      "sha256": "d7121ca2a51f6f88c3b2160a47693efa859c8f40e0783de85e0818dcf19289a3",
+      "bytes": 6197
+    },
+    "G6.gg.mjs": {
+      "sha256": "3fe18ab0ade7f50ddec32b62fab24f8623786358a56811ae065d4dd893f8e17c",
+      "bytes": 6251
+    },
+    "vega-lite.svg": {
+      "sha256": "6adcbee2c47e503e1f8ffe3d542e1d02b48baceb6aa280e74eb6f350178bfe13",
+      "bytes": 138718
+    },
+    "ggaction.svg": {
+      "sha256": "dc1fd9b53266ab7695e87bcfb87c48ae84dbe0dd70c37628b21e676dc76d56b1",
+      "bytes": 101222
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bank Rate",
+  "title": {
+    "text": "Bank Rate",
+    "subtitle": "Bank of England's main policy rate (%). Source: BoE",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/m3BankRate.csv"
+  },
+  "height": 300,
+  "width": 300,
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal"
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "y": {
+          "field": "Rate",
+          "type": "quantitative"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "interpolate": "step",
+            "color": "red"
+          }
+        },
+        {
+          "mark": {
+            "type": "circle",
+            "size": 150,
+            "color": "red"
+          }
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "value": 0
+        },
+        "tooltip": [
+          {
+            "field": "Date",
+            "type": "temporal",
+            "format": "%b-%Y",
+            "title": "Date"
+          },
+          {
+            "field": "Rate",
+            "type": "quantitative",
+            "format": ",.0f",
+            "title": "Bank Rate (%)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "vl_1565",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ea6a38edb1545fda01d1eb3e4b875cd0eafabf019db621fc70b8fde49844d90a",
+      "actions": 7,
+      "topOptions": 14
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "875b571d2ad5f132b8148e8fd81a23af43ac187fb1426ea2f42e2631f9b95034",
+      "actions": 9,
+      "topOptions": 19
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7989b1cc6390476ad98b9a5c4d93735322024f4cf34e6b0ef94acc7933776e73",
+      "actions": 10,
+      "topOptions": 21
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "fe6b99b3af0786169cb2163e36542c4b91eb67ded45ffe0c86e98e26efc87417",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "837b7dba0b5ad9ee03fdde0f88e76423979c810c16b83f1e5981908c0612ebe5",
+      "actions": 11,
+      "topOptions": 22
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Five distinct stages preserve required line+point overlay with shared XY scales, aggregate guides, complete per-axis creation and directional grid. Point radius/stroke already use focused public actions; no other source-authored appearance policy remains to move."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "4da429a659e08aea6037ae380fc4396f3d3d607ca901ba4ac3aed5e595835695",
+      "bytes": 7487
+    },
+    "data.json": {
+      "sha256": "722de420412f9cb40ce6e830d2e7ca325b4eca23a71c11a06eaa8121f87e2feb",
+      "bytes": 5179
+    },
+    "resolved-source.vl.json": {
+      "sha256": "4da429a659e08aea6037ae380fc4396f3d3d607ca901ba4ac3aed5e595835695",
+      "bytes": 7487
+    },
+    "G1.gg.mjs": {
+      "sha256": "ea6a38edb1545fda01d1eb3e4b875cd0eafabf019db621fc70b8fde49844d90a",
+      "bytes": 2096
+    },
+    "G2.gg.mjs": {
+      "sha256": "875b571d2ad5f132b8148e8fd81a23af43ac187fb1426ea2f42e2631f9b95034",
+      "bytes": 2016
+    },
+    "G3.gg.mjs": {
+      "sha256": "7989b1cc6390476ad98b9a5c4d93735322024f4cf34e6b0ef94acc7933776e73",
+      "bytes": 1986
+    },
+    "G4.gg.mjs": {
+      "sha256": "fe6b99b3af0786169cb2163e36542c4b91eb67ded45ffe0c86e98e26efc87417",
+      "bytes": 1956
+    },
+    "G5.gg.mjs": {
+      "sha256": "837b7dba0b5ad9ee03fdde0f88e76423979c810c16b83f1e5981908c0612ebe5",
+      "bytes": 1917
+    },
+    "vega-lite.svg": {
+      "sha256": "2dbc935ba8fd6b5691258d4418db239189277bacdba5121e7040484d180b1795",
+      "bytes": 54137
+    },
+    "ggaction.svg": {
+      "sha256": "62c8283ffe2f0a570f97764bddbd28ddc138f354992f901f22d21ced6b533028",
+      "bytes": 44745
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "vl_1512",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6fee9f65c7d1e3033726425f9fcd263b81bf4d8ba440c39d5aa7ba3c999f05ad",
+      "actions": 8,
+      "topOptions": 14
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e989c8f07a6a5d07e761a184a8b015298cb6afa0f0c27cd6fc82b9ea87487255",
+      "actions": 9,
+      "topOptions": 16
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2c3a70e09d90816c7a7f290975a387a76ecf0084b29ece8ba70b13ee345e6225",
+      "actions": 10,
+      "topOptions": 20
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1fa021d70810ab158bd4ab4a8c05bfba69bd5640b6c65b992f61f915b75ec23c",
+      "actions": 11,
+      "topOptions": 20
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7752b0ab6993ce469ea3741f1acd1ccf1aa9c8711b69db86204b42d5d1efa6ae",
+      "actions": 13,
+      "topOptions": 22
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "bdc7ed3ac4b0b562ce3fc3fc765b7690ec1962c69763fa7c8424a0d4b3c9ad32",
+      "actions": 13,
+      "topOptions": 22
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 6 genuine ownership stages, 253 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "3c8c46137244a6879bcf44ac2bdaf6b2d2f7bd28ef44d87ed7b04ea8e24af2d3",
+      "bytes": 46436
+    },
+    "data.json": {
+      "sha256": "3426fa3f0d9696f4c7e7c68e3a57c2f657767245daa60c32e59ee21909be72ef",
+      "bytes": 38587
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d6c8f487a925fc3dd0b1bbfab0c0b71be5ac5daa3201f44823acb4e3ee24999f",
+      "bytes": 46449
+    },
+    "G1.gg.mjs": {
+      "sha256": "6fee9f65c7d1e3033726425f9fcd263b81bf4d8ba440c39d5aa7ba3c999f05ad",
+      "bytes": 10443
+    },
+    "G2.gg.mjs": {
+      "sha256": "e989c8f07a6a5d07e761a184a8b015298cb6afa0f0c27cd6fc82b9ea87487255",
+      "bytes": 10452
+    },
+    "G3.gg.mjs": {
+      "sha256": "2c3a70e09d90816c7a7f290975a387a76ecf0084b29ece8ba70b13ee345e6225",
+      "bytes": 10450
+    },
+    "G4.gg.mjs": {
+      "sha256": "1fa021d70810ab158bd4ab4a8c05bfba69bd5640b6c65b992f61f915b75ec23c",
+      "bytes": 10471
+    },
+    "G5.gg.mjs": {
+      "sha256": "7752b0ab6993ce469ea3741f1acd1ccf1aa9c8711b69db86204b42d5d1efa6ae",
+      "bytes": 10531
+    },
+    "G6.gg.mjs": {
+      "sha256": "bdc7ed3ac4b0b562ce3fc3fc765b7690ec1962c69763fa7c8424a0d4b3c9ad32",
+      "bytes": 10519
+    },
+    "vega-lite.svg": {
+      "sha256": "0fbe7bdffb3849a94f7e91142155a296b6aca7b3b353bfee87f77e3fab053d4a",
+      "bytes": 119336
+    },
+    "ggaction.svg": {
+      "sha256": "b366473914d6578f3bef069e814abe16d6d2a23d713b9758ce549869b9570f0d",
+      "bytes": 52280
+    }
+  }
+}

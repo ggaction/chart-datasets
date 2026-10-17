@@ -1,0 +1,124 @@
+{
+  "id": "vl_1726",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "3bd17eb7f8b62d72e8ea956e387842e271edcab8f69916008e9378f37607023b",
+      "actions": 16,
+      "topOptions": 46
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "3896dbdfcb529fadd309bacff7114590f7aaa1372d00d3089684da6253f0220a",
+      "actions": 21,
+      "topOptions": 51
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4ff6b46c49d0a22d9a3453b9f770a2e8d756fc89f2051edb438303e6cf0c0fa7",
+      "actions": 22,
+      "topOptions": 52
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3a15906640f8df012b189d6a8b5307999469ddd733a0b2c5fce5803d71c82e6d",
+      "actions": 23,
+      "topOptions": 54
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "89551c9aac9ff47ab301af7bc0a2768c070652f67be312f9baa9d08e095a2edb",
+      "actions": 24,
+      "topOptions": 58
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d2952bd1fca106fe3a28b442b6b0eeca987d7f89eadeca6ef0eaace6e72c556a",
+      "actions": 26,
+      "topOptions": 64
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "6a7bfc92cd9b1e4f8ce4b79e875f14bce0da3da864d2423d74eb60a306d5f89e",
+      "actions": 27,
+      "topOptions": 65
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "876b15a49ac0c80697523e3ca5a885c8cb241bafd25b1ce1733dc2220f02702b",
+      "actions": 33,
+      "topOptions": 67
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex rechecked immutable prior terminal, every current source/runtime-verified model-authored program, original stage profile, current ownership diagnostics and source-bound display/layout correction evidence; original model stop/usage retained without a new model call."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "7f5507c31b4bc43614c7cdb2751bc132a4d87d8177907d2b0c5d51eedf4b0f23",
+      "bytes": 772
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f741f56697e625d8095a958a54f6e19ccab42a0ded80ccbca5e2bc3bb6c1cc82",
+      "bytes": 114620
+    },
+    "G1.gg.mjs": {
+      "sha256": "3bd17eb7f8b62d72e8ea956e387842e271edcab8f69916008e9378f37607023b",
+      "bytes": 3080
+    },
+    "G2.gg.mjs": {
+      "sha256": "3896dbdfcb529fadd309bacff7114590f7aaa1372d00d3089684da6253f0220a",
+      "bytes": 3120
+    },
+    "G3.gg.mjs": {
+      "sha256": "4ff6b46c49d0a22d9a3453b9f770a2e8d756fc89f2051edb438303e6cf0c0fa7",
+      "bytes": 3037
+    },
+    "G4.gg.mjs": {
+      "sha256": "3a15906640f8df012b189d6a8b5307999469ddd733a0b2c5fce5803d71c82e6d",
+      "bytes": 3029
+    },
+    "G5.gg.mjs": {
+      "sha256": "89551c9aac9ff47ab301af7bc0a2768c070652f67be312f9baa9d08e095a2edb",
+      "bytes": 2989
+    },
+    "G6.gg.mjs": {
+      "sha256": "d2952bd1fca106fe3a28b442b6b0eeca987d7f89eadeca6ef0eaace6e72c556a",
+      "bytes": 3137
+    },
+    "G7.gg.mjs": {
+      "sha256": "6a7bfc92cd9b1e4f8ce4b79e875f14bce0da3da864d2423d74eb60a306d5f89e",
+      "bytes": 3162
+    },
+    "G8.gg.mjs": {
+      "sha256": "876b15a49ac0c80697523e3ca5a885c8cb241bafd25b1ce1733dc2220f02702b",
+      "bytes": 3206
+    },
+    "vega-lite.svg": {
+      "sha256": "ae7f8a28fa5e9304348c0cfa7e6a015753d92a10c238efc5c713fe109b0a9526",
+      "bytes": 146222
+    },
+    "ggaction.svg": {
+      "sha256": "983c45eb7530059d7fa5e12f8b0753dce832d7b479fd836f8ee3ccf6ecfffda9",
+      "bytes": 50254
+    }
+  }
+}

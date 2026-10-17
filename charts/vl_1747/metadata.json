@@ -1,0 +1,80 @@
+{
+  "id": "vl_1747",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c0bb53bf9bfb26c9a6c4b6dd21130739bbc816779d54ea4cb8199b78e2624908",
+      "actions": 8,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f2e6d1a21635a2dd5531760d558097cc28e834d65f2b58c89630c7782aff9a6b",
+      "actions": 10,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "754b1fc550eadf4adcb31aa9d7b15eaca5608801462325285a4fa62599ae3ecf",
+      "actions": 10,
+      "topOptions": 24
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ae7c72bd48ab8626ec31ca9dd5c9c2a1221d4b334f253c5b2f832d37d5f00f15",
+      "actions": 12,
+      "topOptions": 26
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "AcceptedG4 fullcode already pairedfocusedtickpaint andtitleweight; individualwholeaxiscreation hasonlyprotectedfont10/11/offset/values/rotation. Sourceheatmapmark/fullXYscalealreadyfocused, no grid/legend/title. G5coarsens/refocuses toparent andaddsdefaultpositions4keys; retriesno-op. No meaningfulremainingboundary."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "d7b7b226cfd2befc427b14e604eb94bb2c5bebfb7970229dfc43f9e303b02253",
+      "bytes": 437
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "db71bdbbde11c8d1bb849625920d64f0c0be880809904678cf208b56b09b3ee1",
+      "bytes": 114285
+    },
+    "G1.gg.mjs": {
+      "sha256": "c0bb53bf9bfb26c9a6c4b6dd21130739bbc816779d54ea4cb8199b78e2624908",
+      "bytes": 1349
+    },
+    "G2.gg.mjs": {
+      "sha256": "f2e6d1a21635a2dd5531760d558097cc28e834d65f2b58c89630c7782aff9a6b",
+      "bytes": 1409
+    },
+    "G3.gg.mjs": {
+      "sha256": "754b1fc550eadf4adcb31aa9d7b15eaca5608801462325285a4fa62599ae3ecf",
+      "bytes": 1397
+    },
+    "G4.gg.mjs": {
+      "sha256": "ae7c72bd48ab8626ec31ca9dd5c9c2a1221d4b334f253c5b2f832d37d5f00f15",
+      "bytes": 1445
+    },
+    "vega-lite.svg": {
+      "sha256": "95c1f9aef8d4f4fa94b0b223c9be4f518f2451fe7fcb1ab0783b3e072add502b",
+      "bytes": 181154
+    },
+    "ggaction.svg": {
+      "sha256": "ffe4c0d1854f9b583c6076c7f048d3c8e96659f6375525790654a1e9968c91ba",
+      "bytes": 169493
+    }
+  }
+}

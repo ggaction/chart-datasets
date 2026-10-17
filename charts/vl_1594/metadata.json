@@ -1,0 +1,124 @@
+{
+  "id": "vl_1594",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "821fffe5085b9d52b46b05885a599265336a5ba2066eb8ef8c3956c2f33a9e19",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "acf7967ffbb21362f68e364429e8d852f3ebb59e522162d56e18941216e2d23b",
+      "actions": 19,
+      "topOptions": 44
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "200675cb1229e9ea3408bedd662a23e51e1ce377c915c7d60df542501f154530",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "82a3225fe1cc96ee6f730901fa2aa9c56b965dda78b96070892013ba98024830",
+      "actions": 23,
+      "topOptions": 52
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "8f07d200d437b3d77bc4333142f2956e41277852f0fd0736015d4824aa910e89",
+      "actions": 25,
+      "topOptions": 54
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "203a5386587135892ad39147ebaa23fe03843f4097a58881f7538338fc9e66c3",
+      "actions": 26,
+      "topOptions": 56
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ac76fcae41a2bda44d231e455aacff00703f5ddc6581b793fe48d46a8d2c2306",
+      "actions": 26,
+      "topOptions": 57
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "929b72f48980725b24bdb74bd0128c2f6df8843a805d57945b931783917e6148",
+      "actions": 27,
+      "topOptions": 57
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Reviewed full eight-stage accepted chain, exact final GLM code and all current verification including individual native HCL full392-row proof. Stages retain scaffold and meaningful domain ownership boundaries, each final SVG/PNG matches family G1. Eight-stage cap reached, no exhaustive primitive claim."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8a3778162b947a6739c8f02a630103c45004858525d61396648f38ee2284888e",
+      "bytes": 783
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "cb90f99ced22cc383a6568eba005912746275bb2747c820070e18f0a0ee35ad4",
+      "bytes": 114631
+    },
+    "G1.gg.mjs": {
+      "sha256": "821fffe5085b9d52b46b05885a599265336a5ba2066eb8ef8c3956c2f33a9e19",
+      "bytes": 2520
+    },
+    "G2.gg.mjs": {
+      "sha256": "acf7967ffbb21362f68e364429e8d852f3ebb59e522162d56e18941216e2d23b",
+      "bytes": 2484
+    },
+    "G3.gg.mjs": {
+      "sha256": "200675cb1229e9ea3408bedd662a23e51e1ce377c915c7d60df542501f154530",
+      "bytes": 2526
+    },
+    "G4.gg.mjs": {
+      "sha256": "82a3225fe1cc96ee6f730901fa2aa9c56b965dda78b96070892013ba98024830",
+      "bytes": 2642
+    },
+    "G5.gg.mjs": {
+      "sha256": "8f07d200d437b3d77bc4333142f2956e41277852f0fd0736015d4824aa910e89",
+      "bytes": 2624
+    },
+    "G6.gg.mjs": {
+      "sha256": "203a5386587135892ad39147ebaa23fe03843f4097a58881f7538338fc9e66c3",
+      "bytes": 2649
+    },
+    "G7.gg.mjs": {
+      "sha256": "ac76fcae41a2bda44d231e455aacff00703f5ddc6581b793fe48d46a8d2c2306",
+      "bytes": 2610
+    },
+    "G8.gg.mjs": {
+      "sha256": "929b72f48980725b24bdb74bd0128c2f6df8843a805d57945b931783917e6148",
+      "bytes": 2631
+    },
+    "vega-lite.svg": {
+      "sha256": "db2e333f251e470dc76f0d15a31b68201ab2853b1c9a7b6e6ec903706efb0083",
+      "bytes": 124930
+    },
+    "ggaction.svg": {
+      "sha256": "296c16100bdbc0db086b9d0de4ab834233e996a05dbff87b9e782b20cbbba2d2",
+      "bytes": 48948
+    }
+  }
+}

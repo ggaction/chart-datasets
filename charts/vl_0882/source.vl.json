@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "whitesmoke",
+  "width": 725,
+  "height": 500,
+  "title": "How Much Each Continent Contributes To The Death Percentage?",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Jisnu-Palanisamy/FIT3179/main/COVID-19%20Coronavirus.csv"
+  },
+  "transform": [
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "TotalDeathsPer1MPop",
+          "as": "Total_Deaths"
+        }
+      ]
+    },
+    {
+      "calculate": "datum.TotalDeathsPer1MPop/datum.Total_Deaths * 100",
+      "as": "PercentOfTotal"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "arc",
+        "innerRadius": 120,
+        "stroke": "black"
+      }
+    }
+  ],
+  "encoding": {
+    "theta": {
+      "field": "PercentOfTotal",
+      "type": "quantitative",
+      "aggregate": "sum",
+      "title": "Death Percentage",
+      "stack": true
+    },
+    "color": {
+      "field": "Continent",
+      "type": "nominal"
+    },
+    "fillOpacity": {
+      "value": 1
+    },
+    "tooltip": [
+      {
+        "field": "Continent"
+      },
+      {
+        "field": "PercentOfTotal",
+        "aggregate": "sum",
+        "title": "Total Death Percentage",
+        "format": ".2f"
+      }
+    ]
+  },
+  "config": {
+    "style": {
+      "view": {}
+    },
+    "text": {
+      "fontWeight": "bold",
+      "font": "Sans-Serif"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "",
+  "name": "Pac-Man Pie Chart",
+  "usermeta": {
+    "source": "PAC-MAN™ & ©1980 BANDAI NAMCO Entertainment Inc.",
+    "tags": [
+      "Pie Chart",
+      "Interactive"
+    ]
+  },
+  "height": 200,
+  "width": 200,
+  "padding": 0,
+  "config": {
+    "font": "Roboto",
+    "style": {
+      "guide-label": {
+        "fill": "#44475a"
+      },
+      "guide-title": {
+        "fill": "#44475a"
+      }
+    },
+    "axis": {
+      "domainColor": "#44475a",
+      "tickColor": "#44475a"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "category": "Pac-Man",
+        "value": 305,
+        "order": 1
+      },
+      {
+        "category": "Not Pac-Man",
+        "value": 55,
+        "order": 2
+      }
+    ]
+  },
+  "mark": {
+    "type": "arc",
+    "outerRadius": 100
+  },
+  "encoding": {
+    "theta": {
+      "field": "value",
+      "type": "quantitative",
+      "scale": {
+        "range": [
+          2.051,
+          8.334
+        ]
+      },
+      "stack": true
+    },
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Pac-Man",
+          "Not Pac-Man"
+        ],
+        "range": [
+          "#f2af29",
+          "#44475a"
+        ]
+      },
+      "legend": {
+        "direction": "vertical",
+        "fillColor": "transparent"
+      }
+    },
+    "opacity": {
+      "value": 1
+    },
+    "order": {
+      "field": "order",
+      "type": "quantitative"
+    }
+  }
+}

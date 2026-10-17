@@ -1,0 +1,124 @@
+{
+  "id": "vl_1560",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b37ac0d8378852d1a10444da183a2b651ada7146f75ab2213ea7202ef13caf39",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "18b6f51a99fd3e0630e8f441fb0008e944f3ac0dd86679c94ae1933d25db0385",
+      "actions": 15,
+      "topOptions": 38
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "258e1c985a66dabcc24d3a1b32aefd5cf3cf6d6c01b7c4dd5c528600b75db764",
+      "actions": 16,
+      "topOptions": 40
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "bde65406e073e91e138a2bdbb4f73830dbef9c24b66bac9a7e40f6e896dc71f6",
+      "actions": 17,
+      "topOptions": 44
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "56331a2f0240cf8f2ce3eab523fa29bbbf9f98494232a659b0474019868fb875",
+      "actions": 19,
+      "topOptions": 50
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "9deef7e4ec15adfdc281c8e0204b41e6477c564db955d207ed265adf21473dfc",
+      "actions": 20,
+      "topOptions": 52
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "8a614bd701e72695ec12fcf353774c1a934e2051d1a948f8198b9d6a52fe9480",
+      "actions": 24,
+      "topOptions": 54
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "cefd39b693efc1e37e8a70dfde4295e20c643ef01099b92093d30851cfe4b100",
+      "actions": 27,
+      "topOptions": 56
+    }
+  ],
+  "sourceUrls": [
+    "https://uiuc-ischool-dataviz.github.io/fall2019/data/voters.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Reviewed eight meaningful accepted stage ownership changes, current normal source/render/exact-family verification passed; source data/design retained with no stage padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "bbaebbb6b7b765e609a44dc0fecaa1b80161aeb7ff76ba294f8b35a56e121827",
+      "bytes": 970
+    },
+    "data.json": {
+      "sha256": "4607141583869efe6204afbb4e9d0e67b15d9e603fc33588892cafb8bd28399c",
+      "bytes": 793
+    },
+    "resolved-source.vl.json": {
+      "sha256": "7671f3f2f3428e7509ec554a5a273ff58364bb06e40d54c94331d30d479d9e74",
+      "bytes": 1957
+    },
+    "G1.gg.mjs": {
+      "sha256": "b37ac0d8378852d1a10444da183a2b651ada7146f75ab2213ea7202ef13caf39",
+      "bytes": 2703
+    },
+    "G2.gg.mjs": {
+      "sha256": "18b6f51a99fd3e0630e8f441fb0008e944f3ac0dd86679c94ae1933d25db0385",
+      "bytes": 2761
+    },
+    "G3.gg.mjs": {
+      "sha256": "258e1c985a66dabcc24d3a1b32aefd5cf3cf6d6c01b7c4dd5c528600b75db764",
+      "bytes": 2788
+    },
+    "G4.gg.mjs": {
+      "sha256": "bde65406e073e91e138a2bdbb4f73830dbef9c24b66bac9a7e40f6e896dc71f6",
+      "bytes": 2748
+    },
+    "G5.gg.mjs": {
+      "sha256": "56331a2f0240cf8f2ce3eab523fa29bbbf9f98494232a659b0474019868fb875",
+      "bytes": 2914
+    },
+    "G6.gg.mjs": {
+      "sha256": "9deef7e4ec15adfdc281c8e0204b41e6477c564db955d207ed265adf21473dfc",
+      "bytes": 2962
+    },
+    "G7.gg.mjs": {
+      "sha256": "8a614bd701e72695ec12fcf353774c1a934e2051d1a948f8198b9d6a52fe9480",
+      "bytes": 3002
+    },
+    "G8.gg.mjs": {
+      "sha256": "cefd39b693efc1e37e8a70dfde4295e20c643ef01099b92093d30851cfe4b100",
+      "bytes": 2999
+    },
+    "vega-lite.svg": {
+      "sha256": "e454d63f3b9f5bc8962bf8f95d58b13d75df7c14a0fa411e44aa4fc18c13c23a",
+      "bytes": 11114
+    },
+    "ggaction.svg": {
+      "sha256": "3322f786cea36222f0c17ac1d4e0f44506bead6116c9f79913d7b61b4320ec6f",
+      "bytes": 5498
+    }
+  }
+}

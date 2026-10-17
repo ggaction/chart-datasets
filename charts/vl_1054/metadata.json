@@ -1,0 +1,67 @@
+{
+  "id": "vl_1054",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "34eb8c492d4e4065d93fe16100be6d57de1db3f967a8515e9b3369c771f2086c",
+      "actions": 7,
+      "topOptions": 15
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4e2d972372133e0a31e14b60a596ba7a896811d34d1ba5b5375e1396045d129c",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "08ee53b5639009b5e6cfa03675987d19b9f2c52581483f64d378e10092965138",
+      "actions": 10,
+      "topOptions": 20
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 3 genuine ownership stages, 136 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e9846c8f674df1cca8ed4b11d331492ef6c6f145152f88c97945120ca2b49d76",
+      "bytes": 1550
+    },
+    "data.json": {
+      "sha256": "cc8134487d2320e93dd4e7d05a9a71571b79bc197a601aabc6ab31a459819fcd",
+      "bytes": 262
+    },
+    "resolved-source.vl.json": {
+      "sha256": "cfc4b45f8420b6869dcbd86007f0caece193e794577d3c2374acc20e99028dbe",
+      "bytes": 1551
+    },
+    "G1.gg.mjs": {
+      "sha256": "34eb8c492d4e4065d93fe16100be6d57de1db3f967a8515e9b3369c771f2086c",
+      "bytes": 1041
+    },
+    "G2.gg.mjs": {
+      "sha256": "4e2d972372133e0a31e14b60a596ba7a896811d34d1ba5b5375e1396045d129c",
+      "bytes": 1042
+    },
+    "G3.gg.mjs": {
+      "sha256": "08ee53b5639009b5e6cfa03675987d19b9f2c52581483f64d378e10092965138",
+      "bytes": 1112
+    },
+    "vega-lite.svg": {
+      "sha256": "18b08e000ec5873033921d0f6118875ad07b25803a650d1a35a71bdf199fc0d0",
+      "bytes": 6823
+    },
+    "ggaction.svg": {
+      "sha256": "7956e438fa01fb4cb83c0d4065a676fb5de7f6214bcfbb5b6774e6ebe4c05f1f",
+      "bytes": 4350
+    }
+  }
+}

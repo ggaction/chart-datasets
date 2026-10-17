@@ -1,0 +1,78 @@
+{
+  "id": "vl_1695",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "674a6c4a5067722a9e67060b24c0edf85e22b508ff72ffebae9c76b80eed97a0",
+      "actions": 9,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2a0d772d10600a00f56aee8d6a02d5e3da9b5dad397a5de80ec0d161590d5f69",
+      "actions": 10,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "d7a3ba67f74c27da54710c06e4355d84095098440199645068dfa881bf062297",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ae59c116b6b6f003eaaeb88cc7450255f19749b639d4ef98f38b1aaac8ab253c",
+      "actions": 13,
+      "topOptions": 26
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Four exact meaningful stages; Xaxis leaf editors complete, all remaining geometry protected and absent guides inapplicable."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8a3031921a6f192dfe232b4f44e438298ff65a344fde8cfd985ad0bd57b8ab72",
+      "bytes": 1404
+    },
+    "data.json": {
+      "sha256": "0b1e2e1efe91292e7643c0edcfe5c58b45e9c21856dbc1c6cd2969670c17f8c6",
+      "bytes": 486
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8a3031921a6f192dfe232b4f44e438298ff65a344fde8cfd985ad0bd57b8ab72",
+      "bytes": 1404
+    },
+    "G1.gg.mjs": {
+      "sha256": "674a6c4a5067722a9e67060b24c0edf85e22b508ff72ffebae9c76b80eed97a0",
+      "bytes": 1212
+    },
+    "G2.gg.mjs": {
+      "sha256": "2a0d772d10600a00f56aee8d6a02d5e3da9b5dad397a5de80ec0d161590d5f69",
+      "bytes": 1302
+    },
+    "G3.gg.mjs": {
+      "sha256": "d7a3ba67f74c27da54710c06e4355d84095098440199645068dfa881bf062297",
+      "bytes": 1299
+    },
+    "G4.gg.mjs": {
+      "sha256": "ae59c116b6b6f003eaaeb88cc7450255f19749b639d4ef98f38b1aaac8ab253c",
+      "bytes": 1288
+    },
+    "vega-lite.svg": {
+      "sha256": "6e0e08a5ba6d74714dc343abb2a54f0c4bfe1e8e3d5712bfae74fe431b3c61b7",
+      "bytes": 7306
+    },
+    "ggaction.svg": {
+      "sha256": "9531a13ee030b210e640ce2bca47d811f3cf49a4d78e2200677699af68c8a54e",
+      "bytes": 3522
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "(M4) Nominal GDP",
+  "title": {
+    "text": "Nominal GDP",
+    "subtitle": "GDP at market prices, seasonally adjusted, £ million. Source: ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/M4.DataHub.MonetaryGDPMarketPrices.csv"
+  },
+  "height": 300,
+  "width": 295,
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "axis": {
+        "grid": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "axis": {
+            "grid": false
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "color": "darkblue"
+          }
+        },
+        {
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "value": 0.1
+        },
+        "tooltip": [
+          {
+            "field": "Date",
+            "type": "temporal",
+            "format": "%B, %Y"
+          },
+          {
+            "field": "Value",
+            "title": "Nominal GDP",
+            "type": "quantitative",
+            "format": ",.0f"
+          }
+        ]
+      }
+    }
+  ]
+}

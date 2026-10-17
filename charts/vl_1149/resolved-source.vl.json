@@ -1,0 +1,711 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Total number of points in World Cup final history",
+    "subtitleFontSize": 11,
+    "fontSize": 12,
+    "subtitle": "Source: Wikipedia",
+    "subtitleFontStyle": "italic"
+  },
+  "background": "floralwhite",
+  "data": {
+    "values": [
+      {
+        "Country": "Algeria",
+        "GDP per capita": "10969.25",
+        "Population (millions)": "44.462",
+        "Expenditure/GDP": "37.128",
+        "GDP(PPP, thousand millions)": "535.8",
+        "Voice and Accountability index": "-1.01",
+        "Points": "12",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "Angola",
+        "GDP per capita": "6344.15",
+        "Population (millions)": "31.962",
+        "Expenditure/GDP": "19.394",
+        "GDP(PPP, thousand millions)": "222.77",
+        "Voice and Accountability index": "-0.84",
+        "Points": "2",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "Argentina",
+        "GDP per capita": "21511.59",
+        "Population (millions)": "45.842",
+        "Expenditure/GDP": "37.832",
+        "GDP(PPP, thousand millions)": "1083.36",
+        "Voice and Accountability index": "0.62",
+        "Points": "157",
+        "Continent": "South America"
+      },
+      {
+        "Country": "Australia",
+        "GDP per capita": "51349.49",
+        "Population (millions)": "25.767",
+        "Expenditure/GDP": "42.318",
+        "GDP(PPP, thousand millions)": "1453.55",
+        "Voice and Accountability index": "1.38",
+        "Points": "16",
+        "Continent": "Asia"
+      },
+      {
+        "Country": "Austria",
+        "GDP per capita": "54395.78",
+        "Population (millions)": "8.946",
+        "Expenditure/GDP": "55.979",
+        "GDP(PPP, thousand millions)": "534.57",
+        "Voice and Accountability index": "1.4",
+        "Points": "40",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Belgium",
+        "GDP per capita": "51934.17",
+        "Population (millions)": "11.555",
+        "Expenditure/GDP": "54.912",
+        "GDP(PPP, thousand millions)": "659.25",
+        "Voice and Accountability index": "1.28",
+        "Points": "73",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Bolivia",
+        "GDP per capita": "8242.89",
+        "Population (millions)": "11.8",
+        "Expenditure/GDP": "34.398",
+        "GDP(PPP, thousand millions)": "106.86",
+        "Voice and Accountability index": "-0.11",
+        "Points": "1",
+        "Continent": "South America"
+      },
+      {
+        "Country": "Bosnia and Herzegovina",
+        "GDP per capita": "14813.49",
+        "Population (millions)": "3.481",
+        "Expenditure/GDP": "40.169",
+        "GDP(PPP, thousand millions)": "56.65",
+        "Voice and Accountability index": "-0.31",
+        "Points": "3",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Brazil",
+        "GDP per capita": "14710.22",
+        "Population (millions)": "212.609",
+        "Expenditure/GDP": "35.942",
+        "GDP(PPP, thousand millions)": "3435.87",
+        "Voice and Accountability index": "0.28",
+        "Points": "247",
+        "Continent": "South America"
+      },
+      {
+        "Country": "Bulgaria",
+        "GDP per capita": "23712.9",
+        "Population (millions)": "6.839",
+        "Expenditure/GDP": "40.42",
+        "GDP(PPP, thousand millions)": "178.16",
+        "Voice and Accountability index": "0.29",
+        "Points": "17",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Cameroon",
+        "GDP per capita": "3707.7",
+        "Population (millions)": "27.224",
+        "Expenditure/GDP": "16.523",
+        "GDP(PPP, thousand millions)": "110.89",
+        "Voice and Accountability index": "-1.16",
+        "Points": "23",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "Canada",
+        "GDP per capita": "48218.96",
+        "Population (millions)": "38.226",
+        "Expenditure/GDP": "46.001",
+        "GDP(PPP, thousand millions)": "2024.96",
+        "Voice and Accountability index": "1.46",
+        "Points": "0",
+        "Continent": "North and Central America"
+      },
+      {
+        "Country": "Chile",
+        "GDP per capita": "24311.6",
+        "Population (millions)": "19.718",
+        "Expenditure/GDP": "33.466",
+        "GDP(PPP, thousand millions)": "526.64",
+        "Voice and Accountability index": "0.97",
+        "Points": "40",
+        "Continent": "South America"
+      },
+      {
+        "Country": "China",
+        "GDP per capita": "17531.14",
+        "Population (millions)": "1,412.60",
+        "Expenditure/GDP": "32.713",
+        "GDP(PPP, thousand millions)": "27,206.09",
+        "Voice and Accountability index": "-1.64",
+        "Points": "0",
+        "Continent": "Asia"
+      },
+      {
+        "Country": "Colombia",
+        "GDP per capita": "14931.36",
+        "Population (millions)": "51.049",
+        "Expenditure/GDP": "34.513",
+        "GDP(PPP, thousand millions)": "837.39",
+        "Voice and Accountability index": "0.1",
+        "Points": "30",
+        "Continent": "South America"
+      },
+      {
+        "Country": "Costa Rica",
+        "GDP per capita": "20536.95",
+        "Population (millions)": "5.18",
+        "Expenditure/GDP": "20.95",
+        "GDP(PPP, thousand millions)": "116.87",
+        "Voice and Accountability index": "1.09",
+        "Points": "23",
+        "Continent": "North and Central America"
+      },
+      {
+        "Country": "C�te d'Ivoire",
+        "GDP per capita": "5286.96",
+        "Population (millions)": "27.659",
+        "Expenditure/GDP": "20.859",
+        "GDP(PPP, thousand millions)": "160.65",
+        "Voice and Accountability index": "-0.47",
+        "Points": "10",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "Croatia",
+        "GDP per capita": "29928.05",
+        "Population (millions)": "4.034",
+        "Expenditure/GDP": "49.248",
+        "GDP(PPP, thousand millions)": "132.62",
+        "Voice and Accountability index": "0.61",
+        "Points": "44",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Czech Republic",
+        "GDP per capita": "40917.25",
+        "Population (millions)": "10.495",
+        "Expenditure/GDP": "46.482",
+        "GDP(PPP, thousand millions)": "471.76",
+        "Voice and Accountability index": "1.02",
+        "Points": "41",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Denmark",
+        "GDP per capita": "58298.05",
+        "Population (millions)": "5.84",
+        "Expenditure/GDP": "50.81",
+        "GDP(PPP, thousand millions)": "374.03",
+        "Voice and Accountability index": "1.56",
+        "Points": "33",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Ecuador",
+        "GDP per capita": "10693.41",
+        "Population (millions)": "17.757",
+        "Expenditure/GDP": "35.51",
+        "GDP(PPP, thousand millions)": "208.6",
+        "Voice and Accountability index": "0.11",
+        "Points": "17",
+        "Continent": "South America"
+      },
+      {
+        "Country": "Egypt",
+        "GDP per capita": "12976.29",
+        "Population (millions)": "102.1",
+        "Expenditure/GDP": "25.965",
+        "GDP(PPP, thousand millions)": "1455.5",
+        "Voice and Accountability index": "-1.51",
+        "Points": "2",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "France",
+        "GDP per capita": "46716.37",
+        "Population (millions)": "65.447",
+        "Expenditure/GDP": "59.052",
+        "GDP(PPP, thousand millions)": "3358.91",
+        "Voice and Accountability index": "1.12",
+        "Points": "130",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Germany",
+        "GDP per capita": "53484.02",
+        "Population (millions)": "83.196",
+        "Expenditure/GDP": "51.253",
+        "GDP(PPP, thousand millions)": "4888.36",
+        "Voice and Accountability index": "1.43",
+        "Points": "225",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Ghana",
+        "GDP per capita": "5684.34",
+        "Population (millions)": "31.394",
+        "Expenditure/GDP": "25.681",
+        "GDP(PPP, thousand millions)": "196.05",
+        "Voice and Accountability index": "0.47",
+        "Points": "18",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "Greece",
+        "GDP per capita": "29337.36",
+        "Population (millions)": "10.679",
+        "Expenditure/GDP": "56.871",
+        "GDP(PPP, thousand millions)": "344.17",
+        "Voice and Accountability index": "0.96",
+        "Points": "8",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Honduras",
+        "GDP per capita": "5661.24",
+        "Population (millions)": "10.117",
+        "Expenditure/GDP": "28.424",
+        "GDP(PPP, thousand millions)": "62.92",
+        "Voice and Accountability index": "-0.59",
+        "Points": "3",
+        "Continent": "South America"
+      },
+      {
+        "Country": "Hungary",
+        "GDP per capita": "33862.59",
+        "Population (millions)": "9.731",
+        "Expenditure/GDP": "47.919",
+        "GDP(PPP, thousand millions)": "362",
+        "Voice and Accountability index": "0.4",
+        "Points": "48",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Iceland",
+        "GDP per capita": "54583.86",
+        "Population (millions)": "0.369",
+        "Expenditure/GDP": "49.234",
+        "GDP(PPP, thousand millions)": "22.12",
+        "Voice and Accountability index": "1.37",
+        "Points": "1",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Islamic Republic of Iran",
+        "GDP per capita": "15549.76",
+        "Population (millions)": "84.841",
+        "Expenditure/GDP": "12.378",
+        "GDP(PPP, thousand millions)": "1449.33",
+        "Voice and Accountability index": "-1.47",
+        "Points": "13",
+        "Continent": "Asia"
+      },
+      {
+        "Country": "Israel",
+        "GDP per capita": "42471.84",
+        "Population (millions)": "9.367",
+        "Expenditure/GDP": "40.388",
+        "GDP(PPP, thousand millions)": "437.08",
+        "Voice and Accountability index": "0.68",
+        "Points": "2",
+        "Continent": "Asia"
+      },
+      {
+        "Country": "Italy",
+        "GDP per capita": "42044.62",
+        "Population (millions)": "59.236",
+        "Expenditure/GDP": "55.45",
+        "GDP(PPP, thousand millions)": "2734.61",
+        "Voice and Accountability index": "1.1",
+        "Points": "156",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Jamaica",
+        "GDP per capita": "9899.3",
+        "Population (millions)": "2.74",
+        "Expenditure/GDP": "29.503",
+        "GDP(PPP, thousand millions)": "29.8",
+        "Voice and Accountability index": "0.63",
+        "Points": "3",
+        "Continent": "North and Central America"
+      },
+      {
+        "Country": "Japan",
+        "GDP per capita": "40662.24",
+        "Population (millions)": "125.507",
+        "Expenditure/GDP": "42.52",
+        "GDP(PPP, thousand millions)": "5606.55",
+        "Voice and Accountability index": "1.08",
+        "Points": "27",
+        "Continent": "Asia"
+      },
+      {
+        "Country": "Korea",
+        "GDP per capita": "44286.73",
+        "Population (millions)": "51.736",
+        "Expenditure/GDP": "25.845",
+        "GDP(PPP, thousand millions)": "2517.13",
+        "Voice and Accountability index": "0.93",
+        "Points": "31",
+        "Continent": "Asia"
+      },
+      {
+        "Country": "Mexico",
+        "GDP per capita": "18837.56",
+        "Population (millions)": "128.972",
+        "Expenditure/GDP": "27.073",
+        "GDP(PPP, thousand millions)": "2669.06",
+        "Voice and Accountability index": "-0.07",
+        "Points": "66",
+        "Continent": "North and Central America"
+      },
+      {
+        "Country": "Morocco",
+        "GDP per capita": "8353.36",
+        "Population (millions)": "36.313",
+        "Expenditure/GDP": "30.123",
+        "GDP(PPP, thousand millions)": "333.242",
+        "Voice and Accountability index": "-0.61",
+        "Points": "22",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "Netherlands",
+        "GDP per capita": "57059.34",
+        "Population (millions)": "17.475",
+        "Expenditure/GDP": "46.581",
+        "GDP(PPP, thousand millions)": "1095.45",
+        "Voice and Accountability index": "1.5",
+        "Points": "104",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "New Zealand",
+        "GDP per capita": "42409.43",
+        "Population (millions)": "5.112",
+        "Expenditure/GDP": "42.409",
+        "GDP(PPP, thousand millions)": "238.148",
+        "Voice and Accountability index": "1.62",
+        "Points": "3",
+        "Continent": "Asia"
+      },
+      {
+        "Country": "Nigeria",
+        "GDP per capita": "4969.21",
+        "Population (millions)": "211.401",
+        "Expenditure/GDP": "13.297",
+        "GDP(PPP, thousand millions)": "1,154.07",
+        "Voice and Accountability index": "-0.64",
+        "Points": "21",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "Norway",
+        "GDP per capita": "64442.53",
+        "Population (millions)": "5.415",
+        "Expenditure/GDP": "48.185",
+        "GDP(PPP, thousand millions)": "383.373",
+        "Voice and Accountability index": "1.75",
+        "Points": "9",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Panama",
+        "GDP per capita": "29130.71",
+        "Population (millions)": "4.337",
+        "Expenditure/GDP": "24.829",
+        "GDP(PPP, thousand millions)": "138.809",
+        "Voice and Accountability index": "0.55",
+        "Points": "0",
+        "Continent": "South America"
+      },
+      {
+        "Country": "Paraguay",
+        "GDP per capita": "12490.78",
+        "Population (millions)": "7.353",
+        "Expenditure/GDP": "25.309",
+        "GDP(PPP, thousand millions)": "100.9",
+        "Voice and Accountability index": "0.01",
+        "Points": "31",
+        "Continent": "South America"
+      },
+      {
+        "Country": "Peru",
+        "GDP per capita": "12764.3",
+        "Population (millions)": "33.829",
+        "Expenditure/GDP": "23.551",
+        "GDP(PPP, thousand millions)": "474.37",
+        "Voice and Accountability index": "0.18",
+        "Points": "18",
+        "Continent": "South America"
+      },
+      {
+        "Country": "Poland",
+        "GDP per capita": "34586.93",
+        "Population (millions)": "37.84",
+        "Expenditure/GDP": "44.2",
+        "GDP(PPP, thousand millions)": "1437.81",
+        "Voice and Accountability index": "0.59",
+        "Points": "57",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Portugal",
+        "GDP per capita": "33581.28",
+        "Population (millions)": "10.292",
+        "Expenditure/GDP": "48.148",
+        "GDP(PPP, thousand millions)": "379.69",
+        "Voice and Accountability index": "1.26",
+        "Points": "57",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Qatar",
+        "GDP per capita": "95340.3",
+        "Population (millions)": "2.618",
+        "Expenditure/GDP": "29.377",
+        "GDP(PPP, thousand millions)": "274.249",
+        "Voice and Accountability index": "-1.17",
+        "Points": "0",
+        "Continent": "Asia"
+      },
+      {
+        "Country": "Romania",
+        "GDP per capita": "30890.7",
+        "Population (millions)": "19.202",
+        "Expenditure/GDP": "37.51",
+        "GDP(PPP, thousand millions)": "651.64",
+        "Voice and Accountability index": "0.6",
+        "Points": "29",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Russia",
+        "GDP per capita": "28104.88",
+        "Population (millions)": "145.558",
+        "Expenditure/GDP": "35.929",
+        "GDP(PPP, thousand millions)": "4494.22",
+        "Voice and Accountability index": "-1.1",
+        "Points": "67",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Saudi Arabia",
+        "GDP per capita": "44954.01",
+        "Population (millions)": "35.459",
+        "Expenditure/GDP": "33.238",
+        "GDP(PPP, thousand millions)": "1751.18",
+        "Voice and Accountability index": "-1.59",
+        "Points": "14",
+        "Continent": "Asia"
+      },
+      {
+        "Country": "Senegal",
+        "GDP per capita": "3429.06",
+        "Population (millions)": "17.204",
+        "Expenditure/GDP": "25.739",
+        "GDP(PPP, thousand millions)": "64.81",
+        "Voice and Accountability index": "0.19",
+        "Points": "18",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "Serbia",
+        "GDP per capita": "19695.03",
+        "Population (millions)": "6.872",
+        "Expenditure/GDP": "35.125",
+        "GDP(PPP, thousand millions)": "148.68",
+        "Voice and Accountability index": "-0.12",
+        "Points": "63",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Slovenia",
+        "GDP per capita": "40199.05",
+        "Population (millions)": "60.143",
+        "Expenditure/GDP": "48.934",
+        "GDP(PPP, thousand millions)": "93.14",
+        "Voice and Accountability index": "0.91",
+        "Points": "4",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "South Africa",
+        "GDP per capita": "13145.76",
+        "Population (millions)": "22.156",
+        "Expenditure/GDP": "32.976",
+        "GDP(PPP, thousand millions)": "868.58",
+        "Voice and Accountability index": "0.79",
+        "Points": "10",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "Spain",
+        "GDP per capita": "38083.48",
+        "Population (millions)": "0.182",
+        "Expenditure/GDP": "50.601",
+        "GDP(PPP, thousand millions)": "1983.11",
+        "Voice and Accountability index": "1.01",
+        "Points": "110",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Sweden",
+        "GDP per capita": "54239.69",
+        "Population (millions)": "10.452",
+        "Expenditure/GDP": "49.857",
+        "GDP(PPP, thousand millions)": "622.83",
+        "Voice and Accountability index": "1.51",
+        "Points": "70",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Switzerland",
+        "GDP per capita": "70764.02",
+        "Population (millions)": "8.67",
+        "Expenditure/GDP": "35.038",
+        "GDP(PPP, thousand millions)": "674.01",
+        "Voice and Accountability index": "1.55",
+        "Points": "50",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Togo",
+        "GDP per capita": "2163.58",
+        "Population (millions)": "8.49",
+        "Expenditure/GDP": "22.952",
+        "GDP(PPP, thousand millions)": "20.18",
+        "Voice and Accountability index": "-0.79",
+        "Points": "0",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "Trinidad and Tobago",
+        "GDP per capita": "24465.91",
+        "Population (millions)": "1.407",
+        "Expenditure/GDP": "32.196",
+        "GDP(PPP, thousand millions)": "37.81",
+        "Voice and Accountability index": "0.67",
+        "Points": "1",
+        "Continent": "North and Central America"
+      },
+      {
+        "Country": "Tunisia",
+        "GDP per capita": "10481.46",
+        "Population (millions)": "12.019",
+        "Expenditure/GDP": "33.184",
+        "GDP(PPP, thousand millions)": "138.39",
+        "Voice and Accountability index": "0.19",
+        "Points": "14",
+        "Continent": "Africa"
+      },
+      {
+        "Country": "Turkey",
+        "GDP per capita": "31752.91",
+        "Population (millions)": "84.68",
+        "Expenditure/GDP": "31.198",
+        "GDP(PPP, thousand millions)": "2953.94",
+        "Voice and Accountability index": "-0.86",
+        "Points": "16",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "Ukraine",
+        "GDP per capita": "13039.97",
+        "Population (millions)": "41.077",
+        "Expenditure/GDP": "40.266",
+        "GDP(PPP, thousand millions)": "588.45",
+        "Voice and Accountability index": "0.08",
+        "Points": "7",
+        "Continent": "Europe"
+      },
+      {
+        "Country": "United Arab Emirates",
+        "GDP per capita": "64697.99",
+        "Population (millions)": "10.187",
+        "Expenditure/GDP": "28.896",
+        "GDP(PPP, thousand millions)": "724.07",
+        "Voice and Accountability index": "-1.19",
+        "Points": "0",
+        "Continent": "Asia"
+      },
+      {
+        "Country": "United States",
+        "GDP per capita": "63014.33",
+        "Population (millions)": "332.183",
+        "Expenditure/GDP": "42.364",
+        "GDP(PPP, thousand millions)": "22,996.08",
+        "Voice and Accountability index": "0.9",
+        "Points": "35",
+        "Continent": "North and Central America"
+      },
+      {
+        "Country": "Uruguay",
+        "GDP per capita": "22058.27",
+        "Population (millions)": "3.543",
+        "Expenditure/GDP": "30.918",
+        "GDP(PPP, thousand millions)": "85.86",
+        "Voice and Accountability index": "1.3",
+        "Points": "88",
+        "Continent": "South America"
+      }
+    ]
+  },
+  "height": 580,
+  "width": 260,
+  "mark": {
+    "type": "bar",
+    "size": 5.5
+  },
+  "encoding": {
+    "y": {
+      "field": "Country",
+      "type": "nominal",
+      "axis": {
+        "labelAngle": 0,
+        "labelFontSize": 9.4
+      }
+    },
+    "color": {
+      "field": "Continent",
+      "type": "nominal",
+      "title": "Continent:",
+      "scale": {
+        "scheme": "set1"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Country",
+        "type": "nominal",
+        "title": "Country"
+      },
+      {
+        "field": "Points",
+        "type": "nominal",
+        "title": "Total points"
+      }
+    ],
+    "x": {
+      "field": "Points",
+      "type": "quantitative",
+      "axis": {
+        "labelAngle": 0,
+        "grid": true,
+        "gridColor": "#C2C3C0"
+      }
+    }
+  },
+  "config": {}
+}

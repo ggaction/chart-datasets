@@ -1,0 +1,164 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
+  "title": {
+    "text": "Weekly Income in the UK by Industry. Is there outsized demand for data professionals? ",
+    "fontSize": 11,
+    "anchor": "start",
+    "subtitle": "Source: ONS & GlassDoor",
+    "subtitleFontSize": 10
+  },
+  "width": 340,
+  "height": 340,
+  "data": {
+    "values": [
+      {
+        "Industry": "Accommodation and Food Service ",
+        "Average Weekly Income": 276.2
+      },
+      {
+        "Industry": "Administrative and Support Service ",
+        "Average Weekly Income": 490.5
+      },
+      {
+        "Industry": "Agriculture, Forestry and Fishing",
+        "Average Weekly Income": 419.3
+      },
+      {
+        "Industry": "Arts, Entertainment and Recreation",
+        "Average Weekly Income": 448.1
+      },
+      {
+        "Industry": "Construction",
+        "Average Weekly Income": 692.8
+      },
+      {
+        "Industry": "Data Sceince & Data Engineers",
+        "Average Weekly Income": 960.8
+      },
+      {
+        "Industry": "Education",
+        "Average Weekly Income": 488.4
+      },
+      {
+        "Industry": "Electricity, Gas and Water Supply",
+        "Average Weekly Income": 755.8
+      },
+      {
+        "Industry": "Financial & Insurance ",
+        "Average Weekly Income": 1745.8
+      },
+      {
+        "Industry": "Health and Social Work",
+        "Average Weekly Income": 499.9
+      },
+      {
+        "Industry": "Information and Communication",
+        "Average Weekly Income": 1016.3
+      },
+      {
+        "Industry": "Manufacturing ",
+        "Average Weekly Income": 629.6
+      },
+      {
+        "Industry": "Mining and Quarrying",
+        "Average Weekly Income": 1203.4
+      },
+      {
+        "Industry": "Other Service ",
+        "Average Weekly Income": 441.7
+      },
+      {
+        "Industry": "Professional, Scientific & Technical ",
+        "Average Weekly Income": 854.3
+      },
+      {
+        "Industry": "Public Administration",
+        "Average Weekly Income": 630.8
+      },
+      {
+        "Industry": "Real Estate ",
+        "Average Weekly Income": 646.9
+      },
+      {
+        "Industry": "Retail Trade and Repairs",
+        "Average Weekly Income": 363.9
+      },
+      {
+        "Industry": "Transport and Storage",
+        "Average Weekly Income": 620.1
+      },
+      {
+        "Industry": "Wholesale Trade",
+        "Average Weekly Income": 767.8
+      }
+    ]
+  },
+  "background": "#fff0d8",
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "height": 15,
+        "color": "#da83278c"
+      },
+      "encoding": {
+        "y": {
+          "field": "Industry",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "Average Weekly Income",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              1800
+            ]
+          }
+        },
+        "color": {
+          "condition": [
+            {
+              "value": "red",
+              "test": {
+                "field": "Industry",
+                "oneOf": [
+                  "Data Sceince & Data Engineers"
+                ]
+              }
+            }
+          ]
+        },
+        "tooltip": [
+          {
+            "field": "Average Weekly Income",
+            "type": "quantitative"
+          }
+        ]
+      }
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "x": {
+          "aggregate": "mean",
+          "field": "Average Weekly Income",
+          "title": "Mean Weekly Income"
+        },
+        "color": {
+          "value": "#3e1812"
+        },
+        "size": {
+          "value": 3
+        },
+        "tooltip": [
+          {
+            "aggregate": "mean",
+            "field": "Average Weekly Income"
+          }
+        ]
+      }
+    }
+  ]
+}

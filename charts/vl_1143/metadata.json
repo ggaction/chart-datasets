@@ -1,0 +1,80 @@
+{
+  "id": "vl_1143",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "778c3ecca174bd6e44a2bcf889323b2c18c107963f6f13ab6f9a18fde66a9568",
+      "actions": 11,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "c777c3af53b0fc1b261e212183ee90b4cc5afffd4848c925f02d49002c471c11",
+      "actions": 13,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "1bdfea93d0e4efed09850b2127ebec6e1c638dc506cda2dedbdd64dd80cc59d4",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "9889a8403e84dfcc936d4676a5e58e2f4f71393de63a9f27aac48f0bcd4f60ba",
+      "actions": 15,
+      "topOptions": 30
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/dannysupple/dannysupple.github.io/main/data_IMF_creditOutstanding.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full final reviewed code, all contiguous stages source/family/current-hash PASS. Read exact GLM stop record and independently exhausted concrete frontier; only protected construction geometry/source bindings remain, no invented native defaults."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ce2bff1715eb635d98a34f6c1da65d88e1b43fdb5976e3a6305e2c0c11579e65",
+      "bytes": 907
+    },
+    "data.json": {
+      "sha256": "0bd81d3edc15ae51ef5bb885a366e6050433ad87f7f57fa77eb3d06d2f4fc83c",
+      "bytes": 7335
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d446796f31c369cccf7ab37338f9af6f6ff0e50d27a6de8020af44f3318c4fd9",
+      "bytes": 9463
+    },
+    "G1.gg.mjs": {
+      "sha256": "778c3ecca174bd6e44a2bcf889323b2c18c107963f6f13ab6f9a18fde66a9568",
+      "bytes": 2761
+    },
+    "G2.gg.mjs": {
+      "sha256": "c777c3af53b0fc1b261e212183ee90b4cc5afffd4848c925f02d49002c471c11",
+      "bytes": 2779
+    },
+    "G3.gg.mjs": {
+      "sha256": "1bdfea93d0e4efed09850b2127ebec6e1c638dc506cda2dedbdd64dd80cc59d4",
+      "bytes": 2725
+    },
+    "G4.gg.mjs": {
+      "sha256": "9889a8403e84dfcc936d4676a5e58e2f4f71393de63a9f27aac48f0bcd4f60ba",
+      "bytes": 2760
+    },
+    "vega-lite.svg": {
+      "sha256": "3203e4d6a9aa99235799e5bc216b1c48252df2e78a3da7c199f5996475da6f12",
+      "bytes": 14970
+    },
+    "ggaction.svg": {
+      "sha256": "0cfcbd159b1c7febce8d12268a7fd999cd0615b0a93ac63ee2630f30dd148f2b",
+      "bytes": 13315
+    }
+  }
+}

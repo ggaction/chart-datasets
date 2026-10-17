@@ -1,0 +1,78 @@
+{
+  "id": "vl_1692",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "aef94075bc82c97e13e6d08586bdcaaa8f0275a7b29b0580ae99a27df8431eae",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "79fec58d33e23d02aa5e77192c24cf0cb4a3c9a37a12d652b761863c2e0de722",
+      "actions": 11,
+      "topOptions": 27
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "9745632bd69567912658d05d28bd1b7eeb49d333a6800c9498db62e945c2a6e9",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "05baec1825adefa5256538eddd440b5675ee46cfb980bd19ec1dc1bcba13fdf3",
+      "actions": 17,
+      "topOptions": 31
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed all remaining frontier: paired whole-axis paint moved into paired components then individual ticks/labels; protected geometry stays in complete axes. Scale domains/padding already focused, no legend/title beyond axis text, inferred default grid color is not another stage. Four distinct stages render and source/family exact checks pass."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ec68b730d3c55df8d5ef6196e7d729a058bf3b6869264a69178692826e30e007",
+      "bytes": 618
+    },
+    "data.json": {
+      "sha256": "5f9fd71969acdf4fee33abfe9dd4057b609909d93a7565dc3a45d14b86a18cfc",
+      "bytes": 169
+    },
+    "resolved-source.vl.json": {
+      "sha256": "ec68b730d3c55df8d5ef6196e7d729a058bf3b6869264a69178692826e30e007",
+      "bytes": 618
+    },
+    "G1.gg.mjs": {
+      "sha256": "aef94075bc82c97e13e6d08586bdcaaa8f0275a7b29b0580ae99a27df8431eae",
+      "bytes": 2096
+    },
+    "G2.gg.mjs": {
+      "sha256": "79fec58d33e23d02aa5e77192c24cf0cb4a3c9a37a12d652b761863c2e0de722",
+      "bytes": 2464
+    },
+    "G3.gg.mjs": {
+      "sha256": "9745632bd69567912658d05d28bd1b7eeb49d333a6800c9498db62e945c2a6e9",
+      "bytes": 2463
+    },
+    "G4.gg.mjs": {
+      "sha256": "05baec1825adefa5256538eddd440b5675ee46cfb980bd19ec1dc1bcba13fdf3",
+      "bytes": 2419
+    },
+    "vega-lite.svg": {
+      "sha256": "b7528d736cca841e2e1ff9d7013e2949b207fc91b74f999ecc8e704001c08c05",
+      "bytes": 5793
+    },
+    "ggaction.svg": {
+      "sha256": "593dbe09a64d9a2795a40c59aca058c89d6c84d9ebfd187cd687b4fda0b4ce00",
+      "bytes": 3958
+    }
+  }
+}

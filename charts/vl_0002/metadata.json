@@ -1,0 +1,111 @@
+{
+  "id": "vl_0002",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "97716166644edf49cf126a64accdb9e66ad959853f0774d41dcc70068e808155",
+      "actions": 9,
+      "topOptions": 19
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "81c2000b5877b444531af207523ec22a1fceb968f8187101fb7980345e8a9c5f",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "fc9c6b59c9e9afd7a6bf69bc80823621e302ebe4451aad1cd9234d178c1a655b",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f7a4f08410c441921e9de4ac2b75741a4774b54b1b7d232e2720495659b3d54b",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "dde2f5d63bf4a11326dc65bf2c15c1e8d38d447bd22baeaaea9f0efff9197473",
+      "actions": 19,
+      "topOptions": 41
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d093f53ccb4e85f18def671d332543c6d8481f2eb6fa22dfa93fccc2b2e03e0a",
+      "actions": 24,
+      "topOptions": 45
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "96ec8a696af2bcb814d3eb19bd9799f833e2b25f460ec02cb22871921ac4fe82",
+      "actions": 26,
+      "topOptions": 45
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full original source, every accepted model diff, final full G7 and model stop. All7source/runtime/collision/exact-family verification files PASS. Current corrected concrete frontier has no mandatory boundaries. Complete axes retain required size/offset/rotation/tick geometry; source paint now focused, including paired directional grid editors in0002. Both source layers/78marks preserved in0002. No invented styles/primitive decomposition or padded eighth stage; stop after7."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "5ee740b0f23728760a3fe3a0397cc4b843c85553215d1a8332068b5ded37fb53",
+      "bytes": 5215
+    },
+    "data.json": {
+      "sha256": "fcf3fd1ffd4249d8a3b75d200e2d7b7c640308160fbba8bdfe425705aea22784",
+      "bytes": 2897
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e457b86315f5c320a03724755d3fd5d9956d810b0dc9c902f9d811bd378c3ee2",
+      "bytes": 5112
+    },
+    "G1.gg.mjs": {
+      "sha256": "97716166644edf49cf126a64accdb9e66ad959853f0774d41dcc70068e808155",
+      "bytes": 2038
+    },
+    "G2.gg.mjs": {
+      "sha256": "81c2000b5877b444531af207523ec22a1fceb968f8187101fb7980345e8a9c5f",
+      "bytes": 2100
+    },
+    "G3.gg.mjs": {
+      "sha256": "fc9c6b59c9e9afd7a6bf69bc80823621e302ebe4451aad1cd9234d178c1a655b",
+      "bytes": 2204
+    },
+    "G4.gg.mjs": {
+      "sha256": "f7a4f08410c441921e9de4ac2b75741a4774b54b1b7d232e2720495659b3d54b",
+      "bytes": 2170
+    },
+    "G5.gg.mjs": {
+      "sha256": "dde2f5d63bf4a11326dc65bf2c15c1e8d38d447bd22baeaaea9f0efff9197473",
+      "bytes": 2348
+    },
+    "G6.gg.mjs": {
+      "sha256": "d093f53ccb4e85f18def671d332543c6d8481f2eb6fa22dfa93fccc2b2e03e0a",
+      "bytes": 2323
+    },
+    "G7.gg.mjs": {
+      "sha256": "96ec8a696af2bcb814d3eb19bd9799f833e2b25f460ec02cb22871921ac4fe82",
+      "bytes": 2377
+    },
+    "vega-lite.svg": {
+      "sha256": "32b257148438d147c2999abb91b4df180165f9bac0cfbfe9fbf9142623406f49",
+      "bytes": 20977
+    },
+    "ggaction.svg": {
+      "sha256": "a6aa8dcb98499157e9451e08d34f7857d1bfd92f071ae7c1429609894ad2df8f",
+      "bytes": 12025
+    }
+  }
+}

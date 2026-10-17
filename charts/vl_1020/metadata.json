@@ -1,0 +1,124 @@
+{
+  "id": "vl_1020",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "736b6ce058be734d5afeefb39d928a6824fa5f47ea17e9f01ba3a82510ea1e4e",
+      "actions": 10,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4d045698b3e407c455957eb9fa38c1225c140c69997e0cc249678a2369ec8753",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "41f6b91d96ec4bd29f24867477b47a74258c4d90b132e5e98b872dd71be2f94c",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7777e2bae683ba8f08318b56a2f7493d92ee2eb4cd09f98374f8a36840b140c2",
+      "actions": 15,
+      "topOptions": 37
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4d9d08590934d9e4b1cce06228280424f1c789b798fc062277f954424085de1b",
+      "actions": 16,
+      "topOptions": 39
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "27050b944ac79c92d94bfdfc6daf03677cda5160e00c085101aead0f7d44174c",
+      "actions": 18,
+      "topOptions": 41
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "24494363fe09c3c79d6bee7c40484b82b863bf8804ff4d0bb46583ec8b48122d",
+      "actions": 19,
+      "topOptions": 41
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "5813881ca8c5ac702c66816700a7d3677398902b4cff803badb4aa405e029ec8",
+      "actions": 21,
+      "topOptions": 41
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/GeorgeRobbin/GeorgeRobbin.github.io/main/data_ONS-MGVF.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight accepted stages individually reviewed, meaningful public ownership refinement and fixed source canvas/data/style; current source and exact family SVG/PNG checks pass."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "77bb2a122db6838a7d993cd910a482ac5c9011bb3ebc836dd75ab77e301b09e1",
+      "bytes": 828
+    },
+    "data.json": {
+      "sha256": "936326d667303a7e83ea4c40a1cd14e3bad19f00de2ef659b50d90bbc393d15d",
+      "bytes": 5974
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1de86140920bb5b1ea35f6999a7f85898bfc57b6af60709ff41440ac6120a1f2",
+      "bytes": 7914
+    },
+    "G1.gg.mjs": {
+      "sha256": "736b6ce058be734d5afeefb39d928a6824fa5f47ea17e9f01ba3a82510ea1e4e",
+      "bytes": 2323
+    },
+    "G2.gg.mjs": {
+      "sha256": "4d045698b3e407c455957eb9fa38c1225c140c69997e0cc249678a2369ec8753",
+      "bytes": 2281
+    },
+    "G3.gg.mjs": {
+      "sha256": "41f6b91d96ec4bd29f24867477b47a74258c4d90b132e5e98b872dd71be2f94c",
+      "bytes": 2235
+    },
+    "G4.gg.mjs": {
+      "sha256": "7777e2bae683ba8f08318b56a2f7493d92ee2eb4cd09f98374f8a36840b140c2",
+      "bytes": 2455
+    },
+    "G5.gg.mjs": {
+      "sha256": "4d9d08590934d9e4b1cce06228280424f1c789b798fc062277f954424085de1b",
+      "bytes": 2495
+    },
+    "G6.gg.mjs": {
+      "sha256": "27050b944ac79c92d94bfdfc6daf03677cda5160e00c085101aead0f7d44174c",
+      "bytes": 2465
+    },
+    "G7.gg.mjs": {
+      "sha256": "24494363fe09c3c79d6bee7c40484b82b863bf8804ff4d0bb46583ec8b48122d",
+      "bytes": 2471
+    },
+    "G8.gg.mjs": {
+      "sha256": "5813881ca8c5ac702c66816700a7d3677398902b4cff803badb4aa405e029ec8",
+      "bytes": 2425
+    },
+    "vega-lite.svg": {
+      "sha256": "75478638faffe027830d3b9c7d31aaf626d6db40c4b691ed1fc740c23681f38c",
+      "bytes": 8317
+    },
+    "ggaction.svg": {
+      "sha256": "07f0bce391e765eb308667b242e79ba5f3601c4fd65288caa5105104a1c54719",
+      "bytes": 7107
+    }
+  }
+}

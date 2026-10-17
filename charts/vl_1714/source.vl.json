@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://gicentre.github.io/data/westMidlands/westMidsCrimesAggregated.tsv"
+  },
+  "encoding": {
+    "color": {},
+    "opacity": {
+      "value": 1
+    },
+    "x": {
+      "field": "month",
+      "type": "temporal"
+    },
+    "y": {
+      "field": "reportedCrimes",
+      "title": "Reported crimes",
+      "type": "quantitative"
+    }
+  },
+  "mark": "line",
+  "width": 540
+}

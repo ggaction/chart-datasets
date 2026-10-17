@@ -1,0 +1,100 @@
+{
+  "id": "vl_0790",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "546d8bc6812c6b76445188e043b60aaa39e20060bf2ec0527a115cf73dd7c4c6",
+      "actions": 6,
+      "topOptions": 16
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4904702f9a315dc1ad8a7a4de8af5ae8f68eba0c220c83ee3e34266398c69a87",
+      "actions": 7,
+      "topOptions": 18
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e08e1bfefccf6622a5b229e5122418c6f9f4a512d2f46f2332fe47e1f77ee0cb",
+      "actions": 8,
+      "topOptions": 21
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c0c209ae4a777e742826c82f7324ad4da80c9242e291cf4cb54f3d9690325539",
+      "actions": 9,
+      "topOptions": 22
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9173ec880172a59a940f7b1d9bbd0f47ccf5ffd15ca318c9b936939b38691bc9",
+      "actions": 10,
+      "topOptions": 26
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "df411d0be9cd97036c603550cfe1f77e9a72ab962a52cefbe1d72c2dd6e9a482",
+      "actions": 12,
+      "topOptions": 30
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Paired-axis typography is now moved together. Remaining source geometry stays in valid creation; no further meaningful source style boundary remains."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "10ebd89a3195bdca9285f674a6e857e5ddecd8389d3b7828571a82e392fbb6a6",
+      "bytes": 2424
+    },
+    "data.json": {
+      "sha256": "f7e8068afc4719d9648169e41ebd9e4b01a2a672cf3cacff6e40c019f07759e0",
+      "bytes": 1519
+    },
+    "resolved-source.vl.json": {
+      "sha256": "10ebd89a3195bdca9285f674a6e857e5ddecd8389d3b7828571a82e392fbb6a6",
+      "bytes": 2424
+    },
+    "G1.gg.mjs": {
+      "sha256": "546d8bc6812c6b76445188e043b60aaa39e20060bf2ec0527a115cf73dd7c4c6",
+      "bytes": 2396
+    },
+    "G2.gg.mjs": {
+      "sha256": "4904702f9a315dc1ad8a7a4de8af5ae8f68eba0c220c83ee3e34266398c69a87",
+      "bytes": 2416
+    },
+    "G3.gg.mjs": {
+      "sha256": "e08e1bfefccf6622a5b229e5122418c6f9f4a512d2f46f2332fe47e1f77ee0cb",
+      "bytes": 2377
+    },
+    "G4.gg.mjs": {
+      "sha256": "c0c209ae4a777e742826c82f7324ad4da80c9242e291cf4cb54f3d9690325539",
+      "bytes": 2320
+    },
+    "G5.gg.mjs": {
+      "sha256": "9173ec880172a59a940f7b1d9bbd0f47ccf5ffd15ca318c9b936939b38691bc9",
+      "bytes": 2142
+    },
+    "G6.gg.mjs": {
+      "sha256": "df411d0be9cd97036c603550cfe1f77e9a72ab962a52cefbe1d72c2dd6e9a482",
+      "bytes": 2190
+    },
+    "vega-lite.svg": {
+      "sha256": "d5e3ab3d63c01d69306ab13903d6a13c3c3a281f1f5f5b2dc9c2c91bfcbd20d5",
+      "bytes": 17017
+    },
+    "ggaction.svg": {
+      "sha256": "5f67bb341f20e13fef4a70d02f9bde5a4b5d74455c311a873043325e6b7e4801",
+      "bytes": 14984
+    }
+  }
+}

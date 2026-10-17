@@ -1,0 +1,80 @@
+{
+  "id": "vl_0564",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "76b4cef68bd2ea564886bc015c3c2105addd49195ad06f3735be8cc0937aca51",
+      "actions": 12,
+      "topOptions": 33
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b8bc0ac398a24eee855ed29410675bbb853bac0c9b4fa54e429c26f9535cd405",
+      "actions": 13,
+      "topOptions": 35
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "fe7e0b4363462e49d7cd4402af7d73f956b87629463db830e97f6b630299ac60",
+      "actions": 14,
+      "topOptions": 37
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "eb1aa2a4399e3d1166addf38ec70972246549d2cfef2f8633ebdb7dfdcc2f814",
+      "actions": 15,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/ch7_Trade/USmigrationByType.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full accepted code inspected: mark, polar coordinate, color and theta policies use existing focused actions, title paint focused, source legend circle recipe focused; measured creationfont10 remains protected. No remaining explicit meaningful boundary without defaults or scalar padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "7b5fceae22389ecf04a3c112caa243091a46521ae87ed1fb6b9987ec16952d05",
+      "bytes": 1289
+    },
+    "data.json": {
+      "sha256": "9458908406f5d1503cdb62e6afce7706cff7229512755df4b3569a294d804e19",
+      "bytes": 462
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a5ea4dfdf675d27af071a479412739e3d772176b523849bc1e4c1a233f8d0879",
+      "bytes": 1719
+    },
+    "G1.gg.mjs": {
+      "sha256": "76b4cef68bd2ea564886bc015c3c2105addd49195ad06f3735be8cc0937aca51",
+      "bytes": 1554
+    },
+    "G2.gg.mjs": {
+      "sha256": "b8bc0ac398a24eee855ed29410675bbb853bac0c9b4fa54e429c26f9535cd405",
+      "bytes": 1564
+    },
+    "G3.gg.mjs": {
+      "sha256": "fe7e0b4363462e49d7cd4402af7d73f956b87629463db830e97f6b630299ac60",
+      "bytes": 1678
+    },
+    "G4.gg.mjs": {
+      "sha256": "eb1aa2a4399e3d1166addf38ec70972246549d2cfef2f8633ebdb7dfdcc2f814",
+      "bytes": 1709
+    },
+    "vega-lite.svg": {
+      "sha256": "1c03c27c2169ec22a71b41cc44971b8accca97d5a495f70a086e5a4b67b4a562",
+      "bytes": 5164
+    },
+    "ggaction.svg": {
+      "sha256": "a37540e1b992a9ba7d897ffd90eee786df34e4e79ce929f8363480db7392e701",
+      "bytes": 3026
+    }
+  }
+}

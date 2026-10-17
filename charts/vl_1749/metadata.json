@@ -1,0 +1,80 @@
+{
+  "id": "vl_1749",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f21a1dee1dfdcf0df87f1a20e818061ef433c743c3f9a9612189cf2a1e5edaf1",
+      "actions": 7,
+      "topOptions": 18
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4799b30591c51f3090e108fe3764fba002bbfd49829c84115b60c2f0ec3b9417",
+      "actions": 8,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "947a61aa9347a37e6159cff0340af75556de25a5773676548dbebc6d7454af93",
+      "actions": 10,
+      "topOptions": 28
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "cbceaa45d1325c88dfd7c250b2614440ef2736ed6c1ad50a0f993cb54f8e27eb",
+      "actions": 16,
+      "topOptions": 32
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex read entire final accepted module and current concrete ownership frontier. Real explicit formatting/paint exhausted; only protected source geometry and already-focused owners remain. No default-only scalar padding. Original stop/usage preserved, or8meaningfulstage cap."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "bdeebac65dfdadd82a15f443a69803c0d4697433d1f79ee841a0603db54ed27c",
+      "bytes": 440
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "12b133c4ebf81779fb7d7e4b18658d8e881da9ded18ff0d0f8ef12e1c7fb2cc8",
+      "bytes": 114288
+    },
+    "G1.gg.mjs": {
+      "sha256": "f21a1dee1dfdcf0df87f1a20e818061ef433c743c3f9a9612189cf2a1e5edaf1",
+      "bytes": 1593
+    },
+    "G2.gg.mjs": {
+      "sha256": "4799b30591c51f3090e108fe3764fba002bbfd49829c84115b60c2f0ec3b9417",
+      "bytes": 1533
+    },
+    "G3.gg.mjs": {
+      "sha256": "947a61aa9347a37e6159cff0340af75556de25a5773676548dbebc6d7454af93",
+      "bytes": 1761
+    },
+    "G4.gg.mjs": {
+      "sha256": "cbceaa45d1325c88dfd7c250b2614440ef2736ed6c1ad50a0f993cb54f8e27eb",
+      "bytes": 1699
+    },
+    "vega-lite.svg": {
+      "sha256": "0484fa77ae596adb87889426fe1f4f7882cd2b5dd8145207bd78c4e765a36b8f",
+      "bytes": 181154
+    },
+    "ggaction.svg": {
+      "sha256": "515889e09956f073f48db41789c74ea407c2fdcf4fba64341ef4dbc7e79dc867",
+      "bytes": 169280
+    }
+  }
+}

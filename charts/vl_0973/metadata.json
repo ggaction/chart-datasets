@@ -1,0 +1,102 @@
+{
+  "id": "vl_0973",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d761c26a76c640d464899d5574774307272b82a61a36f32c309352d65418c8db",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "7185e126cf75d06ed8771ed9fdcb8f66434aa1c8fa4f3e5ef0bbe9b264583ade",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "abe24eb8cc62b14a6c9d942a7333a8c6a95ffd2d9dd02641829cd28d3b06d2e5",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ee1289e59decfd635840378d701a0d877686e6c15e7e144bf924b7010365fc20",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e687ef7241af70980ec0c030f43c4efd7fd6d943f18af4bd4ddcce1a3bb76867",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "88eb74f2d58a6ad73510832da381082312e23490b6a66e220bd5f3df52337ee0",
+      "actions": 21,
+      "topOptions": 41
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/harrywright25/harrywright25.github.io/main/data_IMF_creditOutstanding.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Read full finalG6 and model stop: existing scales, focused axis line/ticks/year labels and title paint exhausted. Complete creation fonts/rotation/tick geometry remain source-bound; all raw44 and derived39 rows retained. Honest6 distinct stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "c45a5275604655cba7620efdea1b4f91a47d52b14da779a69e6230b710eb9a16",
+      "bytes": 993
+    },
+    "data.json": {
+      "sha256": "48d8440d7317188d6e1872651c030725152b92d32ab7e1bb8502f479e0fcf524",
+      "bytes": 12291
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a305419e3eb2fb219ca07fee875b9b036213b09a05a0065e1cfc3218d664b1a5",
+      "bytes": 15189
+    },
+    "G1.gg.mjs": {
+      "sha256": "d761c26a76c640d464899d5574774307272b82a61a36f32c309352d65418c8db",
+      "bytes": 2553
+    },
+    "G2.gg.mjs": {
+      "sha256": "7185e126cf75d06ed8771ed9fdcb8f66434aa1c8fa4f3e5ef0bbe9b264583ade",
+      "bytes": 2563
+    },
+    "G3.gg.mjs": {
+      "sha256": "abe24eb8cc62b14a6c9d942a7333a8c6a95ffd2d9dd02641829cd28d3b06d2e5",
+      "bytes": 2523
+    },
+    "G4.gg.mjs": {
+      "sha256": "ee1289e59decfd635840378d701a0d877686e6c15e7e144bf924b7010365fc20",
+      "bytes": 2577
+    },
+    "G5.gg.mjs": {
+      "sha256": "e687ef7241af70980ec0c030f43c4efd7fd6d943f18af4bd4ddcce1a3bb76867",
+      "bytes": 2709
+    },
+    "G6.gg.mjs": {
+      "sha256": "88eb74f2d58a6ad73510832da381082312e23490b6a66e220bd5f3df52337ee0",
+      "bytes": 2696
+    },
+    "vega-lite.svg": {
+      "sha256": "8367275c0893e9c0ac23ef98290cafebc213ca705f9f938b73bb7402546d9625",
+      "bytes": 14760
+    },
+    "ggaction.svg": {
+      "sha256": "f61148308814afae755b89704934a9aba63db60215429d77093409fb50872d6d",
+      "bytes": 13294
+    }
+  }
+}

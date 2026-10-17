@@ -1,0 +1,113 @@
+{
+  "id": "vl_1952",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b19585fe5c270ae2855d7f1d8c160545cbc0340a6724632ae07fc320461ab86e",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e210d023cd45794fadba8fc79a3c431af09fda625ffd7d7cce23bd7b2fdb8463",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7ee67b4d2308adfc8a22ca917dda2c8768af2b5fe8a163d49432890a1cfb7804",
+      "actions": 13,
+      "topOptions": 28
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "b4abcf670312c952147ce29fde7d1e85062186d8668f9ccfe71735c2ac2145d1",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "2c4178068f4bbdaf1200284f95e2996e2dc78d2f023cbcf5f92d9c14eebd6a65",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b6ea938a544bc51b02fd8af45a0b53abfd75124e80f4d3ee8556d3b52d458431",
+      "actions": 18,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "a46b2da112e63a3544a16c5ad524f86c7c2721595233327c7ec559a74a8cd87e",
+      "actions": 18,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/segunolalive/daily-gas-prices/049d6eb60825275229ab933cd6251752296e29bb/docs/daily_prices.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Fullsource and everyacceptedcode/diff reviewed; currentpin sourcegeometry/data/style/fullfamily SVG/PNG all pass. Concrete mandatoryfrontier zero, exact sourcecreationgeometry preserved, no defaultpadding/cycles. Two linegap sources carry full raw/source/compiled/codeSHAbound orderedruns at everyaccepted stage."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "674119ee4e49504dadc730a4dfe50d6590138fe417b4db5e9a0233ef870c9f64",
+      "bytes": 631
+    },
+    "data.json": {
+      "sha256": "db831580e4dac9ad93a5b66ee027be4f6419df3a0890dfb67a45d7ba5200cb0b",
+      "bytes": 324949
+    },
+    "resolved-source.vl.json": {
+      "sha256": "b39ca6be26ece8a5c4008ae7c7f8e0c6647394d5af59c0c4d49c8a3e7d518a36",
+      "bytes": 418330
+    },
+    "G1.gg.mjs": {
+      "sha256": "b19585fe5c270ae2855d7f1d8c160545cbc0340a6724632ae07fc320461ab86e",
+      "bytes": 2426
+    },
+    "G2.gg.mjs": {
+      "sha256": "e210d023cd45794fadba8fc79a3c431af09fda625ffd7d7cce23bd7b2fdb8463",
+      "bytes": 2428
+    },
+    "G3.gg.mjs": {
+      "sha256": "7ee67b4d2308adfc8a22ca917dda2c8768af2b5fe8a163d49432890a1cfb7804",
+      "bytes": 2358
+    },
+    "G4.gg.mjs": {
+      "sha256": "b4abcf670312c952147ce29fde7d1e85062186d8668f9ccfe71735c2ac2145d1",
+      "bytes": 2400
+    },
+    "G5.gg.mjs": {
+      "sha256": "2c4178068f4bbdaf1200284f95e2996e2dc78d2f023cbcf5f92d9c14eebd6a65",
+      "bytes": 2352
+    },
+    "G6.gg.mjs": {
+      "sha256": "b6ea938a544bc51b02fd8af45a0b53abfd75124e80f4d3ee8556d3b52d458431",
+      "bytes": 2412
+    },
+    "G7.gg.mjs": {
+      "sha256": "a46b2da112e63a3544a16c5ad524f86c7c2721595233327c7ec559a74a8cd87e",
+      "bytes": 2400
+    },
+    "vega-lite.svg": {
+      "sha256": "3a2f6796f72e8e28347bdc70f938c6721a3f8f516cda1da4ef3acefbc2806198",
+      "bytes": 88003
+    },
+    "ggaction.svg": {
+      "sha256": "0cd016cac7cf89cbb0ce83acf4df0a18ab939a0bfeb48ec8472e0d76c59287fa",
+      "bytes": 158412
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "vl_1085",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "195e88d206ace271ef76f9382224ce3c115432fb7fd7ee84b244fc7f1bda46d8",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1f87bcd2033d9b3e3cd369763f410c7f2908f12db6b7528415472f9961ea9569",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8e2f701b80fdfb0e0a9a4ce220f67ce35b79aa4b66ee70ac3555baa97769105a",
+      "actions": 13,
+      "topOptions": 31
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/data_IMF_creditOutstanding%20(2).csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed actual complete final module and modelstop: source paints/explicit formats/scales already focused; remaining complete-axis settings are measured geometry/fonts/tick content, source has no further semantic styles. No padding or scalar quota split."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a80dfdb0e73b85f8480478fe96cd6e4db58f1685fe0302fd545eaa27d408c62a",
+      "bytes": 907
+    },
+    "data.json": {
+      "sha256": "de9daee8eda13a0c7290bc0d556020c6b8e9df4042024a3d5ded8a33a011bc9d",
+      "bytes": 7448
+    },
+    "resolved-source.vl.json": {
+      "sha256": "50b5d3395573fde606f48511fe0fa8bb59f9bcc1516722108198b65168245127",
+      "bytes": 9564
+    },
+    "G1.gg.mjs": {
+      "sha256": "195e88d206ace271ef76f9382224ce3c115432fb7fd7ee84b244fc7f1bda46d8",
+      "bytes": 2005
+    },
+    "G2.gg.mjs": {
+      "sha256": "1f87bcd2033d9b3e3cd369763f410c7f2908f12db6b7528415472f9961ea9569",
+      "bytes": 2022
+    },
+    "G3.gg.mjs": {
+      "sha256": "8e2f701b80fdfb0e0a9a4ce220f67ce35b79aa4b66ee70ac3555baa97769105a",
+      "bytes": 1970
+    },
+    "vega-lite.svg": {
+      "sha256": "4502792d80e37c55021069c9f8ce348aa4236999f5ff681269ec2afe9cb94537",
+      "bytes": 15126
+    },
+    "ggaction.svg": {
+      "sha256": "ffd282c54d7e3c16a8edf889b7eaa515f3562547480cdf354e7da07e63ac2fff",
+      "bytes": 13336
+    }
+  }
+}

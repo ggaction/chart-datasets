@@ -1,0 +1,124 @@
+{
+  "id": "vl_0281",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "e39eb3e6738066ba49acd1e9b8f0aac789390752e058b1e65c4ff116a0f80a14",
+      "actions": 29,
+      "topOptions": 65
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "fd8cdbe8b6e133db27af560a78e9785ff88d4734bff1cb414e72a299355174a3",
+      "actions": 30,
+      "topOptions": 69
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8426807c37735cd44137f28413b161d7da3b68b6da1e2f6d574523fba34f0810",
+      "actions": 30,
+      "topOptions": 69
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "34e11a05ca06c1ec42f69d2f75f10d467866123da1bb6f208a95721ca3455b41",
+      "actions": 31,
+      "topOptions": 70
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "0cc5ce577a1deb1e12136c5f07ae475a991c919b5d52109fd04df9b24548161a",
+      "actions": 33,
+      "topOptions": 74
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "c5ae68d9a34c9c9e8dd68ef316c1b7609ce0827d2d874654a22c1fb39c7397ea",
+      "actions": 37,
+      "topOptions": 78
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "b4f5d664d0d5e56ba1a1d8227834b2b23e3c0ef6f91feae6561df24368cc766d",
+      "actions": 38,
+      "topOptions": 79
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "c989d063c564f3ed158c4fcb8fdbbfbef901ffc0de0508a583f7d8607d4fe464",
+      "actions": 40,
+      "topOptions": 79
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/Afghanistian_move.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original Afghanistan three-layer source and final code reread: all100raw rows preserved, exact rank<=20 selection/native mean,20log-scaled colored intervals from source lowerdomain10, black3px rule and original no-ink semantic text layer retained. Plot450x300/source fonts/rotated labels/axis labelMap/palette/transparency/native legend spacing strict current02661PASS. Final level splits paired tick/label groups; eight meaningful stages complete with remaining title/legend typography honestly retained at cap."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "4424a6f52037a655610113166ae51759d2a85d4e5e62a841da84a404c2ecc891",
+      "bytes": 2045
+    },
+    "data.json": {
+      "sha256": "a512905fc167c91489d209b793b9715312ec77f77171dc17de6987ba061ed9ff",
+      "bytes": 45982
+    },
+    "resolved-source.vl.json": {
+      "sha256": "186fb58b57ac2d85157ac398521d40eb7ac9e4ebc68ea471424bc4d38099ae55",
+      "bytes": 54329
+    },
+    "G1.gg.mjs": {
+      "sha256": "e39eb3e6738066ba49acd1e9b8f0aac789390752e058b1e65c4ff116a0f80a14",
+      "bytes": 4353
+    },
+    "G2.gg.mjs": {
+      "sha256": "fd8cdbe8b6e133db27af560a78e9785ff88d4734bff1cb414e72a299355174a3",
+      "bytes": 4301
+    },
+    "G3.gg.mjs": {
+      "sha256": "8426807c37735cd44137f28413b161d7da3b68b6da1e2f6d574523fba34f0810",
+      "bytes": 4153
+    },
+    "G4.gg.mjs": {
+      "sha256": "34e11a05ca06c1ec42f69d2f75f10d467866123da1bb6f208a95721ca3455b41",
+      "bytes": 4166
+    },
+    "G5.gg.mjs": {
+      "sha256": "0cc5ce577a1deb1e12136c5f07ae475a991c919b5d52109fd04df9b24548161a",
+      "bytes": 4300
+    },
+    "G6.gg.mjs": {
+      "sha256": "c5ae68d9a34c9c9e8dd68ef316c1b7609ce0827d2d874654a22c1fb39c7397ea",
+      "bytes": 4340
+    },
+    "G7.gg.mjs": {
+      "sha256": "b4f5d664d0d5e56ba1a1d8227834b2b23e3c0ef6f91feae6561df24368cc766d",
+      "bytes": 4368
+    },
+    "G8.gg.mjs": {
+      "sha256": "c989d063c564f3ed158c4fcb8fdbbfbef901ffc0de0508a583f7d8607d4fe464",
+      "bytes": 4354
+    },
+    "vega-lite.svg": {
+      "sha256": "4296a8b56457bec1dae0d472b5a67ac9514f6116d053767a3dc3be6b89c560f6",
+      "bytes": 25075
+    },
+    "ggaction.svg": {
+      "sha256": "619177171d9c4e8cf86ff48e9f5f24bd8c6ee97eaeb4a8b250124656cdae4cde",
+      "bytes": 18937
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_1057",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "df94e9635378566749f1afdd08b2f067d7ad186a4b1323f1e10e5bec48a80091",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "14f7f44732c28c4b23dd068c16dc539baf27fa08eee1ecc0490dc13ff39643da",
+      "actions": 13,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "9f53ddc1fe965461e6ae0ef34a888c302e8515462c488b24f605c05dd7a4b059",
+      "actions": 15,
+      "topOptions": 30
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "cf230802df45cce98e4844db223970ba8f5136fc1f210aa881bdeb0259c80ab7",
+      "actions": 16,
+      "topOptions": 34
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "5d7c9b9a1abaed598514d9f9d7b9e1a233316ad1d6fb3cda05024f5cfb755cf9",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "67b7fcdcb02ae6524b6d89e3baf8dba2f2fafe00f25d8b9a43b802fde05d9d2b",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "283e45378809e4998cff1b98f1cfd814bcdf64501449e4cada4e4156c690cc84",
+      "actions": 23,
+      "topOptions": 46
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "02dc26ec5803e45aa8fc4e3d22b97f3d6554229a7d9dd14459753eca330365db",
+      "actions": 24,
+      "topOptions": 46
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/editor/data/stocks.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source/finalG8 code reread; normal current verification PASS and all8 stage outputs identical. Full560stockrows/fivegroupseries/source500x300, temporal axes/fonts and rightcirclelegend unchanged. Final pairedgrid directional editor split is meaningful. Eight-stage cap; remaining legend/stroke/axiscomponent boundaries not claimed exhausted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "598e681f064e4cb553d324fea8635f8451a2dd25282f53bb79cdb8bbfcd9565c",
+      "bytes": 1419
+    },
+    "data.json": {
+      "sha256": "1bdaf793f6aae36096d9946eaddc54f313be476f70ff874ed70e2c0b676bac8c",
+      "bytes": 43591
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0783d43622f8ce36eceaa79ce2725f42f98ff905623c6b1f6c7a5d3295158278",
+      "bytes": 56241
+    },
+    "G1.gg.mjs": {
+      "sha256": "df94e9635378566749f1afdd08b2f067d7ad186a4b1323f1e10e5bec48a80091",
+      "bytes": 5274
+    },
+    "G2.gg.mjs": {
+      "sha256": "14f7f44732c28c4b23dd068c16dc539baf27fa08eee1ecc0490dc13ff39643da",
+      "bytes": 5269
+    },
+    "G3.gg.mjs": {
+      "sha256": "9f53ddc1fe965461e6ae0ef34a888c302e8515462c488b24f605c05dd7a4b059",
+      "bytes": 5271
+    },
+    "G4.gg.mjs": {
+      "sha256": "cf230802df45cce98e4844db223970ba8f5136fc1f210aa881bdeb0259c80ab7",
+      "bytes": 5231
+    },
+    "G5.gg.mjs": {
+      "sha256": "5d7c9b9a1abaed598514d9f9d7b9e1a233316ad1d6fb3cda05024f5cfb755cf9",
+      "bytes": 5279
+    },
+    "G6.gg.mjs": {
+      "sha256": "67b7fcdcb02ae6524b6d89e3baf8dba2f2fafe00f25d8b9a43b802fde05d9d2b",
+      "bytes": 5461
+    },
+    "G7.gg.mjs": {
+      "sha256": "283e45378809e4998cff1b98f1cfd814bcdf64501449e4cada4e4156c690cc84",
+      "bytes": 5457
+    },
+    "G8.gg.mjs": {
+      "sha256": "02dc26ec5803e45aa8fc4e3d22b97f3d6554229a7d9dd14459753eca330365db",
+      "bytes": 5463
+    },
+    "vega-lite.svg": {
+      "sha256": "9eb31da23ae69b09c1a289b4257b5a5bb2d676f053b09e60ada5353fb69521e8",
+      "bytes": 25063
+    },
+    "ggaction.svg": {
+      "sha256": "4baf8bc1b112aa79b9fe8fe8c1c699f87b73e020c75a833bd27f0ba95677733c",
+      "bytes": 26540
+    }
+  }
+}

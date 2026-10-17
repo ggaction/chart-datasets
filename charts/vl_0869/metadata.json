@@ -1,0 +1,113 @@
+{
+  "id": "vl_0869",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "61d00d3e7db87def162409f9a079197cc6739cf2a89459622a01be6c390a5edb",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "71f050bec2c626ee50b92d368ad06431861dbff5e65e69c020ea18d0301287b9",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b111d22dbda79b7eaded170210f360d166a84e990ef535bcad5bb3bc201012ee",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f6139e5a438e8bb8bd73f6675957082012fd1f7d804ec5241fa1cff8138f674d",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "758c165754c5df4e9434c589fe32a6b5c2cc8bc0c98708e02f1681ae24b140e4",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "fb4a0991da9d0d4d848315783262ade65609a47ffea958a7322cf217ad074b1c",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "924945da8787e5db54460ab6084fd322cf630714f1f223a833ae01cc805da6ef",
+      "actions": 18,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/joewilliams200217/joewilliams200217.github.io/main/data_IMF_creditoutstandingGDPadj.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "FullG7 inspected: explicit %Y and2decimal formats arefocused, Ytitle700focused, title/subtitle paints inclitalic moved to editTitle, protected font13/10 andaxisgeometries creation; no legend/grid/nativeconstantfillencoder. Seven genuine stages, same source39bars exact allfamilyoutputs. Remaining scalar geometry/defaults are not meaningful ownership frontiers."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "977d50f86180840e71b0dd8dc201cec282ac95ec91f14baea63dfd503d7d8356",
+      "bytes": 1101
+    },
+    "data.json": {
+      "sha256": "247969b90c807c7d0ec3c1a7fd118f0c17a1c92e492776074c221370003b1a48",
+      "bytes": 10556
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d0f0141285efa93cd80af8051589e6e8276af053282571f7a16008c72b1fc799",
+      "bytes": 13372
+    },
+    "G1.gg.mjs": {
+      "sha256": "61d00d3e7db87def162409f9a079197cc6739cf2a89459622a01be6c390a5edb",
+      "bytes": 2404
+    },
+    "G2.gg.mjs": {
+      "sha256": "71f050bec2c626ee50b92d368ad06431861dbff5e65e69c020ea18d0301287b9",
+      "bytes": 2422
+    },
+    "G3.gg.mjs": {
+      "sha256": "b111d22dbda79b7eaded170210f360d166a84e990ef535bcad5bb3bc201012ee",
+      "bytes": 2382
+    },
+    "G4.gg.mjs": {
+      "sha256": "f6139e5a438e8bb8bd73f6675957082012fd1f7d804ec5241fa1cff8138f674d",
+      "bytes": 2432
+    },
+    "G5.gg.mjs": {
+      "sha256": "758c165754c5df4e9434c589fe32a6b5c2cc8bc0c98708e02f1681ae24b140e4",
+      "bytes": 2456
+    },
+    "G6.gg.mjs": {
+      "sha256": "fb4a0991da9d0d4d848315783262ade65609a47ffea958a7322cf217ad074b1c",
+      "bytes": 2510
+    },
+    "G7.gg.mjs": {
+      "sha256": "924945da8787e5db54460ab6084fd322cf630714f1f223a833ae01cc805da6ef",
+      "bytes": 2510
+    },
+    "vega-lite.svg": {
+      "sha256": "87086b7ef743b428c42326dde7246485f886c2990cebd16324f37fc646e11e07",
+      "bytes": 15796
+    },
+    "ggaction.svg": {
+      "sha256": "bb4db368acce97ec1d909aef67334e1866b14eda25ce82ed0a1d3ffa78ee5a38",
+      "bytes": 12558
+    }
+  }
+}

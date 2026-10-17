@@ -1,0 +1,59 @@
+// DOCS: doc-ef5a28c0c3f3c920 doc-b10d8291c442e77a
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({ width: 373, height: 414, margin: { left: 66, top: 64, right: 7, bottom: 50 } })
+    .editCanvas({ background: "white" })
+    .createData({ values: data })
+    .createComputedData({ id: "hdiRow", as: "hdi", expression: { op: "toNumber", operand: { field: "Value" } } })
+    .createComputedData({ id: "pointsRow", as: "womensPoints", expression: { op: "toNumber", operand: { field: "Womens Points" } } })
+    .createComputedData({ id: "populationRow", as: "population", expression: { op: "toNumber", operand: { field: "Population" } } })
+    .createScatterPlot({
+      x: { field: "hdi", fieldType: "quantitative" },
+      y: { field: "womensPoints", fieldType: "quantitative" },
+      guides: false
+    })
+    .editXScale({ target: "scatterPlot", domain: [0.3, 1] })
+    .editYScale({ target: "scatterPlot", domain: [300, 2200] })
+    .encodeSize({ field: "population", fieldType: "quantitative" })
+    .editSizeScale({ target: "scatterPlot", domain: [0, 1412360000], range: [10 * Math.PI / 4, 800 * Math.PI / 4] })
+    .encodeOpacity({ target: "scatterPlot", value: 0.8 })
+    .editPointMark({ fill: "#3D76E0", stroke: "none" })
+    .createXAxis({
+      ticksAndLabels: {
+        values: [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
+        ticks: { length: 5 },
+        labels: { fontSize: 10, offset: 7, flush: true }
+      },
+      title: { text: "⟵                                                                   ⟶\nLess Developed                                            More Developed", fontSize: 11 }
+    })
+    .editXAxisLine({ color: "#888" })
+    .editXAxisTicks({ color: "#888" })
+    .editXAxis({
+      ticksAndLabels: {
+        labels: { color: "black", format: ".1f" }
+      },
+      title: { fontWeight: 700, color: "black" }
+    })
+    .createYAxis({
+      ticksAndLabels: {
+        values: [400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200],
+        ticks: { length: 5 },
+        labels: { fontSize: 10, offset: 7 }
+      },
+      title: { text: "Worse Team                                                   Better Team\n⟵                                                                     ⟶", fontSize: 11, rotation: { value: -90, unit: "degrees" } }
+    })
+    .editYAxisLine({ color: "#888" })
+    .editYAxisTicks({ color: "#888" })
+    .editYAxis({
+      ticksAndLabels: {
+        labels: { color: "black", format: ",.0f" }
+      },
+      title: { fontWeight: 700, color: "black" }
+    })
+    .createTitle({ text: "Women's Team Performance vs Economic Development", titleStyle: { fontSize: 13, fontWeight: 700, color: "black" }, alongOffset: -60.0244140625 })
+    .editTitle({ subtitleStyle: { fontSize: 10, fontStyle: "italic", color: "black" }, offset: -13, gap: 1 })
+    .editTitle({ subtitle: "Human Development Index (x), FIFA ranking points (y). 2021 data\nSize of points based on popluation\n" });
+}

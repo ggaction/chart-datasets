@@ -1,0 +1,124 @@
+{
+  "id": "vl_0274",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f5a2efe5a845fd95be1ba87b38a8ca8788c6e0c4495fa587e8a051ee5e931955",
+      "actions": 26,
+      "topOptions": 63
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "eee44e6e16645d8f30a8af3e4f4bace2ccfc96492a26f190371c376efd100b55",
+      "actions": 27,
+      "topOptions": 65
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "f37b9bff117ca39560768f33c7d443b328f6e6e4999ffb786e752db20ec0158e",
+      "actions": 29,
+      "topOptions": 71
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e80931964b00da26fca7a3175c3e020f4db786e79e7f36fcdbb887385b81f657",
+      "actions": 30,
+      "topOptions": 71
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "2eb9507defff31bff68523c6cde800219a20e5b220847a89c6fa2c9289dbe4ae",
+      "actions": 32,
+      "topOptions": 71
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "56306cb615ccdc7f12f94561063e58816b6da50ab81e6361363cffa663c7c4ea",
+      "actions": 36,
+      "topOptions": 75
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "301d826e1b90afeaffef3bd7ff8ae53f87cba02738965b7dd3614586a1ad70d8",
+      "actions": 36,
+      "topOptions": 75
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "808caffdcd3aa36966f893ff32b417501b0aa7ec3ea3288105208635505a3977",
+      "actions": 37,
+      "topOptions": 76
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/Myanmar_move.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original source and final GLM program reread. All20 source log rects retain raw rank filter/base0.1, exact filled interval geometry/colors, actual mean rule and one-row empty text semantics. Eight meaningful ownership stages verified under current02661; remaining focused legend/grid refinements honestly capped. No chart pixels or new host-authored chart bytes."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e780f8c0b5c9737b61fe4f215998b7659bad5d043d1612d2980cadca3a83c231",
+      "bytes": 2036
+    },
+    "data.json": {
+      "sha256": "03726d2dcca4457d1ec91521e44904c443523d227acb211df6521426884ad0ed",
+      "bytes": 19117
+    },
+    "resolved-source.vl.json": {
+      "sha256": "2caf2fae87b4f1d39dc6f9dd64d05aa76223df58001bce4b70f93cf02e4e8f69",
+      "bytes": 23748
+    },
+    "G1.gg.mjs": {
+      "sha256": "f5a2efe5a845fd95be1ba87b38a8ca8788c6e0c4495fa587e8a051ee5e931955",
+      "bytes": 4725
+    },
+    "G2.gg.mjs": {
+      "sha256": "eee44e6e16645d8f30a8af3e4f4bace2ccfc96492a26f190371c376efd100b55",
+      "bytes": 4757
+    },
+    "G3.gg.mjs": {
+      "sha256": "f37b9bff117ca39560768f33c7d443b328f6e6e4999ffb786e752db20ec0158e",
+      "bytes": 4967
+    },
+    "G4.gg.mjs": {
+      "sha256": "e80931964b00da26fca7a3175c3e020f4db786e79e7f36fcdbb887385b81f657",
+      "bytes": 4995
+    },
+    "G5.gg.mjs": {
+      "sha256": "2eb9507defff31bff68523c6cde800219a20e5b220847a89c6fa2c9289dbe4ae",
+      "bytes": 4977
+    },
+    "G6.gg.mjs": {
+      "sha256": "56306cb615ccdc7f12f94561063e58816b6da50ab81e6361363cffa663c7c4ea",
+      "bytes": 4977
+    },
+    "G7.gg.mjs": {
+      "sha256": "301d826e1b90afeaffef3bd7ff8ae53f87cba02738965b7dd3614586a1ad70d8",
+      "bytes": 4851
+    },
+    "G8.gg.mjs": {
+      "sha256": "808caffdcd3aa36966f893ff32b417501b0aa7ec3ea3288105208635505a3977",
+      "bytes": 4882
+    },
+    "vega-lite.svg": {
+      "sha256": "5595e7cdf7e2a5715e828913d4a388f81a584265e4bc0a2ffa2094731e3b1ea9",
+      "bytes": 30766
+    },
+    "ggaction.svg": {
+      "sha256": "14b62351062a17c023bc440f124c25923df8605883be2a852bacd4e028b7263f",
+      "bytes": 22917
+    }
+  }
+}

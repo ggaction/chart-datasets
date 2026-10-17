@@ -1,0 +1,75 @@
+// DOCS: doc-b11b4627b143730d
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({
+      width: 375,
+      height: 374,
+      margin: { left: 39, top: 37, right: 16, bottom: 37 }
+    })
+    .createData({ values: data })
+    .createComputedData({
+      id: "valueNumData",
+      as: "valueNum",
+      expression: { op: "toNumber", operand: { field: "value" } }
+    })
+    .createLinePlot({
+      x: {
+        field: "date",
+        fieldType: "temporal",
+        scale: { domain: [599616000000, 1667260800000], nice: false }
+      },
+      y: {
+        field: "valueNum",
+        fieldType: "quantitative",
+        scale: { domain: [0, 18] }
+      },
+      guides: false
+    })
+    .editLineMark({ stroke: "#002199", strokeWidth: 2 })
+    .createGuides({
+      grid: false,
+      axes: {
+        x: {
+          line: {},
+          ticksAndLabels: {
+            values: [
+              631152000000, 788918400000, 946684800000, 1104537600000,
+              1262304000000, 1420070400000, 1577836800000
+            ],
+            ticks: {},
+            labels: { fontSize: 10, offset: 7, format: "%Y" }
+          },
+          title: { text: "Date", fontSize: 11, fontWeight: 700, offset: 27 }
+        },
+        y: {
+          line: {},
+          ticksAndLabels: {
+            values: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18],
+            ticks: {},
+            labels: { fontSize: 10, offset: 7 }
+          },
+          title: {
+            text: "Inflation",
+            fontSize: 11,
+            fontWeight: 700,
+            offset: 32,
+            rotation: { value: -90, unit: "degrees" }
+          }
+        }
+      }
+    })
+    .createTitle({
+      text: "CPI ANNUAL RATE 02 : ALCOHOLIC BEVERAGES AND TOBACCO 2015=100",
+      titleStyle: { fontSize: 10, fontWeight: 700 },
+      alongOffset: -33.1
+    })
+    .editTitle({
+      subtitle: "(\u00A3million, Source: ONS)",
+      subtitleStyle: { fontSize: 10, fontStyle: "italic" },
+      offset: -13
+    })
+    .editTitle({ gap: 1 });
+}

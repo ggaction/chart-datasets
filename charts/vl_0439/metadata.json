@@ -1,0 +1,124 @@
+{
+  "id": "vl_0439",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f9dd765083af2838cfbc237637df3776ac16f5922872fe5d799560dbb7524673",
+      "actions": 11,
+      "topOptions": 28
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "73d5c37e234430c81b2560bf1c6e6c18866634e299fb6a2b7a878914a0e455ae",
+      "actions": 12,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "6abe98889dba6b759268a61fe3c2897bf9fea248fe692254fd80b27a289e27ec",
+      "actions": 14,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "082c5876a178375e94d61f953d552d80333cf57466e546607d1490fddc9876e5",
+      "actions": 16,
+      "topOptions": 40
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "d5163f89940dd1140dc8dfa082ad93b3479b8248af563984ad1da9f4666b8d43",
+      "actions": 18,
+      "topOptions": 46
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "96b9d0a99145e62a06b7b499a20d98513caeac99f1d212e9c43d1ccd6f684790",
+      "actions": 20,
+      "topOptions": 48
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "9bc931b5ac032feab8086028729214842bb4a844e5700606da76f6714963f46f",
+      "actions": 20,
+      "topOptions": 49
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "580f8b7c7dd5abe878345408de82b096e8b26e2d9dd1dc21b6e2ad38e8a23a70",
+      "actions": 22,
+      "topOptions": 52
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ONSinflation/data_MM23-D7GA.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight accepted stage modules individually reviewed against source and accepted parents including grouped mark-channel refinement. Exact source/family SVG/PNG current-runtime gates pass, source fonts/data/fixed canvas retained and no padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "d9760075f6b39703b29e83b13ee9f5e958d42862b90a15973d1f62aade154ad0",
+      "bytes": 2048
+    },
+    "data.json": {
+      "sha256": "0ddb8a79bd64e68efc294e421f80ba83b6af757ab08c5590e9bd4c75dcbb4733",
+      "bytes": 84222
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d030b502c81dc1fc9c7e72ae8ac955f69dbb7102403311c8b40cbba1fa0a21e7",
+      "bytes": 101749
+    },
+    "G1.gg.mjs": {
+      "sha256": "f9dd765083af2838cfbc237637df3776ac16f5922872fe5d799560dbb7524673",
+      "bytes": 5589
+    },
+    "G2.gg.mjs": {
+      "sha256": "73d5c37e234430c81b2560bf1c6e6c18866634e299fb6a2b7a878914a0e455ae",
+      "bytes": 5527
+    },
+    "G3.gg.mjs": {
+      "sha256": "6abe98889dba6b759268a61fe3c2897bf9fea248fe692254fd80b27a289e27ec",
+      "bytes": 5545
+    },
+    "G4.gg.mjs": {
+      "sha256": "082c5876a178375e94d61f953d552d80333cf57466e546607d1490fddc9876e5",
+      "bytes": 5599
+    },
+    "G5.gg.mjs": {
+      "sha256": "d5163f89940dd1140dc8dfa082ad93b3479b8248af563984ad1da9f4666b8d43",
+      "bytes": 5780
+    },
+    "G6.gg.mjs": {
+      "sha256": "96b9d0a99145e62a06b7b499a20d98513caeac99f1d212e9c43d1ccd6f684790",
+      "bytes": 5762
+    },
+    "G7.gg.mjs": {
+      "sha256": "9bc931b5ac032feab8086028729214842bb4a844e5700606da76f6714963f46f",
+      "bytes": 5722
+    },
+    "G8.gg.mjs": {
+      "sha256": "580f8b7c7dd5abe878345408de82b096e8b26e2d9dd1dc21b6e2ad38e8a23a70",
+      "bytes": 5815
+    },
+    "vega-lite.svg": {
+      "sha256": "5c6bba42aa5935b7b14554a749e37aecdbb7a48e422fce8507a8bd402849a028",
+      "bytes": 15432
+    },
+    "ggaction.svg": {
+      "sha256": "a58b3b93afc20ae70735eb0c896f0eab313f4bbacf08fa2b5efb1cd3823beed4",
+      "bytes": 21575
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "vl_1036",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "388d6e3d9e9870fc98430d918e137327277e9b64d55a4946be77739912bae393",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4c107c026cc288853a99e04e419ca2b7ec7c0010a7c8da5de2eebb126cfe7fe4",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7e359f25a3b784cc23761540fa94fb30eccd9f1c3e4d5b498ff9d5b9b8a00e73",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ff1cc5d2f908d61063e871bd65acbc4762239fdddd65125298b5120ffb9a93ba",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "0d85f255017021446c55e978b4b3d2a16b83539a5e1e5fb846181ec1fa475bd2",
+      "actions": 19,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "603fd0daf6b8505e300853295ad09bf94870748aee7bfdcd37527c29b1b05117",
+      "actions": 19,
+      "topOptions": 36
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/ferguswalshe/ferguswalshe.github.io/main/data_IMF_GDP.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed source and all6accepted stages, exact model stop and empty mandatory ownership frontier. Source38temporal5px bars, source345x300 plot, protected source/hashbound absoluteX range, source title/subtitle/tick geometry all retained. Both whole-axis aggregates fully decomposed into focused line/ticks/labels; no remaining movable source paint or invented padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a24e8a33332e905d487563039fe70e99d62e278aecede82fe13bb20066f33c33",
+      "bytes": 915
+    },
+    "data.json": {
+      "sha256": "92269c53af9c7dc0b3d9383e6a6deddc92a8cf47c145127f4db9a1b961c587c9",
+      "bytes": 2166
+    },
+    "resolved-source.vl.json": {
+      "sha256": "037f86c34259792524dfc3b9ede3038233a28527ebdb301a5d7c58f20c23cf57",
+      "bytes": 3674
+    },
+    "G1.gg.mjs": {
+      "sha256": "388d6e3d9e9870fc98430d918e137327277e9b64d55a4946be77739912bae393",
+      "bytes": 1774
+    },
+    "G2.gg.mjs": {
+      "sha256": "4c107c026cc288853a99e04e419ca2b7ec7c0010a7c8da5de2eebb126cfe7fe4",
+      "bytes": 1732
+    },
+    "G3.gg.mjs": {
+      "sha256": "7e359f25a3b784cc23761540fa94fb30eccd9f1c3e4d5b498ff9d5b9b8a00e73",
+      "bytes": 1767
+    },
+    "G4.gg.mjs": {
+      "sha256": "ff1cc5d2f908d61063e871bd65acbc4762239fdddd65125298b5120ffb9a93ba",
+      "bytes": 1897
+    },
+    "G5.gg.mjs": {
+      "sha256": "0d85f255017021446c55e978b4b3d2a16b83539a5e1e5fb846181ec1fa475bd2",
+      "bytes": 1923
+    },
+    "G6.gg.mjs": {
+      "sha256": "603fd0daf6b8505e300853295ad09bf94870748aee7bfdcd37527c29b1b05117",
+      "bytes": 1911
+    },
+    "vega-lite.svg": {
+      "sha256": "75c0a9236b9f3d9ef4aa9a3ce945b150e989cb1d9a8aadedcbbe42a93b5a3251",
+      "bytes": 14389
+    },
+    "ggaction.svg": {
+      "sha256": "98cdb091aa5dc9ce56ec85490436801c1b3d1497e882d4883849caf3b43f35a6",
+      "bytes": 11991
+    }
+  }
+}

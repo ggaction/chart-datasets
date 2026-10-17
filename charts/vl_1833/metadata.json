@@ -1,0 +1,124 @@
+{
+  "id": "vl_1833",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "a6f4b6781e40c0b50bb8ff96a4de35d35ae983f738646433f3fc9194802c0b85",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "3d065b00c54a4aeb02db33685832898dfa2e0a0d37243ff99da8c263bbf0d00f",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "04511db24fa6eeb48d1e8c41c540b2faa16511f6b84144e88f686e21a1dfb223",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ea7441df465c54afff03c032dc3cd9e6b970d49553c82047ac8669a22b1401bf",
+      "actions": 18,
+      "topOptions": 41
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9990924d5ca31ae089e3f1ceff965cb8bf588a6984efd740457d3412be1a615a",
+      "actions": 24,
+      "topOptions": 43
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "eb430ae6c1cd6d491338311e45f71f9b50572b954fe9e5680113e45db4deb88a",
+      "actions": 24,
+      "topOptions": 43
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "32dd278c76cefb9e5c17612ef201a26a72211ee1597d884d18009f450c59615a",
+      "actions": 25,
+      "topOptions": 45
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "495b2528d77801d81b7ccf7ed5142a053424204def9a588bbd2a83185cb14636",
+      "actions": 25,
+      "topOptions": 46
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/elasComputacao/raio-x-dados/main/data/dados-processados/situacao-academica-homens.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All8 exactactualmodules reviewed, current source/family allPASS, validpublicownership transitions, no artificial defaults/actionpadding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a0ce9609f5f65d5425add325538ee880bd2e8b3038b0b2e3bfe8e4a784227283",
+      "bytes": 1133
+    },
+    "data.json": {
+      "sha256": "dd9864f4e5ddd22d62c38095758f29edab249418d169ac954320d45032e94d8f",
+      "bytes": 4549
+    },
+    "resolved-source.vl.json": {
+      "sha256": "17e00bb00b118350468ab4f99244156f0ba59e10eb7f67955c341682cd7c78ac",
+      "bytes": 7167
+    },
+    "G1.gg.mjs": {
+      "sha256": "a6f4b6781e40c0b50bb8ff96a4de35d35ae983f738646433f3fc9194802c0b85",
+      "bytes": 4223
+    },
+    "G2.gg.mjs": {
+      "sha256": "3d065b00c54a4aeb02db33685832898dfa2e0a0d37243ff99da8c263bbf0d00f",
+      "bytes": 4241
+    },
+    "G3.gg.mjs": {
+      "sha256": "04511db24fa6eeb48d1e8c41c540b2faa16511f6b84144e88f686e21a1dfb223",
+      "bytes": 4195
+    },
+    "G4.gg.mjs": {
+      "sha256": "ea7441df465c54afff03c032dc3cd9e6b970d49553c82047ac8669a22b1401bf",
+      "bytes": 4439
+    },
+    "G5.gg.mjs": {
+      "sha256": "9990924d5ca31ae089e3f1ceff965cb8bf588a6984efd740457d3412be1a615a",
+      "bytes": 4377
+    },
+    "G6.gg.mjs": {
+      "sha256": "eb430ae6c1cd6d491338311e45f71f9b50572b954fe9e5680113e45db4deb88a",
+      "bytes": 4286
+    },
+    "G7.gg.mjs": {
+      "sha256": "32dd278c76cefb9e5c17612ef201a26a72211ee1597d884d18009f450c59615a",
+      "bytes": 4311
+    },
+    "G8.gg.mjs": {
+      "sha256": "495b2528d77801d81b7ccf7ed5142a053424204def9a588bbd2a83185cb14636",
+      "bytes": 4327
+    },
+    "vega-lite.svg": {
+      "sha256": "401b37e1ae007486c8d6f7bc7af64931f94151ec049a423c3f36ba358e99d48f",
+      "bytes": 36024
+    },
+    "ggaction.svg": {
+      "sha256": "e7be949d66ad51bc43d5d2f12663aa28b990a3e149056950475deef274324d0f",
+      "bytes": 19242
+    }
+  }
+}

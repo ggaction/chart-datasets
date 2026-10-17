@@ -1,0 +1,113 @@
+{
+  "id": "vl_1470",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c78e7fa9e7678ad865c46b85e857c0be24d8327ccb74cca5c4e1defb9ec10f33",
+      "actions": 20,
+      "topOptions": 43
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ba14b6a86479da85d1018dd779d22ac0cf13cd701acd4df31b7a811b7d64d499",
+      "actions": 22,
+      "topOptions": 47
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "c89aa4281e5c25c8eee7dfa68f5cd6612fb2fde76cff444b18f74b1494f694cb",
+      "actions": 23,
+      "topOptions": 51
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "cd059866c1a45dec779c3b71edb2f2fbb5f2076e60d5adb4cc054246cc0ae6f0",
+      "actions": 25,
+      "topOptions": 57
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "62407c6c16aae254f7b79302763f3441f33a719a950fb5c46cc2f52103507a44",
+      "actions": 31,
+      "topOptions": 65
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d4c8875a55a8a656d4e6314d160d78016ad9eee3d144af3d4150ae17a10544e7",
+      "actions": 32,
+      "topOptions": 66
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "99e3900f58bb3b387cfa5a4ce603030603c931d5a80a04922afb1942d7da3c1c",
+      "actions": 32,
+      "topOptions": 67
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/joaopalmeiro/data-preparation/master/vega-presentation-require-lx/data/operations.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full final source and G7 program reread: source bar and text data, original amount displays, complete shared scales, focused paired axes, grid paint and title/subtitle paints are all preserved. Measured Roboto700 title and complete compact Y label map are protected at creation by actual independent overflow evidence. Remaining native defaults or repeated setters cannot form another meaningful stage; stop at seven."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a2b71123d7cf4d50c500408b189a8472091b095b3694f047fdc41a024de6b1f5",
+      "bytes": 1842
+    },
+    "data.json": {
+      "sha256": "9b16f57e1f214d332ddfeef272c23511e9021e5786e7a3f30da8288e982df542",
+      "bytes": 1004
+    },
+    "resolved-source.vl.json": {
+      "sha256": "080ca92e982c3841fe1613bf2fd46add8f80476660012a5bc5bdcecf3d47339a",
+      "bytes": 2906
+    },
+    "G1.gg.mjs": {
+      "sha256": "c78e7fa9e7678ad865c46b85e857c0be24d8327ccb74cca5c4e1defb9ec10f33",
+      "bytes": 5780
+    },
+    "G2.gg.mjs": {
+      "sha256": "ba14b6a86479da85d1018dd779d22ac0cf13cd701acd4df31b7a811b7d64d499",
+      "bytes": 5798
+    },
+    "G3.gg.mjs": {
+      "sha256": "c89aa4281e5c25c8eee7dfa68f5cd6612fb2fde76cff444b18f74b1494f694cb",
+      "bytes": 5740
+    },
+    "G4.gg.mjs": {
+      "sha256": "cd059866c1a45dec779c3b71edb2f2fbb5f2076e60d5adb4cc054246cc0ae6f0",
+      "bytes": 5950
+    },
+    "G5.gg.mjs": {
+      "sha256": "62407c6c16aae254f7b79302763f3441f33a719a950fb5c46cc2f52103507a44",
+      "bytes": 5932
+    },
+    "G6.gg.mjs": {
+      "sha256": "d4c8875a55a8a656d4e6314d160d78016ad9eee3d144af3d4150ae17a10544e7",
+      "bytes": 5960
+    },
+    "G7.gg.mjs": {
+      "sha256": "99e3900f58bb3b387cfa5a4ce603030603c931d5a80a04922afb1942d7da3c1c",
+      "bytes": 5976
+    },
+    "vega-lite.svg": {
+      "sha256": "a35fcfc0cfb638e3b5f16b563f646d604e377b6c1a3d6c8e27bb95b83ca9bbc4",
+      "bytes": 13624
+    },
+    "ggaction.svg": {
+      "sha256": "4f453e919cf81ec5515c3d428e8fb0119d968eb3a3d32a07fde9e3c8078770ee",
+      "bytes": 10038
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "vl_1917",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "df5e217bae7434ccb8d5be5cdb7c76e866d2793ffd4b5153f35642c3af17584d",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a05b3823ff2401007de5cd4ae3b445941fed47638c873672c6d490821e62155e",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ba78148eb87c95e670f1506db44f630885dc3cd68ed835ec978ce52069df3840",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "dc0a15687b7961884d0daf7e6a609e65a45f98b8b14db000d466f182db819faf",
+      "actions": 20,
+      "topOptions": 43
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ee27849833f884be2d9d6eeb5af2f226375ce7e905bf65ffd8bae918020b3d3b",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ba3ee0e4b8820f1e6a54709a3ba4fce1a2c797a805097683c94063742c2ee50f",
+      "actions": 20,
+      "topOptions": 46
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/M6.DataHub.MonetaryCBIndependence.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed full accepted G6 and retained GLM stop. Complete axes followed by focused line/ticks/labels, title paint and band-scale policies exhausted; only protected sizes/offsets and default-only settings remain. Honest6-stage profile."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "60c054a20591bd172841970a7dc92aa2d35dee6292eba2dd98abd39aa6a55195",
+      "bytes": 823
+    },
+    "data.json": {
+      "sha256": "6d407748daa6e7e7d05505c91c6cbd1d941b92f432b608d5af262739b177dfd7",
+      "bytes": 1321
+    },
+    "resolved-source.vl.json": {
+      "sha256": "4bdbec23d79b80116d4bf04beb511d4eb0d6bfde324f9887efa5d67948e5c563",
+      "bytes": 2384
+    },
+    "G1.gg.mjs": {
+      "sha256": "df5e217bae7434ccb8d5be5cdb7c76e866d2793ffd4b5153f35642c3af17584d",
+      "bytes": 2233
+    },
+    "G2.gg.mjs": {
+      "sha256": "a05b3823ff2401007de5cd4ae3b445941fed47638c873672c6d490821e62155e",
+      "bytes": 2368
+    },
+    "G3.gg.mjs": {
+      "sha256": "ba78148eb87c95e670f1506db44f630885dc3cd68ed835ec978ce52069df3840",
+      "bytes": 2338
+    },
+    "G4.gg.mjs": {
+      "sha256": "dc0a15687b7961884d0daf7e6a609e65a45f98b8b14db000d466f182db819faf",
+      "bytes": 2292
+    },
+    "G5.gg.mjs": {
+      "sha256": "ee27849833f884be2d9d6eeb5af2f226375ce7e905bf65ffd8bae918020b3d3b",
+      "bytes": 2327
+    },
+    "G6.gg.mjs": {
+      "sha256": "ba3ee0e4b8820f1e6a54709a3ba4fce1a2c797a805097683c94063742c2ee50f",
+      "bytes": 2297
+    },
+    "vega-lite.svg": {
+      "sha256": "350762af57379a2bf4028cd428d1a8ff99047b4cf5226c6eaf74bd4d37edb40a",
+      "bytes": 13284
+    },
+    "ggaction.svg": {
+      "sha256": "c003e4039f9fa79f8e39587796037a003038e828cc795a06241d06909655ff67",
+      "bytes": 11814
+    }
+  }
+}

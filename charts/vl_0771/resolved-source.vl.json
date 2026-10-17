@@ -1,0 +1,588 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Graph showing mean CAF World Giving Index Scores for countries grouped by main religion, 2022",
+  "title": {
+    "text": "Mean World Giving Index Scores 2022 for countries grouped by main religion",
+    "subtitle": [
+      "Sources: CAF and Everycountryintheworld.com",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "2022": "Islam",
+        "﻿Country": "Indonesia",
+        "CAF_2022": "68"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Australia",
+        "CAF_2022": "55"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "New Zealand",
+        "CAF_2022": "54"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "United States of America",
+        "CAF_2022": "59"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Ireland",
+        "CAF_2022": "49"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "United Kingdom of Great Britain and Northern Ireland",
+        "CAF_2022": "47"
+      },
+      {
+        "2022": "Buddhism",
+        "﻿Country": "Singapore",
+        "CAF_2022": "45"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Kenya",
+        "CAF_2022": "61"
+      },
+      {
+        "2022": "Buddhism",
+        "﻿Country": "Myanmar",
+        "CAF_2022": "52"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Netherlands",
+        "CAF_2022": "46"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "United Arab Emirates",
+        "CAF_2022": "47"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Norway",
+        "CAF_2022": "45"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Canada",
+        "CAF_2022": "51"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Nigeria",
+        "CAF_2022": "48"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Iceland",
+        "CAF_2022": "46"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Malta",
+        "CAF_2022": "45"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Sierra Leone",
+        "CAF_2022": "51"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Zambia",
+        "CAF_2022": "50"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Germany",
+        "CAF_2022": "41"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Denmark",
+        "CAF_2022": "46"
+      },
+      {
+        "2022": "Hinduism",
+        "﻿Country": "Mauritius",
+        "CAF_2022": "37"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Switzerland",
+        "CAF_2022": "37"
+      },
+      {
+        "2022": "Buddhism",
+        "﻿Country": "Sri Lanka",
+        "CAF_2022": "44"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Iran (Islamic Republic of)",
+        "CAF_2022": "43"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Austria",
+        "CAF_2022": "45"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Iraq",
+        "CAF_2022": "37"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Cyprus",
+        "CAF_2022": "40"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Tajikistan",
+        "CAF_2022": "39"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Ghana",
+        "CAF_2022": "43"
+      },
+      {
+        "2022": "Judaism",
+        "﻿Country": "Israel",
+        "CAF_2022": "37"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "South Africa",
+        "CAF_2022": "35"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Sweden",
+        "CAF_2022": "42"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Finland",
+        "CAF_2022": "37"
+      },
+      {
+        "2022": "Buddhism",
+        "﻿Country": "Mongolia",
+        "CAF_2022": "46"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Honduras",
+        "CAF_2022": "46"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Slovenia",
+        "CAF_2022": "39"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Dominican Republic",
+        "CAF_2022": "44"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Uganda",
+        "CAF_2022": "46"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Saudi Arabia",
+        "CAF_2022": "36"
+      },
+      {
+        "2022": "Hinduism",
+        "﻿Country": "Nepal",
+        "CAF_2022": "40"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Uzbekistan",
+        "CAF_2022": "38"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Spain",
+        "CAF_2022": "32"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Kyrgyzstan",
+        "CAF_2022": "44"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Jamaica",
+        "CAF_2022": "46"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Malawi",
+        "CAF_2022": "39"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Paraguay",
+        "CAF_2022": "44"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Chile",
+        "CAF_2022": "38"
+      },
+      {
+        "2022": "Buddhism",
+        "﻿Country": "Thailand",
+        "CAF_2022": "48"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Costa Rica",
+        "CAF_2022": "44"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Cameroon",
+        "CAF_2022": "37"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Nicaragua",
+        "CAF_2022": "40"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Italy",
+        "CAF_2022": "29"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Guinea",
+        "CAF_2022": "47"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "France",
+        "CAF_2022": "32"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Namibia",
+        "CAF_2022": "35"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Jordan",
+        "CAF_2022": "32"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Zimbabwe",
+        "CAF_2022": "31"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Uruguay",
+        "CAF_2022": "40"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Panama",
+        "CAF_2022": "36"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Mozambique",
+        "CAF_2022": "34"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Colombia",
+        "CAF_2022": "42"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Ukraine",
+        "CAF_2022": "49"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Burkina Faso",
+        "CAF_2022": "39"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Portugal",
+        "CAF_2022": "26"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Lebanon",
+        "CAF_2022": "24"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Bolivia (Plurinational State of)",
+        "CAF_2022": "43"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Senegal",
+        "CAF_2022": "40"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Slovakia",
+        "CAF_2022": "41"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Philippines",
+        "CAF_2022": "47"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Bosnia and Herzegovina",
+        "CAF_2022": "44"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Pakistan",
+        "CAF_2022": "29"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Algeria",
+        "CAF_2022": "30"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Mali",
+        "CAF_2022": "38"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Argentina",
+        "CAF_2022": "47"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Kazakhstan",
+        "CAF_2022": "34"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Peru",
+        "CAF_2022": "39"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Romania",
+        "CAF_2022": "30"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Morocco",
+        "CAF_2022": "31"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Benin",
+        "CAF_2022": "32"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Egypt",
+        "CAF_2022": "23"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Venezuela (Bolivarian Republic of)",
+        "CAF_2022": "45"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Albania",
+        "CAF_2022": "34"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Estonia",
+        "CAF_2022": "40"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Russian Federation",
+        "CAF_2022": "46"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Poland",
+        "CAF_2022": "47"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Gabon",
+        "CAF_2022": "34"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Mexico",
+        "CAF_2022": "44"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Togo",
+        "CAF_2022": "34"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Georgia",
+        "CAF_2022": "31"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Ecuador",
+        "CAF_2022": "42"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Hungary",
+        "CAF_2022": "40"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Brazil",
+        "CAF_2022": "47"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Armenia",
+        "CAF_2022": "29"
+      },
+      {
+        "2022": "Hinduism",
+        "﻿Country": "India",
+        "CAF_2022": "40"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Czechia",
+        "CAF_2022": "48"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Bulgaria",
+        "CAF_2022": "41"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "El Salvador",
+        "CAF_2022": "36"
+      },
+      {
+        "2022": "Shintoism",
+        "﻿Country": "Japan",
+        "CAF_2022": "20"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Serbia",
+        "CAF_2022": "46"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Croatia",
+        "CAF_2022": "37"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Tunisia",
+        "CAF_2022": "28"
+      },
+      {
+        "2022": "Islam",
+        "﻿Country": "Afghanistan",
+        "CAF_2022": "21"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Latvia",
+        "CAF_2022": "29"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Lithuania",
+        "CAF_2022": "37"
+      },
+      {
+        "2022": "Buddhism",
+        "﻿Country": "Cambodia",
+        "CAF_2022": "19"
+      },
+      {
+        "2022": "Buddhism",
+        "﻿Country": "China",
+        "CAF_2022": "42"
+      },
+      {
+        "2022": "Christianity",
+        "﻿Country": "Greece",
+        "CAF_2022": "32"
+      }
+    ]
+  },
+  "height": 300,
+  "width": 400,
+  "mark": {
+    "size": 80,
+    "type": "circle",
+    "color": "darkgreen"
+  },
+  "encoding": {
+    "x": {
+      "aggregate": "mean",
+      "axis": {
+        "labelExpr": "datum.label == 19 ? 'Bottom' : datum.label == 39 ? 'Median' : 'Top'",
+        "labelFlush": false,
+        "values": [
+          19,
+          39,
+          43
+        ]
+      },
+      "field": "CAF_2022",
+      "scale": {
+        "domain": [
+          19,
+          43
+        ]
+      },
+      "title": "Mean WGI Score"
+    },
+    "y": {
+      "field": "2022",
+      "sort": "x",
+      "title": "Religion"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_0558",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "7c430151a245f80ddabe17de7e1b5c3718d8330d1204b0bc78e2e59e5ee8b497",
+      "actions": 11,
+      "topOptions": 28
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "942a34e57d6c2e2ce6be890e0d61f85421facb8de42ce08c49883163908b1671",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "bb0a1c6cb7c7fc6a448ffab7d494e2594a2680071ae02e8342adaa1bfb57b631",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "dcc66bf58d0f951a08fba1348e466b08934f7844da15b20dd553f936d0996d24",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e315ed965fb0f60e0e7861ae6d7ed7143815f586f024b5ba23a2954e75fd7f99",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "fcfe654627ccc8cc87b8719c8b08de2e0078b94009ed2720f31be1239341ef9e",
+      "actions": 16,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "98942debe4dc76e7d283c4e636dba3451a57babd09bf1378bb1986a83c3984b9",
+      "actions": 18,
+      "topOptions": 43
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "1038b68f7deed8ce79f0555ef66648b7565af8b2979b4a4e05555ac2ae374c90",
+      "actions": 22,
+      "topOptions": 45
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/demographicsUN.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source and complete final program reread, all8 current-source/native/family verifications pass. Source exact300x400 plot, raw region filter/yearly lines, all16 alpha colors, sparse source labels, source two-column inplot legend with blank labels, and title/italic trailing blank subtitle retained. Last paired axis components boundary is meaningful. Cap8 reached; remaining aggregate legend wrapper and chart-title bold ownership are honestly recorded in terminal-source-frontier-review.json, not claimed exhausted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "6dbb03ec2686b0ae6ae5b3a635d853439bfa0e8439619428b37733acbbf1971e",
+      "bytes": 1794
+    },
+    "data.json": {
+      "sha256": "5c54a80c6ff73dad09295732299169618e8a0944fe24fb4edd8783241a9a2188",
+      "bytes": 640170
+    },
+    "resolved-source.vl.json": {
+      "sha256": "2d53c63cc883c82d046ba4abd0bba35a04740a0401f67c56a8b10f7493851f13",
+      "bytes": 755597
+    },
+    "G1.gg.mjs": {
+      "sha256": "7c430151a245f80ddabe17de7e1b5c3718d8330d1204b0bc78e2e59e5ee8b497",
+      "bytes": 4166
+    },
+    "G2.gg.mjs": {
+      "sha256": "942a34e57d6c2e2ce6be890e0d61f85421facb8de42ce08c49883163908b1671",
+      "bytes": 4184
+    },
+    "G3.gg.mjs": {
+      "sha256": "bb0a1c6cb7c7fc6a448ffab7d494e2594a2680071ae02e8342adaa1bfb57b631",
+      "bytes": 4217
+    },
+    "G4.gg.mjs": {
+      "sha256": "dcc66bf58d0f951a08fba1348e466b08934f7844da15b20dd553f936d0996d24",
+      "bytes": 4180
+    },
+    "G5.gg.mjs": {
+      "sha256": "e315ed965fb0f60e0e7861ae6d7ed7143815f586f024b5ba23a2954e75fd7f99",
+      "bytes": 4124
+    },
+    "G6.gg.mjs": {
+      "sha256": "fcfe654627ccc8cc87b8719c8b08de2e0078b94009ed2720f31be1239341ef9e",
+      "bytes": 4143
+    },
+    "G7.gg.mjs": {
+      "sha256": "98942debe4dc76e7d283c4e636dba3451a57babd09bf1378bb1986a83c3984b9",
+      "bytes": 4321
+    },
+    "G8.gg.mjs": {
+      "sha256": "1038b68f7deed8ce79f0555ef66648b7565af8b2979b4a4e05555ac2ae374c90",
+      "bytes": 4289
+    },
+    "vega-lite.svg": {
+      "sha256": "55b527d4c18026760cfdfbb6f950efee4da0c4da9a9b4805611c5bf2e31830c4",
+      "bytes": 60999
+    },
+    "ggaction.svg": {
+      "sha256": "1a215188292d1cc1ccb38e509536df274c0d9c4139e4b5632eb176c093c62dc2",
+      "bytes": 90164
+    }
+  }
+}

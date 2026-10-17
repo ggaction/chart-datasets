@@ -1,0 +1,89 @@
+{
+  "id": "vl_1662",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b86459e3097c4c294cc1268a05030bfa913e876f757c4ca4811d2081f48d290f",
+      "actions": 7,
+      "topOptions": 14
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "81c8603ba6d8c565cbfd2743daff292b35bb1e02a752444a1956362210405dc1",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "eaceccd790396680b80e39b662dfb5206fb24a7a99b108cf81207d8aa2168e85",
+      "actions": 9,
+      "topOptions": 20
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7ceae5d8148eead62752dfd7e294f3b64f7616c95841e7ac42cac6786a6c35b1",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "af1a808ed6b43e75602b26aaa3fce66ea29eb3380773f19d4da0cfaa91dc05be",
+      "actions": 15,
+      "topOptions": 24
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed complete remaining frontier after five exact stages; no new valid decomposition remains. Existing model stop fragment independently supports exhaustion; its redundant attempted whole-axis regression was rejected before execution. Gradient, scale, axis styles are already focused; protected geometry remains at complete creation."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e0285824d59ee3fbe7351d271339d67036030f81146c89af0ca35e460a2e70d8",
+      "bytes": 883
+    },
+    "data.json": {
+      "sha256": "95ff531f104ecdda5e1de7474e229ccf577b763d9ba3536f24208400bc585f51",
+      "bytes": 165
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e0285824d59ee3fbe7351d271339d67036030f81146c89af0ca35e460a2e70d8",
+      "bytes": 883
+    },
+    "G1.gg.mjs": {
+      "sha256": "b86459e3097c4c294cc1268a05030bfa913e876f757c4ca4811d2081f48d290f",
+      "bytes": 3256
+    },
+    "G2.gg.mjs": {
+      "sha256": "81c8603ba6d8c565cbfd2743daff292b35bb1e02a752444a1956362210405dc1",
+      "bytes": 3350
+    },
+    "G3.gg.mjs": {
+      "sha256": "eaceccd790396680b80e39b662dfb5206fb24a7a99b108cf81207d8aa2168e85",
+      "bytes": 2918
+    },
+    "G4.gg.mjs": {
+      "sha256": "7ceae5d8148eead62752dfd7e294f3b64f7616c95841e7ac42cac6786a6c35b1",
+      "bytes": 3206
+    },
+    "G5.gg.mjs": {
+      "sha256": "af1a808ed6b43e75602b26aaa3fce66ea29eb3380773f19d4da0cfaa91dc05be",
+      "bytes": 3245
+    },
+    "vega-lite.svg": {
+      "sha256": "5dfec20e94f627a40b1fd434ee9eec3ac3d2454fc8b431bb25ad4fab88164bba",
+      "bytes": 6717
+    },
+    "ggaction.svg": {
+      "sha256": "36a3a019fa01bc94eab7ef08ef4e954946e98caacb832f84e51785c0302be875",
+      "bytes": 5230
+    }
+  }
+}

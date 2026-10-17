@@ -1,0 +1,113 @@
+{
+  "id": "vl_0577",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8890c05b8b519c0c5efb386cb317aacaa2cbc9ab7a9459f44cf43bc2e35262d2",
+      "actions": 12,
+      "topOptions": 31
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "db31df233fbc21abc89e24327ade5a15523239e74d06aa8b45f61d38b7e93269",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "6de3d63bb204752a9cd9462450c239c0f429c16e4b3b9d5c69ffd10c9ff0b0c2",
+      "actions": 16,
+      "topOptions": 34
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ff24f2f055236aae45c59ebfa55feeb54fa7a1e67161d9fb680a5ae55240fe2e",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "a1b81fd2be971f8236c9a41c8b3f3e66639aaaf373431a212f1c59286a452ada",
+      "actions": 18,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "39a4ff950291bec3cda812ca72bee6e55d9f157b36c7c70283619129a01e3e50",
+      "actions": 19,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ed2e8b531d84232005c2d152bf7cb1c475f740008d5c689e7a08454247f86dff",
+      "actions": 19,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/US_FRED_DowJones.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 7 genuine ownership stages, 352 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e841d3b00912a43085b83d1aef54262e18df57c30c3c91fb21c24bc0fe73e0d9",
+      "bytes": 1453
+    },
+    "data.json": {
+      "sha256": "b40a5d306eeb906a20e71a48a0b7440da78136c74a849e5401f0997c2f655dc4",
+      "bytes": 35959
+    },
+    "resolved-source.vl.json": {
+      "sha256": "78417e04f5d0092195586811b39d1df3af31abf0e0d80d84b64ac63897275185",
+      "bytes": 47746
+    },
+    "G1.gg.mjs": {
+      "sha256": "8890c05b8b519c0c5efb386cb317aacaa2cbc9ab7a9459f44cf43bc2e35262d2",
+      "bytes": 1814
+    },
+    "G2.gg.mjs": {
+      "sha256": "db31df233fbc21abc89e24327ade5a15523239e74d06aa8b45f61d38b7e93269",
+      "bytes": 1832
+    },
+    "G3.gg.mjs": {
+      "sha256": "6de3d63bb204752a9cd9462450c239c0f429c16e4b3b9d5c69ffd10c9ff0b0c2",
+      "bytes": 1873
+    },
+    "G4.gg.mjs": {
+      "sha256": "ff24f2f055236aae45c59ebfa55feeb54fa7a1e67161d9fb680a5ae55240fe2e",
+      "bytes": 1925
+    },
+    "G5.gg.mjs": {
+      "sha256": "a1b81fd2be971f8236c9a41c8b3f3e66639aaaf373431a212f1c59286a452ada",
+      "bytes": 1931
+    },
+    "G6.gg.mjs": {
+      "sha256": "39a4ff950291bec3cda812ca72bee6e55d9f157b36c7c70283619129a01e3e50",
+      "bytes": 1956
+    },
+    "G7.gg.mjs": {
+      "sha256": "ed2e8b531d84232005c2d152bf7cb1c475f740008d5c689e7a08454247f86dff",
+      "bytes": 1972
+    },
+    "vega-lite.svg": {
+      "sha256": "7df704e9d88a8a8a237e215c0134a1b790b78b14c097333e9632858b80a10d38",
+      "bytes": 14691
+    },
+    "ggaction.svg": {
+      "sha256": "a1dfc8098e7a3e44282a288a64a5a4deb6aa439f42022e64bc6141d88f7c34d5",
+      "bytes": 12360
+    }
+  }
+}

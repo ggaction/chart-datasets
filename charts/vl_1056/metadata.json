@@ -1,0 +1,124 @@
+{
+  "id": "vl_1056",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "443b267af3d8e84c826ed23d6986cf91df21b05a99980bca91a55756e48e56ea",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1f5a4d271ffdb2f817b6f53e4d436de3da711f94fbaf1f8490ea4ef815026b31",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "dd8bd85eb75066e2950f10ec6f226254007b7cbcd4f13a5c8c8031b0b481d768",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "b6596f513a45359f75f1384867724f0a7fc3729f394c2527c58ebffbd3be4373",
+      "actions": 20,
+      "topOptions": 44
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "a4bc1d9a115bade1c26e25ecc9162ab55a746bba0443d3fe6978430917ca11f3",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "bd1b706b46f4b862b5ef29d2e0d2d915e5c713450c7fe26d396f1641c66e6ca5",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "44e76055cc3443d94ca414143b3bf8fdfecffbf13acd95a3591307fa7cf94ca1",
+      "actions": 24,
+      "topOptions": 56
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "fc3e97c0df74744fefe2bbaf22600a10975a6a75016d7605807b832fe4fcd420",
+      "actions": 28,
+      "topOptions": 56
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/editor/data/stocks.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex reread complete source and all accepted code/diffs. Eight meaningful stages preserve560raw/filter68/two predicted linegroups/66native controls/dash andstroke legends/source500x300/font10/11. Scoped nativePCHIP versus sourceSteffen approximation max1.21163px disclosed, source vertices/group/order/data exact. G8focusedaxispaint passes normal source/native and identical-family checks. Cap reached; remaining ownership opportunities are not claimed exhausted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9fe6177be056f80260d7c00a38b30d9da3b5aec995888e1a4fcf593f6adbfd79",
+      "bytes": 1402
+    },
+    "data.json": {
+      "sha256": "1bdaf793f6aae36096d9946eaddc54f313be476f70ff874ed70e2c0b676bac8c",
+      "bytes": 43591
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d0e4abe283df101c95076bc70b90f7df77245cc44c439d990ff4ce93c3cd67c5",
+      "bytes": 56224
+    },
+    "G1.gg.mjs": {
+      "sha256": "443b267af3d8e84c826ed23d6986cf91df21b05a99980bca91a55756e48e56ea",
+      "bytes": 6734
+    },
+    "G2.gg.mjs": {
+      "sha256": "1f5a4d271ffdb2f817b6f53e4d436de3da711f94fbaf1f8490ea4ef815026b31",
+      "bytes": 6659
+    },
+    "G3.gg.mjs": {
+      "sha256": "dd8bd85eb75066e2950f10ec6f226254007b7cbcd4f13a5c8c8031b0b481d768",
+      "bytes": 6765
+    },
+    "G4.gg.mjs": {
+      "sha256": "b6596f513a45359f75f1384867724f0a7fc3729f394c2527c58ebffbd3be4373",
+      "bytes": 6758
+    },
+    "G5.gg.mjs": {
+      "sha256": "a4bc1d9a115bade1c26e25ecc9162ab55a746bba0443d3fe6978430917ca11f3",
+      "bytes": 6658
+    },
+    "G6.gg.mjs": {
+      "sha256": "bd1b706b46f4b862b5ef29d2e0d2d915e5c713450c7fe26d396f1641c66e6ca5",
+      "bytes": 6706
+    },
+    "G7.gg.mjs": {
+      "sha256": "44e76055cc3443d94ca414143b3bf8fdfecffbf13acd95a3591307fa7cf94ca1",
+      "bytes": 6892
+    },
+    "G8.gg.mjs": {
+      "sha256": "fc3e97c0df74744fefe2bbaf22600a10975a6a75016d7605807b832fe4fcd420",
+      "bytes": 6848
+    },
+    "vega-lite.svg": {
+      "sha256": "c94a46870b544d6f67cb14835aa535123fc3155cca0ec05f12ad46a49095e836",
+      "bytes": 21510
+    },
+    "ggaction.svg": {
+      "sha256": "339fd1a825dfad7cc6ed1762f9fc343dc10ada68e79e29cbfe4c96d59b8a8e40",
+      "bytes": 17145
+    }
+  }
+}

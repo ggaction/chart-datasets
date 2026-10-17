@@ -1,0 +1,122 @@
+{
+  "id": "vl_0323",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "aaf61429dcbfb81b2fd3a7b010a1571e7f386d8cbf9199adc011d9b788f738cf",
+      "actions": 7,
+      "topOptions": 19
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "78e446b2af3480ec6b66abcc63a1b4dd9583b97af53d12ba35e7eead9d8eb0b7",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "35059d5f69408b09d7476f1ca6c05aea6dfff7c92fe9a539c7b022a9be4166c9",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3f97b7ceff5143aa638e7dfe7e244b29b2bccd0991fb2876384dde3f5003ca69",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4c186f830bdaf6807522365acc3ccc7c3ad793efae47df13a0a69026741cf18c",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "adad0b8cdbca1fe1f685045238518cf51e4592dc3598ffb990e2457468b2176c",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "367d78b1915aabdf93e2ad4c823569c3111725809eb317ea7477424037665349",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "e9a4a29d3aad4bf7686a1209f3fb9ebf7834c33d948489f2642e5ed64adb8e61",
+      "actions": 18,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct stages progress from integrated source to all scale editors, separate guide families, complete per-axis declarations, whole-axis/component styles, individual tick/label styles and directional grid. Source plot300x300 fixed; approved default-legend outerwidth453 retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "553b95671a1e96b6b146224b29ce12a24ec79c377383250bd6dc04916b638712",
+      "bytes": 10609
+    },
+    "data.json": {
+      "sha256": "34714443d175d7127907254b5bd0b1e2d601e0e82b9942e6d93607d13dcb8c92",
+      "bytes": 7653
+    },
+    "resolved-source.vl.json": {
+      "sha256": "553b95671a1e96b6b146224b29ce12a24ec79c377383250bd6dc04916b638712",
+      "bytes": 10609
+    },
+    "G1.gg.mjs": {
+      "sha256": "aaf61429dcbfb81b2fd3a7b010a1571e7f386d8cbf9199adc011d9b788f738cf",
+      "bytes": 2878
+    },
+    "G2.gg.mjs": {
+      "sha256": "78e446b2af3480ec6b66abcc63a1b4dd9583b97af53d12ba35e7eead9d8eb0b7",
+      "bytes": 2797
+    },
+    "G3.gg.mjs": {
+      "sha256": "35059d5f69408b09d7476f1ca6c05aea6dfff7c92fe9a539c7b022a9be4166c9",
+      "bytes": 2518
+    },
+    "G4.gg.mjs": {
+      "sha256": "3f97b7ceff5143aa638e7dfe7e244b29b2bccd0991fb2876384dde3f5003ca69",
+      "bytes": 2468
+    },
+    "G5.gg.mjs": {
+      "sha256": "4c186f830bdaf6807522365acc3ccc7c3ad793efae47df13a0a69026741cf18c",
+      "bytes": 2617
+    },
+    "G6.gg.mjs": {
+      "sha256": "adad0b8cdbca1fe1f685045238518cf51e4592dc3598ffb990e2457468b2176c",
+      "bytes": 2559
+    },
+    "G7.gg.mjs": {
+      "sha256": "367d78b1915aabdf93e2ad4c823569c3111725809eb317ea7477424037665349",
+      "bytes": 2568
+    },
+    "G8.gg.mjs": {
+      "sha256": "e9a4a29d3aad4bf7686a1209f3fb9ebf7834c33d948489f2642e5ed64adb8e61",
+      "bytes": 2545
+    },
+    "vega-lite.svg": {
+      "sha256": "f09cdfcd53513f0fa72957191235b2fc3189ac4ea8135d9628b749b63f9c555d",
+      "bytes": 11808
+    },
+    "ggaction.svg": {
+      "sha256": "7d66ede9ac0d7c61516372691a3b224d35fc9944abd2fb23683aafdc94b1948f",
+      "bytes": 8178
+    }
+  }
+}

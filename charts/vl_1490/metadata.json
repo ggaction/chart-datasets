@@ -1,0 +1,122 @@
+{
+  "id": "vl_1490",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "01286e89d423042477da1cbb81e3605a745e20356bad92fd3ca5bad34d496458",
+      "actions": 20,
+      "topOptions": 42
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e58fcacb7efc00994499c0b789b038a494c1b2416c8c3cbf35028843086a19ff",
+      "actions": 21,
+      "topOptions": 46
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "cade575514c845ff934455c33dd17e89f2babf9fc2129bb0c43d951f843ff40c",
+      "actions": 23,
+      "topOptions": 50
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "66dca52acb618f84e191b3a0aaa6c4bc26d33597f6f8a98c8d4f7c2ed00059a4",
+      "actions": 24,
+      "topOptions": 51
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "5aeaa99f108953efed656f14681e769ab9c2e8041b80598d16414748d8470f44",
+      "actions": 28,
+      "topOptions": 55
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "18800ba93195e551d9baf749ff575cff8af16f734b591979f1d364ae57174dba",
+      "actions": 29,
+      "topOptions": 56
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "020070ed4d1fa7ddbc5cf71f57bbae1ce0c808205979c115bd34abec96f86afc",
+      "actions": 31,
+      "topOptions": 59
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "a3f46ae7ac4cd0d9d85d1f236f3c85fead9272253d2ff933a389c0d6a07be9be",
+      "actions": 33,
+      "topOptions": 59
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full frozen source design and all600row typed partitions plus final retained G8 program reviewed. Original4groups150each retained; native min/q1/median/q3/max summary creates exact original rule/bar/tick painter order, endpoints, source category colors, blackmedian18px, source plot200x80 and font10/11. Exact4source Y-text metrics preserve real label widths. All8 current690 normal source/family/dependency checks pass. Source font sizes remain at guide birth; title/label paint and XY ticks/labels move through whole-to-focused owners. Necessary source-bound external Canvas remains measured and exact; no hidden rows or padding stage/new response. Remaining finer source ownership is honestly cap-limited."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ea81cd736f55a1a37a108a20bfd07d32876a115f000ca30045a168369fce71d3",
+      "bytes": 44384
+    },
+    "data.json": {
+      "sha256": "889a7fe273f4184892fc8b07f7c0f9d4fea75bb67c752526424f02f4301fa062",
+      "bytes": 33161
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a5ca2471eaf82b48b7019d84d03583ca8bbc5bd2393ae530d6c3d2d5142c7c20",
+      "bytes": 44385
+    },
+    "G1.gg.mjs": {
+      "sha256": "01286e89d423042477da1cbb81e3605a745e20356bad92fd3ca5bad34d496458",
+      "bytes": 3535
+    },
+    "G2.gg.mjs": {
+      "sha256": "e58fcacb7efc00994499c0b789b038a494c1b2416c8c3cbf35028843086a19ff",
+      "bytes": 3497
+    },
+    "G3.gg.mjs": {
+      "sha256": "cade575514c845ff934455c33dd17e89f2babf9fc2129bb0c43d951f843ff40c",
+      "bytes": 3719
+    },
+    "G4.gg.mjs": {
+      "sha256": "66dca52acb618f84e191b3a0aaa6c4bc26d33597f6f8a98c8d4f7c2ed00059a4",
+      "bytes": 3745
+    },
+    "G5.gg.mjs": {
+      "sha256": "5aeaa99f108953efed656f14681e769ab9c2e8041b80598d16414748d8470f44",
+      "bytes": 3697
+    },
+    "G6.gg.mjs": {
+      "sha256": "18800ba93195e551d9baf749ff575cff8af16f734b591979f1d364ae57174dba",
+      "bytes": 3626
+    },
+    "G7.gg.mjs": {
+      "sha256": "020070ed4d1fa7ddbc5cf71f57bbae1ce0c808205979c115bd34abec96f86afc",
+      "bytes": 3672
+    },
+    "G8.gg.mjs": {
+      "sha256": "a3f46ae7ac4cd0d9d85d1f236f3c85fead9272253d2ff933a389c0d6a07be9be",
+      "bytes": 3658
+    },
+    "vega-lite.svg": {
+      "sha256": "37c3e95c75c0dcec8b136a5395a148e13c5a983acc545b4125496b7b88c3948d",
+      "bytes": 11351
+    },
+    "ggaction.svg": {
+      "sha256": "dc44d266a1ef8a2b9321e8aefb92b08ba514c6ee4b1fdf9e473bc536a7a92256",
+      "bytes": 6688
+    }
+  }
+}

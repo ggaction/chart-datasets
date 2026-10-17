@@ -1,0 +1,124 @@
+{
+  "id": "vl_0681",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "40192c5e81218a7b9ecd1da0411c30e081f4075f0cf596bee284b50c0876bb91",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "115e8d95acea3d9db11c09b6c088727739291d7850f1eecec3f4288bd53a5c66",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "827fbfe361ae1a820889d6da4d8c814397bc6f286d500799da0fe5638830a7b9",
+      "actions": 19,
+      "topOptions": 41
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "308480b8cc670c7199e0d845c11484326cc216ad081e2f854e12f44a58f46b4e",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "215538abd9bbdb5adef738e38bc98bd7dbc0e48acdd1bf12f97f4c8561f29f41",
+      "actions": 20,
+      "topOptions": 43
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "87ed351d9bc6aa383bc419c478e3ff06550c39bd22eed74a5805a539bad12ce9",
+      "actions": 21,
+      "topOptions": 47
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d946f6a906eefca4469d121b88737e2d71c455b5dad27eb8da52566593d8b5f6",
+      "actions": 23,
+      "topOptions": 49
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "15f8d078d9f54306983fe6a7ca832b3e14a37be2a7ddff835b2da7e7c9825cf1",
+      "actions": 23,
+      "topOptions": 49
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/PremWoods/PremWoods.github.io/main/2020_Refugees_gdp.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Read all8 distinct model stages and full exact source/family validation: all140rows,7ordered categories with real blank text/sample item, circle radius6.123724356957945 and explicitopacity.6 preserved. Fixed existing empty-label runtime bug verified; nativelegendspacing18 and exact sourceplot/fonts retained. Honest8-stage cap with remaining axis/aggregate legend ownership disclosed, no exhaustion claim."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "d3cf703afc6be51c5f82cb4006e5a6decf5e22e173b7538a29ddd930604c1ea3",
+      "bytes": 1822
+    },
+    "data.json": {
+      "sha256": "67bcdbc509463a0208aadf744a8033c44ce58abb4d3b7e3b0e5f0ccd73556865",
+      "bytes": 25061
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1ede768dd574f4cf8709941fee1d870aa9829f23670682247e30a582511390f1",
+      "bytes": 31795
+    },
+    "G1.gg.mjs": {
+      "sha256": "40192c5e81218a7b9ecd1da0411c30e081f4075f0cf596bee284b50c0876bb91",
+      "bytes": 2968
+    },
+    "G2.gg.mjs": {
+      "sha256": "115e8d95acea3d9db11c09b6c088727739291d7850f1eecec3f4288bd53a5c66",
+      "bytes": 2986
+    },
+    "G3.gg.mjs": {
+      "sha256": "827fbfe361ae1a820889d6da4d8c814397bc6f286d500799da0fe5638830a7b9",
+      "bytes": 2987
+    },
+    "G4.gg.mjs": {
+      "sha256": "308480b8cc670c7199e0d845c11484326cc216ad081e2f854e12f44a58f46b4e",
+      "bytes": 3019
+    },
+    "G5.gg.mjs": {
+      "sha256": "215538abd9bbdb5adef738e38bc98bd7dbc0e48acdd1bf12f97f4c8561f29f41",
+      "bytes": 2930
+    },
+    "G6.gg.mjs": {
+      "sha256": "87ed351d9bc6aa383bc419c478e3ff06550c39bd22eed74a5805a539bad12ce9",
+      "bytes": 2878
+    },
+    "G7.gg.mjs": {
+      "sha256": "d946f6a906eefca4469d121b88737e2d71c455b5dad27eb8da52566593d8b5f6",
+      "bytes": 2936
+    },
+    "G8.gg.mjs": {
+      "sha256": "15f8d078d9f54306983fe6a7ca832b3e14a37be2a7ddff835b2da7e7c9825cf1",
+      "bytes": 2934
+    },
+    "vega-lite.svg": {
+      "sha256": "7d1b6ea3b46f0426e6d4fc5c837ea1de175bc8a4eb7f45554d21138e5c3baa7f",
+      "bytes": 73108
+    },
+    "ggaction.svg": {
+      "sha256": "d46bfc892a70b80f3bf0a858a38b1ddf5c4c65333e1c0a407404ffbfbb4b1f54",
+      "bytes": 22950
+    }
+  }
+}

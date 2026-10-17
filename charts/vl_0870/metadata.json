@@ -1,0 +1,80 @@
+{
+  "id": "vl_0870",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8c3fd2482dbfc0e8d36477f2f07001ce241787f8107b58d5eeb810aa281ca33a",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1f04f8b3fbdf28c6244f06818c653509a7e9b63f4da310916b074a0e19b41b18",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7d34692114ad65e755aa7aa45c33430198e29cebc45f9f14eafca1a27a630aec",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a868989a792414e6deec5cae60d8f63eb71f935761f1b15dc911c60b358fc3ad",
+      "actions": 17,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/joewilliams200217/joewilliams200217.github.io/main/data_IMF_creditoutstandingGDPadj.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "FullG4 code inspected. Positional/sourcecolor/barwidth alreadypublicedit/encode; titlepaint/weight editor; both axisformat focusedlabels andYtitleweight focused. G5onlymoves source tickselection values tofocusedTicks, unsafegeometry/selection padding with no paintpolicy; selection remainscreation. No meaningful remaining ownerboundary."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "4364ea8bb7cff644c5d992a9853db217b80c6138381c337fe2f0efb0e55fb168",
+      "bytes": 1063
+    },
+    "data.json": {
+      "sha256": "247969b90c807c7d0ec3c1a7fd118f0c17a1c92e492776074c221370003b1a48",
+      "bytes": 10556
+    },
+    "resolved-source.vl.json": {
+      "sha256": "03e9468a2ad0cfbf6899a5756447ad3a46a389fe7c09a7945d0cff77aaa5e86b",
+      "bytes": 13334
+    },
+    "G1.gg.mjs": {
+      "sha256": "8c3fd2482dbfc0e8d36477f2f07001ce241787f8107b58d5eeb810aa281ca33a",
+      "bytes": 2335
+    },
+    "G2.gg.mjs": {
+      "sha256": "1f04f8b3fbdf28c6244f06818c653509a7e9b63f4da310916b074a0e19b41b18",
+      "bytes": 2446
+    },
+    "G3.gg.mjs": {
+      "sha256": "7d34692114ad65e755aa7aa45c33430198e29cebc45f9f14eafca1a27a630aec",
+      "bytes": 2391
+    },
+    "G4.gg.mjs": {
+      "sha256": "a868989a792414e6deec5cae60d8f63eb71f935761f1b15dc911c60b358fc3ad",
+      "bytes": 2426
+    },
+    "vega-lite.svg": {
+      "sha256": "b7a586658cbb19c9614b75c81c992120dd53a2ac13384b1f5533a6e6f41e3e53",
+      "bytes": 15723
+    },
+    "ggaction.svg": {
+      "sha256": "95d0c197f7826511950892b29d14233a1c81f9426c9e9215a1e79bd010267c00",
+      "bytes": 12408
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_1894",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ceb136cc29c61e3a8ce727990b1b112ba83fa672aef6d99500c0f9f5c803931e",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "3c90bdcee65925138694650dff4896a6b85a1affcf29b7960fed8e63e43ce625",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "483e3ee9be4b97e82774918c7b407af81c9196713403a5cb8c957dcbb0cf0d9c",
+      "actions": 16,
+      "topOptions": 34
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1895489cb8102f4b77ed5fec5eddecc2f9251eb3f08f0d6f16963d0b5d42b970",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "de7ef8087aeeddd1ace1ac76333b570b43d7a15fd3397cd2824edc562ff9a4f3",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8b89403eed55108a9ae91414d43fb95c333d5edfe73c20081d0a880b64082ee8",
+      "actions": 18,
+      "topOptions": 41
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "6830f9b1e75dd8eb74f72909ddbe25846aa538f0cbf158f19d006714984f193f",
+      "actions": 19,
+      "topOptions": 43
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "cd8f16d073479436cd7c149d843f6ec45490d4d64094810be5dd8abc8fac3c06",
+      "actions": 19,
+      "topOptions": 43
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/observatory/main/Green_CarbonPerCapita.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full final code reread after exact G8 source/runtime verification allchecksPASS: raw714 retained, only leading China1901 null record excluded from ink, source713vertices6countrylines/colors/legend exact; source300x300plot. Eight distinct valid ownership stages reached. Remaining line width and guide appearance settings honestly remain at existing owners under eight-stage cap; no fabricated exhaustion."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "c0266ccd806655198e14b5455a4f8c5d24f89d39ec9e5e7232612d240ec14d7a",
+      "bytes": 1431
+    },
+    "data.json": {
+      "sha256": "470b148330ebf2577d361753dc79adc7bbe01e646b8ac5297a668fbc50174393",
+      "bytes": 90428
+    },
+    "resolved-source.vl.json": {
+      "sha256": "6582602756ef25feb6f75d5b5d4114a7f01bd602a7e53a6e4d30e903363b948e",
+      "bytes": 111839
+    },
+    "G1.gg.mjs": {
+      "sha256": "ceb136cc29c61e3a8ce727990b1b112ba83fa672aef6d99500c0f9f5c803931e",
+      "bytes": 2234
+    },
+    "G2.gg.mjs": {
+      "sha256": "3c90bdcee65925138694650dff4896a6b85a1affcf29b7960fed8e63e43ce625",
+      "bytes": 2252
+    },
+    "G3.gg.mjs": {
+      "sha256": "483e3ee9be4b97e82774918c7b407af81c9196713403a5cb8c957dcbb0cf0d9c",
+      "bytes": 2259
+    },
+    "G4.gg.mjs": {
+      "sha256": "1895489cb8102f4b77ed5fec5eddecc2f9251eb3f08f0d6f16963d0b5d42b970",
+      "bytes": 2219
+    },
+    "G5.gg.mjs": {
+      "sha256": "de7ef8087aeeddd1ace1ac76333b570b43d7a15fd3397cd2824edc562ff9a4f3",
+      "bytes": 2270
+    },
+    "G6.gg.mjs": {
+      "sha256": "8b89403eed55108a9ae91414d43fb95c333d5edfe73c20081d0a880b64082ee8",
+      "bytes": 2305
+    },
+    "G7.gg.mjs": {
+      "sha256": "6830f9b1e75dd8eb74f72909ddbe25846aa538f0cbf158f19d006714984f193f",
+      "bytes": 2327
+    },
+    "G8.gg.mjs": {
+      "sha256": "cd8f16d073479436cd7c149d843f6ec45490d4d64094810be5dd8abc8fac3c06",
+      "bytes": 2301
+    },
+    "vega-lite.svg": {
+      "sha256": "b2272a83cd71f9b192da3aaf7ada3dd30b4ce7bf235a09484443367434eac163",
+      "bytes": 25744
+    },
+    "ggaction.svg": {
+      "sha256": "1c9dd90d1e56e2bf86b927b048be02dcb60280a72ba1491bb3c32e6aad84a3a3",
+      "bytes": 35420
+    }
+  }
+}

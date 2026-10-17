@@ -1,0 +1,78 @@
+{
+  "id": "vl_1272",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "a85038bfc251101586d6a8d9521783e20e9b8657d35a9d13e543cb3d4f0d25fb",
+      "actions": 12,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4c263579226bd2d56a3923674a39595d5ea9a75384835898af262149893ee0b8",
+      "actions": 14,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "eb11446760bd05f488d1249de1f772d259ec050043a4431b85ec45eecc0aded6",
+      "actions": 16,
+      "topOptions": 30
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c90a1b9ea100ab2fff4b511be5078db856670421508a2df868e8f1a55c806c26",
+      "actions": 20,
+      "topOptions": 30
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full G4 frontier reviewed: positional scales and stroke/opacity/radius encodings are focused; source axis paint in focused component editors and grid paint directional. Remaining editPointMark fill:none/strokeWidth4 are the lowest eligible public point style owner. Attempted encodeStrokeWidth4 fails actual native eligibility (rule or line mark requires eligible layer), so cannot decompose point stroke width with that API. Source font24/36 and all geometry remain eager, no invented defaults/canvas rollback."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "918feb6630fb873a3e7b76ffc0aeb0a3d00520ad6ed521731f660e6defc7c4ce",
+      "bytes": 15875
+    },
+    "data.json": {
+      "sha256": "4f412ca07c4b28096f31bea4571d1c9e3453500eadd402e5f5965cb8e7f53a82",
+      "bytes": 12374
+    },
+    "resolved-source.vl.json": {
+      "sha256": "abfc9a723ee3af7df4030a01cdeff11277094ddcb48358ca4be264953ae574f1",
+      "bytes": 15772
+    },
+    "G1.gg.mjs": {
+      "sha256": "a85038bfc251101586d6a8d9521783e20e9b8657d35a9d13e543cb3d4f0d25fb",
+      "bytes": 1469
+    },
+    "G2.gg.mjs": {
+      "sha256": "4c263579226bd2d56a3923674a39595d5ea9a75384835898af262149893ee0b8",
+      "bytes": 1511
+    },
+    "G3.gg.mjs": {
+      "sha256": "eb11446760bd05f488d1249de1f772d259ec050043a4431b85ec45eecc0aded6",
+      "bytes": 1665
+    },
+    "G4.gg.mjs": {
+      "sha256": "c90a1b9ea100ab2fff4b511be5078db856670421508a2df868e8f1a55c806c26",
+      "bytes": 1621
+    },
+    "vega-lite.svg": {
+      "sha256": "f65ad8c44027f7d6a238cdc6a63a572488e62638451c6b05d9a109a1c5a181b1",
+      "bytes": 56007
+    },
+    "ggaction.svg": {
+      "sha256": "6a1082c7b970d010894ecc0d91b02e1091b2443fd175ce08fdd53f39c84550f7",
+      "bytes": 29701
+    }
+  }
+}

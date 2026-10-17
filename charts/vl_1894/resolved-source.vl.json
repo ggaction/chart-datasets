@@ -1,0 +1,5075 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Carbon per capita by country",
+  "title": {
+    "text": "CO2 Emissions",
+    "subtitle": "Tonnes per capita. Source: Global Carbon Project",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Time": "1901",
+        "Country": "Brazil",
+        "Value": "0.113601872",
+        "Value2": "National",
+        "Detail": "CO2 emissions per capita, 1901-2019"
+      },
+      {
+        "Time": "1902",
+        "Country": "Brazil",
+        "Value": "0.132434057",
+        "Value2": "National",
+        "Detail": "Our World in Data"
+      },
+      {
+        "Time": "1903",
+        "Country": "Brazil",
+        "Value": "0.126165371",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1904",
+        "Country": "Brazil",
+        "Value": "0.132560164",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1905",
+        "Country": "Brazil",
+        "Value": "0.138663334",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1906",
+        "Country": "Brazil",
+        "Value": "0.155489165",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1907",
+        "Country": "Brazil",
+        "Value": "0.164063398",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1908",
+        "Country": "Brazil",
+        "Value": "0.167284103",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1909",
+        "Country": "Brazil",
+        "Value": "0.164454792",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1910",
+        "Country": "Brazil",
+        "Value": "0.187335137",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1911",
+        "Country": "Brazil",
+        "Value": "0.201243418",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1912",
+        "Country": "Brazil",
+        "Value": "0.239201387",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1913",
+        "Country": "Brazil",
+        "Value": "0.252772235",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1914",
+        "Country": "Brazil",
+        "Value": "0.168447099",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1915",
+        "Country": "Brazil",
+        "Value": "0.126233023",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1916",
+        "Country": "Brazil",
+        "Value": "0.113221229",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1917",
+        "Country": "Brazil",
+        "Value": "0.09618711",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1918",
+        "Country": "Brazil",
+        "Value": "0.087563766",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1919",
+        "Country": "Brazil",
+        "Value": "0.113335421",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1920",
+        "Country": "Brazil",
+        "Value": "0.131799209",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1921",
+        "Country": "Brazil",
+        "Value": "0.102386154",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1922",
+        "Country": "Brazil",
+        "Value": "0.131226663",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1923",
+        "Country": "Brazil",
+        "Value": "0.157002896",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1924",
+        "Country": "Brazil",
+        "Value": "0.170091501",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1925",
+        "Country": "Brazil",
+        "Value": "0.175531212",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1926",
+        "Country": "Brazil",
+        "Value": "0.175291235",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1927",
+        "Country": "Brazil",
+        "Value": "0.190501827",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1928",
+        "Country": "Brazil",
+        "Value": "0.182163919",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1929",
+        "Country": "Brazil",
+        "Value": "0.191084623",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1930",
+        "Country": "Brazil",
+        "Value": "0.162706601",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1931",
+        "Country": "Brazil",
+        "Value": "0.120548583",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1932",
+        "Country": "Brazil",
+        "Value": "0.118131759",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1933",
+        "Country": "Brazil",
+        "Value": "0.131115204",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1934",
+        "Country": "Brazil",
+        "Value": "0.125779657",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1935",
+        "Country": "Brazil",
+        "Value": "0.146891296",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1936",
+        "Country": "Brazil",
+        "Value": "0.134453154",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1937",
+        "Country": "Brazil",
+        "Value": "0.155854587",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1938",
+        "Country": "Brazil",
+        "Value": "0.152905149",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1939",
+        "Country": "Brazil",
+        "Value": "0.146223902",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1940",
+        "Country": "Brazil",
+        "Value": "0.156118002",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1941",
+        "Country": "Brazil",
+        "Value": "0.147848209",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1942",
+        "Country": "Brazil",
+        "Value": "0.134919718",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1943",
+        "Country": "Brazil",
+        "Value": "0.145449839",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1944",
+        "Country": "Brazil",
+        "Value": "0.12936392",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1945",
+        "Country": "Brazil",
+        "Value": "0.14623076",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1946",
+        "Country": "Brazil",
+        "Value": "0.15617692",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1947",
+        "Country": "Brazil",
+        "Value": "0.18296175",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1948",
+        "Country": "Brazil",
+        "Value": "0.156741348",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1949",
+        "Country": "Brazil",
+        "Value": "0.141862098",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1950",
+        "Country": "Brazil",
+        "Value": "0.364225512",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1951",
+        "Country": "Brazil",
+        "Value": "0.389514585",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1952",
+        "Country": "Brazil",
+        "Value": "0.435275312",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1953",
+        "Country": "Brazil",
+        "Value": "0.427438431",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1954",
+        "Country": "Brazil",
+        "Value": "0.488495712",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1955",
+        "Country": "Brazil",
+        "Value": "0.544083123",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1956",
+        "Country": "Brazil",
+        "Value": "0.568842936",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1957",
+        "Country": "Brazil",
+        "Value": "0.543242763",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1958",
+        "Country": "Brazil",
+        "Value": "0.573142471",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1959",
+        "Country": "Brazil",
+        "Value": "0.556409167",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Country": "Brazil",
+        "Value": "0.649105987",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Country": "Brazil",
+        "Value": "0.661335509",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Country": "Brazil",
+        "Value": "0.700936417",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Country": "Brazil",
+        "Value": "0.705202773",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Country": "Brazil",
+        "Value": "0.699027657",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Country": "Brazil",
+        "Value": "0.675625687",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Country": "Brazil",
+        "Value": "0.749286848",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Country": "Brazil",
+        "Value": "0.750595302",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Country": "Brazil",
+        "Value": "0.854894808",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Country": "Brazil",
+        "Value": "0.907120543",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Country": "Brazil",
+        "Value": "0.98336177",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Country": "Brazil",
+        "Value": "1.050008114",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Country": "Brazil",
+        "Value": "1.141753152",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Country": "Brazil",
+        "Value": "1.291031694",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Country": "Brazil",
+        "Value": "1.365034611",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Country": "Brazil",
+        "Value": "1.403835789",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Country": "Brazil",
+        "Value": "1.406290816",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Country": "Brazil",
+        "Value": "1.441657452",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Country": "Brazil",
+        "Value": "1.528231131",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Country": "Brazil",
+        "Value": "1.587701505",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Country": "Brazil",
+        "Value": "1.53908524",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Country": "Brazil",
+        "Value": "1.379525047",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Country": "Brazil",
+        "Value": "1.350134745",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Country": "Brazil",
+        "Value": "1.277931363",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Country": "Brazil",
+        "Value": "1.266056238",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Country": "Brazil",
+        "Value": "1.330165294",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Country": "Brazil",
+        "Value": "1.428047618",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Country": "Brazil",
+        "Value": "1.460613392",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Country": "Brazil",
+        "Value": "1.445142786",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Country": "Brazil",
+        "Value": "1.449576595",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Country": "Brazil",
+        "Value": "1.388704314",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Country": "Brazil",
+        "Value": "1.432446593",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Country": "Brazil",
+        "Value": "1.415692645",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Country": "Brazil",
+        "Value": "1.455751887",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Country": "Brazil",
+        "Value": "1.502013868",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Country": "Brazil",
+        "Value": "1.577481397",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Country": "Brazil",
+        "Value": "1.708196521",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Country": "Brazil",
+        "Value": "1.773740984",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Country": "Brazil",
+        "Value": "1.815858577",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Country": "Brazil",
+        "Value": "1.835447196",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Country": "Brazil",
+        "Value": "1.854946164",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Country": "Brazil",
+        "Value": "1.879203819",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Country": "Brazil",
+        "Value": "1.823763393",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Country": "Brazil",
+        "Value": "1.746383936",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Country": "Brazil",
+        "Value": "1.813392737",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Country": "Brazil",
+        "Value": "1.837919578",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Country": "Brazil",
+        "Value": "1.817249324",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Country": "Brazil",
+        "Value": "1.877235323",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Country": "Brazil",
+        "Value": "1.980652752",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Country": "Brazil",
+        "Value": "1.857219727",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Country": "Brazil",
+        "Value": "2.101230326",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Country": "Brazil",
+        "Value": "2.17684404",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Country": "Brazil",
+        "Value": "2.308720496",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Country": "Brazil",
+        "Value": "2.462478203",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Country": "Brazil",
+        "Value": "2.583762552",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Country": "Brazil",
+        "Value": "2.421914536",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Country": "Brazil",
+        "Value": "2.320701496",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2017",
+        "Country": "Brazil",
+        "Value": "2.331611425",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2018",
+        "Country": "Brazil",
+        "Value": "2.22777271",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2019",
+        "Country": "Brazil",
+        "Value": "2.206660839",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1901",
+        "Country": "China",
+        "Value": "null",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1902",
+        "Country": "China",
+        "Value": "0.000235184",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1903",
+        "Country": "China",
+        "Value": "0.004821833",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1904",
+        "Country": "China",
+        "Value": "0.005099291",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1905",
+        "Country": "China",
+        "Value": "0.005577828",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1906",
+        "Country": "China",
+        "Value": "0.041312085",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1907",
+        "Country": "China",
+        "Value": "0.040432872",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1908",
+        "Country": "China",
+        "Value": "0.054273666",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1909",
+        "Country": "China",
+        "Value": "0.049418629",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1910",
+        "Country": "China",
+        "Value": "0.044120656",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1911",
+        "Country": "China",
+        "Value": "0.065025453",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1912",
+        "Country": "China",
+        "Value": "0.022603429",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1913",
+        "Country": "China",
+        "Value": "0.024574634",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1914",
+        "Country": "China",
+        "Value": "0.034133026",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1915",
+        "Country": "China",
+        "Value": "0.03595468",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1916",
+        "Country": "China",
+        "Value": "0.039708588",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1917",
+        "Country": "China",
+        "Value": "0.043400232",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1918",
+        "Country": "China",
+        "Value": "0.045502433",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1919",
+        "Country": "China",
+        "Value": "0.051879241",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1920",
+        "Country": "China",
+        "Value": "0.056772612",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1921",
+        "Country": "China",
+        "Value": "0.053312556",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1922",
+        "Country": "China",
+        "Value": "0.055949025",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1923",
+        "Country": "China",
+        "Value": "0.067302041",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1924",
+        "Country": "China",
+        "Value": "0.073201367",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1925",
+        "Country": "China",
+        "Value": "0.069051198",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1926",
+        "Country": "China",
+        "Value": "0.06128683",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1927",
+        "Country": "China",
+        "Value": "0.069191898",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1928",
+        "Country": "China",
+        "Value": "0.070144547",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1929",
+        "Country": "China",
+        "Value": "0.073373474",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1930",
+        "Country": "China",
+        "Value": "0.077309812",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1931",
+        "Country": "China",
+        "Value": "0.081565714",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1932",
+        "Country": "China",
+        "Value": "0.077630962",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1933",
+        "Country": "China",
+        "Value": "0.084327335",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1934",
+        "Country": "China",
+        "Value": "0.097850317",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1935",
+        "Country": "China",
+        "Value": "0.113823",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1936",
+        "Country": "China",
+        "Value": "0.127691091",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1937",
+        "Country": "China",
+        "Value": "0.118290082",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1938",
+        "Country": "China",
+        "Value": "0.107577005",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1939",
+        "Country": "China",
+        "Value": "0.129866287",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1940",
+        "Country": "China",
+        "Value": "0.165628323",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1941",
+        "Country": "China",
+        "Value": "0.205870369",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1942",
+        "Country": "China",
+        "Value": "0.216642551",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1943",
+        "Country": "China",
+        "Value": "0.184125033",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1944",
+        "Country": "China",
+        "Value": "0.184270533",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1945",
+        "Country": "China",
+        "Value": "0.094393709",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1946",
+        "Country": "China",
+        "Value": "0.058298539",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1947",
+        "Country": "China",
+        "Value": "0.062249235",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1948",
+        "Country": "China",
+        "Value": "0.043989565",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1949",
+        "Country": "China",
+        "Value": "0.108548398",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1950",
+        "Country": "China",
+        "Value": "0.141737516",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1951",
+        "Country": "China",
+        "Value": "0.178304621",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1952",
+        "Country": "China",
+        "Value": "0.219691335",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1953",
+        "Country": "China",
+        "Value": "0.225465784",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1954",
+        "Country": "China",
+        "Value": "0.266773813",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1955",
+        "Country": "China",
+        "Value": "0.311186374",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1956",
+        "Country": "China",
+        "Value": "0.347339189",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1957",
+        "Country": "China",
+        "Value": "0.405571416",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1958",
+        "Country": "China",
+        "Value": "0.819335852",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1959",
+        "Country": "China",
+        "Value": "1.107563454",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Country": "China",
+        "Value": "1.179542746",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Country": "China",
+        "Value": "0.82115814",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Country": "China",
+        "Value": "0.644099382",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Country": "China",
+        "Value": "0.627240573",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Country": "China",
+        "Value": "0.615179191",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Country": "China",
+        "Value": "0.655437954",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Country": "China",
+        "Value": "0.702382004",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Country": "China",
+        "Value": "0.566790363",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Country": "China",
+        "Value": "0.596633789",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Country": "China",
+        "Value": "0.714583978",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Country": "China",
+        "Value": "0.930602026",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Country": "China",
+        "Value": "1.029756773",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Country": "China",
+        "Value": "1.068325347",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Country": "China",
+        "Value": "1.085624395",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Country": "China",
+        "Value": "1.084341499",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Country": "China",
+        "Value": "1.233050444",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Country": "China",
+        "Value": "1.263374862",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Country": "China",
+        "Value": "1.361744475",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Country": "China",
+        "Value": "1.49686282",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Country": "China",
+        "Value": "1.508026459",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Country": "China",
+        "Value": "1.458756874",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Country": "China",
+        "Value": "1.422831316",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Country": "China",
+        "Value": "1.527768729",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Country": "China",
+        "Value": "1.588412587",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Country": "China",
+        "Value": "1.703236375",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Country": "China",
+        "Value": "1.814608779",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Country": "China",
+        "Value": "1.874169605",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Country": "China",
+        "Value": "1.963142074",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Country": "China",
+        "Value": "2.063561486",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Country": "China",
+        "Value": "2.060578029",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Country": "China",
+        "Value": "2.056948251",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Country": "China",
+        "Value": "2.127618647",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Country": "China",
+        "Value": "2.198697117",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Country": "China",
+        "Value": "2.326678588",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Country": "China",
+        "Value": "2.447311816",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Country": "China",
+        "Value": "2.63115627",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Country": "China",
+        "Value": "2.723113332",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Country": "China",
+        "Value": "2.705673552",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Country": "China",
+        "Value": "2.567569938",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Country": "China",
+        "Value": "2.542408874",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Country": "China",
+        "Value": "2.595244139",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Country": "China",
+        "Value": "2.637260195",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Country": "China",
+        "Value": "2.893206353",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Country": "China",
+        "Value": "3.385004921",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Country": "China",
+        "Value": "3.874198709",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Country": "China",
+        "Value": "4.336693901",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Country": "China",
+        "Value": "4.765171339",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Country": "China",
+        "Value": "5.097905885",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Country": "China",
+        "Value": "5.448698793",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Country": "China",
+        "Value": "5.700108973",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Country": "China",
+        "Value": "6.210165352",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Country": "China",
+        "Value": "6.820350561",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Country": "China",
+        "Value": "6.959874207",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Country": "China",
+        "Value": "7.038326376",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Country": "China",
+        "Value": "7.017279991",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Country": "China",
+        "Value": "6.8829047",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Country": "China",
+        "Value": "6.755435196",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2017",
+        "Country": "China",
+        "Value": "6.861770126",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2018",
+        "Country": "China",
+        "Value": "6.974106028",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2019",
+        "Country": "China",
+        "Value": "7.096383171",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1901",
+        "Country": "United Kingdom",
+        "Value": "10.69973871",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1902",
+        "Country": "United Kingdom",
+        "Value": "11.00219631",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1903",
+        "Country": "United Kingdom",
+        "Value": "10.97949755",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1904",
+        "Country": "United Kingdom",
+        "Value": "10.92385483",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1905",
+        "Country": "United Kingdom",
+        "Value": "10.96155373",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1906",
+        "Country": "United Kingdom",
+        "Value": "11.24662301",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1907",
+        "Country": "United Kingdom",
+        "Value": "11.63956884",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1908",
+        "Country": "United Kingdom",
+        "Value": "11.24634169",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1909",
+        "Country": "United Kingdom",
+        "Value": "11.24115533",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1910",
+        "Country": "United Kingdom",
+        "Value": "11.23629032",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1911",
+        "Country": "United Kingdom",
+        "Value": "11.41682119",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1912",
+        "Country": "United Kingdom",
+        "Value": "10.74777484",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1913",
+        "Country": "United Kingdom",
+        "Value": "11.67306099",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1914",
+        "Country": "United Kingdom",
+        "Value": "11.23216509",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1915",
+        "Country": "United Kingdom",
+        "Value": "11.29783585",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1916",
+        "Country": "United Kingdom",
+        "Value": "11.64889238",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1917",
+        "Country": "United Kingdom",
+        "Value": "11.49236793",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1918",
+        "Country": "United Kingdom",
+        "Value": "10.70842782",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1919",
+        "Country": "United Kingdom",
+        "Value": "10.45104057",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1920",
+        "Country": "United Kingdom",
+        "Value": "10.72462143",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1921",
+        "Country": "United Kingdom",
+        "Value": "7.245593668",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1922",
+        "Country": "United Kingdom",
+        "Value": "9.637909974",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1923",
+        "Country": "United Kingdom",
+        "Value": "10.1737069",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1924",
+        "Country": "United Kingdom",
+        "Value": "10.5910393",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1925",
+        "Country": "United Kingdom",
+        "Value": "9.958201944",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1926",
+        "Country": "United Kingdom",
+        "Value": "5.437124355",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1927",
+        "Country": "United Kingdom",
+        "Value": "10.26105167",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1928",
+        "Country": "United Kingdom",
+        "Value": "9.590417246",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1929",
+        "Country": "United Kingdom",
+        "Value": "10.06006561",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1930",
+        "Country": "United Kingdom",
+        "Value": "9.59732627",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1931",
+        "Country": "United Kingdom",
+        "Value": "8.926329108",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1932",
+        "Country": "United Kingdom",
+        "Value": "8.532724455",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1933",
+        "Country": "United Kingdom",
+        "Value": "8.416142639",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1934",
+        "Country": "United Kingdom",
+        "Value": "9.047932249",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1935",
+        "Country": "United Kingdom",
+        "Value": "9.137540109",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1936",
+        "Country": "United Kingdom",
+        "Value": "9.620653071",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1937",
+        "Country": "United Kingdom",
+        "Value": "9.880762464",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1938",
+        "Country": "United Kingdom",
+        "Value": "9.415310129",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1939",
+        "Country": "United Kingdom",
+        "Value": "9.427187756",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1940",
+        "Country": "United Kingdom",
+        "Value": "9.850406556",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1941",
+        "Country": "United Kingdom",
+        "Value": "9.709047898",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1942",
+        "Country": "United Kingdom",
+        "Value": "9.65597751",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1943",
+        "Country": "United Kingdom",
+        "Value": "9.314791018",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1944",
+        "Country": "United Kingdom",
+        "Value": "9.004568831",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1945",
+        "Country": "United Kingdom",
+        "Value": "8.482808347",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1946",
+        "Country": "United Kingdom",
+        "Value": "8.828534357",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1947",
+        "Country": "United Kingdom",
+        "Value": "9.285232144",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1948",
+        "Country": "United Kingdom",
+        "Value": "9.503015702",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1949",
+        "Country": "United Kingdom",
+        "Value": "9.623308651",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1950",
+        "Country": "United Kingdom",
+        "Value": "9.893948613",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1951",
+        "Country": "United Kingdom",
+        "Value": "10.77532135",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1952",
+        "Country": "United Kingdom",
+        "Value": "10.43821658",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1953",
+        "Country": "United Kingdom",
+        "Value": "10.64433686",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1954",
+        "Country": "United Kingdom",
+        "Value": "10.86655196",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1955",
+        "Country": "United Kingdom",
+        "Value": "11.29859876",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1956",
+        "Country": "United Kingdom",
+        "Value": "11.20281569",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1957",
+        "Country": "United Kingdom",
+        "Value": "11.08268883",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1958",
+        "Country": "United Kingdom",
+        "Value": "10.74902603",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1959",
+        "Country": "United Kingdom",
+        "Value": "10.50236583",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Country": "United Kingdom",
+        "Value": "11.15159187",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Country": "United Kingdom",
+        "Value": "11.16323018",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Country": "United Kingdom",
+        "Value": "11.16442597",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Country": "United Kingdom",
+        "Value": "11.27802589",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Country": "United Kingdom",
+        "Value": "11.28122022",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Country": "United Kingdom",
+        "Value": "11.46939808",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Country": "United Kingdom",
+        "Value": "11.32647961",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Country": "United Kingdom",
+        "Value": "10.79076726",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Country": "United Kingdom",
+        "Value": "11.00045896",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Country": "United Kingdom",
+        "Value": "11.34920075",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Country": "United Kingdom",
+        "Value": "11.7427059",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Country": "United Kingdom",
+        "Value": "11.84574224",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Country": "United Kingdom",
+        "Value": "11.59426122",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Country": "United Kingdom",
+        "Value": "11.77690465",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Country": "United Kingdom",
+        "Value": "11.00306443",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Country": "United Kingdom",
+        "Value": "10.74311453",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Country": "United Kingdom",
+        "Value": "10.65220955",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Country": "United Kingdom",
+        "Value": "10.75300939",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Country": "United Kingdom",
+        "Value": "10.75888676",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Country": "United Kingdom",
+        "Value": "11.46718819",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Country": "United Kingdom",
+        "Value": "10.30148152",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Country": "United Kingdom",
+        "Value": "9.970562726",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Country": "United Kingdom",
+        "Value": "9.748065575",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Country": "United Kingdom",
+        "Value": "9.692872648",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Country": "United Kingdom",
+        "Value": "9.392521009",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Country": "United Kingdom",
+        "Value": "9.920021289",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Country": "United Kingdom",
+        "Value": "10.05882182",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Country": "United Kingdom",
+        "Value": "10.08981109",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Country": "United Kingdom",
+        "Value": "10.03810494",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Country": "United Kingdom",
+        "Value": "10.20776688",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Country": "United Kingdom",
+        "Value": "10.51002027",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Country": "United Kingdom",
+        "Value": "10.62259634",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Country": "United Kingdom",
+        "Value": "10.32435075",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Country": "United Kingdom",
+        "Value": "10.04899415",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Country": "United Kingdom",
+        "Value": "9.956337257",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Country": "United Kingdom",
+        "Value": "9.784079973",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Country": "United Kingdom",
+        "Value": "10.12568784",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Country": "United Kingdom",
+        "Value": "9.648262919",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Country": "United Kingdom",
+        "Value": "9.704558366",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Country": "United Kingdom",
+        "Value": "9.553639604",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Country": "United Kingdom",
+        "Value": "9.631279857",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Country": "United Kingdom",
+        "Value": "9.745542301",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Country": "United Kingdom",
+        "Value": "9.444436234",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Country": "United Kingdom",
+        "Value": "9.59974767",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Country": "United Kingdom",
+        "Value": "9.57386159",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Country": "United Kingdom",
+        "Value": "9.453414145",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Country": "United Kingdom",
+        "Value": "9.331113892",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Country": "United Kingdom",
+        "Value": "9.10013431",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Country": "United Kingdom",
+        "Value": "8.766787771",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Country": "United Kingdom",
+        "Value": "7.867294068",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Country": "United Kingdom",
+        "Value": "8.068447873",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Country": "United Kingdom",
+        "Value": "7.338161726",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Country": "United Kingdom",
+        "Value": "7.559796126",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Country": "United Kingdom",
+        "Value": "7.354132787",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Country": "United Kingdom",
+        "Value": "6.71105738",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Country": "United Kingdom",
+        "Value": "6.414980428",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Country": "United Kingdom",
+        "Value": "6.019934432",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2017",
+        "Country": "United Kingdom",
+        "Value": "5.816062074",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2018",
+        "Country": "United Kingdom",
+        "Value": "5.66171039",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2019",
+        "Country": "United Kingdom",
+        "Value": "5.477245609",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1901",
+        "Country": "United States",
+        "Value": "9.122886129",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1902",
+        "Country": "United States",
+        "Value": "9.497449853",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1903",
+        "Country": "United States",
+        "Value": "10.90210759",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1904",
+        "Country": "United States",
+        "Value": "10.52763183",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1905",
+        "Country": "United States",
+        "Value": "11.55214396",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1906",
+        "Country": "United States",
+        "Value": "11.89773465",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1907",
+        "Country": "United States",
+        "Value": "13.5796905",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1908",
+        "Country": "United States",
+        "Value": "11.64983417",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1909",
+        "Country": "United States",
+        "Value": "12.65961513",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1910",
+        "Country": "United States",
+        "Value": "13.56314047",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1911",
+        "Country": "United States",
+        "Value": "13.18047842",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1912",
+        "Country": "United States",
+        "Value": "13.82833305",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1913",
+        "Country": "United States",
+        "Value": "14.57984277",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1914",
+        "Country": "United States",
+        "Value": "13.08616141",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1915",
+        "Country": "United States",
+        "Value": "13.35719014",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1916",
+        "Country": "United States",
+        "Value": "14.61870996",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1917",
+        "Country": "United States",
+        "Value": "15.86727593",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1918",
+        "Country": "United States",
+        "Value": "16.4160506",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1919",
+        "Country": "United States",
+        "Value": "13.77278385",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1920",
+        "Country": "United States",
+        "Value": "15.98899349",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1921",
+        "Country": "United States",
+        "Value": "12.90992353",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1922",
+        "Country": "United States",
+        "Value": "12.80922253",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1923",
+        "Country": "United States",
+        "Value": "16.63472339",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1924",
+        "Country": "United States",
+        "Value": "14.66052466",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1925",
+        "Country": "United States",
+        "Value": "14.82006216",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1926",
+        "Country": "United States",
+        "Value": "15.84462852",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1927",
+        "Country": "United States",
+        "Value": "15.28288359",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1928",
+        "Country": "United States",
+        "Value": "14.83922461",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1929",
+        "Country": "United States",
+        "Value": "15.73508898",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1930",
+        "Country": "United States",
+        "Value": "13.84725151",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1931",
+        "Country": "United States",
+        "Value": "11.6845403",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1932",
+        "Country": "United States",
+        "Value": "9.833093289",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1933",
+        "Country": "United States",
+        "Value": "10.47877685",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1934",
+        "Country": "United States",
+        "Value": "11.08665457",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1935",
+        "Country": "United States",
+        "Value": "11.44213585",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1936",
+        "Country": "United States",
+        "Value": "13.05091987",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1937",
+        "Country": "United States",
+        "Value": "13.56142601",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1938",
+        "Country": "United States",
+        "Value": "11.38390092",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1939",
+        "Country": "United States",
+        "Value": "12.44512636",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1940",
+        "Country": "United States",
+        "Value": "13.84377982",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1941",
+        "Country": "United States",
+        "Value": "14.94030837",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1942",
+        "Country": "United States",
+        "Value": "15.89001843",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1943",
+        "Country": "United States",
+        "Value": "16.22224214",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1944",
+        "Country": "United States",
+        "Value": "17.245708",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1945",
+        "Country": "United States",
+        "Value": "16.46047915",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1946",
+        "Country": "United States",
+        "Value": "15.5348012",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1947",
+        "Country": "United States",
+        "Value": "16.83965749",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1948",
+        "Country": "United States",
+        "Value": "17.18349767",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1949",
+        "Country": "United States",
+        "Value": "13.98757432",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1950",
+        "Country": "United States",
+        "Value": "15.96997363",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1951",
+        "Country": "United States",
+        "Value": "16.24098338",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1952",
+        "Country": "United States",
+        "Value": "15.5903853",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1953",
+        "Country": "United States",
+        "Value": "15.70765573",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1954",
+        "Country": "United States",
+        "Value": "14.71704954",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1955",
+        "Country": "United States",
+        "Value": "15.84892698",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1956",
+        "Country": "United States",
+        "Value": "16.32686338",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1957",
+        "Country": "United States",
+        "Value": "15.91164568",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1958",
+        "Country": "United States",
+        "Value": "15.15784998",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1959",
+        "Country": "United States",
+        "Value": "15.36028132",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Country": "United States",
+        "Value": "15.46596556",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Country": "United States",
+        "Value": "15.17840295",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Country": "United States",
+        "Value": "15.51630013",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Country": "United States",
+        "Value": "15.98517623",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Country": "United States",
+        "Value": "16.4773219",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Country": "United States",
+        "Value": "16.96352488",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Country": "United States",
+        "Value": "17.62877501",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Country": "United States",
+        "Value": "18.11283841",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Country": "United States",
+        "Value": "18.60152791",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Country": "United States",
+        "Value": "19.36589535",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Country": "United States",
+        "Value": "20.64550166",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Country": "United States",
+        "Value": "20.58485357",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Country": "United States",
+        "Value": "21.37409219",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Country": "United States",
+        "Value": "22.13251309",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Country": "United States",
+        "Value": "21.15449458",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Country": "United States",
+        "Value": "20.08752548",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Country": "United States",
+        "Value": "20.83880565",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Country": "United States",
+        "Value": "21.22188404",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Country": "United States",
+        "Value": "21.68057366",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Country": "United States",
+        "Value": "21.52751047",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Country": "United States",
+        "Value": "20.55429045",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Country": "United States",
+        "Value": "19.55814227",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Country": "United States",
+        "Value": "18.39848556",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Country": "United States",
+        "Value": "18.37019262",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Country": "United States",
+        "Value": "18.75395982",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Country": "United States",
+        "Value": "18.64589681",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Country": "United States",
+        "Value": "18.48657218",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Country": "United States",
+        "Value": "19.10131361",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Country": "United States",
+        "Value": "19.74997374",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Country": "United States",
+        "Value": "19.81380058",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Country": "United States",
+        "Value": "20.34071322",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Country": "United States",
+        "Value": "19.95328581",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Country": "United States",
+        "Value": "20.16687961",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Country": "United States",
+        "Value": "20.35755743",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Country": "United States",
+        "Value": "20.50416553",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Country": "United States",
+        "Value": "20.51147857",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Country": "United States",
+        "Value": "20.96972714",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Country": "United States",
+        "Value": "20.99158418",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Country": "United States",
+        "Value": "20.89961593",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Country": "United States",
+        "Value": "20.93103392",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Country": "United States",
+        "Value": "21.2915728",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Country": "United States",
+        "Value": "20.73180162",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Country": "United States",
+        "Value": "20.68599574",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Country": "United States",
+        "Value": "20.67504773",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Country": "United States",
+        "Value": "20.89110184",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Country": "United States",
+        "Value": "20.78650179",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Country": "United States",
+        "Value": "20.32197468",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Country": "United States",
+        "Value": "20.38678159",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Country": "United States",
+        "Value": "19.54139344",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Country": "United States",
+        "Value": "17.92651752",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Country": "United States",
+        "Value": "18.43965306",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Country": "United States",
+        "Value": "17.86129712",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Country": "United States",
+        "Value": "17.09177235",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Country": "United States",
+        "Value": "17.42734515",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Country": "United States",
+        "Value": "17.45274735",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Country": "United States",
+        "Value": "16.86756937",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Country": "United States",
+        "Value": "16.3839177",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2017",
+        "Country": "United States",
+        "Value": "16.16071569",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2018",
+        "Country": "United States",
+        "Value": "16.5849827",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2019",
+        "Country": "United States",
+        "Value": "16.05973527",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1901",
+        "Country": "India",
+        "Value": "0.054076903",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1902",
+        "Country": "India",
+        "Value": "0.059304548",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1903",
+        "Country": "India",
+        "Value": "0.06021408",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1904",
+        "Country": "India",
+        "Value": "0.067078028",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1905",
+        "Country": "India",
+        "Value": "0.068280871",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1906",
+        "Country": "India",
+        "Value": "0.07850378",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1907",
+        "Country": "India",
+        "Value": "0.087061145",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1908",
+        "Country": "India",
+        "Value": "0.099172372",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1909",
+        "Country": "India",
+        "Value": "0.095704279",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1910",
+        "Country": "India",
+        "Value": "0.092712609",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1911",
+        "Country": "India",
+        "Value": "0.097405462",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1912",
+        "Country": "India",
+        "Value": "0.111620265",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1913",
+        "Country": "India",
+        "Value": "0.122548022",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1914",
+        "Country": "India",
+        "Value": "0.122781634",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1915",
+        "Country": "India",
+        "Value": "0.127604525",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1916",
+        "Country": "India",
+        "Value": "0.128279429",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1917",
+        "Country": "India",
+        "Value": "0.133230109",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1918",
+        "Country": "India",
+        "Value": "0.148910744",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1919",
+        "Country": "India",
+        "Value": "0.161668811",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1920",
+        "Country": "India",
+        "Value": "0.130424031",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1921",
+        "Country": "India",
+        "Value": "0.139495322",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1922",
+        "Country": "India",
+        "Value": "0.136478886",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1923",
+        "Country": "India",
+        "Value": "0.139636673",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1924",
+        "Country": "India",
+        "Value": "0.148559895",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1925",
+        "Country": "India",
+        "Value": "0.14574453",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1926",
+        "Country": "India",
+        "Value": "0.144406817",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1927",
+        "Country": "India",
+        "Value": "0.150568427",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1928",
+        "Country": "India",
+        "Value": "0.14325965",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1929",
+        "Country": "India",
+        "Value": "0.147906593",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1930",
+        "Country": "India",
+        "Value": "0.148798521",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1931",
+        "Country": "India",
+        "Value": "0.134613518",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1932",
+        "Country": "India",
+        "Value": "0.123594175",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1933",
+        "Country": "India",
+        "Value": "0.119789017",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1934",
+        "Country": "India",
+        "Value": "0.13208539",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1935",
+        "Country": "India",
+        "Value": "0.136275661",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1936",
+        "Country": "India",
+        "Value": "0.132242011",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1937",
+        "Country": "India",
+        "Value": "0.144628381",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1938",
+        "Country": "India",
+        "Value": "0.159628047",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1939",
+        "Country": "India",
+        "Value": "0.154262798",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1940",
+        "Country": "India",
+        "Value": "0.161561279",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1941",
+        "Country": "India",
+        "Value": "0.163443431",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1942",
+        "Country": "India",
+        "Value": "0.16133478",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1943",
+        "Country": "India",
+        "Value": "0.138953489",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1944",
+        "Country": "India",
+        "Value": "0.140440409",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1945",
+        "Country": "India",
+        "Value": "0.153885414",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1946",
+        "Country": "India",
+        "Value": "0.150067945",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1947",
+        "Country": "India",
+        "Value": "0.150885714",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1948",
+        "Country": "India",
+        "Value": "0.148921576",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1949",
+        "Country": "India",
+        "Value": "0.15349598",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1950",
+        "Country": "India",
+        "Value": "0.162629773",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1951",
+        "Country": "India",
+        "Value": "0.167700692",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1952",
+        "Country": "India",
+        "Value": "0.173702987",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1953",
+        "Country": "India",
+        "Value": "0.173978574",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1954",
+        "Country": "India",
+        "Value": "0.18015807",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1955",
+        "Country": "India",
+        "Value": "0.192514053",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1956",
+        "Country": "India",
+        "Value": "0.195905056",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1957",
+        "Country": "India",
+        "Value": "0.215798089",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1958",
+        "Country": "India",
+        "Value": "0.221418836",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1959",
+        "Country": "India",
+        "Value": "0.229962434",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Country": "India",
+        "Value": "0.247455818",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Country": "India",
+        "Value": "0.262341475",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Country": "India",
+        "Value": "0.283058447",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Country": "India",
+        "Value": "0.297920983",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Country": "India",
+        "Value": "0.285749257",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Country": "India",
+        "Value": "0.308383872",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Country": "India",
+        "Value": "0.313155263",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Country": "India",
+        "Value": "0.30703316",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Country": "India",
+        "Value": "0.327936386",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Country": "India",
+        "Value": "0.327105793",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Country": "India",
+        "Value": "0.327735659",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Country": "India",
+        "Value": "0.338464281",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Country": "India",
+        "Value": "0.349843176",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Country": "India",
+        "Value": "0.351992951",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Country": "India",
+        "Value": "0.355004394",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Country": "India",
+        "Value": "0.376363603",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Country": "India",
+        "Value": "0.384341725",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Country": "India",
+        "Value": "0.397444499",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Country": "India",
+        "Value": "0.394724898",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Country": "India",
+        "Value": "0.405017972",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Country": "India",
+        "Value": "0.417886629",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Country": "India",
+        "Value": "0.440829272",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Country": "India",
+        "Value": "0.444911845",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Country": "India",
+        "Value": "0.470541172",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Country": "India",
+        "Value": "0.472066065",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Country": "India",
+        "Value": "0.507508824",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Country": "India",
+        "Value": "0.532216818",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Country": "India",
+        "Value": "0.556183578",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Country": "India",
+        "Value": "0.587831624",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Country": "India",
+        "Value": "0.632842453",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Country": "India",
+        "Value": "0.662660684",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Country": "India",
+        "Value": "0.691265119",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Country": "India",
+        "Value": "0.721673338",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Country": "India",
+        "Value": "0.731197775",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Country": "India",
+        "Value": "0.758381935",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Country": "India",
+        "Value": "0.790870128",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Country": "India",
+        "Value": "0.840981946",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Country": "India",
+        "Value": "0.859156087",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Country": "India",
+        "Value": "0.861160591",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Country": "India",
+        "Value": "0.916780382",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Country": "India",
+        "Value": "0.926035573",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Country": "India",
+        "Value": "0.923282893",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Country": "India",
+        "Value": "0.935546592",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Country": "India",
+        "Value": "0.953121047",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Country": "India",
+        "Value": "0.996140863",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Country": "India",
+        "Value": "1.033243597",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Country": "India",
+        "Value": "1.08068438",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Country": "India",
+        "Value": "1.147654937",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Country": "India",
+        "Value": "1.218131584",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Country": "India",
+        "Value": "1.324201614",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Country": "India",
+        "Value": "1.359883796",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Country": "India",
+        "Value": "1.412526586",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Country": "India",
+        "Value": "1.533688874",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Country": "India",
+        "Value": "1.587559059",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Country": "India",
+        "Value": "1.686037698",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Country": "India",
+        "Value": "1.719975157",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Country": "India",
+        "Value": "1.806212938",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2017",
+        "Country": "India",
+        "Value": "1.835280397",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2018",
+        "Country": "India",
+        "Value": "1.915749804",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "2019",
+        "Country": "India",
+        "Value": "1.914823083",
+        "Value2": "National",
+        "Detail": ""
+      },
+      {
+        "Time": "1901",
+        "Country": "World",
+        "Value": "1.215954441",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1902",
+        "Country": "World",
+        "Value": "1.239491279",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1903",
+        "Country": "World",
+        "Value": "1.344320789",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1904",
+        "Country": "World",
+        "Value": "1.350529852",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1905",
+        "Country": "World",
+        "Value": "1.429726685",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1906",
+        "Country": "World",
+        "Value": "1.493212348",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1907",
+        "Country": "World",
+        "Value": "1.678380299",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1908",
+        "Country": "World",
+        "Value": "1.606005841",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1909",
+        "Country": "World",
+        "Value": "1.660942526",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1910",
+        "Country": "World",
+        "Value": "1.73266057",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1911",
+        "Country": "World",
+        "Value": "1.754682785",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1912",
+        "Country": "World",
+        "Value": "1.828005623",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1913",
+        "Country": "World",
+        "Value": "1.96723564",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1914",
+        "Country": "World",
+        "Value": "1.775217936",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1915",
+        "Country": "World",
+        "Value": "1.741021439",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1916",
+        "Country": "World",
+        "Value": "1.868068518",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1917",
+        "Country": "World",
+        "Value": "1.941540311",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1918",
+        "Country": "World",
+        "Value": "1.901234661",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1919",
+        "Country": "World",
+        "Value": "1.636390736",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1920",
+        "Country": "World",
+        "Value": "1.888921785",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1921",
+        "Country": "World",
+        "Value": "1.64353525",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1922",
+        "Country": "World",
+        "Value": "1.708366775",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1923",
+        "Country": "World",
+        "Value": "1.920065292",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1924",
+        "Country": "World",
+        "Value": "1.906860481",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1925",
+        "Country": "World",
+        "Value": "1.900239724",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1926",
+        "Country": "World",
+        "Value": "1.844946734",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1927",
+        "Country": "World",
+        "Value": "1.992224083",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1928",
+        "Country": "World",
+        "Value": "1.959648525",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1929",
+        "Country": "World",
+        "Value": "2.079332716",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1930",
+        "Country": "World",
+        "Value": "1.893429422",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1931",
+        "Country": "World",
+        "Value": "1.671649605",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1932",
+        "Country": "World",
+        "Value": "1.488632192",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1933",
+        "Country": "World",
+        "Value": "1.548613653",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1934",
+        "Country": "World",
+        "Value": "1.664589241",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1935",
+        "Country": "World",
+        "Value": "1.726875157",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1936",
+        "Country": "World",
+        "Value": "1.876767153",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1937",
+        "Country": "World",
+        "Value": "1.98631708",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1938",
+        "Country": "World",
+        "Value": "1.851803254",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1939",
+        "Country": "World",
+        "Value": "1.942567605",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1940",
+        "Country": "World",
+        "Value": "2.107427941",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1941",
+        "Country": "World",
+        "Value": "2.141468595",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1942",
+        "Country": "World",
+        "Value": "2.121458451",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1943",
+        "Country": "World",
+        "Value": "2.146057658",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1944",
+        "Country": "World",
+        "Value": "2.169196659",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1945",
+        "Country": "World",
+        "Value": "1.791955291",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1946",
+        "Country": "World",
+        "Value": "1.941192331",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1947",
+        "Country": "World",
+        "Value": "2.12867211",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1948",
+        "Country": "World",
+        "Value": "2.214237881",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1949",
+        "Country": "World",
+        "Value": "2.117773902",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1950",
+        "Country": "World",
+        "Value": "2.364878145",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1951",
+        "Country": "World",
+        "Value": "2.466602552",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1952",
+        "Country": "World",
+        "Value": "2.455530884",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1953",
+        "Country": "World",
+        "Value": "2.480491024",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1954",
+        "Country": "World",
+        "Value": "2.490027405",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1955",
+        "Country": "World",
+        "Value": "2.681927445",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1956",
+        "Country": "World",
+        "Value": "2.805339345",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1957",
+        "Country": "World",
+        "Value": "2.84666489",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1958",
+        "Country": "World",
+        "Value": "2.875260746",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1959",
+        "Country": "World",
+        "Value": "2.969720681",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Country": "World",
+        "Value": "3.075798474",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1961",
+        "Country": "World",
+        "Value": "3.026026837",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1962",
+        "Country": "World",
+        "Value": "3.074988759",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1963",
+        "Country": "World",
+        "Value": "3.187800489",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1964",
+        "Country": "World",
+        "Value": "3.289456628",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Country": "World",
+        "Value": "3.374459028",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Country": "World",
+        "Value": "3.460711432",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Country": "World",
+        "Value": "3.498793206",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Country": "World",
+        "Value": "3.614145478",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Country": "World",
+        "Value": "3.776350562",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Country": "World",
+        "Value": "4.006786926",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Country": "World",
+        "Value": "4.085490548",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Country": "World",
+        "Value": "4.191087115",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Country": "World",
+        "Value": "4.328324955",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Country": "World",
+        "Value": "4.227458223",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Country": "World",
+        "Value": "4.143413444",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Country": "World",
+        "Value": "4.284280838",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Country": "World",
+        "Value": "4.323894063",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Country": "World",
+        "Value": "4.4043866",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Country": "World",
+        "Value": "4.443376551",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Country": "World",
+        "Value": "4.344871915",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Country": "World",
+        "Value": "4.152827772",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Country": "World",
+        "Value": "4.050118593",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Country": "World",
+        "Value": "4.01659683",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Country": "World",
+        "Value": "4.060657657",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Country": "World",
+        "Value": "4.129982625",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Country": "World",
+        "Value": "4.112774079",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Country": "World",
+        "Value": "4.168750582",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Country": "World",
+        "Value": "4.249593929",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Country": "World",
+        "Value": "4.237443759",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Country": "World",
+        "Value": "4.260677268",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Country": "World",
+        "Value": "4.279330079",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Country": "World",
+        "Value": "4.081701787",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Country": "World",
+        "Value": "4.063818707",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Country": "World",
+        "Value": "4.033759903",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Country": "World",
+        "Value": "4.061854792",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Country": "World",
+        "Value": "4.128976818",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Country": "World",
+        "Value": "4.096690878",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Country": "World",
+        "Value": "4.028896961",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Country": "World",
+        "Value": "4.028708357",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Country": "World",
+        "Value": "4.088722431",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Country": "World",
+        "Value": "4.070982122",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Country": "World",
+        "Value": "4.111729683",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Country": "World",
+        "Value": "4.258798934",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Country": "World",
+        "Value": "4.406400096",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Country": "World",
+        "Value": "4.495766998",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Country": "World",
+        "Value": "4.585864043",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Country": "World",
+        "Value": "4.666583506",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Country": "World",
+        "Value": "4.705496568",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Country": "World",
+        "Value": "4.578097954",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Country": "World",
+        "Value": "4.762505242",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Country": "World",
+        "Value": "4.858491706",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Country": "World",
+        "Value": "4.878030689",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Country": "World",
+        "Value": "4.852210747",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Country": "World",
+        "Value": "4.831180646",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Country": "World",
+        "Value": "4.77105896",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Country": "World",
+        "Value": "4.718690854",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2017",
+        "Country": "World",
+        "Value": "4.729334392",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2018",
+        "Country": "World",
+        "Value": "4.772543108",
+        "Value2": "Global",
+        "Detail": ""
+      },
+      {
+        "Time": "2019",
+        "Country": "World",
+        "Value": "4.724384419",
+        "Value2": "Global",
+        "Detail": ""
+      }
+    ],
+    "format": {
+      "parse": {
+        "Time": "date"
+      }
+    }
+  },
+  "height": 300,
+  "width": 300,
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "Time",
+      "type": "temporal",
+      "title": "",
+      "axis": {
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "",
+      "axis": {
+        "grid": false
+      },
+      "sort": [],
+      "scale": {
+        "domain": [
+          -0.25,
+          25
+        ]
+      }
+    },
+    "color": {
+      "field": "Country",
+      "title": null,
+      "legend": {
+        "orient": "top-left"
+      },
+      "type": "nominal",
+      "sort": [],
+      "scale": {
+        "scheme": "yellowgreenblue"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Time",
+        "type": "temporal",
+        "timeUnit": "year",
+        "title": "Year"
+      },
+      {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "CO2 per capita (t)"
+      },
+      {
+        "field": "Country"
+      }
+    ]
+  }
+}

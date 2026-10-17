@@ -1,0 +1,242 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+  "data": {
+    "values": [
+      {
+        "country": "Afghanistan",
+        "points": "0.727",
+        "gdp": "20136"
+      },
+      {
+        "country": "Australia",
+        "points": "2.019",
+        "gdp": "1724787"
+      },
+      {
+        "country": "Bahrain",
+        "points": "1.385",
+        "gdp": "43544"
+      },
+      {
+        "country": "Bangladesh",
+        "points": "0.655",
+        "gdp": "460751"
+      },
+      {
+        "country": "Bhutan",
+        "points": "0.75",
+        "gdp": "2707"
+      },
+      {
+        "country": "Brunei",
+        "points": "0.375",
+        "gdp": "18464"
+      },
+      {
+        "country": "Cambodia",
+        "points": "0.444",
+        "gdp": "28330"
+      },
+      {
+        "country": "Chinese Taipei Republic of China",
+        "points": "0.333",
+        "gdp": "850000"
+      },
+      {
+        "country": "Guam",
+        "points": "0.5",
+        "gdp": "5840"
+      },
+      {
+        "country": "Hong Kong",
+        "points": "1.086",
+        "gdp": "368100"
+      },
+      {
+        "country": "Indonesia Dutch East Indies",
+        "points": "0.937",
+        "gdp": "1289429"
+      },
+      {
+        "country": "Iran",
+        "points": "2.13",
+        "gdp": "1973738"
+      },
+      {
+        "country": "Iraq",
+        "points": "1.63",
+        "gdp": "282876"
+      },
+      {
+        "country": "Japan",
+        "points": "2",
+        "gdp": "4300621"
+      },
+      {
+        "country": "Jordan",
+        "points": "1.436",
+        "gdp": "48066"
+      },
+      {
+        "country": "Kuwait",
+        "points": "1.703",
+        "gdp": "183568"
+      },
+      {
+        "country": "Kyrgyzstan",
+        "points": "1.282",
+        "gdp": "9750"
+      },
+      {
+        "country": "Laos",
+        "points": "0.464",
+        "gdp": "16250"
+      },
+      {
+        "country": "Lebanon",
+        "points": "1.208",
+        "gdp": "24494"
+      },
+      {
+        "country": "Macau",
+        "points": "0.378",
+        "gdp": "23420"
+      },
+      {
+        "country": "Malaysia",
+        "points": "1.188",
+        "gdp": "434059"
+      },
+      {
+        "country": "Maldives",
+        "points": "0.75",
+        "gdp": "5900"
+      },
+      {
+        "country": "Mongolia",
+        "points": "0.792",
+        "gdp": "15720"
+      },
+      {
+        "country": "Myanmar",
+        "points": "0.773",
+        "gdp": "59530"
+      },
+      {
+        "country": "Nepal",
+        "points": "0.579",
+        "gdp": "39028"
+      },
+      {
+        "country": "North Korea",
+        "points": "1.639",
+        "gdp": "4582"
+      },
+      {
+        "country": "Oman",
+        "points": "1.568",
+        "gdp": "108969"
+      },
+      {
+        "country": "Pakistan",
+        "points": "0.125",
+        "gdp": "376493"
+      },
+      {
+        "country": "Palestine",
+        "points": "1.265",
+        "gdp": "19698"
+      },
+      {
+        "country": "Philippines",
+        "points": "0.897",
+        "gdp": "401662"
+      },
+      {
+        "country": "Qatar",
+        "points": "1.617",
+        "gdp": "221369"
+      },
+      {
+        "country": "Saudi Arabia",
+        "points": "2.022",
+        "gdp": "1010588"
+      },
+      {
+        "country": "Singapore",
+        "points": "0.974",
+        "gdp": "423632"
+      },
+      {
+        "country": "South Korea",
+        "points": "2.126",
+        "gdp": "1734207"
+      },
+      {
+        "country": "Sri Lanka",
+        "points": "0.462",
+        "gdp": "73739"
+      },
+      {
+        "country": "Syria",
+        "points": "1.52",
+        "gdp": "21450"
+      },
+      {
+        "country": "Tajikistan",
+        "points": "1.341",
+        "gdp": "9983"
+      },
+      {
+        "country": "Thailand",
+        "points": "1.021",
+        "gdp": "534758"
+      },
+      {
+        "country": "Timor-Leste",
+        "points": "0",
+        "gdp": "1959"
+      },
+      {
+        "country": "Turkmenistan",
+        "points": "1.413",
+        "gdp": "74439"
+      },
+      {
+        "country": "United Arab Emirates",
+        "points": "1.517",
+        "gdp": "503913"
+      },
+      {
+        "country": "Uzbekistan",
+        "points": "1.775",
+        "gdp": "79117"
+      },
+      {
+        "country": "Vietnam South Vietnam",
+        "points": "0.966",
+        "gdp": "413808"
+      },
+      {
+        "country": "Yemen North Yemen",
+        "points": "0.897",
+        "gdp": "27594"
+      }
+    ]
+  },
+  "width": 340,
+  "height": 340,
+  "mark": "point",
+  "encoding": {
+    "x": {
+      "field": "points",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "gdp",
+      "type": "quantitative"
+    }
+  },
+  "config": {}
+}

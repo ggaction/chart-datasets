@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "mark": {
+    "type": "point",
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Salary",
+      "type": "quantitative",
+      "axis": {
+        "format": "s"
+      }
+    },
+    "y": {
+      "field": "Goals",
+      "type": "quantitative",
+      "axis": {
+        "format": "s"
+      }
+    },
+    "color": {
+      "field": "Foot",
+      "type": "nominal"
+    },
+    "tooltip": {
+      "field": "Name",
+      "type": "nominal"
+    }
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/euro.csv",
+    "format": {
+      "type": "csv"
+    }
+  }
+}

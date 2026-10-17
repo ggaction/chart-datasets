@@ -1,0 +1,124 @@
+{
+  "id": "vl_1896",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "3b75e5d60c34b002bb8e89a798905c75539f586f2aaf6f05bdb31fdcb02d53e5",
+      "actions": 10,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9547c1f4b6568407fc177a79e9c62514810a2dcba5f022fb82d370b253969be1",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "202a3b2a17080dae7f4a148eb91de72b215641e760e3f4cdbdd2c0056738676c",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "aa72d9f3a5e9f595ce250f2a7e595472cabece0bda0173e0287d096e41d5b750",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "703b332ccac277e1fb7eb970fc719b366185a0433650b45c0f49359a3d9b3daf",
+      "actions": 15,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "fd7b01d420e1d9ea54b0d3cc9194a98668be61e1336daac9ccf62409b1dda86f",
+      "actions": 15,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "e1c986c915b23ddba55f64ada8f61556ae53b8b0e9b5f0a18478acb1e7f748d4",
+      "actions": 15,
+      "topOptions": 40
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "b29de5dc6db46acb25cbb0bf9589d4ad657fef797b3f5cfabd68c5ca90b7d1c7",
+      "actions": 17,
+      "topOptions": 42
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/F1.DataHub.FiscalTaxRev.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight accepted stage modules individually reviewed against source and accepted parents including grouped mark-channel refinement. Exact source/family SVG/PNG current-runtime gates pass, source fonts/data/fixed canvas retained and no padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "47a76d3ca977ea017051e5ba9f46bf45937c27dcf8c8c138cb89c7a1520c5448",
+      "bytes": 1159
+    },
+    "data.json": {
+      "sha256": "f6a2ec7b80dc34384e76313128d2a2e5a67163f464d7389488cc10750a7b714a",
+      "bytes": 21196
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f8e7d29c4e266de2ba6d53e943ed1f22db49c1597aa622b27bd977787ba4e5e0",
+      "bytes": 28036
+    },
+    "G1.gg.mjs": {
+      "sha256": "3b75e5d60c34b002bb8e89a798905c75539f586f2aaf6f05bdb31fdcb02d53e5",
+      "bytes": 2216
+    },
+    "G2.gg.mjs": {
+      "sha256": "9547c1f4b6568407fc177a79e9c62514810a2dcba5f022fb82d370b253969be1",
+      "bytes": 2218
+    },
+    "G3.gg.mjs": {
+      "sha256": "202a3b2a17080dae7f4a148eb91de72b215641e760e3f4cdbdd2c0056738676c",
+      "bytes": 2160
+    },
+    "G4.gg.mjs": {
+      "sha256": "aa72d9f3a5e9f595ce250f2a7e595472cabece0bda0173e0287d096e41d5b750",
+      "bytes": 2242
+    },
+    "G5.gg.mjs": {
+      "sha256": "703b332ccac277e1fb7eb970fc719b366185a0433650b45c0f49359a3d9b3daf",
+      "bytes": 2190
+    },
+    "G6.gg.mjs": {
+      "sha256": "fd7b01d420e1d9ea54b0d3cc9194a98668be61e1336daac9ccf62409b1dda86f",
+      "bytes": 2180
+    },
+    "G7.gg.mjs": {
+      "sha256": "e1c986c915b23ddba55f64ada8f61556ae53b8b0e9b5f0a18478acb1e7f748d4",
+      "bytes": 2215
+    },
+    "G8.gg.mjs": {
+      "sha256": "b29de5dc6db46acb25cbb0bf9589d4ad657fef797b3f5cfabd68c5ca90b7d1c7",
+      "bytes": 2290
+    },
+    "vega-lite.svg": {
+      "sha256": "75df27b03edf1211babc79f317906e3302ca32c755767985ccc7114ffa8bd8d8",
+      "bytes": 20193
+    },
+    "ggaction.svg": {
+      "sha256": "dbbd2764d1b4498562873777986f972772e1fb874b394f60e13b24f2f002a325",
+      "bytes": 36752
+    }
+  }
+}

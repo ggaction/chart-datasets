@@ -1,0 +1,91 @@
+{
+  "id": "vl_0641",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "e606810fac07baa6eedc651c8aa221ff818fd0a0495895043060a936a99ef020",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1c9676cee998e032dc5aabf1b94cc6269272eee9e2e547cb8852ba8761e99075",
+      "actions": 13,
+      "topOptions": 34
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "c9b3f89a86eda16671d373653512d895c48a6054bb49f878861b3573530a0220",
+      "actions": 14,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "cc26f0a5c892876de8507e49bc4ab284561142844219a863433323888842df05",
+      "actions": 15,
+      "topOptions": 37
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "94626dac4a38b8dffc2571264163eff83a3f5d963c52c66860e08d1a6aa0d605",
+      "actions": 15,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/classes/main/E4E_macro/US_BEA_GDP_GNIbyType.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full final module and model stop read. No axis formats or explicit constructor paint remain, high-level facade retained, measured creation geometry/fonts protected; all applicable style/scale/guide boundaries genuinely exhausted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "36999a3d9d836715077e71839f372ddf80504be43b37e7e34ba1087b8d60d8e3",
+      "bytes": 1692
+    },
+    "data.json": {
+      "sha256": "be4ca5ae955da5b96b5056fffbcb8c6a8a8c9d1ae1cb624b928976b760887c5e",
+      "bytes": 3360
+    },
+    "resolved-source.vl.json": {
+      "sha256": "26bd346bba797dd309734be883a07d48df6148f4d56627222f9b0e5443a399a9",
+      "bytes": 5681
+    },
+    "G1.gg.mjs": {
+      "sha256": "e606810fac07baa6eedc651c8aa221ff818fd0a0495895043060a936a99ef020",
+      "bytes": 1658
+    },
+    "G2.gg.mjs": {
+      "sha256": "1c9676cee998e032dc5aabf1b94cc6269272eee9e2e547cb8852ba8761e99075",
+      "bytes": 1674
+    },
+    "G3.gg.mjs": {
+      "sha256": "c9b3f89a86eda16671d373653512d895c48a6054bb49f878861b3573530a0220",
+      "bytes": 1663
+    },
+    "G4.gg.mjs": {
+      "sha256": "cc26f0a5c892876de8507e49bc4ab284561142844219a863433323888842df05",
+      "bytes": 1657
+    },
+    "G5.gg.mjs": {
+      "sha256": "94626dac4a38b8dffc2571264163eff83a3f5d963c52c66860e08d1a6aa0d605",
+      "bytes": 1651
+    },
+    "vega-lite.svg": {
+      "sha256": "bb373110b63bdb54f2b70036039263dde9619b5add7be3094c713d3fc5e2218c",
+      "bytes": 7288
+    },
+    "ggaction.svg": {
+      "sha256": "a691aed47cc48cd5cf5449363cc925ec4f700ab658c1be657a6657c7cfbb60bf",
+      "bytes": 4205
+    }
+  }
+}

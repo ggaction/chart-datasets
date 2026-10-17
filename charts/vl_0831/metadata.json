@@ -1,0 +1,113 @@
+{
+  "id": "vl_0831",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "925460df290034ac08344a830ed9732bbfef3df172b2875253247f094b87c404",
+      "actions": 9,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "57622db8bf89d61915bf275f2baf7fcd2478f50077f02657b57a58cc5a4bb270",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "110e8c626827dad38a360e520ae32fe41d7eab9187ba7031d99248fbe8d70e11",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4801d532b6da5a724ffa1f370e4d1a056ff84925de7051100ffb8e6096c6069c",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "5cccf0d7f8cc42c76e4e6255803dc6723de220336acc9874c4ec94a60a766a88",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "7630d80578a0ab048294678d502f81d4593181b210d1e28ce3cce594f0bc5c97",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "4394e8b59c7e844221c96235a735c317d24268c7137b54700a11f875ce85b191",
+      "actions": 19,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/data_ONS-l5dx.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex read original full source plus exact model diffs for every accepted stage, final full G7 and model stop. All7 actual verification files pass source/collision/family output checks. Frontier audited empty: required facade fields/data construction, scales already dedicated, complete-axis font sizes/offsets/tick geometry and hidden titles protected; existing nondefault mark/axis/title paint now at semantic encoders or focused editors. No source legends/grids. Further scalar/default movement would pad stages. Retain7 distinct meaningful stages and original GLM stop."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e5197cbe82fe84720d8a223734aeeabf9b14a9287084755f2dd99227fae95040",
+      "bytes": 1069
+    },
+    "data.json": {
+      "sha256": "fe2581276c7f8d065346deb67aacb0796f0a38eef01747da0103d7b02f5cbe85",
+      "bytes": 6968
+    },
+    "resolved-source.vl.json": {
+      "sha256": "992947604eb0f12da1022d7273ab336b84402b9b0ec64283e6f9c9c57809d376",
+      "bytes": 9355
+    },
+    "G1.gg.mjs": {
+      "sha256": "925460df290034ac08344a830ed9732bbfef3df172b2875253247f094b87c404",
+      "bytes": 2290
+    },
+    "G2.gg.mjs": {
+      "sha256": "57622db8bf89d61915bf275f2baf7fcd2478f50077f02657b57a58cc5a4bb270",
+      "bytes": 2292
+    },
+    "G3.gg.mjs": {
+      "sha256": "110e8c626827dad38a360e520ae32fe41d7eab9187ba7031d99248fbe8d70e11",
+      "bytes": 2174
+    },
+    "G4.gg.mjs": {
+      "sha256": "4801d532b6da5a724ffa1f370e4d1a056ff84925de7051100ffb8e6096c6069c",
+      "bytes": 2228
+    },
+    "G5.gg.mjs": {
+      "sha256": "5cccf0d7f8cc42c76e4e6255803dc6723de220336acc9874c4ec94a60a766a88",
+      "bytes": 2170
+    },
+    "G6.gg.mjs": {
+      "sha256": "7630d80578a0ab048294678d502f81d4593181b210d1e28ce3cce594f0bc5c97",
+      "bytes": 2331
+    },
+    "G7.gg.mjs": {
+      "sha256": "4394e8b59c7e844221c96235a735c317d24268c7137b54700a11f875ce85b191",
+      "bytes": 2265
+    },
+    "vega-lite.svg": {
+      "sha256": "615125c3d8fb9f995638379cc378d9cf8aef39c0d65edc585625dac835a2f354",
+      "bytes": 7495
+    },
+    "ggaction.svg": {
+      "sha256": "cdbe5867e773e7a469bfa2807529f5d28308da14b76cb92135e3b7e4b99b9366",
+      "bytes": 6857
+    }
+  }
+}

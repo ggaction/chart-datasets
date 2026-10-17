@@ -1,0 +1,124 @@
+{
+  "id": "vl_0035",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "aa91932f8eab7840da16b70c0ee27111645abe02568918dfab01a88abc6d1e62",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "216d38213cc2f007cfa9f55d47901de5c5a8e9a6f0ca5e8e9ed5b8a5aef1362d",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "43419ed237ab4755493c0bc90c231b1b01d93076930a57c386cae5abc39f9e54",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "fcd505fd93bb28d4039c56e01ec933757b7028f91a2a9154a91d64360e7a731d",
+      "actions": 18,
+      "topOptions": 42
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "18ce5d41557e23e1679dd42e0c25e0284b31c28403cc50eccee65c30f37e5e4e",
+      "actions": 19,
+      "topOptions": 43
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "7e24ff5cbe2621310c9ba778900ea29be8ee1afd50b9602454b3d94ac6163298",
+      "actions": 21,
+      "topOptions": 47
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "38002eb2cb30befa768aaf28f22babac8c4c9b516f22bc5da4534934c850dccd",
+      "actions": 23,
+      "topOptions": 50
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "b693c21f4b05f6cfed8a7f2b6f668e84381b34d9ed18653e881d9b6a254c977e",
+      "actions": 27,
+      "topOptions": 54
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/superstore.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original source/current G8 code and8stage diffs reviewed: all5899raw Sales/Profit points, originalRegion stroke colors/sourcecircleradius sqrt30/2/stroke2/opacity.7 and Regioncircle5legend/opacity.7 exact. All8 normalchecksPASS/samefamilySVGPNG. Sourcefonts10/11/SI maps/flush/plot200square preserved. Eight-stagecap with remaining grouped ticks/labels and protected display policies disclosed; no exhaustion claim."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "13c10554f1611722952eb4fb68699eca123a32bbb4e017251f6a1e25f1c715e5",
+      "bytes": 630
+    },
+    "data.json": {
+      "sha256": "f1f3ae4970e87635b8fc6cc022e4031152bb6860e10fd7e1acd3e158ea2c5bde",
+      "bytes": 4982016
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e2cb9c6cc718e2da95d101dc14de202fdbac9207c251e8651f53ef22529892d4",
+      "bytes": 5666804
+    },
+    "G1.gg.mjs": {
+      "sha256": "aa91932f8eab7840da16b70c0ee27111645abe02568918dfab01a88abc6d1e62",
+      "bytes": 2946
+    },
+    "G2.gg.mjs": {
+      "sha256": "216d38213cc2f007cfa9f55d47901de5c5a8e9a6f0ca5e8e9ed5b8a5aef1362d",
+      "bytes": 2874
+    },
+    "G3.gg.mjs": {
+      "sha256": "43419ed237ab4755493c0bc90c231b1b01d93076930a57c386cae5abc39f9e54",
+      "bytes": 2911
+    },
+    "G4.gg.mjs": {
+      "sha256": "fcd505fd93bb28d4039c56e01ec933757b7028f91a2a9154a91d64360e7a731d",
+      "bytes": 2965
+    },
+    "G5.gg.mjs": {
+      "sha256": "18ce5d41557e23e1679dd42e0c25e0284b31c28403cc50eccee65c30f37e5e4e",
+      "bytes": 2837
+    },
+    "G6.gg.mjs": {
+      "sha256": "7e24ff5cbe2621310c9ba778900ea29be8ee1afd50b9602454b3d94ac6163298",
+      "bytes": 3015
+    },
+    "G7.gg.mjs": {
+      "sha256": "38002eb2cb30befa768aaf28f22babac8c4c9b516f22bc5da4534934c850dccd",
+      "bytes": 3066
+    },
+    "G8.gg.mjs": {
+      "sha256": "b693c21f4b05f6cfed8a7f2b6f668e84381b34d9ed18653e881d9b6a254c977e",
+      "bytes": 3062
+    },
+    "vega-lite.svg": {
+      "sha256": "deacb6ce594cae2e1a87c9f3279d0f762bd8980807d4c2153b5c99fdabf55787",
+      "bytes": 1732958
+    },
+    "ggaction.svg": {
+      "sha256": "08d7e448a651b8f5cb43acfb7ab35b4ee1af5a0798cd6efa2a4d7eb4f7b31b99",
+      "bytes": 849035
+    }
+  }
+}

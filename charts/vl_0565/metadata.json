@@ -1,0 +1,91 @@
+{
+  "id": "vl_0565",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "61b4bf2321b547b7670780c254c4bb74a232b39679832d376199b73a8af95900",
+      "actions": 12,
+      "topOptions": 30
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "08c1e36eebe1fc3276ec1ada2165b230fbcef0f4a1a714a0cf393afc2ef86e93",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "6cdddb6f2a1d54c513ceff911d031622d94724a092d02fbe492d41f04d270181",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "9f3485b616c0064f6394f4bf6788fad5ad7e7ef1565c97972895ee3c701e5fd2",
+      "actions": 15,
+      "topOptions": 37
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "887abdc39aebc6838b03500accc84b9038f5fb4a3f1073480b623da9244f0480",
+      "actions": 16,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/ch7_Trade/IIP_P20.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full final module and model stop read. No axis formats or explicit constructor paint remain, high-level facade retained, measured creation geometry/fonts protected; all applicable style/scale/guide boundaries genuinely exhausted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "edf9b32879fc026c603af43583491aa300afb9bf3a3bc809c925119cad0fa684",
+      "bytes": 1412
+    },
+    "data.json": {
+      "sha256": "46a6ae9c64fa2e656668a80d8eabe14a2930e78f303038f9377c6bae466fe0aa",
+      "bytes": 20465
+    },
+    "resolved-source.vl.json": {
+      "sha256": "5ff28867c9745a8423aa3b304d4d74b145ec69eadf913ac287157d5bbd73f907",
+      "bytes": 25761
+    },
+    "G1.gg.mjs": {
+      "sha256": "61b4bf2321b547b7670780c254c4bb74a232b39679832d376199b73a8af95900",
+      "bytes": 2167
+    },
+    "G2.gg.mjs": {
+      "sha256": "08c1e36eebe1fc3276ec1ada2165b230fbcef0f4a1a714a0cf393afc2ef86e93",
+      "bytes": 2133
+    },
+    "G3.gg.mjs": {
+      "sha256": "6cdddb6f2a1d54c513ceff911d031622d94724a092d02fbe492d41f04d270181",
+      "bytes": 2026
+    },
+    "G4.gg.mjs": {
+      "sha256": "9f3485b616c0064f6394f4bf6788fad5ad7e7ef1565c97972895ee3c701e5fd2",
+      "bytes": 1990
+    },
+    "G5.gg.mjs": {
+      "sha256": "887abdc39aebc6838b03500accc84b9038f5fb4a3f1073480b623da9244f0480",
+      "bytes": 2035
+    },
+    "vega-lite.svg": {
+      "sha256": "a975a0dc2b5d72edbc8999d7a00dc92ac59f330b367a7e67c51cbed91c96306a",
+      "bytes": 11429
+    },
+    "ggaction.svg": {
+      "sha256": "a8b7369bc53d952c616301bbc99b38ecd379f3aed4f038dfc935e8df1aeea454",
+      "bytes": 9275
+    }
+  }
+}

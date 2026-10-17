@@ -1,0 +1,84 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Aceh - growth rates",
+    "subtitle": [
+      "Annual average, 4 year periods, non-oil GDP",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "date": "2000-2004",
+        "growth": "0.033551411",
+        "label": "Pre-tsunami"
+      },
+      {
+        "date": "2004-2008",
+        "growth": "0.047868984",
+        "label": "Rebuild"
+      },
+      {
+        "date": "2008-2012",
+        "growth": "0.057196189",
+        "label": "Aid withdrawal"
+      }
+    ]
+  },
+  "config": {
+    "background": "white",
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "height": 300,
+  "width": 300,
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "nominal",
+      "title": null,
+      "axis": {
+        "labelAngle": 0
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "color": "orange",
+        "strokeWidth": 2,
+        "opacity": 1
+      },
+      "encoding": {
+        "y": {
+          "field": "growth",
+          "type": "quantitative",
+          "title": null,
+          "axis": {
+            "format": "%",
+            "grid": false
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "y": 0.06
+      },
+      "encoding": {
+        "text": {
+          "field": "label"
+        }
+      }
+    }
+  ]
+}

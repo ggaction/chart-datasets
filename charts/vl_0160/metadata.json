@@ -1,0 +1,78 @@
+{
+  "id": "vl_0160",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d14fdf94cd28fa0de6b3ad4813c7c1006476107ce0bbe7a5a6fd5da47399417a",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e5ef112b8f44d4bded1c6f3de513d9a0bc9bd9a0a78625ccc3120e4185831a33",
+      "actions": 10,
+      "topOptions": 19
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "0a471b83b0fc70d104f892e201c9518ffdabe52982595cebcffdd7fb38777157",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0e07ed042d51316f782878466944b1806a5fef1364f217a6aa0f0cf509ba4588",
+      "actions": 17,
+      "topOptions": 26
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Actual terminal fullsource reviewed: paired axis line/tick/title paint alreadycomponentfocused, gridfocused, scalesfocused; remaining12font/offset/rotatedlabel/ticklength5 protectedgeometry. Source has nolegend/charttitle. Four distinct verified stages; true frontier exhausted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "2b247b22e2b46697ef733437772f98c1b704366b5a4cd660c05762580f24ba46",
+      "bytes": 1181
+    },
+    "data.json": {
+      "sha256": "e2bc80bca01ca0d98a452333ebf0ebc8fa043e223cf3d3da6bb799d443d85890",
+      "bytes": 363
+    },
+    "resolved-source.vl.json": {
+      "sha256": "7bc8c550d3b6ad49d80bbedd8f58d694c96e1b8d20a68880db1250427eae81fc",
+      "bytes": 1623
+    },
+    "G1.gg.mjs": {
+      "sha256": "d14fdf94cd28fa0de6b3ad4813c7c1006476107ce0bbe7a5a6fd5da47399417a",
+      "bytes": 1290
+    },
+    "G2.gg.mjs": {
+      "sha256": "e5ef112b8f44d4bded1c6f3de513d9a0bc9bd9a0a78625ccc3120e4185831a33",
+      "bytes": 1304
+    },
+    "G3.gg.mjs": {
+      "sha256": "0a471b83b0fc70d104f892e201c9518ffdabe52982595cebcffdd7fb38777157",
+      "bytes": 1442
+    },
+    "G4.gg.mjs": {
+      "sha256": "0e07ed042d51316f782878466944b1806a5fef1364f217a6aa0f0cf509ba4588",
+      "bytes": 1460
+    },
+    "vega-lite.svg": {
+      "sha256": "d43ba9c4fba1bd435863a849c0191a2fc0fa09e54acecb25e92ef6f715611041",
+      "bytes": 7557
+    },
+    "ggaction.svg": {
+      "sha256": "fb08f1ea6c4fd6eb820d29a3c21691842990850c1a6d9b5da430442d6db76327",
+      "bytes": 5677
+    }
+  }
+}

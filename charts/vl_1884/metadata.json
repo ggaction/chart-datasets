@@ -1,0 +1,113 @@
+{
+  "id": "vl_1884",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "574a0e6ccbee67206b176da138fb90f162a5b71c3d81a1a7a3df2826390b00bf",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2e14b88db3903b5a1a1df234791d8efd47c5f3f4a2ec9a5c9c1c67256f443b4d",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "9f7ea962310f95948ab89f0d383058a381824db6a47d583f411b1f868677e28a",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "dffcd6ddf9f8be11aafe0ebcb8e9af2fdfe2d338ff698645ed66f2ab526d8526",
+      "actions": 16,
+      "topOptions": 37
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "1427318e75b6def212400ff325bb90f997c354670c72b3480cc30c261ac74543",
+      "actions": 22,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d14131e9a6659298284a0ecd4ae619cb7a25ac7a520aa03eb46ed0655b220c54",
+      "actions": 22,
+      "topOptions": 42
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "e9cfb0fae6014a5c8f5a72f297d1402ef9fc2ff2be0a9f56301341274d4a0c77",
+      "actions": 23,
+      "topOptions": 43
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/observatory/main/covidGlobalCases.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reread full originalsource and finalG7program. All source country/indicator filters, raw weeklycount aliases, ordinal68ticks/full hidingmap, source palette/axis/fonts and exact output verified. Remaining line-symbol prototype length10/width1.5 is protected atbirth: independent current public omission fails Legend layout requires more right-margin or Canvas space, so moving it would invalidate frozenCanvas. Other sourcepaint policies alreadyat focused editors; no further valid design boundary remains. Stop7 without padding, preserve all requests/usage and strict source/DOM/family checks."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "41c696426463ce4e4373e1f82315ad02e1b71f6fccd5e280dbef2312ba8f9b08",
+      "bytes": 1726
+    },
+    "data.json": {
+      "sha256": "210cbf669aaea028419b62b1878ba3d406e330ebbe62b786101ff5a1ab153f2d",
+      "bytes": 7582412
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d8678e8939ac610e61af4bcad577a6e5259aaef9c3e77498fec4957481051f22",
+      "bytes": 8714016
+    },
+    "G1.gg.mjs": {
+      "sha256": "574a0e6ccbee67206b176da138fb90f162a5b71c3d81a1a7a3df2826390b00bf",
+      "bytes": 6338
+    },
+    "G2.gg.mjs": {
+      "sha256": "2e14b88db3903b5a1a1df234791d8efd47c5f3f4a2ec9a5c9c1c67256f443b4d",
+      "bytes": 6276
+    },
+    "G3.gg.mjs": {
+      "sha256": "9f7ea962310f95948ab89f0d383058a381824db6a47d583f411b1f868677e28a",
+      "bytes": 6330
+    },
+    "G4.gg.mjs": {
+      "sha256": "dffcd6ddf9f8be11aafe0ebcb8e9af2fdfe2d338ff698645ed66f2ab526d8526",
+      "bytes": 6484
+    },
+    "G5.gg.mjs": {
+      "sha256": "1427318e75b6def212400ff325bb90f997c354670c72b3480cc30c261ac74543",
+      "bytes": 6510
+    },
+    "G6.gg.mjs": {
+      "sha256": "d14131e9a6659298284a0ecd4ae619cb7a25ac7a520aa03eb46ed0655b220c54",
+      "bytes": 6473
+    },
+    "G7.gg.mjs": {
+      "sha256": "e9cfb0fae6014a5c8f5a72f297d1402ef9fc2ff2be0a9f56301341274d4a0c77",
+      "bytes": 6499
+    },
+    "vega-lite.svg": {
+      "sha256": "f273738160b53721093c81e086452c44eb113ddc8ee7964f9fb11e3a5f463ee5",
+      "bytes": 32165
+    },
+    "ggaction.svg": {
+      "sha256": "dce00d4565085a9321cad7c5f18e117b3a95c0c9803290d54303beb7205d3fad",
+      "bytes": 26879
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "vl_0235",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9c0567e628461781fe9d1315b75655d3cc9d8e26e6e4c3c20c91229a184ce731",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a1f47cc2a0a119520807690728df1a425bced4df153e42ccf13917cbd8dbadab",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8a0d72dd0f051595e670acb4b793abce14a8bdd4afcda55d0e9ee1d440054e7d",
+      "actions": 12,
+      "topOptions": 30
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "fc9c54bf9156025ada7a20c6e7f5b13da741b41dee660a6aa0488310e621fd0a",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7a0712be2b9528b34e9cb442d3097daa4b4e643f8f2560d6cc13d35bef0a6af1",
+      "actions": 16,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3d9a0625bc14b8f9397b2d8afb57f0c302efa26ca2350f4a8965e53aa655f811",
+      "actions": 16,
+      "topOptions": 34
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ee7ac0558e090385959c94cf06cc3594eb86146f5ff19db4be30b73b0142ed71",
+      "actions": 17,
+      "topOptions": 35
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "354d3493ecf4a7b9740d30ad8743db129d33aebb2341bbf80d67592a0af2c464",
+      "actions": 17,
+      "topOptions": 35
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight actual modules/diffs reviewed: genuine progressive ownership changes, current source and identical-family verification passed; no padding/defaults or unreviewed code."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "f9eba2acb4466adc4290558c103649a33d72c853c96ac772f8feb42f31aab59a",
+      "bytes": 6472
+    },
+    "data.json": {
+      "sha256": "c0c878d72694d54516fd6d6e8ad6008443e6d2ce2fb33be87aeb69b23c7e211e",
+      "bytes": 5087
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f9eba2acb4466adc4290558c103649a33d72c853c96ac772f8feb42f31aab59a",
+      "bytes": 6472
+    },
+    "G1.gg.mjs": {
+      "sha256": "9c0567e628461781fe9d1315b75655d3cc9d8e26e6e4c3c20c91229a184ce731",
+      "bytes": 1670
+    },
+    "G2.gg.mjs": {
+      "sha256": "a1f47cc2a0a119520807690728df1a425bced4df153e42ccf13917cbd8dbadab",
+      "bytes": 1592
+    },
+    "G3.gg.mjs": {
+      "sha256": "8a0d72dd0f051595e670acb4b793abce14a8bdd4afcda55d0e9ee1d440054e7d",
+      "bytes": 1614
+    },
+    "G4.gg.mjs": {
+      "sha256": "fc9c54bf9156025ada7a20c6e7f5b13da741b41dee660a6aa0488310e621fd0a",
+      "bytes": 1674
+    },
+    "G5.gg.mjs": {
+      "sha256": "7a0712be2b9528b34e9cb442d3097daa4b4e643f8f2560d6cc13d35bef0a6af1",
+      "bytes": 1732
+    },
+    "G6.gg.mjs": {
+      "sha256": "3d9a0625bc14b8f9397b2d8afb57f0c302efa26ca2350f4a8965e53aa655f811",
+      "bytes": 1720
+    },
+    "G7.gg.mjs": {
+      "sha256": "ee7ac0558e090385959c94cf06cc3594eb86146f5ff19db4be30b73b0142ed71",
+      "bytes": 1751
+    },
+    "G8.gg.mjs": {
+      "sha256": "354d3493ecf4a7b9740d30ad8743db129d33aebb2341bbf80d67592a0af2c464",
+      "bytes": 1745
+    },
+    "vega-lite.svg": {
+      "sha256": "b55c9117d5a38e56271e28c2c30304ceeb06d3cd39ddcb451f4f5256763f97fe",
+      "bytes": 20384
+    },
+    "ggaction.svg": {
+      "sha256": "00cdd32e96acd2e8b64055e9e7fe4d293c08de3e970a0e870fe082c98bb3c69e",
+      "bytes": 14837
+    }
+  }
+}

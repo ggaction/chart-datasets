@@ -1,0 +1,4503 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Global primary energy consumption",
+    "subtitle": "Global primary energy consumption by source, Source: Our World in Data",
+    "subtitleFontSize": 10,
+    "subtitleFontStyle": "italic",
+    "anchor": "start"
+  },
+  "height": 300,
+  "width": 300,
+  "data": {
+    "values": [
+      {
+        "": "0",
+        "Year": "1800",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "1",
+        "Year": "1810",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "2",
+        "Year": "1820",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "3",
+        "Year": "1830",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "4",
+        "Year": "1840",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "5",
+        "Year": "1850",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "6",
+        "Year": "1860",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "7",
+        "Year": "1870",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "8",
+        "Year": "1880",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "9",
+        "Year": "1890",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "10",
+        "Year": "1900",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "11",
+        "Year": "1910",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "12",
+        "Year": "1920",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "13",
+        "Year": "1930",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "14",
+        "Year": "1940",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "15",
+        "Year": "1950",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "16",
+        "Year": "1960",
+        "Values": "0.0",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "17",
+        "Year": "1965",
+        "Values": "55.9490852355957",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "18",
+        "Year": "1966",
+        "Values": "61.737606048583984",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "19",
+        "Year": "1967",
+        "Values": "62.35337448120117",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "20",
+        "Year": "1968",
+        "Values": "69.03191375732422",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "21",
+        "Year": "1969",
+        "Values": "72.5587158203125",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "22",
+        "Year": "1970",
+        "Values": "80.33794403076172",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "23",
+        "Year": "1971",
+        "Values": "87.33906555175781",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "24",
+        "Year": "1972",
+        "Values": "93.40202331542967",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "25",
+        "Year": "1973",
+        "Values": "100.24630737304688",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "26",
+        "Year": "1974",
+        "Values": "106.87296295166016",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "27",
+        "Year": "1975",
+        "Values": "108.14720153808594",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "28",
+        "Year": "1976",
+        "Values": "120.57106018066406",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "29",
+        "Year": "1977",
+        "Values": "127.26663208007812",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "30",
+        "Year": "1978",
+        "Values": "135.02682495117188",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "31",
+        "Year": "1979",
+        "Values": "144.51551818847656",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "32",
+        "Year": "1980",
+        "Values": "153.78857421875",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "33",
+        "Year": "1981",
+        "Values": "164.90757751464844",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "34",
+        "Year": "1982",
+        "Values": "191.2328948974609",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "35",
+        "Year": "1983",
+        "Values": "211.7705841064453",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "36",
+        "Year": "1984",
+        "Values": "236.32064819335935",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "37",
+        "Year": "1985",
+        "Values": "244.355224609375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "38",
+        "Year": "1986",
+        "Values": "265.20489501953125",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "39",
+        "Year": "1987",
+        "Values": "283.8797607421875",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "40",
+        "Year": "1988",
+        "Values": "292.2910461425781",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "41",
+        "Year": "1989",
+        "Values": "321.91949462890625",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "42",
+        "Year": "1990",
+        "Values": "361.1251525878906",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "43",
+        "Year": "1991",
+        "Values": "376.7493896484375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "44",
+        "Year": "1992",
+        "Values": "404.7410278320313",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "45",
+        "Year": "1993",
+        "Values": "418.3900146484375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "46",
+        "Year": "1994",
+        "Values": "434.5735778808594",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "47",
+        "Year": "1995",
+        "Values": "454.2080383300781",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "48",
+        "Year": "1996",
+        "Values": "466.2979431152344",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "49",
+        "Year": "1997",
+        "Values": "499.909912109375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "50",
+        "Year": "1998",
+        "Values": "520.4947509765625",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "51",
+        "Year": "1999",
+        "Values": "546.0943603515625",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "52",
+        "Year": "2000",
+        "Values": "571.1834716796875",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "53",
+        "Year": "2001",
+        "Values": "593.175048828125",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "54",
+        "Year": "2002",
+        "Values": "638.6609497070312",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "55",
+        "Year": "2003",
+        "Values": "674.0078125",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "56",
+        "Year": "2004",
+        "Values": "728.2478637695312",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "57",
+        "Year": "2005",
+        "Values": "788.9249877929688",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "58",
+        "Year": "2006",
+        "Values": "840.5309448242188",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "59",
+        "Year": "2007",
+        "Values": "912.0394287109376",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "60",
+        "Year": "2008",
+        "Values": "975.3799438476562",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "61",
+        "Year": "2009",
+        "Values": "1047.9144287109375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "62",
+        "Year": "2010",
+        "Values": "1180.3001708984375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "63",
+        "Year": "2011",
+        "Values": "1247.5972900390625",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "64",
+        "Year": "2012",
+        "Values": "1352.366455078125",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "65",
+        "Year": "2013",
+        "Values": "1463.134521484375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "66",
+        "Year": "2014",
+        "Values": "1584.601318359375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "67",
+        "Year": "2015",
+        "Values": "1711.2283935546875",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "68",
+        "Year": "2016",
+        "Values": "1737.3021240234375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "69",
+        "Year": "2017",
+        "Values": "1850.659912109375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "70",
+        "Year": "2018",
+        "Values": "1995.82568359375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "71",
+        "Year": "2019",
+        "Values": "2095.157958984375",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "72",
+        "Year": "2020",
+        "Values": "2185.723876953125",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "73",
+        "Year": "2021",
+        "Values": "2373.0986328125",
+        "Energy Source": "Other renewables ()"
+      },
+      {
+        "": "0",
+        "Year": "1800",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "1",
+        "Year": "1810",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "2",
+        "Year": "1820",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "3",
+        "Year": "1830",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "4",
+        "Year": "1840",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "5",
+        "Year": "1850",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "6",
+        "Year": "1860",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "7",
+        "Year": "1870",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "8",
+        "Year": "1880",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "9",
+        "Year": "1890",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "10",
+        "Year": "1900",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "11",
+        "Year": "1910",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "12",
+        "Year": "1920",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "13",
+        "Year": "1930",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "14",
+        "Year": "1940",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "15",
+        "Year": "1950",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "16",
+        "Year": "1960",
+        "Values": "0.0",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "17",
+        "Year": "1965",
+        "Values": "9.029861450195312",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "18",
+        "Year": "1966",
+        "Values": "9.209843635559082",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "19",
+        "Year": "1967",
+        "Values": "9.383715629577637",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "20",
+        "Year": "1968",
+        "Values": "9.553799629211426",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "21",
+        "Year": "1969",
+        "Values": "9.723980903625488",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "22",
+        "Year": "1970",
+        "Values": "11.0390625",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "23",
+        "Year": "1971",
+        "Values": "11.649558067321776",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "24",
+        "Year": "1972",
+        "Values": "12.946932792663574",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "25",
+        "Year": "1973",
+        "Values": "12.586639404296877",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "26",
+        "Year": "1974",
+        "Values": "12.167814254760742",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "27",
+        "Year": "1975",
+        "Values": "11.480279922485352",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "28",
+        "Year": "1976",
+        "Values": "11.8699312210083",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "29",
+        "Year": "1977",
+        "Values": "15.85667896270752",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "30",
+        "Year": "1978",
+        "Values": "20.971792221069336",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "31",
+        "Year": "1979",
+        "Values": "26.000825881958008",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "32",
+        "Year": "1980",
+        "Values": "29.85854721069336",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "33",
+        "Year": "1981",
+        "Values": "27.297348022460938",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "34",
+        "Year": "1982",
+        "Values": "35.2225227355957",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "35",
+        "Year": "1983",
+        "Values": "44.50929641723633",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "36",
+        "Year": "1984",
+        "Values": "53.71253204345703",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "37",
+        "Year": "1985",
+        "Values": "63.57527923583984",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "38",
+        "Year": "1986",
+        "Values": "79.67752838134766",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "39",
+        "Year": "1987",
+        "Values": "81.13545989990234",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "40",
+        "Year": "1988",
+        "Values": "85.56256103515625",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "41",
+        "Year": "1989",
+        "Values": "91.30406188964844",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "42",
+        "Year": "1990",
+        "Values": "100.9355926513672",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "43",
+        "Year": "1991",
+        "Values": "106.65062713623048",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "44",
+        "Year": "1992",
+        "Values": "104.65896606445312",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "45",
+        "Year": "1993",
+        "Values": "109.13502502441406",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "46",
+        "Year": "1994",
+        "Values": "117.91619110107422",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "47",
+        "Year": "1995",
+        "Values": "124.0906753540039",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "48",
+        "Year": "1996",
+        "Values": "119.19629669189452",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "49",
+        "Year": "1997",
+        "Values": "124.06340789794922",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "50",
+        "Year": "1998",
+        "Values": "126.48511505126952",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "51",
+        "Year": "1999",
+        "Values": "128.31883239746094",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "52",
+        "Year": "2000",
+        "Values": "125.51532745361328",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "53",
+        "Year": "2001",
+        "Values": "121.65283966064452",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "54",
+        "Year": "2002",
+        "Values": "151.30210876464844",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "55",
+        "Year": "2003",
+        "Values": "171.0836639404297",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "56",
+        "Year": "2004",
+        "Values": "202.19873046875",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "57",
+        "Year": "2005",
+        "Values": "240.344482421875",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "58",
+        "Year": "2006",
+        "Values": "298.0293884277344",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "59",
+        "Year": "2007",
+        "Values": "391.1390075683594",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "60",
+        "Year": "2008",
+        "Values": "527.3995361328125",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "61",
+        "Year": "2009",
+        "Values": "600.3394775390625",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "62",
+        "Year": "2010",
+        "Values": "691.1564331054688",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "63",
+        "Year": "2011",
+        "Values": "728.102294921875",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "64",
+        "Year": "2012",
+        "Values": "754.1318969726562",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "65",
+        "Year": "2013",
+        "Values": "819.0755004882812",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "66",
+        "Year": "2014",
+        "Values": "868.7943725585938",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "67",
+        "Year": "2015",
+        "Values": "905.0957641601562",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "68",
+        "Year": "2016",
+        "Values": "946.94677734375",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "69",
+        "Year": "2017",
+        "Values": "972.5343017578124",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "70",
+        "Year": "2018",
+        "Values": "1045.907958984375",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "71",
+        "Year": "2019",
+        "Values": "1120.1494140625",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "72",
+        "Year": "2020",
+        "Values": "1065.56494140625",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "73",
+        "Year": "2021",
+        "Values": "1139.921142578125",
+        "Energy Source": "Biofuels ()"
+      },
+      {
+        "": "0",
+        "Year": "1800",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "1",
+        "Year": "1810",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "2",
+        "Year": "1820",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "3",
+        "Year": "1830",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "4",
+        "Year": "1840",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "5",
+        "Year": "1850",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "6",
+        "Year": "1860",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "7",
+        "Year": "1870",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "8",
+        "Year": "1880",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "9",
+        "Year": "1890",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "10",
+        "Year": "1900",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "11",
+        "Year": "1910",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "12",
+        "Year": "1920",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "13",
+        "Year": "1930",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "14",
+        "Year": "1940",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "15",
+        "Year": "1950",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "16",
+        "Year": "1960",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "17",
+        "Year": "1965",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "18",
+        "Year": "1966",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "19",
+        "Year": "1967",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "20",
+        "Year": "1968",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "21",
+        "Year": "1969",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "22",
+        "Year": "1970",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "23",
+        "Year": "1971",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "24",
+        "Year": "1972",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "25",
+        "Year": "1973",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "26",
+        "Year": "1974",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "27",
+        "Year": "1975",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "28",
+        "Year": "1976",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "29",
+        "Year": "1977",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "30",
+        "Year": "1978",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "31",
+        "Year": "1979",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "32",
+        "Year": "1980",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "33",
+        "Year": "1981",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "34",
+        "Year": "1982",
+        "Values": "0.0",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "35",
+        "Year": "1983",
+        "Values": "0.0088611105456948",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "36",
+        "Year": "1984",
+        "Values": "0.0186666660010814",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "37",
+        "Year": "1985",
+        "Values": "0.0347372181713581",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "38",
+        "Year": "1986",
+        "Values": "0.0448983311653137",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "39",
+        "Year": "1987",
+        "Values": "0.0313530527055263",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "40",
+        "Year": "1988",
+        "Values": "0.0301494430750608",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "41",
+        "Year": "1989",
+        "Values": "0.7753913402557373",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "42",
+        "Year": "1990",
+        "Values": "1.148183822631836",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "43",
+        "Year": "1991",
+        "Values": "1.4938794374465942",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "44",
+        "Year": "1992",
+        "Values": "1.3796871900558472",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "45",
+        "Year": "1993",
+        "Values": "1.6461485624313354",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "46",
+        "Year": "1994",
+        "Values": "1.7653638124465942",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "47",
+        "Year": "1995",
+        "Values": "1.888965606689453",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "48",
+        "Year": "1996",
+        "Values": "2.0675506591796875",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "49",
+        "Year": "1997",
+        "Values": "2.216514110565185",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "50",
+        "Year": "1998",
+        "Values": "2.4004509449005127",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "51",
+        "Year": "1999",
+        "Values": "2.6766574382781982",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "52",
+        "Year": "2000",
+        "Values": "3.1313633918762207",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "53",
+        "Year": "2001",
+        "Values": "4.181310653686523",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "54",
+        "Year": "2002",
+        "Values": "5.251040458679199",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "55",
+        "Year": "2003",
+        "Values": "6.540081024169922",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "56",
+        "Year": "2004",
+        "Values": "8.56289005279541",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "57",
+        "Year": "2005",
+        "Values": "11.98942756652832",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "58",
+        "Year": "2006",
+        "Values": "16.394763946533203",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "59",
+        "Year": "2007",
+        "Values": "22.1060848236084",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "60",
+        "Year": "2008",
+        "Values": "35.68049621582031",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "61",
+        "Year": "2009",
+        "Values": "58.8535385131836",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "62",
+        "Year": "2010",
+        "Values": "94.12339782714844",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "63",
+        "Year": "2011",
+        "Values": "180.9189910888672",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "64",
+        "Year": "2012",
+        "Values": "278.41851806640625",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "65",
+        "Year": "2013",
+        "Values": "377.7468566894531",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "66",
+        "Year": "2014",
+        "Values": "531.948974609375",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "67",
+        "Year": "2015",
+        "Values": "686.0070190429688",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "68",
+        "Year": "2016",
+        "Values": "876.9552612304688",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "69",
+        "Year": "2017",
+        "Values": "1185.5150146484375",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "70",
+        "Year": "2018",
+        "Values": "1524.5496826171875",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "71",
+        "Year": "2019",
+        "Values": "1855.5921630859373",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "72",
+        "Year": "2020",
+        "Values": "2222.443115234375",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "73",
+        "Year": "2021",
+        "Values": "2701.72216796875",
+        "Energy Source": "Solar ()"
+      },
+      {
+        "": "0",
+        "Year": "1800",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "1",
+        "Year": "1810",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "2",
+        "Year": "1820",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "3",
+        "Year": "1830",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "4",
+        "Year": "1840",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "5",
+        "Year": "1850",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "6",
+        "Year": "1860",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "7",
+        "Year": "1870",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "8",
+        "Year": "1880",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "9",
+        "Year": "1890",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "10",
+        "Year": "1900",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "11",
+        "Year": "1910",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "12",
+        "Year": "1920",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "13",
+        "Year": "1930",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "14",
+        "Year": "1940",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "15",
+        "Year": "1950",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "16",
+        "Year": "1960",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "17",
+        "Year": "1965",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "18",
+        "Year": "1966",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "19",
+        "Year": "1967",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "20",
+        "Year": "1968",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "21",
+        "Year": "1969",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "22",
+        "Year": "1970",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "23",
+        "Year": "1971",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "24",
+        "Year": "1972",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "25",
+        "Year": "1973",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "26",
+        "Year": "1974",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "27",
+        "Year": "1975",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "28",
+        "Year": "1976",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "29",
+        "Year": "1977",
+        "Values": "0.0",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "30",
+        "Year": "1978",
+        "Values": "0.0088611105456948",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "31",
+        "Year": "1979",
+        "Values": "0.0177499987185001",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "32",
+        "Year": "1980",
+        "Values": "0.0310483332723379",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "33",
+        "Year": "1981",
+        "Values": "0.0310483332723379",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "34",
+        "Year": "1982",
+        "Values": "0.054704163223505",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "35",
+        "Year": "1983",
+        "Values": "0.0969744473695755",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "36",
+        "Year": "1984",
+        "Values": "0.132341668009758",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "37",
+        "Year": "1985",
+        "Values": "0.1898983269929886",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "38",
+        "Year": "1986",
+        "Values": "0.4105227887630462",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "39",
+        "Year": "1987",
+        "Values": "0.5777269601821899",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "40",
+        "Year": "1988",
+        "Values": "0.9804777503013612",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "41",
+        "Year": "1989",
+        "Values": "7.835361003875732",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "42",
+        "Year": "1990",
+        "Values": "10.741175651550291",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "43",
+        "Year": "1991",
+        "Values": "12.08434772491455",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "44",
+        "Year": "1992",
+        "Values": "13.996057510375977",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "45",
+        "Year": "1993",
+        "Values": "16.8476505279541",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "46",
+        "Year": "1994",
+        "Values": "21.062427520751957",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "47",
+        "Year": "1995",
+        "Values": "24.430418014526367",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "48",
+        "Year": "1996",
+        "Values": "27.21790313720703",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "49",
+        "Year": "1997",
+        "Values": "35.53655242919922",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "50",
+        "Year": "1998",
+        "Values": "47.0789909362793",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "51",
+        "Year": "1999",
+        "Values": "62.73599624633789",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "52",
+        "Year": "2000",
+        "Values": "92.87144470214844",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "53",
+        "Year": "2001",
+        "Values": "112.7565689086914",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "54",
+        "Year": "2002",
+        "Values": "152.78575134277344",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "55",
+        "Year": "2003",
+        "Values": "183.53549194335935",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "56",
+        "Year": "2004",
+        "Values": "246.744873046875",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "57",
+        "Year": "2005",
+        "Values": "299.6399841308594",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "58",
+        "Year": "2006",
+        "Values": "379.8566589355469",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "59",
+        "Year": "2007",
+        "Values": "484.9559326171875",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "60",
+        "Year": "2008",
+        "Values": "622.1779174804688",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "61",
+        "Year": "2009",
+        "Values": "773.0018310546875",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "62",
+        "Year": "2010",
+        "Values": "961.52880859375",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "63",
+        "Year": "2011",
+        "Values": "1214.86669921875",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "64",
+        "Year": "2012",
+        "Values": "1454.5869140625",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "65",
+        "Year": "2013",
+        "Values": "1732.0169677734375",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "66",
+        "Year": "2014",
+        "Values": "1912.226806640625",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "67",
+        "Year": "2015",
+        "Values": "2238.78564453125",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "68",
+        "Year": "2016",
+        "Values": "2575.582275390625",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "69",
+        "Year": "2017",
+        "Values": "3034.9169921875",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "70",
+        "Year": "2018",
+        "Values": "3360.0185546875",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "71",
+        "Year": "2019",
+        "Values": "3744.514892578125",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "72",
+        "Year": "2020",
+        "Values": "4192.68212890625",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "73",
+        "Year": "2021",
+        "Values": "4872.0947265625",
+        "Energy Source": "Wind ()"
+      },
+      {
+        "": "0",
+        "Year": "1800",
+        "Values": "0.0",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "1",
+        "Year": "1810",
+        "Values": "0.0",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "2",
+        "Year": "1820",
+        "Values": "0.0",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "3",
+        "Year": "1830",
+        "Values": "0.0",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "4",
+        "Year": "1840",
+        "Values": "0.0",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "5",
+        "Year": "1850",
+        "Values": "0.0",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "6",
+        "Year": "1860",
+        "Values": "0.0",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "7",
+        "Year": "1870",
+        "Values": "0.0",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "8",
+        "Year": "1880",
+        "Values": "0.0",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "9",
+        "Year": "1890",
+        "Values": "38.88888931274414",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "10",
+        "Year": "1900",
+        "Values": "47.22222137451172",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "11",
+        "Year": "1910",
+        "Values": "91.66666412353516",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "12",
+        "Year": "1920",
+        "Values": "177.77777099609375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "13",
+        "Year": "1930",
+        "Values": "363.8888854980469",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "14",
+        "Year": "1940",
+        "Values": "533.3333129882812",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "15",
+        "Year": "1950",
+        "Values": "925.0",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "16",
+        "Year": "1960",
+        "Values": "1913.888916015625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "17",
+        "Year": "1965",
+        "Values": "2729.886474609375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "18",
+        "Year": "1966",
+        "Values": "2909.135986328125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "19",
+        "Year": "1967",
+        "Values": "2973.96923828125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "20",
+        "Year": "1968",
+        "Values": "3132.30517578125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "21",
+        "Year": "1969",
+        "Values": "3316.98046875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "22",
+        "Year": "1970",
+        "Values": "3473.426513671875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "23",
+        "Year": "1971",
+        "Values": "3628.94189453125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "24",
+        "Year": "1972",
+        "Values": "3798.634033203125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "25",
+        "Year": "1973",
+        "Values": "3852.9951171875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "26",
+        "Year": "1974",
+        "Values": "4232.13671875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "27",
+        "Year": "1975",
+        "Values": "4284.33251953125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "28",
+        "Year": "1976",
+        "Values": "4267.33935546875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "29",
+        "Year": "1977",
+        "Values": "4410.85888671875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "30",
+        "Year": "1978",
+        "Values": "4773.7109375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "31",
+        "Year": "1979",
+        "Values": "5012.64697265625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "32",
+        "Year": "1980",
+        "Values": "5120.46875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "33",
+        "Year": "1981",
+        "Values": "5230.62841796875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "34",
+        "Year": "1982",
+        "Values": "5325.265625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "35",
+        "Year": "1983",
+        "Values": "5552.54248046875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "36",
+        "Year": "1984",
+        "Values": "5740.6201171875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "37",
+        "Year": "1985",
+        "Values": "5854.19384765625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "38",
+        "Year": "1986",
+        "Values": "5933.47314453125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "39",
+        "Year": "1987",
+        "Values": "6013.859375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "40",
+        "Year": "1988",
+        "Values": "6206.5634765625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "41",
+        "Year": "1989",
+        "Values": "6173.58251953125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "42",
+        "Year": "1990",
+        "Values": "6383.380859375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "43",
+        "Year": "1991",
+        "Values": "6532.16259765625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "44",
+        "Year": "1992",
+        "Values": "6530.3935546875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "45",
+        "Year": "1993",
+        "Values": "6923.66455078125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "46",
+        "Year": "1994",
+        "Values": "6967.2451171875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "47",
+        "Year": "1995",
+        "Values": "7344.2119140625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "48",
+        "Year": "1996",
+        "Values": "7442.81689453125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "49",
+        "Year": "1997",
+        "Values": "7572.9384765625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "50",
+        "Year": "1998",
+        "Values": "7631.9765625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "51",
+        "Year": "1999",
+        "Values": "7689.77783203125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "52",
+        "Year": "2000",
+        "Values": "7826.166015625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "53",
+        "Year": "2001",
+        "Values": "7575.6201171875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "54",
+        "Year": "2002",
+        "Values": "7665.61865234375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "55",
+        "Year": "2003",
+        "Values": "7606.5068359375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "56",
+        "Year": "2004",
+        "Values": "8116.03759765625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "57",
+        "Year": "2005",
+        "Values": "8336.203125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "58",
+        "Year": "2006",
+        "Values": "8599.056640625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "59",
+        "Year": "2007",
+        "Values": "8688.974609375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "60",
+        "Year": "2008",
+        "Values": "9136.708984375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "61",
+        "Year": "2009",
+        "Values": "9066.2998046875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "62",
+        "Year": "2010",
+        "Values": "9518.0419921875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "63",
+        "Year": "2011",
+        "Values": "9635.0751953125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "64",
+        "Year": "2012",
+        "Values": "9985.884765625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "65",
+        "Year": "2013",
+        "Values": "10324.787109375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "66",
+        "Year": "2014",
+        "Values": "10535.7412109375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "67",
+        "Year": "2015",
+        "Values": "10444.337890625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "68",
+        "Year": "2016",
+        "Values": "10741.4853515625",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "69",
+        "Year": "2017",
+        "Values": "10831.4052734375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "70",
+        "Year": "2018",
+        "Values": "11067.517578125",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "71",
+        "Year": "2019",
+        "Values": "11153.7919921875",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "72",
+        "Year": "2020",
+        "Values": "11413.8271484375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "73",
+        "Year": "2021",
+        "Values": "11183.2255859375",
+        "Energy Source": "Hydropower ()"
+      },
+      {
+        "": "0",
+        "Year": "1800",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "1",
+        "Year": "1810",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "2",
+        "Year": "1820",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "3",
+        "Year": "1830",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "4",
+        "Year": "1840",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "5",
+        "Year": "1850",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "6",
+        "Year": "1860",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "7",
+        "Year": "1870",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "8",
+        "Year": "1880",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "9",
+        "Year": "1890",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "10",
+        "Year": "1900",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "11",
+        "Year": "1910",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "12",
+        "Year": "1920",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "13",
+        "Year": "1930",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "14",
+        "Year": "1940",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "15",
+        "Year": "1950",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "16",
+        "Year": "1960",
+        "Values": "0.0",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "17",
+        "Year": "1965",
+        "Values": "72.46934509277344",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "18",
+        "Year": "1966",
+        "Values": "97.70497131347656",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "19",
+        "Year": "1967",
+        "Values": "116.3551788330078",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "20",
+        "Year": "1968",
+        "Values": "147.87188720703125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "21",
+        "Year": "1969",
+        "Values": "175.31134033203125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "22",
+        "Year": "1970",
+        "Values": "223.8080139160156",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "23",
+        "Year": "1971",
+        "Values": "311.2872314453125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "24",
+        "Year": "1972",
+        "Values": "431.79925537109375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "25",
+        "Year": "1973",
+        "Values": "578.57373046875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "26",
+        "Year": "1974",
+        "Values": "756.4817504882812",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "27",
+        "Year": "1975",
+        "Values": "1049.44970703125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "28",
+        "Year": "1976",
+        "Values": "1227.7115478515625",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "29",
+        "Year": "1977",
+        "Values": "1528.137451171875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "30",
+        "Year": "1978",
+        "Values": "1775.700927734375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "31",
+        "Year": "1979",
+        "Values": "1846.8245849609373",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "32",
+        "Year": "1980",
+        "Values": "2020.0955810546875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "33",
+        "Year": "1981",
+        "Values": "2385.642822265625",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "34",
+        "Year": "1982",
+        "Values": "2588.3173828125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "35",
+        "Year": "1983",
+        "Values": "2933.458984375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "36",
+        "Year": "1984",
+        "Values": "3559.856689453125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "37",
+        "Year": "1985",
+        "Values": "4224.83740234375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "38",
+        "Year": "1986",
+        "Values": "4525.08642578125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "39",
+        "Year": "1987",
+        "Values": "4922.3310546875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "40",
+        "Year": "1988",
+        "Values": "5366.4482421875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "41",
+        "Year": "1989",
+        "Values": "5518.99609375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "42",
+        "Year": "1990",
+        "Values": "5676.3408203125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "43",
+        "Year": "1991",
+        "Values": "5947.9267578125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "44",
+        "Year": "1992",
+        "Values": "5993.08447265625",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "45",
+        "Year": "1993",
+        "Values": "6199.47607421875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "46",
+        "Year": "1994",
+        "Values": "6315.8662109375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "47",
+        "Year": "1995",
+        "Values": "6589.8330078125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "48",
+        "Year": "1996",
+        "Values": "6829.33349609375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "49",
+        "Year": "1997",
+        "Values": "6782.4453125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "50",
+        "Year": "1998",
+        "Values": "6899.19580078125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "51",
+        "Year": "1999",
+        "Values": "7161.75341796875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "52",
+        "Year": "2000",
+        "Values": "7323.33984375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "53",
+        "Year": "2001",
+        "Values": "7481.20849609375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "54",
+        "Year": "2002",
+        "Values": "7551.708984375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "55",
+        "Year": "2003",
+        "Values": "7351.345703125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "56",
+        "Year": "2004",
+        "Values": "7636.44970703125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "57",
+        "Year": "2005",
+        "Values": "7608.0732421875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "58",
+        "Year": "2006",
+        "Values": "7654.41943359375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "59",
+        "Year": "2007",
+        "Values": "7451.5478515625",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "60",
+        "Year": "2008",
+        "Values": "7382.28466796875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "61",
+        "Year": "2009",
+        "Values": "7232.9384765625",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "62",
+        "Year": "2010",
+        "Values": "7373.7333984375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "63",
+        "Year": "2011",
+        "Values": "7022.1484375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "64",
+        "Year": "2012",
+        "Values": "6500.9921875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "65",
+        "Year": "2013",
+        "Values": "6513.49169921875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "66",
+        "Year": "2014",
+        "Values": "6606.67822265625",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "67",
+        "Year": "2015",
+        "Values": "6655.75634765625",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "68",
+        "Year": "2016",
+        "Values": "6714.7958984375",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "69",
+        "Year": "2017",
+        "Values": "6734.873046875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "70",
+        "Year": "2018",
+        "Values": "6856.0166015625",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "71",
+        "Year": "2019",
+        "Values": "7073.28955078125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "72",
+        "Year": "2020",
+        "Values": "6789.3017578125",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "73",
+        "Year": "2021",
+        "Values": "7031.33935546875",
+        "Energy Source": "Nuclear ()"
+      },
+      {
+        "": "0",
+        "Year": "1800",
+        "Values": "0.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "1",
+        "Year": "1810",
+        "Values": "0.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "2",
+        "Year": "1820",
+        "Values": "0.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "3",
+        "Year": "1830",
+        "Values": "0.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "4",
+        "Year": "1840",
+        "Values": "0.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "5",
+        "Year": "1850",
+        "Values": "0.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "6",
+        "Year": "1860",
+        "Values": "0.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "7",
+        "Year": "1870",
+        "Values": "0.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "8",
+        "Year": "1880",
+        "Values": "0.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "9",
+        "Year": "1890",
+        "Values": "33.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "10",
+        "Year": "1900",
+        "Values": "64.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "11",
+        "Year": "1910",
+        "Values": "142.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "12",
+        "Year": "1920",
+        "Values": "233.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "13",
+        "Year": "1930",
+        "Values": "603.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "14",
+        "Year": "1940",
+        "Values": "875.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "15",
+        "Year": "1950",
+        "Values": "2092.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "16",
+        "Year": "1960",
+        "Values": "4472.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "17",
+        "Year": "1965",
+        "Values": "6303.798828125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "18",
+        "Year": "1966",
+        "Values": "6868.79443359375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "19",
+        "Year": "1967",
+        "Values": "7374.03955078125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "20",
+        "Year": "1968",
+        "Values": "8044.33154296875",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "21",
+        "Year": "1969",
+        "Values": "8833.41796875",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "22",
+        "Year": "1970",
+        "Values": "9614.7919921875",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "23",
+        "Year": "1971",
+        "Values": "10293.2001953125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "24",
+        "Year": "1972",
+        "Values": "10861.7236328125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "25",
+        "Year": "1973",
+        "Values": "11377.837890625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "26",
+        "Year": "1974",
+        "Values": "11659.865234375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "27",
+        "Year": "1975",
+        "Values": "11659.7412109375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "28",
+        "Year": "1976",
+        "Values": "12354.1435546875",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "29",
+        "Year": "1977",
+        "Values": "12759.8427734375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "30",
+        "Year": "1978",
+        "Values": "13293.9521484375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "31",
+        "Year": "1979",
+        "Values": "14118.0322265625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "32",
+        "Year": "1980",
+        "Values": "14236.9609375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "33",
+        "Year": "1981",
+        "Values": "14395.8740234375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "34",
+        "Year": "1982",
+        "Values": "14469.7353515625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "35",
+        "Year": "1983",
+        "Values": "14703.8330078125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "36",
+        "Year": "1984",
+        "Values": "15902.6806640625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "37",
+        "Year": "1985",
+        "Values": "16262.2216796875",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "38",
+        "Year": "1986",
+        "Values": "16421.111328125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "39",
+        "Year": "1987",
+        "Values": "17281.896484375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "40",
+        "Year": "1988",
+        "Values": "18088.845703125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "41",
+        "Year": "1989",
+        "Values": "18867.30859375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "42",
+        "Year": "1990",
+        "Values": "19481.125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "43",
+        "Year": "1991",
+        "Values": "19972.83984375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "44",
+        "Year": "1992",
+        "Values": "20063.484375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "45",
+        "Year": "1993",
+        "Values": "20265.484375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "46",
+        "Year": "1994",
+        "Values": "20389.615234375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "47",
+        "Year": "1995",
+        "Values": "21104.494140625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "48",
+        "Year": "1996",
+        "Values": "22159.255859375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "49",
+        "Year": "1997",
+        "Values": "22030.392578125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "50",
+        "Year": "1998",
+        "Values": "22434.0",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "51",
+        "Year": "1999",
+        "Values": "23071.904296875",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "52",
+        "Year": "2000",
+        "Values": "23994.2578125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "53",
+        "Year": "2001",
+        "Values": "24316.833984375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "54",
+        "Year": "2002",
+        "Values": "25030.142578125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "55",
+        "Year": "2003",
+        "Values": "25729.58984375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "56",
+        "Year": "2004",
+        "Values": "26721.1015625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "57",
+        "Year": "2005",
+        "Values": "27438.037109375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "58",
+        "Year": "2006",
+        "Values": "28161.10546875",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "59",
+        "Year": "2007",
+        "Values": "29315.390625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "60",
+        "Year": "2008",
+        "Values": "30021.318359375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "61",
+        "Year": "2009",
+        "Values": "29401.19140625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "62",
+        "Year": "2010",
+        "Values": "31588.86328125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "63",
+        "Year": "2011",
+        "Values": "32340.1796875",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "64",
+        "Year": "2012",
+        "Values": "33194.03515625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "65",
+        "Year": "2013",
+        "Values": "33729.72265625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "66",
+        "Year": "2014",
+        "Values": "33944.2734375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "67",
+        "Year": "2015",
+        "Values": "34768.67578125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "68",
+        "Year": "2016",
+        "Values": "35560.7734375",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "69",
+        "Year": "2017",
+        "Values": "36529.22265625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "70",
+        "Year": "2018",
+        "Values": "38356.30078125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "71",
+        "Year": "2019",
+        "Values": "39062.9453125",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "72",
+        "Year": "2020",
+        "Values": "38455.7265625",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "73",
+        "Year": "2021",
+        "Values": "40374.60546875",
+        "Energy Source": "Gas ()"
+      },
+      {
+        "": "0",
+        "Year": "1800",
+        "Values": "0.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "1",
+        "Year": "1810",
+        "Values": "0.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "2",
+        "Year": "1820",
+        "Values": "0.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "3",
+        "Year": "1830",
+        "Values": "0.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "4",
+        "Year": "1840",
+        "Values": "0.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "5",
+        "Year": "1850",
+        "Values": "0.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "6",
+        "Year": "1860",
+        "Values": "0.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "7",
+        "Year": "1870",
+        "Values": "6.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "8",
+        "Year": "1880",
+        "Values": "33.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "9",
+        "Year": "1890",
+        "Values": "89.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "10",
+        "Year": "1900",
+        "Values": "181.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "11",
+        "Year": "1910",
+        "Values": "397.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "12",
+        "Year": "1920",
+        "Values": "889.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "13",
+        "Year": "1930",
+        "Values": "1756.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "14",
+        "Year": "1940",
+        "Values": "2653.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "15",
+        "Year": "1950",
+        "Values": "5444.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "16",
+        "Year": "1960",
+        "Values": "11097.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "17",
+        "Year": "1965",
+        "Values": "17989.603515625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "18",
+        "Year": "1966",
+        "Values": "19341.146484375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "19",
+        "Year": "1967",
+        "Values": "20732.13671875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "20",
+        "Year": "1968",
+        "Values": "22488.33203125",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "21",
+        "Year": "1969",
+        "Values": "24353.0",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "22",
+        "Year": "1970",
+        "Values": "26505.18359375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "23",
+        "Year": "1971",
+        "Values": "27994.796875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "24",
+        "Year": "1972",
+        "Values": "30112.263671875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "25",
+        "Year": "1973",
+        "Values": "32534.806640625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "26",
+        "Year": "1974",
+        "Values": "32078.1796875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "27",
+        "Year": "1975",
+        "Values": "31715.76953125",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "28",
+        "Year": "1976",
+        "Values": "33752.46484375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "29",
+        "Year": "1977",
+        "Values": "34928.13671875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "30",
+        "Year": "1978",
+        "Values": "36509.91796875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "31",
+        "Year": "1979",
+        "Values": "37064.56640625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "32",
+        "Year": "1980",
+        "Values": "35514.421875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "33",
+        "Year": "1981",
+        "Values": "34251.5703125",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "34",
+        "Year": "1982",
+        "Values": "33185.26953125",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "35",
+        "Year": "1983",
+        "Values": "32937.60546875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "36",
+        "Year": "1984",
+        "Values": "33680.0546875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "37",
+        "Year": "1985",
+        "Values": "33660.1015625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "38",
+        "Year": "1986",
+        "Values": "34700.8359375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "39",
+        "Year": "1987",
+        "Values": "35393.54296875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "40",
+        "Year": "1988",
+        "Values": "36552.58984375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "41",
+        "Year": "1989",
+        "Values": "37156.8359375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "42",
+        "Year": "1990",
+        "Values": "37608.01953125",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "43",
+        "Year": "1991",
+        "Values": "37610.640625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "44",
+        "Year": "1992",
+        "Values": "38151.84765625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "45",
+        "Year": "1993",
+        "Values": "37960.61328125",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "46",
+        "Year": "1994",
+        "Values": "38793.5078125",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "47",
+        "Year": "1995",
+        "Values": "39442.17578125",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "48",
+        "Year": "1996",
+        "Values": "40314.296875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "49",
+        "Year": "1997",
+        "Values": "41413.24609375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "50",
+        "Year": "1998",
+        "Values": "41644.4140625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "51",
+        "Year": "1999",
+        "Values": "42370.09375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "52",
+        "Year": "2000",
+        "Values": "42880.92578125",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "53",
+        "Year": "2001",
+        "Values": "43255.68359375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "54",
+        "Year": "2002",
+        "Values": "43608.86328125",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "55",
+        "Year": "2003",
+        "Values": "44580.6484375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "56",
+        "Year": "2004",
+        "Values": "46270.65625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "57",
+        "Year": "2005",
+        "Values": "46672.65625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "58",
+        "Year": "2006",
+        "Values": "47172.609375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "59",
+        "Year": "2007",
+        "Values": "47758.875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "60",
+        "Year": "2008",
+        "Values": "47338.6875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "61",
+        "Year": "2009",
+        "Values": "46371.56640625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "62",
+        "Year": "2010",
+        "Values": "47895.07421875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "63",
+        "Year": "2011",
+        "Values": "48307.65625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "64",
+        "Year": "2012",
+        "Values": "49010.70703125",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "65",
+        "Year": "2013",
+        "Values": "49520.15625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "66",
+        "Year": "2014",
+        "Values": "49832.44140625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "67",
+        "Year": "2015",
+        "Values": "50796.26171875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "68",
+        "Year": "2016",
+        "Values": "51760.77734375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "69",
+        "Year": "2017",
+        "Values": "52515.54296875",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "70",
+        "Year": "2018",
+        "Values": "53250.62109375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "71",
+        "Year": "2019",
+        "Values": "53368.62890625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "72",
+        "Year": "2020",
+        "Values": "48380.7109375",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "73",
+        "Year": "2021",
+        "Values": "51170.47265625",
+        "Energy Source": "Oil ()"
+      },
+      {
+        "": "0",
+        "Year": "1800",
+        "Values": "97.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "1",
+        "Year": "1810",
+        "Values": "128.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "2",
+        "Year": "1820",
+        "Values": "153.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "3",
+        "Year": "1830",
+        "Values": "264.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "4",
+        "Year": "1840",
+        "Values": "356.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "5",
+        "Year": "1850",
+        "Values": "569.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "6",
+        "Year": "1860",
+        "Values": "1061.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "7",
+        "Year": "1870",
+        "Values": "1642.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "8",
+        "Year": "1880",
+        "Values": "2542.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "9",
+        "Year": "1890",
+        "Values": "3856.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "10",
+        "Year": "1900",
+        "Values": "5728.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "11",
+        "Year": "1910",
+        "Values": "8656.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "12",
+        "Year": "1920",
+        "Values": "9833.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "13",
+        "Year": "1930",
+        "Values": "10125.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "14",
+        "Year": "1940",
+        "Values": "11586.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "15",
+        "Year": "1950",
+        "Values": "12603.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "16",
+        "Year": "1960",
+        "Values": "15442.0",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "17",
+        "Year": "1965",
+        "Values": "16140.1787109375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "18",
+        "Year": "1966",
+        "Values": "16324.09375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "19",
+        "Year": "1967",
+        "Values": "16060.8095703125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "20",
+        "Year": "1968",
+        "Values": "16301.146484375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "21",
+        "Year": "1969",
+        "Values": "16798.736328125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "22",
+        "Year": "1970",
+        "Values": "17058.607421875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "23",
+        "Year": "1971",
+        "Values": "16965.77734375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "24",
+        "Year": "1972",
+        "Values": "17158.63671875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "25",
+        "Year": "1973",
+        "Values": "17667.849609375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "26",
+        "Year": "1974",
+        "Values": "17682.05078125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "27",
+        "Year": "1975",
+        "Values": "18024.537109375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "28",
+        "Year": "1976",
+        "Values": "18688.484375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "29",
+        "Year": "1977",
+        "Values": "19241.30078125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "30",
+        "Year": "1978",
+        "Values": "19457.904296875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "31",
+        "Year": "1979",
+        "Values": "20363.5390625",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "32",
+        "Year": "1980",
+        "Values": "20857.609375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "33",
+        "Year": "1981",
+        "Values": "21149.6796875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "34",
+        "Year": "1982",
+        "Values": "21385.451171875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "35",
+        "Year": "1983",
+        "Values": "22046.345703125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "36",
+        "Year": "1984",
+        "Values": "23001.080078125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "37",
+        "Year": "1985",
+        "Values": "23987.828125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "38",
+        "Year": "1986",
+        "Values": "24258.033203125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "39",
+        "Year": "1987",
+        "Values": "25212.42578125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "40",
+        "Year": "1988",
+        "Values": "25967.12890625",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "41",
+        "Year": "1989",
+        "Values": "26215.67578125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "42",
+        "Year": "1990",
+        "Values": "25904.46875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "43",
+        "Year": "1991",
+        "Values": "25654.251953125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "44",
+        "Year": "1992",
+        "Values": "25556.59375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "45",
+        "Year": "1993",
+        "Values": "25685.59375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "46",
+        "Year": "1994",
+        "Values": "25784.77734375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "47",
+        "Year": "1995",
+        "Values": "25963.681640625",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "48",
+        "Year": "1996",
+        "Values": "26582.123046875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "49",
+        "Year": "1997",
+        "Values": "26536.6875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "50",
+        "Year": "1998",
+        "Values": "26366.365234375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "51",
+        "Year": "1999",
+        "Values": "26479.49609375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "52",
+        "Year": "2000",
+        "Values": "27427.5234375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "53",
+        "Year": "2001",
+        "Values": "27860.15234375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "54",
+        "Year": "2002",
+        "Values": "28955.103515625",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "55",
+        "Year": "2003",
+        "Values": "31499.232421875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "56",
+        "Year": "2004",
+        "Values": "33673.01171875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "57",
+        "Year": "2005",
+        "Values": "36169.05859375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "58",
+        "Year": "2006",
+        "Values": "38069.03515625",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "59",
+        "Year": "2007",
+        "Values": "40228.41796875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "60",
+        "Year": "2008",
+        "Values": "40773.58203125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "61",
+        "Year": "2009",
+        "Values": "40175.359375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "62",
+        "Year": "2010",
+        "Values": "41996.38671875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "63",
+        "Year": "2011",
+        "Values": "44017.296875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "64",
+        "Year": "2012",
+        "Values": "44184.375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "65",
+        "Year": "2013",
+        "Values": "44842.6171875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "66",
+        "Year": "2014",
+        "Values": "45161.20703125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "67",
+        "Year": "2015",
+        "Values": "44054.44140625",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "68",
+        "Year": "2016",
+        "Values": "43504.1640625",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "69",
+        "Year": "2017",
+        "Values": "43751.67578125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "70",
+        "Year": "2018",
+        "Values": "44315.875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "71",
+        "Year": "2019",
+        "Values": "43699.88671875",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "72",
+        "Year": "2020",
+        "Values": "41963.96484375",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "73",
+        "Year": "2021",
+        "Values": "44473.1953125",
+        "Energy Source": "Coal ()"
+      },
+      {
+        "": "0",
+        "Year": "1800",
+        "Values": "5556.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "1",
+        "Year": "1810",
+        "Values": "5833.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "2",
+        "Year": "1820",
+        "Values": "6111.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "3",
+        "Year": "1830",
+        "Values": "6389.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "4",
+        "Year": "1840",
+        "Values": "6944.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "5",
+        "Year": "1850",
+        "Values": "7222.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "6",
+        "Year": "1860",
+        "Values": "6944.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "7",
+        "Year": "1870",
+        "Values": "6944.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "8",
+        "Year": "1880",
+        "Values": "6944.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "9",
+        "Year": "1890",
+        "Values": "6667.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "10",
+        "Year": "1900",
+        "Values": "6111.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "11",
+        "Year": "1910",
+        "Values": "6389.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "12",
+        "Year": "1920",
+        "Values": "6944.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "13",
+        "Year": "1930",
+        "Values": "7222.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "14",
+        "Year": "1940",
+        "Values": "7222.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "15",
+        "Year": "1950",
+        "Values": "7500.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "16",
+        "Year": "1960",
+        "Values": "8889.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "17",
+        "Year": "1965",
+        "Values": "9162.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "18",
+        "Year": "1966",
+        "Values": "9218.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "19",
+        "Year": "1967",
+        "Values": "9274.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "20",
+        "Year": "1968",
+        "Values": "9331.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "21",
+        "Year": "1969",
+        "Values": "9387.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "22",
+        "Year": "1970",
+        "Values": "9444.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "23",
+        "Year": "1971",
+        "Values": "9499.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "24",
+        "Year": "1972",
+        "Values": "9553.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "25",
+        "Year": "1973",
+        "Values": "9608.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "26",
+        "Year": "1974",
+        "Values": "9663.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "27",
+        "Year": "1975",
+        "Values": "9718.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "28",
+        "Year": "1976",
+        "Values": "9774.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "29",
+        "Year": "1977",
+        "Values": "9830.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "30",
+        "Year": "1978",
+        "Values": "9886.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "31",
+        "Year": "1979",
+        "Values": "9943.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "32",
+        "Year": "1980",
+        "Values": "10000.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "33",
+        "Year": "1981",
+        "Values": "10106.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "34",
+        "Year": "1982",
+        "Values": "10213.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "35",
+        "Year": "1983",
+        "Values": "10321.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "36",
+        "Year": "1984",
+        "Values": "10430.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "37",
+        "Year": "1985",
+        "Values": "10541.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "38",
+        "Year": "1986",
+        "Values": "10653.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "39",
+        "Year": "1987",
+        "Values": "10765.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "40",
+        "Year": "1988",
+        "Values": "10879.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "41",
+        "Year": "1989",
+        "Values": "10995.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "42",
+        "Year": "1990",
+        "Values": "11111.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "43",
+        "Year": "1991",
+        "Values": "11243.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "44",
+        "Year": "1992",
+        "Values": "11376.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "45",
+        "Year": "1993",
+        "Values": "11511.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "46",
+        "Year": "1994",
+        "Values": "11647.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "47",
+        "Year": "1995",
+        "Values": "11785.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "48",
+        "Year": "1996",
+        "Values": "11925.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "49",
+        "Year": "1997",
+        "Values": "12066.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "50",
+        "Year": "1998",
+        "Values": "12209.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "51",
+        "Year": "1999",
+        "Values": "12414.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "52",
+        "Year": "2000",
+        "Values": "12500.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "53",
+        "Year": "2001",
+        "Values": "12500.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "54",
+        "Year": "2002",
+        "Values": "12470.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "55",
+        "Year": "2003",
+        "Values": "12329.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "56",
+        "Year": "2004",
+        "Values": "12160.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "57",
+        "Year": "2005",
+        "Values": "12076.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "58",
+        "Year": "2006",
+        "Values": "11993.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "59",
+        "Year": "2007",
+        "Values": "11911.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "60",
+        "Year": "2008",
+        "Values": "11829.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "61",
+        "Year": "2009",
+        "Values": "11747.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "62",
+        "Year": "2010",
+        "Values": "11667.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "63",
+        "Year": "2011",
+        "Values": "11553.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "64",
+        "Year": "2012",
+        "Values": "11441.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "65",
+        "Year": "2013",
+        "Values": "11330.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "66",
+        "Year": "2014",
+        "Values": "11220.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "67",
+        "Year": "2015",
+        "Values": "11111.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "68",
+        "Year": "2016",
+        "Values": "11111.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "69",
+        "Year": "2017",
+        "Values": "11111.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "70",
+        "Year": "2018",
+        "Values": "11111.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "71",
+        "Year": "2019",
+        "Values": "11111.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "72",
+        "Year": "2020",
+        "Values": "11111.0",
+        "Energy Source": "Traditional biomass ()"
+      },
+      {
+        "": "73",
+        "Year": "2021",
+        "Values": "11111.0",
+        "Energy Source": "Traditional biomass ()"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "mark": {
+    "type": "line",
+    "size": 2,
+    "point": false
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "Values",
+      "type": "quantitative",
+      "title": "Energy Consumption (TWh)",
+      "axis": {
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "Energy Source",
+      "type": "nominal",
+      "scale": {
+        "scheme": "darkmulti"
+      },
+      "legend": {
+        "orient": "top-left"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Energy Source",
+        "type": "nominal"
+      },
+      {
+        "field": "Values",
+        "title": "Energy cons"
+      }
+    ]
+  }
+}

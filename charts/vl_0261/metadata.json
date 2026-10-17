@@ -1,0 +1,124 @@
+{
+  "id": "vl_0261",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "68405f0e8acf6d93fef13153d301397f7c85018b6f3159ed7ecb0c2dada2134a",
+      "actions": 23,
+      "topOptions": 61
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "af478acded8ee1135f504a12e53a464ab64ebc06c479823de612536a393801b6",
+      "actions": 25,
+      "topOptions": 63
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8bb8ae30112666f785cb6568af6d2424ad696205685e93cde5713e6f571036f9",
+      "actions": 27,
+      "topOptions": 68
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4dd1be71835823243e9b187093e32daaabe69f77ae431e0cef691d26acbe2ef8",
+      "actions": 28,
+      "topOptions": 70
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "d3502459eab71f45e7dc5d0fff8981dc31e1db5108ad49921c04e1e3355c0126",
+      "actions": 30,
+      "topOptions": 72
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3215cac2e5200e679064abf121dd0caaf0d527adad7f2261022388948dfc7c29",
+      "actions": 30,
+      "topOptions": 72
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "8f199a73887147d994bc506c58d8fe0a6fc66ff32fc638c7f409767e3abdcf76",
+      "actions": 30,
+      "topOptions": 73
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "dcc18e25077c5a37ab2fc76e004abb303eae1e74ef0b92ab5e7d259982cb5f78",
+      "actions": 31,
+      "topOptions": 75
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/vega/vega-datasets/master/data/cars.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All8 distinctGLM programs formalPASS source initial brush (392conditionalpoints,exact2rectanglebounds/paint/painterorder/fivecategorylegend), rawdata, fixed200squareplot and exactfamilySVG/PNG/graphics. Narrowstrokeunknown remainsinitialencoding for validnulloutside intermediate; laterlegendtitleweightfocused."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "61bfb49c288ccdfadcac617348e340caca10e0da2b344b48a0abf2d969d30623",
+      "bytes": 823
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d310a1246ab0931ff15267bf26a8a8870f35ce9c34b79fb40ec124a8119e3cd8",
+      "bytes": 114644
+    },
+    "G1.gg.mjs": {
+      "sha256": "68405f0e8acf6d93fef13153d301397f7c85018b6f3159ed7ecb0c2dada2134a",
+      "bytes": 3884
+    },
+    "G2.gg.mjs": {
+      "sha256": "af478acded8ee1135f504a12e53a464ab64ebc06c479823de612536a393801b6",
+      "bytes": 3902
+    },
+    "G3.gg.mjs": {
+      "sha256": "8bb8ae30112666f785cb6568af6d2424ad696205685e93cde5713e6f571036f9",
+      "bytes": 3994
+    },
+    "G4.gg.mjs": {
+      "sha256": "4dd1be71835823243e9b187093e32daaabe69f77ae431e0cef691d26acbe2ef8",
+      "bytes": 3984
+    },
+    "G5.gg.mjs": {
+      "sha256": "d3502459eab71f45e7dc5d0fff8981dc31e1db5108ad49921c04e1e3355c0126",
+      "bytes": 4044
+    },
+    "G6.gg.mjs": {
+      "sha256": "3215cac2e5200e679064abf121dd0caaf0d527adad7f2261022388948dfc7c29",
+      "bytes": 4032
+    },
+    "G7.gg.mjs": {
+      "sha256": "8f199a73887147d994bc506c58d8fe0a6fc66ff32fc638c7f409767e3abdcf76",
+      "bytes": 3952
+    },
+    "G8.gg.mjs": {
+      "sha256": "dcc18e25077c5a37ab2fc76e004abb303eae1e74ef0b92ab5e7d259982cb5f78",
+      "bytes": 4000
+    },
+    "vega-lite.svg": {
+      "sha256": "57fcca7b7b6b4f4fd029f14977b1c0deec3958ac7573f1b43dec97450b51bc03",
+      "bytes": 125783
+    },
+    "ggaction.svg": {
+      "sha256": "539282bc192c5523ebea8dd5172f23cf6eb37aa531f94c95f5f50e6ce09b1bd6",
+      "bytes": 60529
+    }
+  }
+}

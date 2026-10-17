@@ -1,0 +1,260 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "": "0",
+        "x": "Solar LCOE",
+        "y": "Solar LCOE",
+        "ppscore": "1.0",
+        "case": "predict_itself",
+        "is_valid_score": "True",
+        "metric": "",
+        "baseline_score": "0.0",
+        "model_score": "1.0",
+        "model": ""
+      },
+      {
+        "": "1",
+        "x": "Solar LCOE",
+        "y": "log_solar",
+        "ppscore": "0.6273056078148743",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "0.7847937155653929",
+        "model_score": "0.2924882168133505",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "2",
+        "x": "Solar LCOE",
+        "y": "log_LCOE",
+        "ppscore": "0.6860237623291439",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "0.5759920240703051",
+        "model_score": "0.18084780864601557",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "3",
+        "x": "Solar LCOE",
+        "y": "Solar",
+        "ppscore": "0.5978368764716724",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "213483.49687500004",
+        "model_score": "85855.18992499998",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "4",
+        "x": "log_solar",
+        "y": "Solar LCOE",
+        "ppscore": "0.6277246715109566",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "0.08298100841666668",
+        "model_score": "0.030891782166666666",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "5",
+        "x": "log_solar",
+        "y": "log_solar",
+        "ppscore": "1.0",
+        "case": "predict_itself",
+        "is_valid_score": "True",
+        "metric": "",
+        "baseline_score": "0.0",
+        "model_score": "1.0",
+        "model": ""
+      },
+      {
+        "": "6",
+        "x": "log_solar",
+        "y": "log_LCOE",
+        "ppscore": "0.6667237618754203",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "0.5759920240703051",
+        "model_score": "0.19196445497191372",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "7",
+        "x": "log_solar",
+        "y": "Solar",
+        "ppscore": "0.5843399092563544",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "213483.49687500004",
+        "model_score": "88736.56968333332",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "8",
+        "x": "log_LCOE",
+        "y": "Solar LCOE",
+        "ppscore": "0.6361246196432653",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "0.08298100841666668",
+        "model_score": "0.030194745999999998",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "9",
+        "x": "log_LCOE",
+        "y": "log_solar",
+        "ppscore": "0.6273056078148743",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "0.7847937155653929",
+        "model_score": "0.2924882168133505",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "10",
+        "x": "log_LCOE",
+        "y": "log_LCOE",
+        "ppscore": "1.0",
+        "case": "predict_itself",
+        "is_valid_score": "True",
+        "metric": "",
+        "baseline_score": "0.0",
+        "model_score": "1.0",
+        "model": ""
+      },
+      {
+        "": "11",
+        "x": "log_LCOE",
+        "y": "Solar",
+        "ppscore": "0.5978368764716724",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "213483.49687500004",
+        "model_score": "85855.18992499998",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "12",
+        "x": "Solar",
+        "y": "Solar LCOE",
+        "ppscore": "0.5557560785688251",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "0.08298100841666668",
+        "model_score": "0.03686380858333333",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "13",
+        "x": "Solar",
+        "y": "log_solar",
+        "ppscore": "0.6058403316794453",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "0.7847937155653929",
+        "model_score": "0.309334030627311",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "14",
+        "x": "Solar",
+        "y": "log_LCOE",
+        "ppscore": "0.6372058460803554",
+        "case": "regression",
+        "is_valid_score": "True",
+        "metric": "mean absolute error",
+        "baseline_score": "0.5759920240703051",
+        "model_score": "0.20896653903704998",
+        "model": "DecisionTreeRegressor()"
+      },
+      {
+        "": "15",
+        "x": "Solar",
+        "y": "Solar",
+        "ppscore": "1.0",
+        "case": "predict_itself",
+        "is_valid_score": "True",
+        "metric": "",
+        "baseline_score": "0.0",
+        "model_score": "1.0",
+        "model": ""
+      }
+    ]
+  },
+  "title": {
+    "text": "PP score matrix",
+    "subtitle": [
+      "Predictive power score matrix"
+    ],
+    "subtitleFontSize": 10,
+    "subtitleFontStyle": "italic",
+    "anchor": "start"
+  },
+  "height": 125,
+  "width": 125,
+  "encoding": {
+    "y": {
+      "field": "x",
+      "type": "nominal",
+      "title": null,
+      "axis": {
+        "labelFontSize": 8
+      }
+    },
+    "x": {
+      "field": "y",
+      "type": "nominal",
+      "title": null,
+      "axis": {
+        "labelFontSize": 8
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": "rect",
+      "encoding": {
+        "color": {
+          "field": "ppscore",
+          "type": "quantitative",
+          "title": "PP Score",
+          "legend": {
+            "labelFontSize": 8,
+            "titleFontSize": 9
+          }
+        }
+      }
+    },
+    {
+      "mark": "text",
+      "encoding": {
+        "text": {
+          "field": "ppscore",
+          "type": "quantitative",
+          "format": ".2f"
+        }
+      }
+    }
+  ],
+  "config": {
+    "axis": {
+      "grid": true,
+      "tickBand": "extent"
+    }
+  }
+}

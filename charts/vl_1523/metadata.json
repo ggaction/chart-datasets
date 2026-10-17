@@ -1,0 +1,122 @@
+{
+  "id": "vl_1523",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "4c1ad4c1bd4af2dfa715a98fa939604d86ab76474bad9027437b606b5d84a96a",
+      "actions": 9,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f53cac65e6e3b5326419c7fb9aef216d4e99de5f9ceb9d2cbfd61b4c7e9e630b",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b890e73e87af7586b695e875c857846b3ce4f6cd5632fdb14c3a1588c981ec6a",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "675f15f837c43a0137093d84587d7c27fc1f6f36715e82580f3d761a35c4f996",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "01385febe6545954282a095f3fe93db18d3ca4142582bc39bbefb2ca01ae8cf8",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "92d6da22a46cb228cfbfb14d63875abc0235ae90ff6161da202ecde4a3fb2862",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ebc4a13bef4399b0b542d45412bb5f2328dc970a13fe228b65ffd3cece76a936",
+      "actions": 16,
+      "topOptions": 32
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "12486abb25c128ed3895085fc950a78a84b0d2dc4362fbdc4ac2c65758d31293",
+      "actions": 18,
+      "topOptions": 36
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful stages. Confirmed sourceDOMlegendfontfamily corrected from copied axisHelveticaNeue to source sans-serif by one GLMpatch replayed across family; axisHelveticaNeue/fonts/weights remain source-authored. Complete axes, color scale, axis paint/components and final paired legend typography have focused owners. Exact allrect geometry/palette, boundary grids in source z-order, fixed404x353/plot300x300 and family outputs pass. Explicit legend offset removed; actual library defaults retained (categorical8, size/gradient30). Plot dimensions preserved; outer canvas/margin expanded only by required7or29px. All stages remain identical."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "637107858a542f485cfc7b0505de9bc779e01e293d5eb201fe00cc37e2eeb40f",
+      "bytes": 11928
+    },
+    "data.json": {
+      "sha256": "770e13251912142b5c423d052055ebaf755044ad3633af971309a6a41deedc63",
+      "bytes": 8195
+    },
+    "resolved-source.vl.json": {
+      "sha256": "637107858a542f485cfc7b0505de9bc779e01e293d5eb201fe00cc37e2eeb40f",
+      "bytes": 11928
+    },
+    "G1.gg.mjs": {
+      "sha256": "4c1ad4c1bd4af2dfa715a98fa939604d86ab76474bad9027437b606b5d84a96a",
+      "bytes": 2293
+    },
+    "G2.gg.mjs": {
+      "sha256": "f53cac65e6e3b5326419c7fb9aef216d4e99de5f9ceb9d2cbfd61b4c7e9e630b",
+      "bytes": 2300
+    },
+    "G3.gg.mjs": {
+      "sha256": "b890e73e87af7586b695e875c857846b3ce4f6cd5632fdb14c3a1588c981ec6a",
+      "bytes": 2210
+    },
+    "G4.gg.mjs": {
+      "sha256": "675f15f837c43a0137093d84587d7c27fc1f6f36715e82580f3d761a35c4f996",
+      "bytes": 2286
+    },
+    "G5.gg.mjs": {
+      "sha256": "01385febe6545954282a095f3fe93db18d3ca4142582bc39bbefb2ca01ae8cf8",
+      "bytes": 2362
+    },
+    "G6.gg.mjs": {
+      "sha256": "92d6da22a46cb228cfbfb14d63875abc0235ae90ff6161da202ecde4a3fb2862",
+      "bytes": 2333
+    },
+    "G7.gg.mjs": {
+      "sha256": "ebc4a13bef4399b0b542d45412bb5f2328dc970a13fe228b65ffd3cece76a936",
+      "bytes": 2304
+    },
+    "G8.gg.mjs": {
+      "sha256": "12486abb25c128ed3895085fc950a78a84b0d2dc4362fbdc4ac2c65758d31293",
+      "bytes": 2355
+    },
+    "vega-lite.svg": {
+      "sha256": "ed7127d988538a42adba4a3be7c6c94b2423f8ca26c32ed0b0563c4cd10c8cb0",
+      "bytes": 23261
+    },
+    "ggaction.svg": {
+      "sha256": "33827fc89fcb64fc76aa10f0a8ab2087e413a5c7a2c386388ecc90b1e57fcb05",
+      "bytes": 24058
+    }
+  }
+}

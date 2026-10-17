@@ -1,0 +1,113 @@
+{
+  "id": "vl_0896",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f3ef3eb0f7c9833c11a4b52898a855642f8ca125cf37c7bd0385c3a13191f578",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "c9b17ef95a0ed6f0e232972a989c4a43d17be0dcda04707379cdb7a7332b8277",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7d30b4b9d330da58489b7187dde44087cc5b7bc0e4a85b6012134a26607278cc",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "107a39949192e6294b4adf9f47e98788657bff6c89aea8dbb498bd28b44f7307",
+      "actions": 16,
+      "topOptions": 37
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "0880cc816bb595075cff8a16e1cf20c070d1aa5e6025592c058b2d7739761d57",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "13f115457673373138ee0c729719ab50a89e786880e2e1509fe7b55ae8b67773",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "2a03e5b4a6ae52dfba3e7f47ee7b78e8f875bf2be3f52565c1cf562146f6d03e",
+      "actions": 19,
+      "topOptions": 42
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/JamesFKean/JamesFKean.github.io/main/imfoutstanding.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full accepted G7/source inspected. Constant fill remains at recommended editBarMark owner because public encodeColor requires a field and does NOT support constant value. Attempted host guidance was invalid and is withdrawn; no artificial constant dataset will be invented. Axes/title/scales already focused, remaining source geometry protected. Stop honestly at seven."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "60a94f9fd7704b9a0bfe58673765d3845611f54ac7b42027cc700594177e4d86",
+      "bytes": 1054
+    },
+    "data.json": {
+      "sha256": "42580e93f3080a2c3109f1e1c5178066a84e5a7eefb3ef81988d93adafeccfae",
+      "bytes": 13886
+    },
+    "resolved-source.vl.json": {
+      "sha256": "710b5d4d63301198ad2fbc81f6d6fcfc692e68a19ed4861e7a694e8dd7add7f0",
+      "bytes": 16955
+    },
+    "G1.gg.mjs": {
+      "sha256": "f3ef3eb0f7c9833c11a4b52898a855642f8ca125cf37c7bd0385c3a13191f578",
+      "bytes": 2174
+    },
+    "G2.gg.mjs": {
+      "sha256": "c9b17ef95a0ed6f0e232972a989c4a43d17be0dcda04707379cdb7a7332b8277",
+      "bytes": 2178
+    },
+    "G3.gg.mjs": {
+      "sha256": "7d30b4b9d330da58489b7187dde44087cc5b7bc0e4a85b6012134a26607278cc",
+      "bytes": 2190
+    },
+    "G4.gg.mjs": {
+      "sha256": "107a39949192e6294b4adf9f47e98788657bff6c89aea8dbb498bd28b44f7307",
+      "bytes": 2274
+    },
+    "G5.gg.mjs": {
+      "sha256": "0880cc816bb595075cff8a16e1cf20c070d1aa5e6025592c058b2d7739761d57",
+      "bytes": 2288
+    },
+    "G6.gg.mjs": {
+      "sha256": "13f115457673373138ee0c729719ab50a89e786880e2e1509fe7b55ae8b67773",
+      "bytes": 2288
+    },
+    "G7.gg.mjs": {
+      "sha256": "2a03e5b4a6ae52dfba3e7f47ee7b78e8f875bf2be3f52565c1cf562146f6d03e",
+      "bytes": 2342
+    },
+    "vega-lite.svg": {
+      "sha256": "7af3665bd6a8198b3cb8ae41c530633ce860ce33a6395d7ff0f755f707ef8562",
+      "bytes": 14250
+    },
+    "ggaction.svg": {
+      "sha256": "bbe94644bddd1ed8d7193afe5b8977d673a17387df6174193966aba064119083",
+      "bytes": 13342
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "UK Minimum Wage, 1999-2022",
+  "data": {
+    "values": [
+      {
+        "MinWage": "3.60",
+        "Year": "1999"
+      },
+      {
+        "MinWage": "3.70",
+        "Year": "2000"
+      },
+      {
+        "MinWage": "4.10",
+        "Year": "2001"
+      },
+      {
+        "MinWage": "4.20",
+        "Year": "2002"
+      },
+      {
+        "MinWage": "4.50",
+        "Year": "2003"
+      },
+      {
+        "MinWage": "4.85",
+        "Year": "2004"
+      },
+      {
+        "MinWage": "5.05",
+        "Year": "2005"
+      },
+      {
+        "MinWage": "5.35",
+        "Year": "2006"
+      },
+      {
+        "MinWage": "5.52",
+        "Year": "2007"
+      },
+      {
+        "MinWage": "5.73",
+        "Year": "2008"
+      },
+      {
+        "MinWage": "5.80",
+        "Year": "2009"
+      },
+      {
+        "MinWage": "5.93",
+        "Year": "2010"
+      },
+      {
+        "MinWage": "6.08",
+        "Year": "2011"
+      },
+      {
+        "MinWage": "6.19",
+        "Year": "2012"
+      },
+      {
+        "MinWage": "6.31",
+        "Year": "2013"
+      },
+      {
+        "MinWage": "6.50",
+        "Year": "2014"
+      },
+      {
+        "MinWage": "6.70",
+        "Year": "2015"
+      },
+      {
+        "MinWage": "7.20",
+        "Year": "2016"
+      },
+      {
+        "MinWage": "7.50",
+        "Year": "2017"
+      },
+      {
+        "MinWage": "7.83",
+        "Year": "2018"
+      },
+      {
+        "MinWage": "8.21",
+        "Year": "2019"
+      },
+      {
+        "MinWage": "8.72",
+        "Year": "2020"
+      },
+      {
+        "MinWage": "8.91",
+        "Year": "2021"
+      },
+      {
+        "MinWage": "9.50",
+        "Year": "2022"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "title": {
+    "text": "UK National Minimum Wage, 1995-2021",
+    "anchor": "start",
+    "subtitle": [
+      "Using rates for oldest age group",
+      "Source: Gov.uk"
+    ]
+  },
+  "width": 400,
+  "height": 300,
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal"
+    }
+  },
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "y": {
+          "field": "MinWage",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "opacity": 1
+      },
+      "encoding": {
+        "opacity": {
+          "value": 1
+        },
+        "tooltip": [
+          {
+            "field": "Year",
+            "type": "temporal",
+            "format": "%Y"
+          },
+          {
+            "field": "MinWage",
+            "type": "quantitative",
+            "title": "Minimum Wage"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "opacity": 1,
+        "size": 100,
+        "fill": "white"
+      },
+      "encoding": {
+        "y": {
+          "field": "MinWage",
+          "type": "quantitative",
+          "title": "Minimum Wage (£)"
+        },
+        "opacity": {
+          "value": 1
+        }
+      }
+    }
+  ]
+}

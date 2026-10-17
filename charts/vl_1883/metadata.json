@@ -1,0 +1,122 @@
+{
+  "id": "vl_1883",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ed3a51bd78e486cc2fe986ca1213deeef5c27900270b0076dc482c7306dc3064",
+      "actions": 7,
+      "topOptions": 16
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2bdfd803665dd50b1c86ed7a7139a295c8f7bc17d77634100654e7d4e628df68",
+      "actions": 10,
+      "topOptions": 21
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e972406a7051ee242852b1b5a60808f599c21c305a9b60875db36b281f1293ec",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "dd9abcb74c9ea701def95ed45e9a4fb900e4b71c004c5abc146845e09fade1e2",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "1926e22704ba975e66b3fe5e1dd830b163c909c71ccfaf8f3c78a34059f24c36",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "6dd312e039aee7d8a7c32c1066c6a49d9ecd7ae727a37df61e0bd06517f5f724",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "0ec2fb87192b92136553abb67230260831802c57dbe8dbb8c59a52dc2d9b9887",
+      "actions": 18,
+      "topOptions": 33
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "589531720fece44b4b609338510b747e3143da0d2b61ff31069ded321d2b7620",
+      "actions": 19,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct meaningful stages: positional scales, independent legend, guides→axes, paired complete X/Y axes, whole-axis typography/paint, focused axis components and legend typography. Source geometry/paint and exact family SVG/PNG/resolved graphics pass; highlevel facade and <=3 topoptions retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "31114d17be5d4651dbbe2e75c77912fb899a396828e9d04cc6475b786b64021f",
+      "bytes": 2206
+    },
+    "data.json": {
+      "sha256": "62ce2b2bac543c05f47ecd61ebb000e37bc33499d76807bb3f43fdc58f77accd",
+      "bytes": 889
+    },
+    "resolved-source.vl.json": {
+      "sha256": "31114d17be5d4651dbbe2e75c77912fb899a396828e9d04cc6475b786b64021f",
+      "bytes": 2206
+    },
+    "G1.gg.mjs": {
+      "sha256": "ed3a51bd78e486cc2fe986ca1213deeef5c27900270b0076dc482c7306dc3064",
+      "bytes": 2255
+    },
+    "G2.gg.mjs": {
+      "sha256": "2bdfd803665dd50b1c86ed7a7139a295c8f7bc17d77634100654e7d4e628df68",
+      "bytes": 2243
+    },
+    "G3.gg.mjs": {
+      "sha256": "e972406a7051ee242852b1b5a60808f599c21c305a9b60875db36b281f1293ec",
+      "bytes": 2260
+    },
+    "G4.gg.mjs": {
+      "sha256": "dd9abcb74c9ea701def95ed45e9a4fb900e4b71c004c5abc146845e09fade1e2",
+      "bytes": 2202
+    },
+    "G5.gg.mjs": {
+      "sha256": "1926e22704ba975e66b3fe5e1dd830b163c909c71ccfaf8f3c78a34059f24c36",
+      "bytes": 2128
+    },
+    "G6.gg.mjs": {
+      "sha256": "6dd312e039aee7d8a7c32c1066c6a49d9ecd7ae727a37df61e0bd06517f5f724",
+      "bytes": 2340
+    },
+    "G7.gg.mjs": {
+      "sha256": "0ec2fb87192b92136553abb67230260831802c57dbe8dbb8c59a52dc2d9b9887",
+      "bytes": 2240
+    },
+    "G8.gg.mjs": {
+      "sha256": "589531720fece44b4b609338510b747e3143da0d2b61ff31069ded321d2b7620",
+      "bytes": 2264
+    },
+    "vega-lite.svg": {
+      "sha256": "96508759e26685202fb388505a12b2bee7cd8d28e1fbaf17b5afce43d49f05f7",
+      "bytes": 11425
+    },
+    "ggaction.svg": {
+      "sha256": "75059266b2f15b87775476ed600f5db2a77c9978751ba8ed8af98e0ad727bc71",
+      "bytes": 7705
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "vl_1972",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "adc3fbc5699cdb6990fb75615edbbff16bb3122788461ffcff39af9fe945f179",
+      "actions": 7,
+      "topOptions": 15
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "af60027e3de9efaabae57f109ae1aa76c6e50bc245a5f8cd4f287ca8f80a35c1",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "191902e531d6b6012ca3d4deae89893ffa4c445b23d497222db9b92ea6bb4b70",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "9e0e987f90375336a3c325271c89c257e4c8d2f81a4a82d5645250779e8eb3bc",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9a2b7861272f313e48d9930767726cb28238fbcb525180625fa39f4b2bbbe46a",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "6e75a5a5b8530f19342d7ac08f8832586d217c463f3e50ac10413aeee743a69d",
+      "actions": 14,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "3db74a2a211677afa42786391295a057840a7914369ae92530104607e9d7aca2",
+      "actions": 18,
+      "topOptions": 43
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "e13ec74b734300cbf71faa0e877790412857639d9f93a203035dcb92f6d417c0",
+      "actions": 20,
+      "topOptions": 45
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful stages after applying GLM one-call point-style optimization uniformly acrossG1–G6. High-level scatter remains; scales, guide/axes families, directional grids, paired axis paint, component groups and final individualtick/label editors preserveexactsource-size/familyoutput. Scalar-only merge is retainedasoptimization,notcountedasstage."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "0e716c1debdf735a08a7217269f233bf453527d5097fa6d41aa416a208907c3c",
+      "bytes": 592
+    },
+    "data.json": {
+      "sha256": "867dd324fd1b94782958cb4d9208aaccbb3f83fb093bfd359a5c0fe3a755cd14",
+      "bytes": 163
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0e716c1debdf735a08a7217269f233bf453527d5097fa6d41aa416a208907c3c",
+      "bytes": 592
+    },
+    "G1.gg.mjs": {
+      "sha256": "adc3fbc5699cdb6990fb75615edbbff16bb3122788461ffcff39af9fe945f179",
+      "bytes": 1951
+    },
+    "G2.gg.mjs": {
+      "sha256": "af60027e3de9efaabae57f109ae1aa76c6e50bc245a5f8cd4f287ca8f80a35c1",
+      "bytes": 2015
+    },
+    "G3.gg.mjs": {
+      "sha256": "191902e531d6b6012ca3d4deae89893ffa4c445b23d497222db9b92ea6bb4b70",
+      "bytes": 1891
+    },
+    "G4.gg.mjs": {
+      "sha256": "9e0e987f90375336a3c325271c89c257e4c8d2f81a4a82d5645250779e8eb3bc",
+      "bytes": 2101
+    },
+    "G5.gg.mjs": {
+      "sha256": "9a2b7861272f313e48d9930767726cb28238fbcb525180625fa39f4b2bbbe46a",
+      "bytes": 2093
+    },
+    "G6.gg.mjs": {
+      "sha256": "6e75a5a5b8530f19342d7ac08f8832586d217c463f3e50ac10413aeee743a69d",
+      "bytes": 2013
+    },
+    "G7.gg.mjs": {
+      "sha256": "3db74a2a211677afa42786391295a057840a7914369ae92530104607e9d7aca2",
+      "bytes": 2041
+    },
+    "G8.gg.mjs": {
+      "sha256": "e13ec74b734300cbf71faa0e877790412857639d9f93a203035dcb92f6d417c0",
+      "bytes": 1995
+    },
+    "vega-lite.svg": {
+      "sha256": "c1b2c511dc45c128175ae38f0276f229b7b6f7dfdc5aba5cf46cc768a7fa4702",
+      "bytes": 7896
+    },
+    "ggaction.svg": {
+      "sha256": "613110c85bb46cca1e9d1cfbae74c8707fabc6bc35a8bbb81cb293c4795283e5",
+      "bytes": 5541
+    }
+  }
+}

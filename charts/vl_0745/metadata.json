@@ -1,0 +1,91 @@
+{
+  "id": "vl_0745",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "83f03bcb2130ac2c1f3d24d60cd3be9b6ecdc64c74d4b9bc423f73b51482fb2c",
+      "actions": 10,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "70e2a3316ea5a30ff987ea8dd7851df0befd68f564b50093624ab45226992469",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "80b45f52b503fab24ae7efa950c55cb1a2c15afcd93665b6fcbf523a886b0fdf",
+      "actions": 13,
+      "topOptions": 28
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e29aef6682e3ae7541953dec932ca2eef0e25a9fae6b8d69fc7f553ae93df892",
+      "actions": 15,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "41aea6467d8b4487f90a4e498741f76c388980de877aa57c4ee8442d3e9afc9a",
+      "actions": 16,
+      "topOptions": 31
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/data_ONS-lf24.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Explicit Codex host terminal assessment, model:null/newModelResponse:false. Full reviewed accepted G5 and current source/runtime/family verification pass; concrete frontier[]; rejected GLM default-font/flush padding and all original usage preserved. No paid stop response or fabricated GLM stop."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "cf55bfdd08a55457add7c9ae310df1dd77a2cf2e3583dc08ce1c4cc4ace54270",
+      "bytes": 885
+    },
+    "data.json": {
+      "sha256": "b411efc9d706ca03b014f113c2ed278cef4bb1f1b441cb952e2b59e0ffc4b8d9",
+      "bytes": 10203
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f91a135da3646c6928d61140a6af3df7b9dea4fd2cc402d9213cc1f86c7983de",
+      "bytes": 13046
+    },
+    "G1.gg.mjs": {
+      "sha256": "83f03bcb2130ac2c1f3d24d60cd3be9b6ecdc64c74d4b9bc423f73b51482fb2c",
+      "bytes": 1910
+    },
+    "G2.gg.mjs": {
+      "sha256": "70e2a3316ea5a30ff987ea8dd7851df0befd68f564b50093624ab45226992469",
+      "bytes": 1912
+    },
+    "G3.gg.mjs": {
+      "sha256": "80b45f52b503fab24ae7efa950c55cb1a2c15afcd93665b6fcbf523a886b0fdf",
+      "bytes": 1932
+    },
+    "G4.gg.mjs": {
+      "sha256": "e29aef6682e3ae7541953dec932ca2eef0e25a9fae6b8d69fc7f553ae93df892",
+      "bytes": 1973
+    },
+    "G5.gg.mjs": {
+      "sha256": "41aea6467d8b4487f90a4e498741f76c388980de877aa57c4ee8442d3e9afc9a",
+      "bytes": 2008
+    },
+    "vega-lite.svg": {
+      "sha256": "38b8f5d3d0ab9055d06deca5fa8c2423dfae7e484ef36a92fab65c9dc2b78f16",
+      "bytes": 6417
+    },
+    "ggaction.svg": {
+      "sha256": "07f12e8e5937cedb43d5cad8b7085c3d4c9633b6027c0b084c9a576eb76dae91",
+      "bytes": 5359
+    }
+  }
+}

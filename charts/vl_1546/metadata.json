@@ -1,0 +1,124 @@
+{
+  "id": "vl_1546",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "03dbdbbb0f2bf58d695dcd646f89f6a2d881d80b14e403d790e2e10c2fd49b2c",
+      "actions": 10,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "eef3b456f2bb494c71779ae5937ada33515c26da7bc3e855be254bdb21ce5040",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "5277c85dd73048cb905e7f2340c2c1e7a8d115dacdb4d6a64253f663b98a2674",
+      "actions": 14,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "bea13b3b9f6893dd79d5b2244d0f0e3d1f918c25c629212e2d700420911fbcfb",
+      "actions": 15,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c658e73b8d61c7e4b68101f62ea149c0aebe3c8823058d5d269885d4caa96359",
+      "actions": 16,
+      "topOptions": 32
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "573e2fd26e17bb5a7d6f6fc90fe570b09e8dd3ca4de4491b13207e30fdd9fa38",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d2efde82c1c8710a4c0982a03f83143e65dca58604ac4c17e4e5736a9a00a50f",
+      "actions": 17,
+      "topOptions": 34
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "1a7b14c772d95d797898915cb7f477fafec9cc43d5aa2a9c263495bd5c494ffb",
+      "actions": 18,
+      "topOptions": 34
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/us/data_US_FRED-UNRATE.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source/final reviewed:897ISO-date monthlyrows,300squareplot,seagreen2px explicitopacity1, noaxisTitles, centered Simple Vega Chart sourceheader. All8 programs PASS identicalSVG. Honest cap remainder: existing completeXaxis year formatter could transfer to focusedlabels."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8bbaa529af738ba15b1a3cea931d1be564492e4f55e1817d953f1daaf1b5334a",
+      "bytes": 663
+    },
+    "data.json": {
+      "sha256": "f149029e71e5d7fc78778041a00c8054271961bba49d63702973fef5ed8cd7ad",
+      "bytes": 111246
+    },
+    "resolved-source.vl.json": {
+      "sha256": "7bfa7a05b9922c32efafc613f5bf57dc82678dcf9304ea2460c091e7dbcfe4f5",
+      "bytes": 133330
+    },
+    "G1.gg.mjs": {
+      "sha256": "03dbdbbb0f2bf58d695dcd646f89f6a2d881d80b14e403d790e2e10c2fd49b2c",
+      "bytes": 1824
+    },
+    "G2.gg.mjs": {
+      "sha256": "eef3b456f2bb494c71779ae5937ada33515c26da7bc3e855be254bdb21ce5040",
+      "bytes": 1842
+    },
+    "G3.gg.mjs": {
+      "sha256": "5277c85dd73048cb905e7f2340c2c1e7a8d115dacdb4d6a64253f663b98a2674",
+      "bytes": 1883
+    },
+    "G4.gg.mjs": {
+      "sha256": "bea13b3b9f6893dd79d5b2244d0f0e3d1f918c25c629212e2d700420911fbcfb",
+      "bytes": 1843
+    },
+    "G5.gg.mjs": {
+      "sha256": "c658e73b8d61c7e4b68101f62ea149c0aebe3c8823058d5d269885d4caa96359",
+      "bytes": 1911
+    },
+    "G6.gg.mjs": {
+      "sha256": "573e2fd26e17bb5a7d6f6fc90fe570b09e8dd3ca4de4491b13207e30fdd9fa38",
+      "bytes": 1986
+    },
+    "G7.gg.mjs": {
+      "sha256": "d2efde82c1c8710a4c0982a03f83143e65dca58604ac4c17e4e5736a9a00a50f",
+      "bytes": 2008
+    },
+    "G8.gg.mjs": {
+      "sha256": "1a7b14c772d95d797898915cb7f477fafec9cc43d5aa2a9c263495bd5c494ffb",
+      "bytes": 2018
+    },
+    "vega-lite.svg": {
+      "sha256": "f47120dd829e82cea41809f2b827fa917020d285cd0186f52a6ca1276a0e2db7",
+      "bytes": 22014
+    },
+    "ggaction.svg": {
+      "sha256": "b792b9633171aa52b378a88d14f3eb8ce69aa6fcfc011be363a99aea1e3b7d48",
+      "bytes": 31126
+    }
+  }
+}

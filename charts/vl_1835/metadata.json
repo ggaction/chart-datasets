@@ -1,0 +1,124 @@
+{
+  "id": "vl_1835",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f4587fcc5169a7aac8fbcc1b88402918766d26761ac05949144f64dcdcce660c",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "7d94ba7d8e218ca604dfa77a14012f2204d6feedcf149b632217626d33d4f77e",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2508a820449132cf5104cd8e56e4333d05f467b37ad3755095f69f19bedbea31",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ddfeb75413d39338db07f1535da7ce7b782fcc692f615736b1f4d62e34e28c22",
+      "actions": 18,
+      "topOptions": 42
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "bd9feb7d94e2483e527627b86aec1a9fa4d22d064e0d1d27e2cd58e73fbbbdc1",
+      "actions": 20,
+      "topOptions": 48
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "99d2417e59aa8581f390a51b6b9a53cfa4016ec89cfa368798210a9315dfb15d",
+      "actions": 20,
+      "topOptions": 49
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d6c57a47b9bf16d8971a0edfdfe916fc8819a96d94ead45824cc96010f2184d8",
+      "actions": 21,
+      "topOptions": 50
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "dd312878bea0aa1a94af7b43a37d1d4cc6db0d7811f30b9fe06a0ef91cfcd13e",
+      "actions": 25,
+      "topOptions": 50
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/elasComputacao/raio-x-dados/main/data/dados-processados/cotas.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct stages fully reviewed and current source/family verified. Terminal frontier disclosure explicitly retains two tick-group-to-tick editor opportunities at the user maximum8 cap; this is cap completion, not exhausted frontier. Source52stackbars/13countticks/legend/font/fullraw data remain."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a8de9527f9427c4c6c7fe9f6e1f08045ccfa4c50bacb59196aad846fd87b8382",
+      "bytes": 1727
+    },
+    "data.json": {
+      "sha256": "40fef1ba767c267ef814dced905939a4de7178e39ca6d274a7aeec52aa9ae3f0",
+      "bytes": 9856
+    },
+    "resolved-source.vl.json": {
+      "sha256": "62e3d269edaf0ba069737a357e79ff996fcac7c52df433e036677afbeb0b996c",
+      "bytes": 13429
+    },
+    "G1.gg.mjs": {
+      "sha256": "f4587fcc5169a7aac8fbcc1b88402918766d26761ac05949144f64dcdcce660c",
+      "bytes": 2686
+    },
+    "G2.gg.mjs": {
+      "sha256": "7d94ba7d8e218ca604dfa77a14012f2204d6feedcf149b632217626d33d4f77e",
+      "bytes": 2712
+    },
+    "G3.gg.mjs": {
+      "sha256": "2508a820449132cf5104cd8e56e4333d05f467b37ad3755095f69f19bedbea31",
+      "bytes": 2674
+    },
+    "G4.gg.mjs": {
+      "sha256": "ddfeb75413d39338db07f1535da7ce7b782fcc692f615736b1f4d62e34e28c22",
+      "bytes": 2700
+    },
+    "G5.gg.mjs": {
+      "sha256": "bd9feb7d94e2483e527627b86aec1a9fa4d22d064e0d1d27e2cd58e73fbbbdc1",
+      "bytes": 2846
+    },
+    "G6.gg.mjs": {
+      "sha256": "99d2417e59aa8581f390a51b6b9a53cfa4016ec89cfa368798210a9315dfb15d",
+      "bytes": 2862
+    },
+    "G7.gg.mjs": {
+      "sha256": "d6c57a47b9bf16d8971a0edfdfe916fc8819a96d94ead45824cc96010f2184d8",
+      "bytes": 2887
+    },
+    "G8.gg.mjs": {
+      "sha256": "dd312878bea0aa1a94af7b43a37d1d4cc6db0d7811f30b9fe06a0ef91cfcd13e",
+      "bytes": 2923
+    },
+    "vega-lite.svg": {
+      "sha256": "b65fd4937724d2122f608acf6c858a1470dd5cacaf4c84baa6e327855e02f4c1",
+      "bytes": 33737
+    },
+    "ggaction.svg": {
+      "sha256": "3e40ab468d18cf24a755157037f57bbc9ef8c6c2db9abd774b0b0c3b1cde163a",
+      "bytes": 22116
+    }
+  }
+}

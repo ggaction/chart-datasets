@@ -1,0 +1,78 @@
+{
+  "id": "vl_0791",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "0c14b66fa1e0be92170ed1e950cdd24b4d36ed8c885556d094915201093795ac",
+      "actions": 5,
+      "topOptions": 10
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e95f49ffaa25d6ee045bb590eee6fe41963a4acde6c8f914d44d1b0ec1468986",
+      "actions": 7,
+      "topOptions": 14
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "57f330e4fba245d93840d672c24af6ba99799679e1a8c651baca801d435c3b01",
+      "actions": 8,
+      "topOptions": 15
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "be274adb592cf88cce2b30a5ec2aa0b7c3950b0a15742eebf45bc656c620f7f4",
+      "actions": 9,
+      "topOptions": 17
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "가이드에서 축 전체를 분리하고 scale을 editor로 옮겼다. 남은 회전·글자 크기·제목 offset은 긴 범주 라벨과 고정 여백을 유지하는 생성 조건이며, 새 기본 스타일을 넣어 분해하지 않고 4단계에서 종료했다. Source grid paint corrected using exact shared GLM color fragments, without changing action counts or decomposition."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8da0f7b35704cde3e9d46fb3a7fbff46c66f8f45bc43c201ba0ea8b0b62480b2",
+      "bytes": 2214
+    },
+    "data.json": {
+      "sha256": "34b5b802670daef24f1fffcc1d1fdfaf622c1dac827053353fa7756ea040a2bd",
+      "bytes": 1426
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8da0f7b35704cde3e9d46fb3a7fbff46c66f8f45bc43c201ba0ea8b0b62480b2",
+      "bytes": 2214
+    },
+    "G1.gg.mjs": {
+      "sha256": "0c14b66fa1e0be92170ed1e950cdd24b4d36ed8c885556d094915201093795ac",
+      "bytes": 1358
+    },
+    "G2.gg.mjs": {
+      "sha256": "e95f49ffaa25d6ee045bb590eee6fe41963a4acde6c8f914d44d1b0ec1468986",
+      "bytes": 1348
+    },
+    "G3.gg.mjs": {
+      "sha256": "57f330e4fba245d93840d672c24af6ba99799679e1a8c651baca801d435c3b01",
+      "bytes": 1342
+    },
+    "G4.gg.mjs": {
+      "sha256": "be274adb592cf88cce2b30a5ec2aa0b7c3950b0a15742eebf45bc656c620f7f4",
+      "bytes": 1322
+    },
+    "vega-lite.svg": {
+      "sha256": "dfc177e31da50d2a9cb1835e07c58ed432c04dc00428c26355a50008a06b962c",
+      "bytes": 14648
+    },
+    "ggaction.svg": {
+      "sha256": "bf451a436c1999f7f3c28ab4bc2c8acdaa780cc70886999b96cd63549c60fec3",
+      "bytes": 12899
+    }
+  }
+}

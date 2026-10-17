@@ -1,0 +1,56 @@
+{
+  "id": "vl_0747",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "69a95007e257391d477d661f156b0586d48b58c7f52a62e7788c94e276c7dffd",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "6065252aa47d1bf45be6bf0f849f8fcd0fd520353dc71922918d57b137deba35",
+      "actions": 11,
+      "topOptions": 25
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "G1의 고정 크기·완성된 축·제목/부제를 유지하고 G2에서 scale을 분리했다. 축 글자 크기·회전·숨김과 제목 글자 크기는 생성 시 필요한 배치 조건이다. 더 나누면 임시 축이 넘치거나 단일 속성 이동만 남아서 2단계에서 종료했다."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "35a797bcda5347add6bc4e2c8886657184c834d50cac7cb4386bb90c4320d8c2",
+      "bytes": 1385
+    },
+    "data.json": {
+      "sha256": "392b794faedb7a5d9975dc659a6cf868bf5a719a1a09ce122f4d3049b40f6f54",
+      "bytes": 532
+    },
+    "resolved-source.vl.json": {
+      "sha256": "35a797bcda5347add6bc4e2c8886657184c834d50cac7cb4386bb90c4320d8c2",
+      "bytes": 1385
+    },
+    "G1.gg.mjs": {
+      "sha256": "69a95007e257391d477d661f156b0586d48b58c7f52a62e7788c94e276c7dffd",
+      "bytes": 2162
+    },
+    "G2.gg.mjs": {
+      "sha256": "6065252aa47d1bf45be6bf0f849f8fcd0fd520353dc71922918d57b137deba35",
+      "bytes": 2082
+    },
+    "vega-lite.svg": {
+      "sha256": "41200804dc65e5fd25b44880f60855da80a2a1cc67352ccc656b0f953e0612d7",
+      "bytes": 8595
+    },
+    "ggaction.svg": {
+      "sha256": "031f4187192e0dbe290242af719c1bed90ddd1b9333b85e35bda3f33a4bfdaf2",
+      "bytes": 6560
+    }
+  }
+}

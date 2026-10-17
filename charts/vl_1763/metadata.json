@@ -1,0 +1,102 @@
+{
+  "id": "vl_1763",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8f6045857b6710893d98639eb62ab7879ec7fd5c2590132067c65b9ec9b5f0c5",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "15f8a239339e2ac04b6b2f28d07b2ac3505f28e9c26f304bbb3b2db85dcfd49f",
+      "actions": 14,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "be287d2843619425d0b2bf9c05feba50994b50f1c3a4fcb5a2686c65494968e7",
+      "actions": 16,
+      "topOptions": 42
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "6b07d2d3acb1dcf309b91652532ec57717bc3e1e9c3aec8288375783c1fff85c",
+      "actions": 22,
+      "topOptions": 46
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c7ec249abb0be1bee5e991808a763be10eabbea0e4800454899aaac96fda28bd",
+      "actions": 22,
+      "topOptions": 47
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "759d321fb6dd816f463ea3ab7026e8a44888cd69f665053d0c37863647a37c69",
+      "actions": 24,
+      "topOptions": 49
+    }
+  ],
+  "sourceUrls": [
+    "https://gicentre.github.io/data/tests/timeTest.tsv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full original hours-mean source and exact acceptedG6 code reread. All26265raw records preserved, native time-unit canonical2012 lowering and13source means/source8hour labels/scales/0.2linewidth/fonts/800x200plot pass. All valid source ownership boundaries exhausted after6stages. RejectedG7 only moved hour displayformat to existing editor; actual public runtime creates overlapping default date labels before editor runs. Source/runtime/code-bound native failure proves format must remain at birth, with exact metadata retained. Host stop model:null/no new response; no paid retry/padding/native defaults. All earlier failed responses/cost retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "30fa4de173ac8460ae1b79adcab14cc44587070ff8727930065441b2b4f967fb",
+      "bytes": 488
+    },
+    "data.json": {
+      "sha256": "1ae3e91972addcbdba23e94c13e30fce6708b402efe315403b1ed8b2d23ffd02",
+      "bytes": 1838553
+    },
+    "resolved-source.vl.json": {
+      "sha256": "ffd28daffdfcfee73725a58e1986c0db806d3c00e4f5e8d0c114c2bdaa1438aa",
+      "bytes": 2259307
+    },
+    "G1.gg.mjs": {
+      "sha256": "8f6045857b6710893d98639eb62ab7879ec7fd5c2590132067c65b9ec9b5f0c5",
+      "bytes": 2263
+    },
+    "G2.gg.mjs": {
+      "sha256": "15f8a239339e2ac04b6b2f28d07b2ac3505f28e9c26f304bbb3b2db85dcfd49f",
+      "bytes": 2169
+    },
+    "G3.gg.mjs": {
+      "sha256": "be287d2843619425d0b2bf9c05feba50994b50f1c3a4fcb5a2686c65494968e7",
+      "bytes": 2379
+    },
+    "G4.gg.mjs": {
+      "sha256": "6b07d2d3acb1dcf309b91652532ec57717bc3e1e9c3aec8288375783c1fff85c",
+      "bytes": 2361
+    },
+    "G5.gg.mjs": {
+      "sha256": "c7ec249abb0be1bee5e991808a763be10eabbea0e4800454899aaac96fda28bd",
+      "bytes": 2380
+    },
+    "G6.gg.mjs": {
+      "sha256": "759d321fb6dd816f463ea3ab7026e8a44888cd69f665053d0c37863647a37c69",
+      "bytes": 2438
+    },
+    "vega-lite.svg": {
+      "sha256": "8f293a4ccd211c0467b35a314df70bab741f1cd1b023302b628a70c43bd29bb5",
+      "bytes": 7525
+    },
+    "ggaction.svg": {
+      "sha256": "77e449e771aae89c6947579fd4e657dbd56fa8a466699b029bca83be2df1cff6",
+      "bytes": 6173
+    }
+  }
+}

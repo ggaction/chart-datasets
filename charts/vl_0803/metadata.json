@@ -1,0 +1,124 @@
+{
+  "id": "vl_0803",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ea1522365db129fedaf972f84ba7c758af2839319c237b7ab198cc0821fd3b2f",
+      "actions": 20,
+      "topOptions": 46
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9332a39ff911766d17d3f6d4326814c913e033be2a606e2f40418720befc084f",
+      "actions": 22,
+      "topOptions": 48
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "97377827ace331d456bd8a06a105bba504878281d75c0b267e8194b492c2665a",
+      "actions": 22,
+      "topOptions": 47
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "b38cd657e2fc3093b8d61b698646fd02762fb1871e35df1a9ba667201e6a6184",
+      "actions": 23,
+      "topOptions": 49
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ef9bcae2ab5ef61cfed83569e2ecc4ec8dc9b93618100181e351731a0a1dcdf8",
+      "actions": 24,
+      "topOptions": 53
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "5e0242bd79af6d37a0e117282b187f49481f129faf997ab1f5395cbdc3611b38",
+      "actions": 25,
+      "topOptions": 53
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "25552d1e08c2703269e4c34934d78f8aed74bd4ddb4ab1f5847666d97459ffe4",
+      "actions": 25,
+      "topOptions": 54
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "009cb785c343b380ad8668d262a9544630d6031da49be396d20a55c520ff8309",
+      "actions": 27,
+      "topOptions": 60
+    }
+  ],
+  "sourceUrls": [
+    "https://gist.githubusercontent.com/khang-dao/3b0a43624567269b2020da66a43f86d4/raw/870ce69ae1457127f554911309b62e705c78b880/olympics-1986-2016-cleaned-4-asia.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full final program/source reread: all15352sourcepoints and painterorder preserved with native rowNumber contiguous10000+5352 partition, global250domains/250squareplot, same radius/orangeunfilledstroke/opacity and sourceorangeaxis/title. All8stage/source/raw/equivalence checks pass; necessaryfour secondfilter/facade exceptions remain reported; focusedaxisparts remain undercap."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a5bf7fdae16f58afd70c6b73ab4d814f94f37fa8f547171d5f158b3dec7bc65e",
+      "bytes": 1154
+    },
+    "data.json": {
+      "sha256": "a5257ce5d644cf4107796cb6f3218d034e1b7c85d423424413853a327f8c3918",
+      "bytes": 1197896
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a1e6c45ae845d273d48e5faf2092dc5292311a2de8f5bb39564caaa64d9ce12f",
+      "bytes": 1505935
+    },
+    "G1.gg.mjs": {
+      "sha256": "ea1522365db129fedaf972f84ba7c758af2839319c237b7ab198cc0821fd3b2f",
+      "bytes": 2835
+    },
+    "G2.gg.mjs": {
+      "sha256": "9332a39ff911766d17d3f6d4326814c913e033be2a606e2f40418720befc084f",
+      "bytes": 2795
+    },
+    "G3.gg.mjs": {
+      "sha256": "97377827ace331d456bd8a06a105bba504878281d75c0b267e8194b492c2665a",
+      "bytes": 2695
+    },
+    "G4.gg.mjs": {
+      "sha256": "b38cd657e2fc3093b8d61b698646fd02762fb1871e35df1a9ba667201e6a6184",
+      "bytes": 2747
+    },
+    "G5.gg.mjs": {
+      "sha256": "ef9bcae2ab5ef61cfed83569e2ecc4ec8dc9b93618100181e351731a0a1dcdf8",
+      "bytes": 2707
+    },
+    "G6.gg.mjs": {
+      "sha256": "5e0242bd79af6d37a0e117282b187f49481f129faf997ab1f5395cbdc3611b38",
+      "bytes": 2713
+    },
+    "G7.gg.mjs": {
+      "sha256": "25552d1e08c2703269e4c34934d78f8aed74bd4ddb4ab1f5847666d97459ffe4",
+      "bytes": 2729
+    },
+    "G8.gg.mjs": {
+      "sha256": "009cb785c343b380ad8668d262a9544630d6031da49be396d20a55c520ff8309",
+      "bytes": 2983
+    },
+    "vega-lite.svg": {
+      "sha256": "6e1e48553a6f22d6d494d2f644fd4362ce073724d6f573098abed062e54f995e",
+      "bytes": 3732415
+    },
+    "ggaction.svg": {
+      "sha256": "c415a85e8e147b099e04d3f85ebfd9e79a498488c776e2251e7ff31165b66a4f",
+      "bytes": 1509874
+    }
+  }
+}

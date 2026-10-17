@@ -1,0 +1,113 @@
+{
+  "id": "vl_0578",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "055745bbf56fc17ae1fabde897859d243d5bd487efa803dc847fbc7ed4a6709b",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ab09b3dd33e63a775004e75bd4c1456ddb0035246c03ed4d7cd7a2efd7395ee5",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8fde62547bdcd5b65aaecf8101d0e720c6ab8744bff7245003012efe638d8377",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4312ca005fe7fb106431e82b80aa37c644c355bd35d647f182fc58836aa60e45",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "83d472e86b873f3ed2ac73d45d48a0e23f73171e065fd8231b4312d82bb818a0",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "bf101ec23243a9d90681c1541db23c62cfedc808a1cf7c016b54ef0619647fe7",
+      "actions": 18,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "6b29f7973d4404c8f381f7127728e42b5fb0122016d5eff6c493cddfa2976595",
+      "actions": 18,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/US_Shiller_CAPE.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Everyaccepted fullcode/diff reviewed against actualsource; current concrete mandatoryfrontierzero and all source/data/exactfamily SVG/PNG checks pass currentpin. Keep fontsizes/offsets/tickselections/hidingmaps creationgeometry. No default-only orbackwardcycle quota stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "98e8ac14ca53750673cdc3259e695b9aee3fc65efd8c0b20fb0b614e3485dfca",
+      "bytes": 1095
+    },
+    "data.json": {
+      "sha256": "201e8cf52904e6dfd5867017fab1e67223fd36fb9c1bc5d7d1060ec549923bdb",
+      "bytes": 684073
+    },
+    "resolved-source.vl.json": {
+      "sha256": "888e52ff9a09d0e0593ec36a337c5ba8a6eeda32efb672f244dd19b8ea44a6a0",
+      "bytes": 802005
+    },
+    "G1.gg.mjs": {
+      "sha256": "055745bbf56fc17ae1fabde897859d243d5bd487efa803dc847fbc7ed4a6709b",
+      "bytes": 2316
+    },
+    "G2.gg.mjs": {
+      "sha256": "ab09b3dd33e63a775004e75bd4c1456ddb0035246c03ed4d7cd7a2efd7395ee5",
+      "bytes": 2318
+    },
+    "G3.gg.mjs": {
+      "sha256": "8fde62547bdcd5b65aaecf8101d0e720c6ab8744bff7245003012efe638d8377",
+      "bytes": 2270
+    },
+    "G4.gg.mjs": {
+      "sha256": "4312ca005fe7fb106431e82b80aa37c644c355bd35d647f182fc58836aa60e45",
+      "bytes": 2290
+    },
+    "G5.gg.mjs": {
+      "sha256": "83d472e86b873f3ed2ac73d45d48a0e23f73171e065fd8231b4312d82bb818a0",
+      "bytes": 2342
+    },
+    "G6.gg.mjs": {
+      "sha256": "bf101ec23243a9d90681c1541db23c62cfedc808a1cf7c016b54ef0619647fe7",
+      "bytes": 2348
+    },
+    "G7.gg.mjs": {
+      "sha256": "6b29f7973d4404c8f381f7127728e42b5fb0122016d5eff6c493cddfa2976595",
+      "bytes": 2364
+    },
+    "vega-lite.svg": {
+      "sha256": "825e43a56a7f6cda516cdafcae07614f458178950497d8dc499896aa24baeccb",
+      "bytes": 34524
+    },
+    "ggaction.svg": {
+      "sha256": "29282955349e96e15f8de106b3e53277aa57d12d158bb280755da086a4ab1593",
+      "bytes": 64654
+    }
+  }
+}

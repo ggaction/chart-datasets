@@ -1,0 +1,122 @@
+{
+  "id": "vl_1433",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ac09e29910b44d7ddded831ca099567d68bcdd20e3bbd28e6d70893ce0349687",
+      "actions": 126,
+      "topOptions": 274
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "7959c48a3a61f1e1ddc5ad1a3879f55c6d8fd718ef798f7e1f335c65f1e09060",
+      "actions": 126,
+      "topOptions": 282
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b809524bcea2c4d5dd14899803a31a27341385998366837e838c35d9e3dfca44",
+      "actions": 134,
+      "topOptions": 282
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "06082ded4713a46ebbb9f22ca227079c7770aa48f3f6deb181dbbd81314c7a34",
+      "actions": 136,
+      "topOptions": 284
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "197c6757be42c02e0bb500ac46f0e107ead3a4fd04ba5d7be7b75b67a29054c8",
+      "actions": 136,
+      "topOptions": 285
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3be8bb62bcae5d92b16c9e3542a477500f5dec187dc6b574d3a70d69d634a8d8",
+      "actions": 160,
+      "topOptions": 325
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "82a1f12c89b425f53ed997dc375f91516340d015411835003f18a6b24e03df60",
+      "actions": 168,
+      "topOptions": 357
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "947c64198c3786935a5e6830c65c0e6c65de1acc130ffd5bc000b1b362b8385a",
+      "actions": 224,
+      "topOptions": 461
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "원본104행, 8개 실제 패널의250x75 내부 플롯과852x586 외곽, 모든 Boolean 원본색·단일범례·글꼴·실제labelMap/축tick·헤더 및 원본 데이터 흐름을 전체 재검토했습니다. 여덟 원본 프로그램 모두 현 런타임 native/source/동일가족 검증을 통과했습니다. 마지막 단계는 모든 패널의 축 선·tick·label·title paint와 값format을 한 축 소유권 family로 기존 focused edit에 모았습니다. G4의 부분 범례색 이전 중간단계는 승인된 presentation curation으로 제외해 G3에서G5로 완전한 legend paint/weight 경계를 한 번만 보여 주며, raw8/curated7을 구분하고 모든 응답·프로그램·검증·토큰을 보존합니다. 8단계 제한에서 남은 축 생성 컴포넌트 분해는 미수행으로 명시합니다."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "763b602a323534e1ef1518c9b08430296254981e3a657c2c1ee9fed96130d4cb",
+      "bytes": 22278
+    },
+    "data.json": {
+      "sha256": "22f43d3272c64a00396025de3a7b03903d85042427018fe65a9ff9cf4282659b",
+      "bytes": 17936
+    },
+    "resolved-source.vl.json": {
+      "sha256": "6f1fbe5dcadfe6904e8a8852fbecdb0f0db05776bbc3b340b12f9ea7e2b19d1d",
+      "bytes": 22175
+    },
+    "G1.gg.mjs": {
+      "sha256": "ac09e29910b44d7ddded831ca099567d68bcdd20e3bbd28e6d70893ce0349687",
+      "bytes": 23852
+    },
+    "G2.gg.mjs": {
+      "sha256": "7959c48a3a61f1e1ddc5ad1a3879f55c6d8fd718ef798f7e1f335c65f1e09060",
+      "bytes": 23980
+    },
+    "G3.gg.mjs": {
+      "sha256": "b809524bcea2c4d5dd14899803a31a27341385998366837e838c35d9e3dfca44",
+      "bytes": 24188
+    },
+    "G4.gg.mjs": {
+      "sha256": "06082ded4713a46ebbb9f22ca227079c7770aa48f3f6deb181dbbd81314c7a34",
+      "bytes": 24239
+    },
+    "G5.gg.mjs": {
+      "sha256": "197c6757be42c02e0bb500ac46f0e107ead3a4fd04ba5d7be7b75b67a29054c8",
+      "bytes": 24239
+    },
+    "G6.gg.mjs": {
+      "sha256": "3be8bb62bcae5d92b16c9e3542a477500f5dec187dc6b574d3a70d69d634a8d8",
+      "bytes": 24487
+    },
+    "G7.gg.mjs": {
+      "sha256": "82a1f12c89b425f53ed997dc375f91516340d015411835003f18a6b24e03df60",
+      "bytes": 24167
+    },
+    "G8.gg.mjs": {
+      "sha256": "947c64198c3786935a5e6830c65c0e6c65de1acc130ffd5bc000b1b362b8385a",
+      "bytes": 25511
+    },
+    "vega-lite.svg": {
+      "sha256": "1a2c97069ce519b877ca5381d5871fe3bcb7b76c280bdd1d3c3590ee02c0d89b",
+      "bytes": 64135
+    },
+    "ggaction.svg": {
+      "sha256": "fd9e30342f79eab3f38185d7789ff8ea1d3ddece847af292783e2572ee5e3b82",
+      "bytes": 43793
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "vl_0795",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5f44dfa3041cd16d0487da819f70cd2251bb9d8f227ee487b8828d935dbb864d",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1df6d95840302409e3d0074dcab22c08c3f88bcd873d525a40e1a7bd84c64dc4",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ba77c1bb803cd84e0d25a48d6c44f603250559bb0297bdeea4f664b4434cd619",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8d701813a8f32638faec0d8bdf27bf32fd68b281e6b7279d886637c51a93add8",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "170cc7d193a6b8498d79c318407e329a89dd09b670fcdbea51391aa19a8c7e3c",
+      "actions": 19,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "641dab23e92c587ce296975b9b429418e2138f056ffa66ea045ad1cc4ffa579e",
+      "actions": 19,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/KrishnaSharan/KrishnaSharan.github.io/f5b869e6ddf475e905bae630963c588c5032cd8e/world-gdp-gross-domestic-product.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full terminal code/source reviewed, all6 stages current pass and byte-identical actual family SVG. Concrete mandatory frontier empty: formats/titleweight are focused, remaining axis creation contains protected measured geometry; exact GLM stop has no edits and correct parent hash."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e9d5c22600c9a6e693b87c3e2fc912e538a5a7bd49276e1a36108f53416f4e19",
+      "bytes": 980
+    },
+    "data.json": {
+      "sha256": "7e8ddce60ca937afd9e7372400190276ab9ef7aa5b3457a3aac16f58e4b6f390",
+      "bytes": 9775
+    },
+    "resolved-source.vl.json": {
+      "sha256": "caf30b9b49feb2de4d82e66bdc56de0bc71eeb2422bfc5850a34bf4a6f5cbb92",
+      "bytes": 12419
+    },
+    "G1.gg.mjs": {
+      "sha256": "5f44dfa3041cd16d0487da819f70cd2251bb9d8f227ee487b8828d935dbb864d",
+      "bytes": 3850
+    },
+    "G2.gg.mjs": {
+      "sha256": "1df6d95840302409e3d0074dcab22c08c3f88bcd873d525a40e1a7bd84c64dc4",
+      "bytes": 3868
+    },
+    "G3.gg.mjs": {
+      "sha256": "ba77c1bb803cd84e0d25a48d6c44f603250559bb0297bdeea4f664b4434cd619",
+      "bytes": 3856
+    },
+    "G4.gg.mjs": {
+      "sha256": "8d701813a8f32638faec0d8bdf27bf32fd68b281e6b7279d886637c51a93add8",
+      "bytes": 3980
+    },
+    "G5.gg.mjs": {
+      "sha256": "170cc7d193a6b8498d79c318407e329a89dd09b670fcdbea51391aa19a8c7e3c",
+      "bytes": 3954
+    },
+    "G6.gg.mjs": {
+      "sha256": "641dab23e92c587ce296975b9b429418e2138f056ffa66ea045ad1cc4ffa579e",
+      "bytes": 3970
+    },
+    "vega-lite.svg": {
+      "sha256": "e2a55e4e116a53a079c609cd9b2bc5f9743203d746fcc15ae3500970deb098b6",
+      "bytes": 14693
+    },
+    "ggaction.svg": {
+      "sha256": "9bd35dcd65764b4cfa4e0905a47060ce888ec18a08db85302b001f83d9f69b2b",
+      "bytes": 12274
+    }
+  }
+}

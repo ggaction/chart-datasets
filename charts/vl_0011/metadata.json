@@ -1,0 +1,113 @@
+{
+  "id": "vl_0011",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8b3a5ab3cc50bc708d387e20cd934e6c6876ce45369289da6833a2182afa8ccf",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "41c2f94ac7ce981229688236de79c51f179f5a9016587406bb63d0fe5de33136",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "145caf8b13175d1e6dd38b75a55fc2c67c3070ad6ec76e47630aea95ee6091b4",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7677b4dd4f7a6bb3004451b1499be16ef22ea3abf683ad3be9259668eeecca5a",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7852ba291d6a6f90d4cf730a3136a3f98f3a6ffb0782f9851f8948e5319fbbe6",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "2f87040fd39b08318c8cc4427dbce35a29e9221f0c2d3a6f62d7da742d493906",
+      "actions": 17,
+      "topOptions": 35
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "81c2711d80fbbe2da43b06ae847a7d3a2e8cafe4f3ba5851f7c8268f841d66ee",
+      "actions": 19,
+      "topOptions": 35
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/scottyhq/snotel/0d81e09e0c53f92c68dc8f67f8f64b4266e56a17/301_CA_SNTL_slim.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Fullsource and everyacceptedcode/diff reviewed; currentpin sourcegeometry/data/style/fullfamily SVG/PNG all pass. Concrete mandatoryfrontier zero, exact sourcecreationgeometry preserved, no defaultpadding/cycles. Two linegap sources carry full raw/source/compiled/codeSHAbound orderedruns at everyaccepted stage."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "47b6825fee809ce6f95911f5536947565472bbae3ff791def672f25f63328ecf",
+      "bytes": 655
+    },
+    "data.json": {
+      "sha256": "c20c6ee8a112c63441c64e5fff585a56a3f382dc4e3fa8a708bd3ffe22eabc1d",
+      "bytes": 517564
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a9ef65202e4b83fb636fb997ac4666a8f776b22d4765587ca0375aa748932503",
+      "bytes": 636555
+    },
+    "G1.gg.mjs": {
+      "sha256": "8b3a5ab3cc50bc708d387e20cd934e6c6876ce45369289da6833a2182afa8ccf",
+      "bytes": 2130
+    },
+    "G2.gg.mjs": {
+      "sha256": "41c2f94ac7ce981229688236de79c51f179f5a9016587406bb63d0fe5de33136",
+      "bytes": 2148
+    },
+    "G3.gg.mjs": {
+      "sha256": "145caf8b13175d1e6dd38b75a55fc2c67c3070ad6ec76e47630aea95ee6091b4",
+      "bytes": 2100
+    },
+    "G4.gg.mjs": {
+      "sha256": "7677b4dd4f7a6bb3004451b1499be16ef22ea3abf683ad3be9259668eeecca5a",
+      "bytes": 2152
+    },
+    "G5.gg.mjs": {
+      "sha256": "7852ba291d6a6f90d4cf730a3136a3f98f3a6ffb0782f9851f8948e5319fbbe6",
+      "bytes": 2158
+    },
+    "G6.gg.mjs": {
+      "sha256": "2f87040fd39b08318c8cc4427dbce35a29e9221f0c2d3a6f62d7da742d493906",
+      "bytes": 2242
+    },
+    "G7.gg.mjs": {
+      "sha256": "81c2711d80fbbe2da43b06ae847a7d3a2e8cafe4f3ba5851f7c8268f841d66ee",
+      "bytes": 2256
+    },
+    "vega-lite.svg": {
+      "sha256": "9c8305d794de4af2b4e04aa6622cd965c6cc294a5b120fbba6a7e89400eb4606",
+      "bytes": 52668
+    },
+    "ggaction.svg": {
+      "sha256": "f2a2b1adb6bd923b08e28633bb752297a4f0b8f05cc26ea38efcdfd6fdb6266a",
+      "bytes": 101875
+    }
+  }
+}

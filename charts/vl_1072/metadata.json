@@ -1,0 +1,122 @@
+{
+  "id": "vl_1072",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "675941fb9d60e5174d971902638e86a8d75b29e2cc4b79935ee8487c51565f62",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e47aeda615e6085168dd4fdb2f4aa917fda99bb3802845617d1f79d282c30ce8",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "1b929a96e1f12afa00bd23c0193342fd816d11d4b525116d1f656ea574c02ca1",
+      "actions": 17,
+      "topOptions": 35
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4cb736fac849a557345117afc19dace595687fde872d9aaffac9c6ae12b3101d",
+      "actions": 18,
+      "topOptions": 37
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ad863dcc21724cc2247f4658134409c3e168b1ed087a03024fa144a6c23197bf",
+      "actions": 19,
+      "topOptions": 41
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "964056b062ade5db83a4ca326776fba357f84018bcd979b9344540d787028cff",
+      "actions": 21,
+      "topOptions": 47
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ce4f1359eef124d9797628e68ce9a282283c1e95497ae3ba25cdc824fc5e7213",
+      "actions": 25,
+      "topOptions": 51
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "cd0133a184d63d4f6d56d01e7e4acc3a5bf32c80270d452e7b9cabda0ecfd499",
+      "actions": 27,
+      "topOptions": 51
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct meaningful stages preserve stack semantics, source plot, approved default-right legend placement, paired positional scales, appearance scale, complete guide/axis declarations, whole-axis and focused component edits. Exact family SVG/PNG/resolved graphics verified; no geometry moved out of complete constructors. Source bottom legend restored by exact model patches; plot unchanged; Canvas444x536 with bottom146 and offset50."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "7dedeac5945c250e4e5ee1eecbafb3d2720c8cef4cf887bb0d3b4d44ab308d5e",
+      "bytes": 23355
+    },
+    "data.json": {
+      "sha256": "d521c3d995b5504c983bca6ef7ceca81c346a2634cea56e2af5d5da0116bc8d2",
+      "bytes": 18575
+    },
+    "resolved-source.vl.json": {
+      "sha256": "7dedeac5945c250e4e5ee1eecbafb3d2720c8cef4cf887bb0d3b4d44ab308d5e",
+      "bytes": 23355
+    },
+    "G1.gg.mjs": {
+      "sha256": "675941fb9d60e5174d971902638e86a8d75b29e2cc4b79935ee8487c51565f62",
+      "bytes": 3072
+    },
+    "G2.gg.mjs": {
+      "sha256": "e47aeda615e6085168dd4fdb2f4aa917fda99bb3802845617d1f79d282c30ce8",
+      "bytes": 3090
+    },
+    "G3.gg.mjs": {
+      "sha256": "1b929a96e1f12afa00bd23c0193342fd816d11d4b525116d1f656ea574c02ca1",
+      "bytes": 3091
+    },
+    "G4.gg.mjs": {
+      "sha256": "4cb736fac849a557345117afc19dace595687fde872d9aaffac9c6ae12b3101d",
+      "bytes": 3076
+    },
+    "G5.gg.mjs": {
+      "sha256": "ad863dcc21724cc2247f4658134409c3e168b1ed087a03024fa144a6c23197bf",
+      "bytes": 3036
+    },
+    "G6.gg.mjs": {
+      "sha256": "964056b062ade5db83a4ca326776fba357f84018bcd979b9344540d787028cff",
+      "bytes": 3246
+    },
+    "G7.gg.mjs": {
+      "sha256": "ce4f1359eef124d9797628e68ce9a282283c1e95497ae3ba25cdc824fc5e7213",
+      "bytes": 3242
+    },
+    "G8.gg.mjs": {
+      "sha256": "cd0133a184d63d4f6d56d01e7e4acc3a5bf32c80270d452e7b9cabda0ecfd499",
+      "bytes": 3218
+    },
+    "vega-lite.svg": {
+      "sha256": "70fbe743f1be114b1befdc2fa553081901e94c811539815d9af722ecd4f87c2c",
+      "bytes": 18173
+    },
+    "ggaction.svg": {
+      "sha256": "bf0ffa7f569ef8a9834080920eae8f5f87a7417da7a4543d4453fb209593fb88",
+      "bytes": 18534
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_1828",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b7d762e4732198d67220f1295b3a3eed667afdb45d5a8278e9b07c86addc8348",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "af495c563f379e2b735fe2002bc12312ae74b34ec592d6ffb30158558ad6758d",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "72de221f191f11104e8d3c3823a3ebce39cdb3a46555ee467ef4cccc8ec49509",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "267aee7b0ff669945c6c6d871c48e4c26ffb317c630766d2a8a4374754e015bd",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "b59d845f2b9f0922058fbbd31fb52cf587fa57a661322b30f22e3328241a0961",
+      "actions": 18,
+      "topOptions": 38
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b1a7f130e72a2d30ee877d0307b424f011ece957fc7b6ed789778e0f98c3df4b",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "2c7f0cb22f9c3fc32039834e5682fe8cb88a11c52479f27452a1426c56d2d4e0",
+      "actions": 19,
+      "topOptions": 39
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "ea460f555c6030b977ad5818ef36ba8fbe8ecb528dea63444f619c237dc7a76f",
+      "actions": 19,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/covid19pb/covid19pb.github.io/b81a2ebf15d37c2dfe5aa48dab561b928b0763a9/data/paraiba/dados_pb_covid19_boletim_FaixaEtaria.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Everyaccepted fullcode/diff reviewed; source/fullfamilycurrentpin validation allpass. Honest8stagecap with explicit remainingmandatoryfrontier disclosure; no falseexhaustion claim."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "584dea3965560e9f8609a177a72b863d04204acdfd0180dd10150b10bef805a4",
+      "bytes": 1440
+    },
+    "data.json": {
+      "sha256": "1e1e4c36aa15ea340de939a1ab2cf2b8d07609d05ac0fe688de20a30d3ae502d",
+      "bytes": 191244
+    },
+    "resolved-source.vl.json": {
+      "sha256": "c59cf36a32cd36a0361b57e568f3573c30311e5525e10edc3c45282497f2d923",
+      "bytes": 227773
+    },
+    "G1.gg.mjs": {
+      "sha256": "b7d762e4732198d67220f1295b3a3eed667afdb45d5a8278e9b07c86addc8348",
+      "bytes": 1799
+    },
+    "G2.gg.mjs": {
+      "sha256": "af495c563f379e2b735fe2002bc12312ae74b34ec592d6ffb30158558ad6758d",
+      "bytes": 1775
+    },
+    "G3.gg.mjs": {
+      "sha256": "72de221f191f11104e8d3c3823a3ebce39cdb3a46555ee467ef4cccc8ec49509",
+      "bytes": 1793
+    },
+    "G4.gg.mjs": {
+      "sha256": "267aee7b0ff669945c6c6d871c48e4c26ffb317c630766d2a8a4374754e015bd",
+      "bytes": 1823
+    },
+    "G5.gg.mjs": {
+      "sha256": "b59d845f2b9f0922058fbbd31fb52cf587fa57a661322b30f22e3328241a0961",
+      "bytes": 1915
+    },
+    "G6.gg.mjs": {
+      "sha256": "b1a7f130e72a2d30ee877d0307b424f011ece957fc7b6ed789778e0f98c3df4b",
+      "bytes": 1931
+    },
+    "G7.gg.mjs": {
+      "sha256": "2c7f0cb22f9c3fc32039834e5682fe8cb88a11c52479f27452a1426c56d2d4e0",
+      "bytes": 1932
+    },
+    "G8.gg.mjs": {
+      "sha256": "ea460f555c6030b977ad5818ef36ba8fbe8ecb528dea63444f619c237dc7a76f",
+      "bytes": 1912
+    },
+    "vega-lite.svg": {
+      "sha256": "ed3bcbd1b901ee4a4c1dbd4c80b2233f15e555dd20bd94308fdaceab22629166",
+      "bytes": 178774
+    },
+    "ggaction.svg": {
+      "sha256": "6326a0d759f4d4ae6d5830c998cbec4ba5c1771e62ff42fb4c446b4762320d86",
+      "bytes": 109751
+    }
+  }
+}

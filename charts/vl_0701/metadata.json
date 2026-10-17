@@ -1,0 +1,124 @@
+{
+  "id": "vl_0701",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9218809eb7aad259663adac32cf113a4d82d73e0ea496f54f20fcf955ad11704",
+      "actions": 13,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "90895cf3d8120e3bc225ba9bdeb591a15a778000689c6465f9269e2a502e025b",
+      "actions": 15,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7ec700574f13a233df9bdff689f0aa0e3dba6f031cf3d54d5fc8ff3250bcf3c5",
+      "actions": 16,
+      "topOptions": 34
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "47818a182e7aa024868151771b65cf66d7bc937d89560b7cfbe1e87fcf2ded2a",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "989c275cf30653b34f29b38d08ffbe801eb4ec044225d6da2ff77e296b1288c5",
+      "actions": 22,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8fdc23fa11cea797bc85b4c200b68971b736e8e011e96bf2ad9ab68f41e7337c",
+      "actions": 24,
+      "topOptions": 42
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "323c4658d33cc01c48fe40ec22c1fcf69d64ef5ddd3f73597fdd25158c9af679",
+      "actions": 26,
+      "topOptions": 44
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "be921cde02a3efbccfdd0f17cf41babe44a3c12819f2d0855f03f55f407694f7",
+      "actions": 27,
+      "topOptions": 46
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/matsim-scenarios/matsim-duesseldorf/b160620ef3d645969b5060b436391be3bc378cb6/src/main/simwrapper/scenarios/rel_tt.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 8 genuine ownership stages, 491 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Authorized eight-stage cap reached."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "1cb924b27892c1353f57579b30745f663badc7d73cd8729fd4bb943f4346ca12",
+      "bytes": 1268
+    },
+    "data.json": {
+      "sha256": "b46e4d223fd5a03b59a97b98f5c8b087b83b694adf8ea5012f9b9c36ad059516",
+      "bytes": 38467
+    },
+    "resolved-source.vl.json": {
+      "sha256": "46ba193f05ca5947a875c447d7e8f30cf6271c1642a9ba6ebbf78bb98b28a463",
+      "bytes": 47337
+    },
+    "G1.gg.mjs": {
+      "sha256": "9218809eb7aad259663adac32cf113a4d82d73e0ea496f54f20fcf955ad11704",
+      "bytes": 4451
+    },
+    "G2.gg.mjs": {
+      "sha256": "90895cf3d8120e3bc225ba9bdeb591a15a778000689c6465f9269e2a502e025b",
+      "bytes": 4453
+    },
+    "G3.gg.mjs": {
+      "sha256": "7ec700574f13a233df9bdff689f0aa0e3dba6f031cf3d54d5fc8ff3250bcf3c5",
+      "bytes": 4421
+    },
+    "G4.gg.mjs": {
+      "sha256": "47818a182e7aa024868151771b65cf66d7bc937d89560b7cfbe1e87fcf2ded2a",
+      "bytes": 4639
+    },
+    "G5.gg.mjs": {
+      "sha256": "989c275cf30653b34f29b38d08ffbe801eb4ec044225d6da2ff77e296b1288c5",
+      "bytes": 4623
+    },
+    "G6.gg.mjs": {
+      "sha256": "8fdc23fa11cea797bc85b4c200b68971b736e8e011e96bf2ad9ab68f41e7337c",
+      "bytes": 4577
+    },
+    "G7.gg.mjs": {
+      "sha256": "323c4658d33cc01c48fe40ec22c1fcf69d64ef5ddd3f73597fdd25158c9af679",
+      "bytes": 4623
+    },
+    "G8.gg.mjs": {
+      "sha256": "be921cde02a3efbccfdd0f17cf41babe44a3c12819f2d0855f03f55f407694f7",
+      "bytes": 4668
+    },
+    "vega-lite.svg": {
+      "sha256": "39f1891d7d25fe00bfb7d1ed86ba8a0a4d361b12baf33284a3b51eff76d46399",
+      "bytes": 18324
+    },
+    "ggaction.svg": {
+      "sha256": "4d60d59d4934797c1ba52dd86b1484ba280b3bb1dbe6c1fb11314e89c060a177",
+      "bytes": 21834
+    }
+  }
+}

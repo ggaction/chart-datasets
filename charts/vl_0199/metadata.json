@@ -1,0 +1,102 @@
+{
+  "id": "vl_0199",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "152b4cbb4e752d563dff132752b0212b509372c6ea991dc2ff1f18c6f1720790",
+      "actions": 25,
+      "topOptions": 61
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "cfb53a312a41f49c897969b59a3a2905aba298a53d3efd181490be81a0293493",
+      "actions": 26,
+      "topOptions": 61
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b003b5d79d29f2dc39d2ecb330640386d51862040f208192217032a24e01f907",
+      "actions": 27,
+      "topOptions": 63
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0521dc8c57f80c11bcdb2e5d10ef5d48d47f7cb8479f5a7f055a737cf5f42686",
+      "actions": 28,
+      "topOptions": 64
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "b4c87a56bca210501c789ab5af5cff81431e50dea4090faad04cfdb51aec252a",
+      "actions": 28,
+      "topOptions": 65
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "43bfd6e7c00d6fc3bbee2d8bb1ed786f971e920be36ce7abcd387839e2ebd764",
+      "actions": 29,
+      "topOptions": 66
+    }
+  ],
+  "sourceUrls": [
+    "https://www.trafforddatalab.io/interactive_graphics_companion/data/gapminder.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full source/final-code review confirms all2618 raw rows retained, source2017-Europe settled45 records and median divergence exact,44 nonzero painted bars plus zero-area Serbia still present in data, original responsive1159x450 plot and actual dollar labels/above-below colors/explicit opacity. Axes already use complete native components with geometry protected at birth; title and legend appearance have meaningful focused owners. Combined generation frontier has no mandatory boundary. Stop at6 without another paid call; no default/scalar padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "49f374a9aa1804e6c6056dfd021492936129f76736b27e8d6e5a6ccee33bd579",
+      "bytes": 2283
+    },
+    "data.json": {
+      "sha256": "1586280bdbb4a2d64951d8f5a351cd7a86d24301d69ee0abe9228eba17fd6afb",
+      "bytes": 461856
+    },
+    "resolved-source.vl.json": {
+      "sha256": "202f1b659d6991237d21d1beb29544dc1b21bafe924f9421b562ad4f80fc7f94",
+      "bytes": 558413
+    },
+    "G1.gg.mjs": {
+      "sha256": "152b4cbb4e752d563dff132752b0212b509372c6ea991dc2ff1f18c6f1720790",
+      "bytes": 4479
+    },
+    "G2.gg.mjs": {
+      "sha256": "cfb53a312a41f49c897969b59a3a2905aba298a53d3efd181490be81a0293493",
+      "bytes": 4505
+    },
+    "G3.gg.mjs": {
+      "sha256": "b003b5d79d29f2dc39d2ecb330640386d51862040f208192217032a24e01f907",
+      "bytes": 4567
+    },
+    "G4.gg.mjs": {
+      "sha256": "0521dc8c57f80c11bcdb2e5d10ef5d48d47f7cb8479f5a7f055a737cf5f42686",
+      "bytes": 4554
+    },
+    "G5.gg.mjs": {
+      "sha256": "b4c87a56bca210501c789ab5af5cff81431e50dea4090faad04cfdb51aec252a",
+      "bytes": 4570
+    },
+    "G6.gg.mjs": {
+      "sha256": "43bfd6e7c00d6fc3bbee2d8bb1ed786f971e920be36ce7abcd387839e2ebd764",
+      "bytes": 4469
+    },
+    "vega-lite.svg": {
+      "sha256": "a68cb548813a260eb3d5bf0faf47383b71a056b713b4fa816cf0b8c6b087cf0d",
+      "bytes": 28959
+    },
+    "ggaction.svg": {
+      "sha256": "3a5f1c89756b2e19664bd2a6883daf059427df2dae5684ae930cfe18f333ef48",
+      "bytes": 23184
+    }
+  }
+}

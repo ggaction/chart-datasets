@@ -1,0 +1,113 @@
+{
+  "id": "vl_0798",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9bfb7b10efe372e0b209ffa8fdad1f93cd2c988a22c53970dad42ebc59e0b564",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "7adc5e0756a29f2116bf84b7dc200b5f515c2d617a969920855c3eb08542bf27",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "55ecbc6a0f6126daf358719d5c265e11a77956130ee4b652d714574991d28b0d",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a92b4a8a4b87cc5d99da3bbccd5a7d648c7b5a8eff8510cd6b21d58185aca7e0",
+      "actions": 15,
+      "topOptions": 29
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "da7e5ecd39a659c6f9e597f63c3da723b4d85ff610e8a0a0caae98c1f8ce5928",
+      "actions": 17,
+      "topOptions": 31
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "6e708494dbd13f219466965335ebc3494607a7899942a5f4b4c72f794b43c810",
+      "actions": 17,
+      "topOptions": 31
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "8b1099243044e91b5ebe9af825271e7bc13111c18b0f7bfd11cde30f7de7fbdc",
+      "actions": 17,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/KrishnaSharan/KrishnaSharan.github.io/main/Bank%20of%20England%20Bank%20Rate.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 7 genuine ownership stages, 345 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "0165dd17e17bcccef85832b1f32eac235f5aa5855e5d9453c095e7b65f64b4fd",
+      "bytes": 2062
+    },
+    "data.json": {
+      "sha256": "d12208de87c91a6663684b7fcc074ccab016f59835d4634794bf54da908931a7",
+      "bytes": 14576
+    },
+    "resolved-source.vl.json": {
+      "sha256": "87ea902d60919efcb05b92854ee32b4e722be05df3ab237e8e05d949428746f5",
+      "bytes": 20552
+    },
+    "G1.gg.mjs": {
+      "sha256": "9bfb7b10efe372e0b209ffa8fdad1f93cd2c988a22c53970dad42ebc59e0b564",
+      "bytes": 2116
+    },
+    "G2.gg.mjs": {
+      "sha256": "7adc5e0756a29f2116bf84b7dc200b5f515c2d617a969920855c3eb08542bf27",
+      "bytes": 2134
+    },
+    "G3.gg.mjs": {
+      "sha256": "55ecbc6a0f6126daf358719d5c265e11a77956130ee4b652d714574991d28b0d",
+      "bytes": 2098
+    },
+    "G4.gg.mjs": {
+      "sha256": "a92b4a8a4b87cc5d99da3bbccd5a7d648c7b5a8eff8510cd6b21d58185aca7e0",
+      "bytes": 2140
+    },
+    "G5.gg.mjs": {
+      "sha256": "da7e5ecd39a659c6f9e597f63c3da723b4d85ff610e8a0a0caae98c1f8ce5928",
+      "bytes": 2221
+    },
+    "G6.gg.mjs": {
+      "sha256": "6e708494dbd13f219466965335ebc3494607a7899942a5f4b4c72f794b43c810",
+      "bytes": 2189
+    },
+    "G7.gg.mjs": {
+      "sha256": "8b1099243044e91b5ebe9af825271e7bc13111c18b0f7bfd11cde30f7de7fbdc",
+      "bytes": 2224
+    },
+    "vega-lite.svg": {
+      "sha256": "21eae8751d2249a629c0250eb4bcde118eb9d40e3544cffce364793383a67b3c",
+      "bytes": 18765
+    },
+    "ggaction.svg": {
+      "sha256": "5cc0dda84c916d51124bc54d8dc6ba95681028a61fcdd76b7ace1ae04968ac2e",
+      "bytes": 37174
+    }
+  }
+}

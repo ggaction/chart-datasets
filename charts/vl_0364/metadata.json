@@ -1,0 +1,113 @@
+{
+  "id": "vl_0364",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c3453fa0a770e085379aff74313fc293059ea05b319812627997dcbc9981df94",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5cf84f10b5383a112b5a2989104ec7e303c09254954eeeb73918ab85911dea54",
+      "actions": 16,
+      "topOptions": 37
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2100573acc40d65c35315da03cfcb8845a92b870004f45a7c4e519691a7cf146",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1bce2a2207552fab99ae7615ca9e2cf6d3a37714d42a31f6983b8e7b66efe9dd",
+      "actions": 18,
+      "topOptions": 41
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "86a8072031dcd85c63f595dadd5ebd81927741009ed9d62e183c68b81b75591a",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "2b119c23ff0e7cd5e83fb056d3376152a8f6494c203a724cc006298011f7c94e",
+      "actions": 19,
+      "topOptions": 44
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "211a720be2671b8b14347e6b18c4c8fe87f8b6a9ecfb9fa1662039480aa7cb35",
+      "actions": 19,
+      "topOptions": 44
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/GiltsInIssueClean.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "FullG7 code inspected: positionalpolicies/editors, allaxislabels.format/fontfamily focused, gridpaint focused, charttitleweight/color editors. Remaining G8proposal moves only default sans-serif title/subtitlefontFamily tosameowner editor; defaultfamily-only repartition prohibited. No additionalmeaningfulownerboundary before8; keep7distinct."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "7c81f57d8594e2244cce9683633d290d888abb4ea8bf00adc20f6b4bf54a4296",
+      "bytes": 1091
+    },
+    "data.json": {
+      "sha256": "b3b54f7afca82338b3b01d2f6e333f25015d03667be845821d474973b82d9170",
+      "bytes": 38161
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d08bcb5df7fd2155d1370c378ffe081e36eb2ce6b332af7468cb39e8e6d5a241",
+      "bytes": 44854
+    },
+    "G1.gg.mjs": {
+      "sha256": "c3453fa0a770e085379aff74313fc293059ea05b319812627997dcbc9981df94",
+      "bytes": 2393
+    },
+    "G2.gg.mjs": {
+      "sha256": "5cf84f10b5383a112b5a2989104ec7e303c09254954eeeb73918ab85911dea54",
+      "bytes": 2349
+    },
+    "G3.gg.mjs": {
+      "sha256": "2100573acc40d65c35315da03cfcb8845a92b870004f45a7c4e519691a7cf146",
+      "bytes": 2411
+    },
+    "G4.gg.mjs": {
+      "sha256": "1bce2a2207552fab99ae7615ca9e2cf6d3a37714d42a31f6983b8e7b66efe9dd",
+      "bytes": 2399
+    },
+    "G5.gg.mjs": {
+      "sha256": "86a8072031dcd85c63f595dadd5ebd81927741009ed9d62e183c68b81b75591a",
+      "bytes": 2409
+    },
+    "G6.gg.mjs": {
+      "sha256": "2b119c23ff0e7cd5e83fb056d3376152a8f6494c203a724cc006298011f7c94e",
+      "bytes": 2444
+    },
+    "G7.gg.mjs": {
+      "sha256": "211a720be2671b8b14347e6b18c4c8fe87f8b6a9ecfb9fa1662039480aa7cb35",
+      "bytes": 2444
+    },
+    "vega-lite.svg": {
+      "sha256": "784a3b0807fd17ba685e32feacfbb03550ae6e6c30286301ae08102c924f3fab",
+      "bytes": 17081
+    },
+    "ggaction.svg": {
+      "sha256": "ad43a3362df3e19858a7b9f3c8a2f2badf013e9af85aa0eed58255df5fd1a0e3",
+      "bytes": 13125
+    }
+  }
+}

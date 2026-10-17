@@ -1,0 +1,1996 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Tufte inspired chart, with white grid lines over the bars",
+  "title": {
+    "text": "Growth: levels and rates",
+    "subtitle": [
+      "Growth rate of GDP per capita, 2022 vs 2021. World's 21 most populous countries",
+      "Source: World Bank",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "view": {
+    "stroke": "transparent"
+  },
+  "width": 400,
+  "height": 300,
+  "data": {
+    "values": [
+      {
+        "WEO Country Code": "546",
+        "ISO": "MAC",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Macao SAR",
+        "gdp2021": "64739.16",
+        "gdp2022": "49230.40",
+        "GrowthLatest": "-0.239557634",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "672",
+        "ISO": "LBY",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Libya",
+        "gdp2021": "19960.96",
+        "gdp2022": "16099.86",
+        "GrowthLatest": "-0.19343258",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "537",
+        "ISO": "TLS",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Timor-Leste",
+        "gdp2021": "3880.41",
+        "gdp2022": "3318.07",
+        "GrowthLatest": "-0.144917676",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "524",
+        "ISO": "LKA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Sri Lanka",
+        "gdp2021": "13386.68",
+        "gdp2022": "12093.20",
+        "GrowthLatest": "-0.096624406",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "913",
+        "ISO": "BLR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Belarus",
+        "gdp2021": "19743.00",
+        "gdp2022": "18449.29",
+        "GrowthLatest": "-0.065527529",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "813",
+        "ISO": "SLB",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Solomon Islands",
+        "gdp2021": "2123.89",
+        "gdp2022": "1985.56",
+        "GrowthLatest": "-0.065130492",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "862",
+        "ISO": "WSM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Samoa",
+        "gdp2021": "5296.74",
+        "gdp2022": "4999.11",
+        "GrowthLatest": "-0.056191167",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "565",
+        "ISO": "PLW",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Palau",
+        "gdp2021": "11670.00",
+        "gdp2022": "11230.93",
+        "GrowthLatest": "-0.037623822",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "922",
+        "ISO": "RUS",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Russia",
+        "gdp2021": "28104.88",
+        "gdp2022": "27166.68",
+        "GrowthLatest": "-0.033382103",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "732",
+        "ISO": "SDN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Sudan",
+        "gdp2021": "3891.41",
+        "gdp2022": "3781.42",
+        "GrowthLatest": "-0.028264819",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "263",
+        "ISO": "HTI",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Haiti",
+        "gdp2021": "2759.66",
+        "gdp2022": "2690.49",
+        "GrowthLatest": "-0.025064682",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "676",
+        "ISO": "MWI",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Malawi",
+        "gdp2021": "1375.23",
+        "gdp2022": "1349.35",
+        "GrowthLatest": "-0.01881867",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "866",
+        "ISO": "TON",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Tonga",
+        "gdp2021": "5768.54",
+        "gdp2022": "5662.44",
+        "GrowthLatest": "-0.018392869",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "846",
+        "ISO": "VUT",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Vanuatu",
+        "gdp2021": "2469.95",
+        "gdp2022": "2428.79",
+        "GrowthLatest": "-0.016664305",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "288",
+        "ISO": "PRY",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Paraguay",
+        "gdp2021": "12490.78",
+        "gdp2022": "12346.75",
+        "GrowthLatest": "-0.011530905",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "836",
+        "ISO": "NRU",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Nauru",
+        "gdp2021": "9304.11",
+        "gdp2022": "9207.42",
+        "GrowthLatest": "-0.010392182",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "532",
+        "ISO": "HKG",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Hong Kong SAR",
+        "gdp2021": "60059.17",
+        "gdp2022": "59477.39",
+        "GrowthLatest": "-0.009686781",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "726",
+        "ISO": "SOM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Somalia",
+        "gdp2021": "1132.93",
+        "gdp2022": "1123.50",
+        "GrowthLatest": "-0.00832355",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "868",
+        "ISO": "FSM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Micronesia",
+        "gdp2021": "3148.52",
+        "gdp2022": "3123.22",
+        "GrowthLatest": "-0.008035521",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "826",
+        "ISO": "KIR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Kiribati",
+        "gdp2021": "1852.74",
+        "gdp2022": "1839.78",
+        "GrowthLatest": "-0.006995045",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "632",
+        "ISO": "COM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Comoros",
+        "gdp2021": "2878.32",
+        "gdp2022": "2859.12",
+        "GrowthLatest": "-0.006670558",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "626",
+        "ISO": "CAF",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Central African Republic",
+        "gdp2021": "929.35",
+        "gdp2022": "924.87",
+        "GrowthLatest": "-0.004824862",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "678",
+        "ISO": "MLI",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Mali",
+        "gdp2021": "2227.08",
+        "gdp2022": "2217.02",
+        "GrowthLatest": "-0.004517126",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "716",
+        "ISO": "STP",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "S�o Tom� and Pr�ncipe",
+        "gdp2021": "4019.21",
+        "gdp2022": "4002.36",
+        "GrowthLatest": "-0.004192366",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "925",
+        "ISO": "TKM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Turkmenistan",
+        "gdp2021": "16082.94",
+        "gdp2022": "16040.79",
+        "GrowthLatest": "-0.002620789",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "686",
+        "ISO": "MAR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Morocco",
+        "gdp2021": "8353.36",
+        "gdp2022": "8335.45",
+        "GrowthLatest": "-0.002144047",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "474",
+        "ISO": "YEM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Yemen",
+        "gdp2021": "1818.16",
+        "gdp2022": "1815.48",
+        "GrowthLatest": "-0.001474018",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "614",
+        "ISO": "AGO",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Angola",
+        "gdp2021": "6344.15",
+        "gdp2022": "6335.91",
+        "GrowthLatest": "-0.001298834",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "754",
+        "ISO": "ZMB",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Zambia",
+        "gdp2021": "3239.65",
+        "gdp2022": "3236.21",
+        "GrowthLatest": "-0.001061843",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "144",
+        "ISO": "SWE",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Sweden",
+        "gdp2021": "54239.69",
+        "gdp2022": "54285.23",
+        "GrowthLatest": "0.000839607",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "366",
+        "ISO": "SUR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Suriname",
+        "gdp2021": "14726.31",
+        "gdp2022": "14744.96",
+        "GrowthLatest": "0.001266441",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "137",
+        "ISO": "LUX",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Luxembourg",
+        "gdp2021": "120038.97",
+        "gdp2022": "120325.59",
+        "GrowthLatest": "0.002387725",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "618",
+        "ISO": "BDI",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Burundi",
+        "gdp2021": "733.16",
+        "gdp2022": "735.14",
+        "GrowthLatest": "0.002700638",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "724",
+        "ISO": "SLE",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Sierra Leone",
+        "gdp2021": "1670.09",
+        "gdp2022": "1675.91",
+        "GrowthLatest": "0.003484842",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "628",
+        "ISO": "TCD",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Chad",
+        "gdp2021": "1454.88",
+        "gdp2022": "1460.50",
+        "GrowthLatest": "0.003862862",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "199",
+        "ISO": "ZAF",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "South Africa",
+        "gdp2021": "13145.76",
+        "gdp2022": "13219.93",
+        "GrowthLatest": "0.005642123",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "694",
+        "ISO": "NGA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Nigeria",
+        "gdp2021": "4969.21",
+        "gdp2022": "5000.26",
+        "GrowthLatest": "0.006248478",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "867",
+        "ISO": "MHL",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Marshall Islands",
+        "gdp2021": "3710.19",
+        "gdp2022": "3734.79",
+        "GrowthLatest": "0.006630388",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "748",
+        "ISO": "BFA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Burkina Faso",
+        "gdp2021": "2241.66",
+        "gdp2022": "2256.82",
+        "GrowthLatest": "0.006762845",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "946",
+        "ISO": "LTU",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Lithuania",
+        "gdp2021": "38927.30",
+        "gdp2022": "39227.17",
+        "GrowthLatest": "0.007703334",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "544",
+        "ISO": "LAO",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Lao P.D.R.",
+        "gdp2021": "7726.94",
+        "gdp2022": "7789.79",
+        "GrowthLatest": "0.00813388",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "698",
+        "ISO": "ZWE",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Zimbabwe",
+        "gdp2021": "2151.97",
+        "gdp2022": "2171.10",
+        "GrowthLatest": "0.008889529",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "666",
+        "ISO": "LSO",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Lesotho",
+        "gdp2021": "2549.88",
+        "gdp2022": "2573.03",
+        "GrowthLatest": "0.009078859",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "643",
+        "ISO": "ERI",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Eritrea",
+        "gdp2021": "1750.43",
+        "gdp2022": "1766.33",
+        "GrowthLatest": "0.009083482",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "688",
+        "ISO": "MOZ",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Mozambique",
+        "gdp2021": "1226.77",
+        "gdp2022": "1238.31",
+        "GrowthLatest": "0.009406816",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "948",
+        "ISO": "MNG",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Mongolia",
+        "gdp2021": "11455.74",
+        "gdp2022": "11567.40",
+        "GrowthLatest": "0.009747079",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "228",
+        "ISO": "CHL",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Chile",
+        "gdp2021": "24311.60",
+        "gdp2022": "24549.59",
+        "GrowthLatest": "0.009789154",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "939",
+        "ISO": "EST",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Estonia",
+        "gdp2021": "38810.65",
+        "gdp2022": "39199.44",
+        "GrowthLatest": "0.010017611",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "728",
+        "ISO": "NAM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Namibia",
+        "gdp2021": "9065.87",
+        "gdp2022": "9170.27",
+        "GrowthLatest": "0.011515718",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "273",
+        "ISO": "MEX",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Mexico",
+        "gdp2021": "18837.56",
+        "gdp2022": "19070.40",
+        "GrowthLatest": "0.012360412",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "516",
+        "ISO": "BRN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Brunei Darussalam",
+        "gdp2021": "62276.62",
+        "gdp2022": "63054.28",
+        "GrowthLatest": "0.01248719",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "744",
+        "ISO": "TUN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Tunisia",
+        "gdp2021": "10481.46",
+        "gdp2022": "10614.60",
+        "GrowthLatest": "0.012702429",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "668",
+        "ISO": "LBR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Liberia",
+        "gdp2021": "1398.51",
+        "gdp2022": "1416.31",
+        "GrowthLatest": "0.012727832",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "622",
+        "ISO": "CMR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Cameroon",
+        "gdp2021": "3707.70",
+        "gdp2022": "3755.41",
+        "GrowthLatest": "0.012867816",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "916",
+        "ISO": "KAZ",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Kazakhstan",
+        "gdp2021": "25864.09",
+        "gdp2022": "26198.10",
+        "GrowthLatest": "0.012914044",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "419",
+        "ISO": "BHR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Bahrain",
+        "gdp2021": "48592.83",
+        "gdp2022": "49223.65",
+        "GrowthLatest": "0.012981751",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "734",
+        "ISO": "SWZ",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Eswatini",
+        "gdp2021": "9271.23",
+        "gdp2022": "9394.06",
+        "GrowthLatest": "0.013248512",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "453",
+        "ISO": "QAT",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Qatar",
+        "gdp2021": "95340.30",
+        "gdp2022": "96604.62",
+        "GrowthLatest": "0.013261129",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "518",
+        "ISO": "MMR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Myanmar",
+        "gdp2021": "4050.70",
+        "gdp2022": "4104.77",
+        "GrowthLatest": "0.01334831",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "258",
+        "ISO": "GTM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Guatemala",
+        "gdp2021": "8327.88",
+        "gdp2022": "8440.07",
+        "GrowthLatest": "0.013471616",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "746",
+        "ISO": "UGA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Uganda",
+        "gdp2021": "2530.62",
+        "gdp2022": "2565.19",
+        "GrowthLatest": "0.013660684",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "652",
+        "ISO": "GHA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Ghana",
+        "gdp2021": "5684.34",
+        "gdp2022": "5762.12",
+        "GrowthLatest": "0.013683207",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "111",
+        "ISO": "USA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "United States",
+        "gdp2021": "63014.33",
+        "gdp2022": "63890.19",
+        "GrowthLatest": "0.013899378",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "674",
+        "ISO": "MDG",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Madagascar",
+        "gdp2021": "1500.42",
+        "gdp2022": "1521.45",
+        "GrowthLatest": "0.014016075",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "339",
+        "ISO": "BLZ",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Belize",
+        "gdp2021": "8062.77",
+        "gdp2022": "8177.85",
+        "GrowthLatest": "0.01427301",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "134",
+        "ISO": "DEU",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Germany",
+        "gdp2021": "53484.02",
+        "gdp2022": "54249.05",
+        "GrowthLatest": "0.014303899",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "248",
+        "ISO": "ECU",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Ecuador",
+        "gdp2021": "10693.41",
+        "gdp2022": "10846.50",
+        "GrowthLatest": "0.014316294",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "146",
+        "ISO": "CHE",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Switzerland",
+        "gdp2021": "70764.02",
+        "gdp2022": "71784.58",
+        "GrowthLatest": "0.014422018",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "738",
+        "ISO": "TZA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Tanzania",
+        "gdp2021": "2826.38",
+        "gdp2022": "2867.55",
+        "GrowthLatest": "0.014566336",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "646",
+        "ISO": "GAB",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Gabon",
+        "gdp2021": "15149.41",
+        "gdp2022": "15372.18",
+        "GrowthLatest": "0.014704863",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "654",
+        "ISO": "GNB",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Guinea-Bissau",
+        "gdp2021": "2386.97",
+        "gdp2022": "2422.62",
+        "GrowthLatest": "0.014935253",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "466",
+        "ISO": "ARE",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "United Arab Emirates",
+        "gdp2021": "64697.99",
+        "gdp2022": "65668.65",
+        "GrowthLatest": "0.015002939",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "124",
+        "ISO": "BEL",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Belgium",
+        "gdp2021": "51934.17",
+        "gdp2022": "52745.09",
+        "GrowthLatest": "0.015614383",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "935",
+        "ISO": "CZE",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Czech Republic",
+        "gdp2021": "40917.25",
+        "gdp2022": "41572.69",
+        "GrowthLatest": "0.016018672",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "487",
+        "ISO": "WBG",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "West Bank and Gaza",
+        "gdp2021": "5314.41",
+        "gdp2022": "5400.02",
+        "GrowthLatest": "0.016109032",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "268",
+        "ISO": "HND",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Honduras",
+        "gdp2021": "5661.24",
+        "gdp2022": "5752.66",
+        "GrowthLatest": "0.016148406",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "936",
+        "ISO": "SVK",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Slovak Republic",
+        "gdp2021": "32280.15",
+        "gdp2022": "32820.73",
+        "GrowthLatest": "0.016746514",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "293",
+        "ISO": "PER",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Peru",
+        "gdp2021": "12764.30",
+        "gdp2022": "12979.72",
+        "GrowthLatest": "0.016876758",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "853",
+        "ISO": "PNG",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Papua New Guinea",
+        "gdp2021": "3569.29",
+        "gdp2022": "3629.63",
+        "GrowthLatest": "0.016905323",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "917",
+        "ISO": "KGZ",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Kyrgyz Republic",
+        "gdp2021": "4822.65",
+        "gdp2022": "4904.44",
+        "GrowthLatest": "0.016959555",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "682",
+        "ISO": "MRT",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Mauritania",
+        "gdp2021": "5784.13",
+        "gdp2022": "5884.97",
+        "GrowthLatest": "0.01743391",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "634",
+        "ISO": "COG",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Republic of Congo",
+        "gdp2021": "3909.88",
+        "gdp2022": "3979.13",
+        "GrowthLatest": "0.017711541",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "921",
+        "ISO": "MDA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Moldova",
+        "gdp2021": "13758.02",
+        "gdp2022": "14007.50",
+        "GrowthLatest": "0.018133423",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "128",
+        "ISO": "DNK",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Denmark",
+        "gdp2021": "58298.05",
+        "gdp2022": "59356.75",
+        "GrowthLatest": "0.018160127",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "196",
+        "ISO": "NZL",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "New Zealand",
+        "gdp2021": "42409.43",
+        "gdp2022": "43214.99",
+        "GrowthLatest": "0.018994832",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "156",
+        "ISO": "CAN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Canada",
+        "gdp2021": "48218.96",
+        "gdp2022": "49143.75",
+        "GrowthLatest": "0.01917897",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "722",
+        "ISO": "SEN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Senegal",
+        "gdp2021": "3429.06",
+        "gdp2022": "3495.41",
+        "GrowthLatest": "0.019349326",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "616",
+        "ISO": "BWA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Botswana",
+        "gdp2021": "16001.59",
+        "gdp2022": "16315.62",
+        "GrowthLatest": "0.019624925",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "648",
+        "ISO": "GMB",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "The Gambia",
+        "gdp2021": "2199.80",
+        "gdp2022": "2243.39",
+        "GrowthLatest": "0.019815438",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "429",
+        "ISO": "IRN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Islamic Republic of Iran",
+        "gdp2021": "15549.76",
+        "gdp2022": "15860.65",
+        "GrowthLatest": "0.019993235",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "158",
+        "ISO": "JPN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Japan",
+        "gdp2021": "40662.24",
+        "gdp2022": "41482.76",
+        "GrowthLatest": "0.020178918",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "656",
+        "ISO": "GIN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Guinea",
+        "gdp2021": "2492.05",
+        "gdp2022": "2543.62",
+        "GrowthLatest": "0.020693806",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "172",
+        "ISO": "FIN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Finland",
+        "gdp2021": "48838.56",
+        "gdp2022": "49850.43",
+        "GrowthLatest": "0.02071867",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "449",
+        "ISO": "OMN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Oman",
+        "gdp2021": "34258.48",
+        "gdp2022": "34970.68",
+        "GrowthLatest": "0.020789013",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "439",
+        "ISO": "JOR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Jordan",
+        "gdp2021": "9968.81",
+        "gdp2022": "10176.64",
+        "GrowthLatest": "0.020848025",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "253",
+        "ISO": "SLV",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "El Salvador",
+        "gdp2021": "8800.42",
+        "gdp2022": "8987.90",
+        "GrowthLatest": "0.021303529",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "611",
+        "ISO": "DJI",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Djibouti",
+        "gdp2021": "5419.97",
+        "gdp2022": "5535.70",
+        "GrowthLatest": "0.021352517",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "223",
+        "ISO": "BRA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Brazil",
+        "gdp2021": "14710.22",
+        "gdp2022": "15028.33",
+        "GrowthLatest": "0.021625101",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "644",
+        "ISO": "ETH",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Ethiopia",
+        "gdp2021": "2855.35",
+        "gdp2022": "2918.29",
+        "GrowthLatest": "0.022042832",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "132",
+        "ISO": "FRA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "France",
+        "gdp2021": "46716.37",
+        "gdp2022": "47760.60",
+        "GrowthLatest": "0.02235255",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "558",
+        "ISO": "NPL",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Nepal",
+        "gdp2021": "3880.90",
+        "gdp2022": "3974.31",
+        "GrowthLatest": "0.024069159",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "218",
+        "ISO": "BOL",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Bolivia",
+        "gdp2021": "8242.89",
+        "gdp2022": "8441.65",
+        "GrowthLatest": "0.024112902",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "912",
+        "ISO": "AZE",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Azerbaijan",
+        "gdp2021": "14473.40",
+        "gdp2022": "14828.08",
+        "GrowthLatest": "0.024505645",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "423",
+        "ISO": "CYP",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Cyprus",
+        "gdp2021": "41020.43",
+        "gdp2022": "42070.58",
+        "GrowthLatest": "0.025600658",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "642",
+        "ISO": "GNQ",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Equatorial Guinea",
+        "gdp2021": "16099.64",
+        "gdp2022": "16515.03",
+        "GrowthLatest": "0.025801198",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "869",
+        "ISO": "TUV",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Tuvalu",
+        "gdp2021": "4840.27",
+        "gdp2022": "4966.15",
+        "GrowthLatest": "0.026006814",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "578",
+        "ISO": "THA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Thailand",
+        "gdp2021": "17479.92",
+        "gdp2022": "17943.56",
+        "GrowthLatest": "0.026524149",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "963",
+        "ISO": "BIH",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Bosnia and Herzegovina",
+        "gdp2021": "14813.49",
+        "gdp2022": "15211.27",
+        "GrowthLatest": "0.026852551",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "962",
+        "ISO": "MKD",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "North Macedonia",
+        "gdp2021": "16371.85",
+        "gdp2022": "16812.28",
+        "GrowthLatest": "0.026901664",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "343",
+        "ISO": "JAM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Jamaica",
+        "gdp2021": "9899.30",
+        "gdp2022": "10166.04",
+        "GrowthLatest": "0.02694534",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "941",
+        "ISO": "LVA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Latvia",
+        "gdp2021": "31535.13",
+        "gdp2022": "32399.07",
+        "GrowthLatest": "0.027396113",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "624",
+        "ISO": "CPV",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Cabo Verde",
+        "gdp2021": "6995.33",
+        "gdp2022": "7189.44",
+        "GrowthLatest": "0.027748512",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "238",
+        "ISO": "CRI",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Costa Rica",
+        "gdp2021": "20536.95",
+        "gdp2022": "21106.97",
+        "GrowthLatest": "0.027755825",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "636",
+        "ISO": "COD",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Democratic Republic of the Congo",
+        "gdp2021": "1097.80",
+        "gdp2022": "1128.44",
+        "GrowthLatest": "0.027910366",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "967",
+        "ISO": "UVK",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Kosovo",
+        "gdp2021": "11864.06",
+        "gdp2022": "12196.59",
+        "GrowthLatest": "0.028028348",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "542",
+        "ISO": "KOR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Korea",
+        "gdp2021": "44286.73",
+        "gdp2022": "45529.17",
+        "GrowthLatest": "0.028054453",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "638",
+        "ISO": "BEN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Benin",
+        "gdp2021": "3457.17",
+        "gdp2022": "3554.77",
+        "GrowthLatest": "0.028231183",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "662",
+        "ISO": "CIV",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "C�te d'Ivoire",
+        "gdp2021": "5286.96",
+        "gdp2022": "5436.39",
+        "GrowthLatest": "0.028263879",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "135",
+        "ISO": "SMR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "San Marino",
+        "gdp2021": "59559.70",
+        "gdp2022": "61247.39",
+        "GrowthLatest": "0.028336106",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "692",
+        "ISO": "NER",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Niger",
+        "gdp2021": "1192.69",
+        "gdp2022": "1226.61",
+        "GrowthLatest": "0.028439913",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "742",
+        "ISO": "TGO",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Togo",
+        "gdp2021": "2163.58",
+        "gdp2022": "2225.30",
+        "GrowthLatest": "0.028526794",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "193",
+        "ISO": "AUS",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Australia",
+        "gdp2021": "51349.49",
+        "gdp2022": "52852.55",
+        "GrowthLatest": "0.029271177",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "278",
+        "ISO": "NIC",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Nicaragua",
+        "gdp2021": "5907.13",
+        "gdp2022": "6080.08",
+        "GrowthLatest": "0.029278177",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "514",
+        "ISO": "BTN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Bhutan",
+        "gdp2021": "10790.92",
+        "gdp2022": "11113.62",
+        "GrowthLatest": "0.029904772",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "213",
+        "ISO": "ARG",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Argentina",
+        "gdp2021": "21511.59",
+        "gdp2022": "22158.41",
+        "GrowthLatest": "0.030068442",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "664",
+        "ISO": "KEN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Kenya",
+        "gdp2021": "5049.85",
+        "gdp2022": "5202.64",
+        "GrowthLatest": "0.030256344",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "142",
+        "ISO": "NOR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Norway",
+        "gdp2021": "64442.53",
+        "gdp2022": "66395.52",
+        "GrowthLatest": "0.030305918",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "328",
+        "ISO": "GRD",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Grenada",
+        "gdp2021": "15205.62",
+        "gdp2022": "15667.80",
+        "GrowthLatest": "0.030395341",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "927",
+        "ISO": "UZB",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Uzbekistan",
+        "gdp2021": "7814.55",
+        "gdp2022": "8055.12",
+        "GrowthLatest": "0.030784882",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "136",
+        "ISO": "ITA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Italy",
+        "gdp2021": "42044.62",
+        "gdp2022": "43386.16",
+        "GrowthLatest": "0.031907531",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "924",
+        "ISO": "CHN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "China",
+        "gdp2021": "17531.14",
+        "gdp2022": "18093.73",
+        "GrowthLatest": "0.032090897",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "612",
+        "ISO": "DZA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Algeria",
+        "gdp2021": "10969.25",
+        "gdp2022": "11323.13",
+        "GrowthLatest": "0.032261094",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "112",
+        "ISO": "GBR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "United Kingdom",
+        "gdp2021": "45988.56",
+        "gdp2022": "47473.52",
+        "GrowthLatest": "0.032289769",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "176",
+        "ISO": "ISL",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Iceland",
+        "gdp2021": "54583.86",
+        "gdp2022": "56485.93",
+        "GrowthLatest": "0.034846748",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "528",
+        "ISO": "TWN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Taiwan Province of China",
+        "gdp2021": "57069.49",
+        "gdp2022": "59063.51",
+        "GrowthLatest": "0.034940211",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "369",
+        "ISO": "TTO",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Trinidad and Tobago",
+        "gdp2021": "24465.91",
+        "gdp2022": "25322.75",
+        "GrowthLatest": "0.035021792",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "733",
+        "ISO": "SSD",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "South Sudan",
+        "gdp2021": "766.99",
+        "gdp2022": "794.09",
+        "GrowthLatest": "0.035327617",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "314",
+        "ISO": "ABW",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Aruba",
+        "gdp2021": "37998.95",
+        "gdp2022": "39354.69",
+        "GrowthLatest": "0.035678354",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "923",
+        "ISO": "TJK",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Tajikistan",
+        "gdp2021": "3940.68",
+        "gdp2022": "4081.61",
+        "GrowthLatest": "0.035762863",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "714",
+        "ISO": "RWA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Rwanda",
+        "gdp2021": "2326.00",
+        "gdp2022": "2409.98",
+        "GrowthLatest": "0.036104901",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "186",
+        "ISO": "TUR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "T�rkiye",
+        "gdp2021": "31752.91",
+        "gdp2022": "32939.06",
+        "GrowthLatest": "0.037355631",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "138",
+        "ISO": "NLD",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Netherlands",
+        "gdp2021": "57059.34",
+        "gdp2022": "59245.79",
+        "GrowthLatest": "0.03831888",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "184",
+        "ISO": "ESP",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Spain",
+        "gdp2021": "38083.48",
+        "gdp2022": "39560.77",
+        "GrowthLatest": "0.038790835",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "564",
+        "ISO": "PAK",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Pakistan",
+        "gdp2021": "5449.35",
+        "gdp2022": "5661.69",
+        "GrowthLatest": "0.038966115",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "942",
+        "ISO": "SRB",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Serbia",
+        "gdp2021": "19695.03",
+        "gdp2022": "20467.76",
+        "GrowthLatest": "0.039234771",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "522",
+        "ISO": "KHM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Cambodia",
+        "gdp2021": "4559.47",
+        "gdp2022": "4744.59",
+        "GrowthLatest": "0.04060121",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "548",
+        "ISO": "MYS",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Malaysia",
+        "gdp2021": "27036.72",
+        "gdp2022": "28140.32",
+        "GrowthLatest": "0.040818561",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "122",
+        "ISO": "AUT",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Austria",
+        "gdp2021": "54395.78",
+        "gdp2022": "56667.06",
+        "GrowthLatest": "0.04175471",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "914",
+        "ISO": "ALB",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Albania",
+        "gdp2021": "14559.68",
+        "gdp2022": "15176.70",
+        "GrowthLatest": "0.042378679",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "536",
+        "ISO": "IDN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Indonesia",
+        "gdp2021": "11923.69",
+        "gdp2022": "12440.23",
+        "GrowthLatest": "0.043320482",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "243",
+        "ISO": "DOM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Dominican Republic",
+        "gdp2021": "19645.65",
+        "gdp2022": "20497.62",
+        "GrowthLatest": "0.043366852",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "964",
+        "ISO": "POL",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Poland",
+        "gdp2021": "34586.93",
+        "gdp2022": "36088.95",
+        "GrowthLatest": "0.043427387",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "436",
+        "ISO": "ISR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Israel",
+        "gdp2021": "42471.84",
+        "gdp2022": "44338.47",
+        "GrowthLatest": "0.043949827",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "311",
+        "ISO": "ATG",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Antigua and Barbuda",
+        "gdp2021": "17946.51",
+        "gdp2022": "18756.15",
+        "GrowthLatest": "0.045114064",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "469",
+        "ISO": "EGY",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Egypt",
+        "gdp2021": "12976.29",
+        "gdp2022": "13562.12",
+        "GrowthLatest": "0.045146186",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "171",
+        "ISO": "AND",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Andorra",
+        "gdp2021": "53143.21",
+        "gdp2022": "55554.98",
+        "GrowthLatest": "0.045382467",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "918",
+        "ISO": "BGR",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Bulgaria",
+        "gdp2021": "23712.90",
+        "gdp2022": "24796.43",
+        "GrowthLatest": "0.045693694",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "968",
+        "ISO": "ROU",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Romania",
+        "gdp2021": "30890.70",
+        "gdp2022": "32376.01",
+        "GrowthLatest": "0.048082756",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "364",
+        "ISO": "VCT",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "St. Vincent and the Grenadines",
+        "gdp2021": "12790.36",
+        "gdp2022": "13415.27",
+        "GrowthLatest": "0.04885789",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "298",
+        "ISO": "URY",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Uruguay",
+        "gdp2021": "22058.27",
+        "gdp2022": "23143.36",
+        "GrowthLatest": "0.049191981",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "566",
+        "ISO": "PHL",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Philippines",
+        "gdp2021": "8365.03",
+        "gdp2022": "8790.37",
+        "GrowthLatest": "0.050847397",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "181",
+        "ISO": "MLT",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Malta",
+        "gdp2021": "45517.64",
+        "gdp2022": "47877.70",
+        "GrowthLatest": "0.051849349",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "576",
+        "ISO": "SGP",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Singapore",
+        "gdp2021": "106032.23",
+        "gdp2022": "111690.08",
+        "GrowthLatest": "0.053359719",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "321",
+        "ISO": "DMA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Dominica",
+        "gdp2021": "10497.05",
+        "gdp2022": "11073.40",
+        "GrowthLatest": "0.054905902",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "456",
+        "ISO": "SAU",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Saudi Arabia",
+        "gdp2021": "44954.01",
+        "gdp2022": "47422.74",
+        "GrowthLatest": "0.054916792",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "174",
+        "ISO": "GRC",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Greece",
+        "gdp2021": "29337.36",
+        "gdp2022": "30989.67",
+        "GrowthLatest": "0.056321019",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "961",
+        "ISO": "SVN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Slovenia",
+        "gdp2021": "40199.05",
+        "gdp2022": "42464.35",
+        "GrowthLatest": "0.056352078",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "944",
+        "ISO": "HUN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Hungary",
+        "gdp2021": "33862.59",
+        "gdp2022": "35805.48",
+        "GrowthLatest": "0.057375706",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "534",
+        "ISO": "IND",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "India",
+        "gdp2021": "6659.01",
+        "gdp2022": "7047.85",
+        "GrowthLatest": "0.058393064",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "513",
+        "ISO": "BGD",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Bangladesh",
+        "gdp2021": "6411.43",
+        "gdp2022": "6786.01",
+        "GrowthLatest": "0.058423784",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "359",
+        "ISO": "PRI",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Puerto Rico",
+        "gdp2021": "35143.31",
+        "gdp2022": "37239.82",
+        "GrowthLatest": "0.05965602",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "582",
+        "ISO": "VNM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Vietnam",
+        "gdp2021": "10479.70",
+        "gdp2022": "11111.57",
+        "GrowthLatest": "0.060294665",
+        "p21": "1"
+      },
+      {
+        "WEO Country Code": "283",
+        "ISO": "PAN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Panama",
+        "gdp2021": "29130.71",
+        "gdp2022": "30908.80",
+        "GrowthLatest": "0.061038334",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "684",
+        "ISO": "MUS",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Mauritius",
+        "gdp2021": "20278.93",
+        "gdp2022": "21562.18",
+        "GrowthLatest": "0.063279966",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "233",
+        "ISO": "COL",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Colombia",
+        "gdp2021": "14931.36",
+        "gdp2022": "15886.07",
+        "GrowthLatest": "0.063939922",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "182",
+        "ISO": "PRT",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Portugal",
+        "gdp2021": "33581.28",
+        "gdp2022": "35749.56",
+        "GrowthLatest": "0.064568117",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "433",
+        "ISO": "IRQ",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Iraq",
+        "gdp2021": "9901.60",
+        "gdp2022": "10545.07",
+        "GrowthLatest": "0.064986467",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "960",
+        "ISO": "HRV",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Croatia",
+        "gdp2021": "29928.05",
+        "gdp2022": "31911.11",
+        "GrowthLatest": "0.066260916",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "313",
+        "ISO": "BHS",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "The Bahamas",
+        "gdp2021": "31654.63",
+        "gdp2022": "33810.57",
+        "GrowthLatest": "0.068108204",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "443",
+        "ISO": "KWT",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Kuwait",
+        "gdp2021": "40969.13",
+        "gdp2022": "43790.19",
+        "GrowthLatest": "0.068858187",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "556",
+        "ISO": "MDV",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Maldives",
+        "gdp2021": "24546.30",
+        "gdp2022": "26249.90",
+        "GrowthLatest": "0.069403535",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "911",
+        "ISO": "ARM",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Armenia",
+        "gdp2021": "13345.27",
+        "gdp2022": "14275.52",
+        "GrowthLatest": "0.069706345",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "943",
+        "ISO": "MNE",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Montenegro",
+        "gdp2021": "20650.59",
+        "gdp2022": "22123.20",
+        "GrowthLatest": "0.071310795",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "178",
+        "ISO": "IRL",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Ireland",
+        "gdp2021": "103102.56",
+        "gdp2022": "111357.31",
+        "GrowthLatest": "0.080063482",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "362",
+        "ISO": "LCA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "St. Lucia",
+        "gdp2021": "12870.91",
+        "gdp2022": "13952.07",
+        "GrowthLatest": "0.084000277",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "299",
+        "ISO": "VEN",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Venezuela",
+        "gdp2021": "5558.47",
+        "gdp2022": "6040.66",
+        "GrowthLatest": "0.086748692",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "361",
+        "ISO": "KNA",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "St. Kitts and Nevis",
+        "gdp2021": "21715.70",
+        "gdp2022": "23609.68",
+        "GrowthLatest": "0.087217083",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "915",
+        "ISO": "GEO",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Georgia",
+        "gdp2021": "15388.76",
+        "gdp2022": "16816.95",
+        "GrowthLatest": "0.092807348",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "718",
+        "ISO": "SYC",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Seychelles",
+        "gdp2021": "29116.81",
+        "gdp2022": "32005.56",
+        "GrowthLatest": "0.099212448",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "316",
+        "ISO": "BRB",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Barbados",
+        "gdp2021": "13349.44",
+        "gdp2022": "14713.81",
+        "GrowthLatest": "0.102204287",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "819",
+        "ISO": "FJI",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Fiji",
+        "gdp2021": "10587.40",
+        "gdp2022": "11849.81",
+        "GrowthLatest": "0.119237018",
+        "p21": "0"
+      },
+      {
+        "WEO Country Code": "336",
+        "ISO": "GUY",
+        "WEO Subject Code": "NGDPRPPPPC",
+        "Country": "Guyana",
+        "gdp2021": "23041.05",
+        "gdp2022": "36242.58",
+        "GrowthLatest": "0.572956962",
+        "p21": "0"
+      }
+    ]
+  },
+  "transform": [
+    {
+      "filter": "datum.p21==1"
+    },
+    {
+      "filter": "datum.GrowthLatest<0.1"
+    },
+    {
+      "filter": "datum.GrowthLatest>-0.05"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "GrowthLatest",
+      "type": "quantitative",
+      "title": "Growth Rate",
+      "axis": {
+        "zindex": 0,
+        "gridColor": "white",
+        "gridWidth": 0.5,
+        "labelAngle": 0,
+        "format": ".0%"
+      }
+    },
+    "y": {
+      "field": "gdp2022",
+      "title": "GDP per capita",
+      "type": "quantitative"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "color": "rgb(128,0,0)",
+        "size": 50
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8
+      },
+      "encoding": {
+        "text": {
+          "field": "ISO"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "vl_0177",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "32c3e387d8098e0f4078e4e54c39fd711703b96f47ef0b3645a9f0e0d9d32ffb",
+      "actions": 8,
+      "topOptions": 13
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "32a2c1ded9998fee37579098b005c56e97eeb24786d57b3b9ff1127c2c7cbc54",
+      "actions": 10,
+      "topOptions": 16
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8d7425d8209a73bf8924acf1c77e14ee473565360c04d79005b863aab4012683",
+      "actions": 11,
+      "topOptions": 19
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c92c40f0dc9eff1060cab931541ee277c41d4bf71e49c5122d6a7dbd442b0ad9",
+      "actions": 12,
+      "topOptions": 19
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4947d816e8417fa6931834cea008c8cc26cfc05137600071f52fb5868b5f6619",
+      "actions": 13,
+      "topOptions": 23
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "1daf8dee8773b20ccdbdf7992ff99dfeed842b2544ea5aea4138b637024e50fb",
+      "actions": 15,
+      "topOptions": 27
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "3ebf44187a574697d97edb12e9fcf0e8eaf6278e2836725f6ba09ff21e479df0",
+      "actions": 19,
+      "topOptions": 31
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4dce98116b7dddd1c8837775f80e37ba2ceb55af2b1d43c24d3dfb3d94a66b1d",
+      "actions": 21,
+      "topOptions": 35
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All original distinct stages retained. One exact GLM-authored missing vertical-grid correction applied to every stage; source geometry, fixed canvas and exact family rendering pass. Existing stage cap/frontier remains valid; grid source-default color is not fabricated extra refinement. Source grid paint corrected using exact shared GLM color fragments, without changing action counts or decomposition."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "62e30b032b92a55e46b86afd2ed76d600e4d7f9892729b7a93d34d6cadc190ce",
+      "bytes": 737
+    },
+    "data.json": {
+      "sha256": "6c5dc5cb5385d2d80bed3eb7c6cd27192ee58fe16b1af0b8aeeb172fef7a6b1e",
+      "bytes": 287
+    },
+    "resolved-source.vl.json": {
+      "sha256": "62e30b032b92a55e46b86afd2ed76d600e4d7f9892729b7a93d34d6cadc190ce",
+      "bytes": 737
+    },
+    "G1.gg.mjs": {
+      "sha256": "32c3e387d8098e0f4078e4e54c39fd711703b96f47ef0b3645a9f0e0d9d32ffb",
+      "bytes": 1748
+    },
+    "G2.gg.mjs": {
+      "sha256": "32a2c1ded9998fee37579098b005c56e97eeb24786d57b3b9ff1127c2c7cbc54",
+      "bytes": 1766
+    },
+    "G3.gg.mjs": {
+      "sha256": "8d7425d8209a73bf8924acf1c77e14ee473565360c04d79005b863aab4012683",
+      "bytes": 1751
+    },
+    "G4.gg.mjs": {
+      "sha256": "c92c40f0dc9eff1060cab931541ee277c41d4bf71e49c5122d6a7dbd442b0ad9",
+      "bytes": 1698
+    },
+    "G5.gg.mjs": {
+      "sha256": "4947d816e8417fa6931834cea008c8cc26cfc05137600071f52fb5868b5f6619",
+      "bytes": 1662
+    },
+    "G6.gg.mjs": {
+      "sha256": "1daf8dee8773b20ccdbdf7992ff99dfeed842b2544ea5aea4138b637024e50fb",
+      "bytes": 1846
+    },
+    "G7.gg.mjs": {
+      "sha256": "3ebf44187a574697d97edb12e9fcf0e8eaf6278e2836725f6ba09ff21e479df0",
+      "bytes": 1830
+    },
+    "G8.gg.mjs": {
+      "sha256": "4dce98116b7dddd1c8837775f80e37ba2ceb55af2b1d43c24d3dfb3d94a66b1d",
+      "bytes": 1784
+    },
+    "vega-lite.svg": {
+      "sha256": "6b7b2bcc276b90747fbe2b364831368b0c4ed3a1d9d78d667810c410d6340dda",
+      "bytes": 28565
+    },
+    "ggaction.svg": {
+      "sha256": "c3a1f77b540e61ca019b0468ec67ffdf41ba805a0fd65231aaf2fb0b4f2a44f9",
+      "bytes": 6628
+    }
+  }
+}

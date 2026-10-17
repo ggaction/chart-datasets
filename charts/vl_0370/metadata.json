@@ -1,0 +1,124 @@
+{
+  "id": "vl_0370",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "edc9d207f9657530fe36e901e6477686a056fe7db139fda0d344b32cdb39f46a",
+      "actions": 16,
+      "topOptions": 40
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "32f05772ad2f4c66f00dd492dcd382c7f23c46fb2530384ff03cb4aa0e32dba1",
+      "actions": 18,
+      "topOptions": 43
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7d589cf85faca39910e227e6659dcd2eba72b735e19a8166ee51160874b863c9",
+      "actions": 19,
+      "topOptions": 47
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a69b3df2387d6b01e45d9ab586d25c6ac374b7fa7175a43c33dfbf42af4468af",
+      "actions": 20,
+      "topOptions": 48
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "416230efc1f2448426026fa08faa9c5f8dbffe244bdd2e37275d42644eba6bb1",
+      "actions": 22,
+      "topOptions": 54
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d17b665e776e10a44c9999702d837167494a2415d190f0a2038cb7e37a7628c1",
+      "actions": 26,
+      "topOptions": 55
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "8a49636ebf779056c9e0c2be6372f15444fa5198120ff2090d92783ab3960ad9",
+      "actions": 27,
+      "topOptions": 55
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "b643a14e28709b5f4ba6613bec29845a4a5a51cebb238693ace7e6428d5a36db",
+      "actions": 27,
+      "topOptions": 55
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/productivity/atRiskFirmsBySizeLong.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full terminal source/code read and eight accepted programsPASS/identicalSVG. Source276 line/point vertices,280x300plot, set2groups/actualinplotlegend/header preserved. Cap reached with genuine remaining legend-wrapper and chart-title-weight boundaries disclosed; native width2 is nonmandatory defaultbridge, not counted as exhaustion."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "80d1c8545b717ee10ed34fab2b59a7fbd1bc041e86fbaeaea9da54d94033fe2e",
+      "bytes": 1171
+    },
+    "data.json": {
+      "sha256": "a21db3c3fb166f05dc430cc985654ac3e91d1a9ebf44d111fbf27beaef2c0d03",
+      "bytes": 11792
+    },
+    "resolved-source.vl.json": {
+      "sha256": "9d1535a5239745bb91b2771d679628398a8419e4e7c4eba306ea286d3fa33005",
+      "bytes": 15641
+    },
+    "G1.gg.mjs": {
+      "sha256": "edc9d207f9657530fe36e901e6477686a056fe7db139fda0d344b32cdb39f46a",
+      "bytes": 3117
+    },
+    "G2.gg.mjs": {
+      "sha256": "32f05772ad2f4c66f00dd492dcd382c7f23c46fb2530384ff03cb4aa0e32dba1",
+      "bytes": 3107
+    },
+    "G3.gg.mjs": {
+      "sha256": "7d589cf85faca39910e227e6659dcd2eba72b735e19a8166ee51160874b863c9",
+      "bytes": 3049
+    },
+    "G4.gg.mjs": {
+      "sha256": "a69b3df2387d6b01e45d9ab586d25c6ac374b7fa7175a43c33dfbf42af4468af",
+      "bytes": 3079
+    },
+    "G5.gg.mjs": {
+      "sha256": "416230efc1f2448426026fa08faa9c5f8dbffe244bdd2e37275d42644eba6bb1",
+      "bytes": 3279
+    },
+    "G6.gg.mjs": {
+      "sha256": "d17b665e776e10a44c9999702d837167494a2415d190f0a2038cb7e37a7628c1",
+      "bytes": 3255
+    },
+    "G7.gg.mjs": {
+      "sha256": "8a49636ebf779056c9e0c2be6372f15444fa5198120ff2090d92783ab3960ad9",
+      "bytes": 3198
+    },
+    "G8.gg.mjs": {
+      "sha256": "b643a14e28709b5f4ba6613bec29845a4a5a51cebb238693ace7e6428d5a36db",
+      "bytes": 3193
+    },
+    "vega-lite.svg": {
+      "sha256": "a56e2a18fcd0276167be1e516aa4b591d9d5b079b8b266f3265f5087f3500329",
+      "bytes": 57840
+    },
+    "ggaction.svg": {
+      "sha256": "6bff5bc151ba99a7c34c95e522c222409e6adcdef283a5b67da87c639f1c97da",
+      "bytes": 24743
+    }
+  }
+}

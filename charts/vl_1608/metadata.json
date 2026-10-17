@@ -1,0 +1,124 @@
+{
+  "id": "vl_1608",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "3e4f2c59ff9a9fb373f61e3d00f24cbef02a0d0f4f8b564378e3b172419a531c",
+      "actions": 26,
+      "topOptions": 61
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "19b7bf69d5e257f062a90dcb8672c37175f181af6a41829cf1e8b3a76a4ffffd",
+      "actions": 28,
+      "topOptions": 66
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a9c66ef6b4e7f00b8d815ab790def70b7cc987fa458a63e7be47d01c062065d0",
+      "actions": 29,
+      "topOptions": 67
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "d7d1bad3f6387c24fb583d463543fdb5a2be795d3d2b00e460a1ac869731ab0f",
+      "actions": 30,
+      "topOptions": 71
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "013331a7d3c0f8a7cb1692603b41e660e6582baec86fe84483eaf74998cf5605",
+      "actions": 31,
+      "topOptions": 71
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "2a56d9f3242867ff7cf5edda032fa1fd1d3a3ae1016a3c023ce48ae2ccf13570",
+      "actions": 33,
+      "topOptions": 77
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "342fb33f12c6ffcc8ca11de23637aad46148cc495ebf90ee4fde672c2bc2a9a3",
+      "actions": 39,
+      "topOptions": 82
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "2d32b01fdf32c34bfbb31ee715d3c49d067425e40b2d92425b8a3866419f8ad3",
+      "actions": 40,
+      "topOptions": 83
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/population.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 8 genuine ownership stages, 371 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Authorized eight-stage cap reached."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e42a2b83b31ce91aaf0116a90a85c0f3cf5ba05d1969941b418ccf8a091abf6b",
+      "bytes": 417
+    },
+    "data.json": {
+      "sha256": "785e0a1022aa22c16b822ee39b33a1d882b3d099c227b8d7bf2f94ebe8d0667e",
+      "bytes": 44198
+    },
+    "resolved-source.vl.json": {
+      "sha256": "7ac503f65c59107cc84fdcf6402323b2e6e0f670db9503e4d677b4c4943fb772",
+      "bytes": 58247
+    },
+    "G1.gg.mjs": {
+      "sha256": "3e4f2c59ff9a9fb373f61e3d00f24cbef02a0d0f4f8b564378e3b172419a531c",
+      "bytes": 9616
+    },
+    "G2.gg.mjs": {
+      "sha256": "19b7bf69d5e257f062a90dcb8672c37175f181af6a41829cf1e8b3a76a4ffffd",
+      "bytes": 9627
+    },
+    "G3.gg.mjs": {
+      "sha256": "a9c66ef6b4e7f00b8d815ab790def70b7cc987fa458a63e7be47d01c062065d0",
+      "bytes": 9500
+    },
+    "G4.gg.mjs": {
+      "sha256": "d7d1bad3f6387c24fb583d463543fdb5a2be795d3d2b00e460a1ac869731ab0f",
+      "bytes": 9424
+    },
+    "G5.gg.mjs": {
+      "sha256": "013331a7d3c0f8a7cb1692603b41e660e6582baec86fe84483eaf74998cf5605",
+      "bytes": 9445
+    },
+    "G6.gg.mjs": {
+      "sha256": "2a56d9f3242867ff7cf5edda032fa1fd1d3a3ae1016a3c023ce48ae2ccf13570",
+      "bytes": 9621
+    },
+    "G7.gg.mjs": {
+      "sha256": "342fb33f12c6ffcc8ca11de23637aad46148cc495ebf90ee4fde672c2bc2a9a3",
+      "bytes": 9603
+    },
+    "G8.gg.mjs": {
+      "sha256": "2d32b01fdf32c34bfbb31ee715d3c49d067425e40b2d92425b8a3866419f8ad3",
+      "bytes": 9623
+    },
+    "vega-lite.svg": {
+      "sha256": "7c8e4c665f4af8d539790c9666bbea3ddea2c8ccc03537a09aba60463230a385",
+      "bytes": 23126
+    },
+    "ggaction.svg": {
+      "sha256": "07b72390760719a6e59593f5558b60ca13e1c0639376a2d4c7e7fd577b35d5c5",
+      "bytes": 17534
+    }
+  }
+}

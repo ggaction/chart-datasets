@@ -1,0 +1,113 @@
+{
+  "id": "vl_1101",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "2f8102300739b913eb674ff13fbdff1733a8a133aacb340ff007e1fb90626467",
+      "actions": 7,
+      "topOptions": 16
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e3205d6a6d49b78cce6160c83d1f23865f1f4e43a54e5a558e0a9488d47cb4ae",
+      "actions": 9,
+      "topOptions": 18
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8fd839bbda647104a2786cbaecfd8b3ecbf48eda96884d5fcd85eb7740ca404d",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "13df4ac5d82473842fc04ed5635fc4e51341815a6ac83c1a1b960bc5cdfb48a8",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "8476ecb229c616f68b8edcf132fb1341c1acf96fb902d2ccb1f3a49012033526",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "cd46562d9ad01273fc0b888c949255dd607494028e31f2bd30e6c0cbd2df06ec",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "1e810536ff5dd140bbe469020dfb431c79ba226f0560591608f1942a95d4ae55",
+      "actions": 19,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/BenPimley/ECO/main/JT%20Coal%20Fig2.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full actual terminal module reviewed against source. Source mark stroke and width semantic encoders; axes paint and typography focused, grid paint directional. Source fixed tick positions and protected font sizes/offsets retained at complete-axis creation; no remaining styling frontier."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a498d22c169265e748e66a6647f92812189b08884f446452eb37bce13422dca1",
+      "bytes": 877
+    },
+    "data.json": {
+      "sha256": "d3dc3e801f4f8085a0982123edb7bc63253fede4c0ddc8a3c1aaf02911026fd6",
+      "bytes": 27534
+    },
+    "resolved-source.vl.json": {
+      "sha256": "73f775602338a8854c79dd60c3fdff69774fa128c89e1c39f152839ce9b74f34",
+      "bytes": 32554
+    },
+    "G1.gg.mjs": {
+      "sha256": "2f8102300739b913eb674ff13fbdff1733a8a133aacb340ff007e1fb90626467",
+      "bytes": 2134
+    },
+    "G2.gg.mjs": {
+      "sha256": "e3205d6a6d49b78cce6160c83d1f23865f1f4e43a54e5a558e0a9488d47cb4ae",
+      "bytes": 2136
+    },
+    "G3.gg.mjs": {
+      "sha256": "8fd839bbda647104a2786cbaecfd8b3ecbf48eda96884d5fcd85eb7740ca404d",
+      "bytes": 2096
+    },
+    "G4.gg.mjs": {
+      "sha256": "13df4ac5d82473842fc04ed5635fc4e51341815a6ac83c1a1b960bc5cdfb48a8",
+      "bytes": 2124
+    },
+    "G5.gg.mjs": {
+      "sha256": "8476ecb229c616f68b8edcf132fb1341c1acf96fb902d2ccb1f3a49012033526",
+      "bytes": 2144
+    },
+    "G6.gg.mjs": {
+      "sha256": "cd46562d9ad01273fc0b888c949255dd607494028e31f2bd30e6c0cbd2df06ec",
+      "bytes": 2381
+    },
+    "G7.gg.mjs": {
+      "sha256": "1e810536ff5dd140bbe469020dfb431c79ba226f0560591608f1942a95d4ae55",
+      "bytes": 2312
+    },
+    "vega-lite.svg": {
+      "sha256": "bb89d07febb93d785d0d8b23f123bc26a8355619d717ced41e25bc165dcab274",
+      "bytes": 11304
+    },
+    "ggaction.svg": {
+      "sha256": "d1e926c85d80a048ca1116801560f6239edd0207549cb91d5ca43df5c42433e9",
+      "bytes": 12797
+    }
+  }
+}

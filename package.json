@@ -1,0 +1,19 @@
+{
+  "name": "@ggaction/chart-datasets",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "validate": "python3 scripts/validate.py",
+    "serve": "node scripts/serve.mjs",
+    "render": "node scripts/render.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "playwright": "1.61.1"
+  }
+}

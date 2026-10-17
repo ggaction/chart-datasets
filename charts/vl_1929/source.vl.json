@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Cost of Christmas",
+  "data": {
+    "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/db_christmas_basketcost.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "config": {
+    "background": "#FcFdFd"
+  },
+  "facet": {
+    "column": {
+      "field": "region",
+      "type": "nominal",
+      "title": "Region"
+    }
+  },
+  "spec": {
+    "mark": {
+      "type": "line",
+      "point": false
+    },
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "temporal",
+        "title": "Year"
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": "£ or hours worked"
+      },
+      "color": {
+        "field": "measure",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "Basket cost",
+            "Cost: hours worked",
+            "Median wage"
+          ],
+          "range": [
+            "green",
+            "blue",
+            "red"
+          ]
+        }
+      },
+      "tooltip": [
+        {
+          "field": "region",
+          "type": "nominal",
+          "title": "Region"
+        },
+        {
+          "field": "year",
+          "type": "temporal",
+          "title": "Date",
+          "timeUnit": "year"
+        },
+        {
+          "field": "value",
+          "type": "nominal",
+          "title": "Value",
+          "format": ".0f"
+        }
+      ]
+    }
+  },
+  "columns": 2
+}

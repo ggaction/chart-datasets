@@ -1,0 +1,2955 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": [
+      "Non-Penalty Goals and Expected Goals",
+      "in Europe's Top 5 Leagues 2021-22"
+    ],
+    "subtitle": [
+      "Non-Penalty xG (x), Non-Penalty Goals (y). size by Non-Penalty xG,",
+      "all stats per 90mins played, min 25 90s played, data: FBref"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "config": {
+    "background": "white",
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "": "1",
+        "Player": "Yunis Abdelhamid",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.019999999999999997"
+      },
+      {
+        "": "2",
+        "Player": "Salis Abdul Samed",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.010000000000000002"
+      },
+      {
+        "": "7",
+        "Player": "Tammy Abraham",
+        "npxG p90": "0.53",
+        "G-PK p90": "0.41",
+        "npG minus npxG ": "-0.12000000000000005"
+      },
+      {
+        "": "9",
+        "Player": "Francesco Acerbi",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.14",
+        "npG minus npxG ": "0.06000000000000001"
+      },
+      {
+        "": "12",
+        "Player": "Marcos Acuña",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "18",
+        "Player": "Yacine Adli",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.049999999999999996"
+      },
+      {
+        "": "25",
+        "Player": "Nayef Aguerd",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.010000000000000009"
+      },
+      {
+        "": "36",
+        "Player": "Ludovic Ajorque",
+        "npxG p90": "0.29",
+        "G-PK p90": "0.3",
+        "npG minus npxG ": "0.010000000000000009"
+      },
+      {
+        "": "37",
+        "Player": "Manuel Akanji",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.030000000000000006"
+      },
+      {
+        "": "46",
+        "Player": "David Alaba",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.020000000000000004"
+      },
+      {
+        "": "50",
+        "Player": "Jordi Alba",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.030000000000000006"
+      },
+      {
+        "": "52",
+        "Player": "Luis Alberto",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.19",
+        "npG minus npxG ": "0.04999999999999999"
+      },
+      {
+        "": "58",
+        "Player": "Omar Alderete",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.030000000000000006"
+      },
+      {
+        "": "61",
+        "Player": "Carles Aleñá",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.04"
+      },
+      {
+        "": "62",
+        "Player": "Trent Alexander-Arnold",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "-0.020000000000000004"
+      },
+      {
+        "": "84",
+        "Player": "Kelvin Amian",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.05"
+      },
+      {
+        "": "90",
+        "Player": "Felipe Anderson",
+        "npxG p90": "0.17",
+        "G-PK p90": "0.19",
+        "npG minus npxG ": "0.01999999999999999"
+      },
+      {
+        "": "95",
+        "Player": "Benjamin André",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.020000000000000004"
+      },
+      {
+        "": "98",
+        "Player": "Angeliño",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "0.020000000000000004"
+      },
+      {
+        "": "102",
+        "Player": "Waldemar Anton",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.010000000000000009"
+      },
+      {
+        "": "104",
+        "Player": "Michail Antonio",
+        "npxG p90": "0.33",
+        "G-PK p90": "0.3",
+        "npG minus npxG ": "-0.030000000000000027"
+      },
+      {
+        "": "106",
+        "Player": "Houssem Aouar",
+        "npxG p90": "0.28",
+        "G-PK p90": "0.22",
+        "npG minus npxG ": "-0.060000000000000026"
+      },
+      {
+        "": "113",
+        "Player": "Ronald Araújo",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.1"
+      },
+      {
+        "": "121",
+        "Player": "Marko Arnautović",
+        "npxG p90": "0.42",
+        "G-PK p90": "0.4",
+        "npG minus npxG ": "-0.019999999999999962"
+      },
+      {
+        "": "122",
+        "Player": "Maximilian Arnold",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "0.06999999999999999"
+      },
+      {
+        "": "136",
+        "Player": "Iago Aspas",
+        "npxG p90": "0.32",
+        "G-PK p90": "0.44",
+        "npG minus npxG ": "0.12"
+      },
+      {
+        "": "143",
+        "Player": "Tommaso Augello",
+        "npxG p90": "0.01",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "152",
+        "Player": "Luke Ayling",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "0.020000000000000004"
+      },
+      {
+        "": "160",
+        "Player": "Milan Badelj",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "177",
+        "Player": "Ridle Baku",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "186",
+        "Player": "Iván Balliu",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.009999999999999998"
+      },
+      {
+        "": "190",
+        "Player": "Jonathan Bamba",
+        "npxG p90": "0.12",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.07999999999999999"
+      },
+      {
+        "": "196",
+        "Player": "Antonín Barák",
+        "npxG p90": "0.25",
+        "G-PK p90": "0.27",
+        "npG minus npxG ": "0.020000000000000018"
+      },
+      {
+        "": "201",
+        "Player": "Melvin Bard",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.04000000000000001"
+      },
+      {
+        "": "205",
+        "Player": "Nicolò Barella",
+        "npxG p90": "0.16",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "-0.07"
+      },
+      {
+        "": "224",
+        "Player": "Alessandro Bastoni",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.02"
+      },
+      {
+        "": "225",
+        "Player": "Simone Bastoni",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "0.04999999999999999"
+      },
+      {
+        "": "234",
+        "Player": "Mohamed Bayo",
+        "npxG p90": "0.43",
+        "G-PK p90": "0.45",
+        "npG minus npxG ": "0.020000000000000018"
+      },
+      {
+        "": "239",
+        "Player": "Rodrigo Becão",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "242",
+        "Player": "Jan Bednarek",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.14",
+        "npG minus npxG ": "0.06000000000000001"
+      },
+      {
+        "": "252",
+        "Player": "Stefan Bell",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.009999999999999995"
+      },
+      {
+        "": "254",
+        "Player": "Raoul Bellanova",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "256",
+        "Player": "Jean-Ricner Bellegarde",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "-0.020000000000000004"
+      },
+      {
+        "": "258",
+        "Player": "Jude Bellingham",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "262",
+        "Player": "Fran Beltrán",
+        "npxG p90": "0.01",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.019999999999999997"
+      },
+      {
+        "": "265",
+        "Player": "Wissam Ben Yedder",
+        "npxG p90": "0.4",
+        "G-PK p90": "0.6",
+        "npG minus npxG ": "0.19999999999999996"
+      },
+      {
+        "": "284",
+        "Player": "Karim Benzema",
+        "npxG p90": "0.53",
+        "G-PK p90": "0.69",
+        "npG minus npxG ": "0.15999999999999992"
+      },
+      {
+        "": "286",
+        "Player": "Domenico Berardi",
+        "npxG p90": "0.25",
+        "G-PK p90": "0.29",
+        "npG minus npxG ": "0.03999999999999998"
+      },
+      {
+        "": "308",
+        "Player": "Giulian Biancone",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.04"
+      },
+      {
+        "": "315",
+        "Player": "Cristiano Biraghi",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.039999999999999994"
+      },
+      {
+        "": "323",
+        "Player": "Ludovic Blas",
+        "npxG p90": "0.23",
+        "G-PK p90": "0.15",
+        "npG minus npxG ": "-0.08000000000000002"
+      },
+      {
+        "": "338",
+        "Player": "Giacomo Bonaventura",
+        "npxG p90": "0.2",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "345",
+        "Player": "Rafael Borré",
+        "npxG p90": "0.35",
+        "G-PK p90": "0.3",
+        "npG minus npxG ": "-0.04999999999999999"
+      },
+      {
+        "": "347",
+        "Player": "Denis Bouanga",
+        "npxG p90": "0.31",
+        "G-PK p90": "0.33",
+        "npG minus npxG ": "0.020000000000000018"
+      },
+      {
+        "": "350",
+        "Player": "Sofiane Boufal",
+        "npxG p90": "0.23",
+        "G-PK p90": "0.19",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "355",
+        "Player": "Benjamin Bourigeaud",
+        "npxG p90": "0.15",
+        "G-PK p90": "0.31",
+        "npG minus npxG ": "0.16"
+      },
+      {
+        "": "358",
+        "Player": "Jarrod Bowen",
+        "npxG p90": "0.34",
+        "G-PK p90": "0.36",
+        "npG minus npxG ": "0.019999999999999962"
+      },
+      {
+        "": "367",
+        "Player": "Darko Brašanac",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "368",
+        "Player": "Lilian Brassier",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "373",
+        "Player": "Josip Brekalo",
+        "npxG p90": "0.19",
+        "G-PK p90": "0.28",
+        "npG minus npxG ": "0.09000000000000002"
+      },
+      {
+        "": "374",
+        "Player": "Gleison Bremer",
+        "npxG p90": "0.13",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "379",
+        "Player": "Dylan Bronn",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "380",
+        "Player": "John Brooks",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "382",
+        "Player": "Josh Brownhill",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.019999999999999997"
+      },
+      {
+        "": "383",
+        "Player": "Marcelo Brozović",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.019999999999999997"
+      },
+      {
+        "": "396",
+        "Player": "Jonathan Burkardt",
+        "npxG p90": "0.45",
+        "G-PK p90": "0.34",
+        "npG minus npxG ": "-0.10999999999999999"
+      },
+      {
+        "": "403",
+        "Player": "Sergio Busquets",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.039999999999999994"
+      },
+      {
+        "": "414",
+        "Player": "Leandro Cabrera",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.05",
+        "npG minus npxG ": "0.010000000000000002"
+      },
+      {
+        "": "418",
+        "Player": "Anthony Caci",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "430",
+        "Player": "Mattia Caldara",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "434",
+        "Player": "Hakan Çalhanoğlu",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.15",
+        "npG minus npxG ": "0.009999999999999981"
+      },
+      {
+        "": "439",
+        "Player": "Mahdi Camara",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.01999999999999999"
+      },
+      {
+        "": "448",
+        "Player": "Sergio Canales",
+        "npxG p90": "0.15",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.010000000000000009"
+      },
+      {
+        "": "450",
+        "Player": "João Cancelo",
+        "npxG p90": "0.12",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.09"
+      },
+      {
+        "": "452",
+        "Player": "Antonio Candreva",
+        "npxG p90": "0.13",
+        "G-PK p90": "0.17",
+        "npG minus npxG ": "0.04000000000000001"
+      },
+      {
+        "": "459",
+        "Player": "Étienne Capoue",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.02"
+      },
+      {
+        "": "460",
+        "Player": "Gianluca Caprari",
+        "npxG p90": "0.19",
+        "G-PK p90": "0.33",
+        "npG minus npxG ": "0.14"
+      },
+      {
+        "": "461",
+        "Player": "Francesco Caputo",
+        "npxG p90": "0.32",
+        "G-PK p90": "0.35",
+        "npG minus npxG ": "0.02999999999999997"
+      },
+      {
+        "": "470",
+        "Player": "Diego Carlos",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.009999999999999995"
+      },
+      {
+        "": "472",
+        "Player": "Yannick Carrasco",
+        "npxG p90": "0.16",
+        "G-PK p90": "0.14",
+        "npG minus npxG ": "-0.01999999999999999"
+      },
+      {
+        "": "477",
+        "Player": "Casemiro",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.04"
+      },
+      {
+        "": "478",
+        "Player": "Matty Cash",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.039999999999999994"
+      },
+      {
+        "": "484",
+        "Player": "Jean-Charles Castelletto",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "490",
+        "Player": "Catena",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.019999999999999997"
+      },
+      {
+        "": "494",
+        "Player": "Pietro Ceccaroni",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "495",
+        "Player": "Federico Ceccherini",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.030000000000000006"
+      },
+      {
+        "": "497",
+        "Player": "Zeki Çelik",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.020000000000000004"
+      },
+      {
+        "": "515",
+        "Player": "Brendan Chardonnet",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "0.05"
+      },
+      {
+        "": "516",
+        "Player": "Xavier Chavalerin",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.17",
+        "npG minus npxG ": "0.11000000000000001"
+      },
+      {
+        "": "528",
+        "Player": "Pedro Chirivella",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "0.060000000000000005"
+      },
+      {
+        "": "529",
+        "Player": "Joris Chotard",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "543",
+        "Player": "Jonathan Clauss",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.15",
+        "npG minus npxG ": "0.06999999999999999"
+      },
+      {
+        "": "547",
+        "Player": "Conor Coady",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.06"
+      },
+      {
+        "": "550",
+        "Player": "Séamus Coleman",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "557",
+        "Player": "Santi Comesaña",
+        "npxG p90": "0.13",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.1"
+      },
+      {
+        "": "591",
+        "Player": "Nicolas Cozza",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.009999999999999995"
+      },
+      {
+        "": "593",
+        "Player": "Aaron Cresswell",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.030000000000000006"
+      },
+      {
+        "": "596",
+        "Player": "Bryan Cristante",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "-0.009999999999999995"
+      },
+      {
+        "": "602",
+        "Player": "Juan Cuadrado",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.14",
+        "npG minus npxG ": "0.07"
+      },
+      {
+        "": "604",
+        "Player": "Marc Cucurella",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.009999999999999998"
+      },
+      {
+        "": "606",
+        "Player": "Jorge Cuenca",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.009999999999999998"
+      },
+      {
+        "": "625",
+        "Player": "Stuart Dallas",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "630",
+        "Player": "Kevin Danso",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.009999999999999995"
+      },
+      {
+        "": "634",
+        "Player": "Sergi Darder",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.009999999999999995"
+      },
+      {
+        "": "639",
+        "Player": "Jonathan David",
+        "npxG p90": "0.38",
+        "G-PK p90": "0.42",
+        "npG minus npxG ": "0.03999999999999998"
+      },
+      {
+        "": "641",
+        "Player": "Ben Davies",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "645",
+        "Player": "Craig Dawson",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "-0.01999999999999999"
+      },
+      {
+        "": "652",
+        "Player": "Lorenzo De Silvestri",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "0.039999999999999994"
+      },
+      {
+        "": "659",
+        "Player": "Thomas Delaine",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "665",
+        "Player": "Andy Delort",
+        "npxG p90": "0.46",
+        "G-PK p90": "0.48",
+        "npG minus npxG ": "0.019999999999999962"
+      },
+      {
+        "": "677",
+        "Player": "Emmanuel Dennis",
+        "npxG p90": "0.26",
+        "G-PK p90": "0.35",
+        "npG minus npxG ": "0.08999999999999997"
+      },
+      {
+        "": "685",
+        "Player": "Gerard Deulofeu",
+        "npxG p90": "0.27",
+        "G-PK p90": "0.41",
+        "npG minus npxG ": "0.13999999999999996"
+      },
+      {
+        "": "690",
+        "Player": "Giovanni Di Lorenzo",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "695",
+        "Player": "Moussa Diaby",
+        "npxG p90": "0.25",
+        "G-PK p90": "0.42",
+        "npG minus npxG ": "0.16999999999999998"
+      },
+      {
+        "": "704",
+        "Player": "Raphael Dias Belloli",
+        "npxG p90": "0.25",
+        "G-PK p90": "0.22",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "705",
+        "Player": "Rúben Dias",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "-0.009999999999999995"
+      },
+      {
+        "": "718",
+        "Player": "Virgil van Dijk",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.01999999999999999"
+      },
+      {
+        "": "732",
+        "Player": "Axel Disasi",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "735",
+        "Player": "Tiago Djaló",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "739",
+        "Player": "Alexander Djiku",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "741",
+        "Player": "Berat Djimsiti",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.030000000000000006"
+      },
+      {
+        "": "758",
+        "Player": "Niklas Dorsch",
+        "npxG p90": "0.01",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "759",
+        "Player": "Gabriel Dos Santos",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.15",
+        "npG minus npxG ": "0.06999999999999999"
+      },
+      {
+        "": "763",
+        "Player": "Abdoulaye Doucouré",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "764",
+        "Player": "Cheick Doucouré",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.020000000000000004"
+      },
+      {
+        "": "789",
+        "Player": "Lewis Dunk",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "793",
+        "Player": "Jean-Kevin Duverne",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "795",
+        "Player": "Edin Džeko",
+        "npxG p90": "0.48",
+        "G-PK p90": "0.47",
+        "npG minus npxG ": "-0.010000000000000009"
+      },
+      {
+        "": "816",
+        "Player": "Nico Elvedi",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "821",
+        "Player": "Emerson",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "826",
+        "Player": "Wataru Endo",
+        "npxG p90": "0.17",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "-0.05000000000000002"
+      },
+      {
+        "": "828",
+        "Player": "Martin Erlic",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "833",
+        "Player": "Alfonso Espino",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.05",
+        "npG minus npxG ": "0.010000000000000002"
+      },
+      {
+        "": "843",
+        "Player": "Fabinho",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "0.04999999999999999"
+      },
+      {
+        "": "846",
+        "Player": "Wout Faes",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.05"
+      },
+      {
+        "": "856",
+        "Player": "Davide Faraoni",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.14",
+        "npG minus npxG ": "0.04000000000000001"
+      },
+      {
+        "": "868",
+        "Player": "Nabil Fekir",
+        "npxG p90": "0.16",
+        "G-PK p90": "0.19",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "876",
+        "Player": "Bruno Fernandes",
+        "npxG p90": "0.24",
+        "G-PK p90": "0.29",
+        "npG minus npxG ": "0.04999999999999999"
+      },
+      {
+        "": "888",
+        "Player": "Fidel",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.07"
+      },
+      {
+        "": "901",
+        "Player": "Seko Fofana",
+        "npxG p90": "0.2",
+        "G-PK p90": "0.21",
+        "npG minus npxG ": "0.009999999999999981"
+      },
+      {
+        "": "909",
+        "Player": "Pablo Fornals",
+        "npxG p90": "0.16",
+        "G-PK p90": "0.19",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "925",
+        "Player": "Przemysław Frankowski",
+        "npxG p90": "0.11",
+        "G-PK p90": "0.22",
+        "npG minus npxG ": "0.11"
+      },
+      {
+        "": "929",
+        "Player": "Davide Frattesi",
+        "npxG p90": "0.21",
+        "G-PK p90": "0.13",
+        "npG minus npxG ": "-0.07999999999999999"
+      },
+      {
+        "": "933",
+        "Player": "Remo Freuler",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "941",
+        "Player": "Angelo Fulgini",
+        "npxG p90": "0.18",
+        "G-PK p90": "0.15",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "956",
+        "Player": "Conor Gallagher",
+        "npxG p90": "0.18",
+        "G-PK p90": "0.25",
+        "npG minus npxG ": "0.07"
+      },
+      {
+        "": "959",
+        "Player": "Kévin Gameiro",
+        "npxG p90": "0.44",
+        "G-PK p90": "0.38",
+        "npG minus npxG ": "-0.06"
+      },
+      {
+        "": "963",
+        "Player": "Álvaro García",
+        "npxG p90": "0.19",
+        "G-PK p90": "0.21",
+        "npG minus npxG ": "0.01999999999999999"
+      },
+      {
+        "": "965",
+        "Player": "David García",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "0.07999999999999999"
+      },
+      {
+        "": "967",
+        "Player": "Francisco Garcia",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.009999999999999998"
+      },
+      {
+        "": "971",
+        "Player": "Rubén García",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "987",
+        "Player": "Gerson",
+        "npxG p90": "0.19",
+        "G-PK p90": "0.32",
+        "npG minus npxG ": "0.13"
+      },
+      {
+        "": "1006",
+        "Player": "Matthias Ginter",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.04"
+      },
+      {
+        "": "1010",
+        "Player": "Andrei Girotto",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.17",
+        "npG minus npxG ": "0.09000000000000001"
+      },
+      {
+        "": "1026",
+        "Player": "Sergi Gómez",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1036",
+        "Player": "Nicolás González",
+        "npxG p90": "0.27",
+        "G-PK p90": "0.15",
+        "npG minus npxG ": "-0.12000000000000002"
+      },
+      {
+        "": "1040",
+        "Player": "Anthony Gordon",
+        "npxG p90": "0.13",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1048",
+        "Player": "Amine Gouiri",
+        "npxG p90": "0.28",
+        "G-PK p90": "0.23",
+        "npG minus npxG ": "-0.05000000000000002"
+      },
+      {
+        "": "1049",
+        "Player": "Jeffrey Gouweleeuw",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "1055",
+        "Player": "Demarai Gray",
+        "npxG p90": "0.17",
+        "G-PK p90": "0.19",
+        "npG minus npxG ": "0.01999999999999999"
+      },
+      {
+        "": "1066",
+        "Player": "Sebastian Griesbeck",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.010000000000000002"
+      },
+      {
+        "": "1070",
+        "Player": "Vincenzo Grifo",
+        "npxG p90": "0.15",
+        "G-PK p90": "0.13",
+        "npG minus npxG ": "-0.01999999999999999"
+      },
+      {
+        "": "1082",
+        "Player": "Gonçalo Guedes",
+        "npxG p90": "0.17",
+        "G-PK p90": "0.35",
+        "npG minus npxG ": "0.17999999999999997"
+      },
+      {
+        "": "1083",
+        "Player": "Marc Guéhi",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.009999999999999995"
+      },
+      {
+        "": "1084",
+        "Player": "Mattéo Guendouzi",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.009999999999999995"
+      },
+      {
+        "": "1095",
+        "Player": "Hugo Guillamón",
+        "npxG p90": "0.01",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1105",
+        "Player": "Christian Günter",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.039999999999999994"
+      },
+      {
+        "": "1114",
+        "Player": "Joško Gvardiol",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "-0.01999999999999999"
+      },
+      {
+        "": "1115",
+        "Player": "Emmanuel Gyasi",
+        "npxG p90": "0.18",
+        "G-PK p90": "0.18",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1127",
+        "Player": "Achraf Hakimi",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.15",
+        "npG minus npxG ": "0.06999999999999999"
+      },
+      {
+        "": "1133",
+        "Player": "Grant Hanley",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "1138",
+        "Player": "Jack Harrison",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.27",
+        "npG minus npxG ": "0.13"
+      },
+      {
+        "": "1154",
+        "Player": "Jordan Henderson",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.020000000000000004"
+      },
+      {
+        "": "1163",
+        "Player": "Rico Henry",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "0.04000000000000001"
+      },
+      {
+        "": "1173",
+        "Player": "Theo Hernández",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.13",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1180",
+        "Player": "Son Heung-min",
+        "npxG p90": "0.49",
+        "G-PK p90": "0.69",
+        "npG minus npxG ": "0.19999999999999996"
+      },
+      {
+        "": "1182",
+        "Player": "Aaron Hickey",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.12"
+      },
+      {
+        "": "1187",
+        "Player": "Nicolas Höfler",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1190",
+        "Player": "Lucas Höler",
+        "npxG p90": "0.29",
+        "G-PK p90": "0.24",
+        "npG minus npxG ": "-0.04999999999999999"
+      },
+      {
+        "": "1194",
+        "Player": "Franck Honorat",
+        "npxG p90": "0.15",
+        "G-PK p90": "0.34",
+        "npG minus npxG ": "0.19000000000000003"
+      },
+      {
+        "": "1203",
+        "Player": "Branimir Hrgota",
+        "npxG p90": "0.18",
+        "G-PK p90": "0.13",
+        "npG minus npxG ": "-0.04999999999999999"
+      },
+      {
+        "": "1213",
+        "Player": "Pierre Højbjerg",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1216",
+        "Player": "Roger Ibanez",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1232",
+        "Player": "Ivan Ilić",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.04"
+      },
+      {
+        "": "1236",
+        "Player": "Ciro Immobile",
+        "npxG p90": "0.51",
+        "G-PK p90": "0.66",
+        "npG minus npxG ": "0.15000000000000002"
+      },
+      {
+        "": "1242",
+        "Player": "Lorenzo Insigne",
+        "npxG p90": "0.2",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "-0.12000000000000001"
+      },
+      {
+        "": "1249",
+        "Player": "Hiroki Ito",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.02"
+      },
+      {
+        "": "1263",
+        "Player": "Daniel James",
+        "npxG p90": "0.22",
+        "G-PK p90": "0.15",
+        "npG minus npxG ": "-0.07"
+      },
+      {
+        "": "1265",
+        "Player": "Vitaly Janelt",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.06"
+      },
+      {
+        "": "1267",
+        "Player": "Pontus Jansson",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1274",
+        "Player": "Luis Javier Suárez",
+        "npxG p90": "0.32",
+        "G-PK p90": "0.25",
+        "npG minus npxG ": "-0.07"
+      },
+      {
+        "": "1283",
+        "Player": "Raúl Jiménez",
+        "npxG p90": "0.21",
+        "G-PK p90": "0.17",
+        "npG minus npxG ": "-0.03999999999999998"
+      },
+      {
+        "": "1285",
+        "Player": "Joelinton",
+        "npxG p90": "0.15",
+        "G-PK p90": "0.14",
+        "npG minus npxG ": "-0.009999999999999981"
+      },
+      {
+        "": "1292",
+        "Player": "Frenkie de Jong",
+        "npxG p90": "0.16",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "-0.05"
+      },
+      {
+        "": "1299",
+        "Player": "Joselu",
+        "npxG p90": "0.2",
+        "G-PK p90": "0.23",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1302",
+        "Player": "Diogo Jota",
+        "npxG p90": "0.61",
+        "G-PK p90": "0.57",
+        "npG minus npxG ": "-0.040000000000000036"
+      },
+      {
+        "": "1312",
+        "Player": "Vinicius Júnior",
+        "npxG p90": "0.44",
+        "G-PK p90": "0.57",
+        "npG minus npxG ": "0.12999999999999995"
+      },
+      {
+        "": "1323",
+        "Player": "Florian Kainz",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.01999999999999999"
+      },
+      {
+        "": "1335",
+        "Player": "Boubacar Kamara",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "1342",
+        "Player": "Harry Kane",
+        "npxG p90": "0.48",
+        "G-PK p90": "0.36",
+        "npG minus npxG ": "-0.12"
+      },
+      {
+        "": "1356",
+        "Player": "Michael Keane",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "0.060000000000000005"
+      },
+      {
+        "": "1369",
+        "Player": "Franck Kessié",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.08"
+      },
+      {
+        "": "1375",
+        "Player": "Luca Kilian",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1376",
+        "Player": "Max Kilman",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1377",
+        "Player": "Joshua Kimmich",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1378",
+        "Player": "Presnel Kimpembe",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1401",
+        "Player": "Koke",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1407",
+        "Player": "Randal Kolo Muani",
+        "npxG p90": "0.3",
+        "G-PK p90": "0.37",
+        "npG minus npxG ": "0.07"
+      },
+      {
+        "": "1408",
+        "Player": "Timothée Kolodziejczak",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1409",
+        "Player": "Ghislain Konan",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.02"
+      },
+      {
+        "": "1415",
+        "Player": "Ezri Konsa",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.020000000000000004"
+      },
+      {
+        "": "1419",
+        "Player": "Filip Kostić",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.14",
+        "npG minus npxG ": "0.04000000000000001"
+      },
+      {
+        "": "1420",
+        "Player": "Rominigue Kouamé",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.05"
+      },
+      {
+        "": "1422",
+        "Player": "Kalidou Koulibaly",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.039999999999999994"
+      },
+      {
+        "": "1423",
+        "Player": "Jules Koundé",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.030000000000000006"
+      },
+      {
+        "": "1425",
+        "Player": "Boubakar Kouyaté",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "1431",
+        "Player": "Andrej Kramarić",
+        "npxG p90": "0.38",
+        "G-PK p90": "0.2",
+        "npG minus npxG ": "-0.18"
+      },
+      {
+        "": "1441",
+        "Player": "Lukas Kübler",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1454",
+        "Player": "Gaëtan Laborde",
+        "npxG p90": "0.45",
+        "G-PK p90": "0.33",
+        "npG minus npxG ": "-0.12"
+      },
+      {
+        "": "1460",
+        "Player": "Víctor Laguardia",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1472",
+        "Player": "Aymeric Laporte",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.13",
+        "npG minus npxG ": "-0.010000000000000009"
+      },
+      {
+        "": "1473",
+        "Player": "Julien Laporte",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.019999999999999997"
+      },
+      {
+        "": "1481",
+        "Player": "Armand Lauriente",
+        "npxG p90": "0.24",
+        "G-PK p90": "0.18",
+        "npG minus npxG ": "-0.06"
+      },
+      {
+        "": "1482",
+        "Player": "Darko Lazović",
+        "npxG p90": "0.12",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.09"
+      },
+      {
+        "": "1487",
+        "Player": "Vincent Le Goff",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "1489",
+        "Player": "Robin Le Normand",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1491",
+        "Player": "Rafael Leão",
+        "npxG p90": "0.32",
+        "G-PK p90": "0.38",
+        "npG minus npxG ": "0.06"
+      },
+      {
+        "": "1494",
+        "Player": "Pierre Lees-Melou",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "1512",
+        "Player": "Robert Lewandowski",
+        "npxG p90": "0.88",
+        "G-PK p90": "0.92",
+        "npG minus npxG ": "0.040000000000000036"
+      },
+      {
+        "": "1519",
+        "Player": "Philipp Lienhart",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.08"
+      },
+      {
+        "": "1520",
+        "Player": "Matthijs de Ligt",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "0.05"
+      },
+      {
+        "": "1532",
+        "Player": "Diego Llorente",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "0.06999999999999999"
+      },
+      {
+        "": "1553",
+        "Player": "Maxime Lopez",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.019999999999999997"
+      },
+      {
+        "": "1558",
+        "Player": "Anthony Losilla",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.009999999999999995"
+      },
+      {
+        "": "1573",
+        "Player": "José Luis Morales",
+        "npxG p90": "0.35",
+        "G-PK p90": "0.33",
+        "npG minus npxG ": "-0.019999999999999962"
+      },
+      {
+        "": "1574",
+        "Player": "José Luis Palomino",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "1577",
+        "Player": "Douglas Luiz",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1582",
+        "Player": "Saša Lukić",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1595",
+        "Player": "James Maddison",
+        "npxG p90": "0.3",
+        "G-PK p90": "0.44",
+        "npG minus npxG ": "0.14"
+      },
+      {
+        "": "1597",
+        "Player": "Pablo Maffeo",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.020000000000000004"
+      },
+      {
+        "": "1599",
+        "Player": "Giulio Maggiore",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "1606",
+        "Player": "Harry Maguire",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "1616",
+        "Player": "Jean-Victor Makengo",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.049999999999999996"
+      },
+      {
+        "": "1618",
+        "Player": "Nemanja Maksimović",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.05"
+      },
+      {
+        "": "1640",
+        "Player": "Sadio Mané",
+        "npxG p90": "0.53",
+        "G-PK p90": "0.51",
+        "npG minus npxG ": "-0.020000000000000018"
+      },
+      {
+        "": "1644",
+        "Player": "Ricardo Mangas",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1658",
+        "Player": "Gian Marco Ferrari",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.020000000000000004"
+      },
+      {
+        "": "1672",
+        "Player": "Marquinhos",
+        "npxG p90": "0.11",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.05"
+      },
+      {
+        "": "1677",
+        "Player": "Aarón Martín",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1686",
+        "Player": "Iñigo Martínez",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "0.039999999999999994"
+      },
+      {
+        "": "1689",
+        "Player": "Lautaro Martínez",
+        "npxG p90": "0.61",
+        "G-PK p90": "0.71",
+        "npG minus npxG ": "0.09999999999999998"
+      },
+      {
+        "": "1692",
+        "Player": "Adam Marušić",
+        "npxG p90": "0.01",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.019999999999999997"
+      },
+      {
+        "": "1706",
+        "Player": "Joël Matip",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1708",
+        "Player": "Azor Matusiwa",
+        "npxG p90": "0.01",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1709",
+        "Player": "Neal Maupay",
+        "npxG p90": "0.24",
+        "G-PK p90": "0.28",
+        "npG minus npxG ": "0.040000000000000036"
+      },
+      {
+        "": "1710",
+        "Player": "Stephy Mavididi",
+        "npxG p90": "0.3",
+        "G-PK p90": "0.31",
+        "npG minus npxG ": "0.010000000000000009"
+      },
+      {
+        "": "1711",
+        "Player": "Konstantinos Mavropanos",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.13",
+        "npG minus npxG ": "0.04000000000000001"
+      },
+      {
+        "": "1720",
+        "Player": "Kylian Mbappé",
+        "npxG p90": "0.61",
+        "G-PK p90": "0.71",
+        "npG minus npxG ": "0.09999999999999998"
+      },
+      {
+        "": "1723",
+        "Player": "Bryan Mbeumo",
+        "npxG p90": "0.28",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "-0.19000000000000003"
+      },
+      {
+        "": "1733",
+        "Player": "John McGinn",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.049999999999999996"
+      },
+      {
+        "": "1736",
+        "Player": "Kenny McLean",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "1738",
+        "Player": "Scott McTominay",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.019999999999999997"
+      },
+      {
+        "": "1740",
+        "Player": "Facundo Medina",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "1756",
+        "Player": "Brais Méndez",
+        "npxG p90": "0.13",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "-0.010000000000000009"
+      },
+      {
+        "": "1759",
+        "Player": "Batista Mendy",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.02"
+      },
+      {
+        "": "1768",
+        "Player": "Mikel Merino",
+        "npxG p90": "0.13",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "1778",
+        "Player": "Marco Meyerhöfer",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.010000000000000002"
+      },
+      {
+        "": "1789",
+        "Player": "Nikola Milenković",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "1791",
+        "Player": "Sergej Milinković-Savić",
+        "npxG p90": "0.21",
+        "G-PK p90": "0.32",
+        "npG minus npxG ": "0.11000000000000001"
+      },
+      {
+        "": "1793",
+        "Player": "Éder Militão",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.05"
+      },
+      {
+        "": "1799",
+        "Player": "Santi Mina",
+        "npxG p90": "0.27",
+        "G-PK p90": "0.27",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1802",
+        "Player": "Tyrone Mings",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "1810",
+        "Player": "Stefan Mitrović",
+        "npxG p90": "0.01",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.019999999999999997"
+      },
+      {
+        "": "1812",
+        "Player": "Henrikh Mkhitaryan",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.18",
+        "npG minus npxG ": "0.03999999999999998"
+      },
+      {
+        "": "1814",
+        "Player": "Anthony Modeste",
+        "npxG p90": "0.57",
+        "G-PK p90": "0.66",
+        "npG minus npxG ": "0.09000000000000008"
+      },
+      {
+        "": "1817",
+        "Player": "Terem Moffi",
+        "npxG p90": "0.35",
+        "G-PK p90": "0.2",
+        "npG minus npxG ": "-0.14999999999999997"
+      },
+      {
+        "": "1820",
+        "Player": "Johan Mojica",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.039999999999999994"
+      },
+      {
+        "": "1823",
+        "Player": "Nahuel Molina",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.24",
+        "npG minus npxG ": "0.09999999999999998"
+      },
+      {
+        "": "1825",
+        "Player": "Florent Mollet",
+        "npxG p90": "0.17",
+        "G-PK p90": "0.21",
+        "npG minus npxG ": "0.03999999999999998"
+      },
+      {
+        "": "1826",
+        "Player": "Jon Moncayola",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "-0.010000000000000009"
+      },
+      {
+        "": "1834",
+        "Player": "Álvaro Morata",
+        "npxG p90": "0.28",
+        "G-PK p90": "0.31",
+        "npG minus npxG ": "0.02999999999999997"
+      },
+      {
+        "": "1839",
+        "Player": "Álex Moreno",
+        "npxG p90": "0.11",
+        "G-PK p90": "0.19",
+        "npG minus npxG ": "0.08"
+      },
+      {
+        "": "1858",
+        "Player": "Steve Mounié",
+        "npxG p90": "0.4",
+        "G-PK p90": "0.27",
+        "npG minus npxG ": "-0.13"
+      },
+      {
+        "": "1859",
+        "Player": "Mason Mount",
+        "npxG p90": "0.31",
+        "G-PK p90": "0.38",
+        "npG minus npxG ": "0.07"
+      },
+      {
+        "": "1862",
+        "Player": "João Moutinho",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1869",
+        "Player": "Thomas Müller",
+        "npxG p90": "0.35",
+        "G-PK p90": "0.28",
+        "npG minus npxG ": "-0.06999999999999995"
+      },
+      {
+        "": "1872",
+        "Player": "Iker Muniain",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "1889",
+        "Player": "Obite N'Dicka",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.13",
+        "npG minus npxG ": "0.05"
+      },
+      {
+        "": "1892",
+        "Player": "Vital N'Simba",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.009999999999999998"
+      },
+      {
+        "": "1894",
+        "Player": "Mickael Nade",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1906",
+        "Player": "Loum Ndiaye",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "-0.009999999999999995"
+      },
+      {
+        "": "1922",
+        "Player": "Rúben Neves",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.14",
+        "npG minus npxG ": "0.1"
+      },
+      {
+        "": "1930",
+        "Player": "Moussa Niakhate",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1939",
+        "Player": "Joakim Nilsson",
+        "npxG p90": "0.01",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.060000000000000005"
+      },
+      {
+        "": "1944",
+        "Player": "Christopher Nkunku",
+        "npxG p90": "0.46",
+        "G-PK p90": "0.63",
+        "npG minus npxG ": "0.16999999999999998"
+      },
+      {
+        "": "1966",
+        "Player": "Christian Nørgaard",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "1975",
+        "Player": "Florent Ogier",
+        "npxG p90": "0.01",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "1978",
+        "Player": "Masaya Okugawa",
+        "npxG p90": "0.16",
+        "G-PK p90": "0.28",
+        "npG minus npxG ": "0.12000000000000002"
+      },
+      {
+        "": "1986",
+        "Player": "Mathías Olivera",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "1994",
+        "Player": "Karim Onisiwo",
+        "npxG p90": "0.31",
+        "G-PK p90": "0.19",
+        "npG minus npxG ": "-0.12"
+      },
+      {
+        "": "1998",
+        "Player": "Willi Orban",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "-0.01999999999999999"
+      },
+      {
+        "": "2016",
+        "Player": "Reece Oxford",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2020",
+        "Player": "Salih Özcan",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "-0.009999999999999995"
+      },
+      {
+        "": "2026",
+        "Player": "Gavi Paez",
+        "npxG p90": "0.15",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "-0.06999999999999999"
+      },
+      {
+        "": "2028",
+        "Player": "Vincent Pajot",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2031",
+        "Player": "Isaac Palazón Camacho",
+        "npxG p90": "0.13",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "-0.05"
+      },
+      {
+        "": "2032",
+        "Player": "Nicolas Pallois",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.02"
+      },
+      {
+        "": "2036",
+        "Player": "Emerson Palmieri",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2043",
+        "Player": "Lucas Paquetá",
+        "npxG p90": "0.34",
+        "G-PK p90": "0.27",
+        "npG minus npxG ": "-0.07"
+      },
+      {
+        "": "2047",
+        "Player": "Daniel Parejo",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2061",
+        "Player": "Dimitri Payet",
+        "npxG p90": "0.18",
+        "G-PK p90": "0.17",
+        "npG minus npxG ": "-0.009999999999999981"
+      },
+      {
+        "": "2067",
+        "Player": "João Pedro",
+        "npxG p90": "0.27",
+        "G-PK p90": "0.27",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2068",
+        "Player": "Pedrosa",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "2073",
+        "Player": "Lorenzo Pellegrini",
+        "npxG p90": "0.27",
+        "G-PK p90": "0.28",
+        "npG minus npxG ": "0.010000000000000009"
+      },
+      {
+        "": "2101",
+        "Player": "Ivan Perišić",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.22",
+        "npG minus npxG ": "0.07999999999999999"
+      },
+      {
+        "": "2105",
+        "Player": "Lucas Perrin",
+        "npxG p90": "0.01",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "2136",
+        "Player": "Andrea Pinamonti",
+        "npxG p90": "0.28",
+        "G-PK p90": "0.28",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2138",
+        "Player": "Ethan Pinnock",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.020000000000000004"
+      },
+      {
+        "": "2153",
+        "Player": "Sebastian Polter",
+        "npxG p90": "0.29",
+        "G-PK p90": "0.35",
+        "npG minus npxG ": "0.06"
+      },
+      {
+        "": "2174",
+        "Player": "Grischa Prömel",
+        "npxG p90": "0.25",
+        "G-PK p90": "0.3",
+        "npG minus npxG ": "0.04999999999999999"
+      },
+      {
+        "": "2179",
+        "Player": "Antonio Puertas",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.24",
+        "npG minus npxG ": "0.09999999999999998"
+      },
+      {
+        "": "2181",
+        "Player": "Teemu Pukki",
+        "npxG p90": "0.26",
+        "G-PK p90": "0.22",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "2217",
+        "Player": "Jacob Ramsey",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.22",
+        "npG minus npxG ": "0.07999999999999999"
+      },
+      {
+        "": "2224",
+        "Player": "Giacomo Raspadori",
+        "npxG p90": "0.24",
+        "G-PK p90": "0.33",
+        "npG minus npxG ": "0.09000000000000002"
+      },
+      {
+        "": "2226",
+        "Player": "David Raum",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "0.05"
+      },
+      {
+        "": "2242",
+        "Player": "Marco Reus",
+        "npxG p90": "0.39",
+        "G-PK p90": "0.32",
+        "npG minus npxG ": "-0.07"
+      },
+      {
+        "": "2251",
+        "Player": "Declan Rice",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2256",
+        "Player": "Richarlison",
+        "npxG p90": "0.28",
+        "G-PK p90": "0.25",
+        "npG minus npxG ": "-0.030000000000000027"
+      },
+      {
+        "": "2265",
+        "Player": "Luis Rioja",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.06"
+      },
+      {
+        "": "2275",
+        "Player": "Andrew Robertson",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.039999999999999994"
+      },
+      {
+        "": "2279",
+        "Player": "Enzo Roco",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2283",
+        "Player": "Rodri",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.22",
+        "npG minus npxG ": "0.14"
+      },
+      {
+        "": "2284",
+        "Player": "Rodrigo",
+        "npxG p90": "0.16",
+        "G-PK p90": "0.2",
+        "npG minus npxG ": "0.04000000000000001"
+      },
+      {
+        "": "2291",
+        "Player": "Dani Rodríguez",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "0.010000000000000009"
+      },
+      {
+        "": "2292",
+        "Player": "Guido Rodríguez",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.010000000000000002"
+      },
+      {
+        "": "2306",
+        "Player": "Oriol Romeu",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.019999999999999997"
+      },
+      {
+        "": "2307",
+        "Player": "Cristiano Ronaldo",
+        "npxG p90": "0.52",
+        "G-PK p90": "0.55",
+        "npG minus npxG ": "0.030000000000000027"
+      },
+      {
+        "": "2311",
+        "Player": "Marten de Roon",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.05"
+      },
+      {
+        "": "2321",
+        "Player": "Amir Rrahmani",
+        "npxG p90": "0.11",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "0.009999999999999995"
+      },
+      {
+        "": "2325",
+        "Player": "Antonio Rüdiger",
+        "npxG p90": "0.08",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.009999999999999995"
+      },
+      {
+        "": "2331",
+        "Player": "Fabián Ruiz Peña",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.26",
+        "npG minus npxG ": "0.2"
+      },
+      {
+        "": "2354",
+        "Player": "Allan Saint-Maximin",
+        "npxG p90": "0.16",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2355",
+        "Player": "Romain Saïss",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "-0.01999999999999999"
+      },
+      {
+        "": "2356",
+        "Player": "Bukayo Saka",
+        "npxG p90": "0.25",
+        "G-PK p90": "0.27",
+        "npG minus npxG ": "0.020000000000000018"
+      },
+      {
+        "": "2360",
+        "Player": "Mohamed Salah",
+        "npxG p90": "0.55",
+        "G-PK p90": "0.59",
+        "npG minus npxG ": "0.039999999999999925"
+      },
+      {
+        "": "2381",
+        "Player": "Germán Sánchez",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "2383",
+        "Player": "Manuel Sánchez",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.02"
+      },
+      {
+        "": "2393",
+        "Player": "Baptiste Santamaria",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.010000000000000009"
+      },
+      {
+        "": "2413",
+        "Player": "Téji Savanier",
+        "npxG p90": "0.17",
+        "G-PK p90": "0.19",
+        "npG minus npxG ": "0.01999999999999999"
+      },
+      {
+        "": "2429",
+        "Player": "Nico Schlotterbeck",
+        "npxG p90": "0.13",
+        "G-PK p90": "0.13",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2436",
+        "Player": "Alessandro Schöpf",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.049999999999999996"
+      },
+      {
+        "": "2482",
+        "Player": "Bernardo Silva",
+        "npxG p90": "0.21",
+        "G-PK p90": "0.25",
+        "npG minus npxG ": "0.04000000000000001"
+      },
+      {
+        "": "2483",
+        "Player": "Caio Henrique Oliveira Silva",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.04000000000000001"
+      },
+      {
+        "": "2489",
+        "Player": "Thiago Silva",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "0.07"
+      },
+      {
+        "": "2492",
+        "Player": "Giovanni Simeone",
+        "npxG p90": "0.34",
+        "G-PK p90": "0.58",
+        "npG minus npxG ": "0.23999999999999994"
+      },
+      {
+        "": "2496",
+        "Player": "Moses Simon",
+        "npxG p90": "0.15",
+        "G-PK p90": "0.23",
+        "npG minus npxG ": "0.08000000000000002"
+      },
+      {
+        "": "2499",
+        "Player": "Wilfried Singo",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.1",
+        "npG minus npxG ": "0.010000000000000009"
+      },
+      {
+        "": "2505",
+        "Player": "Ibrahima Sissoko",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.08",
+        "npG minus npxG ": "-0.020000000000000004"
+      },
+      {
+        "": "2506",
+        "Player": "Moussa Sissoko",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "2516",
+        "Player": "Milan Škriniar",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.01999999999999999"
+      },
+      {
+        "": "2528",
+        "Player": "Carlos Soler",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.15",
+        "npG minus npxG ": "0.04999999999999999"
+      },
+      {
+        "": "2535",
+        "Player": "Borna Sosa",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.010000000000000002"
+      },
+      {
+        "": "2537",
+        "Player": "Florian Sotoca",
+        "npxG p90": "0.26",
+        "G-PK p90": "0.15",
+        "npG minus npxG ": "-0.11000000000000001"
+      },
+      {
+        "": "2539",
+        "Player": "Tomáš Souček",
+        "npxG p90": "0.13",
+        "G-PK p90": "0.15",
+        "npG minus npxG ": "0.01999999999999999"
+      },
+      {
+        "": "2544",
+        "Player": "Arnaud Souquet",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.02"
+      },
+      {
+        "": "2545",
+        "Player": "Djibril Sow",
+        "npxG p90": "0.02",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.05"
+      },
+      {
+        "": "2547",
+        "Player": "Çağlar Söyüncü",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "2571",
+        "Player": "Petar Stojanović",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2583",
+        "Player": "Denis Suárez",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.13",
+        "npG minus npxG ": "0.07"
+      },
+      {
+        "": "2593",
+        "Player": "Mattias Svanberg",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.039999999999999994"
+      },
+      {
+        "": "2604",
+        "Player": "Jonathan Tah",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.06",
+        "npG minus npxG ": "0.019999999999999997"
+      },
+      {
+        "": "2607",
+        "Player": "Adrien Tameze",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.14",
+        "npG minus npxG ": "0.09000000000000001"
+      },
+      {
+        "": "2615",
+        "Player": "James Tarkowski",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "2622",
+        "Player": "Aurélien Tchouaméni",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.01999999999999999"
+      },
+      {
+        "": "2633",
+        "Player": "Martin Terrier",
+        "npxG p90": "0.39",
+        "G-PK p90": "0.62",
+        "npG minus npxG ": "0.22999999999999998"
+      },
+      {
+        "": "2639",
+        "Player": "Arthur Theate",
+        "npxG p90": "0.06",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.010000000000000009"
+      },
+      {
+        "": "2644",
+        "Player": "Romain Thomas",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2645",
+        "Player": "Adrien Thomasson",
+        "npxG p90": "0.24",
+        "G-PK p90": "0.3",
+        "npG minus npxG ": "0.06"
+      },
+      {
+        "": "2648",
+        "Player": "Morten Thorsby",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "-0.010000000000000009"
+      },
+      {
+        "": "2654",
+        "Player": "Youri Tielemans",
+        "npxG p90": "0.11",
+        "G-PK p90": "0.14",
+        "npG minus npxG ": "0.030000000000000013"
+      },
+      {
+        "": "2660",
+        "Player": "Jean-Clair Todibo",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.04000000000000001"
+      },
+      {
+        "": "2662",
+        "Player": "Karl Toko Ekambi",
+        "npxG p90": "0.42",
+        "G-PK p90": "0.39",
+        "npG minus npxG ": "-0.02999999999999997"
+      },
+      {
+        "": "2666",
+        "Player": "Raúl de Tomás",
+        "npxG p90": "0.33",
+        "G-PK p90": "0.37",
+        "npG minus npxG ": "0.03999999999999998"
+      },
+      {
+        "": "2672",
+        "Player": "Sandro Tonali",
+        "npxG p90": "0.15",
+        "G-PK p90": "0.17",
+        "npG minus npxG ": "0.020000000000000018"
+      },
+      {
+        "": "2674",
+        "Player": "Ivan Toney",
+        "npxG p90": "0.25",
+        "G-PK p90": "0.22",
+        "npG minus npxG ": "-0.03"
+      },
+      {
+        "": "2681",
+        "Player": "Pau Torres",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.16",
+        "npG minus npxG ": "0.06"
+      },
+      {
+        "": "2683",
+        "Player": "Lucas Torró",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.020000000000000004"
+      },
+      {
+        "": "2697",
+        "Player": "Hamari Traoré",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.09",
+        "npG minus npxG ": "0.039999999999999994"
+      },
+      {
+        "": "2698",
+        "Player": "Ismaël Traoré",
+        "npxG p90": "0.1",
+        "G-PK p90": "0.11",
+        "npG minus npxG ": "0.009999999999999995"
+      },
+      {
+        "": "2710",
+        "Player": "Leandro Trossard",
+        "npxG p90": "0.19",
+        "G-PK p90": "0.22",
+        "npG minus npxG ": "0.03"
+      },
+      {
+        "": "2720",
+        "Player": "Iyenoma Udogie",
+        "npxG p90": "0.14",
+        "G-PK p90": "0.18",
+        "npG minus npxG ": "0.03999999999999998"
+      },
+      {
+        "": "2724",
+        "Player": "Hwang Ui-jo",
+        "npxG p90": "0.28",
+        "G-PK p90": "0.39",
+        "npG minus npxG ": "0.10999999999999999"
+      },
+      {
+        "": "2729",
+        "Player": "Enes Ünal",
+        "npxG p90": "0.23",
+        "G-PK p90": "0.45",
+        "npG minus npxG ": "0.22"
+      },
+      {
+        "": "2754",
+        "Player": "Johan Vásquez",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "0.010000000000000002"
+      },
+      {
+        "": "2763",
+        "Player": "Joël Veltman",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2771",
+        "Player": "Jordan Veretout",
+        "npxG p90": "0.12",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2806",
+        "Player": "Kevin Volland",
+        "npxG p90": "0.26",
+        "G-PK p90": "0.3",
+        "npG minus npxG ": "0.03999999999999998"
+      },
+      {
+        "": "2813",
+        "Player": "Walace",
+        "npxG p90": "0.04",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "2817",
+        "Player": "Kyle Walker-Peters",
+        "npxG p90": "0.03",
+        "G-PK p90": "0.03",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2823",
+        "Player": "James Ward-Prowse",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.17",
+        "npG minus npxG ": "0.1"
+      },
+      {
+        "": "2827",
+        "Player": "Ollie Watkins",
+        "npxG p90": "0.35",
+        "G-PK p90": "0.3",
+        "npG minus npxG ": "-0.04999999999999999"
+      },
+      {
+        "": "2837",
+        "Player": "Silvan Widmer",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.12",
+        "npG minus npxG ": "0.04999999999999999"
+      },
+      {
+        "": "2841",
+        "Player": "Iñaki Williams",
+        "npxG p90": "0.44",
+        "G-PK p90": "0.23",
+        "npG minus npxG ": "-0.21"
+      },
+      {
+        "": "2864",
+        "Player": "Granit Xhaka",
+        "npxG p90": "0.05",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.010000000000000002"
+      },
+      {
+        "": "2881",
+        "Player": "Wilfried Zaha",
+        "npxG p90": "0.13",
+        "G-PK p90": "0.29",
+        "npG minus npxG ": "0.15999999999999998"
+      },
+      {
+        "": "2892",
+        "Player": "Davide Zappacosta",
+        "npxG p90": "0.09",
+        "G-PK p90": "0.04",
+        "npG minus npxG ": "-0.049999999999999996"
+      },
+      {
+        "": "2916",
+        "Player": "Martín Zubimendi",
+        "npxG p90": "0.07",
+        "G-PK p90": "0.07",
+        "npG minus npxG ": "0.0"
+      },
+      {
+        "": "2917",
+        "Player": "Szymon Żurkowski",
+        "npxG p90": "0.16",
+        "G-PK p90": "0.23",
+        "npG minus npxG ": "0.07"
+      },
+      {
+        "": "2918",
+        "Player": "Martin Ødegaard",
+        "npxG p90": "0.16",
+        "G-PK p90": "0.23",
+        "npG minus npxG ": "0.07"
+      }
+    ]
+  },
+  "mark": {
+    "type": "circle",
+    "color": "#000080",
+    "opacity": 0.7
+  },
+  "height": 300,
+  "width": 300,
+  "encoding": {
+    "x": {
+      "field": "npxG p90",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          1
+        ]
+      },
+      "axis": {
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "G-PK p90",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          1
+        ]
+      },
+      "axis": {
+        "grid": false
+      }
+    },
+    "size": {
+      "field": "npxG p90",
+      "type": "quantitative",
+      "title": "Non-Penalty Expected Goals",
+      "scale": {
+        "range": [
+          1,
+          120
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Player",
+        "type": "ordinal",
+        "title": "Player"
+      },
+      {
+        "field": "npxG p90",
+        "type": "quantitative",
+        "title": "Non-Penalty Expected Goals",
+        "format": ".2f"
+      },
+      {
+        "field": "G-PK p90",
+        "type": "quantitative",
+        "title": "Non-Penalty Goals",
+        "format": ".2f"
+      }
+    ]
+  }
+}

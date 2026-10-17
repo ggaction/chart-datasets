@@ -1,0 +1,122 @@
+{
+  "id": "vl_1731",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f8c6f719cc6fdeb146505ba39c55950a8fd744e5a02ecae849139318fbb6e4fc",
+      "actions": 28,
+      "topOptions": 88
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "99ae6f0d913ab91a260a96e9d979ca5dac3d11a8da7baeca9bcc42c2397f7808",
+      "actions": 31,
+      "topOptions": 93
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a639addd4ac8c7b5728f0dd647d7b25c15f914201722498aba540c688aa45997",
+      "actions": 34,
+      "topOptions": 97
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "dc85d783c678143bcf38f3490478921a3a1f35aa4aa51189c6bb0da9dbd149dd",
+      "actions": 34,
+      "topOptions": 97
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "8a9f29df72753c470faf8a490127e62bc9355efe9140fcd8eddc0500785e2fac",
+      "actions": 35,
+      "topOptions": 99
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "20f4459c22e3977490876ef2599580ed19bc98e19e4d780e09e360f93dd0c62e",
+      "actions": 36,
+      "topOptions": 100
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "2dee17c03ac4e573f5dca9a3b7358996547f679fcc431f54198bac0f4957f2ff",
+      "actions": 36,
+      "topOptions": 101
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "8a77fb86c06763ed0798d73ce7c832455d39d580174fd0b742eeb9612ed4e1f1",
+      "actions": 36,
+      "topOptions": 101
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All8existingbaseline stages revalidated after exact GLM shared shape geometry repair. Source polygon vertices/strictpaint and exact familySVG/PNG/graphics allPASS; source-bound subpixelplus contour approximation disclosed; originalsizelegends/rawdata retained. Originalstage count retained per no baselinegranularityretrofits."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "73119b1988d54de95963303bb71c07740ab309e5dbe8278ba6cb87ed234611bf",
+      "bytes": 1412
+    },
+    "data.json": {
+      "sha256": "edb7d2603906725fbd48a95e2d98d58029cdd1352fca0053018a794f6e073ca4",
+      "bytes": 636
+    },
+    "resolved-source.vl.json": {
+      "sha256": "73119b1988d54de95963303bb71c07740ab309e5dbe8278ba6cb87ed234611bf",
+      "bytes": 1412
+    },
+    "G1.gg.mjs": {
+      "sha256": "f8c6f719cc6fdeb146505ba39c55950a8fd744e5a02ecae849139318fbb6e4fc",
+      "bytes": 4101
+    },
+    "G2.gg.mjs": {
+      "sha256": "99ae6f0d913ab91a260a96e9d979ca5dac3d11a8da7baeca9bcc42c2397f7808",
+      "bytes": 4139
+    },
+    "G3.gg.mjs": {
+      "sha256": "a639addd4ac8c7b5728f0dd647d7b25c15f914201722498aba540c688aa45997",
+      "bytes": 4175
+    },
+    "G4.gg.mjs": {
+      "sha256": "dc85d783c678143bcf38f3490478921a3a1f35aa4aa51189c6bb0da9dbd149dd",
+      "bytes": 4131
+    },
+    "G5.gg.mjs": {
+      "sha256": "8a9f29df72753c470faf8a490127e62bc9355efe9140fcd8eddc0500785e2fac",
+      "bytes": 4209
+    },
+    "G6.gg.mjs": {
+      "sha256": "20f4459c22e3977490876ef2599580ed19bc98e19e4d780e09e360f93dd0c62e",
+      "bytes": 4200
+    },
+    "G7.gg.mjs": {
+      "sha256": "2dee17c03ac4e573f5dca9a3b7358996547f679fcc431f54198bac0f4957f2ff",
+      "bytes": 4175
+    },
+    "G8.gg.mjs": {
+      "sha256": "8a77fb86c06763ed0798d73ce7c832455d39d580174fd0b742eeb9612ed4e1f1",
+      "bytes": 4051
+    },
+    "vega-lite.svg": {
+      "sha256": "92613fa249cac9ca21b09e2db1e6ae58058eb3515b7000bb52f47e4431a9a72c",
+      "bytes": 27492
+    },
+    "ggaction.svg": {
+      "sha256": "47ba021eb63a1a5cdf75fd5766d408f8c417c15b0d7682ac64d10ead37f4c282",
+      "bytes": 14093
+    }
+  }
+}

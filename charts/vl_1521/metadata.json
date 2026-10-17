@@ -1,0 +1,122 @@
+{
+  "id": "vl_1521",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "78364a1420591e48632b3d274554ee4e8cff85ec8143b6cda800274fdea8ff15",
+      "actions": 8,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f7c22a49ed8747c1baedcd2f171fb42657949844d515f0d43e89babc2c23954c",
+      "actions": 10,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "d2084b557424e0a1c446f71f1897080edc370ec4b6313a4e06165f8da1b986e0",
+      "actions": 11,
+      "topOptions": 27
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0ec0f099c11ccaffc0cc83f1ded9e256fef24c52a540d4c2b24c834931038846",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "232f27aa1fb3bbb64e81657e3fde91603e4cc86f0213e7b26dfef048b6b5e40b",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "be3bd7d53e4b2b1401f074502696ff0b6326e9902695cb6cab832bada385d287",
+      "actions": 19,
+      "topOptions": 41
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "b80a72fb6f5fa6e1935690ffe7a42bd094d2309c1cf293d1bd7999906315e930",
+      "actions": 20,
+      "topOptions": 43
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "a970ce0a47587329cca01b7be49a3c781f7f3bbcfec93eef9e3178d029baaa51",
+      "actions": 21,
+      "topOptions": 43
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful stages preserve all 100 heatmap cells, palette, foreground boundary grids, source typography and plot; position/color scales, paired axis paint/components and grid refinement reviewed."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9ca23b880a8c01ecb1f768ffb7de2b43ce30f842502c762f086c365def7cd115",
+      "bytes": 18227
+    },
+    "data.json": {
+      "sha256": "095d3c0c1ad99e21a528d2966900c4f2258261cbb24444de2975d018797dacfc",
+      "bytes": 13054
+    },
+    "resolved-source.vl.json": {
+      "sha256": "9ca23b880a8c01ecb1f768ffb7de2b43ce30f842502c762f086c365def7cd115",
+      "bytes": 18227
+    },
+    "G1.gg.mjs": {
+      "sha256": "78364a1420591e48632b3d274554ee4e8cff85ec8143b6cda800274fdea8ff15",
+      "bytes": 2389
+    },
+    "G2.gg.mjs": {
+      "sha256": "f7c22a49ed8747c1baedcd2f171fb42657949844d515f0d43e89babc2c23954c",
+      "bytes": 2311
+    },
+    "G3.gg.mjs": {
+      "sha256": "d2084b557424e0a1c446f71f1897080edc370ec4b6313a4e06165f8da1b986e0",
+      "bytes": 2345
+    },
+    "G4.gg.mjs": {
+      "sha256": "0ec0f099c11ccaffc0cc83f1ded9e256fef24c52a540d4c2b24c834931038846",
+      "bytes": 2583
+    },
+    "G5.gg.mjs": {
+      "sha256": "232f27aa1fb3bbb64e81657e3fde91603e4cc86f0213e7b26dfef048b6b5e40b",
+      "bytes": 2587
+    },
+    "G6.gg.mjs": {
+      "sha256": "be3bd7d53e4b2b1401f074502696ff0b6326e9902695cb6cab832bada385d287",
+      "bytes": 2545
+    },
+    "G7.gg.mjs": {
+      "sha256": "b80a72fb6f5fa6e1935690ffe7a42bd094d2309c1cf293d1bd7999906315e930",
+      "bytes": 2609
+    },
+    "G8.gg.mjs": {
+      "sha256": "a970ce0a47587329cca01b7be49a3c781f7f3bbcfec93eef9e3178d029baaa51",
+      "bytes": 2599
+    },
+    "vega-lite.svg": {
+      "sha256": "dcb91bc3d65992e9165091edbab24491c1caf5c670d62b14b2327128a893836a",
+      "bytes": 29717
+    },
+    "ggaction.svg": {
+      "sha256": "8e994019e8bb4e1e1f7ef7b5d203e324942de0ce9a66ebc4a9a3fd994028688d",
+      "bytes": 26634
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "vl_1089",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "58044d755214775b2bb34e34a33008d8685c57fefd73b44a388d434bdb5711b0",
+      "actions": 8,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "755e97c89e0857ed17f9258bb445f5a05f7d8ada29e3a8749970e4aeaa67ddab",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "eb3074b219d37325226b20893bceaea3ab0297356473c75be00d2f3cfb1ea6d4",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a30cf7ac504f66f74a385a47f795f6cc3448451460701095f8a0792b5bcd9920",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7d54f8e02c8d6991baa8bf69591ce153cab1faee285350fc22c4fc5ec555f86a",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "eb72cd2545dbd266e5df3481b841d7d1aca4b4aa6f1d31b5a5cb99f672afbc7d",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "5c66f0c7c924863f180c9e9bdc8e8583838303b0f7cafc24522dbd68fa3085c8",
+      "actions": 14,
+      "topOptions": 28
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/data_ONS-lf24.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed full final code and all contiguous source/current-runtime/family verifications. Exact modelstop reviewed and concrete frontier independently empty; remaining protected construction geometry is irreducible; no absent default invented."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e7ce5024ee377fb71c6d341cfe4e8a8ee416d71f1996074fe86d9fe9dda4957d",
+      "bytes": 923
+    },
+    "data.json": {
+      "sha256": "b411efc9d706ca03b014f113c2ed278cef4bb1f1b441cb952e2b59e0ffc4b8d9",
+      "bytes": 10203
+    },
+    "resolved-source.vl.json": {
+      "sha256": "14dec595af3bed532199f5d6e36c4a26cec404467dafc62eb9c2eaf2c65c2515",
+      "bytes": 13074
+    },
+    "G1.gg.mjs": {
+      "sha256": "58044d755214775b2bb34e34a33008d8685c57fefd73b44a388d434bdb5711b0",
+      "bytes": 1611
+    },
+    "G2.gg.mjs": {
+      "sha256": "755e97c89e0857ed17f9258bb445f5a05f7d8ada29e3a8749970e4aeaa67ddab",
+      "bytes": 1629
+    },
+    "G3.gg.mjs": {
+      "sha256": "eb3074b219d37325226b20893bceaea3ab0297356473c75be00d2f3cfb1ea6d4",
+      "bytes": 1589
+    },
+    "G4.gg.mjs": {
+      "sha256": "a30cf7ac504f66f74a385a47f795f6cc3448451460701095f8a0792b5bcd9920",
+      "bytes": 1609
+    },
+    "G5.gg.mjs": {
+      "sha256": "7d54f8e02c8d6991baa8bf69591ce153cab1faee285350fc22c4fc5ec555f86a",
+      "bytes": 1639
+    },
+    "G6.gg.mjs": {
+      "sha256": "eb72cd2545dbd266e5df3481b841d7d1aca4b4aa6f1d31b5a5cb99f672afbc7d",
+      "bytes": 1633
+    },
+    "G7.gg.mjs": {
+      "sha256": "5c66f0c7c924863f180c9e9bdc8e8583838303b0f7cafc24522dbd68fa3085c8",
+      "bytes": 1668
+    },
+    "vega-lite.svg": {
+      "sha256": "00131b1fbeb3e4d7626c0c03d7447216879593207529d2f6556f9f478df976f8",
+      "bytes": 6505
+    },
+    "ggaction.svg": {
+      "sha256": "340878f3590a12ad98559e7abf2ebcb2a89e8365a76048d5dd4a3c4cf1cf9b5c",
+      "bytes": 5688
+    }
+  }
+}

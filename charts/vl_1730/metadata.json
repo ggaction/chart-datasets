@@ -1,0 +1,100 @@
+{
+  "id": "vl_1730",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "75ebd4ba54bcc1e1b2fd07800bf6045ab22f014c9da522e173de27dfbb7275c1",
+      "actions": 28,
+      "topOptions": 88
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "dba2cecef4dce69d7455071458b09c0d63c8a5c0c3a5e9cba4f55a62c0c9cf38",
+      "actions": 29,
+      "topOptions": 89
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7232c8b5fdafec7cb70bdc337392aa5e5c3bfd9f59aa493ce43b74d60e45f6e0",
+      "actions": 30,
+      "topOptions": 91
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "68e4262c5b1d2af9e64a1f971dae0eb4b04bb2db4fd34630ec68384d12fa1ae4",
+      "actions": 33,
+      "topOptions": 97
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "33e4fec5339d05ecad1af9338d25804ecad4de4ede2db8d983a99d04f2e01acf",
+      "actions": 34,
+      "topOptions": 97
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "832ac3e8fcd69d2df8ba6ca94cb51adfcb6fba31d5694db33173ba62ee6eca66",
+      "actions": 35,
+      "topOptions": 98
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "All6existingbaseline stages revalidated after exact GLM shared shape geometry repair. Source polygon vertices/strictpaint and exact familySVG/PNG/graphics allPASS; source-bound subpixelplus contour approximation disclosed; originalsizelegends/rawdata retained. Originalstage count retained per no baselinegranularityretrofits."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "893a12ad77be4dc36d491438f17eaadcbf3cc3637d061a844ce9a1784b748cfa",
+      "bytes": 1412
+    },
+    "data.json": {
+      "sha256": "edb7d2603906725fbd48a95e2d98d58029cdd1352fca0053018a794f6e073ca4",
+      "bytes": 636
+    },
+    "resolved-source.vl.json": {
+      "sha256": "893a12ad77be4dc36d491438f17eaadcbf3cc3637d061a844ce9a1784b748cfa",
+      "bytes": 1412
+    },
+    "G1.gg.mjs": {
+      "sha256": "75ebd4ba54bcc1e1b2fd07800bf6045ab22f014c9da522e173de27dfbb7275c1",
+      "bytes": 4769
+    },
+    "G2.gg.mjs": {
+      "sha256": "dba2cecef4dce69d7455071458b09c0d63c8a5c0c3a5e9cba4f55a62c0c9cf38",
+      "bytes": 4778
+    },
+    "G3.gg.mjs": {
+      "sha256": "7232c8b5fdafec7cb70bdc337392aa5e5c3bfd9f59aa493ce43b74d60e45f6e0",
+      "bytes": 4663
+    },
+    "G4.gg.mjs": {
+      "sha256": "68e4262c5b1d2af9e64a1f971dae0eb4b04bb2db4fd34630ec68384d12fa1ae4",
+      "bytes": 4582
+    },
+    "G5.gg.mjs": {
+      "sha256": "33e4fec5339d05ecad1af9338d25804ecad4de4ede2db8d983a99d04f2e01acf",
+      "bytes": 4589
+    },
+    "G6.gg.mjs": {
+      "sha256": "832ac3e8fcd69d2df8ba6ca94cb51adfcb6fba31d5694db33173ba62ee6eca66",
+      "bytes": 4613
+    },
+    "vega-lite.svg": {
+      "sha256": "9947cbe6f90bf5ea35613a6ec6314eacee702daa0e18c763ee364b240eaa7027",
+      "bytes": 27589
+    },
+    "ggaction.svg": {
+      "sha256": "9ebe5feac927ef5e04b0d580183024bba65e5e59a8d026eaa2789fc27016f7bc",
+      "bytes": 14323
+    }
+  }
+}

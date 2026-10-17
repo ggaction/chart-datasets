@@ -1,0 +1,113 @@
+{
+  "id": "vl_0715",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "3c1d0385cf686f111d81a77c362ebc7c424cc55e20013f25557d31eb247611e9",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5404b76a9b510b96a9f48bff2c8720defe8fa5793fd2e5e0d580cb440ec1f78e",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "395543d39e86708824f5ece8b3ad1aa8d25d398ac5fd929a6b8c770cc638db10",
+      "actions": 13,
+      "topOptions": 28
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "551cab514514b1f9a0c6d9ed9d5438396d69c123709f9f573cfbae97a093d248",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "48a41a1c3a0217c2cb505ebee7172252ce1ac8226b6fac219995ca29d5accf7b",
+      "actions": 18,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0ca9e01beab52ad0569c01906462e2b23d41230a54795055ff46dc3e69483167",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "5c89173be8acce17449a4a6dbb1b5d940f1886426a1624bbaa0a44e4b2c97d5f",
+      "actions": 18,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/Totals%3AWorldGDP%20IMF%20lending%20data%20csv%202%20new.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full G7/accepted-parent diff and original source reviewed. Header emphasis and all line/tick/label styles and formats already owned by existing focused editors; initial source font sizes, axis geometry/values and title offsets remain protected. Further stages would move defaults or merely regroup existing focused calls. All source/family checks passed."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "74e46b1b6bd23d5fe99b3a354832211268590e90c5dd079ec3f893ea29d27177",
+      "bytes": 1043
+    },
+    "data.json": {
+      "sha256": "0555264f6c6c2428f05eaaf2b6c4f862d7f8eb5756316b945d05c3a03a4cd70a",
+      "bytes": 7681
+    },
+    "resolved-source.vl.json": {
+      "sha256": "224de5b9019db25a21c4fa16c42bbac2cae92248f3bcf7cd4782a33aa0719f31",
+      "bytes": 10039
+    },
+    "G1.gg.mjs": {
+      "sha256": "3c1d0385cf686f111d81a77c362ebc7c424cc55e20013f25557d31eb247611e9",
+      "bytes": 2155
+    },
+    "G2.gg.mjs": {
+      "sha256": "5404b76a9b510b96a9f48bff2c8720defe8fa5793fd2e5e0d580cb440ec1f78e",
+      "bytes": 2076
+    },
+    "G3.gg.mjs": {
+      "sha256": "395543d39e86708824f5ece8b3ad1aa8d25d398ac5fd929a6b8c770cc638db10",
+      "bytes": 2036
+    },
+    "G4.gg.mjs": {
+      "sha256": "551cab514514b1f9a0c6d9ed9d5438396d69c123709f9f573cfbae97a093d248",
+      "bytes": 2169
+    },
+    "G5.gg.mjs": {
+      "sha256": "48a41a1c3a0217c2cb505ebee7172252ce1ac8226b6fac219995ca29d5accf7b",
+      "bytes": 2156
+    },
+    "G6.gg.mjs": {
+      "sha256": "0ca9e01beab52ad0569c01906462e2b23d41230a54795055ff46dc3e69483167",
+      "bytes": 2191
+    },
+    "G7.gg.mjs": {
+      "sha256": "5c89173be8acce17449a4a6dbb1b5d940f1886426a1624bbaa0a44e4b2c97d5f",
+      "bytes": 2191
+    },
+    "vega-lite.svg": {
+      "sha256": "c54c3c7ed459ee088ee39d4f0fa4dbe9fccab26a8548722731a42fef220dfd1c",
+      "bytes": 14200
+    },
+    "ggaction.svg": {
+      "sha256": "97026915f650e7d3609a79634bf4cac6293bff8313105d9f48df997b804024f5",
+      "bytes": 12344
+    }
+  }
+}

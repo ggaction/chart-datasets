@@ -1,0 +1,122 @@
+{
+  "id": "vl_1509",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "15838e240a8962c85b21042a9118ebdba77bc07d6346530a8ec2f7c41101e504",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "68cd64c5d23c004dede2226a4c0806d41a8d8b8829463d8f708f18a0af348ee2",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "959fb1d6978e1b61bb7cadbee25c8c63d40490c24107bd76f134e83261c1e949",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e04e6c2e3982243c6c8c111a7ce12cd3125866464ba49c8ca7b2dcfc31b2d1c5",
+      "actions": 17,
+      "topOptions": 41
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "d8beac07411f2ab09bb718866743fe4d0db852928cc1e49d76b58111ec2576af",
+      "actions": 21,
+      "topOptions": 45
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "da4939951a0d6b4c3adca0d37f4c1e0df96daaa5e30195b35fa307a27b88dec8",
+      "actions": 23,
+      "topOptions": 45
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "267b552cba54db0ca8bf43316470c89fb2f4bf3f39b6e0cf6f2fb35c06f24888",
+      "actions": 24,
+      "topOptions": 46
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "f19365b42e35013556b34310fd1ef6981876571e9a1436d108ba55c6e946264b",
+      "actions": 24,
+      "topOptions": 46
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful stages preserve all four stacked counts and exact family output; paired position scales, complete axes, whole/component axis styling, ticks/labels and horizontal grid ownership reviewed."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "26447a1e00cf78278510653dde85743792db5395f8b7032d6b6225cadc6961d3",
+      "bytes": 1940
+    },
+    "data.json": {
+      "sha256": "3bfe1bdebd1a0639a56b712a5991fed6a81c85981b72f1e67355f0142d58c348",
+      "bytes": 1127
+    },
+    "resolved-source.vl.json": {
+      "sha256": "26447a1e00cf78278510653dde85743792db5395f8b7032d6b6225cadc6961d3",
+      "bytes": 1940
+    },
+    "G1.gg.mjs": {
+      "sha256": "15838e240a8962c85b21042a9118ebdba77bc07d6346530a8ec2f7c41101e504",
+      "bytes": 1965
+    },
+    "G2.gg.mjs": {
+      "sha256": "68cd64c5d23c004dede2226a4c0806d41a8d8b8829463d8f708f18a0af348ee2",
+      "bytes": 1983
+    },
+    "G3.gg.mjs": {
+      "sha256": "959fb1d6978e1b61bb7cadbee25c8c63d40490c24107bd76f134e83261c1e949",
+      "bytes": 1970
+    },
+    "G4.gg.mjs": {
+      "sha256": "e04e6c2e3982243c6c8c111a7ce12cd3125866464ba49c8ca7b2dcfc31b2d1c5",
+      "bytes": 2256
+    },
+    "G5.gg.mjs": {
+      "sha256": "d8beac07411f2ab09bb718866743fe4d0db852928cc1e49d76b58111ec2576af",
+      "bytes": 2244
+    },
+    "G6.gg.mjs": {
+      "sha256": "da4939951a0d6b4c3adca0d37f4c1e0df96daaa5e30195b35fa307a27b88dec8",
+      "bytes": 2254
+    },
+    "G7.gg.mjs": {
+      "sha256": "267b552cba54db0ca8bf43316470c89fb2f4bf3f39b6e0cf6f2fb35c06f24888",
+      "bytes": 2285
+    },
+    "G8.gg.mjs": {
+      "sha256": "f19365b42e35013556b34310fd1ef6981876571e9a1436d108ba55c6e946264b",
+      "bytes": 2279
+    },
+    "vega-lite.svg": {
+      "sha256": "c411c2a1f1e6cfa275c939c5ddcd4096ca547529b26661eb5bcdbe05bc1778d2",
+      "bytes": 9182
+    },
+    "ggaction.svg": {
+      "sha256": "1efa52f9dead60b445bba8efc8c33b66f51f266db7976c1fc90ffcafe5509036",
+      "bytes": 5763
+    }
+  }
+}

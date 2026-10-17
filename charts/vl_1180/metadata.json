@@ -1,0 +1,123 @@
+{
+  "id": "vl_1180",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "7e669b7ac84678c799ff14ec4cfe6b1a7ea36d77f2313328e5ebad9c7c697301",
+      "actions": 14,
+      "topOptions": 37
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "bd2c52a9efa27b22901ef7a5627b21412c7f08026143676abcda2096e9e57067",
+      "actions": 16,
+      "topOptions": 41
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4ae567bbfe4f658316c8dc69033502f8dd08dc5d99c384e3a29113b46dc00d44",
+      "actions": 17,
+      "topOptions": 42
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "35b39b45ced7ede8ab44689fe97ac5f64cc2095f471a93c475a62c3c73fa7ea9",
+      "actions": 18,
+      "topOptions": 46
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9c0e5ff0f21430a511f8d252d328e0bfdde5cb3718f56e047411dd2ed42276b9",
+      "actions": 19,
+      "topOptions": 48
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b2f89e004ea12e5a9791a2e53561fa3487eae486d8a9f5aee1707d902fc49495",
+      "actions": 21,
+      "topOptions": 54
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "41787188b3ea4ba73d4f20fe6607e36ea680f09f3330f31df0baa25bbd161039",
+      "actions": 27,
+      "topOptions": 56
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "f6aced059fb597cb118798ebe455bd0dfb6758df16b0a2013d23ebfdd4d38ce1",
+      "actions": 28,
+      "topOptions": 56
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "max-eight-ceiling",
+    "explanation": "All8existingbaseline stages revalidated after exact GLM shared shape geometry repair. Source polygon vertices/strictpaint and exact familySVG/PNG/graphics allPASS; source-bound subpixelplus contour approximation disclosed; originalsizelegends/rawdata retained. Originalstage count retained per no baselinegranularityretrofits.",
+    "correction": "Legend-grid clearance corrected in all8 profiles, original outer484x451 and plot400x400 preserved."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e19585e89c46a2ca63d2663f080754457aa89c76f3ce6cbeaaa8236840c8f4c1",
+      "bytes": 2502
+    },
+    "data.json": {
+      "sha256": "67c7c4d798c9355bf13ccdb48b087d596ef830a875e2815896131c2a84e74861",
+      "bytes": 1446
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e19585e89c46a2ca63d2663f080754457aa89c76f3ce6cbeaaa8236840c8f4c1",
+      "bytes": 2502
+    },
+    "G1.gg.mjs": {
+      "sha256": "7e669b7ac84678c799ff14ec4cfe6b1a7ea36d77f2313328e5ebad9c7c697301",
+      "bytes": 2917
+    },
+    "G2.gg.mjs": {
+      "sha256": "bd2c52a9efa27b22901ef7a5627b21412c7f08026143676abcda2096e9e57067",
+      "bytes": 2891
+    },
+    "G3.gg.mjs": {
+      "sha256": "4ae567bbfe4f658316c8dc69033502f8dd08dc5d99c384e3a29113b46dc00d44",
+      "bytes": 2760
+    },
+    "G4.gg.mjs": {
+      "sha256": "35b39b45ced7ede8ab44689fe97ac5f64cc2095f471a93c475a62c3c73fa7ea9",
+      "bytes": 2672
+    },
+    "G5.gg.mjs": {
+      "sha256": "9c0e5ff0f21430a511f8d252d328e0bfdde5cb3718f56e047411dd2ed42276b9",
+      "bytes": 2720
+    },
+    "G6.gg.mjs": {
+      "sha256": "b2f89e004ea12e5a9791a2e53561fa3487eae486d8a9f5aee1707d902fc49495",
+      "bytes": 2938
+    },
+    "G7.gg.mjs": {
+      "sha256": "41787188b3ea4ba73d4f20fe6607e36ea680f09f3330f31df0baa25bbd161039",
+      "bytes": 2876
+    },
+    "G8.gg.mjs": {
+      "sha256": "f6aced059fb597cb118798ebe455bd0dfb6758df16b0a2013d23ebfdd4d38ce1",
+      "bytes": 2866
+    },
+    "vega-lite.svg": {
+      "sha256": "5bb5f53c9d26a88710b630c37c59cf21e417953c1878b0f7952f3fd0619d1747",
+      "bytes": 21369
+    },
+    "ggaction.svg": {
+      "sha256": "ffe7978e1068d312fbce9a6ce09a52fcaf0c96bbfd5d3b3638a7cf0a7e413afb",
+      "bytes": 14769
+    }
+  }
+}

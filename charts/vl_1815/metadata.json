@@ -1,0 +1,124 @@
+{
+  "id": "vl_1815",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "70b0782653fbd2adfc67927969a7afe87d28a83e4693d45ee62c22a01245ab27",
+      "actions": 20,
+      "topOptions": 48
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0dacb2e38720ba4582c828bf06ebe9cc3ae97363d05c97f4aa5ca0f0bdbd615b",
+      "actions": 21,
+      "topOptions": 50
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a9d8b57e8774682368e0a3663c5819ce1a701ee3d4cf53ab25c154ccedd5d25a",
+      "actions": 22,
+      "topOptions": 52
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4427626115e736a190369147b019719b093a8abc74dda4dbea3594005a7de6ca",
+      "actions": 23,
+      "topOptions": 54
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "67d98b775cb07becb6d95db3f27b500fb7a4ac745830d6628867122f0e871aa8",
+      "actions": 25,
+      "topOptions": 57
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d16de5fbab14e7320bf99d7d70b14daa37777a96a1ac69e755259eff69538b10",
+      "actions": 26,
+      "topOptions": 57
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "729a51d05b41bc17b6f42d8fc8b4bdab8fff015a27c06479286395093c2a4e6c",
+      "actions": 27,
+      "topOptions": 57
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "e587d2245a993405a297ff8fbd5f59aca105daea33d3939c2537e18e3b84c4a4",
+      "actions": 29,
+      "topOptions": 59
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/covid19pb/covid19pb.github.io/master/data/paraiba/dados_pb_covid19_casosPorData.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source and finalG8 reread confirms the original raw rows, day bucket/typed numeric lineage and rolling mean, allsource bar/rule geometry andstyles,1208x300innerplot, source fonts/rotatedlabels/formats, and bottomlegend. G8 extracts only the completelegend owner through the current public3-key birth lifecycle already independently proved to preserve fullgraphic+semantic identity. Eight-stage cap retains remaining focusedaxis/mark options honestly; no default padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "4f7675c65aa2712682c742284e391e8f62308690fdb0172662c641efbd75a008",
+      "bytes": 3478
+    },
+    "data.json": {
+      "sha256": "11783fa1e0b5790c59e7a307acbd35e769c65c11be18d73f2e520e970244f7d6",
+      "bytes": 60207
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e0617063e997ebdfb8dc4a916a10091af774e1baec2caeff3a8bcdce5a77b78a",
+      "bytes": 72104
+    },
+    "G1.gg.mjs": {
+      "sha256": "70b0782653fbd2adfc67927969a7afe87d28a83e4693d45ee62c22a01245ab27",
+      "bytes": 3398
+    },
+    "G2.gg.mjs": {
+      "sha256": "0dacb2e38720ba4582c828bf06ebe9cc3ae97363d05c97f4aa5ca0f0bdbd615b",
+      "bytes": 3397
+    },
+    "G3.gg.mjs": {
+      "sha256": "a9d8b57e8774682368e0a3663c5819ce1a701ee3d4cf53ab25c154ccedd5d25a",
+      "bytes": 3371
+    },
+    "G4.gg.mjs": {
+      "sha256": "4427626115e736a190369147b019719b093a8abc74dda4dbea3594005a7de6ca",
+      "bytes": 3410
+    },
+    "G5.gg.mjs": {
+      "sha256": "67d98b775cb07becb6d95db3f27b500fb7a4ac745830d6628867122f0e871aa8",
+      "bytes": 3502
+    },
+    "G6.gg.mjs": {
+      "sha256": "d16de5fbab14e7320bf99d7d70b14daa37777a96a1ac69e755259eff69538b10",
+      "bytes": 3503
+    },
+    "G7.gg.mjs": {
+      "sha256": "729a51d05b41bc17b6f42d8fc8b4bdab8fff015a27c06479286395093c2a4e6c",
+      "bytes": 3495
+    },
+    "G8.gg.mjs": {
+      "sha256": "e587d2245a993405a297ff8fbd5f59aca105daea33d3939c2537e18e3b84c4a4",
+      "bytes": 3391
+    },
+    "vega-lite.svg": {
+      "sha256": "25a25251c7831448bc0f038e36a66b800a2ba9ecb47cb03ceddc8f6800821fbc",
+      "bytes": 68705
+    },
+    "ggaction.svg": {
+      "sha256": "dc0dbd377cd843711916774764d7e10d9d359996a4e0ac0e79b25f86a914deca",
+      "bytes": 42343
+    }
+  }
+}

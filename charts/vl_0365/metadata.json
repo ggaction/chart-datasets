@@ -1,0 +1,91 @@
+{
+  "id": "vl_0365",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c7d197c7b0a29c0850cb929980b8d1071bbefb7eb92ac28c501ceef929eeff0b",
+      "actions": 13,
+      "topOptions": 35
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a69355f7bbbbd9cb99b7ab14957fe4bec5b54af627cefc491bb6e1f4db3c3193",
+      "actions": 14,
+      "topOptions": 37
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b33a4d1f094579ef677fe49f2b76b3b52993e6e3094e16401ffbe42c119a43ad",
+      "actions": 15,
+      "topOptions": 39
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c05cbd88af5e11a25ae7e667e62522078459e1a28a6bfb10394da340982b826c",
+      "actions": 16,
+      "topOptions": 40
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "24b881d26de4f60e2031fcaddaf249471c88ee7e4efb489a5f606df639db3d71",
+      "actions": 17,
+      "topOptions": 41
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/GiltsInIssueClean.csv"
+  ],
+  "notes": {
+    "reason": "reviewed-source-correction-profile-preserved",
+    "explanation": "Codex rechecked immutable prior terminal, every current source/runtime-verified model-authored program, original stage profile, current ownership diagnostics and source-bound display/layout correction evidence; original model stop/usage retained without a new model call."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "002ff6b526a12473f1166ce535fd8e170b2c4f37b037a4035aa08815202a75a4",
+      "bytes": 1073
+    },
+    "data.json": {
+      "sha256": "b3b54f7afca82338b3b01d2f6e333f25015d03667be845821d474973b82d9170",
+      "bytes": 38161
+    },
+    "resolved-source.vl.json": {
+      "sha256": "cdd46a33da60966783e3a156f1ebaa04fa164f0d91facbcc3bb340fb6595cbf4",
+      "bytes": 44836
+    },
+    "G1.gg.mjs": {
+      "sha256": "c7d197c7b0a29c0850cb929980b8d1071bbefb7eb92ac28c501ceef929eeff0b",
+      "bytes": 1620
+    },
+    "G2.gg.mjs": {
+      "sha256": "a69355f7bbbbd9cb99b7ab14957fe4bec5b54af627cefc491bb6e1f4db3c3193",
+      "bytes": 1630
+    },
+    "G3.gg.mjs": {
+      "sha256": "b33a4d1f094579ef677fe49f2b76b3b52993e6e3094e16401ffbe42c119a43ad",
+      "bytes": 1675
+    },
+    "G4.gg.mjs": {
+      "sha256": "c05cbd88af5e11a25ae7e667e62522078459e1a28a6bfb10394da340982b826c",
+      "bytes": 1710
+    },
+    "G5.gg.mjs": {
+      "sha256": "24b881d26de4f60e2031fcaddaf249471c88ee7e4efb489a5f606df639db3d71",
+      "bytes": 1756
+    },
+    "vega-lite.svg": {
+      "sha256": "8188579781440d85c387ba2c12aeb8f4cb7236c891782e38491c43542492f350",
+      "bytes": 27738
+    },
+    "ggaction.svg": {
+      "sha256": "4e90d71c808b642c139ad5ce10b64a2a1f2d91eb8f57d6df4b28219cfef501bc",
+      "bytes": 34797
+    }
+  }
+}

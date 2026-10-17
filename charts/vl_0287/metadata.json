@@ -1,0 +1,91 @@
+{
+  "id": "vl_0287",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9a39a818ddcac01d8f52c4afc6e76b7fc35025fb80c0dc22bf7fc0046395e5d0",
+      "actions": 10,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "08e7021c0922d25474bde1c6cf0a193f5e7233933f57753cc174708dfd41abce",
+      "actions": 12,
+      "topOptions": 31
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ff655eae7ec8fbca2cb77a4fe18dd5553f0a1f9923946f6cfb9fe98b49bed9da",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "dba67e838cb379c799fd30cff5ee7334f0365bdd5034e30c72676f72f8efbdd6",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "1a10aed508536772e0933c9c06ce1f0afca8dad4f5a2242724c99f7aae02be0b",
+      "actions": 16,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/SamJones033/SamJones033.github.io/main/updated%20values.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full G5 inspected: #888 axis paint already focused, existing title700/black now editTitle; protected font13/10/offsets and45degree label geometry remain. No color constant encoder supported; bar fill remains native editor. Subtitle is already in same public editTitle owner, scalar split would pad. Five genuine stages, reviewed model stop exact current parent."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ab874c9d60db142ab628c7761e05c0f0da9a2b9601defb2fd2db1bf7540e1391",
+      "bytes": 902
+    },
+    "data.json": {
+      "sha256": "352cb08ab831cf604c8ed26b5668bc5b25bc02b35be7759c7471f3ad023ab2a7",
+      "bytes": 2260
+    },
+    "resolved-source.vl.json": {
+      "sha256": "3edb5268607c8ed09fd87e742fb366db5f2241eb7ceb066c32d547fd4ed6c5fb",
+      "bytes": 3698
+    },
+    "G1.gg.mjs": {
+      "sha256": "9a39a818ddcac01d8f52c4afc6e76b7fc35025fb80c0dc22bf7fc0046395e5d0",
+      "bytes": 1966
+    },
+    "G2.gg.mjs": {
+      "sha256": "08e7021c0922d25474bde1c6cf0a193f5e7233933f57753cc174708dfd41abce",
+      "bytes": 1984
+    },
+    "G3.gg.mjs": {
+      "sha256": "ff655eae7ec8fbca2cb77a4fe18dd5553f0a1f9923946f6cfb9fe98b49bed9da",
+      "bytes": 2041
+    },
+    "G4.gg.mjs": {
+      "sha256": "dba67e838cb379c799fd30cff5ee7334f0365bdd5034e30c72676f72f8efbdd6",
+      "bytes": 2022
+    },
+    "G5.gg.mjs": {
+      "sha256": "1a10aed508536772e0933c9c06ce1f0afca8dad4f5a2242724c99f7aae02be0b",
+      "bytes": 2067
+    },
+    "vega-lite.svg": {
+      "sha256": "e216e6d2a0018c2507ecfaa4e6d0398147db723b2e1282fe1efb2a92fdf97bc0",
+      "bytes": 20063
+    },
+    "ggaction.svg": {
+      "sha256": "fa9ee72bd62b01bf9c95d70e88f0b3c6809d29d91000efb46b6520fe7fe58083",
+      "bytes": 24526
+    }
+  }
+}

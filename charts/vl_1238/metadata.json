@@ -1,0 +1,80 @@
+{
+  "id": "vl_1238",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8f61fb6ba26e6c6db4b73ce9758f64d3c4382c13a97fea204317c0530758c046",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4a948e5e337d2dca006b0e4cf1d0d3e89f7b58bac9e34648005fcdd65011a6a1",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "d4066cd453c84d6042dce81a7210c50262d62ff5f56cf56f020f82c359edee5b",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "bc339321a4357149d6bd752fea1b5741fd05f14b0b40f1b1f5b874edab8c9533",
+      "actions": 15,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/AlKobayashi/AlKobayashi.github.io/main/data_IMF_creditOutstandingCleaned.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Allremaining axisstyles protectedfont10/labeloffsetrotation/values/ticklength0/titlefalse, no grid or legend."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8984c09df3d47a7a97a6e933a15ee532b97dec2f07176036f227ca91c6c4249d",
+      "bytes": 903
+    },
+    "data.json": {
+      "sha256": "e81edf09d201e48e175bb6569503438a4398691b6ab23d180cdf78d5f75af448",
+      "bytes": 7999
+    },
+    "resolved-source.vl.json": {
+      "sha256": "70b556c77635560437c89aa12810189f6bc98d93c742db8d06d0b026df2923ba",
+      "bytes": 10276
+    },
+    "G1.gg.mjs": {
+      "sha256": "8f61fb6ba26e6c6db4b73ce9758f64d3c4382c13a97fea204317c0530758c046",
+      "bytes": 2232
+    },
+    "G2.gg.mjs": {
+      "sha256": "4a948e5e337d2dca006b0e4cf1d0d3e89f7b58bac9e34648005fcdd65011a6a1",
+      "bytes": 2214
+    },
+    "G3.gg.mjs": {
+      "sha256": "d4066cd453c84d6042dce81a7210c50262d62ff5f56cf56f020f82c359edee5b",
+      "bytes": 2236
+    },
+    "G4.gg.mjs": {
+      "sha256": "bc339321a4357149d6bd752fea1b5741fd05f14b0b40f1b1f5b874edab8c9533",
+      "bytes": 2184
+    },
+    "vega-lite.svg": {
+      "sha256": "b4b699748bdfae27e099959ccfa597ead90444a5d5de638065b95ddf7fef92d6",
+      "bytes": 13720
+    },
+    "ggaction.svg": {
+      "sha256": "50c43fd82e040414bddfc650b3b07eee4d271a5df2fb39a8026dca1cd3cb93b0",
+      "bytes": 11795
+    }
+  }
+}

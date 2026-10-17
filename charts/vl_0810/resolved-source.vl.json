@@ -1,0 +1,3961 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Goals Scored vs xG",
+    "subtitle": [
+      "Premier League Players Goals Scored vs Expected Goals",
+      "2021/22 season. Source: Fbref"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Rk": "1",
+        "Player": "Son Heung-min",
+        "Team": "Tottenham",
+        "Goals": "23",
+        "xG": "15.6"
+      },
+      {
+        "Rk": "2",
+        "Player": "Mohamed Salah",
+        "Team": "Liverpool",
+        "Goals": "23",
+        "xG": "23.7"
+      },
+      {
+        "Rk": "3",
+        "Player": "Cristiano Ronaldo",
+        "Team": "Manchester Utd",
+        "Goals": "18",
+        "xG": "17.9"
+      },
+      {
+        "Rk": "4",
+        "Player": "Harry Kane",
+        "Team": "Tottenham",
+        "Goals": "17",
+        "xG": "19.6"
+      },
+      {
+        "Rk": "5",
+        "Player": "Sadio Mané",
+        "Team": "Liverpool",
+        "Goals": "16",
+        "xG": "18.3"
+      },
+      {
+        "Rk": "6",
+        "Player": "Kevin De Bruyne",
+        "Team": "Manchester City",
+        "Goals": "15",
+        "xG": "6.2"
+      },
+      {
+        "Rk": "7",
+        "Player": "Diogo Jota",
+        "Team": "Liverpool",
+        "Goals": "15",
+        "xG": "16.9"
+      },
+      {
+        "Rk": "8",
+        "Player": "Jamie Vardy",
+        "Team": "Leicester City",
+        "Goals": "15",
+        "xG": "10.3"
+      },
+      {
+        "Rk": "9",
+        "Player": "Wilfried Zaha",
+        "Team": "Crystal Palace",
+        "Goals": "14",
+        "xG": "11"
+      },
+      {
+        "Rk": "10",
+        "Player": "Raheem Sterling",
+        "Team": "Manchester City",
+        "Goals": "13",
+        "xG": "14.4"
+      },
+      {
+        "Rk": "11",
+        "Player": "Jarrod Bowen",
+        "Team": "West Ham",
+        "Goals": "12",
+        "xG": "13.3"
+      },
+      {
+        "Rk": "12",
+        "Player": "James Maddison",
+        "Team": "Leicester City",
+        "Goals": "12",
+        "xG": "8.8"
+      },
+      {
+        "Rk": "13",
+        "Player": "Ivan Toney",
+        "Team": "Brentford",
+        "Goals": "12",
+        "xG": "12.4"
+      },
+      {
+        "Rk": "14",
+        "Player": "Riyad Mahrez",
+        "Team": "Manchester City",
+        "Goals": "11",
+        "xG": "11.1"
+      },
+      {
+        "Rk": "15",
+        "Player": "Mason Mount",
+        "Team": "Chelsea",
+        "Goals": "11",
+        "xG": "8.8"
+      },
+      {
+        "Rk": "16",
+        "Player": "Teemu Pukki",
+        "Team": "Norwich City",
+        "Goals": "11",
+        "xG": "12.7"
+      },
+      {
+        "Rk": "17",
+        "Player": "Raphinha",
+        "Team": "Leeds United",
+        "Goals": "11",
+        "xG": "11.3"
+      },
+      {
+        "Rk": "18",
+        "Player": "Bukayo Saka",
+        "Team": "Arsenal",
+        "Goals": "11",
+        "xG": "11.2"
+      },
+      {
+        "Rk": "19",
+        "Player": "Ollie Watkins",
+        "Team": "Aston Villa",
+        "Goals": "11",
+        "xG": "11"
+      },
+      {
+        "Rk": "20",
+        "Player": "Michail Antonio",
+        "Team": "West Ham",
+        "Goals": "10",
+        "xG": "12.8"
+      },
+      {
+        "Rk": "21",
+        "Player": "Emmanuel Dennis",
+        "Team": "Watford",
+        "Goals": "10",
+        "xG": "7.7"
+      },
+      {
+        "Rk": "22",
+        "Player": "Bruno Fernandes",
+        "Team": "Manchester Utd",
+        "Goals": "10",
+        "xG": "11.6"
+      },
+      {
+        "Rk": "23",
+        "Player": "Richarlison",
+        "Team": "Everton",
+        "Goals": "10",
+        "xG": "10"
+      },
+      {
+        "Rk": "24",
+        "Player": "Emile Smith Rowe",
+        "Team": "Arsenal",
+        "Goals": "10",
+        "xG": "6.5"
+      },
+      {
+        "Rk": "25",
+        "Player": "James Ward-Prowse",
+        "Team": "Southampton",
+        "Goals": "10",
+        "xG": "5.9"
+      },
+      {
+        "Rk": "26",
+        "Player": "Maxwel Cornet",
+        "Team": "Burnley",
+        "Goals": "9",
+        "xG": "6.6"
+      },
+      {
+        "Rk": "27",
+        "Player": "Phil Foden",
+        "Team": "Manchester City",
+        "Goals": "9",
+        "xG": "10"
+      },
+      {
+        "Rk": "28",
+        "Player": "Saïd Benrahma",
+        "Team": "West Ham",
+        "Goals": "8",
+        "xG": "6"
+      },
+      {
+        "Rk": "29",
+        "Player": "Conor Gallagher",
+        "Team": "Crystal Palace",
+        "Goals": "8",
+        "xG": "7.7"
+      },
+      {
+        "Rk": "30",
+        "Player": "İlkay Gündoğan",
+        "Team": "Manchester City",
+        "Goals": "8",
+        "xG": "10.3"
+      },
+      {
+        "Rk": "31",
+        "Player": "Jack Harrison",
+        "Team": "Leeds United",
+        "Goals": "8",
+        "xG": "4.9"
+      },
+      {
+        "Rk": "32",
+        "Player": "Kai Havertz",
+        "Team": "Chelsea",
+        "Goals": "8",
+        "xG": "9.5"
+      },
+      {
+        "Rk": "33",
+        "Player": "Gabriel Jesus",
+        "Team": "Manchester City",
+        "Goals": "8",
+        "xG": "10.8"
+      },
+      {
+        "Rk": "34",
+        "Player": "Romelu Lukaku",
+        "Team": "Chelsea",
+        "Goals": "8",
+        "xG": "7"
+      },
+      {
+        "Rk": "35",
+        "Player": "Neal Maupay",
+        "Team": "Brighton",
+        "Goals": "8",
+        "xG": "9.7"
+      },
+      {
+        "Rk": "36",
+        "Player": "Bernardo Silva",
+        "Team": "Manchester City",
+        "Goals": "8",
+        "xG": "7.6"
+      },
+      {
+        "Rk": "37",
+        "Player": "Leandro Trossard",
+        "Team": "Brighton",
+        "Goals": "8",
+        "xG": "7.6"
+      },
+      {
+        "Rk": "38",
+        "Player": "Callum Wilson",
+        "Team": "Newcastle Utd",
+        "Goals": "8",
+        "xG": "6.3"
+      },
+      {
+        "Rk": "39",
+        "Player": "Che Adams",
+        "Team": "Southampton",
+        "Goals": "7",
+        "xG": "7.7"
+      },
+      {
+        "Rk": "40",
+        "Player": "Danny Ings",
+        "Team": "Aston Villa",
+        "Goals": "7",
+        "xG": "7.6"
+      },
+      {
+        "Rk": "41",
+        "Player": "Rodri",
+        "Team": "Manchester City",
+        "Goals": "7",
+        "xG": "3"
+      },
+      {
+        "Rk": "42",
+        "Player": "Yoane Wissa",
+        "Team": "Brentford",
+        "Goals": "7",
+        "xG": "4.1"
+      },
+      {
+        "Rk": "43",
+        "Player": "Martin Ødegaard",
+        "Team": "Arsenal",
+        "Goals": "7",
+        "xG": "5.2"
+      },
+      {
+        "Rk": "44",
+        "Player": "Harvey Barnes",
+        "Team": "Leicester City",
+        "Goals": "6",
+        "xG": "6.5"
+      },
+      {
+        "Rk": "45",
+        "Player": "Armando Broja",
+        "Team": "Southampton",
+        "Goals": "6",
+        "xG": "6.1"
+      },
+      {
+        "Rk": "46",
+        "Player": "Odsonne Édouard",
+        "Team": "Crystal Palace",
+        "Goals": "6",
+        "xG": "7.1"
+      },
+      {
+        "Rk": "47",
+        "Player": "Pablo Fornals",
+        "Team": "West Ham",
+        "Goals": "6",
+        "xG": "5.2"
+      },
+      {
+        "Rk": "48",
+        "Player": "Raúl Jiménez",
+        "Team": "Wolves",
+        "Goals": "6",
+        "xG": "6.4"
+      },
+      {
+        "Rk": "49",
+        "Player": "Jorginho",
+        "Team": "Chelsea",
+        "Goals": "6",
+        "xG": "6"
+      },
+      {
+        "Rk": "50",
+        "Player": "Ademola Lookman",
+        "Team": "Leicester City",
+        "Goals": "6",
+        "xG": "4.9"
+      },
+      {
+        "Rk": "51",
+        "Player": "Martinelli",
+        "Team": "Arsenal",
+        "Goals": "6",
+        "xG": "8.3"
+      },
+      {
+        "Rk": "52",
+        "Player": "Christian Pulisic",
+        "Team": "Chelsea",
+        "Goals": "6",
+        "xG": "4.4"
+      },
+      {
+        "Rk": "53",
+        "Player": "Jacob Ramsey",
+        "Team": "Aston Villa",
+        "Goals": "6",
+        "xG": "4.5"
+      },
+      {
+        "Rk": "54",
+        "Player": "Rodrigo",
+        "Team": "Leeds United",
+        "Goals": "6",
+        "xG": "4.6"
+      },
+      {
+        "Rk": "55",
+        "Player": "Youri Tielemans",
+        "Team": "Leicester City",
+        "Goals": "6",
+        "xG": "5.2"
+      },
+      {
+        "Rk": "56",
+        "Player": "Danny Welbeck",
+        "Team": "Brighton",
+        "Goals": "6",
+        "xG": "7.3"
+      },
+      {
+        "Rk": "57",
+        "Player": "Dominic Calvert-Lewin",
+        "Team": "Everton",
+        "Goals": "5",
+        "xG": "6.5"
+      },
+      {
+        "Rk": "58",
+        "Player": "Philippe Coutinho",
+        "Team": "Aston Villa",
+        "Goals": "5",
+        "xG": "4.1"
+      },
+      {
+        "Rk": "59",
+        "Player": "Cucho",
+        "Team": "Watford",
+        "Goals": "5",
+        "xG": "2.9"
+      },
+      {
+        "Rk": "60",
+        "Player": "Patson Daka",
+        "Team": "Leicester City",
+        "Goals": "5",
+        "xG": "4.2"
+      },
+      {
+        "Rk": "61",
+        "Player": "Gabriel Dos Santos",
+        "Team": "Arsenal",
+        "Goals": "5",
+        "xG": "3.3"
+      },
+      {
+        "Rk": "62",
+        "Player": "Fabinho",
+        "Team": "Liverpool",
+        "Goals": "5",
+        "xG": "4"
+      },
+      {
+        "Rk": "63",
+        "Player": "Roberto Firmino",
+        "Team": "Liverpool",
+        "Goals": "5",
+        "xG": "5.1"
+      },
+      {
+        "Rk": "64",
+        "Player": "Demarai Gray",
+        "Team": "Everton",
+        "Goals": "5",
+        "xG": "5.8"
+      },
+      {
+        "Rk": "65",
+        "Player": "Mason Greenwood",
+        "Team": "Manchester Utd",
+        "Goals": "5",
+        "xG": "4.9"
+      },
+      {
+        "Rk": "66",
+        "Player": "Bruno Guimarães",
+        "Team": "Newcastle Utd",
+        "Goals": "5",
+        "xG": "3"
+      },
+      {
+        "Rk": "67",
+        "Player": "Hwang Hee-chan",
+        "Team": "Wolves",
+        "Goals": "5",
+        "xG": "4.6"
+      },
+      {
+        "Rk": "68",
+        "Player": "Reece James",
+        "Team": "Chelsea",
+        "Goals": "5",
+        "xG": "3.5"
+      },
+      {
+        "Rk": "69",
+        "Player": "Joshua King",
+        "Team": "Watford",
+        "Goals": "5",
+        "xG": "9.4"
+      },
+      {
+        "Rk": "70",
+        "Player": "Dejan Kulusevski",
+        "Team": "Tottenham",
+        "Goals": "5",
+        "xG": "3.6"
+      },
+      {
+        "Rk": "71",
+        "Player": "Manuel Lanzini",
+        "Team": "West Ham",
+        "Goals": "5",
+        "xG": "3.8"
+      },
+      {
+        "Rk": "72",
+        "Player": "Alexis Mac Allister",
+        "Team": "Brighton",
+        "Goals": "5",
+        "xG": "6.9"
+      },
+      {
+        "Rk": "73",
+        "Player": "Jean-Philippe Mateta",
+        "Team": "Crystal Palace",
+        "Goals": "5",
+        "xG": "6.3"
+      },
+      {
+        "Rk": "74",
+        "Player": "Eddie Nketiah",
+        "Team": "Arsenal",
+        "Goals": "5",
+        "xG": "4.4"
+      },
+      {
+        "Rk": "75",
+        "Player": "Allan Saint-Maximin",
+        "Team": "Newcastle Utd",
+        "Goals": "5",
+        "xG": "5.7"
+      },
+      {
+        "Rk": "76",
+        "Player": "Ismaila Sarr",
+        "Team": "Watford",
+        "Goals": "5",
+        "xG": "5.7"
+      },
+      {
+        "Rk": "77",
+        "Player": "Tomáš Souček",
+        "Team": "West Ham",
+        "Goals": "5",
+        "xG": "5.7"
+      },
+      {
+        "Rk": "78",
+        "Player": "Marcos Alonso",
+        "Team": "Chelsea",
+        "Goals": "4",
+        "xG": "3.6"
+      },
+      {
+        "Rk": "79",
+        "Player": "Pierre-Emerick Aubameyang",
+        "Team": "Arsenal",
+        "Goals": "4",
+        "xG": "6.6"
+      },
+      {
+        "Rk": "80",
+        "Player": "Jan Bednarek",
+        "Team": "Southampton",
+        "Goals": "4",
+        "xG": "2.4"
+      },
+      {
+        "Rk": "81",
+        "Player": "Christian Benteke",
+        "Team": "Crystal Palace",
+        "Goals": "4",
+        "xG": "5.6"
+      },
+      {
+        "Rk": "82",
+        "Player": "Emi Buendía",
+        "Team": "Aston Villa",
+        "Goals": "4",
+        "xG": "3.5"
+      },
+      {
+        "Rk": "83",
+        "Player": "Matty Cash",
+        "Team": "Aston Villa",
+        "Goals": "4",
+        "xG": "3.4"
+      },
+      {
+        "Rk": "84",
+        "Player": "Conor Coady",
+        "Team": "Wolves",
+        "Goals": "4",
+        "xG": "2.9"
+      },
+      {
+        "Rk": "85",
+        "Player": "Luis Díaz",
+        "Team": "Liverpool",
+        "Goals": "4",
+        "xG": "4.4"
+      },
+      {
+        "Rk": "86",
+        "Player": "Mohamed Elyounoussi",
+        "Team": "Southampton",
+        "Goals": "4",
+        "xG": "6.1"
+      },
+      {
+        "Rk": "87",
+        "Player": "Fred",
+        "Team": "Manchester Utd",
+        "Goals": "4",
+        "xG": "1.4"
+      },
+      {
+        "Rk": "88",
+        "Player": "Anthony Gordon",
+        "Team": "Everton",
+        "Goals": "4",
+        "xG": "4.8"
+      },
+      {
+        "Rk": "89",
+        "Player": "Kelechi Iheanacho",
+        "Team": "Leicester City",
+        "Goals": "4",
+        "xG": "3.5"
+      },
+      {
+        "Rk": "90",
+        "Player": "Daniel James",
+        "Team": "Leeds United",
+        "Goals": "4",
+        "xG": "6.8"
+      },
+      {
+        "Rk": "91",
+        "Player": "Vitaly Janelt",
+        "Team": "Brentford",
+        "Goals": "4",
+        "xG": "3"
+      },
+      {
+        "Rk": "92",
+        "Player": "Joelinton",
+        "Team": "Newcastle Utd",
+        "Goals": "4",
+        "xG": "4.2"
+      },
+      {
+        "Rk": "93",
+        "Player": "Alexandre Lacazette",
+        "Team": "Arsenal",
+        "Goals": "4",
+        "xG": "9.2"
+      },
+      {
+        "Rk": "94",
+        "Player": "Aymeric Laporte",
+        "Team": "Manchester City",
+        "Goals": "4",
+        "xG": "4.7"
+      },
+      {
+        "Rk": "95",
+        "Player": "Bryan Mbeumo",
+        "Team": "Brentford",
+        "Goals": "4",
+        "xG": "9.6"
+      },
+      {
+        "Rk": "96",
+        "Player": "Rúben Neves",
+        "Team": "Wolves",
+        "Goals": "4",
+        "xG": "1.7"
+      },
+      {
+        "Rk": "97",
+        "Player": "Marcus Rashford",
+        "Team": "Manchester Utd",
+        "Goals": "4",
+        "xG": "3.1"
+      },
+      {
+        "Rk": "98",
+        "Player": "Jeffrey Schlupp",
+        "Team": "Crystal Palace",
+        "Goals": "4",
+        "xG": "3.9"
+      },
+      {
+        "Rk": "99",
+        "Player": "Timo Werner",
+        "Team": "Chelsea",
+        "Goals": "4",
+        "xG": "7.1"
+      },
+      {
+        "Rk": "100",
+        "Player": "Hakim Ziyech",
+        "Team": "Chelsea",
+        "Goals": "4",
+        "xG": "4.1"
+      },
+      {
+        "Rk": "101",
+        "Player": "Jordan Ayew",
+        "Team": "Crystal Palace",
+        "Goals": "3",
+        "xG": "4"
+      },
+      {
+        "Rk": "102",
+        "Player": "Steven Bergwijn",
+        "Team": "Tottenham",
+        "Goals": "3",
+        "xG": "2.6"
+      },
+      {
+        "Rk": "103",
+        "Player": "Sergi Canós",
+        "Team": "Brentford",
+        "Goals": "3",
+        "xG": "3.4"
+      },
+      {
+        "Rk": "104",
+        "Player": "Trevoh Chalobah",
+        "Team": "Chelsea",
+        "Goals": "3",
+        "xG": "1.3"
+      },
+      {
+        "Rk": "105",
+        "Player": "Ben Chilwell",
+        "Team": "Chelsea",
+        "Goals": "3",
+        "xG": "1"
+      },
+      {
+        "Rk": "106",
+        "Player": "Jack Grealish",
+        "Team": "Manchester City",
+        "Goals": "3",
+        "xG": "5.9"
+      },
+      {
+        "Rk": "107",
+        "Player": "Rico Henry",
+        "Team": "Brentford",
+        "Goals": "3",
+        "xG": "1.5"
+      },
+      {
+        "Rk": "108",
+        "Player": "Pontus Jansson",
+        "Team": "Brentford",
+        "Goals": "3",
+        "xG": "3"
+      },
+      {
+        "Rk": "109",
+        "Player": "João Pedro",
+        "Team": "Watford",
+        "Goals": "3",
+        "xG": "4.7"
+      },
+      {
+        "Rk": "110",
+        "Player": "Michael Keane",
+        "Team": "Everton",
+        "Goals": "3",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "111",
+        "Player": "Naby Keïta",
+        "Team": "Liverpool",
+        "Goals": "3",
+        "xG": "2.1"
+      },
+      {
+        "Rk": "112",
+        "Player": "Diego Llorente",
+        "Team": "Leeds United",
+        "Goals": "3",
+        "xG": "1.3"
+      },
+      {
+        "Rk": "113",
+        "Player": "Joël Matip",
+        "Team": "Liverpool",
+        "Goals": "3",
+        "xG": "3.5"
+      },
+      {
+        "Rk": "114",
+        "Player": "John McGinn",
+        "Team": "Aston Villa",
+        "Goals": "3",
+        "xG": "1.8"
+      },
+      {
+        "Rk": "115",
+        "Player": "Ben Mee",
+        "Team": "Burnley",
+        "Goals": "3",
+        "xG": "2.5"
+      },
+      {
+        "Rk": "116",
+        "Player": "Takumi Minamino",
+        "Team": "Liverpool",
+        "Goals": "3",
+        "xG": "1.7"
+      },
+      {
+        "Rk": "117",
+        "Player": "Christian Nørgaard",
+        "Team": "Brentford",
+        "Goals": "3",
+        "xG": "4.3"
+      },
+      {
+        "Rk": "118",
+        "Player": "Divock Origi",
+        "Team": "Liverpool",
+        "Goals": "3",
+        "xG": "1.4"
+      },
+      {
+        "Rk": "119",
+        "Player": "Andrew Robertson",
+        "Team": "Liverpool",
+        "Goals": "3",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "120",
+        "Player": "Antonio Rüdiger",
+        "Team": "Chelsea",
+        "Goals": "3",
+        "xG": "3.1"
+      },
+      {
+        "Rk": "121",
+        "Player": "Jadon Sancho",
+        "Team": "Manchester Utd",
+        "Goals": "3",
+        "xG": "4"
+      },
+      {
+        "Rk": "122",
+        "Player": "Thiago Silva",
+        "Team": "Chelsea",
+        "Goals": "3",
+        "xG": "1.3"
+      },
+      {
+        "Rk": "123",
+        "Player": "Andros Townsend",
+        "Team": "Everton",
+        "Goals": "3",
+        "xG": "2.4"
+      },
+      {
+        "Rk": "124",
+        "Player": "Virgil van Dijk",
+        "Team": "Liverpool",
+        "Goals": "3",
+        "xG": "2.5"
+      },
+      {
+        "Rk": "125",
+        "Player": "Chris Wood",
+        "Team": "Burnley",
+        "Goals": "3",
+        "xG": "4.7"
+      },
+      {
+        "Rk": "126",
+        "Player": "Nathan Aké",
+        "Team": "Manchester City",
+        "Goals": "2",
+        "xG": "0.7"
+      },
+      {
+        "Rk": "127",
+        "Player": "Trent Alexander-Arnold",
+        "Team": "Liverpool",
+        "Goals": "2",
+        "xG": "2.9"
+      },
+      {
+        "Rk": "128",
+        "Player": "Adam Armstrong",
+        "Team": "Southampton",
+        "Goals": "2",
+        "xG": "4.9"
+      },
+      {
+        "Rk": "129",
+        "Player": "Stuart Armstrong",
+        "Team": "Southampton",
+        "Goals": "2",
+        "xG": "3.3"
+      },
+      {
+        "Rk": "130",
+        "Player": "Luke Ayling",
+        "Team": "Leeds United",
+        "Goals": "2",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "131",
+        "Player": "Patrick Bamford",
+        "Team": "Leeds United",
+        "Goals": "2",
+        "xG": "2.9"
+      },
+      {
+        "Rk": "132",
+        "Player": "Josh Brownhill",
+        "Team": "Burnley",
+        "Goals": "2",
+        "xG": "1.7"
+      },
+      {
+        "Rk": "133",
+        "Player": "Jonny Castro",
+        "Team": "Wolves",
+        "Goals": "2",
+        "xG": "1"
+      },
+      {
+        "Rk": "134",
+        "Player": "Edinson Cavani",
+        "Team": "Manchester Utd",
+        "Goals": "2",
+        "xG": "3.3"
+      },
+      {
+        "Rk": "135",
+        "Player": "Nathan Collins",
+        "Team": "Burnley",
+        "Goals": "2",
+        "xG": "1.8"
+      },
+      {
+        "Rk": "136",
+        "Player": "Aaron Cresswell",
+        "Team": "West Ham",
+        "Goals": "2",
+        "xG": "1.3"
+      },
+      {
+        "Rk": "137",
+        "Player": "Craig Dawson",
+        "Team": "West Ham",
+        "Goals": "2",
+        "xG": "3.5"
+      },
+      {
+        "Rk": "138",
+        "Player": "Leander Dendoncker",
+        "Team": "Wolves",
+        "Goals": "2",
+        "xG": "2.9"
+      },
+      {
+        "Rk": "139",
+        "Player": "Rúben Dias",
+        "Team": "Manchester City",
+        "Goals": "2",
+        "xG": "2.7"
+      },
+      {
+        "Rk": "140",
+        "Player": "Matt Doherty",
+        "Team": "Tottenham",
+        "Goals": "2",
+        "xG": "2.7"
+      },
+      {
+        "Rk": "141",
+        "Player": "Abdoulaye Doucouré",
+        "Team": "Everton",
+        "Goals": "2",
+        "xG": "3"
+      },
+      {
+        "Rk": "142",
+        "Player": "Anthony Elanga",
+        "Team": "Manchester Utd",
+        "Goals": "2",
+        "xG": "2.7"
+      },
+      {
+        "Rk": "143",
+        "Player": "Fernandinho",
+        "Team": "Manchester City",
+        "Goals": "2",
+        "xG": "1.8"
+      },
+      {
+        "Rk": "144",
+        "Player": "Ryan Fraser",
+        "Team": "Newcastle Utd",
+        "Goals": "2",
+        "xG": "3.2"
+      },
+      {
+        "Rk": "145",
+        "Player": "Joe Gelhardt",
+        "Team": "Leeds United",
+        "Goals": "2",
+        "xG": "3.3"
+      },
+      {
+        "Rk": "146",
+        "Player": "Pascal Groß",
+        "Team": "Brighton",
+        "Goals": "2",
+        "xG": "3.1"
+      },
+      {
+        "Rk": "147",
+        "Player": "Marc Guéhi",
+        "Team": "Crystal Palace",
+        "Goals": "2",
+        "xG": "2.4"
+      },
+      {
+        "Rk": "148",
+        "Player": "Jordan Henderson",
+        "Team": "Liverpool",
+        "Goals": "2",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "149",
+        "Player": "Mason Holgate",
+        "Team": "Everton",
+        "Goals": "2",
+        "xG": "1"
+      },
+      {
+        "Rk": "150",
+        "Player": "Pierre Højbjerg",
+        "Team": "Tottenham",
+        "Goals": "2",
+        "xG": "2.8"
+      },
+      {
+        "Rk": "151",
+        "Player": "Alex Iwobi",
+        "Team": "Everton",
+        "Goals": "2",
+        "xG": "2.7"
+      },
+      {
+        "Rk": "152",
+        "Player": "N'Golo Kanté",
+        "Team": "Chelsea",
+        "Goals": "2",
+        "xG": "2.3"
+      },
+      {
+        "Rk": "153",
+        "Player": "Ezri Konsa",
+        "Team": "Aston Villa",
+        "Goals": "2",
+        "xG": "1.9"
+      },
+      {
+        "Rk": "154",
+        "Player": "Mateo Kovačić",
+        "Team": "Chelsea",
+        "Goals": "2",
+        "xG": "2.3"
+      },
+      {
+        "Rk": "155",
+        "Player": "Aaron Lennon",
+        "Team": "Burnley",
+        "Goals": "2",
+        "xG": "1.3"
+      },
+      {
+        "Rk": "156",
+        "Player": "Jesse Lingard",
+        "Team": "Manchester Utd",
+        "Goals": "2",
+        "xG": "0.7"
+      },
+      {
+        "Rk": "157",
+        "Player": "Douglas Luiz",
+        "Team": "Aston Villa",
+        "Goals": "2",
+        "xG": "2"
+      },
+      {
+        "Rk": "158",
+        "Player": "Lucas Moura",
+        "Team": "Tottenham",
+        "Goals": "2",
+        "xG": "3.9"
+      },
+      {
+        "Rk": "159",
+        "Player": "João Moutinho",
+        "Team": "Wolves",
+        "Goals": "2",
+        "xG": "1.4"
+      },
+      {
+        "Rk": "160",
+        "Player": "Enock Mwepu",
+        "Team": "Brighton",
+        "Goals": "2",
+        "xG": "2.4"
+      },
+      {
+        "Rk": "161",
+        "Player": "Michael Olise",
+        "Team": "Crystal Palace",
+        "Goals": "2",
+        "xG": "2"
+      },
+      {
+        "Rk": "162",
+        "Player": "Alex Oxlade-Chamberlain",
+        "Team": "Liverpool",
+        "Goals": "2",
+        "xG": "1.4"
+      },
+      {
+        "Rk": "163",
+        "Player": "Thomas Partey",
+        "Team": "Arsenal",
+        "Goals": "2",
+        "xG": "3.3"
+      },
+      {
+        "Rk": "164",
+        "Player": "Ayoze Pérez",
+        "Team": "Leicester City",
+        "Goals": "2",
+        "xG": "1.5"
+      },
+      {
+        "Rk": "165",
+        "Player": "Daniel Podence",
+        "Team": "Wolves",
+        "Goals": "2",
+        "xG": "2.7"
+      },
+      {
+        "Rk": "166",
+        "Player": "Sergio Reguilón",
+        "Team": "Tottenham",
+        "Goals": "2",
+        "xG": "3.1"
+      },
+      {
+        "Rk": "167",
+        "Player": "Jay Rodriguez",
+        "Team": "Burnley",
+        "Goals": "2",
+        "xG": "5.6"
+      },
+      {
+        "Rk": "168",
+        "Player": "Oriol Romeu",
+        "Team": "Southampton",
+        "Goals": "2",
+        "xG": "1.7"
+      },
+      {
+        "Rk": "169",
+        "Player": "Romain Saïss",
+        "Team": "Wolves",
+        "Goals": "2",
+        "xG": "3"
+      },
+      {
+        "Rk": "170",
+        "Player": "Davinson Sánchez",
+        "Team": "Tottenham",
+        "Goals": "2",
+        "xG": "2.1"
+      },
+      {
+        "Rk": "171",
+        "Player": "Josh Sargent",
+        "Team": "Norwich City",
+        "Goals": "2",
+        "xG": "2.7"
+      },
+      {
+        "Rk": "172",
+        "Player": "Fabian Schär",
+        "Team": "Newcastle Utd",
+        "Goals": "2",
+        "xG": "1.5"
+      },
+      {
+        "Rk": "173",
+        "Player": "Jonjo Shelvey",
+        "Team": "Newcastle Utd",
+        "Goals": "2",
+        "xG": "1.4"
+      },
+      {
+        "Rk": "174",
+        "Player": "Moussa Sissoko",
+        "Team": "Watford",
+        "Goals": "2",
+        "xG": "3.4"
+      },
+      {
+        "Rk": "175",
+        "Player": "Ferrán Torres",
+        "Team": "Manchester City",
+        "Goals": "2",
+        "xG": "2.3"
+      },
+      {
+        "Rk": "176",
+        "Player": "Francisco Trincão",
+        "Team": "Wolves",
+        "Goals": "2",
+        "xG": "3.9"
+      },
+      {
+        "Rk": "177",
+        "Player": "Kieran Trippier",
+        "Team": "Newcastle Utd",
+        "Goals": "2",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "178",
+        "Player": "Matěj Vydra",
+        "Team": "Burnley",
+        "Goals": "2",
+        "xG": "2.9"
+      },
+      {
+        "Rk": "179",
+        "Player": "Adam Webster",
+        "Team": "Brighton",
+        "Goals": "2",
+        "xG": "1"
+      },
+      {
+        "Rk": "180",
+        "Player": "Wout Weghorst",
+        "Team": "Burnley",
+        "Goals": "2",
+        "xG": "5.1"
+      },
+      {
+        "Rk": "181",
+        "Player": "Joe Willock",
+        "Team": "Newcastle Utd",
+        "Goals": "2",
+        "xG": "3.8"
+      },
+      {
+        "Rk": "182",
+        "Player": "Chris Wood",
+        "Team": "Newcastle Utd",
+        "Goals": "2",
+        "xG": "3.4"
+      },
+      {
+        "Rk": "183",
+        "Player": "Rayan Aït Nouri",
+        "Team": "Wolves",
+        "Goals": "1",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "184",
+        "Player": "Kristoffer Ajer",
+        "Team": "Brentford",
+        "Goals": "1",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "185",
+        "Player": "Marc Albrighton",
+        "Team": "Leicester City",
+        "Goals": "1",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "186",
+        "Player": "Thiago Alcántara",
+        "Team": "Liverpool",
+        "Goals": "1",
+        "xG": "2.3"
+      },
+      {
+        "Rk": "187",
+        "Player": "Dele Alli",
+        "Team": "Tottenham",
+        "Goals": "1",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "188",
+        "Player": "Miguel Almirón",
+        "Team": "Newcastle Utd",
+        "Goals": "1",
+        "xG": "2.5"
+      },
+      {
+        "Rk": "189",
+        "Player": "César Azpilicueta",
+        "Team": "Chelsea",
+        "Goals": "1",
+        "xG": "1.2"
+      },
+      {
+        "Rk": "190",
+        "Player": "Leon Bailey",
+        "Team": "Aston Villa",
+        "Goals": "1",
+        "xG": "1.8"
+      },
+      {
+        "Rk": "191",
+        "Player": "Shandon Baptiste",
+        "Team": "Brentford",
+        "Goals": "1",
+        "xG": "1"
+      },
+      {
+        "Rk": "192",
+        "Player": "Ross Barkley",
+        "Team": "Chelsea",
+        "Goals": "1",
+        "xG": "1.3"
+      },
+      {
+        "Rk": "193",
+        "Player": "Ashley Barnes",
+        "Team": "Burnley",
+        "Goals": "1",
+        "xG": "2.3"
+      },
+      {
+        "Rk": "194",
+        "Player": "Donny van de Beek",
+        "Team": "Manchester Utd",
+        "Goals": "1",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "195",
+        "Player": "Donny van de Beek",
+        "Team": "Everton",
+        "Goals": "1",
+        "xG": "1"
+      },
+      {
+        "Rk": "196",
+        "Player": "Yves Bissouma",
+        "Team": "Brighton",
+        "Goals": "1",
+        "xG": "1.3"
+      },
+      {
+        "Rk": "197",
+        "Player": "Jarrad Branthwaite",
+        "Team": "Everton",
+        "Goals": "1",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "198",
+        "Player": "Dan Burn",
+        "Team": "Brighton",
+        "Goals": "1",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "199",
+        "Player": "Moisés Caicedo",
+        "Team": "Brighton",
+        "Goals": "1",
+        "xG": "1"
+      },
+      {
+        "Rk": "200",
+        "Player": "João Cancelo",
+        "Team": "Manchester City",
+        "Goals": "1",
+        "xG": "5.1"
+      },
+      {
+        "Rk": "201",
+        "Player": "Timothy Castagne",
+        "Team": "Leicester City",
+        "Goals": "1",
+        "xG": "0.9"
+      },
+      {
+        "Rk": "202",
+        "Player": "Calum Chambers",
+        "Team": "Aston Villa",
+        "Goals": "1",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "203",
+        "Player": "Séamus Coleman",
+        "Team": "Everton",
+        "Goals": "1",
+        "xG": "1.1"
+      },
+      {
+        "Rk": "204",
+        "Player": "Jack Cork",
+        "Team": "Burnley",
+        "Goals": "1",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "205",
+        "Player": "Marc Cucurella",
+        "Team": "Brighton",
+        "Goals": "1",
+        "xG": "1"
+      },
+      {
+        "Rk": "206",
+        "Player": "Stuart Dallas",
+        "Team": "Leeds United",
+        "Goals": "1",
+        "xG": "2.3"
+      },
+      {
+        "Rk": "207",
+        "Player": "Ben Davies",
+        "Team": "Tottenham",
+        "Goals": "1",
+        "xG": "2.1"
+      },
+      {
+        "Rk": "208",
+        "Player": "Tom Davies",
+        "Team": "Everton",
+        "Goals": "1",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "209",
+        "Player": "Kiernan Dewsbury-Hall",
+        "Team": "Leicester City",
+        "Goals": "1",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "210",
+        "Player": "Kieran Dowell",
+        "Team": "Norwich City",
+        "Goals": "1",
+        "xG": "1.2"
+      },
+      {
+        "Rk": "211",
+        "Player": "Shane Duffy",
+        "Team": "Brighton",
+        "Goals": "1",
+        "xG": "1.8"
+      },
+      {
+        "Rk": "212",
+        "Player": "Lewis Dunk",
+        "Team": "Brighton",
+        "Goals": "1",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "213",
+        "Player": "Emerson",
+        "Team": "Tottenham",
+        "Goals": "1",
+        "xG": "1.8"
+      },
+      {
+        "Rk": "214",
+        "Player": "Christian Eriksen",
+        "Team": "Brentford",
+        "Goals": "1",
+        "xG": "1.4"
+      },
+      {
+        "Rk": "215",
+        "Player": "Jonny Evans",
+        "Team": "Leicester City",
+        "Goals": "1",
+        "xG": "0.7"
+      },
+      {
+        "Rk": "216",
+        "Player": "Eberechi Eze",
+        "Team": "Crystal Palace",
+        "Goals": "1",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "217",
+        "Player": "Anwar El Ghazi",
+        "Team": "Aston Villa",
+        "Goals": "1",
+        "xG": "1.2"
+      },
+      {
+        "Rk": "218",
+        "Player": "Saman Ghoddos",
+        "Team": "Brentford",
+        "Goals": "1",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "219",
+        "Player": "Dan Gosling",
+        "Team": "Watford",
+        "Goals": "1",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "220",
+        "Player": "Grant Hanley",
+        "Team": "Norwich City",
+        "Goals": "1",
+        "xG": "2.1"
+      },
+      {
+        "Rk": "221",
+        "Player": "Kortney Hause",
+        "Team": "Aston Villa",
+        "Goals": "1",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "222",
+        "Player": "Isaac Hayden",
+        "Team": "Newcastle Utd",
+        "Goals": "1",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "223",
+        "Player": "Jeff Hendrick",
+        "Team": "Newcastle Utd",
+        "Goals": "1",
+        "xG": "0"
+      },
+      {
+        "Rk": "224",
+        "Player": "Rob Holding",
+        "Team": "Arsenal",
+        "Goals": "1",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "225",
+        "Player": "Callum Hudson-Odoi",
+        "Team": "Chelsea",
+        "Goals": "1",
+        "xG": "2.5"
+      },
+      {
+        "Rk": "226",
+        "Player": "Adam Idah",
+        "Team": "Norwich City",
+        "Goals": "1",
+        "xG": "2.2"
+      },
+      {
+        "Rk": "227",
+        "Player": "Ben Johnson",
+        "Team": "West Ham",
+        "Goals": "1",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "228",
+        "Player": "Curtis Jones",
+        "Team": "Liverpool",
+        "Goals": "1",
+        "xG": "1.2"
+      },
+      {
+        "Rk": "229",
+        "Player": "Mathias Jørgensen",
+        "Team": "Brentford",
+        "Goals": "1",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "230",
+        "Player": "Hassane Kamara",
+        "Team": "Watford",
+        "Goals": "1",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "231",
+        "Player": "Max Kilman",
+        "Team": "Wolves",
+        "Goals": "1",
+        "xG": "1"
+      },
+      {
+        "Rk": "232",
+        "Player": "Mateusz Klich",
+        "Team": "Leeds United",
+        "Goals": "1",
+        "xG": "3.8"
+      },
+      {
+        "Rk": "233",
+        "Player": "Juraj Kucka",
+        "Team": "Watford",
+        "Goals": "1",
+        "xG": "4.1"
+      },
+      {
+        "Rk": "234",
+        "Player": "Jamaal Lascelles",
+        "Team": "Newcastle Utd",
+        "Goals": "1",
+        "xG": "1.2"
+      },
+      {
+        "Rk": "235",
+        "Player": "Pierre Lees-Melou",
+        "Team": "Norwich City",
+        "Goals": "1",
+        "xG": "1.7"
+      },
+      {
+        "Rk": "236",
+        "Player": "Valentino Livramento",
+        "Team": "Southampton",
+        "Goals": "1",
+        "xG": "1.3"
+      },
+      {
+        "Rk": "237",
+        "Player": "Shane Long",
+        "Team": "Southampton",
+        "Goals": "1",
+        "xG": "1.2"
+      },
+      {
+        "Rk": "238",
+        "Player": "Sean Longstaff",
+        "Team": "Newcastle Utd",
+        "Goals": "1",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "239",
+        "Player": "Matthew Lowton",
+        "Team": "Burnley",
+        "Goals": "1",
+        "xG": "0.7"
+      },
+      {
+        "Rk": "240",
+        "Player": "Harry Maguire",
+        "Team": "Manchester Utd",
+        "Goals": "1",
+        "xG": "2.4"
+      },
+      {
+        "Rk": "241",
+        "Player": "Javier Manquillo",
+        "Team": "Newcastle Utd",
+        "Goals": "1",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "242",
+        "Player": "Anthony Martial",
+        "Team": "Manchester Utd",
+        "Goals": "1",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "243",
+        "Player": "Arthur Masuaku",
+        "Team": "West Ham",
+        "Goals": "1",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "244",
+        "Player": "Kenny McLean",
+        "Team": "Norwich City",
+        "Goals": "1",
+        "xG": "2.2"
+      },
+      {
+        "Rk": "245",
+        "Player": "Scott McTominay",
+        "Team": "Manchester Utd",
+        "Goals": "1",
+        "xG": "1.8"
+      },
+      {
+        "Rk": "246",
+        "Player": "Tyrone Mings",
+        "Team": "Aston Villa",
+        "Goals": "1",
+        "xG": "2.2"
+      },
+      {
+        "Rk": "247",
+        "Player": "Jacob Murphy",
+        "Team": "Newcastle Utd",
+        "Goals": "1",
+        "xG": "2.7"
+      },
+      {
+        "Rk": "248",
+        "Player": "Vitaliy Mykolenko",
+        "Team": "Everton",
+        "Goals": "1",
+        "xG": "0.7"
+      },
+      {
+        "Rk": "249",
+        "Player": "Tanguy Ndombele",
+        "Team": "Tottenham",
+        "Goals": "1",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "250",
+        "Player": "Pedro Neto",
+        "Team": "Wolves",
+        "Goals": "1",
+        "xG": "2.3"
+      },
+      {
+        "Rk": "251",
+        "Player": "Mark Noble",
+        "Team": "West Ham",
+        "Goals": "1",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "252",
+        "Player": "Mathias Normann",
+        "Team": "Norwich City",
+        "Goals": "1",
+        "xG": "1"
+      },
+      {
+        "Rk": "253",
+        "Player": "Angelo Ogbonna",
+        "Team": "West Ham",
+        "Goals": "1",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "254",
+        "Player": "Andrew Omobamidele",
+        "Team": "Norwich City",
+        "Goals": "1",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "255",
+        "Player": "Nicolas Pépé",
+        "Team": "Arsenal",
+        "Goals": "1",
+        "xG": "2.7"
+      },
+      {
+        "Rk": "256",
+        "Player": "Ricardo Pereira",
+        "Team": "Leicester City",
+        "Goals": "1",
+        "xG": "0.9"
+      },
+      {
+        "Rk": "257",
+        "Player": "Ethan Pinnock",
+        "Team": "Brentford",
+        "Goals": "1",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "258",
+        "Player": "Paul Pogba",
+        "Team": "Manchester Utd",
+        "Goals": "1",
+        "xG": "2.8"
+      },
+      {
+        "Rk": "259",
+        "Player": "Milot Rashica",
+        "Team": "Norwich City",
+        "Goals": "1",
+        "xG": "3.1"
+      },
+      {
+        "Rk": "260",
+        "Player": "Nathan Redmond",
+        "Team": "Southampton",
+        "Goals": "1",
+        "xG": "2.1"
+      },
+      {
+        "Rk": "261",
+        "Player": "Declan Rice",
+        "Team": "West Ham",
+        "Goals": "1",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "262",
+        "Player": "Connor Roberts",
+        "Team": "Burnley",
+        "Goals": "1",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "263",
+        "Player": "Tyler Roberts",
+        "Team": "Leeds United",
+        "Goals": "1",
+        "xG": "2.4"
+      },
+      {
+        "Rk": "264",
+        "Player": "Mads Roerslev",
+        "Team": "Brentford",
+        "Goals": "1",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "265",
+        "Player": "Cristian Romero",
+        "Team": "Tottenham",
+        "Goals": "1",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "266",
+        "Player": "Salomón Rondón",
+        "Team": "Everton",
+        "Goals": "1",
+        "xG": "2.4"
+      },
+      {
+        "Rk": "267",
+        "Player": "Cédric Soares",
+        "Team": "Arsenal",
+        "Goals": "1",
+        "xG": "0.7"
+      },
+      {
+        "Rk": "268",
+        "Player": "Çağlar Söyüncü",
+        "Team": "Leicester City",
+        "Goals": "1",
+        "xG": "1.1"
+      },
+      {
+        "Rk": "269",
+        "Player": "John Stones",
+        "Team": "Manchester City",
+        "Goals": "1",
+        "xG": "1.1"
+      },
+      {
+        "Rk": "270",
+        "Player": "Pascal Struijk",
+        "Team": "Leeds United",
+        "Goals": "1",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "271",
+        "Player": "Matt Targett",
+        "Team": "Aston Villa",
+        "Goals": "1",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "272",
+        "Player": "James Tarkowski",
+        "Team": "Burnley",
+        "Goals": "1",
+        "xG": "2.8"
+      },
+      {
+        "Rk": "273",
+        "Player": "Nuno Tavares",
+        "Team": "Arsenal",
+        "Goals": "1",
+        "xG": "2.3"
+      },
+      {
+        "Rk": "274",
+        "Player": "Kieran Tierney",
+        "Team": "Arsenal",
+        "Goals": "1",
+        "xG": "0.9"
+      },
+      {
+        "Rk": "275",
+        "Player": "James Tomkins",
+        "Team": "Crystal Palace",
+        "Goals": "1",
+        "xG": "0.7"
+      },
+      {
+        "Rk": "276",
+        "Player": "Adama Traoré",
+        "Team": "Wolves",
+        "Goals": "1",
+        "xG": "2.7"
+      },
+      {
+        "Rk": "277",
+        "Player": "Raphaël Varane",
+        "Team": "Manchester Utd",
+        "Goals": "1",
+        "xG": "0.9"
+      },
+      {
+        "Rk": "278",
+        "Player": "Joël Veltman",
+        "Team": "Brighton",
+        "Goals": "1",
+        "xG": "0.9"
+      },
+      {
+        "Rk": "279",
+        "Player": "Nikola Vlašić",
+        "Team": "West Ham",
+        "Goals": "1",
+        "xG": "1"
+      },
+      {
+        "Rk": "280",
+        "Player": "Kyle Walker-Peters",
+        "Team": "Southampton",
+        "Goals": "1",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "281",
+        "Player": "Granit Xhaka",
+        "Team": "Arsenal",
+        "Goals": "1",
+        "xG": "1.7"
+      },
+      {
+        "Rk": "282",
+        "Player": "Andriy Yarmolenko",
+        "Team": "West Ham",
+        "Goals": "1",
+        "xG": "1.1"
+      },
+      {
+        "Rk": "283",
+        "Player": "Kurt Zouma",
+        "Team": "West Ham",
+        "Goals": "1",
+        "xG": "0.9"
+      },
+      {
+        "Rk": "284",
+        "Player": "Max Aarons",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.9"
+      },
+      {
+        "Rk": "285",
+        "Player": "Alisson",
+        "Team": "Liverpool",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "286",
+        "Player": "Allan",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "287",
+        "Player": "Dele Alli",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "288",
+        "Player": "Steven Alzate",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "289",
+        "Player": "Daniel Amartey",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "290",
+        "Player": "Joachim Andersen",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0.9"
+      },
+      {
+        "Rk": "291",
+        "Player": "Cameron Archer",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "292",
+        "Player": "Alphonse Areola",
+        "Team": "West Ham",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "293",
+        "Player": "Kepa Arrizabalaga",
+        "Team": "Chelsea",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "294",
+        "Player": "Harrison Ashby",
+        "Team": "West Ham",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "295",
+        "Player": "Daniel Bachmann",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "296",
+        "Player": "Eric Bailly",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "297",
+        "Player": "Folarin Balogun",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "298",
+        "Player": "Lewis Bate",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "299",
+        "Player": "Mads Bech Sørensen",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "300",
+        "Player": "Asmir Begović",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "301",
+        "Player": "Rodrigo Bentancur",
+        "Team": "Tottenham",
+        "Goals": "0",
+        "xG": "1.1"
+      },
+      {
+        "Rk": "302",
+        "Player": "Jóhann Berg Guðmundsson",
+        "Team": "Burnley",
+        "Goals": "0",
+        "xG": "1.8"
+      },
+      {
+        "Rk": "303",
+        "Player": "Ryan Bertrand",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "304",
+        "Player": "Mads Bidstrup",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "305",
+        "Player": "Willy Boly",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "306",
+        "Player": "Lewis Brunt",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "307",
+        "Player": "Bryan",
+        "Team": "Tottenham",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "308",
+        "Player": "Dan Burn",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "0.9"
+      },
+      {
+        "Rk": "309",
+        "Player": "Jack Butland",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "310",
+        "Player": "Sam Byram",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "311",
+        "Player": "Willy Caballero",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "312",
+        "Player": "Chem Campbell",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "313",
+        "Player": "Todd Cantwell",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "314",
+        "Player": "Craig Cathcart",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "315",
+        "Player": "Kayky Chagas",
+        "Team": "Manchester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "316",
+        "Player": "Calum Chambers",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "317",
+        "Player": "Daniel Chesters",
+        "Team": "West Ham",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "318",
+        "Player": "Chiquinho",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "319",
+        "Player": "Hamza Choudhury",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "320",
+        "Player": "Andreas Christensen",
+        "Team": "Chelsea",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "321",
+        "Player": "Carney Chukwuemeka",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "322",
+        "Player": "Ciaran Clark",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "1.3"
+      },
+      {
+        "Rk": "323",
+        "Player": "Tom Cleverley",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.9"
+      },
+      {
+        "Rk": "324",
+        "Player": "Nathaniel Clyne",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "325",
+        "Player": "Aaron Connolly",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "326",
+        "Player": "Liam Cooper",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "327",
+        "Player": "Hélder Costa",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "328",
+        "Player": "Vladimír Coufal",
+        "Team": "West Ham",
+        "Goals": "0",
+        "xG": "1"
+      },
+      {
+        "Rk": "329",
+        "Player": "Charlie Cresswell",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "330",
+        "Player": "Luke Cundle",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "331",
+        "Player": "Diogo Dalot",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0.7"
+      },
+      {
+        "Rk": "332",
+        "Player": "Karl Darlow",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "333",
+        "Player": "Josh Dasilva",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "334",
+        "Player": "Keinan Davis",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "335",
+        "Player": "Troy Deeney",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "336",
+        "Player": "Liam Delap",
+        "Team": "Manchester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "337",
+        "Player": "Fabian Delph",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "338",
+        "Player": "Ibrahima Diallo",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "339",
+        "Player": "Eric Dier",
+        "Team": "Tottenham",
+        "Goals": "0",
+        "xG": "1.3"
+      },
+      {
+        "Rk": "340",
+        "Player": "Lucas Digne",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "341",
+        "Player": "Lucas Digne",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "342",
+        "Player": "Issa Diop",
+        "Team": "West Ham",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "343",
+        "Player": "Moussa Djenepo",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "1.4"
+      },
+      {
+        "Rk": "344",
+        "Player": "Lewis Dobbin",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "345",
+        "Player": "Cody Drameh",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "346",
+        "Player": "Martin Dúbravka",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "347",
+        "Player": "Paul Dummett",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "348",
+        "Player": "Ederson",
+        "Team": "Manchester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "349",
+        "Player": "CJ Egan-Riley",
+        "Team": "Manchester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "350",
+        "Player": "Harvey Elliott",
+        "Team": "Liverpool",
+        "Goals": "0",
+        "xG": "1.1"
+      },
+      {
+        "Rk": "351",
+        "Player": "Mohamed Elneny",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "352",
+        "Player": "Oghenekaro Etebo",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "353",
+        "Player": "Łukasz Fabiański",
+        "Team": "West Ham",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "354",
+        "Player": "Kiko Femenía",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "355",
+        "Player": "Evan Ferguson",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "356",
+        "Player": "Nathan Ferguson",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "357",
+        "Player": "Álvaro Fernández",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "358",
+        "Player": "Federico Fernández",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "359",
+        "Player": "Junior Firpo",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "1.1"
+      },
+      {
+        "Rk": "360",
+        "Player": "Ashley Fletcher",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "361",
+        "Player": "Wesley Fofana",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "362",
+        "Player": "Adam Forshaw",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "363",
+        "Player": "Marcus Forss",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "364",
+        "Player": "Fraser Forster",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "365",
+        "Player": "Ben Foster",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "366",
+        "Player": "Tariqe Fosu",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "367",
+        "Player": "Ryan Fredericks",
+        "Team": "West Ham",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "368",
+        "Player": "Leo Fuhr Hjelde",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "369",
+        "Player": "Alejandro Garnacho",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "370",
+        "Player": "Dwight Gayle",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "371",
+        "Player": "Jean-Philippe Gbamin",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "372",
+        "Player": "David de Gea",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "373",
+        "Player": "Anwar El Ghazi",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "374",
+        "Player": "Dimitris Giannoulis",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "375",
+        "Player": "Morgan Gibbs-White",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "376",
+        "Player": "Ben Gibson",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "1"
+      },
+      {
+        "Rk": "377",
+        "Player": "Billy Gilmour",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "1"
+      },
+      {
+        "Rk": "378",
+        "Player": "Ben Godfrey",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "1.4"
+      },
+      {
+        "Rk": "379",
+        "Player": "André Gomes",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0.7"
+      },
+      {
+        "Rk": "380",
+        "Player": "Toti Gomes",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "381",
+        "Player": "Joe Gomez",
+        "Team": "Liverpool",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "382",
+        "Player": "Charlie Goode",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "383",
+        "Player": "Kaide Gordon",
+        "Team": "Liverpool",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "384",
+        "Player": "Sam Greenwood",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "385",
+        "Player": "Vicente Guaita",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "386",
+        "Player": "Angus Gunn",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "387",
+        "Player": "Wayne Hennessey",
+        "Team": "Burnley",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "388",
+        "Player": "Ki-Jana Hoever",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "389",
+        "Player": "Will Hughes",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "390",
+        "Player": "Tim Iroegbunam",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "391",
+        "Player": "Daniel James",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "392",
+        "Player": "Mathias Jensen",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "2.9"
+      },
+      {
+        "Rk": "393",
+        "Player": "Phil Jones",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "394",
+        "Player": "James Justin",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "395",
+        "Player": "Ozan Kabak",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "396",
+        "Player": "Christian Kabasele",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "1"
+      },
+      {
+        "Rk": "397",
+        "Player": "Samuel Kalu",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "398",
+        "Player": "Edo Kayembe",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "399",
+        "Player": "Moise Kean",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "400",
+        "Player": "Caoimhín Kelleher",
+        "Team": "Liverpool",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "401",
+        "Player": "Kenedy",
+        "Team": "Chelsea",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "402",
+        "Player": "Jonjoe Kenny",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "403",
+        "Player": "Kristoffer Klaesson",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "404",
+        "Player": "Robin Koch",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "1"
+      },
+      {
+        "Rk": "405",
+        "Player": "Sead Kolašinac",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "406",
+        "Player": "Ibrahima Konaté",
+        "Team": "Liverpool",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "407",
+        "Player": "Cheikhou Kouyaté",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "408",
+        "Player": "Emil Krafth",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "409",
+        "Player": "Alex Král",
+        "Team": "West Ham",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "410",
+        "Player": "Tim Krul",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "411",
+        "Player": "Adam Lallana",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "1.4"
+      },
+      {
+        "Rk": "412",
+        "Player": "Tariq Lamptey",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "1.1"
+      },
+      {
+        "Rk": "413",
+        "Player": "Bernd Leno",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "414",
+        "Player": "Jamal Lewis",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "415",
+        "Player": "Victor Lindelöf",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "416",
+        "Player": "Hugo Lloris",
+        "Team": "Tottenham",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "417",
+        "Player": "Giovani Lo Celso",
+        "Team": "Tottenham",
+        "Goals": "0",
+        "xG": "0.7"
+      },
+      {
+        "Rk": "418",
+        "Player": "Jürgen Locadia",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "419",
+        "Player": "Ruben Loftus-Cheek",
+        "Team": "Chelsea",
+        "Goals": "0",
+        "xG": "1.8"
+      },
+      {
+        "Rk": "420",
+        "Player": "Kevin Long",
+        "Team": "Burnley",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "421",
+        "Player": "Jonas Lössl",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "422",
+        "Player": "Imran Louza",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "1.2"
+      },
+      {
+        "Rk": "423",
+        "Player": "Lyanco",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "424",
+        "Player": "Ainsley Maitland-Niles",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "425",
+        "Player": "Fernando Marçal",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "0.7"
+      },
+      {
+        "Rk": "426",
+        "Player": "Solly March",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "1.3"
+      },
+      {
+        "Rk": "427",
+        "Player": "Pablo Marí",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "428",
+        "Player": "Emiliano Martínez",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "429",
+        "Player": "Adam Masina",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "430",
+        "Player": "Juan Mata",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "431",
+        "Player": "Nemanja Matić",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "432",
+        "Player": "James McArthur",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "433",
+        "Player": "James Mcatee",
+        "Team": "Manchester City",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "434",
+        "Player": "Kasey McAteer",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "435",
+        "Player": "Liam McCarron",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "436",
+        "Player": "Alex McCarthy",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "437",
+        "Player": "Stuart McKinstry",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "438",
+        "Player": "Dwight McNeil",
+        "Team": "Burnley",
+        "Goals": "0",
+        "xG": "2.9"
+      },
+      {
+        "Rk": "439",
+        "Player": "Hannibal Mejbri",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "440",
+        "Player": "Benjamin Mendy",
+        "Team": "Manchester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "441",
+        "Player": "Edouard Mendy",
+        "Team": "Chelsea",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "442",
+        "Player": "Nampalys Mendy",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "443",
+        "Player": "Illan Meslier",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "444",
+        "Player": "Luka Milivojević",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "445",
+        "Player": "James Milner",
+        "Team": "Liverpool",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "446",
+        "Player": "Yerry Mina",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "447",
+        "Player": "Tyrick Mitchell",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "448",
+        "Player": "Jakub Moder",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "3.1"
+      },
+      {
+        "Rk": "449",
+        "Player": "Wesley Moraes",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "450",
+        "Player": "Tyler Morton",
+        "Team": "Liverpool",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "451",
+        "Player": "Bali Mumba",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "452",
+        "Player": "Marvelous Nakamba",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "453",
+        "Player": "Wilfred Ndidi",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "1.1"
+      },
+      {
+        "Rk": "454",
+        "Player": "Reiss Nelson",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "455",
+        "Player": "Jeremy Ngakia",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "456",
+        "Player": "Saúl Ñíguez",
+        "Team": "Chelsea",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "457",
+        "Player": "Nicolas Nkoulou",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "458",
+        "Player": "Robin Olsen",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "459",
+        "Player": "Tyler Onyango",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "460",
+        "Player": "Frank Onyeka",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "1.2"
+      },
+      {
+        "Rk": "461",
+        "Player": "Cole Palmer",
+        "Team": "Manchester City",
+        "Goals": "0",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "462",
+        "Player": "Emerson Palmieri",
+        "Team": "Chelsea",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "463",
+        "Player": "Sonny Perkins",
+        "Team": "West Ham",
+        "Goals": "0",
+        "xG": ""
+      },
+      {
+        "Rk": "464",
+        "Player": "Romain Perraud",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "465",
+        "Player": "Kalvin Phillips",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "1.1"
+      },
+      {
+        "Rk": "466",
+        "Player": "Jaden Philogene Bidace",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "467",
+        "Player": "Jordan Pickford",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "468",
+        "Player": "Erik Pieters",
+        "Team": "Burnley",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "469",
+        "Player": "Nick Pope",
+        "Team": "Burnley",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "470",
+        "Player": "Isaac Price",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "471",
+        "Player": "Przemysław Płacheta",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "472",
+        "Player": "Jesuran Rak Sakyi",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "473",
+        "Player": "Aaron Ramsdale",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "474",
+        "Player": "David Raya",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "475",
+        "Player": "Taylor Richards",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "476",
+        "Player": "Jaïro Riedewald",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "477",
+        "Player": "Matt Ritchie",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "1"
+      },
+      {
+        "Rk": "478",
+        "Player": "Joe Rodon",
+        "Team": "Tottenham",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "479",
+        "Player": "Danny Rose",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "480",
+        "Player": "Jon Rowe",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "481",
+        "Player": "John Ruddy",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "482",
+        "Player": "Lukas Rupp",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "483",
+        "Player": "José Sá",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "484",
+        "Player": "Mohammed Salisu",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "2"
+      },
+      {
+        "Rk": "485",
+        "Player": "Albert Sambi Lokonga",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "486",
+        "Player": "Robert Sánchez",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "487",
+        "Player": "Morgan Sanson",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "488",
+        "Player": "Samir Santos",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "489",
+        "Player": "Jeremy Sarmiento",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "490",
+        "Player": "Malang Sarr",
+        "Team": "Chelsea",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "491",
+        "Player": "Dane Scarlett",
+        "Team": "Tottenham",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "492",
+        "Player": "Kasper Schmeichel",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "493",
+        "Player": "Ken Sema",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "494",
+        "Player": "Nélson Semedo",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "1.6"
+      },
+      {
+        "Rk": "495",
+        "Player": "Ryan Sessegnon",
+        "Team": "Tottenham",
+        "Goals": "0",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "496",
+        "Player": "Jamie Shackleton",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "497",
+        "Player": "Luke Shaw",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "498",
+        "Player": "Shola Shoretire",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "499",
+        "Player": "Francisco Sierralta",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "500",
+        "Player": "Fábio Silva",
+        "Team": "Wolves",
+        "Goals": "0",
+        "xG": "2.1"
+      },
+      {
+        "Rk": "501",
+        "Player": "Ellis Simms",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "502",
+        "Player": "Oliver Skipp",
+        "Team": "Tottenham",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "503",
+        "Player": "William Smallbone",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "504",
+        "Player": "Boubakary Soumaré",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "505",
+        "Player": "Tony Springett",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "506",
+        "Player": "Jason Steele",
+        "Team": "Brighton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "507",
+        "Player": "Jed Steer",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "508",
+        "Player": "Zack Steffen",
+        "Team": "Manchester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "509",
+        "Player": "Dale Stephens",
+        "Team": "Burnley",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "510",
+        "Player": "Jack Stephens",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "511",
+        "Player": "Finley Stevens",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "512",
+        "Player": "Crysencio Summerville",
+        "Team": "Leeds United",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "513",
+        "Player": "Jakob Sørensen",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "514",
+        "Player": "Japhet Tanganga",
+        "Team": "Tottenham",
+        "Goals": "0",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "515",
+        "Player": "Matt Targett",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "516",
+        "Player": "Charlie Taylor",
+        "Team": "Burnley",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "517",
+        "Player": "Nathan Tella",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "518",
+        "Player": "Alex Telles",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "519",
+        "Player": "Luke Thomas",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "520",
+        "Player": "Dominic Thompson",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "521",
+        "Player": "Takehiro Tomiyasu",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "522",
+        "Player": "Cenk Tosun",
+        "Team": "Everton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "523",
+        "Player": "Bertrand Traoré",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "524",
+        "Player": "Trézéguet",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "525",
+        "Player": "William Troost-Ekong",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "526",
+        "Player": "Kostas Tsimikas",
+        "Team": "Liverpool",
+        "Goals": "0",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "527",
+        "Player": "Axel Tuanzebe",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "528",
+        "Player": "Ozan Tufan",
+        "Team": "Watford",
+        "Goals": "0",
+        "xG": "0.3"
+      },
+      {
+        "Rk": "529",
+        "Player": "Christos Tzolis",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "530",
+        "Player": "Yan Valery",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "531",
+        "Player": "Jannik Vestergaard",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "532",
+        "Player": "Theo Walcott",
+        "Team": "Southampton",
+        "Goals": "0",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "533",
+        "Player": "Kyle Walker",
+        "Team": "Manchester City",
+        "Goals": "0",
+        "xG": "0.4"
+      },
+      {
+        "Rk": "534",
+        "Player": "Aaron Wan-Bissaka",
+        "Team": "Manchester Utd",
+        "Goals": "0",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "535",
+        "Player": "Danny Ward",
+        "Team": "Leicester City",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "536",
+        "Player": "Joel Ward",
+        "Team": "Crystal Palace",
+        "Goals": "0",
+        "xG": "0.5"
+      },
+      {
+        "Rk": "537",
+        "Player": "Ashley Westwood",
+        "Team": "Burnley",
+        "Goals": "0",
+        "xG": "0.8"
+      },
+      {
+        "Rk": "538",
+        "Player": "Ben White",
+        "Team": "Arsenal",
+        "Goals": "0",
+        "xG": "1"
+      },
+      {
+        "Rk": "539",
+        "Player": "Brandon Williams",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "540",
+        "Player": "Neco Williams",
+        "Team": "Liverpool",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "541",
+        "Player": "Harry Winks",
+        "Team": "Tottenham",
+        "Goals": "0",
+        "xG": "0.2"
+      },
+      {
+        "Rk": "542",
+        "Player": "Freddie Woodman",
+        "Team": "Newcastle Utd",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "543",
+        "Player": "Ashley Young",
+        "Team": "Aston Villa",
+        "Goals": "0",
+        "xG": "0.6"
+      },
+      {
+        "Rk": "544",
+        "Player": "Nathan Young-Coombes",
+        "Team": "Brentford",
+        "Goals": "0",
+        "xG": "0"
+      },
+      {
+        "Rk": "545",
+        "Player": "Christoph Zimmermann",
+        "Team": "Norwich City",
+        "Goals": "0",
+        "xG": "0.1"
+      },
+      {
+        "Rk": "546",
+        "Player": "Oleksandr Zinchenko",
+        "Team": "Manchester City",
+        "Goals": "0",
+        "xG": "0.6"
+      }
+    ]
+  },
+  "height": 300,
+  "width": "container",
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true
+      },
+      "encoding": {
+        "x": {
+          "field": "xG",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Goals",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "Rk",
+            "type": "nominal",
+            "title": "Rank"
+          },
+          {
+            "field": "Player",
+            "type": "nominal",
+            "title": "Player"
+          },
+          {
+            "field": "Team",
+            "type": "nominal",
+            "title": "Team"
+          },
+          {
+            "field": "Goals",
+            "type": "quantitative",
+            "title": "Goals (actual)"
+          },
+          {
+            "field": "xG",
+            "type": "quantitative",
+            "title": "Goals (expected)"
+          }
+        ],
+        "color": {
+          "field": "Team",
+          "scale": {
+            "range": [
+              "#EF0107",
+              "#034694",
+              "#00B2A9",
+              "#4fc3f7",
+              "#FBE122",
+              "orange",
+              "purple",
+              "pink",
+              "black"
+            ]
+          },
+          "title": "Team",
+          "legend": {
+            "orient": "bottom",
+            "columns": 1,
+            "fillColor": "#FfFfFf"
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "firebrick"
+      },
+      "transform": [
+        {
+          "regression": "Goals",
+          "on": "xG",
+          "extent": [
+            0,
+            24
+          ]
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "xG",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Goals",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Goals",
+          "on": "xG",
+          "params": true
+        },
+        {
+          "calculate": "'R²: '+format(datum.rSquared, '.2f')",
+          "as": "R2"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {
+          "type": "nominal",
+          "field": "R2"
+        }
+      }
+    }
+  ]
+}

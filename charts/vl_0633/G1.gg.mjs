@@ -1,0 +1,96 @@
+// DOCS: doc-b11b4627b143730d, doc-76573a465e2b6a33, doc-c2eafbbd16fe3c71, doc-071c93dff3a5ea2e, doc-8a4f6f06e0d37d5e, doc-2bd5de4bd99e314a, doc-dfae58344d5a524e, doc-2a31551f1566fc6b, doc-a743281cbd97a819, doc-0cbb124f0c04d6d9, doc-964c0bc52c92a0d3
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({
+      width: 485,
+      height: 397,
+      margin: { left: 29, top: 60, right: 6, bottom: 37 }
+    })
+    .createData({ values: data })
+    .createFoldData({
+      id: "folded",
+      fields: ["Congo", "US", "Greece"],
+      as: { key: "country", value: "GDP" }
+    })
+    .createComputedData({
+      id: "typed",
+      as: "GDPn",
+      expression: {
+      op: "if",
+      condition: { op: "eq", left: { field: "GDP" }, right: { constant: "" } },
+      then: { constant: 0 },
+      else: { op: "toNumber", operand: { field: "GDP" } }
+    }
+    })
+    .filterData({ id: "gt0", field: "GDPn", predicate: { op: "gt", value: 0 } })
+    .filterData({ id: "lt130", field: "GDPn", predicate: { op: "lt", value: 130 } })
+    .createComputedData({ id: "yearNum", as: "YearNum", expression: { op: "toNumber", operand: { field: "Year" } } })
+    .createLinePlot({
+      x: { field: "YearNum", fieldType: "quantitative", scale: { domain: [0, 26] } },
+      y: { field: "GDPn", fieldType: "quantitative", scale: { domain: [0, 130] } },
+      guides: false
+    })
+    .encodeGroup({ target: "linePlot", field: "country" })
+    .encodeColor({ target: "linePlot", field: "country", scale: { type: "ordinal", domain: ["Congo", "Greece", "US"], range: ["#4c78a8", "#f58518", "#e45756"] } })
+    .editLineMark({ target: "linePlot", strokeWidth: 1 })
+    .createScatterPlot({
+      x: { field: "YearNum", fieldType: "quantitative", scale: { domain: [0, 26] } },
+      y: { field: "GDPn", fieldType: "quantitative", scale: { domain: [0, 130] } },
+      guides: false
+    })
+    .encodeColor({ target: "scatterPlot", field: "country", scale: { type: "ordinal", domain: ["Congo", "Greece", "US"], range: ["#4c78a8", "#f58518", "#e45756"] } })
+    .encodePointRadius({ value: 2.7386128, target: "scatterPlot" })
+    .editPointMark({ opacity: 1 })
+    .createGrid({
+      horizontal: { values: [0, 20, 40, 60, 80, 100, 120], color: "#ddd", lineWidth: 1 },
+      vertical: false
+    })
+    .createAxes({
+      x: {
+        line: { color: "#888" },
+        ticksAndLabels: {
+          values: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26],
+          ticks: { length: 5, color: "#888" },
+          labels: { fontSize: 10, fontFamily: "sans-serif", offset: 7, flush: true }
+        },
+        title: { text: "Years since peak", fontSize: 11, fontWeight: 700, offset: 28 }
+      },
+      y: {
+        line: { color: "#888" },
+        ticksAndLabels: {
+          values: [0, 20, 40, 60, 80, 100, 120],
+          ticks: { length: 5, color: "#888" },
+          labels: { fontSize: 10, fontFamily: "sans-serif", offset: 7 }
+        },
+        title: false
+      }
+    })
+    .createLegend({
+      target: "scatterPlot",
+      channels: ["color"],
+      position: "bottom-right"
+    })
+    .editLegend({
+  target: "scatterPlot",
+  title: false,
+  symbol: { layers: [{ type: "point", shape: "circle", size: 5, strokeWidth: 1.5 }] }
+})
+    .editLegendBlock({
+      target: "scatterPlot",
+      channel: "color",
+      text: { fontSize: 10, fontFamily: "sans-serif" }
+    })
+    .createTitle({
+      text: "Great depressions",
+      titleStyle: { fontSize: 13, fontWeight: 700, color: "black" },
+      subtitleStyle: { fontSize: 10, fontStyle: "italic", color: "black" }
+    })
+    .editTitle({
+      subtitle: "GDP, real terms. Rebased=100; US: 1929, Congo:1991; Greece:2007\nSources: World Bank, FRED",
+      gap: 1
+    })
+    .editTitle({ offset: -12, alongOffset: -24 });
+}

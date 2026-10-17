@@ -1,0 +1,124 @@
+{
+  "id": "vl_1187",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b4de9bf299bb170f222d1126793f1433ec3d8d3f53979f20615bf172541cc87e",
+      "actions": 9,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "869eba30380511c2f322b1e79e9c4e31c701c4e48b77b1f05d72b2129ddf8419",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "96cc9800e6e11ee8ac93142182104590e972fa162d735ff4e06a15735df4db44",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c2c82a2b554908796b274289244df782fe48931e25918b1072b99a8331068963",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "cb41ed3cc70838deeb06b5eeb09de71f1529a97bc24bb7b11e18b95a3e94206b",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "c1b66de1a420b3f0c8b8acd5847905c83d997cd9258473fd47df1e82f691dc8e",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "291d4aa3b2ea7fb099bbc0bca5d0bf92b55d5c86509d29add08fb8c6b26b0677",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "a336335d8c0da27b023fc233779b83645194efc4ef2fb3705673460393ceb2c8",
+      "actions": 21,
+      "topOptions": 40
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/Ben25Walker/Ben25Walker.github.io/main/ONS_data_MGSX.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Final complete code and all contiguous source/current-runtime/family verifications reviewed. User8-stagecap reached; exact remaining source ownership frontier disclosed:[]"
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "cef1861bb401cb18c022e8fcb058194b964e0af1f18f81e7b4d2abcc24189dde",
+      "bytes": 835
+    },
+    "data.json": {
+      "sha256": "5c854d790a9935aaeb3e440ec6643c16dd1f95a9c76b766c4d76991419b1324b",
+      "bytes": 10159
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f40e5811eccb6049d6b9fee3117b3d3abf23db1696a8035c935d2d789e22cad9",
+      "bytes": 12948
+    },
+    "G1.gg.mjs": {
+      "sha256": "b4de9bf299bb170f222d1126793f1433ec3d8d3f53979f20615bf172541cc87e",
+      "bytes": 1960
+    },
+    "G2.gg.mjs": {
+      "sha256": "869eba30380511c2f322b1e79e9c4e31c701c4e48b77b1f05d72b2129ddf8419",
+      "bytes": 1978
+    },
+    "G3.gg.mjs": {
+      "sha256": "96cc9800e6e11ee8ac93142182104590e972fa162d735ff4e06a15735df4db44",
+      "bytes": 1855
+    },
+    "G4.gg.mjs": {
+      "sha256": "c2c82a2b554908796b274289244df782fe48931e25918b1072b99a8331068963",
+      "bytes": 1875
+    },
+    "G5.gg.mjs": {
+      "sha256": "cb41ed3cc70838deeb06b5eeb09de71f1529a97bc24bb7b11e18b95a3e94206b",
+      "bytes": 2006
+    },
+    "G6.gg.mjs": {
+      "sha256": "c1b66de1a420b3f0c8b8acd5847905c83d997cd9258473fd47df1e82f691dc8e",
+      "bytes": 2048
+    },
+    "G7.gg.mjs": {
+      "sha256": "291d4aa3b2ea7fb099bbc0bca5d0bf92b55d5c86509d29add08fb8c6b26b0677",
+      "bytes": 2064
+    },
+    "G8.gg.mjs": {
+      "sha256": "a336335d8c0da27b023fc233779b83645194efc4ef2fb3705673460393ceb2c8",
+      "bytes": 2051
+    },
+    "vega-lite.svg": {
+      "sha256": "8452cca7432e0f59407b8faa9186c63d9fc569009c61d1b1c021a62e039da162",
+      "bytes": 8702
+    },
+    "ggaction.svg": {
+      "sha256": "c6e25f72c8a048abe1d7d3edf807a4a16fb34b5533f605dc6bf3c7313d3db77a",
+      "bytes": 7049
+    }
+  }
+}

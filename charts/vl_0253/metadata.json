@@ -1,0 +1,102 @@
+{
+  "id": "vl_0253",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "3fd1759c31cbe008a9e715ba0a54bb8efa6a4bad613408ca171a57f15d7b7a53",
+      "actions": 10,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "47d22882f0bcdb99c6602102ed5dd3b842f3b5bd68fba1db7d81fe6bd4bba988",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "0092ffd3bfa287c864ae03abee6b54a25412f09aba58c8ab6043af70ccd905f9",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "bb8ee6e72a5021c74d28466b45c5ba7da384d52bf01ca7492a0c20fc24c5f26e",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "b68d0e12f32eed9e9f3fee5fc4f0d5e42bf2ab6c38808c9a94587cdf923f235f",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "f19e1d48b26b12ca4cc56f7c28f39314c20b178abd45a46cda0061267f5dab0b",
+      "actions": 17,
+      "topOptions": 34
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/vikrajendran/vikrajendran.github.io/main/data_ONS-LF25.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full terminal code/source read: raw monthly female employment series retained with nativeUTCdate binding, exact source250squareplot, turquoise2line, grids#ddd and header. All six accepted stagesPASS and SVG identical. Concrete frontierempty; exact GLM stop binds acceptedG6; all protected typography/geometry remain at creation."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "53fb179a202823ca7b40834ab03df81c4fac1bf4b296e855fa626568d0faad58",
+      "bytes": 1166
+    },
+    "data.json": {
+      "sha256": "91d9af587c7860b9b666f73b2822b4921a8c1ceff43501fc12bb98907d3ff9f9",
+      "bytes": 134822
+    },
+    "resolved-source.vl.json": {
+      "sha256": "4041ec6e48ae8be3ede326aef0baffbc4096d44dfba8787a46caf032e790e3dd",
+      "bytes": 160619
+    },
+    "G1.gg.mjs": {
+      "sha256": "3fd1759c31cbe008a9e715ba0a54bb8efa6a4bad613408ca171a57f15d7b7a53",
+      "bytes": 1841
+    },
+    "G2.gg.mjs": {
+      "sha256": "47d22882f0bcdb99c6602102ed5dd3b842f3b5bd68fba1db7d81fe6bd4bba988",
+      "bytes": 1799
+    },
+    "G3.gg.mjs": {
+      "sha256": "0092ffd3bfa287c864ae03abee6b54a25412f09aba58c8ab6043af70ccd905f9",
+      "bytes": 1791
+    },
+    "G4.gg.mjs": {
+      "sha256": "bb8ee6e72a5021c74d28466b45c5ba7da384d52bf01ca7492a0c20fc24c5f26e",
+      "bytes": 1833
+    },
+    "G5.gg.mjs": {
+      "sha256": "b68d0e12f32eed9e9f3fee5fc4f0d5e42bf2ab6c38808c9a94587cdf923f235f",
+      "bytes": 1874
+    },
+    "G6.gg.mjs": {
+      "sha256": "f19e1d48b26b12ca4cc56f7c28f39314c20b178abd45a46cda0061267f5dab0b",
+      "bytes": 1890
+    },
+    "vega-lite.svg": {
+      "sha256": "481b04f1a2d3e3aecbcbdc11a2c50a91103db0eb2146ee35ed36e85f55d31d48",
+      "bytes": 16382
+    },
+    "ggaction.svg": {
+      "sha256": "8beacf5eaeb9c5531ec71b9e738ee744b64293a332582da2ffa93fe5d6b41640",
+      "bytes": 27708
+    }
+  }
+}

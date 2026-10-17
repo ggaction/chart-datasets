@@ -1,0 +1,113 @@
+{
+  "id": "vl_0828",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c11792f2b3ceaa48041ea9ce556e7a57d7e44535483a099605483b56ab737428",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5428cb0cf497497111c1c83b624a525fd1166380780489512f572c7f76880568",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "aa5982e9809cd72a7cffea4c747b50eb1657a91a143ef5d417621b2405c91b70",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1b292041d1e1bb43d0deda140c15da2ea8c4d1d848b6e70561308a18a5ae68cd",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e506d2b97f770fae8c098df378b1b9e7eb4d04ec562e32d30c3cccaad8714ae3",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "358b940a7a9e88a7b768a059fa93969834c2b3aeb7055a4d80c784e48656382d",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "19ae1891bd3f490e2d5e600e6c86da9b50dce54f70cdd8fb7184d46eb3a50881",
+      "actions": 17,
+      "topOptions": 36
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/data_ONS-sggn.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full terminal source/code reviewed; seven current stages all source/family checksPASS with identical SVG, concrete frontier empty. Exact retained model edits split original mixed axis/charttitle family into separate stages at zero calls; original accepted snapshot preserved. Stop reason/model remain original GLM bytes, only previousLevel locator rebased G6toG7 with originalModelStop path/SHA and unchanged final parent code proof; no new model stop claimed."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "240992d0d0c627258a0d8c78efdacb22552b0efaefc273809030ec9dae438383",
+      "bytes": 1086
+    },
+    "data.json": {
+      "sha256": "9bef6152c64dd95a9bcebb55e863569ff64f8f678fc2ad9120a1577fd28d4f64",
+      "bytes": 91854
+    },
+    "resolved-source.vl.json": {
+      "sha256": "14a632b3ceb69dd8a1b0dbc26b21c160cd5be194f62db6a73061875b1c28a150",
+      "bytes": 109977
+    },
+    "G1.gg.mjs": {
+      "sha256": "c11792f2b3ceaa48041ea9ce556e7a57d7e44535483a099605483b56ab737428",
+      "bytes": 1772
+    },
+    "G2.gg.mjs": {
+      "sha256": "5428cb0cf497497111c1c83b624a525fd1166380780489512f572c7f76880568",
+      "bytes": 1790
+    },
+    "G3.gg.mjs": {
+      "sha256": "aa5982e9809cd72a7cffea4c747b50eb1657a91a143ef5d417621b2405c91b70",
+      "bytes": 1850
+    },
+    "G4.gg.mjs": {
+      "sha256": "1b292041d1e1bb43d0deda140c15da2ea8c4d1d848b6e70561308a18a5ae68cd",
+      "bytes": 1810
+    },
+    "G5.gg.mjs": {
+      "sha256": "e506d2b97f770fae8c098df378b1b9e7eb4d04ec562e32d30c3cccaad8714ae3",
+      "bytes": 1911
+    },
+    "G6.gg.mjs": {
+      "sha256": "358b940a7a9e88a7b768a059fa93969834c2b3aeb7055a4d80c784e48656382d",
+      "bytes": 1946
+    },
+    "G7.gg.mjs": {
+      "sha256": "19ae1891bd3f490e2d5e600e6c86da9b50dce54f70cdd8fb7184d46eb3a50881",
+      "bytes": 1940
+    },
+    "vega-lite.svg": {
+      "sha256": "0106af36d3b818f50fd043074880cd99b5c1efa96a493e26faec57349486a433",
+      "bytes": 11976
+    },
+    "ggaction.svg": {
+      "sha256": "786bedfc5d3526b97dd4870012d763011abc5c28c27ce0df3b8d6d9627ca183a",
+      "bytes": 15622
+    }
+  }
+}

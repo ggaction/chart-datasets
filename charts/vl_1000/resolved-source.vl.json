@@ -1,0 +1,371 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Metro Area": "San Francisco Calif.",
+        "Median Price": "930000",
+        "Affordability Index": "9.5"
+      },
+      {
+        "Metro Area": "McAllen Texas",
+        "Median Price": "84250",
+        "Affordability Index": "3.3"
+      },
+      {
+        "Metro Area": "Los Angeles Calif.",
+        "Median Price": "710000",
+        "Affordability Index": "8.1"
+      },
+      {
+        "Metro Area": "Oxnard Calif.",
+        "Median Price": "650000",
+        "Affordability Index": "17.6"
+      },
+      {
+        "Metro Area": "San Diego Calif.",
+        "Median Price": "620000",
+        "Affordability Index": "11.5"
+      },
+      {
+        "Metro Area": "Honolulu Hi.",
+        "Median Price": "605000",
+        "Affordability Index": "3.3"
+      },
+      {
+        "Metro Area": "Seattle Wash.",
+        "Median Price": "525000",
+        "Affordability Index": "12.8"
+      },
+      {
+        "Metro Area": "Bridgeport Conn.",
+        "Median Price": "460000",
+        "Affordability Index": "13.5"
+      },
+      {
+        "Metro Area": "New York N.Y.-N.J.",
+        "Median Price": "450000",
+        "Affordability Index": "9.7"
+      },
+      {
+        "Metro Area": "Sacramento Calif.",
+        "Median Price": "446000",
+        "Affordability Index": "7.6"
+      },
+      {
+        "Metro Area": "Boston Mass.",
+        "Median Price": "444000",
+        "Affordability Index": "6.5"
+      },
+      {
+        "Metro Area": "Denver Colo.",
+        "Median Price": "442000",
+        "Affordability Index": "6.8"
+      },
+      {
+        "Metro Area": "Washington D.C.-No. Va.",
+        "Median Price": "435000",
+        "Affordability Index": "8.7"
+      },
+      {
+        "Metro Area": "Portland Ore.",
+        "Median Price": "420000",
+        "Affordability Index": "9.3"
+      },
+      {
+        "Metro Area": "Stockton Calif.",
+        "Median Price": "400000",
+        "Affordability Index": "13.2"
+      },
+      {
+        "Metro Area": "Riverside-San Bernardino Calif.",
+        "Median Price": "393000",
+        "Affordability Index": "13.4"
+      },
+      {
+        "Metro Area": "Provo Utah",
+        "Median Price": "385000",
+        "Affordability Index": "6.3"
+      },
+      {
+        "Metro Area": "Colorado Springs Colo.",
+        "Median Price": "345000",
+        "Affordability Index": "11.2"
+      },
+      {
+        "Metro Area": "Modesto Calif.",
+        "Median Price": "345000",
+        "Affordability Index": "14.7"
+      },
+      {
+        "Metro Area": "Austin Texas",
+        "Median Price": "340000",
+        "Affordability Index": "9.9"
+      },
+      {
+        "Metro Area": "Phoenix Ariz.",
+        "Median Price": "308900",
+        "Affordability Index": "11.9"
+      },
+      {
+        "Metro Area": "Las Vegas Nev.",
+        "Median Price": "305000",
+        "Affordability Index": "6.1"
+      },
+      {
+        "Metro Area": "Miami Fla.",
+        "Median Price": "302000",
+        "Affordability Index": "9.3"
+      },
+      {
+        "Metro Area": "Fresno Calif.",
+        "Median Price": "299000",
+        "Affordability Index": "12.7"
+      },
+      {
+        "Metro Area": "Nashville Tenn.",
+        "Median Price": "298000",
+        "Affordability Index": "10.2"
+      },
+      {
+        "Metro Area": "Raleigh N.C.",
+        "Median Price": "292000",
+        "Affordability Index": "6.8"
+      },
+      {
+        "Metro Area": "Boise City Idaho",
+        "Median Price": "290450",
+        "Affordability Index": "8.8"
+      },
+      {
+        "Metro Area": "Portland Me.",
+        "Median Price": "290000",
+        "Affordability Index": "7.3"
+      },
+      {
+        "Metro Area": "Providence R.I.",
+        "Median Price": "290000",
+        "Affordability Index": "8.2"
+      },
+      {
+        "Metro Area": "Ogden Utah",
+        "Median Price": "289500",
+        "Affordability Index": "14.5"
+      },
+      {
+        "Metro Area": "Baltimore Md.",
+        "Median Price": "287500",
+        "Affordability Index": "7.4"
+      },
+      {
+        "Metro Area": "Minneapolis-St. Paul Minn.",
+        "Median Price": "286000",
+        "Affordability Index": "8.2"
+      },
+      {
+        "Metro Area": "Madison Wis.",
+        "Median Price": "285000",
+        "Affordability Index": "8.6"
+      },
+      {
+        "Metro Area": "North Port-Sarasota Fla.",
+        "Median Price": "284900",
+        "Affordability Index": "7.1"
+      },
+      {
+        "Metro Area": "Charleston S.C.",
+        "Median Price": "279000",
+        "Affordability Index": "7.8"
+      },
+      {
+        "Metro Area": "Durham N.C.",
+        "Median Price": "272000",
+        "Affordability Index": "7.9"
+      },
+      {
+        "Metro Area": "Orlando Fla.",
+        "Median Price": "262000",
+        "Affordability Index": "8.2"
+      },
+      {
+        "Metro Area": "Worcester Mass.",
+        "Median Price": "260000",
+        "Affordability Index": "12.3"
+      },
+      {
+        "Metro Area": "Richmond Va.",
+        "Median Price": "257000",
+        "Affordability Index": "10.7"
+      },
+      {
+        "Metro Area": "Charlotte N.C.",
+        "Median Price": "255000",
+        "Affordability Index": "9.7"
+      },
+      {
+        "Metro Area": "Chicago Ill.",
+        "Median Price": "252000",
+        "Affordability Index": "9.7"
+      },
+      {
+        "Metro Area": "Atlanta Ga.",
+        "Median Price": "250000",
+        "Affordability Index": "9.5"
+      },
+      {
+        "Metro Area": "Virginia Beach Va.",
+        "Median Price": "250000",
+        "Affordability Index": "9.7"
+      },
+      {
+        "Metro Area": "Jacksonville Fla.",
+        "Median Price": "245000",
+        "Affordability Index": "6.8"
+      },
+      {
+        "Metro Area": "Bakersfield Calif.",
+        "Median Price": "245000",
+        "Affordability Index": "12.4"
+      },
+      {
+        "Metro Area": "Philadelphia Pa.",
+        "Median Price": "240000",
+        "Affordability Index": "11.0"
+      },
+      {
+        "Metro Area": "Hartford Conn.",
+        "Median Price": "237500",
+        "Affordability Index": "15.2"
+      },
+      {
+        "Metro Area": "New Haven Conn.",
+        "Median Price": "235150",
+        "Affordability Index": "17.1"
+      },
+      {
+        "Metro Area": "Tampa Fla.",
+        "Median Price": "229900",
+        "Affordability Index": "7.1"
+      },
+      {
+        "Metro Area": "Tucson Ariz.",
+        "Median Price": "229000",
+        "Affordability Index": "11.5"
+      }
+    ]
+  },
+  "width": 500,
+  "height": 300,
+  "title": {
+    "text": "Metro Areas - Median Price and Affordability Index",
+    "subtitle": [
+      "Cities represent metropolitan statistical areas as defined by the U.S. Census. Affordability Index 0-20, 1 most affordable. Source: Kiplinger"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+      "encoding": {
+        "x": {
+          "field": "Metro Area",
+          "type": "nominal",
+          "title": "City",
+          "scale": {
+            "domain": [
+              "San Francisco Calif.",
+              "Los Angeles Calif.",
+              "Oxnard Calif.",
+              "San Diego Calif.",
+              "Honolulu Hi.",
+              "Seattle Wash.",
+              "Bridgeport Conn.",
+              "New York N.Y.-N.J.",
+              "Sacramento Calif.",
+              "Boston Mass.",
+              "Denver Colo.",
+              "Washington D.C.-No. Va.",
+              "Portland Ore.",
+              "Stockton Calif.",
+              "Riverside-San Bernardino Calif.",
+              "Provo Utah",
+              "Colorado Springs Colo.",
+              "Modesto Calif.",
+              "Austin Texas",
+              "Phoenix Ariz.",
+              "Las Vegas Nev.",
+              "Miami Fla.",
+              "Fresno Calif.",
+              "Nashville Tenn.",
+              "Raleigh N.C.",
+              "Boise City Idaho",
+              "Portland Me.",
+              "Providence R.I.",
+              "Ogden Utah",
+              "Baltimore Md.",
+              "Minneapolis-St. Paul Minn.",
+              "Madison Wis.",
+              "North Port-Sarasota Fla.",
+              "Charleston S.C.",
+              "Durham N.C.",
+              "Orlando Fla.",
+              "Worcester Mass.",
+              "Richmond Va.",
+              "Charlotte N.C.",
+              "Chicago Ill.",
+              "Atlanta Ga.",
+              "Virginia Beach Va.",
+              "Jacksonville Fla.",
+              "Bakersfield Calif.",
+              "Philadelphia Pa.",
+              "Hartford Conn.",
+              "New Haven Conn.",
+              "Tampa Fla.",
+              "Tucson Ariz.",
+              "McAllen Texas"
+            ]
+          }
+        },
+        "y": {
+          "field": "Median Price",
+          "type": "quantitative",
+          "title": "Median Price $ Dollars",
+          "axis": {
+            "grid": true
+          }
+        },
+        "color": {
+          "field": "Affordability Index",
+          "type": "quantitative",
+          "title": "Affordability Index",
+          "scale": {
+            "scheme": "yellowgreenblue"
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "tooltip": true
+      },
+      "encoding": {
+        "x": {
+          "field": "Metro Area",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Affordability Index",
+          "type": "quantitative",
+          "title": ""
+        }
+      }
+    }
+  ],
+  "config": {}
+}

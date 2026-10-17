@@ -1,0 +1,124 @@
+{
+  "id": "vl_1933",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "2e006ad72e933fe94f096e9e930571500e60cbf5b12b7fde9c7a89c5c927c348",
+      "actions": 12,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "49b611587341866104e24a6249355f263bdbb28d2a71cdf2beb92f1f4b568b31",
+      "actions": 14,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a204a2cd5e1ea36da12a67975e83e2a1fd6f68b36c6646d264d684cefe775035",
+      "actions": 14,
+      "topOptions": 25
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "676375fbe6c9b6fa531885a8cd5a4d5b32b96974e9026701296282e585f4798b",
+      "actions": 14,
+      "topOptions": 26
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "187ee2cefb3d680dc6d3cdfc22c899311cf10721a0cc5d830f9c9fb2cb54a9fd",
+      "actions": 15,
+      "topOptions": 30
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "00ab2b6ff6f5a209156f470c39f285fb7b6e95406872e33b500aa8b78a51d147",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "7ff4bff11047e99fab082bd7eadbf8350f12769c1d008c95d7ec3479c160fd7f",
+      "actions": 21,
+      "topOptions": 38
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "df13b3f9e418e4b5d7fd3e980b924ded2b79dd50fd632e41db69b2a54bd2ad01",
+      "actions": 22,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/db_covidLocalRisk.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source/terminal reread:439rawrows retained with source empty numericstrings→0, blue size300 circles opacity0.4, exact340x300plot/background/header,17Xticks with sourcegreedy9blanklabels and12Yticks. All8stages PASS identicalSVG. Eight-stage cap; Xpercent formatter still at creation with eager source hidingmap after attempted whole-map transfer failed. No exhaustion claim."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ab121b4cbfb9cde49eacca42df1ae079abc7d6ad51bea7c7c54b0bdf9a4245d2",
+      "bytes": 1408
+    },
+    "data.json": {
+      "sha256": "40d5c04a0c11b4713d0dcf65e208ad9751d49ae694dc7de75a6aba97d1b9b222",
+      "bytes": 123084
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a4098cedbae3824809f1998a4e52e873c3bdd411eac2767ec31db31ca91dbe52",
+      "bytes": 145470
+    },
+    "G1.gg.mjs": {
+      "sha256": "2e006ad72e933fe94f096e9e930571500e60cbf5b12b7fde9c7a89c5c927c348",
+      "bytes": 2919
+    },
+    "G2.gg.mjs": {
+      "sha256": "49b611587341866104e24a6249355f263bdbb28d2a71cdf2beb92f1f4b568b31",
+      "bytes": 2937
+    },
+    "G3.gg.mjs": {
+      "sha256": "a204a2cd5e1ea36da12a67975e83e2a1fd6f68b36c6646d264d684cefe775035",
+      "bytes": 2894
+    },
+    "G4.gg.mjs": {
+      "sha256": "676375fbe6c9b6fa531885a8cd5a4d5b32b96974e9026701296282e585f4798b",
+      "bytes": 2910
+    },
+    "G5.gg.mjs": {
+      "sha256": "187ee2cefb3d680dc6d3cdfc22c899311cf10721a0cc5d830f9c9fb2cb54a9fd",
+      "bytes": 2874
+    },
+    "G6.gg.mjs": {
+      "sha256": "00ab2b6ff6f5a209156f470c39f285fb7b6e95406872e33b500aa8b78a51d147",
+      "bytes": 2976
+    },
+    "G7.gg.mjs": {
+      "sha256": "7ff4bff11047e99fab082bd7eadbf8350f12769c1d008c95d7ec3479c160fd7f",
+      "bytes": 3016
+    },
+    "G8.gg.mjs": {
+      "sha256": "df13b3f9e418e4b5d7fd3e980b924ded2b79dd50fd632e41db69b2a54bd2ad01",
+      "bytes": 3041
+    },
+    "vega-lite.svg": {
+      "sha256": "43785d869551d6753ab15a0b05cd1363dd4b491fa3e95ab0f75d1cbe037ac276",
+      "bytes": 158017
+    },
+    "ggaction.svg": {
+      "sha256": "02576388283f469528caf24640b9dd26b50be6963f820305b334973237879528",
+      "bytes": 44951
+    }
+  }
+}

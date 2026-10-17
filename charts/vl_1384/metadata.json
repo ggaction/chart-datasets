@@ -1,0 +1,111 @@
+{
+  "id": "vl_1384",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c6e8bd22fc672478578ce978b204134f7073bb9e9be86b3cc4d0cbe82141b483",
+      "actions": 9,
+      "topOptions": 18
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "102552e6d7f0d18e8025014f7d5c6a3441ba96f1a5bc0f816928a184bf916170",
+      "actions": 11,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "f3b1d1d4257d962d8e10b1a371b4ef75cf04f3d61ebf1ac582f6afa56b8c96d6",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "048f87e89394fba4437c96ed54383f1e2ca32b688c38fd4a98372daa9294e7f0",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4dadf8793dc2a8e1c5353849aa50d6fb2139e99d71686a98197dbf05cfea7db3",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "391084e608156852513765f0175b43203a48f13d3ab9f530248569c03025b693",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "7cdcb1505806c038bf4dc4a7dddadebade3a94858d843c06de19855b31d16f20",
+      "actions": 19,
+      "topOptions": 36
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Seven meaningful stages: combined guides to independent families; complete per-axis declarations; position scale and color scale editors; paired whole-axis paint then paired focused component paint. Parallel X/Y proposals were combined into one stage, preserving exact GLM patch provenance and terminal hash. Source stack/order/35vertices/baselines and five-entry single-row legend verified; all outputs exact. Explicit legend offset removed; actual library defaults retained (categorical8, size/gradient30). Plot dimensions preserved; outer canvas/margin expanded only by required7or29px. All stages remain identical. Source correction: Source area opacity is omitted, SVG default1. Authored ggaction facade omits area opacity so its default0.2 leaks into translation. Insert one minimal public editAreaMark before this existing unique encodeGroup anchor; preserve every other character. Source correction: Actual SVG DOM proves forced1px legend packing overlaps neighboring labels/symbols. Omit itemGap and columns to use true position-specific library defaults; preserve plot size and leave12px outer clearance. Preserve opacity1, all data/marks/guides and every other character."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "870dd4dfdd1071332fb8e2310f0c6711d089a7e5b23d1b9e6cc981d98bee65ea",
+      "bytes": 4043
+    },
+    "data.json": {
+      "sha256": "332a896185595c43e27e456473fdb70ad1651b09e76af89cbdebdaa2f7c5dc68",
+      "bytes": 2574
+    },
+    "resolved-source.vl.json": {
+      "sha256": "870dd4dfdd1071332fb8e2310f0c6711d089a7e5b23d1b9e6cc981d98bee65ea",
+      "bytes": 4043
+    },
+    "G1.gg.mjs": {
+      "sha256": "c6e8bd22fc672478578ce978b204134f7073bb9e9be86b3cc4d0cbe82141b483",
+      "bytes": 2756
+    },
+    "G2.gg.mjs": {
+      "sha256": "102552e6d7f0d18e8025014f7d5c6a3441ba96f1a5bc0f816928a184bf916170",
+      "bytes": 2752
+    },
+    "G3.gg.mjs": {
+      "sha256": "f3b1d1d4257d962d8e10b1a371b4ef75cf04f3d61ebf1ac582f6afa56b8c96d6",
+      "bytes": 2714
+    },
+    "G4.gg.mjs": {
+      "sha256": "048f87e89394fba4437c96ed54383f1e2ca32b688c38fd4a98372daa9294e7f0",
+      "bytes": 2702
+    },
+    "G5.gg.mjs": {
+      "sha256": "4dadf8793dc2a8e1c5353849aa50d6fb2139e99d71686a98197dbf05cfea7db3",
+      "bytes": 2679
+    },
+    "G6.gg.mjs": {
+      "sha256": "391084e608156852513765f0175b43203a48f13d3ab9f530248569c03025b693",
+      "bytes": 2799
+    },
+    "G7.gg.mjs": {
+      "sha256": "7cdcb1505806c038bf4dc4a7dddadebade3a94858d843c06de19855b31d16f20",
+      "bytes": 2773
+    },
+    "vega-lite.svg": {
+      "sha256": "33ed63025f592bf9a713a6ac2ead3f00dd119b757c2a1c8a9aad00706bdf6f62",
+      "bytes": 12922
+    },
+    "ggaction.svg": {
+      "sha256": "ef1d45a49dde0973e3a5a3185f7e686a30218dd3ecf8bc4438e1957d6cf3c1ba",
+      "bytes": 8010
+    }
+  }
+}

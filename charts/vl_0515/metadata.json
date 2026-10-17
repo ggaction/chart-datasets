@@ -1,0 +1,124 @@
+{
+  "id": "vl_0515",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "4d112aca5a50ee9efee780a65510f93274723c977a916de5a6035ba7a2de8f0a",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "aff4e4e19778d667b8fcbe818d38db585e4491d670a300a1ebee3d4dc775aa99",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "936f78ec40dac335995b19dc76749ee3c0222a63c8fc7cf651e2edf63059b83d",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "098dd918e2384a45b15b1330aeb4b301790cda43993c8171ca5281b62d3a7b7e",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "80d3da518d154a8f92519a2521209060c6da3632c2c4e6c16daea778b4709564",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "bd33d065a7443e5bfef86de107f7b39b26119a4b71f7d47e4845c6ae49117153",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "c24645bf439c754723b717d5bb4c9c57920b4b3abb00b6245dabcc8e1fe87c50",
+      "actions": 19,
+      "topOptions": 46
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "b59059c1b9729d096c425b6d8b8ed4928edc6d7e926debbfcc3ca4be619863d3",
+      "actions": 21,
+      "topOptions": 48
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/usa/data_USsocioEconomic.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Fullcurrent8meaningfulstages/code/modelpatchreviewed. Explicitnon-autoformatsmovefocused(G7/G8asneeded), pairedaxis/grid/scale/markownershipwithinitialsourcefonts/geometry. Currentallsource/familySVGPNGgraphicsPASS; cap8complete."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ee1fb547ff72c83d75707fa7d3b73617ded6f1660f0509ff23ee61d7a60fb9a7",
+      "bytes": 1025
+    },
+    "data.json": {
+      "sha256": "4677fde2a3e8ea09e474706d0ec33503fa094f50aec3ae8702d4190b05563217",
+      "bytes": 16869
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d34f9aa44401edfe501006a97d0aa29d26a79169cd4cad97acf0cd7668c09d94",
+      "bytes": 20348
+    },
+    "G1.gg.mjs": {
+      "sha256": "4d112aca5a50ee9efee780a65510f93274723c977a916de5a6035ba7a2de8f0a",
+      "bytes": 2826
+    },
+    "G2.gg.mjs": {
+      "sha256": "aff4e4e19778d667b8fcbe818d38db585e4491d670a300a1ebee3d4dc775aa99",
+      "bytes": 2844
+    },
+    "G3.gg.mjs": {
+      "sha256": "936f78ec40dac335995b19dc76749ee3c0222a63c8fc7cf651e2edf63059b83d",
+      "bytes": 2866
+    },
+    "G4.gg.mjs": {
+      "sha256": "098dd918e2384a45b15b1330aeb4b301790cda43993c8171ca5281b62d3a7b7e",
+      "bytes": 2828
+    },
+    "G5.gg.mjs": {
+      "sha256": "80d3da518d154a8f92519a2521209060c6da3632c2c4e6c16daea778b4709564",
+      "bytes": 2752
+    },
+    "G6.gg.mjs": {
+      "sha256": "bd33d065a7443e5bfef86de107f7b39b26119a4b71f7d47e4845c6ae49117153",
+      "bytes": 2790
+    },
+    "G7.gg.mjs": {
+      "sha256": "c24645bf439c754723b717d5bb4c9c57920b4b3abb00b6245dabcc8e1fe87c50",
+      "bytes": 2938
+    },
+    "G8.gg.mjs": {
+      "sha256": "b59059c1b9729d096c425b6d8b8ed4928edc6d7e926debbfcc3ca4be619863d3",
+      "bytes": 2988
+    },
+    "vega-lite.svg": {
+      "sha256": "e3c6dc54917f982266ab7c22af91c1a17cdb2d207b39e29a3eb72a96270fdce3",
+      "bytes": 24651
+    },
+    "ggaction.svg": {
+      "sha256": "de23a588206289abedee459ee02adbc0d4958929a59d67458f35b0d7e17e4fa3",
+      "bytes": 12521
+    }
+  }
+}

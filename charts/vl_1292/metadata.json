@@ -1,0 +1,122 @@
+{
+  "id": "vl_1292",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d6951e870a65d7bc61f9fe838258a03f03c215265a2045766212a56da9eae52d",
+      "actions": 7,
+      "topOptions": 17
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f793aca81b0782d1197b184131b50e81e412e84c9b9d85c759eb12e6d6b73d3a",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8a9f20bfadb09e886ed90cb702d7eb53def4cf9ad2951ff6e09d80b8312b4bf4",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "5e93c78bfddd01d542dcbbd318dcddf2e394d8bd044df0af6622d4f289e2c0a8",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "34a634b8478d73b55b0368d66c0d08b55ecab365ad7d352030ab6df2b9f5474d",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "70e7164a1f6fbaa0963feb6d287a5b89440bf00e296dccaf23274c78a816d8d0",
+      "actions": 18,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "45f0f12e0a68d3c38226dce893074939395e5a9ceb9cbc1dff486f6f20b94807",
+      "actions": 20,
+      "topOptions": 40
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "c18b9aaab7fbfc9d4e05c4397a3d5c8b5c5cdf95009133dbd9647fa1aecb44b9",
+      "actions": 22,
+      "topOptions": 47
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Root confirms nondefaultfontFamily is protected only by exact metadata/actual eager failure. Full G8 public sequence VM constructed PASS (savedpreflight), source Helvetica and exactfamily final checks PASS. Eight reviewed progressive publicstages; no new exception or codechange."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "77122086d65de397817d51b0c2a1e5046803e0a8759a64d3328f91484645ca81",
+      "bytes": 3803
+    },
+    "data.json": {
+      "sha256": "d6f852234ebc8a3b6263a47cdb4292a4ab7def8b6af91015016671c21feba064",
+      "bytes": 1322
+    },
+    "resolved-source.vl.json": {
+      "sha256": "62cb8e0d8aefc288632de83a26e90df1d7166303b8748f71d4d716154c4631ee",
+      "bytes": 5328
+    },
+    "G1.gg.mjs": {
+      "sha256": "d6951e870a65d7bc61f9fe838258a03f03c215265a2045766212a56da9eae52d",
+      "bytes": 2482
+    },
+    "G2.gg.mjs": {
+      "sha256": "f793aca81b0782d1197b184131b50e81e412e84c9b9d85c759eb12e6d6b73d3a",
+      "bytes": 2469
+    },
+    "G3.gg.mjs": {
+      "sha256": "8a9f20bfadb09e886ed90cb702d7eb53def4cf9ad2951ff6e09d80b8312b4bf4",
+      "bytes": 2377
+    },
+    "G4.gg.mjs": {
+      "sha256": "5e93c78bfddd01d542dcbbd318dcddf2e394d8bd044df0af6622d4f289e2c0a8",
+      "bytes": 2512
+    },
+    "G5.gg.mjs": {
+      "sha256": "34a634b8478d73b55b0368d66c0d08b55ecab365ad7d352030ab6df2b9f5474d",
+      "bytes": 2474
+    },
+    "G6.gg.mjs": {
+      "sha256": "70e7164a1f6fbaa0963feb6d287a5b89440bf00e296dccaf23274c78a816d8d0",
+      "bytes": 2457
+    },
+    "G7.gg.mjs": {
+      "sha256": "45f0f12e0a68d3c38226dce893074939395e5a9ceb9cbc1dff486f6f20b94807",
+      "bytes": 2526
+    },
+    "G8.gg.mjs": {
+      "sha256": "c18b9aaab7fbfc9d4e05c4397a3d5c8b5c5cdf95009133dbd9647fa1aecb44b9",
+      "bytes": 2502
+    },
+    "vega-lite.svg": {
+      "sha256": "b6172153a9a33b3981374bca7d9b3273d627714e77957615cffaeb6a1ed3596c",
+      "bytes": 15739
+    },
+    "ggaction.svg": {
+      "sha256": "e198e1a0c32ae93b7b955766b68279d72d21900aef5a1dae73c780f70acd10fd",
+      "bytes": 10208
+    }
+  }
+}

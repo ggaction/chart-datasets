@@ -1,0 +1,111 @@
+{
+  "id": "vl_1526",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "22e35a0be08e2a7b2f3059a146bca14d0885e219b573714ad85decc31553959e",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9ba1adc70864259b1deff06515a54c8b3084dae450c3aaf461fa3a3501ba5072",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "c8ff9918392c18ecaed19995387c49b983ecf8ad20de379672a1070efa22d101",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "73ac4fe104bf10600e174888f7dbf1e665eedd7c1de185bd766f6e4e38061d88",
+      "actions": 18,
+      "topOptions": 42
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f0428ac4567ea4cc17c954e421e16048f69d9da2ea6083ac88b14f0d20955be0",
+      "actions": 23,
+      "topOptions": 45
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8ecdd00a8b84a79b31ccefc537bc1f36ac4b5ed56c1a218005150016abfe091c",
+      "actions": 24,
+      "topOptions": 47
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "b4bc8eea7a6e0c6f3e8c83e1357fc074f96ed02815d5d6f77edf04e1769831f0",
+      "actions": 25,
+      "topOptions": 48
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex full final code/frontier audit: no mandatory public ownership boundary remains. Source font sizes, offsets, full label maps/ticks/scales/mark recipes are protected or already focused; default Sans declarations cannot create a stage. Implicit source opacity0.7 remains required appearance bridge but its scalar transfer alone is optional/padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "97a274089c08c889eb0c831263329505b0fd422f9b004eff66c7ff0d9603b6b2",
+      "bytes": 70906
+    },
+    "data.json": {
+      "sha256": "60a1286387798f4fd7d9901423a2ee683425650424d965cee65794c67647aa9a",
+      "bytes": 58882
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8129be60d289c1c1d0e722b7c726d265e34cf6db8ea454a41915e474bc4daed3",
+      "bytes": 70803
+    },
+    "G1.gg.mjs": {
+      "sha256": "22e35a0be08e2a7b2f3059a146bca14d0885e219b573714ad85decc31553959e",
+      "bytes": 5479
+    },
+    "G2.gg.mjs": {
+      "sha256": "9ba1adc70864259b1deff06515a54c8b3084dae450c3aaf461fa3a3501ba5072",
+      "bytes": 5471
+    },
+    "G3.gg.mjs": {
+      "sha256": "c8ff9918392c18ecaed19995387c49b983ecf8ad20de379672a1070efa22d101",
+      "bytes": 5665
+    },
+    "G4.gg.mjs": {
+      "sha256": "73ac4fe104bf10600e174888f7dbf1e665eedd7c1de185bd766f6e4e38061d88",
+      "bytes": 5695
+    },
+    "G5.gg.mjs": {
+      "sha256": "f0428ac4567ea4cc17c954e421e16048f69d9da2ea6083ac88b14f0d20955be0",
+      "bytes": 5642
+    },
+    "G6.gg.mjs": {
+      "sha256": "8ecdd00a8b84a79b31ccefc537bc1f36ac4b5ed56c1a218005150016abfe091c",
+      "bytes": 5683
+    },
+    "G7.gg.mjs": {
+      "sha256": "b4bc8eea7a6e0c6f3e8c83e1357fc074f96ed02815d5d6f77edf04e1769831f0",
+      "bytes": 5743
+    },
+    "vega-lite.svg": {
+      "sha256": "f3e9eedc81cd6fab3a07988d33dfa5f84b31a328202310637f6bd5e2a5ff2a90",
+      "bytes": 176100
+    },
+    "ggaction.svg": {
+      "sha256": "3c725ab49ef7eb08ed7687a1f033c65205418d7c61b3d6bb6a4792e111ade38c",
+      "bytes": 111600
+    }
+  }
+}

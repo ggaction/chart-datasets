@@ -1,0 +1,122 @@
+{
+  "id": "vl_1245",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "a4f1bc0ac7f11f7d43d7f284bcaa1984517af33c8a1f450eec871a2291c15326",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b08dd8e67fb1ed0c965715ea1cc9e38ba6bb619f636220eadb149252fdfc18aa",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8d455038010fcc381235b44c5e54c4288e4f1e01101af4989e182019eab69941",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "cf38640d57341e4e0e34d5b9ed73ba857bf7e3e1d9c58cefcbaf667759cbd2e6",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "8fa4d0f8d409e61334323134d6a86d5036db46122a6c3d27c3aaed03e5f8cf55",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8465d578ca06d7b9e899787ef172c1d81b320223274c0cd8c9f9831452c25d50",
+      "actions": 16,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "1108799b591dc64ca54616ffca76b8f7cd4e7db2fa4e868e0e499524ecef220d",
+      "actions": 20,
+      "topOptions": 41
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "ac8a19d8207130e9edede15e42fbbf8e136dedc8fc871b9ffd9002f9a41e3247",
+      "actions": 21,
+      "topOptions": 43
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight coherent actual GLM stages: full original repeat chart; all source scales; guide families; complete X/Y axes; standalone legend; whole-axis paint; grouped axis components; grid paint. Final grid stage retains only exact original model edit index0 from rejected mixed-family G8, zero extra calls and all raw request usage retained. Full8raw/40foldvertices/5paths/22glyphs and full10palette; every native family SVG/PNG exact. At8cap, legend label/symbol refinement remains and is not claimed exhausted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e47db26e68e11edd28a4a4665e61072c73c98c56ab985b4a7d245bf044236a8f",
+      "bytes": 1840
+    },
+    "data.json": {
+      "sha256": "65239840e278d9b4334d17249b19b71e4e918705a114b813c26b5efaf2a3ca88",
+      "bytes": 949
+    },
+    "resolved-source.vl.json": {
+      "sha256": "554844afd2eec1db8ea2bf696d1e94d45fd0def116c1a5efa648f014e4ac1161",
+      "bytes": 1835
+    },
+    "G1.gg.mjs": {
+      "sha256": "a4f1bc0ac7f11f7d43d7f284bcaa1984517af33c8a1f450eec871a2291c15326",
+      "bytes": 4596
+    },
+    "G2.gg.mjs": {
+      "sha256": "b08dd8e67fb1ed0c965715ea1cc9e38ba6bb619f636220eadb149252fdfc18aa",
+      "bytes": 4627
+    },
+    "G3.gg.mjs": {
+      "sha256": "8d455038010fcc381235b44c5e54c4288e4f1e01101af4989e182019eab69941",
+      "bytes": 4635
+    },
+    "G4.gg.mjs": {
+      "sha256": "cf38640d57341e4e0e34d5b9ed73ba857bf7e3e1d9c58cefcbaf667759cbd2e6",
+      "bytes": 4595
+    },
+    "G5.gg.mjs": {
+      "sha256": "8fa4d0f8d409e61334323134d6a86d5036db46122a6c3d27c3aaed03e5f8cf55",
+      "bytes": 4527
+    },
+    "G6.gg.mjs": {
+      "sha256": "8465d578ca06d7b9e899787ef172c1d81b320223274c0cd8c9f9831452c25d50",
+      "bytes": 4737
+    },
+    "G7.gg.mjs": {
+      "sha256": "1108799b591dc64ca54616ffca76b8f7cd4e7db2fa4e868e0e499524ecef220d",
+      "bytes": 4733
+    },
+    "G8.gg.mjs": {
+      "sha256": "ac8a19d8207130e9edede15e42fbbf8e136dedc8fc871b9ffd9002f9a41e3247",
+      "bytes": 4785
+    },
+    "vega-lite.svg": {
+      "sha256": "7b51798474982ff1aa8e99814f12800c1af257c714e164141c7c9f31ff2ffba3",
+      "bytes": 13649
+    },
+    "ggaction.svg": {
+      "sha256": "57dd3cf1d87417a9b0373bb10bf5a40d47686d008f12197b8010e3d0cb5dbd4b",
+      "bytes": 10274
+    }
+  }
+}

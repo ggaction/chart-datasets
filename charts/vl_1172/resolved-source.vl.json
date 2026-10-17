@@ -1,0 +1,120 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "": "",
+        "Year": "2022",
+        "profits (millions USD)": "170782",
+        "Investment into R&D (millions USD)": "26251"
+      },
+      {
+        "": "",
+        "Year": "2021",
+        "profits (millions USD)": "152836",
+        "Investment into R&D (millions USD)": "21914"
+      },
+      {
+        "": "",
+        "Year": "2020",
+        "profits (millions USD)": "104956",
+        "Investment into R&D (millions USD)": "18752"
+      },
+      {
+        "": "",
+        "Year": "2019",
+        "profits (millions USD)": "98392",
+        "Investment into R&D (millions USD)": "16217"
+      },
+      {
+        "": "",
+        "Year": "2018",
+        "profits (millions USD)": "101839",
+        "Investment into R&D (millions USD)": "14236"
+      },
+      {
+        "": "",
+        "Year": "2017",
+        "profits (millions USD)": "88186",
+        "Investment into R&D (millions USD)": "11581"
+      },
+      {
+        "": "",
+        "Year": "2016",
+        "profits (millions USD)": "84263",
+        "Investment into R&D (millions USD)": "10045"
+      },
+      {
+        "": "",
+        "Year": "2015",
+        "profits (millions USD)": "93626",
+        "Investment into R&D (millions USD)": "8067"
+      },
+      {
+        "": "",
+        "Year": "2014",
+        "profits (millions USD)": "70537",
+        "Investment into R&D (millions USD)": "6041"
+      },
+      {
+        "": "",
+        "Year": "2013",
+        "profits (millions USD)": "64304",
+        "Investment into R&D (millions USD)": "4475"
+      },
+      {
+        "": "",
+        "Year": "2012",
+        "profits (millions USD)": "68662",
+        "Investment into R&D (millions USD)": "3381"
+      },
+      {
+        "": "",
+        "Year": "2011",
+        "profits (millions USD)": "43818",
+        "Investment into R&D (millions USD)": "2429"
+      },
+      {
+        "": "",
+        "Year": "2010",
+        "profits (millions USD)": "25684",
+        "Investment into R&D (millions USD)": "1782"
+      },
+      {
+        "": "",
+        "Year": "2009",
+        "profits (millions USD)": "17222",
+        "Investment into R&D (millions USD)": "1333"
+      },
+      {
+        "": "",
+        "Year": "",
+        "profits (millions USD)": "",
+        "Investment into R&D (millions USD)": ""
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "mark": "point",
+  "encoding": {
+    "x": {
+      "field": "profits (millions USD)",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "Investment into R&D (millions USD)",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "Year",
+        "type": "temporal",
+        "title": "Date"
+      }
+    ]
+  }
+}

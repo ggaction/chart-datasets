@@ -1,0 +1,124 @@
+{
+  "id": "vl_0636",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9581bfeaeb386412ab7b1612dfc85d16415982695e0f6f620febbea3c04eaca8",
+      "actions": 19,
+      "topOptions": 47
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "22d03703284cecebb42580bcbad902a65fe201ac76f3b7c5ca8e952d86c71016",
+      "actions": 21,
+      "topOptions": 50
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "c323f880ec3735e02a4fabcef3e51603a2af8166941d4558f05a2da7d4b6d5b4",
+      "actions": 22,
+      "topOptions": 54
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "099b3e14f3c24d13fe1cdb8f07d7a9c28b7493f8b477f0236aa312b2490e68f5",
+      "actions": 24,
+      "topOptions": 58
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "948fded0c67c0343fc5a2745a71153feba04370dc2d3fcd281be3f1d40d14a85",
+      "actions": 26,
+      "topOptions": 64
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "61d1d5af35e52c5323f3b8f0ca82977e3d43a303fe22a5d13afdab776f13ebab",
+      "actions": 30,
+      "topOptions": 68
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "590401e1b3f6fec01b877a12a0bd34d7e909fc83c0a29dc402a04dc03f074763",
+      "actions": 32,
+      "topOptions": 70
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "3116a265e15f381be025ca488106b971e2931d3b017073b1937c643fa711c17c",
+      "actions": 34,
+      "topOptions": 71
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/jhellingsdata/jhellingsdata.github.io/main/Data/explainer_gdp_world.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight source-correct distinct programs reviewed and normalverified on7971. Full finalcode/frontier inspected; remainingownership opportunities recorded in terminal-frontier-disclosure.json. Honest8cap completion, not an exhaustedfrontier claim."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "f5a8f8132d45366ac7fdca957a57b14f52f1916557bedc9390f39882227b0787",
+      "bytes": 2184
+    },
+    "data.json": {
+      "sha256": "adc1207243695b5492782366c291c318e994e3df2a6427c45ef328cb8300c491",
+      "bytes": 80311
+    },
+    "resolved-source.vl.json": {
+      "sha256": "9207ddc1a895c1757bfa333b1e7faa8296f411e80362586312650afe668e710c",
+      "bytes": 93372
+    },
+    "G1.gg.mjs": {
+      "sha256": "9581bfeaeb386412ab7b1612dfc85d16415982695e0f6f620febbea3c04eaca8",
+      "bytes": 3679
+    },
+    "G2.gg.mjs": {
+      "sha256": "22d03703284cecebb42580bcbad902a65fe201ac76f3b7c5ca8e952d86c71016",
+      "bytes": 3697
+    },
+    "G3.gg.mjs": {
+      "sha256": "c323f880ec3735e02a4fabcef3e51603a2af8166941d4558f05a2da7d4b6d5b4",
+      "bytes": 3635
+    },
+    "G4.gg.mjs": {
+      "sha256": "099b3e14f3c24d13fe1cdb8f07d7a9c28b7493f8b477f0236aa312b2490e68f5",
+      "bytes": 3706
+    },
+    "G5.gg.mjs": {
+      "sha256": "948fded0c67c0343fc5a2745a71153feba04370dc2d3fcd281be3f1d40d14a85",
+      "bytes": 3960
+    },
+    "G6.gg.mjs": {
+      "sha256": "61d1d5af35e52c5323f3b8f0ca82977e3d43a303fe22a5d13afdab776f13ebab",
+      "bytes": 3922
+    },
+    "G7.gg.mjs": {
+      "sha256": "590401e1b3f6fec01b877a12a0bd34d7e909fc83c0a29dc402a04dc03f074763",
+      "bytes": 3976
+    },
+    "G8.gg.mjs": {
+      "sha256": "3116a265e15f381be025ca488106b971e2931d3b017073b1937c643fa711c17c",
+      "bytes": 3908
+    },
+    "vega-lite.svg": {
+      "sha256": "923671250498c91cdd460666fb287cb848fc7565549e8612f281bba149800223",
+      "bytes": 70084
+    },
+    "ggaction.svg": {
+      "sha256": "bc8bc98c65c02d3bfd79718fc8777321751277c90561464e54d5a22759ae793b",
+      "bytes": 23972
+    }
+  }
+}

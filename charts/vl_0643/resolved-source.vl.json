@@ -1,0 +1,311 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "An ordered donut chart, with a filter from raw data",
+  "height": 300,
+  "width": 300,
+  "view": {
+    "stroke": "transparent"
+  },
+  "title": {
+    "text": "US GDP - expenditure",
+    "subtitle": [
+      "2022 Q3, excluding trade. Source: BEA",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Item": "Gross domestic product",
+        "Number": "1",
+        "pieNumber": "99",
+        "Type": "GDP",
+        "Value": "25723.9",
+        "Share": "100%"
+      },
+      {
+        "Item": "Personal consumption expenditures",
+        "Number": "2",
+        "pieNumber": "99",
+        "Type": "C",
+        "Value": "17542.7",
+        "Share": "68%"
+      },
+      {
+        "Item": "Goods",
+        "Number": "3",
+        "pieNumber": "99",
+        "Type": "C",
+        "Value": "5988.6",
+        "Share": "23%"
+      },
+      {
+        "Item": "Durable goods",
+        "Number": "4",
+        "pieNumber": "3",
+        "Type": "C",
+        "Value": "2195.8",
+        "Share": "9%"
+      },
+      {
+        "Item": "Nondurable goods",
+        "Number": "5",
+        "pieNumber": "2",
+        "Type": "C",
+        "Value": "3792.7",
+        "Share": "15%"
+      },
+      {
+        "Item": "Services",
+        "Number": "6",
+        "pieNumber": "1",
+        "Type": "C",
+        "Value": "11554.1",
+        "Share": "45%"
+      },
+      {
+        "Item": "Gross private domestic investment",
+        "Number": "7",
+        "pieNumber": "99",
+        "Type": "I",
+        "Value": "4579.1",
+        "Share": "18%"
+      },
+      {
+        "Item": "Fixed investment",
+        "Number": "8",
+        "pieNumber": "99",
+        "Type": "I",
+        "Value": "4508.2",
+        "Share": "18%"
+      },
+      {
+        "Item": "Nonresidential",
+        "Number": "9",
+        "pieNumber": "99",
+        "Type": "I",
+        "Value": "3403.4",
+        "Share": "13%"
+      },
+      {
+        "Item": "Structures",
+        "Number": "10",
+        "pieNumber": "6",
+        "Type": "I",
+        "Value": "654.8",
+        "Share": "3%"
+      },
+      {
+        "Item": "Equipment",
+        "Number": "11",
+        "pieNumber": "7",
+        "Type": "I",
+        "Value": "1352",
+        "Share": "5%"
+      },
+      {
+        "Item": "Intellectual property products",
+        "Number": "12",
+        "pieNumber": "4",
+        "Type": "I",
+        "Value": "1396.6",
+        "Share": "5%"
+      },
+      {
+        "Item": "Residential",
+        "Number": "13",
+        "pieNumber": "5",
+        "Type": "I",
+        "Value": "1104.8",
+        "Share": "4%"
+      },
+      {
+        "Item": "Change in private inventories",
+        "Number": "14",
+        "pieNumber": "99",
+        "Type": "I",
+        "Value": "70.9",
+        "Share": "0%"
+      },
+      {
+        "Item": "Net exports of goods and services",
+        "Number": "15",
+        "pieNumber": "99",
+        "Type": "NX",
+        "Value": "-890.8",
+        "Share": "-3%"
+      },
+      {
+        "Item": "Exports",
+        "Number": "16",
+        "pieNumber": "99",
+        "Type": "NX",
+        "Value": "3065",
+        "Share": "12%"
+      },
+      {
+        "Item": "Goods",
+        "Number": "17",
+        "pieNumber": "99",
+        "Type": "NX",
+        "Value": "2141.2",
+        "Share": "8%"
+      },
+      {
+        "Item": "Services",
+        "Number": "18",
+        "pieNumber": "99",
+        "Type": "NX",
+        "Value": "923.8",
+        "Share": "4%"
+      },
+      {
+        "Item": "Imports",
+        "Number": "19",
+        "pieNumber": "99",
+        "Type": "NX",
+        "Value": "3955.8",
+        "Share": "15%"
+      },
+      {
+        "Item": "Goods",
+        "Number": "20",
+        "pieNumber": "99",
+        "Type": "NX",
+        "Value": "3269.7",
+        "Share": "13%"
+      },
+      {
+        "Item": "Services",
+        "Number": "21",
+        "pieNumber": "99",
+        "Type": "NX",
+        "Value": "686.1",
+        "Share": "3%"
+      },
+      {
+        "Item": "Government consumption expenditures and gross investment",
+        "Number": "22",
+        "pieNumber": "99",
+        "Type": "G",
+        "Value": "4493",
+        "Share": "17%"
+      },
+      {
+        "Item": "Federal",
+        "Number": "23",
+        "pieNumber": "99",
+        "Type": "G",
+        "Value": "1657.1",
+        "Share": "6%"
+      },
+      {
+        "Item": "National defense",
+        "Number": "24",
+        "pieNumber": "9",
+        "Type": "G",
+        "Value": "935.3",
+        "Share": "4%"
+      },
+      {
+        "Item": "Nondefense",
+        "Number": "25",
+        "pieNumber": "10",
+        "Type": "G",
+        "Value": "721.8",
+        "Share": "3%"
+      },
+      {
+        "Item": "State and local",
+        "Number": "26",
+        "pieNumber": "8",
+        "Type": "G",
+        "Value": "2836",
+        "Share": "11%"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Number": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "Number",
+        "oneOf": [
+          4,
+          5,
+          6,
+          10,
+          11,
+          12,
+          13,
+          24,
+          25,
+          26
+        ]
+      }
+    }
+  ],
+  "mark": {
+    "type": "arc",
+    "innerRadius": 60,
+    "outerRadius": 120,
+    "cornerRadius": 0,
+    "padAngle": 0.02
+  },
+  "encoding": {
+    "theta": {
+      "field": "Value",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "Item",
+      "type": "nominal",
+      "legend": {
+        "title": null
+      },
+      "sort": {
+        "field": "pieNumber",
+        "order": "ascending"
+      },
+      "scale": {
+        "range": [
+          "rgb(128,0,0)",
+          "rgb(128,0,0)",
+          "rgb(128,0,0)",
+          "rgb(118,118,118)",
+          "rgb(118,118,118)",
+          "rgb(118,118,118)",
+          "rgb(118,118,118)",
+          "rgb(214,214,206)",
+          "rgb(214,214,206)",
+          "rgb(214,214,206)"
+        ]
+      }
+    },
+    "order": {
+      "field": "pieNumber",
+      "type": "quantitative",
+      "sort": "ascending"
+    },
+    "tooltip": [
+      {
+        "field": "Item",
+        "title": "Item",
+        "format": ""
+      },
+      {
+        "field": "Value",
+        "title": "USD billions",
+        "format": "$,"
+      }
+    ]
+  }
+}

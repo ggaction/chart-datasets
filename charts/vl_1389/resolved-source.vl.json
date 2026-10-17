@@ -1,0 +1,123 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Time": "1-Jan-2010",
+        "Sales": "90"
+      },
+      {
+        "Time": "1-Feb-2010",
+        "Sales": "50"
+      },
+      {
+        "Time": "1-Mar-2010",
+        "Sales": "68"
+      },
+      {
+        "Time": "1-Apr-2010",
+        "Sales": "4"
+      },
+      {
+        "Time": "1-May-2010",
+        "Sales": "68"
+      },
+      {
+        "Time": "1-Jun-2010",
+        "Sales": "29"
+      },
+      {
+        "Time": "1-Jul-2010",
+        "Sales": "73"
+      },
+      {
+        "Time": "1-Aug-2010",
+        "Sales": "95"
+      },
+      {
+        "Time": "1-Dec-2010",
+        "Sales": "42"
+      },
+      {
+        "Time": "1-Jan-2011",
+        "Sales": "74"
+      },
+      {
+        "Time": "1-Feb-2011",
+        "Sales": "67"
+      },
+      {
+        "Time": "1-Mar-2011",
+        "Sales": "55"
+      },
+      {
+        "Time": "1-Apr-2011",
+        "Sales": "99"
+      },
+      {
+        "Time": "1-May-2011",
+        "Sales": "99"
+      },
+      {
+        "Time": "1-Jun-2011",
+        "Sales": "60"
+      },
+      {
+        "Time": "1-Jul-2011",
+        "Sales": "56"
+      },
+      {
+        "Time": "1-Aug-2011",
+        "Sales": "36"
+      },
+      {
+        "Time": "1-Sep-2011",
+        "Sales": "28"
+      },
+      {
+        "Time": "1-Oct-2011",
+        "Sales": "56"
+      },
+      {
+        "Time": "1-Nov-2011",
+        "Sales": "66"
+      },
+      {
+        "Time": "1-Dec-2011",
+        "Sales": "28"
+      },
+      {
+        "Time": "1-Jan-2012",
+        "Sales": "24"
+      },
+      {
+        "Time": "1-Feb-2012",
+        "Sales": "59"
+      },
+      {
+        "Time": "1-Mar-2012",
+        "Sales": "55"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Time": "date"
+      }
+    }
+  },
+  "height": 200,
+  "width": 200,
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "timeUnit": "yearquarter",
+      "field": "Time",
+      "type": "temporal"
+    },
+    "y": {
+      "aggregate": "mean",
+      "field": "Sales",
+      "type": "quantitative"
+    }
+  }
+}

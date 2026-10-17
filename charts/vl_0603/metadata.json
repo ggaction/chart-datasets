@@ -1,0 +1,124 @@
+{
+  "id": "vl_0603",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1786b73e94d49d02cbd4e52593051c0c28e8cc3cfb06e4b496162e0b86dd5fd9",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "97ec6aabd08650584633a25b994aab9f499b1bda1dcd351a97f1ca4c82950a4b",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e6285df3ac3546a75797bb0cea3ed469f1d1df333b9456fdcff37515f1e8c040",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "36a0e811d97a61033628cbcb0bd35152fd9bb8778f26093239dad2cb9ddc7c3c",
+      "actions": 17,
+      "topOptions": 39
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "83fdc85b65fcbfe03d41ab47521a3b9a5ec9e9cd6e05bf5deaa3028d7cad3da8",
+      "actions": 17,
+      "topOptions": 39
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3cd18315e709cac9ee4e8d8f0068994569ecce9370c596653668e7c5402f08da",
+      "actions": 19,
+      "topOptions": 41
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "8884d0b929582688f2348a92464c3e3bcb42aa69c7afc5cbd6ec1cb8aba31b20",
+      "actions": 19,
+      "topOptions": 41
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "dbe96c54d85d6f55069ecf6d0d079abff182a275443bbfca1af2d32c34e06d01",
+      "actions": 20,
+      "topOptions": 41
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/extreme/glasgowHealthData.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight accepted stage modules individually reviewed against source and accepted parents including grouped mark-channel refinement. Exact source/family SVG/PNG current-runtime gates pass, source fonts/data/fixed canvas retained and no padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "62af8fb953f28c9db8cf650742bbb67e511ff01c0e15ddf05786882dd8b133cf",
+      "bytes": 1568
+    },
+    "data.json": {
+      "sha256": "ca2a87d57a6a0e9b58e37002048f66637ee38a93f63deb00aba16e15a979bc7a",
+      "bytes": 13579
+    },
+    "resolved-source.vl.json": {
+      "sha256": "868a63012648d6e8ce1d80422eb53d9c78144a39b3233dca561adcb366eb48fe",
+      "bytes": 17239
+    },
+    "G1.gg.mjs": {
+      "sha256": "1786b73e94d49d02cbd4e52593051c0c28e8cc3cfb06e4b496162e0b86dd5fd9",
+      "bytes": 2365
+    },
+    "G2.gg.mjs": {
+      "sha256": "97ec6aabd08650584633a25b994aab9f499b1bda1dcd351a97f1ca4c82950a4b",
+      "bytes": 2413
+    },
+    "G3.gg.mjs": {
+      "sha256": "e6285df3ac3546a75797bb0cea3ed469f1d1df333b9456fdcff37515f1e8c040",
+      "bytes": 2435
+    },
+    "G4.gg.mjs": {
+      "sha256": "36a0e811d97a61033628cbcb0bd35152fd9bb8778f26093239dad2cb9ddc7c3c",
+      "bytes": 2435
+    },
+    "G5.gg.mjs": {
+      "sha256": "83fdc85b65fcbfe03d41ab47521a3b9a5ec9e9cd6e05bf5deaa3028d7cad3da8",
+      "bytes": 2435
+    },
+    "G6.gg.mjs": {
+      "sha256": "3cd18315e709cac9ee4e8d8f0068994569ecce9370c596653668e7c5402f08da",
+      "bytes": 2517
+    },
+    "G7.gg.mjs": {
+      "sha256": "8884d0b929582688f2348a92464c3e3bcb42aa69c7afc5cbd6ec1cb8aba31b20",
+      "bytes": 2505
+    },
+    "G8.gg.mjs": {
+      "sha256": "dbe96c54d85d6f55069ecf6d0d079abff182a275443bbfca1af2d32c34e06d01",
+      "bytes": 2522
+    },
+    "vega-lite.svg": {
+      "sha256": "dcb981090b2c68080fdbe4b1f9d4822c734b58274e54d9fb9e61ce40305399b8",
+      "bytes": 27173
+    },
+    "ggaction.svg": {
+      "sha256": "86c8fbdeb123503141d0020c21a60cda5bcbb88ebf8430b5d438f1d4fb16d6ec",
+      "bytes": 12021
+    }
+  }
+}

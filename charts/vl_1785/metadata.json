@@ -1,0 +1,124 @@
+{
+  "id": "vl_1785",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6fdb0a3b1025bd6dedea33872171d69ef37fa9d97f02813f1af17024b2717ff6",
+      "actions": 17,
+      "topOptions": 41
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b7dab7dce068c380377800fa2863691bacc0dfc357e60ef8e15017dd81dca296",
+      "actions": 18,
+      "topOptions": 43
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "5465fe101d646beed4246e4a42c267311170d53d39bb8cfae3b54bd50ecc56df",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e5e61efdfce184563507d86f1976e27df476c6f8807d82691e0ebda70a7c63e0",
+      "actions": 21,
+      "topOptions": 49
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c948832c1dc7795b63cefaa2e0346c4cecfb6d96bb49012c87014f5b6f754398",
+      "actions": 22,
+      "topOptions": 49
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "353983e1892045a5d15a65e34cfe69fe612a1c9b9aebaaf32ff775642625bc63",
+      "actions": 24,
+      "topOptions": 49
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "a9afa89d23a2c6cfce65bc7f871d3e101441ba64f08c07d71422e93b70f6129b",
+      "actions": 30,
+      "topOptions": 56
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "3a330b913839702a04c77ff5055239c2c4c66c7ee958915bffe78acf83eba019",
+      "actions": 32,
+      "topOptions": 56
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex reread full source, completefinalprogram and everymeaningfulstage. Full406rawcar records, nonnullfilter, exact year peer-complete prefixmean for all ties/scatter/redline,source500x400/fonts/tick/domain/guidegeometry preserved. G8pairedgrid source#dddpaint movesfocused, all8 normalcurrentruntime source+familychecksPASS. Eightmeaningfulstagecap reached withoutclaimingexhaustivefrontier."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ebcd0f65bbe35aba24d10dba4ca9b284026751233b8f9b95ea6839fdaa3d3f61",
+      "bytes": 1356
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "84bd018cef91fcbd4fbace0ccaf9fb40a50db470fc825dd1b74989fd4f7f5362",
+      "bytes": 115275
+    },
+    "G1.gg.mjs": {
+      "sha256": "6fdb0a3b1025bd6dedea33872171d69ef37fa9d97f02813f1af17024b2717ff6",
+      "bytes": 3316
+    },
+    "G2.gg.mjs": {
+      "sha256": "b7dab7dce068c380377800fa2863691bacc0dfc357e60ef8e15017dd81dca296",
+      "bytes": 3234
+    },
+    "G3.gg.mjs": {
+      "sha256": "5465fe101d646beed4246e4a42c267311170d53d39bb8cfae3b54bd50ecc56df",
+      "bytes": 3318
+    },
+    "G4.gg.mjs": {
+      "sha256": "e5e61efdfce184563507d86f1976e27df476c6f8807d82691e0ebda70a7c63e0",
+      "bytes": 3258
+    },
+    "G5.gg.mjs": {
+      "sha256": "c948832c1dc7795b63cefaa2e0346c4cecfb6d96bb49012c87014f5b6f754398",
+      "bytes": 3250
+    },
+    "G6.gg.mjs": {
+      "sha256": "353983e1892045a5d15a65e34cfe69fe612a1c9b9aebaaf32ff775642625bc63",
+      "bytes": 3264
+    },
+    "G7.gg.mjs": {
+      "sha256": "a9afa89d23a2c6cfce65bc7f871d3e101441ba64f08c07d71422e93b70f6129b",
+      "bytes": 3380
+    },
+    "G8.gg.mjs": {
+      "sha256": "3a330b913839702a04c77ff5055239c2c4c66c7ee958915bffe78acf83eba019",
+      "bytes": 3430
+    },
+    "vega-lite.svg": {
+      "sha256": "288e5f2a96d97ac1a0fe7031dca611b136da92bb059ebcadcf1b0a43cab606f6",
+      "bytes": 125716
+    },
+    "ggaction.svg": {
+      "sha256": "6184a52f38f1968f1aef1fae322836be8f09a698aa3841aad47fa59e83d79778",
+      "bytes": 70808
+    }
+  }
+}

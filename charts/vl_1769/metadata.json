@@ -1,0 +1,102 @@
+{
+  "id": "vl_1769",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9e18721fdd417dcbea9c7ad8cef5b0c7122869db93f258c92f0b2ad51f9f838c",
+      "actions": 14,
+      "topOptions": 37
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "d5a89a339f722c226e99ae8a80f9466f0220361ce64ce019330cb5b83ce8225f",
+      "actions": 15,
+      "topOptions": 37
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ee126dbcbbfe229369be1c0152877230e7e0c7ef147036e7772b1b8b4932d108",
+      "actions": 17,
+      "topOptions": 39
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f56205791ee1f86f190823b5d0f08aa379cf539025d1e4dfa5c1809abb9a96ac",
+      "actions": 19,
+      "topOptions": 43
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e7eab6052935ad9e81df86f9c28a3182bb0ace7d9000274d1925bf8668579d74",
+      "actions": 23,
+      "topOptions": 45
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8ac5928f0187f096cec4d0c282af213900cc45899b0b25ef0cb7c95c57a08ca4",
+      "actions": 25,
+      "topOptions": 48
+    }
+  ],
+  "sourceUrls": [
+    "https://gicentre.github.io/data/tests/timeTest.tsv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full original source/finalG6 and exact retained model stop read. All source raw26265, canonical366month-date means, .2pxline, source800x200/tickfonts/flush/grid exact. Complete labels/titles/line/tickpaint are focused; full12month-day map already focused, domains dedicated, nolegend/title, no mandatory remaining frontier. Stop6 honestly; no quota-padding default setters or duplicated stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "f27c61deb1e7c1b917eec3e6428d5283e36ee3ee491172626db132d10f243da7",
+      "bytes": 492
+    },
+    "data.json": {
+      "sha256": "1ae3e91972addcbdba23e94c13e30fce6708b402efe315403b1ed8b2d23ffd02",
+      "bytes": 1838553
+    },
+    "resolved-source.vl.json": {
+      "sha256": "b990937cc75a522b003ed3c6d1abd27a0ecfa89dc7c305ec5e9aea9bff6bb510",
+      "bytes": 2259311
+    },
+    "G1.gg.mjs": {
+      "sha256": "9e18721fdd417dcbea9c7ad8cef5b0c7122869db93f258c92f0b2ad51f9f838c",
+      "bytes": 3541
+    },
+    "G2.gg.mjs": {
+      "sha256": "d5a89a339f722c226e99ae8a80f9466f0220361ce64ce019330cb5b83ce8225f",
+      "bytes": 3561
+    },
+    "G3.gg.mjs": {
+      "sha256": "ee126dbcbbfe229369be1c0152877230e7e0c7ef147036e7772b1b8b4932d108",
+      "bytes": 3619
+    },
+    "G4.gg.mjs": {
+      "sha256": "f56205791ee1f86f190823b5d0f08aa379cf539025d1e4dfa5c1809abb9a96ac",
+      "bytes": 3841
+    },
+    "G5.gg.mjs": {
+      "sha256": "e7eab6052935ad9e81df86f9c28a3182bb0ace7d9000274d1925bf8668579d74",
+      "bytes": 3865
+    },
+    "G6.gg.mjs": {
+      "sha256": "8ac5928f0187f096cec4d0c282af213900cc45899b0b25ef0cb7c95c57a08ca4",
+      "bytes": 3715
+    },
+    "vega-lite.svg": {
+      "sha256": "0d68e21b285a8690be0464549ec6852ac8e843a31572f7427bc09020781b2579",
+      "bytes": 14964
+    },
+    "ggaction.svg": {
+      "sha256": "515485e6744ead7140003c6b299a0baff7afac97f79a19af77a44e738e5a8b3a",
+      "bytes": 22312
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "vl_1420",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "00171c51d4de747a3a8c1babf4ac9a073c061e43713f7e6feb24e46003580e59",
+      "actions": 8,
+      "topOptions": 15
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "54f1bb8cbbfd7f250115f9eb94983cdd1172e011a8343dc97d1ceed2bbcbbbba",
+      "actions": 9,
+      "topOptions": 17
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "5d1e79a85704444b6869759d70a3f15df14481cee49787b355d07edc4e81efe0",
+      "actions": 10,
+      "topOptions": 21
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "266d2226fd5c81a55c7babb43f8905c3e0eb1944f405b7521e01478ff398478c",
+      "actions": 11,
+      "topOptions": 21
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "74ed081d7a9256d92907dee6429d3a015348a5df58a75966ca6b7f81a0013e43",
+      "actions": 13,
+      "topOptions": 25
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "1e0aa3e5a3576022e62030632a00c46490ad60f5530224491ec7be09f6025d16",
+      "actions": 15,
+      "topOptions": 27
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Root read full actual G6 module and proposedG7 diff. All source position scales/markstyle/axislabels andtitles/gridpaint already live in focused publiceditors. Remaining constructors contain only exactdomains/data, measuredfonts/tickrotation/offsets/values, and hidden/defaultline guards. ProposedG7 moves already-focusedgridpaint backwards into createHorizontalGrid, a regrouping ratherthanmonotoneownership. No charttitle,legend or explicitaxisformats. Six distinct stages exhaust meaningful frontier."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "15c624d3face42f2a0edf5e260d597af487b815e5914ea54d5fde197a8ddc989",
+      "bytes": 954
+    },
+    "data.json": {
+      "sha256": "6545d2ab60ee9a3fd3c2588505905ae3721240e32b1a589cba4f0beabba4fc4d",
+      "bytes": 187
+    },
+    "resolved-source.vl.json": {
+      "sha256": "7302bbb81c0b0a146a9a2c0a5325da078e4ab02979bdf56d1c59e0c52d6a27a8",
+      "bytes": 1172
+    },
+    "G1.gg.mjs": {
+      "sha256": "00171c51d4de747a3a8c1babf4ac9a073c061e43713f7e6feb24e46003580e59",
+      "bytes": 1868
+    },
+    "G2.gg.mjs": {
+      "sha256": "54f1bb8cbbfd7f250115f9eb94983cdd1172e011a8343dc97d1ceed2bbcbbbba",
+      "bytes": 1764
+    },
+    "G3.gg.mjs": {
+      "sha256": "5d1e79a85704444b6869759d70a3f15df14481cee49787b355d07edc4e81efe0",
+      "bytes": 1682
+    },
+    "G4.gg.mjs": {
+      "sha256": "266d2226fd5c81a55c7babb43f8905c3e0eb1944f405b7521e01478ff398478c",
+      "bytes": 1678
+    },
+    "G5.gg.mjs": {
+      "sha256": "74ed081d7a9256d92907dee6429d3a015348a5df58a75966ca6b7f81a0013e43",
+      "bytes": 1810
+    },
+    "G6.gg.mjs": {
+      "sha256": "1e0aa3e5a3576022e62030632a00c46490ad60f5530224491ec7be09f6025d16",
+      "bytes": 1724
+    },
+    "vega-lite.svg": {
+      "sha256": "7d58f1d1bed279459a4ea3a4b2afc4118f73531f51b7669c49f7be4bb1060b68",
+      "bytes": 8852
+    },
+    "ggaction.svg": {
+      "sha256": "f9cf4332372bafb8d69447d6fd533ca69207cad025e7685767b2bbcdf0a9319f",
+      "bytes": 7790
+    }
+  }
+}

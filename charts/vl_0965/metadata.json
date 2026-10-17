@@ -1,0 +1,124 @@
+{
+  "id": "vl_0965",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "023b54cda19ae8c75717751d10ecba29326563f955176fa98d96b8345adf5f89",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4b5b5f3fb7426f60239a7106a0a1e808c85b07f1e3234c794008f6fcfee17993",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "876d3566522e58712b81f49f6a5ebe711c77b575c3e8760fa355cc7581d12aa2",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7104f3fcda1562ea1165486da3a56204918849490c957aa262a5e6ba60cd0c3e",
+      "actions": 16,
+      "topOptions": 33
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "99a865585bd7196d6e67f2654aedd0969db680763de558b1f473e8fba6b8d2a2",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d5a9a037481b9c53f81ce96e274c6744601be93f2cebd573e51864e9e76c7122",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "0ccd50674bc471215c6fb5b9cdc57f62816ab1214bc26002d6c4ebede33f33c6",
+      "actions": 19,
+      "topOptions": 40
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "0cd1687eeb51cf4a79bb18bfe76287ab46f46a48a98c9ac1f279942161ead957",
+      "actions": 19,
+      "topOptions": 40
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/harrywright25/harrywright25.github.io/main/share-renewable-w9.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight stages retain all6153 raw rows, full temporal/quantitative values and175x175 plot, original source fonts and two-line italic subtitle, source four-stop renewable palette with independently recomputed measured native D65/source D50 approximation max6 channel units, and exact native gradient opacity. Remaining legend-wrapper ownership is disclosed at cap8. All current runtime/source checks pass."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e0bdf7f807d7ef70d81141989cd9fddc0c91aacb4a7e82a248978537ee6f8ab9",
+      "bytes": 1659
+    },
+    "data.json": {
+      "sha256": "47d70e299baeefdd61f0ee2c1e0ca507929d07a2105359163edf98a45941cbc2",
+      "bytes": 868244
+    },
+    "resolved-source.vl.json": {
+      "sha256": "195aed19678b6b17738bd835eda32765eea4b0304ac1eb6701648269bc229b08",
+      "bytes": 1017552
+    },
+    "G1.gg.mjs": {
+      "sha256": "023b54cda19ae8c75717751d10ecba29326563f955176fa98d96b8345adf5f89",
+      "bytes": 3147
+    },
+    "G2.gg.mjs": {
+      "sha256": "4b5b5f3fb7426f60239a7106a0a1e808c85b07f1e3234c794008f6fcfee17993",
+      "bytes": 3165
+    },
+    "G3.gg.mjs": {
+      "sha256": "876d3566522e58712b81f49f6a5ebe711c77b575c3e8760fa355cc7581d12aa2",
+      "bytes": 3173
+    },
+    "G4.gg.mjs": {
+      "sha256": "7104f3fcda1562ea1165486da3a56204918849490c957aa262a5e6ba60cd0c3e",
+      "bytes": 3158
+    },
+    "G5.gg.mjs": {
+      "sha256": "99a865585bd7196d6e67f2654aedd0969db680763de558b1f473e8fba6b8d2a2",
+      "bytes": 3118
+    },
+    "G6.gg.mjs": {
+      "sha256": "d5a9a037481b9c53f81ce96e274c6744601be93f2cebd573e51864e9e76c7122",
+      "bytes": 3134
+    },
+    "G7.gg.mjs": {
+      "sha256": "0ccd50674bc471215c6fb5b9cdc57f62816ab1214bc26002d6c4ebede33f33c6",
+      "bytes": 3215
+    },
+    "G8.gg.mjs": {
+      "sha256": "0cd1687eeb51cf4a79bb18bfe76287ab46f46a48a98c9ac1f279942161ead957",
+      "bytes": 3183
+    },
+    "vega-lite.svg": {
+      "sha256": "9f2aafa4fc9c8e8e4a203912624e20762217771dd84e33169f99a268c3a165df",
+      "bytes": 2566937
+    },
+    "ggaction.svg": {
+      "sha256": "2cd33b07647e4c34a94676a5c34828084b44c164a8a58d5cf675ee01f4553cc0",
+      "bytes": 649993
+    }
+  }
+}

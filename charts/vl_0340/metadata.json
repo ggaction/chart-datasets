@@ -1,0 +1,102 @@
+{
+  "id": "vl_0340",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "3511e76470a645bd114a71d64676f0e165d995dd07ba29339dee9b17e1aebe6d",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ecca639bb42f04da01de65ae50bbdcb1fa549939fb7683c8e7a7e60f9b922d39",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7881c40764ec837a2568da2f35221e90df55165e6650d094343a620d6b2a69cf",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "671200004fe363667af93608d4c5e8c4f0de3f12c266575e813f591e2f86b116",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f8c5b4a9f49d3357ad4062a79499601ca140783deb86c5c1f6899158aab4d51f",
+      "actions": 16,
+      "topOptions": 32
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "67de7ef6ea0acd47f9fdaa36825562b143d285b5b04c2bc4235534cee95cffba",
+      "actions": 19,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/usa/data_FRED-PAYEMS.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Fullsource andall6stagecode/diffs reviewed. All pairedaxes arefocused line/tick/format, titlepaint already editor, monotone andstroke/width at semanticowners. Current concrete mandatory frontier zero, protectedsourcefont sizes/offsets/ticklength remain creation, exact family andsourcechecks pass currentpin. Honest stop6."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "30dc3c10a6a8e37d53ac8c8fc140b832abbecb2497f50a9ced789ace2b4f8885",
+      "bytes": 1041
+    },
+    "data.json": {
+      "sha256": "dafdb1abca0183e3c632e2db9a34d24da21a05fc08e5a35deadd0a34d56da8ff",
+      "bytes": 125287
+    },
+    "resolved-source.vl.json": {
+      "sha256": "9d3ee9b8229c334db3ce1a55987dfdebabe30585f067f5b65a5bb83d121c0580",
+      "bytes": 150005
+    },
+    "G1.gg.mjs": {
+      "sha256": "3511e76470a645bd114a71d64676f0e165d995dd07ba29339dee9b17e1aebe6d",
+      "bytes": 2158
+    },
+    "G2.gg.mjs": {
+      "sha256": "ecca639bb42f04da01de65ae50bbdcb1fa549939fb7683c8e7a7e60f9b922d39",
+      "bytes": 2088
+    },
+    "G3.gg.mjs": {
+      "sha256": "7881c40764ec837a2568da2f35221e90df55165e6650d094343a620d6b2a69cf",
+      "bytes": 2130
+    },
+    "G4.gg.mjs": {
+      "sha256": "671200004fe363667af93608d4c5e8c4f0de3f12c266575e813f591e2f86b116",
+      "bytes": 2146
+    },
+    "G5.gg.mjs": {
+      "sha256": "f8c5b4a9f49d3357ad4062a79499601ca140783deb86c5c1f6899158aab4d51f",
+      "bytes": 2281
+    },
+    "G6.gg.mjs": {
+      "sha256": "67de7ef6ea0acd47f9fdaa36825562b143d285b5b04c2bc4235534cee95cffba",
+      "bytes": 2214
+    },
+    "vega-lite.svg": {
+      "sha256": "8f9fe2e024bcca80ac4e15a4966f41e4b60bb7953efa1e71ca0b8f4ed9f2e3ff",
+      "bytes": 51139
+    },
+    "ggaction.svg": {
+      "sha256": "fd98a4800654560b3295cbe1fdea6fcf93382e14e9fe39f717f52681da4a7bea",
+      "bytes": 108870
+    }
+  }
+}

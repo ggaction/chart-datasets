@@ -1,0 +1,113 @@
+{
+  "id": "vl_1469",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "31517ed91d4d187d709371bb409f89b4c34faf601fae6480f7099dced0a050d4",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b01729a6290927ff7cc55e0a5b4f901e22b43f46ae5ca2b6f2179aa8483b722f",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "bab1cabe1c0cf2d28e6f8b016c441eef6001b67868911fbd4f16c6d7ff9443bc",
+      "actions": 24,
+      "topOptions": 54
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4abb030b6473f5463f6f99c881e68f6e9825e76590e9d3410184fbe8c4377e99",
+      "actions": 26,
+      "topOptions": 60
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4ddfa508c4e1f9fcf54157735dcf47d332e75237899847ad66a6ea04920796a2",
+      "actions": 32,
+      "topOptions": 68
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "634a9d98d2765cbfb93c87fd8f7f13995efa1bce2577723ba48e7b6768189e45",
+      "actions": 33,
+      "topOptions": 70
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d03ea87869c1e0e3cfd34e566ffeeb6a04c86e2b24090401ca44d25fef834d76",
+      "actions": 33,
+      "topOptions": 71
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/joaopalmeiro/data-preparation/master/vega-presentation-require-lx/data/operations.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 7 genuine ownership stages, 317 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "fb9da15373d50fdec64c4d44ad1014b91f467c80895a07c2fb541301185ceaea",
+      "bytes": 1939
+    },
+    "data.json": {
+      "sha256": "9b16f57e1f214d332ddfeef272c23511e9021e5786e7a3f30da8288e982df542",
+      "bytes": 1004
+    },
+    "resolved-source.vl.json": {
+      "sha256": "3ecfdf03c9643d7d9ff8760d875023740782855b8355f635e13e8da9563b3be3",
+      "bytes": 3003
+    },
+    "G1.gg.mjs": {
+      "sha256": "31517ed91d4d187d709371bb409f89b4c34faf601fae6480f7099dced0a050d4",
+      "bytes": 7424
+    },
+    "G2.gg.mjs": {
+      "sha256": "b01729a6290927ff7cc55e0a5b4f901e22b43f46ae5ca2b6f2179aa8483b722f",
+      "bytes": 7280
+    },
+    "G3.gg.mjs": {
+      "sha256": "bab1cabe1c0cf2d28e6f8b016c441eef6001b67868911fbd4f16c6d7ff9443bc",
+      "bytes": 7284
+    },
+    "G4.gg.mjs": {
+      "sha256": "4abb030b6473f5463f6f99c881e68f6e9825e76590e9d3410184fbe8c4377e99",
+      "bytes": 7538
+    },
+    "G5.gg.mjs": {
+      "sha256": "4ddfa508c4e1f9fcf54157735dcf47d332e75237899847ad66a6ea04920796a2",
+      "bytes": 7476
+    },
+    "G6.gg.mjs": {
+      "sha256": "634a9d98d2765cbfb93c87fd8f7f13995efa1bce2577723ba48e7b6768189e45",
+      "bytes": 7506
+    },
+    "G7.gg.mjs": {
+      "sha256": "d03ea87869c1e0e3cfd34e566ffeeb6a04c86e2b24090401ca44d25fef834d76",
+      "bytes": 7522
+    },
+    "vega-lite.svg": {
+      "sha256": "7e85e346199374daf07a126fc3c1147f9a40fb9f5d71a187380b626f6298270b",
+      "bytes": 13250
+    },
+    "ggaction.svg": {
+      "sha256": "08756cae0ecd8252cd7ecc379461a979165bad01045ac679b35566bfd565af37",
+      "bytes": 10005
+    }
+  }
+}

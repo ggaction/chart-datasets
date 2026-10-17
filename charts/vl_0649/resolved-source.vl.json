@@ -1,0 +1,174 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Is this $150 billion of missing GDP?",
+    "subtitle": [
+      "Estimates of illegal drug spending by Americans. USD billions. Source: RAND",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 450,
+  "height": 300,
+  "data": {
+    "values": [
+      {
+        "Year": "2006",
+        "Cocaine": "58",
+        "Heroin": "31",
+        "Marijuana": "34",
+        "Methamphetamine": "22",
+        "Total": "145",
+        "Source": "RAND, What America�s Users Spend on Illegal Drugs, 2006�2016",
+        "Notes": "Best or adjusted estimates"
+      },
+      {
+        "Year": "2007",
+        "Cocaine": "48",
+        "Heroin": "29",
+        "Marijuana": "33",
+        "Methamphetamine": "18",
+        "Total": "128",
+        "Source": "",
+        "Notes": ""
+      },
+      {
+        "Year": "2008",
+        "Cocaine": "39",
+        "Heroin": "31",
+        "Marijuana": "37",
+        "Methamphetamine": "15",
+        "Total": "122",
+        "Source": "",
+        "Notes": ""
+      },
+      {
+        "Year": "2009",
+        "Cocaine": "35",
+        "Heroin": "36",
+        "Marijuana": "39",
+        "Methamphetamine": "16",
+        "Total": "126",
+        "Source": "",
+        "Notes": ""
+      },
+      {
+        "Year": "2010",
+        "Cocaine": "31",
+        "Heroin": "35",
+        "Marijuana": "42",
+        "Methamphetamine": "16",
+        "Total": "124",
+        "Source": "",
+        "Notes": ""
+      },
+      {
+        "Year": "2011",
+        "Cocaine": "29",
+        "Heroin": "35",
+        "Marijuana": "42",
+        "Methamphetamine": "15",
+        "Total": "121",
+        "Source": "",
+        "Notes": ""
+      },
+      {
+        "Year": "2012",
+        "Cocaine": "27",
+        "Heroin": "37",
+        "Marijuana": "42",
+        "Methamphetamine": "17",
+        "Total": "123",
+        "Source": "",
+        "Notes": ""
+      },
+      {
+        "Year": "2013",
+        "Cocaine": "24",
+        "Heroin": "40",
+        "Marijuana": "44",
+        "Methamphetamine": "21",
+        "Total": "129",
+        "Source": "",
+        "Notes": ""
+      },
+      {
+        "Year": "2014",
+        "Cocaine": "24",
+        "Heroin": "42",
+        "Marijuana": "54",
+        "Methamphetamine": "23",
+        "Total": "143",
+        "Source": "",
+        "Notes": ""
+      },
+      {
+        "Year": "2015",
+        "Cocaine": "24",
+        "Heroin": "41",
+        "Marijuana": "51",
+        "Methamphetamine": "29",
+        "Total": "145",
+        "Source": "",
+        "Notes": ""
+      },
+      {
+        "Year": "2016",
+        "Cocaine": "24",
+        "Heroin": "43",
+        "Marijuana": "52",
+        "Methamphetamine": "27",
+        "Total": "146",
+        "Source": "",
+        "Notes": ""
+      }
+    ]
+  },
+  "transform": [
+    {
+      "fold": [
+        "Cocaine",
+        "Heroin",
+        "Marijuana",
+        "Methamphetamine"
+      ],
+      "as": [
+        "var",
+        "val"
+      ]
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "width": 25
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": null,
+      "axis": {
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "val",
+      "title": null,
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "var",
+      "type": "nominal",
+      "legend": {
+        "orient": "top"
+      },
+      "scale": {
+        "scheme": "inferno"
+      },
+      "title": null
+    }
+  }
+}

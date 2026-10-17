@@ -1,0 +1,113 @@
+{
+  "id": "vl_1874",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "67ce865ae917a6bd9bb7d92cdc005d8a84187ac6410b4941082395f0d47b77ff",
+      "actions": 6,
+      "topOptions": 12
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ab82e7b2bd484f7e60e7a7dcbff97b5e4a94284274f285aac2e49c339a2b04b5",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "aa0e1fa16e26c77178bb5953f08bef79862dcdfe165d808b7e7ba4b194f5ff81",
+      "actions": 9,
+      "topOptions": 20
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ad1d740015d751fd41778b6b9eb2ac2524ceb64d8915d8b7bf14faadfc23b323",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7a55c15e2647850bb50863ae93d13409a631b183e2c696924eb3422a812b5257",
+      "actions": 16,
+      "topOptions": 28
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "e80ec60891b7114dc3e297822f83d81f5830b1689d190da2961e30a4f453820e",
+      "actions": 18,
+      "topOptions": 30
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "811d316ecb93fcf9e1f7a322e4b07a7bde5d173f5a56508bfb3043fa0a34cd8e",
+      "actions": 19,
+      "topOptions": 32
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/grantat/cs725-blog/6c77cd08497a86c6495df1c40635ef033a1e71c7/static/data/v3/year_amount.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Proposed patch returns already-focused parent axis editors and adds a redundant duplicate createGrid call; this is not a new ownership stage. Full accepted terminal module and raw source reviewed: positional domains and constant appearance channels already at focused owners; remaining initial axis font sizes/positions/values/visibility/content and source shape/curve definitions are retained. No absent default or scalar/repartitioning stage justified. Stop metadata is human review, not a new model-authored code or chart."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "dd4e6e6ab3c21e8c6d2506e29de2b0e6b132dd55b663be128016b00dfd1ee19c",
+      "bytes": 720
+    },
+    "data.json": {
+      "sha256": "e5bb76abf31530b2bfe4877d0f4531220423d4467155145c16d5b9ea8d654883",
+      "bytes": 1036
+    },
+    "resolved-source.vl.json": {
+      "sha256": "99a18a5726b1b6a1bda5e0015fd30bc973f8635c67c96c75b12cf305aabfe856",
+      "bytes": 1940
+    },
+    "G1.gg.mjs": {
+      "sha256": "67ce865ae917a6bd9bb7d92cdc005d8a84187ac6410b4941082395f0d47b77ff",
+      "bytes": 1917
+    },
+    "G2.gg.mjs": {
+      "sha256": "ab82e7b2bd484f7e60e7a7dcbff97b5e4a94284274f285aac2e49c339a2b04b5",
+      "bytes": 1863
+    },
+    "G3.gg.mjs": {
+      "sha256": "aa0e1fa16e26c77178bb5953f08bef79862dcdfe165d808b7e7ba4b194f5ff81",
+      "bytes": 1743
+    },
+    "G4.gg.mjs": {
+      "sha256": "ad1d740015d751fd41778b6b9eb2ac2524ceb64d8915d8b7bf14faadfc23b323",
+      "bytes": 1901
+    },
+    "G5.gg.mjs": {
+      "sha256": "7a55c15e2647850bb50863ae93d13409a631b183e2c696924eb3422a812b5257",
+      "bytes": 1899
+    },
+    "G6.gg.mjs": {
+      "sha256": "e80ec60891b7114dc3e297822f83d81f5830b1689d190da2961e30a4f453820e",
+      "bytes": 1938
+    },
+    "G7.gg.mjs": {
+      "sha256": "811d316ecb93fcf9e1f7a322e4b07a7bde5d173f5a56508bfb3043fa0a34cd8e",
+      "bytes": 1996
+    },
+    "vega-lite.svg": {
+      "sha256": "aba50942439d15945447b4bf62b347ecdf7314f7c0c79ddc619587d995ca4fd7",
+      "bytes": 9315
+    },
+    "ggaction.svg": {
+      "sha256": "602633f6ecaba9b220b94fa91248e61f8cc6afb7db8c4f9e545629569afd6510",
+      "bytes": 8242
+    }
+  }
+}

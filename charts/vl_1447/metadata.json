@@ -1,0 +1,100 @@
+{
+  "id": "vl_1447",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "2d3ea936b6109983e4303ff7a998d42de049bd4ad53d83116ee267708d8b36fe",
+      "actions": 6,
+      "topOptions": 12
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "d0e0903ba50974cc5a69db62a196452d32087e8c912115fbf6831469b12cbcc2",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a707384de036dfbc0e736e25e6ee9c75e420180463efc9e185f031de7c4e484c",
+      "actions": 9,
+      "topOptions": 20
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7838cb4cf3f7edc8ee43708d2927c035fcc16f6a2bed94992497059defe23a95",
+      "actions": 11,
+      "topOptions": 22
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e2fa4ac3613b08d4456cdccdf2df06b8ebbaae87a4486e2436573b74092f9268",
+      "actions": 11,
+      "topOptions": 22
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "4b40ff98d593382676642fa4db23be756fa0d20d1f5b1b3b12bfc06885285a59",
+      "actions": 12,
+      "topOptions": 23
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Proposed patch moves focused axis-title weight700 backwards into complete-axis creation; monotonic granularity forbids reversal. Full accepted terminal module and raw source reviewed: positional domains and constant appearance channels already at focused owners; remaining initial axis font sizes/positions/values/visibility/content and source shape/curve definitions are retained. No absent default or scalar/repartitioning stage justified. Stop metadata is human review, not a new model-authored code or chart."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "de878da1a46b1ca5ec60a261b49d57594eb9044aa62720ae008eb99ecd626314",
+      "bytes": 11697
+    },
+    "data.json": {
+      "sha256": "82d7434523cc2411f91f41410a9af1c2e5e41a7ad2c0043578cbfa3b1cec809f",
+      "bytes": 9271
+    },
+    "resolved-source.vl.json": {
+      "sha256": "de878da1a46b1ca5ec60a261b49d57594eb9044aa62720ae008eb99ecd626314",
+      "bytes": 11697
+    },
+    "G1.gg.mjs": {
+      "sha256": "2d3ea936b6109983e4303ff7a998d42de049bd4ad53d83116ee267708d8b36fe",
+      "bytes": 1921
+    },
+    "G2.gg.mjs": {
+      "sha256": "d0e0903ba50974cc5a69db62a196452d32087e8c912115fbf6831469b12cbcc2",
+      "bytes": 1879
+    },
+    "G3.gg.mjs": {
+      "sha256": "a707384de036dfbc0e736e25e6ee9c75e420180463efc9e185f031de7c4e484c",
+      "bytes": 1831
+    },
+    "G4.gg.mjs": {
+      "sha256": "7838cb4cf3f7edc8ee43708d2927c035fcc16f6a2bed94992497059defe23a95",
+      "bytes": 1911
+    },
+    "G5.gg.mjs": {
+      "sha256": "e2fa4ac3613b08d4456cdccdf2df06b8ebbaae87a4486e2436573b74092f9268",
+      "bytes": 1899
+    },
+    "G6.gg.mjs": {
+      "sha256": "4b40ff98d593382676642fa4db23be756fa0d20d1f5b1b3b12bfc06885285a59",
+      "bytes": 1939
+    },
+    "vega-lite.svg": {
+      "sha256": "9cc97ab82e70ef8f70b246a61264f227590a7ef2755a71b1df748ddd44057fde",
+      "bytes": 43651
+    },
+    "ggaction.svg": {
+      "sha256": "1d9ae3d3af96be5fbec71a54a2a2bd75691e75fb0162f4c67b2bf8fbf5a6dd34",
+      "bytes": 17498
+    }
+  }
+}

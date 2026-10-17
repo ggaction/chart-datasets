@@ -1,0 +1,128 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "(M6) Central bank independence",
+  "title": {
+    "text": "Central bank independence",
+    "subtitle": "Source: BoE",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Country": "Australia",
+        "Value": "0.25",
+        "Order": "1"
+      },
+      {
+        "Country": "Austria",
+        "Value": "0.86",
+        "Order": "2"
+      },
+      {
+        "Country": "Belgium",
+        "Value": "0.86",
+        "Order": "3"
+      },
+      {
+        "Country": "Canada",
+        "Value": "0.47",
+        "Order": "4"
+      },
+      {
+        "Country": "Denmark",
+        "Value": "0.5",
+        "Order": "5"
+      },
+      {
+        "Country": "Finland",
+        "Value": "0.86",
+        "Order": "6"
+      },
+      {
+        "Country": "France",
+        "Value": "0.86",
+        "Order": "7"
+      },
+      {
+        "Country": "Germany",
+        "Value": "0.86",
+        "Order": "8"
+      },
+      {
+        "Country": "Italy",
+        "Value": "0.86",
+        "Order": "9"
+      },
+      {
+        "Country": "Japan",
+        "Value": "0.44",
+        "Order": "10"
+      },
+      {
+        "Country": "The Netherlands",
+        "Value": "0.86",
+        "Order": "11"
+      },
+      {
+        "Country": "New Zealand",
+        "Value": "0.35",
+        "Order": "12"
+      },
+      {
+        "Country": "Norway",
+        "Value": "0.45",
+        "Order": "13"
+      },
+      {
+        "Country": "Spain",
+        "Value": "0.86",
+        "Order": "14"
+      },
+      {
+        "Country": "Sweden",
+        "Value": "0.3",
+        "Order": "15"
+      },
+      {
+        "Country": "Switzerland",
+        "Value": "0.77",
+        "Order": "16"
+      },
+      {
+        "Country": "UK",
+        "Value": "0.7",
+        "Order": "17"
+      },
+      {
+        "Country": "US",
+        "Value": "0.48",
+        "Order": "18"
+      }
+    ]
+  },
+  "height": 300,
+  "width": 255,
+  "mark": {
+    "type": "bar",
+    "color": "darkblue"
+  },
+  "encoding": {
+    "y": {
+      "field": "Country",
+      "type": "nominal",
+      "title": "",
+      "sort": "-x"
+    },
+    "x": {
+      "aggregate": "sum",
+      "field": "Value",
+      "title": "",
+      "axis": {
+        "grid": false
+      }
+    }
+  }
+}

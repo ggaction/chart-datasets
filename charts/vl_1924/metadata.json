@@ -1,0 +1,124 @@
+{
+  "id": "vl_1924",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ec03906ee51cc16fb2b1b57105fd4fb9c9f211c48f851633ddae544dc04460b5",
+      "actions": 18,
+      "topOptions": 41
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "08330bd8b5fe0597c9967bae99bbaad13381e1afdefd70c40a5eeb4944f559e9",
+      "actions": 20,
+      "topOptions": 47
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "f8dba4ce4ff1cf787e0673b841cc4ee6da4611dfb6fa6cf84b004aeb3a145518",
+      "actions": 21,
+      "topOptions": 51
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "46df3d700e943f05681629f7d40d5022e0b1106a3b16adebfb7d511d21810ace",
+      "actions": 23,
+      "topOptions": 57
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "cfe173668523282b8fe3f39861fd999291a85191c6d7e8770ffba14c202e5ec7",
+      "actions": 29,
+      "topOptions": 61
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "343770d37d2a0f378ab49349fdafc0217d48c30484fe9ef728a7e47fd37c17e4",
+      "actions": 30,
+      "topOptions": 62
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "544155c5cb7596510f12140101ca7c877084eff1b6bcc0a6d4f6e18c999f783f",
+      "actions": 32,
+      "topOptions": 65
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "5ecfd992d4047432b92e43ed8502c301f908f7a2f579f6a0da15716da46a952b",
+      "actions": 32,
+      "topOptions": 66
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/vega/master/db_ecdc_wide.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full58902raw/source filters and final G8 entire modelprogram reread. All8 meaningful programs preserve199 source points, source axes/legend/header/fonts/plot and every exact same-family SVG PNG/graphic check passes. Cap8 reached honestly; possible remaining optional refinement is not claimed exhausted; all failures and actual usage retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "df111f2cb052c804444e4957b52e68f409d2ee9faa61d920cfd4dd9ddb0cdd31",
+      "bytes": 1800
+    },
+    "data.json": {
+      "sha256": "1593954230e7610157a0e19a1da37751ad3c4a5ee6c39f3c4839306521453305",
+      "bytes": 45437196
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0495d9f93072aafa3a37de11db0a0575e1d4d376b3f28c3a9b76c0757bfc6b61",
+      "bytes": 52978513
+    },
+    "G1.gg.mjs": {
+      "sha256": "ec03906ee51cc16fb2b1b57105fd4fb9c9f211c48f851633ddae544dc04460b5",
+      "bytes": 9289
+    },
+    "G2.gg.mjs": {
+      "sha256": "08330bd8b5fe0597c9967bae99bbaad13381e1afdefd70c40a5eeb4944f559e9",
+      "bytes": 9353
+    },
+    "G3.gg.mjs": {
+      "sha256": "f8dba4ce4ff1cf787e0673b841cc4ee6da4611dfb6fa6cf84b004aeb3a145518",
+      "bytes": 9223
+    },
+    "G4.gg.mjs": {
+      "sha256": "46df3d700e943f05681629f7d40d5022e0b1106a3b16adebfb7d511d21810ace",
+      "bytes": 9389
+    },
+    "G5.gg.mjs": {
+      "sha256": "cfe173668523282b8fe3f39861fd999291a85191c6d7e8770ffba14c202e5ec7",
+      "bytes": 9415
+    },
+    "G6.gg.mjs": {
+      "sha256": "343770d37d2a0f378ab49349fdafc0217d48c30484fe9ef728a7e47fd37c17e4",
+      "bytes": 9309
+    },
+    "G7.gg.mjs": {
+      "sha256": "544155c5cb7596510f12140101ca7c877084eff1b6bcc0a6d4f6e18c999f783f",
+      "bytes": 9360
+    },
+    "G8.gg.mjs": {
+      "sha256": "5ecfd992d4047432b92e43ed8502c301f908f7a2f579f6a0da15716da46a952b",
+      "bytes": 9376
+    },
+    "vega-lite.svg": {
+      "sha256": "83343390a70bdae9c194eb4517139a417890d3d7ed9dba5871a2f944ae692c95",
+      "bytes": 90548
+    },
+    "ggaction.svg": {
+      "sha256": "e3f506b88771cacf9c5b20a08eff5468c955fb053eecae14c7a639796e5545df",
+      "bytes": 36996
+    }
+  }
+}

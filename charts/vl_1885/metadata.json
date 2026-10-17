@@ -1,0 +1,113 @@
+{
+  "id": "vl_1885",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "239af7027677999a7160f859bd4d316bc181134d64d6cc221be4dced5ad48d07",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ae29e4af3fd8762365c47f3f73ee1c5a1a722aa0d53c8567278ff66c60656594",
+      "actions": 18,
+      "topOptions": 44
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a193f4dea41d16222977ae8f0117587987cb67ada6d1a95285c3a87176929198",
+      "actions": 20,
+      "topOptions": 50
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c5a5852c2ad8446bf19b1fa47956f49d3f34946a51c4afebc38f2d3d4d3ba25f",
+      "actions": 24,
+      "topOptions": 54
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "58707a2223c92b3cf4f2b04e0e9e822f0d9ba7bdadce88e0c7ad2bfc3890d399",
+      "actions": 24,
+      "topOptions": 54
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "c97181430f789574c0679075e88d2e33389b3c5324c09717adebcec23d07308a",
+      "actions": 27,
+      "topOptions": 56
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "3d6a21d4edea7d881aabfd36a522441d77be9c5602beeabc4f34489467cca4c6",
+      "actions": 28,
+      "topOptions": 56
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/observatory/main/covidGlobalCases.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 7 genuine ownership stages, 394 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed hash-bound Codex host frontier stop (model:null); original model plans/usage remain retained; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "45b0359b243d4f139b9fae14af29c4d126b38ca8e462967bd95c79ab0a2b1062",
+      "bytes": 1891
+    },
+    "data.json": {
+      "sha256": "210cbf669aaea028419b62b1878ba3d406e330ebbe62b786101ff5a1ab153f2d",
+      "bytes": 7582412
+    },
+    "resolved-source.vl.json": {
+      "sha256": "deefdf01739184369eaa2d64526157931243139555a07b17c8a116e05618edb8",
+      "bytes": 8714181
+    },
+    "G1.gg.mjs": {
+      "sha256": "239af7027677999a7160f859bd4d316bc181134d64d6cc221be4dced5ad48d07",
+      "bytes": 6575
+    },
+    "G2.gg.mjs": {
+      "sha256": "ae29e4af3fd8762365c47f3f73ee1c5a1a722aa0d53c8567278ff66c60656594",
+      "bytes": 6523
+    },
+    "G3.gg.mjs": {
+      "sha256": "a193f4dea41d16222977ae8f0117587987cb67ada6d1a95285c3a87176929198",
+      "bytes": 6723
+    },
+    "G4.gg.mjs": {
+      "sha256": "c5a5852c2ad8446bf19b1fa47956f49d3f34946a51c4afebc38f2d3d4d3ba25f",
+      "bytes": 6719
+    },
+    "G5.gg.mjs": {
+      "sha256": "58707a2223c92b3cf4f2b04e0e9e822f0d9ba7bdadce88e0c7ad2bfc3890d399",
+      "bytes": 6622
+    },
+    "G6.gg.mjs": {
+      "sha256": "c97181430f789574c0679075e88d2e33389b3c5324c09717adebcec23d07308a",
+      "bytes": 6648
+    },
+    "G7.gg.mjs": {
+      "sha256": "3d6a21d4edea7d881aabfd36a522441d77be9c5602beeabc4f34489467cca4c6",
+      "bytes": 6669
+    },
+    "vega-lite.svg": {
+      "sha256": "737f14b001297b524872bfaa6c2761fcf8c710d6ddd324eefd1b5b94e9a0dcf9",
+      "bytes": 33330
+    },
+    "ggaction.svg": {
+      "sha256": "2b16f4ea573661879f96a98894511ec00fe2964798736051d8ea197c077865e6",
+      "bytes": 30945
+    }
+  }
+}

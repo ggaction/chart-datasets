@@ -1,0 +1,78 @@
+{
+  "id": "vl_0298",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8dd0ece079aeb799a33488c4fa87b35ee250cd268f853a57f91f979dab832293",
+      "actions": 6,
+      "topOptions": 12
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "8a37cc652cdbae3138f5844504b978983bac616f617879ad9ea2f053ac37460f",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "3eabc7727232709406ce3bfada2e212ddcb50239fcfda415e2bcd3e7043246bf",
+      "actions": 8,
+      "topOptions": 17
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "27265833106da7c94f5202d43822b3a4196129742342d79e479400d3c5ee204b",
+      "actions": 9,
+      "topOptions": 21
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed full remaining frontier: paired scales already separated; complete per-axis declarations hold protected sizes/offsets only; source has no authored mark style, legend or title. Inferred default grid paint is not a padding stage. All four stages render and source geometry plus exact family SVG/PNG/graphics checks pass."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "600983eb5dad58c10596c978e79a688a75c111c248ff118d49c409760d2dbf9a",
+      "bytes": 5063
+    },
+    "data.json": {
+      "sha256": "ca0edb756781586c03d7f4692e2f2421771b818d8573ad1619800a72e9e47057",
+      "bytes": 3538
+    },
+    "resolved-source.vl.json": {
+      "sha256": "600983eb5dad58c10596c978e79a688a75c111c248ff118d49c409760d2dbf9a",
+      "bytes": 5063
+    },
+    "G1.gg.mjs": {
+      "sha256": "8dd0ece079aeb799a33488c4fa87b35ee250cd268f853a57f91f979dab832293",
+      "bytes": 2754
+    },
+    "G2.gg.mjs": {
+      "sha256": "8a37cc652cdbae3138f5844504b978983bac616f617879ad9ea2f053ac37460f",
+      "bytes": 2854
+    },
+    "G3.gg.mjs": {
+      "sha256": "3eabc7727232709406ce3bfada2e212ddcb50239fcfda415e2bcd3e7043246bf",
+      "bytes": 3009
+    },
+    "G4.gg.mjs": {
+      "sha256": "27265833106da7c94f5202d43822b3a4196129742342d79e479400d3c5ee204b",
+      "bytes": 2977
+    },
+    "vega-lite.svg": {
+      "sha256": "b237695ffbd1b67a30dddaf988f35d1dd5514a2137c03ed627e3cd7cb98aff8c",
+      "bytes": 33470
+    },
+    "ggaction.svg": {
+      "sha256": "44725d444939a7ea6af109501a17c526bebc9bae3a653d0ad05447bb8705ecee",
+      "bytes": 32626
+    }
+  }
+}

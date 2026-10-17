@@ -1,0 +1,113 @@
+{
+  "id": "vl_1465",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "80feab2cb3815dc68d1477ddd4dfdfa2decb8fbc16ecadecb34182a5104a217e",
+      "actions": 13,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "c5ef00b355c9b75311b8220c5545105b2bbaf53bf435ee1969e5c983d133112a",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8fb2bbd4c7ff3c9e2a2d38b9815cbe8660d0e3fec67279c27ea4e44cc8bc0e7b",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "be9e9f0129848bc1bb8e22cfc88840179178dd952e22010e3ed87edd5bd5b060",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "dce776497806e4b3eeaec92ea147fd46b3af6dc10b10a08d91ddf797074dbeec",
+      "actions": 25,
+      "topOptions": 49
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "7a23647ad6177fbbbad21cf5bf656d980ba40fea8dd8d89f9e4983ae407ac17e",
+      "actions": 25,
+      "topOptions": 50
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "568302642c8b430acf973830c7425631d11b567b52a47ff974cd291206be6ec1",
+      "actions": 25,
+      "topOptions": 51
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/joaopalmeiro/data-preparation/master/vega-presentation-require-lx/data/operations.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full G7 frontier and actual failed G8Roboto creation reviewed; retain measured protected title typography and stop7 distinct stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "3086182a20aa6d899250e0baabf4090ff236634027477172ec27aa4b0c5bc24e",
+      "bytes": 1325
+    },
+    "data.json": {
+      "sha256": "9b16f57e1f214d332ddfeef272c23511e9021e5786e7a3f30da8288e982df542",
+      "bytes": 1004
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d663a928996e3fd56ab10a08c1ca9975e04404db3de27129ced0079b82d8ec08",
+      "bytes": 2389
+    },
+    "G1.gg.mjs": {
+      "sha256": "80feab2cb3815dc68d1477ddd4dfdfa2decb8fbc16ecadecb34182a5104a217e",
+      "bytes": 7301
+    },
+    "G2.gg.mjs": {
+      "sha256": "c5ef00b355c9b75311b8220c5545105b2bbaf53bf435ee1969e5c983d133112a",
+      "bytes": 7159
+    },
+    "G3.gg.mjs": {
+      "sha256": "8fb2bbd4c7ff3c9e2a2d38b9815cbe8660d0e3fec67279c27ea4e44cc8bc0e7b",
+      "bytes": 7085
+    },
+    "G4.gg.mjs": {
+      "sha256": "be9e9f0129848bc1bb8e22cfc88840179178dd952e22010e3ed87edd5bd5b060",
+      "bytes": 7269
+    },
+    "G5.gg.mjs": {
+      "sha256": "dce776497806e4b3eeaec92ea147fd46b3af6dc10b10a08d91ddf797074dbeec",
+      "bytes": 7207
+    },
+    "G6.gg.mjs": {
+      "sha256": "7a23647ad6177fbbbad21cf5bf656d980ba40fea8dd8d89f9e4983ae407ac17e",
+      "bytes": 7207
+    },
+    "G7.gg.mjs": {
+      "sha256": "568302642c8b430acf973830c7425631d11b567b52a47ff974cd291206be6ec1",
+      "bytes": 7207
+    },
+    "vega-lite.svg": {
+      "sha256": "21c9462bb8ffc702f4e9c308072a4727c32e01e9904a5e8922c0758193ca185c",
+      "bytes": 11685
+    },
+    "ggaction.svg": {
+      "sha256": "e3af5685cdf62e764358ec5f331067d6cd89f955bd03225700514e42e610333c",
+      "bytes": 8766
+    }
+  }
+}

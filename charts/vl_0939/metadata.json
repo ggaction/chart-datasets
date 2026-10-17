@@ -1,0 +1,113 @@
+{
+  "id": "vl_0939",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c6c8917b1e42bfe5e49450550a1afb284e5ed1e98d82f6d6a9544a49cb46b94d",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "50de68e6de59a8ea6942aff5b4b03b932446e620c48dd619fa16e4e14b2f7d68",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a4d7e6567bfe05c22c9eaa3a5611711d877052a866f3c5a35aee5e740b423b95",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "d54440038a8c496327a428984ae8fa138abaaebd331dfc90a3353876caf5ba86",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9edf742d154546e40b58e70300f7c14cdaf9d189f8907da5b4d4c43e8df5c85d",
+      "actions": 15,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "206c297517e6b308d00c252d3a158b7dfc97ac64992f4ae541101723cfc3e9b0",
+      "actions": 19,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "5a997156af4dcdfae4d384aee46bea9a3dd2f7926da54a1a5d33d7a126320e9f",
+      "actions": 19,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/issylavenstein/issylavenstein.github.io/main/Portfolio/Week%202/IMF%20credit%20data%20current.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 7 genuine ownership stages, 324 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "0e441dd3e000c4504286cb2341b999db025e72888deb803faa35f87142152db5",
+      "bytes": 917
+    },
+    "data.json": {
+      "sha256": "a8908aadc22dd6e0368843fdd2656b4b3bea333a1c1182067bc24792aa5c9653",
+      "bytes": 19376
+    },
+    "resolved-source.vl.json": {
+      "sha256": "12d82f56caa3e7538207d2a70bae9ee4bbbb9acce3bf8022b9288c200cb24e72",
+      "bytes": 22890
+    },
+    "G1.gg.mjs": {
+      "sha256": "c6c8917b1e42bfe5e49450550a1afb284e5ed1e98d82f6d6a9544a49cb46b94d",
+      "bytes": 1732
+    },
+    "G2.gg.mjs": {
+      "sha256": "50de68e6de59a8ea6942aff5b4b03b932446e620c48dd619fa16e4e14b2f7d68",
+      "bytes": 1750
+    },
+    "G3.gg.mjs": {
+      "sha256": "a4d7e6567bfe05c22c9eaa3a5611711d877052a866f3c5a35aee5e740b423b95",
+      "bytes": 1726
+    },
+    "G4.gg.mjs": {
+      "sha256": "d54440038a8c496327a428984ae8fa138abaaebd331dfc90a3353876caf5ba86",
+      "bytes": 1742
+    },
+    "G5.gg.mjs": {
+      "sha256": "9edf742d154546e40b58e70300f7c14cdaf9d189f8907da5b4d4c43e8df5c85d",
+      "bytes": 1833
+    },
+    "G6.gg.mjs": {
+      "sha256": "206c297517e6b308d00c252d3a158b7dfc97ac64992f4ae541101723cfc3e9b0",
+      "bytes": 1893
+    },
+    "G7.gg.mjs": {
+      "sha256": "5a997156af4dcdfae4d384aee46bea9a3dd2f7926da54a1a5d33d7a126320e9f",
+      "bytes": 1853
+    },
+    "vega-lite.svg": {
+      "sha256": "602ef8fe5cddeefe8b6ea108a7d7b5a7d4bb5051ff20263b1d82fb04c4046fb1",
+      "bytes": 14353
+    },
+    "ggaction.svg": {
+      "sha256": "6cf4f2f09b20a244e57758e64b7c7cceafbd69531d3c31b4fecb71c227c8a9ff",
+      "bytes": 12369
+    }
+  }
+}

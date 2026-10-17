@@ -1,0 +1,199 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "IMF Lending as a Proportion of GDP",
+    "subtitle": "Credit outstanding to all members as a proportion of World GDP",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Year ": "2021",
+        "Totals": "0.11"
+      },
+      {
+        "Year ": "2020",
+        "Totals": "0.12"
+      },
+      {
+        "Year ": "2019",
+        "Totals": "0.08"
+      },
+      {
+        "Year ": "2018",
+        "Totals": "0.07"
+      },
+      {
+        "Year ": "2017",
+        "Totals": "0.06"
+      },
+      {
+        "Year ": "2016",
+        "Totals": "0.07"
+      },
+      {
+        "Year ": "2015",
+        "Totals": "0.08"
+      },
+      {
+        "Year ": "2014",
+        "Totals": "0.09"
+      },
+      {
+        "Year ": "2013",
+        "Totals": "0.12"
+      },
+      {
+        "Year ": "2012",
+        "Totals": "0.13"
+      },
+      {
+        "Year ": "2011",
+        "Totals": "0.13"
+      },
+      {
+        "Year ": "2010",
+        "Totals": "0.09"
+      },
+      {
+        "Year ": "2009",
+        "Totals": "0.07"
+      },
+      {
+        "Year ": "2008",
+        "Totals": "0.03"
+      },
+      {
+        "Year ": "2007",
+        "Totals": "0.02"
+      },
+      {
+        "Year ": "2006",
+        "Totals": "0.03"
+      },
+      {
+        "Year ": "2005",
+        "Totals": "0.07"
+      },
+      {
+        "Year ": "2004",
+        "Totals": "0.14"
+      },
+      {
+        "Year ": "2003",
+        "Totals": "0.18"
+      },
+      {
+        "Year ": "2002",
+        "Totals": "0.2"
+      },
+      {
+        "Year ": "2001",
+        "Totals": "0.18"
+      },
+      {
+        "Year ": "2000",
+        "Totals": "0.15"
+      },
+      {
+        "Year ": "1999",
+        "Totals": "0.18"
+      },
+      {
+        "Year ": "1998",
+        "Totals": "0.21"
+      },
+      {
+        "Year ": "1997",
+        "Totals": "0.17"
+      },
+      {
+        "Year ": "1996",
+        "Totals": "0.13"
+      },
+      {
+        "Year ": "1995",
+        "Totals": "0.13"
+      },
+      {
+        "Year ": "1994",
+        "Totals": "0.11"
+      },
+      {
+        "Year ": "1993",
+        "Totals": "0.11"
+      },
+      {
+        "Year ": "1992",
+        "Totals": "0.11"
+      },
+      {
+        "Year ": "1991",
+        "Totals": "0.11"
+      },
+      {
+        "Year ": "1990",
+        "Totals": "0.1"
+      },
+      {
+        "Year ": "1989",
+        "Totals": "0.12"
+      },
+      {
+        "Year ": "1988",
+        "Totals": "0.14"
+      },
+      {
+        "Year ": "1987",
+        "Totals": "0.18"
+      },
+      {
+        "Year ": "1986",
+        "Totals": "0.23"
+      },
+      {
+        "Year ": "1985",
+        "Totals": "0.29"
+      },
+      {
+        "Year ": "1984",
+        "Totals": "0.31"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year ": "date"
+      }
+    }
+  },
+  "height": 300,
+  "width": 300,
+  "mark": {
+    "type": "bar",
+    "color": "rgb(0,47,167"
+  },
+  "encoding": {
+    "x": {
+      "field": "Year ",
+      "type": "temporal",
+      "axis": {
+        "title": null,
+        "grid": false,
+        "ticks": false,
+        "labelAngle": 45
+      }
+    },
+    "y": {
+      "field": "Totals",
+      "type": "quantitative",
+      "title": "",
+      "axis": {
+        "grid": false
+      }
+    }
+  },
+  "config": {}
+}

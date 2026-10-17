@@ -1,0 +1,783 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Principle Component Analysis: Carbon Pricing Systems",
+    "subtitle": "Value 1 (x), Value 2 (y). Source: WorldBank Carbon Pricing Dashboard ",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "config": {
+    "background": "white",
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "": "0",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "140.36",
+        "Year of implementation": "2007",
+        "Value [billion US$]": "6.365888747",
+        "Proportion of global GHG emissions covered": "0.27",
+        "Value 1": "-0.050538374181678586",
+        "Value 2": "0.7482888868096143"
+      },
+      {
+        "": "1",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "0.0",
+        "Year of implementation": "2017",
+        "Value [billion US$]": "1.070971867",
+        "Proportion of global GHG emissions covered": "0.00",
+        "Value 1": "-0.42852452635093835",
+        "Value 2": "-0.4852627444870652"
+      },
+      {
+        "": "2",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "79.46122723",
+        "Year of implementation": "2018",
+        "Value [billion US$]": "0.001622049",
+        "Proportion of global GHG emissions covered": "0.16",
+        "Value 1": "-0.2773233022542831",
+        "Value 2": "-0.6344601670579766"
+      },
+      {
+        "": "3",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "0.0",
+        "Year of implementation": "2012",
+        "Value [billion US$]": "0.0",
+        "Proportion of global GHG emissions covered": "0.00",
+        "Value 1": "-0.49619899973932236",
+        "Value 2": "0.0872743539880935"
+      },
+      {
+        "": "4",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "34.41238328",
+        "Year of implementation": "2022",
+        "Value [billion US$]": "0.0",
+        "Proportion of global GHG emissions covered": "0.07",
+        "Value 1": "-0.34613612859181075",
+        "Value 2": "-1.0972350568582074"
+      },
+      {
+        "": "5",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "0.0",
+        "Year of implementation": "2016",
+        "Value [billion US$]": "0.0",
+        "Proportion of global GHG emissions covered": "0.00",
+        "Value 1": "-0.4665283890103774",
+        "Value 2": "-0.38392414922046153"
+      },
+      {
+        "": "6",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "46.41",
+        "Year of implementation": "2008",
+        "Value [billion US$]": "1.562100384",
+        "Proportion of global GHG emissions covered": "0.09",
+        "Value 1": "-0.3813495177761626",
+        "Value 2": "0.5739080202607355"
+      },
+      {
+        "": "8",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "31.888584",
+        "Year of implementation": "2013",
+        "Value [billion US$]": "0.228478644",
+        "Proportion of global GHG emissions covered": "0.06",
+        "Value 1": "-0.41462632026897567",
+        "Value 2": "-0.0328177630970077"
+      },
+      {
+        "": "12",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "309.468",
+        "Year of implementation": "2012",
+        "Value [billion US$]": "9.47715",
+        "Proportion of global GHG emissions covered": "0.60",
+        "Value 1": "0.44058589047669905",
+        "Value 2": "0.17576955097712765"
+      },
+      {
+        "": "13",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "53.34974168",
+        "Year of implementation": "2019",
+        "Value [billion US$]": "2.131943002",
+        "Proportion of global GHG emissions covered": "0.10",
+        "Value 1": "-0.27045389744560194",
+        "Value 2": "-0.7142471439159818"
+      },
+      {
+        "": "14",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "167.6706167",
+        "Year of implementation": "2019",
+        "Value [billion US$]": "3.421115729",
+        "Proportion of global GHG emissions covered": "0.33",
+        "Value 1": "0.017056966270810138",
+        "Value 2": "-0.715948598262609"
+      },
+      {
+        "": "17",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "36.93137551",
+        "Year of implementation": "2017",
+        "Value [billion US$]": "0.1655",
+        "Proportion of global GHG emissions covered": "0.07",
+        "Value 1": "-0.37577651331046846",
+        "Value 2": "-0.5059264469042876"
+      },
+      {
+        "": "18",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "4500.0",
+        "Year of implementation": "2021",
+        "Value [billion US$]": "41.39932063",
+        "Proportion of global GHG emissions covered": "8.79",
+        "Value 1": "10.475200134545041",
+        "Value 2": "-1.1710307114889789"
+      },
+      {
+        "": "19",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "67.139766",
+        "Year of implementation": "2014",
+        "Value [billion US$]": "0.566144556",
+        "Proportion of global GHG emissions covered": "0.13",
+        "Value 1": "-0.32077265036716235",
+        "Value 2": "-0.15201823697485925"
+      },
+      {
+        "": "21",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "44.67561579",
+        "Year of implementation": "2017",
+        "Value [billion US$]": "0.125855396",
+        "Proportion of global GHG emissions covered": "0.09",
+        "Value 1": "-0.3574824867791804",
+        "Value 2": "-0.5082033348462469"
+      },
+      {
+        "": "23",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "17.20838193",
+        "Year of implementation": "1992",
+        "Value [billion US$]": "0.542291292",
+        "Proportion of global GHG emissions covered": "0.03",
+        "Value 1": "-0.5938840542972015",
+        "Value 2": "2.4485827929141815"
+      },
+      {
+        "": "24",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "1626.615082",
+        "Year of implementation": "2005",
+        "Value [billion US$]": "136.0190418",
+        "Proportion of global GHG emissions covered": "3.18",
+        "Value 1": "6.852289275539271",
+        "Value 2": "2.7007625744990835"
+      },
+      {
+        "": "25",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "1.40975991",
+        "Year of implementation": "2000",
+        "Value [billion US$]": "0.002775157",
+        "Proportion of global GHG emissions covered": "0.00",
+        "Value 1": "-0.5836085855811701",
+        "Value 2": "1.5007819604105193"
+      },
+      {
+        "": "26",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "26.92882366",
+        "Year of implementation": "1990",
+        "Value [billion US$]": "1.43468775",
+        "Proportion of global GHG emissions covered": "0.05",
+        "Value 1": "-0.561671962995012",
+        "Value 2": "2.6960477795925457"
+      },
+      {
+        "": "27",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "157.7754771",
+        "Year of implementation": "2014",
+        "Value [billion US$]": "9.06264",
+        "Proportion of global GHG emissions covered": "0.31",
+        "Value 1": "0.11933679824982982",
+        "Value 2": "-0.03837248684019266"
+      },
+      {
+        "": "28",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "125.128704",
+        "Year of implementation": "2016",
+        "Value [billion US$]": "0.365163238",
+        "Proportion of global GHG emissions covered": "0.24",
+        "Value 1": "-0.18820069282081742",
+        "Value 2": "-0.401303883495783"
+      },
+      {
+        "": "30",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "349.4383534",
+        "Year of implementation": "2021",
+        "Value [billion US$]": "9.979956",
+        "Proportion of global GHG emissions covered": "0.68",
+        "Value 1": "0.6091252772256045",
+        "Value 2": "-0.8842019134506215"
+      },
+      {
+        "": "31",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "259.2336",
+        "Year of implementation": "2013",
+        "Value [billion US$]": "5.817253255",
+        "Proportion of global GHG emissions covered": "0.51",
+        "Value 1": "0.23944027841154375",
+        "Value 2": "0.010645431802931149"
+      },
+      {
+        "": "33",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "63.801135",
+        "Year of implementation": "2014",
+        "Value [billion US$]": "1.95489715",
+        "Proportion of global GHG emissions covered": "0.12",
+        "Value 1": "-0.290247630516666",
+        "Value 2": "-0.12988849422736876"
+      },
+      {
+        "": "34",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "2.723247608",
+        "Year of implementation": "2010",
+        "Value [billion US$]": "0.051805729",
+        "Proportion of global GHG emissions covered": "0.01",
+        "Value 1": "-0.5010827935217691",
+        "Value 2": "0.3229424944479489"
+      },
+      {
+        "": "37",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "27.04608349",
+        "Year of implementation": "2010",
+        "Value [billion US$]": "0.585756",
+        "Proportion of global GHG emissions covered": "0.05",
+        "Value 1": "-0.43743713039321874",
+        "Value 2": "0.3269961701809753"
+      },
+      {
+        "": "41",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "952.6586723",
+        "Year of implementation": "2012",
+        "Value [billion US$]": "2.146481178",
+        "Proportion of global GHG emissions covered": "1.86",
+        "Value 1": "1.6228580633522636",
+        "Value 2": "-0.056342033812726275"
+      },
+      {
+        "": "42",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "169.1768076",
+        "Year of implementation": "2013",
+        "Value [billion US$]": "0.152180309",
+        "Proportion of global GHG emissions covered": "0.33",
+        "Value 1": "-0.11918030075123516",
+        "Value 2": "-0.05953445810693457"
+      },
+      {
+        "": "43",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "553.439848",
+        "Year of implementation": "2015",
+        "Value [billion US$]": "11.04344594",
+        "Proportion of global GHG emissions covered": "1.08",
+        "Value 1": "1.0365785389372426",
+        "Value 2": "-0.19895768799895736"
+      },
+      {
+        "": "44",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "0.376643586",
+        "Year of implementation": "2004",
+        "Value [billion US$]": "0.018312464",
+        "Proportion of global GHG emissions covered": "0.00",
+        "Value 1": "-0.5546103349341122",
+        "Value 2": "1.0299179453131735"
+      },
+      {
+        "": "45",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "0.14610362",
+        "Year of implementation": "2008",
+        "Value [billion US$]": "0.002175089",
+        "Proportion of global GHG emissions covered": "0.00",
+        "Value 1": "-0.5256496529902894",
+        "Value 2": "0.5584927580500754"
+      },
+      {
+        "": "46",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "6.801985106",
+        "Year of implementation": "2021",
+        "Value [billion US$]": "0.294838465",
+        "Proportion of global GHG emissions covered": "0.01",
+        "Value 1": "-0.40814143266888503",
+        "Value 2": "-0.9694956643226055"
+      },
+      {
+        "": "50",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "6.072",
+        "Year of implementation": "2018",
+        "Value [billion US$]": "0.004",
+        "Proportion of global GHG emissions covered": "0.01",
+        "Value 1": "-0.4394891509990392",
+        "Value 2": "-0.6204994225977242"
+      },
+      {
+        "": "51",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "352.6073585",
+        "Year of implementation": "2014",
+        "Value [billion US$]": "0.314092485",
+        "Proportion of global GHG emissions covered": "0.69",
+        "Value 1": "0.2901049204285548",
+        "Value 2": "-0.20893925253788823"
+      },
+      {
+        "": "52",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "320.5521441",
+        "Year of implementation": "2020",
+        "Value [billion US$]": "0.0",
+        "Proportion of global GHG emissions covered": "0.63",
+        "Value 1": "0.25783072420016157",
+        "Value 2": "-0.9147449845861301"
+      },
+      {
+        "": "55",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "25.96280946",
+        "Year of implementation": "2021",
+        "Value [billion US$]": "1.197978551",
+        "Proportion of global GHG emissions covered": "0.05",
+        "Value 1": "-0.3395285826350468",
+        "Value 2": "-0.9592894207307076"
+      },
+      {
+        "": "56",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "7.05",
+        "Year of implementation": "2021",
+        "Value [billion US$]": "0.28172954",
+        "Proportion of global GHG emissions covered": "0.01",
+        "Value 1": "-0.40824787933594237",
+        "Value 2": "-0.9697201195209918"
+      },
+      {
+        "": "57",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "5.499",
+        "Year of implementation": "2020",
+        "Value [billion US$]": "0.077325767",
+        "Proportion of global GHG emissions covered": "0.01",
+        "Value 1": "-0.4231787353771044",
+        "Value 2": "-0.8549185784228753"
+      },
+      {
+        "": "58",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "41.61230129",
+        "Year of implementation": "2008",
+        "Value [billion US$]": "1.8154728",
+        "Proportion of global GHG emissions covered": "0.08",
+        "Value 1": "-0.3848264222948407",
+        "Value 2": "0.5787218893908931"
+      },
+      {
+        "": "60",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "4.5881",
+        "Year of implementation": "2019",
+        "Value [billion US$]": "0.183347986",
+        "Proportion of global GHG emissions covered": "0.01",
+        "Value 1": "-0.4285525295658703",
+        "Value 2": "-0.7354050135647332"
+      },
+      {
+        "": "61",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "5.0149",
+        "Year of implementation": "2019",
+        "Value [billion US$]": "0.073116109",
+        "Proportion of global GHG emissions covered": "0.01",
+        "Value 1": "-0.431239595172157",
+        "Value 2": "-0.7371388233212327"
+      },
+      {
+        "": "63",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "1.3351",
+        "Year of implementation": "2019",
+        "Value [billion US$]": "0.02089019",
+        "Proportion of global GHG emissions covered": "0.00",
+        "Value 1": "-0.4422364883901221",
+        "Value 2": "-0.7371255842550947"
+      },
+      {
+        "": "64",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "44.73403107",
+        "Year of implementation": "1991",
+        "Value [billion US$]": "1.714514469",
+        "Proportion of global GHG emissions covered": "0.09",
+        "Value 1": "-0.5049073536907712",
+        "Value 2": "2.5789995023253534"
+      },
+      {
+        "": "65",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "14.025",
+        "Year of implementation": "2019",
+        "Value [billion US$]": "0.315978261",
+        "Proportion of global GHG emissions covered": "0.03",
+        "Value 1": "-0.403509840867466",
+        "Value 2": "-0.7351907627983669"
+      },
+      {
+        "": "66",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "0.0",
+        "Year of implementation": "2017",
+        "Value [billion US$]": "0.0",
+        "Proportion of global GHG emissions covered": "0.00",
+        "Value 1": "-0.45911073632814114",
+        "Value 2": "-0.5017237750226002"
+      },
+      {
+        "": "67",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "41.125",
+        "Year of implementation": "2022",
+        "Value [billion US$]": "1.314737852",
+        "Proportion of global GHG emissions covered": "0.08",
+        "Value 1": "-0.2958063664379599",
+        "Value 2": "-1.0781241292263373"
+      },
+      {
+        "": "68",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "27.09",
+        "Year of implementation": "2021",
+        "Value [billion US$]": "0.0",
+        "Proportion of global GHG emissions covered": "0.05",
+        "Value 1": "-0.37252429011378213",
+        "Value 2": "-0.9778069559967937"
+      },
+      {
+        "": "71",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "15.93618198",
+        "Year of implementation": "1990",
+        "Value [billion US$]": "0.001110362",
+        "Proportion of global GHG emissions covered": "0.03",
+        "Value 1": "-0.6255494909981797",
+        "Value 2": "2.6759818145668017"
+      },
+      {
+        "": "72",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "25.03861083",
+        "Year of implementation": "2015",
+        "Value [billion US$]": "0.525885138",
+        "Proportion of global GHG emissions covered": "0.05",
+        "Value 1": "-0.4042274470392359",
+        "Value 2": "-0.2627362727201325"
+      },
+      {
+        "": "73",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "0.9688",
+        "Year of implementation": "2019",
+        "Value [billion US$]": "0.013773078",
+        "Proportion of global GHG emissions covered": "0.00",
+        "Value 1": "-0.4428354688361366",
+        "Value 2": "-0.737201052505445"
+      },
+      {
+        "": "74",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "60.918",
+        "Year of implementation": "2013",
+        "Value [billion US$]": "1.665057545",
+        "Proportion of global GHG emissions covered": "0.12",
+        "Value 1": "-0.3090576045294162",
+        "Value 2": "-0.016276748235375865"
+      },
+      {
+        "": "75",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "67.342",
+        "Year of implementation": "2009",
+        "Value [billion US$]": "1.22232",
+        "Proportion of global GHG emissions covered": "0.13",
+        "Value 1": "-0.33890252335550963",
+        "Value 2": "0.4470466979317846"
+      },
+      {
+        "": "76",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "8.16",
+        "Year of implementation": "2011",
+        "Value [billion US$]": "0.127804419",
+        "Proportion of global GHG emissions covered": "0.02",
+        "Value 1": "-0.4800912455754786",
+        "Value 2": "0.2053323099904052"
+      },
+      {
+        "": "78",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "10.231",
+        "Year of implementation": "2019",
+        "Value [billion US$]": "0.408847506",
+        "Proportion of global GHG emissions covered": "0.02",
+        "Value 1": "-0.4104862897228646",
+        "Value 2": "-0.7329368088600084"
+      },
+      {
+        "": "81",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "78.482705",
+        "Year of implementation": "2013",
+        "Value [billion US$]": "1.4657514",
+        "Proportion of global GHG emissions covered": "0.15",
+        "Value 1": "-0.2791841688708243",
+        "Value 2": "-0.022392310640183488"
+      },
+      {
+        "": "83",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "13.1718",
+        "Year of implementation": "2013",
+        "Value [billion US$]": "0.020179279",
+        "Proportion of global GHG emissions covered": "0.03",
+        "Value 1": "-0.45738529748883683",
+        "Value 2": "-0.03286047677559346"
+      },
+      {
+        "": "84",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "56.41688507",
+        "Year of implementation": "2019",
+        "Value [billion US$]": "0.141006929",
+        "Proportion of global GHG emissions covered": "0.11",
+        "Value 1": "-0.3184701507950222",
+        "Value 2": "-0.7456074127536378"
+      },
+      {
+        "": "85",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "10.64899126",
+        "Year of implementation": "1996",
+        "Value [billion US$]": "0.081728039",
+        "Proportion of global GHG emissions covered": "0.02",
+        "Value 1": "-0.5899830416500661",
+        "Value 2": "1.971387989278658"
+      },
+      {
+        "": "86",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "459.1671443",
+        "Year of implementation": "2019",
+        "Value [billion US$]": "0.119524906",
+        "Proportion of global GHG emissions covered": "0.90",
+        "Value 1": "0.5528850076813707",
+        "Value 2": "-0.820775088083316"
+      },
+      {
+        "": "87",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "6.231775",
+        "Year of implementation": "2014",
+        "Value [billion US$]": "0.121572",
+        "Proportion of global GHG emissions covered": "0.01",
+        "Value 1": "-0.4656293794662306",
+        "Value 2": "-0.14750861333098206"
+      },
+      {
+        "": "88",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "25.83529432",
+        "Year of implementation": "1991",
+        "Value [billion US$]": "2.4347209",
+        "Proportion of global GHG emissions covered": "0.05",
+        "Value 1": "-0.5268754206853348",
+        "Value 2": "2.593720115218733"
+      },
+      {
+        "": "89",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "5.059056761",
+        "Year of implementation": "2008",
+        "Value [billion US$]": "0.28901093",
+        "Proportion of global GHG emissions covered": "0.01",
+        "Value 1": "-0.506620265714747",
+        "Value 2": "0.5619713134376865"
+      },
+      {
+        "": "90",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "15.74989369",
+        "Year of implementation": "2008",
+        "Value [billion US$]": "1.268261011",
+        "Proportion of global GHG emissions covered": "0.03",
+        "Value 1": "-0.45604405417465615",
+        "Value 2": "0.5750821360442193"
+      },
+      {
+        "": "95",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "53.056773",
+        "Year of implementation": "2013",
+        "Value [billion US$]": "0.72655218",
+        "Proportion of global GHG emissions covered": "0.10",
+        "Value 1": "-0.35541329525941623",
+        "Value 2": "-0.02902336739424088"
+      },
+      {
+        "": "96",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "13.26",
+        "Year of implementation": "2010",
+        "Value [billion US$]": "0.053469722",
+        "Proportion of global GHG emissions covered": "0.03",
+        "Value 1": "-0.4785922195923265",
+        "Value 2": "0.3210419125350717"
+      },
+      {
+        "": "98",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "97.38434524",
+        "Year of implementation": "2013",
+        "Value [billion US$]": "0.904572539",
+        "Proportion of global GHG emissions covered": "0.19",
+        "Value 1": "-0.2526712486365646",
+        "Value 2": "-0.0346689100254395"
+      },
+      {
+        "": "99",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "129.8457937",
+        "Year of implementation": "2021",
+        "Value [billion US$]": "12.56197732",
+        "Proportion of global GHG emissions covered": "0.25",
+        "Value 1": "0.2078460394080712",
+        "Value 2": "-0.803746807012418"
+      },
+      {
+        "": "101",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "197.4845544",
+        "Year of implementation": "2011",
+        "Value [billion US$]": "0.042386062",
+        "Proportion of global GHG emissions covered": "0.39",
+        "Value 1": "-0.07338986218062377",
+        "Value 2": "0.16890460827421658"
+      },
+      {
+        "": "102",
+        "Type": "Carbon tax",
+        "GHG emissions covered [MtCO2e]": "4.38135106",
+        "Year of implementation": "2022",
+        "Value [billion US$]": "0.601539394",
+        "Proportion of global GHG emissions covered": "0.01",
+        "Value 1": "-0.3945796711332196",
+        "Value 2": "-1.0823570666718991"
+      },
+      {
+        "": "104",
+        "Type": "ETS",
+        "GHG emissions covered [MtCO2e]": "64.93333333",
+        "Year of implementation": "2023",
+        "Value [billion US$]": "0.0",
+        "Proportion of global GHG emissions covered": "0.13",
+        "Value 1": "-0.2725661202671942",
+        "Value 2": "-1.2207122752818054"
+      }
+    ]
+  },
+  "mark": {
+    "type": "circle",
+    "size": 80,
+    "opacity": 0.7
+  },
+  "height": 300,
+  "width": 300,
+  "encoding": {
+    "x": {
+      "field": "Value 1",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          -1,
+          12
+        ]
+      },
+      "axis": {
+        "grid": false
+      },
+      "title": null
+    },
+    "y": {
+      "field": "Value 2",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          -2,
+          3.5
+        ]
+      },
+      "axis": {
+        "grid": false
+      },
+      "title": null
+    },
+    "color": {
+      "field": "Type",
+      "type": "nominal",
+      "scale": {
+        "scheme": "darkmulti"
+      },
+      "legend": {
+        "orient": "right"
+      },
+      "title": null
+    },
+    "tooltip": [
+      {
+        "field": "Type",
+        "type": "nominal"
+      },
+      {
+        "field": "Year of implementation",
+        "type": "nominal",
+        "title": "Year"
+      },
+      {
+        "field": "Proportion of global GHG emissions covered"
+      }
+    ]
+  }
+}

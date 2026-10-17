@@ -1,0 +1,124 @@
+{
+  "id": "vl_0820",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f307568febbc0d085df465f7e9e1e65a8542330d87342299fda00f7c4c64d233",
+      "actions": 26,
+      "topOptions": 56
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "91814a5872b841d6bad5d6c316786c8df6d569b79a5aae25295086a27128a6ae",
+      "actions": 27,
+      "topOptions": 60
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "f76f925620579346bb5a4d51efa8f01b5224ea5b406b376459fb8db724afcec7",
+      "actions": 29,
+      "topOptions": 63
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8a023640f09463618de5001ab70f9b9994ad8bf8bea0f2659b1a59f5f9832d8d",
+      "actions": 30,
+      "topOptions": 65
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "53703a12d07912af6dd5758514a81f3d55c9229946b6b8844821140b44b96f59",
+      "actions": 30,
+      "topOptions": 66
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d21899b765c93fe7c6bebc87935669b55d6f4e3b92823b58bc661419f9456388",
+      "actions": 32,
+      "topOptions": 72
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "e75709ed56f569006d9684bfd3e38ea9e79735b6648900a7ef3fb04ede772aa9",
+      "actions": 33,
+      "topOptions": 72
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "11a9e6fc3c69b344d9032d2daf047301be317ce109e72f14b1a0fcc923e3f8ee",
+      "actions": 37,
+      "topOptions": 76
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/ManUnitedStock_Points_update.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Re-read fullfinalG8/source/nativefit proof and everycurrentverification check: allpassed, eightactuallydistinct stages have identical SVG/PNG/graphics. All9rawpoints preserved and2native regressionpredictions independently source-bound withinmeasured1.0658e-14 fittingroundoff; settled R²:0.68 annotation explicitlyoriginalstaticdiagnostic, not dynamicallyrecomputeddiagnostic. Finalpairedaxiscomponentlevel complete; coherent grid split atG7. Eightstagecap leavesmeaningfultitle/textappearance ownership refinements undispatched; sourcebirthfonts/sourcegeometry remainprotected. No claim of exhaustive lowest-leveldecomposition, chartpixels or additionalmodelcalls."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "f65b85ff9de3c9f6d7d8af044bc8322db5045abc35c19ae48ba2bd9ce76eb7cb",
+      "bytes": 2410
+    },
+    "data.json": {
+      "sha256": "24189f69c7742891d673e7d4ff03f295ccd18c969ed0887583c36e76e3861904",
+      "bytes": 685
+    },
+    "resolved-source.vl.json": {
+      "sha256": "3269bb322f769a1eda997ca7f796e4b189ccc452c354f1db352c1e4a67b78567",
+      "bytes": 3136
+    },
+    "G1.gg.mjs": {
+      "sha256": "f307568febbc0d085df465f7e9e1e65a8542330d87342299fda00f7c4c64d233",
+      "bytes": 2985
+    },
+    "G2.gg.mjs": {
+      "sha256": "91814a5872b841d6bad5d6c316786c8df6d569b79a5aae25295086a27128a6ae",
+      "bytes": 2945
+    },
+    "G3.gg.mjs": {
+      "sha256": "f76f925620579346bb5a4d51efa8f01b5224ea5b406b376459fb8db724afcec7",
+      "bytes": 3049
+    },
+    "G4.gg.mjs": {
+      "sha256": "8a023640f09463618de5001ab70f9b9994ad8bf8bea0f2659b1a59f5f9832d8d",
+      "bytes": 3097
+    },
+    "G5.gg.mjs": {
+      "sha256": "53703a12d07912af6dd5758514a81f3d55c9229946b6b8844821140b44b96f59",
+      "bytes": 3113
+    },
+    "G6.gg.mjs": {
+      "sha256": "d21899b765c93fe7c6bebc87935669b55d6f4e3b92823b58bc661419f9456388",
+      "bytes": 3367
+    },
+    "G7.gg.mjs": {
+      "sha256": "e75709ed56f569006d9684bfd3e38ea9e79735b6648900a7ef3fb04ede772aa9",
+      "bytes": 3373
+    },
+    "G8.gg.mjs": {
+      "sha256": "11a9e6fc3c69b344d9032d2daf047301be317ce109e72f14b1a0fcc923e3f8ee",
+      "bytes": 3357
+    },
+    "vega-lite.svg": {
+      "sha256": "bf525971fc1ed3911e1c9451c2d22ecd13ce29399ede33ad48d95946c601da14",
+      "bytes": 18226
+    },
+    "ggaction.svg": {
+      "sha256": "b1988e3e07b3b54f3a62e424553616e59b44e4ac8a6854152031d0064468a78d",
+      "bytes": 14668
+    }
+  }
+}

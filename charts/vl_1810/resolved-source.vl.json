@@ -1,0 +1,1145 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "data": {
+    "values": [
+      {
+        "data": "2020-04-30",
+        "uti_disponivel": "103",
+        "uti_ocupado": "68",
+        "uti_total": "171",
+        "enfermaria_disponivel": "328",
+        "enfermaria_ocupado": "97",
+        "enfermaria_total": "425",
+        "total_disponivel": "431",
+        "total_ocupado": "165",
+        "total": "596"
+      },
+      {
+        "data": "2020-05-01",
+        "uti_disponivel": "99",
+        "uti_ocupado": "72",
+        "uti_total": "171",
+        "enfermaria_disponivel": "328",
+        "enfermaria_ocupado": "97",
+        "enfermaria_total": "425",
+        "total_disponivel": "427",
+        "total_ocupado": "169",
+        "total": "596"
+      },
+      {
+        "data": "2020-05-02",
+        "uti_disponivel": "87",
+        "uti_ocupado": "84",
+        "uti_total": "171",
+        "enfermaria_disponivel": "331",
+        "enfermaria_ocupado": "94",
+        "enfermaria_total": "425",
+        "total_disponivel": "418",
+        "total_ocupado": "178",
+        "total": "596"
+      },
+      {
+        "data": "2020-05-03",
+        "uti_disponivel": "85",
+        "uti_ocupado": "86",
+        "uti_total": "171",
+        "enfermaria_disponivel": "322",
+        "enfermaria_ocupado": "113",
+        "enfermaria_total": "435",
+        "total_disponivel": "407",
+        "total_ocupado": "199",
+        "total": "606"
+      },
+      {
+        "data": "2020-05-04",
+        "uti_disponivel": "91",
+        "uti_ocupado": "88",
+        "uti_total": "179",
+        "enfermaria_disponivel": "314",
+        "enfermaria_ocupado": "122",
+        "enfermaria_total": "436",
+        "total_disponivel": "405",
+        "total_ocupado": "210",
+        "total": "615"
+      },
+      {
+        "data": "2020-05-05",
+        "uti_disponivel": "97",
+        "uti_ocupado": "100",
+        "uti_total": "197",
+        "enfermaria_disponivel": "336",
+        "enfermaria_ocupado": "121",
+        "enfermaria_total": "457",
+        "total_disponivel": "433",
+        "total_ocupado": "221",
+        "total": "654"
+      },
+      {
+        "data": "2020-05-06",
+        "uti_disponivel": "97",
+        "uti_ocupado": "100",
+        "uti_total": "197",
+        "enfermaria_disponivel": "345",
+        "enfermaria_ocupado": "112",
+        "enfermaria_total": "457",
+        "total_disponivel": "442",
+        "total_ocupado": "212",
+        "total": "654"
+      },
+      {
+        "data": "2020-05-07",
+        "uti_disponivel": "100",
+        "uti_ocupado": "102",
+        "uti_total": "202",
+        "enfermaria_disponivel": "345",
+        "enfermaria_ocupado": "123",
+        "enfermaria_total": "468",
+        "total_disponivel": "445",
+        "total_ocupado": "225",
+        "total": "670"
+      },
+      {
+        "data": "2020-05-08",
+        "uti_disponivel": "96",
+        "uti_ocupado": "108",
+        "uti_total": "204",
+        "enfermaria_disponivel": "333",
+        "enfermaria_ocupado": "137",
+        "enfermaria_total": "470",
+        "total_disponivel": "429",
+        "total_ocupado": "245",
+        "total": "674"
+      },
+      {
+        "data": "2020-05-09",
+        "uti_disponivel": "102",
+        "uti_ocupado": "112",
+        "uti_total": "214",
+        "enfermaria_disponivel": "326",
+        "enfermaria_ocupado": "144",
+        "enfermaria_total": "470",
+        "total_disponivel": "428",
+        "total_ocupado": "256",
+        "total": "684"
+      },
+      {
+        "data": "2020-05-10",
+        "uti_disponivel": "96",
+        "uti_ocupado": "119",
+        "uti_total": "215",
+        "enfermaria_disponivel": "332",
+        "enfermaria_ocupado": "138",
+        "enfermaria_total": "470",
+        "total_disponivel": "428",
+        "total_ocupado": "257",
+        "total": "685"
+      },
+      {
+        "data": "2020-05-11",
+        "uti_disponivel": "97",
+        "uti_ocupado": "123",
+        "uti_total": "220",
+        "enfermaria_disponivel": "323",
+        "enfermaria_ocupado": "147",
+        "enfermaria_total": "470",
+        "total_disponivel": "420",
+        "total_ocupado": "270",
+        "total": "690"
+      },
+      {
+        "data": "2020-05-12",
+        "uti_disponivel": "91",
+        "uti_ocupado": "129",
+        "uti_total": "220",
+        "enfermaria_disponivel": "326",
+        "enfermaria_ocupado": "144",
+        "enfermaria_total": "470",
+        "total_disponivel": "417",
+        "total_ocupado": "273",
+        "total": "690"
+      },
+      {
+        "data": "2020-05-13",
+        "uti_disponivel": "92",
+        "uti_ocupado": "137",
+        "uti_total": "229",
+        "enfermaria_disponivel": "328",
+        "enfermaria_ocupado": "146",
+        "enfermaria_total": "474",
+        "total_disponivel": "420",
+        "total_ocupado": "283",
+        "total": "703"
+      },
+      {
+        "data": "2020-05-14",
+        "uti_disponivel": "81",
+        "uti_ocupado": "148",
+        "uti_total": "229",
+        "enfermaria_disponivel": "310",
+        "enfermaria_ocupado": "164",
+        "enfermaria_total": "474",
+        "total_disponivel": "391",
+        "total_ocupado": "312",
+        "total": "703"
+      },
+      {
+        "data": "2020-05-15",
+        "uti_disponivel": "93",
+        "uti_ocupado": "146",
+        "uti_total": "239",
+        "enfermaria_disponivel": "287",
+        "enfermaria_ocupado": "206",
+        "enfermaria_total": "493",
+        "total_disponivel": "380",
+        "total_ocupado": "352",
+        "total": "732"
+      },
+      {
+        "data": "2020-05-16",
+        "uti_disponivel": "101",
+        "uti_ocupado": "138",
+        "uti_total": "239",
+        "enfermaria_disponivel": "267",
+        "enfermaria_ocupado": "228",
+        "enfermaria_total": "495",
+        "total_disponivel": "368",
+        "total_ocupado": "366",
+        "total": "734"
+      },
+      {
+        "data": "2020-05-17",
+        "uti_disponivel": "101",
+        "uti_ocupado": "138",
+        "uti_total": "239",
+        "enfermaria_disponivel": "267",
+        "enfermaria_ocupado": "228",
+        "enfermaria_total": "495",
+        "total_disponivel": "368",
+        "total_ocupado": "366",
+        "total": "734"
+      },
+      {
+        "data": "2020-05-18",
+        "uti_disponivel": "78",
+        "uti_ocupado": "161",
+        "uti_total": "239",
+        "enfermaria_disponivel": "239",
+        "enfermaria_ocupado": "256",
+        "enfermaria_total": "495",
+        "total_disponivel": "317",
+        "total_ocupado": "417",
+        "total": "734"
+      },
+      {
+        "data": "2020-05-19",
+        "uti_disponivel": "95",
+        "uti_ocupado": "159",
+        "uti_total": "254",
+        "enfermaria_disponivel": "239",
+        "enfermaria_ocupado": "256",
+        "enfermaria_total": "495",
+        "total_disponivel": "334",
+        "total_ocupado": "415",
+        "total": "749"
+      },
+      {
+        "data": "2020-05-20",
+        "uti_disponivel": "97",
+        "uti_ocupado": "157",
+        "uti_total": "254",
+        "enfermaria_disponivel": "260",
+        "enfermaria_ocupado": "265",
+        "enfermaria_total": "525",
+        "total_disponivel": "357",
+        "total_ocupado": "422",
+        "total": "779"
+      },
+      {
+        "data": "2020-05-21",
+        "uti_disponivel": "75",
+        "uti_ocupado": "178",
+        "uti_total": "253",
+        "enfermaria_disponivel": "286",
+        "enfermaria_ocupado": "245",
+        "enfermaria_total": "531",
+        "total_disponivel": "361",
+        "total_ocupado": "423",
+        "total": "784"
+      },
+      {
+        "data": "2020-05-22",
+        "uti_disponivel": "65",
+        "uti_ocupado": "189",
+        "uti_total": "254",
+        "enfermaria_disponivel": "275",
+        "enfermaria_ocupado": "254",
+        "enfermaria_total": "529",
+        "total_disponivel": "340",
+        "total_ocupado": "443",
+        "total": "783"
+      },
+      {
+        "data": "2020-05-23",
+        "uti_disponivel": "76",
+        "uti_ocupado": "185",
+        "uti_total": "261",
+        "enfermaria_disponivel": "254",
+        "enfermaria_ocupado": "278",
+        "enfermaria_total": "532",
+        "total_disponivel": "330",
+        "total_ocupado": "463",
+        "total": "793"
+      },
+      {
+        "data": "2020-05-24",
+        "uti_disponivel": "76",
+        "uti_ocupado": "185",
+        "uti_total": "261",
+        "enfermaria_disponivel": "254",
+        "enfermaria_ocupado": "278",
+        "enfermaria_total": "532",
+        "total_disponivel": "330",
+        "total_ocupado": "463",
+        "total": "793"
+      },
+      {
+        "data": "2020-05-25",
+        "uti_disponivel": "65",
+        "uti_ocupado": "201",
+        "uti_total": "266",
+        "enfermaria_disponivel": "248",
+        "enfermaria_ocupado": "284",
+        "enfermaria_total": "532",
+        "total_disponivel": "313",
+        "total_ocupado": "485",
+        "total": "798"
+      },
+      {
+        "data": "2020-05-26",
+        "uti_disponivel": "65",
+        "uti_ocupado": "201",
+        "uti_total": "266",
+        "enfermaria_disponivel": "248",
+        "enfermaria_ocupado": "284",
+        "enfermaria_total": "532",
+        "total_disponivel": "313",
+        "total_ocupado": "485",
+        "total": "798"
+      },
+      {
+        "data": "2020-05-27",
+        "uti_disponivel": "75",
+        "uti_ocupado": "197",
+        "uti_total": "272",
+        "enfermaria_disponivel": "251",
+        "enfermaria_ocupado": "283",
+        "enfermaria_total": "534",
+        "total_disponivel": "326",
+        "total_ocupado": "480",
+        "total": "806"
+      },
+      {
+        "data": "2020-05-28",
+        "uti_disponivel": "62",
+        "uti_ocupado": "210",
+        "uti_total": "272",
+        "enfermaria_disponivel": "247",
+        "enfermaria_ocupado": "287",
+        "enfermaria_total": "534",
+        "total_disponivel": "309",
+        "total_ocupado": "497",
+        "total": "806"
+      },
+      {
+        "data": "2020-05-29",
+        "uti_disponivel": "69",
+        "uti_ocupado": "207",
+        "uti_total": "276",
+        "enfermaria_disponivel": "263",
+        "enfermaria_ocupado": "277",
+        "enfermaria_total": "540",
+        "total_disponivel": "332",
+        "total_ocupado": "484",
+        "total": "816"
+      },
+      {
+        "data": "2020-05-30",
+        "uti_disponivel": "76",
+        "uti_ocupado": "200",
+        "uti_total": "276",
+        "enfermaria_disponivel": "266",
+        "enfermaria_ocupado": "274",
+        "enfermaria_total": "540",
+        "total_disponivel": "342",
+        "total_ocupado": "474",
+        "total": "816"
+      },
+      {
+        "data": "2020-05-31",
+        "uti_disponivel": "76",
+        "uti_ocupado": "200",
+        "uti_total": "276",
+        "enfermaria_disponivel": "266",
+        "enfermaria_ocupado": "274",
+        "enfermaria_total": "540",
+        "total_disponivel": "342",
+        "total_ocupado": "474",
+        "total": "816"
+      },
+      {
+        "data": "2020-06-01",
+        "uti_disponivel": "77",
+        "uti_ocupado": "210",
+        "uti_total": "287",
+        "enfermaria_disponivel": "271",
+        "enfermaria_ocupado": "283",
+        "enfermaria_total": "554",
+        "total_disponivel": "348",
+        "total_ocupado": "493",
+        "total": "841"
+      },
+      {
+        "data": "2020-06-02",
+        "uti_disponivel": "85",
+        "uti_ocupado": "220",
+        "uti_total": "305",
+        "enfermaria_disponivel": "278",
+        "enfermaria_ocupado": "306",
+        "enfermaria_total": "584",
+        "total_disponivel": "391",
+        "total_ocupado": "498",
+        "total": "889"
+      },
+      {
+        "data": "2020-06-03",
+        "uti_disponivel": "94",
+        "uti_ocupado": "213",
+        "uti_total": "307",
+        "enfermaria_disponivel": "274",
+        "enfermaria_ocupado": "310",
+        "enfermaria_total": "584",
+        "total_disponivel": "404",
+        "total_ocupado": "487",
+        "total": "891"
+      },
+      {
+        "data": "2020-06-04",
+        "uti_disponivel": "105",
+        "uti_ocupado": "202",
+        "uti_total": "307",
+        "enfermaria_disponivel": "273",
+        "enfermaria_ocupado": "313",
+        "enfermaria_total": "586",
+        "total_disponivel": "418",
+        "total_ocupado": "475",
+        "total": "893"
+      },
+      {
+        "data": "2020-06-05",
+        "uti_disponivel": "100",
+        "uti_ocupado": "207",
+        "uti_total": "307",
+        "enfermaria_disponivel": "286",
+        "enfermaria_ocupado": "300",
+        "enfermaria_total": "586",
+        "total_disponivel": "400",
+        "total_ocupado": "493",
+        "total": "893"
+      },
+      {
+        "data": "2020-06-06",
+        "uti_disponivel": "104",
+        "uti_ocupado": "211",
+        "uti_total": "315",
+        "enfermaria_disponivel": "269",
+        "enfermaria_ocupado": "317",
+        "enfermaria_total": "586",
+        "total_disponivel": "373",
+        "total_ocupado": "528",
+        "total": "901"
+      },
+      {
+        "data": "2020-06-07",
+        "uti_disponivel": "104",
+        "uti_ocupado": "211",
+        "uti_total": "315",
+        "enfermaria_disponivel": "269",
+        "enfermaria_ocupado": "317",
+        "enfermaria_total": "586",
+        "total_disponivel": "373",
+        "total_ocupado": "528",
+        "total": "901"
+      },
+      {
+        "data": "2020-06-08",
+        "uti_disponivel": "102",
+        "uti_ocupado": "223",
+        "uti_total": "325",
+        "enfermaria_disponivel": "266",
+        "enfermaria_ocupado": "323",
+        "enfermaria_total": "589",
+        "total_disponivel": "368",
+        "total_ocupado": "546",
+        "total": "914"
+      },
+      {
+        "data": "2020-06-09",
+        "uti_disponivel": "103",
+        "uti_ocupado": "222",
+        "uti_total": "325",
+        "enfermaria_disponivel": "269",
+        "enfermaria_ocupado": "320",
+        "enfermaria_total": "589",
+        "total_disponivel": "372",
+        "total_ocupado": "542",
+        "total": "914"
+      },
+      {
+        "data": "2020-06-10",
+        "uti_disponivel": "100",
+        "uti_ocupado": "225",
+        "uti_total": "325",
+        "enfermaria_disponivel": "291",
+        "enfermaria_ocupado": "298",
+        "enfermaria_total": "589",
+        "total_disponivel": "391",
+        "total_ocupado": "523",
+        "total": "914"
+      },
+      {
+        "data": "2020-06-11",
+        "uti_disponivel": "117",
+        "uti_ocupado": "213",
+        "uti_total": "330",
+        "enfermaria_disponivel": "278",
+        "enfermaria_ocupado": "311",
+        "enfermaria_total": "589",
+        "total_disponivel": "395",
+        "total_ocupado": "524",
+        "total": "919"
+      },
+      {
+        "data": "2020-06-12",
+        "uti_disponivel": "114",
+        "uti_ocupado": "217",
+        "uti_total": "331",
+        "enfermaria_disponivel": "280",
+        "enfermaria_ocupado": "309",
+        "enfermaria_total": "589",
+        "total_disponivel": "394",
+        "total_ocupado": "526",
+        "total": "920"
+      },
+      {
+        "data": "2020-06-13",
+        "uti_disponivel": "114",
+        "uti_ocupado": "217",
+        "uti_total": "331",
+        "enfermaria_disponivel": "280",
+        "enfermaria_ocupado": "309",
+        "enfermaria_total": "589",
+        "total_disponivel": "394",
+        "total_ocupado": "526",
+        "total": "920"
+      },
+      {
+        "data": "2020-06-14",
+        "uti_disponivel": "104",
+        "uti_ocupado": "227",
+        "uti_total": "331",
+        "enfermaria_disponivel": "294",
+        "enfermaria_ocupado": "295",
+        "enfermaria_total": "589",
+        "total_disponivel": "399",
+        "total_ocupado": "521",
+        "total": "920"
+      },
+      {
+        "data": "2020-06-15",
+        "uti_disponivel": "104",
+        "uti_ocupado": "227",
+        "uti_total": "331",
+        "enfermaria_disponivel": "294",
+        "enfermaria_ocupado": "295",
+        "enfermaria_total": "589",
+        "total_disponivel": "399",
+        "total_ocupado": "521",
+        "total": "920"
+      },
+      {
+        "data": "2020-06-16",
+        "uti_disponivel": "115",
+        "uti_ocupado": "226",
+        "uti_total": "341",
+        "enfermaria_disponivel": "312",
+        "enfermaria_ocupado": "277",
+        "enfermaria_total": "589",
+        "total_disponivel": "427",
+        "total_ocupado": "503",
+        "total": "930"
+      },
+      {
+        "data": "2020-06-17",
+        "uti_disponivel": "113",
+        "uti_ocupado": "228",
+        "uti_total": "341",
+        "enfermaria_disponivel": "320",
+        "enfermaria_ocupado": "269",
+        "enfermaria_total": "589",
+        "total_disponivel": "433",
+        "total_ocupado": "497",
+        "total": "930"
+      },
+      {
+        "data": "2020-06-18",
+        "uti_disponivel": "127",
+        "uti_ocupado": "223",
+        "uti_total": "350",
+        "enfermaria_disponivel": "349",
+        "enfermaria_ocupado": "260",
+        "enfermaria_total": "609",
+        "total_disponivel": "476",
+        "total_ocupado": "483",
+        "total": "959"
+      },
+      {
+        "data": "2020-06-19",
+        "uti_disponivel": "127",
+        "uti_ocupado": "223",
+        "uti_total": "350",
+        "enfermaria_disponivel": "349",
+        "enfermaria_ocupado": "260",
+        "enfermaria_total": "609",
+        "total_disponivel": "476",
+        "total_ocupado": "483",
+        "total": "959"
+      },
+      {
+        "data": "2020-06-20",
+        "uti_disponivel": "115",
+        "uti_ocupado": "235",
+        "uti_total": "350",
+        "enfermaria_disponivel": "336",
+        "enfermaria_ocupado": "273",
+        "enfermaria_total": "609",
+        "total_disponivel": "451",
+        "total_ocupado": "508",
+        "total": "959"
+      },
+      {
+        "data": "2020-06-21",
+        "uti_disponivel": "132",
+        "uti_ocupado": "218",
+        "uti_total": "350",
+        "enfermaria_disponivel": "333",
+        "enfermaria_ocupado": "276",
+        "enfermaria_total": "609",
+        "total_disponivel": "465",
+        "total_ocupado": "494",
+        "total": "959"
+      },
+      {
+        "data": "2020-06-22",
+        "uti_disponivel": "136",
+        "uti_ocupado": "214",
+        "uti_total": "350",
+        "enfermaria_disponivel": "329",
+        "enfermaria_ocupado": "280",
+        "enfermaria_total": "609",
+        "total_disponivel": "465",
+        "total_ocupado": "494",
+        "total": "959"
+      },
+      {
+        "data": "2020-06-23",
+        "uti_disponivel": "134",
+        "uti_ocupado": "216",
+        "uti_total": "350",
+        "enfermaria_disponivel": "325",
+        "enfermaria_ocupado": "284",
+        "enfermaria_total": "609",
+        "total_disponivel": "459",
+        "total_ocupado": "500",
+        "total": "959"
+      },
+      {
+        "data": "2020-06-24",
+        "uti_disponivel": "127",
+        "uti_ocupado": "223",
+        "uti_total": "350",
+        "enfermaria_disponivel": "352",
+        "enfermaria_ocupado": "257",
+        "enfermaria_total": "609",
+        "total_disponivel": "479",
+        "total_ocupado": "480",
+        "total": "959"
+      },
+      {
+        "data": "2020-06-25",
+        "uti_disponivel": "119",
+        "uti_ocupado": "231",
+        "uti_total": "350",
+        "enfermaria_disponivel": "368",
+        "enfermaria_ocupado": "241",
+        "enfermaria_total": "609",
+        "total_disponivel": "487",
+        "total_ocupado": "472",
+        "total": "959"
+      },
+      {
+        "data": "2020-06-26",
+        "uti_disponivel": "130",
+        "uti_ocupado": "228",
+        "uti_total": "358",
+        "enfermaria_disponivel": "379",
+        "enfermaria_ocupado": "230",
+        "enfermaria_total": "609",
+        "total_disponivel": "509",
+        "total_ocupado": "458",
+        "total": "967"
+      },
+      {
+        "data": "2020-06-27",
+        "uti_disponivel": "131",
+        "uti_ocupado": "228",
+        "uti_total": "359",
+        "enfermaria_disponivel": "376",
+        "enfermaria_ocupado": "239",
+        "enfermaria_total": "615",
+        "total_disponivel": "507",
+        "total_ocupado": "467",
+        "total": "974"
+      },
+      {
+        "data": "2020-06-28",
+        "uti_disponivel": "134",
+        "uti_ocupado": "225",
+        "uti_total": "359",
+        "enfermaria_disponivel": "366",
+        "enfermaria_ocupado": "249",
+        "enfermaria_total": "615",
+        "total_disponivel": "500",
+        "total_ocupado": "474",
+        "total": "974"
+      },
+      {
+        "data": "2020-07-02",
+        "uti_disponivel": "145",
+        "uti_ocupado": "219",
+        "uti_total": "364",
+        "enfermaria_disponivel": "433",
+        "enfermaria_ocupado": "217",
+        "enfermaria_total": "650",
+        "total_disponivel": "578",
+        "total_ocupado": "436",
+        "total": "1014"
+      },
+      {
+        "data": "2020-07-06",
+        "uti_disponivel": "149",
+        "uti_ocupado": "218",
+        "uti_total": "367",
+        "enfermaria_disponivel": "412",
+        "enfermaria_ocupado": "238",
+        "enfermaria_total": "650",
+        "total_disponivel": "561",
+        "total_ocupado": "456",
+        "total": "1017"
+      },
+      {
+        "data": "2020-07-07",
+        "uti_disponivel": "157",
+        "uti_ocupado": "210",
+        "uti_total": "367",
+        "enfermaria_disponivel": "410",
+        "enfermaria_ocupado": "240",
+        "enfermaria_total": "650",
+        "total_disponivel": "567",
+        "total_ocupado": "450",
+        "total": "1017"
+      },
+      {
+        "data": "2020-07-08",
+        "uti_disponivel": "163",
+        "uti_ocupado": "204",
+        "uti_total": "367",
+        "enfermaria_disponivel": "415",
+        "enfermaria_ocupado": "235",
+        "enfermaria_total": "650",
+        "total_disponivel": "578",
+        "total_ocupado": "439",
+        "total": "1017"
+      },
+      {
+        "data": "2020-07-14",
+        "uti_disponivel": "173",
+        "uti_ocupado": "204",
+        "uti_total": "377",
+        "enfermaria_disponivel": "428",
+        "enfermaria_ocupado": "232",
+        "enfermaria_total": "660",
+        "total_disponivel": "601",
+        "total_ocupado": "436",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-15",
+        "uti_disponivel": "173",
+        "uti_ocupado": "204",
+        "uti_total": "377",
+        "enfermaria_disponivel": "428",
+        "enfermaria_ocupado": "232",
+        "enfermaria_total": "660",
+        "total_disponivel": "601",
+        "total_ocupado": "436",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-17",
+        "uti_disponivel": "189",
+        "uti_ocupado": "188",
+        "uti_total": "377",
+        "enfermaria_disponivel": "405",
+        "enfermaria_ocupado": "255",
+        "enfermaria_total": "660",
+        "total_disponivel": "594",
+        "total_ocupado": "443",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-18",
+        "uti_disponivel": "189",
+        "uti_ocupado": "188",
+        "uti_total": "377",
+        "enfermaria_disponivel": "405",
+        "enfermaria_ocupado": "255",
+        "enfermaria_total": "660",
+        "total_disponivel": "594",
+        "total_ocupado": "443",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-19",
+        "uti_disponivel": "189",
+        "uti_ocupado": "188",
+        "uti_total": "377",
+        "enfermaria_disponivel": "405",
+        "enfermaria_ocupado": "255",
+        "enfermaria_total": "660",
+        "total_disponivel": "594",
+        "total_ocupado": "443",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-20",
+        "uti_disponivel": "192",
+        "uti_ocupado": "185",
+        "uti_total": "377",
+        "enfermaria_disponivel": "413",
+        "enfermaria_ocupado": "247",
+        "enfermaria_total": "660",
+        "total_disponivel": "605",
+        "total_ocupado": "432",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-21",
+        "uti_disponivel": "187",
+        "uti_ocupado": "190",
+        "uti_total": "377",
+        "enfermaria_disponivel": "418",
+        "enfermaria_ocupado": "242",
+        "enfermaria_total": "660",
+        "total_disponivel": "605",
+        "total_ocupado": "432",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-22",
+        "uti_disponivel": "200",
+        "uti_ocupado": "177",
+        "uti_total": "377",
+        "enfermaria_disponivel": "407",
+        "enfermaria_ocupado": "253",
+        "enfermaria_total": "660",
+        "total_disponivel": "607",
+        "total_ocupado": "430",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-23",
+        "uti_disponivel": "183",
+        "uti_ocupado": "194",
+        "uti_total": "377",
+        "enfermaria_disponivel": "418",
+        "enfermaria_ocupado": "242",
+        "enfermaria_total": "660",
+        "total_disponivel": "601",
+        "total_ocupado": "436",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-24",
+        "uti_disponivel": "190",
+        "uti_ocupado": "187",
+        "uti_total": "377",
+        "enfermaria_disponivel": "429",
+        "enfermaria_ocupado": "231",
+        "enfermaria_total": "660",
+        "total_disponivel": "619",
+        "total_ocupado": "418",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-25",
+        "uti_disponivel": "190",
+        "uti_ocupado": "187",
+        "uti_total": "377",
+        "enfermaria_disponivel": "429",
+        "enfermaria_ocupado": "231",
+        "enfermaria_total": "660",
+        "total_disponivel": "619",
+        "total_ocupado": "418",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-26",
+        "uti_disponivel": "190",
+        "uti_ocupado": "187",
+        "uti_total": "377",
+        "enfermaria_disponivel": "429",
+        "enfermaria_ocupado": "231",
+        "enfermaria_total": "660",
+        "total_disponivel": "619",
+        "total_ocupado": "418",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-27",
+        "uti_disponivel": "201",
+        "uti_ocupado": "176",
+        "uti_total": "377",
+        "enfermaria_disponivel": "428",
+        "enfermaria_ocupado": "232",
+        "enfermaria_total": "660",
+        "total_disponivel": "629",
+        "total_ocupado": "408",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-28",
+        "uti_disponivel": "201",
+        "uti_ocupado": "176",
+        "uti_total": "377",
+        "enfermaria_disponivel": "428",
+        "enfermaria_ocupado": "232",
+        "enfermaria_total": "660",
+        "total_disponivel": "629",
+        "total_ocupado": "408",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-29",
+        "uti_disponivel": "203",
+        "uti_ocupado": "174",
+        "uti_total": "377",
+        "enfermaria_disponivel": "453",
+        "enfermaria_ocupado": "207",
+        "enfermaria_total": "660",
+        "total_disponivel": "656",
+        "total_ocupado": "381",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-30",
+        "uti_disponivel": "203",
+        "uti_ocupado": "174",
+        "uti_total": "377",
+        "enfermaria_disponivel": "453",
+        "enfermaria_ocupado": "207",
+        "enfermaria_total": "660",
+        "total_disponivel": "656",
+        "total_ocupado": "381",
+        "total": "1037"
+      },
+      {
+        "data": "2020-07-31",
+        "uti_disponivel": "215",
+        "uti_ocupado": "162",
+        "uti_total": "377",
+        "enfermaria_disponivel": "464",
+        "enfermaria_ocupado": "196",
+        "enfermaria_total": "660",
+        "total_disponivel": "679",
+        "total_ocupado": "358",
+        "total": "1037"
+      },
+      {
+        "data": "2020-08-01",
+        "uti_disponivel": "174",
+        "uti_ocupado": "169",
+        "uti_total": "343",
+        "enfermaria_disponivel": "295",
+        "enfermaria_ocupado": "185",
+        "enfermaria_total": "480",
+        "total_disponivel": "469",
+        "total_ocupado": "354",
+        "total": "823"
+      },
+      {
+        "data": "2020-08-02",
+        "uti_disponivel": "153",
+        "uti_ocupado": "190",
+        "uti_total": "343",
+        "enfermaria_disponivel": "297",
+        "enfermaria_ocupado": "179",
+        "enfermaria_total": "476",
+        "total_disponivel": "450",
+        "total_ocupado": "369",
+        "total": "819"
+      },
+      {
+        "data": "2020-08-03",
+        "uti_disponivel": "153",
+        "uti_ocupado": "190",
+        "uti_total": "343",
+        "enfermaria_disponivel": "297",
+        "enfermaria_ocupado": "179",
+        "enfermaria_total": "476",
+        "total_disponivel": "450",
+        "total_ocupado": "369",
+        "total": "819"
+      },
+      {
+        "data": "2020-08-04",
+        "uti_disponivel": "153",
+        "uti_ocupado": "190",
+        "uti_total": "343",
+        "enfermaria_disponivel": "297",
+        "enfermaria_ocupado": "179",
+        "enfermaria_total": "476",
+        "total_disponivel": "450",
+        "total_ocupado": "369",
+        "total": "819"
+      },
+      {
+        "data": "2020-08-05",
+        "uti_disponivel": "157",
+        "uti_ocupado": "182",
+        "uti_total": "339",
+        "enfermaria_disponivel": "286",
+        "enfermaria_ocupado": "194",
+        "enfermaria_total": "480",
+        "total_disponivel": "443",
+        "total_ocupado": "376",
+        "total": "819"
+      }
+    ],
+    "format": {
+      "parse": {
+        "data": "date"
+      }
+    }
+  },
+  "transform": [
+    {
+      "fold": [
+        "uti_ocupado",
+        "uti_disponivel"
+      ]
+    },
+    {
+      "calculate": "if((datum.key === 'uti_disponivel'),'UTI Disponível',datum.key)",
+      "as": "key"
+    },
+    {
+      "calculate": "if((datum.key === 'uti_ocupado'),'UTI Ocupado',datum.key)",
+      "as": "key"
+    },
+    {
+      "calculate": "datum.uti_disponivel / datum.uti_total",
+      "as": "percentual_uti_disponivel"
+    },
+    {
+      "calculate": "datum.uti_ocupado / datum.uti_total",
+      "as": "percentual_uti_ocupado"
+    }
+  ],
+  "mark": {
+    "type": "area",
+    "opacity": 0.9
+  },
+  "encoding": {
+    "tooltip": [
+      {
+        "type": "temporal",
+        "field": "data",
+        "title": "Data"
+      },
+      {
+        "type": "quantitative",
+        "field": "uti_disponivel",
+        "title": "UTIs Disponíveis"
+      },
+      {
+        "type": "quantitative",
+        "field": "uti_ocupado",
+        "title": "UTIs Ocupadas"
+      },
+      {
+        "type": "quantitative",
+        "field": "percentual_uti_disponivel",
+        "title": "UTIs Disponíveis (%)",
+        "format": ".2%"
+      },
+      {
+        "type": "quantitative",
+        "field": "percentual_uti_ocupado",
+        "title": "UTIs Ocupadas (%)",
+        "format": ".2%"
+      }
+    ],
+    "x": {
+      "timeUnit": "monthdate",
+      "field": "data",
+      "type": "temporal",
+      "axis": {
+        "labelAngle": 315,
+        "labelFontSize": 12,
+        "title": "Data",
+        "titleFontSize": 14
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "axis": {
+        "labelFontSize": 12,
+        "title": "Total de UTIs",
+        "titleFontSize": 14
+      }
+    },
+    "color": {
+      "field": "key",
+      "type": "nominal",
+      "legend": {
+        "columns": 1,
+        "labelFontSize": 12,
+        "orient": "bottom",
+        "title": "Disponibilidade de UTI",
+        "titleFontSize": 14
+      },
+      "scale": {
+        "domain": [
+          "UTI Disponível",
+          "UTI Ocupado"
+        ],
+        "range": [
+          "#1f77b4",
+          "#e60000"
+        ]
+      }
+    }
+  }
+}

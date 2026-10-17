@@ -1,0 +1,124 @@
+{
+  "id": "vl_0904",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "dbe5ba02c0ec7679f591e9b7944ef965d4a1024821c833c08de6a4ed60363b73",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2bc99ed18d4102c42146ba54c050aa7ff012239a72973d54cc7a92d0ea048b17",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "192688c91b02b553582744d1fdd9f7d93c90f68d3f890cf5b9cfa19ed7ff6c0c",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a178847a08c30262963fa24acf261ff0e565332aa9f8612dad9fe4d950cd4a3d",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7c2d22c3944fa78d7e685017add94e1527916790563c60c7a7d5398bfe5c1256",
+      "actions": 18,
+      "topOptions": 38
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8a03f6cc5b60bdaa3e1a061137809166e0c56dbefa5ab5cc16958870bba0ccd2",
+      "actions": 21,
+      "topOptions": 43
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ba60015fc1eb304f1bb27d08b3c694cf4f666518484f8bc79abc3e4f375e214d",
+      "actions": 22,
+      "topOptions": 42
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "2adaf9f1231be67cac42466232035384fbd835b5e16e29d3920156e9b54cedb3",
+      "actions": 22,
+      "topOptions": 43
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/JamesFKean/JamesFKean.github.io/main/data_ons-IKBF.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source and final code read:308 original monthly rows, implicit year/month stacking, exact orange5px bars and200x150plot, source cream background and source invalid X domain paint omitted using hash-bound browser proof. All8 stages PASS identical SVG. Eight-stage cap leaves one genuine boundary: editYAxisTicksAndLabels comma formatter could transfer to focused Y labels; not claiming exhaustion."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "28174b8c349804e3507d12cab047ce0b15f50a8996d279f6a47429381151013f",
+      "bytes": 941
+    },
+    "data.json": {
+      "sha256": "468afe7527277bc1777a7c5d31a1b42e497052b494ad947813b4afcac6d2d0e2",
+      "bytes": 66501
+    },
+    "resolved-source.vl.json": {
+      "sha256": "dcaa983c927fa29a5111c29fc44d8b0dd8fb2ba415dedbba39c1d289a25e888d",
+      "bytes": 79677
+    },
+    "G1.gg.mjs": {
+      "sha256": "dbe5ba02c0ec7679f591e9b7944ef965d4a1024821c833c08de6a4ed60363b73",
+      "bytes": 2257
+    },
+    "G2.gg.mjs": {
+      "sha256": "2bc99ed18d4102c42146ba54c050aa7ff012239a72973d54cc7a92d0ea048b17",
+      "bytes": 2275
+    },
+    "G3.gg.mjs": {
+      "sha256": "192688c91b02b553582744d1fdd9f7d93c90f68d3f890cf5b9cfa19ed7ff6c0c",
+      "bytes": 2229
+    },
+    "G4.gg.mjs": {
+      "sha256": "a178847a08c30262963fa24acf261ff0e565332aa9f8612dad9fe4d950cd4a3d",
+      "bytes": 2205
+    },
+    "G5.gg.mjs": {
+      "sha256": "7c2d22c3944fa78d7e685017add94e1527916790563c60c7a7d5398bfe5c1256",
+      "bytes": 2259
+    },
+    "G6.gg.mjs": {
+      "sha256": "8a03f6cc5b60bdaa3e1a061137809166e0c56dbefa5ab5cc16958870bba0ccd2",
+      "bytes": 2406
+    },
+    "G7.gg.mjs": {
+      "sha256": "ba60015fc1eb304f1bb27d08b3c694cf4f666518484f8bc79abc3e4f375e214d",
+      "bytes": 2271
+    },
+    "G8.gg.mjs": {
+      "sha256": "2adaf9f1231be67cac42466232035384fbd835b5e16e29d3920156e9b54cedb3",
+      "bytes": 2283
+    },
+    "vega-lite.svg": {
+      "sha256": "525cb95919c1bbde96133a0b7da5cea1dd6c554c79914bc6285b7db7a9052b17",
+      "bytes": 68150
+    },
+    "ggaction.svg": {
+      "sha256": "9c0653e5f2255606249b2b0ae4740c4d041d7d6a628c93dcbf553bf2a98995b8",
+      "bytes": 50290
+    }
+  }
+}

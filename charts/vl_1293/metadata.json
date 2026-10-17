@@ -1,0 +1,122 @@
+{
+  "id": "vl_1293",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1e573adef11957eae72591d8d7147391091cf00ecab5a60fba27e3486641075a",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a7822340e24a14cbc1d5121124da2c0486c2dda4c51b4d72052747ac8c25d2f3",
+      "actions": 10,
+      "topOptions": 18
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "d5062f8482e3d2afafc6cc239b24ba63b3b73698da8ab7dee93fd1138756275a",
+      "actions": 11,
+      "topOptions": 22
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7657385b9c1d5e6210cae602c1176585169a9a2ee59018827f3e71d07f15ad23",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "cb82f444ee64ef6d850712d7d826292034c90d013763bfa8ab5bc88087d7be1c",
+      "actions": 14,
+      "topOptions": 26
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b59ea2c3e519b23f5c5ad050fb78efc147ab8339f322e3aae3cf9fb21a8f70b2",
+      "actions": 14,
+      "topOptions": 26
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "0808c0758a757753cffe259e7cfff4a80bd6bd54277a6100d7f0ad7ec775be02",
+      "actions": 15,
+      "topOptions": 28
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "bfdfdabf66cd5662014cbe51164be0441ce767edd8e4110d487ce567488ca5c3",
+      "actions": 16,
+      "topOptions": 28
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight accepted stage modules individually reviewed against source and accepted parents including grouped mark-channel refinement. Exact source/family SVG/PNG current-runtime gates pass, source fonts/data/fixed canvas retained and no padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "6efc4b4ef2b4c48fe9b5f492e439995fa703759247a0b7804521ab39f24dbe62",
+      "bytes": 15834
+    },
+    "data.json": {
+      "sha256": "97af73699a3a7fb4663dcc7a4dfced68b347a67970b1d58e794246c6443c47f5",
+      "bytes": 12333
+    },
+    "resolved-source.vl.json": {
+      "sha256": "58ba001573896994cd3d192e88be0fdffd4ee6ee728e142bc36318aa5101e83c",
+      "bytes": 15731
+    },
+    "G1.gg.mjs": {
+      "sha256": "1e573adef11957eae72591d8d7147391091cf00ecab5a60fba27e3486641075a",
+      "bytes": 1652
+    },
+    "G2.gg.mjs": {
+      "sha256": "a7822340e24a14cbc1d5121124da2c0486c2dda4c51b4d72052747ac8c25d2f3",
+      "bytes": 1670
+    },
+    "G3.gg.mjs": {
+      "sha256": "d5062f8482e3d2afafc6cc239b24ba63b3b73698da8ab7dee93fd1138756275a",
+      "bytes": 1630
+    },
+    "G4.gg.mjs": {
+      "sha256": "7657385b9c1d5e6210cae602c1176585169a9a2ee59018827f3e71d07f15ad23",
+      "bytes": 1694
+    },
+    "G5.gg.mjs": {
+      "sha256": "cb82f444ee64ef6d850712d7d826292034c90d013763bfa8ab5bc88087d7be1c",
+      "bytes": 1774
+    },
+    "G6.gg.mjs": {
+      "sha256": "b59ea2c3e519b23f5c5ad050fb78efc147ab8339f322e3aae3cf9fb21a8f70b2",
+      "bytes": 1762
+    },
+    "G7.gg.mjs": {
+      "sha256": "0808c0758a757753cffe259e7cfff4a80bd6bd54277a6100d7f0ad7ec775be02",
+      "bytes": 1752
+    },
+    "G8.gg.mjs": {
+      "sha256": "bfdfdabf66cd5662014cbe51164be0441ce767edd8e4110d487ce567488ca5c3",
+      "bytes": 1769
+    },
+    "vega-lite.svg": {
+      "sha256": "85470115c2784b475f910faa7ba1db767dfc3170fb363f5d0b78179734042c25",
+      "bytes": 54758
+    },
+    "ggaction.svg": {
+      "sha256": "19382c78d8c10ae44d9260f64097090671012e1e6a6b204a11f4622a0fa57840",
+      "bytes": 30462
+    }
+  }
+}

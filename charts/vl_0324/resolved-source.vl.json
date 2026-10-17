@@ -1,0 +1,240 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "LOCATION": "AUT",
+        "Value": "101.548745",
+        "foreign population %": "16"
+      },
+      {
+        "LOCATION": "BEL",
+        "Value": "100.107505",
+        "foreign population %": "12.1"
+      },
+      {
+        "LOCATION": "CZE",
+        "Value": "104.496517",
+        "foreign population %": "4.9"
+      },
+      {
+        "LOCATION": "DNK",
+        "Value": "105.350786",
+        "foreign population %": "8.8"
+      },
+      {
+        "LOCATION": "FIN",
+        "Value": "103.698089",
+        "foreign population %": "4.5"
+      },
+      {
+        "LOCATION": "FRA",
+        "Value": "102.814627",
+        "foreign population %": "7.1"
+      },
+      {
+        "LOCATION": "DEU",
+        "Value": "103.375684",
+        "foreign population %": "12.9"
+      },
+      {
+        "LOCATION": "HUN",
+        "Value": "104.807845",
+        "foreign population %": "1.7"
+      },
+      {
+        "LOCATION": "ISL",
+        "Value": "104.538868",
+        "foreign population %": "11.2"
+      },
+      {
+        "LOCATION": "IRL",
+        "Value": "106.290046",
+        "foreign population %": "12.4"
+      },
+      {
+        "LOCATION": "ITA",
+        "Value": "100.323292",
+        "foreign population %": "8.7"
+      },
+      {
+        "LOCATION": "JPN",
+        "Value": "101.582134",
+        "foreign population %": "2"
+      },
+      {
+        "LOCATION": "KOR",
+        "Value": "111.478289",
+        "foreign population %": "2.3"
+      },
+      {
+        "LOCATION": "MEX",
+        "Value": "101.781343",
+        "foreign population %": "0.3"
+      },
+      {
+        "LOCATION": "NLD",
+        "Value": "100.064801",
+        "foreign population %": "6.1"
+      },
+      {
+        "LOCATION": "NOR",
+        "Value": "102.017169",
+        "foreign population %": "10.6"
+      },
+      {
+        "LOCATION": "POL",
+        "Value": "114.261674",
+        "foreign population %": "0.6"
+      },
+      {
+        "LOCATION": "PRT",
+        "Value": "100.783377",
+        "foreign population %": "4.1"
+      },
+      {
+        "LOCATION": "SVK",
+        "Value": "105.286173",
+        "foreign population %": "1.3"
+      },
+      {
+        "LOCATION": "ESP",
+        "Value": "101.103306",
+        "foreign population %": "9.9"
+      },
+      {
+        "LOCATION": "SWE",
+        "Value": "100.637005",
+        "foreign population %": "9"
+      },
+      {
+        "LOCATION": "CHE",
+        "Value": "104.616177",
+        "foreign population %": "24"
+      },
+      {
+        "LOCATION": "TUR",
+        "Value": "109.819438",
+        "foreign population %": "1.1"
+      },
+      {
+        "LOCATION": "GBR",
+        "Value": "101.908738",
+        "foreign population %": "9"
+      },
+      {
+        "LOCATION": "EST",
+        "Value": "112.536169",
+        "foreign population %": "16.4"
+      },
+      {
+        "LOCATION": "LVA",
+        "Value": "108.894782",
+        "foreign population %": "14.1"
+      },
+      {
+        "LOCATION": "LTU",
+        "Value": "108.612217",
+        "foreign population %": "1"
+      },
+      {
+        "LOCATION": "SVN",
+        "Value": "109.957683",
+        "foreign population %": "5.9"
+      }
+    ]
+  },
+  "title": {
+    "text": "Productivity & Immigration",
+    "subtitle": "GDP per hour worked (USD, indexed 2015=100) regressed on foregin born population (%), 2019, source:OECD",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 400,
+  "height": 300,
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color": "#162a2c"
+      },
+      "encoding": {
+        "x": {
+          "field": "foreign population %",
+          "type": "quantitative",
+          "title": "Foreign Population (%)"
+        },
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "title": "Productivity",
+          "scale": {
+            "domainMin": 90
+          }
+        },
+        "tooltip": [
+          {
+            "field": "LOCATION",
+            "type": "nominal",
+            "title": "Immigrants"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "firebrick"
+      },
+      "transform": [
+        {
+          "regression": "Value",
+          "on": "foreign population %",
+          "extent": [
+            0,
+            20
+          ]
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "foreign population %",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Value",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Value",
+          "on": "foreign population %",
+          "params": true
+        },
+        {
+          "calculate": "'R²: '+format(datum.rSquared, '.2f')",
+          "as": "R2"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {
+          "type": "nominal",
+          "field": "R2"
+        }
+      }
+    }
+  ]
+}

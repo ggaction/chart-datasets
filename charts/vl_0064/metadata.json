@@ -1,0 +1,102 @@
+{
+  "id": "vl_0064",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8c94a439535feda1bdf28b41036ac37c98fedbed5c694c56e1f18acb92f89407",
+      "actions": 8,
+      "topOptions": 18
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0e29bf8543b929dedfc4477ac58977ced2b67114c0b9d314aafdce517fff0296",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "dd72841885ddafbfe8437dbc3ed187d2de92bca6908bed9a8b89afd59d15805a",
+      "actions": 11,
+      "topOptions": 27
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ddc0cde19a28b9afe8be6e28734a2f3aa787110f1b3af336153751bf3d188b69",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7d92ba863747dfad372f09d3e788fe59ffeb2610598373cf056a2021a7bc2537",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "73505e2d3d3a6a48bc3b979f7e8d32d95955e276252a6ce3c5aa5e9ae2bde6d9",
+      "actions": 14,
+      "topOptions": 30
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/euro.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Fullsource and everyaccepted code/diff reviewed; concrete mandatoryfrontier zero, actualcurrentpin source/fullfamily SVG/PNG/rowschecks pass. Geometry/sourcefont sizes remaincompleteaxis creation. Rejected padding preserved withactualusage, no quota filling."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "0e579278c0118a1d738a5635ac3439999cf1e1376bf748ebe2df4cd60478d892",
+      "bytes": 512
+    },
+    "data.json": {
+      "sha256": "f75515091cd1dc1bec30b2d0088ee21e70534516c0622decf957b33acf63f5e0",
+      "bytes": 111773
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f275bc1bda2a621190eddcc9391d7e0fa106f7a25d7e7ef8f867b945c5181d78",
+      "bytes": 134245
+    },
+    "G1.gg.mjs": {
+      "sha256": "8c94a439535feda1bdf28b41036ac37c98fedbed5c694c56e1f18acb92f89407",
+      "bytes": 2327
+    },
+    "G2.gg.mjs": {
+      "sha256": "0e29bf8543b929dedfc4477ac58977ced2b67114c0b9d314aafdce517fff0296",
+      "bytes": 2345
+    },
+    "G3.gg.mjs": {
+      "sha256": "dd72841885ddafbfe8437dbc3ed187d2de92bca6908bed9a8b89afd59d15805a",
+      "bytes": 2283
+    },
+    "G4.gg.mjs": {
+      "sha256": "ddc0cde19a28b9afe8be6e28734a2f3aa787110f1b3af336153751bf3d188b69",
+      "bytes": 2313
+    },
+    "G5.gg.mjs": {
+      "sha256": "7d92ba863747dfad372f09d3e788fe59ffeb2610598373cf056a2021a7bc2537",
+      "bytes": 2373
+    },
+    "G6.gg.mjs": {
+      "sha256": "73505e2d3d3a6a48bc3b979f7e8d32d95955e276252a6ce3c5aa5e9ae2bde6d9",
+      "bytes": 2361
+    },
+    "vega-lite.svg": {
+      "sha256": "8a5fee1535815750cc6beee61cb2330942a3d290553c1c266764015c88ea1d69",
+      "bytes": 15411
+    },
+    "ggaction.svg": {
+      "sha256": "dc7a88db18390ffa247a5820bbe4ca7a93f432078934d60f3eabfa12996da9de",
+      "bytes": 13795
+    }
+  }
+}

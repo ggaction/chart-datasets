@@ -1,0 +1,78 @@
+{
+  "id": "vl_1624",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "69fc434d58d65d2a49210152e722ceba328c88aba06065190a21dfad1676cdd9",
+      "actions": 27,
+      "topOptions": 59
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "13638bc0075145cd1c9850faf8733ca3b14a2200748e225bf19aaa5a998bac27",
+      "actions": 29,
+      "topOptions": 65
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "06636ca0df6f1a676c8ab28e771cc84a215a89569e98ec0bfdd34be73f23a2a4",
+      "actions": 31,
+      "topOptions": 66
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "472e6d6b86d618d024cd9c04ae43271a9b1f8ca3150894fcc0c7d47aa3e89624",
+      "actions": 37,
+      "topOptions": 70
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 4 genuine ownership stages, 171 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed hash-bound Codex host frontier stop (model:null); original model plans/usage remain retained; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "18db899a7fdab5d871b760248e3f5f633f5ef6b6c5e86a63cce4420c54c97862",
+      "bytes": 1424
+    },
+    "data.json": {
+      "sha256": "a35196aa09072a7df0db1533a429d75dd76539acccf8e7c72b91f7dec724d1d9",
+      "bytes": 423
+    },
+    "resolved-source.vl.json": {
+      "sha256": "24a9f66860b0f8b8c1773e02d3979c15d1b62de71e33419c48e8fe74f3adbbdf",
+      "bytes": 1425
+    },
+    "G1.gg.mjs": {
+      "sha256": "69fc434d58d65d2a49210152e722ceba328c88aba06065190a21dfad1676cdd9",
+      "bytes": 4178
+    },
+    "G2.gg.mjs": {
+      "sha256": "13638bc0075145cd1c9850faf8733ca3b14a2200748e225bf19aaa5a998bac27",
+      "bytes": 4344
+    },
+    "G3.gg.mjs": {
+      "sha256": "06636ca0df6f1a676c8ab28e771cc84a215a89569e98ec0bfdd34be73f23a2a4",
+      "bytes": 4416
+    },
+    "G4.gg.mjs": {
+      "sha256": "472e6d6b86d618d024cd9c04ae43271a9b1f8ca3150894fcc0c7d47aa3e89624",
+      "bytes": 4442
+    },
+    "vega-lite.svg": {
+      "sha256": "b1ed3ad69792e40f4623c7beac730675f3f58216fd60bbf0934100d48ede60d9",
+      "bytes": 8533
+    },
+    "ggaction.svg": {
+      "sha256": "9779eb667c865cbdd72a1f06e702572b2cf20d42e0f94d775ee65b9650c59934",
+      "bytes": 6274
+    }
+  }
+}

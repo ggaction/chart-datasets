@@ -1,0 +1,102 @@
+{
+  "id": "vl_0727",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "2fcf4b9a40a6f0850984f85ac2455f8f0731e8358090f81aedf5d6b22213ea2f",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b277aa74e5f62651d23ca04026c7d6ffea892964eb29a08f6c1d193175b5a952",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4d0c5fa24cef0ce9195ef26cf428e9745b614624305e8035ee986bccd089607b",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "5383352a05aa44366b7f0204c24de8271067a75a6c4554b153f7890b878678d6",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f7086279fee700164f3fd85867f5640c6457e39437363f99250790f9d5c6143b",
+      "actions": 16,
+      "topOptions": 30
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "21ab80b60605e38496382cf1021f02d903b6709eb410b8435a4ebc6f7976e330",
+      "actions": 17,
+      "topOptions": 31
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/data_ONS-mgsy.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full final reviewed code, all contiguous stages source/family/current-hash PASS. Read exact GLM stop record and independently exhausted concrete frontier; only protected construction geometry/source bindings remain, no invented native defaults."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "101a99a347dc0512b98b452243c5700802a31e47e213bafaf72253a19ce759fa",
+      "bytes": 895
+    },
+    "data.json": {
+      "sha256": "0171472c36387b15b6479ce6820fdff53fa697504274ce9b9c10912eadab7d9d",
+      "bytes": 10163
+    },
+    "resolved-source.vl.json": {
+      "sha256": "9f05fe6810193a311d4e9ae6767c318578be2e6ff5ccf0565b0a0137201cfb05",
+      "bytes": 13016
+    },
+    "G1.gg.mjs": {
+      "sha256": "2fcf4b9a40a6f0850984f85ac2455f8f0731e8358090f81aedf5d6b22213ea2f",
+      "bytes": 2053
+    },
+    "G2.gg.mjs": {
+      "sha256": "b277aa74e5f62651d23ca04026c7d6ffea892964eb29a08f6c1d193175b5a952",
+      "bytes": 2041
+    },
+    "G3.gg.mjs": {
+      "sha256": "4d0c5fa24cef0ce9195ef26cf428e9745b614624305e8035ee986bccd089607b",
+      "bytes": 2001
+    },
+    "G4.gg.mjs": {
+      "sha256": "5383352a05aa44366b7f0204c24de8271067a75a6c4554b153f7890b878678d6",
+      "bytes": 2021
+    },
+    "G5.gg.mjs": {
+      "sha256": "f7086279fee700164f3fd85867f5640c6457e39437363f99250790f9d5c6143b",
+      "bytes": 2035
+    },
+    "G6.gg.mjs": {
+      "sha256": "21ab80b60605e38496382cf1021f02d903b6709eb410b8435a4ebc6f7976e330",
+      "bytes": 2059
+    },
+    "vega-lite.svg": {
+      "sha256": "cddc3a6f9ee12d86aac1813ec5b17a1f43a1a124914be11e6878585a4277cb7a",
+      "bytes": 6041
+    },
+    "ggaction.svg": {
+      "sha256": "f2cc7697830afeac05545190b2d0ee393860f5139ada1fcb2072f5a76890d1c8",
+      "bytes": 5385
+    }
+  }
+}

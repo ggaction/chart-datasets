@@ -1,0 +1,814 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "country": "Afghanistan",
+        "lifeexpectancy": "62.879",
+        "happiness2020": "2.523"
+      },
+      {
+        "country": "Albania",
+        "lifeexpectancy": "76.833",
+        "happiness2020": "4.883"
+      },
+      {
+        "country": "Algeria",
+        "lifeexpectancy": "77.129",
+        "happiness2020": "5.005"
+      },
+      {
+        "country": "Argentina",
+        "lifeexpectancy": "76.064",
+        "happiness2020": "5.929"
+      },
+      {
+        "country": "Armenia",
+        "lifeexpectancy": "73.372",
+        "happiness2020": "4.677"
+      },
+      {
+        "country": "Australia",
+        "lifeexpectancy": "83.579",
+        "happiness2020": "7.223"
+      },
+      {
+        "country": "Austria",
+        "lifeexpectancy": "82.412",
+        "happiness2020": "7.294"
+      },
+      {
+        "country": "Azerbaijan",
+        "lifeexpectancy": "73.488",
+        "happiness2020": "5.165"
+      },
+      {
+        "country": "Bahrain",
+        "lifeexpectancy": "79.246",
+        "happiness2020": "6.647"
+      },
+      {
+        "country": "Bangladesh",
+        "lifeexpectancy": "73.698",
+        "happiness2020": "5.025"
+      },
+      {
+        "country": "Belarus",
+        "lifeexpectancy": "73.246",
+        "happiness2020": "5.54"
+      },
+      {
+        "country": "Belgium",
+        "lifeexpectancy": "82.293",
+        "happiness2020": "6.864"
+      },
+      {
+        "country": "Benin",
+        "lifeexpectancy": "59.954",
+        "happiness2020": "5.045"
+      },
+      {
+        "country": "Bolivia",
+        "lifeexpectancy": "64.928",
+        "happiness2020": "5.716"
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "lifeexpectancy": "75.293",
+        "happiness2020": "5.674"
+      },
+      {
+        "country": "Botswana",
+        "lifeexpectancy": "65.913",
+        "happiness2020": "3.467"
+      },
+      {
+        "country": "Brazil",
+        "lifeexpectancy": "73.425",
+        "happiness2020": "6.33"
+      },
+      {
+        "country": "Bulgaria",
+        "lifeexpectancy": "71.528",
+        "happiness2020": "5.102"
+      },
+      {
+        "country": "Burkina Faso",
+        "lifeexpectancy": "59.766",
+        "happiness2020": "4.834"
+      },
+      {
+        "country": "Burundi",
+        "lifeexpectancy": "61.977",
+        "happiness2020": "3.775"
+      },
+      {
+        "country": "Cambodia",
+        "lifeexpectancy": "69.896",
+        "happiness2020": "4.848"
+      },
+      {
+        "country": "Cameroon",
+        "lifeexpectancy": "60.958",
+        "happiness2020": "5.142"
+      },
+      {
+        "country": "Canada",
+        "lifeexpectancy": "82.847",
+        "happiness2020": "7.232"
+      },
+      {
+        "country": "Chad",
+        "lifeexpectancy": "52.997",
+        "happiness2020": "4.355"
+      },
+      {
+        "country": "Chile",
+        "lifeexpectancy": "79.519",
+        "happiness2020": "6.172"
+      },
+      {
+        "country": "China",
+        "lifeexpectancy": "78.587",
+        "happiness2020": "5.124"
+      },
+      {
+        "country": "Colombia",
+        "lifeexpectancy": "73.659",
+        "happiness2020": "6.012"
+      },
+      {
+        "country": "Comoros",
+        "lifeexpectancy": "63.68",
+        "happiness2020": "4.289"
+      },
+      {
+        "country": "Costa Rica",
+        "lifeexpectancy": "77.32",
+        "happiness2020": "7.069"
+      },
+      {
+        "country": "Croatia",
+        "lifeexpectancy": "79.236",
+        "happiness2020": "5.505"
+      },
+      {
+        "country": "Cyprus",
+        "lifeexpectancy": "81.889",
+        "happiness2020": "6.223"
+      },
+      {
+        "country": "Czech Republic",
+        "lifeexpectancy": "78.129",
+        "happiness2020": "6.911"
+      },
+      {
+        "country": "Denmark",
+        "lifeexpectancy": "81.882",
+        "happiness2020": "7.646"
+      },
+      {
+        "country": "Dominican Republic",
+        "lifeexpectancy": "74.17",
+        "happiness2020": "5.689"
+      },
+      {
+        "country": "Ecuador",
+        "lifeexpectancy": "77.894",
+        "happiness2020": "5.764"
+      },
+      {
+        "country": "Egypt",
+        "lifeexpectancy": "70.159",
+        "happiness2020": "4.283"
+      },
+      {
+        "country": "El Salvador",
+        "lifeexpectancy": "71.475",
+        "happiness2020": "6.061"
+      },
+      {
+        "country": "Estonia",
+        "lifeexpectancy": "79.155",
+        "happiness2020": "6.022"
+      },
+      {
+        "country": "Eswatini",
+        "lifeexpectancy": "56.36",
+        "happiness2020": "4.308"
+      },
+      {
+        "country": "Ethiopia",
+        "lifeexpectancy": "65.645",
+        "happiness2020": "4.275"
+      },
+      {
+        "country": "Finland",
+        "lifeexpectancy": "82.351",
+        "happiness2020": "7.809"
+      },
+      {
+        "country": "France",
+        "lifeexpectancy": "83.229",
+        "happiness2020": "6.664"
+      },
+      {
+        "country": "Gabon",
+        "lifeexpectancy": "65.694",
+        "happiness2020": "4.852"
+      },
+      {
+        "country": "Gambia",
+        "lifeexpectancy": "62.906",
+        "happiness2020": "5.051"
+      },
+      {
+        "country": "Georgia",
+        "lifeexpectancy": "71.587",
+        "happiness2020": "4.673"
+      },
+      {
+        "country": "Germany",
+        "lifeexpectancy": "80.989",
+        "happiness2020": "7.076"
+      },
+      {
+        "country": "Ghana",
+        "lifeexpectancy": "63.945",
+        "happiness2020": "5.088"
+      },
+      {
+        "country": "Greece",
+        "lifeexpectancy": "80.614",
+        "happiness2020": "5.515"
+      },
+      {
+        "country": "Guatemala",
+        "lifeexpectancy": "68.674",
+        "happiness2020": "6.435"
+      },
+      {
+        "country": "Guinea",
+        "lifeexpectancy": "58.985",
+        "happiness2020": "4.984"
+      },
+      {
+        "country": "Haiti",
+        "lifeexpectancy": "63.728",
+        "happiness2020": "3.721"
+      },
+      {
+        "country": "Honduras",
+        "lifeexpectancy": "70.728",
+        "happiness2020": "5.919"
+      },
+      {
+        "country": "Hong Kong",
+        "lifeexpectancy": "84.315",
+        "happiness2020": "5.51"
+      },
+      {
+        "country": "Hungary",
+        "lifeexpectancy": "74.958",
+        "happiness2020": "6"
+      },
+      {
+        "country": "Iceland",
+        "lifeexpectancy": "82.815",
+        "happiness2020": "7.504"
+      },
+      {
+        "country": "India",
+        "lifeexpectancy": "67.744",
+        "happiness2020": "3.819"
+      },
+      {
+        "country": "Indonesia",
+        "lifeexpectancy": "68.25",
+        "happiness2020": "5.286"
+      },
+      {
+        "country": "Iran",
+        "lifeexpectancy": "74.556",
+        "happiness2020": "4.721"
+      },
+      {
+        "country": "Iraq",
+        "lifeexpectancy": "71.336",
+        "happiness2020": "4.854"
+      },
+      {
+        "country": "Ireland",
+        "lifeexpectancy": "82.716",
+        "happiness2020": "7.129"
+      },
+      {
+        "country": "Israel",
+        "lifeexpectancy": "82.601",
+        "happiness2020": "7.157"
+      },
+      {
+        "country": "Italy",
+        "lifeexpectancy": "84.057",
+        "happiness2020": "6.387"
+      },
+      {
+        "country": "Ivory Coast",
+        "lifeexpectancy": "58.916",
+        "happiness2020": "5.306"
+      },
+      {
+        "country": "Jamaica",
+        "lifeexpectancy": "70.629",
+        "happiness2020": "5.89"
+      },
+      {
+        "country": "Japan",
+        "lifeexpectancy": "84.82",
+        "happiness2020": "5.871"
+      },
+      {
+        "country": "Jordan",
+        "lifeexpectancy": "74.215",
+        "happiness2020": "4.395"
+      },
+      {
+        "country": "Kazakhstan",
+        "lifeexpectancy": "69.489",
+        "happiness2020": "6.058"
+      },
+      {
+        "country": "Kenya",
+        "lifeexpectancy": "62.055",
+        "happiness2020": "4.607"
+      },
+      {
+        "country": "Kuwait",
+        "lifeexpectancy": "80.264",
+        "happiness2020": "6.106"
+      },
+      {
+        "country": "Kyrgyzstan",
+        "lifeexpectancy": "70.484",
+        "happiness2020": "5.744"
+      },
+      {
+        "country": "Laos",
+        "lifeexpectancy": "68.999",
+        "happiness2020": "4.889"
+      },
+      {
+        "country": "Latvia",
+        "lifeexpectancy": "75.927",
+        "happiness2020": "5.95"
+      },
+      {
+        "country": "Lebanon",
+        "lifeexpectancy": "74.416",
+        "happiness2020": "4.584"
+      },
+      {
+        "country": "Lesotho",
+        "lifeexpectancy": "53.036",
+        "happiness2020": "3.512"
+      },
+      {
+        "country": "Liberia",
+        "lifeexpectancy": "61.1",
+        "happiness2020": "4.625"
+      },
+      {
+        "country": "Libya",
+        "lifeexpectancy": "72.151",
+        "happiness2020": "5.489"
+      },
+      {
+        "country": "Lithuania",
+        "lifeexpectancy": "74.293",
+        "happiness2020": "6.215"
+      },
+      {
+        "country": "Luxembourg",
+        "lifeexpectancy": "82.591",
+        "happiness2020": "7.238"
+      },
+      {
+        "country": "Madagascar",
+        "lifeexpectancy": "65.23",
+        "happiness2020": "4.208"
+      },
+      {
+        "country": "Malawi",
+        "lifeexpectancy": "62.898",
+        "happiness2020": "3.6"
+      },
+      {
+        "country": "Malaysia",
+        "lifeexpectancy": "76.26",
+        "happiness2020": "5.384"
+      },
+      {
+        "country": "Maldives",
+        "lifeexpectancy": "80.839",
+        "happiness2020": "5.198"
+      },
+      {
+        "country": "Mali",
+        "lifeexpectancy": "59.417",
+        "happiness2020": "4.723"
+      },
+      {
+        "country": "Malta",
+        "lifeexpectancy": "83.704",
+        "happiness2020": "6.773"
+      },
+      {
+        "country": "Mauritania",
+        "lifeexpectancy": "64.691",
+        "happiness2020": "4.227"
+      },
+      {
+        "country": "Mauritius",
+        "lifeexpectancy": "73.975",
+        "happiness2020": "6.049"
+      },
+      {
+        "country": "Mexico",
+        "lifeexpectancy": "74.832",
+        "happiness2020": "6.317"
+      },
+      {
+        "country": "Moldova",
+        "lifeexpectancy": "68.621",
+        "happiness2020": "5.608"
+      },
+      {
+        "country": "Mongolia",
+        "lifeexpectancy": "72.667",
+        "happiness2020": "5.456"
+      },
+      {
+        "country": "Montenegro",
+        "lifeexpectancy": "76.845",
+        "happiness2020": "5.546"
+      },
+      {
+        "country": "Morocco",
+        "lifeexpectancy": "74.973",
+        "happiness2020": "5.095"
+      },
+      {
+        "country": "Mozambique",
+        "lifeexpectancy": "59.625",
+        "happiness2020": "4.794"
+      },
+      {
+        "country": "Myanmar",
+        "lifeexpectancy": "67.256",
+        "happiness2020": "4.308"
+      },
+      {
+        "country": "Namibia",
+        "lifeexpectancy": "58.059",
+        "happiness2020": "4.574"
+      },
+      {
+        "country": "Nepal",
+        "lifeexpectancy": "70.484",
+        "happiness2020": "5.269"
+      },
+      {
+        "country": "Netherlands",
+        "lifeexpectancy": "82.451",
+        "happiness2020": "7.449"
+      },
+      {
+        "country": "New Zealand",
+        "lifeexpectancy": "83.006",
+        "happiness2020": "7.3"
+      },
+      {
+        "country": "Nicaragua",
+        "lifeexpectancy": "74.615",
+        "happiness2020": "5.972"
+      },
+      {
+        "country": "Niger",
+        "lifeexpectancy": "62.08",
+        "happiness2020": "5.074"
+      },
+      {
+        "country": "Nigeria",
+        "lifeexpectancy": "53.633",
+        "happiness2020": "4.759"
+      },
+      {
+        "country": "North Macedonia",
+        "lifeexpectancy": "73.888",
+        "happiness2020": "5.16"
+      },
+      {
+        "country": "Norway",
+        "lifeexpectancy": "83.393",
+        "happiness2020": "7.488"
+      },
+      {
+        "country": "Pakistan",
+        "lifeexpectancy": "66.431",
+        "happiness2020": "4.934"
+      },
+      {
+        "country": "Panama",
+        "lifeexpectancy": "76.826",
+        "happiness2020": "6.18"
+      },
+      {
+        "country": "Paraguay",
+        "lifeexpectancy": "70.475",
+        "happiness2020": "5.653"
+      },
+      {
+        "country": "Peru",
+        "lifeexpectancy": "73.385",
+        "happiness2020": "5.84"
+      },
+      {
+        "country": "Philippines",
+        "lifeexpectancy": "72.187",
+        "happiness2020": "6.006"
+      },
+      {
+        "country": "Poland",
+        "lifeexpectancy": "76.996",
+        "happiness2020": "6.186"
+      },
+      {
+        "country": "Portugal",
+        "lifeexpectancy": "82.24",
+        "happiness2020": "5.911"
+      },
+      {
+        "country": "Republic of the Congo",
+        "lifeexpectancy": "63.053",
+        "happiness2020": "5.342"
+      },
+      {
+        "country": "Romania",
+        "lifeexpectancy": "74.117",
+        "happiness2020": "6.124"
+      },
+      {
+        "country": "Russia",
+        "lifeexpectancy": "70.116",
+        "happiness2020": "5.546"
+      },
+      {
+        "country": "Rwanda",
+        "lifeexpectancy": "67.129",
+        "happiness2020": "3.415"
+      },
+      {
+        "country": "Saudi Arabia",
+        "lifeexpectancy": "77.905",
+        "happiness2020": "6.494"
+      },
+      {
+        "country": "Senegal",
+        "lifeexpectancy": "67.913",
+        "happiness2020": "5.132"
+      },
+      {
+        "country": "Serbia",
+        "lifeexpectancy": "74.137",
+        "happiness2020": "5.778"
+      },
+      {
+        "country": "Sierra Leone",
+        "lifeexpectancy": "60.411",
+        "happiness2020": "3.849"
+      },
+      {
+        "country": "Singapore",
+        "lifeexpectancy": "84.133",
+        "happiness2020": "6.377"
+      },
+      {
+        "country": "Slovakia",
+        "lifeexpectancy": "75.33",
+        "happiness2020": "6.281"
+      },
+      {
+        "country": "Slovenia",
+        "lifeexpectancy": "82.133",
+        "happiness2020": "6.363"
+      },
+      {
+        "country": "South Africa",
+        "lifeexpectancy": "61.48",
+        "happiness2020": "4.956"
+      },
+      {
+        "country": "South Korea",
+        "lifeexpectancy": "84.024",
+        "happiness2020": "5.872"
+      },
+      {
+        "country": "Spain",
+        "lifeexpectancy": "83.912",
+        "happiness2020": "6.401"
+      },
+      {
+        "country": "Sri Lanka",
+        "lifeexpectancy": "76.61",
+        "happiness2020": "4.325"
+      },
+      {
+        "country": "Sweden",
+        "lifeexpectancy": "83.505",
+        "happiness2020": "7.353"
+      },
+      {
+        "country": "Switzerland",
+        "lifeexpectancy": "84.255",
+        "happiness2020": "7.56"
+      },
+      {
+        "country": "Taiwan",
+        "lifeexpectancy": "81.267",
+        "happiness2020": "6.455"
+      },
+      {
+        "country": "Tajikistan",
+        "lifeexpectancy": "71.288",
+        "happiness2020": "5.466"
+      },
+      {
+        "country": "Tanzania",
+        "lifeexpectancy": "66.782",
+        "happiness2020": "3.623"
+      },
+      {
+        "country": "Thailand",
+        "lifeexpectancy": "79.68",
+        "happiness2020": "5.999"
+      },
+      {
+        "country": "Togo",
+        "lifeexpectancy": "61.588",
+        "happiness2020": "4.107"
+      },
+      {
+        "country": "Tunisia",
+        "lifeexpectancy": "74.263",
+        "happiness2020": "4.392"
+      },
+      {
+        "country": "Turkey",
+        "lifeexpectancy": "78.475",
+        "happiness2020": "4.948"
+      },
+      {
+        "country": "Turkmenistan",
+        "lifeexpectancy": "69.41",
+        "happiness2020": "5.066"
+      },
+      {
+        "country": "Uganda",
+        "lifeexpectancy": "63.638",
+        "happiness2020": "4.636"
+      },
+      {
+        "country": "Ukraine",
+        "lifeexpectancy": "68.564",
+        "happiness2020": "4.561"
+      },
+      {
+        "country": "United Arab Emirates",
+        "lifeexpectancy": "79.196",
+        "happiness2020": "6.561"
+      },
+      {
+        "country": "United Kingdom",
+        "lifeexpectancy": "82.156",
+        "happiness2020": "7.165"
+      },
+      {
+        "country": "Uruguay",
+        "lifeexpectancy": "78",
+        "happiness2020": "6.431"
+      },
+      {
+        "country": "Uzbekistan",
+        "lifeexpectancy": "71.674",
+        "happiness2020": "6.179"
+      },
+      {
+        "country": "Venezuela",
+        "lifeexpectancy": "71.105",
+        "happiness2020": "4.892"
+      },
+      {
+        "country": "Vietnam",
+        "lifeexpectancy": "74.58",
+        "happiness2020": "5.353"
+      },
+      {
+        "country": "Yemen",
+        "lifeexpectancy": "63.72",
+        "happiness2020": "3.658"
+      },
+      {
+        "country": "Zambia",
+        "lifeexpectancy": "61.803",
+        "happiness2020": "4.073"
+      },
+      {
+        "country": "Zimbabwe",
+        "lifeexpectancy": "59.391",
+        "happiness2020": "3.145"
+      }
+    ]
+  },
+  "height": 280,
+  "width": 280,
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true
+      },
+      "encoding": {
+        "x": {
+          "field": "lifeexpectancy",
+          "title": "Life Expectancy",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              45,
+              90
+            ]
+          }
+        },
+        "y": {
+          "field": "happiness2020",
+          "title": "Happiness",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              2,
+              8
+            ]
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "firebrick"
+      },
+      "transform": [
+        {
+          "regression": "happiness2020",
+          "on": "lifeexpectancy"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "lifeexpectancy",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "happiness2020",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "happiness2020",
+          "on": "lifeexpectancy",
+          "params": true
+        },
+        {
+          "calculate": "'R²: '+format(datum.rSquared, '.2f')",
+          "as": "R2"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {
+          "type": "nominal",
+          "field": "R2"
+        }
+      }
+    }
+  ]
+}

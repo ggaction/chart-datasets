@@ -1,0 +1,451 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "dist_group": "0 - 1000",
+        "main_mode": "bike",
+        "trips": "9933",
+        "mode": "bike",
+        "scaled_trips": "39732",
+        "source": "sim",
+        "tripdistancegroupindex": "0",
+        "pct": "0.15"
+      },
+      {
+        "dist_group": "0 - 1000",
+        "main_mode": "car",
+        "trips": "5920",
+        "mode": "car",
+        "scaled_trips": "23680",
+        "source": "sim",
+        "tripdistancegroupindex": "0",
+        "pct": "0.11"
+      },
+      {
+        "dist_group": "0 - 1000",
+        "main_mode": "pt",
+        "trips": "2461",
+        "mode": "pt",
+        "scaled_trips": "9844",
+        "source": "sim",
+        "tripdistancegroupindex": "0",
+        "pct": "0.02"
+      },
+      {
+        "dist_group": "0 - 1000",
+        "main_mode": "walk",
+        "trips": "84384",
+        "mode": "walk",
+        "scaled_trips": "337536",
+        "source": "sim",
+        "tripdistancegroupindex": "0",
+        "pct": "0.72"
+      },
+      {
+        "dist_group": "1000 - 3000",
+        "main_mode": "bike",
+        "trips": "49716",
+        "mode": "bike",
+        "scaled_trips": "198864",
+        "source": "sim",
+        "tripdistancegroupindex": "1",
+        "pct": "0.26"
+      },
+      {
+        "dist_group": "1000 - 3000",
+        "main_mode": "car",
+        "trips": "45395",
+        "mode": "car",
+        "scaled_trips": "181580",
+        "source": "sim",
+        "tripdistancegroupindex": "1",
+        "pct": "0.35"
+      },
+      {
+        "dist_group": "1000 - 3000",
+        "main_mode": "pt",
+        "trips": "31341",
+        "mode": "pt",
+        "scaled_trips": "125364",
+        "source": "sim",
+        "tripdistancegroupindex": "1",
+        "pct": "0.13"
+      },
+      {
+        "dist_group": "1000 - 3000",
+        "main_mode": "walk",
+        "trips": "23605",
+        "mode": "walk",
+        "scaled_trips": "94420",
+        "source": "sim",
+        "tripdistancegroupindex": "1",
+        "pct": "0.26"
+      },
+      {
+        "dist_group": "3000 - 5000",
+        "main_mode": "bike",
+        "trips": "18383",
+        "mode": "bike",
+        "scaled_trips": "73532",
+        "source": "sim",
+        "tripdistancegroupindex": "2",
+        "pct": "0.26"
+      },
+      {
+        "dist_group": "3000 - 5000",
+        "main_mode": "car",
+        "trips": "30013",
+        "mode": "car",
+        "scaled_trips": "120052",
+        "source": "sim",
+        "tripdistancegroupindex": "2",
+        "pct": "0.5"
+      },
+      {
+        "dist_group": "3000 - 5000",
+        "main_mode": "pt",
+        "trips": "20161",
+        "mode": "pt",
+        "scaled_trips": "80644",
+        "source": "sim",
+        "tripdistancegroupindex": "2",
+        "pct": "0.24"
+      },
+      {
+        "dist_group": "3000 - 5000",
+        "main_mode": "walk",
+        "trips": "281",
+        "mode": "walk",
+        "scaled_trips": "1124",
+        "source": "sim",
+        "tripdistancegroupindex": "2",
+        "pct": "0.0"
+      },
+      {
+        "dist_group": "5000 - 10000",
+        "main_mode": "bike",
+        "trips": "5441",
+        "mode": "bike",
+        "scaled_trips": "21764",
+        "source": "sim",
+        "tripdistancegroupindex": "3",
+        "pct": "0.13"
+      },
+      {
+        "dist_group": "5000 - 10000",
+        "main_mode": "car",
+        "trips": "45974",
+        "mode": "car",
+        "scaled_trips": "183896",
+        "source": "sim",
+        "tripdistancegroupindex": "3",
+        "pct": "0.59"
+      },
+      {
+        "dist_group": "5000 - 10000",
+        "main_mode": "pt",
+        "trips": "22012",
+        "mode": "pt",
+        "scaled_trips": "88048",
+        "source": "sim",
+        "tripdistancegroupindex": "3",
+        "pct": "0.27"
+      },
+      {
+        "dist_group": "5000 - 10000",
+        "main_mode": "walk",
+        "trips": "96",
+        "mode": "walk",
+        "scaled_trips": "384",
+        "source": "sim",
+        "tripdistancegroupindex": "3",
+        "pct": "0.01"
+      },
+      {
+        "dist_group": "10000+",
+        "main_mode": "bike",
+        "trips": "144",
+        "mode": "bike",
+        "scaled_trips": "576",
+        "source": "sim",
+        "tripdistancegroupindex": "4",
+        "pct": "0.04"
+      },
+      {
+        "dist_group": "10000+",
+        "main_mode": "car",
+        "trips": "54147",
+        "mode": "car",
+        "scaled_trips": "216588",
+        "source": "sim",
+        "tripdistancegroupindex": "4",
+        "pct": "0.76"
+      },
+      {
+        "dist_group": "10000+",
+        "main_mode": "pt",
+        "trips": "18463",
+        "mode": "pt",
+        "scaled_trips": "73852",
+        "source": "sim",
+        "tripdistancegroupindex": "4",
+        "pct": "0.19"
+      },
+      {
+        "dist_group": "10000+",
+        "main_mode": "walk",
+        "trips": "29",
+        "mode": "walk",
+        "scaled_trips": "116",
+        "source": "sim",
+        "tripdistancegroupindex": "4",
+        "pct": "0.01"
+      },
+      {
+        "dist_group": "0 - 1000",
+        "main_mode": "bike",
+        "trips": "9933",
+        "mode": "bike",
+        "scaled_trips": "39732",
+        "source": "srv",
+        "tripdistancegroupindex": "0",
+        "pct": "0.10"
+      },
+      {
+        "dist_group": "0 - 1000",
+        "main_mode": "car",
+        "trips": "5920",
+        "mode": "car",
+        "scaled_trips": "23680",
+        "source": "srv",
+        "tripdistancegroupindex": "0",
+        "pct": "0.06"
+      },
+      {
+        "dist_group": "0 - 1000",
+        "main_mode": "pt",
+        "trips": "2461",
+        "mode": "pt",
+        "scaled_trips": "9844",
+        "source": "srv",
+        "tripdistancegroupindex": "0",
+        "pct": "0.02"
+      },
+      {
+        "dist_group": "0 - 1000",
+        "main_mode": "walk",
+        "trips": "84384",
+        "mode": "walk",
+        "scaled_trips": "337536",
+        "source": "srv",
+        "tripdistancegroupindex": "0",
+        "pct": "0.82"
+      },
+      {
+        "dist_group": "1000 - 3000",
+        "main_mode": "bike",
+        "trips": "49716",
+        "mode": "bike",
+        "scaled_trips": "198864",
+        "source": "srv",
+        "tripdistancegroupindex": "1",
+        "pct": "0.33"
+      },
+      {
+        "dist_group": "1000 - 3000",
+        "main_mode": "car",
+        "trips": "45395",
+        "mode": "car",
+        "scaled_trips": "181580",
+        "source": "srv",
+        "tripdistancegroupindex": "1",
+        "pct": "0.30"
+      },
+      {
+        "dist_group": "1000 - 3000",
+        "main_mode": "pt",
+        "trips": "31341",
+        "mode": "pt",
+        "scaled_trips": "125364",
+        "source": "srv",
+        "tripdistancegroupindex": "1",
+        "pct": "0.21"
+      },
+      {
+        "dist_group": "1000 - 3000",
+        "main_mode": "walk",
+        "trips": "23605",
+        "mode": "walk",
+        "scaled_trips": "94420",
+        "source": "srv",
+        "tripdistancegroupindex": "1",
+        "pct": "0.16"
+      },
+      {
+        "dist_group": "3000 - 5000",
+        "main_mode": "bike",
+        "trips": "18383",
+        "mode": "bike",
+        "scaled_trips": "73532",
+        "source": "srv",
+        "tripdistancegroupindex": "2",
+        "pct": "0.27"
+      },
+      {
+        "dist_group": "3000 - 5000",
+        "main_mode": "car",
+        "trips": "30013",
+        "mode": "car",
+        "scaled_trips": "120052",
+        "source": "srv",
+        "tripdistancegroupindex": "2",
+        "pct": "0.44"
+      },
+      {
+        "dist_group": "3000 - 5000",
+        "main_mode": "pt",
+        "trips": "20161",
+        "mode": "pt",
+        "scaled_trips": "80644",
+        "source": "srv",
+        "tripdistancegroupindex": "2",
+        "pct": "0.29"
+      },
+      {
+        "dist_group": "3000 - 5000",
+        "main_mode": "walk",
+        "trips": "281",
+        "mode": "walk",
+        "scaled_trips": "1124",
+        "source": "srv",
+        "tripdistancegroupindex": "2",
+        "pct": "0.0"
+      },
+      {
+        "dist_group": "5000 - 10000",
+        "main_mode": "bike",
+        "trips": "5441",
+        "mode": "bike",
+        "scaled_trips": "21764",
+        "source": "srv",
+        "tripdistancegroupindex": "3",
+        "pct": "0.08"
+      },
+      {
+        "dist_group": "5000 - 10000",
+        "main_mode": "car",
+        "trips": "45974",
+        "mode": "car",
+        "scaled_trips": "183896",
+        "source": "srv",
+        "tripdistancegroupindex": "3",
+        "pct": "0.62"
+      },
+      {
+        "dist_group": "5000 - 10000",
+        "main_mode": "pt",
+        "trips": "22012",
+        "mode": "pt",
+        "scaled_trips": "88048",
+        "source": "srv",
+        "tripdistancegroupindex": "3",
+        "pct": "0.30"
+      },
+      {
+        "dist_group": "5000 - 10000",
+        "main_mode": "walk",
+        "trips": "96",
+        "mode": "walk",
+        "scaled_trips": "384",
+        "source": "srv",
+        "tripdistancegroupindex": "3",
+        "pct": "0.0"
+      },
+      {
+        "dist_group": "10000+",
+        "main_mode": "bike",
+        "trips": "144",
+        "mode": "bike",
+        "scaled_trips": "576",
+        "source": "srv",
+        "tripdistancegroupindex": "4",
+        "pct": "0.0"
+      },
+      {
+        "dist_group": "10000+",
+        "main_mode": "car",
+        "trips": "54147",
+        "mode": "car",
+        "scaled_trips": "216588",
+        "source": "srv",
+        "tripdistancegroupindex": "4",
+        "pct": "0.75"
+      },
+      {
+        "dist_group": "10000+",
+        "main_mode": "pt",
+        "trips": "18463",
+        "mode": "pt",
+        "scaled_trips": "73852",
+        "source": "srv",
+        "tripdistancegroupindex": "4",
+        "pct": "0.25"
+      },
+      {
+        "dist_group": "10000+",
+        "main_mode": "walk",
+        "trips": "29",
+        "mode": "walk",
+        "scaled_trips": "116",
+        "source": "srv",
+        "tripdistancegroupindex": "4",
+        "pct": "0.0"
+      }
+    ]
+  },
+  "mark": "bar",
+  "width": 220,
+  "height": 200,
+  "encoding": {
+    "column": {
+      "field": "source",
+      "title": "Mode-choice by distance classes"
+    },
+    "x": {
+      "field": "pct",
+      "type": "quantitative",
+      "title": "Share"
+    },
+    "y": {
+      "field": "dist_group",
+      "sort": [
+        "10000+",
+        "5000 - 10000",
+        "3000 - 5000",
+        "1000 - 3000",
+        "0 - 1000"
+      ],
+      "title": "Distance classes"
+    },
+    "color": {
+      "field": "main_mode",
+      "type": "nominal",
+      "title": "Main mode",
+      "scale": {
+        "domain": [
+          "bike",
+          "car",
+          "pt",
+          "walk"
+        ],
+        "range": [
+          "#0f5eca ",
+          "#fc8712",
+          "#37ab17",
+          "#d00000"
+        ]
+      }
+    }
+  }
+}

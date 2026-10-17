@@ -1,0 +1,111 @@
+{
+  "id": "vl_0146",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9d593c966ab55a5bac214ac5ea8caa6ff5b85c84901c31196da5e20e690aa256",
+      "actions": 8,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2caeb71af47c6a5b9302bc647768d87a71b4d46748261bc3188c5f24d7bc14eb",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2c35df0bc5d04be1fb516030a997e0a7238ec0449606a93898f0afe80ebf0b54",
+      "actions": 11,
+      "topOptions": 27
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "d9c72b08750cbaaf0f86582dfd515d7b0356105efcb9be9e4a4d8a53a81bed90",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "58bf1bb8c896d2d16f7750706d1965f863c04c0ecdaaaeddfe3f3978c1c1f0a6",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "520e9593441e0d140857ad182f1e4ddcc994569fe5fd38367f09434e5362872d",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "44d877e6ce27155f12f95a59e5afe1a3c672dc138e666d8d66284745a12fd61a",
+      "actions": 19,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full source and terminal code reviewed.171 raw rows and171 vertices per blue max/orange min line; shared temporalX/logY domains with13 actual20-year ticks, formats and merged max,min title preserved. All7 programs current PASS and identical SVG, reviewed necessary second-line4-key exception hash bound. Concrete ownership frontier empty; exact retained GLM stop matches accepted terminal SHA."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "f82391e5f901b9c2c5727108fc0cc2b5218d048bd8ecede27bf384a02e1ff128",
+      "bytes": 45991
+    },
+    "data.json": {
+      "sha256": "e6185f288d45cdb176f0cd5c1baa509f0e00ba35428f792bdacc628a99d22296",
+      "bytes": 35646
+    },
+    "resolved-source.vl.json": {
+      "sha256": "094c8e7390164ed310ba64c22e42d68f693ae1c6b92288e577d27306ee9d9245",
+      "bytes": 43992
+    },
+    "G1.gg.mjs": {
+      "sha256": "9d593c966ab55a5bac214ac5ea8caa6ff5b85c84901c31196da5e20e690aa256",
+      "bytes": 2223
+    },
+    "G2.gg.mjs": {
+      "sha256": "2caeb71af47c6a5b9302bc647768d87a71b4d46748261bc3188c5f24d7bc14eb",
+      "bytes": 2142
+    },
+    "G3.gg.mjs": {
+      "sha256": "2c35df0bc5d04be1fb516030a997e0a7238ec0449606a93898f0afe80ebf0b54",
+      "bytes": 2074
+    },
+    "G4.gg.mjs": {
+      "sha256": "d9c72b08750cbaaf0f86582dfd515d7b0356105efcb9be9e4a4d8a53a81bed90",
+      "bytes": 2116
+    },
+    "G5.gg.mjs": {
+      "sha256": "58bf1bb8c896d2d16f7750706d1965f863c04c0ecdaaaeddfe3f3978c1c1f0a6",
+      "bytes": 2215
+    },
+    "G6.gg.mjs": {
+      "sha256": "520e9593441e0d140857ad182f1e4ddcc994569fe5fd38367f09434e5362872d",
+      "bytes": 2339
+    },
+    "G7.gg.mjs": {
+      "sha256": "44d877e6ce27155f12f95a59e5afe1a3c672dc138e666d8d66284745a12fd61a",
+      "bytes": 2313
+    },
+    "vega-lite.svg": {
+      "sha256": "a69372ce8c91268a6991db6857cdc19300c77dd75599bdd7e5e6712faa85c0bb",
+      "bytes": 34116
+    },
+    "ggaction.svg": {
+      "sha256": "92d5ff08a7f1b098772df32c8b52f0275e610b222b2fff88572ecbe19e08356c",
+      "bytes": 22886
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_0118",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "717e3d81c8f9c5e87a1cef0d56389c9bc5eaac3fed8c2b66b5ad5fae81cc66ae",
+      "actions": 12,
+      "topOptions": 30
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "321518933b5c37c9e9ea7cf6ec8897545c2f3c3f0a24dfea3093736468c01d11",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e879100101e70219c33b9c502387e0f95d5bf82214760e956ad438cabbe2af64",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "cfc7c6b897d4096976feb61d7d1cfd57d17fcfb940a762319ad2339482c9a3c4",
+      "actions": 18,
+      "topOptions": 42
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "428a4ad695f9a8f13d9f1cee13b186fb25af86b1f8480d74c1ea1ea30e146df8",
+      "actions": 21,
+      "topOptions": 44
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "43801cc21a809de47b97a52052bbb2548a3536d38c30040d7a4225d74c670bee",
+      "actions": 23,
+      "topOptions": 47
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "3cf83083af3baa62468be3a81f579e56ef89de4c0cffe592eb152fec5ac16a2c",
+      "actions": 24,
+      "topOptions": 47
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "9d15ce224e8f83d1f74625da15ee45ea2ab976ef63c310a4fac3ee958b0a54f7",
+      "actions": 24,
+      "topOptions": 49
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/prices/master/analysis/dbPricesByRegion.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original source and entire final GLM program reread; all8accepted stages/current source/style/guide/family checks pass. Source native transforms, source raw rows, plot and typography preserved. Exact title/axis/component moves reviewed. Remaining concrete public ownership opportunities recorded in cap-reviewed-source-frontier.json; stopping at8cap honestly, no padding or inventedAPI."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "0b25b573a9f373a2f541bc4797d096afb187af09dfb6d5f3c411447cafdb8751",
+      "bytes": 1840
+    },
+    "data.json": {
+      "sha256": "59ccd19edbd77f401d99591855563df08f1a017e68b09737781c36026fefdf3a",
+      "bytes": 524378
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0882cbf0e4271776b6455b5945640e809c280ed9d31d1c37b6d738d19ce27638",
+      "bytes": 645437
+    },
+    "G1.gg.mjs": {
+      "sha256": "717e3d81c8f9c5e87a1cef0d56389c9bc5eaac3fed8c2b66b5ad5fae81cc66ae",
+      "bytes": 2982
+    },
+    "G2.gg.mjs": {
+      "sha256": "321518933b5c37c9e9ea7cf6ec8897545c2f3c3f0a24dfea3093736468c01d11",
+      "bytes": 3013
+    },
+    "G3.gg.mjs": {
+      "sha256": "e879100101e70219c33b9c502387e0f95d5bf82214760e956ad438cabbe2af64",
+      "bytes": 3023
+    },
+    "G4.gg.mjs": {
+      "sha256": "cfc7c6b897d4096976feb61d7d1cfd57d17fcfb940a762319ad2339482c9a3c4",
+      "bytes": 2991
+    },
+    "G5.gg.mjs": {
+      "sha256": "428a4ad695f9a8f13d9f1cee13b186fb25af86b1f8480d74c1ea1ea30e146df8",
+      "bytes": 3037
+    },
+    "G6.gg.mjs": {
+      "sha256": "43801cc21a809de47b97a52052bbb2548a3536d38c30040d7a4225d74c670bee",
+      "bytes": 3155
+    },
+    "G7.gg.mjs": {
+      "sha256": "3cf83083af3baa62468be3a81f579e56ef89de4c0cffe592eb152fec5ac16a2c",
+      "bytes": 3110
+    },
+    "G8.gg.mjs": {
+      "sha256": "9d15ce224e8f83d1f74625da15ee45ea2ab976ef63c310a4fac3ee958b0a54f7",
+      "bytes": 3145
+    },
+    "vega-lite.svg": {
+      "sha256": "e2a1bfa3826e1089d5ef2302ae1d846d991c332b961a563063f0ce53e9bc81a3",
+      "bytes": 34056
+    },
+    "ggaction.svg": {
+      "sha256": "2ec2e81a1e411c826008a6b91011522d215252971c71719bd84eb6d9bf312825",
+      "bytes": 35739
+    }
+  }
+}

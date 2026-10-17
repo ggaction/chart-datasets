@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Emissions per capita",
+  "title": {
+    "text": "CO2 per capita emissions by region",
+    "subtitle": "Metric tons per capita (2019). Source: Center for International Climate Research.",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Region": "European Union",
+        "Value": "6.4"
+      },
+      {
+        "Region": "North America",
+        "Value": "15.3"
+      },
+      {
+        "Region": "Latin America & Caribbean",
+        "Value": "2.6"
+      },
+      {
+        "Region": "Middle East and North Africa",
+        "Value": "5.6"
+      },
+      {
+        "Region": "Sub-Saharan Africa",
+        "Value": "0.8"
+      },
+      {
+        "Region": "East Asia and Pacific",
+        "Value": "5.7"
+      },
+      {
+        "Region": "South Asia",
+        "Value": "1.5"
+      },
+      {
+        "Region": "Oceania",
+        "Value": "13.9"
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#86d0bb",
+    "strokeWidth": 2,
+    "opacity": 1
+  },
+  "height": 300,
+  "width": 180,
+  "encoding": {
+    "y": {
+      "field": "Region",
+      "type": "ordinal",
+      "sort": "-x",
+      "title": null
+    },
+    "x": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": null,
+      "scale": {
+        "domain": [
+          0,
+          16
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Region",
+        "type": "nominal",
+        "title": "Region"
+      },
+      {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "C02 emissions (metric tons per capita)"
+      }
+    ]
+  }
+}

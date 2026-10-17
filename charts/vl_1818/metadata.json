@@ -1,0 +1,113 @@
+{
+  "id": "vl_1818",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "0f7fbb039757434673b5340e001d0209a5b50f5523cb9a69093b3c64940d874f",
+      "actions": 24,
+      "topOptions": 53
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "84327fa856ef278e5f420ba34a912b2e49bc2d7e113cd712b4a3c5b60aaa331f",
+      "actions": 25,
+      "topOptions": 57
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "28de6b1b99fcad9c52d4c092412071677f1ecb8a1e8d50d2a407bfda79a47a7a",
+      "actions": 26,
+      "topOptions": 58
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "d855e1d129650555e5f107d3a5793787d6b7500d676ce8675f43e845c47d89c1",
+      "actions": 28,
+      "topOptions": 62
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4b494688d69e1ebaca733b18f9e7bcd2cbd2eab2bca78842857a3d078da5a5f6",
+      "actions": 28,
+      "topOptions": 62
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "360c8481ba8e878580ee3added8979b3c28d853fa2e564fa31e93aa3071c7077",
+      "actions": 32,
+      "topOptions": 62
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "649bf565f305008bba37a25259643a16115682073a9fdd255e153f1df3be4cb0",
+      "actions": 33,
+      "topOptions": 63
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/covid19pb/covid19pb.github.io/master/data/paraiba/dados_pb_covid19_pacientes_mortes.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full frozen source and final code review: seven source count bars and labels retain all911raw rows, source fonts, geometry, category colors, explicit0.7 bar opacity, original axis overlap and native legend spacing. Source same-black1px text-outline omission is narrowly disclosed with current source/code/native text/verification hashes. Seven stages exhaust real mandatory ownership; no new model response or padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "890d72feba121985a27c25014e8d4892cab6d946948e78ddb47a3d966d4126d2",
+      "bytes": 2728
+    },
+    "data.json": {
+      "sha256": "46350752d99b1e3913b530356c04e7b48f551e864c9fff32d4a5048aae472580",
+      "bytes": 334765
+    },
+    "resolved-source.vl.json": {
+      "sha256": "7148bcd44e684aded8e0905f27b4b090d8815b899e02ce40b2d7ff73762e0694",
+      "bytes": 388393
+    },
+    "G1.gg.mjs": {
+      "sha256": "0f7fbb039757434673b5340e001d0209a5b50f5523cb9a69093b3c64940d874f",
+      "bytes": 3645
+    },
+    "G2.gg.mjs": {
+      "sha256": "84327fa856ef278e5f420ba34a912b2e49bc2d7e113cd712b4a3c5b60aaa331f",
+      "bytes": 3653
+    },
+    "G3.gg.mjs": {
+      "sha256": "28de6b1b99fcad9c52d4c092412071677f1ecb8a1e8d50d2a407bfda79a47a7a",
+      "bytes": 3683
+    },
+    "G4.gg.mjs": {
+      "sha256": "d855e1d129650555e5f107d3a5793787d6b7500d676ce8675f43e845c47d89c1",
+      "bytes": 3805
+    },
+    "G5.gg.mjs": {
+      "sha256": "4b494688d69e1ebaca733b18f9e7bcd2cbd2eab2bca78842857a3d078da5a5f6",
+      "bytes": 3777
+    },
+    "G6.gg.mjs": {
+      "sha256": "360c8481ba8e878580ee3added8979b3c28d853fa2e564fa31e93aa3071c7077",
+      "bytes": 3777
+    },
+    "G7.gg.mjs": {
+      "sha256": "649bf565f305008bba37a25259643a16115682073a9fdd255e153f1df3be4cb0",
+      "bytes": 3802
+    },
+    "vega-lite.svg": {
+      "sha256": "7da1bc24b75acbe18e860e04a6e59dc2fcd636a6d77a25f133227112ea4b8f1c",
+      "bytes": 17482
+    },
+    "ggaction.svg": {
+      "sha256": "60f86b881f03624ffd7db0f3628e0f43554846ea589e2415e134fbd8babd815d",
+      "bytes": 12155
+    }
+  }
+}

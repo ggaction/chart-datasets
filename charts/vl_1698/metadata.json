@@ -1,0 +1,124 @@
+{
+  "id": "vl_1698",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "0caa88f59f65bf26f0f98c9cc974e86654575f22658ef8c056dfadd8bbe4b302",
+      "actions": 16,
+      "topOptions": 39
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "cefcb9037236ec8334cec8691c71c59229f344f7eb15b248355407bc1d857cb2",
+      "actions": 17,
+      "topOptions": 43
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "25e62044943f06221b2b1915b7a9d2b922a74dcee9a1dfcadc09e970330029d2",
+      "actions": 18,
+      "topOptions": 45
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3d5029c1513fe998c1fc72eba843eca803cdbcf7ea172fb0e75fde1175d715e6",
+      "actions": 20,
+      "topOptions": 51
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "3c0208f4358e3f750f25f5ac81b270f34470193843141a33cddb03a0c22b9991",
+      "actions": 21,
+      "topOptions": 51
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8b2c602b811e1ccd9c340fa0b0623cf667b649fc2eead8bff69c40991ca19b5c",
+      "actions": 25,
+      "topOptions": 51
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "79d46d65246aa609a809d0dcb51daa415ba1e472bc3940301615f1ec8f0d1999",
+      "actions": 27,
+      "topOptions": 53
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "c6e0d6a615629e7e0b3bcfb5e4e5d8b70b0060ef66fd7a2764a19cb821c9d2ba",
+      "actions": 27,
+      "topOptions": 54
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/unemployment-across-industries.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 8 genuine ownership stages, 443 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Authorized eight-stage cap reached."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "4daf057dcb6908577089408c6166f7b7fec87f21470bd8c91ec92c6ec1cc5d02",
+      "bytes": 783
+    },
+    "data.json": {
+      "sha256": "64bdc128b4dd71fa9e87999deea4db13c7a7b0cd81ade3f84840c41f9d3e6423",
+      "bytes": 257378
+    },
+    "resolved-source.vl.json": {
+      "sha256": "79dbbf39b9a7f2967d133222624a7da58f662a997d1a11b4ad3a10b4c17c99bc",
+      "bytes": 312820
+    },
+    "G1.gg.mjs": {
+      "sha256": "0caa88f59f65bf26f0f98c9cc974e86654575f22658ef8c056dfadd8bbe4b302",
+      "bytes": 3067
+    },
+    "G2.gg.mjs": {
+      "sha256": "cefcb9037236ec8334cec8691c71c59229f344f7eb15b248355407bc1d857cb2",
+      "bytes": 2931
+    },
+    "G3.gg.mjs": {
+      "sha256": "25e62044943f06221b2b1915b7a9d2b922a74dcee9a1dfcadc09e970330029d2",
+      "bytes": 2971
+    },
+    "G4.gg.mjs": {
+      "sha256": "3d5029c1513fe998c1fc72eba843eca803cdbcf7ea172fb0e75fde1175d715e6",
+      "bytes": 3149
+    },
+    "G5.gg.mjs": {
+      "sha256": "3c0208f4358e3f750f25f5ac81b270f34470193843141a33cddb03a0c22b9991",
+      "bytes": 3155
+    },
+    "G6.gg.mjs": {
+      "sha256": "8b2c602b811e1ccd9c340fa0b0623cf667b649fc2eead8bff69c40991ca19b5c",
+      "bytes": 3111
+    },
+    "G7.gg.mjs": {
+      "sha256": "79d46d65246aa609a809d0dcb51daa415ba1e472bc3940301615f1ec8f0d1999",
+      "bytes": 3161
+    },
+    "G8.gg.mjs": {
+      "sha256": "c6e0d6a615629e7e0b3bcfb5e4e5d8b70b0060ef66fd7a2764a19cb821c9d2ba",
+      "bytes": 3177
+    },
+    "vega-lite.svg": {
+      "sha256": "f7f25dcfc2b3a648510a9dc1a37ebec6a947f72e0c8db4790039a74bc85efc33",
+      "bytes": 13821
+    },
+    "ggaction.svg": {
+      "sha256": "a38b412dd73d71501f11de0093d1b9cef8b8188b56c665b7f2b74e241e6da029",
+      "bytes": 17692
+    }
+  }
+}

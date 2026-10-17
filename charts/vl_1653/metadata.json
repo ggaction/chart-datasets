@@ -1,0 +1,122 @@
+{
+  "id": "vl_1653",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "0eed1b904489947907c79a54b01e83454887a8447bd9fab9bfa79194dd413038",
+      "actions": 8,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1bd7db26744bbc36b6bd1d152e80fdb0605cfd62cc041dc48ec9852db17027e6",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "84279a4c57471fdd5b894766eb03dceb60a72087a31df4f18693e8a716cffa1b",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "76dfb9dbef19cae12316f0f22eb59fe82741ab19c0003dfc7296cd26d0b926ff",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "2606a918ef68dc470cb51324a04d8291ef3fb8752470ff5e19cdd422568b8eb7",
+      "actions": 13,
+      "topOptions": 25
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "f63257641c8b71bba2e11b0cc437052c6cead0ad0df628908706f72d2d96a660",
+      "actions": 15,
+      "topOptions": 29
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "46c9308931b0c9f67b705d48d2cbe15d2250cac6006552f828917558fde1293a",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "e2580005fa721cbc647e8023e89a2fe74c57ddb335e48e935afa692a64570855",
+      "actions": 18,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "실선·점선 두 그룹과 범례를 보존했다. dash scale, 축 스타일과 범례 typography를 분리하고 마지막 단계는 범례 제목·라벨의 개별 editor까지 8단계로 분해했다. Source grid paint corrected using exact shared GLM color fragments, without changing action counts or decomposition. Explicit legend offset removed; actual library defaults retained (categorical8, size/gradient30). Plot dimensions preserved; outer canvas/margin expanded only by required7or29px. All stages remain identical."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8a5b98b48d073f16f47f1051ad8e84fb819d7b2fd8ded94c92f1ffc3f90d6acf",
+      "bytes": 900
+    },
+    "data.json": {
+      "sha256": "ae346f8daf180595cc15a512c0836b75eac1a2d665124ea20118552458aa85cc",
+      "bytes": 413
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8a5b98b48d073f16f47f1051ad8e84fb819d7b2fd8ded94c92f1ffc3f90d6acf",
+      "bytes": 900
+    },
+    "G1.gg.mjs": {
+      "sha256": "0eed1b904489947907c79a54b01e83454887a8447bd9fab9bfa79194dd413038",
+      "bytes": 1715
+    },
+    "G2.gg.mjs": {
+      "sha256": "1bd7db26744bbc36b6bd1d152e80fdb0605cfd62cc041dc48ec9852db17027e6",
+      "bytes": 1639
+    },
+    "G3.gg.mjs": {
+      "sha256": "84279a4c57471fdd5b894766eb03dceb60a72087a31df4f18693e8a716cffa1b",
+      "bytes": 1601
+    },
+    "G4.gg.mjs": {
+      "sha256": "76dfb9dbef19cae12316f0f22eb59fe82741ab19c0003dfc7296cd26d0b926ff",
+      "bytes": 1607
+    },
+    "G5.gg.mjs": {
+      "sha256": "2606a918ef68dc470cb51324a04d8291ef3fb8752470ff5e19cdd422568b8eb7",
+      "bytes": 1629
+    },
+    "G6.gg.mjs": {
+      "sha256": "f63257641c8b71bba2e11b0cc437052c6cead0ad0df628908706f72d2d96a660",
+      "bytes": 1765
+    },
+    "G7.gg.mjs": {
+      "sha256": "46c9308931b0c9f67b705d48d2cbe15d2250cac6006552f828917558fde1293a",
+      "bytes": 1707
+    },
+    "G8.gg.mjs": {
+      "sha256": "e2580005fa721cbc647e8023e89a2fe74c57ddb335e48e935afa692a64570855",
+      "bytes": 1694
+    },
+    "vega-lite.svg": {
+      "sha256": "6b66f4db42794ddc5cd89f859de7960fe7bad0821b846a0fb55d05b651acc1c0",
+      "bytes": 9398
+    },
+    "ggaction.svg": {
+      "sha256": "5f503f8c37687f0f27e6011cbb3ef201e8ce45a1f3a592834ea37c161fece878",
+      "bytes": 5549
+    }
+  }
+}

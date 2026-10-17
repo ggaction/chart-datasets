@@ -1,0 +1,124 @@
+{
+  "id": "vl_0612",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b6f2460b4b93eaa6f836368f1796eca7bfcb40d163e1422c826ae3f557375768",
+      "actions": 17,
+      "topOptions": 43
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4c6840195d6c2b1269fd18cfdb00246b37cc98f888ab94af64b790dcac7382be",
+      "actions": 19,
+      "topOptions": 47
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "792b01b1c435152be59ea35a253adcd6f98b049eb3e1a27791b1d81bb3048dab",
+      "actions": 21,
+      "topOptions": 49
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "2358151dbb5195c45ca6ed5fd31e3bcbf3f7c8d5fc465ecb254b9a448b39f1bb",
+      "actions": 22,
+      "topOptions": 51
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9b8cebd39d06ca59c49ad33c445ee796cc9e1b1521034a59d9156dc5b23ecfd3",
+      "actions": 23,
+      "topOptions": 53
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "39d4657c1d2b1dab45126bf983f04d9f043e0ab0da5b9855d94bf6c43de6835b",
+      "actions": 24,
+      "topOptions": 57
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "844a930efe87fdaf0cc62e20068ab7b283def955fc912aabef13c3712da7f59f",
+      "actions": 24,
+      "topOptions": 57
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "8e575da94df4d62c17147ef743ebb5632da553b48c6ed7865b97634e3c2f3405",
+      "actions": 24,
+      "topOptions": 59
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/jhellingsdata/jhellingsdata.github.io/main/Data/growth-human_capital_2020.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source and final exact program reread; all current runtime/source/family checks PASS at7971. Raw filters and circle size area conversion, log GDP/source domains, native set1 colors, explicit top horizontal color-only legend, source500x300 innerplot and source blank subtitle preserved. Eight meaningful stages reached; remaining focused axis/grid/legend style ownership is honest cap remainder. No pixels inspected."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "aa2d5872181c6ecaf85700cfedbb8d12620568cb2ebbe98028216f48264cfe67",
+      "bytes": 2450
+    },
+    "data.json": {
+      "sha256": "b16fe7a9eb938a240b6497f958a798d3ffcae50c3ac53b40eaac003b3d971c94",
+      "bytes": 104191
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f4ce9b7ce6a140e103aa45f7690768f03f7136b31489ecbf3417458ee8b851fc",
+      "bytes": 118324
+    },
+    "G1.gg.mjs": {
+      "sha256": "b6f2460b4b93eaa6f836368f1796eca7bfcb40d163e1422c826ae3f557375768",
+      "bytes": 4362
+    },
+    "G2.gg.mjs": {
+      "sha256": "4c6840195d6c2b1269fd18cfdb00246b37cc98f888ab94af64b790dcac7382be",
+      "bytes": 4380
+    },
+    "G3.gg.mjs": {
+      "sha256": "792b01b1c435152be59ea35a253adcd6f98b049eb3e1a27791b1d81bb3048dab",
+      "bytes": 4361
+    },
+    "G4.gg.mjs": {
+      "sha256": "2358151dbb5195c45ca6ed5fd31e3bcbf3f7c8d5fc465ecb254b9a448b39f1bb",
+      "bytes": 4320
+    },
+    "G5.gg.mjs": {
+      "sha256": "9b8cebd39d06ca59c49ad33c445ee796cc9e1b1521034a59d9156dc5b23ecfd3",
+      "bytes": 4337
+    },
+    "G6.gg.mjs": {
+      "sha256": "39d4657c1d2b1dab45126bf983f04d9f043e0ab0da5b9855d94bf6c43de6835b",
+      "bytes": 4271
+    },
+    "G7.gg.mjs": {
+      "sha256": "844a930efe87fdaf0cc62e20068ab7b283def955fc912aabef13c3712da7f59f",
+      "bytes": 4269
+    },
+    "G8.gg.mjs": {
+      "sha256": "8e575da94df4d62c17147ef743ebb5632da553b48c6ed7865b97634e3c2f3405",
+      "bytes": 4304
+    },
+    "vega-lite.svg": {
+      "sha256": "91300e3c6d3096a832dd0e77b2fa7704a46f4d12dafa577cfa692ddb577e5b0c",
+      "bytes": 74584
+    },
+    "ggaction.svg": {
+      "sha256": "25698a701f1ac18fa7a0e149f60a144eba7185d4ffdd9df4142e325424934660",
+      "bytes": 28368
+    }
+  }
+}

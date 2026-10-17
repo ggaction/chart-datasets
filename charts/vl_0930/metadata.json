@@ -1,0 +1,89 @@
+{
+  "id": "vl_0930",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "4f2c9724c47f704ddb6088e6f8659f9f1f943a55c577257882d39f4a89135ac1",
+      "actions": 10,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "43781a14f333ea5e6697ed1f746eca8667c4ce88ae5aedfcae9706af296bcbc5",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ce8762126fd5dc372043f381ff8dcc015124cb756be5610f18fee34ea67125ac",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "bc86837d294ae6cb1b719fb9a23e679069d78a47f1072766ff8db20d3c3a56cb",
+      "actions": 13,
+      "topOptions": 34
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "0947e34d6a9807d1c398fab6b7cfdc875404bb4dcbf6f5fd13cf4aea8c239efd",
+      "actions": 14,
+      "topOptions": 36
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Chain validation failed malformed edit protocol; actual accepted G5 has only creation axis geometry/visibility, focused line encoders/scales/title, so no additional existing paint/formatter boundary remains. Full accepted terminal module and raw source reviewed: positional domains and constant appearance channels already at focused owners; remaining initial axis font sizes/positions/values/visibility/content and source shape/curve definitions are retained. No absent default or scalar/repartitioning stage justified. Stop metadata is human review, not a new model-authored code or chart."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "5b0d5187014ee25a70746c74aefd39f36d57d3c08ac7c120d0adc3765f9a6cfe",
+      "bytes": 94406
+    },
+    "data.json": {
+      "sha256": "bada97249074de776a929d8e69004758cf8d10a2fdb01a45b16c7975d35434ee",
+      "bytes": 79067
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f92a9ab46e511355ea9fc20cf14de2196d5dd94050e88410a4250dae4e72ed64",
+      "bytes": 94407
+    },
+    "G1.gg.mjs": {
+      "sha256": "4f2c9724c47f704ddb6088e6f8659f9f1f943a55c577257882d39f4a89135ac1",
+      "bytes": 1758
+    },
+    "G2.gg.mjs": {
+      "sha256": "43781a14f333ea5e6697ed1f746eca8667c4ce88ae5aedfcae9706af296bcbc5",
+      "bytes": 1776
+    },
+    "G3.gg.mjs": {
+      "sha256": "ce8762126fd5dc372043f381ff8dcc015124cb756be5610f18fee34ea67125ac",
+      "bytes": 1736
+    },
+    "G4.gg.mjs": {
+      "sha256": "bc86837d294ae6cb1b719fb9a23e679069d78a47f1072766ff8db20d3c3a56cb",
+      "bytes": 1758
+    },
+    "G5.gg.mjs": {
+      "sha256": "0947e34d6a9807d1c398fab6b7cfdc875404bb4dcbf6f5fd13cf4aea8c239efd",
+      "bytes": 1816
+    },
+    "vega-lite.svg": {
+      "sha256": "23ea95fcbb0981ed71902faf4642012907626c614ae743ff85c07d71f3603a9e",
+      "bytes": 10810
+    },
+    "ggaction.svg": {
+      "sha256": "839e3603c7be06e4ae278f90cd4abd10a2d7429acfb33bb02ad96e662563c805",
+      "bytes": 18250
+    }
+  }
+}

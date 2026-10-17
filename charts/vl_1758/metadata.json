@@ -1,0 +1,122 @@
+{
+  "id": "vl_1758",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1a1c4c2f3a86da3ec6b8db33fe29750d201c045af53ddaf6f481684b6b97972c",
+      "actions": 7,
+      "topOptions": 16
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "cf7dc0a03264f1d4724ba005ee38d78dc2851ed451e448bbf0df7d9f1235b2a5",
+      "actions": 9,
+      "topOptions": 19
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "07b2836af97a4839a2e269095f1821c07ff75abc499e6bd04314030255f2361b",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "478dcc62b4c8b7d55538a57323f86ffcf03614c15fd370d5a6cb056ab9afcc8e",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "33ed1594480386defd7c8d5dca51bffd431114b1b44a2fe32a6c683ab365729d",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "400a36e6c16f06bd37372a4949fc9c46db2a781e11157021c5ec9646d8098a01",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "74c0655ae639cce5f832718f5f0e78fbaeaeb9cbf575077be86389435980e763",
+      "actions": 15,
+      "topOptions": 27
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4e019c888844494ee5fa98cfe038a646f3d909ba5feadce0012083e287636a4a",
+      "actions": 17,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful stages preserve source explicit time label format and all point geometry, fixed850x254canvas/800x200plot. Positional scales, complete axes, grid directions, axis paint and paired title/label typography move to focused owners. Existing grouped label editor receives typography instead of extra calls; no one-component rename stage. UTC source oracle correction required no model chart repair."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8ad22b6972fb6effbcf415c4729297216cb416039512b4c9ff3d4777ac93ad15",
+      "bytes": 1082
+    },
+    "data.json": {
+      "sha256": "06d81a0f9fefd68594d1ce5430f9bc1a6b1beb9411f4386937b4e94a997988c6",
+      "bytes": 402
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8ad22b6972fb6effbcf415c4729297216cb416039512b4c9ff3d4777ac93ad15",
+      "bytes": 1082
+    },
+    "G1.gg.mjs": {
+      "sha256": "1a1c4c2f3a86da3ec6b8db33fe29750d201c045af53ddaf6f481684b6b97972c",
+      "bytes": 2217
+    },
+    "G2.gg.mjs": {
+      "sha256": "cf7dc0a03264f1d4724ba005ee38d78dc2851ed451e448bbf0df7d9f1235b2a5",
+      "bytes": 2219
+    },
+    "G3.gg.mjs": {
+      "sha256": "07b2836af97a4839a2e269095f1821c07ff75abc499e6bd04314030255f2361b",
+      "bytes": 2125
+    },
+    "G4.gg.mjs": {
+      "sha256": "478dcc62b4c8b7d55538a57323f86ffcf03614c15fd370d5a6cb056ab9afcc8e",
+      "bytes": 2117
+    },
+    "G5.gg.mjs": {
+      "sha256": "33ed1594480386defd7c8d5dca51bffd431114b1b44a2fe32a6c683ab365729d",
+      "bytes": 2207
+    },
+    "G6.gg.mjs": {
+      "sha256": "400a36e6c16f06bd37372a4949fc9c46db2a781e11157021c5ec9646d8098a01",
+      "bytes": 2297
+    },
+    "G7.gg.mjs": {
+      "sha256": "74c0655ae639cce5f832718f5f0e78fbaeaeb9cbf575077be86389435980e763",
+      "bytes": 2271
+    },
+    "G8.gg.mjs": {
+      "sha256": "4e019c888844494ee5fa98cfe038a646f3d909ba5feadce0012083e287636a4a",
+      "bytes": 2335
+    },
+    "vega-lite.svg": {
+      "sha256": "f3ae619ee726400e6b16b7142d785b46912d47ce3e13dafa0f2bdadb31fe6467",
+      "bytes": 10249
+    },
+    "ggaction.svg": {
+      "sha256": "9dbdf7736e3275fe6f83c98e63cb381d378b8ff7b13d798ac183ddb1875e04af",
+      "bytes": 7180
+    }
+  }
+}

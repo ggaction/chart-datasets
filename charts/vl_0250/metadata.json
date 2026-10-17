@@ -1,0 +1,124 @@
+{
+  "id": "vl_0250",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5353e74cb451606876859b64ee291f89ef87c3f0682393c40046581d4ecfd3e0",
+      "actions": 12,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "c103d1faa1f0642e6eef8bd18dca77952ea83ab53d94d11201833d5f579bcc4c",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7fad8ffa0871eca716936254e7dc6aa3a3d8ffb459dd4f2a0621c4e2cf413720",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "d0e9e448428af92ea9410687af0cc750009e72b1d7d90f4671245627e95f2289",
+      "actions": 16,
+      "topOptions": 37
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "68aca70252d3082d1953949860005cec1af69152f2ace1a0a6928e07841b4f26",
+      "actions": 17,
+      "topOptions": 41
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "72f78cdc4c041fb3a6cde396044abc61dcd988c45fa46cb4562c747aefdaee0f",
+      "actions": 17,
+      "topOptions": 41
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "76b111c77b14b7a115277c8a0eea1c95a6914acf2984e49e226431300b0a487f",
+      "actions": 18,
+      "topOptions": 43
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "12233915dfd7af65f201fbf7466afcaaa29228e5cfa50631caa5128ad9b4d083",
+      "actions": 20,
+      "topOptions": 43
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/vikrajendran/vikrajendran.github.io/main/Week10.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Read full source/final G8 and all eight strict current-pin checks. Each corrected suffix moves one family only: authored opacity G6, title G7, paired axes G8. Same source/family SVG and resolved graphics. Eight distinct meaningful stages; legend aggregate and finer axis components remain at cap, explicitly not exhausted. Exact retained GLM origins/new calls0."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "20c09673f8086f37b11e99aac916d069aaef8110dfcaa819b8e5d67539e5c3af",
+      "bytes": 1666
+    },
+    "data.json": {
+      "sha256": "d27a67274a0cf6e841fd4c902f200f42ce9053e724d0c9a7377cc1e168b99151",
+      "bytes": 596973
+    },
+    "resolved-source.vl.json": {
+      "sha256": "c721012246d541dd6495722184d1922aea9b59d9e6fd3652d715d98cb6f6ae9f",
+      "bytes": 669780
+    },
+    "G1.gg.mjs": {
+      "sha256": "5353e74cb451606876859b64ee291f89ef87c3f0682393c40046581d4ecfd3e0",
+      "bytes": 2640
+    },
+    "G2.gg.mjs": {
+      "sha256": "c103d1faa1f0642e6eef8bd18dca77952ea83ab53d94d11201833d5f579bcc4c",
+      "bytes": 2658
+    },
+    "G3.gg.mjs": {
+      "sha256": "7fad8ffa0871eca716936254e7dc6aa3a3d8ffb459dd4f2a0621c4e2cf413720",
+      "bytes": 2655
+    },
+    "G4.gg.mjs": {
+      "sha256": "d0e9e448428af92ea9410687af0cc750009e72b1d7d90f4671245627e95f2289",
+      "bytes": 2640
+    },
+    "G5.gg.mjs": {
+      "sha256": "68aca70252d3082d1953949860005cec1af69152f2ace1a0a6928e07841b4f26",
+      "bytes": 2600
+    },
+    "G6.gg.mjs": {
+      "sha256": "72f78cdc4c041fb3a6cde396044abc61dcd988c45fa46cb4562c747aefdaee0f",
+      "bytes": 2598
+    },
+    "G7.gg.mjs": {
+      "sha256": "76b111c77b14b7a115277c8a0eea1c95a6914acf2984e49e226431300b0a487f",
+      "bytes": 2652
+    },
+    "G8.gg.mjs": {
+      "sha256": "12233915dfd7af65f201fbf7466afcaaa29228e5cfa50631caa5128ad9b4d083",
+      "bytes": 2678
+    },
+    "vega-lite.svg": {
+      "sha256": "691488b08240b59a0d686abcc473bbffb1a692227412358fc0e7deb658e4adec",
+      "bytes": 377778
+    },
+    "ggaction.svg": {
+      "sha256": "106c59e8255d75389c970b148491304e0ff4d322b12e45f9f8eaee47cadb8422",
+      "bytes": 123411
+    }
+  }
+}

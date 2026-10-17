@@ -1,0 +1,113 @@
+{
+  "id": "vl_0534",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d1416a0c2d97493cab160ef4b50fef1afbb9a3292899f1a2b16067df9caa667e",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "91c5f9b04b36636b41beb5392a1a764bdec5d0715af1c86b5b08f9d618f093ef",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e9e0aedeab9374d5acba246e9789e0ce5c6f6f4a89f182f3385618994d9c1766",
+      "actions": 16,
+      "topOptions": 37
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8f03ffa84338d24842fec63f4b7bacb6987c089efe9a04a022853c56b7ce1376",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e7ef63ca65a77daee755eded5f80ccb7d402ddce73454d69963d358a3629aff8",
+      "actions": 19,
+      "topOptions": 41
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b85fd273121f221fb8440ea9f2ce129ef52d86077d4f4d799f346f7b1e190966",
+      "actions": 20,
+      "topOptions": 43
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "5550274ecc0d8ea01d78b25de5fc24225f04f7a3f80c122fcf77d45361b5fc92",
+      "actions": 22,
+      "topOptions": 43
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/extreme/data_USstatesPrisonPay.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Final complete code and all contiguous source/current-runtime/family verifications reviewed. Exact GLM stop and source-bound remaining frontier independently audited empty. Source52Ylabels and51 original overlap pairs retained withno addedpairs, no defaults invented; geometry remains protected."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "af636e01eab1e4ac1f87a1815785754f215fe9f36bce134b8dab564d6d49c7f2",
+      "bytes": 960
+    },
+    "data.json": {
+      "sha256": "3415da695fa913423985ca54eeab96d0431dcfded90424a2ce004fef1262277d",
+      "bytes": 7724
+    },
+    "resolved-source.vl.json": {
+      "sha256": "c6717ac7b4ddac8dc7da8255d8741d4c69af7dc645c89dc461dd8c8f4a193a33",
+      "bytes": 10031
+    },
+    "G1.gg.mjs": {
+      "sha256": "d1416a0c2d97493cab160ef4b50fef1afbb9a3292899f1a2b16067df9caa667e",
+      "bytes": 3099
+    },
+    "G2.gg.mjs": {
+      "sha256": "91c5f9b04b36636b41beb5392a1a764bdec5d0715af1c86b5b08f9d618f093ef",
+      "bytes": 3108
+    },
+    "G3.gg.mjs": {
+      "sha256": "e9e0aedeab9374d5acba246e9789e0ce5c6f6f4a89f182f3385618994d9c1766",
+      "bytes": 3076
+    },
+    "G4.gg.mjs": {
+      "sha256": "8f03ffa84338d24842fec63f4b7bacb6987c089efe9a04a022853c56b7ce1376",
+      "bytes": 3094
+    },
+    "G5.gg.mjs": {
+      "sha256": "e7ef63ca65a77daee755eded5f80ccb7d402ddce73454d69963d358a3629aff8",
+      "bytes": 3148
+    },
+    "G6.gg.mjs": {
+      "sha256": "b85fd273121f221fb8440ea9f2ce129ef52d86077d4f4d799f346f7b1e190966",
+      "bytes": 3176
+    },
+    "G7.gg.mjs": {
+      "sha256": "5550274ecc0d8ea01d78b25de5fc24225f04f7a3f80c122fcf77d45361b5fc92",
+      "bytes": 3190
+    },
+    "vega-lite.svg": {
+      "sha256": "3fa656bcff23a4130d41bc89ba7bd9c962892eec8f0d79de2054b84e3fcfe109",
+      "bytes": 29261
+    },
+    "ggaction.svg": {
+      "sha256": "e7716129797816e60227a23d87fdfbbc9acfad386476fef18d35be1fcec109e7",
+      "bytes": 26021
+    }
+  }
+}

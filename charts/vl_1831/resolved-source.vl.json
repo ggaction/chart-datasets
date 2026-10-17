@@ -1,0 +1,360 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 300,
+  "width": 400,
+  "description": "NUmber employed by age group",
+  "data": {
+    "values": [
+      {
+        "Age Group": "16-24 ",
+        "Period": "2019-10-01",
+        "Number employed (thousands)": "0"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2019-11-01",
+        "Number employed (thousands)": "25.339"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2019-12-01",
+        "Number employed (thousands)": "55.634"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2020-01-01",
+        "Number employed (thousands)": "59.418"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2020-01-02",
+        "Number employed (thousands)": "27.741"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2020-01-03",
+        "Number employed (thousands)": "-9.836"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2020-01-04",
+        "Number employed (thousands)": "-7.901"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2020-01-05",
+        "Number employed (thousands)": "-72.293"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2020-01-06",
+        "Number employed (thousands)": "-159.94"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2020-01-07",
+        "Number employed (thousands)": "-228.073"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2020-01-08",
+        "Number employed (thousands)": "-246.402"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2020-01-09",
+        "Number employed (thousands)": "-250.241"
+      },
+      {
+        "Age Group": "16-24 ",
+        "Period": "2020-01-10",
+        "Number employed (thousands)": "-203.585"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2019-10-01",
+        "Number employed (thousands)": "0"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2019-11-01",
+        "Number employed (thousands)": "2.421"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2019-12-01",
+        "Number employed (thousands)": "3.47"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2020-01-01",
+        "Number employed (thousands)": "27.629"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2020-01-02",
+        "Number employed (thousands)": "19.711"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2020-01-03",
+        "Number employed (thousands)": "-13.475"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2020-01-04",
+        "Number employed (thousands)": "-14.585"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2020-01-05",
+        "Number employed (thousands)": "-6.67"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2020-01-06",
+        "Number employed (thousands)": "39.872"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2020-01-07",
+        "Number employed (thousands)": "15.121"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2020-01-08",
+        "Number employed (thousands)": "-2.394"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2020-01-09",
+        "Number employed (thousands)": "-15.987"
+      },
+      {
+        "Age Group": "25-34",
+        "Period": "2020-01-10",
+        "Number employed (thousands)": "-21.32"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2019-10-01",
+        "Number employed (thousands)": "0"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2019-11-01",
+        "Number employed (thousands)": "14.928"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2019-12-01",
+        "Number employed (thousands)": "-10.586"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2020-01-01",
+        "Number employed (thousands)": "4.438"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2020-01-02",
+        "Number employed (thousands)": "-32.208"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2020-01-03",
+        "Number employed (thousands)": "-66.589"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2020-01-04",
+        "Number employed (thousands)": "-75.834"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2020-01-05",
+        "Number employed (thousands)": "-67.088"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2020-01-06",
+        "Number employed (thousands)": "-61.205"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2020-01-07",
+        "Number employed (thousands)": "-56.107"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2020-01-08",
+        "Number employed (thousands)": "-88.133"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2020-01-09",
+        "Number employed (thousands)": "-60.216"
+      },
+      {
+        "Age Group": "35-49",
+        "Period": "2020-01-10",
+        "Number employed (thousands)": "-121.138"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2019-10-01",
+        "Number employed (thousands)": "0"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2019-11-01",
+        "Number employed (thousands)": "17.096"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2019-12-01",
+        "Number employed (thousands)": "11.443"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2020-01-01",
+        "Number employed (thousands)": "18.291"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2020-01-02",
+        "Number employed (thousands)": "8.663"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2020-01-03",
+        "Number employed (thousands)": "-10.837"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2020-01-04",
+        "Number employed (thousands)": "-42.216"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2020-01-05",
+        "Number employed (thousands)": "-15.631"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2020-01-06",
+        "Number employed (thousands)": "0.08"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2020-01-07",
+        "Number employed (thousands)": "-0.063"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2020-01-08",
+        "Number employed (thousands)": "-54.726"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2020-01-09",
+        "Number employed (thousands)": "-67.987"
+      },
+      {
+        "Age Group": "50-64",
+        "Period": "2020-01-10",
+        "Number employed (thousands)": "-60.56"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2019-10-01",
+        "Number employed (thousands)": "0"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2019-11-01",
+        "Number employed (thousands)": "-27.137"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2019-12-01",
+        "Number employed (thousands)": "24.093"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2020-01-01",
+        "Number employed (thousands)": "62.31"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2020-01-02",
+        "Number employed (thousands)": "80.5"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2020-01-03",
+        "Number employed (thousands)": "39.835"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2020-01-04",
+        "Number employed (thousands)": "-16.838"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2020-01-05",
+        "Number employed (thousands)": "-68.47"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2020-01-06",
+        "Number employed (thousands)": "-54.338"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2020-01-07",
+        "Number employed (thousands)": "-41.236"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2020-01-08",
+        "Number employed (thousands)": "-2.613"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2020-01-09",
+        "Number employed (thousands)": "15.222"
+      },
+      {
+        "Age Group": "65+ ",
+        "Period": "2020-01-10",
+        "Number employed (thousands)": "8.685"
+      }
+    ]
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "Period",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "Number employed (thousands)",
+      "type": "quantitative",
+      "title": "UK employment by age, seasonally adjusted, cumulative growth (thousands)"
+    },
+    "color": {
+      "field": "Age Group",
+      "type": "nominal",
+      "scale": {
+        "range": [
+          "#233a58",
+          "#e54753",
+          "#FFD859",
+          "#ff8f32",
+          "#1771b2"
+        ]
+      }
+    }
+  }
+}

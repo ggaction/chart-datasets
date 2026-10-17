@@ -1,0 +1,448 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "IMF Lending outstanding ",
+    "subtitle": "Credit outstanding to all members, SDRs (billions), Source: IMF",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Date": "08/31/2022",
+        "GRA Purchases": "93769635059",
+        "PRGT 1/2/": "15254184552",
+        "Totals": "1.09024E+11",
+        "Year": "2022",
+        "": "",
+        "IMF Lending as a % of GDP": ""
+      },
+      {
+        "Date": "12/31/2021",
+        "GRA Purchases": "89474552025",
+        "PRGT 1/2/": "14554823681",
+        "Totals": "1.04029E+11",
+        "Year": "2021",
+        "": "0.001082512",
+        "IMF Lending as a % of GDP": "0.108251171"
+      },
+      {
+        "Date": "12/31/2020",
+        "GRA Purchases": "93408630285",
+        "PRGT 1/2/": "12481816684",
+        "Totals": "1.0589E+11",
+        "Year": "2020",
+        "": "0.00124709",
+        "IMF Lending as a % of GDP": "0.124709041"
+      },
+      {
+        "Date": "12/31/2019",
+        "GRA Purchases": "66945509865",
+        "PRGT 1/2/": "6590835450",
+        "Totals": "73536345315",
+        "Year": "2019",
+        "": "0.000838977",
+        "IMF Lending as a % of GDP": "0.083897713"
+      },
+      {
+        "Date": "12/31/2018",
+        "GRA Purchases": "55395611392",
+        "PRGT 1/2/": "6426181029",
+        "Totals": "61821792421",
+        "Year": "2018",
+        "": "0.000715447",
+        "IMF Lending as a % of GDP": "0.07154472"
+      },
+      {
+        "Date": "12/31/2017",
+        "GRA Purchases": "39585385873",
+        "PRGT 1/2/": "6522280669",
+        "Totals": "46107666542",
+        "Year": "2017",
+        "": "0.000566433",
+        "IMF Lending as a % of GDP": "0.056643325"
+      },
+      {
+        "Date": "12/31/2016",
+        "GRA Purchases": "49267630851",
+        "PRGT 1/2/": "6482647937",
+        "Totals": "55750278788",
+        "Year": "2016",
+        "": "0.000729048",
+        "IMF Lending as a % of GDP": "0.072904772"
+      },
+      {
+        "Date": "12/31/2015",
+        "GRA Purchases": "50757840741",
+        "PRGT 1/2/": "6575911158",
+        "Totals": "57333751899",
+        "Year": "2015",
+        "": "0.00076262",
+        "IMF Lending as a % of GDP": "0.076261974"
+      },
+      {
+        "Date": "12/31/2014",
+        "GRA Purchases": "69041563463",
+        "PRGT 1/2/": "6292755583",
+        "Totals": "75334319046",
+        "Year": "2014",
+        "": "0.000945105",
+        "IMF Lending as a % of GDP": "0.094510499"
+      },
+      {
+        "Date": "12/31/2013",
+        "GRA Purchases": "83899249061",
+        "PRGT 1/2/": "6174392682",
+        "Totals": "90073641743",
+        "Year": "2013",
+        "": "0.001160593",
+        "IMF Lending as a % of GDP": "0.116059324"
+      },
+      {
+        "Date": "12/31/2012",
+        "GRA Purchases": "90042348252",
+        "PRGT 1/2/": "5766292503",
+        "Totals": "95808640755",
+        "Year": "2012",
+        "": "0.001269157",
+        "IMF Lending as a % of GDP": "0.126915672"
+      },
+      {
+        "Date": "12/31/2011",
+        "GRA Purchases": "87276915790",
+        "PRGT 1/2/": "5308609594",
+        "Totals": "92585525384",
+        "Year": "2011",
+        "": "0.001253697",
+        "IMF Lending as a % of GDP": "0.125369703"
+      },
+      {
+        "Date": "12/31/2010",
+        "GRA Purchases": "55620104510",
+        "PRGT 1/2/": "4819344134",
+        "Totals": "60439448644",
+        "Year": "2010",
+        "": "0.000907499",
+        "IMF Lending as a % of GDP": "0.090749923"
+      },
+      {
+        "Date": "12/31/2009",
+        "GRA Purchases": "37221142436",
+        "PRGT 1/2/": "5079705286",
+        "Totals": "42300847722",
+        "Year": "2009",
+        "": "0.000695623",
+        "IMF Lending as a % of GDP": "0.069562322"
+      },
+      {
+        "Date": "12/31/2008",
+        "GRA Purchases": "17514964723",
+        "PRGT 1/2/": "3972372030",
+        "Totals": "21487336753",
+        "Year": "2008",
+        "": "0.000335111",
+        "IMF Lending as a % of GDP": "0.03351113"
+      },
+      {
+        "Date": "12/31/2007",
+        "GRA Purchases": "6036146757",
+        "PRGT 1/2/": "3796945581",
+        "Totals": "9833092338",
+        "Year": "2007",
+        "": "0.00016849",
+        "IMF Lending as a % of GDP": "0.016849027"
+      },
+      {
+        "Date": "12/31/2006",
+        "GRA Purchases": "9822640239",
+        "PRGT 1/2/": "3844020520",
+        "Totals": "13666660759",
+        "Year": "2006",
+        "": "0.000263937",
+        "IMF Lending as a % of GDP": "0.026393706"
+      },
+      {
+        "Date": "12/31/2005",
+        "GRA Purchases": "28432143237",
+        "PRGT 1/2/": "6282121668",
+        "Totals": "34714264905",
+        "Year": "2005",
+        "": "0.000726544",
+        "IMF Lending as a % of GDP": "0.072654384"
+      },
+      {
+        "Date": "12/31/2004",
+        "GRA Purchases": "55373766674",
+        "PRGT 1/2/": "6766029353",
+        "Totals": "62139796027",
+        "Year": "2004",
+        "": "0.001408427",
+        "IMF Lending as a % of GDP": "0.140842693"
+      },
+      {
+        "Date": "12/31/2003",
+        "GRA Purchases": "65032062712",
+        "PRGT 1/2/": "6880893268",
+        "Totals": "71912955980",
+        "Year": "2003",
+        "": "0.001836857",
+        "IMF Lending as a % of GDP": "0.183685711"
+      },
+      {
+        "Date": "12/31/2002",
+        "GRA Purchases": "63601058794",
+        "PRGT 1/2/": "6868671012",
+        "Totals": "70469729806",
+        "Year": "2002",
+        "": "0.002018612",
+        "IMF Lending as a % of GDP": "0.201861157"
+      },
+      {
+        "Date": "12/31/2001",
+        "GRA Purchases": "53477225409",
+        "PRGT 1/2/": "6424578684",
+        "Totals": "59901804093",
+        "Year": "2001",
+        "": "0.001781731",
+        "IMF Lending as a % of GDP": "0.178173123"
+      },
+      {
+        "Date": "12/31/2000",
+        "GRA Purchases": "42990531049",
+        "PRGT 1/2/": "6331595468",
+        "Totals": "49322126517",
+        "Year": "2000",
+        "": "0.00145794",
+        "IMF Lending as a % of GDP": "0.145794048"
+      },
+      {
+        "Date": "12/31/1999",
+        "GRA Purchases": "51061861875",
+        "PRGT 1/2/": "6434274362",
+        "Totals": "57496136237",
+        "Year": "1999",
+        "": "0.001756143",
+        "IMF Lending as a % of GDP": "0.175614344"
+      },
+      {
+        "Date": "12/31/1998",
+        "GRA Purchases": "60451017051",
+        "PRGT 1/2/": "6288825925",
+        "Totals": "66739842976",
+        "Year": "1998",
+        "": "0.002116038",
+        "IMF Lending as a % of GDP": "0.211603814"
+      },
+      {
+        "Date": "12/31/1997",
+        "GRA Purchases": "46559033783",
+        "PRGT 1/2/": "6009867422",
+        "Totals": "52568901205",
+        "Year": "1997",
+        "": "0.001662521",
+        "IMF Lending as a % of GDP": "0.166252059"
+      },
+      {
+        "Date": "12/31/1996",
+        "GRA Purchases": "36127472805",
+        "PRGT 1/2/": "5881609752",
+        "Totals": "42009082557",
+        "Year": "1996",
+        "": "0.001323538",
+        "IMF Lending as a % of GDP": "0.132353757"
+      },
+      {
+        "Date": "12/31/1995",
+        "GRA Purchases": "35929173412",
+        "PRGT 1/2/": "5657438528",
+        "Totals": "41586611940",
+        "Year": "1995",
+        "": "0.001339775",
+        "IMF Lending as a % of GDP": "0.133977487"
+      },
+      {
+        "Date": "12/31/1994",
+        "GRA Purchases": "25611676952",
+        "PRGT 1/2/": "4599768498",
+        "Totals": "30211445450",
+        "Year": "1994",
+        "": "0.001084013",
+        "IMF Lending as a % of GDP": "0.108401311"
+      },
+      {
+        "Date": "12/31/1993",
+        "GRA Purchases": "25196745031",
+        "PRGT 1/2/": "3942792899",
+        "Totals": "29139537930",
+        "Year": "1993",
+        "": "0.001128565",
+        "IMF Lending as a % of GDP": "0.11285646"
+      },
+      {
+        "Date": "12/31/1992",
+        "GRA Purchases": "23967172718",
+        "PRGT 1/2/": "3804463796",
+        "Totals": "27771636514",
+        "Year": "1992",
+        "": "0.001092941",
+        "IMF Lending as a % of GDP": "0.109294122"
+      },
+      {
+        "Date": "12/31/1991",
+        "GRA Purchases": "23378573926",
+        "PRGT 1/2/": "3285717796",
+        "Totals": "26664291722",
+        "Year": "1991",
+        "": "0.001122235",
+        "IMF Lending as a % of GDP": "0.11222345"
+      },
+      {
+        "Date": "12/31/1990",
+        "GRA Purchases": "20731851093",
+        "PRGT 1/2/": "2571911617",
+        "Totals": "23303762710",
+        "Year": "1990",
+        "": "0.001022992",
+        "IMF Lending as a % of GDP": "0.102299222"
+      },
+      {
+        "Date": "12/31/1989",
+        "GRA Purchases": "22315104224",
+        "PRGT 1/2/": "2334886562",
+        "Totals": "24649990786",
+        "Year": "1989",
+        "": "0.001220901",
+        "IMF Lending as a % of GDP": "0.122090098"
+      },
+      {
+        "Date": "12/31/1988",
+        "GRA Purchases": "24750004884",
+        "PRGT 1/2/": "1773964293",
+        "Totals": "26523969177",
+        "Year": "1988",
+        "": "0.001371457",
+        "IMF Lending as a % of GDP": "0.137145652"
+      },
+      {
+        "Date": "12/31/1987",
+        "GRA Purchases": "28751979125",
+        "PRGT 1/2/": "1866342930",
+        "Totals": "30618322055",
+        "Year": "1987",
+        "": "0.001768823",
+        "IMF Lending as a % of GDP": "0.176882276"
+      },
+      {
+        "Date": "12/31/1986",
+        "GRA Purchases": "33334905644",
+        "PRGT 1/2/": "2013169931",
+        "Totals": "35348075575",
+        "Year": "1986",
+        "": "0.002324002",
+        "IMF Lending as a % of GDP": "0.232400234"
+      },
+      {
+        "Date": "12/31/1985",
+        "GRA Purchases": "35194787249",
+        "PRGT 1/2/": "2470247948",
+        "Totals": "37665035197",
+        "Year": "1985",
+        "": "0.002928852",
+        "IMF Lending as a % of GDP": "0.292885188"
+      },
+      {
+        "Date": "12/31/1984",
+        "GRA Purchases": "34936772393",
+        "PRGT 1/2/": "2769874900",
+        "Totals": "37706647293",
+        "Year": "1984",
+        "": "0.003073076",
+        "IMF Lending as a % of GDP": "0.307307639"
+      },
+      {
+        "Date": "",
+        "GRA Purchases": "",
+        "PRGT 1/2/": "",
+        "Totals": "",
+        "Year": "",
+        "": "",
+        "IMF Lending as a % of GDP": ""
+      },
+      {
+        "Date": "",
+        "GRA Purchases": "",
+        "PRGT 1/2/": "",
+        "Totals": "",
+        "Year": "",
+        "": "",
+        "IMF Lending as a % of GDP": ""
+      },
+      {
+        "Date": " 1/ Includes loans under the Structural Adjustment Facility and Trust Fund.",
+        "GRA Purchases": "",
+        "PRGT 1/2/": "",
+        "Totals": "",
+        "Year": "",
+        "": "",
+        "IMF Lending as a % of GDP": ""
+      },
+      {
+        "Date": "",
+        "GRA Purchases": "",
+        "PRGT 1/2/": "",
+        "Totals": "",
+        "Year": "",
+        "": "",
+        "IMF Lending as a % of GDP": ""
+      },
+      {
+        "Date": " 2/ Formerly PRGF-ESF.",
+        "GRA Purchases": "",
+        "PRGT 1/2/": "",
+        "Totals": "",
+        "Year": "",
+        "": "",
+        "IMF Lending as a % of GDP": ""
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum.Totals/1000000000",
+      "as": "billions"
+    }
+  ],
+  "height": 300,
+  "width": 300,
+  "mark": {
+    "type": "bar",
+    "color": "rgb(0,47,167"
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {
+        "title": null,
+        "grid": false,
+        "ticks": false,
+        "labelAngle": 45
+      }
+    },
+    "y": {
+      "field": "billions",
+      "type": "quantitative",
+      "title": "",
+      "axis": {
+        "grid": false
+      }
+    }
+  }
+}

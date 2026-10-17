@@ -1,0 +1,100 @@
+{
+  "id": "vl_1385",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "01fe3be6ca9d55e7174b9c45c71ba69821e91745a5d094e264c9a50ba8a6aa6e",
+      "actions": 4,
+      "topOptions": 8
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e1e537c5e8bb9d956cdfe6d7bacd5387b868fe9ede8a1ffc6a1b16322abfb47e",
+      "actions": 6,
+      "topOptions": 12
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "37aad11913cec44b2cd65c94d35cc82d555e8dd0b56959c6f0f39021d38d6786",
+      "actions": 7,
+      "topOptions": 14
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "bd3e65e2882ee9d78d3dbe6b1fe7d57fc91b5d15d9cd4e11ea819f7fdfbf7321",
+      "actions": 9,
+      "topOptions": 17
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "edc5b50e198ca969c4a9181c5cdc9b4b40df47984389a1f40c5111c907611325",
+      "actions": 11,
+      "topOptions": 19
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "1e19b0c81d38b32e890d87328a9a28444e3a33f6a2d7053e4a726fb8905dcd9b",
+      "actions": 11,
+      "topOptions": 19
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "6단계에서 종료. typography를 더 옮긴 후보는 생성 직후 기본 크기의 Y축 라벨이 원본 여백을 넘었다. 유효한 생성 설정과 개별 label editor를 남기고 단일 속성·기본값을 위한 단계는 만들지 않았다. Source grid paint corrected using exact shared GLM color fragments, without changing action counts or decomposition."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "f91135f742871fd1423ebfab9c6701449b2eddaa2b366ac3bfb789a5bcafae53",
+      "bytes": 946
+    },
+    "data.json": {
+      "sha256": "64631f3bd1556e5a6a8628bbdf5bab5746104bd0784fe66215d30cac05aeea6d",
+      "bytes": 337
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f91135f742871fd1423ebfab9c6701449b2eddaa2b366ac3bfb789a5bcafae53",
+      "bytes": 946
+    },
+    "G1.gg.mjs": {
+      "sha256": "01fe3be6ca9d55e7174b9c45c71ba69821e91745a5d094e264c9a50ba8a6aa6e",
+      "bytes": 1553
+    },
+    "G2.gg.mjs": {
+      "sha256": "e1e537c5e8bb9d956cdfe6d7bacd5387b868fe9ede8a1ffc6a1b16322abfb47e",
+      "bytes": 1539
+    },
+    "G3.gg.mjs": {
+      "sha256": "37aad11913cec44b2cd65c94d35cc82d555e8dd0b56959c6f0f39021d38d6786",
+      "bytes": 1508
+    },
+    "G4.gg.mjs": {
+      "sha256": "bd3e65e2882ee9d78d3dbe6b1fe7d57fc91b5d15d9cd4e11ea819f7fdfbf7321",
+      "bytes": 1388
+    },
+    "G5.gg.mjs": {
+      "sha256": "edc5b50e198ca969c4a9181c5cdc9b4b40df47984389a1f40c5111c907611325",
+      "bytes": 1554
+    },
+    "G6.gg.mjs": {
+      "sha256": "1e19b0c81d38b32e890d87328a9a28444e3a33f6a2d7053e4a726fb8905dcd9b",
+      "bytes": 1438
+    },
+    "vega-lite.svg": {
+      "sha256": "c921a2743a458b2fd578dde80a8f8940e2c056ff429e4b424ab70b9131be1506",
+      "bytes": 6475
+    },
+    "ggaction.svg": {
+      "sha256": "480d61eb8cb4ed9cb2bb6d612dc401fac5d59676576d480f054aa6d569f24399",
+      "bytes": 4834
+    }
+  }
+}

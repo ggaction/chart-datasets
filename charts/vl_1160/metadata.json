@@ -1,0 +1,111 @@
+{
+  "id": "vl_1160",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "0d9f60885aeaf58670f1101c1eef813d21dd946e7ca870e0d67be15ea664f3da",
+      "actions": 7,
+      "topOptions": 16
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "6def62c4dd8910adeed6c7c46c515f4027df42a2c6d98a92fd21c9cdbaec96ab",
+      "actions": 9,
+      "topOptions": 18
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2b807f94e5b484de1e95111a55c1fc0a95bc8d9caa5f3b2c84b4accf5892c5a2",
+      "actions": 10,
+      "topOptions": 20
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8161fc2f7fd3c6c3256b948345822f744d9225cb0c0425e2b73790bc7d181b33",
+      "actions": 11,
+      "topOptions": 22
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "35049ffcb843be7ae6cd215891fedb6523f6e56953da7ddc3afa8a4f44c95980",
+      "actions": 13,
+      "topOptions": 24
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d9629403f7ea0f082aae70ddb511de46eac1207cb80fcb66e7d8178c8b59c7fc",
+      "actions": 13,
+      "topOptions": 24
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ca4140c7682e4c9c77bde5d384ed7918bdc963f5b49dba0eff79678e4fa420ec",
+      "actions": 14,
+      "topOptions": 24
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Seven distinct stages preserve numeric-string derivation, paired position scales, guide families, complete axes, whole-axis/focused title emphasis and paired directional grids. Fixed title/axis geometry remains creation; no new semantic frontier remains."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a408d515bd6c5c1ada82c9b836ce63dd127736b8f9e4e1ac3dba8138b15d2a03",
+      "bytes": 7711
+    },
+    "data.json": {
+      "sha256": "9d0d2fad7857fd24ab7c92318c10b51d14179474bd0daefdc5e665565c24e1ce",
+      "bytes": 5975
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a408d515bd6c5c1ada82c9b836ce63dd127736b8f9e4e1ac3dba8138b15d2a03",
+      "bytes": 7711
+    },
+    "G1.gg.mjs": {
+      "sha256": "0d9f60885aeaf58670f1101c1eef813d21dd946e7ca870e0d67be15ea664f3da",
+      "bytes": 2027
+    },
+    "G2.gg.mjs": {
+      "sha256": "6def62c4dd8910adeed6c7c46c515f4027df42a2c6d98a92fd21c9cdbaec96ab",
+      "bytes": 2126
+    },
+    "G3.gg.mjs": {
+      "sha256": "2b807f94e5b484de1e95111a55c1fc0a95bc8d9caa5f3b2c84b4accf5892c5a2",
+      "bytes": 2070
+    },
+    "G4.gg.mjs": {
+      "sha256": "8161fc2f7fd3c6c3256b948345822f744d9225cb0c0425e2b73790bc7d181b33",
+      "bytes": 2030
+    },
+    "G5.gg.mjs": {
+      "sha256": "35049ffcb843be7ae6cd215891fedb6523f6e56953da7ddc3afa8a4f44c95980",
+      "bytes": 2090
+    },
+    "G6.gg.mjs": {
+      "sha256": "d9629403f7ea0f082aae70ddb511de46eac1207cb80fcb66e7d8178c8b59c7fc",
+      "bytes": 2078
+    },
+    "G7.gg.mjs": {
+      "sha256": "ca4140c7682e4c9c77bde5d384ed7918bdc963f5b49dba0eff79678e4fa420ec",
+      "bytes": 2081
+    },
+    "vega-lite.svg": {
+      "sha256": "fc9c03803a33112f4debbe313d3c5a33d68af56585b76182e4e8a7cac2c2e927",
+      "bytes": 8594
+    },
+    "ggaction.svg": {
+      "sha256": "8a2b4c2a06e5152944748020ff324e7b85f7369e775d87eb5f0404b8bd1fdb24",
+      "bytes": 6594
+    }
+  }
+}

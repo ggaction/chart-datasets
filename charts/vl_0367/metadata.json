@@ -1,0 +1,124 @@
+{
+  "id": "vl_0367",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "da334efa748ab4bb02a89fc53b095375e156d5a363944d2d999e5b7bcb9147a6",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "863e646e1b8382421dc7ba02087cfa7e3868e21964c82a1caf8e2efae8cc11b4",
+      "actions": 14,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e88e9e87c078486ee381ed357d7f120b1a6bb7c6c2dca833aabfd57a1402215a",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "61c0e2366072ea20a5d8f7c4eacc148e46b8332bca1e2f643d10344b75390bcd",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "77f29b1e4dffa052d691e87c06cb20f5bc45a85c9757bbaea6c743fb1777e6ba",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "4fdded8f0307a01b1fae1c9c5327ec2a348b0d81833aa86fa921f2378d7d1140",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "f9d3efafe22f4bea791e7d4368eb6d94200f249eb3a3f7e16e036e8b7feb35ef",
+      "actions": 17,
+      "topOptions": 41
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "7cb99d0128de123b93257ba3d5d4eb1e346ace0a3c5eed965a156eb490c644b4",
+      "actions": 19,
+      "topOptions": 44
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/BankRate.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight accepted stage modules individually reviewed against source and accepted parents including grouped mark-channel refinement. Exact source/family SVG/PNG current-runtime gates pass, source fonts/data/fixed canvas retained and no padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "1440f290c2920861f76cc1403b218498580da22a56a3baa951d843ddc61d7e3d",
+      "bytes": 1722
+    },
+    "data.json": {
+      "sha256": "13960394b3306c62385f6823ba5f68688e57d0618577cd6091e12b03e1085f29",
+      "bytes": 14137
+    },
+    "resolved-source.vl.json": {
+      "sha256": "bcdfebbc448c875f3a585f311619f8f72392dad4db9babd3b3af9ec51a9b0906",
+      "bytes": 19765
+    },
+    "G1.gg.mjs": {
+      "sha256": "da334efa748ab4bb02a89fc53b095375e156d5a363944d2d999e5b7bcb9147a6",
+      "bytes": 2162
+    },
+    "G2.gg.mjs": {
+      "sha256": "863e646e1b8382421dc7ba02087cfa7e3868e21964c82a1caf8e2efae8cc11b4",
+      "bytes": 2118
+    },
+    "G3.gg.mjs": {
+      "sha256": "e88e9e87c078486ee381ed357d7f120b1a6bb7c6c2dca833aabfd57a1402215a",
+      "bytes": 2268
+    },
+    "G4.gg.mjs": {
+      "sha256": "61c0e2366072ea20a5d8f7c4eacc148e46b8332bca1e2f643d10344b75390bcd",
+      "bytes": 2228
+    },
+    "G5.gg.mjs": {
+      "sha256": "77f29b1e4dffa052d691e87c06cb20f5bc45a85c9757bbaea6c743fb1777e6ba",
+      "bytes": 2188
+    },
+    "G6.gg.mjs": {
+      "sha256": "4fdded8f0307a01b1fae1c9c5327ec2a348b0d81833aa86fa921f2378d7d1140",
+      "bytes": 2258
+    },
+    "G7.gg.mjs": {
+      "sha256": "f9d3efafe22f4bea791e7d4368eb6d94200f249eb3a3f7e16e036e8b7feb35ef",
+      "bytes": 2264
+    },
+    "G8.gg.mjs": {
+      "sha256": "7cb99d0128de123b93257ba3d5d4eb1e346ace0a3c5eed965a156eb490c644b4",
+      "bytes": 2358
+    },
+    "vega-lite.svg": {
+      "sha256": "c41268175b4159a3d938eb16f018c19b3792c2b526ce69a7b7c7f8e64f088586",
+      "bytes": 7681
+    },
+    "ggaction.svg": {
+      "sha256": "e803400671e85d46746c4196b6fe9576e9932d8f7c0093948b9f506cd3d06bc7",
+      "bytes": 7433
+    }
+  }
+}

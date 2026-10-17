@@ -1,0 +1,124 @@
+{
+  "id": "vl_1033",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "7d8e0111107c945e8a2f89c65d3db74fc64483f997d2daa4b62fc433b0966d69",
+      "actions": 9,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "6f6ab5aa9478dc9dd845a85c7263deab120a5a177a80b3f8a812643464b853d9",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "52651049fddf5c48c18c9bbc5e815aec888a7e4ad35c4611436424b552a5db37",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "af4719e1926da0e76591d6d1f43251dd5c931d435cb9c8bbe98c2c7a10099ee7",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "d915b9154c5c68e7e4e1ff2cbefc4887fb70ffe1af9417950bfde32a0200e1d7",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "01fa2f4f0ca5aa84ca2104d22b83c22e265b8c9e24db4cbf0a61e3789872abe5",
+      "actions": 16,
+      "topOptions": 31
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "80021c1abe6ccd5b1839fb6560e077169e8a670a71075575c3910ea20acd54c6",
+      "actions": 18,
+      "topOptions": 35
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "751c907f0a0f1dc4b51b59725b5ccf69e314ad78f6be3d796e2a813e22c475ea",
+      "actions": 22,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/ferguswalshe/ferguswalshe.github.io/main/data_ONS-DEZV.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight actual model-authored progressive boundaries reviewed with source and exact family render checks passing; source geometry and final dedicated supported encoders retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "b7e674361e90942e50f2f3aa8cd4d6b9e709fff133c3ea37de9de4125583de07",
+      "bytes": 1016
+    },
+    "data.json": {
+      "sha256": "94d130c814d7ebde3306917bd5963f6ddca3b955bb658a392924bc80463076e4",
+      "bytes": 6385
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f9a5d508b476f04494b19696c5b11a28132600a4392153461426e684eb66fa99",
+      "bytes": 8593
+    },
+    "G1.gg.mjs": {
+      "sha256": "7d8e0111107c945e8a2f89c65d3db74fc64483f997d2daa4b62fc433b0966d69",
+      "bytes": 2009
+    },
+    "G2.gg.mjs": {
+      "sha256": "6f6ab5aa9478dc9dd845a85c7263deab120a5a177a80b3f8a812643464b853d9",
+      "bytes": 2011
+    },
+    "G3.gg.mjs": {
+      "sha256": "52651049fddf5c48c18c9bbc5e815aec888a7e4ad35c4611436424b552a5db37",
+      "bytes": 1971
+    },
+    "G4.gg.mjs": {
+      "sha256": "af4719e1926da0e76591d6d1f43251dd5c931d435cb9c8bbe98c2c7a10099ee7",
+      "bytes": 2023
+    },
+    "G5.gg.mjs": {
+      "sha256": "d915b9154c5c68e7e4e1ff2cbefc4887fb70ffe1af9417950bfde32a0200e1d7",
+      "bytes": 2029
+    },
+    "G6.gg.mjs": {
+      "sha256": "01fa2f4f0ca5aa84ca2104d22b83c22e265b8c9e24db4cbf0a61e3789872abe5",
+      "bytes": 2070
+    },
+    "G7.gg.mjs": {
+      "sha256": "80021c1abe6ccd5b1839fb6560e077169e8a670a71075575c3910ea20acd54c6",
+      "bytes": 2246
+    },
+    "G8.gg.mjs": {
+      "sha256": "751c907f0a0f1dc4b51b59725b5ccf69e314ad78f6be3d796e2a813e22c475ea",
+      "bytes": 2214
+    },
+    "vega-lite.svg": {
+      "sha256": "281d88f3a10e74d2b00bbfe55cb163c25e09b76aee39ac222ab12998c5ad87fe",
+      "bytes": 6560
+    },
+    "ggaction.svg": {
+      "sha256": "bf676f4e96515e1975aa6322c6bc6e313c972a2aa3035ef1f4f6cd7ff760021a",
+      "bytes": 4728
+    }
+  }
+}

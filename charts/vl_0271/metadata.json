@@ -1,0 +1,124 @@
+{
+  "id": "vl_0271",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "fe0b79e3be59f899efc3c840e1ad23d4cd8c4abfb3bb3b4aaa9c048f33139ee6",
+      "actions": 28,
+      "topOptions": 63
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e5b882731f0b28641735249b0dc81b54ea0b23c7bfa82ba984a8fea176dc7161",
+      "actions": 29,
+      "topOptions": 67
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "0cbb51368e9f493e7ab88416d2a4213dee810a9a7ff767db19ace8fdc03c110f",
+      "actions": 30,
+      "topOptions": 68
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4932fdf0ac45a4d5daee428c29e07a6a6da5aeaa414c6aca03401db9a3a377b0",
+      "actions": 32,
+      "topOptions": 74
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "dd16ee45a0565e63c9fe1bb40d6f9b352de6a23b6afb44a9066fcde79298a751",
+      "actions": 38,
+      "topOptions": 78
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "380aefc9c995fab1f63ee0fe43ee5e4353ce2895f3fa0e8f493b2451027dc1fa",
+      "actions": 39,
+      "topOptions": 79
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "45d4dda69c56d1493fbf1c4dabf8f20837e6197a2da0c8675ec07d57c83be83a",
+      "actions": 40,
+      "topOptions": 80
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "50b2c23958a43f32ba611e1a3a60b2e334ece98bf052c2d734196ecdbe661144",
+      "actions": 41,
+      "topOptions": 81
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/timjordanRe/DataVisA2_RefugeeData/main/Datasets/Sudan_move.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original South Sudan three-layer source and final code reread: all50raw rows remain, exact rank<=20 selection/native means,20log-scaled colored intervals plus black3px mean rule and semantic empty text layer preserved. Source plot450x300/fonts/rotated labels/categorical order/transparency/default legend spacing all strict current02661PASS. Eight meaningful stages reached; source fonts remain at birth and final stage exposes standalone legend. Remaining focused source paint is retained honestly at cap."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "618dcaa7cbfcadceec915253dbe499a89e5a4e8dccc2cfdd7ddf2068d6a4f625",
+      "bytes": 2039
+    },
+    "data.json": {
+      "sha256": "2e345b15500610fbaf9e6075ec5993962c180327aeb5063dadc098f75276d170",
+      "bytes": 22876
+    },
+    "resolved-source.vl.json": {
+      "sha256": "738c5958dfc2d4f7e222cca0c5a995a52c790d4eb59ca3152493940ed07cdd76",
+      "bytes": 28024
+    },
+    "G1.gg.mjs": {
+      "sha256": "fe0b79e3be59f899efc3c840e1ad23d4cd8c4abfb3bb3b4aaa9c048f33139ee6",
+      "bytes": 5180
+    },
+    "G2.gg.mjs": {
+      "sha256": "e5b882731f0b28641735249b0dc81b54ea0b23c7bfa82ba984a8fea176dc7161",
+      "bytes": 5118
+    },
+    "G3.gg.mjs": {
+      "sha256": "0cbb51368e9f493e7ab88416d2a4213dee810a9a7ff767db19ace8fdc03c110f",
+      "bytes": 5131
+    },
+    "G4.gg.mjs": {
+      "sha256": "4932fdf0ac45a4d5daee428c29e07a6a6da5aeaa414c6aca03401db9a3a377b0",
+      "bytes": 5297
+    },
+    "G5.gg.mjs": {
+      "sha256": "dd16ee45a0565e63c9fe1bb40d6f9b352de6a23b6afb44a9066fcde79298a751",
+      "bytes": 5323
+    },
+    "G6.gg.mjs": {
+      "sha256": "380aefc9c995fab1f63ee0fe43ee5e4353ce2895f3fa0e8f493b2451027dc1fa",
+      "bytes": 5353
+    },
+    "G7.gg.mjs": {
+      "sha256": "45d4dda69c56d1493fbf1c4dabf8f20837e6197a2da0c8675ec07d57c83be83a",
+      "bytes": 5388
+    },
+    "G8.gg.mjs": {
+      "sha256": "50b2c23958a43f32ba611e1a3a60b2e334ece98bf052c2d734196ecdbe661144",
+      "bytes": 5317
+    },
+    "vega-lite.svg": {
+      "sha256": "7338cb2141133033fb2cf0b8fabe779a47b270dbb6bd1c33c91de1c75984404f",
+      "bytes": 33738
+    },
+    "ggaction.svg": {
+      "sha256": "b863d08df157f13df20fa104be9fcfa45b081da64fcad05eb72aec1ac58808e8",
+      "bytes": 25525
+    }
+  }
+}

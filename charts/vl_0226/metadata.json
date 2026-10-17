@@ -1,0 +1,91 @@
+{
+  "id": "vl_0226",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d03f12afb80482de80d192bc29a1fba55b9fad5735d20e38352c0cb8eb628087",
+      "actions": 10,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a736f208c1573e166778940ae2f7e28fba3a6a8d291ff656afbcaeb0f6cafa39",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2cf309b14f19650f36fbccaac1893a7f45b9e336f35b8c4cd06fb1658b018a84",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7365e2a4b088b52282e2384c73561bb1fbb5ab30cb40bf80d9bbc22018685a37",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "a2a79acdba92238a3091610b667eef530e9d793a930725866e2896a573ef3a00",
+      "actions": 15,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/xinyuelu2/xinyuelu2.github.io/main/homework4_version3.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed entire G5: scales already focused, axis label paint/family focused, no grids or legends, source title paint already whole editor. Remaining constructor sizes, rotations, offsets, hidden titles/ticks are geometric; moving only default sans-serif from chart title would pad a stage. Genuine frontier exhausted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "6ef6e03c4ceb06211691956e64345a789a5bd9d3dae53dac497904162ed1e124",
+      "bytes": 1204
+    },
+    "data.json": {
+      "sha256": "8a6f81fd98e29f35e4f6e42b10951b654894521e889a382fd4f29c6c92624fd2",
+      "bytes": 6255
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0c83efad0917280e279bdc1774818c19edaec8b4853b1176a831e3e63a0f6007",
+      "bytes": 8573
+    },
+    "G1.gg.mjs": {
+      "sha256": "d03f12afb80482de80d192bc29a1fba55b9fad5735d20e38352c0cb8eb628087",
+      "bytes": 1717
+    },
+    "G2.gg.mjs": {
+      "sha256": "a736f208c1573e166778940ae2f7e28fba3a6a8d291ff656afbcaeb0f6cafa39",
+      "bytes": 1735
+    },
+    "G3.gg.mjs": {
+      "sha256": "2cf309b14f19650f36fbccaac1893a7f45b9e336f35b8c4cd06fb1658b018a84",
+      "bytes": 1754
+    },
+    "G4.gg.mjs": {
+      "sha256": "7365e2a4b088b52282e2384c73561bb1fbb5ab30cb40bf80d9bbc22018685a37",
+      "bytes": 1856
+    },
+    "G5.gg.mjs": {
+      "sha256": "a2a79acdba92238a3091610b667eef530e9d793a930725866e2896a573ef3a00",
+      "bytes": 1804
+    },
+    "vega-lite.svg": {
+      "sha256": "1d9ad674418436537b1263637614c1127b9fc2e34d07b5b2f0123bcc3a978454",
+      "bytes": 32124
+    },
+    "ggaction.svg": {
+      "sha256": "b14de221324d01440e32076c8f123340dcb276480c0437f57133f78f1d1ea32f",
+      "bytes": 35960
+    }
+  }
+}

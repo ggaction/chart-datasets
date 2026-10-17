@@ -1,0 +1,111 @@
+{
+  "id": "vl_1034",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6927046ae8e3ce61f4f8c1a0b6947d0dfd3b34e814de42360c534e8b50311f17",
+      "actions": 4,
+      "topOptions": 8
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "fe545b15604f47a32877d1179cf0b19227d72357b3271183ed4bf19c221c0001",
+      "actions": 6,
+      "topOptions": 12
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4ec0ca3f014cd363f273e25d722aaa6ce74867d078e02d6a32b0ccbe4d66a972",
+      "actions": 7,
+      "topOptions": 14
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f7c890fcdf6b6081511e9a101eb20fd181a8ef60021ad55be792b3d7d1f47699",
+      "actions": 8,
+      "topOptions": 15
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4ba2164ebb1ee4cef0b7e6aa11d831d8343f02232f3810d90750bd230afda0d6",
+      "actions": 9,
+      "topOptions": 17
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "9246708b5f14709d0db2600d3d1f68d4d80d5b63ddc6f22bec3cd7c1fdc993af",
+      "actions": 11,
+      "topOptions": 20
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "9a7824fbcac32b395237ba473a37568b8f492c17aa2db44c885b58c96be357cb",
+      "actions": 12,
+      "topOptions": 20
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "범주 정렬·회전 라벨을 보존하며 scale, 가이드, 축과 편집 액션을 7단계로 분리했다. 이미 세부 editor가 존재해 큰 editor로 되돌리는 초안은 거부했다. 남은 생성 시의 배치 값이나 개별 scalar 이동으로 8단계를 채우지 않고 종료했다. Source grid paint corrected using exact shared GLM color fragments, without changing action counts or decomposition."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "cd0731d00d8279c07dcbe2e40d3c1f04fe10a5ce1065a90110dbe102af649fe7",
+      "bytes": 2037
+    },
+    "data.json": {
+      "sha256": "b396ee82cbfe4fa3e12f5f9acbad8bf6721db88ae21135b1a678316e659e3c3a",
+      "bytes": 1151
+    },
+    "resolved-source.vl.json": {
+      "sha256": "cd0731d00d8279c07dcbe2e40d3c1f04fe10a5ce1065a90110dbe102af649fe7",
+      "bytes": 2037
+    },
+    "G1.gg.mjs": {
+      "sha256": "6927046ae8e3ce61f4f8c1a0b6947d0dfd3b34e814de42360c534e8b50311f17",
+      "bytes": 1884
+    },
+    "G2.gg.mjs": {
+      "sha256": "fe545b15604f47a32877d1179cf0b19227d72357b3271183ed4bf19c221c0001",
+      "bytes": 1786
+    },
+    "G3.gg.mjs": {
+      "sha256": "4ec0ca3f014cd363f273e25d722aaa6ce74867d078e02d6a32b0ccbe4d66a972",
+      "bytes": 1781
+    },
+    "G4.gg.mjs": {
+      "sha256": "f7c890fcdf6b6081511e9a101eb20fd181a8ef60021ad55be792b3d7d1f47699",
+      "bytes": 1789
+    },
+    "G5.gg.mjs": {
+      "sha256": "4ba2164ebb1ee4cef0b7e6aa11d831d8343f02232f3810d90750bd230afda0d6",
+      "bytes": 1739
+    },
+    "G6.gg.mjs": {
+      "sha256": "9246708b5f14709d0db2600d3d1f68d4d80d5b63ddc6f22bec3cd7c1fdc993af",
+      "bytes": 1837
+    },
+    "G7.gg.mjs": {
+      "sha256": "9a7824fbcac32b395237ba473a37568b8f492c17aa2db44c885b58c96be357cb",
+      "bytes": 1842
+    },
+    "vega-lite.svg": {
+      "sha256": "eb6646a0a1e543396a8b5575e6143397e4ebf7e0ff0a18c6ac38090d833e146c",
+      "bytes": 13539
+    },
+    "ggaction.svg": {
+      "sha256": "946cb4a8208dd7d85e9b667029e55b6fe59cd77e1b8dfc208e5a172bdf1c445a",
+      "bytes": 10772
+    }
+  }
+}

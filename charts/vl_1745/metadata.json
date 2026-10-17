@@ -1,0 +1,80 @@
+{
+  "id": "vl_1745",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "77978670974821b5bc167702f42cc780e5d30257a1b7dc4a56b1333884fea6c9",
+      "actions": 7,
+      "topOptions": 18
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "437a6d1f1577a966cdc93805400bc787d6f459f2c184718abe728b601c1b5367",
+      "actions": 8,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "29d815ef27f6ad02944051e2db1342d2169a43e2190cbc3bc3b2a5b5d6491c1a",
+      "actions": 10,
+      "topOptions": 28
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a41bbfb3d6d1604f706942831b290348f80d6557565f5fde58f2dd5ec1ab3d48",
+      "actions": 16,
+      "topOptions": 32
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex independently read full accepted final program and model stop. Every accepted stage source/family verified. No remaining meaningful public ownership frontier: complete measured fonts/positions remain required, existing paints/scales/components already focused; do not add defaults/regroup/scalarpadding. Rect constants are already focused and no supported public finer channel binding exists for this rect scaffold."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "5140e070e3465b741c6ef7a6fcebe282885bbf6de11ea17530d6ce4d6d199194",
+      "bytes": 429
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e4b4131e0f07a2234468cc7f23af5e088d0a839b665717bfceadd9547ea8dc2c",
+      "bytes": 114277
+    },
+    "G1.gg.mjs": {
+      "sha256": "77978670974821b5bc167702f42cc780e5d30257a1b7dc4a56b1333884fea6c9",
+      "bytes": 1413
+    },
+    "G2.gg.mjs": {
+      "sha256": "437a6d1f1577a966cdc93805400bc787d6f459f2c184718abe728b601c1b5367",
+      "bytes": 1377
+    },
+    "G3.gg.mjs": {
+      "sha256": "29d815ef27f6ad02944051e2db1342d2169a43e2190cbc3bc3b2a5b5d6491c1a",
+      "bytes": 1587
+    },
+    "G4.gg.mjs": {
+      "sha256": "a41bbfb3d6d1604f706942831b290348f80d6557565f5fde58f2dd5ec1ab3d48",
+      "bytes": 1569
+    },
+    "vega-lite.svg": {
+      "sha256": "88a99e5727f8b861c5330db106ff8a854a701a5938ceda2723e156658f276205",
+      "bytes": 202188
+    },
+    "ggaction.svg": {
+      "sha256": "c745bd8024301234972d04d474238c293cebfbc2a2670e5cb3e85e66138a560a",
+      "bytes": 191165
+    }
+  }
+}

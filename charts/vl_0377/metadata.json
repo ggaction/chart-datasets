@@ -1,0 +1,91 @@
+{
+  "id": "vl_0377",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6b0e15fd3647eedf962fd8d7af047e9ae5a717cbd16f96bd0d406a04264099b5",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "64cba7496f666a5b5c5d92057ae3db2c3abfddb37410e217009c3ff5cdf47431",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ab007fdeb4bcd583c8405763f9736478b9de792f896e3d154e1309ecbd6842d2",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ccdec6104524cc7e6dcd1f481fe5f6d33572928b7cee458e08b5844ed6e41d8f",
+      "actions": 13,
+      "topOptions": 28
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "3a544f5b2e65bf275c085d5de98858dec3bc3bd52a10f6ea91f33423b4184bad",
+      "actions": 14,
+      "topOptions": 30
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/productivity/data_GDPperHourOECD_All.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Fullsource and everyaccepted code/diff reviewed; concrete mandatoryfrontier zero, actualcurrentpin source/fullfamily SVG/PNG/rowschecks pass. Geometry/sourcefont sizes remaincompleteaxis creation. Rejected padding preserved withactualusage, no quota filling."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9e8fda83e3630323923824d3158a157288093fb3a8dda7ac43fcb22c2274944e",
+      "bytes": 1808
+    },
+    "data.json": {
+      "sha256": "52247c68641c340f7e792bdebe11d4ae7eeb73054a8726621bbb7fe502dfdbf8",
+      "bytes": 314896
+    },
+    "resolved-source.vl.json": {
+      "sha256": "09c2fdf3b4f9e09f1df65c1668c50059265855408ede73412758ce2399d239ea",
+      "bytes": 381577
+    },
+    "G1.gg.mjs": {
+      "sha256": "6b0e15fd3647eedf962fd8d7af047e9ae5a717cbd16f96bd0d406a04264099b5",
+      "bytes": 2441
+    },
+    "G2.gg.mjs": {
+      "sha256": "64cba7496f666a5b5c5d92057ae3db2c3abfddb37410e217009c3ff5cdf47431",
+      "bytes": 2459
+    },
+    "G3.gg.mjs": {
+      "sha256": "ab007fdeb4bcd583c8405763f9736478b9de792f896e3d154e1309ecbd6842d2",
+      "bytes": 2460
+    },
+    "G4.gg.mjs": {
+      "sha256": "ccdec6104524cc7e6dcd1f481fe5f6d33572928b7cee458e08b5844ed6e41d8f",
+      "bytes": 2420
+    },
+    "G5.gg.mjs": {
+      "sha256": "3a544f5b2e65bf275c085d5de98858dec3bc3bd52a10f6ea91f33423b4184bad",
+      "bytes": 2490
+    },
+    "vega-lite.svg": {
+      "sha256": "ab6a32dca4fc0da979c99770185d4dad29fc411f27be849bf916b951bc18973a",
+      "bytes": 49379
+    },
+    "ggaction.svg": {
+      "sha256": "65b6724e172d85e13c4d4a3013fdf20a41203eb515e09d5fcf09fe63344935c2",
+      "bytes": 58478
+    }
+  }
+}

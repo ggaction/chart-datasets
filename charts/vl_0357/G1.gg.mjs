@@ -1,0 +1,111 @@
+// DOCS: doc-6c2c08869091f6a0, doc-fc11e9fb291905d1, doc-ba092ec842bafcc1
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({
+      width: 335,
+      height: 374,
+      margin: { left: 30, top: 52, right: 5, bottom: 22 }
+    })
+    .editCanvas({ background: "#122b39" })
+    .createData({ id: "raw", values: data })
+    .filterData({ id: "value1Rows", field: "value1", noneOf: ["null"] })
+    .createComputedData({
+      id: "value1Num",
+      as: "value1Num",
+      expression: { op: "toNumber", operand: { field: "value1" } }
+    })
+    .createBarPlot({
+      x: {
+        field: "date",
+        fieldType: "temporal",
+        scale: { domain: [739427586206, 1816716413793], nice: false }
+      },
+      y: { field: "value1Num", scale: { domain: [-50, 350] } },
+      guides: false
+    })
+    .editBarMark({ fill: "rgba(255,255,200, 0.8)" })
+    .encodeBarWidth({ pixels: 8 })
+    .filterData({ id: "value2Rows", source: "raw", field: "value2", noneOf: ["null"] })
+    .createComputedData({
+      id: "value2Num",
+      as: "value2Num",
+      expression: { op: "toNumber", operand: { field: "value2" } }
+    })
+    .createBarMark({ id: "barPlot2", fill: "orange" })
+    .encodeY({ target: "barPlot2", field: "value2Num" })
+    .encodeX({ target: "barPlot2", field: "date", fieldType: "temporal" })
+    .encodeBarWidth({ target: "barPlot2", pixels: 8 })
+    .createTitle({
+      text: "UK government - annual borrowing",
+      titleStyle: {
+        fontSize: 13,
+        fontWeight: 700,
+        fontStyle: "normal",
+        fontFamily: "sans-serif",
+        color: "#cbc7cf"
+      },
+      subtitleStyle: {
+        fontSize: 10,
+        fontWeight: 400,
+        fontStyle: "italic",
+        fontFamily: "sans-serif",
+        color: "#cbc7cf"
+      }
+    })
+    .editTitle({ gap: 1 })
+    .editTitle({
+      subtitle: "PSNB, £ billions. Actual and forecast. Source: ONS and IFS\n",
+      offset: -13,
+      alongOffset: -24
+    })
+    .createAxes({
+      x: {
+        line: { color: "#888" },
+        ticksAndLabels: {
+          values: [
+            788918400000, 946684800000, 1104537600000, 1262304000000,
+            1420070400000, 1577836800000, 1735689600000
+          ],
+          ticks: { color: "#888" },
+          labels: {
+            fontSize: 10,
+            fontFamily: "sans-serif",
+            fontWeight: 400,
+            color: "#cbc7cf",
+            offset: 7,
+            flush: true,
+            format: "%Y"
+          }
+        },
+        title: false
+      },
+      y: {
+        line: { color: "#888" },
+        ticksAndLabels: {
+          values: [-50, 0, 50, 100, 150, 200, 250, 300, 350],
+          ticks: { color: "#888" },
+          labels: {
+            fontSize: 10,
+            fontFamily: "sans-serif",
+            fontWeight: 400,
+            color: "#cbc7cf",
+            offset: 7,
+            labelMap: [{ value: -50, label: "−50" }]
+          }
+        },
+        title: false
+      }
+    })
+    .createGrid({
+      horizontal: {
+        values: [-50, 0, 50, 100, 150, 200, 250, 300, 350],
+        color: "aliceblue",
+        lineWidth: 0.5,
+        strokeDash: [1, 1]
+      },
+      vertical: false
+    });
+}

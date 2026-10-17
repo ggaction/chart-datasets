@@ -1,0 +1,124 @@
+{
+  "id": "vl_1055",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "667f066d68e96df6736157eee51f1f726aee2986eba2d44367293255c0c90180",
+      "actions": 9,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "14d6e90cb6a47c03943cbd5bd270dc96f382207964c15d3a7e8312da89e61c98",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b88e58dbd42819ce6ca496ffcdb2bca015c83990798093f40352622b9d82b7a9",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "50ff64b4c48843ffcd410aa4ae02b4ccf24cd4697dd90952eda64308dce2f292",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "b31e236b0181273a99d1842d64eff192a20f1e04878dc7942502a298068b215e",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b2fb8dbc9a3e94fc4685d02e2e703d415f0c15daeebb9bb29eca73f3d292c624",
+      "actions": 21,
+      "topOptions": 41
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "1471559b4df53a1c38e523663b7388b39cf3016e81e9bd83e185fe114a35fe60",
+      "actions": 22,
+      "topOptions": 42
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "cfa1fdae09922430d271bb30ea3dc06d9519653340a9ea4309d7e7e19d419a82",
+      "actions": 24,
+      "topOptions": 42
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/editor/data/stocks.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source/finalG8 code reread; normal current verification PASS and all8 stage outputs identical. Full560raw/filter68GOOG/source500x300, temporal label maps/fonts, explicitlinewidth1 and rightcirclelegend unchanged. Final paired ticksAndLabels-to-focused component split is meaningful. Eight-stage cap; further legend/grid boundaries remain honestly possible."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "b697b4545e4abca8406f7a7264e5b9f5ca881803ae04cb8bd7fd76968414dc62",
+      "bytes": 1268
+    },
+    "data.json": {
+      "sha256": "1bdaf793f6aae36096d9946eaddc54f313be476f70ff874ed70e2c0b676bac8c",
+      "bytes": 43591
+    },
+    "resolved-source.vl.json": {
+      "sha256": "b9ea775fcd4d51e53ca04017dd838495002075dfad84091ba736ff7d3c42b9bd",
+      "bytes": 56090
+    },
+    "G1.gg.mjs": {
+      "sha256": "667f066d68e96df6736157eee51f1f726aee2986eba2d44367293255c0c90180",
+      "bytes": 5479
+    },
+    "G2.gg.mjs": {
+      "sha256": "14d6e90cb6a47c03943cbd5bd270dc96f382207964c15d3a7e8312da89e61c98",
+      "bytes": 5498
+    },
+    "G3.gg.mjs": {
+      "sha256": "b88e58dbd42819ce6ca496ffcdb2bca015c83990798093f40352622b9d82b7a9",
+      "bytes": 5434
+    },
+    "G4.gg.mjs": {
+      "sha256": "50ff64b4c48843ffcd410aa4ae02b4ccf24cd4697dd90952eda64308dce2f292",
+      "bytes": 5306
+    },
+    "G5.gg.mjs": {
+      "sha256": "b31e236b0181273a99d1842d64eff192a20f1e04878dc7942502a298068b215e",
+      "bytes": 5432
+    },
+    "G6.gg.mjs": {
+      "sha256": "b2fb8dbc9a3e94fc4685d02e2e703d415f0c15daeebb9bb29eca73f3d292c624",
+      "bytes": 5428
+    },
+    "G7.gg.mjs": {
+      "sha256": "1471559b4df53a1c38e523663b7388b39cf3016e81e9bd83e185fe114a35fe60",
+      "bytes": 5469
+    },
+    "G8.gg.mjs": {
+      "sha256": "cfa1fdae09922430d271bb30ea3dc06d9519653340a9ea4309d7e7e19d419a82",
+      "bytes": 5455
+    },
+    "vega-lite.svg": {
+      "sha256": "728b74a99246ba4323e0733bc48dfdd749d9f0830ce01da2d1dc03ad6a59ec1e",
+      "bytes": 16725
+    },
+    "ggaction.svg": {
+      "sha256": "2c23d8848ce70349aeecb5b7dc6e7e14693f2acdefeb97978af7ae2a71997882",
+      "bytes": 11555
+    }
+  }
+}

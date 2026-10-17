@@ -1,0 +1,122 @@
+{
+  "id": "vl_1663",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "3dfa0161ec6ef70fdb889e6782845ca356f79b1df6d3eed754d1555dd6350013",
+      "actions": 6,
+      "topOptions": 12
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5617169840fab57a5885ae562a705c79b0755ee75284d0a2504978bf22556fcf",
+      "actions": 8,
+      "topOptions": 16
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e8ffb71f5ff0690933db52b12193f175195883f06159467691b8546fd3393537",
+      "actions": 9,
+      "topOptions": 18
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a5f7387a9ab23abb26457334cec3fbcf81601180e138acc1c68ad782093c4234",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "87db758fcf0876a2670ef71f96acf3c35b7ab30e8e8b3a00f239efbb55ad4575",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0ee7f0fcc9aac9398da131676b0c5b7b0fca0bce23b9164264ef08492b009c4f",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "fe3a8bf0ae0b7dd4ec1b1ea8427c377b5c6e52420eee2f7bedb91444fa6b7de9",
+      "actions": 19,
+      "topOptions": 31
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "7bbb72984dbf19c06c4ce10cc0a9b7bd3eaffacbaed70be98f8741095c09fcb9",
+      "actions": 19,
+      "topOptions": 35
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "max-eight-ceiling",
+    "explanation": "8개 서로 다른 단계까지 검증했다. 축 전체 생성은 유지하며 style과 typography를 개별 editor로 옮겼다. 최대 단계 수에 도달했다."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "919738c696a6160d109d60801388453b25971e35bccb1e48a04ac975e1b9a270",
+      "bytes": 773
+    },
+    "data.json": {
+      "sha256": "63f5d57dd8e0b600fe32f711399b1ef8077209a9390d555ecc7a4e9c00873740",
+      "bytes": 318
+    },
+    "resolved-source.vl.json": {
+      "sha256": "919738c696a6160d109d60801388453b25971e35bccb1e48a04ac975e1b9a270",
+      "bytes": 773
+    },
+    "G1.gg.mjs": {
+      "sha256": "3dfa0161ec6ef70fdb889e6782845ca356f79b1df6d3eed754d1555dd6350013",
+      "bytes": 1787
+    },
+    "G2.gg.mjs": {
+      "sha256": "5617169840fab57a5885ae562a705c79b0755ee75284d0a2504978bf22556fcf",
+      "bytes": 1697
+    },
+    "G3.gg.mjs": {
+      "sha256": "e8ffb71f5ff0690933db52b12193f175195883f06159467691b8546fd3393537",
+      "bytes": 1633
+    },
+    "G4.gg.mjs": {
+      "sha256": "a5f7387a9ab23abb26457334cec3fbcf81601180e138acc1c68ad782093c4234",
+      "bytes": 1541
+    },
+    "G5.gg.mjs": {
+      "sha256": "87db758fcf0876a2670ef71f96acf3c35b7ab30e8e8b3a00f239efbb55ad4575",
+      "bytes": 1585
+    },
+    "G6.gg.mjs": {
+      "sha256": "0ee7f0fcc9aac9398da131676b0c5b7b0fca0bce23b9164264ef08492b009c4f",
+      "bytes": 1839
+    },
+    "G7.gg.mjs": {
+      "sha256": "fe3a8bf0ae0b7dd4ec1b1ea8427c377b5c6e52420eee2f7bedb91444fa6b7de9",
+      "bytes": 1777
+    },
+    "G8.gg.mjs": {
+      "sha256": "7bbb72984dbf19c06c4ce10cc0a9b7bd3eaffacbaed70be98f8741095c09fcb9",
+      "bytes": 1777
+    },
+    "vega-lite.svg": {
+      "sha256": "d1463d04670d7183e6d4a7a5fffdc730b90b3347cd1e11e5f1ae63328ec7ee17",
+      "bytes": 16256
+    },
+    "ggaction.svg": {
+      "sha256": "0f818f95e3b848e6297ddd747d0fbe9ac3e9f86e97b508c9fc2045ecc5412661",
+      "bytes": 7513
+    }
+  }
+}

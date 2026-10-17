@@ -1,0 +1,124 @@
+{
+  "id": "vl_0635",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8b8bcd4bea496bd825c01222be4e3c886dc82a7d60d1da1ce2d3e0032e460ed0",
+      "actions": 18,
+      "topOptions": 42
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "20325df95ebecd599d18442e7940da615377dddc849095b0a2cf66d9e3930eb2",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "165b8ec328d40c90bdc9b8dae7199b59248125881d740e35b8a109e88f8c2af6",
+      "actions": 21,
+      "topOptions": 47
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "aee6795d6e7c89c6f6a38d96ad5073a0770ddf2942296e16d2be571e82c564ec",
+      "actions": 23,
+      "topOptions": 49
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4b333fc492ce2d657b4ebb46c529fda19699531cf12a02ff75f47e48de3a2b69",
+      "actions": 23,
+      "topOptions": 49
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "7b00b37be93ddd345ea0949240f5c0c126760c5d0b5963c8864d3a2a07bffb53",
+      "actions": 26,
+      "topOptions": 50
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "3ed6a2926f2b89df8bee264d48f3d29c310bff85b820267b103ba741f7b3b89c",
+      "actions": 27,
+      "topOptions": 51
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4f1bb13bf6993748f82a3700a802dbdb1783d312f6c834bd7d30630264c65003",
+      "actions": 27,
+      "topOptions": 52
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/Global_WB_GDPperCapita.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source/final exact code reread and current source/family checks PASS7971. Six raw-folded country series/source temporal XY domains/original palette mappings/inplot top-left legend labels/200x300 innerplot and blank subtitle remain exact. Final title-only paint boundary genuine; remaining native title creation/legend geometry protected and extra focus beyond eight honestly reported."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "3a357c399e308423e3e9c4625f6fe05eb08b74f78620b3d634c267ba5794645b",
+      "bytes": 1481
+    },
+    "data.json": {
+      "sha256": "9835bb7309be41eaf624f3578e34bf1dfb6c235812482ec05e4dc2b174cee4bf",
+      "bytes": 142185
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d12219165bf4f35d39808583369812dd109dc1783891ecc7ae130d3706cffdb4",
+      "bytes": 166200
+    },
+    "G1.gg.mjs": {
+      "sha256": "8b8bcd4bea496bd825c01222be4e3c886dc82a7d60d1da1ce2d3e0032e460ed0",
+      "bytes": 2924
+    },
+    "G2.gg.mjs": {
+      "sha256": "20325df95ebecd599d18442e7940da615377dddc849095b0a2cf66d9e3930eb2",
+      "bytes": 2904
+    },
+    "G3.gg.mjs": {
+      "sha256": "165b8ec328d40c90bdc9b8dae7199b59248125881d740e35b8a109e88f8c2af6",
+      "bytes": 2931
+    },
+    "G4.gg.mjs": {
+      "sha256": "aee6795d6e7c89c6f6a38d96ad5073a0770ddf2942296e16d2be571e82c564ec",
+      "bytes": 3025
+    },
+    "G5.gg.mjs": {
+      "sha256": "4b333fc492ce2d657b4ebb46c529fda19699531cf12a02ff75f47e48de3a2b69",
+      "bytes": 3024
+    },
+    "G6.gg.mjs": {
+      "sha256": "7b00b37be93ddd345ea0949240f5c0c126760c5d0b5963c8864d3a2a07bffb53",
+      "bytes": 2979
+    },
+    "G7.gg.mjs": {
+      "sha256": "3ed6a2926f2b89df8bee264d48f3d29c310bff85b820267b103ba741f7b3b89c",
+      "bytes": 3009
+    },
+    "G8.gg.mjs": {
+      "sha256": "4f1bb13bf6993748f82a3700a802dbdb1783d312f6c834bd7d30630264c65003",
+      "bytes": 3025
+    },
+    "vega-lite.svg": {
+      "sha256": "203096084f51cfe5aa25401cd5ed121eabdb112d1cea596cea0bf7f1a4e46f03",
+      "bytes": 21440
+    },
+    "ggaction.svg": {
+      "sha256": "5fd23e8a9926b84be45058b210f7591d2946e9bfe2862fd626121992e8c7486d",
+      "bytes": 20748
+    }
+  }
+}

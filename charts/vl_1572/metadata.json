@@ -1,0 +1,89 @@
+{
+  "id": "vl_1572",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8d50d9abf588c795539b0f98ad07a8ce088061e4ded2a7c47e7083e260e69263",
+      "actions": 9,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "96fc3787f8c0ea48dec3653ff097e32ee257328a51f539d4f3bab17783400c94",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ab2f32a26903a08c1766365bcd0458c4815c5a9101d403856dafd233ef540d6c",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8ad90a6bbdef6b460b6a4245b74b633b1efdcf472356889d82f3e2aa2b4edf1c",
+      "actions": 14,
+      "topOptions": 26
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "6c1a205ccb1fa8ff40c8d1b4326547b802c28d02026d23951d71899ab6b4ca3d",
+      "actions": 14,
+      "topOptions": 26
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Five exact meaningful stages; paired focused title editors terminal, map/font/offset/length required at creation, no further source-design boundary."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a9f1ec1b8302700fa037f113cd7b56df499da6fe6a200dd5cdd2f8c4dba8aa47",
+      "bytes": 7555
+    },
+    "data.json": {
+      "sha256": "722de420412f9cb40ce6e830d2e7ca325b4eca23a71c11a06eaa8121f87e2feb",
+      "bytes": 5179
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a9f1ec1b8302700fa037f113cd7b56df499da6fe6a200dd5cdd2f8c4dba8aa47",
+      "bytes": 7555
+    },
+    "G1.gg.mjs": {
+      "sha256": "8d50d9abf588c795539b0f98ad07a8ce088061e4ded2a7c47e7083e260e69263",
+      "bytes": 2376
+    },
+    "G2.gg.mjs": {
+      "sha256": "96fc3787f8c0ea48dec3653ff097e32ee257328a51f539d4f3bab17783400c94",
+      "bytes": 2385
+    },
+    "G3.gg.mjs": {
+      "sha256": "ab2f32a26903a08c1766365bcd0458c4815c5a9101d403856dafd233ef540d6c",
+      "bytes": 2345
+    },
+    "G4.gg.mjs": {
+      "sha256": "8ad90a6bbdef6b460b6a4245b74b633b1efdcf472356889d82f3e2aa2b4edf1c",
+      "bytes": 2405
+    },
+    "G5.gg.mjs": {
+      "sha256": "6c1a205ccb1fa8ff40c8d1b4326547b802c28d02026d23951d71899ab6b4ca3d",
+      "bytes": 2393
+    },
+    "vega-lite.svg": {
+      "sha256": "0a9ed58746d9b79061eea9dfeb948c9d661c8ab17ca671cdf0564823ff75fbfc",
+      "bytes": 31078
+    },
+    "ggaction.svg": {
+      "sha256": "cef9ff9ff16935fd787f9fa262066ee1b8e6b194ad3911c45aabc29d753338c9",
+      "bytes": 17537
+    }
+  }
+}

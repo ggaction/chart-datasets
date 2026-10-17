@@ -1,0 +1,124 @@
+{
+  "id": "vl_0344",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5d3df8417d423730c7ce68eb04d43686298cc815a369cb6db2ce67780b8fb05d",
+      "actions": 24,
+      "topOptions": 59
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "aec8c4ee759620e9bfcd6c9c53eb0d7d708bc057ee95dc5c0dee953f60b766aa",
+      "actions": 25,
+      "topOptions": 61
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "d01cb74d9cfa380cf58494bba21fd6161ef09550c3d12d66a12ab46beae4a2ac",
+      "actions": 26,
+      "topOptions": 65
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4460dbb9b0b888e84262aa28ed3794fae3941d2d26a695905fc4485a538c0ac0",
+      "actions": 28,
+      "topOptions": 69
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f6039e7f7ccc63538ae38e4840a5fc99efcad8e0005c24d64aa2eb2595abbb1e",
+      "actions": 29,
+      "topOptions": 70
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "cdf8dd9a9edfd8e57d42b456b6a06ba087498319c9e2398783fee1368a2f1fe6",
+      "actions": 33,
+      "topOptions": 74
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "adabd3ed05ba28c434e91fc8f977aa1890a147a0d2a0e56ef56ad240bd22b5d4",
+      "actions": 33,
+      "topOptions": 75
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "18ae42099077d78a0d292615d7f611259047adcca237aa626922cd02853747c3",
+      "actions": 34,
+      "topOptions": 76
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/usa/data_FRED_inflationNYCChicago.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source/finalG8 code reread; normal current verification PASS and all8 stage outputs identical. Full750x200 source plot, CPI folded two-city/source-defined run gaps, full source fonts, top horizontal legend and symbols retained. Meaningful legend constructor/component boundary reaches eight-stage cap; remaining optional component boundaries may exist, not an exhaustive frontier claim."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "881249de6e8f409eeec43673d564936d4929e607828fcfc32225c3fd4b3d93c2",
+      "bytes": 2298
+    },
+    "data.json": {
+      "sha256": "3e30cb892f6c560cea31a52ebd603d66befa6a00c9b0ac913fb616e22d0e26df",
+      "bytes": 230325
+    },
+    "resolved-source.vl.json": {
+      "sha256": "fb892e5a6219112d40092bb8736fc8793ce9f22528fbd3e78b90a96205e9ab39",
+      "bytes": 273663
+    },
+    "G1.gg.mjs": {
+      "sha256": "5d3df8417d423730c7ce68eb04d43686298cc815a369cb6db2ce67780b8fb05d",
+      "bytes": 6063
+    },
+    "G2.gg.mjs": {
+      "sha256": "aec8c4ee759620e9bfcd6c9c53eb0d7d708bc057ee95dc5c0dee953f60b766aa",
+      "bytes": 6048
+    },
+    "G3.gg.mjs": {
+      "sha256": "d01cb74d9cfa380cf58494bba21fd6161ef09550c3d12d66a12ab46beae4a2ac",
+      "bytes": 6008
+    },
+    "G4.gg.mjs": {
+      "sha256": "4460dbb9b0b888e84262aa28ed3794fae3941d2d26a695905fc4485a538c0ac0",
+      "bytes": 6228
+    },
+    "G5.gg.mjs": {
+      "sha256": "f6039e7f7ccc63538ae38e4840a5fc99efcad8e0005c24d64aa2eb2595abbb1e",
+      "bytes": 6241
+    },
+    "G6.gg.mjs": {
+      "sha256": "cdf8dd9a9edfd8e57d42b456b6a06ba087498319c9e2398783fee1368a2f1fe6",
+      "bytes": 6165
+    },
+    "G7.gg.mjs": {
+      "sha256": "adabd3ed05ba28c434e91fc8f977aa1890a147a0d2a0e56ef56ad240bd22b5d4",
+      "bytes": 6181
+    },
+    "G8.gg.mjs": {
+      "sha256": "18ae42099077d78a0d292615d7f611259047adcca237aa626922cd02853747c3",
+      "bytes": 6112
+    },
+    "vega-lite.svg": {
+      "sha256": "67cd8f9bb12cbe2c05ef169c5266b69eb0d346bec5898fb6f4812f54d7b954f5",
+      "bytes": 41612
+    },
+    "ggaction.svg": {
+      "sha256": "574862277b6dcec90f35f5a29d616814b2588b19695a3b9274eb807508fa067d",
+      "bytes": 80464
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Number of students at selected UK universities 2015-2021",
+    "subtitle": "per 1000 students. Source: HESA",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "params": [
+    {
+      "name": "selectedDate",
+      "value": 2021,
+      "bind": {
+        "input": "range",
+        "min": 2015,
+        "max": 2021,
+        "step": 1,
+        "name": "Select year:"
+      }
+    }
+  ],
+  "data": {
+    "values": [
+      {
+        "2015": "29945",
+        "2016": "37135",
+        "2017": "37905",
+        "2018": "40015",
+        "2019": "41180",
+        "2020": "41095",
+        "2021": "45715",
+        "": "45",
+        "Unnamed: 0": "189",
+        "UKPRN": "10007784.0",
+        "HE provider": "University College London"
+      },
+      {
+        "2015": "38590",
+        "2016": "39700",
+        "2017": "40490",
+        "2018": "40140",
+        "2019": "40250",
+        "2020": "40485",
+        "2021": "44635",
+        "": "27",
+        "Unnamed: 0": "114",
+        "UKPRN": "10007798.0",
+        "HE provider": "The University of Manchester"
+      },
+      {
+        "2015": "27600",
+        "2016": "29430",
+        "2017": "31690",
+        "2018": "34125",
+        "2019": "34970",
+        "2020": "38430",
+        "2021": "39145",
+        "": "9",
+        "Unnamed: 0": "43",
+        "UKPRN": "10001726.0",
+        "HE provider": "Coventry University"
+      },
+      {
+        "2015": "26890",
+        "2016": "27920",
+        "2017": "29370",
+        "2018": "30890",
+        "2019": "33255",
+        "2020": "35785",
+        "2021": "38995",
+        "": "32",
+        "Unnamed: 0": "131",
+        "UKPRN": "10004797.0",
+        "HE provider": "The Nottingham Trent University"
+      },
+      {
+        "2015": "28720",
+        "2016": "28900",
+        "2017": "30565",
+        "2018": "32270",
+        "2019": "32895",
+        "2020": "33110",
+        "2021": "38445",
+        "": "20",
+        "Unnamed: 0": "84",
+        "UKPRN": "10003645.0",
+        "HE provider": "King's College London"
+      },
+      {
+        "2015": "28880",
+        "2016": "30355",
+        "2017": "31910",
+        "2018": "32885",
+        "2019": "34275",
+        "2020": "35375",
+        "2021": "37830",
+        "": "13",
+        "Unnamed: 0": "55",
+        "UKPRN": "10007790.0",
+        "HE provider": "The University of Edinburgh"
+      },
+      {
+        "2015": "26815",
+        "2016": "27220",
+        "2017": "28615",
+        "2018": "29725",
+        "2019": "30805",
+        "2020": "32465",
+        "2021": "37145",
+        "": "15",
+        "Unnamed: 0": "67",
+        "UKPRN": "10007794.0",
+        "HE provider": "The University of Glasgow"
+      },
+      {
+        "2015": "26670",
+        "2016": "27715",
+        "2017": "27880",
+        "2018": "28790",
+        "2019": "29555",
+        "2020": "30680",
+        "2021": "34410",
+        "": "48",
+        "Unnamed: 0": "192",
+        "UKPRN": "10007164.0",
+        "HE provider": "University of the West of England, Bristol"
+      },
+      {
+        "2015": "21555",
+        "2016": "21905",
+        "2017": "23590",
+        "2018": "24850",
+        "2019": "25955",
+        "2020": "27375",
+        "2021": "29785",
+        "": "4",
+        "Unnamed: 0": "25",
+        "UKPRN": "10007786.0",
+        "HE provider": "The University of Bristol"
+      }
+    ]
+  },
+  "transform": [
+    {
+      "fold": [
+        "2020",
+        "2021",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015"
+      ],
+      "as": [
+        "year",
+        "value"
+      ]
+    },
+    {
+      "filter": "datum.year==selectedDate"
+    },
+    {
+      "calculate": "datum.value/1000",
+      "as": "per 1000"
+    }
+  ],
+  "height": 300,
+  "width": 300,
+  "mark": {
+    "type": "bar",
+    "color": "#238a6d"
+  },
+  "encoding": {
+    "x": {
+      "field": "HE provider",
+      "type": "nominal",
+      "axis": {
+        "title": null,
+        "grid": false,
+        "ticks": false,
+        "labelAngle": 45
+      }
+    },
+    "y": {
+      "field": "per 1000",
+      "type": "quantitative",
+      "title": "Number of students (per 1000)",
+      "axis": {
+        "grid": false
+      }
+    }
+  },
+  "config": {}
+}

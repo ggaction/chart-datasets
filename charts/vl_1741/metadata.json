@@ -1,0 +1,113 @@
+{
+  "id": "vl_1741",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "77dc51a777394f2473496d3b3ab7c27575695199ac08bbfb2b6b1da9600de02e",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "cf9e820b1a87680d11a02ef20a48b8120b8733fa97dab2170bc5c745c7b22989",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "312f7ec85fadd6327270ee5bdbf3d019e5bd4e04c0bd894ca6d828abff544cfa",
+      "actions": 16,
+      "topOptions": 37
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "070aa85dd8987a346525df586bd179f805718edcbfddf46f24744ad6ff7dbc12",
+      "actions": 18,
+      "topOptions": 43
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f3faa034fa6aaa93a5667888fdb28c7760c303dac54f3cd1db261c132cbdc9bb",
+      "actions": 22,
+      "topOptions": 43
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "7239b54a51d37d1b7cd0e94a123b3c033f071f5951f1a274cb7fe84e592049c2",
+      "actions": 24,
+      "topOptions": 47
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "75ed4788683e43fd03984876a6d2f62adc23f2c74a4aa2dbe000e1b8d7c8dae7",
+      "actions": 24,
+      "topOptions": 48
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full currentG7/source/actualdiff reviewed: source triangle contour/radius/stroke2 preserved, opacity.6 dedicated encoder, remaining shape/fill/strokewidth at eligible point mark owner and axes/grids focused. ProposedG8 only removes redundant target from same encoder, with no ownership transfer; reject parameter-only padding and finish7."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "36fa5096e51d7d585cfdda9467c20a626cb1a0e2d7b9eb5ef392e8151f2e16c5",
+      "bytes": 654
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8b3f2cf437ec86f6cf48a360f9e1c759ec36860feefd32cbff8d5d196d497df1",
+      "bytes": 114502
+    },
+    "G1.gg.mjs": {
+      "sha256": "77dc51a777394f2473496d3b3ab7c27575695199ac08bbfb2b6b1da9600de02e",
+      "bytes": 1972
+    },
+    "G2.gg.mjs": {
+      "sha256": "cf9e820b1a87680d11a02ef20a48b8120b8733fa97dab2170bc5c745c7b22989",
+      "bytes": 1990
+    },
+    "G3.gg.mjs": {
+      "sha256": "312f7ec85fadd6327270ee5bdbf3d019e5bd4e04c0bd894ca6d828abff544cfa",
+      "bytes": 1950
+    },
+    "G4.gg.mjs": {
+      "sha256": "070aa85dd8987a346525df586bd179f805718edcbfddf46f24744ad6ff7dbc12",
+      "bytes": 2092
+    },
+    "G5.gg.mjs": {
+      "sha256": "f3faa034fa6aaa93a5667888fdb28c7760c303dac54f3cd1db261c132cbdc9bb",
+      "bytes": 2092
+    },
+    "G6.gg.mjs": {
+      "sha256": "7239b54a51d37d1b7cd0e94a123b3c033f071f5951f1a274cb7fe84e592049c2",
+      "bytes": 2146
+    },
+    "G7.gg.mjs": {
+      "sha256": "75ed4788683e43fd03984876a6d2f62adc23f2c74a4aa2dbe000e1b8d7c8dae7",
+      "bytes": 2167
+    },
+    "vega-lite.svg": {
+      "sha256": "21396e5f77d6656489de04aa9747bc5c44d13bbdc7f94758e65aec62bfa6697c",
+      "bytes": 14022
+    },
+    "ggaction.svg": {
+      "sha256": "3a85d729cf89165c02375e888a1c99f3ed972023dfed57e1fa64da7e0a9af573",
+      "bytes": 10603
+    }
+  }
+}

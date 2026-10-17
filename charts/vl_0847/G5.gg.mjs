@@ -1,0 +1,34 @@
+// DOCS: doc-fb3b01cca895bdad, doc-ef5a28c0c3f3c920, doc-24d00033f9fc3095
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({ width: 1349, height: 372, margin: { left: 44, top: 10, right: 5, bottom: 62 } })
+    .createData({ id: "data", values: data })
+    .createComputedData({ id: "dated", as: "DateMs", expression: { op: "parseTime", operand: { field: "Date" }, format: "auto" } })
+    .createComputedData({ id: "candles", as: "Direction", expression: { op: "if", condition: { op: "lt", left: { field: "Open" }, right: { field: "Close" } }, then: { constant: "up" }, else: { constant: "down" } } })
+    .createRuleMark({ id: "wick", strokeWidth: 1 })
+    .encodeX({ field: "DateMs", fieldType: "temporal", temporalUnit: "timestamp" })
+    .encodeYRange({ lower: "Low", upper: "High" })
+    .encodeStroke({ field: "Direction", fieldType: "nominal" })
+    .editStrokeScale({ target: "wick", domain: ["up", "down"], range: ["#06982d", "#ae1325"] })
+    .editXScale({ domain: [1634652502325, 1666345897674], nice: false })
+    .editYScale({ domain: [120, 360], nice: false })
+    .createBarPlot({ x: { field: "DateMs", fieldType: "temporal", temporalUnit: "timestamp" }, y: { lower: "Open", upper: "Close" }, guides: false })
+    .encodeBarWidth({ pixels: 3 })
+    .encodeColor({ field: "Direction", fieldType: "nominal" })
+    .editColorScale({ target: "barPlot", domain: ["up", "down"], range: ["#06982d", "#ae1325"] })
+    .editBarMark({ stroke: false })
+    .createXAxis({ line: {}, ticksAndLabels: { values: [1635033600000, 1635638400000, 1636243200000, 1636848000000, 1637452800000, 1638057600000, 1638662400000, 1639267200000, 1639872000000, 1640476800000, 1641081600000, 1641686400000, 1642291200000, 1642896000000, 1643500800000, 1644105600000, 1644710400000, 1645315200000, 1645920000000, 1646524800000, 1647129600000, 1647734400000, 1648339200000, 1648944000000, 1649548800000, 1650153600000, 1650758400000, 1651363200000, 1651968000000, 1652572800000, 1653177600000, 1653782400000, 1654387200000, 1654992000000, 1655596800000, 1656201600000, 1656806400000, 1657411200000, 1658016000000, 1658620800000, 1659225600000, 1659830400000, 1660435200000, 1661040000000, 1661644800000, 1662249600000, 1662854400000, 1663459200000, 1664064000000, 1664668800000, 1665273600000, 1665878400000], ticks: {}, labels: { labelMap: [{ value: 1635033600000, label: "24/10/21" }, { value: 1635638400000, label: "" }, { value: 1636243200000, label: "07/11/21" }, { value: 1636848000000, label: "" }, { value: 1637452800000, label: "21/11/21" }, { value: 1638057600000, label: "" }, { value: 1638662400000, label: "05/12/21" }, { value: 1639267200000, label: "" }, { value: 1639872000000, label: "19/12/21" }, { value: 1640476800000, label: "" }, { value: 1641081600000, label: "02/01/22" }, { value: 1641686400000, label: "" }, { value: 1642291200000, label: "16/01/22" }, { value: 1642896000000, label: "" }, { value: 1643500800000, label: "30/01/22" }, { value: 1644105600000, label: "" }, { value: 1644710400000, label: "13/02/22" }, { value: 1645315200000, label: "" }, { value: 1645920000000, label: "27/02/22" }, { value: 1646524800000, label: "" }, { value: 1647129600000, label: "13/03/22" }, { value: 1647734400000, label: "" }, { value: 1648339200000, label: "27/03/22" }, { value: 1648944000000, label: "" }, { value: 1649548800000, label: "10/04/22" }, { value: 1650153600000, label: "" }, { value: 1650758400000, label: "24/04/22" }, { value: 1651363200000, label: "" }, { value: 1651968000000, label: "08/05/22" }, { value: 1652572800000, label: "" }, { value: 1653177600000, label: "22/05/22" }, { value: 1653782400000, label: "" }, { value: 1654387200000, label: "05/06/22" }, { value: 1654992000000, label: "" }, { value: 1655596800000, label: "19/06/22" }, { value: 1656201600000, label: "" }, { value: 1656806400000, label: "03/07/22" }, { value: 1657411200000, label: "" }, { value: 1658016000000, label: "17/07/22" }, { value: 1658620800000, label: "" }, { value: 1659225600000, label: "31/07/22" }, { value: 1659830400000, label: "" }, { value: 1660435200000, label: "14/08/22" }, { value: 1661040000000, label: "" }, { value: 1661644800000, label: "28/08/22" }, { value: 1662249600000, label: "" }, { value: 1662854400000, label: "11/09/22" }, { value: 1663459200000, label: "" }, { value: 1664064000000, label: "25/09/22" }, { value: 1664668800000, label: "" }, { value: 1665273600000, label: "09/10/22" }, { value: 1665878400000, label: "" }], fontSize: 10, offset: 7, rotation: { value: -45, unit: "degrees" } } }, title: { text: "Date", fontSize: 11 } })
+    .createYAxis({ line: {}, ticksAndLabels: { values: [120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360], ticks: {}, labels: { fontSize: 10, offset: 7 } }, title: { text: "Price  USD($)", fontSize: 11, offset: 32.1064453125 } })
+    .editXAxisLine({ color: "#888" })
+    .editXAxisTicks({ color: "#888" })
+    .editXAxisLabels({ color: "black" })
+    .editXAxisTitle({ fontWeight: 700, color: "black" })
+    .editYAxisLine({ color: "#888" })
+    .editYAxisTicks({ color: "#888" })
+    .editYAxisLabels({ color: "black" })
+    .editYAxisTitle({ fontWeight: 700, color: "black" })
+    .createGrid({ horizontal: { color: "#ddd", values: [120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360] }, vertical: { color: "#ddd", values: [1635033600000, 1635638400000, 1636243200000, 1636848000000, 1637452800000, 1638057600000, 1638662400000, 1639267200000, 1639872000000, 1640476800000, 1641081600000, 1641686400000, 1642291200000, 1642896000000, 1643500800000, 1644105600000, 1644710400000, 1645315200000, 1645920000000, 1646524800000, 1647129600000, 1647734400000, 1648339200000, 1648944000000, 1649548800000, 1650153600000, 1650758400000, 1651363200000, 1651968000000, 1652572800000, 1653177600000, 1653782400000, 1654387200000, 1654992000000, 1655596800000, 1656201600000, 1656806400000, 1657411200000, 1658016000000, 1658620800000, 1659225600000, 1659830400000, 1660435200000, 1661040000000, 1661644800000, 1662249600000, 1662854400000, 1663459200000, 1664064000000, 1664668800000, 1665273600000, 1665878400000] } });
+}

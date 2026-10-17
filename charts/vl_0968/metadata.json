@@ -1,0 +1,122 @@
+{
+  "id": "vl_0968",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "66cbe5fcb0cfac5a11f14d19a099eca359ece180e9c799a43dd79346d1232ca5",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e89d0e8d703aab9d91b29092b4bb172cbb0b88d7667f7dcf7ab8e2a9ce66c903",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "77b54d799ea0fd27268542957a63f5f4a01d0a300b2b5e12da5e7486c79db707",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1f5db796f2d074c979c18e57ca6435b56171b7ff1ce5ca0ee02a3477662083f3",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "33b13590de640955f36ac83fe57a16a3a516b96fbe387b86dd94ca0747176c40",
+      "actions": 16,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "c18be83c9566767b19d5591d3f47a8972c485ec9e5984bb474c5e1db41c3d392",
+      "actions": 19,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "20fdaa21d7a6da8ad66abcf9768550ac8ee4d9f995f043bc2bb5cfc9ea171775",
+      "actions": 21,
+      "topOptions": 37
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "234ed71fd0804c586bc2bb8c724b6d6126f461f8bdf2821350d9e8d328abf09b",
+      "actions": 22,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful stages preserve all 171 line vertices and measured two-line header with frozen text metrics; paired scales/axes, axis paint/components and inset legend label ownership reviewed."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "d0cbcce1be415946293a111a310d986b8f12159d3fc640c417d498c718d79039",
+      "bytes": 22698
+    },
+    "data.json": {
+      "sha256": "a424036e3ba417d79666726dfc360c02562cf453a2231b703a2f8c81628b0109",
+      "bytes": 18331
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d0cbcce1be415946293a111a310d986b8f12159d3fc640c417d498c718d79039",
+      "bytes": 22698
+    },
+    "G1.gg.mjs": {
+      "sha256": "66cbe5fcb0cfac5a11f14d19a099eca359ece180e9c799a43dd79346d1232ca5",
+      "bytes": 3002
+    },
+    "G2.gg.mjs": {
+      "sha256": "e89d0e8d703aab9d91b29092b4bb172cbb0b88d7667f7dcf7ab8e2a9ce66c903",
+      "bytes": 3004
+    },
+    "G3.gg.mjs": {
+      "sha256": "77b54d799ea0fd27268542957a63f5f4a01d0a300b2b5e12da5e7486c79db707",
+      "bytes": 2999
+    },
+    "G4.gg.mjs": {
+      "sha256": "1f5db796f2d074c979c18e57ca6435b56171b7ff1ce5ca0ee02a3477662083f3",
+      "bytes": 2947
+    },
+    "G5.gg.mjs": {
+      "sha256": "33b13590de640955f36ac83fe57a16a3a516b96fbe387b86dd94ca0747176c40",
+      "bytes": 3136
+    },
+    "G6.gg.mjs": {
+      "sha256": "c18be83c9566767b19d5591d3f47a8972c485ec9e5984bb474c5e1db41c3d392",
+      "bytes": 3128
+    },
+    "G7.gg.mjs": {
+      "sha256": "20fdaa21d7a6da8ad66abcf9768550ac8ee4d9f995f043bc2bb5cfc9ea171775",
+      "bytes": 3082
+    },
+    "G8.gg.mjs": {
+      "sha256": "234ed71fd0804c586bc2bb8c724b6d6126f461f8bdf2821350d9e8d328abf09b",
+      "bytes": 3106
+    },
+    "vega-lite.svg": {
+      "sha256": "4596c72d416164137ac8e84e4287b8784b334fbeedb7cc9728470498695525b0",
+      "bytes": 12013
+    },
+    "ggaction.svg": {
+      "sha256": "ed9f6c6efafa77ee0ffea633dbc9b835b138c7215245daa9b4c8ed35ee19f26d",
+      "bytes": 10976
+    }
+  }
+}

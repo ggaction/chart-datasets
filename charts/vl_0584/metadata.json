@@ -1,0 +1,124 @@
+{
+  "id": "vl_0584",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "79ac8521b095d04f6dd2944375baf1711f2ecb5ebd8c3cb35e89ef4d4f90e862",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a1a038b983b39eae902df2b919bf783c382256e5d141af06761ad328d601ee32",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "1b076f11f7cc9703f467f267dd23b14d1651e637a5c65f972a810734f65f605d",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "6de2f229ab823c77737fa9d70996d1f5a93733319be5c63e76ff26e61cadfc5f",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "25b9bf017a9bce2b34b5bbdec82081f57e0f577d27b4042edb84276cc91d6219",
+      "actions": 19,
+      "topOptions": 38
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "23cd01724d2474356d4f59568dc379abf560436138d1726aaeb22f2f31e362d5",
+      "actions": 19,
+      "topOptions": 40
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ed25efeb92f2859a9267695e0a8513684db2c5ab552d236c30a4d86e07c7ef49",
+      "actions": 21,
+      "topOptions": 44
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "3c9456b31b52927043dcdd8684b8a91aeaab5984f8bc6f63042d20c41ba20105",
+      "actions": 24,
+      "topOptions": 45
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/US_FRED_DowJones.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 8 genuine ownership stages, 403 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Authorized eight-stage cap reached."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "2eecf661d9a578e14b0bc2230b9e7138591dd4b35d71ec270a4655adca0da2d5",
+      "bytes": 1469
+    },
+    "data.json": {
+      "sha256": "b40a5d306eeb906a20e71a48a0b7440da78136c74a849e5401f0997c2f655dc4",
+      "bytes": 35959
+    },
+    "resolved-source.vl.json": {
+      "sha256": "9f29ebca2f2e484d64c14a1b55cfd58c340e54fbe777482c849be96e590311f5",
+      "bytes": 47762
+    },
+    "G1.gg.mjs": {
+      "sha256": "79ac8521b095d04f6dd2944375baf1711f2ecb5ebd8c3cb35e89ef4d4f90e862",
+      "bytes": 3457
+    },
+    "G2.gg.mjs": {
+      "sha256": "a1a038b983b39eae902df2b919bf783c382256e5d141af06761ad328d601ee32",
+      "bytes": 3459
+    },
+    "G3.gg.mjs": {
+      "sha256": "1b076f11f7cc9703f467f267dd23b14d1651e637a5c65f972a810734f65f605d",
+      "bytes": 3411
+    },
+    "G4.gg.mjs": {
+      "sha256": "6de2f229ab823c77737fa9d70996d1f5a93733319be5c63e76ff26e61cadfc5f",
+      "bytes": 3465
+    },
+    "G5.gg.mjs": {
+      "sha256": "25b9bf017a9bce2b34b5bbdec82081f57e0f577d27b4042edb84276cc91d6219",
+      "bytes": 3484
+    },
+    "G6.gg.mjs": {
+      "sha256": "23cd01724d2474356d4f59568dc379abf560436138d1726aaeb22f2f31e362d5",
+      "bytes": 3507
+    },
+    "G7.gg.mjs": {
+      "sha256": "ed25efeb92f2859a9267695e0a8513684db2c5ab552d236c30a4d86e07c7ef49",
+      "bytes": 3707
+    },
+    "G8.gg.mjs": {
+      "sha256": "3c9456b31b52927043dcdd8684b8a91aeaab5984f8bc6f63042d20c41ba20105",
+      "bytes": 3626
+    },
+    "vega-lite.svg": {
+      "sha256": "f6faa0424f2c63216db4226b85eb63607efb07c8310ab94a5550074c513867e4",
+      "bytes": 10713
+    },
+    "ggaction.svg": {
+      "sha256": "bf6902736f26bbd3277a099a4e997a056b9f45f97345cb62296503550834066c",
+      "bytes": 11198
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Time": "1-Jan-2010",
+        "Sales": "90",
+        "Series": "A"
+      },
+      {
+        "Time": "1-Feb-2010",
+        "Sales": "50",
+        "Series": "A"
+      },
+      {
+        "Time": "1-Mar-2010",
+        "Sales": "68",
+        "Series": "A"
+      },
+      {
+        "Time": "1-Apr-2010",
+        "Sales": "4",
+        "Series": "A"
+      },
+      {
+        "Time": "1-May-2010",
+        "Sales": "68",
+        "Series": "A"
+      },
+      {
+        "Time": "1-Jun-2010",
+        "Sales": "29",
+        "Series": "A"
+      },
+      {
+        "Time": "1-Jul-2010",
+        "Sales": "73",
+        "Series": "A"
+      },
+      {
+        "Time": "1-Aug-2010",
+        "Sales": "95",
+        "Series": "A"
+      },
+      {
+        "Time": "1-Aug-2010",
+        "Sales": "95",
+        "Series": "B"
+      },
+      {
+        "Time": "1-Dec-2010",
+        "Sales": "42",
+        "Series": "B"
+      },
+      {
+        "Time": "1-Dec-2010",
+        "Sales": "42",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Jan-2011",
+        "Sales": "74",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Feb-2011",
+        "Sales": "67",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Mar-2011",
+        "Sales": "55",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Apr-2011",
+        "Sales": "99",
+        "Series": "C"
+      },
+      {
+        "Time": "1-May-2011",
+        "Sales": "99",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Jun-2011",
+        "Sales": "60",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Jul-2011",
+        "Sales": "56",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Aug-2011",
+        "Sales": "36",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Sep-2011",
+        "Sales": "28",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Oct-2011",
+        "Sales": "56",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Nov-2011",
+        "Sales": "66",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Dec-2011",
+        "Sales": "28",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Jan-2012",
+        "Sales": "24",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Feb-2012",
+        "Sales": "59",
+        "Series": "C"
+      },
+      {
+        "Time": "1-Mar-2012",
+        "Sales": "55",
+        "Series": "C"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Time": "date"
+      }
+    }
+  },
+  "height": 200,
+  "width": 200,
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "Time",
+      "type": "temporal"
+    },
+    "y": {
+      "aggregate": "mean",
+      "field": "Sales",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "Series"
+    }
+  }
+}

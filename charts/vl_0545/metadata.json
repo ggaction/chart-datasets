@@ -1,0 +1,102 @@
+{
+  "id": "vl_0545",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "271de620f9b8d87210470a34a0b50f69e5ec02f099c6b3f7e1aa3edc7246c487",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a19e77c3bcf0ce61a7011f8e15f622aed8f39f78dd84ab2b0351a29b735f8d9a",
+      "actions": 14,
+      "topOptions": 27
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2ba83001869d84776c2c420fb4598fdc0d59d9e44245b52afccb75d42bddb0f8",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "682cc500ada1ae5e6c9f6085319fd6008d138a5db38d233cd7f63c8ac06f84dd",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ce44c7de69eae93527e4a1729584e230b92d0a0ff785b00268fdcddf38d349bc",
+      "actions": 17,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "76fd41ed9e09e224032d7e9fbdc3f0480b1c3f30fe8e76af1e7af6c1b1e9691f",
+      "actions": 17,
+      "topOptions": 35
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/chartENV16.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed full accepted G6 and exact GLM stop. Complete axes refine through whole-axis typography into focused labels; related titleweight/paint moved together. Remaining sizes/rotation, hidden titles and source-intended20-label overlap cannot be split meaningfully. Every stage has SHA-bound full source-label/font/angle proof and no-worse source pair validation. Honest6 stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "86ea30b32923df67e5cb57f5b97663babb86fc4cf9125336c5b1bcc22e95d101",
+      "bytes": 1242
+    },
+    "data.json": {
+      "sha256": "a8a0acc278c79100a1800c116a15a2df79f672e5c3ff69b380b5f5a6abd5e449",
+      "bytes": 2348
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0ac6ae05e4c31def4621f66603fc9440f9398c1f35183ad86533a6685fe8b5dc",
+      "bytes": 4063
+    },
+    "G1.gg.mjs": {
+      "sha256": "271de620f9b8d87210470a34a0b50f69e5ec02f099c6b3f7e1aa3edc7246c487",
+      "bytes": 2105
+    },
+    "G2.gg.mjs": {
+      "sha256": "a19e77c3bcf0ce61a7011f8e15f622aed8f39f78dd84ab2b0351a29b735f8d9a",
+      "bytes": 2033
+    },
+    "G3.gg.mjs": {
+      "sha256": "2ba83001869d84776c2c420fb4598fdc0d59d9e44245b52afccb75d42bddb0f8",
+      "bytes": 1983
+    },
+    "G4.gg.mjs": {
+      "sha256": "682cc500ada1ae5e6c9f6085319fd6008d138a5db38d233cd7f63c8ac06f84dd",
+      "bytes": 2035
+    },
+    "G5.gg.mjs": {
+      "sha256": "ce44c7de69eae93527e4a1729584e230b92d0a0ff785b00268fdcddf38d349bc",
+      "bytes": 2023
+    },
+    "G6.gg.mjs": {
+      "sha256": "76fd41ed9e09e224032d7e9fbdc3f0480b1c3f30fe8e76af1e7af6c1b1e9691f",
+      "bytes": 2039
+    },
+    "vega-lite.svg": {
+      "sha256": "01325fe96ccee3ae7350c510bfc9c67c154638006ac10c9bda1760e9f00dc01f",
+      "bytes": 14514
+    },
+    "ggaction.svg": {
+      "sha256": "3c7d6d172b108d401a2cc19538f7ad84d7822dc235ca54ee232aade8693523bc",
+      "bytes": 14531
+    }
+  }
+}

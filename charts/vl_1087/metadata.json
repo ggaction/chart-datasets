@@ -1,0 +1,124 @@
+{
+  "id": "vl_1087",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f5e7b11f53fe4d27838e151caca760b8344207ba39fd35d862eafe354e798c59",
+      "actions": 9,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "d4f656bb07b58bbd5964cb00ca45fb9ecf7550e40da86bc1c218ccee598b0dd6",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "22a9acf9065e6e46fc6ce8c70611a50b6f581ea447d826f4f422a0cdf5441d25",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "5832a8efee11298107297958697f10b05049106cba42422c5e90b00171aa158a",
+      "actions": 14,
+      "topOptions": 27
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f425b5ec75b05e036bc8ed1767be5c9d1aafc30143c96b6bcc506c8f31b9977a",
+      "actions": 15,
+      "topOptions": 29
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "689411882593b668c5cd75e5968d5acff2338c18dca2094a79ee935e16ba54b0",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "295b548801507da3e68a47dc05fb8090649bfdd9cfb9f47dffa0361360a88ddf",
+      "actions": 17,
+      "topOptions": 34
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "90f30d7e3246c33eb1c948c7fc304fed84bc8397090de0db589301a0b9b512c5",
+      "actions": 18,
+      "topOptions": 35
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/data_ONS-mgsz.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full final reviewed code, all contiguous stages source/family/current-hash PASS. Reached user8-stagecap; remaining exact ownership frontier disclosed: [{\"mandatory\":true,\"owner\":\"editXAxis\",\"boundary\":\"editXAxis -> existing line/ticksAndLabels/title component editors\",\"properties\":[\"ticksAndLabels\"],\"note\":\"An existing whole-axis edit is still an aggregate owner. Keep creation geometry and refine the related X/Y family together.\"}]"
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "53b00f4e1543dd8abfc366ad0c9be2ae373d148d7fbc8173cd68cf3f05916747",
+      "bytes": 840
+    },
+    "data.json": {
+      "sha256": "5cde65928ac3f44a485af73377533fddc6e796cb08dfd949c782b2d2b1948c8c",
+      "bytes": 10157
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d5777a420d10a0de84e500d9a4bc4a5aa180832eb05000768faecd2c3888dc74",
+      "bytes": 12945
+    },
+    "G1.gg.mjs": {
+      "sha256": "f5e7b11f53fe4d27838e151caca760b8344207ba39fd35d862eafe354e798c59",
+      "bytes": 1927
+    },
+    "G2.gg.mjs": {
+      "sha256": "d4f656bb07b58bbd5964cb00ca45fb9ecf7550e40da86bc1c218ccee598b0dd6",
+      "bytes": 1931
+    },
+    "G3.gg.mjs": {
+      "sha256": "22a9acf9065e6e46fc6ce8c70611a50b6f581ea447d826f4f422a0cdf5441d25",
+      "bytes": 1873
+    },
+    "G4.gg.mjs": {
+      "sha256": "5832a8efee11298107297958697f10b05049106cba42422c5e90b00171aa158a",
+      "bytes": 1914
+    },
+    "G5.gg.mjs": {
+      "sha256": "f425b5ec75b05e036bc8ed1767be5c9d1aafc30143c96b6bcc506c8f31b9977a",
+      "bytes": 1878
+    },
+    "G6.gg.mjs": {
+      "sha256": "689411882593b668c5cd75e5968d5acff2338c18dca2094a79ee935e16ba54b0",
+      "bytes": 1936
+    },
+    "G7.gg.mjs": {
+      "sha256": "295b548801507da3e68a47dc05fb8090649bfdd9cfb9f47dffa0361360a88ddf",
+      "bytes": 1952
+    },
+    "G8.gg.mjs": {
+      "sha256": "90f30d7e3246c33eb1c948c7fc304fed84bc8397090de0db589301a0b9b512c5",
+      "bytes": 2003
+    },
+    "vega-lite.svg": {
+      "sha256": "924ab888255c60facb9d87dff97ee086521be91c9d715e9494c27e506e986186",
+      "bytes": 8394
+    },
+    "ggaction.svg": {
+      "sha256": "2abd3711700d2f762a884105ad35de2c8c704b7c0d73b2d8ea5d33c8ce4b7ffa",
+      "bytes": 6899
+    }
+  }
+}

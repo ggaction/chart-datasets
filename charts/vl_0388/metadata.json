@@ -1,0 +1,113 @@
+{
+  "id": "vl_0388",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "97d408c4320c05874cd3f2eb6aee175759764035a0129c3930836fa95c44e65e",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "add729abb84fc19dc531eb689aecd95f644ddd130472494ed3748b2290657b97",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4ffdf2577720e5bc7776439998bb773eb038e1bf23f4bdb65ffb8e766f655c7f",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "47e3caecff9d166f6fbcbb3cc801f74f589936532cefe4af42e504ef14ffcb2d",
+      "actions": 19,
+      "topOptions": 40
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "2465a249607946c6297e58c6168eeb292cdfee5ff4300db324377eb67d4ecb88",
+      "actions": 20,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "37df99a4dfa8e484ae8f5b2d44f8b8206b07457de6eaacc9cb0853caf9e4bd9a",
+      "actions": 20,
+      "topOptions": 44
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "a51a33bf525d133754e1fef57e62a03ad5a9d572a636f43a3db31b74dfa027f6",
+      "actions": 22,
+      "topOptions": 46
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/productivity/BSD_modelPercentiles.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed full accepted G7 and GLM stop: focused paired line/ticks/labels and Xtitle700, charttitle/subtitle paint and scale policies exhausted; remaining source-default pointopacity bridge and protected geometry cannot create another stage. Honest7-stage profile."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "c5d78bb3c3cbabc1ff38a5f59ed5c999a836a2e27d6299928f439c05d00f1716",
+      "bytes": 1264
+    },
+    "data.json": {
+      "sha256": "c66937f312bb415e83def3fbf31e1c33442a8e0a958a4ecefd3a7435d17b5b32",
+      "bytes": 911
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8b9aef8204ccf7f60c9a20d8c250e17d7e2e6d4c15cff280ae0f4a579e8b35ef",
+      "bytes": 2287
+    },
+    "G1.gg.mjs": {
+      "sha256": "97d408c4320c05874cd3f2eb6aee175759764035a0129c3930836fa95c44e65e",
+      "bytes": 2215
+    },
+    "G2.gg.mjs": {
+      "sha256": "add729abb84fc19dc531eb689aecd95f644ddd130472494ed3748b2290657b97",
+      "bytes": 2175
+    },
+    "G3.gg.mjs": {
+      "sha256": "4ffdf2577720e5bc7776439998bb773eb038e1bf23f4bdb65ffb8e766f655c7f",
+      "bytes": 2368
+    },
+    "G4.gg.mjs": {
+      "sha256": "47e3caecff9d166f6fbcbb3cc801f74f589936532cefe4af42e504ef14ffcb2d",
+      "bytes": 2382
+    },
+    "G5.gg.mjs": {
+      "sha256": "2465a249607946c6297e58c6168eeb292cdfee5ff4300db324377eb67d4ecb88",
+      "bytes": 2363
+    },
+    "G6.gg.mjs": {
+      "sha256": "37df99a4dfa8e484ae8f5b2d44f8b8206b07457de6eaacc9cb0853caf9e4bd9a",
+      "bytes": 2398
+    },
+    "G7.gg.mjs": {
+      "sha256": "a51a33bf525d133754e1fef57e62a03ad5a9d572a636f43a3db31b74dfa027f6",
+      "bytes": 2384
+    },
+    "vega-lite.svg": {
+      "sha256": "edace48359fa8d17b8044c977fee92a35ec41d1c596d89ad68db4d67a047fe73",
+      "bytes": 10378
+    },
+    "ggaction.svg": {
+      "sha256": "c9c805fb8ed890fa1ef3398d786f8ba3b3941cb144dc473bf6c8ed75a3d34f57",
+      "bytes": 6820
+    }
+  }
+}

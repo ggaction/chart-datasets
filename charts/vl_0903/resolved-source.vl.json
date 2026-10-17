@@ -1,0 +1,1067 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Total Trade Balance in £m ",
+    "anchor": "start",
+    "subtitle": "Source: ONS",
+    "subtitleFontSize": 10
+  },
+  "config": {
+    "background": "#fff0d8"
+  },
+  "height": 150,
+  "width": 200,
+  "data": {
+    "values": [
+      {
+        "date": "1997 Q1",
+        "label": "1997 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "15017",
+        "year": "1997"
+      },
+      {
+        "date": "1997 Q2",
+        "label": "1997 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "12928",
+        "year": "1997"
+      },
+      {
+        "date": "1997 Q3",
+        "label": "1997 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "12767",
+        "year": "1997"
+      },
+      {
+        "date": "1997 Q4",
+        "label": "1997 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "13667",
+        "year": "1997"
+      },
+      {
+        "date": "1998 Q1",
+        "label": "1998 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "11642",
+        "year": "1998"
+      },
+      {
+        "date": "1998 Q2",
+        "label": "1998 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "9461",
+        "year": "1998"
+      },
+      {
+        "date": "1998 Q3",
+        "label": "1998 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "8177",
+        "year": "1998"
+      },
+      {
+        "date": "1998 Q4",
+        "label": "1998 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "7639",
+        "year": "1998"
+      },
+      {
+        "date": "1999 Q1",
+        "label": "1999 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "5057",
+        "year": "1999"
+      },
+      {
+        "date": "1999 Q2",
+        "label": "1999 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "5172",
+        "year": "1999"
+      },
+      {
+        "date": "1999 Q3",
+        "label": "1999 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "6531",
+        "year": "1999"
+      },
+      {
+        "date": "1999 Q4",
+        "label": "1999 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "6391",
+        "year": "1999"
+      },
+      {
+        "date": "2000 Q1",
+        "label": "2000 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "7626",
+        "year": "2000"
+      },
+      {
+        "date": "2000 Q2",
+        "label": "2000 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "8042",
+        "year": "2000"
+      },
+      {
+        "date": "2000 Q3",
+        "label": "2000 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "6277",
+        "year": "2000"
+      },
+      {
+        "date": "2000 Q4",
+        "label": "2000 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "5527",
+        "year": "2000"
+      },
+      {
+        "date": "2001 Q1",
+        "label": "2001 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "7475",
+        "year": "2001"
+      },
+      {
+        "date": "2001 Q2",
+        "label": "2001 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "2722",
+        "year": "2001"
+      },
+      {
+        "date": "2001 Q3",
+        "label": "2001 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "1112",
+        "year": "2001"
+      },
+      {
+        "date": "2001 Q4",
+        "label": "2001 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "1841",
+        "year": "2001"
+      },
+      {
+        "date": "2002 Q1",
+        "label": "2002 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-76",
+        "year": "2002"
+      },
+      {
+        "date": "2002 Q2",
+        "label": "2002 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-1472",
+        "year": "2002"
+      },
+      {
+        "date": "2002 Q3",
+        "label": "2002 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-1405",
+        "year": "2002"
+      },
+      {
+        "date": "2002 Q4",
+        "label": "2002 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-5315",
+        "year": "2002"
+      },
+      {
+        "date": "2003 Q1",
+        "label": "2003 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-1693",
+        "year": "2003"
+      },
+      {
+        "date": "2003 Q2",
+        "label": "2003 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-3129",
+        "year": "2003"
+      },
+      {
+        "date": "2003 Q3",
+        "label": "2003 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-3683",
+        "year": "2003"
+      },
+      {
+        "date": "2003 Q4",
+        "label": "2003 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-4424",
+        "year": "2003"
+      },
+      {
+        "date": "2004 Q1",
+        "label": "2004 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-4784",
+        "year": "2004"
+      },
+      {
+        "date": "2004 Q2",
+        "label": "2004 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-5250",
+        "year": "2004"
+      },
+      {
+        "date": "2004 Q3",
+        "label": "2004 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-6600",
+        "year": "2004"
+      },
+      {
+        "date": "2004 Q4",
+        "label": "2004 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-5313",
+        "year": "2004"
+      },
+      {
+        "date": "2005 Q1",
+        "label": "2005 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-8086",
+        "year": "2005"
+      },
+      {
+        "date": "2005 Q2",
+        "label": "2005 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-5449",
+        "year": "2005"
+      },
+      {
+        "date": "2005 Q3",
+        "label": "2005 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-4697",
+        "year": "2005"
+      },
+      {
+        "date": "2005 Q4",
+        "label": "2005 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-3848",
+        "year": "2005"
+      },
+      {
+        "date": "2006 Q1",
+        "label": "2006 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-4195",
+        "year": "2006"
+      },
+      {
+        "date": "2006 Q2",
+        "label": "2006 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-3421",
+        "year": "2006"
+      },
+      {
+        "date": "2006 Q3",
+        "label": "2006 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-3661",
+        "year": "2006"
+      },
+      {
+        "date": "2006 Q4",
+        "label": "2006 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-4405",
+        "year": "2006"
+      },
+      {
+        "date": "2007 Q1",
+        "label": "2007 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-7606",
+        "year": "2007"
+      },
+      {
+        "date": "2007 Q2",
+        "label": "2007 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-2109",
+        "year": "2007"
+      },
+      {
+        "date": "2007 Q3",
+        "label": "2007 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-5131",
+        "year": "2007"
+      },
+      {
+        "date": "2007 Q4",
+        "label": "2007 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-626",
+        "year": "2007"
+      },
+      {
+        "date": "2008 Q1",
+        "label": "2008 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-919",
+        "year": "2008"
+      },
+      {
+        "date": "2008 Q2",
+        "label": "2008 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "544",
+        "year": "2008"
+      },
+      {
+        "date": "2008 Q3",
+        "label": "2008 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "2983",
+        "year": "2008"
+      },
+      {
+        "date": "2008 Q4",
+        "label": "2008 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "4773",
+        "year": "2008"
+      },
+      {
+        "date": "2009 Q1",
+        "label": "2009 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "1303",
+        "year": "2009"
+      },
+      {
+        "date": "2009 Q2",
+        "label": "2009 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "486",
+        "year": "2009"
+      },
+      {
+        "date": "2009 Q3",
+        "label": "2009 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-3623",
+        "year": "2009"
+      },
+      {
+        "date": "2009 Q4",
+        "label": "2009 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-86",
+        "year": "2009"
+      },
+      {
+        "date": "2010 Q1",
+        "label": "2010 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-2116",
+        "year": "2010"
+      },
+      {
+        "date": "2010 Q2",
+        "label": "2010 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-1171",
+        "year": "2010"
+      },
+      {
+        "date": "2010 Q3",
+        "label": "2010 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-4213",
+        "year": "2010"
+      },
+      {
+        "date": "2010 Q4",
+        "label": "2010 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-1766",
+        "year": "2010"
+      },
+      {
+        "date": "2011 Q1",
+        "label": "2011 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "6422",
+        "year": "2011"
+      },
+      {
+        "date": "2011 Q2",
+        "label": "2011 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "600",
+        "year": "2011"
+      },
+      {
+        "date": "2011 Q3",
+        "label": "2011 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "2716",
+        "year": "2011"
+      },
+      {
+        "date": "2011 Q4",
+        "label": "2011 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "3687",
+        "year": "2011"
+      },
+      {
+        "date": "2012 Q1",
+        "label": "2012 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "7086",
+        "year": "2012"
+      },
+      {
+        "date": "2012 Q2",
+        "label": "2012 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-2336",
+        "year": "2012"
+      },
+      {
+        "date": "2012 Q3",
+        "label": "2012 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "1309",
+        "year": "2012"
+      },
+      {
+        "date": "2012 Q4",
+        "label": "2012 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "1013",
+        "year": "2012"
+      },
+      {
+        "date": "2013 Q1",
+        "label": "2013 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "2953",
+        "year": "2013"
+      },
+      {
+        "date": "2013 Q2",
+        "label": "2013 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-2442",
+        "year": "2013"
+      },
+      {
+        "date": "2013 Q3",
+        "label": "2013 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-2675",
+        "year": "2013"
+      },
+      {
+        "date": "2013 Q4",
+        "label": "2013 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-9313",
+        "year": "2013"
+      },
+      {
+        "date": "2014 Q1",
+        "label": "2014 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-5876",
+        "year": "2014"
+      },
+      {
+        "date": "2014 Q2",
+        "label": "2014 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-4118",
+        "year": "2014"
+      },
+      {
+        "date": "2014 Q3",
+        "label": "2014 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-9362",
+        "year": "2014"
+      },
+      {
+        "date": "2014 Q4",
+        "label": "2014 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-14518",
+        "year": "2014"
+      },
+      {
+        "date": "2015 Q1",
+        "label": "2015 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-14207",
+        "year": "2015"
+      },
+      {
+        "date": "2015 Q2",
+        "label": "2015 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-5267",
+        "year": "2015"
+      },
+      {
+        "date": "2015 Q3",
+        "label": "2015 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-9985",
+        "year": "2015"
+      },
+      {
+        "date": "2015 Q4",
+        "label": "2015 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-11709",
+        "year": "2015"
+      },
+      {
+        "date": "2016 Q1",
+        "label": "2016 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-11282",
+        "year": "2016"
+      },
+      {
+        "date": "2016 Q2",
+        "label": "2016 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-8576",
+        "year": "2016"
+      },
+      {
+        "date": "2016 Q3",
+        "label": "2016 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-19105",
+        "year": "2016"
+      },
+      {
+        "date": "2016 Q4",
+        "label": "2016 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-8436",
+        "year": "2016"
+      },
+      {
+        "date": "2017 Q1",
+        "label": "2017 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-7242",
+        "year": "2017"
+      },
+      {
+        "date": "2017 Q2",
+        "label": "2017 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-8638",
+        "year": "2017"
+      },
+      {
+        "date": "2017 Q3",
+        "label": "2017 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-5625",
+        "year": "2017"
+      },
+      {
+        "date": "2017 Q4",
+        "label": "2017 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-5619",
+        "year": "2017"
+      },
+      {
+        "date": "2018 Q1",
+        "label": "2018 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-5141",
+        "year": "2018"
+      },
+      {
+        "date": "2018 Q2",
+        "label": "2018 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-6236",
+        "year": "2018"
+      },
+      {
+        "date": "2018 Q3",
+        "label": "2018 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-4735",
+        "year": "2018"
+      },
+      {
+        "date": "2018 Q4",
+        "label": "2018 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-13167",
+        "year": "2018"
+      },
+      {
+        "date": "2019 Q1",
+        "label": "2019 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-26890",
+        "year": "2019"
+      },
+      {
+        "date": "2019 Q2",
+        "label": "2019 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-12356",
+        "year": "2019"
+      },
+      {
+        "date": "2019 Q3",
+        "label": "2019 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-4420",
+        "year": "2019"
+      },
+      {
+        "date": "2019 Q4",
+        "label": "2019 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "7518",
+        "year": "2019"
+      },
+      {
+        "date": "2020 Q1",
+        "label": "2020 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-33",
+        "year": "2020"
+      },
+      {
+        "date": "2020 Q2",
+        "label": "2020 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "18833",
+        "year": "2020"
+      },
+      {
+        "date": "2020 Q3",
+        "label": "2020 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-3880",
+        "year": "2020"
+      },
+      {
+        "date": "2020 Q4",
+        "label": "2020 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-17523",
+        "year": "2020"
+      },
+      {
+        "date": "2021 Q1",
+        "label": "2021 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-6745",
+        "year": "2021"
+      },
+      {
+        "date": "2021 Q2",
+        "label": "2021 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-1239",
+        "year": "2021"
+      },
+      {
+        "date": "2021 Q3",
+        "label": "2021 Q3",
+        "month": "",
+        "quarter": "Q3",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-13742",
+        "year": "2021"
+      },
+      {
+        "date": "2021 Q4",
+        "label": "2021 Q4",
+        "month": "",
+        "quarter": "Q4",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "96",
+        "year": "2021"
+      },
+      {
+        "date": "2022 Q1",
+        "label": "2022 Q1",
+        "month": "",
+        "quarter": "Q1",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-25780",
+        "year": "2022"
+      },
+      {
+        "date": "2022 Q2",
+        "label": "2022 Q2",
+        "month": "",
+        "quarter": "Q2",
+        "sourceDataset": "MRET",
+        "updateDate": "2022-10-11T23:00:00.000Z",
+        "value": "-17510",
+        "year": "2022"
+      }
+    ],
+    "format": {
+      "parse": {
+        "year": "date"
+      }
+    }
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#fe921f"
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "title": "Year",
+      "axis": {
+        "labelSeparation": 1,
+        "domainColor": "#fffff",
+        "gridColor": "#00000017"
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Total Trade Balance",
+      "axis": {
+        "gridColor": "#00000017"
+      }
+    }
+  }
+}

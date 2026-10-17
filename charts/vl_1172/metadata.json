@@ -1,0 +1,113 @@
+{
+  "id": "vl_1172",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c9040ba28b5bdcfa383e7fd52755e9e55691bad020a216584005411e9f0c9ea1",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e97bc46eb3402af75311b99f6e1bfce1390cedbffa7e0ece77d82ec1c058c8f0",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "575d1a0a65d877469aa236b64c481d76d4dca6074df25c2ad38c10a52f7694eb",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "91cddd2727c7060bc38ce3b71566fbdaa1631f8e130151d58e54095fcdebdaac",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "3d22cc23ee77889a6432a069595ef7ca20e119753e958711ce54584f6b8e432f",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "6266db1f1e34175eef9ee24cb47a91d92896fdd41acfbce9a59bf9dd95998e6a",
+      "actions": 21,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "6e9ca0b41bb6e9be33accb8ddc93649ed945df94df8b74e198407d5e74ddeec2",
+      "actions": 23,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/ConorQuah/ConorQuah.github.io/main/apple_R%26D_csv.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Actual terminal code/current frontier has no mandatory boundaries. Paired axes/scales/formats/grid paints already focused; stroke is semantic channel; source-default opacity0.7 retained and optional only, never a standalone stage. Native sans-serif retained without claiming it needs movement. Seven meaningful verified stages with all15 source points."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "83561eb19f88c7fbd1bd9732b8564724cba0bbdad7ef7270e2b7884d0f7f767c",
+      "bytes": 529
+    },
+    "data.json": {
+      "sha256": "4aad654520d8c229a36bd260b3387a804380c367a8622a1a71112ab0221992d0",
+      "bytes": 1936
+    },
+    "resolved-source.vl.json": {
+      "sha256": "599faf71e5fd0a6677fb9bc34060aa8fa59449abb9fdbc3e7fd7a0218a3c4657",
+      "bytes": 2813
+    },
+    "G1.gg.mjs": {
+      "sha256": "c9040ba28b5bdcfa383e7fd52755e9e55691bad020a216584005411e9f0c9ea1",
+      "bytes": 2329
+    },
+    "G2.gg.mjs": {
+      "sha256": "e97bc46eb3402af75311b99f6e1bfce1390cedbffa7e0ece77d82ec1c058c8f0",
+      "bytes": 2347
+    },
+    "G3.gg.mjs": {
+      "sha256": "575d1a0a65d877469aa236b64c481d76d4dca6074df25c2ad38c10a52f7694eb",
+      "bytes": 2307
+    },
+    "G4.gg.mjs": {
+      "sha256": "91cddd2727c7060bc38ce3b71566fbdaa1631f8e130151d58e54095fcdebdaac",
+      "bytes": 2365
+    },
+    "G5.gg.mjs": {
+      "sha256": "3d22cc23ee77889a6432a069595ef7ca20e119753e958711ce54584f6b8e432f",
+      "bytes": 2467
+    },
+    "G6.gg.mjs": {
+      "sha256": "6266db1f1e34175eef9ee24cb47a91d92896fdd41acfbce9a59bf9dd95998e6a",
+      "bytes": 2487
+    },
+    "G7.gg.mjs": {
+      "sha256": "6e9ca0b41bb6e9be33accb8ddc93649ed945df94df8b74e198407d5e74ddeec2",
+      "bytes": 2527
+    },
+    "vega-lite.svg": {
+      "sha256": "ea093029fbfd4b8e92334c427335bf13e548692124aa58bb490c9eab4ed24d7e",
+      "bytes": 11646
+    },
+    "ggaction.svg": {
+      "sha256": "646313f1c36c844359e04ec4c29f7a6cc7e2c3cd5f73d0504689dd9223c5bbb4",
+      "bytes": 7008
+    }
+  }
+}

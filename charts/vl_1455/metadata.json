@@ -1,0 +1,102 @@
+{
+  "id": "vl_1455",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "14b7c1a9f5427551e580bd8582b600b8cd07f85cb43261f1afa13727e6cae0f4",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "d2189eefae92fec63f96f6c9c1abdc67e7b4f34243e822c31bbde3f9b265261f",
+      "actions": 12,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "abff35716d3b336ca202b207fa41c92cb1821160d7c63ccfccd0b452b8a5a39e",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "192adc25482bbe973abf8cca0b2778468ba287fdfadbd2fa3f5214b97d0f7dbd",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7085f7a2e00e48ca5cd8a08f5ff9393e8439e3359d129d346bce7895e6161aa5",
+      "actions": 20,
+      "topOptions": 40
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "44d73677d47705ea107356cfc8e178c58f9481ac3c5d5d13297c7606b69cb1e5",
+      "actions": 22,
+      "topOptions": 40
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/GraemeHawker/GBEnergyDataManager/20f06b76bfae3b354000dc3729656e9674c244cc/BMRA/static/BMRA/projected_MEs_2020.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full final program and source reread: complete paired axes now use focused line/ticks/labels/title editors, both grid directions are focused, existing native blue width2 line declaration is not a meaningful independent stage, and remaining creation values are protected source geometry. End at six genuine stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "708a76e296053dd00905f6165f331e8c5eb96c0f40411f409ee2a48ccb3f308d",
+      "bytes": 571
+    },
+    "data.json": {
+      "sha256": "a6373d7071abb6418da7bba7ba3a655ec4f2aeae768530fefcc1348788413c93",
+      "bytes": 1350924
+    },
+    "resolved-source.vl.json": {
+      "sha256": "dedd8b5f9924c3079dd6b9d85999b5633851269f04b85edf13951f76edbd902b",
+      "bytes": 1673984
+    },
+    "G1.gg.mjs": {
+      "sha256": "14b7c1a9f5427551e580bd8582b600b8cd07f85cb43261f1afa13727e6cae0f4",
+      "bytes": 1929
+    },
+    "G2.gg.mjs": {
+      "sha256": "d2189eefae92fec63f96f6c9c1abdc67e7b4f34243e822c31bbde3f9b265261f",
+      "bytes": 1905
+    },
+    "G3.gg.mjs": {
+      "sha256": "abff35716d3b336ca202b207fa41c92cb1821160d7c63ccfccd0b452b8a5a39e",
+      "bytes": 1963
+    },
+    "G4.gg.mjs": {
+      "sha256": "192adc25482bbe973abf8cca0b2778468ba287fdfadbd2fa3f5214b97d0f7dbd",
+      "bytes": 2141
+    },
+    "G5.gg.mjs": {
+      "sha256": "7085f7a2e00e48ca5cd8a08f5ff9393e8439e3359d129d346bce7895e6161aa5",
+      "bytes": 2137
+    },
+    "G6.gg.mjs": {
+      "sha256": "44d73677d47705ea107356cfc8e178c58f9481ac3c5d5d13297c7606b69cb1e5",
+      "bytes": 2123
+    },
+    "vega-lite.svg": {
+      "sha256": "0b8f24e03ad48b838c42ab08a2e71ca3a26438dd4a3b3a6f44c9161d4618abcc",
+      "bytes": 370074
+    },
+    "ggaction.svg": {
+      "sha256": "b0dca994a5b30240dd6d51e0ef5ffa8623930905bd7a94210173903f31f43e08",
+      "bytes": 576486
+    }
+  }
+}

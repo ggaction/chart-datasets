@@ -1,0 +1,58 @@
+{
+  "id": "vl_1880",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "0ad7766982ec937b40ae0e38b20c44d8393d0cb6bab677279e23114e73bb6668",
+      "actions": 10,
+      "topOptions": 28
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "7a914316c07b3a6a4746344999b19d450e1048a78fc14b66df2c89bcec238c49",
+      "actions": 12,
+      "topOptions": 32
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/nychealth/covid-vaccine-data/main/people/coverage-by-modzcta-allages.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 2 genuine ownership stages, 87 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "c1b3d7cc7b47e9930028c998d79bea19cd8aa493c25ba31240c2c8d349e17a15",
+      "bytes": 2396
+    },
+    "data.json": {
+      "sha256": "6a37966e0181a7eb4eed6755154bc47dcb09f5890faa60777028d7178e911c89",
+      "bytes": 105775
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8874995faa71a7eed7489788d31eb6e1a8d9ade79fb5c480faca05f63410971a",
+      "bytes": 121522
+    },
+    "G1.gg.mjs": {
+      "sha256": "0ad7766982ec937b40ae0e38b20c44d8393d0cb6bab677279e23114e73bb6668",
+      "bytes": 2569
+    },
+    "G2.gg.mjs": {
+      "sha256": "7a914316c07b3a6a4746344999b19d450e1048a78fc14b66df2c89bcec238c49",
+      "bytes": 2587
+    },
+    "vega-lite.svg": {
+      "sha256": "e3026187f8ede01da3e0e1ec49541b54f0c09c2e4cdc816d814259d3c5403817",
+      "bytes": 56149
+    },
+    "ggaction.svg": {
+      "sha256": "e8262302bc9a0c5bf1e8cd6baf6d88a4bb168ff628a5ade2aa53fa0c629f98b7",
+      "bytes": 30571
+    }
+  }
+}

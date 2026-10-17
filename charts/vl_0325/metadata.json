@@ -1,0 +1,113 @@
+{
+  "id": "vl_0325",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5185f1b5c3c2846b81e5d53944752b6f584c5037013a85c82742098d69e471ea",
+      "actions": 25,
+      "topOptions": 60
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "d7b46aa67d10df3934289a9abf34a56222186067ad9daa832bb14ee3172bb81b",
+      "actions": 26,
+      "topOptions": 64
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b62756077c24c683797fc5d3367c6b20bd1aa4eb891aea16745d1d77785843e4",
+      "actions": 28,
+      "topOptions": 66
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "2a0b0a5f0c47da1bff02af9bfa99c9c19ef49862e0f9347abc510827a4460406",
+      "actions": 30,
+      "topOptions": 68
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "462991ef90fdf41ea36b5dd71193c707eb914b5aeeacb20d58a632888d00b63d",
+      "actions": 32,
+      "topOptions": 74
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0d08d2624b3463ebb29cd4d8447f5dcd318b4e7475210680a7e09d123f5b8355",
+      "actions": 32,
+      "topOptions": 76
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "99782227fde63e50f9e554eed06c756209205ca57aaeebbc89772523baa0cac7",
+      "actions": 38,
+      "topOptions": 80
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/sadieward/sadieward.github.io/main/oecdimm_gdp.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 7 genuine ownership stages, 380 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed hash-bound Codex host frontier stop (model:null); original model plans/usage remain retained; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "7c60018d0c240675f4f8dac1bf1bd775ba6606e4a6d19cb3e0b989bb0e32a1eb",
+      "bytes": 2110
+    },
+    "data.json": {
+      "sha256": "49d3a86b38c756d9d0c00de478f4aac1a3a4bc90debdcb1a127117bfe6f58af8",
+      "bytes": 2508
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d75b934206319ed37f6498a83c36e52ac767b2fef5420ec4de56850dc9a7bfd9",
+      "bytes": 5059
+    },
+    "G1.gg.mjs": {
+      "sha256": "5185f1b5c3c2846b81e5d53944752b6f584c5037013a85c82742098d69e471ea",
+      "bytes": 2892
+    },
+    "G2.gg.mjs": {
+      "sha256": "d7b46aa67d10df3934289a9abf34a56222186067ad9daa832bb14ee3172bb81b",
+      "bytes": 2824
+    },
+    "G3.gg.mjs": {
+      "sha256": "b62756077c24c683797fc5d3367c6b20bd1aa4eb891aea16745d1d77785843e4",
+      "bytes": 2908
+    },
+    "G4.gg.mjs": {
+      "sha256": "2a0b0a5f0c47da1bff02af9bfa99c9c19ef49862e0f9347abc510827a4460406",
+      "bytes": 2962
+    },
+    "G5.gg.mjs": {
+      "sha256": "462991ef90fdf41ea36b5dd71193c707eb914b5aeeacb20d58a632888d00b63d",
+      "bytes": 3128
+    },
+    "G6.gg.mjs": {
+      "sha256": "0d08d2624b3463ebb29cd4d8447f5dcd318b4e7475210680a7e09d123f5b8355",
+      "bytes": 3163
+    },
+    "G7.gg.mjs": {
+      "sha256": "99782227fde63e50f9e554eed06c756209205ca57aaeebbc89772523baa0cac7",
+      "bytes": 3159
+    },
+    "vega-lite.svg": {
+      "sha256": "692ffed9295d745dd19df89b93aea17797fe83b87d94e8668d1501b572022dff",
+      "bytes": 18941
+    },
+    "ggaction.svg": {
+      "sha256": "3b3af2f41fc879ad372e488b9c2fdd8bb855e98b50aae7b99cfd4931d90fd356",
+      "bytes": 10137
+    }
+  }
+}

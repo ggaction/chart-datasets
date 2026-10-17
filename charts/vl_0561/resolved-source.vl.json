@@ -1,0 +1,154 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "﻿Type1": "Technical",
+        "Type2": "Sanitary and Phytosanitary (SPS)",
+        "Type3": "Initiated",
+        "Value": "18569"
+      },
+      {
+        "﻿Type1": "Technical",
+        "Type2": "Sanitary and Phytosanitary (SPS)",
+        "Type3": "In Force",
+        "Value": "3396"
+      },
+      {
+        "﻿Type1": "Technical",
+        "Type2": "Technical Barriers to Trade (TBT)",
+        "Type3": "Initiated",
+        "Value": "29047"
+      },
+      {
+        "﻿Type1": "Technical",
+        "Type2": "Technical Barriers to Trade (TBT)",
+        "Type3": "In Force",
+        "Value": "3431"
+      },
+      {
+        "﻿Type1": "Trade Defence",
+        "Type2": "Anti-Dumping",
+        "Type3": "Initiated",
+        "Value": "471"
+      },
+      {
+        "﻿Type1": "Trade Defence",
+        "Type2": "Anti-Dumping",
+        "Type3": "In Force",
+        "Value": "1972"
+      },
+      {
+        "﻿Type1": "Trade Defence",
+        "Type2": "Countervailing",
+        "Type3": "Initiated",
+        "Value": "81"
+      },
+      {
+        "﻿Type1": "Trade Defence",
+        "Type2": "Countervailing",
+        "Type3": "In Force",
+        "Value": "235"
+      },
+      {
+        "﻿Type1": "Trade Defence",
+        "Type2": "Safeguards",
+        "Type3": "Initiated",
+        "Value": "50"
+      },
+      {
+        "﻿Type1": "Trade Defence",
+        "Type2": "Safeguards",
+        "Type3": "In Force",
+        "Value": "71"
+      },
+      {
+        "﻿Type1": "Agricultural",
+        "Type2": "Special Safeguards",
+        "Type3": "In Force",
+        "Value": "652"
+      },
+      {
+        "﻿Type1": "Agricultural",
+        "Type2": "Tariff-rate quotas",
+        "Type3": "In Force",
+        "Value": "1636"
+      },
+      {
+        "﻿Type1": "Agricultural",
+        "Type2": "Export Subsidies",
+        "Type3": "In Force",
+        "Value": "1274"
+      },
+      {
+        "﻿Type1": "Other",
+        "Type2": "Quatitative Restrictions",
+        "Type3": "In Force",
+        "Value": "137"
+      },
+      {
+        "﻿Type1": "Other",
+        "Type2": "State Trading Enterprises",
+        "Type3": "In Force",
+        "Value": "429"
+      }
+    ]
+  },
+  "title": {
+    "fontSize": 13,
+    "text": "Barriers to trade",
+    "subtitle": [
+      "Data as of year-end 2021. Source: WTO",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start"
+  },
+  "width": 500,
+  "height": 300,
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "y": {
+      "field": "Type2",
+      "sort": {
+        "op": "sum",
+        "order": "descending",
+        "field": "Value"
+      },
+      "axis": {
+        "title": null
+      }
+    },
+    "x": {
+      "aggregate": "sum",
+      "field": "Value",
+      "axis": {
+        "title": "Number of Measures"
+      }
+    },
+    "color": {
+      "field": "Type3",
+      "legend": {
+        "orient": "none",
+        "columns": 13,
+        "legendX": -100,
+        "legendY": -30,
+        "offset": 10,
+        "title": null
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Type1",
+        "title": "Type"
+      },
+      {
+        "field": "Value",
+        "title": "Number of Measures"
+      }
+    ]
+  }
+}

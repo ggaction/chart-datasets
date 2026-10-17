@@ -1,0 +1,6125 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Cost of Christmas",
+  "data": {
+    "values": [
+      {
+        "year": "1997",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "190.7133319973946",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "7.829999923706055",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "24.35674667358398",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1997",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "184.983562707901",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "7.159999847412109",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "25.835693359375",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1997",
+        "region": "London",
+        "measure_n": "1",
+        "value": "180.2633307874203",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "London",
+        "measure_n": "2",
+        "value": "10.23999977111816",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "London",
+        "measure_n": "3",
+        "value": "17.60384178161621",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1997",
+        "region": "North",
+        "measure_n": "1",
+        "value": "186.6674230098724",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "North",
+        "measure_n": "2",
+        "value": "7.25",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "North",
+        "measure_n": "3",
+        "value": "25.74723052978516",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1997",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "175.6037776172161",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "7.519999980926514",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "23.35156631469727",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1997",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "185.8542219400406",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "6.920000076293945",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "26.85754585266113",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1997",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "201.2312853634357",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "7.28000020980835",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "27.64165878295898",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1997",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "180.8285458683968",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "8.170000076293945",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "22.13323593139648",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1997",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "182.3403769135475",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "7.349999904632568",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "24.80821418762207",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1997",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "178.7435472309589",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "7.329999923706055",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "24.38520431518555",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1997",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "174.6678692698479",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "7.349999904632568",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "23.76433563232422",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1997",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "185.6914993822575",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1997",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "7.110000133514404",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1997",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "26.11694717407227",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "204.6444701254368",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "8.140000343322754",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "25.14059638977051",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "190.3715333342552",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "7.360000133514404",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "25.86569786071777",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "London",
+        "measure_n": "1",
+        "value": "197.3908551037312",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "London",
+        "measure_n": "2",
+        "value": "10.69999980926514",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "London",
+        "measure_n": "3",
+        "value": "18.44774436950684",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "North",
+        "measure_n": "1",
+        "value": "176.4681159555912",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "North",
+        "measure_n": "2",
+        "value": "7.360000133514404",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "North",
+        "measure_n": "3",
+        "value": "23.97664642333984",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "180.2642552256584",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "7.699999809265137",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "23.41094207763672",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "203.4968798160553",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "7.340000152587891",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "27.72436904907227",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "192.7452781796455",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "7.630000114440918",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "25.26150321960449",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "195.0144869983196",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "8.539999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "22.83542060852051",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "190.3813001513481",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "7.630000114440918",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "24.9516773223877",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "189.9744859039783",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "7.449999809265137",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "25.49993133544922",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "185.7592553496361",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "7.769999980926514",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "23.90723991394043",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1998",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "200.0835626423359",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1998",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "7.46999979019165",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1998",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "26.78494834899902",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "201.5499997138977",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "8.449999809265137",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "23.85207176208496",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "196.3700007796288",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "7.710000038146973",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "25.46952056884766",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "London",
+        "measure_n": "1",
+        "value": "208.9849978685379",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "London",
+        "measure_n": "2",
+        "value": "11.14999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "London",
+        "measure_n": "3",
+        "value": "18.74304962158203",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "North",
+        "measure_n": "1",
+        "value": "200.3999990820885",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "North",
+        "measure_n": "2",
+        "value": "7.670000076293945",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "North",
+        "measure_n": "3",
+        "value": "26.12776947021484",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "189.8149987459183",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "8.029999732971191",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "23.63823318481445",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "203.7799994945526",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "7.570000171661377",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "26.91941833496094",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "199.5199993252754",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "8.079999923706055",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "24.69306945800781",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "199.3699994981289",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "8.869999885559082",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "22.47688865661621",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "189.9149987995625",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "7.809999942779541",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "24.31690216064453",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "195.9099991321564",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "7.730000019073486",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "25.34411430358887",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "192.6949986517429",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "8.079999923706055",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "23.84839057922363",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "1999",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "210.0200002789497",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "1999",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "7.710000038146973",
+        "measure": "Median wage"
+      },
+      {
+        "year": "1999",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "27.23994827270508",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "201.8099994659424",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "8.649999618530273",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "23.33063697814941",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "187.0099998116493",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "7.909999847412109",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "23.64222526550293",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "London",
+        "measure_n": "1",
+        "value": "210.5500008165836",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "London",
+        "measure_n": "2",
+        "value": "11.72999954223633",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "London",
+        "measure_n": "3",
+        "value": "17.94970321655273",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "North",
+        "measure_n": "1",
+        "value": "198.190000385046",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "North",
+        "measure_n": "2",
+        "value": "8",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "North",
+        "measure_n": "3",
+        "value": "24.77375030517578",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "193.3649996817112",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "8.289999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "23.3250904083252",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "197.3049989938736",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "7.78000020980835",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "25.36053848266602",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "188.4199989438057",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "8.229999542236328",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "22.89429092407227",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "195.2649992108345",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "9.220000267028809",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "21.17841529846191",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "211.9400012493134",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "8.079999923706055",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "26.23019790649414",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "190.76999771595",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "8.010000228881836",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "23.81647872924805",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "197.9749998152256",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "8.25",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "23.99696922302246",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2000",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "202.8149982690811",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2000",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "7.949999809265137",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2000",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "25.51132202148438",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "235.8549990653992",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "9.109999656677246",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "25.88968276977539",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "219.3300018012524",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "8.210000038146973",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "26.71498107910156",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "London",
+        "measure_n": "1",
+        "value": "227.970000565052",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "London",
+        "measure_n": "2",
+        "value": "12.39999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "London",
+        "measure_n": "3",
+        "value": "18.38467788696289",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "North",
+        "measure_n": "1",
+        "value": "199.3550019264221",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "North",
+        "measure_n": "2",
+        "value": "8.170000076293945",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "North",
+        "measure_n": "3",
+        "value": "24.40085601806641",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "209.3799991607666",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "8.640000343322754",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "24.23379516601563",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "196.5749995112419",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "8",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "24.57187461853027",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "213.0549999475479",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "8.640000343322754",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "24.65914344787598",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "206.9999997615814",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "9.720000267028809",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "21.29629516601563",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "220.710000783205",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "8.560000419616699",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "25.78387641906738",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "204.3349999189377",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "8.270000457763672",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "24.70797920227051",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "206.6050010919571",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "8.75",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "23.61199951171875",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2001",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "212.1250003576279",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2001",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "8.310000419616699",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2001",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "25.5264720916748",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "248.8599972128868",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "9.539999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "26.08595275878906",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "227.3599988222122",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "8.649999618530273",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "26.28439331054688",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "London",
+        "measure_n": "1",
+        "value": "218.8799995779991",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "London",
+        "measure_n": "2",
+        "value": "13.06999969482422",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "London",
+        "measure_n": "3",
+        "value": "16.74674797058105",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "North",
+        "measure_n": "1",
+        "value": "204.090000629425",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "North",
+        "measure_n": "2",
+        "value": "8.479999542236328",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "North",
+        "measure_n": "3",
+        "value": "24.06721878051758",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "211.4200018048286",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "9.109999656677246",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "23.20746612548828",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "224.2600004673004",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "8.399999618530273",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "26.6976203918457",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "235.1050015091896",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "9.140000343322754",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "25.72264671325684",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "232.1750002503395",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "10.34000015258789",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "22.45406150817871",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "223.3500010371208",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "8.939999580383301",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "24.98322296142578",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "211.7150009870529",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "8.529999732971191",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "24.82004737854004",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "226.0700006484985",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "9",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "25.11888885498047",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2002",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "209.1749988794327",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2002",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "8.680000305175781",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2002",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "24.09850120544434",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "255.5149995088577",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "9.880000114440918",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "25.86184120178223",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "258.4749985337257",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "9.069999694824219",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "28.49779510498047",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "London",
+        "measure_n": "1",
+        "value": "243.3150014877319",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "London",
+        "measure_n": "2",
+        "value": "13.53999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "London",
+        "measure_n": "3",
+        "value": "17.97008895874023",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "North",
+        "measure_n": "1",
+        "value": "201.9500015377998",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "North",
+        "measure_n": "2",
+        "value": "8.670000076293945",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "North",
+        "measure_n": "3",
+        "value": "23.29296493530273",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "228.9799991250038",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "9.350000381469727",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "24.48983764648438",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "230.3999985456467",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "8.640000343322754",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "26.66666603088379",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "218.0300000905991",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "9.399999618530273",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "23.19468116760254",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "237.049998998642",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "10.73999977111816",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "22.07169532775879",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "258.5549964904785",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "9.329999923706055",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "27.71221923828125",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "223.7699995040894",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "8.909999847412109",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "25.11447906494141",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "242.2699999213219",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "9.229999542236328",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "26.24810600280762",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2003",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "223.7700009942055",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2003",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "9.140000343322754",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2003",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "24.48249435424805",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "219.9799981713295",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "10.22000026702881",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "21.52446174621582",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "241.3699997663498",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "9.319999694824219",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "25.89806938171387",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "London",
+        "measure_n": "1",
+        "value": "242.1499999761581",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "London",
+        "measure_n": "2",
+        "value": "13.92000007629395",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "London",
+        "measure_n": "3",
+        "value": "17.39583396911621",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "North",
+        "measure_n": "1",
+        "value": "220.2399998903275",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "North",
+        "measure_n": "2",
+        "value": "9.119999885559082",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "North",
+        "measure_n": "3",
+        "value": "24.14912223815918",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "253.1099964380264",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "9.770000457763672",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "25.90685653686523",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "258.6099987030029",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "9.140000343322754",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "28.29430961608887",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "231.2650004327297",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "9.720000267028809",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "23.79269409179688",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "255.8949974179268",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "11.0600004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "23.13697814941406",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "236.599998742342",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "9.569999694824219",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "24.72309303283691",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "189.7399994134903",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "9.399999618530273",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "20.18510627746582",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "261.6599967479706",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "9.600000381469727",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "27.25624847412109",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2004",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "221.0049998760223",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2004",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "9.470000267028809",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2004",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "23.33738136291504",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "232.7099978625774",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "10.36999988555908",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "22.44069480895996",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "269.2149974107742",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "9.819999694824219",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "27.41497039794922",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "London",
+        "measure_n": "1",
+        "value": "239.9699983000755",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "London",
+        "measure_n": "2",
+        "value": "14.44999980926514",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "London",
+        "measure_n": "3",
+        "value": "16.60692024230957",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "North",
+        "measure_n": "1",
+        "value": "218.0050012469292",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "North",
+        "measure_n": "2",
+        "value": "9.550000190734863",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "North",
+        "measure_n": "3",
+        "value": "22.82774925231934",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "249.0649961829185",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "10.10999965667725",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "24.6355094909668",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "216.2249978780746",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "9.5",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "22.76052665710449",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "249.0899974107742",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "10.09000015258789",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "24.68681716918945",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "251.0100010037422",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "11.22999954223633",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "22.35173797607422",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "223.3549993038177",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "9.890000343322754",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "22.58392143249512",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "192.7700017094612",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "9.619999885559082",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "20.03846168518066",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "244.3000005781651",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "10",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "24.43000030517578",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2005",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "237.6450024843216",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2005",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "9.819999694824219",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2005",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "24.20010375976563",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "235.2149996459484",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "10.88000011444092",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "21.61902618408203",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "271.4099987745285",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "10.22000026702881",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "26.5567512512207",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "London",
+        "measure_n": "1",
+        "value": "249.4949980974197",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "London",
+        "measure_n": "2",
+        "value": "14.78999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "London",
+        "measure_n": "3",
+        "value": "16.86916732788086",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "North",
+        "measure_n": "1",
+        "value": "208.6650029420853",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "North",
+        "measure_n": "2",
+        "value": "9.939999580383301",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "North",
+        "measure_n": "3",
+        "value": "20.99245643615723",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "255.6300014853477",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "10.46000003814697",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "24.43881416320801",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "230.2400006651878",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "10",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "23.02400016784668",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "254.7249999344349",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "10.67000007629395",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "23.87300872802734",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "235.0349998772144",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "11.75",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "20.00297927856445",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "245.1149995625019",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "10.28999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "23.82069969177246",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "202.9099986553192",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "10",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "20.29100036621094",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "261.1249985396862",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "10.28999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "25.37657928466797",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2006",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "277.5550009608269",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2006",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "10.14000034332275",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2006",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "27.37228775024414",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "236.0100023150444",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "11.09000015258789",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "21.28133392333984",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "298.9699984788895",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "10.25",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "29.16780471801758",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "London",
+        "measure_n": "1",
+        "value": "269.4249983429909",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "London",
+        "measure_n": "2",
+        "value": "15.25",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "London",
+        "measure_n": "3",
+        "value": "17.66721343994141",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "North",
+        "measure_n": "1",
+        "value": "185.0700013637543",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "North",
+        "measure_n": "2",
+        "value": "10.14000034332275",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "North",
+        "measure_n": "3",
+        "value": "18.25147819519043",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "279.3049981594086",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "10.84000015258789",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "25.76614379882813",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "242.3750003874302",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "9.729999542236328",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "24.91007232666016",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "264.6349983215332",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "10.97999954223633",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "24.10154914855957",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "252.0899991393089",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "12.03999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "20.93770790100098",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "256.8599989414215",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "10.53999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "24.37001991271973",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "211.1650007367134",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "10.10000038146973",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "20.90742492675781",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "290.6999981403351",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "10.52999973297119",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "27.60683822631836",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2007",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "280.325001001358",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2007",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "10.36999988555908",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2007",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "27.03230476379395",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "263.2850004434586",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "11.52000045776367",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "22.85459899902344",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "329.0199978947639",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "10.8100004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "30.43663215637207",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "London",
+        "measure_n": "1",
+        "value": "309.8499975204468",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "London",
+        "measure_n": "2",
+        "value": "15.78999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "London",
+        "measure_n": "3",
+        "value": "19.62317848205566",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "North",
+        "measure_n": "1",
+        "value": "215.7550014853477",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "North",
+        "measure_n": "2",
+        "value": "10.46000003814697",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "North",
+        "measure_n": "3",
+        "value": "20.62667274475098",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "298.1599966883659",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "11.25",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "26.50311088562012",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "243.1599977016449",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "10.14000034332275",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "23.98027420043945",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "255.0350003242493",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "11.47999954223633",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "22.2155933380127",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "276.1649978756905",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "12.60999965667725",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "21.90047645568848",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "271.6600006222725",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "10.90999984741211",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "24.90009117126465",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "202.7750006318092",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "10.53999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "19.23861503601074",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "302.4650000929832",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "11",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "27.49681854248047",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2008",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "283.9549996256828",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2008",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "10.89999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2008",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "26.05091857910156",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "264.980000436306",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "11.81999969482422",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "22.41793632507324",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "316.4699997901917",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "11.30000019073486",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "28.00619506835938",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "London",
+        "measure_n": "1",
+        "value": "321.2749965190887",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "London",
+        "measure_n": "2",
+        "value": "16.38999938964844",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "London",
+        "measure_n": "3",
+        "value": "19.60189247131348",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "North",
+        "measure_n": "1",
+        "value": "253.0900048017502",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "North",
+        "measure_n": "2",
+        "value": "11.02999973297119",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "North",
+        "measure_n": "3",
+        "value": "22.94560432434082",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "315.4149971008301",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "11.63000011444092",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "27.12080764770508",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "261.6650013923645",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "10.85999965667725",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "24.09438323974609",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "282.0099962949753",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "11.97999954223633",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "23.54006767272949",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "315.7099988460541",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "12.98999977111816",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "24.30408096313477",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "306.0999965667725",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "11.32999992370605",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "27.01676940917969",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "221.9600011110306",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "11.03999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "20.10507202148438",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "331.4149982333183",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "11.47999954223633",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "28.86890411376953",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2009",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "296.5399971604347",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2009",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "11.30000019073486",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2009",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "26.24247741699219",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "283.5099960565567",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "12.10000038146973",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "23.43057823181152",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "324.9299991726875",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "11.32999992370605",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "28.67873001098633",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "London",
+        "measure_n": "1",
+        "value": "345.2699981331825",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "London",
+        "measure_n": "2",
+        "value": "16.77000045776367",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "London",
+        "measure_n": "3",
+        "value": "20.58855056762695",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "North",
+        "measure_n": "1",
+        "value": "254.5400019288063",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "North",
+        "measure_n": "2",
+        "value": "11.1899995803833",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "North",
+        "measure_n": "3",
+        "value": "22.74709701538086",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "274.0300016999245",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "11.75",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "23.32170295715332",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "269.7200031280518",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "10.78999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "24.99721908569336",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "283.0799996256828",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "12.14999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "23.29876518249512",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "312.9600005745888",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "13.18000030517578",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "23.74506759643555",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "313.8949965238571",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "11.39999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "27.53464889526367",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "251.0799996256828",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "11.27000045776367",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "22.27861404418945",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "359.2949982881546",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "11.56999969482422",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "31.05401992797852",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2010",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "300.159999191761",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2010",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "11.38000011444092",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2010",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "26.3760986328125",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "313.110003054142",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "12.17000007629395",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "25.72801971435547",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "325.1699990034103",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "11.28999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "28.80159378051758",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "London",
+        "measure_n": "1",
+        "value": "350.350002348423",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "London",
+        "measure_n": "2",
+        "value": "16.95999908447266",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "London",
+        "measure_n": "3",
+        "value": "20.65743064880371",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "North",
+        "measure_n": "1",
+        "value": "267.274998486042",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "North",
+        "measure_n": "2",
+        "value": "11.27000045776367",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "North",
+        "measure_n": "3",
+        "value": "23.71561622619629",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "303.1549995541573",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "11.60000038146973",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "26.1340503692627",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "286.6300020217896",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "11.0600004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "25.91591262817383",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "294.639997780323",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "12.27000045776367",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "24.01303863525391",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "326.4600007534027",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "13.38000011444092",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "24.39910316467285",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "295.7749985456467",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "11.5",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "25.71956443786621",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "269.6399974822998",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "11.39000034332275",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "23.67339706420898",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "388.6450004577637",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "11.57999992370605",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "33.56174468994141",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2011",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "323.6900002360344",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2011",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "11.44999980926514",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2011",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "28.26986885070801",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "367.1899989843369",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "12.27999973297119",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "29.90146636962891",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "318.7549986243248",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "11.47000026702881",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "27.79032135009766",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "London",
+        "measure_n": "1",
+        "value": "339.0000009536743",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "London",
+        "measure_n": "2",
+        "value": "17.11000061035156",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "London",
+        "measure_n": "3",
+        "value": "19.81297492980957",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "North",
+        "measure_n": "1",
+        "value": "248.6149995923042",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "North",
+        "measure_n": "2",
+        "value": "11.48999977111816",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "North",
+        "measure_n": "3",
+        "value": "21.63751220703125",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "307.0399996042252",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "11.85000038146973",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "25.91054725646973",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "277.1499977111816",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "11.35999965667725",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "24.39700698852539",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "283.8249955177307",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "12.52000045776367",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "22.66972732543945",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "321.5849970579147",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "13.63000011444092",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "23.59391021728516",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "292.8949978351593",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "11.68000030517578",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "25.07662582397461",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "277.8599965572357",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "11.40999984741211",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "24.35232162475586",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "385.8850003480911",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "11.73999977111816",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "32.8692512512207",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2012",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "327.4799997210503",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2012",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "11.56999969482422",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2012",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "28.30423545837402",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "336.0299985408783",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "12.72999954223633",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "26.39670181274414",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "323.3149951100349",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "11.69999980926514",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "27.63376045227051",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "London",
+        "measure_n": "1",
+        "value": "344.6799992918968",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "London",
+        "measure_n": "2",
+        "value": "17.15999984741211",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "London",
+        "measure_n": "3",
+        "value": "20.08624649047852",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "North",
+        "measure_n": "1",
+        "value": "253.3749994635582",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "North",
+        "measure_n": "2",
+        "value": "11.93000030517578",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "North",
+        "measure_n": "3",
+        "value": "21.23847389221191",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "303.2499972581863",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "12.19999980926514",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "24.85655784606934",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "279.2449991703033",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "11.46000003814697",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "24.36692810058594",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "298.134997189045",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "12.86999988555908",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "23.16511344909668",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "315.684999704361",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "13.64000034332275",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "23.1440601348877",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "303.4099967479706",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "12.0600004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "25.15837287902832",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "308.5299936532974",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "11.82999992370605",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "26.08030319213867",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "317.4299996495247",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "12.18000030517578",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "26.06157493591309",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2013",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "350.0749992132187",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2013",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "11.90999984741211",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2013",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "29.39336776733398",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "329.0199974179268",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "12.59000015258789",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "26.13343811035156",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "309.0249998569489",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "11.77000045776367",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "26.25530815124512",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "London",
+        "measure_n": "1",
+        "value": "346.6500002741814",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "London",
+        "measure_n": "2",
+        "value": "17.25",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "London",
+        "measure_n": "3",
+        "value": "20.09565162658691",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "North",
+        "measure_n": "1",
+        "value": "248.2549990415573",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "North",
+        "measure_n": "2",
+        "value": "12.14999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "North",
+        "measure_n": "3",
+        "value": "20.43251037597656",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "315.2249988913536",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "12.22000026702881",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "25.79582595825195",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "311.7600005269051",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "11.35999965667725",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "27.44366264343262",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "297.8049963116646",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "13.13000011444092",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "22.6812629699707",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "323.3299971222878",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "13.77999973297119",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "23.46371650695801",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "305.5899989008904",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "12.14000034332275",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "25.17215728759766",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "289.2149974703789",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "11.84000015258789",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "24.42694282531738",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "317.595000565052",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "11.96000003814697",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "26.55476570129395",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2014",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "329.8000009059906",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2014",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "11.78999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2014",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "27.97285842895508",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "356.4499981999397",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "12.77000045776367",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "27.91307640075684",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "290.1549998521805",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "11.82999992370605",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "24.52705001831055",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "London",
+        "measure_n": "1",
+        "value": "342.1100001335144",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "London",
+        "measure_n": "2",
+        "value": "17.1299991607666",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "London",
+        "measure_n": "3",
+        "value": "19.97139549255371",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "North",
+        "measure_n": "1",
+        "value": "248.7449988126755",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "North",
+        "measure_n": "2",
+        "value": "12.40999984741211",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "North",
+        "measure_n": "3",
+        "value": "20.04391670227051",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "308.2950008511543",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "12.36999988555908",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "24.92279815673828",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "325.2049966454506",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "11.97000026702881",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "27.16833686828613",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "293.3299986720085",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "13.39999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "21.89029884338379",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "325.9749999046326",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "14.0600004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "23.1845645904541",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "308.4099981784821",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "12.31999969482422",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "25.03327941894531",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "266.429997086525",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "12.0600004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "22.09203910827637",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "324.3999980688095",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "12.32999992370605",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "26.30981254577637",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2015",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "296.259995162487",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2015",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "12.14999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2015",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "24.3835391998291",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "362.6949989199638",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "13.17000007629395",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "27.53948402404785",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "282.6299983263016",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "12.03999996185303",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "23.47425270080566",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "London",
+        "measure_n": "1",
+        "value": "387.8849989175797",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "London",
+        "measure_n": "2",
+        "value": "17.52000045776367",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "London",
+        "measure_n": "3",
+        "value": "22.13955497741699",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "North",
+        "measure_n": "1",
+        "value": "280.6249980330467",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "North",
+        "measure_n": "2",
+        "value": "12.40999984741211",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "North",
+        "measure_n": "3",
+        "value": "22.61281204223633",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "318.7549973130226",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "12.76000022888184",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "24.98079872131348",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "315.4749994874001",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "12.14999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "25.96502113342285",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "304.2049965858459",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "13.5",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "22.5337028503418",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "343.8049989938736",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "14.3100004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "24.02550506591797",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "313.7499934434891",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "12.64999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "24.80237197875977",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "261.1399995088577",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "12.5",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "20.89119911193848",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "315.2049953341484",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "12.77999973297119",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "24.6639289855957",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2016",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "302.2399989366531",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2016",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "12.46000003814697",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2016",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "24.25682258605957",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "338.8899989724159",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "13.59000015258789",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "24.93671798706055",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "295.4799983501434",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "12.46000003814697",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "23.71428489685059",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "London",
+        "measure_n": "1",
+        "value": "401.5849980115891",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "London",
+        "measure_n": "2",
+        "value": "18.20999908447266",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "London",
+        "measure_n": "3",
+        "value": "22.05299377441406",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "North",
+        "measure_n": "1",
+        "value": "317.1299996972084",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "North",
+        "measure_n": "2",
+        "value": "12.93000030517578",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "North",
+        "measure_n": "3",
+        "value": "24.52668190002441",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "341.4399974346161",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "12.98999977111816",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "26.28483390808105",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "319.6899952292442",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "12.3100004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "25.96994209289551",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "369.9299985170364",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "13.84000015258789",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "26.72904586791992",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "362.7699994444847",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "14.55000019073486",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "24.93264579772949",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "354.9049987196922",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "13.09000015258789",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "27.11268043518066",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "273.2449959516525",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "12.52000045776367",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "21.82468032836914",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "335.0250008106232",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "12.89999961853027",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "25.97093200683594",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2017",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "313.9199968576431",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2017",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "12.5600004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2017",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "24.99362945556641",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "343.1649999022484",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "13.84000015258789",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "24.79515838623047",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "308.8949995040894",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "12.72000026702881",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "24.2841968536377",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "London",
+        "measure_n": "1",
+        "value": "382.1299981474876",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "London",
+        "measure_n": "2",
+        "value": "18.68000030517578",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "London",
+        "measure_n": "3",
+        "value": "20.45663833618164",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "North",
+        "measure_n": "1",
+        "value": "294.8699985742569",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "North",
+        "measure_n": "2",
+        "value": "12.86999988555908",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "North",
+        "measure_n": "3",
+        "value": "22.91142272949219",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "321.7300001978874",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "13.40999984741211",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "23.99179840087891",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "310.8099980950356",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "12.5600004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "24.74601745605469",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "366.9349987506866",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "14.3100004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "25.6418571472168",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "348.8399991393089",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "14.90999984741211",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "23.39637756347656",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "347.1699985265732",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "13.35999965667725",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "25.98577880859375",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "284.5749987959862",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "12.67000007629395",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "22.46053695678711",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "332.7399973273277",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "13.22000026702881",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "25.1694393157959",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2018",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "309.9000001549721",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2018",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "12.9399995803833",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2018",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "23.94899559020996",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "334.3850011825562",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "14.42000007629395",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "23.18897438049316",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "324.1999970078468",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "13.27000045776367",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "24.43104553222656",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "London",
+        "measure_n": "1",
+        "value": "399.5949985980988",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "London",
+        "measure_n": "2",
+        "value": "19.34000015258789",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "London",
+        "measure_n": "3",
+        "value": "20.66158103942871",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "North",
+        "measure_n": "1",
+        "value": "341.3999978899956",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "North",
+        "measure_n": "2",
+        "value": "13.55000019073486",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "North",
+        "measure_n": "3",
+        "value": "25.19557189941406",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "290.5999961495399",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "13.85999965667725",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "20.96681213378906",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "317.2450014352798",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "12.88000011444092",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "24.63082313537598",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "357.4299978017807",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "14.8100004196167",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "24.13436698913574",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "372.6149983406067",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "15.60999965667725",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "23.87027549743652",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "346.7399992346764",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "13.80000019073486",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "25.1260871887207",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "289.9299993515015",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "13.47000026702881",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "21.52412796020508",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "310.3299984931946",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "13.77999973297119",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "22.52031898498535",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2019",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "333.9450008869171",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2019",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "13.42000007629395",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2019",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "24.88412857055664",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "East Anglia",
+        "measure_n": "1",
+        "value": "367.4149995446205",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "East Anglia",
+        "measure_n": "2",
+        "value": "14.36999988555908",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "East Anglia",
+        "measure_n": "3",
+        "value": "25.56819725036621",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "East Midlands",
+        "measure_n": "1",
+        "value": "351.3700011372566",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "East Midlands",
+        "measure_n": "2",
+        "value": "13.77999973297119",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "East Midlands",
+        "measure_n": "3",
+        "value": "25.49854850769043",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "London",
+        "measure_n": "1",
+        "value": "401.04499822855",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "London",
+        "measure_n": "2",
+        "value": "20.1200008392334",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "London",
+        "measure_n": "3",
+        "value": "19.93265342712402",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "North",
+        "measure_n": "1",
+        "value": "338.4849999547005",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "North",
+        "measure_n": "2",
+        "value": "13.63000011444092",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "North",
+        "measure_n": "3",
+        "value": "24.83382225036621",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "North West",
+        "measure_n": "1",
+        "value": "309.6000004410744",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "North West",
+        "measure_n": "2",
+        "value": "14.42000007629395",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "North West",
+        "measure_n": "3",
+        "value": "21.47018051147461",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "Northern Ireland",
+        "measure_n": "1",
+        "value": "314.8199966549873",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "Northern Ireland",
+        "measure_n": "2",
+        "value": "12.93000030517578",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "Northern Ireland",
+        "measure_n": "3",
+        "value": "24.34802627563477",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "Scotland",
+        "measure_n": "1",
+        "value": "331.7900008559227",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "Scotland",
+        "measure_n": "2",
+        "value": "15.5",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "Scotland",
+        "measure_n": "3",
+        "value": "21.40580558776855",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "South East",
+        "measure_n": "1",
+        "value": "388.5649986863136",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "South East",
+        "measure_n": "2",
+        "value": "15.60999965667725",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "South East",
+        "measure_n": "3",
+        "value": "24.89205741882324",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "South West",
+        "measure_n": "1",
+        "value": "346.2899984121323",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "South West",
+        "measure_n": "2",
+        "value": "13.93000030517578",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "South West",
+        "measure_n": "3",
+        "value": "24.85929489135742",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "Wales",
+        "measure_n": "1",
+        "value": "301.5899982452393",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "Wales",
+        "measure_n": "2",
+        "value": "13.72999954223633",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "Wales",
+        "measure_n": "3",
+        "value": "21.96576881408691",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "West Midlands",
+        "measure_n": "1",
+        "value": "330.2549967169762",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "West Midlands",
+        "measure_n": "2",
+        "value": "14.07999992370605",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "West Midlands",
+        "measure_n": "3",
+        "value": "23.45561027526855",
+        "measure": "Cost: hours worked"
+      },
+      {
+        "year": "2020",
+        "region": "Yorkshire & Humber",
+        "measure_n": "1",
+        "value": "338.4499997496605",
+        "measure": "Basket cost"
+      },
+      {
+        "year": "2020",
+        "region": "Yorkshire & Humber",
+        "measure_n": "2",
+        "value": "13.65999984741211",
+        "measure": "Median wage"
+      },
+      {
+        "year": "2020",
+        "region": "Yorkshire & Humber",
+        "measure_n": "3",
+        "value": "24.77672004699707",
+        "measure": "Cost: hours worked"
+      }
+    ],
+    "format": {
+      "parse": {
+        "year": "date"
+      }
+    }
+  },
+  "config": {
+    "background": "#FcFdFd"
+  },
+  "facet": {
+    "column": {
+      "field": "region",
+      "type": "nominal",
+      "title": "Region"
+    }
+  },
+  "spec": {
+    "mark": {
+      "type": "line",
+      "point": false
+    },
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "temporal",
+        "title": "Year"
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": "£ or hours worked"
+      },
+      "color": {
+        "field": "measure",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "Basket cost",
+            "Cost: hours worked",
+            "Median wage"
+          ],
+          "range": [
+            "green",
+            "blue",
+            "red"
+          ]
+        }
+      },
+      "tooltip": [
+        {
+          "field": "region",
+          "type": "nominal",
+          "title": "Region"
+        },
+        {
+          "field": "year",
+          "type": "temporal",
+          "title": "Date",
+          "timeUnit": "year"
+        },
+        {
+          "field": "value",
+          "type": "nominal",
+          "title": "Value",
+          "format": ".0f"
+        }
+      ]
+    }
+  },
+  "columns": 4
+}

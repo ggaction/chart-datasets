@@ -1,0 +1,124 @@
+{
+  "id": "vl_0360",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "602c4639a07039c5a0c398bf89f9f86fa1f0dde53ba71b512a2835223faa0a04",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "dce30b6901e1e0fcd69853c242dd1051a42cce4e197f2f89db7a720dca9145f5",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "abb2535cff09a2f7f9c6057f6b795b2faf917fe5879e18686252e25f2108bde1",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "2767a000cbd332a58c278741561b5fa8d97acecf662e9321033083f8bb1ae471",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c9b2188761275a402a75f5596c1d0c0644224d42bc9588036952a87713d8900f",
+      "actions": 16,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "307224b50de27da78df119392abb2db127ee6ff68ca9b922f4494432527a6a62",
+      "actions": 18,
+      "topOptions": 33
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "3079d76b5672e25e1d3aa6a2d8c33466630019903c192aa3e12fe6782ac38a9a",
+      "actions": 20,
+      "topOptions": 35
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "3d485b62e2d5b49f8c11f32c2f5d4adc903aaa9cf9eca3fb547bf31bde4b6eab",
+      "actions": 22,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/GiltsInIssueClean.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct progressively focused public programs; full modules and source/family checks PASS. Final paired X temporal/Y grouped-number format transfer reviewed, source geometry/data/fonts preserved."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "eb756c268df1b27a2f6f67fbe9d059e4f4f4fdeb110233435ba76676d562cd40",
+      "bytes": 948
+    },
+    "data.json": {
+      "sha256": "b3b54f7afca82338b3b01d2f6e333f25015d03667be845821d474973b82d9170",
+      "bytes": 38161
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f14595c9da5523b67ae6fab5813b262799d7de0099fa28278da845eb7f8d0003",
+      "bytes": 44787
+    },
+    "G1.gg.mjs": {
+      "sha256": "602c4639a07039c5a0c398bf89f9f86fa1f0dde53ba71b512a2835223faa0a04",
+      "bytes": 2076
+    },
+    "G2.gg.mjs": {
+      "sha256": "dce30b6901e1e0fcd69853c242dd1051a42cce4e197f2f89db7a720dca9145f5",
+      "bytes": 2094
+    },
+    "G3.gg.mjs": {
+      "sha256": "abb2535cff09a2f7f9c6057f6b795b2faf917fe5879e18686252e25f2108bde1",
+      "bytes": 2038
+    },
+    "G4.gg.mjs": {
+      "sha256": "2767a000cbd332a58c278741561b5fa8d97acecf662e9321033083f8bb1ae471",
+      "bytes": 2040
+    },
+    "G5.gg.mjs": {
+      "sha256": "c9b2188761275a402a75f5596c1d0c0644224d42bc9588036952a87713d8900f",
+      "bytes": 2008
+    },
+    "G6.gg.mjs": {
+      "sha256": "307224b50de27da78df119392abb2db127ee6ff68ca9b922f4494432527a6a62",
+      "bytes": 2022
+    },
+    "G7.gg.mjs": {
+      "sha256": "3079d76b5672e25e1d3aa6a2d8c33466630019903c192aa3e12fe6782ac38a9a",
+      "bytes": 2080
+    },
+    "G8.gg.mjs": {
+      "sha256": "3d485b62e2d5b49f8c11f32c2f5d4adc903aaa9cf9eca3fb547bf31bde4b6eab",
+      "bytes": 2130
+    },
+    "vega-lite.svg": {
+      "sha256": "4b97f60a6a2132ce1b3aee7f739cdf6cb25da4d08d9d13249e257eff3dc675df",
+      "bytes": 35702
+    },
+    "ggaction.svg": {
+      "sha256": "9b1c6b48c2c996f09c60bfeb2a111e292012f50af608aa4b66a73a3980c4b23a",
+      "bytes": 20725
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_0575",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "51b737aec5b6568fda7528b1110079808ac8f50720a1943418d0cbb09fed949e",
+      "actions": 19,
+      "topOptions": 43
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "3f6cfd0dbf5fb868544350e532ed535bd5ed9993837edc4cda02159ee413ca40",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ce415678fefe316514aa39e4cc8dba9894ac4a8f722c3afb5b4ad1f5a2304225",
+      "actions": 21,
+      "topOptions": 46
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "d0ff6a9e6df718e719577a19b91f63c0244f13a223a2d168db9bc2f1e88f3057",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "32dd4bb772af6837bb055ed0ee6b103293833f30e161605bf50ded79450ab0d5",
+      "actions": 22,
+      "topOptions": 52
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ae91d51444df48fd9081553a07cadb66e21d4adc8edc33ad8b9281b147a3008b",
+      "actions": 23,
+      "topOptions": 54
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "6a38ae8c390a3a1b6ff24077983baa6097552975f94bf9556e5fe427752ba4a6",
+      "actions": 25,
+      "topOptions": 56
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "be6924b049e82dac6a3c0dcd57e2459055686ac605af551766e8cd45a052659f",
+      "actions": 25,
+      "topOptions": 58
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/Global_IMF_Debt.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All8 reviewed distinct programs accepted; exact data/styles/plot/family output pass. Current concrete ownership frontier disclosed in terminal-frontier-disclosure.json. Eight-stage cap, not a false exhaustive-lowest claim."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ad51d7399518ac240b033f736052d373a7faea60f1b953b58a026c91ab6ae557",
+      "bytes": 1436
+    },
+    "data.json": {
+      "sha256": "b07c2692d1d4bf7ab389b03f8aea6a2947af838790bbc0f925b4e9d577e3ec25",
+      "bytes": 15322
+    },
+    "resolved-source.vl.json": {
+      "sha256": "dc51ad5288fd81b3645d3a0cea3ce9eee744fe18951b06df4238408214eabe43",
+      "bytes": 19899
+    },
+    "G1.gg.mjs": {
+      "sha256": "51b737aec5b6568fda7528b1110079808ac8f50720a1943418d0cbb09fed949e",
+      "bytes": 2795
+    },
+    "G2.gg.mjs": {
+      "sha256": "3f6cfd0dbf5fb868544350e532ed535bd5ed9993837edc4cda02159ee413ca40",
+      "bytes": 2806
+    },
+    "G3.gg.mjs": {
+      "sha256": "ce415678fefe316514aa39e4cc8dba9894ac4a8f722c3afb5b4ad1f5a2304225",
+      "bytes": 2733
+    },
+    "G4.gg.mjs": {
+      "sha256": "d0ff6a9e6df718e719577a19b91f63c0244f13a223a2d168db9bc2f1e88f3057",
+      "bytes": 2768
+    },
+    "G5.gg.mjs": {
+      "sha256": "32dd4bb772af6837bb055ed0ee6b103293833f30e161605bf50ded79450ab0d5",
+      "bytes": 2732
+    },
+    "G6.gg.mjs": {
+      "sha256": "ae91d51444df48fd9081553a07cadb66e21d4adc8edc33ad8b9281b147a3008b",
+      "bytes": 2762
+    },
+    "G7.gg.mjs": {
+      "sha256": "6a38ae8c390a3a1b6ff24077983baa6097552975f94bf9556e5fe427752ba4a6",
+      "bytes": 2864
+    },
+    "G8.gg.mjs": {
+      "sha256": "be6924b049e82dac6a3c0dcd57e2459055686ac605af551766e8cd45a052659f",
+      "bytes": 2812
+    },
+    "vega-lite.svg": {
+      "sha256": "0d80b72fc1283c41af5f890c299a6f7d1bdc5b158d7eac1172b77b35e18600f6",
+      "bytes": 20061
+    },
+    "ggaction.svg": {
+      "sha256": "83fa9f5679e276c8e67810c7d1a6d7a3880cad6ecd0199760daa3aacf8d36f7b",
+      "bytes": 19400
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_1715",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "191748b34d4266f06356a52d1528eb927f03e56c650462f069627fb101e219fd",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "14e54df2d54fd7472530b64404032305f2c4c3e21ca24a4d6d205fee55eeb793",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4ed1841c9c4c22b0715a92be275e03a75ad8fc21a588eefb369835c0a35731e2",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8085b6a004039b746d69bd9b8d0967a5ae0171f2567d9cd834bd46d2c6554cb6",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "39080e582bd576ed484c2746a2c8c7c61a66c7eb51f3ab659cbed1eecb24aa16",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b39948c011ca1a4bdef7476296fcad5db7c347f577e91ea92598ad7d905ff0c3",
+      "actions": 16,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "fa777092cc40c00be5499dc99ec02b3c184de3c729cfcf3f5af72066b40d611a",
+      "actions": 20,
+      "topOptions": 41
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4726647c639a7629e48ba336b08cfe418f3b3b8d546af968f0df5ce7ba85e925",
+      "actions": 23,
+      "topOptions": 42
+    }
+  ],
+  "sourceUrls": [
+    "https://gicentre.github.io/data/westMidlands/westMidsCrimesAggregated.tsv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight actual model-authored progressive boundaries reviewed with source and exact family render checks passing; source geometry and final dedicated supported encoders retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "62e3b89af1cab29dd0f07db4c3b3f4419d639630154e8b0af15b783462711909",
+      "bytes": 465
+    },
+    "data.json": {
+      "sha256": "9cfb28bdf6257d937d4254562935a39a13497ab9183bfb26a9e2e56213ff02f8",
+      "bytes": 39849
+    },
+    "resolved-source.vl.json": {
+      "sha256": "5c4bb38baf134530503b89410c641a7f0aefcb10840d0ecc8d7b9793639c5109",
+      "bytes": 48638
+    },
+    "G1.gg.mjs": {
+      "sha256": "191748b34d4266f06356a52d1528eb927f03e56c650462f069627fb101e219fd",
+      "bytes": 2661
+    },
+    "G2.gg.mjs": {
+      "sha256": "14e54df2d54fd7472530b64404032305f2c4c3e21ca24a4d6d205fee55eeb793",
+      "bytes": 2679
+    },
+    "G3.gg.mjs": {
+      "sha256": "4ed1841c9c4c22b0715a92be275e03a75ad8fc21a588eefb369835c0a35731e2",
+      "bytes": 2639
+    },
+    "G4.gg.mjs": {
+      "sha256": "8085b6a004039b746d69bd9b8d0967a5ae0171f2567d9cd834bd46d2c6554cb6",
+      "bytes": 2687
+    },
+    "G5.gg.mjs": {
+      "sha256": "39080e582bd576ed484c2746a2c8c7c61a66c7eb51f3ab659cbed1eecb24aa16",
+      "bytes": 2677
+    },
+    "G6.gg.mjs": {
+      "sha256": "b39948c011ca1a4bdef7476296fcad5db7c347f577e91ea92598ad7d905ff0c3",
+      "bytes": 2887
+    },
+    "G7.gg.mjs": {
+      "sha256": "fa777092cc40c00be5499dc99ec02b3c184de3c729cfcf3f5af72066b40d611a",
+      "bytes": 2883
+    },
+    "G8.gg.mjs": {
+      "sha256": "4726647c639a7629e48ba336b08cfe418f3b3b8d546af968f0df5ce7ba85e925",
+      "bytes": 2890
+    },
+    "vega-lite.svg": {
+      "sha256": "1754a11f06d2577c58c5f8bd05705a85f4126f209ae6cd5e0529fae1fef1c349",
+      "bytes": 132358
+    },
+    "ggaction.svg": {
+      "sha256": "5b51c0491906f689e96ff9544e35b29159a616277ce0db22e59cba518ebcfe20",
+      "bytes": 63526
+    }
+  }
+}

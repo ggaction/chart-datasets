@@ -1,0 +1,124 @@
+{
+  "id": "vl_0705",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "afa6b2fbe97200e1a935dc13cdfc47bc85fb7a4fdcc19a71c9c0a2bfe9757f07",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b4149c9f3b9cb87345463a40e163f71061df3e38d336a82e9161c1410a8c7dca",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "1b0e942af8d32a7fe62e71530f9ce3d97d61096e967cefd3872b5e5c5f09f2c8",
+      "actions": 14,
+      "topOptions": 28
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "21d2ee31f324d24ca63dc142b7824bd60ca65baf69621f1fc20ca4b09d60524e",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "cb097c66d34e2e79713e60fc34f31974eb2adf873e9e85bbee8d02fa4eff672e",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ccee538efd09dbd098316b94d2828a148cbbe2cb435348b9f5f76ea3f7c6f921",
+      "actions": 19,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "dbe330ddf7b57fb224665d8361ac68c55dec220f91c59cce725fcd3b0d97292e",
+      "actions": 20,
+      "topOptions": 39
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "0af01067e9dcc8a82a4ba51e4475ff2d9d87eafb5d0d9209fc4845181acaed0f",
+      "actions": 20,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/matsim-scenarios/matsim-duesseldorf/b160620ef3d645969b5060b436391be3bc378cb6/src/main/simwrapper/flow/flow_acv.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full frozen source and final retained G8 code reread. All original ACV flow rows, typed X/pred aliases,18 ordered speed series/source sampled Blues colors, source frozen responsive plot1169x200, quantitative domains, complete axes/grid and source font10/11 are preserved. Current690 normal checks and exact family output pass all8 meaningful stages. Legend native right/default spacing and original speed title are inferred by the exact3-key standalone constructor. Measured outer bottom clearance remains source/hash-bound; any remaining finer ownership is honestly cap-limited, no padding or new response."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "845dca20084cade51648842041af08a29fe71ac435fb4a97b93a8a2cbd88b53c",
+      "bytes": 927
+    },
+    "data.json": {
+      "sha256": "2d93e472069973f6dbdc2922657cda854dfa5041372f5b9f5ce711c58c68762b",
+      "bytes": 136883
+    },
+    "resolved-source.vl.json": {
+      "sha256": "55107f2df99de28a0de6ca8bdb89f5baaadc1c193f9d1e2847e09e190b99aa3a",
+      "bytes": 174097
+    },
+    "G1.gg.mjs": {
+      "sha256": "afa6b2fbe97200e1a935dc13cdfc47bc85fb7a4fdcc19a71c9c0a2bfe9757f07",
+      "bytes": 2868
+    },
+    "G2.gg.mjs": {
+      "sha256": "b4149c9f3b9cb87345463a40e163f71061df3e38d336a82e9161c1410a8c7dca",
+      "bytes": 2899
+    },
+    "G3.gg.mjs": {
+      "sha256": "1b0e942af8d32a7fe62e71530f9ce3d97d61096e967cefd3872b5e5c5f09f2c8",
+      "bytes": 2901
+    },
+    "G4.gg.mjs": {
+      "sha256": "21d2ee31f324d24ca63dc142b7824bd60ca65baf69621f1fc20ca4b09d60524e",
+      "bytes": 2861
+    },
+    "G5.gg.mjs": {
+      "sha256": "cb097c66d34e2e79713e60fc34f31974eb2adf873e9e85bbee8d02fa4eff672e",
+      "bytes": 2903
+    },
+    "G6.gg.mjs": {
+      "sha256": "ccee538efd09dbd098316b94d2828a148cbbe2cb435348b9f5f76ea3f7c6f921",
+      "bytes": 2975
+    },
+    "G7.gg.mjs": {
+      "sha256": "dbe330ddf7b57fb224665d8361ac68c55dec220f91c59cce725fcd3b0d97292e",
+      "bytes": 2976
+    },
+    "G8.gg.mjs": {
+      "sha256": "0af01067e9dcc8a82a4ba51e4475ff2d9d87eafb5d0d9209fc4845181acaed0f",
+      "bytes": 2800
+    },
+    "vega-lite.svg": {
+      "sha256": "68167576ba0773fba35556810d52c2b1e899afa81f4340740508d3b432cdc87e",
+      "bytes": 59021
+    },
+    "ggaction.svg": {
+      "sha256": "45c44a70903ca9926826c56c243ade2093a23ac414ce8f92635c8c3e09ffff26",
+      "bytes": 70552
+    }
+  }
+}

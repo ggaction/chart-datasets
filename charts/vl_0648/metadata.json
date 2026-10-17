@@ -1,0 +1,80 @@
+{
+  "id": "vl_0648",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ee0df2dd80b2584b6fc6e7506d66aa70beb40e209fe1ce7634dab7dc0e08f1e2",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "268d8f1c0d5d04c6b5bfd44eeb38decc3ff87162a9606765a07d6a65b2ce34c4",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7bdb573b09d3f8ee18bc44d621aabb72906ffa40d683487ee370a5856edd8117",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a9248dd0b4471d4529f889c4856aa6c9d242d8d8964282d7a40d7a5d08d9e95f",
+      "actions": 15,
+      "topOptions": 32
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/classes/main/E4E_macro/US_BEA_GDPsimple.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "G4 fullactualcode: sourceformat nowfocusedXlabels; domain/barwidth/color alreadypublicencoding/editors, completeaxes onlyprotectedsourcefonts/offsets/ticks andsourcehidden titles. G5proposalonlyadds labelMapminusglyph, an output/repair change ratherthan lowerownership. No meaningful remaining ownerboundary."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ea768f5ba379a77dfdfbec6b29e02347a05beee92b04adc8f4da886c53845a87",
+      "bytes": 1123
+    },
+    "data.json": {
+      "sha256": "7f716f9d16014596805fe87a32465ab664b2018b2a7252ead289ef8788e497de",
+      "bytes": 506
+    },
+    "resolved-source.vl.json": {
+      "sha256": "bfab45caba6b254dface32e6d7ed6b2b4538b59526ee43c840ca8a7a0a6aa8ab",
+      "bytes": 1641
+    },
+    "G1.gg.mjs": {
+      "sha256": "ee0df2dd80b2584b6fc6e7506d66aa70beb40e209fe1ce7634dab7dc0e08f1e2",
+      "bytes": 1586
+    },
+    "G2.gg.mjs": {
+      "sha256": "268d8f1c0d5d04c6b5bfd44eeb38decc3ff87162a9606765a07d6a65b2ce34c4",
+      "bytes": 1656
+    },
+    "G3.gg.mjs": {
+      "sha256": "7bdb573b09d3f8ee18bc44d621aabb72906ffa40d683487ee370a5856edd8117",
+      "bytes": 1697
+    },
+    "G4.gg.mjs": {
+      "sha256": "a9248dd0b4471d4529f889c4856aa6c9d242d8d8964282d7a40d7a5d08d9e95f",
+      "bytes": 1681
+    },
+    "vega-lite.svg": {
+      "sha256": "5612bb57c831c34bfbd846e69652e7f439c33cea0329bbca42de40c87d36778a",
+      "bytes": 7297
+    },
+    "ggaction.svg": {
+      "sha256": "fa46894a2d80c85cc29f075bc3a448acffd8669d1da1c4b89330b17e5c5b8257",
+      "bytes": 4079
+    }
+  }
+}

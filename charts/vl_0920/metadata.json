@@ -1,0 +1,124 @@
+{
+  "id": "vl_0920",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d6b071a92c753961baf36e6bee3e6c622b545585a4fb8d8e2a7517cbcb2e8ada",
+      "actions": 28,
+      "topOptions": 59
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e001426f97ff670fbc6a93676af39d0c93f7f9bd517b7dce4e4adf98fd6d80f8",
+      "actions": 29,
+      "topOptions": 63
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4981856b26bdfcc48dea3efc878837828a6440934a73e791d18144e5dd060864",
+      "actions": 30,
+      "topOptions": 66
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "618399923bd254f943d8bd83b58cf2e7d9fe350aa1711124a345ca7b8adbf9a9",
+      "actions": 32,
+      "topOptions": 72
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "8ec5eaee8309e5f426c1cf0c220188c96e7a83fb6c1726d684e481789e7817bc",
+      "actions": 38,
+      "topOptions": 76
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d1b1078f0b2df387e2af44f21199bf3d308df91d60da64e5b481823396d94a0b",
+      "actions": 40,
+      "topOptions": 78
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "229546d1857c093fc26249b6a392dcb651bea4992fc6c30225ab54a947e852a0",
+      "actions": 40,
+      "topOptions": 79
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "1f9c64c6aaa7a11efe3acb848504ba33b36aa5438f7efe90611593f23f7d0e07",
+      "actions": 41,
+      "topOptions": 80
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/issylavenstein/issylavenstein.github.io/main/house%20building%20regression.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex full original source/fullcurrent code and all8 meaningfulstage diffs reviewed. Rawtyped observations, exactregression/unusedCI/annotation/sourcefonts/scales/plot/guides retained. All8normalcurrentruntime source+familyidentity checksPASS. Eight meaningfulstages reached; later optionalownership boundaries aredisclosed ratherthanclaimingexhaustion."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "558b0734393dcc881e7b5e29970e26764336d3a27b0c90b61a2198e625b441f0",
+      "bytes": 2868
+    },
+    "data.json": {
+      "sha256": "b3022edff01bc4610e33b1e4c3da96b778a6525b3de676e5fc3ddd0eec75f1c3",
+      "bytes": 18601
+    },
+    "resolved-source.vl.json": {
+      "sha256": "09683969fa49969f3a7b4a3f27cd5df2c3eff964f3b714b1f1c8c1c8906e8453",
+      "bytes": 25537
+    },
+    "G1.gg.mjs": {
+      "sha256": "d6b071a92c753961baf36e6bee3e6c622b545585a4fb8d8e2a7517cbcb2e8ada",
+      "bytes": 3269
+    },
+    "G2.gg.mjs": {
+      "sha256": "e001426f97ff670fbc6a93676af39d0c93f7f9bd517b7dce4e4adf98fd6d80f8",
+      "bytes": 3245
+    },
+    "G3.gg.mjs": {
+      "sha256": "4981856b26bdfcc48dea3efc878837828a6440934a73e791d18144e5dd060864",
+      "bytes": 3326
+    },
+    "G4.gg.mjs": {
+      "sha256": "618399923bd254f943d8bd83b58cf2e7d9fe350aa1711124a345ca7b8adbf9a9",
+      "bytes": 3492
+    },
+    "G5.gg.mjs": {
+      "sha256": "8ec5eaee8309e5f426c1cf0c220188c96e7a83fb6c1726d684e481789e7817bc",
+      "bytes": 3518
+    },
+    "G6.gg.mjs": {
+      "sha256": "d1b1078f0b2df387e2af44f21199bf3d308df91d60da64e5b481823396d94a0b",
+      "bytes": 3576
+    },
+    "G7.gg.mjs": {
+      "sha256": "229546d1857c093fc26249b6a392dcb651bea4992fc6c30225ab54a947e852a0",
+      "bytes": 3592
+    },
+    "G8.gg.mjs": {
+      "sha256": "1f9c64c6aaa7a11efe3acb848504ba33b36aa5438f7efe90611593f23f7d0e07",
+      "bytes": 3516
+    },
+    "vega-lite.svg": {
+      "sha256": "fec5a67a3798a3e25a877670cb2fd0a4843f90b46ac285848d0815c6f62dab00",
+      "bytes": 80233
+    },
+    "ggaction.svg": {
+      "sha256": "b2f7fc125adaa3be4edbf8e1b8e22d2cc9ae7251d8233decf484e936ebcd38ef",
+      "bytes": 24607
+    }
+  }
+}

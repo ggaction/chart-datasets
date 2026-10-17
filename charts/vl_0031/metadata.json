@@ -1,0 +1,113 @@
+{
+  "id": "vl_0031",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "fea8ff378ab2b1265c0ff08c8d3fadce3e45167d03942f2bcf6593400b2f4bdf",
+      "actions": 17,
+      "topOptions": 42
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1f05dde64d792cca15eba3eb67f2f8ae1edbf9b83fbe2f2774adbf3933a2907b",
+      "actions": 19,
+      "topOptions": 45
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "657d8632a8f3211e6aa5edc3412a3c871fd8e186ad36fe4123858d4d1b93e8f8",
+      "actions": 19,
+      "topOptions": 45
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3d0288a024ab532c2e47fd87280acc05c0528aa9407605a6da269392fa243842",
+      "actions": 20,
+      "topOptions": 47
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c613f58376406412c46c564008d37648f61a93c1079f5fefadba2a9e43ab3bf1",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "410dea6a27ca550cc4b295bc1de034baf1779eb31daeb18f4eccf71be7f29b62",
+      "actions": 21,
+      "topOptions": 49
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "772bda77ed8ff1a0732e638cf0e6723d2fa86208135124f90852143a526e6ddb",
+      "actions": 21,
+      "topOptions": 49
+    }
+  ],
+  "sourceUrls": [
+    "https://www.trafforddatalab.io/interactive_graphics_companion/data/gapminder.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Fully reread original source and complete final program: raw data filters Iceland/Norway and1952/2017, four white hollow circles and two slope paths, source colors, settled responsive1270x200 plot, hidden Y guides/Xline/ticks/title and original title retained. All7 current source/native/same-family checks pass, concrete mandatory frontier empty. Exact retained GLM stop explains protected creator geometry; no padded eighth stage."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a14073196d181250c119a79f58674dfea35a597306ffc00dba9aa000cf490d24",
+      "bytes": 1584
+    },
+    "data.json": {
+      "sha256": "1586280bdbb4a2d64951d8f5a351cd7a86d24301d69ee0abe9228eba17fd6afb",
+      "bytes": 461856
+    },
+    "resolved-source.vl.json": {
+      "sha256": "95442dc6541239a8cd3a0945635ce470252bf08729bea18991006ca54eab087a",
+      "bytes": 557715
+    },
+    "G1.gg.mjs": {
+      "sha256": "fea8ff378ab2b1265c0ff08c8d3fadce3e45167d03942f2bcf6593400b2f4bdf",
+      "bytes": 2145
+    },
+    "G2.gg.mjs": {
+      "sha256": "1f05dde64d792cca15eba3eb67f2f8ae1edbf9b83fbe2f2774adbf3933a2907b",
+      "bytes": 2195
+    },
+    "G3.gg.mjs": {
+      "sha256": "657d8632a8f3211e6aa5edc3412a3c871fd8e186ad36fe4123858d4d1b93e8f8",
+      "bytes": 2068
+    },
+    "G4.gg.mjs": {
+      "sha256": "3d0288a024ab532c2e47fd87280acc05c0528aa9407605a6da269392fa243842",
+      "bytes": 2131
+    },
+    "G5.gg.mjs": {
+      "sha256": "c613f58376406412c46c564008d37648f61a93c1079f5fefadba2a9e43ab3bf1",
+      "bytes": 2162
+    },
+    "G6.gg.mjs": {
+      "sha256": "410dea6a27ca550cc4b295bc1de034baf1779eb31daeb18f4eccf71be7f29b62",
+      "bytes": 2178
+    },
+    "G7.gg.mjs": {
+      "sha256": "772bda77ed8ff1a0732e638cf0e6723d2fa86208135124f90852143a526e6ddb",
+      "bytes": 2172
+    },
+    "vega-lite.svg": {
+      "sha256": "4bcc4b94281b6fc31c579232952187ff48afd68da1a6cec89330f05fdc675834",
+      "bytes": 5188
+    },
+    "ggaction.svg": {
+      "sha256": "a5c2d7cd032ad9ee74bef027927f22e0b87e5d1bd23f73b0ca198358fdb5590f",
+      "bytes": 1649
+    }
+  }
+}

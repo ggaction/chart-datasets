@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "(M9) PNFC bond rate",
+  "title": {
+    "text": "Corporate bond rate",
+    "subtitle": "Monthly average, PNFC new depositis. Source: BoE",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/M9.DataHub.Monetary.PNFCRate.csv"
+  },
+  "height": 300,
+  "width": 310,
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "axis": {
+        "grid": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              7
+            ]
+          },
+          "axis": {
+            "grid": false
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "color": "darkblue"
+          }
+        },
+        {
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "value": 0.1
+        },
+        "tooltip": [
+          {
+            "field": "Date",
+            "type": "temporal",
+            "format": "%B, %Y"
+          },
+          {
+            "field": "Value",
+            "title": "Bond rate",
+            "type": "quantitative",
+            "format": ""
+          }
+        ]
+      }
+    }
+  ]
+}

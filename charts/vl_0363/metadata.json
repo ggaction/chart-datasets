@@ -1,0 +1,113 @@
+{
+  "id": "vl_0363",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "2bea27e998393420317fc70218e71a8fd1018188f26fb0aba0ac40f0bcf25eed",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f642a92313270f40a0ae127d289f9943d20562496176990953e8e129c8ac16fc",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2a0b9e2c25f1c806ea40c0b6f8996924844358aa01a451e0f300d68624aa82a3",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "d3b04344cb15ded8dc87c019ccf31002147421c1090da3f7d65f23dc247b4444",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "0ee00c17f29f8eab9f3ca0a4de56cfd080d168762c0f3ec06f9289913cea67a3",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "21e31e2614730f8cd0ff089ec249d96b20cf8c1ebc1201b46dee8be5c4b6612f",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "a2ad3adbc5696e9234d60637a3b17fbf73365031aed96b7c7fb2b16b4f93fb42",
+      "actions": 17,
+      "topOptions": 36
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/GiltsInIssueClean.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed complete final module and exact model stop: only protected source geometry/creation fonts remains, source paints/formats already focused, no absent styles/default padding added."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "d3ac400da5dbb1478952241db9bbf2f1802a871ced95a43b2597cbba670704a6",
+      "bytes": 1061
+    },
+    "data.json": {
+      "sha256": "b3b54f7afca82338b3b01d2f6e333f25015d03667be845821d474973b82d9170",
+      "bytes": 38161
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a9b15bfa78b598629deaaf63205361ab94bbf0096590ff48f9a0aa259ab478d7",
+      "bytes": 44824
+    },
+    "G1.gg.mjs": {
+      "sha256": "2bea27e998393420317fc70218e71a8fd1018188f26fb0aba0ac40f0bcf25eed",
+      "bytes": 1674
+    },
+    "G2.gg.mjs": {
+      "sha256": "f642a92313270f40a0ae127d289f9943d20562496176990953e8e129c8ac16fc",
+      "bytes": 1599
+    },
+    "G3.gg.mjs": {
+      "sha256": "2a0b9e2c25f1c806ea40c0b6f8996924844358aa01a451e0f300d68624aa82a3",
+      "bytes": 1657
+    },
+    "G4.gg.mjs": {
+      "sha256": "d3b04344cb15ded8dc87c019ccf31002147421c1090da3f7d65f23dc247b4444",
+      "bytes": 1633
+    },
+    "G5.gg.mjs": {
+      "sha256": "0ee00c17f29f8eab9f3ca0a4de56cfd080d168762c0f3ec06f9289913cea67a3",
+      "bytes": 1627
+    },
+    "G6.gg.mjs": {
+      "sha256": "21e31e2614730f8cd0ff089ec249d96b20cf8c1ebc1201b46dee8be5c4b6612f",
+      "bytes": 1709
+    },
+    "G7.gg.mjs": {
+      "sha256": "a2ad3adbc5696e9234d60637a3b17fbf73365031aed96b7c7fb2b16b4f93fb42",
+      "bytes": 1697
+    },
+    "vega-lite.svg": {
+      "sha256": "01df7e662a4305b28353ed9402336890fd1b1e6c139079b308e44720d0ee33ed",
+      "bytes": 12716
+    },
+    "ggaction.svg": {
+      "sha256": "36f955f3aa86fabe5832a662aab9c9576821eb70ed3638e624ec6e2322db5504",
+      "bytes": 10120
+    }
+  }
+}

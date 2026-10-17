@@ -1,0 +1,124 @@
+{
+  "id": "vl_1834",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c46c2abccf4fdee76bad01f3e53ec3aa7a1cbe57788095f16ac40f2de0cc65c4",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4bc2b5a75866130f8b4e375548acdcdb257a59cf9000b490137a08b59ab5604e",
+      "actions": 16,
+      "topOptions": 34
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b8f7bd24bc6e42595cb08403ed90f994f497d2d38686f563bebdb4dbe9047c8d",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "bc86946c05d22a2fd968f853ed60b2bca529b8aecdf90cf18488868de2eeb073",
+      "actions": 18,
+      "topOptions": 42
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "5d6749cd30060dd78648f8fdeae4cb2f7df237230b0b25b840ab46d578e43c83",
+      "actions": 20,
+      "topOptions": 46
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "da21cca7635b9f3f4b3c897257aaf8a37795c271c62e9972781be8178d755c06",
+      "actions": 20,
+      "topOptions": 47
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "5bfee2f8040c7d75252e1fd5ebc510afc777d758a540bad68a6dfa468b1ac26e",
+      "actions": 21,
+      "topOptions": 47
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "42abb12caaf1f790ade1fd3f9246b697c8d44bb88c1a891cd10faebd4246d260",
+      "actions": 23,
+      "topOptions": 47
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/elasComputacao/raio-x-dados/main/data/dados-processados/situacao-academica-mulheres.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight distinct GLM-authored stages individually reviewed and source/family/DOM render validated; source innerplot and meaningful highlevel-to-focused ownership progression retained, no padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "d29555f7a01c08c4c251c78785d84c517ef4e5590b5f5d9d27d46d1b97ecf3e8",
+      "bytes": 1137
+    },
+    "data.json": {
+      "sha256": "7ed22e317c3d5892c5df991d0b6f7ce8922afa308a2a995c64069d551352bd36",
+      "bytes": 4555
+    },
+    "resolved-source.vl.json": {
+      "sha256": "abfa2b4e1931cc871b59e5f9e781fc049a0b983efeda341bca271d2c3c64054e",
+      "bytes": 7175
+    },
+    "G1.gg.mjs": {
+      "sha256": "c46c2abccf4fdee76bad01f3e53ec3aa7a1cbe57788095f16ac40f2de0cc65c4",
+      "bytes": 3324
+    },
+    "G2.gg.mjs": {
+      "sha256": "4bc2b5a75866130f8b4e375548acdcdb257a59cf9000b490137a08b59ab5604e",
+      "bytes": 3342
+    },
+    "G3.gg.mjs": {
+      "sha256": "b8f7bd24bc6e42595cb08403ed90f994f497d2d38686f563bebdb4dbe9047c8d",
+      "bytes": 3354
+    },
+    "G4.gg.mjs": {
+      "sha256": "bc86946c05d22a2fd968f853ed60b2bca529b8aecdf90cf18488868de2eeb073",
+      "bytes": 3330
+    },
+    "G5.gg.mjs": {
+      "sha256": "5d6749cd30060dd78648f8fdeae4cb2f7df237230b0b25b840ab46d578e43c83",
+      "bytes": 3454
+    },
+    "G6.gg.mjs": {
+      "sha256": "da21cca7635b9f3f4b3c897257aaf8a37795c271c62e9972781be8178d755c06",
+      "bytes": 3470
+    },
+    "G7.gg.mjs": {
+      "sha256": "5bfee2f8040c7d75252e1fd5ebc510afc777d758a540bad68a6dfa468b1ac26e",
+      "bytes": 3475
+    },
+    "G8.gg.mjs": {
+      "sha256": "42abb12caaf1f790ade1fd3f9246b697c8d44bb88c1a891cd10faebd4246d260",
+      "bytes": 3449
+    },
+    "vega-lite.svg": {
+      "sha256": "682e808aae1ab55677b0a1cc13098a04eb8c8133f882b62f6fa67599dedc60a2",
+      "bytes": 36034
+    },
+    "ggaction.svg": {
+      "sha256": "2f29cc3dc65f8da1faa0452b55a46c54614006b8c020e329e4cdb5ed6e106aa8",
+      "bytes": 15714
+    }
+  }
+}

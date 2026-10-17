@@ -1,0 +1,113 @@
+{
+  "id": "vl_1739",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "bdf51f69d5ca5c3aa41d7d5cef71c86767d9f2a94e15f7b529a7c30dafbd6295",
+      "actions": 10,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "02d5507f105c3a18c543ed3036743c6925c1fdb0325f2840a9b2e3edbb1b5682",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "f980c7c54814c5cbd4fc636c91c8e013ed33d9516fcff6f232456e0e71bd722d",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8b06a4503ad5f18ded5bc1e7593e363be6e6f82e7d8f34ad379f93fd3751022e",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "3b3fe2bc220cb0d1c1d98581237e55895dd091f6176fc8ed81edcd42d2d357c1",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "210530ee051df57cbe473f0e433cac1cbb82a3d1c234f9d1baeff7c695082fb2",
+      "actions": 20,
+      "topOptions": 36
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "eb9326e49f55a24d5ac620dd521dc670d6ffe5a53afc398adf7787fc3069079b",
+      "actions": 21,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Proposed patch changes source-equivalent plus glyph to cross and inserts strokeWidth2; axes were already focused in accepted G7, so attempted regroup-then-resplit is not a new stage. Full accepted terminal module and raw source reviewed: positional domains and constant appearance channels already at focused owners; remaining initial axis font sizes/positions/values/visibility/content and source shape/curve definitions are retained. No absent default or scalar/repartitioning stage justified. Stop metadata is human review, not a new model-authored code or chart."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "535416ad410fa97d91377038de55db84d92f080bb33b9bdffaaa9d753a9c1631",
+      "bytes": 645
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e5e6665d0740feea5641839fc274cd064b2b5a37f9fcd21504dd65fabb797b12",
+      "bytes": 114493
+    },
+    "G1.gg.mjs": {
+      "sha256": "bdf51f69d5ca5c3aa41d7d5cef71c86767d9f2a94e15f7b529a7c30dafbd6295",
+      "bytes": 1795
+    },
+    "G2.gg.mjs": {
+      "sha256": "02d5507f105c3a18c543ed3036743c6925c1fdb0325f2840a9b2e3edbb1b5682",
+      "bytes": 1813
+    },
+    "G3.gg.mjs": {
+      "sha256": "f980c7c54814c5cbd4fc636c91c8e013ed33d9516fcff6f232456e0e71bd722d",
+      "bytes": 1773
+    },
+    "G4.gg.mjs": {
+      "sha256": "8b06a4503ad5f18ded5bc1e7593e363be6e6f82e7d8f34ad379f93fd3751022e",
+      "bytes": 1765
+    },
+    "G5.gg.mjs": {
+      "sha256": "3b3fe2bc220cb0d1c1d98581237e55895dd091f6176fc8ed81edcd42d2d357c1",
+      "bytes": 1911
+    },
+    "G6.gg.mjs": {
+      "sha256": "210530ee051df57cbe473f0e433cac1cbb82a3d1c234f9d1baeff7c695082fb2",
+      "bytes": 1907
+    },
+    "G7.gg.mjs": {
+      "sha256": "eb9326e49f55a24d5ac620dd521dc670d6ffe5a53afc398adf7787fc3069079b",
+      "bytes": 1990
+    },
+    "vega-lite.svg": {
+      "sha256": "de468c989a5803e45edf39105e930ea80cf46d7185da4e9e70c73440687bd231",
+      "bytes": 17502
+    },
+    "ggaction.svg": {
+      "sha256": "cf919ca9fa7704001b3d7455b2f30042df917f1a8413603a80a5f038ea6c68f2",
+      "bytes": 19808
+    }
+  }
+}

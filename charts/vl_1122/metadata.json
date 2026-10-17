@@ -1,0 +1,91 @@
+{
+  "id": "vl_1122",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8ea3c985886b9a715e1f50c40a1aad435bd22685ab2d3f172e0079a9c52f6300",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0ddfe2a83f47a08d7d22d97d762de4d2757dd9db28929b23078ee7adedaec84e",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e1c312e2149161073dbf74369d50b4d92ff78184c37e729baeca906b3f3eed73",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f02bbb8edabff37affd5086702f599463f117794d447af2f07badce6e12f334f",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4f2670969aa2bd6f1fe39c6f5fb3e5cc3f4af0bdc57c169264854539a8711065",
+      "actions": 16,
+      "topOptions": 35
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/DataScienceLiam/DataScienceLiam.github.io/main/data_IMF_creditOutstanding_New.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 5 genuine ownership stages, 230 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "b8e11d3a64d270e3ec7abcafccab6c9f7b1860752002207d22ea36e7ac6e490f",
+      "bytes": 1340
+    },
+    "data.json": {
+      "sha256": "cadc33e1c76df154e4105d60f04ad5cbc76b096d494b314f11057603c54cc236",
+      "bytes": 10597
+    },
+    "resolved-source.vl.json": {
+      "sha256": "2e1c82943784911e88e6ed40dc387ff74d30b6bf12e72ff2c31753d395b204f3",
+      "bytes": 13699
+    },
+    "G1.gg.mjs": {
+      "sha256": "8ea3c985886b9a715e1f50c40a1aad435bd22685ab2d3f172e0079a9c52f6300",
+      "bytes": 2106
+    },
+    "G2.gg.mjs": {
+      "sha256": "0ddfe2a83f47a08d7d22d97d762de4d2757dd9db28929b23078ee7adedaec84e",
+      "bytes": 2124
+    },
+    "G3.gg.mjs": {
+      "sha256": "e1c312e2149161073dbf74369d50b4d92ff78184c37e729baeca906b3f3eed73",
+      "bytes": 2197
+    },
+    "G4.gg.mjs": {
+      "sha256": "f02bbb8edabff37affd5086702f599463f117794d447af2f07badce6e12f334f",
+      "bytes": 2232
+    },
+    "G5.gg.mjs": {
+      "sha256": "4f2670969aa2bd6f1fe39c6f5fb3e5cc3f4af0bdc57c169264854539a8711065",
+      "bytes": 2233
+    },
+    "vega-lite.svg": {
+      "sha256": "9e7e9fb0a391b471e6fb372d2dd02ffb07dead0c2199ec2426a193a2d94b4f93",
+      "bytes": 15211
+    },
+    "ggaction.svg": {
+      "sha256": "93c1f2f9327c328862035cd431ab8a5399307f4397e808f77d2ff4b80011cd34",
+      "bytes": 12324
+    }
+  }
+}

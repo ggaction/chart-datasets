@@ -1,0 +1,848 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Football teams with highest total player salaries",
+    "subtitle": [
+      "Source: spotrac"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Team": "Manchester United F.C.",
+        "Type": "Rank",
+        "Value": 1
+      },
+      {
+        "Team": "Chelsea F.C.",
+        "Type": "Rank",
+        "Value": 2
+      },
+      {
+        "Team": "Manchester City F.C.",
+        "Type": "Rank",
+        "Value": 3
+      },
+      {
+        "Team": "Liverpool F.C.",
+        "Type": "Rank",
+        "Value": 4
+      },
+      {
+        "Team": "Tottenham Hotspur F.C.",
+        "Type": "Rank",
+        "Value": 5
+      },
+      {
+        "Team": "Arsenal F.C.",
+        "Type": "Rank",
+        "Value": 6
+      },
+      {
+        "Team": "Aston Villa F.C.",
+        "Type": "Rank",
+        "Value": 7
+      },
+      {
+        "Team": "Leicester City",
+        "Type": "Rank",
+        "Value": 8
+      },
+      {
+        "Team": "West Ham United F.C.",
+        "Type": "Rank",
+        "Value": 9
+      },
+      {
+        "Team": "Newcastle United F.C.",
+        "Type": "Rank",
+        "Value": 10
+      },
+      {
+        "Team": "Crystal Palace",
+        "Type": "Rank",
+        "Value": 11
+      },
+      {
+        "Team": "Everton F.C.",
+        "Type": "Rank",
+        "Value": 12
+      },
+      {
+        "Team": "Wolves F.C.",
+        "Type": "Rank",
+        "Value": 13
+      },
+      {
+        "Team": "Fulham F.C.",
+        "Type": "Rank",
+        "Value": 14
+      },
+      {
+        "Team": "Southampton F.C.",
+        "Type": "Rank",
+        "Value": 15
+      },
+      {
+        "Team": "AFC Bournemouth",
+        "Type": "Rank",
+        "Value": 16
+      },
+      {
+        "Team": "Nottingham Forest F.C.",
+        "Type": "Rank",
+        "Value": 17
+      },
+      {
+        "Team": "Brighton & Hove Albion",
+        "Type": "Rank",
+        "Value": 18
+      },
+      {
+        "Team": "Brentford F.C.",
+        "Type": "Rank",
+        "Value": 19
+      },
+      {
+        "Team": "Leeds United F.C.",
+        "Type": "Rank",
+        "Value": 20
+      },
+      {
+        "Team": "Manchester United F.C.",
+        "Type": "Active Players",
+        "Value": 29
+      },
+      {
+        "Team": "Chelsea F.C.",
+        "Type": "Active Players",
+        "Value": 27
+      },
+      {
+        "Team": "Manchester City F.C.",
+        "Type": "Active Players",
+        "Value": 24
+      },
+      {
+        "Team": "Liverpool F.C.",
+        "Type": "Active Players",
+        "Value": 28
+      },
+      {
+        "Team": "Tottenham Hotspur F.C.",
+        "Type": "Active Players",
+        "Value": 25
+      },
+      {
+        "Team": "Arsenal F.C.",
+        "Type": "Active Players",
+        "Value": 25
+      },
+      {
+        "Team": "Aston Villa F.C.",
+        "Type": "Active Players",
+        "Value": 26
+      },
+      {
+        "Team": "Leicester City",
+        "Type": "Active Players",
+        "Value": 26
+      },
+      {
+        "Team": "West Ham United F.C.",
+        "Type": "Active Players",
+        "Value": 28
+      },
+      {
+        "Team": "Newcastle United F.C.",
+        "Type": "Active Players",
+        "Value": 30
+      },
+      {
+        "Team": "Crystal Palace",
+        "Type": "Active Players",
+        "Value": 24
+      },
+      {
+        "Team": "Everton F.C.",
+        "Type": "Active Players",
+        "Value": 28
+      },
+      {
+        "Team": "Wolves F.C.",
+        "Type": "Active Players",
+        "Value": 31
+      },
+      {
+        "Team": "Fulham F.C.",
+        "Type": "Active Players",
+        "Value": 28
+      },
+      {
+        "Team": "Southampton F.C.",
+        "Type": "Active Players",
+        "Value": 25
+      },
+      {
+        "Team": "AFC Bournemouth",
+        "Type": "Active Players",
+        "Value": 27
+      },
+      {
+        "Team": "Nottingham Forest F.C.",
+        "Type": "Active Players",
+        "Value": 33
+      },
+      {
+        "Team": "Brighton & Hove Albion",
+        "Type": "Active Players",
+        "Value": 22
+      },
+      {
+        "Team": "Brentford F.C.",
+        "Type": "Active Players",
+        "Value": 27
+      },
+      {
+        "Team": "Leeds United F.C.",
+        "Type": "Active Players",
+        "Value": 27
+      },
+      {
+        "Team": "Manchester United F.C.",
+        "Type": "Forwards",
+        "Value": "£84,170,000"
+      },
+      {
+        "Team": "Chelsea F.C.",
+        "Type": "Forwards",
+        "Value": "£22,464,000"
+      },
+      {
+        "Team": "Manchester City F.C.",
+        "Type": "Forwards",
+        "Value": "£22,100,000"
+      },
+      {
+        "Team": "Liverpool F.C.",
+        "Type": "Forwards",
+        "Value": "£51,242,000"
+      },
+      {
+        "Team": "Tottenham Hotspur F.C.",
+        "Type": "Forwards",
+        "Value": "£39,104,000"
+      },
+      {
+        "Team": "Arsenal F.C.",
+        "Type": "Forwards",
+        "Value": "£22,360,000"
+      },
+      {
+        "Team": "Aston Villa F.C.",
+        "Type": "Forwards",
+        "Value": "£20,560,000"
+      },
+      {
+        "Team": "Leicester City",
+        "Type": "Forwards",
+        "Value": "£15,970,000"
+      },
+      {
+        "Team": "West Ham United F.C.",
+        "Type": "Forwards",
+        "Value": "£10,880,000"
+      },
+      {
+        "Team": "Newcastle United F.C.",
+        "Type": "Forwards",
+        "Value": "£21,473,600"
+      },
+      {
+        "Team": "Crystal Palace",
+        "Type": "Forwards",
+        "Value": "£16,155,000"
+      },
+      {
+        "Team": "Everton F.C.",
+        "Type": "Forwards",
+        "Value": "£7,975,000"
+      },
+      {
+        "Team": "Wolves F.C.",
+        "Type": "Forwards",
+        "Value": "£16,510,000"
+      },
+      {
+        "Team": "Fulham F.C.",
+        "Type": "Forwards",
+        "Value": "£6,370,000"
+      },
+      {
+        "Team": "Southampton F.C.",
+        "Type": "Forwards",
+        "Value": "£13,930,000"
+      },
+      {
+        "Team": "AFC Bournemouth",
+        "Type": "Forwards",
+        "Value": "£6,920,000"
+      },
+      {
+        "Team": "Nottingham Forest F.C.",
+        "Type": "Forwards",
+        "Value": "£1,700,000"
+      },
+      {
+        "Team": "Brighton & Hove Albion",
+        "Type": "Forwards",
+        "Value": "£5,070,000"
+      },
+      {
+        "Team": "Brentford F.C.",
+        "Type": "Forwards",
+        "Value": "£1,712,000"
+      },
+      {
+        "Team": "Leeds United F.C.",
+        "Type": "Forwards",
+        "Value": "£6,830,000"
+      },
+      {
+        "Team": "Manchester United F.C.",
+        "Type": "Midfielders",
+        "Value": "£51,480,000"
+      },
+      {
+        "Team": "Chelsea F.C.",
+        "Type": "Midfielders",
+        "Value": "£86,080,000"
+      },
+      {
+        "Team": "Manchester City F.C.",
+        "Type": "Midfielders",
+        "Value": "£89,360,000"
+      },
+      {
+        "Team": "Liverpool F.C.",
+        "Type": "Midfielders",
+        "Value": "£47,580,000"
+      },
+      {
+        "Team": "Tottenham Hotspur F.C.",
+        "Type": "Midfielders",
+        "Value": "£29,905,200"
+      },
+      {
+        "Team": "Arsenal F.C.",
+        "Type": "Midfielders",
+        "Value": "£36,990,000"
+      },
+      {
+        "Team": "Aston Villa F.C.",
+        "Type": "Midfielders",
+        "Value": "£26,565,396"
+      },
+      {
+        "Team": "Leicester City",
+        "Type": "Midfielders",
+        "Value": "£28,168,000"
+      },
+      {
+        "Team": "West Ham United F.C.",
+        "Type": "Midfielders",
+        "Value": "£22,456,000"
+      },
+      {
+        "Team": "Newcastle United F.C.",
+        "Type": "Midfielders",
+        "Value": "£14,471,000"
+      },
+      {
+        "Team": "Crystal Palace",
+        "Type": "Midfielders",
+        "Value": "£15,470,000"
+      },
+      {
+        "Team": "Everton F.C.",
+        "Type": "Midfielders",
+        "Value": "£8,620,000"
+      },
+      {
+        "Team": "Wolves F.C.",
+        "Type": "Midfielders",
+        "Value": "£12,260,000"
+      },
+      {
+        "Team": "Fulham F.C.",
+        "Type": "Midfielders",
+        "Value": "£13,404,024"
+      },
+      {
+        "Team": "Southampton F.C.",
+        "Type": "Midfielders",
+        "Value": "£10,764,000"
+      },
+      {
+        "Team": "AFC Bournemouth",
+        "Type": "Midfielders",
+        "Value": "£12,140,000"
+      },
+      {
+        "Team": "Nottingham Forest F.C.",
+        "Type": "Midfielders",
+        "Value": "£13,540,000"
+      },
+      {
+        "Team": "Brighton & Hove Albion",
+        "Type": "Midfielders",
+        "Value": "£12,062,000"
+      },
+      {
+        "Team": "Brentford F.C.",
+        "Type": "Midfielders",
+        "Value": "£7,720,000"
+      },
+      {
+        "Team": "Leeds United F.C.",
+        "Type": "Midfielders",
+        "Value": "£1,859,000"
+      },
+      {
+        "Team": "Manchester United F.C.",
+        "Type": "Defensemen",
+        "Value": "£67,775,000"
+      },
+      {
+        "Team": "Chelsea F.C.",
+        "Type": "Defensemen",
+        "Value": "£62,140,000"
+      },
+      {
+        "Team": "Manchester City F.C.",
+        "Type": "Defensemen",
+        "Value": "£58,880,000"
+      },
+      {
+        "Team": "Liverpool F.C.",
+        "Type": "Defensemen",
+        "Value": "£46,000,000"
+      },
+      {
+        "Team": "Tottenham Hotspur F.C.",
+        "Type": "Defensemen",
+        "Value": "£29,450,000"
+      },
+      {
+        "Team": "Arsenal F.C.",
+        "Type": "Defensemen",
+        "Value": "£22,930,000"
+      },
+      {
+        "Team": "Aston Villa F.C.",
+        "Type": "Defensemen",
+        "Value": "£27,216,000"
+      },
+      {
+        "Team": "Leicester City",
+        "Type": "Defensemen",
+        "Value": "£22,735,000"
+      },
+      {
+        "Team": "West Ham United F.C.",
+        "Type": "Defensemen",
+        "Value": "£23,430,000"
+      },
+      {
+        "Team": "Newcastle United F.C.",
+        "Type": "Defensemen",
+        "Value": "£27,919,600"
+      },
+      {
+        "Team": "Crystal Palace",
+        "Type": "Defensemen",
+        "Value": "£21,228,000"
+      },
+      {
+        "Team": "Everton F.C.",
+        "Type": "Defensemen",
+        "Value": "£23,148,000"
+      },
+      {
+        "Team": "Wolves F.C.",
+        "Type": "Defensemen",
+        "Value": "£10,206,000"
+      },
+      {
+        "Team": "Fulham F.C.",
+        "Type": "Defensemen",
+        "Value": "£17,372,800"
+      },
+      {
+        "Team": "Southampton F.C.",
+        "Type": "Defensemen",
+        "Value": "£8,040,000"
+      },
+      {
+        "Team": "AFC Bournemouth",
+        "Type": "Defensemen",
+        "Value": "£9,766,000"
+      },
+      {
+        "Team": "Nottingham Forest F.C.",
+        "Type": "Defensemen",
+        "Value": "£8,420,000"
+      },
+      {
+        "Team": "Brighton & Hove Albion",
+        "Type": "Defensemen",
+        "Value": "£9,896,000"
+      },
+      {
+        "Team": "Brentford F.C.",
+        "Type": "Defensemen",
+        "Value": "£5,044,000"
+      },
+      {
+        "Team": "Leeds United F.C.",
+        "Type": "Defensemen",
+        "Value": "£5,354,000"
+      },
+      {
+        "Team": "Manchester United F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£23,656,000"
+      },
+      {
+        "Team": "Chelsea F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£12,324,000"
+      },
+      {
+        "Team": "Manchester City F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£7,540,000"
+      },
+      {
+        "Team": "Liverpool F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£11,128,000"
+      },
+      {
+        "Team": "Tottenham Hotspur F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£9,180,000"
+      },
+      {
+        "Team": "Arsenal F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£10,320,000"
+      },
+      {
+        "Team": "Aston Villa F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£7,046,000"
+      },
+      {
+        "Team": "Leicester City",
+        "Type": "Goalkeepers",
+        "Value": "£2,600,000"
+      },
+      {
+        "Team": "West Ham United F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£11,720,000"
+      },
+      {
+        "Team": "Newcastle United F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£1,900,000"
+      },
+      {
+        "Team": "Crystal Palace",
+        "Type": "Goalkeepers",
+        "Value": "£6,572,000"
+      },
+      {
+        "Team": "Everton F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£6,140,000"
+      },
+      {
+        "Team": "Wolves F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£2,140,000"
+      },
+      {
+        "Team": "Fulham F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£490,000"
+      },
+      {
+        "Team": "Southampton F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£3,490,000"
+      },
+      {
+        "Team": "AFC Bournemouth",
+        "Type": "Goalkeepers",
+        "Value": "£280,000"
+      },
+      {
+        "Team": "Nottingham Forest F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£5,330,000"
+      },
+      {
+        "Team": "Brighton & Hove Albion",
+        "Type": "Goalkeepers",
+        "Value": "£1,353,333"
+      },
+      {
+        "Team": "Brentford F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£1,300,000"
+      },
+      {
+        "Team": "Leeds United F.C.",
+        "Type": "Goalkeepers",
+        "Value": "£1,714,000"
+      },
+      {
+        "Team": "Manchester United F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£261,830,000"
+      },
+      {
+        "Team": "Chelsea F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£313,280,000"
+      },
+      {
+        "Team": "Manchester City F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£153,170,000"
+      },
+      {
+        "Team": "Liverpool F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£94,370,000"
+      },
+      {
+        "Team": "Tottenham Hotspur F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£167,090,000"
+      },
+      {
+        "Team": "Arsenal F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£145,270,000"
+      },
+      {
+        "Team": "Aston Villa F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£76,450,000"
+      },
+      {
+        "Team": "Leicester City",
+        "Type": "Transfer Fees",
+        "Value": "£18,700,000"
+      },
+      {
+        "Team": "West Ham United F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£200,210,000"
+      },
+      {
+        "Team": "Newcastle United F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£149,600,000"
+      },
+      {
+        "Team": "Crystal Palace",
+        "Type": "Transfer Fees",
+        "Value": "£36,630,000"
+      },
+      {
+        "Team": "Everton F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£68,420,000"
+      },
+      {
+        "Team": "Wolves F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£131,890,000"
+      },
+      {
+        "Team": "Fulham F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£65,120,000"
+      },
+      {
+        "Team": "Southampton F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£72,380,000"
+      },
+      {
+        "Team": "AFC Bournemouth",
+        "Type": "Transfer Fees",
+        "Value": "£29,590,000"
+      },
+      {
+        "Team": "Nottingham Forest F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£164,670,000"
+      },
+      {
+        "Team": "Brighton & Hove Albion",
+        "Type": "Transfer Fees",
+        "Value": "£43,780,000"
+      },
+      {
+        "Team": "Brentford F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£55,550,000"
+      },
+      {
+        "Team": "Leeds United F.C.",
+        "Type": "Transfer Fees",
+        "Value": "£98,970,000"
+      },
+      {
+        "Team": "Manchester United F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "227081000"
+      },
+      {
+        "Team": "Chelsea F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "188008000"
+      },
+      {
+        "Team": "Manchester City F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "177880000"
+      },
+      {
+        "Team": "Liverpool F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "155950000"
+      },
+      {
+        "Team": "Tottenham Hotspur F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "107639200"
+      },
+      {
+        "Team": "Arsenal F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "92600000"
+      },
+      {
+        "Team": "Aston Villa F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "81387396"
+      },
+      {
+        "Team": "Leicester City",
+        "Type": "Estimated Total Salary",
+        "Value": "69473000"
+      },
+      {
+        "Team": "West Ham United F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "68486000"
+      },
+      {
+        "Team": "Newcastle United F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "65764200"
+      },
+      {
+        "Team": "Crystal Palace",
+        "Type": "Estimated Total Salary",
+        "Value": "59425000"
+      },
+      {
+        "Team": "Everton F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "45883000"
+      },
+      {
+        "Team": "Wolves F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "41116000"
+      },
+      {
+        "Team": "Fulham F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "37636824"
+      },
+      {
+        "Team": "Southampton F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "36224000"
+      },
+      {
+        "Team": "AFC Bournemouth",
+        "Type": "Estimated Total Salary",
+        "Value": "29106000"
+      },
+      {
+        "Team": "Nottingham Forest F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "28990000"
+      },
+      {
+        "Team": "Brighton & Hove Albion",
+        "Type": "Estimated Total Salary",
+        "Value": "28381333"
+      },
+      {
+        "Team": "Brentford F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "15776000"
+      },
+      {
+        "Team": "Leeds United F.C.",
+        "Type": "Estimated Total Salary",
+        "Value": "15757000"
+      }
+    ]
+  },
+  "transform": [
+    {
+      "filter": "datum.Type == 'Estimated Total Salary'"
+    }
+  ],
+  "height": 260,
+  "width": "container",
+  "mark": {
+    "type": "bar",
+    "color": "#000f71"
+  },
+  "encoding": {
+    "x": {
+      "field": "Team",
+      "type": "nominal",
+      "sort": [
+        "null"
+      ]
+    },
+    "y": {
+      "field": "Value",
+      "title": "Total Player salaries, estimated, £",
+      "type": "quantitative"
+    },
+    "tooltip": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "£",
+      "format": ","
+    }
+  }
+}

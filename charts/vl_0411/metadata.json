@@ -1,0 +1,91 @@
+{
+  "id": "vl_0411",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "92b080ed17f28c76a674a3e6bf4184b92cb74e5f46889a8f27bbd73d5b780455",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "884d6bcd30c1b790534fedcec6b440fc6f2d2a798a915554adff4dd0835d2039",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "d8abea76bfdc4a6f2d67f7ce3333ee06027295372414669d7b35e0840a8291ba",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "773cefedc331b940db0700f323a0003e185f3e6de524596398f3c8276661d328",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4f59014b9be7fe5c01a4dbe2d438b5155399f92eef12e70dc9797604b4540790",
+      "actions": 18,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/productivity/BSD_modelPercentiles.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed full accepted G5 plus exact GLM stop. Complete axes refine to whole-axis then focused labels/title; source axis title700 remains focused. Remaining Sans-family defaults and necessary default-opacity bridge cannot form meaningful independent stages. Honest5-stage completion."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "746240b8d83ad2c9941cb68acf6c1048671b4646aebf026e3fbcad42335f8ca4",
+      "bytes": 1264
+    },
+    "data.json": {
+      "sha256": "c66937f312bb415e83def3fbf31e1c33442a8e0a958a4ecefd3a7435d17b5b32",
+      "bytes": 911
+    },
+    "resolved-source.vl.json": {
+      "sha256": "fdd2873b2208fa37ba2560a343efbd466a80a7d1766a6190df3dabff6ea5f5ca",
+      "bytes": 2287
+    },
+    "G1.gg.mjs": {
+      "sha256": "92b080ed17f28c76a674a3e6bf4184b92cb74e5f46889a8f27bbd73d5b780455",
+      "bytes": 2128
+    },
+    "G2.gg.mjs": {
+      "sha256": "884d6bcd30c1b790534fedcec6b440fc6f2d2a798a915554adff4dd0835d2039",
+      "bytes": 2088
+    },
+    "G3.gg.mjs": {
+      "sha256": "d8abea76bfdc4a6f2d67f7ce3333ee06027295372414669d7b35e0840a8291ba",
+      "bytes": 2161
+    },
+    "G4.gg.mjs": {
+      "sha256": "773cefedc331b940db0700f323a0003e185f3e6de524596398f3c8276661d328",
+      "bytes": 2182
+    },
+    "G5.gg.mjs": {
+      "sha256": "4f59014b9be7fe5c01a4dbe2d438b5155399f92eef12e70dc9797604b4540790",
+      "bytes": 2183
+    },
+    "vega-lite.svg": {
+      "sha256": "92f6443432289e3659296fe4404bd2835718c23f2e1b103b1f1eca5fb6ae6f61",
+      "bytes": 10373
+    },
+    "ggaction.svg": {
+      "sha256": "fafc3d1e63535f9de64038eaaa8fd717c12391527b5f134dfd610887cc94d94f",
+      "bytes": 6859
+    }
+  }
+}

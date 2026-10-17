@@ -1,0 +1,162 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Richard's line chart",
+  "title": {
+    "text": "Eldery workers - Japan",
+    "subtitle": [
+      "Share of workforce that is 65+",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "view": {
+    "stroke": "transparent"
+  },
+  "data": {
+    "values": [
+      {
+        "Year": "1980",
+        "Value": "4.90",
+        "ValuePCT": "0.049",
+        "Source:": "https://www8.cao.go.jp/kourei/whitepaper/w-2022/zenbun/pdf/1s2s_01.pdf"
+      },
+      {
+        "Year": "1985",
+        "Value": "5",
+        "ValuePCT": "0.05",
+        "Source:": ""
+      },
+      {
+        "Year": "1990",
+        "Value": "5.60",
+        "ValuePCT": "0.056",
+        "Source:": ""
+      },
+      {
+        "Year": "1995",
+        "Value": "6.70",
+        "ValuePCT": "0.067",
+        "Source:": ""
+      },
+      {
+        "Year": "2000",
+        "Value": "7.30",
+        "ValuePCT": "0.073",
+        "Source:": ""
+      },
+      {
+        "Year": "2005",
+        "Value": "7.60",
+        "ValuePCT": "0.076",
+        "Source:": ""
+      },
+      {
+        "Year": "2010",
+        "Value": "8.80",
+        "ValuePCT": "0.088",
+        "Source:": ""
+      },
+      {
+        "Year": "2011",
+        "Value": "8.90",
+        "ValuePCT": "0.089",
+        "Source:": ""
+      },
+      {
+        "Year": "2012",
+        "Value": "9.30",
+        "ValuePCT": "0.093",
+        "Source:": ""
+      },
+      {
+        "Year": "2013",
+        "Value": "9.90",
+        "ValuePCT": "0.099",
+        "Source:": ""
+      },
+      {
+        "Year": "2014",
+        "Value": "10.60",
+        "ValuePCT": "0.106",
+        "Source:": ""
+      },
+      {
+        "Year": "2015",
+        "Value": "11.30",
+        "ValuePCT": "0.113",
+        "Source:": ""
+      },
+      {
+        "Year": "2016",
+        "Value": "11.80",
+        "ValuePCT": "0.118",
+        "Source:": ""
+      },
+      {
+        "Year": "2017",
+        "Value": "12.20",
+        "ValuePCT": "0.122",
+        "Source:": ""
+      },
+      {
+        "Year": "2018",
+        "Value": "12.70",
+        "ValuePCT": "0.127",
+        "Source:": ""
+      },
+      {
+        "Year": "2019",
+        "Value": "13.10",
+        "ValuePCT": "0.131",
+        "Source:": ""
+      },
+      {
+        "Year": "2020",
+        "Value": "13.30",
+        "ValuePCT": "0.133",
+        "Source:": ""
+      },
+      {
+        "Year": "2021",
+        "Value": "13.40",
+        "ValuePCT": "0.134",
+        "Source:": ""
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "height": 300,
+  "width": 350,
+  "mark": {
+    "type": "line",
+    "color": "rgb(128,0,0)",
+    "point": {
+      "color": "rgb(128,0,0)",
+      "size": 50
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {
+        "title": null
+      }
+    },
+    "y": {
+      "field": "ValuePCT",
+      "type": "quantitative",
+      "axis": {
+        "title": null,
+        "format": "%"
+      }
+    }
+  }
+}

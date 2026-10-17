@@ -1,0 +1,80 @@
+{
+  "id": "vl_1164",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "fbef011e834ebf3ab2d65a6f9b895d158c35c6257a8112ca9f32f7cd397b0763",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "52bbdeb910fda89133b99b1bc4e8451d03a910e59cbc09bc5f8192599a0dbda7",
+      "actions": 16,
+      "topOptions": 39
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "feda7b57ecf76d3fd97f4e6e93d63c0ced7380d87b27050a7ed3b6fefc5298f3",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e65e62f7e50e99a2cea9be93311abb03017f150ebc4c4597c6f18eb506a0a5ac",
+      "actions": 19,
+      "topOptions": 42
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/ConorQuah/ConorQuah.github.io/main/IMF_data1.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Read all accepted GLM stages and exact current G4; source/full data and family checks pass current87001720. Host frontier audit no mandatory meaningful boundaries: scale pair, focused axis components and related title paint already owned. Honest4-stage completion; failed extra G5 responses preserved and counted, no fabricated8-stage profile."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "546eedfa99360e864ab67ef042d1de77510391ed23f4f3c0ed5309202236ba8e",
+      "bytes": 978
+    },
+    "data.json": {
+      "sha256": "f8d481e5b830a2a79acd3d9dccfc4cb4cfe9428c5861d062ead37262f98e70a2",
+      "bytes": 15312
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0e7c1eee301508a4fcf45970322fc9d874be9c801034f70a882ee8340048e51b",
+      "bytes": 18924
+    },
+    "G1.gg.mjs": {
+      "sha256": "fbef011e834ebf3ab2d65a6f9b895d158c35c6257a8112ca9f32f7cd397b0763",
+      "bytes": 2457
+    },
+    "G2.gg.mjs": {
+      "sha256": "52bbdeb910fda89133b99b1bc4e8451d03a910e59cbc09bc5f8192599a0dbda7",
+      "bytes": 2468
+    },
+    "G3.gg.mjs": {
+      "sha256": "feda7b57ecf76d3fd97f4e6e93d63c0ced7380d87b27050a7ed3b6fefc5298f3",
+      "bytes": 2526
+    },
+    "G4.gg.mjs": {
+      "sha256": "e65e62f7e50e99a2cea9be93311abb03017f150ebc4c4597c6f18eb506a0a5ac",
+      "bytes": 2542
+    },
+    "vega-lite.svg": {
+      "sha256": "868b5363f63fa90f0fa6b01b533c4ffc399dd8af35098e7c2aafc853c774b892",
+      "bytes": 15126
+    },
+    "ggaction.svg": {
+      "sha256": "24569aa114a89257e1b670311fa3783fe49cd1d31de037f39e4585525aabdfd6",
+      "bytes": 13535
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_0085",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "e913f87e87f2993e13d2f2ac7c2a2dc418658dcd5733053495d9fe7b7cd2c16c",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "051d52ae76b006115f0a0e42131f56069d8875a7931743c8c5ea9cd71d3106db",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "29d5f13c4ccd498d3112b770a95611d3b4a30127c2d9888dd0f35be27f82b50e",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4215ff258b86470ebdfb4db6a9b1171cf2bcb3cceb7a8478aaba818179a678c0",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "cf031a8d2b62e38cdddb05ba2f56f096bc8bde4b424d0eb19d4045136cb91ffa",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "195ecd35c8654b8810558fbc7c5258519ac69495a7b780618aa865e0f0e983f2",
+      "actions": 17,
+      "topOptions": 35
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "bcd3e84b40230b9f5c194aa2c439d8eb339ad781293ea29eb0bc0c74a9e7d6ea",
+      "actions": 19,
+      "topOptions": 37
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "0b032ee26c5bda606238f8672aa66dc7c87c60e201afdbe432db6310d694311d",
+      "actions": 19,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/db_covidLocalRisk.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full terminal source/code read, all eight accepted programsPASS and SVGidentical. Rawnumeric emptytozero semantics/sourceblue.4circlearea300/actual visible percentlabels/source260x300plot/header retained. Concrete frontierempty; cap does not imply fresh modelstop."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8aa43c04cd722861548f646aec5bc6328d692d4c62edbffa884bf7d64698432d",
+      "bytes": 1472
+    },
+    "data.json": {
+      "sha256": "40d5c04a0c11b4713d0dcf65e208ad9751d49ae694dc7de75a6aba97d1b9b222",
+      "bytes": 123084
+    },
+    "resolved-source.vl.json": {
+      "sha256": "34c6e01cf35095bdc05a9784c99b47e3a502a4bb4cdfe766dea00a63a0daf18a",
+      "bytes": 145534
+    },
+    "G1.gg.mjs": {
+      "sha256": "e913f87e87f2993e13d2f2ac7c2a2dc418658dcd5733053495d9fe7b7cd2c16c",
+      "bytes": 2881
+    },
+    "G2.gg.mjs": {
+      "sha256": "051d52ae76b006115f0a0e42131f56069d8875a7931743c8c5ea9cd71d3106db",
+      "bytes": 2877
+    },
+    "G3.gg.mjs": {
+      "sha256": "29d5f13c4ccd498d3112b770a95611d3b4a30127c2d9888dd0f35be27f82b50e",
+      "bytes": 2837
+    },
+    "G4.gg.mjs": {
+      "sha256": "4215ff258b86470ebdfb4db6a9b1171cf2bcb3cceb7a8478aaba818179a678c0",
+      "bytes": 2881
+    },
+    "G5.gg.mjs": {
+      "sha256": "cf031a8d2b62e38cdddb05ba2f56f096bc8bde4b424d0eb19d4045136cb91ffa",
+      "bytes": 2903
+    },
+    "G6.gg.mjs": {
+      "sha256": "195ecd35c8654b8810558fbc7c5258519ac69495a7b780618aa865e0f0e983f2",
+      "bytes": 2983
+    },
+    "G7.gg.mjs": {
+      "sha256": "bcd3e84b40230b9f5c194aa2c439d8eb339ad781293ea29eb0bc0c74a9e7d6ea",
+      "bytes": 3053
+    },
+    "G8.gg.mjs": {
+      "sha256": "0b032ee26c5bda606238f8672aa66dc7c87c60e201afdbe432db6310d694311d",
+      "bytes": 3041
+    },
+    "vega-lite.svg": {
+      "sha256": "f8d5893f601d3c42586c2f8d44ea07748dcc7a10d97cb206b985d043cefe5577",
+      "bytes": 158324
+    },
+    "ggaction.svg": {
+      "sha256": "1a8e7b25584deb57a67ef98610300fa8a62d656136a97e0389df56c7d9b7e2b4",
+      "bytes": 49207
+    }
+  }
+}

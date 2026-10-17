@@ -1,0 +1,124 @@
+{
+  "id": "vl_1363",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "bbf90c94f39c35fe39fbe4146abbcd9f2b0643d01dec41ca162360961370b3fe",
+      "actions": 16,
+      "topOptions": 31
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "c5a9af11b174dd2dbfd170a0db7c4c708c45e1145040e4d193ff6e4dbbb8130d",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7227d6199960ba1e142aaf0588c4eeafeee6ad3d2aaeb557931f0c2428fb6aa5",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1170129a0cd9b9be3c0b57621d262026cdc26a3785b82ddf70cf445fbfb8685d",
+      "actions": 21,
+      "topOptions": 41
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "dbe91cba89ce05db16a255e2f9bff72ff683e9cc09e3b8a2daba5c6a34778977",
+      "actions": 22,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "f115d7767d1a534477205c022e94561b3cfb247cbac9925861a97c1a8f4ba899",
+      "actions": 23,
+      "topOptions": 43
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "b93452ae6eee95f01687f5216ba20e485ccd766a94a1236d0578decbdbc738b2",
+      "actions": 25,
+      "topOptions": 44
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "09dec5258aac4d48762a4af4c7c3be99af00f669944ee1dc6ac24aa411373ef8",
+      "actions": 26,
+      "topOptions": 47
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/thomasxu2009/ChartStory/1888d7060e265cc2e1493f5555412997857945c5/savedFile_globalTerr/Ewen3Data.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source/final G8 reread confirms all40422raw rows and538 source year/country aggregates, ordered23series paths, original palette cycling, source fonts/plot/header/legend values. G8 moves only real legend paint while preserving font sizes at birth; all current ordinary source/family checks pass. Eight-stage cap retains focused grid/mark/other possible boundaries honestly without padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "c340ba22cac23fd0ad71a2bda3582a254e066979151f3e74188f99d6b4fee29b",
+      "bytes": 940
+    },
+    "data.json": {
+      "sha256": "7027bfdf73e6a1274cd050fe95f1b86d8d39f54d36193b907aa871cfdc89f4f7",
+      "bytes": 3270612
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8abb6ffec9e17a3820671f0b5f9ddeabc6f12de629e2a3de8aac6578a239ee61",
+      "bytes": 4079863
+    },
+    "G1.gg.mjs": {
+      "sha256": "bbf90c94f39c35fe39fbe4146abbcd9f2b0643d01dec41ca162360961370b3fe",
+      "bytes": 3192
+    },
+    "G2.gg.mjs": {
+      "sha256": "c5a9af11b174dd2dbfd170a0db7c4c708c45e1145040e4d193ff6e4dbbb8130d",
+      "bytes": 3156
+    },
+    "G3.gg.mjs": {
+      "sha256": "7227d6199960ba1e142aaf0588c4eeafeee6ad3d2aaeb557931f0c2428fb6aa5",
+      "bytes": 3156
+    },
+    "G4.gg.mjs": {
+      "sha256": "1170129a0cd9b9be3c0b57621d262026cdc26a3785b82ddf70cf445fbfb8685d",
+      "bytes": 3316
+    },
+    "G5.gg.mjs": {
+      "sha256": "dbe91cba89ce05db16a255e2f9bff72ff683e9cc09e3b8a2daba5c6a34778977",
+      "bytes": 3346
+    },
+    "G6.gg.mjs": {
+      "sha256": "f115d7767d1a534477205c022e94561b3cfb247cbac9925861a97c1a8f4ba899",
+      "bytes": 3295
+    },
+    "G7.gg.mjs": {
+      "sha256": "b93452ae6eee95f01687f5216ba20e485ccd766a94a1236d0578decbdbc738b2",
+      "bytes": 3281
+    },
+    "G8.gg.mjs": {
+      "sha256": "09dec5258aac4d48762a4af4c7c3be99af00f669944ee1dc6ac24aa411373ef8",
+      "bytes": 3307
+    },
+    "vega-lite.svg": {
+      "sha256": "1d6ce4ebf41986b08839c0a07d23f95baae26380531943b83deb812e1788ea3f",
+      "bytes": 50989
+    },
+    "ggaction.svg": {
+      "sha256": "2408372afcdb333606f1b9bb98bbd93315a4ab8a02a2713369b877282b6b6fd0",
+      "bytes": 41069
+    }
+  }
+}

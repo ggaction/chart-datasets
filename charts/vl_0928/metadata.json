@@ -1,0 +1,111 @@
+{
+  "id": "vl_0928",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "7c79bb629190dfaa72ac218a6fafadccd63500dcff4c050e9c4b8fd6902ab29f",
+      "actions": 10,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e588a09112de77d962710a11e376310ed3ad404b94916cf077e2e634b7834b7f",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "02b080ff2e5c061cb168f8a1a3f56ae51b1a33b39ffe9920544e922fc532f6d9",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "6afafab433d0e3e75ce4b7cc3ae5b05cb5f96ca364be30599bf76eaac2aad8e1",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "be1d96035ea1b995077f0a0b527eb84bee48b5aaf626e10bedd7ecf33c9ef57f",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "195e19e8ee20e24f3de8c6e3318f38b52759389284a8eb4fe441a08bde119c71",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "a48b7187325bebd3ca435025efc92061f72aedefc4dcc4cd407fd051b9de3f46",
+      "actions": 17,
+      "topOptions": 36
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full current G7 and source reviewed after removal of former default-family-only stage. Existing line stroke/width now dedicated semantic encoders. Axes use focused paint and format editors; remaining creation geometry protected. No default-font-family-only padding permitted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8ac80d78472f023df10877c7adaabf4e679ca998f7149846e0209e391718661f",
+      "bytes": 94384
+    },
+    "data.json": {
+      "sha256": "9f294c3668606526e3011dad175e1ef2e74dd2a39249216a5593071596ab6e00",
+      "bytes": 79043
+    },
+    "resolved-source.vl.json": {
+      "sha256": "547f69634b0d68719b9899321c9abdd61844360438302e2a3eb55aec02eab3c1",
+      "bytes": 94385
+    },
+    "G1.gg.mjs": {
+      "sha256": "7c79bb629190dfaa72ac218a6fafadccd63500dcff4c050e9c4b8fd6902ab29f",
+      "bytes": 1676
+    },
+    "G2.gg.mjs": {
+      "sha256": "e588a09112de77d962710a11e376310ed3ad404b94916cf077e2e634b7834b7f",
+      "bytes": 1694
+    },
+    "G3.gg.mjs": {
+      "sha256": "02b080ff2e5c061cb168f8a1a3f56ae51b1a33b39ffe9920544e922fc532f6d9",
+      "bytes": 1816
+    },
+    "G4.gg.mjs": {
+      "sha256": "6afafab433d0e3e75ce4b7cc3ae5b05cb5f96ca364be30599bf76eaac2aad8e1",
+      "bytes": 1832
+    },
+    "G5.gg.mjs": {
+      "sha256": "be1d96035ea1b995077f0a0b527eb84bee48b5aaf626e10bedd7ecf33c9ef57f",
+      "bytes": 1806
+    },
+    "G6.gg.mjs": {
+      "sha256": "195e19e8ee20e24f3de8c6e3318f38b52759389284a8eb4fe441a08bde119c71",
+      "bytes": 1806
+    },
+    "G7.gg.mjs": {
+      "sha256": "a48b7187325bebd3ca435025efc92061f72aedefc4dcc4cd407fd051b9de3f46",
+      "bytes": 1826
+    },
+    "vega-lite.svg": {
+      "sha256": "d8ae413c3f931c1c9c02532838218ddf2f09a5f7a4eea647696bb0a617e41823",
+      "bytes": 9529
+    },
+    "ggaction.svg": {
+      "sha256": "fdebd805d75c414f4c4ec30a66a931e6d926522da28811f8f5d2cd4b12725fba",
+      "bytes": 13341
+    }
+  }
+}

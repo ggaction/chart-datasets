@@ -1,0 +1,111 @@
+{
+  "id": "vl_1215",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "06ce8a4026bae2fe18f584c1e72a9a1bf5ce12ae61cf17b076c5bc74c7357c09",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "620d2b0aae2fa51eb108977ab9f88119600b2e36da94679e57666fd3fb738d4a",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "df636feca019f14a9ffb693c0e62822f70d749da191ac7bc14697fe62f625437",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "5c4dcd9cf9c1f9e4fb7db46969f425a1109954152f00b140bd553ec7d6647f63",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "0e609b28b790992b2d4826aa79c840cde3ef01fefd65dc59c3013cadfa7aa1ae",
+      "actions": 15,
+      "topOptions": 29
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d487ec1d2b677fc9b25ffcb5845ea9702ba77a319f562564c78c307a9770f30b",
+      "actions": 17,
+      "topOptions": 31
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "a3dba1448c68f4c2235553eb0079e15c8be27fb23c69e1aa7e1645ecbaab599a",
+      "actions": 17,
+      "topOptions": 31
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Seven meaningful paired stages. Facade persists; grouped offsets/color scales, guides, paired full axes, axis typography, focused titles and horizontal grid paint all refined. Remaining source tick/label/title geometry stays at creation for tight fixed Canvas. G8 coarsening rejected; preserved original GLM stop explicitly revalidated against current terminal code."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9db0ddd81f6d47cf3b35bdfcebf8fe5313680d21592bc5859ee4b96523fe852b",
+      "bytes": 1138
+    },
+    "data.json": {
+      "sha256": "a562c167271e02f78c273164c16e05b253a72ab4effda9f598af3c40f0758f58",
+      "bytes": 588
+    },
+    "resolved-source.vl.json": {
+      "sha256": "9db0ddd81f6d47cf3b35bdfcebf8fe5313680d21592bc5859ee4b96523fe852b",
+      "bytes": 1138
+    },
+    "G1.gg.mjs": {
+      "sha256": "06ce8a4026bae2fe18f584c1e72a9a1bf5ce12ae61cf17b076c5bc74c7357c09",
+      "bytes": 1916
+    },
+    "G2.gg.mjs": {
+      "sha256": "620d2b0aae2fa51eb108977ab9f88119600b2e36da94679e57666fd3fb738d4a",
+      "bytes": 1820
+    },
+    "G3.gg.mjs": {
+      "sha256": "df636feca019f14a9ffb693c0e62822f70d749da191ac7bc14697fe62f625437",
+      "bytes": 1846
+    },
+    "G4.gg.mjs": {
+      "sha256": "5c4dcd9cf9c1f9e4fb7db46969f425a1109954152f00b140bd553ec7d6647f63",
+      "bytes": 1784
+    },
+    "G5.gg.mjs": {
+      "sha256": "0e609b28b790992b2d4826aa79c840cde3ef01fefd65dc59c3013cadfa7aa1ae",
+      "bytes": 1875
+    },
+    "G6.gg.mjs": {
+      "sha256": "d487ec1d2b677fc9b25ffcb5845ea9702ba77a319f562564c78c307a9770f30b",
+      "bytes": 1919
+    },
+    "G7.gg.mjs": {
+      "sha256": "a3dba1448c68f4c2235553eb0079e15c8be27fb23c69e1aa7e1645ecbaab599a",
+      "bytes": 1901
+    },
+    "vega-lite.svg": {
+      "sha256": "86a7ea654d33f36a53b2c873d10b464528da28fe0eae9304a431762bbf06917d",
+      "bytes": 10085
+    },
+    "ggaction.svg": {
+      "sha256": "012320bdac04e8d10919af8caa077bca08f5a1055685a74f2de38aa5c4c458d9",
+      "bytes": 6371
+    }
+  }
+}

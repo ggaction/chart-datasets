@@ -1,0 +1,122 @@
+{
+  "id": "vl_1441",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f4e5bb9691bfb3616a898bc91426aa095628514d80a3b8fab82e79459960125d",
+      "actions": 79,
+      "topOptions": 172
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "8e9414cf0198198c8de44d0d115a833e9d97f2f5e839870aa17584084449f4b2",
+      "actions": 94,
+      "topOptions": 197
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "efc724aa8278b50281627596c28dc2e9941a50a00c6191bb05345120a3714017",
+      "actions": 99,
+      "topOptions": 217
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "5943cd552715ab25f6403785f15bbfa7a9006131291269c3a86c3b6c97fb9d4b",
+      "actions": 104,
+      "topOptions": 217
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "5b09f38d5440657c535ccf550d4145821f1b24a986d5fc7600f366c6e1fbbd2c",
+      "actions": 114,
+      "topOptions": 242
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3e35d26c44ebf33fa266313c5c4c3edffb8a9ee859bbc62ee83ed6957311b076",
+      "actions": 139,
+      "topOptions": 262
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "e1ef9d89925ee0dd23979b1527d11d5d83fa07ae9894402c8ea63499440f6913",
+      "actions": 139,
+      "topOptions": 267
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "98f65df630a34ea1a71aa2a8ab421382ba5bf70eec663b3b322499d196ac3710",
+      "actions": 141,
+      "topOptions": 270
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "원본65행과 다섯 실제 패널, source866x438 외곽 및 각250x75 플롯, 독립 도메인/Boolean 색상/단일 범례/실제 여섯 Y축 겹침 쌍과 모든 글꼴·축·제목을 전체 재검토했습니다. 여덟 프로그램 모두 현 런타임 native/source/동일가족 검증을 통과했고, 마지막 단계는 범례의 전체 제목·레이블 색과 제목 굵기를 편집기로 이전하는 한 소유권 경계입니다. 기본1px grid 폭 및 생성 시 필요한 글꼴·레이블맵은 유지했습니다. 8단계 제한에서 남은 축 생성 컴포넌트 분해는 미수행으로 명시하고, 모든 GLM 응답과 비용을 보존합니다."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "eef189d2672e45c2c52d84953698a3af6cb30b245cee125cbdfac447aa816632",
+      "bytes": 14528
+    },
+    "data.json": {
+      "sha256": "55290a688395daee2e1a4592ed5d71377bea8cb4012faadb1f8eea92a18e08c0",
+      "bytes": 11278
+    },
+    "resolved-source.vl.json": {
+      "sha256": "35bc6beb22d48656ccca633b145e8f5cd09bb6428ea6b930b319bd6458b2a42d",
+      "bytes": 14425
+    },
+    "G1.gg.mjs": {
+      "sha256": "f4e5bb9691bfb3616a898bc91426aa095628514d80a3b8fab82e79459960125d",
+      "bytes": 16339
+    },
+    "G2.gg.mjs": {
+      "sha256": "8e9414cf0198198c8de44d0d115a833e9d97f2f5e839870aa17584084449f4b2",
+      "bytes": 16494
+    },
+    "G3.gg.mjs": {
+      "sha256": "efc724aa8278b50281627596c28dc2e9941a50a00c6191bb05345120a3714017",
+      "bytes": 16294
+    },
+    "G4.gg.mjs": {
+      "sha256": "5943cd552715ab25f6403785f15bbfa7a9006131291269c3a86c3b6c97fb9d4b",
+      "bytes": 16399
+    },
+    "G5.gg.mjs": {
+      "sha256": "5b09f38d5440657c535ccf550d4145821f1b24a986d5fc7600f366c6e1fbbd2c",
+      "bytes": 17174
+    },
+    "G6.gg.mjs": {
+      "sha256": "3e35d26c44ebf33fa266313c5c4c3edffb8a9ee859bbc62ee83ed6957311b076",
+      "bytes": 17239
+    },
+    "G7.gg.mjs": {
+      "sha256": "e1ef9d89925ee0dd23979b1527d11d5d83fa07ae9894402c8ea63499440f6913",
+      "bytes": 17319
+    },
+    "G8.gg.mjs": {
+      "sha256": "98f65df630a34ea1a71aa2a8ab421382ba5bf70eec663b3b322499d196ac3710",
+      "bytes": 17370
+    },
+    "vega-lite.svg": {
+      "sha256": "49e6770d3ccd7ea924a9b1425f2eece9f27a65586c414e5b55629542810e83e5",
+      "bytes": 39094
+    },
+    "ggaction.svg": {
+      "sha256": "1a6a74b22aa4de799a0b1db9a348bd2fa2ebe199152d7ed30fcd55750d278315",
+      "bytes": 26819
+    }
+  }
+}

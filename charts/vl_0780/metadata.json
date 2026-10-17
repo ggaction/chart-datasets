@@ -1,0 +1,113 @@
+{
+  "id": "vl_0780",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5a863fbdda9f115d83f14ecbfa37371f8cf28993f6410e8873d7625cc0ee7d89",
+      "actions": 27,
+      "topOptions": 64
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5afdffb3e2f5d9848105a6983c1c0bc8bc5fa66b85143776dce3082b62a49dff",
+      "actions": 29,
+      "topOptions": 66
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4cb50e66bbbb43ff2cbae23e7056a9e0261d237c85013d32d61aaf930a760b68",
+      "actions": 30,
+      "topOptions": 70
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4efc5e0d6c01f231cb1c2897862926d7e2f014af423df4d3aac5d23c8b97f0dc",
+      "actions": 32,
+      "topOptions": 72
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e18e6af85f80e9993510c82d8700d54b297cdfc3e8c8aa56c4e84876bea4a0cb",
+      "actions": 34,
+      "topOptions": 76
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "18260af8b5d2da15fac4d3a661591823aeb5e4bfc3c9fed80792d7a4de6773af",
+      "actions": 39,
+      "topOptions": 77
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d3ab22b13b83cca230fc9514c7434cb361df9fd62956e99242b262b8c79dd5b9",
+      "actions": 39,
+      "topOptions": 78
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/KrishnaSharan/KrishnaSharan.github.io/main/Project_Scatter_Plot.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full originalsource, twelve originalrawrecords, G1 and every exact model diff, then complete final G7 program reread. Allcurrent source/native regression/settledannotation, fullsourceguide and same-family SVG/PNG checks pass. Concrete ownership frontier empty: source geometry/font sizes and protected Ypercentformat stay atcreation; point constantfill correctly remains editPointMark because encodeColor has no constantvalue and ordinary encodeFill does not exist. Line stroke/width and sourcepointopacity are already dedicated encoders. Stop at7 without scalar/default padding. The retained model stop wording claiming everyfill is an encoder is not repeated as a factual claim; actual final code and reviewed API determine this completion."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "4bf2c40678ecf745d7d2aaac4e5e0a59cbc8998d6f179914e599e0182c315694",
+      "bytes": 2667
+    },
+    "data.json": {
+      "sha256": "00a34e1957b5ec5e1f8e4d61785948aa0830ba45c338612b551b8dc466e0a9db",
+      "bytes": 1194
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e620ee75fe946401904533ad452b4ebf363892f5fa07b5f9ffd3e7c6cb78f93c",
+      "bytes": 4005
+    },
+    "G1.gg.mjs": {
+      "sha256": "5a863fbdda9f115d83f14ecbfa37371f8cf28993f6410e8873d7625cc0ee7d89",
+      "bytes": 4270
+    },
+    "G2.gg.mjs": {
+      "sha256": "5afdffb3e2f5d9848105a6983c1c0bc8bc5fa66b85143776dce3082b62a49dff",
+      "bytes": 4354
+    },
+    "G3.gg.mjs": {
+      "sha256": "4cb50e66bbbb43ff2cbae23e7056a9e0261d237c85013d32d61aaf930a760b68",
+      "bytes": 4292
+    },
+    "G4.gg.mjs": {
+      "sha256": "4efc5e0d6c01f231cb1c2897862926d7e2f014af423df4d3aac5d23c8b97f0dc",
+      "bytes": 4350
+    },
+    "G5.gg.mjs": {
+      "sha256": "e18e6af85f80e9993510c82d8700d54b297cdfc3e8c8aa56c4e84876bea4a0cb",
+      "bytes": 4488
+    },
+    "G6.gg.mjs": {
+      "sha256": "18260af8b5d2da15fac4d3a661591823aeb5e4bfc3c9fed80792d7a4de6773af",
+      "bytes": 4469
+    },
+    "G7.gg.mjs": {
+      "sha256": "d3ab22b13b83cca230fc9514c7434cb361df9fd62956e99242b262b8c79dd5b9",
+      "bytes": 4475
+    },
+    "vega-lite.svg": {
+      "sha256": "495c44d0dc1352249c2fc67b789ef45c254bcd44de36b6fd9355d8044a712aed",
+      "bytes": 14859
+    },
+    "ggaction.svg": {
+      "sha256": "b1eec9d69ae4e4bc64c7f152ecb10aa4ba717b9c5d8ea37aaf3095f8c2a0e5d5",
+      "bytes": 9145
+    }
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Real GDP growth relative to Crypto usage 2022",
+    "subtitle": [
+      "This graph illustares Real GDP growth of 55 countries relative to",
+      "the pecenatge of that country that use/own Cyptocurrenies"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "config": {
+    "background": "white",
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "﻿Reigon": "Argentina",
+        "Percentage of Population who own/use crypto": "35",
+        "Real GDP growth (Annual percent change)": "4",
+        "Population (2021)": "45808747"
+      },
+      {
+        "﻿Reigon": "Australia",
+        "Percentage of Population who own/use crypto": "18",
+        "Real GDP growth (Annual percent change)": "3.8",
+        "Population (2021)": "25739256"
+      },
+      {
+        "﻿Reigon": "Austria",
+        "Percentage of Population who own/use crypto": "14",
+        "Real GDP growth (Annual percent change)": "4.7",
+        "Population (2021)": "8956279"
+      },
+      {
+        "﻿Reigon": "Belgium",
+        "Percentage of Population who own/use crypto": "15",
+        "Real GDP growth (Annual percent change)": "2.4",
+        "Population (2021)": "11587882"
+      },
+      {
+        "﻿Reigon": "Brazil",
+        "Percentage of Population who own/use crypto": "24",
+        "Real GDP growth (Annual percent change)": "2.8",
+        "Population (2021)": "213993441"
+      },
+      {
+        "﻿Reigon": "Canada",
+        "Percentage of Population who own/use crypto": "14",
+        "Real GDP growth (Annual percent change)": "3.3",
+        "Population (2021)": "38246108"
+      },
+      {
+        "﻿Reigon": "Chile",
+        "Percentage of Population who own/use crypto": "14",
+        "Real GDP growth (Annual percent change)": "2",
+        "Population (2021)": "19212362"
+      },
+      {
+        "﻿Reigon": "China",
+        "Percentage of Population who own/use crypto": "9",
+        "Real GDP growth (Annual percent change)": "3.2",
+        "Population (2021)": "1412360000"
+      },
+      {
+        "﻿Reigon": "Colombia",
+        "Percentage of Population who own/use crypto": "16",
+        "Real GDP growth (Annual percent change)": "7.6",
+        "Population (2021)": "51265841"
+      },
+      {
+        "﻿Reigon": "Czechia",
+        "Percentage of Population who own/use crypto": "13",
+        "Real GDP growth (Annual percent change)": "1.9",
+        "Population (2021)": "10703446"
+      },
+      {
+        "﻿Reigon": "Denmark",
+        "Percentage of Population who own/use crypto": "12",
+        "Real GDP growth (Annual percent change)": "2.6",
+        "Population (2021)": "5856733"
+      },
+      {
+        "﻿Reigon": "Dominican Republic",
+        "Percentage of Population who own/use crypto": "15",
+        "Real GDP growth (Annual percent change)": "5.3",
+        "Population (2021)": "10953714"
+      },
+      {
+        "﻿Reigon": "Egypt",
+        "Percentage of Population who own/use crypto": "14",
+        "Real GDP growth (Annual percent change)": "6.6",
+        "Population (2021)": "104258327"
+      },
+      {
+        "﻿Reigon": "Finland",
+        "Percentage of Population who own/use crypto": "12",
+        "Real GDP growth (Annual percent change)": "2.1",
+        "Population (2021)": "5541696"
+      },
+      {
+        "﻿Reigon": "France",
+        "Percentage of Population who own/use crypto": "9",
+        "Real GDP growth (Annual percent change)": "2.5",
+        "Population (2021)": "67499343"
+      },
+      {
+        "﻿Reigon": "Germany",
+        "Percentage of Population who own/use crypto": "12",
+        "Real GDP growth (Annual percent change)": "1.5",
+        "Population (2021)": "83129285"
+      },
+      {
+        "﻿Reigon": "Greece",
+        "Percentage of Population who own/use crypto": "18",
+        "Real GDP growth (Annual percent change)": "5.2",
+        "Population (2021)": "10664568"
+      },
+      {
+        "﻿Reigon": "Hong Kong",
+        "Percentage of Population who own/use crypto": "16",
+        "Real GDP growth (Annual percent change)": "-0.8",
+        "Population (2021)": "7413100"
+      },
+      {
+        "﻿Reigon": "Hungary",
+        "Percentage of Population who own/use crypto": "12",
+        "Real GDP growth (Annual percent change)": "5.7",
+        "Population (2021)": "9709886"
+      },
+      {
+        "﻿Reigon": "India",
+        "Percentage of Population who own/use crypto": "25",
+        "Real GDP growth (Annual percent change)": "6.8",
+        "Population (2021)": "1393409033"
+      },
+      {
+        "﻿Reigon": "Indonesia",
+        "Percentage of Population who own/use crypto": "19",
+        "Real GDP growth (Annual percent change)": "5.3",
+        "Population (2021)": "276361788"
+      },
+      {
+        "﻿Reigon": "Ireland",
+        "Percentage of Population who own/use crypto": "15",
+        "Real GDP growth (Annual percent change)": "9",
+        "Population (2021)": "5028230"
+      },
+      {
+        "﻿Reigon": "Israel",
+        "Percentage of Population who own/use crypto": "10",
+        "Real GDP growth (Annual percent change)": "6.1",
+        "Population (2021)": "9364000"
+      },
+      {
+        "﻿Reigon": "Italy",
+        "Percentage of Population who own/use crypto": "11",
+        "Real GDP growth (Annual percent change)": "3.2",
+        "Population (2021)": "59066225"
+      },
+      {
+        "﻿Reigon": "Japan",
+        "Percentage of Population who own/use crypto": "13",
+        "Real GDP growth (Annual percent change)": "1.7",
+        "Population (2021)": "125681593"
+      },
+      {
+        "﻿Reigon": "Kenya",
+        "Percentage of Population who own/use crypto": "19",
+        "Real GDP growth (Annual percent change)": "5.3",
+        "Population (2021)": "54985702"
+      },
+      {
+        "﻿Reigon": "Lithuania",
+        "Percentage of Population who own/use crypto": "14",
+        "Real GDP growth (Annual percent change)": "1.8",
+        "Population (2021)": "2795321"
+      },
+      {
+        "﻿Reigon": "Malaysia",
+        "Percentage of Population who own/use crypto": "20",
+        "Real GDP growth (Annual percent change)": "5.4",
+        "Population (2021)": "32776195"
+      },
+      {
+        "﻿Reigon": "Mexico",
+        "Percentage of Population who own/use crypto": "13",
+        "Real GDP growth (Annual percent change)": "2.1",
+        "Population (2021)": "130262220"
+      },
+      {
+        "﻿Reigon": "Morocco",
+        "Percentage of Population who own/use crypto": "12",
+        "Real GDP growth (Annual percent change)": "0.8",
+        "Population (2021)": "37344787"
+      },
+      {
+        "﻿Reigon": "Netherlands",
+        "Percentage of Population who own/use crypto": "20",
+        "Real GDP growth (Annual percent change)": "4.5",
+        "Population (2021)": "17533405"
+      },
+      {
+        "﻿Reigon": "New Zealand",
+        "Percentage of Population who own/use crypto": "15",
+        "Real GDP growth (Annual percent change)": "2.3",
+        "Population (2021)": "5122600"
+      },
+      {
+        "﻿Reigon": "Nigeria",
+        "Percentage of Population who own/use crypto": "45",
+        "Real GDP growth (Annual percent change)": "3.2",
+        "Population (2021)": "211400704"
+      },
+      {
+        "﻿Reigon": "Norway",
+        "Percentage of Population who own/use crypto": "15",
+        "Real GDP growth (Annual percent change)": "3.6",
+        "Population (2021)": "5408320"
+      },
+      {
+        "﻿Reigon": "Pakistan",
+        "Percentage of Population who own/use crypto": "19",
+        "Real GDP growth (Annual percent change)": "6",
+        "Population (2021)": "225199929"
+      },
+      {
+        "﻿Reigon": "Peru",
+        "Percentage of Population who own/use crypto": "14",
+        "Real GDP growth (Annual percent change)": "2.7",
+        "Population (2021)": "33359416"
+      },
+      {
+        "﻿Reigon": "Philippines",
+        "Percentage of Population who own/use crypto": "29",
+        "Real GDP growth (Annual percent change)": "6.5",
+        "Population (2021)": "111046910"
+      },
+      {
+        "﻿Reigon": "Poland",
+        "Percentage of Population who own/use crypto": "11",
+        "Real GDP growth (Annual percent change)": "3.8",
+        "Population (2021)": "37781024"
+      },
+      {
+        "﻿Reigon": "Portugal",
+        "Percentage of Population who own/use crypto": "15",
+        "Real GDP growth (Annual percent change)": "6.2",
+        "Population (2021)": "10299423"
+      },
+      {
+        "﻿Reigon": "Romania",
+        "Percentage of Population who own/use crypto": "14",
+        "Real GDP growth (Annual percent change)": "4.8",
+        "Population (2021)": "19115146"
+      },
+      {
+        "﻿Reigon": "Saudi Arabia",
+        "Percentage of Population who own/use crypto": "20",
+        "Real GDP growth (Annual percent change)": "7.6",
+        "Population (2021)": "35340680"
+      },
+      {
+        "﻿Reigon": "Serbia",
+        "Percentage of Population who own/use crypto": "13",
+        "Real GDP growth (Annual percent change)": "3.5",
+        "Population (2021)": "6844078"
+      },
+      {
+        "﻿Reigon": "Singapore",
+        "Percentage of Population who own/use crypto": "25",
+        "Real GDP growth (Annual percent change)": "3",
+        "Population (2021)": "5453566"
+      },
+      {
+        "﻿Reigon": "South Africa",
+        "Percentage of Population who own/use crypto": "24",
+        "Real GDP growth (Annual percent change)": "2.1",
+        "Population (2021)": "60041996"
+      },
+      {
+        "﻿Reigon": "Spain",
+        "Percentage of Population who own/use crypto": "16",
+        "Real GDP growth (Annual percent change)": "4.3",
+        "Population (2021)": "47326687"
+      },
+      {
+        "﻿Reigon": "Sweden",
+        "Percentage of Population who own/use crypto": "11",
+        "Real GDP growth (Annual percent change)": "2.6",
+        "Population (2021)": "10415811"
+      },
+      {
+        "﻿Reigon": "Switzerland",
+        "Percentage of Population who own/use crypto": "20",
+        "Real GDP growth (Annual percent change)": "2.2",
+        "Population (2021)": "8697723"
+      },
+      {
+        "﻿Reigon": "Taiwan",
+        "Percentage of Population who own/use crypto": "14",
+        "Real GDP growth (Annual percent change)": "3.3",
+        "Population (2021)": "23,855,010"
+      },
+      {
+        "﻿Reigon": "Thailand",
+        "Percentage of Population who own/use crypto": "44",
+        "Real GDP growth (Annual percent change)": "2.8",
+        "Population (2021)": "69950844"
+      },
+      {
+        "﻿Reigon": "Turkey",
+        "Percentage of Population who own/use crypto": "40",
+        "Real GDP growth (Annual percent change)": "5",
+        "Population (2021)": "85042736"
+      },
+      {
+        "﻿Reigon": "United Arab Emirates",
+        "Percentage of Population who own/use crypto": "34",
+        "Real GDP growth (Annual percent change)": "5.1",
+        "Population (2021)": "9991083"
+      },
+      {
+        "﻿Reigon": "United Kingdom",
+        "Percentage of Population who own/use crypto": "11",
+        "Real GDP growth (Annual percent change)": "3.6",
+        "Population (2021)": "67326569"
+      },
+      {
+        "﻿Reigon": "United States",
+        "Percentage of Population who own/use crypto": "16",
+        "Real GDP growth (Annual percent change)": "1.6",
+        "Population (2021)": "331893745"
+      },
+      {
+        "﻿Reigon": "Vietnam",
+        "Percentage of Population who own/use crypto": "27",
+        "Real GDP growth (Annual percent change)": "7",
+        "Population (2021)": "98168829"
+      }
+    ]
+  },
+  "mark": {
+    "type": "circle",
+    "color": "#3662f1",
+    "opacity": 0.7
+  },
+  "height": 300,
+  "width": 290,
+  "encoding": {
+    "x": {
+      "field": "Percentage of Population who own/use crypto",
+      "scale": {
+        "zero": false
+      },
+      "type": "quantitative",
+      "axis": {
+        "grid": false
+      },
+      "title": "% of Population who use/own Crypto"
+    },
+    "y": {
+      "field": "Real GDP growth (Annual percent change)",
+      "scale": {
+        "zero": false
+      },
+      "type": "quantitative",
+      "axis": {
+        "grid": false
+      },
+      "title": "Real GDP growth (% change)"
+    },
+    "size": {
+      "field": "Population (2021)",
+      "type": "quantitative",
+      "title": "Prison Rate",
+      "scale": {
+        "range": [
+          10,
+          800
+        ]
+      },
+      "legend": null
+    },
+    "tooltip": [
+      {
+        "field": "Reigon",
+        "type": "ordinal",
+        "title": "Reigon"
+      },
+      {
+        "field": "Population (2021)",
+        "type": "quantitative"
+      }
+    ]
+  }
+}

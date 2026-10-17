@@ -1,0 +1,62 @@
+import { chart } from "ggaction";
+import data from "./data.json";
+
+// DOCS: doc-b11b4627b143730d, doc-76573a465e2b6a33, doc-c2eafbbd16fe3c71, doc-8a4f6f06e0d37d5e, doc-9bb354f4e2d46693
+
+export function buildChart() {
+  return chart()
+    .createCanvas({
+      width: 351,
+      height: 367,
+      margin: { top: 40, right: 7, bottom: 37, left: 44 }
+    })
+    .createData({ id: "cpi", values: data })
+    .createComputedData({
+      id: "cpiNum",
+      as: "valueNum",
+      expression: { op: "toNumber", operand: { field: "value" } }
+    })
+    .createLinePlot({
+      x: {
+        field: "date",
+        fieldType: "temporal"
+      },
+      y: {
+        field: "valueNum",
+        fieldType: "quantitative"
+      },
+      guides: false
+    })
+    .editXScale({ domain: [599616000000, 1667260800000], nice: false })
+    .editYScale({ domain: [-20, 60] })
+    .encodeStroke({ value: "#002199" })
+    .encodeStrokeWidth({ value: 2 })
+    .createXAxis({
+      line: {},
+      ticksAndLabels: {
+        ticks: { length: 5 },
+        labels: { fontSize: 10, offset: 7, flush: true }
+      },
+      title: { text: "Date", fontSize: 11, offset: 28 }
+    })
+    .editXAxis({ labels: { fontFamily: "sans-serif" }, title: { fontWeight: 700 } })
+    .createYAxis({
+      line: {},
+      ticksAndLabels: {
+        ticks: { length: 5 },
+        labels: { fontSize: 10, offset: 7 }
+      },
+      title: { text: "Inflation", fontSize: 11, offset: 28 }
+    })
+    .editYAxis({ labels: { fontFamily: "sans-serif" }, title: { fontWeight: 700 } })
+    .createTitle({
+      text: "CPI 12mth: Energy (G) 2015=100",
+      titleStyle: { fontSize: 13, fontWeight: 700 },
+      alongOffset: -39
+    })
+    .editTitle({
+      subtitle: "(£million, Source: ONS)",
+      subtitleStyle: { fontSize: 10, fontStyle: "italic" },
+      offset: -13
+    });
+}

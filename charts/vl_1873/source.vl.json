@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {}
+  },
+  "background": "#f9f9f9",
+  "width": 600,
+  "height": 600,
+  "data": {
+    "url": "https://gicentre.github.io/scrc/data/grid/greaterGlasgowGrid.csv"
+  },
+  "layer": [
+    {
+      "encoding": {
+        "x": {
+          "field": "gridX",
+          "type": "quantitative",
+          "scale": {
+            "nice": false,
+            "domain": [
+              0,
+              18
+            ]
+          }
+        },
+        "y": {
+          "field": "gridY",
+          "type": "quantitative",
+          "sort": "descending",
+          "scale": {
+            "nice": false,
+            "domain": [
+              0,
+              18
+            ]
+          }
+        },
+        "color": {
+          "field": "council",
+          "type": "nominal",
+          "scale": {
+            "scheme": "tableau20"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "regionName",
+            "type": "nominal"
+          },
+          {
+            "field": "council",
+            "type": "nominal"
+          }
+        ]
+      },
+      "mark": {
+        "type": "square",
+        "stroke": "white",
+        "opacity": 1,
+        "size": 1111.111111111111,
+        "strokeWidth": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "vl_1306",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "15a92693b0f0a4ddd60ba5c44a327ce962f03a9903bf2594ec261d6c89d8f86d",
+      "actions": 7,
+      "topOptions": 13
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0ab3fc348c16ab0523f2b218c4724169e1c6876e704714316b9341d244d04aa7",
+      "actions": 9,
+      "topOptions": 18
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "1fde45a8218506f073b0baa141f5ed8b3c998c96342dba257a5c459e1db63a5c",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "6bb036627671c678ebbeaeaba27714f571a1aee8c7a0a6a3b5109f64bfb8b05f",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "da9c17a40d6358f70fb0f9c637dfd7b87b542b8c130e52daacd418b6cc856f3d",
+      "actions": 18,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "f41f15a27c7acd62c9ad19ffbbdf7f8a7178fee42ed14bc438685adc3607d797",
+      "actions": 19,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed fullG6andmodelstop: pairedXYscales, wholeaxesandfocusedline/tick/label/titlepaintalreadydecomposed; sourcehorizontalgridpaintatdirectionaleditor, barfillatmarkeditor. Onlyprotectedfont10/11/offsets52/50/rotation/ticklengthremainatcompleteaxiscreation. Noextra sourcelegend/title/colorpolicies; avoidemptyfactory/scalarpadding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "c2f4971b7efd09355fc0e6ca7ab584aa3d854f9cedbe61123c2c7f0149e08689",
+      "bytes": 646
+    },
+    "data.json": {
+      "sha256": "a3d20895d6f08d90be2dc69a4f87e86ba9df9c8f8e725647d6a651416ee668eb",
+      "bytes": 90
+    },
+    "resolved-source.vl.json": {
+      "sha256": "00a16b5a9716bb6896cca5b1d495c03923586f063d18f1954e1007c105a3d37b",
+      "bytes": 731
+    },
+    "G1.gg.mjs": {
+      "sha256": "15a92693b0f0a4ddd60ba5c44a327ce962f03a9903bf2594ec261d6c89d8f86d",
+      "bytes": 1518
+    },
+    "G2.gg.mjs": {
+      "sha256": "0ab3fc348c16ab0523f2b218c4724169e1c6876e704714316b9341d244d04aa7",
+      "bytes": 1506
+    },
+    "G3.gg.mjs": {
+      "sha256": "1fde45a8218506f073b0baa141f5ed8b3c998c96342dba257a5c459e1db63a5c",
+      "bytes": 1470
+    },
+    "G4.gg.mjs": {
+      "sha256": "6bb036627671c678ebbeaeaba27714f571a1aee8c7a0a6a3b5109f64bfb8b05f",
+      "bytes": 1680
+    },
+    "G5.gg.mjs": {
+      "sha256": "da9c17a40d6358f70fb0f9c637dfd7b87b542b8c130e52daacd418b6cc856f3d",
+      "bytes": 1662
+    },
+    "G6.gg.mjs": {
+      "sha256": "f41f15a27c7acd62c9ad19ffbbdf7f8a7178fee42ed14bc438685adc3607d797",
+      "bytes": 1690
+    },
+    "vega-lite.svg": {
+      "sha256": "0b828d45804b2436b8c185f619464acec07245ecce69de41976c17bafa1f3282",
+      "bytes": 6306
+    },
+    "ggaction.svg": {
+      "sha256": "46ea051b5ca7e5ff7129ef1ef359d1f47d3c457ce20d662e2f85e9920c7d0e73",
+      "bytes": 3208
+    }
+  }
+}

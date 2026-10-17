@@ -1,0 +1,102 @@
+{
+  "id": "vl_1822",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1d392e72143139b8c94cdc875396fde668713390273c3eb4e0e51c16e312c45c",
+      "actions": 17,
+      "topOptions": 42
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "674634924338e3f543d83d925357ba110cae1b6354abd054bd2ba4aa5e2b6bfc",
+      "actions": 18,
+      "topOptions": 44
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "9f9220fd2c7dcb555899414aa0258b68ad0049bfc3f27ad6f15109f5c223c6b1",
+      "actions": 19,
+      "topOptions": 47
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1aa593fb960011ac79d23da4c8a32aec6f6c9f01bc0fddf0b0f9e13430268887",
+      "actions": 20,
+      "topOptions": 48
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ddedd20a76a7ac89f27bf0440c26dfc4b1683e86df5c56981e7d2ee5a7629a1d",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "9f5aca8cf8a02c890a45b408c6845ec2b2b12e42d5a2769a3863ff188ecdbe51",
+      "actions": 21,
+      "topOptions": 48
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/covid19pb/covid19pb.github.io/master/data/paraiba/dados_pb_covid19_boletim_FaixaEtaria.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full original two-layer polar source and exact final G6 reread: all976raw records, native filters/fold/relabel/summary, exact sums34878/41835, radii/colors/labels/source fonts/positions and full current source/runtime gates retained. Six genuine boundaries exhausted; protected radius domain remains at creation because omitted domain native arc failure independently reproved. No meaningful mandatory frontier; native direction/defaults or duplicate weight are not extra stages. Host completion model:null/newModelResponse:false, all original GLM history/usage preserved."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e56a590385ea371119a2997923287fdff0b3e6d90f48081b7361581451d801a4",
+      "bytes": 1970
+    },
+    "data.json": {
+      "sha256": "1e1e4c36aa15ea340de939a1ab2cf2b8d07609d05ac0fe688de20a30d3ae502d",
+      "bytes": 191244
+    },
+    "resolved-source.vl.json": {
+      "sha256": "fa1e9a39c82e0a200177cbaeb9ac9f2d1a5bc7a725721678737fcc165b2d6fc8",
+      "bytes": 228231
+    },
+    "G1.gg.mjs": {
+      "sha256": "1d392e72143139b8c94cdc875396fde668713390273c3eb4e0e51c16e312c45c",
+      "bytes": 2273
+    },
+    "G2.gg.mjs": {
+      "sha256": "674634924338e3f543d83d925357ba110cae1b6354abd054bd2ba4aa5e2b6bfc",
+      "bytes": 2293
+    },
+    "G3.gg.mjs": {
+      "sha256": "9f9220fd2c7dcb555899414aa0258b68ad0049bfc3f27ad6f15109f5c223c6b1",
+      "bytes": 2275
+    },
+    "G4.gg.mjs": {
+      "sha256": "1aa593fb960011ac79d23da4c8a32aec6f6c9f01bc0fddf0b0f9e13430268887",
+      "bytes": 2317
+    },
+    "G5.gg.mjs": {
+      "sha256": "ddedd20a76a7ac89f27bf0440c26dfc4b1683e86df5c56981e7d2ee5a7629a1d",
+      "bytes": 2344
+    },
+    "G6.gg.mjs": {
+      "sha256": "9f5aca8cf8a02c890a45b408c6845ec2b2b12e42d5a2769a3863ff188ecdbe51",
+      "bytes": 2327
+    },
+    "vega-lite.svg": {
+      "sha256": "6d9ece699e0a850250d5c5a93cb23deff81e6afb5f404efbe4e0d0e0dd0b87f0",
+      "bytes": 4026
+    },
+    "ggaction.svg": {
+      "sha256": "c8126730fb7437456068f5ebc912a43895b1815414e9d9bcd6597cda719f52dd",
+      "bytes": 2514
+    }
+  }
+}

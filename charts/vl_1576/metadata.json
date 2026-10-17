@@ -1,0 +1,89 @@
+{
+  "id": "vl_1576",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d61baa8bbe76e69529c6141fd0b27b29d2a1a988db3228b59bb9b3b0ae355fcb",
+      "actions": 8,
+      "topOptions": 19
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e7a4c3df2b077fa7a7b14f5ab8345f352a35d75d100186a4736c4abc18cd8945",
+      "actions": 10,
+      "topOptions": 21
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ea1465c8bcf81d1f236c64b2ef66f42799341fd001c28a1da2810e8a4c17fb2d",
+      "actions": 12,
+      "topOptions": 21
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "40a9ef2f463ebf9324716edf9dd548d68b5229f7df1ffdea0b9924a8818ac323",
+      "actions": 12,
+      "topOptions": 21
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9dd2ca1673706d7ea73aa29460ad1ef04b16098a19006b9200087f44658ada3e",
+      "actions": 16,
+      "topOptions": 27
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Five meaningful stages; paired positional scales, axis paint, focused axis lines, focused label/title typography. Complete axis creation preserves large20px source label geometry and fixed margins. No fabricated defaults or scalar-only stage padding. Source grid paint corrected using exact shared GLM color fragments, without changing action counts or decomposition."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a6ad8aec5442617c7ebd389bd83daa08d5b821a8a5f7394031f7d0311c3eac68",
+      "bytes": 714
+    },
+    "data.json": {
+      "sha256": "b3a5b10f2db4033b70b9373a1ae3ef427f7d9644cd969c442da327f2600276a6",
+      "bytes": 185
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a6ad8aec5442617c7ebd389bd83daa08d5b821a8a5f7394031f7d0311c3eac68",
+      "bytes": 714
+    },
+    "G1.gg.mjs": {
+      "sha256": "d61baa8bbe76e69529c6141fd0b27b29d2a1a988db3228b59bb9b3b0ae355fcb",
+      "bytes": 1739
+    },
+    "G2.gg.mjs": {
+      "sha256": "e7a4c3df2b077fa7a7b14f5ab8345f352a35d75d100186a4736c4abc18cd8945",
+      "bytes": 1757
+    },
+    "G3.gg.mjs": {
+      "sha256": "ea1465c8bcf81d1f236c64b2ef66f42799341fd001c28a1da2810e8a4c17fb2d",
+      "bytes": 1803
+    },
+    "G4.gg.mjs": {
+      "sha256": "40a9ef2f463ebf9324716edf9dd548d68b5229f7df1ffdea0b9924a8818ac323",
+      "bytes": 1771
+    },
+    "G5.gg.mjs": {
+      "sha256": "9dd2ca1673706d7ea73aa29460ad1ef04b16098a19006b9200087f44658ada3e",
+      "bytes": 1869
+    },
+    "vega-lite.svg": {
+      "sha256": "e194f62fc50c4c1725b3224a4f212382223c2ab127a022238f70f91402029a3e",
+      "bytes": 8276
+    },
+    "ggaction.svg": {
+      "sha256": "dd3ff18db69bab7ca8353582f74c37404f346b07b3f356c43450e7d839f676ab",
+      "bytes": 5787
+    }
+  }
+}

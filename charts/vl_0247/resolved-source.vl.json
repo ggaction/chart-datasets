@@ -1,0 +1,1064 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": [
+      "Difference between Men's and Women's Team Performance",
+      "vs GDP per Capita"
+    ],
+    "subtitle": [
+      "GDP per Capita ($) (x), Percentage Difference between",
+      "Men's and Women's FIFA Ranking Points (y)."
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "config": {
+    "background": "white",
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "Alpha-3 code": "ZWE",
+        "Country Name": "Zimbabwe",
+        "GDP per Capita": "2251.455674",
+        "Percentage Difference": "2.017460652"
+      },
+      {
+        "Alpha-3 code": "ZMB",
+        "Country Name": "Zambia",
+        "GDP per Capita": "3457.328102",
+        "Percentage Difference": "-0.738904627"
+      },
+      {
+        "Alpha-3 code": "PSE",
+        "Country Name": "Palestine",
+        "GDP per Capita": "5698.412057",
+        "Percentage Difference": "10.59154427"
+      },
+      {
+        "Alpha-3 code": "VNM",
+        "Country Name": "Vietnam",
+        "GDP per Capita": "10904.45215",
+        "Percentage Difference": "-34.85445177"
+      },
+      {
+        "Alpha-3 code": "VUT",
+        "Country Name": "Vanuatu",
+        "GDP per Capita": "3036.116767",
+        "Percentage Difference": "-14.36272778"
+      },
+      {
+        "Alpha-3 code": "UZB",
+        "Country Name": "Uzbekistan",
+        "GDP per Capita": "7746.430969",
+        "Percentage Difference": "-16.62291544"
+      },
+      {
+        "Alpha-3 code": "URY",
+        "Country Name": "Uruguay",
+        "GDP per Capita": "22728.21533",
+        "Percentage Difference": "16.25948384"
+      },
+      {
+        "Alpha-3 code": "USA",
+        "Country Name": "USA",
+        "GDP per Capita": "63027.67953",
+        "Percentage Difference": "-29.14110617"
+      },
+      {
+        "Alpha-3 code": "ARE",
+        "Country Name": "United Arab Emirates",
+        "GDP per Capita": "66766.05393",
+        "Percentage Difference": "12.210922"
+      },
+      {
+        "Alpha-3 code": "UKR",
+        "Country Name": "Ukraine",
+        "GDP per Capita": "13087.30957",
+        "Percentage Difference": "-6.525191374"
+      },
+      {
+        "Alpha-3 code": "UGA",
+        "Country Name": "Uganda",
+        "GDP per Capita": "2294.147984",
+        "Percentage Difference": "26.92398937"
+      },
+      {
+        "Alpha-3 code": "TCA",
+        "Country Name": "Turks and Caicos Islands",
+        "GDP per Capita": "22283.97785",
+        "Percentage Difference": "20.078125"
+      },
+      {
+        "Alpha-3 code": "TUR",
+        "Country Name": "Turkiye",
+        "GDP per Capita": "27235.42583",
+        "Percentage Difference": "6.798722824"
+      },
+      {
+        "Alpha-3 code": "TUN",
+        "Country Name": "Tunisia",
+        "GDP per Capita": "10878.82319",
+        "Percentage Difference": "13.87794623"
+      },
+      {
+        "Alpha-3 code": "TTO",
+        "Country Name": "Trinidad and Tobago",
+        "GDP per Capita": "26125.15329",
+        "Percentage Difference": "-9.309615624"
+      },
+      {
+        "Alpha-3 code": "TON",
+        "Country Name": "Tonga",
+        "GDP per Capita": "6693.785641",
+        "Percentage Difference": "-41.73425697"
+      },
+      {
+        "Alpha-3 code": "TGO",
+        "Country Name": "Togo",
+        "GDP per Capita": "2223.316956",
+        "Percentage Difference": "-0.717559413"
+      },
+      {
+        "Alpha-3 code": "TLS",
+        "Country Name": "Timor-Leste",
+        "GDP per Capita": "4140.95507",
+        "Percentage Difference": "-13.23744855"
+      },
+      {
+        "Alpha-3 code": "THA",
+        "Country Name": "Thailand",
+        "GDP per Capita": "18197.94241",
+        "Percentage Difference": "-32.82764865"
+      },
+      {
+        "Alpha-3 code": "TZA",
+        "Country Name": "Tanzania",
+        "GDP per Capita": "2779.683594",
+        "Percentage Difference": "13.91288071"
+      },
+      {
+        "Alpha-3 code": "TJK",
+        "Country Name": "Tajikistan",
+        "GDP per Capita": "3854.190435",
+        "Percentage Difference": "12.31702146"
+      },
+      {
+        "Alpha-3 code": "CHE",
+        "Country Name": "Switzerland",
+        "GDP per Capita": "71745.2994",
+        "Percentage Difference": "-9.493471812"
+      },
+      {
+        "Alpha-3 code": "SWE",
+        "Country Name": "Sweden",
+        "GDP per Capita": "55064.88501",
+        "Percentage Difference": "-31.13263061"
+      },
+      {
+        "Alpha-3 code": "SUR",
+        "Country Name": "Suriname",
+        "GDP per Capita": "16733.38268",
+        "Percentage Difference": "-1.577072297"
+      },
+      {
+        "Alpha-3 code": "VCT",
+        "Country Name": "St. Vincent and the Grenadines",
+        "GDP per Capita": "13402.57954",
+        "Percentage Difference": "-1.157483749"
+      },
+      {
+        "Alpha-3 code": "LCA",
+        "Country Name": "St. Lucia",
+        "GDP per Capita": "12708.79451",
+        "Percentage Difference": "-1.692106953"
+      },
+      {
+        "Alpha-3 code": "KNA",
+        "Country Name": "St. Kitts and Nevis",
+        "GDP per Capita": "25639.2396",
+        "Percentage Difference": "-1.28422988"
+      },
+      {
+        "Alpha-3 code": "LKA",
+        "Country Name": "Sri Lanka",
+        "GDP per Capita": "13226.73006",
+        "Percentage Difference": "-17.29778855"
+      },
+      {
+        "Alpha-3 code": "ESP",
+        "Country Name": "Spain",
+        "GDP per Capita": "37756.351",
+        "Percentage Difference": "-15.50441777"
+      },
+      {
+        "Alpha-3 code": "ZAF",
+        "Country Name": "South Africa",
+        "GDP per Capita": "13359.48433",
+        "Percentage Difference": "-8.426937174"
+      },
+      {
+        "Alpha-3 code": "SLB",
+        "Country Name": "Solomon Islands",
+        "GDP per Capita": "2618.323702",
+        "Percentage Difference": "-8.104818042"
+      },
+      {
+        "Alpha-3 code": "SVN",
+        "Country Name": "Slovenia",
+        "GDP per Capita": "39725.25919",
+        "Percentage Difference": "-11.98341688"
+      },
+      {
+        "Alpha-3 code": "SVK",
+        "Country Name": "Slovakia",
+        "GDP per Capita": "31356.45828",
+        "Percentage Difference": "-7.043104466"
+      },
+      {
+        "Alpha-3 code": "SGP",
+        "Country Name": "Singapore",
+        "GDP per Capita": "99681.29415",
+        "Percentage Difference": "-8.362279174"
+      },
+      {
+        "Alpha-3 code": "SLE",
+        "Country Name": "Sierra Leone",
+        "GDP per Capita": "1726.964157",
+        "Percentage Difference": "8.191774029"
+      },
+      {
+        "Alpha-3 code": "SYC",
+        "Country Name": "Seychelles",
+        "GDP per Capita": "28338.97714",
+        "Percentage Difference": "-2.807735218"
+      },
+      {
+        "Alpha-3 code": "SRB",
+        "Country Name": "Serbia",
+        "GDP per Capita": "19093.95531",
+        "Percentage Difference": "-5.237071886"
+      },
+      {
+        "Alpha-3 code": "SEN",
+        "Country Name": "Senegal",
+        "GDP per Capita": "3503.595017",
+        "Percentage Difference": "20.58829098"
+      },
+      {
+        "Alpha-3 code": "WSM",
+        "Country Name": "Samoa",
+        "GDP per Capita": "6764.559991",
+        "Percentage Difference": "-35.53217185"
+      },
+      {
+        "Alpha-3 code": "RWA",
+        "Country Name": "Rwanda",
+        "GDP per Capita": "2213.568598",
+        "Percentage Difference": "18.27969755"
+      },
+      {
+        "Alpha-3 code": "RUS",
+        "Country Name": "Russia",
+        "GDP per Capita": "29916.01367",
+        "Percentage Difference": "-14.97368456"
+      },
+      {
+        "Alpha-3 code": "ROU",
+        "Country Name": "Romania",
+        "GDP per Capita": "32202.20866",
+        "Percentage Difference": "-10.25745182"
+      },
+      {
+        "Alpha-3 code": "PRI",
+        "Country Name": "Puerto Rico",
+        "GDP per Capita": "34333.74725",
+        "Percentage Difference": "-21.79981936"
+      },
+      {
+        "Alpha-3 code": "PRT",
+        "Country Name": "Portugal",
+        "GDP per Capita": "34177.08571",
+        "Percentage Difference": "-0.560569505"
+      },
+      {
+        "Alpha-3 code": "POL",
+        "Country Name": "Poland",
+        "GDP per Capita": "34286.98508",
+        "Percentage Difference": "-6.5800877"
+      },
+      {
+        "Alpha-3 code": "PHL",
+        "Country Name": "Philippines",
+        "GDP per Capita": "8394.242258",
+        "Percentage Difference": "-32.71188113"
+      },
+      {
+        "Alpha-3 code": "PER",
+        "Country Name": "Peru",
+        "GDP per Capita": "11908.0607",
+        "Percentage Difference": "14.57970606"
+      },
+      {
+        "Alpha-3 code": "PRY",
+        "Country Name": "Paraguay",
+        "GDP per Capita": "13034.71654",
+        "Percentage Difference": "-4.888447571"
+      },
+      {
+        "Alpha-3 code": "PNG",
+        "Country Name": "Papua New Guinea",
+        "GDP per Capita": "4285.765475",
+        "Percentage Difference": "-51.60685646"
+      },
+      {
+        "Alpha-3 code": "PAN",
+        "Country Name": "Panama",
+        "GDP per Capita": "26780.3006",
+        "Percentage Difference": "-2.618641445"
+      },
+      {
+        "Alpha-3 code": "NOR",
+        "Country Name": "Norway",
+        "GDP per Capita": "62644.84574",
+        "Percentage Difference": "-26.96480515"
+      },
+      {
+        "Alpha-3 code": "MKD",
+        "Country Name": "North Macedonia",
+        "GDP per Capita": "16719.6901",
+        "Percentage Difference": "21.28999418"
+      },
+      {
+        "Alpha-3 code": "NGA",
+        "Country Name": "Nigeria",
+        "GDP per Capita": "5185.988584",
+        "Percentage Difference": "-2.019671695"
+      },
+      {
+        "Alpha-3 code": "NER",
+        "Country Name": "Niger",
+        "GDP per Capita": "1288.153512",
+        "Percentage Difference": "24.00387802"
+      },
+      {
+        "Alpha-3 code": "NIC",
+        "Country Name": "Nicaragua",
+        "GDP per Capita": "5573.868729",
+        "Percentage Difference": "-7.269408254"
+      },
+      {
+        "Alpha-3 code": "NZL",
+        "Country Name": "New Zealand",
+        "GDP per Capita": "44657.77372",
+        "Percentage Difference": "-45.28758257"
+      },
+      {
+        "Alpha-3 code": "NLD",
+        "Country Name": "Netherlands",
+        "GDP per Capita": "59266.90858",
+        "Percentage Difference": "-19.26748084"
+      },
+      {
+        "Alpha-3 code": "NPL",
+        "Country Name": "Nepal",
+        "GDP per Capita": "3996.66547",
+        "Percentage Difference": "-25.91193645"
+      },
+      {
+        "Alpha-3 code": "NAM",
+        "Country Name": "Namibia",
+        "GDP per Capita": "9358.537168",
+        "Percentage Difference": "12.3353921"
+      },
+      {
+        "Alpha-3 code": "MMR",
+        "Country Name": "Myanmar",
+        "GDP per Capita": "5123.407709",
+        "Percentage Difference": "-50.00839996"
+      },
+      {
+        "Alpha-3 code": "MOZ",
+        "Country Name": "Mozambique",
+        "GDP per Capita": "1297.298716",
+        "Percentage Difference": "30.05551694"
+      },
+      {
+        "Alpha-3 code": "MAR",
+        "Country Name": "Morocco",
+        "GDP per Capita": "7368.891602",
+        "Percentage Difference": "15.58956589"
+      },
+      {
+        "Alpha-3 code": "MNE",
+        "Country Name": "Montenegro",
+        "GDP per Capita": "19989.65367",
+        "Percentage Difference": "7.626661942"
+      },
+      {
+        "Alpha-3 code": "MNG",
+        "Country Name": "Mongolia",
+        "GDP per Capita": "12365.93848",
+        "Percentage Difference": "-21.71747578"
+      },
+      {
+        "Alpha-3 code": "MDA",
+        "Country Name": "Moldova",
+        "GDP per Capita": "12941.89278",
+        "Percentage Difference": "-23.88884186"
+      },
+      {
+        "Alpha-3 code": "MEX",
+        "Country Name": "Mexico",
+        "GDP per Capita": "18670.8104",
+        "Percentage Difference": "1.250022733"
+      },
+      {
+        "Alpha-3 code": "MUS",
+        "Country Name": "Mauritius",
+        "GDP per Capita": "20528.83365",
+        "Percentage Difference": "61.01371215"
+      },
+      {
+        "Alpha-3 code": "MLT",
+        "Country Name": "Malta",
+        "GDP per Capita": "43243.17265",
+        "Percentage Difference": "-26.29786186"
+      },
+      {
+        "Alpha-3 code": "MLI",
+        "Country Name": "Mali",
+        "GDP per Capita": "2347.796674",
+        "Percentage Difference": "11.75704147"
+      },
+      {
+        "Alpha-3 code": "MDV",
+        "Country Name": "Maldives",
+        "GDP per Capita": "13442.38615",
+        "Percentage Difference": "6.434569114"
+      },
+      {
+        "Alpha-3 code": "MYS",
+        "Country Name": "Malaysia",
+        "GDP per Capita": "27921.41095",
+        "Percentage Difference": "-16.48559461"
+      },
+      {
+        "Alpha-3 code": "MWI",
+        "Country Name": "Malawi",
+        "GDP per Capita": "1591.475591",
+        "Percentage Difference": "17.65507482"
+      },
+      {
+        "Alpha-3 code": "MDG",
+        "Country Name": "Madagascar",
+        "GDP per Capita": "1543.952938",
+        "Percentage Difference": "42.11663791"
+      },
+      {
+        "Alpha-3 code": "LUX",
+        "Country Name": "Luxembourg",
+        "GDP per Capita": "117846.1365",
+        "Percentage Difference": "6.845777749"
+      },
+      {
+        "Alpha-3 code": "LTU",
+        "Country Name": "Lithuania",
+        "GDP per Capita": "38880.54527",
+        "Percentage Difference": "-13.53995978"
+      },
+      {
+        "Alpha-3 code": "LBR",
+        "Country Name": "Liberia",
+        "GDP per Capita": "1468.245239",
+        "Percentage Difference": "15.21426873"
+      },
+      {
+        "Alpha-3 code": "LSO",
+        "Country Name": "Lesotho",
+        "GDP per Capita": "2569.337741",
+        "Percentage Difference": "20.67081213"
+      },
+      {
+        "Alpha-3 code": "LBN",
+        "Country Name": "Lebanon",
+        "GDP per Capita": "11376.79398",
+        "Percentage Difference": "14.81212501"
+      },
+      {
+        "Alpha-3 code": "LVA",
+        "Country Name": "Latvia",
+        "GDP per Capita": "31424.90221",
+        "Percentage Difference": "-3.830774152"
+      },
+      {
+        "Alpha-3 code": "LAO",
+        "Country Name": "Laos",
+        "GDP per Capita": "8238.494568",
+        "Percentage Difference": "-37.535259"
+      },
+      {
+        "Alpha-3 code": "KGZ",
+        "Country Name": "Kyrgyz Republic",
+        "GDP per Capita": "4985.029555",
+        "Percentage Difference": "9.110154026"
+      },
+      {
+        "Alpha-3 code": "KOR",
+        "Country Name": "Korea Republic",
+        "GDP per Capita": "45225.84454",
+        "Percentage Difference": "-21.23628786"
+      },
+      {
+        "Alpha-3 code": "KEN",
+        "Country Name": "Kenya",
+        "GDP per Capita": "4587.18632",
+        "Percentage Difference": "17.50702843"
+      },
+      {
+        "Alpha-3 code": "KAZ",
+        "Country Name": "Kazakhstan",
+        "GDP per Capita": "26750.44623",
+        "Percentage Difference": "-5.832218678"
+      },
+      {
+        "Alpha-3 code": "JOR",
+        "Country Name": "Jordan",
+        "GDP per Capita": "10354.16403",
+        "Percentage Difference": "-7.63436323"
+      },
+      {
+        "Alpha-3 code": "JPN",
+        "Country Name": "Japan",
+        "GDP per Capita": "42100.25769",
+        "Percentage Difference": "-23.30882684"
+      },
+      {
+        "Alpha-3 code": "JAM",
+        "Country Name": "Jamaica",
+        "GDP per Capita": "9240.821869",
+        "Percentage Difference": "-11.71222668"
+      },
+      {
+        "Alpha-3 code": "ITA",
+        "Country Name": "Italy",
+        "GDP per Capita": "41987.81596",
+        "Percentage Difference": "-9.010654312"
+      },
+      {
+        "Alpha-3 code": "ISR",
+        "Country Name": "Israel",
+        "GDP per Capita": "39489.28078",
+        "Percentage Difference": "-3.721654575"
+      },
+      {
+        "Alpha-3 code": "IRL",
+        "Country Name": "Republic of Ireland",
+        "GDP per Capita": "93350.08753",
+        "Percentage Difference": "-17.52398647"
+      },
+      {
+        "Alpha-3 code": "IRN",
+        "Country Name": "IR Iran",
+        "GDP per Capita": "15791.15951",
+        "Percentage Difference": "12.44097418"
+      },
+      {
+        "Alpha-3 code": "IDN",
+        "Country Name": "Indonesia",
+        "GDP per Capita": "12072.43996",
+        "Percentage Difference": "-18.62557521"
+      },
+      {
+        "Alpha-3 code": "IND",
+        "Country Name": "India",
+        "GDP per Capita": "6525.428052",
+        "Percentage Difference": "-18.92629208"
+      },
+      {
+        "Alpha-3 code": "ISL",
+        "Country Name": "Iceland",
+        "GDP per Capita": "53616.68471",
+        "Percentage Difference": "-35.59339234"
+      },
+      {
+        "Alpha-3 code": "HUN",
+        "Country Name": "Hungary",
+        "GDP per Capita": "33274.34766",
+        "Percentage Difference": "-3.469961527"
+      },
+      {
+        "Alpha-3 code": "HKG",
+        "Country Name": "Hong Kong",
+        "GDP per Capita": "58980.01105",
+        "Percentage Difference": "-24.18624867"
+      },
+      {
+        "Alpha-3 code": "HND",
+        "Country Name": "Honduras",
+        "GDP per Capita": "5419.792164",
+        "Percentage Difference": "11.84820996"
+      },
+      {
+        "Alpha-3 code": "HTI",
+        "Country Name": "Haiti",
+        "GDP per Capita": "3094.941621",
+        "Percentage Difference": "-13.91885396"
+      },
+      {
+        "Alpha-3 code": "GUY",
+        "Country Name": "Guyana",
+        "GDP per Capita": "19702.97442",
+        "Percentage Difference": "-28.8033941"
+      },
+      {
+        "Alpha-3 code": "GNB",
+        "Country Name": "Guinea-Bissau",
+        "GDP per Capita": "1948.643401",
+        "Percentage Difference": "28.34332879"
+      },
+      {
+        "Alpha-3 code": "GIN",
+        "Country Name": "Guinea",
+        "GDP per Capita": "2754.418384",
+        "Percentage Difference": "16.70643838"
+      },
+      {
+        "Alpha-3 code": "GTM",
+        "Country Name": "Guatemala",
+        "GDP per Capita": "8852.947743",
+        "Percentage Difference": "-8.410788667"
+      },
+      {
+        "Alpha-3 code": "GRD",
+        "Country Name": "Grenada",
+        "GDP per Capita": "15273.54036",
+        "Percentage Difference": "12.36635707"
+      },
+      {
+        "Alpha-3 code": "GRC",
+        "Country Name": "Greece",
+        "GDP per Capita": "27948.64973",
+        "Percentage Difference": "2.229699261"
+      },
+      {
+        "Alpha-3 code": "GHA",
+        "Country Name": "Ghana",
+        "GDP per Capita": "5749.655385",
+        "Percentage Difference": "-1.672084796"
+      },
+      {
+        "Alpha-3 code": "DEU",
+        "Country Name": "Germany",
+        "GDP per Capita": "54844.54597",
+        "Percentage Difference": "-24.15911173"
+      },
+      {
+        "Alpha-3 code": "GEO",
+        "Country Name": "Georgia",
+        "GDP per Capita": "14731.20059",
+        "Percentage Difference": "13.75823396"
+      },
+      {
+        "Alpha-3 code": "GMB",
+        "Country Name": "Gambia",
+        "GDP per Capita": "2276.650708",
+        "Percentage Difference": "1.18069048"
+      },
+      {
+        "Alpha-3 code": "GAB",
+        "Country Name": "Gabon",
+        "GDP per Capita": "15105.13431",
+        "Percentage Difference": "17.05048239"
+      },
+      {
+        "Alpha-3 code": "FRA",
+        "Country Name": "France",
+        "GDP per Capita": "46991.18203",
+        "Percentage Difference": "-15.45967079"
+      },
+      {
+        "Alpha-3 code": "FIN",
+        "Country Name": "Finland",
+        "GDP per Capita": "50937.16075",
+        "Percentage Difference": "-19.36699537"
+      },
+      {
+        "Alpha-3 code": "FJI",
+        "Country Name": "Fiji",
+        "GDP per Capita": "12158.24331",
+        "Percentage Difference": "-35.45607377"
+      },
+      {
+        "Alpha-3 code": "ETH",
+        "Country Name": "Ethiopia",
+        "GDP per Capita": "2422.681026",
+        "Percentage Difference": "-2.700616575"
+      },
+      {
+        "Alpha-3 code": "SWZ",
+        "Country Name": "Eswatini",
+        "GDP per Capita": "8865.017138",
+        "Percentage Difference": "24.55901166"
+      },
+      {
+        "Alpha-3 code": "EST",
+        "Country Name": "Estonia",
+        "GDP per Capita": "37645.22136",
+        "Percentage Difference": "-0.249702735"
+      },
+      {
+        "Alpha-3 code": "GNQ",
+        "Country Name": "Equatorial Guinea",
+        "GDP per Capita": "18157.51367",
+        "Percentage Difference": "-10.62592053"
+      },
+      {
+        "Alpha-3 code": "SLV",
+        "Country Name": "El Salvador",
+        "GDP per Capita": "8419.799438",
+        "Percentage Difference": "13.84347722"
+      },
+      {
+        "Alpha-3 code": "EGY",
+        "Country Name": "Egypt",
+        "GDP per Capita": "12605.97574",
+        "Percentage Difference": "17.16409354"
+      },
+      {
+        "Alpha-3 code": "ECU",
+        "Country Name": "Ecuador",
+        "GDP per Capita": "10890.45664",
+        "Percentage Difference": "5.869211745"
+      },
+      {
+        "Alpha-3 code": "DOM",
+        "Country Name": "Dominican Republic",
+        "GDP per Capita": "17934.19325",
+        "Percentage Difference": "-13.7208536"
+      },
+      {
+        "Alpha-3 code": "DMA",
+        "Country Name": "Dominica",
+        "GDP per Capita": "10818.02494",
+        "Percentage Difference": "0.084475211"
+      },
+      {
+        "Alpha-3 code": "DNK",
+        "Country Name": "Denmark",
+        "GDP per Capita": "60229.91477",
+        "Percentage Difference": "-11.40939194"
+      },
+      {
+        "Alpha-3 code": "CZE",
+        "Country Name": "Czechia",
+        "GDP per Capita": "41608.02535",
+        "Percentage Difference": "-11.46516734"
+      },
+      {
+        "Alpha-3 code": "CYP",
+        "Country Name": "Cyprus",
+        "GDP per Capita": "39593.42578",
+        "Percentage Difference": "4.83346322"
+      },
+      {
+        "Alpha-3 code": "HRV",
+        "Country Name": "Croatia",
+        "GDP per Capita": "28780.31674",
+        "Percentage Difference": "13.95459976"
+      },
+      {
+        "Alpha-3 code": "CIV",
+        "Country Name": "Cote d'Ivoire",
+        "GDP per Capita": "5465.068781",
+        "Percentage Difference": "3.936179844"
+      },
+      {
+        "Alpha-3 code": "CRI",
+        "Country Name": "Costa Rica",
+        "GDP per Capita": "22243.80196",
+        "Percentage Difference": "-7.491700332"
+      },
+      {
+        "Alpha-3 code": "COG",
+        "Country Name": "Congo",
+        "GDP per Capita": "3689.111729",
+        "Percentage Difference": "4.413664831"
+      },
+      {
+        "Alpha-3 code": "COD",
+        "Country Name": "Congo DR",
+        "GDP per Capita": "1141.726007",
+        "Percentage Difference": "13.04282585"
+      },
+      {
+        "Alpha-3 code": "COM",
+        "Country Name": "Comoros",
+        "GDP per Capita": "3147.856597",
+        "Percentage Difference": "34.98545377"
+      },
+      {
+        "Alpha-3 code": "COL",
+        "Country Name": "Colombia",
+        "GDP per Capita": "14868.46982",
+        "Percentage Difference": "-6.005348894"
+      },
+      {
+        "Alpha-3 code": "CHN",
+        "Country Name": "China PR",
+        "GDP per Capita": "17189.28179",
+        "Percentage Difference": "-42.74209615"
+      },
+      {
+        "Alpha-3 code": "CHL",
+        "Country Name": "Chile",
+        "GDP per Capita": "25089.0313",
+        "Percentage Difference": "-4.359478764"
+      },
+      {
+        "Alpha-3 code": "CYM",
+        "Country Name": "Cayman Islands",
+        "GDP per Capita": "72481.01386",
+        "Percentage Difference": "1.348010904"
+      },
+      {
+        "Alpha-3 code": "CAN",
+        "Country Name": "Canada",
+        "GDP per Capita": "46572.13743",
+        "Percentage Difference": "-34.78647325"
+      },
+      {
+        "Alpha-3 code": "CMR",
+        "Country Name": "Cameroon",
+        "GDP per Capita": "3867.203808",
+        "Percentage Difference": "4.54628102"
+      },
+      {
+        "Alpha-3 code": "KHM",
+        "Country Name": "Cambodia",
+        "GDP per Capita": "4423.474631",
+        "Percentage Difference": "-19.68353767"
+      },
+      {
+        "Alpha-3 code": "BDI",
+        "Country Name": "Burundi",
+        "GDP per Capita": "771.1012372",
+        "Percentage Difference": "25.75399996"
+      },
+      {
+        "Alpha-3 code": "BFA",
+        "Country Name": "Burkina Faso",
+        "GDP per Capita": "2273.831365",
+        "Percentage Difference": "26.28784265"
+      },
+      {
+        "Alpha-3 code": "BGR",
+        "Country Name": "Bulgaria",
+        "GDP per Capita": "24564.43768",
+        "Percentage Difference": "7.196866793"
+      },
+      {
+        "Alpha-3 code": "BRA",
+        "Country Name": "Brazil",
+        "GDP per Capita": "14834.1937",
+        "Percentage Difference": "-7.524108056"
+      },
+      {
+        "Alpha-3 code": "BWA",
+        "Country Name": "Botswana",
+        "GDP per Capita": "15471.09481",
+        "Percentage Difference": "7.623305696"
+      },
+      {
+        "Alpha-3 code": "BIH",
+        "Country Name": "Bosnia and Herzegovina",
+        "GDP per Capita": "15598.43034",
+        "Percentage Difference": "1.337625892"
+      },
+      {
+        "Alpha-3 code": "BOL",
+        "Country Name": "Bolivia",
+        "GDP per Capita": "8283.131195",
+        "Percentage Difference": "6.599117654"
+      },
+      {
+        "Alpha-3 code": "BTN",
+        "Country Name": "Bhutan",
+        "GDP per Capita": "11129.30845",
+        "Percentage Difference": "15.5835602"
+      },
+      {
+        "Alpha-3 code": "BMU",
+        "Country Name": "Bermuda",
+        "GDP per Capita": "80273.08171",
+        "Percentage Difference": "-3.077332297"
+      },
+      {
+        "Alpha-3 code": "BEN",
+        "Country Name": "Benin",
+        "GDP per Capita": "3505.138455",
+        "Percentage Difference": "18.88997466"
+      },
+      {
+        "Alpha-3 code": "BLZ",
+        "Country Name": "Belize",
+        "GDP per Capita": "6165.849669",
+        "Percentage Difference": "11.67655225"
+      },
+      {
+        "Alpha-3 code": "BEL",
+        "Country Name": "Belgium",
+        "GDP per Capita": "53070.21482",
+        "Percentage Difference": "-0.10483446"
+      },
+      {
+        "Alpha-3 code": "BLR",
+        "Country Name": "Belarus",
+        "GDP per Capita": "20237.55113",
+        "Percentage Difference": "-18.84961885"
+      },
+      {
+        "Alpha-3 code": "BRB",
+        "Country Name": "Barbados",
+        "GDP per Capita": "14045.77283",
+        "Percentage Difference": "1.574923392"
+      },
+      {
+        "Alpha-3 code": "BGD",
+        "Country Name": "Bangladesh",
+        "GDP per Capita": "5995.407429",
+        "Percentage Difference": "-15.17018048"
+      },
+      {
+        "Alpha-3 code": "BHR",
+        "Country Name": "Bahrain",
+        "GDP per Capita": "43821.12449",
+        "Percentage Difference": "2.724840023"
+      },
+      {
+        "Alpha-3 code": "AZE",
+        "Country Name": "Azerbaijan",
+        "GDP per Capita": "14478.52445",
+        "Percentage Difference": "-13.0707879"
+      },
+      {
+        "Alpha-3 code": "AUT",
+        "Country Name": "Austria",
+        "GDP per Capita": "55685.97029",
+        "Percentage Difference": "-20.69259286"
+      },
+      {
+        "Alpha-3 code": "AUS",
+        "Country Name": "Australia",
+        "GDP per Capita": "53316.88543",
+        "Percentage Difference": "-28.47350933"
+      },
+      {
+        "Alpha-3 code": "ABW",
+        "Country Name": "Aruba",
+        "GDP per Capita": "31182.83388",
+        "Percentage Difference": "14.79009084"
+      },
+      {
+        "Alpha-3 code": "ARM",
+        "Country Name": "Armenia",
+        "GDP per Capita": "13311.02814",
+        "Percentage Difference": "13.63870511"
+      },
+      {
+        "Alpha-3 code": "ARG",
+        "Country Name": "Argentina",
+        "GDP per Capita": "20769.03238",
+        "Percentage Difference": "6.228221275"
+      },
+      {
+        "Alpha-3 code": "ATG",
+        "Country Name": "Antigua and Barbuda",
+        "GDP per Capita": "18240.38041",
+        "Percentage Difference": "27.98453013"
+      },
+      {
+        "Alpha-3 code": "AGO",
+        "Country Name": "Angola",
+        "GDP per Capita": "6478.332182",
+        "Percentage Difference": "9.326591708"
+      },
+      {
+        "Alpha-3 code": "DZA",
+        "Country Name": "Algeria",
+        "GDP per Capita": "11323.31222",
+        "Percentage Difference": "12.98941638"
+      },
+      {
+        "Alpha-3 code": "ALB",
+        "Country Name": "Albania",
+        "GDP per Capita": "13632.18654",
+        "Percentage Difference": "1.160220589"
+      }
+    ]
+  },
+  "mark": {
+    "type": "circle",
+    "color": "#30D5C8",
+    "opacity": 0.7
+  },
+  "height": 300,
+  "width": 300,
+  "encoding": {
+    "x": {
+      "field": "GDP per Capita",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          140000
+        ]
+      },
+      "axis": {
+        "grid": false
+      },
+      "title": null
+    },
+    "y": {
+      "field": "Percentage Difference",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          -60,
+          70
+        ]
+      },
+      "axis": {
+        "grid": false
+      },
+      "title": [
+        "Better Women's Team                        Better Men's Team",
+        "⟵                                                                ⟶"
+      ]
+    },
+    "tooltip": [
+      {
+        "field": "Country Name",
+        "type": "ordinal",
+        "title": "Country"
+      },
+      {
+        "field": "Percentage Difference",
+        "type": "quantitative",
+        "title": "Percentage Difference",
+        "format": ".2f"
+      },
+      {
+        "field": "GDP per Capita",
+        "type": "quantitative",
+        "title": "GDP per Capita ($)",
+        "format": ".0f"
+      }
+    ]
+  }
+}

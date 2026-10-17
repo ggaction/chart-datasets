@@ -1,0 +1,102 @@
+{
+  "id": "vl_0116",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "92bd1631be1bc5aeddc132a60bc376401aea1594e4c51f8db0553eebb4f7d3d6",
+      "actions": 18,
+      "topOptions": 38
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "fd1d78042ec3492b2ea260a9a8c91ec34d21dfa6bb64c1a224ceaeb6dcaa3fae",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "06f078a6af2d6ccfd11096b8bf81c45e695d76a477b6bcb0a8a752f6d56894c2",
+      "actions": 20,
+      "topOptions": 44
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "b768d1852e09e7867e606761f098041d6e148e2b7376dc700145b2b663fdded2",
+      "actions": 22,
+      "topOptions": 46
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ea5572729b6775fef372b3527b828b58d8f22ed00461217ae854c17eb36ec5d5",
+      "actions": 24,
+      "topOptions": 52
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "e19095ef955fed3559f87c9ac290b6b144e0a635ff50708aa347d78c8bf20759",
+      "actions": 28,
+      "topOptions": 52
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/COG-UK/UK-lineage-dynamics-analysis/2ca84630ab1fb80b949d25b05b6578fa9674f574/analyses/epidemiological/results/tree-varying-lag-estimates.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex host model:null/current7971 stop, no fresh model response. Original stop retained; runtime metadata corrected to installed7971 instead of historical preparedcontract9c, source/code/fullreview unchanged. Six meaningful stages/current source/family/native checks PASS, mandatoryfrontier empty, implicit0.7pointbridge alone not another meaningful stage; rejected backwardG7 retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "454b564edf19031641aa7b3e7cf9d0ecbeae07a660ac6be65834feb97d9b99ba",
+      "bytes": 898
+    },
+    "data.json": {
+      "sha256": "6c951e6994bd1a06a27970545a0127b3136ae955fb6b12a921e6e452bd180135",
+      "bytes": 295980
+    },
+    "resolved-source.vl.json": {
+      "sha256": "76b8a3898548b323f1c13383f074a8e6408c30e206eafca056a8b0a25ee36e6e",
+      "bytes": 352709
+    },
+    "G1.gg.mjs": {
+      "sha256": "92bd1631be1bc5aeddc132a60bc376401aea1594e4c51f8db0553eebb4f7d3d6",
+      "bytes": 2421
+    },
+    "G2.gg.mjs": {
+      "sha256": "fd1d78042ec3492b2ea260a9a8c91ec34d21dfa6bb64c1a224ceaeb6dcaa3fae",
+      "bytes": 2381
+    },
+    "G3.gg.mjs": {
+      "sha256": "06f078a6af2d6ccfd11096b8bf81c45e695d76a477b6bcb0a8a752f6d56894c2",
+      "bytes": 2395
+    },
+    "G4.gg.mjs": {
+      "sha256": "b768d1852e09e7867e606761f098041d6e148e2b7376dc700145b2b663fdded2",
+      "bytes": 2453
+    },
+    "G5.gg.mjs": {
+      "sha256": "ea5572729b6775fef372b3527b828b58d8f22ed00461217ae854c17eb36ec5d5",
+      "bytes": 2555
+    },
+    "G6.gg.mjs": {
+      "sha256": "e19095ef955fed3559f87c9ac290b6b144e0a635ff50708aa347d78c8bf20759",
+      "bytes": 2595
+    },
+    "vega-lite.svg": {
+      "sha256": "cbd3ead64198204b0bf2eaffd604dde1a144038b94dc4bf370531db2ef9161a5",
+      "bytes": 694353
+    },
+    "ggaction.svg": {
+      "sha256": "e668bf9c10b562d43fc4be26a7d2e5c2315d35b9c970494215f7b9cc3c86edc0",
+      "bytes": 288055
+    }
+  }
+}

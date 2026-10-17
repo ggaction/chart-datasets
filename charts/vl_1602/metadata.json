@@ -1,0 +1,124 @@
+{
+  "id": "vl_1602",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6a6e3074c1e217eedb302106b59b82496220ab5d02d79955e9fd8b124201e707",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0ee79016a5a998701b46d85d68598bf4366db89330902ee85b97a5ec751dd185",
+      "actions": 17,
+      "topOptions": 42
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "12bf05d5cbb681cc184acf553047c5e004c477e94b527e1df6ce6007f77545bf",
+      "actions": 18,
+      "topOptions": 44
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a04bee5658f5255f81982f700f4d33481c41d33ce81b4596713d88299c78ec90",
+      "actions": 19,
+      "topOptions": 44
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "bb9dcb78fad40a9590b1a7f8e1dfcb8d2b31a0a2fc05146e2d65d0401e30716c",
+      "actions": 21,
+      "topOptions": 50
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "e0fc7f96284e4486692c8c887868c4b1e6d8e8a7a9f1b4e4564f0a56aaa18dca",
+      "actions": 27,
+      "topOptions": 54
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "2da20ddd9443d075362e481a5967cade13767119607ac9e66ad3da86687eb3e8",
+      "actions": 27,
+      "topOptions": 54
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "e08cc165372bfcb4af444a33008e7a71e5470e58a3e87a2e0a7ee83d5408e58c",
+      "actions": 29,
+      "topOptions": 57
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 8 genuine ownership stages, 459 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Authorized eight-stage cap reached."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "834277ad2ffb943e91f11df42ea3ddea6b8ccf567ea4deb73b9ff9815b00a011",
+      "bytes": 795
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1d9b3434b0baee2ef802ee520dee780b2a2aa17bc18f9cf0313eecaacfda4bd9",
+      "bytes": 114643
+    },
+    "G1.gg.mjs": {
+      "sha256": "6a6e3074c1e217eedb302106b59b82496220ab5d02d79955e9fd8b124201e707",
+      "bytes": 2485
+    },
+    "G2.gg.mjs": {
+      "sha256": "0ee79016a5a998701b46d85d68598bf4366db89330902ee85b97a5ec751dd185",
+      "bytes": 2445
+    },
+    "G3.gg.mjs": {
+      "sha256": "12bf05d5cbb681cc184acf553047c5e004c477e94b527e1df6ce6007f77545bf",
+      "bytes": 2497
+    },
+    "G4.gg.mjs": {
+      "sha256": "a04bee5658f5255f81982f700f4d33481c41d33ce81b4596713d88299c78ec90",
+      "bytes": 2503
+    },
+    "G5.gg.mjs": {
+      "sha256": "bb9dcb78fad40a9590b1a7f8e1dfcb8d2b31a0a2fc05146e2d65d0401e30716c",
+      "bytes": 2713
+    },
+    "G6.gg.mjs": {
+      "sha256": "e0fc7f96284e4486692c8c887868c4b1e6d8e8a7a9f1b4e4564f0a56aaa18dca",
+      "bytes": 2695
+    },
+    "G7.gg.mjs": {
+      "sha256": "2da20ddd9443d075362e481a5967cade13767119607ac9e66ad3da86687eb3e8",
+      "bytes": 2571
+    },
+    "G8.gg.mjs": {
+      "sha256": "e08cc165372bfcb4af444a33008e7a71e5470e58a3e87a2e0a7ee83d5408e58c",
+      "bytes": 2622
+    },
+    "vega-lite.svg": {
+      "sha256": "db2e333f251e470dc76f0d15a31b68201ab2853b1c9a7b6e6ec903706efb0083",
+      "bytes": 124930
+    },
+    "ggaction.svg": {
+      "sha256": "e87cc77e07f79b5447bb4138200a2c4be6ed79c171d108af76c598e8fa841632",
+      "bytes": 62241
+    }
+  }
+}

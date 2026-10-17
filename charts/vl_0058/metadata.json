@@ -1,0 +1,124 @@
+{
+  "id": "vl_0058",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "aea580a286f84b59785d9799b8fa448552e06039f277ce5b64c1e0eef7315ab6",
+      "actions": 10,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "65107200f0926609d42d9f5fc531688238ef57711041ccbcd9e816c87d588254",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "860461d13412571f3ffc69434cc386604872fe9a5ab4a05772d90345e6b3063a",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "88748fe6904d4572db801776fb4c01cd2d3c2b9aaaf56cc127a25314175bd1a2",
+      "actions": 16,
+      "topOptions": 37
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "1ba596fa4411d1b6e4e050d84f3b399b4aea757f245d75accd1b48e0fbc57391",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0cf70146c0c0d6726b872dd9e6976d028704252ec61ce6295f0af2d2054c1e19",
+      "actions": 20,
+      "topOptions": 43
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "e5d152de503bdfce9ad9de4b31ce1761ca1f1feec52da23379943a42b8d1642e",
+      "actions": 24,
+      "topOptions": 45
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "e68fcadba24eba73c25b37a299efde9d1d96437862ab3f7c964415a15c00b6f6",
+      "actions": 26,
+      "topOptions": 45
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/demographicsUN.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original source and entire final GLM program reread; all8accepted stages/current source/style/guide/family checks pass. Source native transforms, source raw rows, plot and typography preserved. Exact title/axis/component moves reviewed. Remaining concrete public ownership opportunities recorded in cap-reviewed-source-frontier.json; stopping at8cap honestly, no padding or inventedAPI."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a4faf18064d2bc4c3522ed77bc10aba8e4ace5d796a406858149a4334f58873a",
+      "bytes": 1220
+    },
+    "data.json": {
+      "sha256": "5c54a80c6ff73dad09295732299169618e8a0944fe24fb4edd8783241a9a2188",
+      "bytes": 640170
+    },
+    "resolved-source.vl.json": {
+      "sha256": "b5e73186a1193e9b958a795b8de9cc85bba078e0d263da66e2f6995e4c800190",
+      "bytes": 755023
+    },
+    "G1.gg.mjs": {
+      "sha256": "aea580a286f84b59785d9799b8fa448552e06039f277ce5b64c1e0eef7315ab6",
+      "bytes": 3537
+    },
+    "G2.gg.mjs": {
+      "sha256": "65107200f0926609d42d9f5fc531688238ef57711041ccbcd9e816c87d588254",
+      "bytes": 3520
+    },
+    "G3.gg.mjs": {
+      "sha256": "860461d13412571f3ffc69434cc386604872fe9a5ab4a05772d90345e6b3063a",
+      "bytes": 3380
+    },
+    "G4.gg.mjs": {
+      "sha256": "88748fe6904d4572db801776fb4c01cd2d3c2b9aaaf56cc127a25314175bd1a2",
+      "bytes": 3312
+    },
+    "G5.gg.mjs": {
+      "sha256": "1ba596fa4411d1b6e4e050d84f3b399b4aea757f245d75accd1b48e0fbc57391",
+      "bytes": 3370
+    },
+    "G6.gg.mjs": {
+      "sha256": "0cf70146c0c0d6726b872dd9e6976d028704252ec61ce6295f0af2d2054c1e19",
+      "bytes": 3529
+    },
+    "G7.gg.mjs": {
+      "sha256": "e5d152de503bdfce9ad9de4b31ce1761ca1f1feec52da23379943a42b8d1642e",
+      "bytes": 3525
+    },
+    "G8.gg.mjs": {
+      "sha256": "e68fcadba24eba73c25b37a299efde9d1d96437862ab3f7c964415a15c00b6f6",
+      "bytes": 3511
+    },
+    "vega-lite.svg": {
+      "sha256": "aeb5735817af9a8e4cec14b4062cc595b51c4910e7985999e94687ebffd42d55",
+      "bytes": 66605
+    },
+    "ggaction.svg": {
+      "sha256": "b422c231c15c4bdcef0db79b84f2195d60bb6c129c9dd8bd8fd225a7255ff7b6",
+      "bytes": 101835
+    }
+  }
+}

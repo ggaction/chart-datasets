@@ -1,0 +1,124 @@
+{
+  "id": "vl_0567",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8a2c44a9e34a93842e7e5acd2fa4d734bdfdd270d71816c623fd8fe368d910c0",
+      "actions": 19,
+      "topOptions": 46
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2d461f26ab02c831305f6967105b097ffda2286c16ae8f1e95077ee9f6a67929",
+      "actions": 20,
+      "topOptions": 47
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ec11d66bdafc2e2ff744c3984968addfd743a6900501db383edef7b27579d1c3",
+      "actions": 22,
+      "topOptions": 51
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "08170ada10884f162ea76e9919c75c76d99d3755d4067f931ea66338bebdbd91",
+      "actions": 23,
+      "topOptions": 53
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "3de1c4d378da69304d6a7c53536d81b21df6cfd98d58c33b1116ef6dc97439ae",
+      "actions": 25,
+      "topOptions": 53
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "223b62f369aeddca7cc7a5fba2d93f6229639a3aef1db41ed04f8c1057374dde",
+      "actions": 26,
+      "topOptions": 54
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ac182897f923b45b919fc2a61b6aab380e68c0343916dcd50cdd4d2e3ac696c2",
+      "actions": 26,
+      "topOptions": 55
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "5eaabbfd5b8baefb5b3518fcf8b438b50e9da0f5d80df49a400ffcf22ec0db06",
+      "actions": 27,
+      "topOptions": 56
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/JamesFKean/RA_work/main/p21v2.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full final source/program reread and all8verifiedcurrent-pin stages: source21ranked2021bars, initial opacity1 and rawfilter/sort retained; source450x300plot, Country labels vertical and Ypercentlabels correct.21observed HCL rank stops exact with between-observed interpolation explicitly not claimed; same-family output exact. Original mixedgrid/title split into separateG6/G7, G8focusedYformat; remaining baropacity/width details remain at cap."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "1723fd27d7e9d20065af924c6c01f7908096240c27cfc5ca7f71b2a5166ffc74",
+      "bytes": 1794
+    },
+    "data.json": {
+      "sha256": "3ae4c4a9d79d8c0c0fb18c744fc02e724d135cf31bb3fa7a4ce84c8b7044f21e",
+      "bytes": 155483
+    },
+    "resolved-source.vl.json": {
+      "sha256": "eb25c2338472d80a2b09a6998cdbb78dd69fec7ff6b314b542b0e4be10aa8563",
+      "bytes": 192159
+    },
+    "G1.gg.mjs": {
+      "sha256": "8a2c44a9e34a93842e7e5acd2fa4d734bdfdd270d71816c623fd8fe368d910c0",
+      "bytes": 3079
+    },
+    "G2.gg.mjs": {
+      "sha256": "2d461f26ab02c831305f6967105b097ffda2286c16ae8f1e95077ee9f6a67929",
+      "bytes": 3004
+    },
+    "G3.gg.mjs": {
+      "sha256": "ec11d66bdafc2e2ff744c3984968addfd743a6900501db383edef7b27579d1c3",
+      "bytes": 3088
+    },
+    "G4.gg.mjs": {
+      "sha256": "08170ada10884f162ea76e9919c75c76d99d3755d4067f931ea66338bebdbd91",
+      "bytes": 3054
+    },
+    "G5.gg.mjs": {
+      "sha256": "3de1c4d378da69304d6a7c53536d81b21df6cfd98d58c33b1116ef6dc97439ae",
+      "bytes": 3028
+    },
+    "G6.gg.mjs": {
+      "sha256": "223b62f369aeddca7cc7a5fba2d93f6229639a3aef1db41ed04f8c1057374dde",
+      "bytes": 3058
+    },
+    "G7.gg.mjs": {
+      "sha256": "ac182897f923b45b919fc2a61b6aab380e68c0343916dcd50cdd4d2e3ac696c2",
+      "bytes": 3074
+    },
+    "G8.gg.mjs": {
+      "sha256": "5eaabbfd5b8baefb5b3518fcf8b438b50e9da0f5d80df49a400ffcf22ec0db06",
+      "bytes": 3099
+    },
+    "vega-lite.svg": {
+      "sha256": "2e345658f7e9533447b3100486da74b51b8aa70ba8bb7c770b268526a59d4200",
+      "bytes": 18153
+    },
+    "ggaction.svg": {
+      "sha256": "0fc196e9213bda14b28642e088a81d169e17a45d366eeb8f42255cbdafe19231",
+      "bytes": 16056
+    }
+  }
+}

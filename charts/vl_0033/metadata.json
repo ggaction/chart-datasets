@@ -1,0 +1,124 @@
+{
+  "id": "vl_0033",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "db5a852c16e847534230e02b5d7aadf2cf8e886d744d16ca033e3abe4f413396",
+      "actions": 20,
+      "topOptions": 52
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "030caf9c9ac7ed5b205e5c78acb371e736f11984ef3c6eddaf736c5861cd4b57",
+      "actions": 21,
+      "topOptions": 56
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a67a6abdae40682192dfade011a7d98bf2eeb1441b8e1faaa4d7edf645789a91",
+      "actions": 22,
+      "topOptions": 58
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e47e3e929bb09faae04f58ae8d9a72c38869df83603d4a7e7f93cb8f04d4ab57",
+      "actions": 24,
+      "topOptions": 60
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "d41a8af2df581f67ffc0051a30d36e67955f3867fd6f2479a4c8f9e2387b629d",
+      "actions": 24,
+      "topOptions": 60
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "4403cd097efffd0f3e8b982bea424c4ae5e1a6f36ff19161f1140e06a4d5839f",
+      "actions": 25,
+      "topOptions": 61
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "9b0a429b749a6198163628fa6b1ca31bf4e246bb076b2947f4b56adefa25747c",
+      "actions": 25,
+      "topOptions": 62
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "28ebd2fef9e6b1df0aee2d1bf75931efa4df5939b6c6802ce1335d27d622c7a3",
+      "actions": 25,
+      "topOptions": 62
+    }
+  ],
+  "sourceUrls": [
+    "https://www.trafforddatalab.io/interactive_graphics_companion/data/gapminder.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original source and accepted family reread: 2618 typed raw rows, six paired rule intervals painted before twelve original points, frozen scales/fonts/guide positions. G8 moves real rule stroke #212121 into existing three-key rule editor, preserving exact current verified source and family output. Eight meaningful stages reached; further optional boundaries are not claimed exhausted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "2a98838d84c6944b8f0290e944a935a04cf3be67fa1fa3dca797f26d2828496c",
+      "bytes": 2275
+    },
+    "data.json": {
+      "sha256": "1586280bdbb4a2d64951d8f5a351cd7a86d24301d69ee0abe9228eba17fd6afb",
+      "bytes": 461856
+    },
+    "resolved-source.vl.json": {
+      "sha256": "038d650cf2c71abf9b03f80224cb6c314d4e26cc5480882c902c8cf67e3dc138",
+      "bytes": 558406
+    },
+    "G1.gg.mjs": {
+      "sha256": "db5a852c16e847534230e02b5d7aadf2cf8e886d744d16ca033e3abe4f413396",
+      "bytes": 2799
+    },
+    "G2.gg.mjs": {
+      "sha256": "030caf9c9ac7ed5b205e5c78acb371e736f11984ef3c6eddaf736c5861cd4b57",
+      "bytes": 2767
+    },
+    "G3.gg.mjs": {
+      "sha256": "a67a6abdae40682192dfade011a7d98bf2eeb1441b8e1faaa4d7edf645789a91",
+      "bytes": 2803
+    },
+    "G4.gg.mjs": {
+      "sha256": "e47e3e929bb09faae04f58ae8d9a72c38869df83603d4a7e7f93cb8f04d4ab57",
+      "bytes": 2905
+    },
+    "G5.gg.mjs": {
+      "sha256": "d41a8af2df581f67ffc0051a30d36e67955f3867fd6f2479a4c8f9e2387b629d",
+      "bytes": 2853
+    },
+    "G6.gg.mjs": {
+      "sha256": "4403cd097efffd0f3e8b982bea424c4ae5e1a6f36ff19161f1140e06a4d5839f",
+      "bytes": 2750
+    },
+    "G7.gg.mjs": {
+      "sha256": "9b0a429b749a6198163628fa6b1ca31bf4e246bb076b2947f4b56adefa25747c",
+      "bytes": 2766
+    },
+    "G8.gg.mjs": {
+      "sha256": "28ebd2fef9e6b1df0aee2d1bf75931efa4df5939b6c6802ce1335d27d622c7a3",
+      "bytes": 2766
+    },
+    "vega-lite.svg": {
+      "sha256": "dbf73e53fcdd87e75061a72551db10ff697d6c6431dae3e289576f6ff6e98cfa",
+      "bytes": 22279
+    },
+    "ggaction.svg": {
+      "sha256": "e36f494ee275aac098a7698b4ae61ef3c851e72db13c938aa85063eb346f6ecd",
+      "bytes": 18734
+    }
+  }
+}

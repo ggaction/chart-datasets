@@ -1,0 +1,184 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Country": "Thailand",
+        "Scenario": "1.4",
+        "Value 1": "-1.2"
+      },
+      {
+        "Country": "Philippines",
+        "Scenario": "1.4",
+        "Value 1": "-1.3"
+      },
+      {
+        "Country": "Malaysia",
+        "Scenario": "1.4",
+        "Value 1": "-1.2"
+      },
+      {
+        "Country": "Saudi Arabia",
+        "Scenario": "1.4",
+        "Value 1": "-0.9"
+      },
+      {
+        "Country": "Indonesia",
+        "Scenario": "1.4",
+        "Value 1": "-0.6"
+      },
+      {
+        "Country": "Thailand",
+        "Scenario": "2",
+        "Value 1": "-3"
+      },
+      {
+        "Country": "Philippines",
+        "Scenario": "2",
+        "Value 1": "-3.5"
+      },
+      {
+        "Country": "Malaysia",
+        "Scenario": "2",
+        "Value 1": "-4"
+      },
+      {
+        "Country": "Saudi Arabia",
+        "Scenario": "2",
+        "Value 1": "-4.8"
+      },
+      {
+        "Country": "Indonesia",
+        "Scenario": "2",
+        "Value 1": "-2"
+      },
+      {
+        "Country": "Thailand",
+        "Scenario": "2.6",
+        "Value 1": "-4.9"
+      },
+      {
+        "Country": "Philippines",
+        "Scenario": "2.6",
+        "Value 1": "-5.8"
+      },
+      {
+        "Country": "Malaysia",
+        "Scenario": "2.6",
+        "Value 1": "-6.8"
+      },
+      {
+        "Country": "Saudi Arabia",
+        "Scenario": "2.6",
+        "Value 1": "-11.6"
+      },
+      {
+        "Country": "Indonesia",
+        "Scenario": "2.6",
+        "Value 1": "-3.4"
+      },
+      {
+        "Country": "Thailand",
+        "Scenario": "3.2",
+        "Value 1": "-6"
+      },
+      {
+        "Country": "Philippines",
+        "Scenario": "3.2",
+        "Value 1": "-6.9"
+      },
+      {
+        "Country": "Malaysia",
+        "Scenario": "3.2",
+        "Value 1": "-7.8"
+      },
+      {
+        "Country": "Saudi Arabia",
+        "Scenario": "3.2",
+        "Value 1": "-12.2"
+      },
+      {
+        "Country": "Indonesia",
+        "Scenario": "3.2",
+        "Value 1": "-4.4"
+      }
+    ]
+  },
+  "title": {
+    "text": "GDP loss by temperature increase scenario",
+    "subtitle": "By most affected country. Source: Swiss Re",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": {
+    "step": 10
+  },
+  "height": 300,
+  "mark": "bar",
+  "encoding": {
+    "column": {
+      "field": "Scenario",
+      "type": "nominal",
+      "spacing": 1,
+      "title": null
+    },
+    "y": {
+      "field": "Value 1",
+      "type": "quantitative",
+      "title": null,
+      "scale": {
+        "domain": [
+          -13,
+          0.5
+        ]
+      },
+      "axis": {
+        "grid": false
+      }
+    },
+    "x": {
+      "field": "Country",
+      "type": "nominal",
+      "axis": {
+        "title": "",
+        "labelColor": "white",
+        "ticks": false
+      },
+      "sort": "-y"
+    },
+    "color": {
+      "field": "Country",
+      "scale": {
+        "scheme": "yellowgreenblue"
+      },
+      "legend": {
+        "orient": "right"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Scenario",
+        "type": "nominal"
+      },
+      {
+        "field": "Value 1",
+        "type": "quantitative",
+        "title": "GDP loss (%)"
+      },
+      {
+        "field": "Country",
+        "type": "nominal"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    },
+    "axis": {
+      "domainWidth": 1
+    }
+  }
+}

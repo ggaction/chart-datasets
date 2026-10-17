@@ -1,0 +1,67 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "PL Team Expenditure, 2014-2022",
+    "fontSize": 18,
+    "subtitle": [
+      "Figure 2: hover over bars for team names.",
+      "Source: Transfermarkt"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "start",
+    "color": "black"
+  },
+  "description": "Football Data",
+  "data": {
+    "url": "https://raw.githubusercontent.com/josh-shah/josh-shah.github.io/main/season_expenditure_final.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "height": 300,
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "nominal",
+      "axis": {
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "Expenditure",
+      "type": "quantitative",
+      "title": "Expenditure (£ millions)",
+      "axis": {
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "Team",
+      "type": "nominal",
+      "scale": {
+        "scheme": "plasma"
+      }
+    },
+    "order": {
+      "aggregate": "sum",
+      "field": "Expendtiure",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "Team",
+        "type": "nominal",
+        "title": "Team"
+      },
+      {
+        "field": "Expenditure",
+        "type": "quantitative",
+        "title": "Total Expenditure (£M)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "vl_0435",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "2427a42d946e0b1015e19530019aff79a342195c48a648597cc8e029d6589b1a",
+      "actions": 22,
+      "topOptions": 48
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b8decf8654277098950f49d8d53d2468f95e35ead546119f6dca5abe930cae9c",
+      "actions": 23,
+      "topOptions": 52
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "abf380f311e41ce3210ac94ac3f58ff117c9882e9421d13b9c0cf85d6489da91",
+      "actions": 25,
+      "topOptions": 53
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3ef29db910bdf830cce9537d125cc15f48b704d0c01508c69855dd520b4849e5",
+      "actions": 32,
+      "topOptions": 61
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "861e74becb27435d8dde452d0e0a12ff0345e524eb8fbebe4992e97e0a7203d4",
+      "actions": 32,
+      "topOptions": 62
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/prices/8357f5fba93bec983b3e606cee4ae40ecb0b4433/dbLatestRelease.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full original source and final five programs reviewed: source602+602 exact points and all raw typed fields, original title/subtitle, Unicode labels, no grids, source fonts and plot retained. Paired axis paint already lives in focused components and title paint moved into existing editor. Remaining point constant fill/stroke false stay in editPointMark because no constant fill encoder exists; data/axis creation geometry/native fonts are not padding boundaries. No mandatory meaningful public ownership frontier remains; stop at5 without another model call."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "e77db23242186feb6b077ba5b959bd318f2f48241d2d3106748c65dadcb09774",
+      "bytes": 2388
+    },
+    "data.json": {
+      "sha256": "0f596825d2fbc08b13426cb671734b0008d0e6df48eb5813d9b86c062c72fef0",
+      "bytes": 283607
+    },
+    "resolved-source.vl.json": {
+      "sha256": "cb947e62f15086f95db3361bb4f0f09af4930ef2e16b8c7104ae6cdff72a3105",
+      "bytes": 334047
+    },
+    "G1.gg.mjs": {
+      "sha256": "2427a42d946e0b1015e19530019aff79a342195c48a648597cc8e029d6589b1a",
+      "bytes": 4146
+    },
+    "G2.gg.mjs": {
+      "sha256": "b8decf8654277098950f49d8d53d2468f95e35ead546119f6dca5abe930cae9c",
+      "bytes": 4106
+    },
+    "G3.gg.mjs": {
+      "sha256": "abf380f311e41ce3210ac94ac3f58ff117c9882e9421d13b9c0cf85d6489da91",
+      "bytes": 4167
+    },
+    "G4.gg.mjs": {
+      "sha256": "3ef29db910bdf830cce9537d125cc15f48b704d0c01508c69855dd520b4849e5",
+      "bytes": 4308
+    },
+    "G5.gg.mjs": {
+      "sha256": "861e74becb27435d8dde452d0e0a12ff0345e524eb8fbebe4992e97e0a7203d4",
+      "bytes": 4340
+    },
+    "vega-lite.svg": {
+      "sha256": "7d72db8d21af7807c34e27a01fe79289e1dced8766586bdca27ed04c36b16e87",
+      "bytes": 402999
+    },
+    "ggaction.svg": {
+      "sha256": "5e5571c5413ab60c2a6504d11a3caaf5707620937a34602ce1b6303e44412ecb",
+      "bytes": 143929
+    }
+  }
+}

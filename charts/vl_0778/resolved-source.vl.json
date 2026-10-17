@@ -1,0 +1,179 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "S&P 500 Returns vs Fed Funds Rate Hike",
+    "subtitle": [
+      "Relationship between S&P 500 Returns and Fed Funds Rate",
+      "Soruce:S&P Dow Jone Indices, FRED"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "height": 300,
+  "width": 350,
+  "data": {
+    "values": [
+      {
+        "Month": "Jan-22",
+        "Stocks Avg Return": "-0.263106493",
+        "Fed Funds Rate": "0.000793548"
+      },
+      {
+        "Month": "Feb-22",
+        "Stocks Avg Return": "-0.157985493",
+        "Fed Funds Rate": "0.001"
+      },
+      {
+        "Month": "Mar-22",
+        "Stocks Avg Return": "0.163117191",
+        "Fed Funds Rate": "0.002009677"
+      },
+      {
+        "Month": "Apr-22",
+        "Stocks Avg Return": "-0.447880486",
+        "Fed Funds Rate": "0.0033"
+      },
+      {
+        "Month": "May-22",
+        "Stocks Avg Return": "0.018851104",
+        "Fed Funds Rate": "0.007633333"
+      },
+      {
+        "Month": "Jun-22",
+        "Stocks Avg Return": "-0.400084995",
+        "Fed Funds Rate": "0.011633333"
+      },
+      {
+        "Month": "Jul-22",
+        "Stocks Avg Return": "0.443892624",
+        "Fed Funds Rate": "0.016758065"
+      },
+      {
+        "Month": "Aug-22",
+        "Stocks Avg Return": "-0.181224184",
+        "Fed Funds Rate": "0.0233"
+      },
+      {
+        "Month": "Sep-22",
+        "Stocks Avg Return": "-0.455004526",
+        "Fed Funds Rate": "0.02555"
+      },
+      {
+        "Month": "Oct-22",
+        "Stocks Avg Return": "0.120809196",
+        "Fed Funds Rate": "0.0308"
+      },
+      {
+        "Month": "Nov-22",
+        "Stocks Avg Return": "0.264157191",
+        "Fed Funds Rate": "0.0378"
+      },
+      {
+        "Month": "Dec-22",
+        "Stocks Avg Return": "-0.282973737",
+        "Fed Funds Rate": "0.038925"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "size": 60,
+        "color": "#1f11ddf4",
+        "filled": true
+      },
+      "encoding": {
+        "x": {
+          "field": "Fed Funds Rate",
+          "type": "quantitative",
+          "title": "Monthly Fed Funds Rate",
+          "scale": {
+            "domain": [
+              0.0008,
+              0.04
+            ]
+          },
+          "axis": {
+            "format": "%"
+          }
+        },
+        "y": {
+          "field": "Stocks Avg Return",
+          "type": "quantitative",
+          "title": "Monthly S&P 500 Returns"
+        },
+        "tooltip": [
+          {
+            "field": "Stocks Avg Return",
+            "type": "nominal",
+            "title": "Monthly S&P 500 Returns"
+          },
+          {
+            "field": "Fed Funds Rate",
+            "type": "quantitative",
+            "title": "Fed Funds Rate Change"
+          },
+          {}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "#674439f2"
+      },
+      "transform": [
+        {
+          "regression": "Stocks Avg Return",
+          "on": "Fed Funds Rate"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Fed Funds Rate",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Stocks Avg Return",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Stocks Avg Return",
+          "on": "Fed Funds Rate",
+          "params": true
+        },
+        {
+          "calculate": "'R²: '+format(datum.rSquared, '.2f')",
+          "as": "R2"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "color": "black",
+        "x": "width",
+        "align": "right",
+        "y": -6
+      },
+      "encoding": {
+        "text": {
+          "type": "nominal",
+          "field": "R2"
+        }
+      }
+    }
+  ],
+  "background": "white",
+  "autosize": {
+    "type": "pad",
+    "contains": "padding",
+    "resize": true
+  },
+  "config": {}
+}

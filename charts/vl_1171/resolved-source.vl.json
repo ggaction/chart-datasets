@@ -1,0 +1,120 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Year": "2007",
+        "Market Share": "4.30",
+        "Gross profit (% of revenue)": "33.425"
+      },
+      {
+        "Year": "2008",
+        "Market Share": "7.93",
+        "Gross profit (% of revenue)": "35.05"
+      },
+      {
+        "Year": "2009",
+        "Market Share": "14.18",
+        "Gross profit (% of revenue)": "40.125"
+      },
+      {
+        "Year": "2010",
+        "Market Share": "15.40",
+        "Gross profit (% of revenue)": "39.65"
+      },
+      {
+        "Year": "2011",
+        "Market Share": "18.48",
+        "Gross profit (% of revenue)": "40.475"
+      },
+      {
+        "Year": "2012",
+        "Market Share": "18.73",
+        "Gross profit (% of revenue)": "43.725"
+      },
+      {
+        "Year": "2013",
+        "Market Share": "15.11",
+        "Gross profit (% of revenue)": "37.5"
+      },
+      {
+        "Year": "2014",
+        "Market Share": "14.60",
+        "Gross profit (% of revenue)": "38.64"
+      },
+      {
+        "Year": "2015",
+        "Market Share": "16.08",
+        "Gross profit (% of revenue)": "40.075"
+      },
+      {
+        "Year": "2016",
+        "Market Share": "14.45",
+        "Gross profit (% of revenue)": "38.875"
+      },
+      {
+        "Year": "2017",
+        "Market Share": "14.63",
+        "Gross profit (% of revenue)": "38.45"
+      },
+      {
+        "Year": "2018",
+        "Market Share": "14.83",
+        "Gross profit (% of revenue)": "38.325"
+      },
+      {
+        "Year": "2019",
+        "Market Share": "13.70",
+        "Gross profit (% of revenue)": "37.7925"
+      },
+      {
+        "Year": "2020",
+        "Market Share": "15.48",
+        "Gross profit (% of revenue)": "38.2375"
+      },
+      {
+        "Year": "2021",
+        "Market Share": "17.20",
+        "Gross profit (% of revenue)": "41.945"
+      },
+      {
+        "Year": "2022",
+        "Market Share": "16.93",
+        "Gross profit (% of revenue)": "41.425"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "repeat": {
+    "layer": [
+      "Market Share",
+      "Gross profit (% of revenue)"
+    ]
+  },
+  "spec": {
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal"
+      },
+      "y": {
+        "field": {
+          "repeat": "layer"
+        },
+        "type": "quantitative",
+        "title": "Market Share/Gross profit (%)"
+      },
+      "color": {
+        "datum": {
+          "repeat": "layer"
+        },
+        "type": "nominal"
+      }
+    }
+  }
+}

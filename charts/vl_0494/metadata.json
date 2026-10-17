@@ -1,0 +1,124 @@
+{
+  "id": "vl_0494",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "80fec88e72847e6462ef59c0124fef62e9d9499d881746af912af9ddbf627ef6",
+      "actions": 19,
+      "topOptions": 45
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "d12e996c8c02a946f016387298191e17514705bd8e9c5b882d9b2fdd737d7233",
+      "actions": 20,
+      "topOptions": 49
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b96cd7742b6ff3f18d8c60f5a6f344cbb9c2278d8946cdba7f468f5b807f7e02",
+      "actions": 21,
+      "topOptions": 51
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f25e3cd6ea498ac95f2942a191b0f044a6942e938078f0bbfacd7c51888cdeef",
+      "actions": 22,
+      "topOptions": 52
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "d54ff0721704c0410d7b3039e9942f67fe871e08e85de3cc11b4feaa543af9be",
+      "actions": 24,
+      "topOptions": 58
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "7100b63dc09ad718833222121dae5c19fa95c81b7b65b7b9ca739fd1d9c8be04",
+      "actions": 30,
+      "topOptions": 63
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "39a141e11f18266d613f91298f98cc4c9f83dc844f07fc33a96a909ad99f8e8c",
+      "actions": 30,
+      "topOptions": 65
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "b6971ed1d70769fc266d8abc229e2953c3a20bbbb54c5ed410db0b4c25665917",
+      "actions": 31,
+      "topOptions": 66
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/maps/dataUSstatesPopulation.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight accepted meaningful ownership stages, all strict source/geometry/data checks and identical family SVG/PNG/graphics pass; exact final source/code frontier recorded with honest cap disclosure."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "6014da58dad7a82e0c86e7c0dd95c79490fdf5dec784c33c62ea588d3afd016d",
+      "bytes": 1300
+    },
+    "data.json": {
+      "sha256": "20e3f38e36a43fec73b93acd9e9de87b7bea26ca3f66be01c88d218051a097f0",
+      "bytes": 168882
+    },
+    "resolved-source.vl.json": {
+      "sha256": "cfbff900c2b0627f0427dd14ffdaacba5436f52acb704c7533e2094e373fec4a",
+      "bytes": 196873
+    },
+    "G1.gg.mjs": {
+      "sha256": "80fec88e72847e6462ef59c0124fef62e9d9499d881746af912af9ddbf627ef6",
+      "bytes": 4196
+    },
+    "G2.gg.mjs": {
+      "sha256": "d12e996c8c02a946f016387298191e17514705bd8e9c5b882d9b2fdd737d7233",
+      "bytes": 4172
+    },
+    "G3.gg.mjs": {
+      "sha256": "b96cd7742b6ff3f18d8c60f5a6f344cbb9c2278d8946cdba7f468f5b807f7e02",
+      "bytes": 4202
+    },
+    "G4.gg.mjs": {
+      "sha256": "f25e3cd6ea498ac95f2942a191b0f044a6942e938078f0bbfacd7c51888cdeef",
+      "bytes": 4215
+    },
+    "G5.gg.mjs": {
+      "sha256": "d54ff0721704c0410d7b3039e9942f67fe871e08e85de3cc11b4feaa543af9be",
+      "bytes": 4381
+    },
+    "G6.gg.mjs": {
+      "sha256": "7100b63dc09ad718833222121dae5c19fa95c81b7b65b7b9ca739fd1d9c8be04",
+      "bytes": 4407
+    },
+    "G7.gg.mjs": {
+      "sha256": "39a141e11f18266d613f91298f98cc4c9f83dc844f07fc33a96a909ad99f8e8c",
+      "bytes": 4442
+    },
+    "G8.gg.mjs": {
+      "sha256": "b6971ed1d70769fc266d8abc229e2953c3a20bbbb54c5ed410db0b4c25665917",
+      "bytes": 4468
+    },
+    "vega-lite.svg": {
+      "sha256": "0297ec0e6d953b4d5b4ffc13486b832a40060d425162062293ec8eeb8c81bcef",
+      "bytes": 9752
+    },
+    "ggaction.svg": {
+      "sha256": "3105d119a2f57f26559da81a5b25cefca71ae527ffb78c87c0b97808ec2f251b",
+      "bytes": 5960
+    }
+  }
+}

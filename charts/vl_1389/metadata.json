@@ -1,0 +1,113 @@
+{
+  "id": "vl_1389",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "cc73b9f6338d6dd54aa21c1f2a9f81db49aee5ed333b19a0b150c159bbd1e609",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "fe6994b0c53b28ee072a22e606cebbaa08ab79150fe923d999e7224ff0729061",
+      "actions": 12,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a5e0807ff6c70e3d2bc53a1735e40f337b714fc8116dc61bf424a3753045e731",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "70a1116af82c3bd3334e29092c252156db90320aafbc5c387478ee46096f5e4b",
+      "actions": 15,
+      "topOptions": 38
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c63b4382078b0c40b10825b9410cbd56b697d8f3e6827f792698c0cf8edb96ee",
+      "actions": 16,
+      "topOptions": 40
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "e95d0bf0e2781f7c98a37301c5675a423a82f8c558bbba4e5c49c5e6bf9d8e31",
+      "actions": 20,
+      "topOptions": 40
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "cb4aef1f7450c5fb4e75e4b6c155ac69517564e56fdd300e1e104a395e4d37ba",
+      "actions": 21,
+      "topOptions": 41
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/tableau/Visualization-Linting/e36a78027ee5ba556f361bff1df3a9ca2bfb4546/example-data/bad/missingquarter.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed fullsource, exactnewwholemaptransfer andallacceptedcurrentpinverification. Source/DOM/familychecksPASS. Originalrawstages/stops/usagepreserved. Honest7stages: onlysourceboundnativeblue/width2optional remains, retainsetter, no padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8839656f051c6abc46e0aabd1d95fe88f3c8ffe44ca86e33c47cc3f89b36b03f",
+      "bytes": 505
+    },
+    "data.json": {
+      "sha256": "3d4b638eebaa2cf87e71c4d9d1542e1992528c946cb1e66c9f41c18b7ba55c94",
+      "bytes": 1274
+    },
+    "resolved-source.vl.json": {
+      "sha256": "c93ca54636fb42d61dbfeac58e0313a44d41c8a2777cbeb3f82ef6c95450ac36",
+      "bytes": 2099
+    },
+    "G1.gg.mjs": {
+      "sha256": "cc73b9f6338d6dd54aa21c1f2a9f81db49aee5ed333b19a0b150c159bbd1e609",
+      "bytes": 2313
+    },
+    "G2.gg.mjs": {
+      "sha256": "fe6994b0c53b28ee072a22e606cebbaa08ab79150fe923d999e7224ff0729061",
+      "bytes": 2253
+    },
+    "G3.gg.mjs": {
+      "sha256": "a5e0807ff6c70e3d2bc53a1735e40f337b714fc8116dc61bf424a3753045e731",
+      "bytes": 2321
+    },
+    "G4.gg.mjs": {
+      "sha256": "70a1116af82c3bd3334e29092c252156db90320aafbc5c387478ee46096f5e4b",
+      "bytes": 2423
+    },
+    "G5.gg.mjs": {
+      "sha256": "c63b4382078b0c40b10825b9410cbd56b697d8f3e6827f792698c0cf8edb96ee",
+      "bytes": 2413
+    },
+    "G6.gg.mjs": {
+      "sha256": "e95d0bf0e2781f7c98a37301c5675a423a82f8c558bbba4e5c49c5e6bf9d8e31",
+      "bytes": 2453
+    },
+    "G7.gg.mjs": {
+      "sha256": "cb4aef1f7450c5fb4e75e4b6c155ac69517564e56fdd300e1e104a395e4d37ba",
+      "bytes": 2414
+    },
+    "vega-lite.svg": {
+      "sha256": "93a342f288a5a10c822574065f248b10b9cab76e2741a8c2475a233468735fcf",
+      "bytes": 8171
+    },
+    "ggaction.svg": {
+      "sha256": "0fce8fac0760290f77b4f0832580cc80bbebdc16542920c71adf3391e30c4bba",
+      "bytes": 4298
+    }
+  }
+}

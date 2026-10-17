@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "(M5) USD to GBP exchange rate",
+  "title": {
+    "text": "USD/GBP exhange rate",
+    "subtitle": "Calendar year average. Source: [tbc], OFX",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/M5_USDGBP_LongRun.csv"
+  },
+  "height": 300,
+  "width": 295,
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {
+        "grid": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              12
+            ]
+          },
+          "axis": {
+            "grid": false
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "color": "darkblue"
+          }
+        },
+        {
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "value": 0.1
+        },
+        "tooltip": [
+          {
+            "field": "Year",
+            "type": "temporal",
+            "format": "%B, %Y"
+          },
+          {
+            "field": "Value",
+            "title": "USD to GBP",
+            "type": "quantitative",
+            "format": ""
+          }
+        ]
+      }
+    }
+  ]
+}

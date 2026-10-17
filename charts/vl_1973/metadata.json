@@ -1,0 +1,122 @@
+{
+  "id": "vl_1973",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "44333b1af44521308c4d796c367d7383dfa2b54d0f9eb4109fcf1d1bcda97e5d",
+      "actions": 5,
+      "topOptions": 11
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "c18de4b69a69d2265ace97c60dcd070dc042ed25b08a32eaba75ba92880589c7",
+      "actions": 6,
+      "topOptions": 13
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7396d0c2eb86087c3e05c0085644fd75d2d34e0c3995f842c0ef9b8885bcc1f4",
+      "actions": 7,
+      "topOptions": 14
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f1fa21fcb9eded0cd140a848f10c3572a161ffe230eb7f72ef883a8c16f30e07",
+      "actions": 8,
+      "topOptions": 18
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4e0c24b80ba4d4cc4ade23d8d4850e989fbbf9d46ad2e014682940a4468082e1",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0c06772dce4f241d3b139242d8732e230986bf86afe6f8a9984814a6fe37f67c",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "314fd0ab572ccd15641676ed766cc26624d79a8cd69869b0404b329f45be1890",
+      "actions": 14,
+      "topOptions": 28
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "089e76882fb1db29f6b0a72268ca5a99c520f51561353724de40d44aa51295f1",
+      "actions": 16,
+      "topOptions": 28
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "차트 제목·원본 크기를 유지하며 가이드·축·scale을 분리하고, 마지막에는 tick과 label의 개별 editor까지 8단계로 분해했다."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "b8069b611ef6ffba257ca5648840245f80b584671d25679517cca6f0953ecd32",
+      "bytes": 718
+    },
+    "data.json": {
+      "sha256": "68497efe55026aacf25d4fc8ec9aa5d0558f7ddefe51d5eecf9235edf360c7e6",
+      "bytes": 245
+    },
+    "resolved-source.vl.json": {
+      "sha256": "b8069b611ef6ffba257ca5648840245f80b584671d25679517cca6f0953ecd32",
+      "bytes": 718
+    },
+    "G1.gg.mjs": {
+      "sha256": "44333b1af44521308c4d796c367d7383dfa2b54d0f9eb4109fcf1d1bcda97e5d",
+      "bytes": 2253
+    },
+    "G2.gg.mjs": {
+      "sha256": "c18de4b69a69d2265ace97c60dcd070dc042ed25b08a32eaba75ba92880589c7",
+      "bytes": 2184
+    },
+    "G3.gg.mjs": {
+      "sha256": "7396d0c2eb86087c3e05c0085644fd75d2d34e0c3995f842c0ef9b8885bcc1f4",
+      "bytes": 2118
+    },
+    "G4.gg.mjs": {
+      "sha256": "f1fa21fcb9eded0cd140a848f10c3572a161ffe230eb7f72ef883a8c16f30e07",
+      "bytes": 1992
+    },
+    "G5.gg.mjs": {
+      "sha256": "4e0c24b80ba4d4cc4ade23d8d4850e989fbbf9d46ad2e014682940a4468082e1",
+      "bytes": 1980
+    },
+    "G6.gg.mjs": {
+      "sha256": "0c06772dce4f241d3b139242d8732e230986bf86afe6f8a9984814a6fe37f67c",
+      "bytes": 2180
+    },
+    "G7.gg.mjs": {
+      "sha256": "314fd0ab572ccd15641676ed766cc26624d79a8cd69869b0404b329f45be1890",
+      "bytes": 2150
+    },
+    "G8.gg.mjs": {
+      "sha256": "089e76882fb1db29f6b0a72268ca5a99c520f51561353724de40d44aa51295f1",
+      "bytes": 2104
+    },
+    "vega-lite.svg": {
+      "sha256": "16598db113cf6cc4aa222c626b4f362b9b377227de1068710613efc5465d7438",
+      "bytes": 8136
+    },
+    "ggaction.svg": {
+      "sha256": "119cb0fdd23840613b28addcb1b4d5bfe6ddb87c5c458100bef78bafbdcb7f8b",
+      "bytes": 4681
+    }
+  }
+}

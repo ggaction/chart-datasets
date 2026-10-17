@@ -1,0 +1,102 @@
+{
+  "id": "vl_0706",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f5c0857e31bbdd509cec70111c763e3b5a05d37874e2223450d966d10ce5e1ce",
+      "actions": 10,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e99881d846fb0e6ece826b45d10afb5ce6576109e5174f2c25a37ba5feb3f2f3",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "1b5df996da4c23dbce38880e34f4683c7ca2fd278a0f785ee57c255933c0bca7",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "027bc037bbcd8de880eecc5f6599df42b8ce4826c363849cf74ca9d14f595e67",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ef370e5ffc4cfa4bd0b9c132daedd1b464164b1fb5121f873d45c54c898d7257",
+      "actions": 14,
+      "topOptions": 35
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0c8b48556a888cb34160149a44f7bfecc55f204bd88cdc92b12179bcbed978e2",
+      "actions": 16,
+      "topOptions": 35
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/GI4.DataHub.GrowthInnovationOutputperHour.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full G6 and source reviewed. Line stroke/width dedicated encoders and monotone curve retained. Axis font sizes/offsets/tick lengths are protected layout; only source format uses focused editor. Title paint already in title editor; no further recommended meaningful boundary."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "64a86c7d6073fb9686d56c153b92262a57bf25ad7ea9795acf711148251c216b",
+      "bytes": 1015
+    },
+    "data.json": {
+      "sha256": "1857b50e38abc4ba4da07179584f9a1b8438bfa873125b1d6cf7446f72f59b3a",
+      "bytes": 14587
+    },
+    "resolved-source.vl.json": {
+      "sha256": "fb5bb92ed2d4866efe310c33dd3b82c5b805259de27300657f4930fd633f9518",
+      "bytes": 19545
+    },
+    "G1.gg.mjs": {
+      "sha256": "f5c0857e31bbdd509cec70111c763e3b5a05d37874e2223450d966d10ce5e1ce",
+      "bytes": 2207
+    },
+    "G2.gg.mjs": {
+      "sha256": "e99881d846fb0e6ece826b45d10afb5ce6576109e5174f2c25a37ba5feb3f2f3",
+      "bytes": 2165
+    },
+    "G3.gg.mjs": {
+      "sha256": "1b5df996da4c23dbce38880e34f4683c7ca2fd278a0f785ee57c255933c0bca7",
+      "bytes": 2057
+    },
+    "G4.gg.mjs": {
+      "sha256": "027bc037bbcd8de880eecc5f6599df42b8ce4826c363849cf74ca9d14f595e67",
+      "bytes": 2082
+    },
+    "G5.gg.mjs": {
+      "sha256": "ef370e5ffc4cfa4bd0b9c132daedd1b464164b1fb5121f873d45c54c898d7257",
+      "bytes": 2098
+    },
+    "G6.gg.mjs": {
+      "sha256": "0c8b48556a888cb34160149a44f7bfecc55f204bd88cdc92b12179bcbed978e2",
+      "bytes": 2140
+    },
+    "vega-lite.svg": {
+      "sha256": "a529ac3fbd84e214792d5995a30eadf93c600d82a1159ffad339163e7df1050b",
+      "bytes": 16113
+    },
+    "ggaction.svg": {
+      "sha256": "de50f2c8cf3c56576ba001d667c2ed4006af9b8ca3590dc0888a17e8b06e02cb",
+      "bytes": 28983
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "vl_0728",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "cac5afb0ec3ffdb971da97bdda923cb1d25ca6295a8d69787840e69c8ea9a4c8",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0ff8daa30a3c6a6a89d750738d23f6bb88932e938ae49bb7a7a365c4d7cf2c16",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "6586aee84f6a38a6f76efe4b887168786899cb44c843ad6009b0bb4812c1c220",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "61974da7c9a9d89a6331df98e0d1a03c81d2e47d394f980230d2fe757ca4031b",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4563413d3d1e152967b5d015e5d5dece80aa1308ecd75b2d5485aa273b755be7",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "79a83854afb46e5567214d9346e22c5110d2bddf6a62b91c9ffcd2be890a930e",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "44189c0757e1b9169e0359512018be7304e9cb40254216ec0980d16cae74106c",
+      "actions": 15,
+      "topOptions": 32
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/data_ONS-mgsx.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed full final code and all contiguous source/current-runtime/family verifications. Exact modelstop reviewed and concrete frontier independently empty; remaining protected construction geometry is irreducible; no absent default invented."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "0bdea026959f1e11089e21f0f6fb61d2fd264b273b5368731faf410e02203b11",
+      "bytes": 890
+    },
+    "data.json": {
+      "sha256": "5c854d790a9935aaeb3e440ec6643c16dd1f95a9c76b766c4d76991419b1324b",
+      "bytes": 10159
+    },
+    "resolved-source.vl.json": {
+      "sha256": "ea08a5067c2b12cf7209ac7efb2b5b1059f6276025c77f1c5b773d6c2f5e19f8",
+      "bytes": 13007
+    },
+    "G1.gg.mjs": {
+      "sha256": "cac5afb0ec3ffdb971da97bdda923cb1d25ca6295a8d69787840e69c8ea9a4c8",
+      "bytes": 1887
+    },
+    "G2.gg.mjs": {
+      "sha256": "0ff8daa30a3c6a6a89d750738d23f6bb88932e938ae49bb7a7a365c4d7cf2c16",
+      "bytes": 1889
+    },
+    "G3.gg.mjs": {
+      "sha256": "6586aee84f6a38a6f76efe4b887168786899cb44c843ad6009b0bb4812c1c220",
+      "bytes": 1849
+    },
+    "G4.gg.mjs": {
+      "sha256": "61974da7c9a9d89a6331df98e0d1a03c81d2e47d394f980230d2fe757ca4031b",
+      "bytes": 1869
+    },
+    "G5.gg.mjs": {
+      "sha256": "4563413d3d1e152967b5d015e5d5dece80aa1308ecd75b2d5485aa273b755be7",
+      "bytes": 1893
+    },
+    "G6.gg.mjs": {
+      "sha256": "79a83854afb46e5567214d9346e22c5110d2bddf6a62b91c9ffcd2be890a930e",
+      "bytes": 1947
+    },
+    "G7.gg.mjs": {
+      "sha256": "44189c0757e1b9169e0359512018be7304e9cb40254216ec0980d16cae74106c",
+      "bytes": 1947
+    },
+    "vega-lite.svg": {
+      "sha256": "a0bbdd43cee31038a2b082d6e720d7eb6fa62d133f47e59bd10d08901810230b",
+      "bytes": 6832
+    },
+    "ggaction.svg": {
+      "sha256": "9c012daec36b1f7b3c577b359f4cb38b57efb454ea51dbe9864deffc609e43ff",
+      "bytes": 5811
+    }
+  }
+}

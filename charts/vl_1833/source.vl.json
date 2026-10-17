@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {}
+  },
+  "title": {
+    "text": "Situação academica dos homens desde 2000.1",
+    "fontSize": 15
+  },
+  "width": 400,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/elasComputacao/raio-x-dados/main/data/dados-processados/situacao-academica-homens.json"
+  },
+  "transform": [
+    {
+      "calculate": "ceil (datum.id/10)",
+      "as": "row"
+    },
+    {
+      "calculate": "datum.id - datum.row*10",
+      "as": "col"
+    }
+  ],
+  "mark": {
+    "type": "point",
+    "filled": true
+  },
+  "encoding": {
+    "x": {
+      "field": "col",
+      "type": "ordinal"
+    },
+    "y": {
+      "field": "row",
+      "type": "ordinal"
+    },
+    "shape": {},
+    "color": {
+      "field": "tipo",
+      "type": "nominal",
+      "legend": {
+        "rowPadding": 5,
+        "symbolType": "circle"
+      },
+      "scale": {
+        "domain": [
+          "Evadido",
+          "Graduado",
+          "Regular",
+          "Reingresso"
+        ],
+        "scheme": "set2"
+      }
+    },
+    "size": {
+      "value": 90
+    }
+  }
+}

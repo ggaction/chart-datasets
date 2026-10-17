@@ -1,0 +1,111 @@
+{
+  "id": "vl_1146",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "2147ffe782546fed2929a11c801047c3aed877d6ec4da79825d59e54ecbf59b2",
+      "actions": 7,
+      "topOptions": 17
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "618cd27cc4267b5490aa7312f0efd29ee4556bd23428de891b45fdeb6bffc3f5",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "20f436d30c8714901645d8f7aa14a49f285291543e93cf2efec811052f2b4792",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "fbf0ebbc3829787a6aa5ce83922a6b42a272660086fa15965967390c78bffa1a",
+      "actions": 11,
+      "topOptions": 22
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "1e278b6c6921ea674649dd12c1c2477b24f6e5fdf65e955dbcf343411c8bbf9a",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "c9c4ad28d577a0862421b7fd793fa94ea0fcde3e963a80b27811f71720251e7e",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "2df960c9dde4abd85f6e565dfb9d179c7ca916db2cfe314c04235a08ed4363d3",
+      "actions": 16,
+      "topOptions": 32
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Seven meaningful stages retain the high-level grouped-bar scaffold, move positional/color scales, separate guides and complete axes, then pair whole-axis typography and focused label/title refinements. Original separate X/Y component plans were combined as one exact GLM-authored paired stage. All15 source bars, palette/order, no-grid state and original599x648 Canvas/500x500 plot pass; all seven SVG/PNG/graphics outputs are identical. Remaining axis font sizes/offsets/rotation/tick lengths protect valid intermediate layout; no absent/default styles are added to reach eight. Axis/legend default typography paint differs from Vega and is recorded in quality notes. No chart pixels viewed."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "16b1357f2970285a3ef738839c5e3dea4e112267b391d68da6a0997f34c011e3",
+      "bytes": 2302
+    },
+    "data.json": {
+      "sha256": "26cb66776e54f390393807e6bf79d194bc9301b41e04fa6dcf79803b78d5449f",
+      "bytes": 1261
+    },
+    "resolved-source.vl.json": {
+      "sha256": "16b1357f2970285a3ef738839c5e3dea4e112267b391d68da6a0997f34c011e3",
+      "bytes": 2302
+    },
+    "G1.gg.mjs": {
+      "sha256": "2147ffe782546fed2929a11c801047c3aed877d6ec4da79825d59e54ecbf59b2",
+      "bytes": 2376
+    },
+    "G2.gg.mjs": {
+      "sha256": "618cd27cc4267b5490aa7312f0efd29ee4556bd23428de891b45fdeb6bffc3f5",
+      "bytes": 2338
+    },
+    "G3.gg.mjs": {
+      "sha256": "20f436d30c8714901645d8f7aa14a49f285291543e93cf2efec811052f2b4792",
+      "bytes": 2339
+    },
+    "G4.gg.mjs": {
+      "sha256": "fbf0ebbc3829787a6aa5ce83922a6b42a272660086fa15965967390c78bffa1a",
+      "bytes": 2268
+    },
+    "G5.gg.mjs": {
+      "sha256": "1e278b6c6921ea674649dd12c1c2477b24f6e5fdf65e955dbcf343411c8bbf9a",
+      "bytes": 2196
+    },
+    "G6.gg.mjs": {
+      "sha256": "c9c4ad28d577a0862421b7fd793fa94ea0fcde3e963a80b27811f71720251e7e",
+      "bytes": 2382
+    },
+    "G7.gg.mjs": {
+      "sha256": "2df960c9dde4abd85f6e565dfb9d179c7ca916db2cfe314c04235a08ed4363d3",
+      "bytes": 2304
+    },
+    "vega-lite.svg": {
+      "sha256": "6f57f18514957e62ef22da3d26030908ac3fa42c8a64b3e32dbcebc75a2e452c",
+      "bytes": 14588
+    },
+    "ggaction.svg": {
+      "sha256": "ca0a46f3b26fd669ab229f822caa3b1b1ce20cf2ea2c1f2e107b885882dc3ba5",
+      "bytes": 10450
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "vl_1012",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d21ac96777d0cc957ee7b4df941434f990dac0f378b39511ade37fa32418b441",
+      "actions": 10,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "8bd148c5ca897206d3f0dd46b37533606a68cb46bc527c30975799f38aa3e08f",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "315be8f67e88989b8afef3175fa9f04214c529d3132a0a426ec7ae97ee27970b",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "d4eb0a8052be59db61c7f1fadf403c247d5772170fb5bf4ef9beca7bc3a55b8b",
+      "actions": 18,
+      "topOptions": 34
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "cb3a5d2d53ee88edecd3cf7b5c3ed1ff5f5c84c4554ca75f63611666031840f4",
+      "actions": 19,
+      "topOptions": 35
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/GeorgeRobbin/GeorgeRobbin.github.io/main/Data/Data_IMF_Outstanding.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full final reviewed code, all contiguous stages source/family/current-hash PASS. Read exact GLM stop record and independently exhausted concrete frontier; only protected construction geometry/source bindings remain, no invented native defaults."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "0f2143464c8a29188106d2c92f16d1ec61be2b6ddb39c5e59bd7cbad5a35aa30",
+      "bytes": 923
+    },
+    "data.json": {
+      "sha256": "0f0fe23174f214304293071ce894efedd60c82adf674baad218b7ba02b27a176",
+      "bytes": 7452
+    },
+    "resolved-source.vl.json": {
+      "sha256": "74c0612344c99649997195dcda6e9c7a71838b7f1178a7165e9db5a6c6b378b6",
+      "bytes": 9596
+    },
+    "G1.gg.mjs": {
+      "sha256": "d21ac96777d0cc957ee7b4df941434f990dac0f378b39511ade37fa32418b441",
+      "bytes": 2912
+    },
+    "G2.gg.mjs": {
+      "sha256": "8bd148c5ca897206d3f0dd46b37533606a68cb46bc527c30975799f38aa3e08f",
+      "bytes": 2923
+    },
+    "G3.gg.mjs": {
+      "sha256": "315be8f67e88989b8afef3175fa9f04214c529d3132a0a426ec7ae97ee27970b",
+      "bytes": 2885
+    },
+    "G4.gg.mjs": {
+      "sha256": "d4eb0a8052be59db61c7f1fadf403c247d5772170fb5bf4ef9beca7bc3a55b8b",
+      "bytes": 3004
+    },
+    "G5.gg.mjs": {
+      "sha256": "cb3a5d2d53ee88edecd3cf7b5c3ed1ff5f5c84c4554ca75f63611666031840f4",
+      "bytes": 3039
+    },
+    "vega-lite.svg": {
+      "sha256": "51f3e53bf80f182223d26ab197ffcfdf090d602cd28034f88cafc49ff3669c74",
+      "bytes": 16092
+    },
+    "ggaction.svg": {
+      "sha256": "ba147a8ce465817535806d2bea8b7629be88c277645fff6cd7cf2a90e068e2c4",
+      "bytes": 13671
+    }
+  }
+}

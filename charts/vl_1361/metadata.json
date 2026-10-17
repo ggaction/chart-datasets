@@ -1,0 +1,113 @@
+{
+  "id": "vl_1361",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "94a184538fff8a17eab42b19b40249ef5b62696250fd1be1914a03782c8d3595",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5761c05186015e109a774681c470cbbc1126291da8b6f08dd346490b056c269b",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "37089141e2f11d4e7c6616dc4e4d1bcefb77bf9f5bfd6e67b553c52f7b05f30c",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1397a5f918a261e9207c9525ca8a87d019325a8347c5d417285b3f0d609255bf",
+      "actions": 21,
+      "topOptions": 44
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "fdd2ca05d2520c4419340271e97333fedc3d58cfce1c73b78eaaf54f7a81fb76",
+      "actions": 23,
+      "topOptions": 44
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "a027f5fbf88b2a7c4d1fed8eb60417ce37a2c1945a4bbf1415c1600f6fda14fb",
+      "actions": 23,
+      "topOptions": 46
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ea657d5dcf1a2b79261f6265a3a5cc62fe537e5e66a7f2acccd031e86337fc7a",
+      "actions": 24,
+      "topOptions": 46
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/pkd2512/onion/998917fd760a8953801a91d6b3e603c6c25531e9/data/onion_q.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reread the complete frozen source and final G7 program. The source-bound grid-direction extraction is now retained as a genuine seventh level, every current source/native/family check passes, and no mandatory public ownership boundary remains. Area opacity remains on its public mark because encodeOpacity does not support area; native defaults and reverse axis consolidation are not additional meaningful levels. This is a zero-response host stop with all historical model responses and costs preserved."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "0e629d97989d723d41711e69b8c552b203223fc9152a16445a531c45971cd9b9",
+      "bytes": 775
+    },
+    "data.json": {
+      "sha256": "72cbc79b285dd544b2a2aee53c5943644db2b43b86c578f8e28a653be7bbaf4f",
+      "bytes": 2605870
+    },
+    "resolved-source.vl.json": {
+      "sha256": "ccd7c493db2421c9b7468e7ae9bf1b7f5687d9b157d790ce4d9d62fb4feef8ca",
+      "bytes": 3096312
+    },
+    "G1.gg.mjs": {
+      "sha256": "94a184538fff8a17eab42b19b40249ef5b62696250fd1be1914a03782c8d3595",
+      "bytes": 2906
+    },
+    "G2.gg.mjs": {
+      "sha256": "5761c05186015e109a774681c470cbbc1126291da8b6f08dd346490b056c269b",
+      "bytes": 2948
+    },
+    "G3.gg.mjs": {
+      "sha256": "37089141e2f11d4e7c6616dc4e4d1bcefb77bf9f5bfd6e67b553c52f7b05f30c",
+      "bytes": 3074
+    },
+    "G4.gg.mjs": {
+      "sha256": "1397a5f918a261e9207c9525ca8a87d019325a8347c5d417285b3f0d609255bf",
+      "bytes": 3108
+    },
+    "G5.gg.mjs": {
+      "sha256": "fdd2ca05d2520c4419340271e97333fedc3d58cfce1c73b78eaaf54f7a81fb76",
+      "bytes": 3094
+    },
+    "G6.gg.mjs": {
+      "sha256": "a027f5fbf88b2a7c4d1fed8eb60417ce37a2c1945a4bbf1415c1600f6fda14fb",
+      "bytes": 3094
+    },
+    "G7.gg.mjs": {
+      "sha256": "ea657d5dcf1a2b79261f6265a3a5cc62fe537e5e66a7f2acccd031e86337fc7a",
+      "bytes": 3102
+    },
+    "vega-lite.svg": {
+      "sha256": "c09cee1baa430ec7fcee97514f5ff6805b4128bf31fa0bedbcb66630bdbd1c71",
+      "bytes": 31691
+    },
+    "ggaction.svg": {
+      "sha256": "3fa3f7f2aa297e0f3a34d0a37d433f8395f204ba9008f2c0e55d97069ec2d079",
+      "bytes": 49361
+    }
+  }
+}

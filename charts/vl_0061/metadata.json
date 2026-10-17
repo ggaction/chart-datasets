@@ -1,0 +1,124 @@
+{
+  "id": "vl_0061",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1a84e1ac82a910ffa54ad16b5bd47ce9f51c30d731d1fb3a11f7372090253f8a",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f1e03db7552f7c1d58c73963b7d42a815fe6c36358d0becaa685afab98c20e2e",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "f9032be838f58cfea85575389e0cbe1b554f49d054a59ae10410d28c8517b79b",
+      "actions": 16,
+      "topOptions": 39
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e148d83a9f8ae7a78c7d3988619837d0332a7203385658bfe574afc7dcf4d200",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "2e84b02ba654421136b598aebc2bb99ae05176ec097d19ea9e952c680425ab33",
+      "actions": 18,
+      "topOptions": 44
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "89e5b3555414f61711f43ec65a93dd6280bc322e5f5a58df5e8fd08dc3cdc08c",
+      "actions": 20,
+      "topOptions": 48
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "c786efa65b3383993843f45b43292bf5ef3b30585e00e0e58d62436c36e6339f",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "872711a9e6c1382a6a78183559ade482449c4ae22d82ccb8f0324ef3bd6f1c4b",
+      "actions": 24,
+      "topOptions": 50
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/vega/vega/master/docs/data/gapminder-health-income.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex rechecked immutable prior terminal, every current source/runtime-verified model-authored program, original stage profile, current ownership diagnostics and source-bound display/layout correction evidence; original model stop/usage retained without a new model call."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "96e59711d46a4d730ccd2af867ad81080879f67ef6cfcaccc42d857e54eec231",
+      "bytes": 924
+    },
+    "data.json": {
+      "sha256": "ac371873acf1fd4335964f407675751b545c44f4da8b00614a23de3e6246063e",
+      "bytes": 26886
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8ca7110cad540e1f8a6cd05bc75c2b7d9dbb4a2178b201a8f2a81d11c138fba3",
+      "bytes": 32963
+    },
+    "G1.gg.mjs": {
+      "sha256": "1a84e1ac82a910ffa54ad16b5bd47ce9f51c30d731d1fb3a11f7372090253f8a",
+      "bytes": 2594
+    },
+    "G2.gg.mjs": {
+      "sha256": "f1e03db7552f7c1d58c73963b7d42a815fe6c36358d0becaa685afab98c20e2e",
+      "bytes": 2596
+    },
+    "G3.gg.mjs": {
+      "sha256": "f9032be838f58cfea85575389e0cbe1b554f49d054a59ae10410d28c8517b79b",
+      "bytes": 2546
+    },
+    "G4.gg.mjs": {
+      "sha256": "e148d83a9f8ae7a78c7d3988619837d0332a7203385658bfe574afc7dcf4d200",
+      "bytes": 2552
+    },
+    "G5.gg.mjs": {
+      "sha256": "2e84b02ba654421136b598aebc2bb99ae05176ec097d19ea9e952c680425ab33",
+      "bytes": 2512
+    },
+    "G6.gg.mjs": {
+      "sha256": "89e5b3555414f61711f43ec65a93dd6280bc322e5f5a58df5e8fd08dc3cdc08c",
+      "bytes": 2554
+    },
+    "G7.gg.mjs": {
+      "sha256": "c786efa65b3383993843f45b43292bf5ef3b30585e00e0e58d62436c36e6339f",
+      "bytes": 2602
+    },
+    "G8.gg.mjs": {
+      "sha256": "872711a9e6c1382a6a78183559ade482449c4ae22d82ccb8f0324ef3bd6f1c4b",
+      "bytes": 2616
+    },
+    "vega-lite.svg": {
+      "sha256": "5334760bc7c566aa9d613448c29cc3039d3fec3c336d70690b99a3326ae5ba5a",
+      "bytes": 78378
+    },
+    "ggaction.svg": {
+      "sha256": "78577eca3e17db9f4b879199f0f66c95a27efb2d64f3b645280f444fe9ca7808",
+      "bytes": 28867
+    }
+  }
+}

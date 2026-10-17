@@ -1,0 +1,124 @@
+{
+  "id": "vl_1701",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f2d1a6fbb6875a673183cb44efaeccb619d02e7200ea5a80bac7c854b7c99b9c",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b8351df55c99e1fc7141eecdf2117b678ccfd53e6d20dc4856f3ba2a8c50114b",
+      "actions": 16,
+      "topOptions": 40
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ebbda611c35208729e7605b3e27071322af00a362763e3aac9fa4eb3415e5d08",
+      "actions": 19,
+      "topOptions": 43
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "54b012d1107549f8600ea1d929d6465581f0339f6f502ac88a11a422f3d72fad",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "57ba121e09c6d2be641c6a105c28ae5648e71d65f6fe0a1d1d081d67033f32c1",
+      "actions": 21,
+      "topOptions": 45
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3cfe14d292d30a27e4b7a98c07f0006d0e2ba9c418838ebdb713c581f8eb0478",
+      "actions": 23,
+      "topOptions": 51
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "57ab6a6db726b95ac61eb784a207d09cf6f60ab7c2a49d922dd2a6ebdf935724",
+      "actions": 25,
+      "topOptions": 51
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "2a6c4e64f89eb6d17eeb24d425e36982aa1b91a276882341407413b364a9f65b",
+      "actions": 27,
+      "topOptions": 53
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/seattle-weather.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; remaining frontier is disclosed under the authorized8-stage cap; exhaustive lowest-level decomposition is NOT claimed. 8 genuine ownership stages, 411 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Authorized eight-stage cap reached."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "3c3d1a06dcd7da030718be6f797adeb629fca67ebbdcc3757a140eeac4572e8e",
+      "bytes": 1294
+    },
+    "data.json": {
+      "sha256": "ab3753bf8cd9bfe866822a3b89bb80e9621393d58384b5134ad45e8f50a03c92",
+      "bytes": 220570
+    },
+    "resolved-source.vl.json": {
+      "sha256": "b05b20a816aa23631be7124f71978aee9718098d2b2a5c3054d0081e9173c624",
+      "bytes": 268635
+    },
+    "G1.gg.mjs": {
+      "sha256": "f2d1a6fbb6875a673183cb44efaeccb619d02e7200ea5a80bac7c854b7c99b9c",
+      "bytes": 3152
+    },
+    "G2.gg.mjs": {
+      "sha256": "b8351df55c99e1fc7141eecdf2117b678ccfd53e6d20dc4856f3ba2a8c50114b",
+      "bytes": 3072
+    },
+    "G3.gg.mjs": {
+      "sha256": "ebbda611c35208729e7605b3e27071322af00a362763e3aac9fa4eb3415e5d08",
+      "bytes": 3200
+    },
+    "G4.gg.mjs": {
+      "sha256": "54b012d1107549f8600ea1d929d6465581f0339f6f502ac88a11a422f3d72fad",
+      "bytes": 3248
+    },
+    "G5.gg.mjs": {
+      "sha256": "57ba121e09c6d2be641c6a105c28ae5648e71d65f6fe0a1d1d081d67033f32c1",
+      "bytes": 3254
+    },
+    "G6.gg.mjs": {
+      "sha256": "3cfe14d292d30a27e4b7a98c07f0006d0e2ba9c418838ebdb713c581f8eb0478",
+      "bytes": 3400
+    },
+    "G7.gg.mjs": {
+      "sha256": "57ab6a6db726b95ac61eb784a207d09cf6f60ab7c2a49d922dd2a6ebdf935724",
+      "bytes": 3426
+    },
+    "G8.gg.mjs": {
+      "sha256": "2a6c4e64f89eb6d17eeb24d425e36982aa1b91a276882341407413b364a9f65b",
+      "bytes": 3440
+    },
+    "vega-lite.svg": {
+      "sha256": "7e16cf34f95d5d9b0708a9eb135aa8ad237fe1bc940b735f1df312f26ef95339",
+      "bytes": 452777
+    },
+    "ggaction.svg": {
+      "sha256": "b9ee0780eca42d2b067e5d8bdf8544d8b6d6c723efa081505c3a25ee2830d330",
+      "bytes": 254668
+    }
+  }
+}

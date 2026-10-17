@@ -1,0 +1,113 @@
+{
+  "id": "vl_1768",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "be71cd152ad26e81efd8d780b2ebe1629c3c042a50812463bddd6bb9d0019edd",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2e1492d2adee37ab6f6a0b257b69015c1b71d0c0cd590c78341bc88b8dc64658",
+      "actions": 14,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2ec4645acd9b7df75c50e52f886c18535cb69639a64801b9ba38fd6ec9c5977b",
+      "actions": 16,
+      "topOptions": 40
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "cf95b73e652ee12c5a82d8561200128841ec0b5aa0dc618624913d99eda2e824",
+      "actions": 20,
+      "topOptions": 44
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "2787bf1b4b9d9a62f7319703e765ac3eec6808413bfeb209fde07c335cf8e919",
+      "actions": 20,
+      "topOptions": 44
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8764799d1e395792633792f358340533c9a742d324571d98c16eb30f23c69e2b",
+      "actions": 22,
+      "topOptions": 46
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "42afc67d87773babc8322fcf1f7137bab78f8d8b19bb87954211a044d75cfc13",
+      "actions": 24,
+      "topOptions": 47
+    }
+  ],
+  "sourceUrls": [
+    "https://gicentre.github.io/data/tests/timeTest.tsv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full original month-mean source and exact finalG7 reread. All26265raw rows retained, native month/year canonicalleapyear lowering and all12means/sourceJan-Dec labels/scales/0.2linewidth/fonts/800x200innerplot exact. Pairedgrid paint then pairedticks/labels action boundary are meaningful; complete source labelMaps and geometry retained. All mandatory frontier exhausted after7stages; no default-only padding or forced8th. Host model:null/no newmodelresponse, retained rawhistory/allusage intact."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8a5dc40a982323ffa19dfddc00d5949e9afbfb9d4ac115beb5d044d66d77b974",
+      "bytes": 488
+    },
+    "data.json": {
+      "sha256": "1ae3e91972addcbdba23e94c13e30fce6708b402efe315403b1ed8b2d23ffd02",
+      "bytes": 1838553
+    },
+    "resolved-source.vl.json": {
+      "sha256": "c9bf4fcaf88332f815e566db7fbef3e380cdff013f3adbe870c225917717be0f",
+      "bytes": 2259307
+    },
+    "G1.gg.mjs": {
+      "sha256": "be71cd152ad26e81efd8d780b2ebe1629c3c042a50812463bddd6bb9d0019edd",
+      "bytes": 3821
+    },
+    "G2.gg.mjs": {
+      "sha256": "2e1492d2adee37ab6f6a0b257b69015c1b71d0c0cd590c78341bc88b8dc64658",
+      "bytes": 3743
+    },
+    "G3.gg.mjs": {
+      "sha256": "2ec4645acd9b7df75c50e52f886c18535cb69639a64801b9ba38fd6ec9c5977b",
+      "bytes": 3955
+    },
+    "G4.gg.mjs": {
+      "sha256": "cf95b73e652ee12c5a82d8561200128841ec0b5aa0dc618624913d99eda2e824",
+      "bytes": 3925
+    },
+    "G5.gg.mjs": {
+      "sha256": "2787bf1b4b9d9a62f7319703e765ac3eec6808413bfeb209fde07c335cf8e919",
+      "bytes": 3924
+    },
+    "G6.gg.mjs": {
+      "sha256": "8764799d1e395792633792f358340533c9a742d324571d98c16eb30f23c69e2b",
+      "bytes": 3978
+    },
+    "G7.gg.mjs": {
+      "sha256": "42afc67d87773babc8322fcf1f7137bab78f8d8b19bb87954211a044d75cfc13",
+      "bytes": 3900
+    },
+    "vega-lite.svg": {
+      "sha256": "c1b1f3865c3fdc090a3270a743094ece4872b30a5c856ea77c0488a812e5da3f",
+      "bytes": 9545
+    },
+    "ggaction.svg": {
+      "sha256": "6fb92593a23bc7033565167897dbb5bb841bbcaa2662216100e85625a8b1912f",
+      "bytes": 8904
+    }
+  }
+}

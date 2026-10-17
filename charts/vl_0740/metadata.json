@@ -1,0 +1,89 @@
+{
+  "id": "vl_0740",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9dffa2a2ce734b0bbab8f650ac81f333886872c6aa1fb82d20ef3b2e1c73dff9",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "dd0e2619290e4056289529ac3ff8ff0ae61c21bcdc6c3f82425dbcd8cfe2919d",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "c69b47a7622072f5d88bbf818117c7308c12f930ad3b3ece5853e10896079699",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0208f63bb4d00638ad5ef0e7e8aabf333fc08b980645950e5d1789a4984c931e",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "a739abfb36e630c3d8270e8f5fbeda4c5cfee67ebeca5026e2206786cb9e7fe9",
+      "actions": 15,
+      "topOptions": 32
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Five distinct source-checked stages retain exact9cell palettes, transparent background, hidden labels/ticks and source axis titles. Color scale policy and complete axes progress to focused line/title style editors. Only required hidden-guide structure, title text/fontSize/offset, settled rect appearance and positional domains remain; no artificial sixth stage."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "93b72b17b55caf490ec1c5d7789aae4c1078c95bceb815842107e2fca6ec82c0",
+      "bytes": 2657
+    },
+    "data.json": {
+      "sha256": "cf84d097184b0c3df8f9dcb553b693a0ad6a88be63a01e847ceb47cf47c88e6b",
+      "bytes": 1239
+    },
+    "resolved-source.vl.json": {
+      "sha256": "93b72b17b55caf490ec1c5d7789aae4c1078c95bceb815842107e2fca6ec82c0",
+      "bytes": 2657
+    },
+    "G1.gg.mjs": {
+      "sha256": "9dffa2a2ce734b0bbab8f650ac81f333886872c6aa1fb82d20ef3b2e1c73dff9",
+      "bytes": 1927
+    },
+    "G2.gg.mjs": {
+      "sha256": "dd0e2619290e4056289529ac3ff8ff0ae61c21bcdc6c3f82425dbcd8cfe2919d",
+      "bytes": 1904
+    },
+    "G3.gg.mjs": {
+      "sha256": "c69b47a7622072f5d88bbf818117c7308c12f930ad3b3ece5853e10896079699",
+      "bytes": 1740
+    },
+    "G4.gg.mjs": {
+      "sha256": "0208f63bb4d00638ad5ef0e7e8aabf333fc08b980645950e5d1789a4984c931e",
+      "bytes": 1747
+    },
+    "G5.gg.mjs": {
+      "sha256": "a739abfb36e630c3d8270e8f5fbeda4c5cfee67ebeca5026e2206786cb9e7fe9",
+      "bytes": 1754
+    },
+    "vega-lite.svg": {
+      "sha256": "b0688ec5722bbebaf19207c7140929a055e5b542114b8aeb9fb1bec02982713e",
+      "bytes": 4759
+    },
+    "ggaction.svg": {
+      "sha256": "50d4b3d3691065afbe57ec773ae084252ea867edb3cbafaa79b9b6e42c13fbb3",
+      "bytes": 2254
+    }
+  }
+}

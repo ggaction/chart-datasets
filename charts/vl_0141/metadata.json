@@ -1,0 +1,91 @@
+{
+  "id": "vl_0141",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "283530bc25904fa770a61ab6d29ab3b65cc7c29f1a471bf1a492c730151dc01d",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9d890e31011b6456208734fba7dbb67d67f51732f1703ad494b3c59886afee81",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8820e51c0306aedf9f655b44894d53d2a8666a329aef8d35ffcf3d2acf1f6025",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "df269c0dfda2dea8910911bad292dd952454c985c33a8a633b9dd9bb01b65aa0",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "3c35878633cf490995f99fcf3187d14df35a1710686c200f235cab6a377492f9",
+      "actions": 19,
+      "topOptions": 36
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/nl4dv/nl4dv/master/examples/assets/data/euro.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full source/G1 and every accepted exactdiff reviewed; current focused grid and paired line/tick/title owners exhaust concrete mandatory frontier (zero). Remaining source font sizes/rotated labels/offsets/tick selections stay complete-axis creation. G5 currentpin all verification and exact family SVG/PNG pass. Stop at5 honestly, no default-padding stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "ebdbb44cf588525804ee4bbc126fd921ee34e4719906ab17938c0e319d6c59da",
+      "bytes": 633
+    },
+    "data.json": {
+      "sha256": "f75515091cd1dc1bec30b2d0088ee21e70534516c0622decf957b33acf63f5e0",
+      "bytes": 111773
+    },
+    "resolved-source.vl.json": {
+      "sha256": "6dcd63daca58e1964876d9871021e8d83cab43d26a244de3377cc5bb4028d1db",
+      "bytes": 134442
+    },
+    "G1.gg.mjs": {
+      "sha256": "283530bc25904fa770a61ab6d29ab3b65cc7c29f1a471bf1a492c730151dc01d",
+      "bytes": 2574
+    },
+    "G2.gg.mjs": {
+      "sha256": "9d890e31011b6456208734fba7dbb67d67f51732f1703ad494b3c59886afee81",
+      "bytes": 2534
+    },
+    "G3.gg.mjs": {
+      "sha256": "8820e51c0306aedf9f655b44894d53d2a8666a329aef8d35ffcf3d2acf1f6025",
+      "bytes": 2564
+    },
+    "G4.gg.mjs": {
+      "sha256": "df269c0dfda2dea8910911bad292dd952454c985c33a8a633b9dd9bb01b65aa0",
+      "bytes": 2750
+    },
+    "G5.gg.mjs": {
+      "sha256": "3c35878633cf490995f99fcf3187d14df35a1710686c200f235cab6a377492f9",
+      "bytes": 2706
+    },
+    "vega-lite.svg": {
+      "sha256": "996c478fef5951778eacb7bcd856552c026e23e626e7ac0928dc1e2461a5dd99",
+      "bytes": 15146
+    },
+    "ggaction.svg": {
+      "sha256": "0de203f1af304b76dda914a408c627d397491dd9e0ec854312b22cf7ffa4dba2",
+      "bytes": 12548
+    }
+  }
+}

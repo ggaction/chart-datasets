@@ -1,0 +1,1185 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "": "0",
+        "Unnamed: 0": "2",
+        "Country": "Afghanistan",
+        "GDP per capita, PPP (constant 2017 international $)": "2065.036235",
+        "Code": "AFG",
+        "Primary energy consumption per capita (kWh/person)": "945.6453857",
+        "Region": "South Asia"
+      },
+      {
+        "": "1",
+        "Unnamed: 0": "4",
+        "Country": "Angola",
+        "GDP per capita, PPP (constant 2017 international $)": "6712.021615",
+        "Code": "AGO",
+        "Primary energy consumption per capita (kWh/person)": "3429.592773",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "2",
+        "Unnamed: 0": "5",
+        "Country": "Albania",
+        "GDP per capita, PPP (constant 2017 international $)": "13653.20157",
+        "Code": "ALB",
+        "Primary energy consumption per capita (kWh/person)": "11266.25781",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "3",
+        "Unnamed: 0": "9",
+        "Country": "Argentina",
+        "GDP per capita, PPP (constant 2017 international $)": "22066.10101",
+        "Code": "ARG",
+        "Primary energy consumption per capita (kWh/person)": "20785.91406",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "4",
+        "Unnamed: 0": "10",
+        "Country": "Armenia",
+        "GDP per capita, PPP (constant 2017 international $)": "13653.76338",
+        "Code": "ARM",
+        "Primary energy consumption per capita (kWh/person)": "15538.20117",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "5",
+        "Unnamed: 0": "12",
+        "Country": "Antigua and Barbuda",
+        "GDP per capita, PPP (constant 2017 international $)": "21850.13341",
+        "Code": "ATG",
+        "Primary energy consumption per capita (kWh/person)": "31384.86328",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "6",
+        "Unnamed: 0": "15",
+        "Country": "Azerbaijan",
+        "GDP per capita, PPP (constant 2017 international $)": "14442.04087",
+        "Code": "AZE",
+        "Primary energy consumption per capita (kWh/person)": "17979.77148",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "7",
+        "Unnamed: 0": "16",
+        "Country": "Burundi",
+        "GDP per capita, PPP (constant 2017 international $)": "751.4434047",
+        "Code": "BDI",
+        "Primary energy consumption per capita (kWh/person)": "318.7487488",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "8",
+        "Unnamed: 0": "18",
+        "Country": "Benin",
+        "GDP per capita, PPP (constant 2017 international $)": "3287.309538",
+        "Code": "BEN",
+        "Primary energy consumption per capita (kWh/person)": "2482.886475",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "9",
+        "Unnamed: 0": "19",
+        "Country": "Burkina Faso",
+        "GDP per capita, PPP (constant 2017 international $)": "2175.50468",
+        "Code": "BFA",
+        "Primary energy consumption per capita (kWh/person)": "946.6964722",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "10",
+        "Unnamed: 0": "20",
+        "Country": "Bangladesh",
+        "GDP per capita, PPP (constant 2017 international $)": "5550.032778",
+        "Code": "BGD",
+        "Primary energy consumption per capita (kWh/person)": "2775.810303",
+        "Region": "South Asia"
+      },
+      {
+        "": "11",
+        "Unnamed: 0": "21",
+        "Country": "Bulgaria",
+        "GDP per capita, PPP (constant 2017 international $)": "23265.87692",
+        "Code": "BGR",
+        "Primary energy consumption per capita (kWh/person)": "30017.48633",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "12",
+        "Unnamed: 0": "24",
+        "Country": "Bosnia and Herzegovina",
+        "GDP per capita, PPP (constant 2017 international $)": "14896.79651",
+        "Code": "BIH",
+        "Primary energy consumption per capita (kWh/person)": "21068.46484",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "13",
+        "Unnamed: 0": "25",
+        "Country": "Belarus",
+        "GDP per capita, PPP (constant 2017 international $)": "19279.20925",
+        "Code": "BLR",
+        "Primary energy consumption per capita (kWh/person)": "32671.71484",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "14",
+        "Unnamed: 0": "26",
+        "Country": "Belize",
+        "GDP per capita, PPP (constant 2017 international $)": "7152.657414",
+        "Code": "BLZ",
+        "Primary energy consumption per capita (kWh/person)": "9246.844727",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "15",
+        "Unnamed: 0": "28",
+        "Country": "Bolivia",
+        "GDP per capita, PPP (constant 2017 international $)": "8724.474187",
+        "Code": "BOL",
+        "Primary energy consumption per capita (kWh/person)": "7940.383301",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "16",
+        "Unnamed: 0": "29",
+        "Country": "Brazil",
+        "GDP per capita, PPP (constant 2017 international $)": "14736.15606",
+        "Code": "BRA",
+        "Primary energy consumption per capita (kWh/person)": "16525.10938",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "17",
+        "Unnamed: 0": "30",
+        "Country": "Barbados",
+        "GDP per capita, PPP (constant 2017 international $)": "15499.80821",
+        "Code": "BRB",
+        "Primary energy consumption per capita (kWh/person)": "24536.79297",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "18",
+        "Unnamed: 0": "32",
+        "Country": "Bhutan",
+        "GDP per capita, PPP (constant 2017 international $)": "11864.76625",
+        "Code": "BTN",
+        "Primary energy consumption per capita (kWh/person)": "29338.07617",
+        "Region": "South Asia"
+      },
+      {
+        "": "19",
+        "Unnamed: 0": "33",
+        "Country": "Botswana",
+        "GDP per capita, PPP (constant 2017 international $)": "16404.44491",
+        "Code": "BWA",
+        "Primary energy consumption per capita (kWh/person)": "9992.323242",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "20",
+        "Unnamed: 0": "34",
+        "Country": "Central African Republic",
+        "GDP per capita, PPP (constant 2017 international $)": "946.0596566",
+        "Code": "CAF",
+        "Primary energy consumption per capita (kWh/person)": "328.4351196",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "21",
+        "Unnamed: 0": "39",
+        "Country": "Chile",
+        "GDP per capita, PPP (constant 2017 international $)": "24931.12188",
+        "Code": "CHL",
+        "Primary energy consumption per capita (kWh/person)": "25430.22656",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "22",
+        "Unnamed: 0": "40",
+        "Country": "China",
+        "GDP per capita, PPP (constant 2017 international $)": "15977.76383",
+        "Code": "CHN",
+        "Primary energy consumption per capita (kWh/person)": "27883.20898",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "23",
+        "Unnamed: 0": "41",
+        "Country": "Cote d'Ivoire",
+        "GDP per capita, PPP (constant 2017 international $)": "5212.554021",
+        "Code": "CIV",
+        "Primary energy consumption per capita (kWh/person)": "2410.60791",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "24",
+        "Unnamed: 0": "42",
+        "Country": "Cameroon",
+        "GDP per capita, PPP (constant 2017 international $)": "3742.856779",
+        "Code": "CMR",
+        "Primary energy consumption per capita (kWh/person)": "1814.028931",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "25",
+        "Unnamed: 0": "45",
+        "Country": "Colombia",
+        "GDP per capita, PPP (constant 2017 international $)": "14571.99095",
+        "Code": "COL",
+        "Primary energy consumption per capita (kWh/person)": "10647.37402",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "26",
+        "Unnamed: 0": "46",
+        "Country": "Comoros",
+        "GDP per capita, PPP (constant 2017 international $)": "3058.980105",
+        "Code": "COM",
+        "Primary energy consumption per capita (kWh/person)": "1567.063477",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "27",
+        "Unnamed: 0": "48",
+        "Country": "Costa Rica",
+        "GDP per capita, PPP (constant 2017 international $)": "20970.54415",
+        "Code": "CRI",
+        "Primary energy consumption per capita (kWh/person)": "13158.58984",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "28",
+        "Unnamed: 0": "56",
+        "Country": "Djibouti",
+        "GDP per capita, PPP (constant 2017 international $)": "5260.015344",
+        "Code": "DJI",
+        "Primary energy consumption per capita (kWh/person)": "2598.322998",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "29",
+        "Unnamed: 0": "57",
+        "Country": "Dominica",
+        "GDP per capita, PPP (constant 2017 international $)": "12329.82527",
+        "Code": "DMA",
+        "Primary energy consumption per capita (kWh/person)": "10994.0791",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "30",
+        "Unnamed: 0": "59",
+        "Country": "Dominican Republic",
+        "GDP per capita, PPP (constant 2017 international $)": "18412.89999",
+        "Code": "DOM",
+        "Primary energy consumption per capita (kWh/person)": "11434.63477",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "31",
+        "Unnamed: 0": "60",
+        "Country": "Algeria",
+        "GDP per capita, PPP (constant 2017 international $)": "11521.98421",
+        "Code": "DZA",
+        "Primary energy consumption per capita (kWh/person)": "16140.19629",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "32",
+        "Unnamed: 0": "66",
+        "Country": "Ecuador",
+        "GDP per capita, PPP (constant 2017 international $)": "11370.6033",
+        "Code": "ECU",
+        "Primary energy consumption per capita (kWh/person)": "12162.4834",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "33",
+        "Unnamed: 0": "72",
+        "Country": "Ethiopia",
+        "GDP per capita, PPP (constant 2017 international $)": "2221.404665",
+        "Code": "ETH",
+        "Primary energy consumption per capita (kWh/person)": "943.6289673",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "34",
+        "Unnamed: 0": "76",
+        "Country": "Fiji",
+        "GDP per capita, PPP (constant 2017 international $)": "13684.29169",
+        "Code": "FJI",
+        "Primary energy consumption per capita (kWh/person)": "9642.426758",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "35",
+        "Unnamed: 0": "80",
+        "Country": "Gabon",
+        "GDP per capita, PPP (constant 2017 international $)": "14945.85929",
+        "Code": "GAB",
+        "Primary energy consumption per capita (kWh/person)": "7848.57666",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "36",
+        "Unnamed: 0": "82",
+        "Country": "Georgia",
+        "GDP per capita, PPP (constant 2017 international $)": "14989.25816",
+        "Code": "GEO",
+        "Primary energy consumption per capita (kWh/person)": "18547.29688",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "37",
+        "Unnamed: 0": "83",
+        "Country": "Ghana",
+        "GDP per capita, PPP (constant 2017 international $)": "5540.045627",
+        "Code": "GHA",
+        "Primary energy consumption per capita (kWh/person)": "3294.342529",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "38",
+        "Unnamed: 0": "85",
+        "Country": "Guinea",
+        "GDP per capita, PPP (constant 2017 international $)": "2566.322989",
+        "Code": "GIN",
+        "Primary energy consumption per capita (kWh/person)": "1211.761719",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "39",
+        "Unnamed: 0": "87",
+        "Country": "Guinea-Bissau",
+        "GDP per capita, PPP (constant 2017 international $)": "1939.28951",
+        "Code": "GNB",
+        "Primary energy consumption per capita (kWh/person)": "721.2616577",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "40",
+        "Unnamed: 0": "88",
+        "Country": "Equatorial Guinea",
+        "GDP per capita, PPP (constant 2017 international $)": "18600.39178",
+        "Code": "GNQ",
+        "Primary energy consumption per capita (kWh/person)": "16879.89844",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "41",
+        "Unnamed: 0": "89",
+        "Country": "Greece",
+        "GDP per capita, PPP (constant 2017 international $)": "29698.03048",
+        "Code": "GRC",
+        "Primary energy consumption per capita (kWh/person)": "29698.73828",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "42",
+        "Unnamed: 0": "90",
+        "Country": "Grenada",
+        "GDP per capita, PPP (constant 2017 international $)": "16867.57213",
+        "Code": "GRD",
+        "Primary energy consumption per capita (kWh/person)": "11660.63379",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "43",
+        "Unnamed: 0": "92",
+        "Country": "Guatemala",
+        "GDP per capita, PPP (constant 2017 international $)": "8653.308195",
+        "Code": "GTM",
+        "Primary energy consumption per capita (kWh/person)": "5688.776855",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "44",
+        "Unnamed: 0": "94",
+        "Country": "Guyana",
+        "GDP per capita, PPP (constant 2017 international $)": "13082.18148",
+        "Code": "GUY",
+        "Primary energy consumption per capita (kWh/person)": "14245.79785",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "45",
+        "Unnamed: 0": "97",
+        "Country": "Honduras",
+        "GDP per capita, PPP (constant 2017 international $)": "5736.181633",
+        "Code": "HND",
+        "Primary energy consumption per capita (kWh/person)": "5802.885254",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "46",
+        "Unnamed: 0": "99",
+        "Country": "Croatia",
+        "GDP per capita, PPP (constant 2017 international $)": "29336.08545",
+        "Code": "HRV",
+        "Primary energy consumption per capita (kWh/person)": "23197.64648",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "47",
+        "Unnamed: 0": "100",
+        "Country": "Haiti",
+        "GDP per capita, PPP (constant 2017 international $)": "3073.32914",
+        "Code": "HTI",
+        "Primary energy consumption per capita (kWh/person)": "1163.586426",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "48",
+        "Unnamed: 0": "106",
+        "Country": "Indonesia",
+        "GDP per capita, PPP (constant 2017 international $)": "11812.10243",
+        "Code": "IDN",
+        "Primary energy consumption per capita (kWh/person)": "8977.151367",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "49",
+        "Unnamed: 0": "109",
+        "Country": "India",
+        "GDP per capita, PPP (constant 2017 international $)": "6689.365354",
+        "Code": "IND",
+        "Primary energy consumption per capita (kWh/person)": "6941.969727",
+        "Region": "South Asia"
+      },
+      {
+        "": "50",
+        "Unnamed: 0": "113",
+        "Country": "Iraq",
+        "GDP per capita, PPP (constant 2017 international $)": "10889.8025",
+        "Code": "IRQ",
+        "Primary energy consumption per capita (kWh/person)": "15723.45215",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "51",
+        "Unnamed: 0": "117",
+        "Country": "Jamaica",
+        "GDP per capita, PPP (constant 2017 international $)": "9777.005686",
+        "Code": "JAM",
+        "Primary energy consumption per capita (kWh/person)": "14562.76367",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "52",
+        "Unnamed: 0": "118",
+        "Country": "Jordan",
+        "GDP per capita, PPP (constant 2017 international $)": "10071.37989",
+        "Code": "JOR",
+        "Primary energy consumption per capita (kWh/person)": "11483.71875",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "53",
+        "Unnamed: 0": "121",
+        "Country": "Kenya",
+        "GDP per capita, PPP (constant 2017 international $)": "4459.210605",
+        "Code": "KEN",
+        "Primary energy consumption per capita (kWh/person)": "1849.1698",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "54",
+        "Unnamed: 0": "123",
+        "Country": "Cambodia",
+        "GDP per capita, PPP (constant 2017 international $)": "4388.800909",
+        "Code": "KHM",
+        "Primary energy consumption per capita (kWh/person)": "3994.236816",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "55",
+        "Unnamed: 0": "124",
+        "Country": "Kiribati",
+        "GDP per capita, PPP (constant 2017 international $)": "2102.782035",
+        "Code": "KIR",
+        "Primary energy consumption per capita (kWh/person)": "2738.874268",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "56",
+        "Unnamed: 0": "130",
+        "Country": "Lebanon",
+        "GDP per capita, PPP (constant 2017 international $)": "14493.37237",
+        "Code": "LBN",
+        "Primary energy consumption per capita (kWh/person)": "15613.75",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "57",
+        "Unnamed: 0": "131",
+        "Country": "Liberia",
+        "GDP per capita, PPP (constant 2017 international $)": "1469.763959",
+        "Code": "LBR",
+        "Primary energy consumption per capita (kWh/person)": "1111.514282",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "58",
+        "Unnamed: 0": "132",
+        "Country": "Libya",
+        "GDP per capita, PPP (constant 2017 international $)": "21842.61925",
+        "Code": "LBY",
+        "Primary energy consumption per capita (kWh/person)": "25863.94727",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "59",
+        "Unnamed: 0": "138",
+        "Country": "Sri Lanka",
+        "GDP per capita, PPP (constant 2017 international $)": "13079.53863",
+        "Code": "LKA",
+        "Primary energy consumption per capita (kWh/person)": "5072.591309",
+        "Region": "South Asia"
+      },
+      {
+        "": "60",
+        "Unnamed: 0": "141",
+        "Country": "Lesotho",
+        "GDP per capita, PPP (constant 2017 international $)": "2656.115855",
+        "Code": "LSO",
+        "Primary energy consumption per capita (kWh/person)": "2292.675537",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "61",
+        "Unnamed: 0": "148",
+        "Country": "Morocco",
+        "GDP per capita, PPP (constant 2017 international $)": "7546.754883",
+        "Code": "MAR",
+        "Primary energy consumption per capita (kWh/person)": "7223.973145",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "62",
+        "Unnamed: 0": "150",
+        "Country": "Moldova",
+        "GDP per capita, PPP (constant 2017 international $)": "13026.51597",
+        "Code": "MDA",
+        "Primary energy consumption per capita (kWh/person)": "10373.6875",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "63",
+        "Unnamed: 0": "151",
+        "Country": "Madagascar",
+        "GDP per capita, PPP (constant 2017 international $)": "1618.532561",
+        "Code": "MDG",
+        "Primary energy consumption per capita (kWh/person)": "676.539917",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "64",
+        "Unnamed: 0": "152",
+        "Country": "Maldives",
+        "GDP per capita, PPP (constant 2017 international $)": "19510.49184",
+        "Code": "MDV",
+        "Primary energy consumption per capita (kWh/person)": "17493.39063",
+        "Region": "South Asia"
+      },
+      {
+        "": "65",
+        "Unnamed: 0": "154",
+        "Country": "Mexico",
+        "GDP per capita, PPP (constant 2017 international $)": "19675.44067",
+        "Code": "MEX",
+        "Primary energy consumption per capita (kWh/person)": "16507.16992",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "66",
+        "Unnamed: 0": "157",
+        "Country": "North Macedonia",
+        "GDP per capita, PPP (constant 2017 international $)": "16773.04057",
+        "Code": "MKD",
+        "Primary energy consumption per capita (kWh/person)": "14905.75977",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "67",
+        "Unnamed: 0": "158",
+        "Country": "Mali",
+        "GDP per capita, PPP (constant 2017 international $)": "2321.702199",
+        "Code": "MLI",
+        "Primary energy consumption per capita (kWh/person)": "1289.118286",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "68",
+        "Unnamed: 0": "162",
+        "Country": "Montenegro",
+        "GDP per capita, PPP (constant 2017 international $)": "21533.93209",
+        "Code": "MNE",
+        "Primary energy consumption per capita (kWh/person)": "22650.16797",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "69",
+        "Unnamed: 0": "163",
+        "Country": "Mongolia",
+        "GDP per capita, PPP (constant 2017 international $)": "12486.07746",
+        "Code": "MNG",
+        "Primary energy consumption per capita (kWh/person)": "24337.97266",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "70",
+        "Unnamed: 0": "165",
+        "Country": "Mozambique",
+        "GDP per capita, PPP (constant 2017 international $)": "1281.780014",
+        "Code": "MOZ",
+        "Primary energy consumption per capita (kWh/person)": "2377.498047",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "71",
+        "Unnamed: 0": "166",
+        "Country": "Mauritania",
+        "GDP per capita, PPP (constant 2017 international $)": "5343.997921",
+        "Code": "MRT",
+        "Primary energy consumption per capita (kWh/person)": "3976.341797",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "72",
+        "Unnamed: 0": "167",
+        "Country": "Mauritius",
+        "GDP per capita, PPP (constant 2017 international $)": "22869.75631",
+        "Code": "MUS",
+        "Primary energy consumption per capita (kWh/person)": "23277.91797",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "73",
+        "Unnamed: 0": "168",
+        "Country": "Malawi",
+        "GDP per capita, PPP (constant 2017 international $)": "1537.141177",
+        "Code": "MWI",
+        "Primary energy consumption per capita (kWh/person)": "530.1196899",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "74",
+        "Unnamed: 0": "169",
+        "Country": "Malaysia",
+        "GDP per capita, PPP (constant 2017 international $)": "28421.46248",
+        "Code": "MYS",
+        "Primary energy consumption per capita (kWh/person)": "38858.89063",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "75",
+        "Unnamed: 0": "171",
+        "Country": "Namibia",
+        "GDP per capita, PPP (constant 2017 international $)": "9809.218482",
+        "Code": "NAM",
+        "Primary energy consumption per capita (kWh/person)": "8737.738281",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "76",
+        "Unnamed: 0": "173",
+        "Country": "Niger",
+        "GDP per capita, PPP (constant 2017 international $)": "1224.375135",
+        "Code": "NER",
+        "Primary energy consumption per capita (kWh/person)": "451.224884",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "77",
+        "Unnamed: 0": "174",
+        "Country": "Nigeria",
+        "GDP per capita, PPP (constant 2017 international $)": "5135.499469",
+        "Code": "NGA",
+        "Primary energy consumption per capita (kWh/person)": "2481.222412",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "78",
+        "Unnamed: 0": "175",
+        "Country": "Nicaragua",
+        "GDP per capita, PPP (constant 2017 international $)": "5445.729533",
+        "Code": "NIC",
+        "Primary energy consumption per capita (kWh/person)": "4371.559082",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "79",
+        "Unnamed: 0": "178",
+        "Country": "Nepal",
+        "GDP per capita, PPP (constant 2017 international $)": "3952.760349",
+        "Code": "NPL",
+        "Primary energy consumption per capita (kWh/person)": "1529.663818",
+        "Region": "South Asia"
+      },
+      {
+        "": "80",
+        "Unnamed: 0": "179",
+        "Country": "Nauru",
+        "GDP per capita, PPP (constant 2017 international $)": "13525.77285",
+        "Code": "NRU",
+        "Primary energy consumption per capita (kWh/person)": "24818.05273",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "81",
+        "Unnamed: 0": "184",
+        "Country": "Pakistan",
+        "GDP per capita, PPP (constant 2017 international $)": "5317.774364",
+        "Code": "PAK",
+        "Primary energy consumption per capita (kWh/person)": "4541.509766",
+        "Region": "South Asia"
+      },
+      {
+        "": "82",
+        "Unnamed: 0": "186",
+        "Country": "Peru",
+        "GDP per capita, PPP (constant 2017 international $)": "12858.3263",
+        "Code": "PER",
+        "Primary energy consumption per capita (kWh/person)": "10507.8457",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "83",
+        "Unnamed: 0": "187",
+        "Country": "Philippines",
+        "GDP per capita, PPP (constant 2017 international $)": "8914.723798",
+        "Code": "PHL",
+        "Primary energy consumption per capita (kWh/person)": "5204.539063",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "84",
+        "Unnamed: 0": "189",
+        "Country": "Papua New Guinea",
+        "GDP per capita, PPP (constant 2017 international $)": "4292.609429",
+        "Code": "PNG",
+        "Primary energy consumption per capita (kWh/person)": "3316.351318",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "85",
+        "Unnamed: 0": "195",
+        "Country": "Paraguay",
+        "GDP per capita, PPP (constant 2017 international $)": "12615.52865",
+        "Code": "PRY",
+        "Primary energy consumption per capita (kWh/person)": "18397.52148",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "86",
+        "Unnamed: 0": "201",
+        "Country": "Romania",
+        "GDP per capita, PPP (constant 2017 international $)": "29875.06277",
+        "Code": "ROU",
+        "Primary energy consumption per capita (kWh/person)": "20002.61523",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "87",
+        "Unnamed: 0": "203",
+        "Country": "Rwanda",
+        "GDP per capita, PPP (constant 2017 international $)": "2227.515571",
+        "Code": "RWA",
+        "Primary energy consumption per capita (kWh/person)": "499.5462341",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "88",
+        "Unnamed: 0": "206",
+        "Country": "Sudan",
+        "GDP per capita, PPP (constant 2017 international $)": "4173.566406",
+        "Code": "SDN",
+        "Primary energy consumption per capita (kWh/person)": "2359.674072",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "89",
+        "Unnamed: 0": "207",
+        "Country": "Senegal",
+        "GDP per capita, PPP (constant 2017 international $)": "3368.262274",
+        "Code": "SEN",
+        "Primary energy consumption per capita (kWh/person)": "2703.498535",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "90",
+        "Unnamed: 0": "209",
+        "Country": "Solomon Islands",
+        "GDP per capita, PPP (constant 2017 international $)": "2660.514892",
+        "Code": "SLB",
+        "Primary energy consumption per capita (kWh/person)": "2038.201538",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "91",
+        "Unnamed: 0": "210",
+        "Country": "Sierra Leone",
+        "GDP per capita, PPP (constant 2017 international $)": "1705.191452",
+        "Code": "SLE",
+        "Primary energy consumption per capita (kWh/person)": "528.336731",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "92",
+        "Unnamed: 0": "211",
+        "Country": "El Salvador",
+        "GDP per capita, PPP (constant 2017 international $)": "8776.119516",
+        "Code": "SLV",
+        "Primary energy consumption per capita (kWh/person)": "7069.96582",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "93",
+        "Unnamed: 0": "213",
+        "Country": "Somalia",
+        "GDP per capita, PPP (constant 2017 international $)": "1186.450871",
+        "Code": "SOM",
+        "Primary energy consumption per capita (kWh/person)": "235.5066681",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "94",
+        "Unnamed: 0": "214",
+        "Country": "Serbia",
+        "GDP per capita, PPP (constant 2017 international $)": "18306.78524",
+        "Code": "SRB",
+        "Primary energy consumption per capita (kWh/person)": "22784.41602",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "95",
+        "Unnamed: 0": "219",
+        "Country": "Sao Tome and Principe",
+        "GDP per capita, PPP (constant 2017 international $)": "4005.341623",
+        "Code": "STP",
+        "Primary energy consumption per capita (kWh/person)": "3411.550781",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "96",
+        "Unnamed: 0": "220",
+        "Country": "Suriname",
+        "GDP per capita, PPP (constant 2017 international $)": "19036.74504",
+        "Code": "SUR",
+        "Primary energy consumption per capita (kWh/person)": "24136.25586",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "97",
+        "Unnamed: 0": "224",
+        "Country": "Eswatini",
+        "GDP per capita, PPP (constant 2017 international $)": "8652.922717",
+        "Code": "SWZ",
+        "Primary energy consumption per capita (kWh/person)": "5678.396484",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "98",
+        "Unnamed: 0": "228",
+        "Country": "Turks and Caicos Islands",
+        "GDP per capita, PPP (constant 2017 international $)": "29251.07773",
+        "Code": "TCA",
+        "Primary energy consumption per capita (kWh/person)": "25774.60742",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "99",
+        "Unnamed: 0": "229",
+        "Country": "Chad",
+        "GDP per capita, PPP (constant 2017 international $)": "1579.626101",
+        "Code": "TCD",
+        "Primary energy consumption per capita (kWh/person)": "461.7154236",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "100",
+        "Unnamed: 0": "232",
+        "Country": "Togo",
+        "GDP per capita, PPP (constant 2017 international $)": "2121.899918",
+        "Code": "TGO",
+        "Primary energy consumption per capita (kWh/person)": "1205.38501",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "101",
+        "Unnamed: 0": "233",
+        "Country": "Thailand",
+        "GDP per capita, PPP (constant 2017 international $)": "18438.64738",
+        "Code": "THA",
+        "Primary energy consumption per capita (kWh/person)": "21887.79492",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "102",
+        "Unnamed: 0": "234",
+        "Country": "Tajikistan",
+        "GDP per capita, PPP (constant 2017 international $)": "3581.409187",
+        "Code": "TJK",
+        "Primary energy consumption per capita (kWh/person)": "8101.675781",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "103",
+        "Unnamed: 0": "239",
+        "Country": "Tonga",
+        "GDP per capita, PPP (constant 2017 international $)": "6377.35552",
+        "Code": "TON",
+        "Primary energy consumption per capita (kWh/person)": "6694.15332",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "104",
+        "Unnamed: 0": "243",
+        "Country": "Tunisia",
+        "GDP per capita, PPP (constant 2017 international $)": "11420.84973",
+        "Code": "TUN",
+        "Primary energy consumption per capita (kWh/person)": "10435.09375",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "105",
+        "Unnamed: 0": "245",
+        "Country": "Tuvalu",
+        "GDP per capita, PPP (constant 2017 international $)": "4527.683995",
+        "Code": "TUV",
+        "Primary energy consumption per capita (kWh/person)": "0.0",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "106",
+        "Unnamed: 0": "246",
+        "Country": "Tanzania",
+        "GDP per capita, PPP (constant 2017 international $)": "2660.637451",
+        "Code": "TZA",
+        "Primary energy consumption per capita (kWh/person)": "977.6470337",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "107",
+        "Unnamed: 0": "247",
+        "Country": "Uganda",
+        "GDP per capita, PPP (constant 2017 international $)": "2182.899761",
+        "Code": "UGA",
+        "Primary energy consumption per capita (kWh/person)": "862.4026489",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "108",
+        "Unnamed: 0": "248",
+        "Country": "Ukraine",
+        "GDP per capita, PPP (constant 2017 international $)": "12804.95508",
+        "Code": "UKR",
+        "Primary energy consumption per capita (kWh/person)": "21768.2168",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "109",
+        "Unnamed: 0": "250",
+        "Country": "Uruguay",
+        "GDP per capita, PPP (constant 2017 international $)": "23032.73404",
+        "Code": "URY",
+        "Primary energy consumption per capita (kWh/person)": "19607.18164",
+        "Region": "Latin America & Carribean"
+      },
+      {
+        "": "110",
+        "Unnamed: 0": "252",
+        "Country": "Uzbekistan",
+        "GDP per capita, PPP (constant 2017 international $)": "7348.146883",
+        "Code": "UZB",
+        "Primary energy consumption per capita (kWh/person)": "16210.30371",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "111",
+        "Unnamed: 0": "257",
+        "Country": "Vietnam",
+        "GDP per capita, PPP (constant 2017 international $)": "10134.25903",
+        "Code": "VNM",
+        "Primary energy consumption per capita (kWh/person)": "12496.14648",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "112",
+        "Unnamed: 0": "258",
+        "Country": "Vanuatu",
+        "GDP per capita, PPP (constant 2017 international $)": "3116.594618",
+        "Code": "VUT",
+        "Primary energy consumption per capita (kWh/person)": "3187.939697",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "113",
+        "Unnamed: 0": "260",
+        "Country": "Samoa",
+        "GDP per capita, PPP (constant 2017 international $)": "6627.838501",
+        "Code": "WSM",
+        "Primary energy consumption per capita (kWh/person)": "7959.014648",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "114",
+        "Unnamed: 0": "263",
+        "Country": "South Africa",
+        "GDP per capita, PPP (constant 2017 international $)": "13709.96637",
+        "Code": "ZAF",
+        "Primary energy consumption per capita (kWh/person)": "25440.29297",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "115",
+        "Unnamed: 0": "264",
+        "Country": "Zambia",
+        "GDP per capita, PPP (constant 2017 international $)": "3470.435511",
+        "Code": "ZMB",
+        "Primary energy consumption per capita (kWh/person)": "3398.124268",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "116",
+        "Unnamed: 0": "265",
+        "Country": "Zimbabwe",
+        "GDP per capita, PPP (constant 2017 international $)": "2310.634802",
+        "Code": "ZWE",
+        "Primary energy consumption per capita (kWh/person)": "3374.877197",
+        "Region": "Sub-Saharan Africa"
+      }
+    ]
+  },
+  "title": {
+    "text": [
+      "Relationship between GDP per Capita and",
+      "Energy Consumption per Capita"
+    ],
+    "subtitle": "Source: World Bank, Our World in Data",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "fontSize": 15,
+    "anchor": "middle"
+  },
+  "height": 300,
+  "width": 300,
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "filled": true,
+        "size": 50
+      },
+      "encoding": {
+        "color": {
+          "scale": {
+            "range": [
+              "#4c78a8",
+              "orange",
+              "#e45756",
+              "teal",
+              "#eeca3b",
+              "green",
+              "#b279a2",
+              "#ff9da6"
+            ]
+          },
+          "legend": {
+            "orient": "right"
+          }
+        },
+        "size": {
+          "value": 120
+        },
+        "opacity": {
+          "value": 1
+        },
+        "x": {
+          "field": "GDP per capita, PPP (constant 2017 international $)",
+          "type": "quantitative",
+          "title": "GDP per capita (PPP 2017, USD)",
+          "axis": {
+            "labelFontSize": 10,
+            "grid": true,
+            "titleFontSize": 12
+          }
+        },
+        "y": {
+          "field": "Primary energy consumption per capita (kWh/person)",
+          "type": "quantitative",
+          "title": "Energy Consumption per capita (kWh)",
+          "axis": {
+            "labelFontSize": 10,
+            "grid": true,
+            "titleFontSize": 12
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "GDP per capita, PPP (constant 2017 international $)",
+            "type": "quantitative",
+            "title": "GDP per Capita",
+            "format": "$,.0f"
+          },
+          {
+            "field": "Primary energy consumption per capita (kWh/person)",
+            "type": "quantitative",
+            "title": "Energy Consumption per capita",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "firebrick"
+      },
+      "transform": [
+        {
+          "regression": "Primary energy consumption per capita (kWh/person)",
+          "on": "GDP per capita, PPP (constant 2017 international $)",
+          "extent": [
+            4000,
+            26000
+          ]
+        },
+        {
+          "calculate": "'R²: '+format(datum.rSquared, '.2f')",
+          "as": "R2"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "GDP per capita, PPP (constant 2017 international $)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Primary energy consumption per capita (kWh/person)",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "align": "right",
+        "size": 20,
+        "text": "R2: 0.77"
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vl_0597",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "4e20a3d139d51aa796d0688ca61ddc2491ca27de85cdb5762b528fecb207cc9c",
+      "actions": 10,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e2d21bfb76d27127f2ee13ab8cf91272391c79b949da46458677443c5608608b",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "69997ebad8abbf89a90103341a79100e8d549ae77924354e440b1c5564505f7a",
+      "actions": 13,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7a306240b0ae18e569e54049a2c3b007b2dd2f7a498b1bb3e035a70f2c4f41bf",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "384d380c9648f4365ed87f982787640964a674b8398e692943ce2c8801fe7aa4",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b12f7ca01b9235530d00434f4e942d4d0056b1a9f2e4b4f277bdac1f295b7f93",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "1d67862b6b77392c3b0f62b5859c0d517d05890217b922f8174f885e2e76c1c9",
+      "actions": 18,
+      "topOptions": 38
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "585c2a63c5619ef4e46b9bed1910f0ff93b1604de7ebdb825254ccdc9b29e69f",
+      "actions": 20,
+      "topOptions": 44
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/JamesFKean/RA_work/main/underemployment1.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full terminal code and source reread; all8 accepted stages/403 checks pass, exact identical SVG194bf51a4de9fce462b3ce3691e7bb273dca788a24f94222e9228454be380152. At8-stage cap paired whole-axis component refinement remains; source Ypercent formatter stays at creation because unformatted eager width collides with title. No scalar/default padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "d819f19fb86a99361b016d4485c484d952b0f05ee344028e6efa6661aa24bdd4",
+      "bytes": 1619
+    },
+    "data.json": {
+      "sha256": "ed6da7f64347c38f6be74fd1d40f07059a7a68d3a42df24cef65a2995d06cf8d",
+      "bytes": 137142
+    },
+    "resolved-source.vl.json": {
+      "sha256": "820bf770d222b86e56b9771484759dcda0ee4e1f14effb67775ade9b36139974",
+      "bytes": 167495
+    },
+    "G1.gg.mjs": {
+      "sha256": "4e20a3d139d51aa796d0688ca61ddc2491ca27de85cdb5762b528fecb207cc9c",
+      "bytes": 2489
+    },
+    "G2.gg.mjs": {
+      "sha256": "e2d21bfb76d27127f2ee13ab8cf91272391c79b949da46458677443c5608608b",
+      "bytes": 2507
+    },
+    "G3.gg.mjs": {
+      "sha256": "69997ebad8abbf89a90103341a79100e8d549ae77924354e440b1c5564505f7a",
+      "bytes": 2462
+    },
+    "G4.gg.mjs": {
+      "sha256": "7a306240b0ae18e569e54049a2c3b007b2dd2f7a498b1bb3e035a70f2c4f41bf",
+      "bytes": 2483
+    },
+    "G5.gg.mjs": {
+      "sha256": "384d380c9648f4365ed87f982787640964a674b8398e692943ce2c8801fe7aa4",
+      "bytes": 2417
+    },
+    "G6.gg.mjs": {
+      "sha256": "b12f7ca01b9235530d00434f4e942d4d0056b1a9f2e4b4f277bdac1f295b7f93",
+      "bytes": 2459
+    },
+    "G7.gg.mjs": {
+      "sha256": "1d67862b6b77392c3b0f62b5859c0d517d05890217b922f8174f885e2e76c1c9",
+      "bytes": 2494
+    },
+    "G8.gg.mjs": {
+      "sha256": "585c2a63c5619ef4e46b9bed1910f0ff93b1604de7ebdb825254ccdc9b29e69f",
+      "bytes": 2682
+    },
+    "vega-lite.svg": {
+      "sha256": "d45d61837e010dc95fcabb978dbbfe3f27c6e0a3cd4d609b27668d988c356f45",
+      "bytes": 24150
+    },
+    "ggaction.svg": {
+      "sha256": "194bf51a4de9fce462b3ce3691e7bb273dca788a24f94222e9228454be380152",
+      "bytes": 41276
+    }
+  }
+}

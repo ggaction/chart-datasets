@@ -1,0 +1,124 @@
+{
+  "id": "vl_1073",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ec78b3d393f773a7c415a6e94b3fe6e95d504b5d8aa6810de61957c36b9eb5fa",
+      "actions": 9,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2dba901664e90a58fc2750e81bac73549b34de4c5d3067a46ad8ab8abf5fb679",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7d9f45414fd1381e74eda107d81a41dd2b25fa8b9634412c828247c9a3427a68",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8214253cf90878230c09af3d0b3a198a1285929de16b1d71ff87054766e2a4c3",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7ad73b591e05cb7943296f11b85054831f343eef752a7d7b8dfd7afe853dbf39",
+      "actions": 17,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "06df12daf18f58700d9c2d39ced414ce29624ea0108140b14341d8debc81d57b",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d2dfb728d68004987ce9110ec3c784070510eee63f68d118e1c87fd717280b88",
+      "actions": 19,
+      "topOptions": 38
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "553be58e3a616419cccb182bf7c6c957af63e02fe776ac552c2fb551b7342cce",
+      "actions": 20,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/data_ONS-mgsx.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Reviewed full final code and all contiguous source/current-runtime/family verifications. User8-stagecap reached; remaining public ownership frontier disclosed:[{\"mandatory\":true,\"owner\":\"editXAxisTicksAndLabels\",\"boundary\":\"editXAxisTicksAndLabels -> focused ticks/labels editors\",\"properties\":[\"ticks\",\"labels\"],\"note\":\"Preserve any selector/values at their existing owner; transfer only existing tick/label styles.\"},{\"mandatory\":true,\"owner\":\"editYAxisTicksAndLabels\",\"boundary\":\"editYAxisTicksAndLabels -> focused ticks/labels editors\",\"properties\":[\"ticks\",\"labels\"],\"note\":\"Preserve any selector/values at their existing owner; transfer only existing tick/label styles.\"},{\"mandatory\":true,\"owner\":\"createHorizontalGrid\",\"boundary\":\"createHorizontalGrid existing source paint -> editHorizontalGrid\",\"properties\":[\"color\"],\"note\":\"Move paired horizontal/vertical source paint together. Existing #ddd is a source-to-library bridge, not an invented native default; keep geometry/selection at creation and never make scalar-per-direction stages.\"},{\"mandatory\":true,\"owner\":\"createVerticalGrid\",\"boundary\":\"createVerticalGrid existing source paint -> editVerticalGrid\",\"properties\":[\"color\"],\"note\":\"Move paired horizontal/vertical source paint together. Existing #ddd is a source-to-library bridge, not an invented native default; keep geometry/selection at creation and never make scalar-per-direction stages.\"}]"
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "453e8ddc94747997c3565844ed641c37fc753e14a797233f79a1b805c10db80b",
+      "bytes": 833
+    },
+    "data.json": {
+      "sha256": "5c854d790a9935aaeb3e440ec6643c16dd1f95a9c76b766c4d76991419b1324b",
+      "bytes": 10159
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d9f92cd21312e07fb3c068f58c96d20d94b42022bc397beb895f36abd0f8d9cf",
+      "bytes": 12940
+    },
+    "G1.gg.mjs": {
+      "sha256": "ec78b3d393f773a7c415a6e94b3fe6e95d504b5d8aa6810de61957c36b9eb5fa",
+      "bytes": 2067
+    },
+    "G2.gg.mjs": {
+      "sha256": "2dba901664e90a58fc2750e81bac73549b34de4c5d3067a46ad8ab8abf5fb679",
+      "bytes": 2085
+    },
+    "G3.gg.mjs": {
+      "sha256": "7d9f45414fd1381e74eda107d81a41dd2b25fa8b9634412c828247c9a3427a68",
+      "bytes": 2030
+    },
+    "G4.gg.mjs": {
+      "sha256": "8214253cf90878230c09af3d0b3a198a1285929de16b1d71ff87054766e2a4c3",
+      "bytes": 2071
+    },
+    "G5.gg.mjs": {
+      "sha256": "7ad73b591e05cb7943296f11b85054831f343eef752a7d7b8dfd7afe853dbf39",
+      "bytes": 2161
+    },
+    "G6.gg.mjs": {
+      "sha256": "06df12daf18f58700d9c2d39ced414ce29624ea0108140b14341d8debc81d57b",
+      "bytes": 2196
+    },
+    "G7.gg.mjs": {
+      "sha256": "d2dfb728d68004987ce9110ec3c784070510eee63f68d118e1c87fd717280b88",
+      "bytes": 2232
+    },
+    "G8.gg.mjs": {
+      "sha256": "553be58e3a616419cccb182bf7c6c957af63e02fe776ac552c2fb551b7342cce",
+      "bytes": 2129
+    },
+    "vega-lite.svg": {
+      "sha256": "b70a1491ee2c22cbfab34d4bdd18e1f9d51f91455b8e92fde7ae420409100c63",
+      "bytes": 8365
+    },
+    "ggaction.svg": {
+      "sha256": "47096bed6b671fa2d6f244a8f4cbaa844f957a84c72ed9219d2606cd445808b6",
+      "bytes": 6809
+    }
+  }
+}

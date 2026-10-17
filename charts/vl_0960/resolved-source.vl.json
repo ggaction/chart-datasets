@@ -1,0 +1,146 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Capital costs",
+    "subtitle": "Estimated overnight capital costs in $/kW, Source: Wikipedia",
+    "subtitleFontSize": 10,
+    "subtitleFontStyle": "italic",
+    "anchor": "start"
+  },
+  "width": 300,
+  "height": 300,
+  "data": {
+    "values": [
+      {
+        "": "1",
+        "Energy": "Gas/oil combined cycle power plant",
+        "Cost ($/kW)": "1000 (2019)[14]",
+        "Cost": "1000"
+      },
+      {
+        "": "2",
+        "Energy": "Onshore wind",
+        "Cost ($/kW)": "1600 (2019)[14]",
+        "Cost": "1600"
+      },
+      {
+        "": "3",
+        "Energy": "Offshore wind",
+        "Cost ($/kW)": "6500 (2019)[14]",
+        "Cost": "6500"
+      },
+      {
+        "": "4",
+        "Energy": "Solar PV (fixed)",
+        "Cost ($/kW)": "830 (utility-scale, 2021),[15] 1800 (2019)[14]",
+        "Cost": "830"
+      },
+      {
+        "": "5",
+        "Energy": "Solar PV (tracking)",
+        "Cost ($/kW)": "860 (utility-scale, 2021)[15] 2000 (2019)[14]",
+        "Cost": "860"
+      },
+      {
+        "": "6",
+        "Energy": "Battery storage power",
+        "Cost ($/kW)": "1380 (2020)[14]",
+        "Cost": "1380"
+      },
+      {
+        "": "7",
+        "Energy": "Conventional hydropower",
+        "Cost ($/kW)": "2752 (2020)[14]",
+        "Cost": "2752"
+      },
+      {
+        "": "8",
+        "Energy": "Geothermal",
+        "Cost ($/kW)": "2800 (2019)[14]",
+        "Cost": "2800"
+      },
+      {
+        "": "9",
+        "Energy": "Coal (with SO2 and NOx controls)",
+        "Cost ($/kW)": "3500–3800[16]",
+        "Cost": "3500"
+      },
+      {
+        "": "10",
+        "Energy": "Advanced nuclear",
+        "Cost ($/kW)": "6000 (2019)[14]",
+        "Cost": "6000"
+      },
+      {
+        "": "11",
+        "Energy": "Fuel cells",
+        "Cost ($/kW)": "7200 (2019)[14]",
+        "Cost": "7200"
+      }
+    ]
+  },
+  "transform": [
+    {
+      "joinaggregate": [
+        {
+          "op": "mean",
+          "field": "Cost",
+          "as": "AverageCost"
+        }
+      ]
+    }
+  ],
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "Cost",
+          "type": "quantitative",
+          "title": "Cost ($/kW)",
+          "axis": {
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "Energy",
+          "type": "nominal",
+          "title": null,
+          "axis": {
+            "grid": false
+          }
+        },
+        "color": {
+          "field": "Energy",
+          "scale": {
+            "scheme": "darkmulti"
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "Energy"
+          },
+          {
+            "field": "Cost",
+            "title": "$/kW"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "color": "red",
+        "size": 1.5
+      },
+      "encoding": {
+        "x": {
+          "aggregate": "average",
+          "field": "AverageCost",
+          "type": "quantitative"
+        }
+      }
+    }
+  ]
+}

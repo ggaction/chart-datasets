@@ -1,0 +1,89 @@
+{
+  "id": "vl_1403",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "455190e3d1f3aa89891c254a019602a88a8ac925d84ebae3c09e5ff853950b72",
+      "actions": 10,
+      "topOptions": 19
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5e35a1e9e4c1ee098a700ebc45ef2eb40fe6e17262d632897604d5640d41b979",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8f6b38a0ef707730c90c9b9eed333b8f2164a1f3e0fd5c3839f8f7f73f6c0a71",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "2fb18e75a79e6e35addf54b17a936fdded1cec0847f3e699d88638e9710fca72",
+      "actions": 17,
+      "topOptions": 29
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e3a64fdf23ebd8ef456ffd185b8ebe22dd01f41d055fb1c4dbbbb261210e9b01",
+      "actions": 19,
+      "topOptions": 29
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Five exact meaningful stages; paired axis leaf editors complete and remaining settings are protected geometry/implicit defaults/absent guides."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "58e410313b9d6b747c396d41c4d9460096f04db96a010915daf16c5c63e8bae7",
+      "bytes": 1116
+    },
+    "data.json": {
+      "sha256": "d64f52957b49bbd39233cdd3eb24d95e4568ec28be7c764a02d09e11f87c7fb7",
+      "bytes": 462
+    },
+    "resolved-source.vl.json": {
+      "sha256": "58e410313b9d6b747c396d41c4d9460096f04db96a010915daf16c5c63e8bae7",
+      "bytes": 1116
+    },
+    "G1.gg.mjs": {
+      "sha256": "455190e3d1f3aa89891c254a019602a88a8ac925d84ebae3c09e5ff853950b72",
+      "bytes": 1836
+    },
+    "G2.gg.mjs": {
+      "sha256": "5e35a1e9e4c1ee098a700ebc45ef2eb40fe6e17262d632897604d5640d41b979",
+      "bytes": 1796
+    },
+    "G3.gg.mjs": {
+      "sha256": "8f6b38a0ef707730c90c9b9eed333b8f2164a1f3e0fd5c3839f8f7f73f6c0a71",
+      "bytes": 1980
+    },
+    "G4.gg.mjs": {
+      "sha256": "2fb18e75a79e6e35addf54b17a936fdded1cec0847f3e699d88638e9710fca72",
+      "bytes": 1964
+    },
+    "G5.gg.mjs": {
+      "sha256": "e3a64fdf23ebd8ef456ffd185b8ebe22dd01f41d055fb1c4dbbbb261210e9b01",
+      "bytes": 1918
+    },
+    "vega-lite.svg": {
+      "sha256": "254f064e8413fea8788ee833163f0eafa02d676ad6b042c8d18a37b68e4b897a",
+      "bytes": 9475
+    },
+    "ggaction.svg": {
+      "sha256": "1c63c53cee147c207839f0c079b71a30f94b30e44d2bd208b58ac17c200552ef",
+      "bytes": 7112
+    }
+  }
+}

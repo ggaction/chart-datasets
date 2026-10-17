@@ -1,0 +1,124 @@
+{
+  "id": "vl_1371",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f0848ef07b1d255c1bf7143a32bc0d62139fb51deaf801d14eec1b413020d8c1",
+      "actions": 9,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "13f548aeee49105f14daf1e737d431753e18858d379a15b804bd2fd50d9acd52",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8d7d859de2c2871e6bc6429b62b24dd27a2e35dc84c6565d212843e2b436378e",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "bdc1dd06e87648b509f70e3f96f941da1470d013d526145a5413689f8f71fb5f",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4e07e45a2e228d8924e3a576a3c5924dc556dc260326f95d6a4f10e683b1e50d",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "e43ae4b0346a5e3b694c97db39b212c0d409759bc9c598eec990352927724c76",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "dd6e57d63f6eae931810d5a3b29c5242e7f9f6f207022a5574675b5a1d1417d0",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "e559f180859a2d6555608f8e3d7157c42d2274ddaa8f85c4083fe92a2a4dcb3c",
+      "actions": 16,
+      "topOptions": 35
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/thomasxu2009/ChartStory/1888d7060e265cc2e1493f5555412997857945c5/savedFile_globalTerr/Ewen5Data.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Reviewed original source and all8normal-verified distinct ownership stages: facade/scales, completeguides→axes+grid, pairedcompleteaxes, sourcepaint/fontweight→wholethenfocusedaxis/title and directionalgrid edits. All20sourcebarcategories,900x400plot,sourcevisiblelabels/grid,explicitaxis/titlepaint retained. Stage8cap reached without native-defaultpadding; sourcegeometry preserved."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "edc5e96b458c60988163c1a53a5d960ca3fe2c07f0006319ccf1fc823db31ae3",
+      "bytes": 741
+    },
+    "data.json": {
+      "sha256": "3f7ec236ca21fa1c41b00827a886a55dc3cdf7fe02d01ace16e0892e33066412",
+      "bytes": 1463
+    },
+    "resolved-source.vl.json": {
+      "sha256": "bacb0570b0ef26d694862a4adb7553ff51acc511e80dbdc2d50554520cac0025",
+      "bytes": 2395
+    },
+    "G1.gg.mjs": {
+      "sha256": "f0848ef07b1d255c1bf7143a32bc0d62139fb51deaf801d14eec1b413020d8c1",
+      "bytes": 2038
+    },
+    "G2.gg.mjs": {
+      "sha256": "13f548aeee49105f14daf1e737d431753e18858d379a15b804bd2fd50d9acd52",
+      "bytes": 1996
+    },
+    "G3.gg.mjs": {
+      "sha256": "8d7d859de2c2871e6bc6429b62b24dd27a2e35dc84c6565d212843e2b436378e",
+      "bytes": 1905
+    },
+    "G4.gg.mjs": {
+      "sha256": "bdc1dd06e87648b509f70e3f96f941da1470d013d526145a5413689f8f71fb5f",
+      "bytes": 1859
+    },
+    "G5.gg.mjs": {
+      "sha256": "4e07e45a2e228d8924e3a576a3c5924dc556dc260326f95d6a4f10e683b1e50d",
+      "bytes": 1871
+    },
+    "G6.gg.mjs": {
+      "sha256": "e43ae4b0346a5e3b694c97db39b212c0d409759bc9c598eec990352927724c76",
+      "bytes": 1887
+    },
+    "G7.gg.mjs": {
+      "sha256": "dd6e57d63f6eae931810d5a3b29c5242e7f9f6f207022a5574675b5a1d1417d0",
+      "bytes": 1947
+    },
+    "G8.gg.mjs": {
+      "sha256": "e559f180859a2d6555608f8e3d7157c42d2274ddaa8f85c4083fe92a2a4dcb3c",
+      "bytes": 1935
+    },
+    "vega-lite.svg": {
+      "sha256": "27732b4897da792a75aac546fad64003cd8fa9d205a371768560e667deee9039",
+      "bytes": 16348
+    },
+    "ggaction.svg": {
+      "sha256": "7155f1cd9603749ab2eaef1a8f3f20d3b7a87a953e123a691ce579e84e0eb585",
+      "bytes": 13773
+    }
+  }
+}

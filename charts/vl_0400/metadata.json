@@ -1,0 +1,124 @@
+{
+  "id": "vl_0400",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "233724166be17bbd07bc734796fe4d0dfbde34bfbbc4e7a3a53494a4bc932a3b",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f5f8449b32b295645f36657b5ed59a25dd97f9bae628124ab6184c93690e59f1",
+      "actions": 23,
+      "topOptions": 50
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ca7cb8d48c4f26a9474404d6f0d6dcff4b786b3dcba8ca7e786f6c03f7e2961e",
+      "actions": 24,
+      "topOptions": 54
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "81ed5bc41e27b7705fde3d0be3474c1b1e83ff6feaa52ab096a8c363fce76e55",
+      "actions": 25,
+      "topOptions": 53
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "60f798c67b66bb7948b63f0fff0a664fcff52dcd428c2c385ec728b2931f44db",
+      "actions": 25,
+      "topOptions": 54
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "6e22d43a669b42359595fb4d49499fdf209a154c9f3f35183894ceed489efada",
+      "actions": 26,
+      "topOptions": 55
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "a4158b2b4f154a7631860ac18bd3a26e90e0a217a9b724942ad58275e45b018c",
+      "actions": 26,
+      "topOptions": 57
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "8da8e5ab904ad130e93b160cafb6fd63e8891aeff75c864389d315d8acd05bb9",
+      "actions": 26,
+      "topOptions": 57
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/productivity/BSD_Cohorts.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full final program/source reread: rawBSDfolds/numericemptypositivefilter and SIX BIRTH-YEAR COHORT series c2000,c2005,c2007,c2009,c2012,c2013 preserved with source line+point overlays/turbo palette,300squareplot, bottomright2columnlegend. All8current-pin source/equivalence checks pass. Final focusedYpercentformat only; remaining styles at owners undercap."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "091047b4d936f223a5cb7b6dfa4b6eaea4e0d54560c920a2eca7c01b441677c1",
+      "bytes": 1378
+    },
+    "data.json": {
+      "sha256": "8ed717eb184b14caeef51b88d7ccb60e34927d1c93b57e5036bd9d87ba4d5d41",
+      "bytes": 12209
+    },
+    "resolved-source.vl.json": {
+      "sha256": "51cf2295413b4740e99c19ed82144c27bb3deeb328684a2a61e3b8d144e444dd",
+      "bytes": 15796
+    },
+    "G1.gg.mjs": {
+      "sha256": "233724166be17bbd07bc734796fe4d0dfbde34bfbbc4e7a3a53494a4bc932a3b",
+      "bytes": 3431
+    },
+    "G2.gg.mjs": {
+      "sha256": "f5f8449b32b295645f36657b5ed59a25dd97f9bae628124ab6184c93690e59f1",
+      "bytes": 3391
+    },
+    "G3.gg.mjs": {
+      "sha256": "ca7cb8d48c4f26a9474404d6f0d6dcff4b786b3dcba8ca7e786f6c03f7e2961e",
+      "bytes": 3351
+    },
+    "G4.gg.mjs": {
+      "sha256": "81ed5bc41e27b7705fde3d0be3474c1b1e83ff6feaa52ab096a8c363fce76e55",
+      "bytes": 3055
+    },
+    "G5.gg.mjs": {
+      "sha256": "60f798c67b66bb7948b63f0fff0a664fcff52dcd428c2c385ec728b2931f44db",
+      "bytes": 3072
+    },
+    "G6.gg.mjs": {
+      "sha256": "6e22d43a669b42359595fb4d49499fdf209a154c9f3f35183894ceed489efada",
+      "bytes": 3123
+    },
+    "G7.gg.mjs": {
+      "sha256": "a4158b2b4f154a7631860ac18bd3a26e90e0a217a9b724942ad58275e45b018c",
+      "bytes": 3170
+    },
+    "G8.gg.mjs": {
+      "sha256": "8da8e5ab904ad130e93b160cafb6fd63e8891aeff75c864389d315d8acd05bb9",
+      "bytes": 3144
+    },
+    "vega-lite.svg": {
+      "sha256": "19965193bdfe4f93d0a7a1a8993e639efb53741e0597eed8908248e8fbddb3a8",
+      "bytes": 31402
+    },
+    "ggaction.svg": {
+      "sha256": "5cf9c7994d53695009c7c01680ae781f2b3e3646531d290392476e35b970024c",
+      "bytes": 14247
+    }
+  }
+}

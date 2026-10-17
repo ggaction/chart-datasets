@@ -1,0 +1,102 @@
+{
+  "id": "vl_0133",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9011b5f71e7b8fc880b2f9a73bb6dca0df7058cf373d93f71dc92c1d81b1e2d0",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b71fe79b80fb41755a555121b9cce522f3f6a5ded09d9ce6c558f230b519b2f7",
+      "actions": 17,
+      "topOptions": 39
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "13591ec95ce12dfbe146dea1693560f2368be337cb94c27776681d2e71de841e",
+      "actions": 18,
+      "topOptions": 43
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "aa2149d7db2483afaacbb18cacd66b7ff27afd87065c5738a4839eaff36649ad",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "396aeb4539f942ce17a435b02045c461e48fea365e20bfe702b45ee8ba031b45",
+      "actions": 22,
+      "topOptions": 47
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "eab8c57c6b15592777a2dd3bfeb89599cd65a3a883c881f6d9458e2f1a96865e",
+      "actions": 22,
+      "topOptions": 47
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/vega/vega/master/docs/data/ohlc.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 6 genuine ownership stages, 265 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "be745a337e11f34ccc76f3ec0fb3229da1bbd00e7c06487d554239a5b3164ab5",
+      "bytes": 1197
+    },
+    "data.json": {
+      "sha256": "749a503ea0c821c4168d7699c88a55466cb2cb72e524a553ba6331bb9af0c1a7",
+      "bytes": 7057
+    },
+    "resolved-source.vl.json": {
+      "sha256": "da2ac13d5623a03fd99bae0491c6f3fcd9cf0cbcbe98f8ba3c0e8a85678850fd",
+      "bytes": 9844
+    },
+    "G1.gg.mjs": {
+      "sha256": "9011b5f71e7b8fc880b2f9a73bb6dca0df7058cf373d93f71dc92c1d81b1e2d0",
+      "bytes": 2350
+    },
+    "G2.gg.mjs": {
+      "sha256": "b71fe79b80fb41755a555121b9cce522f3f6a5ded09d9ce6c558f230b519b2f7",
+      "bytes": 2416
+    },
+    "G3.gg.mjs": {
+      "sha256": "13591ec95ce12dfbe146dea1693560f2368be337cb94c27776681d2e71de841e",
+      "bytes": 2370
+    },
+    "G4.gg.mjs": {
+      "sha256": "aa2149d7db2483afaacbb18cacd66b7ff27afd87065c5738a4839eaff36649ad",
+      "bytes": 2428
+    },
+    "G5.gg.mjs": {
+      "sha256": "396aeb4539f942ce17a435b02045c461e48fea365e20bfe702b45ee8ba031b45",
+      "bytes": 2498
+    },
+    "G6.gg.mjs": {
+      "sha256": "eab8c57c6b15592777a2dd3bfeb89599cd65a3a883c881f6d9458e2f1a96865e",
+      "bytes": 2486
+    },
+    "vega-lite.svg": {
+      "sha256": "a83d9afeec0ca60832e1d7ab446327c2913a63ae5138b038a850a088760356d8",
+      "bytes": 26958
+    },
+    "ggaction.svg": {
+      "sha256": "07a469c6ad1b6467074df2f7e5776ca0ac791c537d6967eec72f888901bc17a7",
+      "bytes": 21038
+    }
+  }
+}

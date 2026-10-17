@@ -1,0 +1,113 @@
+{
+  "id": "vl_1685",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c04a28fe6e5c233adc05d621bcb0f909fc5639b1efff09e47e5b2862809caf8d",
+      "actions": 8,
+      "topOptions": 19
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f37b233804d13ab773c86d086afae4e4fc31fd0376a1567760f74b9ad500dc7f",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8595c49569b9059b7ca8e7bb1faab25ae5bbff82fad0074977f38d03fc5d574f",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "b69e983b6b70364a7013dfb1d9482bbad70fd7b78f571fa4cb3bd7d2654acdc3",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "02ce01112e14ec26af308a893c3bca4c10b0c1078344fc30ec722723200d0e63",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ff40f49b1e7f1aefaf4fb5964a27938e3f8fbce4c8dd52b8dbc7c676f062d251",
+      "actions": 19,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "3af0eb3ad79ff2bf75c709e2d466fc24f2e9ab58a2af43c5faaa0570a9e01257",
+      "actions": 21,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/unemployment-across-industries.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Everyaccepted fullcode/diff reviewed; source/fullfamilycurrentpin validation allpass. Actualconcretefrontier zero, no nativepadding/cycle, keepgeometrycreation."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "c99534f0cd82315d82c9b9c3f4c39c75cdf182be4b24d028d471141ebd2c4a7b",
+      "bytes": 589
+    },
+    "data.json": {
+      "sha256": "64bdc128b4dd71fa9e87999deea4db13c7a7b0cd81ade3f84840c41f9d3e6423",
+      "bytes": 257378
+    },
+    "resolved-source.vl.json": {
+      "sha256": "c4850385a04eb50913860113126ccb5bff0127615ad57d0906e6b95a562ec681",
+      "bytes": 312626
+    },
+    "G1.gg.mjs": {
+      "sha256": "c04a28fe6e5c233adc05d621bcb0f909fc5639b1efff09e47e5b2862809caf8d",
+      "bytes": 2499
+    },
+    "G2.gg.mjs": {
+      "sha256": "f37b233804d13ab773c86d086afae4e4fc31fd0376a1567760f74b9ad500dc7f",
+      "bytes": 2517
+    },
+    "G3.gg.mjs": {
+      "sha256": "8595c49569b9059b7ca8e7bb1faab25ae5bbff82fad0074977f38d03fc5d574f",
+      "bytes": 2509
+    },
+    "G4.gg.mjs": {
+      "sha256": "b69e983b6b70364a7013dfb1d9482bbad70fd7b78f571fa4cb3bd7d2654acdc3",
+      "bytes": 2567
+    },
+    "G5.gg.mjs": {
+      "sha256": "02ce01112e14ec26af308a893c3bca4c10b0c1078344fc30ec722723200d0e63",
+      "bytes": 2733
+    },
+    "G6.gg.mjs": {
+      "sha256": "ff40f49b1e7f1aefaf4fb5964a27938e3f8fbce4c8dd52b8dbc7c676f062d251",
+      "bytes": 2773
+    },
+    "G7.gg.mjs": {
+      "sha256": "3af0eb3ad79ff2bf75c709e2d466fc24f2e9ab58a2af43c5faaa0570a9e01257",
+      "bytes": 2759
+    },
+    "vega-lite.svg": {
+      "sha256": "59fbd5abde3280b2958fb29fa9c35a0f9d590c605979475c215c512e7609bac0",
+      "bytes": 11496
+    },
+    "ggaction.svg": {
+      "sha256": "cd358ff40989f934610be7f9cf099df4b70ca65d6918d12555f7c78faba4a40b",
+      "bytes": 12666
+    }
+  }
+}

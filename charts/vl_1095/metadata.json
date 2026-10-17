@@ -1,0 +1,124 @@
+{
+  "id": "vl_1095",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f064a89b8c718056fa5a53841b637ff3ee6caa6522951ee56d578cc1c6e42ec6",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a0dd7617bd2b82061285eae060b2feef1e451051c7ce9dbec264bc332fbb9479",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "f87f7ec5647c2f85f71575befa9c8b5f2212c1e88256e0aa46b1d081f08e98c4",
+      "actions": 13,
+      "topOptions": 25
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "2080a1a68e80a33c0f22d0ca581e53119d959728a112a5c7d7bef2297d1711e9",
+      "actions": 14,
+      "topOptions": 27
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "39a147b99541c5b0e592476a5a20cbd9a5e932f3afe1a16f7c1bba1d76372903",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "75561159d67020a6dde898c191488b480d9fa916c506107d1bc2d73e673bf682",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "e65bb0ee5bcf8212591279412cf3588365869bdbcf9ebaf52bbcb26101e23dd4",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "2e59462d83dd24b147a3e958df7bc588119b9ebd31638cca6b47b7f13c052cb1",
+      "actions": 19,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/ECO2.TENREYO.C1.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Reviewed8distinctpublicAPIversions and latestfullmodule/modelpatch. Allcurrent source/family/DOMchecks PASS; protectedsourcefonts/plots/data/marks preserved, meaningful scale/guide/component boundaries, nativelegendpolicyrecorded. Cap8complete."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "cfb8095ae8da5d0c19e679cfc85727d2d31378004e2f8e34ddb8150e170e7b07",
+      "bytes": 1238
+    },
+    "data.json": {
+      "sha256": "ff60f095be5d6fef1e55665d227933e1c307d67ce1879c12f4208c908b3af1bb",
+      "bytes": 7763
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1a252ed76a07fe7cf5cdd5a5b51e415009e872ebcbc99e158f6dbfa6d678cf97",
+      "bytes": 10505
+    },
+    "G1.gg.mjs": {
+      "sha256": "f064a89b8c718056fa5a53841b637ff3ee6caa6522951ee56d578cc1c6e42ec6",
+      "bytes": 4263
+    },
+    "G2.gg.mjs": {
+      "sha256": "a0dd7617bd2b82061285eae060b2feef1e451051c7ce9dbec264bc332fbb9479",
+      "bytes": 4286
+    },
+    "G3.gg.mjs": {
+      "sha256": "f87f7ec5647c2f85f71575befa9c8b5f2212c1e88256e0aa46b1d081f08e98c4",
+      "bytes": 4253
+    },
+    "G4.gg.mjs": {
+      "sha256": "2080a1a68e80a33c0f22d0ca581e53119d959728a112a5c7d7bef2297d1711e9",
+      "bytes": 4261
+    },
+    "G5.gg.mjs": {
+      "sha256": "39a147b99541c5b0e592476a5a20cbd9a5e932f3afe1a16f7c1bba1d76372903",
+      "bytes": 4201
+    },
+    "G6.gg.mjs": {
+      "sha256": "75561159d67020a6dde898c191488b480d9fa916c506107d1bc2d73e673bf682",
+      "bytes": 4245
+    },
+    "G7.gg.mjs": {
+      "sha256": "e65bb0ee5bcf8212591279412cf3588365869bdbcf9ebaf52bbcb26101e23dd4",
+      "bytes": 4233
+    },
+    "G8.gg.mjs": {
+      "sha256": "2e59462d83dd24b147a3e958df7bc588119b9ebd31638cca6b47b7f13c052cb1",
+      "bytes": 4283
+    },
+    "vega-lite.svg": {
+      "sha256": "ce118209a958a97ee0702d504e388f6671d7b6568ce3705508b249e0dd679f21",
+      "bytes": 38658
+    },
+    "ggaction.svg": {
+      "sha256": "8ebd38e85104ab669d70b9691abf25ef59bb9fa5632e757f7a77081183593f24",
+      "bytes": 17013
+    }
+  }
+}

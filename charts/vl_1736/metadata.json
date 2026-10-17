@@ -1,0 +1,56 @@
+{
+  "id": "vl_1736",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "598e4c1f56df770831932bb35ed5a26b0961e24941f9ceb7982669d127be3001",
+      "actions": 10,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "3842dd8a0b97c2beff68476ecd62b63aa0d2bfbb263a6a800a7830b2bb589cc0",
+      "actions": 11,
+      "topOptions": 20
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full original terminal/source and exact mark-to-channel patch reviewed. Constant line stroke/width/opacity or point opacity now at semantic channel owner; remaining initial fonts/positions/values/visibility are protected geometry/content, existing focused owners exhausted. No invented defaults or scalar-padding stage. All source/family checks PASS."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8e629917ab258050d54c15fd482bfe2502e2c1b230a5373e0c967d8568f56e7d",
+      "bytes": 4054
+    },
+    "data.json": {
+      "sha256": "78c4beaff9d715dab43457625a2b6efdaaaa83352ba5065f74ac596413cc491c",
+      "bytes": 2195
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8e629917ab258050d54c15fd482bfe2502e2c1b230a5373e0c967d8568f56e7d",
+      "bytes": 4054
+    },
+    "G1.gg.mjs": {
+      "sha256": "598e4c1f56df770831932bb35ed5a26b0961e24941f9ceb7982669d127be3001",
+      "bytes": 2631
+    },
+    "G2.gg.mjs": {
+      "sha256": "3842dd8a0b97c2beff68476ecd62b63aa0d2bfbb263a6a800a7830b2bb589cc0",
+      "bytes": 2647
+    },
+    "vega-lite.svg": {
+      "sha256": "2ca7e66538bcbe32345d0b1b6d9acfcad45cef30c74d731463e1df280d8cdf7f",
+      "bytes": 23750
+    },
+    "ggaction.svg": {
+      "sha256": "ca9937e0dfa2c88722fcb1c7a9a46b761acabb9b8f567c53aa6409d8f6438636",
+      "bytes": 11717
+    }
+  }
+}

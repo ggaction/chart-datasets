@@ -1,0 +1,113 @@
+{
+  "id": "vl_0993",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d87055d285c54f474972f872fc87650fad2c06d7c0c7e506851d1748e2b03c89",
+      "actions": 13,
+      "topOptions": 28
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "580c31864172ec36cc1ab694222fe7b1193164045918c1dc7d592bfef89214d2",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7aee09875919b8d3161623ddd3234c900b18514f30168316cf44d1e7b5ee17dd",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "2c96c529d030afe9d3fd7b79e1c8a8096b184eba1f31d179bbf033a6954ded9a",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "0c65df4a8fdf226a4607f9a1ff4c4c68e1f44f3e04953aa090fd12b488b84ea2",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "dee3c9b632131da29eec82baeccc14dfeb822dc410f00310aac7f9b715a0e032",
+      "actions": 22,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "bc70c909b3f24b7fd4e14c914a6253e8efec59495b24341b872c14fd8f7a73da",
+      "actions": 23,
+      "topOptions": 40
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/harrywright25/harrywright25.github.io/main/ONS-data-environment1.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full G7 terminal code, exact GLM stop and current concrete frontier reviewed: frontier empty. All7 source/actual output checks pass and same-family SVG identical; each stage retains full30rawcountry mass/bin/color interval-union proof and disclosed1px source bin inset approximation."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "88a85310d6730d581b05798ad963ea5d6bf88077d2999cc391a5f072997e2d02",
+      "bytes": 1041
+    },
+    "data.json": {
+      "sha256": "df55e307ebe97020d0e3c8671c74e5cc6a031f4c3db94b64b2e63186e13bf81a",
+      "bytes": 11766
+    },
+    "resolved-source.vl.json": {
+      "sha256": "201da04acb2bbfe2eccb815d20a969da4f431714764b99f1aab2ddab3120781a",
+      "bytes": 15350
+    },
+    "G1.gg.mjs": {
+      "sha256": "d87055d285c54f474972f872fc87650fad2c06d7c0c7e506851d1748e2b03c89",
+      "bytes": 2481
+    },
+    "G2.gg.mjs": {
+      "sha256": "580c31864172ec36cc1ab694222fe7b1193164045918c1dc7d592bfef89214d2",
+      "bytes": 2458
+    },
+    "G3.gg.mjs": {
+      "sha256": "7aee09875919b8d3161623ddd3234c900b18514f30168316cf44d1e7b5ee17dd",
+      "bytes": 2418
+    },
+    "G4.gg.mjs": {
+      "sha256": "2c96c529d030afe9d3fd7b79e1c8a8096b184eba1f31d179bbf033a6954ded9a",
+      "bytes": 2490
+    },
+    "G5.gg.mjs": {
+      "sha256": "0c65df4a8fdf226a4607f9a1ff4c4c68e1f44f3e04953aa090fd12b488b84ea2",
+      "bytes": 2515
+    },
+    "G6.gg.mjs": {
+      "sha256": "dee3c9b632131da29eec82baeccc14dfeb822dc410f00310aac7f9b715a0e032",
+      "bytes": 2515
+    },
+    "G7.gg.mjs": {
+      "sha256": "bc70c909b3f24b7fd4e14c914a6253e8efec59495b24341b872c14fd8f7a73da",
+      "bytes": 2550
+    },
+    "vega-lite.svg": {
+      "sha256": "b316d286a5bf7af335fdf71b2d0103615d8411bae3ebd55fa126abab5457f84d",
+      "bytes": 13015
+    },
+    "ggaction.svg": {
+      "sha256": "4a455211d5001e44793bd26fa6ba00456dd9923cc329526cf2120514d2156abe",
+      "bytes": 6824
+    }
+  }
+}

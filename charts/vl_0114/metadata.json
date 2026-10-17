@@ -1,0 +1,124 @@
+{
+  "id": "vl_0114",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "a92874697143ec12487c540d7fdfdf352c13941809e8261795388d54d3a24933",
+      "actions": 28,
+      "topOptions": 70
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9af43b503036e31747d120fedd9828c309b9b732e11b3d70fedc3b43fa33e295",
+      "actions": 29,
+      "topOptions": 73
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "120b1a759b4308674c6ee73cd659aa6a1f172a19ce799a28be08539fee667298",
+      "actions": 31,
+      "topOptions": 78
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "98d7d3d498c7c090f52c32a6923bd15f4ff8cc3302983aa62d53e258db4e4094",
+      "actions": 34,
+      "topOptions": 78
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9a600f09338d15d1a74fb866623d8c495083c9cd3005ad35cd8f45dfbe754761",
+      "actions": 35,
+      "topOptions": 78
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ad39f8f067760ecf4bf8f73f93bd6962f556131469a8a45d171d50d485b820ce",
+      "actions": 36,
+      "topOptions": 78
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "c875c580ca9386f194b51d94c8aa17c86b87247831fd41b9b7229e3ea3164b1c",
+      "actions": 37,
+      "topOptions": 80
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "228fac023b0dfd5240a712eee9e8b0ad841fe540672f8d7059435ae490772a29",
+      "actions": 39,
+      "topOptions": 84
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/COG-UK/UK-lineage-dynamics-analysis/2ca84630ab1fb80b949d25b05b6578fa9674f574/analyses/epidemiological/results/lag-estimate-model-fig.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original layered source and final current code reread: all1179raw rows, native computed lag endpoints,1179hollow variable-size points and1179matching range rules retain shared plot/scales and original two channel legends. All eight accepted stages pass current02661 strict source/data/style/family checks. Final level moves related legend title weight while source font sizes remain at birth. Eight-stage cap reached; remaining nested stroke interpolation and legend wrappers are honestly retained, with no padding or extra model stop."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "387606f796a47344d0ca9ffe17f073c3d9523be9cca10a2ff2a51886cc990cbc",
+      "bytes": 1440
+    },
+    "data.json": {
+      "sha256": "6a3c81219576117c6fd8d4e5fe7384d41dc32fbaf4d24f5250c59d012f5e848b",
+      "bytes": 207855
+    },
+    "resolved-source.vl.json": {
+      "sha256": "313a167098d602f4be0bb099d761c23a039b6dd7f285b91197a7ea800e74e170",
+      "bytes": 246858
+    },
+    "G1.gg.mjs": {
+      "sha256": "a92874697143ec12487c540d7fdfdf352c13941809e8261795388d54d3a24933",
+      "bytes": 3536
+    },
+    "G2.gg.mjs": {
+      "sha256": "9af43b503036e31747d120fedd9828c309b9b732e11b3d70fedc3b43fa33e295",
+      "bytes": 3584
+    },
+    "G3.gg.mjs": {
+      "sha256": "120b1a759b4308674c6ee73cd659aa6a1f172a19ce799a28be08539fee667298",
+      "bytes": 3695
+    },
+    "G4.gg.mjs": {
+      "sha256": "98d7d3d498c7c090f52c32a6923bd15f4ff8cc3302983aa62d53e258db4e4094",
+      "bytes": 3702
+    },
+    "G5.gg.mjs": {
+      "sha256": "9a600f09338d15d1a74fb866623d8c495083c9cd3005ad35cd8f45dfbe754761",
+      "bytes": 3723
+    },
+    "G6.gg.mjs": {
+      "sha256": "ad39f8f067760ecf4bf8f73f93bd6962f556131469a8a45d171d50d485b820ce",
+      "bytes": 3749
+    },
+    "G7.gg.mjs": {
+      "sha256": "c875c580ca9386f194b51d94c8aa17c86b87247831fd41b9b7229e3ea3164b1c",
+      "bytes": 3786
+    },
+    "G8.gg.mjs": {
+      "sha256": "228fac023b0dfd5240a712eee9e8b0ad841fe540672f8d7059435ae490772a29",
+      "bytes": 3876
+    },
+    "vega-lite.svg": {
+      "sha256": "1a7b03d213563d89d7d184fdf7d54192a9168f797b2903b27edab714ce0771c2",
+      "bytes": 628603
+    },
+    "ggaction.svg": {
+      "sha256": "907e83618394be7f1fffb7509220209b4c6235cc15432258293d4fa7c2a533d5",
+      "bytes": 306313
+    }
+  }
+}

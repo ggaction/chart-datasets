@@ -1,0 +1,124 @@
+{
+  "id": "vl_0090",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "97c8a8e2ff24e3791da80d5d14ac65ff07ff46dbd416e7a414c2731d0364f697",
+      "actions": 10,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5ec45cbe80563d1d3eb41d5805ee8aa2b709195f0a0a65f75895abb592d517c8",
+      "actions": 12,
+      "topOptions": 27
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "6f11ee037bf12a800389a4cd584d0862ca08c6feca48b09eac3117170e0bd4ed",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "9e9a40dcfdcac39e9a2ec7a203d72602891266bc9110c3155cb5511f25d4032a",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e72ba197e736ab73549d197aa3e5ec1656cf7708ba7b15ed7daec2eb9c049ad9",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "2f70142c8ba36470411b9c23fa8bb39d2a1dde7d6a0ceffad04fe0766d1d6eb0",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "b4cbc11b24a740ca8a23f95cb0b1c7e8add62da68402bb4a48c4044af9d5fb76",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "b50c47bcb44456ee3139acb0683971b44ac25b9a37eba5fb23db82973cac07a9",
+      "actions": 18,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/COG-UK/UK-lineage-dynamics-analysis/2ca84630ab1fb80b949d25b05b6578fa9674f574/analyses/epidemiological/results/sim-study-3-reestimates.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All8 meaningful GLM stages reviewed against actual acceptedparents and strict source/runtime/familyverification PASS. Last groupedappearance channel refinement retains exactsourcevalues/nativegeometry/Canvas/data; byteidenticalSVG/PNG/resolvedgraphics. Originalcompletion history and allrawusage retained."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9d3baa16d422c8352d5443c3e4c0fd2af94543db099afa3e38458f07211559f9",
+      "bytes": 633
+    },
+    "data.json": {
+      "sha256": "94a64fefd4bfe40b71e4f5ee37244942b094d1d296f342a51b11d2f22e78a27d",
+      "bytes": 9564
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d0731d0682f039977dc38784d8736c15797566042c80e12e8a5703aab5141477",
+      "bytes": 12031
+    },
+    "G1.gg.mjs": {
+      "sha256": "97c8a8e2ff24e3791da80d5d14ac65ff07ff46dbd416e7a414c2731d0364f697",
+      "bytes": 1968
+    },
+    "G2.gg.mjs": {
+      "sha256": "5ec45cbe80563d1d3eb41d5805ee8aa2b709195f0a0a65f75895abb592d517c8",
+      "bytes": 1986
+    },
+    "G3.gg.mjs": {
+      "sha256": "6f11ee037bf12a800389a4cd584d0862ca08c6feca48b09eac3117170e0bd4ed",
+      "bytes": 1934
+    },
+    "G4.gg.mjs": {
+      "sha256": "9e9a40dcfdcac39e9a2ec7a203d72602891266bc9110c3155cb5511f25d4032a",
+      "bytes": 1926
+    },
+    "G5.gg.mjs": {
+      "sha256": "e72ba197e736ab73549d197aa3e5ec1656cf7708ba7b15ed7daec2eb9c049ad9",
+      "bytes": 1894
+    },
+    "G6.gg.mjs": {
+      "sha256": "2f70142c8ba36470411b9c23fa8bb39d2a1dde7d6a0ceffad04fe0766d1d6eb0",
+      "bytes": 1946
+    },
+    "G7.gg.mjs": {
+      "sha256": "b4cbc11b24a740ca8a23f95cb0b1c7e8add62da68402bb4a48c4044af9d5fb76",
+      "bytes": 1934
+    },
+    "G8.gg.mjs": {
+      "sha256": "b50c47bcb44456ee3139acb0683971b44ac25b9a37eba5fb23db82973cac07a9",
+      "bytes": 1976
+    },
+    "vega-lite.svg": {
+      "sha256": "0a5d5c5b353ecb47fd667e9d821c1e80585b62d88a692a131e960f24c36c9d45",
+      "bytes": 37030
+    },
+    "ggaction.svg": {
+      "sha256": "0fe99a107e47024cccaf37c54353aa90213edb493f0076c93821427c0a36c07a",
+      "bytes": 19125
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "vl_0530",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "9d8ba54afefd4846d2018e844d431e2f1493c41e4cb34e58fecb9be806d9183d",
+      "actions": 9,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b4efe86caf726abcb3901325778ce758c81f7eb90451544af9f91ce61e7c6eee",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "2e8593c8db0ec1610874aeeb2505c18b64d9d32987b9e6b39d7027348db69488",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "afc7158ef097247ba834c15515b6bc80ebf3650686a3e98ac2629e9997361b68",
+      "actions": 12,
+      "topOptions": 27
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/chartENV19.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Host model:null fullG4 frontieraudit, originalrawmodelstop kept. CurrentG5onlyoverlapallow rejectsasnonmeaningful; no sourceauthoredpaintbeyondprotectedgeometry remains."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "37c68047fbc85d4be2b1d84fffa46eb3705e4f7fc3f902323647444a73f5fc00",
+      "bytes": 890
+    },
+    "data.json": {
+      "sha256": "4f9dc0e8148904f195fbd6a901e2df51763985ec243adf29ce0f32be03d309eb",
+      "bytes": 394
+    },
+    "resolved-source.vl.json": {
+      "sha256": "bc6355ef4fa1263cc1ff01109ebe262192d3c1068a8cb1db9d811f57714c5a89",
+      "bytes": 1325
+    },
+    "G1.gg.mjs": {
+      "sha256": "9d8ba54afefd4846d2018e844d431e2f1493c41e4cb34e58fecb9be806d9183d",
+      "bytes": 1810
+    },
+    "G2.gg.mjs": {
+      "sha256": "b4efe86caf726abcb3901325778ce758c81f7eb90451544af9f91ce61e7c6eee",
+      "bytes": 1784
+    },
+    "G3.gg.mjs": {
+      "sha256": "2e8593c8db0ec1610874aeeb2505c18b64d9d32987b9e6b39d7027348db69488",
+      "bytes": 1752
+    },
+    "G4.gg.mjs": {
+      "sha256": "afc7158ef097247ba834c15515b6bc80ebf3650686a3e98ac2629e9997361b68",
+      "bytes": 1774
+    },
+    "vega-lite.svg": {
+      "sha256": "4ca3c5e7762555ee50406a8243f4d6377b7176937f94457b290f81ee0d30b5ff",
+      "bytes": 8079
+    },
+    "ggaction.svg": {
+      "sha256": "9088013cc58709295350ebf9de0aad6d008ec561e911f27034bc2f092e512d8f",
+      "bytes": 7393
+    }
+  }
+}

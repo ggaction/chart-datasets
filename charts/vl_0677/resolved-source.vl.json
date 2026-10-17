@@ -1,0 +1,1076 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Bank of England interest rates (1975-2022)",
+    "subtitle": [
+      "Bank Rate (%). Source: BoE.",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "#cbc7cf",
+    "subtitleColor": "#cbc7cf"
+  },
+  "width": 450,
+  "height": 300,
+  "config": {
+    "background": "#122b39",
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "date": "2022-09-22",
+        "BankRate": "2.25"
+      },
+      {
+        "date": "2022-08-04",
+        "BankRate": "1.75"
+      },
+      {
+        "date": "2022-06-16",
+        "BankRate": "1.25"
+      },
+      {
+        "date": "2022-05-05",
+        "BankRate": "1"
+      },
+      {
+        "date": "2022-03-17",
+        "BankRate": "0.75"
+      },
+      {
+        "date": "2022-02-03",
+        "BankRate": "0.5"
+      },
+      {
+        "date": "2021-12-16",
+        "BankRate": "0.25"
+      },
+      {
+        "date": "2020-03-19",
+        "BankRate": "0.1"
+      },
+      {
+        "date": "2020-03-11",
+        "BankRate": "0.25"
+      },
+      {
+        "date": "2018-08-02",
+        "BankRate": "0.75"
+      },
+      {
+        "date": "2017-11-02",
+        "BankRate": "0.5"
+      },
+      {
+        "date": "2016-08-04",
+        "BankRate": "0.25"
+      },
+      {
+        "date": "2009-03-05",
+        "BankRate": "0.5"
+      },
+      {
+        "date": "2009-02-05",
+        "BankRate": "1"
+      },
+      {
+        "date": "2009-01-08",
+        "BankRate": "1.5"
+      },
+      {
+        "date": "2008-12-04",
+        "BankRate": "2"
+      },
+      {
+        "date": "2008-11-06",
+        "BankRate": "3"
+      },
+      {
+        "date": "2008-10-08",
+        "BankRate": "4.5"
+      },
+      {
+        "date": "2008-04-10",
+        "BankRate": "5"
+      },
+      {
+        "date": "2008-02-07",
+        "BankRate": "5.25"
+      },
+      {
+        "date": "2007-12-06",
+        "BankRate": "5.5"
+      },
+      {
+        "date": "2007-07-05",
+        "BankRate": "5.75"
+      },
+      {
+        "date": "2007-05-10",
+        "BankRate": "5.5"
+      },
+      {
+        "date": "2007-01-11",
+        "BankRate": "5.25"
+      },
+      {
+        "date": "2006-11-09",
+        "BankRate": "5"
+      },
+      {
+        "date": "2006-08-03",
+        "BankRate": "4.75"
+      },
+      {
+        "date": "2005-08-04",
+        "BankRate": "4.5"
+      },
+      {
+        "date": "2004-08-05",
+        "BankRate": "4.75"
+      },
+      {
+        "date": "2004-06-10",
+        "BankRate": "4.5"
+      },
+      {
+        "date": "2004-05-06",
+        "BankRate": "4.25"
+      },
+      {
+        "date": "2004-02-05",
+        "BankRate": "4"
+      },
+      {
+        "date": "2003-11-06",
+        "BankRate": "3.75"
+      },
+      {
+        "date": "2003-07-10",
+        "BankRate": "3.5"
+      },
+      {
+        "date": "2003-02-06",
+        "BankRate": "3.75"
+      },
+      {
+        "date": "2001-11-08",
+        "BankRate": "4"
+      },
+      {
+        "date": "2001-10-04",
+        "BankRate": "4.5"
+      },
+      {
+        "date": "2001-09-18",
+        "BankRate": "4.75"
+      },
+      {
+        "date": "2001-08-02",
+        "BankRate": "5"
+      },
+      {
+        "date": "2001-05-10",
+        "BankRate": "5.25"
+      },
+      {
+        "date": "2001-04-05",
+        "BankRate": "5.5"
+      },
+      {
+        "date": "2001-02-08",
+        "BankRate": "5.75"
+      },
+      {
+        "date": "2000-02-10",
+        "BankRate": "6"
+      },
+      {
+        "date": "2000-01-13",
+        "BankRate": "5.75"
+      },
+      {
+        "date": "1999-11-04",
+        "BankRate": "5.5"
+      },
+      {
+        "date": "1999-09-08",
+        "BankRate": "5.25"
+      },
+      {
+        "date": "1999-06-10",
+        "BankRate": "5"
+      },
+      {
+        "date": "1999-04-08",
+        "BankRate": "5.25"
+      },
+      {
+        "date": "1999-02-04",
+        "BankRate": "5.5"
+      },
+      {
+        "date": "1999-01-07",
+        "BankRate": "6"
+      },
+      {
+        "date": "1998-12-10",
+        "BankRate": "6.25"
+      },
+      {
+        "date": "1998-11-05",
+        "BankRate": "6.75"
+      },
+      {
+        "date": "1998-10-08",
+        "BankRate": "7.25"
+      },
+      {
+        "date": "1998-06-04",
+        "BankRate": "7.5"
+      },
+      {
+        "date": "1997-11-06",
+        "BankRate": "7.25"
+      },
+      {
+        "date": "1997-08-07",
+        "BankRate": "7"
+      },
+      {
+        "date": "1997-07-10",
+        "BankRate": "6.75"
+      },
+      {
+        "date": "1997-06-06",
+        "BankRate": "6.5"
+      },
+      {
+        "date": "1997-05-06",
+        "BankRate": "6.25"
+      },
+      {
+        "date": "1996-10-30",
+        "BankRate": "5.94"
+      },
+      {
+        "date": "1996-06-06",
+        "BankRate": "5.69"
+      },
+      {
+        "date": "1996-03-08",
+        "BankRate": "5.94"
+      },
+      {
+        "date": "1996-01-18",
+        "BankRate": "6.13"
+      },
+      {
+        "date": "1995-12-13",
+        "BankRate": "6.38"
+      },
+      {
+        "date": "1995-02-02",
+        "BankRate": "6.63"
+      },
+      {
+        "date": "1994-12-07",
+        "BankRate": "6.13"
+      },
+      {
+        "date": "1994-09-12",
+        "BankRate": "5.63"
+      },
+      {
+        "date": "1994-02-08",
+        "BankRate": "5.13"
+      },
+      {
+        "date": "1993-11-23",
+        "BankRate": "5.38"
+      },
+      {
+        "date": "1993-01-26",
+        "BankRate": "5.88"
+      },
+      {
+        "date": "1992-11-13",
+        "BankRate": "6.88"
+      },
+      {
+        "date": "1992-10-16",
+        "BankRate": "7.88"
+      },
+      {
+        "date": "1992-09-22",
+        "BankRate": "8.88"
+      },
+      {
+        "date": "1992-05-05",
+        "BankRate": "9.88"
+      },
+      {
+        "date": "1991-09-04",
+        "BankRate": "10.38"
+      },
+      {
+        "date": "1991-07-12",
+        "BankRate": "10.88"
+      },
+      {
+        "date": "1991-05-24",
+        "BankRate": "11.38"
+      },
+      {
+        "date": "1991-04-12",
+        "BankRate": "11.88"
+      },
+      {
+        "date": "1991-03-22",
+        "BankRate": "12.38"
+      },
+      {
+        "date": "1991-02-27",
+        "BankRate": "12.88"
+      },
+      {
+        "date": "1991-02-13",
+        "BankRate": "13.38"
+      },
+      {
+        "date": "1990-10-08",
+        "BankRate": "13.88"
+      },
+      {
+        "date": "1989-10-06",
+        "BankRate": "14.88"
+      },
+      {
+        "date": "1989-09-08",
+        "BankRate": "13.75"
+      },
+      {
+        "date": "1989-09-04",
+        "BankRate": "13.88"
+      },
+      {
+        "date": "1989-08-31",
+        "BankRate": "13.84"
+      },
+      {
+        "date": "1989-05-25",
+        "BankRate": "13.75"
+      },
+      {
+        "date": "1988-11-25",
+        "BankRate": "12.88"
+      },
+      {
+        "date": "1988-08-25",
+        "BankRate": "11.88"
+      },
+      {
+        "date": "1988-08-08",
+        "BankRate": "10.88"
+      },
+      {
+        "date": "1988-07-21",
+        "BankRate": "10.38"
+      },
+      {
+        "date": "1988-07-07",
+        "BankRate": "9.88"
+      },
+      {
+        "date": "1988-06-24",
+        "BankRate": "8.88"
+      },
+      {
+        "date": "1988-06-10",
+        "BankRate": "8.38"
+      },
+      {
+        "date": "1988-06-03",
+        "BankRate": "7.88"
+      },
+      {
+        "date": "1988-05-17",
+        "BankRate": "7.38"
+      },
+      {
+        "date": "1988-04-08",
+        "BankRate": "7.88"
+      },
+      {
+        "date": "1988-03-17",
+        "BankRate": "8.38"
+      },
+      {
+        "date": "1988-02-01",
+        "BankRate": "8.88"
+      },
+      {
+        "date": "1987-12-03",
+        "BankRate": "8.38"
+      },
+      {
+        "date": "1987-11-04",
+        "BankRate": "8.88"
+      },
+      {
+        "date": "1987-10-23",
+        "BankRate": "9.38"
+      },
+      {
+        "date": "1987-08-06",
+        "BankRate": "9.88"
+      },
+      {
+        "date": "1987-05-08",
+        "BankRate": "8.88"
+      },
+      {
+        "date": "1987-04-28",
+        "BankRate": "9.38"
+      },
+      {
+        "date": "1987-03-18",
+        "BankRate": "9.88"
+      },
+      {
+        "date": "1987-03-09",
+        "BankRate": "10.38"
+      },
+      {
+        "date": "1986-10-15",
+        "BankRate": "10.88"
+      },
+      {
+        "date": "1986-05-23",
+        "BankRate": "9.88"
+      },
+      {
+        "date": "1986-04-18",
+        "BankRate": "10.38"
+      },
+      {
+        "date": "1986-04-11",
+        "BankRate": "10.88"
+      },
+      {
+        "date": "1986-03-19",
+        "BankRate": "11.38"
+      },
+      {
+        "date": "1986-01-15",
+        "BankRate": "12.38"
+      },
+      {
+        "date": "1985-07-26",
+        "BankRate": "11.38"
+      },
+      {
+        "date": "1985-07-11",
+        "BankRate": "11.88"
+      },
+      {
+        "date": "1985-04-19",
+        "BankRate": "12.38"
+      },
+      {
+        "date": "1985-03-28",
+        "BankRate": "12.88"
+      },
+      {
+        "date": "1985-03-20",
+        "BankRate": "13.38"
+      },
+      {
+        "date": "1985-01-28",
+        "BankRate": "13.88"
+      },
+      {
+        "date": "1985-01-14",
+        "BankRate": "11.88"
+      },
+      {
+        "date": "1984-11-23",
+        "BankRate": "9.5"
+      },
+      {
+        "date": "1984-11-19",
+        "BankRate": "9.75"
+      },
+      {
+        "date": "1984-11-05",
+        "BankRate": "10"
+      },
+      {
+        "date": "1984-08-17",
+        "BankRate": "10.5"
+      },
+      {
+        "date": "1984-08-16",
+        "BankRate": "10.75"
+      },
+      {
+        "date": "1984-08-09",
+        "BankRate": "11"
+      },
+      {
+        "date": "1984-08-08",
+        "BankRate": "11.5"
+      },
+      {
+        "date": "1984-07-11",
+        "BankRate": "12"
+      },
+      {
+        "date": "1984-07-06",
+        "BankRate": "10"
+      },
+      {
+        "date": "1984-06-29",
+        "BankRate": "8.88"
+      },
+      {
+        "date": "1984-05-10",
+        "BankRate": "9.06"
+      },
+      {
+        "date": "1984-03-14",
+        "BankRate": "8.56"
+      },
+      {
+        "date": "1984-03-07",
+        "BankRate": "8.81"
+      },
+      {
+        "date": "1983-10-03",
+        "BankRate": "9.06"
+      },
+      {
+        "date": "1983-08-10",
+        "BankRate": "9.56"
+      },
+      {
+        "date": "1983-08-09",
+        "BankRate": "9.44"
+      },
+      {
+        "date": "1983-06-14",
+        "BankRate": "9.56"
+      },
+      {
+        "date": "1983-06-13",
+        "BankRate": "9.81"
+      },
+      {
+        "date": "1983-04-14",
+        "BankRate": "10.06"
+      },
+      {
+        "date": "1983-04-13",
+        "BankRate": "10.31"
+      },
+      {
+        "date": "1983-03-15",
+        "BankRate": "10.56"
+      },
+      {
+        "date": "1983-01-12",
+        "BankRate": "11"
+      },
+      {
+        "date": "1982-11-26",
+        "BankRate": "10"
+      },
+      {
+        "date": "1982-11-02",
+        "BankRate": "9.13"
+      },
+      {
+        "date": "1982-11-01",
+        "BankRate": "9.38"
+      },
+      {
+        "date": "1982-10-12",
+        "BankRate": "9.63"
+      },
+      {
+        "date": "1982-09-30",
+        "BankRate": "10.13"
+      },
+      {
+        "date": "1982-09-29",
+        "BankRate": "10.25"
+      },
+      {
+        "date": "1982-09-28",
+        "BankRate": "10.38"
+      },
+      {
+        "date": "1982-09-27",
+        "BankRate": "10.5"
+      },
+      {
+        "date": "1982-08-27",
+        "BankRate": "10.63"
+      },
+      {
+        "date": "1982-08-26",
+        "BankRate": "10.88"
+      },
+      {
+        "date": "1982-08-25",
+        "BankRate": "11"
+      },
+      {
+        "date": "1982-08-24",
+        "BankRate": "11.13"
+      },
+      {
+        "date": "1982-08-17",
+        "BankRate": "11.25"
+      },
+      {
+        "date": "1982-08-16",
+        "BankRate": "11.38"
+      },
+      {
+        "date": "1982-08-04",
+        "BankRate": "11.5"
+      },
+      {
+        "date": "1982-08-02",
+        "BankRate": "11.56"
+      },
+      {
+        "date": "1982-07-30",
+        "BankRate": "11.63"
+      },
+      {
+        "date": "1982-07-29",
+        "BankRate": "11.75"
+      },
+      {
+        "date": "1982-07-28",
+        "BankRate": "11.81"
+      },
+      {
+        "date": "1982-07-26",
+        "BankRate": "11.94"
+      },
+      {
+        "date": "1982-07-21",
+        "BankRate": "12.06"
+      },
+      {
+        "date": "1982-07-13",
+        "BankRate": "12.13"
+      },
+      {
+        "date": "1982-07-12",
+        "BankRate": "12.25"
+      },
+      {
+        "date": "1982-07-09",
+        "BankRate": "12.5"
+      },
+      {
+        "date": "1982-06-08",
+        "BankRate": "12.63"
+      },
+      {
+        "date": "1982-04-20",
+        "BankRate": "13.13"
+      },
+      {
+        "date": "1982-04-19",
+        "BankRate": "13"
+      },
+      {
+        "date": "1982-04-16",
+        "BankRate": "13.13"
+      },
+      {
+        "date": "1982-03-10",
+        "BankRate": "13.25"
+      },
+      {
+        "date": "1982-02-25",
+        "BankRate": "13.63"
+      },
+      {
+        "date": "1982-02-22",
+        "BankRate": "13.81"
+      },
+      {
+        "date": "1982-01-22",
+        "BankRate": "13.88"
+      },
+      {
+        "date": "1982-01-21",
+        "BankRate": "14"
+      },
+      {
+        "date": "1982-01-20",
+        "BankRate": "14.13"
+      },
+      {
+        "date": "1982-01-19",
+        "BankRate": "14.25"
+      },
+      {
+        "date": "1982-01-18",
+        "BankRate": "14.31"
+      },
+      {
+        "date": "1981-12-04",
+        "BankRate": "14.38"
+      },
+      {
+        "date": "1981-11-25",
+        "BankRate": "14.56"
+      },
+      {
+        "date": "1981-11-09",
+        "BankRate": "14.63"
+      },
+      {
+        "date": "1981-11-06",
+        "BankRate": "15.06"
+      },
+      {
+        "date": "1981-10-28",
+        "BankRate": "15.13"
+      },
+      {
+        "date": "1981-10-12",
+        "BankRate": "15"
+      },
+      {
+        "date": "1981-09-15",
+        "BankRate": "14"
+      },
+      {
+        "date": "1981-08-25",
+        "BankRate": "12.69"
+      },
+      {
+        "date": "1981-03-11",
+        "BankRate": "12"
+      },
+      {
+        "date": "1980-11-25",
+        "BankRate": "14"
+      },
+      {
+        "date": "1980-07-03",
+        "BankRate": "16"
+      },
+      {
+        "date": "1979-11-15",
+        "BankRate": "17"
+      },
+      {
+        "date": "1979-06-13",
+        "BankRate": "14"
+      },
+      {
+        "date": "1979-04-05",
+        "BankRate": "12"
+      },
+      {
+        "date": "1979-03-01",
+        "BankRate": "13"
+      },
+      {
+        "date": "1979-02-08",
+        "BankRate": "14"
+      },
+      {
+        "date": "1978-11-09",
+        "BankRate": "12.5"
+      },
+      {
+        "date": "1978-06-08",
+        "BankRate": "10"
+      },
+      {
+        "date": "1978-05-15",
+        "BankRate": "9"
+      },
+      {
+        "date": "1978-05-08",
+        "BankRate": "8.75"
+      },
+      {
+        "date": "1978-04-12",
+        "BankRate": "7.5"
+      },
+      {
+        "date": "1978-01-09",
+        "BankRate": "6.5"
+      },
+      {
+        "date": "1977-11-28",
+        "BankRate": "7"
+      },
+      {
+        "date": "1977-10-17",
+        "BankRate": "5"
+      },
+      {
+        "date": "1977-10-10",
+        "BankRate": "5.5"
+      },
+      {
+        "date": "1977-09-19",
+        "BankRate": "6"
+      },
+      {
+        "date": "1977-09-12",
+        "BankRate": "6.5"
+      },
+      {
+        "date": "1977-08-15",
+        "BankRate": "7"
+      },
+      {
+        "date": "1977-08-08",
+        "BankRate": "7.5"
+      },
+      {
+        "date": "1977-05-16",
+        "BankRate": "8"
+      },
+      {
+        "date": "1977-05-02",
+        "BankRate": "8.25"
+      },
+      {
+        "date": "1977-04-25",
+        "BankRate": "8.75"
+      },
+      {
+        "date": "1977-04-18",
+        "BankRate": "9"
+      },
+      {
+        "date": "1977-04-12",
+        "BankRate": "9.25"
+      },
+      {
+        "date": "1977-03-31",
+        "BankRate": "9.5"
+      },
+      {
+        "date": "1977-03-21",
+        "BankRate": "10.5"
+      },
+      {
+        "date": "1977-03-10",
+        "BankRate": "11"
+      },
+      {
+        "date": "1977-02-03",
+        "BankRate": "12"
+      },
+      {
+        "date": "1977-01-31",
+        "BankRate": "12.25"
+      },
+      {
+        "date": "1977-01-24",
+        "BankRate": "13.25"
+      },
+      {
+        "date": "1977-01-10",
+        "BankRate": "14"
+      },
+      {
+        "date": "1976-12-29",
+        "BankRate": "14.25"
+      },
+      {
+        "date": "1976-12-20",
+        "BankRate": "14.5"
+      },
+      {
+        "date": "1976-11-22",
+        "BankRate": "14.75"
+      },
+      {
+        "date": "1976-10-07",
+        "BankRate": "15"
+      },
+      {
+        "date": "1976-09-13",
+        "BankRate": "13"
+      },
+      {
+        "date": "1976-05-24",
+        "BankRate": "11.5"
+      },
+      {
+        "date": "1976-04-26",
+        "BankRate": "10.5"
+      },
+      {
+        "date": "1976-03-08",
+        "BankRate": "9"
+      },
+      {
+        "date": "1976-03-01",
+        "BankRate": "9.25"
+      },
+      {
+        "date": "1976-02-09",
+        "BankRate": "9.5"
+      },
+      {
+        "date": "1976-02-02",
+        "BankRate": "10"
+      },
+      {
+        "date": "1976-01-26",
+        "BankRate": "10.5"
+      },
+      {
+        "date": "1976-01-19",
+        "BankRate": "10.75"
+      },
+      {
+        "date": "1976-01-05",
+        "BankRate": "11"
+      },
+      {
+        "date": "1975-12-29",
+        "BankRate": "11.25"
+      },
+      {
+        "date": "1975-12-01",
+        "BankRate": "11.5"
+      },
+      {
+        "date": "1975-11-17",
+        "BankRate": "11.75"
+      },
+      {
+        "date": "1975-10-06",
+        "BankRate": "12"
+      },
+      {
+        "date": "1975-07-28",
+        "BankRate": "11"
+      },
+      {
+        "date": "1975-05-05",
+        "BankRate": "10"
+      },
+      {
+        "date": "1975-04-21",
+        "BankRate": "9.75"
+      },
+      {
+        "date": "1975-03-24",
+        "BankRate": "10"
+      },
+      {
+        "date": "1975-03-10",
+        "BankRate": "10.25"
+      },
+      {
+        "date": "1975-02-17",
+        "BankRate": "10.5"
+      },
+      {
+        "date": "1975-02-10",
+        "BankRate": "10.75"
+      },
+      {
+        "date": "1975-01-27",
+        "BankRate": "11"
+      },
+      {
+        "date": "1975-01-20",
+        "BankRate": "11.25"
+      }
+    ],
+    "format": {
+      "parse": {
+        "date": "date"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "year(datum.date)",
+      "as": "year"
+    },
+    {
+      "filter": "datum.year>=minYear"
+    },
+    {
+      "filter": "datum.year<=maxYear"
+    }
+  ],
+  "params": [
+    {
+      "name": "minYear",
+      "value": 2005,
+      "bind": {
+        "input": "range",
+        "min": 1975,
+        "max": 2022,
+        "step": 1,
+        "name": "Start year:"
+      }
+    },
+    {
+      "name": "maxYear",
+      "value": 2022,
+      "bind": {
+        "input": "range",
+        "min": 1975,
+        "max": 2022,
+        "step": 1,
+        "name": "End year:"
+      }
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "color": "#ff9a00",
+    "interpolate": "step",
+    "width": 10,
+    "strokeWidth": 2,
+    "opacity": 1
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null,
+      "axis": {
+        "grid": false,
+        "labelColor": "#cbc7cf"
+      }
+    },
+    "y": {
+      "field": "BankRate",
+      "type": "quantitative",
+      "title": null,
+      "axis": {
+        "grid": false,
+        "labelColor": "#cbc7cf"
+      }
+    }
+  }
+}

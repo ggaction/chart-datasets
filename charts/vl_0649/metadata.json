@@ -1,0 +1,124 @@
+{
+  "id": "vl_0649",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "28a22f7c8b62ac05407ae1a548350ff2591782c04960f42c98c2e6e230549d9a",
+      "actions": 15,
+      "topOptions": 37
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "bb9359dd54f14312b15e5c7b9d9c828c7cac2bb55c4357052ea953dae48b34e7",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a440d2164f9406fd9fe95130c736ea65f446414914236717c12696d22424b223",
+      "actions": 18,
+      "topOptions": 44
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "6e2b576b9cfa8024659c1c3706e1f01947117470bba9c9be75cbce64adb4b612",
+      "actions": 18,
+      "topOptions": 45
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7b2a6e2f119fd82dba473c7e5da0286bcbccf2a72c7bf6fa02739f82a2f2e0eb",
+      "actions": 19,
+      "topOptions": 46
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "26d9c0236c1d2b8743903ab615a624ffb54a89260c9c15eec7e18d7f4147789e",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "3740fee667b673fc79a0ebf521db9fa9be35788c007598fc0f6914925e4e2c07",
+      "actions": 25,
+      "topOptions": 50
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "13a2849b23eaf0879928c29f7c22041e1f397e9598db02b7389318af59e86c4a",
+      "actions": 25,
+      "topOptions": 51
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/US_Rand_DrugExpenditures.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight distinct GLM-authored stages individually reviewed and source/family/DOM render validated; source innerplot and meaningful highlevel-to-focused ownership progression retained, no padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "7e1772326df357424ad760e9b54f567531fde7f167842d0d499ef6becf6cecba",
+      "bytes": 1223
+    },
+    "data.json": {
+      "sha256": "f0e10db9ef7b693c8c112afec65a36ec016ebfdcc8a51c4cf34ebd294ae4e1c7",
+      "bytes": 2029
+    },
+    "resolved-source.vl.json": {
+      "sha256": "3b642d8aac7dc8bbaade3a514eb2a7c480b7af3b03ce516a63b10e54dc384a2b",
+      "bytes": 3585
+    },
+    "G1.gg.mjs": {
+      "sha256": "28a22f7c8b62ac05407ae1a548350ff2591782c04960f42c98c2e6e230549d9a",
+      "bytes": 2436
+    },
+    "G2.gg.mjs": {
+      "sha256": "bb9359dd54f14312b15e5c7b9d9c828c7cac2bb55c4357052ea953dae48b34e7",
+      "bytes": 2354
+    },
+    "G3.gg.mjs": {
+      "sha256": "a440d2164f9406fd9fe95130c736ea65f446414914236717c12696d22424b223",
+      "bytes": 2330
+    },
+    "G4.gg.mjs": {
+      "sha256": "6e2b576b9cfa8024659c1c3706e1f01947117470bba9c9be75cbce64adb4b612",
+      "bytes": 2346
+    },
+    "G5.gg.mjs": {
+      "sha256": "7b2a6e2f119fd82dba473c7e5da0286bcbccf2a72c7bf6fa02739f82a2f2e0eb",
+      "bytes": 2376
+    },
+    "G6.gg.mjs": {
+      "sha256": "26d9c0236c1d2b8743903ab615a624ffb54a89260c9c15eec7e18d7f4147789e",
+      "bytes": 2488
+    },
+    "G7.gg.mjs": {
+      "sha256": "3740fee667b673fc79a0ebf521db9fa9be35788c007598fc0f6914925e4e2c07",
+      "bytes": 2488
+    },
+    "G8.gg.mjs": {
+      "sha256": "13a2849b23eaf0879928c29f7c22041e1f397e9598db02b7389318af59e86c4a",
+      "bytes": 2507
+    },
+    "vega-lite.svg": {
+      "sha256": "3b72b3b7185608be9eaec9e4a3c1d908c6ca9383c70802e449fcc6fa0f150a22",
+      "bytes": 20180
+    },
+    "ggaction.svg": {
+      "sha256": "4aee101474462716f37d4bee2329acb79540675b0f7e357ae5422eb6ae60f58e",
+      "bytes": 15330
+    }
+  }
+}

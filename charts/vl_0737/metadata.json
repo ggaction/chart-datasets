@@ -1,0 +1,100 @@
+{
+  "id": "vl_0737",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1e0a70930d8f8f04f81a27d00f0e7f990505c4068e02ca4baceceab5f5d1b254",
+      "actions": 8,
+      "topOptions": 21
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "65e14d2c38da85f132e9298ea16bd20ffe047a32eca28c6947dc187f309158a9",
+      "actions": 9,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "bb19467c0d69db5aa794187410eed991f3ee3bfd985b3e53407c7fa350926a4f",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "cbbc114dd87e115d0f9fbd0e264ad7bf4e0192cb9aa99f17d61409c92f211031",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9e0156a04f5ef96df9911730ca6c7cb8f9af97fd509452727dae30baf2e569bf",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3a1ee558388648e4e5348780d2650f8dc10839678fabc72fd10a633f592898b6",
+      "actions": 12,
+      "topOptions": 24
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Six distinct stages preserve separate positionaltheta/color domains, source donut geometry and title, dedicated legend creation, whole-legend appearance and focused symbol/title editors. Remaining options already belong to required public owners; no further meaningful split."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "a9349813f82d5e75b137646cd14d68d0b4edd3dc5814924e62f7767c461818d1",
+      "bytes": 1292
+    },
+    "data.json": {
+      "sha256": "de738da08d70403d2367e7bd937f131c23c6408dd9760ac1b0df01dbaa179185",
+      "bytes": 293
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a9349813f82d5e75b137646cd14d68d0b4edd3dc5814924e62f7767c461818d1",
+      "bytes": 1292
+    },
+    "G1.gg.mjs": {
+      "sha256": "1e0a70930d8f8f04f81a27d00f0e7f990505c4068e02ca4baceceab5f5d1b254",
+      "bytes": 1744
+    },
+    "G2.gg.mjs": {
+      "sha256": "65e14d2c38da85f132e9298ea16bd20ffe047a32eca28c6947dc187f309158a9",
+      "bytes": 1721
+    },
+    "G3.gg.mjs": {
+      "sha256": "bb19467c0d69db5aa794187410eed991f3ee3bfd985b3e53407c7fa350926a4f",
+      "bytes": 1712
+    },
+    "G4.gg.mjs": {
+      "sha256": "cbbc114dd87e115d0f9fbd0e264ad7bf4e0192cb9aa99f17d61409c92f211031",
+      "bytes": 1611
+    },
+    "G5.gg.mjs": {
+      "sha256": "9e0156a04f5ef96df9911730ca6c7cb8f9af97fd509452727dae30baf2e569bf",
+      "bytes": 1657
+    },
+    "G6.gg.mjs": {
+      "sha256": "3a1ee558388648e4e5348780d2650f8dc10839678fabc72fd10a633f592898b6",
+      "bytes": 1677
+    },
+    "vega-lite.svg": {
+      "sha256": "e3d2e3a1bd971523a530a00fefbf4e7304984e50359eddeb790f85be7eb11cb0",
+      "bytes": 6440
+    },
+    "ggaction.svg": {
+      "sha256": "97d6fac9f5e0e0994b3a70ef2e3beba8d03bc62b9465248b477f987f6851264a",
+      "bytes": 3904
+    }
+  }
+}

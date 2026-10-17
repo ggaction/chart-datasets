@@ -1,0 +1,1100 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Bank of England Bank Rate (1975-2022)",
+    "subtitle": [
+      "Source: Porperty Investment Project",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black",
+    "subtitleColor": "black"
+  },
+  "width": "container",
+  "height": 300,
+  "config": {
+    "background": "#122b39",
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "Date": "20-Jan-75",
+        "Bank Rate": "0.113"
+      },
+      {
+        "Date": "27-Jan-75",
+        "Bank Rate": "0.110"
+      },
+      {
+        "Date": "10-Feb-75",
+        "Bank Rate": "0.108"
+      },
+      {
+        "Date": "17-Feb-75",
+        "Bank Rate": "0.105"
+      },
+      {
+        "Date": "10-Mar-75",
+        "Bank Rate": "0.103"
+      },
+      {
+        "Date": "24-Mar-75",
+        "Bank Rate": "0.100"
+      },
+      {
+        "Date": "21-Apr-75",
+        "Bank Rate": "0.098"
+      },
+      {
+        "Date": "05-May-75",
+        "Bank Rate": "0.100"
+      },
+      {
+        "Date": "28-Jul-75",
+        "Bank Rate": "0.110"
+      },
+      {
+        "Date": "06-Oct-75",
+        "Bank Rate": "0.120"
+      },
+      {
+        "Date": "17-Nov-75",
+        "Bank Rate": "0.118"
+      },
+      {
+        "Date": "01-Dec-75",
+        "Bank Rate": "0.115"
+      },
+      {
+        "Date": "29-Dec-75",
+        "Bank Rate": "0.113"
+      },
+      {
+        "Date": "05-Jan-76",
+        "Bank Rate": "0.110"
+      },
+      {
+        "Date": "19-Jan-76",
+        "Bank Rate": "0.108"
+      },
+      {
+        "Date": "26-Jan-76",
+        "Bank Rate": "0.105"
+      },
+      {
+        "Date": "02-Feb-76",
+        "Bank Rate": "0.100"
+      },
+      {
+        "Date": "09-Feb-76",
+        "Bank Rate": "0.095"
+      },
+      {
+        "Date": "01-Mar-76",
+        "Bank Rate": "0.093"
+      },
+      {
+        "Date": "08-Mar-76",
+        "Bank Rate": "0.090"
+      },
+      {
+        "Date": "26-Apr-76",
+        "Bank Rate": "0.105"
+      },
+      {
+        "Date": "24-May-76",
+        "Bank Rate": "0.115"
+      },
+      {
+        "Date": "13-Sep-76",
+        "Bank Rate": "0.130"
+      },
+      {
+        "Date": "07-Oct-76",
+        "Bank Rate": "0.150"
+      },
+      {
+        "Date": "22-Nov-76",
+        "Bank Rate": "0.148"
+      },
+      {
+        "Date": "20-Dec-76",
+        "Bank Rate": "0.145"
+      },
+      {
+        "Date": "29-Dec-76",
+        "Bank Rate": "0.143"
+      },
+      {
+        "Date": "10-Jan-77",
+        "Bank Rate": "0.140"
+      },
+      {
+        "Date": "24-Jan-77",
+        "Bank Rate": "0.133"
+      },
+      {
+        "Date": "31-Jan-77",
+        "Bank Rate": "0.123"
+      },
+      {
+        "Date": "03-Feb-77",
+        "Bank Rate": "0.120"
+      },
+      {
+        "Date": "10-Mar-77",
+        "Bank Rate": "0.110"
+      },
+      {
+        "Date": "21-Mar-77",
+        "Bank Rate": "0.105"
+      },
+      {
+        "Date": "31-Mar-77",
+        "Bank Rate": "0.095"
+      },
+      {
+        "Date": "12-Apr-77",
+        "Bank Rate": "0.093"
+      },
+      {
+        "Date": "18-Apr-77",
+        "Bank Rate": "0.090"
+      },
+      {
+        "Date": "25-Apr-77",
+        "Bank Rate": "0.088"
+      },
+      {
+        "Date": "02-May-77",
+        "Bank Rate": "0.083"
+      },
+      {
+        "Date": "16-May-77",
+        "Bank Rate": "0.080"
+      },
+      {
+        "Date": "08-Aug-77",
+        "Bank Rate": "0.075"
+      },
+      {
+        "Date": "15-Aug-77",
+        "Bank Rate": "0.070"
+      },
+      {
+        "Date": "12-Sep-77",
+        "Bank Rate": "0.065"
+      },
+      {
+        "Date": "19-Sep-77",
+        "Bank Rate": "0.060"
+      },
+      {
+        "Date": "10-Oct-77",
+        "Bank Rate": "0.055"
+      },
+      {
+        "Date": "17-Oct-77",
+        "Bank Rate": "0.050"
+      },
+      {
+        "Date": "28-Nov-77",
+        "Bank Rate": "0.070"
+      },
+      {
+        "Date": "09-Jan-78",
+        "Bank Rate": "0.065"
+      },
+      {
+        "Date": "12-Apr-78",
+        "Bank Rate": "0.075"
+      },
+      {
+        "Date": "08-May-78",
+        "Bank Rate": "0.088"
+      },
+      {
+        "Date": "15-May-78",
+        "Bank Rate": "0.090"
+      },
+      {
+        "Date": "08-Jun-78",
+        "Bank Rate": "0.100"
+      },
+      {
+        "Date": "09-Nov-78",
+        "Bank Rate": "0.125"
+      },
+      {
+        "Date": "08-Feb-79",
+        "Bank Rate": "0.140"
+      },
+      {
+        "Date": "01-Mar-79",
+        "Bank Rate": "0.130"
+      },
+      {
+        "Date": "05-Apr-79",
+        "Bank Rate": "0.120"
+      },
+      {
+        "Date": "13-Jun-79",
+        "Bank Rate": "0.140"
+      },
+      {
+        "Date": "15-Nov-79",
+        "Bank Rate": "0.170"
+      },
+      {
+        "Date": "03-Jul-80",
+        "Bank Rate": "0.160"
+      },
+      {
+        "Date": "25-Nov-80",
+        "Bank Rate": "0.140"
+      },
+      {
+        "Date": "11-Mar-81",
+        "Bank Rate": "0.120"
+      },
+      {
+        "Date": "25-Aug-81",
+        "Bank Rate": "0.127"
+      },
+      {
+        "Date": "15-Sep-81",
+        "Bank Rate": "0.140"
+      },
+      {
+        "Date": "12-Oct-81",
+        "Bank Rate": "0.150"
+      },
+      {
+        "Date": "28-Oct-81",
+        "Bank Rate": "0.151"
+      },
+      {
+        "Date": "06-Nov-81",
+        "Bank Rate": "0.151"
+      },
+      {
+        "Date": "09-Nov-81",
+        "Bank Rate": "0.146"
+      },
+      {
+        "Date": "25-Nov-81",
+        "Bank Rate": "0.146"
+      },
+      {
+        "Date": "04-Dec-81",
+        "Bank Rate": "0.144"
+      },
+      {
+        "Date": "18-Jan-82",
+        "Bank Rate": "0.143"
+      },
+      {
+        "Date": "19-Jan-82",
+        "Bank Rate": "0.143"
+      },
+      {
+        "Date": "20-Jan-82",
+        "Bank Rate": "0.141"
+      },
+      {
+        "Date": "21-Jan-82",
+        "Bank Rate": "0.140"
+      },
+      {
+        "Date": "22-Jan-82",
+        "Bank Rate": "0.139"
+      },
+      {
+        "Date": "22-Feb-82",
+        "Bank Rate": "0.138"
+      },
+      {
+        "Date": "25-Feb-82",
+        "Bank Rate": "0.136"
+      },
+      {
+        "Date": "10-Mar-82",
+        "Bank Rate": "0.133"
+      },
+      {
+        "Date": "16-Apr-82",
+        "Bank Rate": "0.131"
+      },
+      {
+        "Date": "19-Apr-82",
+        "Bank Rate": "0.130"
+      },
+      {
+        "Date": "20-Apr-82",
+        "Bank Rate": "0.131"
+      },
+      {
+        "Date": "08-Jun-82",
+        "Bank Rate": "0.126"
+      },
+      {
+        "Date": "09-Jul-82",
+        "Bank Rate": "0.125"
+      },
+      {
+        "Date": "12-Jul-82",
+        "Bank Rate": "0.123"
+      },
+      {
+        "Date": "13-Jul-82",
+        "Bank Rate": "0.121"
+      },
+      {
+        "Date": "21-Jul-82",
+        "Bank Rate": "0.121"
+      },
+      {
+        "Date": "26-Jul-82",
+        "Bank Rate": "0.119"
+      },
+      {
+        "Date": "28-Jul-82",
+        "Bank Rate": "0.118"
+      },
+      {
+        "Date": "29-Jul-82",
+        "Bank Rate": "0.118"
+      },
+      {
+        "Date": "30-Jul-82",
+        "Bank Rate": "0.116"
+      },
+      {
+        "Date": "02-Aug-82",
+        "Bank Rate": "0.116"
+      },
+      {
+        "Date": "04-Aug-82",
+        "Bank Rate": "0.115"
+      },
+      {
+        "Date": "16-Aug-82",
+        "Bank Rate": "0.114"
+      },
+      {
+        "Date": "17-Aug-82",
+        "Bank Rate": "0.113"
+      },
+      {
+        "Date": "24-Aug-82",
+        "Bank Rate": "0.111"
+      },
+      {
+        "Date": "25-Aug-82",
+        "Bank Rate": "0.110"
+      },
+      {
+        "Date": "26-Aug-82",
+        "Bank Rate": "0.109"
+      },
+      {
+        "Date": "27-Aug-82",
+        "Bank Rate": "0.106"
+      },
+      {
+        "Date": "27-Sep-82",
+        "Bank Rate": "0.105"
+      },
+      {
+        "Date": "28-Sep-82",
+        "Bank Rate": "0.104"
+      },
+      {
+        "Date": "29-Sep-82",
+        "Bank Rate": "0.103"
+      },
+      {
+        "Date": "30-Sep-82",
+        "Bank Rate": "0.101"
+      },
+      {
+        "Date": "12-Oct-82",
+        "Bank Rate": "0.096"
+      },
+      {
+        "Date": "01-Nov-82",
+        "Bank Rate": "0.094"
+      },
+      {
+        "Date": "02-Nov-82",
+        "Bank Rate": "0.091"
+      },
+      {
+        "Date": "26-Nov-82",
+        "Bank Rate": "0.100"
+      },
+      {
+        "Date": "12-Jan-83",
+        "Bank Rate": "0.110"
+      },
+      {
+        "Date": "15-Mar-83",
+        "Bank Rate": "0.106"
+      },
+      {
+        "Date": "13-Apr-83",
+        "Bank Rate": "0.103"
+      },
+      {
+        "Date": "14-Apr-83",
+        "Bank Rate": "0.101"
+      },
+      {
+        "Date": "13-Jun-83",
+        "Bank Rate": "0.098"
+      },
+      {
+        "Date": "14-Jun-83",
+        "Bank Rate": "0.096"
+      },
+      {
+        "Date": "09-Aug-83",
+        "Bank Rate": "0.094"
+      },
+      {
+        "Date": "10-Aug-83",
+        "Bank Rate": "0.096"
+      },
+      {
+        "Date": "03-Oct-83",
+        "Bank Rate": "0.091"
+      },
+      {
+        "Date": "07-Mar-84",
+        "Bank Rate": "0.088"
+      },
+      {
+        "Date": "14-Mar-84",
+        "Bank Rate": "0.086"
+      },
+      {
+        "Date": "10-May-84",
+        "Bank Rate": "0.091"
+      },
+      {
+        "Date": "29-Jun-84",
+        "Bank Rate": "0.089"
+      },
+      {
+        "Date": "06-Jul-84",
+        "Bank Rate": "0.100"
+      },
+      {
+        "Date": "11-Jul-84",
+        "Bank Rate": "0.120"
+      },
+      {
+        "Date": "08-Aug-84",
+        "Bank Rate": "0.115"
+      },
+      {
+        "Date": "09-Aug-84",
+        "Bank Rate": "0.110"
+      },
+      {
+        "Date": "16-Aug-84",
+        "Bank Rate": "0.108"
+      },
+      {
+        "Date": "17-Aug-84",
+        "Bank Rate": "0.105"
+      },
+      {
+        "Date": "05-Nov-84",
+        "Bank Rate": "0.100"
+      },
+      {
+        "Date": "19-Nov-84",
+        "Bank Rate": "0.098"
+      },
+      {
+        "Date": "23-Nov-84",
+        "Bank Rate": "0.095"
+      },
+      {
+        "Date": "14-Jan-85",
+        "Bank Rate": "0.119"
+      },
+      {
+        "Date": "28-Jan-85",
+        "Bank Rate": "0.139"
+      },
+      {
+        "Date": "20-Mar-85",
+        "Bank Rate": "0.134"
+      },
+      {
+        "Date": "28-Mar-85",
+        "Bank Rate": "0.129"
+      },
+      {
+        "Date": "19-Apr-85",
+        "Bank Rate": "0.124"
+      },
+      {
+        "Date": "11-Jul-85",
+        "Bank Rate": "0.119"
+      },
+      {
+        "Date": "26-Jul-85",
+        "Bank Rate": "0.114"
+      },
+      {
+        "Date": "15-Jan-86",
+        "Bank Rate": "0.124"
+      },
+      {
+        "Date": "19-Mar-86",
+        "Bank Rate": "0.114"
+      },
+      {
+        "Date": "11-Apr-86",
+        "Bank Rate": "0.109"
+      },
+      {
+        "Date": "18-Apr-86",
+        "Bank Rate": "0.104"
+      },
+      {
+        "Date": "23-May-86",
+        "Bank Rate": "0.099"
+      },
+      {
+        "Date": "15-Oct-86",
+        "Bank Rate": "0.109"
+      },
+      {
+        "Date": "09-Mar-87",
+        "Bank Rate": "0.104"
+      },
+      {
+        "Date": "18-Mar-87",
+        "Bank Rate": "0.099"
+      },
+      {
+        "Date": "28-Apr-87",
+        "Bank Rate": "0.094"
+      },
+      {
+        "Date": "08-May-87",
+        "Bank Rate": "0.089"
+      },
+      {
+        "Date": "06-Aug-87",
+        "Bank Rate": "0.099"
+      },
+      {
+        "Date": "23-Oct-87",
+        "Bank Rate": "0.094"
+      },
+      {
+        "Date": "04-Nov-87",
+        "Bank Rate": "0.089"
+      },
+      {
+        "Date": "03-Dec-87",
+        "Bank Rate": "0.084"
+      },
+      {
+        "Date": "01-Feb-88",
+        "Bank Rate": "0.089"
+      },
+      {
+        "Date": "17-Mar-88",
+        "Bank Rate": "0.084"
+      },
+      {
+        "Date": "08-Apr-88",
+        "Bank Rate": "0.079"
+      },
+      {
+        "Date": "17-May-88",
+        "Bank Rate": "0.074"
+      },
+      {
+        "Date": "03-Jun-88",
+        "Bank Rate": "0.079"
+      },
+      {
+        "Date": "10-Jun-88",
+        "Bank Rate": "0.084"
+      },
+      {
+        "Date": "24-Jun-88",
+        "Bank Rate": "0.089"
+      },
+      {
+        "Date": "07-Jul-88",
+        "Bank Rate": "0.099"
+      },
+      {
+        "Date": "21-Jul-88",
+        "Bank Rate": "0.104"
+      },
+      {
+        "Date": "08-Aug-88",
+        "Bank Rate": "0.109"
+      },
+      {
+        "Date": "25-Aug-88",
+        "Bank Rate": "0.119"
+      },
+      {
+        "Date": "25-Nov-88",
+        "Bank Rate": "0.129"
+      },
+      {
+        "Date": "25-May-89",
+        "Bank Rate": "0.138"
+      },
+      {
+        "Date": "31-Aug-89",
+        "Bank Rate": "0.138"
+      },
+      {
+        "Date": "04-Sep-89",
+        "Bank Rate": "0.139"
+      },
+      {
+        "Date": "08-Sep-89",
+        "Bank Rate": "0.138"
+      },
+      {
+        "Date": "06-Oct-89",
+        "Bank Rate": "0.149"
+      },
+      {
+        "Date": "08-Oct-90",
+        "Bank Rate": "0.139"
+      },
+      {
+        "Date": "13-Feb-91",
+        "Bank Rate": "0.134"
+      },
+      {
+        "Date": "27-Feb-91",
+        "Bank Rate": "0.129"
+      },
+      {
+        "Date": "22-Mar-91",
+        "Bank Rate": "0.124"
+      },
+      {
+        "Date": "12-Apr-91",
+        "Bank Rate": "0.119"
+      },
+      {
+        "Date": "24-May-91",
+        "Bank Rate": "0.114"
+      },
+      {
+        "Date": "12-Jul-91",
+        "Bank Rate": "0.109"
+      },
+      {
+        "Date": "04-Sep-91",
+        "Bank Rate": "0.104"
+      },
+      {
+        "Date": "05-May-92",
+        "Bank Rate": "0.099"
+      },
+      {
+        "Date": "22-Sep-92",
+        "Bank Rate": "0.089"
+      },
+      {
+        "Date": "16-Oct-92",
+        "Bank Rate": "0.079"
+      },
+      {
+        "Date": "13-Nov-92",
+        "Bank Rate": "0.069"
+      },
+      {
+        "Date": "26-Jan-93",
+        "Bank Rate": "0.059"
+      },
+      {
+        "Date": "23-Nov-93",
+        "Bank Rate": "0.054"
+      },
+      {
+        "Date": "08-Feb-94",
+        "Bank Rate": "0.051"
+      },
+      {
+        "Date": "12-Sep-94",
+        "Bank Rate": "0.056"
+      },
+      {
+        "Date": "07-Dec-94",
+        "Bank Rate": "0.061"
+      },
+      {
+        "Date": "02-Feb-95",
+        "Bank Rate": "0.066"
+      },
+      {
+        "Date": "13-Dec-95",
+        "Bank Rate": "0.064"
+      },
+      {
+        "Date": "18-Jan-96",
+        "Bank Rate": "0.061"
+      },
+      {
+        "Date": "08-Mar-96",
+        "Bank Rate": "0.059"
+      },
+      {
+        "Date": "06-Jun-96",
+        "Bank Rate": "0.057"
+      },
+      {
+        "Date": "30-Oct-96",
+        "Bank Rate": "0.059"
+      },
+      {
+        "Date": "06-May-97",
+        "Bank Rate": "0.063"
+      },
+      {
+        "Date": "06-Jun-97",
+        "Bank Rate": "0.065"
+      },
+      {
+        "Date": "10-Jul-97",
+        "Bank Rate": "0.068"
+      },
+      {
+        "Date": "07-Aug-97",
+        "Bank Rate": "0.070"
+      },
+      {
+        "Date": "06-Nov-97",
+        "Bank Rate": "0.073"
+      },
+      {
+        "Date": "04-Jun-98",
+        "Bank Rate": "0.075"
+      },
+      {
+        "Date": "08-Oct-98",
+        "Bank Rate": "0.073"
+      },
+      {
+        "Date": "05-Nov-98",
+        "Bank Rate": "0.068"
+      },
+      {
+        "Date": "10-Dec-98",
+        "Bank Rate": "0.063"
+      },
+      {
+        "Date": "07-Jan-99",
+        "Bank Rate": "0.060"
+      },
+      {
+        "Date": "04-Feb-99",
+        "Bank Rate": "0.055"
+      },
+      {
+        "Date": "08-Apr-99",
+        "Bank Rate": "0.053"
+      },
+      {
+        "Date": "10-Jun-99",
+        "Bank Rate": "0.050"
+      },
+      {
+        "Date": "08-Sep-99",
+        "Bank Rate": "0.053"
+      },
+      {
+        "Date": "04-Nov-99",
+        "Bank Rate": "0.055"
+      },
+      {
+        "Date": "13-Jan-00",
+        "Bank Rate": "0.058"
+      },
+      {
+        "Date": "10-Feb-00",
+        "Bank Rate": "0.060"
+      },
+      {
+        "Date": "08-Feb-01",
+        "Bank Rate": "0.058"
+      },
+      {
+        "Date": "05-Apr-01",
+        "Bank Rate": "0.055"
+      },
+      {
+        "Date": "10-May-01",
+        "Bank Rate": "0.053"
+      },
+      {
+        "Date": "02-Aug-01",
+        "Bank Rate": "0.050"
+      },
+      {
+        "Date": "18-Sep-01",
+        "Bank Rate": "0.048"
+      },
+      {
+        "Date": "04-Oct-01",
+        "Bank Rate": "0.045"
+      },
+      {
+        "Date": "08-Nov-01",
+        "Bank Rate": "0.040"
+      },
+      {
+        "Date": "06-Feb-03",
+        "Bank Rate": "0.038"
+      },
+      {
+        "Date": "10-Jul-03",
+        "Bank Rate": "0.035"
+      },
+      {
+        "Date": "06-Nov-03",
+        "Bank Rate": "0.038"
+      },
+      {
+        "Date": "05-Feb-04",
+        "Bank Rate": "0.040"
+      },
+      {
+        "Date": "06-May-04",
+        "Bank Rate": "0.043"
+      },
+      {
+        "Date": "10-Jun-04",
+        "Bank Rate": "0.045"
+      },
+      {
+        "Date": "05-Aug-04",
+        "Bank Rate": "0.048"
+      },
+      {
+        "Date": "04-Aug-05",
+        "Bank Rate": "0.045"
+      },
+      {
+        "Date": "03-Aug-06",
+        "Bank Rate": "0.048"
+      },
+      {
+        "Date": "09-Nov-06",
+        "Bank Rate": "0.050"
+      },
+      {
+        "Date": "11-Jan-07",
+        "Bank Rate": "0.053"
+      },
+      {
+        "Date": "10-May-07",
+        "Bank Rate": "0.055"
+      },
+      {
+        "Date": "05-Jul-07",
+        "Bank Rate": "0.058"
+      },
+      {
+        "Date": "06-Dec-07",
+        "Bank Rate": "0.055"
+      },
+      {
+        "Date": "07-Feb-08",
+        "Bank Rate": "0.053"
+      },
+      {
+        "Date": "10-Apr-08",
+        "Bank Rate": "0.050"
+      },
+      {
+        "Date": "08-Oct-08",
+        "Bank Rate": "0.045"
+      },
+      {
+        "Date": "06-Nov-08",
+        "Bank Rate": "0.030"
+      },
+      {
+        "Date": "04-Dec-08",
+        "Bank Rate": "0.020"
+      },
+      {
+        "Date": "08-Jan-09",
+        "Bank Rate": "0.015"
+      },
+      {
+        "Date": "05-Feb-09",
+        "Bank Rate": "0.010"
+      },
+      {
+        "Date": "05-Mar-09",
+        "Bank Rate": "0.005"
+      },
+      {
+        "Date": "04-Aug-16",
+        "Bank Rate": "0.003"
+      },
+      {
+        "Date": "02-Nov-17",
+        "Bank Rate": "0.005"
+      },
+      {
+        "Date": "02-Aug-18",
+        "Bank Rate": "0.008"
+      },
+      {
+        "Date": "11-Mar-20",
+        "Bank Rate": "0.003"
+      },
+      {
+        "Date": "19-Mar-20",
+        "Bank Rate": "0.001"
+      },
+      {
+        "Date": "16-Dec-21",
+        "Bank Rate": "0.003"
+      },
+      {
+        "Date": "03-Feb-22",
+        "Bank Rate": "0.005"
+      },
+      {
+        "Date": "17-Mar-22",
+        "Bank Rate": "0.008"
+      },
+      {
+        "Date": "05-May-22",
+        "Bank Rate": "0.010"
+      },
+      {
+        "Date": "16-Jun-22",
+        "Bank Rate": "0.013"
+      },
+      {
+        "Date": "04-Aug-22",
+        "Bank Rate": "0.018"
+      },
+      {
+        "Date": "22-Sep-22",
+        "Bank Rate": "0.023"
+      },
+      {
+        "Date": "03-Nov-22",
+        "Bank Rate": "0.030"
+      },
+      {
+        "Date": "15-Dec-22",
+        "Bank Rate": "0.035"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Date": "date"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "year(datum.Date)",
+      "as": "year"
+    },
+    {
+      "filter": "datum.year>=minYear"
+    },
+    {
+      "filter": "datum.year>1974"
+    },
+    {
+      "filter": "datum.year<=maxYear"
+    }
+  ],
+  "params": [
+    {
+      "name": "minYear",
+      "value": 1975,
+      "bind": {
+        "input": "range",
+        "min": 1975,
+        "max": 2022,
+        "step": 1,
+        "name": "Start year:"
+      }
+    },
+    {
+      "name": "maxYear",
+      "value": 2023,
+      "bind": {
+        "input": "range",
+        "min": 1975,
+        "max": 2023,
+        "step": 1,
+        "name": "End year:"
+      }
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "color": "#023549",
+    "interpolate": "step",
+    "width": 10,
+    "strokeWidth": 2,
+    "opacity": 1
+  },
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "title": null,
+      "axis": {
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "Bank Rate",
+      "type": "quantitative",
+      "title": "Bank of England Bank Rate(%)",
+      "axis": {
+        "grid": false,
+        "format": "%"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Bank Rate",
+        "type": "quantitative",
+        "title": "Bank of England Bank Rate(%)"
+      },
+      {
+        "field": "Date",
+        "type": "nominal",
+        "title": "Date"
+      },
+      {}
+    ]
+  },
+  "background": "white"
+}

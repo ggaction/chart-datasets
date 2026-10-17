@@ -1,0 +1,124 @@
+{
+  "id": "vl_1388",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b667af71873b24f54cd92b79453b846f7ac1d7b5c0648dcc29e64f3a4d032e42",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "cee7df7b69b893b9c92bdce8e92f34b2ae868f98232f184da6f58e54ec2746ea",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "c000d836c04bb1b088269cc6920388ead9e5c42ff9c79fe21273a027144c870d",
+      "actions": 18,
+      "topOptions": 41
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8b5a8d0f01949ddb1d65dc4a2644aa453b1bd57453f70d56490a36e25e967f15",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c40947c67236e457fe7a9a1359b8e64278ff68462bb432c10e0ab4baa011fee2",
+      "actions": 22,
+      "topOptions": 51
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "a76c5693923cf8726d8ef23d8bcc6557ea952c39572744b7764235fd230e7102",
+      "actions": 26,
+      "topOptions": 51
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "081b6bdd577518a07cc42f851b3629889438c73f907688de5b3de9bf06a0e37d",
+      "actions": 26,
+      "topOptions": 51
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "02569218307d73a2b940e02966c2f711beee1e9cf8bd106132f263298511ac7c",
+      "actions": 27,
+      "topOptions": 52
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/tableau/Visualization-Linting/e36a78027ee5ba556f361bff1df3a9ca2bfb4546/example-data/bad/missingquarter-exposed.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Reopened omitted axis display-map frontier; G8 whole unchanged date labelMap now focused, all normal current source/DOM/family checks PASS. Eight meaningful stages, cap honest. Original7stage completion/stop and every response preserved."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "eb464a3d035cd956947a756516f11efa2e67a20219d1d74e83a316d63e8e78b3",
+      "bytes": 526
+    },
+    "data.json": {
+      "sha256": "9cc2622d76a02ec2e2f4eee3c82cd885deacec2e5706991bbcd5b6b5e8e99281",
+      "bytes": 1874
+    },
+    "resolved-source.vl.json": {
+      "sha256": "fa8ef4b929185f99fb0701a8d47264317c9c627f450149a653721819a02b390d",
+      "bytes": 2848
+    },
+    "G1.gg.mjs": {
+      "sha256": "b667af71873b24f54cd92b79453b846f7ac1d7b5c0648dcc29e64f3a4d032e42",
+      "bytes": 3216
+    },
+    "G2.gg.mjs": {
+      "sha256": "cee7df7b69b893b9c92bdce8e92f34b2ae868f98232f184da6f58e54ec2746ea",
+      "bytes": 3163
+    },
+    "G3.gg.mjs": {
+      "sha256": "c000d836c04bb1b088269cc6920388ead9e5c42ff9c79fe21273a027144c870d",
+      "bytes": 3073
+    },
+    "G4.gg.mjs": {
+      "sha256": "8b5a8d0f01949ddb1d65dc4a2644aa453b1bd57453f70d56490a36e25e967f15",
+      "bytes": 3110
+    },
+    "G5.gg.mjs": {
+      "sha256": "c40947c67236e457fe7a9a1359b8e64278ff68462bb432c10e0ab4baa011fee2",
+      "bytes": 3280
+    },
+    "G6.gg.mjs": {
+      "sha256": "a76c5693923cf8726d8ef23d8bcc6557ea952c39572744b7764235fd230e7102",
+      "bytes": 3276
+    },
+    "G7.gg.mjs": {
+      "sha256": "081b6bdd577518a07cc42f851b3629889438c73f907688de5b3de9bf06a0e37d",
+      "bytes": 3236
+    },
+    "G8.gg.mjs": {
+      "sha256": "02569218307d73a2b940e02966c2f711beee1e9cf8bd106132f263298511ac7c",
+      "bytes": 3199
+    },
+    "vega-lite.svg": {
+      "sha256": "9e427cc402b01beca2b3df7828d94aceff4a2510b2fa50ebb966799607959675",
+      "bytes": 12584
+    },
+    "ggaction.svg": {
+      "sha256": "3890f3e8c042a3442a55700e13ccd47711ad4291a3aa02ae42d464a74f2df056",
+      "bytes": 6878
+    }
+  }
+}

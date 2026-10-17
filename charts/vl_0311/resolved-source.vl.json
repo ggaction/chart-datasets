@@ -1,0 +1,297 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "GDP per capita & Immigration",
+    "subtitle": "GDP per capita (USD) regressed on foregin born population (%) for OECD countries, 2019. source:OECD",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Country ": "Austria",
+        "Continent": "Europe",
+        "LOCATION": "AUT",
+        "foreign population %": "16.1",
+        "GDP 000s": "59.71933165"
+      },
+      {
+        "Country ": "Belgium",
+        "Continent": "Europe",
+        "LOCATION": "BEL",
+        "foreign population %": "12.3",
+        "GDP 000s": "55.80082599"
+      },
+      {
+        "Country ": "Czechia",
+        "Continent": "Europe",
+        "LOCATION": "CZE",
+        "foreign population %": "5.3",
+        "GDP 000s": "44.22308816"
+      },
+      {
+        "Country ": "Denmark",
+        "Continent": "Europe",
+        "LOCATION": "DNK",
+        "foreign population %": "9.1",
+        "GDP 000s": "59.88383628"
+      },
+      {
+        "Country ": "Estonia",
+        "Continent": "Europe",
+        "LOCATION": "EST",
+        "foreign population %": "16.3",
+        "GDP 000s": "39.06818369"
+      },
+      {
+        "Country ": "Finland",
+        "Continent": "Europe",
+        "LOCATION": "FIN",
+        "foreign population %": "4.7",
+        "GDP 000s": "51.81135616"
+      },
+      {
+        "Country ": "France",
+        "Continent": "Europe",
+        "LOCATION": "FRA",
+        "foreign population %": "7.3",
+        "GDP 000s": "50.22199711"
+      },
+      {
+        "Country ": "Germany",
+        "Continent": "Europe",
+        "LOCATION": "DEU",
+        "foreign population %": "13.1",
+        "GDP 000s": "57.39720459"
+      },
+      {
+        "Country ": "Hungary",
+        "Continent": "Europe",
+        "LOCATION": "HUN",
+        "foreign population %": "1.9",
+        "GDP 000s": "34.63867196"
+      },
+      {
+        "Country ": "Iceland",
+        "Continent": "Europe",
+        "LOCATION": "ISL",
+        "foreign population %": "13.1",
+        "GDP 000s": "59.99424691"
+      },
+      {
+        "Country ": "Ireland",
+        "Continent": "Europe",
+        "LOCATION": "IRL",
+        "foreign population %": "12.8",
+        "GDP 000s": "89.84627221"
+      },
+      {
+        "Country ": "Italy",
+        "Continent": "Europe",
+        "LOCATION": "ITA",
+        "foreign population %": "8.7",
+        "GDP 000s": "45.79952693"
+      },
+      {
+        "Country ": "Japan",
+        "Continent": "Asia",
+        "LOCATION": "JPN",
+        "foreign population %": "2.2",
+        "GDP 000s": "42.46548008"
+      },
+      {
+        "Country ": "Latvia",
+        "Continent": "Europe",
+        "LOCATION": "LVA",
+        "foreign population %": "14",
+        "GDP 000s": "32.93858231"
+      },
+      {
+        "Country ": "Lithuania",
+        "Continent": "Europe",
+        "LOCATION": "LTU",
+        "foreign population %": "1.7",
+        "GDP 000s": "39.95076049"
+      },
+      {
+        "Country ": "Luxembourg",
+        "Continent": "Europe",
+        "LOCATION": "LUX",
+        "foreign population %": "47.3",
+        "GDP 000s": "119.2528129"
+      },
+      {
+        "Country ": "United Kingdom",
+        "Continent": "Europe",
+        "LOCATION": "GBR",
+        "foreign population %": "13.7",
+        "GDP 000s": "49.3175117"
+      },
+      {
+        "Country ": "United States of America",
+        "Continent": "North America",
+        "LOCATION": "USA",
+        "foreign population %": "13.6",
+        "GDP 000s": "64.6902724"
+      },
+      {
+        "Country ": "Mexico",
+        "Continent": "North America",
+        "LOCATION": "MEX",
+        "foreign population %": "0.4",
+        "GDP 000s": "20.24460742"
+      },
+      {
+        "Country ": "Netherlands",
+        "Continent": "Europe",
+        "LOCATION": "NLD",
+        "foreign population %": "6.5",
+        "GDP 000s": "60.20771305"
+      },
+      {
+        "Country ": "Norway",
+        "Continent": "Europe",
+        "LOCATION": "NOR",
+        "foreign population %": "10.9",
+        "GDP 000s": "69.26445399"
+      },
+      {
+        "Country ": "Portugal",
+        "Continent": "Europe",
+        "LOCATION": "PRT",
+        "foreign population %": "4.7",
+        "GDP 000s": "37.29900721"
+      },
+      {
+        "Country ": "Republic of Korea",
+        "Continent": "Asia",
+        "LOCATION": "KOR",
+        "foreign population %": "2.4",
+        "GDP 000s": "43.41014953"
+      },
+      {
+        "Country ": "Slovakia",
+        "Continent": "Europe",
+        "LOCATION": "SVK",
+        "foreign population %": "1.4",
+        "GDP 000s": "33.46191292"
+      },
+      {
+        "Country ": "Slovenia",
+        "Continent": "Europe",
+        "LOCATION": "SVN",
+        "foreign population %": "6.6",
+        "GDP 000s": "42.07585641"
+      },
+      {
+        "Country ": "Spain",
+        "Continent": "Europe",
+        "LOCATION": "ESP",
+        "foreign population %": "10.4",
+        "GDP 000s": "43.13553943"
+      },
+      {
+        "Country ": "Sweden",
+        "Continent": "Europe",
+        "LOCATION": "SWE",
+        "foreign population %": "9.3",
+        "GDP 000s": "56.40403236"
+      },
+      {
+        "Country ": "Switzerland",
+        "Continent": "Europe",
+        "LOCATION": "CHE",
+        "foreign population %": "24.2",
+        "GDP 000s": "72.66838444"
+      }
+    ]
+  },
+  "width": 400,
+  "height": 300,
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color": "#162a2c"
+      },
+      "encoding": {
+        "x": {
+          "field": "foreign population %",
+          "type": "quantitative",
+          "title": "Foreign born population (%)"
+        },
+        "y": {
+          "field": "GDP 000s",
+          "type": "quantitative",
+          "title": "GDP per capita (000s)"
+        },
+        "tooltip": [
+          {
+            "field": "Country ",
+            "type": "nominal",
+            "title": "Country"
+          }
+        ],
+        "color": {
+          "field": "Continent",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "firebrick"
+      },
+      "transform": [
+        {
+          "regression": "GDP 000s",
+          "on": "foreign population %",
+          "extent": [
+            0,
+            40
+          ]
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "foreign population %",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "GDP 000s",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "GDP 000s",
+          "on": "foreign population %",
+          "params": true
+        },
+        {
+          "calculate": "'R²: '+format(datum.rSquared, '.2f')",
+          "as": "R2"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "color": "#8B2323",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {
+          "type": "nominal",
+          "field": "R2"
+        }
+      }
+    }
+  ]
+}

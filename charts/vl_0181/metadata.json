@@ -1,0 +1,91 @@
+{
+  "id": "vl_0181",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "153062fe0251a09a5827ac0b9bde7474a5565d8ba4912960d55ba7a230e23acd",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "cf7551f7e76be1c7aa0a83b79e96d771eaaf77a705118279b3afdd77b237f54c",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a8145df814df996650a91a1d0c832d7691eb559cacad0660850404a90f7ef342",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3eab71a9830e3f3375930f523a6b69b908de02d0eea31ccfb3ed569bd9e67d6a",
+      "actions": 18,
+      "topOptions": 35
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f96290c110e91cae57420e01198de6e71a78f60bdf8fd311a3a5e1d30f9fa15b",
+      "actions": 18,
+      "topOptions": 36
+    }
+  ],
+  "sourceUrls": [
+    "https://www.trafforddatalab.io/interactive_graphics_companion/data/gapminder.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Stop after5 meaningful stages. Full original source/final code review confirms all raw gapminder records retained, exact Afghanistan filter/14population bars/1212x200 responsive plot, ordinal original years, explicit orange fill/.7opacity, source13px title and comma-formatted hidden-title axes. Final paired axis components and focused title appearance are complete; combined generation frontier has no mandatory boundary. Existing GLM stop is hash-identical and parent-bound; no new model response or stop padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "3d7eb8969664bcc33c71cd70998c96f51c2f9fdeb29bfa45c2799abd9dd87254",
+      "bytes": 1220
+    },
+    "data.json": {
+      "sha256": "1586280bdbb4a2d64951d8f5a351cd7a86d24301d69ee0abe9228eba17fd6afb",
+      "bytes": 461856
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8c20242dd4fc5b4349c9422589ef363ac60887fe5b53129614d228ccd8ea9d4b",
+      "bytes": 557349
+    },
+    "G1.gg.mjs": {
+      "sha256": "153062fe0251a09a5827ac0b9bde7474a5565d8ba4912960d55ba7a230e23acd",
+      "bytes": 2066
+    },
+    "G2.gg.mjs": {
+      "sha256": "cf7551f7e76be1c7aa0a83b79e96d771eaaf77a705118279b3afdd77b237f54c",
+      "bytes": 2025
+    },
+    "G3.gg.mjs": {
+      "sha256": "a8145df814df996650a91a1d0c832d7691eb559cacad0660850404a90f7ef342",
+      "bytes": 2227
+    },
+    "G4.gg.mjs": {
+      "sha256": "3eab71a9830e3f3375930f523a6b69b908de02d0eea31ccfb3ed569bd9e67d6a",
+      "bytes": 2096
+    },
+    "G5.gg.mjs": {
+      "sha256": "f96290c110e91cae57420e01198de6e71a78f60bdf8fd311a3a5e1d30f9fa15b",
+      "bytes": 2112
+    },
+    "vega-lite.svg": {
+      "sha256": "f7cb9a05042fcde8b08694f3158f7ae5285ab56ef68b3f7f36ea3c76e5b99445",
+      "bytes": 10590
+    },
+    "ggaction.svg": {
+      "sha256": "c308bee8a79639d1cddc86dadcd788a2a307698472b1a744ba1024b922c408ed",
+      "bytes": 8303
+    }
+  }
+}

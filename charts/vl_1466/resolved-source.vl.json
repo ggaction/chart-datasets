@@ -1,0 +1,114 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Top 10 sectors w/ payment operations in ATM and POS terminals",
+    "anchor": "start",
+    "subtitle": "Lisbon (Municipality) | April 2020 | Source: SIBS Analytics",
+    "offset": 15
+  },
+  "description": "A simple bar chart with embedded data.",
+  "background": "#fefefa",
+  "height": 300,
+  "width": 300,
+  "config": {
+    "font": "Roboto",
+    "title": {
+      "font": "Roboto",
+      "color": "#44475a",
+      "subtitleFont": "Roboto",
+      "subtitleColor": "#44475a"
+    },
+    "style": {
+      "guide-label": {
+        "fill": "#44475a"
+      },
+      "guide-title": {
+        "fill": "#44475a"
+      }
+    },
+    "axis": {
+      "domainColor": "#44475a",
+      "tickColor": "#44475a"
+    },
+    "text": {
+      "font": "Roboto",
+      "fill": "#44475a"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "sector": "Hypermarkets and Supermarkets",
+        "amount": "72900000",
+        "emoji": "🛒"
+      },
+      {
+        "sector": "Public administration services",
+        "amount": "32600000",
+        "emoji": "🏢"
+      },
+      {
+        "sector": "Other Services",
+        "amount": "11300000",
+        "emoji": "📦"
+      },
+      {
+        "sector": "Pharmacies and drug stores",
+        "amount": "11000000",
+        "emoji": "💊"
+      },
+      {
+        "sector": "Telecommunications and utilities",
+        "amount": "10000000",
+        "emoji": "📞"
+      },
+      {
+        "sector": "Traditional trade",
+        "amount": "9400000",
+        "emoji": "📌"
+      },
+      {
+        "sector": "Consumer Goods",
+        "amount": "8700000",
+        "emoji": "🛍"
+      },
+      {
+        "sector": "Technology, Culture and Entertainment",
+        "amount": "7200000",
+        "emoji": "💻"
+      },
+      {
+        "sector": "Health care services",
+        "amount": "7100000",
+        "emoji": "🏥"
+      },
+      {
+        "sector": "Catering services, restaurants and similar establishments",
+        "amount": "6800000",
+        "emoji": "🍱"
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#f2af29"
+  },
+  "encoding": {
+    "x": {
+      "field": "emoji",
+      "type": "ordinal",
+      "axis": {
+        "title": "Sector",
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "amount",
+      "type": "quantitative",
+      "axis": {
+        "title": "Amount (EUR)",
+        "format": ".2s"
+      }
+    }
+  }
+}

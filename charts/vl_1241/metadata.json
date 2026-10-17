@@ -1,0 +1,122 @@
+{
+  "id": "vl_1241",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b27c9c9b01a319b9db083590e4158ad34f11508a15d6223c6f1e3ba961b0e9ab",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a8421099d83892ed3b82639f377062501876b8888bb9be14c41df7a3084905fb",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "0a192fd7b8726f8324b58e1c4833d377c29f115b167ab23b62361ecb88763b77",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "17cf45a1588d072cc470a6b021ec18c4ef853a7a3e73ff438594f606d5f3a398",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "3732928166bb63e2785a42febe940356a5d823d56ce4a0f2930a67dce49132cd",
+      "actions": 22,
+      "topOptions": 45
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "841f81fe0080ce276928a6b1270e46cc89598ae4cf1c67b7d4526b91916d1002",
+      "actions": 23,
+      "topOptions": 45
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "25b12a14660ecb9f7691bfd63cc4c8af1b93b68e591d0593d1645b9fe91005d2",
+      "actions": 25,
+      "topOptions": 48
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "339970478f7806ce22bedcf136672d25a4dc96e42c7cfb26cf4f6c70eb06a9c5",
+      "actions": 26,
+      "topOptions": 50
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full original source and final G8 code reread: all20 original numeric rows/all fields, four ordered stage panels and all20 bar geometries/paints, source-null Xaxis, Yprecision domain0..90 and every source tick/font/title, 100x200 inner plots/gap22/592x267 outer, full10palette and actual shared legend/header/field-heading placement remain source-bound normalPASS. Eight meaningful whole-program variants cover facade scales, complete Yaxis, whole/focused axis paint, grid paint, legend paint and header paint. Source-required birth font sizes/geometry stay at creation. Cap8 is honest: remaining parent-heading paint or further eligible focused policies are not claimed fully exhausted. All current accepted dependency/source/family checks PASS, strict per-code composition identity witnesses explain only representation SHA; every rejected model response/usage retained once. No chart pixels inspected."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "65c6da36fc72c189f17779303bcf31506f3d4e386feb47b4fd47ce9f65fb7eee",
+      "bytes": 3233
+    },
+    "data.json": {
+      "sha256": "9963aa4686b52e898bd9aeb0df8136dbadf18542e080e40e09bfe5eddd8bac38",
+      "bytes": 1947
+    },
+    "resolved-source.vl.json": {
+      "sha256": "105104e7c277917b1832e5ea788bc13a89b8668604fec79651ad673c6620a40a",
+      "bytes": 3224
+    },
+    "G1.gg.mjs": {
+      "sha256": "b27c9c9b01a319b9db083590e4158ad34f11508a15d6223c6f1e3ba961b0e9ab",
+      "bytes": 2386
+    },
+    "G2.gg.mjs": {
+      "sha256": "a8421099d83892ed3b82639f377062501876b8888bb9be14c41df7a3084905fb",
+      "bytes": 2381
+    },
+    "G3.gg.mjs": {
+      "sha256": "0a192fd7b8726f8324b58e1c4833d377c29f115b167ab23b62361ecb88763b77",
+      "bytes": 2338
+    },
+    "G4.gg.mjs": {
+      "sha256": "17cf45a1588d072cc470a6b021ec18c4ef853a7a3e73ff438594f606d5f3a398",
+      "bytes": 2414
+    },
+    "G5.gg.mjs": {
+      "sha256": "3732928166bb63e2785a42febe940356a5d823d56ce4a0f2930a67dce49132cd",
+      "bytes": 2434
+    },
+    "G6.gg.mjs": {
+      "sha256": "841f81fe0080ce276928a6b1270e46cc89598ae4cf1c67b7d4526b91916d1002",
+      "bytes": 2462
+    },
+    "G7.gg.mjs": {
+      "sha256": "25b12a14660ecb9f7691bfd63cc4c8af1b93b68e591d0593d1645b9fe91005d2",
+      "bytes": 2513
+    },
+    "G8.gg.mjs": {
+      "sha256": "339970478f7806ce22bedcf136672d25a4dc96e42c7cfb26cf4f6c70eb06a9c5",
+      "bytes": 2539
+    },
+    "vega-lite.svg": {
+      "sha256": "fd29b915497db4f0febd2d348a56506ce5fd5e8f8cedcf315c33b069c311bb2e",
+      "bytes": 18842
+    },
+    "ggaction.svg": {
+      "sha256": "0c7100bf19f2344df99b4adfc59b2c2890bb8081f2013558b4b1ecdaa3f9f5b0",
+      "bytes": 12080
+    }
+  }
+}

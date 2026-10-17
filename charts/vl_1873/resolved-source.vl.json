@@ -1,0 +1,1970 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {}
+  },
+  "background": "#f9f9f9",
+  "width": 600,
+  "height": 600,
+  "data": {
+    "values": [
+      {
+        "regionCode": "S02000260",
+        "regionName": "Auchinairn",
+        "council": "East Dunbartonshire",
+        "gridX": "14",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000261",
+        "regionName": "Woodhill East",
+        "council": "East Dunbartonshire",
+        "gridX": "15",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000262",
+        "regionName": "Woodhill West",
+        "council": "East Dunbartonshire",
+        "gridX": "14",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000263",
+        "regionName": "Westerton East",
+        "council": "East Dunbartonshire",
+        "gridX": "10",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000264",
+        "regionName": "Bishopbriggs West and Cadder",
+        "council": "East Dunbartonshire",
+        "gridX": "14",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000265",
+        "regionName": "Westerton West",
+        "council": "East Dunbartonshire",
+        "gridX": "9",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000266",
+        "regionName": "Kessington East",
+        "council": "East Dunbartonshire",
+        "gridX": "11",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000267",
+        "regionName": "Lenzie South",
+        "council": "East Dunbartonshire",
+        "gridX": "16",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000268",
+        "regionName": "Bishopbriggs North and Kenmure",
+        "council": "East Dunbartonshire",
+        "gridX": "13",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000269",
+        "regionName": "Kessington West",
+        "council": "East Dunbartonshire",
+        "gridX": "11",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000270",
+        "regionName": "Lenzie North",
+        "council": "East Dunbartonshire",
+        "gridX": "14",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02000271",
+        "regionName": "South Castlehill and Thorn",
+        "council": "East Dunbartonshire",
+        "gridX": "8",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000272",
+        "regionName": "Kilmardinny West",
+        "council": "East Dunbartonshire",
+        "gridX": "10",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000273",
+        "regionName": "Kilmardinny East",
+        "council": "East Dunbartonshire",
+        "gridX": "11",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02000274",
+        "regionName": "Rosebank and Waterside",
+        "council": "East Dunbartonshire",
+        "gridX": "17",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000275",
+        "regionName": "Kirkintilloch South",
+        "council": "East Dunbartonshire",
+        "gridX": "15",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000276",
+        "regionName": "North Castlehill and Thorn",
+        "council": "East Dunbartonshire",
+        "gridX": "9",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000277",
+        "regionName": "Hillhead",
+        "council": "East Dunbartonshire",
+        "gridX": "16",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000278",
+        "regionName": "Torrance and Balmore",
+        "council": "East Dunbartonshire",
+        "gridX": "13",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02000279",
+        "regionName": "Keystone and Dougalston",
+        "council": "East Dunbartonshire",
+        "gridX": "12",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02000280",
+        "regionName": "Harestanes",
+        "council": "East Dunbartonshire",
+        "gridX": "16",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02000281",
+        "regionName": "Kirkintilloch West",
+        "council": "East Dunbartonshire",
+        "gridX": "15",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02000282",
+        "regionName": "Barloch",
+        "council": "East Dunbartonshire",
+        "gridX": "12",
+        "gridY": "0"
+      },
+      {
+        "regionCode": "S02000283",
+        "regionName": "Twechar and Harestanes East",
+        "council": "East Dunbartonshire",
+        "gridX": "17",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000284",
+        "regionName": "East Clober and Mains Estate",
+        "council": "East Dunbartonshire",
+        "gridX": "11",
+        "gridY": "0"
+      },
+      {
+        "regionCode": "S02000285",
+        "regionName": "West Clober and Mains Estate",
+        "council": "East Dunbartonshire",
+        "gridX": "10",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02000286",
+        "regionName": "Milton of Campsie",
+        "council": "East Dunbartonshire",
+        "gridX": "14",
+        "gridY": "0"
+      },
+      {
+        "regionCode": "S02000287",
+        "regionName": "Lennoxtown",
+        "council": "East Dunbartonshire",
+        "gridX": "13",
+        "gridY": "0"
+      },
+      {
+        "regionCode": "S02000310",
+        "regionName": "Eaglesham and Waterfoot",
+        "council": "East Renfrewshire",
+        "gridX": "11",
+        "gridY": "18"
+      },
+      {
+        "regionCode": "S02000311",
+        "regionName": "Mearnskirk and South Kirkhill",
+        "council": "East Renfrewshire",
+        "gridX": "6",
+        "gridY": "18"
+      },
+      {
+        "regionCode": "S02000312",
+        "regionName": "North Kirkhill",
+        "council": "East Renfrewshire",
+        "gridX": "9",
+        "gridY": "18"
+      },
+      {
+        "regionCode": "S02000313",
+        "regionName": "Mearns Village, Westacres and Greenfarm",
+        "council": "East Renfrewshire",
+        "gridX": "7",
+        "gridY": "18"
+      },
+      {
+        "regionCode": "S02000314",
+        "regionName": "West Neilston and Uplawmoor",
+        "council": "East Renfrewshire",
+        "gridX": "5",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02000315",
+        "regionName": "Busby",
+        "council": "East Renfrewshire",
+        "gridX": "12",
+        "gridY": "18"
+      },
+      {
+        "regionCode": "S02000316",
+        "regionName": "Whitecraigs and Broom",
+        "council": "East Renfrewshire",
+        "gridX": "8",
+        "gridY": "18"
+      },
+      {
+        "regionCode": "S02000317",
+        "regionName": "Clarkston and Sheddens",
+        "council": "East Renfrewshire",
+        "gridX": "10",
+        "gridY": "18"
+      },
+      {
+        "regionCode": "S02000318",
+        "regionName": "Crookfur and Fruin",
+        "council": "East Renfrewshire",
+        "gridX": "7",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02000319",
+        "regionName": "Williamwood",
+        "council": "East Renfrewshire",
+        "gridX": "10",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02000320",
+        "regionName": "Stamperland",
+        "council": "East Renfrewshire",
+        "gridX": "11",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02000321",
+        "regionName": "West Arthurlie and North Neilston",
+        "council": "East Renfrewshire",
+        "gridX": "6",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02000322",
+        "regionName": "Auchenback",
+        "council": "East Renfrewshire",
+        "gridX": "6",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02000323",
+        "regionName": "Lower Whitecraigs and South Giffnock",
+        "council": "East Renfrewshire",
+        "gridX": "9",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02000324",
+        "regionName": "South Thornliebank and Woodfarm",
+        "council": "East Renfrewshire",
+        "gridX": "8",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02000325",
+        "regionName": "Netherlee",
+        "council": "East Renfrewshire",
+        "gridX": "12",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02000326",
+        "regionName": "Merrylee and Braidbar",
+        "council": "East Renfrewshire",
+        "gridX": "10",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02000327",
+        "regionName": "North Giffnock and North Thornliebank",
+        "council": "East Renfrewshire",
+        "gridX": "9",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02000328",
+        "regionName": "Dunterlie, East Arthurlie and Dovecothall",
+        "council": "East Renfrewshire",
+        "gridX": "6",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02000329",
+        "regionName": "Cross Stobbs",
+        "council": "East Renfrewshire",
+        "gridX": "5",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02000584",
+        "regionName": "Carmunnock South",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "18"
+      },
+      {
+        "regionCode": "S02000585",
+        "regionName": "Glenwood South",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02000586",
+        "regionName": "Darnley West",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02000587",
+        "regionName": "Darnley East",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02000588",
+        "regionName": "Glenwood North",
+        "council": "Glasgow City",
+        "gridX": "14",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02000589",
+        "regionName": "Castlemilk",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02000590",
+        "regionName": "Darnley North",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02000591",
+        "regionName": "Carmunnock North",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02000592",
+        "regionName": "Carnwadric West",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02000593",
+        "regionName": "Muirend and Old Cathcart",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02000594",
+        "regionName": "Carnwadric East",
+        "council": "Glasgow City",
+        "gridX": "9",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02000595",
+        "regionName": "Kingspark South",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02000596",
+        "regionName": "Newlands",
+        "council": "Glasgow City",
+        "gridX": "10",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02000597",
+        "regionName": "Nitshill",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02000598",
+        "regionName": "Merrylee and Millbrae",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02000599",
+        "regionName": "Cathcart",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02000600",
+        "regionName": "Kingspark North",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02000601",
+        "regionName": "Crookston South",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02000602",
+        "regionName": "Pollokshaws",
+        "council": "Glasgow City",
+        "gridX": "9",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02000603",
+        "regionName": "Mount Florida",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02000604",
+        "regionName": "Langside",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02000605",
+        "regionName": "Shawlands East",
+        "council": "Glasgow City",
+        "gridX": "10",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02000606",
+        "regionName": "Crookston North",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02000607",
+        "regionName": "Battlefield",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02000608",
+        "regionName": "Pollok South and West",
+        "council": "Glasgow City",
+        "gridX": "6",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02000609",
+        "regionName": "Shawlands West",
+        "council": "Glasgow City",
+        "gridX": "10",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02000610",
+        "regionName": "Toryglen and Oatlands",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000611",
+        "regionName": "Shettleston South",
+        "council": "Glasgow City",
+        "gridX": "15",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000612",
+        "regionName": "Maxwell Park",
+        "council": "Glasgow City",
+        "gridX": "9",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02000613",
+        "regionName": "Carmyle and Mount Vernon South",
+        "council": "Glasgow City",
+        "gridX": "16",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000614",
+        "regionName": "Strathbungo",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000615",
+        "regionName": "Govanhill East and Aikenhead",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02000616",
+        "regionName": "Govanhill West",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000617",
+        "regionName": "Pollok North and East",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02000618",
+        "regionName": "Baillieston East",
+        "council": "Glasgow City",
+        "gridX": "18",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000619",
+        "regionName": "Dalmarnock",
+        "council": "Glasgow City",
+        "gridX": "14",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000620",
+        "regionName": "Braidfauld",
+        "council": "Glasgow City",
+        "gridX": "15",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000621",
+        "regionName": "Mosspark",
+        "council": "Glasgow City",
+        "gridX": "9",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000622",
+        "regionName": "Pollokshields East",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000623",
+        "regionName": "Mount Vernon North and Sandyhills",
+        "council": "Glasgow City",
+        "gridX": "17",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000624",
+        "regionName": "Pollokshields West",
+        "council": "Glasgow City",
+        "gridX": "10",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000625",
+        "regionName": "Cardonald South and East",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000626",
+        "regionName": "Baillieston West",
+        "council": "Glasgow City",
+        "gridX": "17",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000627",
+        "regionName": "Cardonald West and Central",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000628",
+        "regionName": "Gorbals and Hutchesontown",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000629",
+        "regionName": "Parkhead East and Braidfauld North",
+        "council": "Glasgow City",
+        "gridX": "15",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000630",
+        "regionName": "Tollcross",
+        "council": "Glasgow City",
+        "gridX": "16",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000631",
+        "regionName": "Kingston West and Dumbreck",
+        "council": "Glasgow City",
+        "gridX": "10",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000632",
+        "regionName": "Shettleston North",
+        "council": "Glasgow City",
+        "gridX": "16",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000633",
+        "regionName": "Parkhead West and Barrowfield",
+        "council": "Glasgow City",
+        "gridX": "14",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000634",
+        "regionName": "Laurieston and Tradeston",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000635",
+        "regionName": "Calton, Galllowgate and Bridgeton",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000636",
+        "regionName": "Garrowhill West",
+        "council": "Glasgow City",
+        "gridX": "17",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000637",
+        "regionName": "Cardonald North",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000638",
+        "regionName": "Craigton",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000639",
+        "regionName": "Hillington",
+        "council": "Glasgow City",
+        "gridX": "6",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000640",
+        "regionName": "Greenfield",
+        "council": "Glasgow City",
+        "gridX": "16",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02000641",
+        "regionName": "Penilee",
+        "council": "Glasgow City",
+        "gridX": "6",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000642",
+        "regionName": "Kinning Park and Festival Park",
+        "council": "Glasgow City",
+        "gridX": "9",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000643",
+        "regionName": "Old Shettleston and Parkhead North",
+        "council": "Glasgow City",
+        "gridX": "15",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02000644",
+        "regionName": "Ibrox East and Cessnock",
+        "council": "Glasgow City",
+        "gridX": "9",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000645",
+        "regionName": "Garrowhill East and Swinton",
+        "council": "Glasgow City",
+        "gridX": "18",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000646",
+        "regionName": "Barlanark",
+        "council": "Glasgow City",
+        "gridX": "17",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02000647",
+        "regionName": "Gallowgate North and Bellgrove",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000648",
+        "regionName": "Carntyne West and Haghill",
+        "council": "Glasgow City",
+        "gridX": "14",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02000649",
+        "regionName": "Ibrox",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000650",
+        "regionName": "Dennistoun",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000651",
+        "regionName": "Anderston",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000652",
+        "regionName": "North Barlanark and Easterhouse South",
+        "council": "Glasgow City",
+        "gridX": "17",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000653",
+        "regionName": "Easterhouse East",
+        "council": "Glasgow City",
+        "gridX": "18",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02000654",
+        "regionName": "Cranhill, Lightburn and Queenslie South",
+        "council": "Glasgow City",
+        "gridX": "16",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000655",
+        "regionName": "City Centre West",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02000656",
+        "regionName": "Govan and Linthouse",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02000657",
+        "regionName": "Carntyne",
+        "council": "Glasgow City",
+        "gridX": "15",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000658",
+        "regionName": "City Centre East",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02000659",
+        "regionName": "Dennistoun North and Alexandra Parade",
+        "council": "Glasgow City",
+        "gridX": "14",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000660",
+        "regionName": "Drumoyne and Shieldhall",
+        "council": "Glasgow City",
+        "gridX": "6",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02000661",
+        "regionName": "Finnieston and Kelvinhaugh",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02000662",
+        "regionName": "Central Easterhouse",
+        "council": "Glasgow City",
+        "gridX": "18",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000663",
+        "regionName": "Craigend and Ruchazie",
+        "council": "Glasgow City",
+        "gridX": "17",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000664",
+        "regionName": "Hillhead",
+        "council": "Glasgow City",
+        "gridX": "10",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02000665",
+        "regionName": "Woodlands",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000666",
+        "regionName": "Roystonhill, Blochairn, and Provanmill",
+        "council": "Glasgow City",
+        "gridX": "15",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000667",
+        "regionName": "Riddrie and Hogganfield",
+        "council": "Glasgow City",
+        "gridX": "16",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000668",
+        "regionName": "Glasgow Harbour and  Partick South",
+        "council": "Glasgow City",
+        "gridX": "9",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000669",
+        "regionName": "Woodside",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000670",
+        "regionName": "Sighthill",
+        "council": "Glasgow City",
+        "gridX": "14",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000671",
+        "regionName": "Partick",
+        "council": "Glasgow City",
+        "gridX": "10",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000672",
+        "regionName": "Kelvingrove and University",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000673",
+        "regionName": "Whiteinch",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000674",
+        "regionName": "Garthamlock, Auchinlea and Gartloch",
+        "council": "Glasgow City",
+        "gridX": "17",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000675",
+        "regionName": "Firhill",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000676",
+        "regionName": "Cowlairs and Port Dundas",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000677",
+        "regionName": "Partickhill and Hyndland",
+        "council": "Glasgow City",
+        "gridX": "10",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000678",
+        "regionName": "Blackhill and Barmulloch East",
+        "council": "Glasgow City",
+        "gridX": "15",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000679",
+        "regionName": "Broomhill",
+        "council": "Glasgow City",
+        "gridX": "9",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000680",
+        "regionName": "Petershill",
+        "council": "Glasgow City",
+        "gridX": "14",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000681",
+        "regionName": "Dowanhill",
+        "council": "Glasgow City",
+        "gridX": "10",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000682",
+        "regionName": "Victoria Park",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000683",
+        "regionName": "North Kelvin",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000684",
+        "regionName": "Scotstoun South and West",
+        "council": "Glasgow City",
+        "gridX": "6",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000685",
+        "regionName": "Keppochhill",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000686",
+        "regionName": "Scotstoun North and East",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000687",
+        "regionName": "Barmulloch",
+        "council": "Glasgow City",
+        "gridX": "15",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000688",
+        "regionName": "Ruchill",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000689",
+        "regionName": "Kelvinside and Jordanhill",
+        "council": "Glasgow City",
+        "gridX": "9",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000690",
+        "regionName": "Kelvindale",
+        "council": "Glasgow City",
+        "gridX": "10",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000691",
+        "regionName": "Springburn",
+        "council": "Glasgow City",
+        "gridX": "14",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000692",
+        "regionName": "Possil Park",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000693",
+        "regionName": "Wyndford",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000694",
+        "regionName": "Springburn East and Cowlairs",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000695",
+        "regionName": "Robroyston and Millerston",
+        "council": "Glasgow City",
+        "gridX": "16",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000696",
+        "regionName": "Yoker South",
+        "council": "Glasgow City",
+        "gridX": "6",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000697",
+        "regionName": "Balornock",
+        "council": "Glasgow City",
+        "gridX": "15",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000698",
+        "regionName": "Knightswood Park East",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000699",
+        "regionName": "Knightswood East",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000700",
+        "regionName": "Maryhill West",
+        "council": "Glasgow City",
+        "gridX": "11",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000701",
+        "regionName": "Milton West",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000702",
+        "regionName": "Anniesland East",
+        "council": "Glasgow City",
+        "gridX": "10",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000703",
+        "regionName": "Knightswood West",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000704",
+        "regionName": "Maryhill East",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000705",
+        "regionName": "Anniesland West",
+        "council": "Glasgow City",
+        "gridX": "9",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000706",
+        "regionName": "Knightswood Park West",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000707",
+        "regionName": "Yoker North",
+        "council": "Glasgow City",
+        "gridX": "6",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000708",
+        "regionName": "Milton East",
+        "council": "Glasgow City",
+        "gridX": "13",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000709",
+        "regionName": "Blairdardie East",
+        "council": "Glasgow City",
+        "gridX": "9",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000710",
+        "regionName": "Summerston North",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000711",
+        "regionName": "Blairdardie West",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000712",
+        "regionName": "Drumchapel South",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000713",
+        "regionName": "Summerston Central and West",
+        "council": "Glasgow City",
+        "gridX": "12",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000714",
+        "regionName": "Drumry West",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000715",
+        "regionName": "Drumchapel North",
+        "council": "Glasgow City",
+        "gridX": "8",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000716",
+        "regionName": "Drumry East",
+        "council": "Glasgow City",
+        "gridX": "7",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000771",
+        "regionName": "Kilmacolm Central",
+        "council": "Inverclyde",
+        "gridX": "1",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000772",
+        "regionName": "Kilmacolm, Quarriers, Greenock Upper East/Central",
+        "council": "Inverclyde",
+        "gridX": "1",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02000773",
+        "regionName": "Inverkip and Wemyss Bay",
+        "council": "Inverclyde",
+        "gridX": "0",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02000774",
+        "regionName": "Port Glasgow Upper East",
+        "council": "Inverclyde",
+        "gridX": "1",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000775",
+        "regionName": "Port Glasgow Mid, East and Central",
+        "council": "Inverclyde",
+        "gridX": "1",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000776",
+        "regionName": "Port Glasgow Upper, West and Central",
+        "council": "Inverclyde",
+        "gridX": "1",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000777",
+        "regionName": "West Braeside, East Inverkip and West Gourock",
+        "council": "Inverclyde",
+        "gridX": "0",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02000778",
+        "regionName": "Greenock East",
+        "council": "Inverclyde",
+        "gridX": "1",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000779",
+        "regionName": "Bow Farm, Barrs Cottage, Cowdenknowes and Overton",
+        "council": "Inverclyde",
+        "gridX": "0",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02000780",
+        "regionName": "Greenock Upper Central",
+        "council": "Inverclyde",
+        "gridX": "0",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000781",
+        "regionName": "Greenock Town Centre and East Central",
+        "council": "Inverclyde",
+        "gridX": "1",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000782",
+        "regionName": "Braeside, Branchton, Lower Larkfield and Ravenscraig",
+        "council": "Inverclyde",
+        "gridX": "0",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000783",
+        "regionName": "Lower Bow & Larkfield, Fancy Farm, Mallard Bowl",
+        "council": "Inverclyde",
+        "gridX": "0",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02000784",
+        "regionName": "Greenock West and Central",
+        "council": "Inverclyde",
+        "gridX": "1",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000785",
+        "regionName": "Gourock Central, Upper East and IRH",
+        "council": "Inverclyde",
+        "gridX": "0",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02000786",
+        "regionName": "Gourock Upper and West Central & Upper Larkfield",
+        "council": "Inverclyde",
+        "gridX": "0",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02000787",
+        "regionName": "Gourock East, Greenock West and Lyle Road",
+        "council": "Inverclyde",
+        "gridX": "1",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02000923",
+        "regionName": "Stepps",
+        "council": "North Lanarkshire",
+        "gridX": "16",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02000925",
+        "regionName": "Chryston and Muirhead",
+        "council": "North Lanarkshire",
+        "gridX": "16",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000926",
+        "regionName": "Moodiesburn West",
+        "council": "North Lanarkshire",
+        "gridX": "17",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000927",
+        "regionName": "Moodiesburn East",
+        "council": "North Lanarkshire",
+        "gridX": "18",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02000983",
+        "regionName": "Lochwinnoch",
+        "council": "Renfrewshire",
+        "gridX": "2",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02000984",
+        "regionName": "Renfrewshire Rural South & Howwood",
+        "council": "Renfrewshire",
+        "gridX": "1",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000985",
+        "regionName": "Paisley Glenburn West",
+        "council": "Renfrewshire",
+        "gridX": "4",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02000986",
+        "regionName": "Paisley Glenburn East",
+        "council": "Renfrewshire",
+        "gridX": "5",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02000987",
+        "regionName": "Paisley Foxbar",
+        "council": "Renfrewshire",
+        "gridX": "3",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02000988",
+        "regionName": "Johnstone South West",
+        "council": "Renfrewshire",
+        "gridX": "2",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000989",
+        "regionName": "Paisley Dykebar",
+        "council": "Renfrewshire",
+        "gridX": "6",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02000990",
+        "regionName": "Paisley South West",
+        "council": "Renfrewshire",
+        "gridX": "4",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02000991",
+        "regionName": "Paisley South East",
+        "council": "Renfrewshire",
+        "gridX": "5",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02000992",
+        "regionName": "Johnstone South East",
+        "council": "Renfrewshire",
+        "gridX": "3",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02000993",
+        "regionName": "Paisley South",
+        "council": "Renfrewshire",
+        "gridX": "4",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000994",
+        "regionName": "Johnstone North West",
+        "council": "Renfrewshire",
+        "gridX": "1",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000995",
+        "regionName": "Paisley West",
+        "council": "Renfrewshire",
+        "gridX": "3",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000996",
+        "regionName": "Kilbarchan",
+        "council": "Renfrewshire",
+        "gridX": "0",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000997",
+        "regionName": "Paisley East",
+        "council": "Renfrewshire",
+        "gridX": "5",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02000998",
+        "regionName": "Johnstone North East",
+        "council": "Renfrewshire",
+        "gridX": "2",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02000999",
+        "regionName": "Elderslie and Phoenix",
+        "council": "Renfrewshire",
+        "gridX": "2",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02001000",
+        "regionName": "Paisley Central",
+        "council": "Renfrewshire",
+        "gridX": "4",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02001001",
+        "regionName": "Paisley North West",
+        "council": "Renfrewshire",
+        "gridX": "3",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02001002",
+        "regionName": "Paisley Ralston",
+        "council": "Renfrewshire",
+        "gridX": "6",
+        "gridY": "12"
+      },
+      {
+        "regionCode": "S02001003",
+        "regionName": "Paisley Ferguslie",
+        "council": "Renfrewshire",
+        "gridX": "3",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02001004",
+        "regionName": "Paisley North East",
+        "council": "Renfrewshire",
+        "gridX": "5",
+        "gridY": "11"
+      },
+      {
+        "regionCode": "S02001005",
+        "regionName": "Linwood South",
+        "council": "Renfrewshire",
+        "gridX": "3",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02001006",
+        "regionName": "Linwood North",
+        "council": "Renfrewshire",
+        "gridX": "1",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02001007",
+        "regionName": "Paisley Gallowhill and Hillington",
+        "council": "Renfrewshire",
+        "gridX": "5",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02001008",
+        "regionName": "Bridge of Weir",
+        "council": "Renfrewshire",
+        "gridX": "0",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02001009",
+        "regionName": "Houston South",
+        "council": "Renfrewshire",
+        "gridX": "2",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02001010",
+        "regionName": "Paisley North",
+        "council": "Renfrewshire",
+        "gridX": "4",
+        "gridY": "10"
+      },
+      {
+        "regionCode": "S02001011",
+        "regionName": "Renfrew South",
+        "council": "Renfrewshire",
+        "gridX": "4",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02001012",
+        "regionName": "Houston North",
+        "council": "Renfrewshire",
+        "gridX": "2",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02001013",
+        "regionName": "Renfrew East",
+        "council": "Renfrewshire",
+        "gridX": "5",
+        "gridY": "9"
+      },
+      {
+        "regionCode": "S02001014",
+        "regionName": "Renfrew West",
+        "council": "Renfrewshire",
+        "gridX": "3",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02001015",
+        "regionName": "Renfrewshire Rural North and Langbank",
+        "council": "Renfrewshire",
+        "gridX": "4",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02001016",
+        "regionName": "Renfrew North",
+        "council": "Renfrewshire",
+        "gridX": "4",
+        "gridY": "8"
+      },
+      {
+        "regionCode": "S02001017",
+        "regionName": "Erskine East and Inchinnan",
+        "council": "Renfrewshire",
+        "gridX": "2",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02001018",
+        "regionName": "Erskine Central",
+        "council": "Renfrewshire",
+        "gridX": "3",
+        "gridY": "7"
+      },
+      {
+        "regionCode": "S02001019",
+        "regionName": "Erskine West",
+        "council": "Renfrewshire",
+        "gridX": "3",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02001020",
+        "regionName": "Bishopton",
+        "council": "Renfrewshire",
+        "gridX": "2",
+        "gridY": "6"
+      },
+      {
+        "regionCode": "S02001146",
+        "regionName": "Fernhill and Cathkin",
+        "council": "South Lanarkshire",
+        "gridX": "15",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02001148",
+        "regionName": "Whitlawburn and Greenlees",
+        "council": "South Lanarkshire",
+        "gridX": "17",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02001149",
+        "regionName": "Vicarland and Cairns",
+        "council": "South Lanarkshire",
+        "gridX": "17",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02001150",
+        "regionName": "Burnside and Springhall",
+        "council": "South Lanarkshire",
+        "gridX": "16",
+        "gridY": "17"
+      },
+      {
+        "regionCode": "S02001152",
+        "regionName": "Spittal",
+        "council": "South Lanarkshire",
+        "gridX": "14",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02001153",
+        "regionName": "Cambuslang Central",
+        "council": "South Lanarkshire",
+        "gridX": "16",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02001154",
+        "regionName": "High Crosshill",
+        "council": "South Lanarkshire",
+        "gridX": "15",
+        "gridY": "16"
+      },
+      {
+        "regionCode": "S02001156",
+        "regionName": "Halfway, Hallside and Drumsagard",
+        "council": "South Lanarkshire",
+        "gridX": "17",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02001157",
+        "regionName": "Westburn and Newton",
+        "council": "South Lanarkshire",
+        "gridX": "16",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02001158",
+        "regionName": "Bankhead South",
+        "council": "South Lanarkshire",
+        "gridX": "14",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02001159",
+        "regionName": "Burgh, Eastfield and Silverbank",
+        "council": "South Lanarkshire",
+        "gridX": "15",
+        "gridY": "15"
+      },
+      {
+        "regionCode": "S02001160",
+        "regionName": "Burnhill and Bankhead North",
+        "council": "South Lanarkshire",
+        "gridX": "14",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02001161",
+        "regionName": "Shawfield and Clincarthill",
+        "council": "South Lanarkshire",
+        "gridX": "13",
+        "gridY": "13"
+      },
+      {
+        "regionCode": "S02001162",
+        "regionName": "Farme Cross and Gallowflat North",
+        "council": "South Lanarkshire",
+        "gridX": "15",
+        "gridY": "14"
+      },
+      {
+        "regionCode": "S02001184",
+        "regionName": "IZ One",
+        "council": "West Dunbartonshire",
+        "gridX": "5",
+        "gridY": "5"
+      },
+      {
+        "regionCode": "S02001185",
+        "regionName": "IZ Two",
+        "council": "West Dunbartonshire",
+        "gridX": "5",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02001186",
+        "regionName": "IZ Three",
+        "council": "West Dunbartonshire",
+        "gridX": "6",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02001187",
+        "regionName": "IZ Four",
+        "council": "West Dunbartonshire",
+        "gridX": "5",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02001188",
+        "regionName": "IZ Five",
+        "council": "West Dunbartonshire",
+        "gridX": "5",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02001189",
+        "regionName": "IZ Six",
+        "council": "West Dunbartonshire",
+        "gridX": "6",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02001190",
+        "regionName": "IZ Seven",
+        "council": "West Dunbartonshire",
+        "gridX": "4",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02001191",
+        "regionName": "IZ Eight",
+        "council": "West Dunbartonshire",
+        "gridX": "6",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02001192",
+        "regionName": "IZ Nine",
+        "council": "West Dunbartonshire",
+        "gridX": "3",
+        "gridY": "4"
+      },
+      {
+        "regionCode": "S02001193",
+        "regionName": "IZ Ten",
+        "council": "West Dunbartonshire",
+        "gridX": "5",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02001194",
+        "regionName": "IZ Eleven",
+        "council": "West Dunbartonshire",
+        "gridX": "4",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02001195",
+        "regionName": "IZ Twelve",
+        "council": "West Dunbartonshire",
+        "gridX": "3",
+        "gridY": "3"
+      },
+      {
+        "regionCode": "S02001196",
+        "regionName": "IZ Thirteen",
+        "council": "West Dunbartonshire",
+        "gridX": "4",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02001197",
+        "regionName": "IZ Fourteen",
+        "council": "West Dunbartonshire",
+        "gridX": "4",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02001198",
+        "regionName": "IZ Fifteen",
+        "council": "West Dunbartonshire",
+        "gridX": "3",
+        "gridY": "2"
+      },
+      {
+        "regionCode": "S02001199",
+        "regionName": "IZ Sixteen",
+        "council": "West Dunbartonshire",
+        "gridX": "5",
+        "gridY": "0"
+      },
+      {
+        "regionCode": "S02001200",
+        "regionName": "IZ Seventeen",
+        "council": "West Dunbartonshire",
+        "gridX": "3",
+        "gridY": "1"
+      },
+      {
+        "regionCode": "S02001201",
+        "regionName": "IZ Eighteen",
+        "council": "West Dunbartonshire",
+        "gridX": "4",
+        "gridY": "0"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "encoding": {
+        "x": {
+          "field": "gridX",
+          "type": "quantitative",
+          "scale": {
+            "nice": false,
+            "domain": [
+              0,
+              18
+            ]
+          }
+        },
+        "y": {
+          "field": "gridY",
+          "type": "quantitative",
+          "sort": "descending",
+          "scale": {
+            "nice": false,
+            "domain": [
+              0,
+              18
+            ]
+          }
+        },
+        "color": {
+          "field": "council",
+          "type": "nominal",
+          "scale": {
+            "scheme": "tableau20"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "regionName",
+            "type": "nominal"
+          },
+          {
+            "field": "council",
+            "type": "nominal"
+          }
+        ]
+      },
+      "mark": {
+        "type": "square",
+        "stroke": "white",
+        "opacity": 1,
+        "size": 1111.111111111111,
+        "strokeWidth": 2
+      }
+    }
+  ]
+}

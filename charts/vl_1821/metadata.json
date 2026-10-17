@@ -1,0 +1,124 @@
+{
+  "id": "vl_1821",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "42ff6620037e30d2f99ecd383a24e4f1a46294918c15a3e945d8b21ac6f13fd7",
+      "actions": 11,
+      "topOptions": 29
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "d82010f5c6b0a142e74c64862899170f4cfb5b2676ea45247b5f97ff111d2271",
+      "actions": 13,
+      "topOptions": 35
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ac7587a1719316280ff81f722a1e773f5415f7860cd8e54e7b437cbb08867257",
+      "actions": 14,
+      "topOptions": 39
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0fe303397c41de171eb0d21bfb0a893a38006091431694ef1377be66520ef4ef",
+      "actions": 16,
+      "topOptions": 43
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f41d1963978834ff76205510f89faa7e9e4fa3ae255d4a130df9050fd796012b",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "6f849fe1d494d750927edea4813f5301862a219b14fd13031225c720031cd3e2",
+      "actions": 22,
+      "topOptions": 45
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "77b8d4c1a2f9f4baf44841c26e459a480df4913c462afb9c55ffec471524418e",
+      "actions": 22,
+      "topOptions": 47
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4f1af69eb97d1e750ed4743ab11a17e2d73602c1126592235ffb7350868ba234",
+      "actions": 23,
+      "topOptions": 49
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/covid19pb/covid19pb.github.io/master/data/paraiba/dados_pb_covid19_boletim_FaixaEtaria.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full frozen source and final retained G8 code reread. Complete original raw and mortos filter, native day extraction/canonical2012 monthdate arithmetic, all heatmap cells, source descending age order, threshold6boundaries/7colors and native threshold intervals retained. Explicit source bottom legend/columns1, source fonts12/14,26 rotated Xlabels and both original axis titles remain. Current690 all8 normalchecks/family output pass. Native omitted interval-label formatting approximation remains explicitly disclosed rather than claiming source text identity; measured external bottom lane preserves exact innerplot. Meaningful cap8 reached without default padding/new response."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "f2053dd9c7fc671d80934409f2065076f0a79aed28acc4b5a5e04d27b0a1d882",
+      "bytes": 1428
+    },
+    "data.json": {
+      "sha256": "1e1e4c36aa15ea340de939a1ab2cf2b8d07609d05ac0fe688de20a30d3ae502d",
+      "bytes": 191244
+    },
+    "resolved-source.vl.json": {
+      "sha256": "39ba24810811049f3bd715d3d99d06f8a9543d29d77f9b935fe913e375ee19ff",
+      "bytes": 227760
+    },
+    "G1.gg.mjs": {
+      "sha256": "42ff6620037e30d2f99ecd383a24e4f1a46294918c15a3e945d8b21ac6f13fd7",
+      "bytes": 4891
+    },
+    "G2.gg.mjs": {
+      "sha256": "d82010f5c6b0a142e74c64862899170f4cfb5b2676ea45247b5f97ff111d2271",
+      "bytes": 4880
+    },
+    "G3.gg.mjs": {
+      "sha256": "ac7587a1719316280ff81f722a1e773f5415f7860cd8e54e7b437cbb08867257",
+      "bytes": 4814
+    },
+    "G4.gg.mjs": {
+      "sha256": "0fe303397c41de171eb0d21bfb0a893a38006091431694ef1377be66520ef4ef",
+      "bytes": 4936
+    },
+    "G5.gg.mjs": {
+      "sha256": "f41d1963978834ff76205510f89faa7e9e4fa3ae255d4a130df9050fd796012b",
+      "bytes": 4932
+    },
+    "G6.gg.mjs": {
+      "sha256": "6f849fe1d494d750927edea4813f5301862a219b14fd13031225c720031cd3e2",
+      "bytes": 4918
+    },
+    "G7.gg.mjs": {
+      "sha256": "77b8d4c1a2f9f4baf44841c26e459a480df4913c462afb9c55ffec471524418e",
+      "bytes": 4910
+    },
+    "G8.gg.mjs": {
+      "sha256": "4f1af69eb97d1e750ed4743ab11a17e2d73602c1126592235ffb7350868ba234",
+      "bytes": 4813
+    },
+    "vega-lite.svg": {
+      "sha256": "09430dadf2aa869f2d809a6715543a1a6f592f8c5201fc4ad5c43f404c5bea76",
+      "bytes": 213193
+    },
+    "ggaction.svg": {
+      "sha256": "f35993fa8ad9e12f9da02280c8935d1d2071f7324bbc9c9d526aaaa5945bbc27",
+      "bytes": 123710
+    }
+  }
+}

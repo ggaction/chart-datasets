@@ -1,0 +1,124 @@
+{
+  "id": "vl_1817",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "bd9d8f73429ef88cc9476e3c25696ea16f6759a108318713f5018554d311ffd8",
+      "actions": 29,
+      "topOptions": 75
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "68f47816dd5599d54ab9342c3411e14ab35372be570d78f1fc1e8c4a153a0535",
+      "actions": 30,
+      "topOptions": 79
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "76f4abcd6777a6ee2e12617aa9d1b466b71ec72656bacc5b2d085ae0e23d1ff1",
+      "actions": 31,
+      "topOptions": 80
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "2753a726e456e3419afd26b0fdae74b2a055eb1dbd7d2ad41bd8650914c6546d",
+      "actions": 33,
+      "topOptions": 86
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "af9f6b2b7aa2c1db9e8a17b8463e660e06470f33eb9e8b12623c827bd6634de2",
+      "actions": 37,
+      "topOptions": 87
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3042f3781cce064451010d46d6b9c617345e5d39abf290e23035296303640fc0",
+      "actions": 38,
+      "topOptions": 87
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "53795c2a4a3d2f5a066e553f65b79dbe25cc77a51ec4dfaaa94b8234c4977b25",
+      "actions": 40,
+      "topOptions": 89
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "d61ffe213d20e8822c82ceb5d1cedc1f262c8ff3b8cfb8af4b34c48e1c00fe22",
+      "actions": 41,
+      "topOptions": 90
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/covid19pb/covid19pb.github.io/master/data/paraiba/dados_pb_covid19_boletim_FaixaEtaria.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full source and final GLM reread: complete976raw retained, fixed mortos/latest filters and three separate Total/Masculino/Feminino folds produce original ordered three bar layers with sharedXY/color scales and exact source paints. Necessary second/third facade4key source-bound proof current; all24 source bars, original14px titles/12px labels/16px legend, overlap evidence/default spacing and all8 stage checks/dependencies pass. Last stage moves only actual legend title weight700, retaining measured font16 at birth. Cap8 reached; no default-only padding."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "1603ca678178964777d5db19aab37684fe1187769d34cf2dafeecbb1de2fd050",
+      "bytes": 6503
+    },
+    "data.json": {
+      "sha256": "1e1e4c36aa15ea340de939a1ab2cf2b8d07609d05ac0fe688de20a30d3ae502d",
+      "bytes": 191244
+    },
+    "resolved-source.vl.json": {
+      "sha256": "b797d7751042e3e11ff4a717cbf163b96729b45cd321de7f1116921c708722a2",
+      "bytes": 232835
+    },
+    "G1.gg.mjs": {
+      "sha256": "bd9d8f73429ef88cc9476e3c25696ea16f6759a108318713f5018554d311ffd8",
+      "bytes": 3743
+    },
+    "G2.gg.mjs": {
+      "sha256": "68f47816dd5599d54ab9342c3411e14ab35372be570d78f1fc1e8c4a153a0535",
+      "bytes": 3705
+    },
+    "G3.gg.mjs": {
+      "sha256": "76f4abcd6777a6ee2e12617aa9d1b466b71ec72656bacc5b2d085ae0e23d1ff1",
+      "bytes": 3735
+    },
+    "G4.gg.mjs": {
+      "sha256": "2753a726e456e3419afd26b0fdae74b2a055eb1dbd7d2ad41bd8650914c6546d",
+      "bytes": 3889
+    },
+    "G5.gg.mjs": {
+      "sha256": "af9f6b2b7aa2c1db9e8a17b8463e660e06470f33eb9e8b12623c827bd6634de2",
+      "bytes": 3929
+    },
+    "G6.gg.mjs": {
+      "sha256": "3042f3781cce064451010d46d6b9c617345e5d39abf290e23035296303640fc0",
+      "bytes": 3902
+    },
+    "G7.gg.mjs": {
+      "sha256": "53795c2a4a3d2f5a066e553f65b79dbe25cc77a51ec4dfaaa94b8234c4977b25",
+      "bytes": 3838
+    },
+    "G8.gg.mjs": {
+      "sha256": "d61ffe213d20e8822c82ceb5d1cedc1f262c8ff3b8cfb8af4b34c48e1c00fe22",
+      "bytes": 3863
+    },
+    "vega-lite.svg": {
+      "sha256": "904ea6027503e45930855b9aaf7625f276d9640ad1f56b9f56aa1a6362cff686",
+      "bytes": 17099
+    },
+    "ggaction.svg": {
+      "sha256": "67ded0988d843aa06c717c29b14fddc713a2f8e423553a22a0ec10771e4ab96a",
+      "bytes": 12651
+    }
+  }
+}

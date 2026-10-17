@@ -1,0 +1,78 @@
+{
+  "id": "vl_0045",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "300239e1fe50b350b8db6ba01b8ad75d329e22db445ff6f10146cb0820be82b3",
+      "actions": 9,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "d4cc67d422d0138eec546322445439aa2fe3550fbd76dcc77c7c9a99b8df9c00",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "48526cb834400b31909426cc93a7654a40b0f06ba591aab2f1361af1adfd2632",
+      "actions": 11,
+      "topOptions": 22
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "fa32cc05e05cac05ec9ec5741c5d8fa7228242eda549cb80caceee9a02a69bf1",
+      "actions": 11,
+      "topOptions": 23
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full G4 code reviewed, new G5 only invents native default radius100; focused legendpaint alreadyexhausted. Hoststop4sourceverified distinctstages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "6e97ccdda5439e3caeaeefa1e241fc74a37d8ed27fa1f67b5e941cd6927ce311",
+      "bytes": 1513
+    },
+    "data.json": {
+      "sha256": "b199b96cb8ef1d82e0a82a917bedfbfd1033e5d12c89fbf7f58165687356a6d5",
+      "bytes": 144
+    },
+    "resolved-source.vl.json": {
+      "sha256": "6e97ccdda5439e3caeaeefa1e241fc74a37d8ed27fa1f67b5e941cd6927ce311",
+      "bytes": 1513
+    },
+    "G1.gg.mjs": {
+      "sha256": "300239e1fe50b350b8db6ba01b8ad75d329e22db445ff6f10146cb0820be82b3",
+      "bytes": 981
+    },
+    "G2.gg.mjs": {
+      "sha256": "d4cc67d422d0138eec546322445439aa2fe3550fbd76dcc77c7c9a99b8df9c00",
+      "bytes": 994
+    },
+    "G3.gg.mjs": {
+      "sha256": "48526cb834400b31909426cc93a7654a40b0f06ba591aab2f1361af1adfd2632",
+      "bytes": 997
+    },
+    "G4.gg.mjs": {
+      "sha256": "fa32cc05e05cac05ec9ec5741c5d8fa7228242eda549cb80caceee9a02a69bf1",
+      "bytes": 997
+    },
+    "vega-lite.svg": {
+      "sha256": "92a8c6661b229ef5405ee823e30d23ae686bccfb808fd5171aa8c774e3dbbe2c",
+      "bytes": 3389
+    },
+    "ggaction.svg": {
+      "sha256": "a926974e5deff8d398336a45ada7f6b0eb21985f782483623cc651a118ec198e",
+      "bytes": 1728
+    }
+  }
+}

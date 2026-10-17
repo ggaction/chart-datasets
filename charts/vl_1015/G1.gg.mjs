@@ -1,0 +1,44 @@
+// DOCS: doc-b11b4627b143730d, doc-8a4f6f06e0d37d5e, doc-a929fd81abd909f8
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({ width: 219, height: 242, margin: { left: 29, top: 40, right: 10, bottom: 22 } })
+    .createData({ id: "lms", values: data })
+    .createComputedData({ id: "dated", as: "dateMs", expression: { op: "parseTime", operand: { field: "date" }, format: "auto" } })
+    .createComputedData({ id: "numbered", as: "valueNum", expression: { op: "toNumber", operand: { field: "value" } } })
+    .createLinePlot({
+      x: { field: "dateMs", fieldType: "temporal", scale: { domain: [694224000000, 1609459200000], nice: false } },
+      y: { field: "valueNum", fieldType: "quantitative", scale: { domain: [0, 500], nice: false } },
+      guides: false
+    })
+    .editLineMark({ stroke: "#3662f1", strokeWidth: 2, opacity: 1 })
+    .createAxes({
+      x: {
+        line: { color: "#888" },
+        ticksAndLabels: {
+          values: [788918400000, 946684800000, 1104537600000, 1262304000000, 1420070400000, 1577836800000],
+          ticks: { color: "#888" },
+          labels: { fontSize: 10, offset: 7, fontFamily: "sans-serif", color: "black", format: "%Y" }
+        },
+        title: false
+      },
+      y: {
+        line: { color: "#888" },
+        ticksAndLabels: {
+          values: [0, 100, 200, 300, 400, 500],
+          ticks: { color: "#888" },
+          labels: { fontSize: 10, offset: 7, fontFamily: "sans-serif", color: "black" }
+        },
+        title: false
+      }
+    })
+    .createGrid({ horizontal: { scale: "y", color: "#ddd" }, vertical: { scale: "x", color: "#ddd" } })
+    .createTitle({
+      text: "ILO Unemployed in London",
+      titleStyle: { fontSize: 13, fontWeight: 700, fontFamily: "sans-serif", color: "black" },
+      subtitleStyle: { fontSize: 10, fontStyle: "italic", fontFamily: "sans-serif", color: "black" }
+    })
+    .editTitle({ subtitle: "Thousands, seasonally adjusted", offset: -13, alongOffset: -23.68 });
+}

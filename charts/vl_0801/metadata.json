@@ -1,0 +1,124 @@
+{
+  "id": "vl_0801",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6ed7b48e7598934f3d77970655e84c6b4f91f3ba2017b164a85d436978d49d86",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "729961ce525d7bfe9763275eee8cfacd5885935e06eb5835ae490492630ad4ef",
+      "actions": 15,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "3d6d877ea3a0030c323d58d40daae19b6022278f0a4068a34c66d9b6bd7c2ae2",
+      "actions": 16,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4940e84211e462591b053d424b08d6816266e20da4f37a5e3bea6ff26820789b",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "85cb0ab913705bd5d2ab7645dc49c73522bf382bced43caf923084f553483a29",
+      "actions": 19,
+      "topOptions": 39
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "73bc6806bb6df50e5365fb191a3b02d5d6c4c67ac3e613387617c5c963551b59",
+      "actions": 20,
+      "topOptions": 41
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "9fbf5c1e90bffdfe4ac16d0b1b929071271b048e20d56b46f1dd29d86d06717e",
+      "actions": 20,
+      "topOptions": 42
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "8cec90a3fee4129ad6766c26af11e0aceab89918b528f22d157a6e68938b6638",
+      "actions": 26,
+      "topOptions": 46
+    }
+  ],
+  "sourceUrls": [
+    "https://gist.githubusercontent.com/khang-dao/7ba7f3757f3ffdd17e0614cd8184c64f/raw/00c2213f0a1eb732a10da48792703161ee3f1f87/olympics-1986-2016-cleaned-4-oceania.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full terminal code/source reread; all8stages379checksPASS, exactonefamilySVG/nochartpixels/runtime870. Source4640hollowgreenpointcoords/radius/.7opacity/axes/header/250plot preserved. Eightcap reached honestly: directionalgridpaint refinement remains."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "4ad2d2d0f96b9eea52033ccd000db1fb09687a034ae3bc5cbff2848bd5a7b71d",
+      "bytes": 1160
+    },
+    "data.json": {
+      "sha256": "0ee58587ffd67afd92fe8c239bf46d46c40eb45f5a001300c6f344f6ea8abd7b",
+      "bytes": 376049
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e10c24fb64fb61cec67ce17d3566e420828d6a2200f010b266bbc8d0ef4da2f0",
+      "bytes": 469851
+    },
+    "G1.gg.mjs": {
+      "sha256": "6ed7b48e7598934f3d77970655e84c6b4f91f3ba2017b164a85d436978d49d86",
+      "bytes": 2197
+    },
+    "G2.gg.mjs": {
+      "sha256": "729961ce525d7bfe9763275eee8cfacd5885935e06eb5835ae490492630ad4ef",
+      "bytes": 2215
+    },
+    "G3.gg.mjs": {
+      "sha256": "3d6d877ea3a0030c323d58d40daae19b6022278f0a4068a34c66d9b6bd7c2ae2",
+      "bytes": 2236
+    },
+    "G4.gg.mjs": {
+      "sha256": "4940e84211e462591b053d424b08d6816266e20da4f37a5e3bea6ff26820789b",
+      "bytes": 2196
+    },
+    "G5.gg.mjs": {
+      "sha256": "85cb0ab913705bd5d2ab7645dc49c73522bf382bced43caf923084f553483a29",
+      "bytes": 2450
+    },
+    "G6.gg.mjs": {
+      "sha256": "73bc6806bb6df50e5365fb191a3b02d5d6c4c67ac3e613387617c5c963551b59",
+      "bytes": 2502
+    },
+    "G7.gg.mjs": {
+      "sha256": "9fbf5c1e90bffdfe4ac16d0b1b929071271b048e20d56b46f1dd29d86d06717e",
+      "bytes": 2518
+    },
+    "G8.gg.mjs": {
+      "sha256": "8cec90a3fee4129ad6766c26af11e0aceab89918b528f22d157a6e68938b6638",
+      "bytes": 2456
+    },
+    "vega-lite.svg": {
+      "sha256": "9026802b808cc553929c8010f8b6a017b2f233e705003b459f07be5715bbefbb",
+      "bytes": 1137397
+    },
+    "ggaction.svg": {
+      "sha256": "f9a55a91d2cf1aa9c34ef55d18602b27d9fe5ee0a68200adbd54dc74ad311a1c",
+      "bytes": 460059
+    }
+  }
+}

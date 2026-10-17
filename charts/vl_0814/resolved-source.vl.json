@@ -1,0 +1,230 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "title": {
+    "text": "Tiobe Index - Python vs R",
+    "subtitle": "An indicator of the popularity of Programming Languages, Source: Tiobe Index",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "height": 300,
+  "width": "container",
+  "data": {
+    "values": [
+      {
+        "Programming Language": "R",
+        "Date": "2007",
+        "Ratings %": "0.06"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2008",
+        "Ratings %": "0.04"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2009",
+        "Ratings %": "0.07"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2010",
+        "Ratings %": "0.1"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2011",
+        "Ratings %": "0.54"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2012",
+        "Ratings %": "0.6"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2013",
+        "Ratings %": "0.44"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2014",
+        "Ratings %": "0.25"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2015",
+        "Ratings %": "1.04"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2016",
+        "Ratings %": "1.05"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2017",
+        "Ratings %": "1.79"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2018",
+        "Ratings %": "2.55"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2019",
+        "Ratings %": "1.33"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2020",
+        "Ratings %": "0.81"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2021",
+        "Ratings %": "1.9"
+      },
+      {
+        "Programming Language": "R",
+        "Date": "2022",
+        "Ratings %": "1.14"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2007",
+        "Ratings %": "3.5"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2008",
+        "Ratings %": "5.54"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2009",
+        "Ratings %": "4.73"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2010",
+        "Ratings %": "4.45"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2011",
+        "Ratings %": "6.26"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2012",
+        "Ratings %": "3.21"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2013",
+        "Ratings %": "4.17"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2014",
+        "Ratings %": "2.37"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2015",
+        "Ratings %": "2.61"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2016",
+        "Ratings %": "3.85"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2017",
+        "Ratings %": "3.46"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2018",
+        "Ratings %": "4.68"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2019",
+        "Ratings %": "8.29"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2020",
+        "Ratings %": "9.7"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2021",
+        "Ratings %": "11.72"
+      },
+      {
+        "Programming Language": "Python",
+        "Date": "2022",
+        "Ratings %": "17.18"
+      }
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "nominal",
+      "axis": {
+        "labelAngle": 45
+      }
+    },
+    "y": {
+      "field": "Ratings %",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "Programming Language",
+        "type": "nominal"
+      },
+      {
+        "field": "Ratings %",
+        "type": "quantitative",
+        "title": "Ratings (%)"
+      },
+      {
+        "field": "Date",
+        "type": "ordinal",
+        "title": "Date"
+      }
+    ],
+    "color": {
+      "field": "Programming Language",
+      "scale": {
+        "range": [
+          "#EF0107",
+          "#034694",
+          "#00B2A9",
+          "#4fc3f7",
+          "#FBE122",
+          "black"
+        ]
+      },
+      "title": "Programming Language",
+      "legend": {
+        "orient": "bottom",
+        "columns": 1,
+        "fillColor": "#FfFfFf"
+      }
+    }
+  }
+}

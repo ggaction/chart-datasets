@@ -1,0 +1,353 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "LCOE/capacity regression",
+    "subtitle": "A regression of Solar PV LCOE on the log of capacity installed, Sources: IRENA, Our World in Data",
+    "subtitleFontSize": 9,
+    "subtitleFontStyle": "italic",
+    "anchor": "start"
+  },
+  "data": {
+    "values": [
+      {
+        "": "0",
+        "Year": "2010",
+        "Hydropower": "1025434.392",
+        "Onshore wind energy": "177810.947",
+        "Offshore wind energy": "3055.35",
+        "Solar photovoltaic": "40337.81",
+        "Concentrated solar power": "1265.82",
+        "Bioenergy": "65593.861",
+        "Geothermal": "10235.165",
+        "Bioenergy levelized cost of energy": "0.07818927",
+        "Geothermal levelized cost of energy": "0.05044529",
+        "Offshore wind levelized cost of energy": "0.18785676",
+        "Solar photovoltaic levelized cost of energy": "0.41714868",
+        "Concentrated solar power levelized cost of energy": "0.3580038",
+        "Hydropower levelized cost of energy": "0.038882706",
+        "Onshore wind levelized cost of energy": "0.102061465",
+        "log_solar-cost": "1.5176281371131937",
+        "log_solar": "10.605044521487178"
+      },
+      {
+        "": "1",
+        "Year": "2011",
+        "Hydropower": "1056907.82",
+        "Onshore wind energy": "216344.815",
+        "Offshore wind energy": "3775.81",
+        "Solar photovoltaic": "72215.973",
+        "Concentrated solar power": "1704.52",
+        "Bioenergy": "71832.048",
+        "Geothermal": "10375.965",
+        "Bioenergy levelized cost of energy": "0.056684334",
+        "Geothermal levelized cost of energy": "",
+        "Offshore wind levelized cost of energy": "0.19754878",
+        "Solar photovoltaic levelized cost of energy": "0.31129825",
+        "Concentrated solar power levelized cost of energy": "0.34665465",
+        "Hydropower levelized cost of energy": "0.03656066",
+        "Onshore wind levelized cost of energy": "0.09648669",
+        "log_solar-cost": "1.3651963302785057",
+        "log_solar": "11.187416533099556"
+      },
+      {
+        "": "2",
+        "Year": "2012",
+        "Hydropower": "1090156.228",
+        "Onshore wind energy": "261582.869",
+        "Offshore wind energy": "5333.95",
+        "Solar photovoltaic": "101746.325",
+        "Concentrated solar power": "2566.52",
+        "Bioenergy": "76918.652",
+        "Geothermal": "10748.065",
+        "Bioenergy levelized cost of energy": "0.06187914",
+        "Geothermal levelized cost of energy": "0.08569454",
+        "Offshore wind levelized cost of energy": "0.16660058",
+        "Solar photovoltaic levelized cost of energy": "0.23263325",
+        "Concentrated solar power levelized cost of energy": "0.3375742",
+        "Hydropower levelized cost of energy": "0.038037654",
+        "Onshore wind levelized cost of energy": "0.08839028",
+        "log_solar-cost": "1.2619185858080058",
+        "log_solar": "11.530237984716456"
+      },
+      {
+        "": "3",
+        "Year": "2013",
+        "Hydropower": "1137117.021",
+        "Onshore wind energy": "292667.092",
+        "Offshore wind energy": "7171.25",
+        "Solar photovoltaic": "137227.964",
+        "Concentrated solar power": "3941.933",
+        "Bioenergy": "84412.695",
+        "Geothermal": "10988.865",
+        "Bioenergy levelized cost of energy": "0.08219819",
+        "Geothermal levelized cost of energy": "0.06411118",
+        "Offshore wind levelized cost of energy": "0.16666164",
+        "Solar photovoltaic levelized cost of energy": "0.1794014",
+        "Concentrated solar power levelized cost of energy": "0.24888833",
+        "Hydropower levelized cost of energy": "0.042512473",
+        "Onshore wind levelized cost of energy": "0.08920628",
+        "log_solar-cost": "1.1965009232600892",
+        "log_solar": "11.829398792747584"
+      },
+      {
+        "": "4",
+        "Year": "2014",
+        "Hydropower": "1175547.927",
+        "Onshore wind energy": "340814.044",
+        "Offshore wind energy": "8491.77",
+        "Solar photovoltaic": "175617.173",
+        "Concentrated solar power": "4598.933",
+        "Bioenergy": "90484.375",
+        "Geothermal": "11429.415",
+        "Bioenergy levelized cost of energy": "0.08237512",
+        "Geothermal levelized cost of energy": "0.06533503",
+        "Offshore wind levelized cost of energy": "0.17219925",
+        "Solar photovoltaic levelized cost of energy": "0.16125813",
+        "Concentrated solar power levelized cost of energy": "0.21637706",
+        "Hydropower levelized cost of energy": "0.042456634",
+        "Onshore wind levelized cost of energy": "0.080203146",
+        "log_solar-cost": "1.174988229383513",
+        "log_solar": "12.076061751528986"
+      },
+      {
+        "": "5",
+        "Year": "2015",
+        "Hydropower": "1210201.798",
+        "Onshore wind energy": "404451.601",
+        "Offshore wind energy": "11717.57",
+        "Solar photovoltaic": "223203.629",
+        "Concentrated solar power": "4850.043",
+        "Bioenergy": "96257.066",
+        "Geothermal": "12091.425",
+        "Bioenergy levelized cost of energy": "0.07277113",
+        "Geothermal levelized cost of energy": "0.05884901",
+        "Offshore wind levelized cost of energy": "0.14052741",
+        "Solar photovoltaic levelized cost of energy": "0.12107989",
+        "Concentrated solar power levelized cost of energy": "0.223889",
+        "Hydropower levelized cost of energy": "0.036572017",
+        "Onshore wind levelized cost of energy": "0.068961546",
+        "log_solar-cost": "1.1287150818133636",
+        "log_solar": "12.31583976831769"
+      },
+      {
+        "": "6",
+        "Year": "2016",
+        "Hydropower": "1245460.4",
+        "Onshore wind energy": "452524.173",
+        "Offshore wind energy": "14341.85",
+        "Solar photovoltaic": "295228.957",
+        "Concentrated solar power": "4970.043",
+        "Bioenergy": "105209.275",
+        "Geothermal": "12411.334",
+        "Bioenergy levelized cost of energy": "0.071178205",
+        "Geothermal levelized cost of energy": "0.06780182",
+        "Offshore wind levelized cost of energy": "0.11632308",
+        "Solar photovoltaic levelized cost of energy": "0.106340416",
+        "Concentrated solar power levelized cost of energy": "0.24726917",
+        "Hydropower levelized cost of energy": "0.04838911",
+        "Onshore wind levelized cost of energy": "0.06385536",
+        "log_solar-cost": "1.112200422890411",
+        "log_solar": "12.595506459716097"
+      },
+      {
+        "": "7",
+        "Year": "2017",
+        "Hydropower": "1270469.91",
+        "Onshore wind energy": "495359.5",
+        "Offshore wind energy": "18836.75",
+        "Solar photovoltaic": "390203.6141",
+        "Concentrated solar power": "5069.113",
+        "Bioenergy": "110811.03",
+        "Geothermal": "13030.773",
+        "Bioenergy levelized cost of energy": "0.07107003",
+        "Geothermal levelized cost of energy": "0.07091718",
+        "Offshore wind levelized cost of energy": "0.10615218",
+        "Solar photovoltaic levelized cost of energy": "0.083659746",
+        "Concentrated solar power levelized cost of energy": "0.20621318",
+        "Hydropower levelized cost of energy": "0.05072171",
+        "Onshore wind levelized cost of energy": "0.05995916",
+        "log_solar-cost": "1.0872588866789648",
+        "log_solar": "12.874423969301498"
+      },
+      {
+        "": "8",
+        "Year": "2018",
+        "Hydropower": "1293203.746",
+        "Onshore wind energy": "540726.356",
+        "Offshore wind energy": "23589.6",
+        "Solar photovoltaic": "482990.3126",
+        "Concentrated solar power": "5810.934",
+        "Bioenergy": "117993.89",
+        "Geothermal": "13477.021",
+        "Bioenergy levelized cost of energy": "0.055360332",
+        "Geothermal levelized cost of energy": "0.06758344",
+        "Offshore wind levelized cost of energy": "0.10004871",
+        "Solar photovoltaic levelized cost of energy": "0.07113868",
+        "Concentrated solar power levelized cost of energy": "0.14910279",
+        "Hydropower levelized cost of energy": "0.039836742",
+        "Onshore wind levelized cost of energy": "0.05087996",
+        "log_solar-cost": "1.0737301204368717",
+        "log_solar": "13.087751875704793"
+      },
+      {
+        "": "9",
+        "Year": "2019",
+        "Hydropower": "1311570.859",
+        "Onshore wind energy": "592780.904",
+        "Offshore wind energy": "28302.3",
+        "Solar photovoltaic": "584623.1626",
+        "Concentrated solar power": "6376.884",
+        "Bioenergy": "123812.523",
+        "Geothermal": "14095.061",
+        "Bioenergy levelized cost of energy": "0.06393309",
+        "Geothermal levelized cost of energy": "0.067305215",
+        "Offshore wind levelized cost of energy": "0.08638764",
+        "Solar photovoltaic levelized cost of energy": "0.062119152",
+        "Concentrated solar power levelized cost of energy": "0.21183106",
+        "Hydropower levelized cost of energy": "0.041408572",
+        "Onshore wind levelized cost of energy": "0.044592004",
+        "log_solar-cost": "1.0640891255222753",
+        "log_solar": "13.278722752153888"
+      },
+      {
+        "": "10",
+        "Year": "2020",
+        "Hydropower": "1335495.792",
+        "Onshore wind energy": "697265.503",
+        "Offshore wind energy": "34357.65",
+        "Solar photovoltaic": "710700.2416",
+        "Concentrated solar power": "6510.684",
+        "Bioenergy": "132870.774",
+        "Geothermal": "14437.561",
+        "Bioenergy levelized cost of energy": "0.07247308",
+        "Geothermal levelized cost of energy": "0.054264043",
+        "Offshore wind levelized cost of energy": "0.08626575",
+        "Solar photovoltaic levelized cost of energy": "0.055443965",
+        "Concentrated solar power levelized cost of energy": "0.10665299",
+        "Hydropower levelized cost of energy": "0.045965873",
+        "Onshore wind levelized cost of energy": "0.03713682",
+        "log_solar-cost": "1.057009785869577",
+        "log_solar": "13.474006018761461"
+      },
+      {
+        "": "11",
+        "Year": "2021",
+        "Hydropower": "1360502.05",
+        "Onshore wind energy": "769227.387",
+        "Offshore wind energy": "54256.98",
+        "Solar photovoltaic": "848404.5486",
+        "Concentrated solar power": "6390.554",
+        "Bioenergy": "143194.631",
+        "Geothermal": "15959.561",
+        "Bioenergy levelized cost of energy": "0.067342535",
+        "Geothermal levelized cost of energy": "0.06761599",
+        "Offshore wind levelized cost of energy": "0.07516697",
+        "Solar photovoltaic levelized cost of energy": "0.04834554",
+        "Concentrated solar power levelized cost of energy": "0.11424175",
+        "Hydropower levelized cost of energy": "0.04829987",
+        "Onshore wind levelized cost of energy": "0.033123367",
+        "log_solar-cost": "1.0495332483943083",
+        "log_solar": "13.65111286304443"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true
+      },
+      "encoding": {
+        "x": {
+          "field": "log_solar",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Solar photovoltaic levelized cost of energy",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "Year",
+          "type": "nominal",
+          "scale": {
+            "scheme": "darkmulti"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Solar photovoltaic levelized cost of energy",
+            "title": "LCOE"
+          },
+          {
+            "field": "log_solar"
+          },
+          {
+            "field": "Year"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "firebrick"
+      },
+      "transform": [
+        {
+          "regression": "Solar photovoltaic levelized cost of energy",
+          "on": "log_solar"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "log_solar",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              10,
+              15
+            ]
+          },
+          "title": "log Capacity",
+          "axis": {
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "Solar photovoltaic levelized cost of energy",
+          "type": "quantitative",
+          "title": "Solar PV LCOE",
+          "axis": {
+            "grid": false
+          }
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Solar photovoltaic levelized cost of energy",
+          "on": "log_solar",
+          "params": true
+        },
+        {
+          "calculate": "'R²: '+format(datum.rSquared, '.2f')",
+          "as": "R2"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {
+          "type": "nominal",
+          "field": "R2"
+        }
+      }
+    }
+  ]
+}

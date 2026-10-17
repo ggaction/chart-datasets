@@ -1,0 +1,113 @@
+{
+  "id": "vl_0057",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "7de9df620a9d8e99b10486869fa724732c72103ecad5110c459b9e3e5c78e4e6",
+      "actions": 14,
+      "topOptions": 28
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "985d9ef5a75963fcf8e70ade9f1899df3c6a7ee3448d491ad24642cc1990d6d0",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "c80799d71b23e2e2b5bbe369d1f6c5560d0a3a09944c27a34edfeeef24b9de99",
+      "actions": 16,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "5aef56c7df9be176aabaabfcdf788c754f0c9d6707a78fd7349e10af59b2e2a3",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "537912b728d8916cf7e696593f3320dc1a868a03952a5ddf7284da5c486fd134",
+      "actions": 23,
+      "topOptions": 45
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d1731434daae48e63d874901070866b5ccee3494c2d817a176b3629e96289633",
+      "actions": 23,
+      "topOptions": 47
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "6b3ef01f384e54a63230ff3e2b1d5c7ecfbf0b07bf3c6be7d8d2d682d76305da",
+      "actions": 23,
+      "topOptions": 48
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/joaopalmeiro/data-preparation/master/vega-presentation-require-lx/data/operations.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full final source and G7 program reread: all explicit Roboto axis typography and source guide colors are now at focused editors, chart title/subtitle colors move together, measured Roboto700 title weight and full compact currency display map must stay at creation because actual native intermediate bounds fail without them. Remaining geometry and native defaults do not justify an eighth stage."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9c8feb7bf9a12c4ff354fb23d3dbd5ff24704956d1a345a69f4e1b4b83c12f69",
+      "bytes": 1899
+    },
+    "data.json": {
+      "sha256": "9b16f57e1f214d332ddfeef272c23511e9021e5786e7a3f30da8288e982df542",
+      "bytes": 1004
+    },
+    "resolved-source.vl.json": {
+      "sha256": "146f693ccef1a20ab28c124c6dcc82ff6ebf11a53c2d7f65be769017f5ade93c",
+      "bytes": 2963
+    },
+    "G1.gg.mjs": {
+      "sha256": "7de9df620a9d8e99b10486869fa724732c72103ecad5110c459b9e3e5c78e4e6",
+      "bytes": 5428
+    },
+    "G2.gg.mjs": {
+      "sha256": "985d9ef5a75963fcf8e70ade9f1899df3c6a7ee3448d491ad24642cc1990d6d0",
+      "bytes": 5358
+    },
+    "G3.gg.mjs": {
+      "sha256": "c80799d71b23e2e2b5bbe369d1f6c5560d0a3a09944c27a34edfeeef24b9de99",
+      "bytes": 5386
+    },
+    "G4.gg.mjs": {
+      "sha256": "5aef56c7df9be176aabaabfcdf788c754f0c9d6707a78fd7349e10af59b2e2a3",
+      "bytes": 5531
+    },
+    "G5.gg.mjs": {
+      "sha256": "537912b728d8916cf7e696593f3320dc1a868a03952a5ddf7284da5c486fd134",
+      "bytes": 5544
+    },
+    "G6.gg.mjs": {
+      "sha256": "d1731434daae48e63d874901070866b5ccee3494c2d817a176b3629e96289633",
+      "bytes": 5579
+    },
+    "G7.gg.mjs": {
+      "sha256": "6b3ef01f384e54a63230ff3e2b1d5c7ecfbf0b07bf3c6be7d8d2d682d76305da",
+      "bytes": 5569
+    },
+    "vega-lite.svg": {
+      "sha256": "2fd00b6fb54d7c4c6b319f949fe28cbc8da5a5ffef39870ead296e81eb9b3326",
+      "bytes": 10324
+    },
+    "ggaction.svg": {
+      "sha256": "4c5428227cfdc9a8d168b6fcf8f30eaa6fc6fca9f78427c7891237b83b0aedc3",
+      "bytes": 8325
+    }
+  }
+}

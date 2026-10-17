@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Scatterplot",
+  "title": {
+    "text": "Relationship between life expectancy and income in Africa, 2017"
+  },
+  "data": {
+    "url": "https://www.trafforddatalab.io/interactive_graphics_companion/data/gapminder.csv"
+  },
+  "transform": [
+    {
+      "filter": {
+        "timeUnit": "year",
+        "field": "year",
+        "equal": 2017
+      }
+    },
+    {
+      "filter": {
+        "field": "region",
+        "equal": "Africa"
+      }
+    }
+  ],
+  "mark": "point",
+  "encoding": {
+    "y": {
+      "field": "lifeExp",
+      "type": "quantitative",
+      "scale": {
+        "zero": false
+      },
+      "axis": {
+        "title": "Life expectancy"
+      }
+    },
+    "x": {
+      "field": "gdpPercap",
+      "type": "quantitative",
+      "scale": {
+        "type": "log",
+        "domain": [
+          100,
+          100000
+        ]
+      },
+      "axis": {
+        "grid": false,
+        "title": "Income per person",
+        "format": "$,.0f"
+      }
+    },
+    "color": {},
+    "tooltip": [
+      {
+        "field": "country",
+        "type": "nominal",
+        "title": "Country"
+      },
+      {
+        "field": "gdpPercap",
+        "type": "quantitative",
+        "title": "GDP per capita",
+        "format": "$,.0f"
+      },
+      {
+        "field": "lifeExp",
+        "type": "quantitative",
+        "title": "Age (years)",
+        "format": ".1f"
+      }
+    ]
+  },
+  "config": {
+    "axis": {
+      "labelFont": "Roboto",
+      "grid": false
+    },
+    "style": {}
+  }
+}

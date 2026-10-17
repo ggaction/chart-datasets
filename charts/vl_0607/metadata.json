@@ -1,0 +1,124 @@
+{
+  "id": "vl_0607",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "751566d515cef42b2e8c32f3d7e839bc226cbef55394157660cc09c9d3c7d401",
+      "actions": 15,
+      "topOptions": 40
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "6e9a25f02b964ec25ed7be8f191759d29dccbbe4804e7028610c64eee5729b5b",
+      "actions": 18,
+      "topOptions": 45
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a3df352cef63111b66eecb5fba6c25d1320b10815ec363fd01fbb7c30d8f4869",
+      "actions": 20,
+      "topOptions": 49
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "230ccdf46b004a4d06d36c3af8587b5f01aad32f62ee6ce0ad94c69c735085fc",
+      "actions": 21,
+      "topOptions": 53
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "14093421b75c38c76cadd04e834f04e69dd5e80ef637b90b1d52ac77fbcd90c1",
+      "actions": 23,
+      "topOptions": 55
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "731c28a9809fd0e9a1bca737bdda6adfe1380da5bf722b0cd39a152cd1ab3c9d",
+      "actions": 25,
+      "topOptions": 56
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "95ee090c06b3fd9ea39bfa84da7406b49f24e0a604038a20680a2d1222140c69",
+      "actions": 26,
+      "topOptions": 56
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "66a9e65f49c98d9515b43e0e7e546b961bc3b38938d4b2f9e37605e42ffca0ed",
+      "actions": 27,
+      "topOptions": 57
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/data/main/e4e3/us_incomes_pctile_race_region.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex reread full original source/completecandidate/allstagediffs. Six byPercentile line-plus-point series preserve fullraw/source500x300/title13/subtitle9/sourcefonts. G8 replaces default-only proposedwidth2padding with proven identical sourcelegend declaration+circle recipe boundary, retaining source implicit line2. Public canary exact; all8normal source/familychecksPASS. Eight meaningfulstages cap reached; anyremainingoptionalboundaries are not claimed exhausted."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "1b515f2258568ed9e4a3ede31c500e2031e06ecd26fdaf4ff633ca8fcc66cd57",
+      "bytes": 2044
+    },
+    "data.json": {
+      "sha256": "174fe5bdbf759d141b6ccc88c9a1f5222b3da2f1916387f19062ca7dc12c9bc4",
+      "bytes": 85042
+    },
+    "resolved-source.vl.json": {
+      "sha256": "3796be53b99a919054fce8d5fbac6c37c1faf33c0b32a4f41d4ad7212e106796",
+      "bytes": 106940
+    },
+    "G1.gg.mjs": {
+      "sha256": "751566d515cef42b2e8c32f3d7e839bc226cbef55394157660cc09c9d3c7d401",
+      "bytes": 3627
+    },
+    "G2.gg.mjs": {
+      "sha256": "6e9a25f02b964ec25ed7be8f191759d29dccbbe4804e7028610c64eee5729b5b",
+      "bytes": 3377
+    },
+    "G3.gg.mjs": {
+      "sha256": "a3df352cef63111b66eecb5fba6c25d1320b10815ec363fd01fbb7c30d8f4869",
+      "bytes": 3359
+    },
+    "G4.gg.mjs": {
+      "sha256": "230ccdf46b004a4d06d36c3af8587b5f01aad32f62ee6ce0ad94c69c735085fc",
+      "bytes": 3303
+    },
+    "G5.gg.mjs": {
+      "sha256": "14093421b75c38c76cadd04e834f04e69dd5e80ef637b90b1d52ac77fbcd90c1",
+      "bytes": 3361
+    },
+    "G6.gg.mjs": {
+      "sha256": "731c28a9809fd0e9a1bca737bdda6adfe1380da5bf722b0cd39a152cd1ab3c9d",
+      "bytes": 3416
+    },
+    "G7.gg.mjs": {
+      "sha256": "95ee090c06b3fd9ea39bfa84da7406b49f24e0a604038a20680a2d1222140c69",
+      "bytes": 3391
+    },
+    "G8.gg.mjs": {
+      "sha256": "66a9e65f49c98d9515b43e0e7e546b961bc3b38938d4b2f9e37605e42ffca0ed",
+      "bytes": 3325
+    },
+    "vega-lite.svg": {
+      "sha256": "f3e1864435ecf760b4822388e8eed757a2e9dff6cb746eb71ec5377214aac1f5",
+      "bytes": 121695
+    },
+    "ggaction.svg": {
+      "sha256": "f7daaa9acf9c513a47b389f8f54d0eb8a689734975e2142564309d6e510b0ea7",
+      "bytes": 71512
+    }
+  }
+}

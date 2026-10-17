@@ -1,0 +1,122 @@
+{
+  "id": "vl_0017",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "993c0f307558aa6f0834b0b6493dc5985c4dd9a8ef82aec89ef07fcb48ff81df",
+      "actions": 6,
+      "topOptions": 12
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0520a45d4f5b4da3eaf2623b134b55501cea8642f0451220dc7c7ed4c1111a52",
+      "actions": 8,
+      "topOptions": 15
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "9b21a8278a51a3fa2167ffa972d513d1e745c9210b369c0ec3dfb76cece97066",
+      "actions": 9,
+      "topOptions": 19
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8e74cdb23192fa7476ec9addbb9e866f40ef32defe80a58b8952e76a7ffe66cd",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c6467cb62ed0fafb8cce99d7119ba0edf02087098b5308f4b01c73761608f4bc",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ddf8c2d670ce7db60d4b7eaae296f3390bc5a4c7f0e47c96408becdb1ce49146",
+      "actions": 13,
+      "topOptions": 25
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "0acc0a463c5d5910a0f3ce4e2d211bf5a475f318d005215bd901a04f999d06e1",
+      "actions": 15,
+      "topOptions": 25
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "e95ed1f681c8d0bd031b471916d6c7374818633bb7720380e4d2d47d473b9ac8",
+      "actions": 15,
+      "topOptions": 27
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful distinct stages. A label-only wrapper rename with empty ticks was collapsed into a G6 correction, preserved original model provenance; valid Y-component change replayed as G7, paired existing title typography moved into focused editors as G8. Duplicate X-scale setter was removed by exact model patch. All final source/family/DOM checks pass."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "1d3726cc23cb7c4e1dc285cdc916b0d69310a31087a287e33a24b648b62145af",
+      "bytes": 841
+    },
+    "data.json": {
+      "sha256": "44cb9bcb225a76eaf7413c466ccf8d83767a09e95fd6704c1f44ba325e16cae5",
+      "bytes": 338
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1d3726cc23cb7c4e1dc285cdc916b0d69310a31087a287e33a24b648b62145af",
+      "bytes": 841
+    },
+    "G1.gg.mjs": {
+      "sha256": "993c0f307558aa6f0834b0b6493dc5985c4dd9a8ef82aec89ef07fcb48ff81df",
+      "bytes": 1699
+    },
+    "G2.gg.mjs": {
+      "sha256": "0520a45d4f5b4da3eaf2623b134b55501cea8642f0451220dc7c7ed4c1111a52",
+      "bytes": 1701
+    },
+    "G3.gg.mjs": {
+      "sha256": "9b21a8278a51a3fa2167ffa972d513d1e745c9210b369c0ec3dfb76cece97066",
+      "bytes": 1663
+    },
+    "G4.gg.mjs": {
+      "sha256": "8e74cdb23192fa7476ec9addbb9e866f40ef32defe80a58b8952e76a7ffe66cd",
+      "bytes": 1757
+    },
+    "G5.gg.mjs": {
+      "sha256": "c6467cb62ed0fafb8cce99d7119ba0edf02087098b5308f4b01c73761608f4bc",
+      "bytes": 1851
+    },
+    "G6.gg.mjs": {
+      "sha256": "ddf8c2d670ce7db60d4b7eaae296f3390bc5a4c7f0e47c96408becdb1ce49146",
+      "bytes": 1829
+    },
+    "G7.gg.mjs": {
+      "sha256": "0acc0a463c5d5910a0f3ce4e2d211bf5a475f318d005215bd901a04f999d06e1",
+      "bytes": 1807
+    },
+    "G8.gg.mjs": {
+      "sha256": "e95ed1f681c8d0bd031b471916d6c7374818633bb7720380e4d2d47d473b9ac8",
+      "bytes": 1807
+    },
+    "vega-lite.svg": {
+      "sha256": "f1b80e4f5c808da8b4f7d6682f4693d9e7247a5ee07b621afa51a5e71719673a",
+      "bytes": 6741
+    },
+    "ggaction.svg": {
+      "sha256": "57e884a842769beb7e1107d890e7f8793175229b2f6f783ea870c410068a4b6f",
+      "bytes": 3750
+    }
+  }
+}

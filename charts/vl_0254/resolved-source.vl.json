@@ -1,0 +1,682 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": [
+      "Teams points and expected goal difference",
+      "in Europe's Top 5 Leagues 2022-23"
+    ],
+    "subtitle": [
+      "Expected Goal Difference (x), Points (y).",
+      "Data from Fbref, all stats normalised per game."
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "config": {
+    "background": "white",
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "Team": "Real Madrid",
+        "Points per Game": "2.82",
+        "Expected Goal Difference per Game": "1.14",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Paris S-G",
+        "Points per Game": "2.67",
+        "Expected Goal Difference per Game": "1.66",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Napoli",
+        "Points per Game": "2.64",
+        "Expected Goal Difference per Game": "1.19",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Barcelona",
+        "Points per Game": "2.55",
+        "Expected Goal Difference per Game": "1.64",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Arsenal",
+        "Points per Game": "2.55",
+        "Expected Goal Difference per Game": "0.82",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Manchester City",
+        "Points per Game": "2.36",
+        "Expected Goal Difference per Game": "1.53",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Milan",
+        "Points per Game": "2.36",
+        "Expected Goal Difference per Game": "0.78",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Lens",
+        "Points per Game": "2.25",
+        "Expected Goal Difference per Game": "0.67",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Lorient",
+        "Points per Game": "2.25",
+        "Expected Goal Difference per Game": "-0.05",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Lazio",
+        "Points per Game": "2.18",
+        "Expected Goal Difference per Game": "0.1",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Atalanta",
+        "Points per Game": "2.18",
+        "Expected Goal Difference per Game": "0.58",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Union Berlin",
+        "Points per Game": "2.09",
+        "Expected Goal Difference per Game": "0.06",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Atlético Madrid",
+        "Points per Game": "2.09",
+        "Expected Goal Difference per Game": "0.19",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Bayern Munich",
+        "Points per Game": "2.0",
+        "Expected Goal Difference per Game": "1.4",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Rennes",
+        "Points per Game": "2.0",
+        "Expected Goal Difference per Game": "0.79",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Real Sociedad",
+        "Points per Game": "2.0",
+        "Expected Goal Difference per Game": "0.42",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Roma",
+        "Points per Game": "2.0",
+        "Expected Goal Difference per Game": "1.13",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Marseille",
+        "Points per Game": "1.92",
+        "Expected Goal Difference per Game": "0.41",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Tottenham",
+        "Points per Game": "1.92",
+        "Expected Goal Difference per Game": "0.43",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Udinese",
+        "Points per Game": "1.91",
+        "Expected Goal Difference per Game": "0.31",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Chelsea",
+        "Points per Game": "1.91",
+        "Expected Goal Difference per Game": "0.14",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Inter",
+        "Points per Game": "1.91",
+        "Expected Goal Difference per Game": "0.8",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Freiburg",
+        "Points per Game": "1.91",
+        "Expected Goal Difference per Game": "0.34",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Lille",
+        "Points per Game": "1.83",
+        "Expected Goal Difference per Game": "0.54",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Betis",
+        "Points per Game": "1.82",
+        "Expected Goal Difference per Game": "0.13",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Eint Frankfurt",
+        "Points per Game": "1.82",
+        "Expected Goal Difference per Game": "0.4",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Manchester Utd",
+        "Points per Game": "1.82",
+        "Expected Goal Difference per Game": "0.04",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Newcastle Utd",
+        "Points per Game": "1.75",
+        "Expected Goal Difference per Game": "0.6",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Monaco",
+        "Points per Game": "1.75",
+        "Expected Goal Difference per Game": "-0.22",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Juventus",
+        "Points per Game": "1.73",
+        "Expected Goal Difference per Game": "0.37",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Dortmund",
+        "Points per Game": "1.73",
+        "Expected Goal Difference per Game": "0.52",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Athletic Club",
+        "Points per Game": "1.64",
+        "Expected Goal Difference per Game": "0.77",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Villarreal",
+        "Points per Game": "1.64",
+        "Expected Goal Difference per Game": "0.52",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Mainz 05",
+        "Points per Game": "1.64",
+        "Expected Goal Difference per Game": "-0.13",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Hoffenheim",
+        "Points per Game": "1.55",
+        "Expected Goal Difference per Game": "0.42",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Osasuna",
+        "Points per Game": "1.55",
+        "Expected Goal Difference per Game": "0.14",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Fulham",
+        "Points per Game": "1.5",
+        "Expected Goal Difference per Game": "-0.57",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Liverpool",
+        "Points per Game": "1.45",
+        "Expected Goal Difference per Game": "0.45",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "RB Leipzig",
+        "Points per Game": "1.45",
+        "Expected Goal Difference per Game": "0.67",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "M'Gladbach",
+        "Points per Game": "1.45",
+        "Expected Goal Difference per Game": "0.26",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Köln",
+        "Points per Game": "1.45",
+        "Expected Goal Difference per Game": "0.17",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Lyon",
+        "Points per Game": "1.42",
+        "Expected Goal Difference per Game": "0.39",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Clermont Foot",
+        "Points per Game": "1.42",
+        "Expected Goal Difference per Game": "-0.9",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Valencia",
+        "Points per Game": "1.36",
+        "Expected Goal Difference per Game": "0.43",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Werder Bremen",
+        "Points per Game": "1.36",
+        "Expected Goal Difference per Game": "-0.13",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Rayo Vallecano",
+        "Points per Game": "1.36",
+        "Expected Goal Difference per Game": "0.06",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Brighton",
+        "Points per Game": "1.36",
+        "Expected Goal Difference per Game": "0.23",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Toulouse",
+        "Points per Game": "1.33",
+        "Expected Goal Difference per Game": "-0.14",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Torino",
+        "Points per Game": "1.27",
+        "Expected Goal Difference per Game": "0.02",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Valladolid",
+        "Points per Game": "1.27",
+        "Expected Goal Difference per Game": "-0.56",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Augsburg",
+        "Points per Game": "1.27",
+        "Expected Goal Difference per Game": "-1.02",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Sassuolo",
+        "Points per Game": "1.2",
+        "Expected Goal Difference per Game": "0.07",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Salernitana",
+        "Points per Game": "1.18",
+        "Expected Goal Difference per Game": "-0.51",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Crystal Palace",
+        "Points per Game": "1.18",
+        "Expected Goal Difference per Game": "-0.39",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Bournemouth",
+        "Points per Game": "1.18",
+        "Expected Goal Difference per Game": "-0.93",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Brentford",
+        "Points per Game": "1.17",
+        "Expected Goal Difference per Game": "0.01",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Mallorca",
+        "Points per Game": "1.09",
+        "Expected Goal Difference per Game": "-0.11",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Everton",
+        "Points per Game": "1.08",
+        "Expected Goal Difference per Game": "-0.55",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Troyes",
+        "Points per Game": "1.08",
+        "Expected Goal Difference per Game": "-0.25",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Nice",
+        "Points per Game": "1.08",
+        "Expected Goal Difference per Game": "0.25",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Montpellier",
+        "Points per Game": "1.0",
+        "Expected Goal Difference per Game": "-0.49",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Hertha BSC",
+        "Points per Game": "1.0",
+        "Expected Goal Difference per Game": "-0.45",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "West Ham",
+        "Points per Game": "1.0",
+        "Expected Goal Difference per Game": "0.22",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Aston Villa",
+        "Points per Game": "1.0",
+        "Expected Goal Difference per Game": "-0.18",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Empoli",
+        "Points per Game": "1.0",
+        "Expected Goal Difference per Game": "-0.59",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Wolfsburg",
+        "Points per Game": "1.0",
+        "Expected Goal Difference per Game": "-0.41",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Reims",
+        "Points per Game": "1.0",
+        "Expected Goal Difference per Game": "-0.16",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Southampton",
+        "Points per Game": "1.0",
+        "Expected Goal Difference per Game": "-0.38",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Celta Vigo",
+        "Points per Game": "1.0",
+        "Expected Goal Difference per Game": "-0.27",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Leicester City",
+        "Points per Game": "0.92",
+        "Expected Goal Difference per Game": "-0.36",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Nantes",
+        "Points per Game": "0.92",
+        "Expected Goal Difference per Game": "-0.35",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Fiorentina",
+        "Points per Game": "0.91",
+        "Expected Goal Difference per Game": "0.09",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Bologna",
+        "Points per Game": "0.91",
+        "Expected Goal Difference per Game": "-0.4",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Espanyol",
+        "Points per Game": "0.91",
+        "Expected Goal Difference per Game": "0.0",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Almería",
+        "Points per Game": "0.91",
+        "Expected Goal Difference per Game": "-0.54",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Sevilla",
+        "Points per Game": "0.91",
+        "Expected Goal Difference per Game": "-0.78",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Monza",
+        "Points per Game": "0.91",
+        "Expected Goal Difference per Game": "-0.46",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Getafe",
+        "Points per Game": "0.9",
+        "Expected Goal Difference per Game": "-0.31",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Girona",
+        "Points per Game": "0.82",
+        "Expected Goal Difference per Game": "-0.08",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Leeds United",
+        "Points per Game": "0.82",
+        "Expected Goal Difference per Game": "0.12",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Leverkusen",
+        "Points per Game": "0.82",
+        "Expected Goal Difference per Game": "-0.15",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Spezia",
+        "Points per Game": "0.82",
+        "Expected Goal Difference per Game": "-1.02",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Strasbourg",
+        "Points per Game": "0.75",
+        "Expected Goal Difference per Game": "-0.55",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Brest",
+        "Points per Game": "0.75",
+        "Expected Goal Difference per Game": "-0.48",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Auxerre",
+        "Points per Game": "0.75",
+        "Expected Goal Difference per Game": "-0.75",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Wolves",
+        "Points per Game": "0.75",
+        "Expected Goal Difference per Game": "-0.25",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Nott'ham Forest",
+        "Points per Game": "0.75",
+        "Expected Goal Difference per Game": "-0.79",
+        "Country": "Premier League (England)"
+      },
+      {
+        "Team": "Lecce",
+        "Points per Game": "0.73",
+        "Expected Goal Difference per Game": "-0.47",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Stuttgart",
+        "Points per Game": "0.73",
+        "Expected Goal Difference per Game": "-0.23",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Ajaccio",
+        "Points per Game": "0.67",
+        "Expected Goal Difference per Game": "-0.3",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Angers",
+        "Points per Game": "0.67",
+        "Expected Goal Difference per Game": "-0.18",
+        "Country": "Ligue 1 (France)"
+      },
+      {
+        "Team": "Cádiz",
+        "Points per Game": "0.64",
+        "Expected Goal Difference per Game": "-1.16",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Bochum",
+        "Points per Game": "0.64",
+        "Expected Goal Difference per Game": "-1.29",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Schalke 04",
+        "Points per Game": "0.55",
+        "Expected Goal Difference per Game": "-0.5",
+        "Country": "Bundesliga (Germany)"
+      },
+      {
+        "Team": "Hellas Verona",
+        "Points per Game": "0.5",
+        "Expected Goal Difference per Game": "-0.47",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Cremonese",
+        "Points per Game": "0.4",
+        "Expected Goal Difference per Game": "-1.1",
+        "Country": "Serie A (Italy)"
+      },
+      {
+        "Team": "Elche",
+        "Points per Game": "0.36",
+        "Expected Goal Difference per Game": "-1.63",
+        "Country": "La Liga (Spain)"
+      },
+      {
+        "Team": "Sampdoria",
+        "Points per Game": "0.3",
+        "Expected Goal Difference per Game": "-0.67",
+        "Country": "Serie A (Italy)"
+      }
+    ]
+  },
+  "mark": {
+    "type": "circle",
+    "color": "#5b92e5",
+    "opacity": 0.7
+  },
+  "height": 300,
+  "width": 300,
+  "encoding": {
+    "x": {
+      "field": "Expected Goal Difference per Game",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          -1.8,
+          1.8
+        ]
+      },
+      "axis": {
+        "grid": false
+      },
+      "title": null
+    },
+    "y": {
+      "field": "Points per Game",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0.2,
+          3
+        ]
+      },
+      "axis": {
+        "grid": false
+      },
+      "title": null
+    },
+    "color": {
+      "field": "Country",
+      "type": "ordinal",
+      "scale": {
+        "scheme": "set1"
+      },
+      "legend": {
+        "orient": "right"
+      },
+      "title": "League"
+    },
+    "tooltip": [
+      {
+        "field": "Team",
+        "type": "ordinal",
+        "title": "Team"
+      },
+      {
+        "field": "Points per Game",
+        "type": "quantitative",
+        "title": "Points",
+        "format": ".2f"
+      },
+      {
+        "field": "Expected Goal Difference per Game",
+        "type": "quantitative",
+        "title": "Expected Goal Difference",
+        "format": ".2f"
+      }
+    ]
+  }
+}

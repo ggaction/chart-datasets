@@ -1,0 +1,91 @@
+{
+  "id": "vl_0771",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6cd0b6855ac6e2aa8e49061e195ada44dc9a940f248b57af6c53bd2606e323bd",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a1408ad09870bad7b4c6a0065d0dd055f99ec81963c65f95ecdf9a389b7b7b8d",
+      "actions": 16,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a705944e7a670df17d2569fee507d7b4e4608cd0f957c1fea9c12389518160d6",
+      "actions": 18,
+      "topOptions": 34
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "77acd38d63dc21a53e6d34bd89fa235080eb422b424f2c422ace1c9269ab40f1",
+      "actions": 19,
+      "topOptions": 35
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4d04c00b3adfe352083fa75a9412a99aa30c59e2fbe7f606b5e49220d4b64eb5",
+      "actions": 19,
+      "topOptions": 35
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/9fb92b2577655eb172567ee5a66635ec9fba63b7/_CAF_MainReligion_2022_Chart6.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Native source geometry/metrics preserved, both titleweightsfocused, verticalgridfocused, no declaredmark/guideappearance leftover."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "5b95d2daf0c8d1efd16ba98e53bbb000a3086de8da4614e8caa5249d64532cc6",
+      "bytes": 1274
+    },
+    "data.json": {
+      "sha256": "74e6609266255c20430a2bf367b6a3dd0363f85640a64ff22a315c846fbf1d81",
+      "bytes": 9307
+    },
+    "resolved-source.vl.json": {
+      "sha256": "678fe260aa300d7b892858fe013e343d8796f1c79c2fcff94bb861382b0a5910",
+      "bytes": 12588
+    },
+    "G1.gg.mjs": {
+      "sha256": "6cd0b6855ac6e2aa8e49061e195ada44dc9a940f248b57af6c53bd2606e323bd",
+      "bytes": 2620
+    },
+    "G2.gg.mjs": {
+      "sha256": "a1408ad09870bad7b4c6a0065d0dd055f99ec81963c65f95ecdf9a389b7b7b8d",
+      "bytes": 2664
+    },
+    "G3.gg.mjs": {
+      "sha256": "a705944e7a670df17d2569fee507d7b4e4608cd0f957c1fea9c12389518160d6",
+      "bytes": 2724
+    },
+    "G4.gg.mjs": {
+      "sha256": "77acd38d63dc21a53e6d34bd89fa235080eb422b424f2c422ace1c9269ab40f1",
+      "bytes": 2750
+    },
+    "G5.gg.mjs": {
+      "sha256": "4d04c00b3adfe352083fa75a9412a99aa30c59e2fbe7f606b5e49220d4b64eb5",
+      "bytes": 2738
+    },
+    "vega-lite.svg": {
+      "sha256": "09b33ba2507e5ce520808be88aeed9c509f00f4e0fa1b392142254ce76391e06",
+      "bytes": 7935
+    },
+    "ggaction.svg": {
+      "sha256": "cf7ee220b3705cae1d7deddb6767829a2d146d8349c34b875de41f9edd8eebd8",
+      "bytes": 4582
+    }
+  }
+}

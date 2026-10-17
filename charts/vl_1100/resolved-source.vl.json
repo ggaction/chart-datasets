@@ -1,0 +1,1278 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Global fossil fuel consumption",
+    "subtitle": "TWh. Source: Smil (2017) / BP Statistical Review of World Energy",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 300,
+  "height": 280,
+  "data": {
+    "values": [
+      {
+        "Time": "1850",
+        "Value": "569",
+        "Source": "Coal",
+        "Detail": "TWh Direct Energy"
+      },
+      {
+        "Time": "1860",
+        "Value": "1061",
+        "Source": "Coal",
+        "Detail": "Source: Our World in Data"
+      },
+      {
+        "Time": "1870",
+        "Value": "1642",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1880",
+        "Value": "2542",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1890",
+        "Value": "3856",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1900",
+        "Value": "5728",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1910",
+        "Value": "8656",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1920",
+        "Value": "9833",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1930",
+        "Value": "10125",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1940",
+        "Value": "11586",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1950",
+        "Value": "12603",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Value": "15442",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Value": "16140",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Value": "16324",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Value": "16061",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Value": "16301",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Value": "16799",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Value": "17059",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Value": "16966",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Value": "17154",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Value": "17668",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Value": "17682",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Value": "18025",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Value": "18688",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Value": "19241",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Value": "19458",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Value": "20364",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Value": "20858",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Value": "21150",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Value": "21384",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Value": "22045",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Value": "23000",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Value": "23986",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Value": "24256",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Value": "25210",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Value": "25965",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Value": "26213",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Value": "25895",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Value": "25643",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Value": "25550",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Value": "25675",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Value": "25774",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Value": "25954",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Value": "26572",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Value": "26527",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Value": "26360",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Value": "26522",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Value": "27417",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Value": "27853",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Value": "28945",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Value": "31497",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Value": "33664",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Value": "36171",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Value": "38071",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Value": "40224",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Value": "40770",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Value": "40149",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Value": "41997",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Value": "44018",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Value": "44185",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Value": "44993",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Value": "44954",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Value": "43844",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Value": "43196",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2017",
+        "Value": "43360",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2018",
+        "Value": "44109",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "2019",
+        "Value": "43849",
+        "Source": "Coal",
+        "Detail": ""
+      },
+      {
+        "Time": "1850",
+        "Value": "0",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1860",
+        "Value": "0",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1870",
+        "Value": "6",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1880",
+        "Value": "33",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1890",
+        "Value": "89",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1900",
+        "Value": "181",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1910",
+        "Value": "397",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1920",
+        "Value": "889",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1930",
+        "Value": "1756",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1940",
+        "Value": "2653",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1950",
+        "Value": "5444",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Value": "11097",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Value": "18109",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Value": "19496",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Value": "20891",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Value": "22675",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Value": "24577",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Value": "26708",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Value": "28205",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Value": "30378",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Value": "32746",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Value": "32272",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Value": "31948",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Value": "34030",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Value": "35215",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Value": "36426",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Value": "37024",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Value": "35577",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Value": "34296",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Value": "33198",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Value": "32969",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Value": "33739",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Value": "33789",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Value": "34803",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Value": "35499",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Value": "36703",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Value": "37300",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Value": "37691",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Value": "37691",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Value": "38344",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Value": "38099",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Value": "38935",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Value": "39445",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Value": "40380",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Value": "41413",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Value": "41624",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Value": "42371",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Value": "42897",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Value": "43278",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Value": "43639",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Value": "44610",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Value": "46256",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Value": "46824",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Value": "47367",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Value": "47958",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Value": "47566",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Value": "46654",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Value": "48087",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Value": "48550",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Value": "49157",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Value": "49689",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Value": "50014",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Value": "50892",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Value": "51920",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2017",
+        "Value": "52568",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2018",
+        "Value": "53181",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "2019",
+        "Value": "53620",
+        "Source": "Oil",
+        "Detail": ""
+      },
+      {
+        "Time": "1850",
+        "Value": "0",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1860",
+        "Value": "0",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1870",
+        "Value": "0",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1880",
+        "Value": "0",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1890",
+        "Value": "33",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1900",
+        "Value": "64",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1910",
+        "Value": "142",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1920",
+        "Value": "233",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1930",
+        "Value": "603",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1940",
+        "Value": "875",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1950",
+        "Value": "2092",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1960",
+        "Value": "4472",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1965",
+        "Value": "6303",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1966",
+        "Value": "6869",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1967",
+        "Value": "7375",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1968",
+        "Value": "8044",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1969",
+        "Value": "8833",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1970",
+        "Value": "9614",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1971",
+        "Value": "10292",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1972",
+        "Value": "10861",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1973",
+        "Value": "11378",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1974",
+        "Value": "11656",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1975",
+        "Value": "11661",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1976",
+        "Value": "12356",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1977",
+        "Value": "12761",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1978",
+        "Value": "13294",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1979",
+        "Value": "14119",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1980",
+        "Value": "14239",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1981",
+        "Value": "14394",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1982",
+        "Value": "14469",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1983",
+        "Value": "14703",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1984",
+        "Value": "15903",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1985",
+        "Value": "16261",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1986",
+        "Value": "16419",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1987",
+        "Value": "17281",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1988",
+        "Value": "18089",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1989",
+        "Value": "18869",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1990",
+        "Value": "19483",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1991",
+        "Value": "19975",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1992",
+        "Value": "20067",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1993",
+        "Value": "20269",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1994",
+        "Value": "20394",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1995",
+        "Value": "21108",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1996",
+        "Value": "22164",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1997",
+        "Value": "22033",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1998",
+        "Value": "22439",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "1999",
+        "Value": "23075",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2000",
+        "Value": "24000",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2001",
+        "Value": "24331",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2002",
+        "Value": "25053",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2003",
+        "Value": "25753",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2004",
+        "Value": "26736",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2005",
+        "Value": "27464",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2006",
+        "Value": "28175",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2007",
+        "Value": "29325",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2008",
+        "Value": "30025",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2009",
+        "Value": "29411",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2010",
+        "Value": "31606",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2011",
+        "Value": "32372",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2012",
+        "Value": "33219",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2013",
+        "Value": "33767",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2014",
+        "Value": "33994",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2015",
+        "Value": "34781",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2016",
+        "Value": "35589",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2017",
+        "Value": "36586",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2018",
+        "Value": "38517",
+        "Source": "Gas",
+        "Detail": ""
+      },
+      {
+        "Time": "2019",
+        "Value": "39292",
+        "Source": "Gas",
+        "Detail": ""
+      }
+    ],
+    "format": {
+      "parse": {
+        "Time": "date"
+      }
+    }
+  },
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "timeUnit": "year",
+      "field": "Time",
+      "type": "temporal",
+      "title": null,
+      "axis": {
+        "format": "%Y",
+        "grid": false
+      }
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "Value",
+      "type": "quantitative",
+      "title": null,
+      "axis": {
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "Source",
+      "title": null,
+      "scale": {
+        "scheme": "yellowgreenblue"
+      },
+      "legend": {
+        "orient": "top-left"
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "Time",
+        "type": "temporal",
+        "timeUnit": "year",
+        "title": "Year"
+      },
+      {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "TWh consumed)"
+      },
+      {
+        "field": "Source",
+        "type": "nominal"
+      }
+    ]
+  }
+}

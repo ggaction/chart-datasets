@@ -1,0 +1,91 @@
+{
+  "id": "vl_1750",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "adb51936952618983a7fd8636d404a7af7c5eed9411e9af7112de4c4b91b0ab9",
+      "actions": 8,
+      "topOptions": 19
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "d089ca4e9425695993388b1660b5fb716446e2f9d690055bc742528883d23a45",
+      "actions": 8,
+      "topOptions": 20
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "239ebae723030708c502cbb9dddb5c8974063827c906bdc2c952c63a2f4398a3",
+      "actions": 9,
+      "topOptions": 24
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0eb84b16e60f6f383c551c4ca651183054f97227432324ee0668d0e819b38bb9",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "1f636b4561c6ff3044cbeaa8b77d194a4a218bf78a18c792b3d347f36ad1cabf",
+      "actions": 11,
+      "topOptions": 26
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed full accepted G5 and model stop. XY scale styling already focused, source mark fill/opacity/asymmetric corner styling uses terminal semantic mark edits, whole axes created before focused paired title paint. Remaining axis font/rotation/offsets are protected initial geometry. No authored grid or legend remains to split and no source style can be invented; stop at five stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "fc54b444a00c53e902537470aac84635eb185af7ba7ea2d02345903fa82bd60b",
+      "bytes": 494
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a10df1ee95bcc0436936f538b6a5879e4310ec0595d9f9205c62b251ef41b0c4",
+      "bytes": 114342
+    },
+    "G1.gg.mjs": {
+      "sha256": "adb51936952618983a7fd8636d404a7af7c5eed9411e9af7112de4c4b91b0ab9",
+      "bytes": 1478
+    },
+    "G2.gg.mjs": {
+      "sha256": "d089ca4e9425695993388b1660b5fb716446e2f9d690055bc742528883d23a45",
+      "bytes": 1414
+    },
+    "G3.gg.mjs": {
+      "sha256": "239ebae723030708c502cbb9dddb5c8974063827c906bdc2c952c63a2f4398a3",
+      "bytes": 1370
+    },
+    "G4.gg.mjs": {
+      "sha256": "0eb84b16e60f6f383c551c4ca651183054f97227432324ee0668d0e819b38bb9",
+      "bytes": 1430
+    },
+    "G5.gg.mjs": {
+      "sha256": "1f636b4561c6ff3044cbeaa8b77d194a4a218bf78a18c792b3d347f36ad1cabf",
+      "bytes": 1418
+    },
+    "vega-lite.svg": {
+      "sha256": "724c3e05e735d9030d4354bc9cedfe999d0543f7dc0e643d2d30d2da3d9031c2",
+      "bytes": 187531
+    },
+    "ggaction.svg": {
+      "sha256": "8076708a6508bc0afcb88410e27d1b277a2a02147775c692617ef8639408fc87",
+      "bytes": 174641
+    }
+  }
+}

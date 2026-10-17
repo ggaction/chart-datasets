@@ -1,0 +1,124 @@
+{
+  "id": "vl_0117",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c8564e30d483a3968f22e808b9666628f1be17cf0d45fe55ac323877f6dda7de",
+      "actions": 22,
+      "topOptions": 58
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "536cfb4ad5ebfbb41f11f33f0e1fa1cd7bb4e22453c9f1e09adf64f07f79eb21",
+      "actions": 22,
+      "topOptions": 58
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "0669e6c7233e2f75a8e0981bad04709285a0ec0317e0b8279bd921fbb136b067",
+      "actions": 23,
+      "topOptions": 59
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "5284030256fcee78c15e4a188f9db8100895b64fd1afb8a413feec912add4a5e",
+      "actions": 24,
+      "topOptions": 59
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "fac2551f55a2d7ab637b5bf2881e12140e9919f06926857e117ee5b1b7f8b132",
+      "actions": 25,
+      "topOptions": 63
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b33330374160a1f6573ccf90624619e77f9e0db2d018df4f4b181157d02d1ead",
+      "actions": 26,
+      "topOptions": 65
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "41361913b3e5bfcdbf0cdc9d3b5c723af935666f98e2e4b3c0577876d483ff60",
+      "actions": 28,
+      "topOptions": 69
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "074039a34e7146e56e05fed48b1e053ff4c1002f76aa71d9f31fb8deaf47c4de",
+      "actions": 31,
+      "topOptions": 71
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/COG-UK/UK-lineage-dynamics-analysis/2ca84630ab1fb80b949d25b05b6578fa9674f574/analyses/epidemiological/results/cutoff-varying-lag-estimates.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct meaningful stages verified, including correct owner-specific gradient/category title edits, semantic point stroke, paired axes and directional grid refinement. Source full data/two newline legend titles/palette retained; configured8-stage cap, no claim of exhaustive lower-level decomposition."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "24f63229811567a92830a1f4210043310677a956b7dd903c5c84617e49a92f14",
+      "bytes": 1073
+    },
+    "data.json": {
+      "sha256": "b95831847792b21346c46ecb3efc8688fcddfa05da1effa08053874efbe7b1ac",
+      "bytes": 1062
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a36cbdb7333386d0f5629630ef177f7011ccbebc4cb10f9b77aacf306bd2083c",
+      "bytes": 2160
+    },
+    "G1.gg.mjs": {
+      "sha256": "c8564e30d483a3968f22e808b9666628f1be17cf0d45fe55ac323877f6dda7de",
+      "bytes": 2903
+    },
+    "G2.gg.mjs": {
+      "sha256": "536cfb4ad5ebfbb41f11f33f0e1fa1cd7bb4e22453c9f1e09adf64f07f79eb21",
+      "bytes": 2892
+    },
+    "G3.gg.mjs": {
+      "sha256": "0669e6c7233e2f75a8e0981bad04709285a0ec0317e0b8279bd921fbb136b067",
+      "bytes": 2831
+    },
+    "G4.gg.mjs": {
+      "sha256": "5284030256fcee78c15e4a188f9db8100895b64fd1afb8a413feec912add4a5e",
+      "bytes": 2852
+    },
+    "G5.gg.mjs": {
+      "sha256": "fac2551f55a2d7ab637b5bf2881e12140e9919f06926857e117ee5b1b7f8b132",
+      "bytes": 2828
+    },
+    "G6.gg.mjs": {
+      "sha256": "b33330374160a1f6573ccf90624619e77f9e0db2d018df4f4b181157d02d1ead",
+      "bytes": 2880
+    },
+    "G7.gg.mjs": {
+      "sha256": "41361913b3e5bfcdbf0cdc9d3b5c723af935666f98e2e4b3c0577876d483ff60",
+      "bytes": 2976
+    },
+    "G8.gg.mjs": {
+      "sha256": "074039a34e7146e56e05fed48b1e053ff4c1002f76aa71d9f31fb8deaf47c4de",
+      "bytes": 3042
+    },
+    "vega-lite.svg": {
+      "sha256": "6c08a15e222668b03d2a359bb4bfaadd3284981fed313bd4e1dd6a1eebaa4612",
+      "bytes": 14970
+    },
+    "ggaction.svg": {
+      "sha256": "f7ce94dd7889f486da9961510db247907a61b15f57fbd18ecf3cfc2c24c0e7fc",
+      "bytes": 17661
+    }
+  }
+}

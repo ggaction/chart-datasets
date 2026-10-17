@@ -1,0 +1,124 @@
+{
+  "id": "vl_1083",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ee65efced1406b0454a696befdc669822b9615a0b3d11c7c7a460953c30623a9",
+      "actions": 10,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0d32c254ad31ce01e42defc6a0290d94f929f6eec4a7280d5a8c8c14283537b8",
+      "actions": 11,
+      "topOptions": 28
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "1a828b9cc6bf498ab26c16adb6e5edbc47c0e6b99c8d7bc657f5ab7f0fb77c72",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "64fc7e96ec961c981d5e5146839b054ec9a936d09a2373bf78d88a7b7800ea28",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "eb4d4808b472e829a3ddaed9ac296397353b8cf2f171e52b6a7c2e8300108c73",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "68869ad3b220449b671db68843fd9781240f0a44233e211d9aaf0d75784437a2",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "1bf9e5eecbd5009ea9286c66c1262fe00228e439bc5ae4f04661a586c45cc5ea",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "480fda06615abd3011e4b3c795739838a51a0edc5f9c872a56be9b82c06a587c",
+      "actions": 19,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/data_ONS-i4ex.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "All eight accepted stages individually reviewed against accepted parent; genuine public API ownership transitions, preserved source data and approved geometry, and current source/family render checks pass."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "291c94760f32e50ea9aacfd5778e09198abb5910152c54f2d5bcca30ea1fc013",
+      "bytes": 846
+    },
+    "data.json": {
+      "sha256": "9b06a28d7f84cb58c3d16e3a2f09f4eac44d075f343090a5ad54b4614d081b0d",
+      "bytes": 5000
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0d0934ee17e1d28570bd288d1be3238bb1de2aa7c2abfbddf0eb001050b723eb",
+      "bytes": 6754
+    },
+    "G1.gg.mjs": {
+      "sha256": "ee65efced1406b0454a696befdc669822b9615a0b3d11c7c7a460953c30623a9",
+      "bytes": 2276
+    },
+    "G2.gg.mjs": {
+      "sha256": "0d32c254ad31ce01e42defc6a0290d94f929f6eec4a7280d5a8c8c14283537b8",
+      "bytes": 2212
+    },
+    "G3.gg.mjs": {
+      "sha256": "1a828b9cc6bf498ab26c16adb6e5edbc47c0e6b99c8d7bc657f5ab7f0fb77c72",
+      "bytes": 2170
+    },
+    "G4.gg.mjs": {
+      "sha256": "64fc7e96ec961c981d5e5146839b054ec9a936d09a2373bf78d88a7b7800ea28",
+      "bytes": 2192
+    },
+    "G5.gg.mjs": {
+      "sha256": "eb4d4808b472e829a3ddaed9ac296397353b8cf2f171e52b6a7c2e8300108c73",
+      "bytes": 2294
+    },
+    "G6.gg.mjs": {
+      "sha256": "68869ad3b220449b671db68843fd9781240f0a44233e211d9aaf0d75784437a2",
+      "bytes": 2350
+    },
+    "G7.gg.mjs": {
+      "sha256": "1bf9e5eecbd5009ea9286c66c1262fe00228e439bc5ae4f04661a586c45cc5ea",
+      "bytes": 2260
+    },
+    "G8.gg.mjs": {
+      "sha256": "480fda06615abd3011e4b3c795739838a51a0edc5f9c872a56be9b82c06a587c",
+      "bytes": 2250
+    },
+    "vega-lite.svg": {
+      "sha256": "9870094761c978b9bce8a76c25506e25351afcbcba3314b85101d0c83d1dd104",
+      "bytes": 7193
+    },
+    "ggaction.svg": {
+      "sha256": "e227e852dda7deae540ff64cda29b563c15f33c3222fbd298522c5ebc2618ca9",
+      "bytes": 5331
+    }
+  }
+}

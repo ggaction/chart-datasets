@@ -1,0 +1,1695 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Player": "Yunis Abdelhamid",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Salis Abdul Samed",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Tammy Abraham",
+        "G-xG": "-0.12"
+      },
+      {
+        "Player": "Francesco Acerbi",
+        "G-xG": "0.06"
+      },
+      {
+        "Player": "Marcos Acuña",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Yacine Adli",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Nayef Aguerd",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Ludovic Ajorque",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Manuel Akanji",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "David Alaba",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Jordi Alba",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Luis Alberto",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Omar Alderete",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Carles Aleñá",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Trent Alexander-Arnold",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Kelvin Amian",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Felipe Anderson",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Benjamin André",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Angeliño",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Waldemar Anton",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Michail Antonio",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Houssem Aouar",
+        "G-xG": "-0.06"
+      },
+      {
+        "Player": "Ronald Araújo",
+        "G-xG": "0.1"
+      },
+      {
+        "Player": "Marko Arnautović",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Maximilian Arnold",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Iago Aspas",
+        "G-xG": "0.12"
+      },
+      {
+        "Player": "Tommaso Augello",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Luke Ayling",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Milan Badelj",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Ridle Baku",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Iván Balliu",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Jonathan Bamba",
+        "G-xG": "-0.08"
+      },
+      {
+        "Player": "Antonín Barák",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Melvin Bard",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Nicolò Barella",
+        "G-xG": "-0.07"
+      },
+      {
+        "Player": "Alessandro Bastoni",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Simone Bastoni",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Mohamed Bayo",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Rodrigo Becão",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Jan Bednarek",
+        "G-xG": "0.06"
+      },
+      {
+        "Player": "Stefan Bell",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Raoul Bellanova",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Jean-Ricner Bellegarde",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Jude Bellingham",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Fran Beltrán",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Wissam Ben Yedder",
+        "G-xG": "0.2"
+      },
+      {
+        "Player": "Karim Benzema",
+        "G-xG": "0.16"
+      },
+      {
+        "Player": "Domenico Berardi",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Giulian Biancone",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Cristiano Biraghi",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Ludovic Blas",
+        "G-xG": "-0.08"
+      },
+      {
+        "Player": "Giacomo Bonaventura",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Rafael Borré",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Denis Bouanga",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Sofiane Boufal",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Benjamin Bourigeaud",
+        "G-xG": "0.16"
+      },
+      {
+        "Player": "Jarrod Bowen",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Darko Brašanac",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Lilian Brassier",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Josip Brekalo",
+        "G-xG": "0.09"
+      },
+      {
+        "Player": "Gleison Bremer",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Dylan Bronn",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "John Brooks",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Josh Brownhill",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Marcelo Brozović",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Jonathan Burkardt",
+        "G-xG": "-0.11"
+      },
+      {
+        "Player": "Sergio Busquets",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Leandro Cabrera",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Anthony Caci",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Mattia Caldara",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Hakan Çalhanoğlu",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Mahdi Camara",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Sergio Canales",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "João Cancelo",
+        "G-xG": "-0.09"
+      },
+      {
+        "Player": "Antonio Candreva",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Étienne Capoue",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Gianluca Caprari",
+        "G-xG": "0.14"
+      },
+      {
+        "Player": "Francesco Caputo",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Diego Carlos",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Yannick Carrasco",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Casemiro",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Matty Cash",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Jean-Charles Castelletto",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Catena",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Pietro Ceccaroni",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Federico Ceccherini",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Zeki Çelik",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Brendan Chardonnet",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Xavier Chavalerin",
+        "G-xG": "0.11"
+      },
+      {
+        "Player": "Pedro Chirivella",
+        "G-xG": "0.06"
+      },
+      {
+        "Player": "Joris Chotard",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Jonathan Clauss",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Conor Coady",
+        "G-xG": "0.06"
+      },
+      {
+        "Player": "Séamus Coleman",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Santi Comesaña",
+        "G-xG": "-0.1"
+      },
+      {
+        "Player": "Nicolas Cozza",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Aaron Cresswell",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Bryan Cristante",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Juan Cuadrado",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Marc Cucurella",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Jorge Cuenca",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Stuart Dallas",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Kevin Danso",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Sergi Darder",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Jonathan David",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Ben Davies",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Craig Dawson",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Lorenzo De Silvestri",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Thomas Delaine",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Andy Delort",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Emmanuel Dennis",
+        "G-xG": "0.09"
+      },
+      {
+        "Player": "Gerard Deulofeu",
+        "G-xG": "0.14"
+      },
+      {
+        "Player": "Giovanni Di Lorenzo",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Moussa Diaby",
+        "G-xG": "0.17"
+      },
+      {
+        "Player": "Raphael Dias Belloli",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Rúben Dias",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Virgil van Dijk",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Axel Disasi",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Tiago Djaló",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Alexander Djiku",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Berat Djimsiti",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Niklas Dorsch",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Gabriel Dos Santos",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Abdoulaye Doucouré",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Cheick Doucouré",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Lewis Dunk",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Jean-Kevin Duverne",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Edin Džeko",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Nico Elvedi",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Emerson",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Wataru Endo",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Martin Erlic",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Alfonso Espino",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Fabinho",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Wout Faes",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Davide Faraoni",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Nabil Fekir",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Bruno Fernandes",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Fidel",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Seko Fofana",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Pablo Fornals",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Przemysław Frankowski",
+        "G-xG": "0.11"
+      },
+      {
+        "Player": "Davide Frattesi",
+        "G-xG": "-0.08"
+      },
+      {
+        "Player": "Remo Freuler",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Angelo Fulgini",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Conor Gallagher",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Kévin Gameiro",
+        "G-xG": "-0.06"
+      },
+      {
+        "Player": "Álvaro García",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "David García",
+        "G-xG": "0.08"
+      },
+      {
+        "Player": "Francisco Garcia",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Rubén García",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Gerson",
+        "G-xG": "0.13"
+      },
+      {
+        "Player": "Matthias Ginter",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Andrei Girotto",
+        "G-xG": "0.09"
+      },
+      {
+        "Player": "Sergi Gómez",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Nicolás González",
+        "G-xG": "-0.12"
+      },
+      {
+        "Player": "Anthony Gordon",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Amine Gouiri",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Jeffrey Gouweleeuw",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Demarai Gray",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Sebastian Griesbeck",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Vincenzo Grifo",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Gonçalo Guedes",
+        "G-xG": "0.18"
+      },
+      {
+        "Player": "Marc Guéhi",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Mattéo Guendouzi",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Hugo Guillamón",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Christian Günter",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Joško Gvardiol",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Emmanuel Gyasi",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Achraf Hakimi",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Grant Hanley",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Jack Harrison",
+        "G-xG": "0.13"
+      },
+      {
+        "Player": "Jordan Henderson",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Rico Henry",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Theo Hernández",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Son Heung-min",
+        "G-xG": "0.2"
+      },
+      {
+        "Player": "Aaron Hickey",
+        "G-xG": "0.12"
+      },
+      {
+        "Player": "Nicolas Höfler",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Lucas Höler",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Franck Honorat",
+        "G-xG": "0.19"
+      },
+      {
+        "Player": "Branimir Hrgota",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Pierre Højbjerg",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Roger Ibanez",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Ivan Ilić",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Ciro Immobile",
+        "G-xG": "0.15"
+      },
+      {
+        "Player": "Lorenzo Insigne",
+        "G-xG": "-0.12"
+      },
+      {
+        "Player": "Hiroki Ito",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Daniel James",
+        "G-xG": "-0.07"
+      },
+      {
+        "Player": "Vitaly Janelt",
+        "G-xG": "0.06"
+      },
+      {
+        "Player": "Pontus Jansson",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Luis Javier Suárez",
+        "G-xG": "-0.07"
+      },
+      {
+        "Player": "Raúl Jiménez",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Joelinton",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Frenkie de Jong",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Joselu",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Diogo Jota",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Vinicius Júnior",
+        "G-xG": "0.13"
+      },
+      {
+        "Player": "Florian Kainz",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Boubacar Kamara",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Harry Kane",
+        "G-xG": "-0.12"
+      },
+      {
+        "Player": "Michael Keane",
+        "G-xG": "0.06"
+      },
+      {
+        "Player": "Franck Kessié",
+        "G-xG": "0.08"
+      },
+      {
+        "Player": "Luca Kilian",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Max Kilman",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Joshua Kimmich",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Presnel Kimpembe",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Koke",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Randal Kolo Muani",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Timothée Kolodziejczak",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Ghislain Konan",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Ezri Konsa",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Filip Kostić",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Rominigue Kouamé",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Kalidou Koulibaly",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Jules Koundé",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Boubakar Kouyaté",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Andrej Kramarić",
+        "G-xG": "-0.18"
+      },
+      {
+        "Player": "Lukas Kübler",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Gaëtan Laborde",
+        "G-xG": "-0.12"
+      },
+      {
+        "Player": "Víctor Laguardia",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Aymeric Laporte",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Julien Laporte",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Armand Lauriente",
+        "G-xG": "-0.06"
+      },
+      {
+        "Player": "Darko Lazović",
+        "G-xG": "-0.09"
+      },
+      {
+        "Player": "Vincent Le Goff",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Robin Le Normand",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Rafael Leão",
+        "G-xG": "0.06"
+      },
+      {
+        "Player": "Pierre Lees-Melou",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Robert Lewandowski",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Philipp Lienhart",
+        "G-xG": "0.08"
+      },
+      {
+        "Player": "Matthijs de Ligt",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Diego Llorente",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Maxime Lopez",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Anthony Losilla",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "José Luis Morales",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "José Luis Palomino",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Douglas Luiz",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Saša Lukić",
+        "G-xG": "0"
+      },
+      {
+        "Player": "James Maddison",
+        "G-xG": "0.14"
+      },
+      {
+        "Player": "Pablo Maffeo",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Giulio Maggiore",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Harry Maguire",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Jean-Victor Makengo",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Nemanja Maksimović",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Sadio Mané",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Ricardo Mangas",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Gian Marco Ferrari",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Marquinhos",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Aarón Martín",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Iñigo Martínez",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Lautaro Martínez",
+        "G-xG": "0.1"
+      },
+      {
+        "Player": "Adam Marušić",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Joël Matip",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Azor Matusiwa",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Neal Maupay",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Stephy Mavididi",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Konstantinos Mavropanos",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Kylian Mbappé",
+        "G-xG": "0.1"
+      },
+      {
+        "Player": "Bryan Mbeumo",
+        "G-xG": "-0.19"
+      },
+      {
+        "Player": "John McGinn",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Kenny McLean",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Scott McTominay",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Facundo Medina",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Brais Méndez",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Batista Mendy",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Mikel Merino",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Marco Meyerhöfer",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Nikola Milenković",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Sergej Milinković-Savić",
+        "G-xG": "0.11"
+      },
+      {
+        "Player": "Éder Militão",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Santi Mina",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Tyrone Mings",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Stefan Mitrović",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Henrikh Mkhitaryan",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Anthony Modeste",
+        "G-xG": "0.09"
+      },
+      {
+        "Player": "Terem Moffi",
+        "G-xG": "-0.15"
+      },
+      {
+        "Player": "Johan Mojica",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Nahuel Molina",
+        "G-xG": "0.1"
+      },
+      {
+        "Player": "Florent Mollet",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Jon Moncayola",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Álvaro Morata",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Álex Moreno",
+        "G-xG": "0.08"
+      },
+      {
+        "Player": "Steve Mounié",
+        "G-xG": "-0.13"
+      },
+      {
+        "Player": "Mason Mount",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "João Moutinho",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Thomas Müller",
+        "G-xG": "-0.07"
+      },
+      {
+        "Player": "Iker Muniain",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Obite N'Dicka",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Vital N'Simba",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Mickael Nade",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Loum Ndiaye",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Rúben Neves",
+        "G-xG": "0.1"
+      },
+      {
+        "Player": "Moussa Niakhate",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Joakim Nilsson",
+        "G-xG": "0.06"
+      },
+      {
+        "Player": "Christopher Nkunku",
+        "G-xG": "0.17"
+      },
+      {
+        "Player": "Christian Nørgaard",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Florent Ogier",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Masaya Okugawa",
+        "G-xG": "0.12"
+      },
+      {
+        "Player": "Mathías Olivera",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Karim Onisiwo",
+        "G-xG": "-0.12"
+      },
+      {
+        "Player": "Willi Orban",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Reece Oxford",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Salih Özcan",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Gavi Paez",
+        "G-xG": "-0.07"
+      },
+      {
+        "Player": "Vincent Pajot",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Isaac Palazón Camacho",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Nicolas Pallois",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Emerson Palmieri",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Lucas Paquetá",
+        "G-xG": "-0.07"
+      },
+      {
+        "Player": "Daniel Parejo",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Dimitri Payet",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "João Pedro",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Pedrosa",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Lorenzo Pellegrini",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Ivan Perišić",
+        "G-xG": "0.08"
+      },
+      {
+        "Player": "Lucas Perrin",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Andrea Pinamonti",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Ethan Pinnock",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Sebastian Polter",
+        "G-xG": "0.06"
+      },
+      {
+        "Player": "Grischa Prömel",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Antonio Puertas",
+        "G-xG": "0.1"
+      },
+      {
+        "Player": "Teemu Pukki",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Jacob Ramsey",
+        "G-xG": "0.08"
+      },
+      {
+        "Player": "Giacomo Raspadori",
+        "G-xG": "0.09"
+      },
+      {
+        "Player": "David Raum",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Marco Reus",
+        "G-xG": "-0.07"
+      },
+      {
+        "Player": "Declan Rice",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Richarlison",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Luis Rioja",
+        "G-xG": "-0.06"
+      },
+      {
+        "Player": "Andrew Robertson",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Enzo Roco",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Rodri",
+        "G-xG": "0.14"
+      },
+      {
+        "Player": "Rodrigo",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Dani Rodríguez",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Guido Rodríguez",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Oriol Romeu",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Cristiano Ronaldo",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Marten de Roon",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Amir Rrahmani",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Antonio Rüdiger",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Fabián Ruiz Peña",
+        "G-xG": "0.2"
+      },
+      {
+        "Player": "Allan Saint-Maximin",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Romain Saïss",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Bukayo Saka",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Mohamed Salah",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Germán Sánchez",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Manuel Sánchez",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Baptiste Santamaria",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Téji Savanier",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Nico Schlotterbeck",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Alessandro Schöpf",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Bernardo Silva",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Caio Henrique Oliveira Silva",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Thiago Silva",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Giovanni Simeone",
+        "G-xG": "0.24"
+      },
+      {
+        "Player": "Moses Simon",
+        "G-xG": "0.08"
+      },
+      {
+        "Player": "Wilfried Singo",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Ibrahima Sissoko",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Moussa Sissoko",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Milan Škriniar",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Carlos Soler",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Borna Sosa",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Florian Sotoca",
+        "G-xG": "-0.11"
+      },
+      {
+        "Player": "Tomáš Souček",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Arnaud Souquet",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Djibril Sow",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Çağlar Söyüncü",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Petar Stojanović",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Denis Suárez",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Mattias Svanberg",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Jonathan Tah",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Adrien Tameze",
+        "G-xG": "0.09"
+      },
+      {
+        "Player": "James Tarkowski",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Aurélien Tchouaméni",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Martin Terrier",
+        "G-xG": "0.23"
+      },
+      {
+        "Player": "Arthur Theate",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Romain Thomas",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Adrien Thomasson",
+        "G-xG": "0.06"
+      },
+      {
+        "Player": "Morten Thorsby",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Youri Tielemans",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Jean-Clair Todibo",
+        "G-xG": "-0.04"
+      },
+      {
+        "Player": "Karl Toko Ekambi",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Raúl de Tomás",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Sandro Tonali",
+        "G-xG": "0.02"
+      },
+      {
+        "Player": "Ivan Toney",
+        "G-xG": "-0.03"
+      },
+      {
+        "Player": "Pau Torres",
+        "G-xG": "0.06"
+      },
+      {
+        "Player": "Lucas Torró",
+        "G-xG": "-0.02"
+      },
+      {
+        "Player": "Hamari Traoré",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Ismaël Traoré",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Leandro Trossard",
+        "G-xG": "0.03"
+      },
+      {
+        "Player": "Iyenoma Udogie",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Hwang Ui-jo",
+        "G-xG": "0.11"
+      },
+      {
+        "Player": "Enes Ünal",
+        "G-xG": "0.22"
+      },
+      {
+        "Player": "Johan Vásquez",
+        "G-xG": "0.01"
+      },
+      {
+        "Player": "Joël Veltman",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Jordan Veretout",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Kevin Volland",
+        "G-xG": "0.04"
+      },
+      {
+        "Player": "Walace",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Kyle Walker-Peters",
+        "G-xG": "0"
+      },
+      {
+        "Player": "James Ward-Prowse",
+        "G-xG": "0.1"
+      },
+      {
+        "Player": "Ollie Watkins",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Silvan Widmer",
+        "G-xG": "0.05"
+      },
+      {
+        "Player": "Iñaki Williams",
+        "G-xG": "-0.21"
+      },
+      {
+        "Player": "Granit Xhaka",
+        "G-xG": "-0.01"
+      },
+      {
+        "Player": "Wilfried Zaha",
+        "G-xG": "0.16"
+      },
+      {
+        "Player": "Davide Zappacosta",
+        "G-xG": "-0.05"
+      },
+      {
+        "Player": "Martín Zubimendi",
+        "G-xG": "0"
+      },
+      {
+        "Player": "Szymon Żurkowski",
+        "G-xG": "0.07"
+      },
+      {
+        "Player": "Martin Ødegaard",
+        "G-xG": "0.07"
+      }
+    ]
+  },
+  "title": {
+    "text": [
+      "Distribution of player difference between",
+      "Non-Penalty Goals and Expected Goals"
+    ],
+    "subtitle": [
+      "Europe's Top 5 Leagues, all stats normalised per 90mins, data: FBref"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#f4c2c2"
+  },
+  "width": 400,
+  "height": 300,
+  "encoding": {
+    "x": {
+      "bin": {
+        "maxbins": 40
+      },
+      "field": "G-xG",
+      "title": null,
+      "axis": {
+        "format": ".2f"
+      }
+    },
+    "y": {
+      "aggregate": "count",
+      "title": null
+    },
+    "tooltip": [
+      {
+        "field": "bin_maxbins_40_G-xG",
+        "type": "quantitative",
+        "title": "Bin Min"
+      },
+      {
+        "field": "bin_maxbins_40_G-xG_end",
+        "type": "quantitative",
+        "title": "Bin Max"
+      },
+      {
+        "field": "__count",
+        "type": "quantitative",
+        "title": "Count"
+      }
+    ]
+  }
+}

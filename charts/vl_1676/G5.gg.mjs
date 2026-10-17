@@ -1,0 +1,60 @@
+// DOCS: doc-dfae58344d5a524e doc-071c93dff3a5ea2e doc-b11b4627b143730d
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({ width: 451, height: 259, margin: { left: 44, top: 10, right: 7, bottom: 49 } })
+    .createData({ values: data })
+    .filterData({ id: "goog", field: "symbol", predicate: { op: "eq", value: "GOOG" } })
+    .createComputedData({ id: "dated", as: "dateMs", expression: { op: "parseTime", operand: { field: "date" }, format: "auto" } })
+    .createComputedData({ id: "priced", as: "priceNum", expression: { op: "toNumber", operand: { field: "price" } } })
+    .filterData({ id: "yrange", field: "dateMs", range: { min: 1136073600000, max: 1199145600000, maxInclusive: false } })
+    .createLinePlot({
+      x: {
+        field: "dateMs",
+        fieldType: "temporal"
+      },
+      y: {
+        field: "priceNum",
+        fieldType: "quantitative"
+      },
+      guides: false
+    })
+    .editXScale({ domain: [1136073600000, 1196467200000], nice: false })
+    .editYScale({ domain: [0, 800], zero: true })
+    .editLineMark({ stroke: "#4c78a8", strokeWidth: 2 })
+    .createXAxis({
+      line: {},
+      ticksAndLabels: {
+        values: [1136073600000, 1143849600000, 1151712000000, 1159660800000, 1167609600000, 1175385600000, 1183248000000, 1191196800000],
+        ticks: { length: 5 },
+        labels: { fontSize: 10, offset: 7, maxWidth: 30, lineHeight: 12, flush: true }
+      },
+      title: { text: "date", fontSize: 11, offset: 42 }
+    })
+    .createYAxis({
+      line: {},
+      ticksAndLabels: {
+        count: 5,
+        ticks: { length: 5 },
+        labels: { fontSize: 10, offset: 7 }
+      },
+      title: { text: "price", fontSize: 11, offset: 31 }
+    })
+    .editXAxis({
+      line: { color: "#ddd" },
+      ticksAndLabels: { ticks: { color: "#ddd" }, labels: { fontFamily: "sans-serif", format: "%m\n%Y" } },
+      title: { fontWeight: 700 }
+    })
+    .editYAxis({
+      line: { color: "#ddd" },
+      ticksAndLabels: { ticks: { color: "#ddd" }, labels: { fontFamily: "sans-serif" } },
+      title: { fontWeight: 700 }
+    })
+    .createGrid({
+      horizontal: { count: 5 },
+      vertical: { values: [1136073600000, 1143849600000, 1151712000000, 1159660800000, 1167609600000, 1175385600000, 1183248000000, 1191196800000] }
+    })
+    .editGrid({ horizontal: { color: "#ddd", lineWidth: 1 }, vertical: { color: "#ddd", lineWidth: 1 } });
+}

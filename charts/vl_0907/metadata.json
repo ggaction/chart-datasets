@@ -1,0 +1,124 @@
+{
+  "id": "vl_0907",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5dadd203a01ecbd4ebd0d7aa27aae5ffdcc6e5a8cff183f9f80baed2004ee086",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5caf5287e1089d40bc8487d0fdaca3e4b3f18db6022cdef385a44a94037fd752",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "9e762c4f46c78df2707c8dd1e805cbb74d7a0af28a120826cab3362311272fe3",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f5d08db227ebee334b34669717a569e80864967beaa2bcdfce9e63bd7dbb8984",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e6f841e1e9a435f13b9aeab89fa2c2194f84f2fe59c080024222c6415d9a3b7b",
+      "actions": 17,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "dc3e71df3021d03417b6d64a49da74f6285dfc9b3322e0485196986f08f8d079",
+      "actions": 18,
+      "topOptions": 37
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "dda2c329f97b702e00f9f52cc6ed9d81c12942dbf836c9c883bf12d657ad6bb5",
+      "actions": 20,
+      "topOptions": 42
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "2bf6c39695cbec61a4b9cc4d06d921c45dc813c8847f36907148070d91f904c2",
+      "actions": 23,
+      "topOptions": 42
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/JamesFKean/JamesFKean.github.io/main/data_ons-BKPW.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Final complete code and all contiguous source/current-runtime/family verifications reviewed. User8-stagecap reached; exact remaining source ownership frontier disclosed:[{\"mandatory\":true,\"owner\":\"createTitle\",\"boundary\":\"createTitle existing unprotected paint/weight -> editTitle\",\"properties\":[\"titleStyle.fontWeight\"],\"note\":\"Keep source font sizes and exact measured creation-weight protections. Merge related source paint in an existing editor when capacity permits.\"}]"
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "56e510bcff4d6721279fc452aee238933d9e0f514d15af695be7a730f625ef1f",
+      "bytes": 934
+    },
+    "data.json": {
+      "sha256": "fa24d8c3c7fa92bd8d888080cd29142383eedf33fb1fccad55bf65e4d0912989",
+      "bytes": 9424
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d9e4bcfd6541b40f87cc41dfd6ca36af631883b277ed7619b402817aca2b44d4",
+      "bytes": 12154
+    },
+    "G1.gg.mjs": {
+      "sha256": "5dadd203a01ecbd4ebd0d7aa27aae5ffdcc6e5a8cff183f9f80baed2004ee086",
+      "bytes": 3200
+    },
+    "G2.gg.mjs": {
+      "sha256": "5caf5287e1089d40bc8487d0fdaca3e4b3f18db6022cdef385a44a94037fd752",
+      "bytes": 3202
+    },
+    "G3.gg.mjs": {
+      "sha256": "9e762c4f46c78df2707c8dd1e805cbb74d7a0af28a120826cab3362311272fe3",
+      "bytes": 3238
+    },
+    "G4.gg.mjs": {
+      "sha256": "f5d08db227ebee334b34669717a569e80864967beaa2bcdfce9e63bd7dbb8984",
+      "bytes": 3144
+    },
+    "G5.gg.mjs": {
+      "sha256": "e6f841e1e9a435f13b9aeab89fa2c2194f84f2fe59c080024222c6415d9a3b7b",
+      "bytes": 3204
+    },
+    "G6.gg.mjs": {
+      "sha256": "dc3e71df3021d03417b6d64a49da74f6285dfc9b3322e0485196986f08f8d079",
+      "bytes": 3210
+    },
+    "G7.gg.mjs": {
+      "sha256": "dda2c329f97b702e00f9f52cc6ed9d81c12942dbf836c9c883bf12d657ad6bb5",
+      "bytes": 3306
+    },
+    "G8.gg.mjs": {
+      "sha256": "2bf6c39695cbec61a4b9cc4d06d921c45dc813c8847f36907148070d91f904c2",
+      "bytes": 3295
+    },
+    "vega-lite.svg": {
+      "sha256": "339237f7339ebfeea2b01cd430938d0188a935c2d8c96b7b62c16f060a172f70",
+      "bytes": 8331
+    },
+    "ggaction.svg": {
+      "sha256": "b39962cd3952f5a5477428f9123782ebffb00014adb3672897d67124d25fe333",
+      "bytes": 6549
+    }
+  }
+}

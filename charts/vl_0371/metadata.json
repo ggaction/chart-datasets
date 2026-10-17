@@ -1,0 +1,124 @@
+{
+  "id": "vl_0371",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f895a204d38a87b4419150d09ceb05e3871ad6cddac2f72de0c2bb481d2189db",
+      "actions": 21,
+      "topOptions": 40
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ca1bc6f37d23986f19bcca0c4fbe51ab07e4440375258670bcc1084dd6afbd56",
+      "actions": 22,
+      "topOptions": 44
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "43955332f6610b5e21aa5c155411cb82fd9a8677f49826dc959fe41b1a76d587",
+      "actions": 23,
+      "topOptions": 45
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "cca1f7c2356619b02372acbdabb7e27f9ff3788c2afed3beee6ca39c221a107e",
+      "actions": 25,
+      "topOptions": 46
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "76bdf95a45987504e470ca86165bf8e82d44ad4ad933dd4a60456d4130b27bde",
+      "actions": 26,
+      "topOptions": 46
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d337f01a5058b37384fa30a02b1a9f8a795035169f47f71774f2ab948e8fd7af",
+      "actions": 28,
+      "topOptions": 50
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "7513506f2257876cfa1f9da346debcd4d060239974a8de05198267024708de2d",
+      "actions": 28,
+      "topOptions": 51
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "c448708f54a124f1dad1816c912c4c9f63abeedb733adfd3b628905180b7b3f9",
+      "actions": 30,
+      "topOptions": 51
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/productivity/atRiskFirmsBySizeLong.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full finalsource/program reread after all8current-pin verified stages: source6employee line/point groups, set1 shared color scale, points radius sqrt30/2 and opacity1, source280x300plot, explicit greenyellow legend frame and header/subtitles retained. Source and family equality checks pass; eight-stage cap reached, remaining mark/grid/legend details remain honestly at current owners."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "4a2e4eebe1dd51649f0dc8ed9a407c07d48c2695356fccf45c9e6a3133d61b1d",
+      "bytes": 1293
+    },
+    "data.json": {
+      "sha256": "a21db3c3fb166f05dc430cc985654ac3e91d1a9ebf44d111fbf27beaef2c0d03",
+      "bytes": 11792
+    },
+    "resolved-source.vl.json": {
+      "sha256": "2790ed81383958baba4ba7b8a32bbd3c88d1ecec8299649e49a36c24c91f7798",
+      "bytes": 15763
+    },
+    "G1.gg.mjs": {
+      "sha256": "f895a204d38a87b4419150d09ceb05e3871ad6cddac2f72de0c2bb481d2189db",
+      "bytes": 3051
+    },
+    "G2.gg.mjs": {
+      "sha256": "ca1bc6f37d23986f19bcca0c4fbe51ab07e4440375258670bcc1084dd6afbd56",
+      "bytes": 2995
+    },
+    "G3.gg.mjs": {
+      "sha256": "43955332f6610b5e21aa5c155411cb82fd9a8677f49826dc959fe41b1a76d587",
+      "bytes": 3025
+    },
+    "G4.gg.mjs": {
+      "sha256": "cca1f7c2356619b02372acbdabb7e27f9ff3788c2afed3beee6ca39c221a107e",
+      "bytes": 3033
+    },
+    "G5.gg.mjs": {
+      "sha256": "76bdf95a45987504e470ca86165bf8e82d44ad4ad933dd4a60456d4130b27bde",
+      "bytes": 3004
+    },
+    "G6.gg.mjs": {
+      "sha256": "d337f01a5058b37384fa30a02b1a9f8a795035169f47f71774f2ab948e8fd7af",
+      "bytes": 3154
+    },
+    "G7.gg.mjs": {
+      "sha256": "7513506f2257876cfa1f9da346debcd4d060239974a8de05198267024708de2d",
+      "bytes": 3170
+    },
+    "G8.gg.mjs": {
+      "sha256": "c448708f54a124f1dad1816c912c4c9f63abeedb733adfd3b628905180b7b3f9",
+      "bytes": 3070
+    },
+    "vega-lite.svg": {
+      "sha256": "db12243eeed4137147b7424f6ef1c4d1fd8c99d79d0127b283c93ef0c90fe318",
+      "bytes": 58164
+    },
+    "ggaction.svg": {
+      "sha256": "b06e9714d5d5266e8e2497116004dbdbbd13399d6759f9abf52e56ee2eb3cf6b",
+      "bytes": 23000
+    }
+  }
+}

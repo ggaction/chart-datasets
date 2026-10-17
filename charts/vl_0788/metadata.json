@@ -1,0 +1,102 @@
+{
+  "id": "vl_0788",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1e9fc50fb85d5e2c0c1e1666716a151629fde60e97a645c7ddeaa0661192f157",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "38dd137a2b6c494374839753864baaaf3a7017a3f1ef2f1d6c15317ecc4ffeac",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "5fa5aa9e1d5b754c3ae28cf9b7d7b13773c632ca6d6cd946f3681f50589ccdf8",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "b4470e1059eb1a922f5867b22ff6b02b7ea8cffba934bf92c93d8aca418eb5bf",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f389d5bb850f2dc08dcde9d640e0ee4cf523945d46ac183ee64b980a75824b4c",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "747c392d331a4c1ee15384a7e0876cadda47de78e5fd5e38cd4ebb5c0a092db9",
+      "actions": 16,
+      "topOptions": 38
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/KrishnaSharan/KrishnaSharan.github.io/main/data_IMF_creditOutstanding.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed actual complete final module and modelstop: source paints/explicit formats/scales already focused; remaining complete-axis settings are measured geometry/fonts/tick content, source has no further semantic styles. No padding or scalar quota split."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "fe6e63768cd053fbab6467d0ec370f9402a8f104921cdad1cf3a8f8c02454ae8",
+      "bytes": 922
+    },
+    "data.json": {
+      "sha256": "0a1373962c6557ccffbc7aaefb3bebaed108f43ae6fc8b5a0fb6385bd9846359",
+      "bytes": 6040
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a6bf08ee9ecf4d7e7131fdb322fa47587593880f759084265c2d67d92c89f5f4",
+      "bytes": 8051
+    },
+    "G1.gg.mjs": {
+      "sha256": "1e9fc50fb85d5e2c0c1e1666716a151629fde60e97a645c7ddeaa0661192f157",
+      "bytes": 1929
+    },
+    "G2.gg.mjs": {
+      "sha256": "38dd137a2b6c494374839753864baaaf3a7017a3f1ef2f1d6c15317ecc4ffeac",
+      "bytes": 1954
+    },
+    "G3.gg.mjs": {
+      "sha256": "5fa5aa9e1d5b754c3ae28cf9b7d7b13773c632ca6d6cd946f3681f50589ccdf8",
+      "bytes": 1916
+    },
+    "G4.gg.mjs": {
+      "sha256": "b4470e1059eb1a922f5867b22ff6b02b7ea8cffba934bf92c93d8aca418eb5bf",
+      "bytes": 2038
+    },
+    "G5.gg.mjs": {
+      "sha256": "f389d5bb850f2dc08dcde9d640e0ee4cf523945d46ac183ee64b980a75824b4c",
+      "bytes": 2026
+    },
+    "G6.gg.mjs": {
+      "sha256": "747c392d331a4c1ee15384a7e0876cadda47de78e5fd5e38cd4ebb5c0a092db9",
+      "bytes": 1986
+    },
+    "vega-lite.svg": {
+      "sha256": "2de6fb0bf820f81618ddbf5cd0e3270d8e17c01d8765ae864ce51f6ee7e150e1",
+      "bytes": 14355
+    },
+    "ggaction.svg": {
+      "sha256": "d86bb5f3c7ed147648b042e2b1e2f2d124bc0d948cb3ad3d43cdf63ca699e211",
+      "bytes": 13037
+    }
+  }
+}

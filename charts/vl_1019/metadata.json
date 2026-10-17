@@ -1,0 +1,113 @@
+{
+  "id": "vl_1019",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8eb25b6d113a8cc9368316ff612770bc80535868c491455bb7aa80e083789db0",
+      "actions": 9,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f53ee683917863b0fdbb0ff302e93e3dd8e4a1a6290516c32644699b4c8123cf",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "f596bd6303be5d56eadf22ffbc3ea2fc327e80b5b3e49bf607d5621f8602e1c4",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c181bff29d5ec3381d182fc24cb242de93e4d86dadcf7d903899c2643ecea643",
+      "actions": 13,
+      "topOptions": 26
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f0a5520b7c2199f9257131b3da73ea52d2744db0271c67e99621e50c2e0b4179",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "201757e7052f4d6a528c796b1f84f048d25bf875231619c014991d1cc7efa8c4",
+      "actions": 16,
+      "topOptions": 34
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "0aeb09154f2f2072e4595162affb8c450c8912705e3b5570320243f12ec5c013",
+      "actions": 18,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/GeorgeRobbin/GeorgeRobbin.github.io/main/data_ONS-YBWH.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 7 genuine ownership stages, 352 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "bb750bd3a7e0db0433bade0ea02e15a8c7b3db42fa9594d6480b826735c799c6",
+      "bytes": 834
+    },
+    "data.json": {
+      "sha256": "aff590cdfc37052bc3eb4b35eda618b68540f04a5710ba303b4c8e5f6255cc61",
+      "bytes": 5977
+    },
+    "resolved-source.vl.json": {
+      "sha256": "fd83a9174982fff5679966f178827cdba4fdbe7eae0d31e95fef087436c3cf1d",
+      "bytes": 7923
+    },
+    "G1.gg.mjs": {
+      "sha256": "8eb25b6d113a8cc9368316ff612770bc80535868c491455bb7aa80e083789db0",
+      "bytes": 1903
+    },
+    "G2.gg.mjs": {
+      "sha256": "f53ee683917863b0fdbb0ff302e93e3dd8e4a1a6290516c32644699b4c8123cf",
+      "bytes": 1921
+    },
+    "G3.gg.mjs": {
+      "sha256": "f596bd6303be5d56eadf22ffbc3ea2fc327e80b5b3e49bf607d5621f8602e1c4",
+      "bytes": 1844
+    },
+    "G4.gg.mjs": {
+      "sha256": "c181bff29d5ec3381d182fc24cb242de93e4d86dadcf7d903899c2643ecea643",
+      "bytes": 1864
+    },
+    "G5.gg.mjs": {
+      "sha256": "f0a5520b7c2199f9257131b3da73ea52d2744db0271c67e99621e50c2e0b4179",
+      "bytes": 1824
+    },
+    "G6.gg.mjs": {
+      "sha256": "201757e7052f4d6a528c796b1f84f048d25bf875231619c014991d1cc7efa8c4",
+      "bytes": 1878
+    },
+    "G7.gg.mjs": {
+      "sha256": "0aeb09154f2f2072e4595162affb8c450c8912705e3b5570320243f12ec5c013",
+      "bytes": 1944
+    },
+    "vega-lite.svg": {
+      "sha256": "64a3180b1c231626e0d0f7695d8dcd096b567d4bb713330dce3b8721fa16ea47",
+      "bytes": 8676
+    },
+    "ggaction.svg": {
+      "sha256": "a1d4bca6386297f9df9a7cb3fa36b64f136d9bfd60eaaeb9b0050ecae5204d25",
+      "bytes": 7306
+    }
+  }
+}

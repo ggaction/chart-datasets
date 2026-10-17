@@ -1,0 +1,124 @@
+{
+  "id": "vl_0111",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "765147330121a3036314ded02c90873e0c60f2f3a4e38aa962be2f166551f884",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "65510da23e6d58bfe61d26705f309c33254ef2e0d5b082a6b6435c832738579c",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "dba606252dfad74fa671084bfd221c0949f55d1e4f5ef4258227c7d115762224",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e8eeab55f9d4c2663482b8780454859d199e75771a42d6e6e7745faeda5d3d59",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "166dcd4632e52452fb52601e85131be5eb5f6e63fc84e053cc6a1c8a42fd8f91",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b16d71fa459a672d568434c34a8c1c0240214af4778cc0901a20dfa9056ac923",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "735414d5a977efd234ad692a51becf7a14d14b9ba4977f396ec65da618244c81",
+      "actions": 21,
+      "topOptions": 44
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4dfa92c5da3b1fd0c8af28a14af1d9d0ab06d36f9114a9e07de0d196a872afa0",
+      "actions": 22,
+      "topOptions": 45
+    }
+  ],
+  "sourceUrls": [
+    "https://www.trafforddatalab.io/interactive_graphics_companion/data/gapminder.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Full final program/source reread and all8current-pin checks pass: raw2618 retained,54Africa2017points, source200x200plot/logX/domain50..78Y, exact observedRoboto metrics and source397pxcenteredtitle. Necessaryfour-title variant retains font13/center/offset-6 and movesbold700only; source plot never resized. Eight distinct related stages complete; remainingpointstrokeWidth at currentmark undercap."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "0a3a8d5e331805ac45f50cd0a459cde07ddb35e9e5a7fe923ac0eb59aef69486",
+      "bytes": 1567
+    },
+    "data.json": {
+      "sha256": "1586280bdbb4a2d64951d8f5a351cd7a86d24301d69ee0abe9228eba17fd6afb",
+      "bytes": 461856
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8674ad1c3aa378aebebd2ecf686c3ae52a3c7bb1c54edfcbcb199ba97c6cfe6f",
+      "bytes": 557695
+    },
+    "G1.gg.mjs": {
+      "sha256": "765147330121a3036314ded02c90873e0c60f2f3a4e38aa962be2f166551f884",
+      "bytes": 4506
+    },
+    "G2.gg.mjs": {
+      "sha256": "65510da23e6d58bfe61d26705f309c33254ef2e0d5b082a6b6435c832738579c",
+      "bytes": 4524
+    },
+    "G3.gg.mjs": {
+      "sha256": "dba606252dfad74fa671084bfd221c0949f55d1e4f5ef4258227c7d115762224",
+      "bytes": 4417
+    },
+    "G4.gg.mjs": {
+      "sha256": "e8eeab55f9d4c2663482b8780454859d199e75771a42d6e6e7745faeda5d3d59",
+      "bytes": 4349
+    },
+    "G5.gg.mjs": {
+      "sha256": "166dcd4632e52452fb52601e85131be5eb5f6e63fc84e053cc6a1c8a42fd8f91",
+      "bytes": 4419
+    },
+    "G6.gg.mjs": {
+      "sha256": "b16d71fa459a672d568434c34a8c1c0240214af4778cc0901a20dfa9056ac923",
+      "bytes": 4407
+    },
+    "G7.gg.mjs": {
+      "sha256": "735414d5a977efd234ad692a51becf7a14d14b9ba4977f396ec65da618244c81",
+      "bytes": 4457
+    },
+    "G8.gg.mjs": {
+      "sha256": "4dfa92c5da3b1fd0c8af28a14af1d9d0ab06d36f9114a9e07de0d196a872afa0",
+      "bytes": 4492
+    },
+    "vega-lite.svg": {
+      "sha256": "75d6d97f6087d0e0afa9875c8343dc6e08a932e8c03843a80708c9069e800cd7",
+      "bytes": 29428
+    },
+    "ggaction.svg": {
+      "sha256": "17fb30a426073654d25c6697aea874baa88fcf070909f9f65695172ea476bac8",
+      "bytes": 14715
+    }
+  }
+}

@@ -1,0 +1,81 @@
+// DOCS: doc-b11b4627b143730d, doc-9bb354f4e2d46693, doc-76573a465e2b6a33
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({
+      width: 317,
+      height: 369,
+      margin: { left: 29, top: 47, right: 8, bottom: 22 }
+    })
+    .createData({ id: "fdiRaw", values: data })
+    .createComputedData({
+      id: "fdi",
+      as: "billions",
+      expression: {
+        op: "divide",
+        left: { op: "toNumber", operand: { field: "value" } },
+        right: { constant: 1000 }
+      }
+    })
+    .createLinePlot({
+      x: {
+        field: "year",
+        fieldType: "temporal",
+        temporalUnit: "year"
+      },
+      y: {
+        field: "billions",
+        fieldType: "quantitative"
+      },
+      guides: false
+    })
+    .editXScale({ domain: [536457600000, 1609459200000] })
+    .editYScale({ domain: [-20, 260] })
+    .editLineMark({ stroke: "#00BFFF", strokeWidth: 2 })
+    .createXAxis({
+      line: {},
+      ticksAndLabels: {
+        ticks: { length: 5 },
+        labels: { fontSize: 10, offset: 7, flush: true, format: "%Y" },
+        values: [
+          631152000000, 788918400000, 946684800000,
+          1104537600000, 1262304000000, 1420070400000, 1577836800000
+        ]
+      },
+      title: false
+    })
+    .createYAxis({
+      line: {},
+      ticksAndLabels: {
+        ticks: { length: 5 },
+        labels: { fontSize: 10, offset: 7 },
+        values: [0, 50, 100, 150, 200, 250]
+      },
+      title: false
+    })
+    .editXAxisLine({ color: "#888" })
+    .editXAxisTicks({ color: "#888" })
+    .editYAxisLine({ color: "#888" })
+    .editYAxisTicks({ color: "#888" })
+    .createGrid({ horizontal: true, vertical: true })
+    .editHorizontalGrid({ color: "#ddd", lineWidth: 1 })
+    .editVerticalGrid({ color: "#ddd", lineWidth: 1 })
+    .editXAxisLabels({ fontFamily: "sans-serif", color: "black" })
+    .editYAxisLabels({ fontFamily: "sans-serif", color: "black" })
+    .createTitle({
+      text: "Foreign Direct Investment - inward",
+      titleStyle: { fontSize: 13 },
+      subtitleStyle: { fontSize: 10 }
+    })
+    .editTitle({
+      subtitle: "Total FDI in the UK (\u00A3, billions). [ONS, PB-N2SA]",
+      offset: -11,
+      alongOffset: -23.7
+    })
+    .editTitle({
+      titleStyle: { fontWeight: 700, fontFamily: "sans-serif", color: "black", fontStyle: "normal" },
+      subtitleStyle: { fontWeight: 400, fontFamily: "sans-serif", color: "black", fontStyle: "italic" }
+    });
+}

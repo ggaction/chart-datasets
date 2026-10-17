@@ -1,0 +1,91 @@
+{
+  "id": "vl_1225",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b8c5d45bc3fa704d1c8a0f7b5a9bb618a7b86ba5d966c41fe33619895501556d",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "df93d6a2dad1066d4afaf1fdb97e445752f0dc2079a4dd809028649ea27ce17a",
+      "actions": 11,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a347427a079b6b3c91d1534db3c556d46910f4e015ea3e651cf44d3c2356064d",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3c7f0964fe63a98770ad04bbe881592157ee1d1427a2d42c1a84e01e7a7d669f",
+      "actions": 13,
+      "topOptions": 28
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "8bf0ab72b80cc2a06d461b396d807a4fb41d07344fabe612f9c562ba400d2076",
+      "actions": 13,
+      "topOptions": 29
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/AlKobayashi/AlKobayashi.github.io/main/wk5data_ONS-P3NC.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Full final code and actual normal verification reviewed:5meaningful distinct stages, zero mandatory ownership frontiers, exact same-familySVG/PNG/graphics and source checks pass. Existing original GLM stop from G7 applies to BYTE-IDENTICAL terminal code after verified zero-charge collapse of title color+weight into oneG5; preserved stop text/origin/previousG6 metadata unchanged as history. No new stage/stop response or cost. Sourceplot/data/fonts/placement intact; stop at exhausted frontier."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "6c405640fcd0df6b6d525d1f6111a9d83d186a4960fd589290b770fe90f53469",
+      "bytes": 860
+    },
+    "data.json": {
+      "sha256": "c377dab25a958387dffd2f2d522c03631c9972abb8a89bebce315aa86631d873",
+      "bytes": 4972
+    },
+    "resolved-source.vl.json": {
+      "sha256": "81ff6680f75e46dbc77f605ed60d8aebc73b48516b66c15855444953defb75e3",
+      "bytes": 6743
+    },
+    "G1.gg.mjs": {
+      "sha256": "b8c5d45bc3fa704d1c8a0f7b5a9bb618a7b86ba5d966c41fe33619895501556d",
+      "bytes": 1823
+    },
+    "G2.gg.mjs": {
+      "sha256": "df93d6a2dad1066d4afaf1fdb97e445752f0dc2079a4dd809028649ea27ce17a",
+      "bytes": 1711
+    },
+    "G3.gg.mjs": {
+      "sha256": "a347427a079b6b3c91d1534db3c556d46910f4e015ea3e651cf44d3c2356064d",
+      "bytes": 1659
+    },
+    "G4.gg.mjs": {
+      "sha256": "3c7f0964fe63a98770ad04bbe881592157ee1d1427a2d42c1a84e01e7a7d669f",
+      "bytes": 1679
+    },
+    "G5.gg.mjs": {
+      "sha256": "8bf0ab72b80cc2a06d461b396d807a4fb41d07344fabe612f9c562ba400d2076",
+      "bytes": 1701
+    },
+    "vega-lite.svg": {
+      "sha256": "a6681b23cec4c4a9263a5bf473dd0d07eb0d2d0f71368623f2960e500fd53438",
+      "bytes": 6109
+    },
+    "ggaction.svg": {
+      "sha256": "e4b9056627e6079902f2fe2e8d7fcda93a02970055525a62b4b79e83fdc2798c",
+      "bytes": 4741
+    }
+  }
+}

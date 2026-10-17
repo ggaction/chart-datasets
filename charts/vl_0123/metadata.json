@@ -1,0 +1,122 @@
+{
+  "id": "vl_0123",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d804997451214faf54449cb02a2e6fa0d18fd8accfe1c63bb4a578fb8a5cc8e4",
+      "actions": 12,
+      "topOptions": 30
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1a80b917b8b5b1a4aec49dabd9599bbace24e10350a4f530dfca6217d21f4f15",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "65ea5184bb0befb3eaa8b83510cf7cc6994116de0754b407d0443f631f836526",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "44f2c4c0f386ade97684e2e08b081732e191a8e412914d53eca293b36605cd01",
+      "actions": 16,
+      "topOptions": 41
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "690304328a0262d9be7045f52aa42904ac8ec173db62e4605f14401e184ae48f",
+      "actions": 18,
+      "topOptions": 45
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "30e69dbb3cef0980db8d2cf895f96639e6a768411cf2865c18baaa8156919847",
+      "actions": 22,
+      "topOptions": 49
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "92c13bfa94c5b8aa52cb13b00e13b2487cfa016ab27cf53e51b49996c1c34d9f",
+      "actions": 24,
+      "topOptions": 49
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "2344c25f48dda826b53bdd239b11ac9e5ca1768a7c9baafbe2e5ad9ae2087231",
+      "actions": 25,
+      "topOptions": 50
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Read original649 typed raw rectangles, full G1/final25-action code and each meaningful boundary. All8 ordinary source/geometry/style/axes/layout checks PASS and exact SVG/PNG identity; G5/G6 now omit native emptyline using only retained G7 GLM edits[0,1], fresh G7/G8 unchanged-byte parent revalidation PASS, provenance-only audit zero failures. Original history/usage immutable. Source font15/20 and display maps/formats retained atbirth. Honest8-program cap, remaining legend/scale ownership disclosed in final-profile; no exhaustive claim."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "212ac82ebb32e461ef7afb393841c8ccb33d4b253d0e3592623ab51b041bc68a",
+      "bytes": 506838
+    },
+    "data.json": {
+      "sha256": "7092e0367eccd062cc47a0b1a0c5f5bf5bbceacc751068532f88d532bfde7af9",
+      "bytes": 414899
+    },
+    "resolved-source.vl.json": {
+      "sha256": "4fdb3dee7250b806d1d5408f5fd28e0492286ca7c1c22a10f0ffab6996199736",
+      "bytes": 506735
+    },
+    "G1.gg.mjs": {
+      "sha256": "d804997451214faf54449cb02a2e6fa0d18fd8accfe1c63bb4a578fb8a5cc8e4",
+      "bytes": 3284
+    },
+    "G2.gg.mjs": {
+      "sha256": "1a80b917b8b5b1a4aec49dabd9599bbace24e10350a4f530dfca6217d21f4f15",
+      "bytes": 3064
+    },
+    "G3.gg.mjs": {
+      "sha256": "65ea5184bb0befb3eaa8b83510cf7cc6994116de0754b407d0443f631f836526",
+      "bytes": 3096
+    },
+    "G4.gg.mjs": {
+      "sha256": "44f2c4c0f386ade97684e2e08b081732e191a8e412914d53eca293b36605cd01",
+      "bytes": 2962
+    },
+    "G5.gg.mjs": {
+      "sha256": "690304328a0262d9be7045f52aa42904ac8ec173db62e4605f14401e184ae48f",
+      "bytes": 3142
+    },
+    "G6.gg.mjs": {
+      "sha256": "30e69dbb3cef0980db8d2cf895f96639e6a768411cf2865c18baaa8156919847",
+      "bytes": 3126
+    },
+    "G7.gg.mjs": {
+      "sha256": "92c13bfa94c5b8aa52cb13b00e13b2487cfa016ab27cf53e51b49996c1c34d9f",
+      "bytes": 3100
+    },
+    "G8.gg.mjs": {
+      "sha256": "2344c25f48dda826b53bdd239b11ac9e5ca1768a7c9baafbe2e5ad9ae2087231",
+      "bytes": 3120
+    },
+    "vega-lite.svg": {
+      "sha256": "eacef357c97af34b1f68a21cc8edefec6484cfee44b7e53782266012b643e617",
+      "bytes": 118242
+    },
+    "ggaction.svg": {
+      "sha256": "9c84090b96e8f1bdd2e48bf0824f2a1203eb68b98e288fb16bb7209c7d971131",
+      "bytes": 87382
+    }
+  }
+}

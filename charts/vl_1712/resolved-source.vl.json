@@ -1,0 +1,2109 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "month": "2011-01",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "8406"
+      },
+      {
+        "month": "2011-02",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "8728"
+      },
+      {
+        "month": "2011-03",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "10329"
+      },
+      {
+        "month": "2011-04",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "13753"
+      },
+      {
+        "month": "2011-05",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "11814"
+      },
+      {
+        "month": "2011-06",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "11741"
+      },
+      {
+        "month": "2011-07",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "12847"
+      },
+      {
+        "month": "2011-08",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "11992"
+      },
+      {
+        "month": "2011-09",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "8389"
+      },
+      {
+        "month": "2011-10",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "8301"
+      },
+      {
+        "month": "2011-11",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6600"
+      },
+      {
+        "month": "2011-12",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6015"
+      },
+      {
+        "month": "2012-01",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5840"
+      },
+      {
+        "month": "2012-02",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6403"
+      },
+      {
+        "month": "2012-03",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "7262"
+      },
+      {
+        "month": "2012-04",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6193"
+      },
+      {
+        "month": "2012-05",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "7266"
+      },
+      {
+        "month": "2012-06",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6694"
+      },
+      {
+        "month": "2012-07",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "8157"
+      },
+      {
+        "month": "2012-08",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "8342"
+      },
+      {
+        "month": "2012-09",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6879"
+      },
+      {
+        "month": "2012-10",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6479"
+      },
+      {
+        "month": "2012-11",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5503"
+      },
+      {
+        "month": "2012-12",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5318"
+      },
+      {
+        "month": "2013-01",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6863"
+      },
+      {
+        "month": "2013-02",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5142"
+      },
+      {
+        "month": "2013-03",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5468"
+      },
+      {
+        "month": "2013-04",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6155"
+      },
+      {
+        "month": "2013-05",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6445"
+      },
+      {
+        "month": "2013-06",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6648"
+      },
+      {
+        "month": "2013-07",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "8792"
+      },
+      {
+        "month": "2013-08",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "7971"
+      },
+      {
+        "month": "2013-09",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5955"
+      },
+      {
+        "month": "2013-10",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5914"
+      },
+      {
+        "month": "2013-11",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5159"
+      },
+      {
+        "month": "2013-12",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4749"
+      },
+      {
+        "month": "2014-01",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4510"
+      },
+      {
+        "month": "2014-02",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4285"
+      },
+      {
+        "month": "2014-03",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5685"
+      },
+      {
+        "month": "2014-04",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6081"
+      },
+      {
+        "month": "2014-05",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6296"
+      },
+      {
+        "month": "2014-06",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "7099"
+      },
+      {
+        "month": "2014-07",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "7742"
+      },
+      {
+        "month": "2014-08",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6695"
+      },
+      {
+        "month": "2014-09",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6422"
+      },
+      {
+        "month": "2014-10",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5923"
+      },
+      {
+        "month": "2014-11",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4962"
+      },
+      {
+        "month": "2014-12",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4188"
+      },
+      {
+        "month": "2015-01",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4438"
+      },
+      {
+        "month": "2015-02",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4217"
+      },
+      {
+        "month": "2015-03",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4778"
+      },
+      {
+        "month": "2015-04",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5484"
+      },
+      {
+        "month": "2015-05",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5388"
+      },
+      {
+        "month": "2015-06",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6207"
+      },
+      {
+        "month": "2015-07",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6066"
+      },
+      {
+        "month": "2015-08",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5865"
+      },
+      {
+        "month": "2015-09",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5248"
+      },
+      {
+        "month": "2015-10",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5515"
+      },
+      {
+        "month": "2015-11",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4398"
+      },
+      {
+        "month": "2015-12",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4074"
+      },
+      {
+        "month": "2016-01",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "3993"
+      },
+      {
+        "month": "2016-02",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4158"
+      },
+      {
+        "month": "2016-03",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4687"
+      },
+      {
+        "month": "2016-04",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4885"
+      },
+      {
+        "month": "2016-05",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5643"
+      },
+      {
+        "month": "2016-06",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5653"
+      },
+      {
+        "month": "2016-07",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "6306"
+      },
+      {
+        "month": "2016-08",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5879"
+      },
+      {
+        "month": "2016-09",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5228"
+      },
+      {
+        "month": "2016-10",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "5647"
+      },
+      {
+        "month": "2016-11",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "4003"
+      },
+      {
+        "month": "2016-12",
+        "crimeType": "Anti-social behaviour",
+        "reportedCrimes": "3935"
+      },
+      {
+        "month": "2011-01",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2667"
+      },
+      {
+        "month": "2011-02",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2444"
+      },
+      {
+        "month": "2011-03",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2559"
+      },
+      {
+        "month": "2011-04",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2387"
+      },
+      {
+        "month": "2011-05",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2423"
+      },
+      {
+        "month": "2011-06",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2325"
+      },
+      {
+        "month": "2011-07",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2268"
+      },
+      {
+        "month": "2011-08",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2485"
+      },
+      {
+        "month": "2011-09",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2094"
+      },
+      {
+        "month": "2011-10",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2217"
+      },
+      {
+        "month": "2011-11",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2596"
+      },
+      {
+        "month": "2011-12",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2314"
+      },
+      {
+        "month": "2012-01",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2544"
+      },
+      {
+        "month": "2012-02",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2235"
+      },
+      {
+        "month": "2012-03",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2377"
+      },
+      {
+        "month": "2012-04",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2011"
+      },
+      {
+        "month": "2012-05",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2032"
+      },
+      {
+        "month": "2012-06",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2049"
+      },
+      {
+        "month": "2012-07",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1969"
+      },
+      {
+        "month": "2012-08",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1955"
+      },
+      {
+        "month": "2012-09",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1874"
+      },
+      {
+        "month": "2012-10",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2236"
+      },
+      {
+        "month": "2012-11",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2330"
+      },
+      {
+        "month": "2012-12",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2077"
+      },
+      {
+        "month": "2013-01",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2144"
+      },
+      {
+        "month": "2013-02",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2035"
+      },
+      {
+        "month": "2013-03",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1955"
+      },
+      {
+        "month": "2013-04",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1961"
+      },
+      {
+        "month": "2013-05",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1949"
+      },
+      {
+        "month": "2013-06",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1841"
+      },
+      {
+        "month": "2013-07",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1894"
+      },
+      {
+        "month": "2013-08",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2028"
+      },
+      {
+        "month": "2013-09",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2047"
+      },
+      {
+        "month": "2013-10",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2045"
+      },
+      {
+        "month": "2013-11",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2087"
+      },
+      {
+        "month": "2013-12",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2025"
+      },
+      {
+        "month": "2014-01",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2169"
+      },
+      {
+        "month": "2014-02",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2049"
+      },
+      {
+        "month": "2014-03",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1908"
+      },
+      {
+        "month": "2014-04",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1885"
+      },
+      {
+        "month": "2014-05",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1827"
+      },
+      {
+        "month": "2014-06",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1688"
+      },
+      {
+        "month": "2014-07",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1842"
+      },
+      {
+        "month": "2014-08",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2104"
+      },
+      {
+        "month": "2014-09",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1857"
+      },
+      {
+        "month": "2014-10",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1903"
+      },
+      {
+        "month": "2014-11",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2073"
+      },
+      {
+        "month": "2014-12",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1928"
+      },
+      {
+        "month": "2015-01",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1924"
+      },
+      {
+        "month": "2015-02",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1595"
+      },
+      {
+        "month": "2015-03",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1843"
+      },
+      {
+        "month": "2015-04",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1685"
+      },
+      {
+        "month": "2015-05",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1719"
+      },
+      {
+        "month": "2015-06",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1683"
+      },
+      {
+        "month": "2015-07",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1778"
+      },
+      {
+        "month": "2015-08",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1769"
+      },
+      {
+        "month": "2015-09",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1574"
+      },
+      {
+        "month": "2015-10",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1895"
+      },
+      {
+        "month": "2015-11",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2099"
+      },
+      {
+        "month": "2015-12",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1926"
+      },
+      {
+        "month": "2016-01",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2079"
+      },
+      {
+        "month": "2016-02",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1969"
+      },
+      {
+        "month": "2016-03",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2136"
+      },
+      {
+        "month": "2016-04",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1764"
+      },
+      {
+        "month": "2016-05",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1697"
+      },
+      {
+        "month": "2016-06",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1632"
+      },
+      {
+        "month": "2016-07",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1709"
+      },
+      {
+        "month": "2016-08",
+        "crimeType": "Burglary",
+        "reportedCrimes": "1960"
+      },
+      {
+        "month": "2016-09",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2090"
+      },
+      {
+        "month": "2016-10",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2117"
+      },
+      {
+        "month": "2016-11",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2386"
+      },
+      {
+        "month": "2016-12",
+        "crimeType": "Burglary",
+        "reportedCrimes": "2207"
+      },
+      {
+        "month": "2011-09",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2485"
+      },
+      {
+        "month": "2011-10",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2610"
+      },
+      {
+        "month": "2011-11",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2487"
+      },
+      {
+        "month": "2011-12",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2282"
+      },
+      {
+        "month": "2012-01",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2183"
+      },
+      {
+        "month": "2012-02",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2201"
+      },
+      {
+        "month": "2012-03",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2385"
+      },
+      {
+        "month": "2012-04",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2055"
+      },
+      {
+        "month": "2012-05",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2161"
+      },
+      {
+        "month": "2012-06",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1938"
+      },
+      {
+        "month": "2012-07",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2139"
+      },
+      {
+        "month": "2012-08",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2197"
+      },
+      {
+        "month": "2012-09",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2117"
+      },
+      {
+        "month": "2012-10",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2150"
+      },
+      {
+        "month": "2012-11",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1997"
+      },
+      {
+        "month": "2012-12",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2074"
+      },
+      {
+        "month": "2013-01",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1954"
+      },
+      {
+        "month": "2013-02",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1910"
+      },
+      {
+        "month": "2013-03",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1812"
+      },
+      {
+        "month": "2013-04",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2194"
+      },
+      {
+        "month": "2013-05",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2143"
+      },
+      {
+        "month": "2013-06",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2180"
+      },
+      {
+        "month": "2013-07",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2205"
+      },
+      {
+        "month": "2013-08",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2200"
+      },
+      {
+        "month": "2013-09",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1998"
+      },
+      {
+        "month": "2013-10",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2085"
+      },
+      {
+        "month": "2013-11",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2097"
+      },
+      {
+        "month": "2013-12",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2085"
+      },
+      {
+        "month": "2014-01",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2028"
+      },
+      {
+        "month": "2014-02",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1824"
+      },
+      {
+        "month": "2014-03",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2102"
+      },
+      {
+        "month": "2014-04",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2045"
+      },
+      {
+        "month": "2014-05",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2006"
+      },
+      {
+        "month": "2014-06",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2006"
+      },
+      {
+        "month": "2014-07",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2037"
+      },
+      {
+        "month": "2014-08",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2066"
+      },
+      {
+        "month": "2014-09",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2159"
+      },
+      {
+        "month": "2014-10",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2069"
+      },
+      {
+        "month": "2014-11",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2108"
+      },
+      {
+        "month": "2014-12",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1881"
+      },
+      {
+        "month": "2015-01",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2010"
+      },
+      {
+        "month": "2015-02",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1885"
+      },
+      {
+        "month": "2015-03",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2144"
+      },
+      {
+        "month": "2015-04",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1976"
+      },
+      {
+        "month": "2015-05",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2161"
+      },
+      {
+        "month": "2015-06",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2084"
+      },
+      {
+        "month": "2015-07",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2055"
+      },
+      {
+        "month": "2015-08",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1980"
+      },
+      {
+        "month": "2015-09",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2059"
+      },
+      {
+        "month": "2015-10",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2104"
+      },
+      {
+        "month": "2015-11",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2077"
+      },
+      {
+        "month": "2015-12",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2093"
+      },
+      {
+        "month": "2016-01",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1934"
+      },
+      {
+        "month": "2016-02",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1981"
+      },
+      {
+        "month": "2016-03",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2098"
+      },
+      {
+        "month": "2016-04",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2009"
+      },
+      {
+        "month": "2016-05",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2189"
+      },
+      {
+        "month": "2016-06",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "1971"
+      },
+      {
+        "month": "2016-07",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2149"
+      },
+      {
+        "month": "2016-08",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2147"
+      },
+      {
+        "month": "2016-09",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2030"
+      },
+      {
+        "month": "2016-10",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2321"
+      },
+      {
+        "month": "2016-11",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2144"
+      },
+      {
+        "month": "2016-12",
+        "crimeType": "Criminal damage and arson",
+        "reportedCrimes": "2203"
+      },
+      {
+        "month": "2011-09",
+        "crimeType": "Drugs",
+        "reportedCrimes": "652"
+      },
+      {
+        "month": "2011-10",
+        "crimeType": "Drugs",
+        "reportedCrimes": "820"
+      },
+      {
+        "month": "2011-11",
+        "crimeType": "Drugs",
+        "reportedCrimes": "790"
+      },
+      {
+        "month": "2011-12",
+        "crimeType": "Drugs",
+        "reportedCrimes": "693"
+      },
+      {
+        "month": "2012-01",
+        "crimeType": "Drugs",
+        "reportedCrimes": "676"
+      },
+      {
+        "month": "2012-02",
+        "crimeType": "Drugs",
+        "reportedCrimes": "707"
+      },
+      {
+        "month": "2012-03",
+        "crimeType": "Drugs",
+        "reportedCrimes": "719"
+      },
+      {
+        "month": "2012-04",
+        "crimeType": "Drugs",
+        "reportedCrimes": "691"
+      },
+      {
+        "month": "2012-05",
+        "crimeType": "Drugs",
+        "reportedCrimes": "833"
+      },
+      {
+        "month": "2012-06",
+        "crimeType": "Drugs",
+        "reportedCrimes": "705"
+      },
+      {
+        "month": "2012-07",
+        "crimeType": "Drugs",
+        "reportedCrimes": "762"
+      },
+      {
+        "month": "2012-08",
+        "crimeType": "Drugs",
+        "reportedCrimes": "813"
+      },
+      {
+        "month": "2012-09",
+        "crimeType": "Drugs",
+        "reportedCrimes": "601"
+      },
+      {
+        "month": "2012-10",
+        "crimeType": "Drugs",
+        "reportedCrimes": "728"
+      },
+      {
+        "month": "2012-11",
+        "crimeType": "Drugs",
+        "reportedCrimes": "712"
+      },
+      {
+        "month": "2012-12",
+        "crimeType": "Drugs",
+        "reportedCrimes": "601"
+      },
+      {
+        "month": "2013-01",
+        "crimeType": "Drugs",
+        "reportedCrimes": "598"
+      },
+      {
+        "month": "2013-02",
+        "crimeType": "Drugs",
+        "reportedCrimes": "629"
+      },
+      {
+        "month": "2013-03",
+        "crimeType": "Drugs",
+        "reportedCrimes": "646"
+      },
+      {
+        "month": "2013-04",
+        "crimeType": "Drugs",
+        "reportedCrimes": "693"
+      },
+      {
+        "month": "2013-05",
+        "crimeType": "Drugs",
+        "reportedCrimes": "693"
+      },
+      {
+        "month": "2013-06",
+        "crimeType": "Drugs",
+        "reportedCrimes": "671"
+      },
+      {
+        "month": "2013-07",
+        "crimeType": "Drugs",
+        "reportedCrimes": "627"
+      },
+      {
+        "month": "2013-08",
+        "crimeType": "Drugs",
+        "reportedCrimes": "578"
+      },
+      {
+        "month": "2013-09",
+        "crimeType": "Drugs",
+        "reportedCrimes": "552"
+      },
+      {
+        "month": "2013-10",
+        "crimeType": "Drugs",
+        "reportedCrimes": "556"
+      },
+      {
+        "month": "2013-11",
+        "crimeType": "Drugs",
+        "reportedCrimes": "557"
+      },
+      {
+        "month": "2013-12",
+        "crimeType": "Drugs",
+        "reportedCrimes": "628"
+      },
+      {
+        "month": "2014-01",
+        "crimeType": "Drugs",
+        "reportedCrimes": "509"
+      },
+      {
+        "month": "2014-02",
+        "crimeType": "Drugs",
+        "reportedCrimes": "459"
+      },
+      {
+        "month": "2014-03",
+        "crimeType": "Drugs",
+        "reportedCrimes": "594"
+      },
+      {
+        "month": "2014-04",
+        "crimeType": "Drugs",
+        "reportedCrimes": "521"
+      },
+      {
+        "month": "2014-05",
+        "crimeType": "Drugs",
+        "reportedCrimes": "553"
+      },
+      {
+        "month": "2014-06",
+        "crimeType": "Drugs",
+        "reportedCrimes": "523"
+      },
+      {
+        "month": "2014-07",
+        "crimeType": "Drugs",
+        "reportedCrimes": "451"
+      },
+      {
+        "month": "2014-08",
+        "crimeType": "Drugs",
+        "reportedCrimes": "443"
+      },
+      {
+        "month": "2014-09",
+        "crimeType": "Drugs",
+        "reportedCrimes": "453"
+      },
+      {
+        "month": "2014-10",
+        "crimeType": "Drugs",
+        "reportedCrimes": "498"
+      },
+      {
+        "month": "2014-11",
+        "crimeType": "Drugs",
+        "reportedCrimes": "531"
+      },
+      {
+        "month": "2014-12",
+        "crimeType": "Drugs",
+        "reportedCrimes": "474"
+      },
+      {
+        "month": "2015-01",
+        "crimeType": "Drugs",
+        "reportedCrimes": "485"
+      },
+      {
+        "month": "2015-02",
+        "crimeType": "Drugs",
+        "reportedCrimes": "414"
+      },
+      {
+        "month": "2015-03",
+        "crimeType": "Drugs",
+        "reportedCrimes": "474"
+      },
+      {
+        "month": "2015-04",
+        "crimeType": "Drugs",
+        "reportedCrimes": "493"
+      },
+      {
+        "month": "2015-05",
+        "crimeType": "Drugs",
+        "reportedCrimes": "476"
+      },
+      {
+        "month": "2015-06",
+        "crimeType": "Drugs",
+        "reportedCrimes": "503"
+      },
+      {
+        "month": "2015-07",
+        "crimeType": "Drugs",
+        "reportedCrimes": "452"
+      },
+      {
+        "month": "2015-08",
+        "crimeType": "Drugs",
+        "reportedCrimes": "443"
+      },
+      {
+        "month": "2015-09",
+        "crimeType": "Drugs",
+        "reportedCrimes": "459"
+      },
+      {
+        "month": "2015-10",
+        "crimeType": "Drugs",
+        "reportedCrimes": "486"
+      },
+      {
+        "month": "2015-11",
+        "crimeType": "Drugs",
+        "reportedCrimes": "422"
+      },
+      {
+        "month": "2015-12",
+        "crimeType": "Drugs",
+        "reportedCrimes": "507"
+      },
+      {
+        "month": "2016-01",
+        "crimeType": "Drugs",
+        "reportedCrimes": "496"
+      },
+      {
+        "month": "2016-02",
+        "crimeType": "Drugs",
+        "reportedCrimes": "435"
+      },
+      {
+        "month": "2016-03",
+        "crimeType": "Drugs",
+        "reportedCrimes": "522"
+      },
+      {
+        "month": "2016-04",
+        "crimeType": "Drugs",
+        "reportedCrimes": "478"
+      },
+      {
+        "month": "2016-05",
+        "crimeType": "Drugs",
+        "reportedCrimes": "452"
+      },
+      {
+        "month": "2016-06",
+        "crimeType": "Drugs",
+        "reportedCrimes": "440"
+      },
+      {
+        "month": "2016-07",
+        "crimeType": "Drugs",
+        "reportedCrimes": "393"
+      },
+      {
+        "month": "2016-08",
+        "crimeType": "Drugs",
+        "reportedCrimes": "334"
+      },
+      {
+        "month": "2016-09",
+        "crimeType": "Drugs",
+        "reportedCrimes": "365"
+      },
+      {
+        "month": "2016-10",
+        "crimeType": "Drugs",
+        "reportedCrimes": "388"
+      },
+      {
+        "month": "2016-11",
+        "crimeType": "Drugs",
+        "reportedCrimes": "358"
+      },
+      {
+        "month": "2016-12",
+        "crimeType": "Drugs",
+        "reportedCrimes": "311"
+      },
+      {
+        "month": "2011-01",
+        "crimeType": "Robbery",
+        "reportedCrimes": "798"
+      },
+      {
+        "month": "2011-02",
+        "crimeType": "Robbery",
+        "reportedCrimes": "807"
+      },
+      {
+        "month": "2011-03",
+        "crimeType": "Robbery",
+        "reportedCrimes": "817"
+      },
+      {
+        "month": "2011-04",
+        "crimeType": "Robbery",
+        "reportedCrimes": "712"
+      },
+      {
+        "month": "2011-05",
+        "crimeType": "Robbery",
+        "reportedCrimes": "737"
+      },
+      {
+        "month": "2011-06",
+        "crimeType": "Robbery",
+        "reportedCrimes": "726"
+      },
+      {
+        "month": "2011-07",
+        "crimeType": "Robbery",
+        "reportedCrimes": "649"
+      },
+      {
+        "month": "2011-08",
+        "crimeType": "Robbery",
+        "reportedCrimes": "644"
+      },
+      {
+        "month": "2011-09",
+        "crimeType": "Robbery",
+        "reportedCrimes": "529"
+      },
+      {
+        "month": "2011-10",
+        "crimeType": "Robbery",
+        "reportedCrimes": "581"
+      },
+      {
+        "month": "2011-11",
+        "crimeType": "Robbery",
+        "reportedCrimes": "578"
+      },
+      {
+        "month": "2011-12",
+        "crimeType": "Robbery",
+        "reportedCrimes": "531"
+      },
+      {
+        "month": "2012-01",
+        "crimeType": "Robbery",
+        "reportedCrimes": "562"
+      },
+      {
+        "month": "2012-02",
+        "crimeType": "Robbery",
+        "reportedCrimes": "501"
+      },
+      {
+        "month": "2012-03",
+        "crimeType": "Robbery",
+        "reportedCrimes": "555"
+      },
+      {
+        "month": "2012-04",
+        "crimeType": "Robbery",
+        "reportedCrimes": "512"
+      },
+      {
+        "month": "2012-05",
+        "crimeType": "Robbery",
+        "reportedCrimes": "487"
+      },
+      {
+        "month": "2012-06",
+        "crimeType": "Robbery",
+        "reportedCrimes": "453"
+      },
+      {
+        "month": "2012-07",
+        "crimeType": "Robbery",
+        "reportedCrimes": "415"
+      },
+      {
+        "month": "2012-08",
+        "crimeType": "Robbery",
+        "reportedCrimes": "428"
+      },
+      {
+        "month": "2012-09",
+        "crimeType": "Robbery",
+        "reportedCrimes": "429"
+      },
+      {
+        "month": "2012-10",
+        "crimeType": "Robbery",
+        "reportedCrimes": "444"
+      },
+      {
+        "month": "2012-11",
+        "crimeType": "Robbery",
+        "reportedCrimes": "461"
+      },
+      {
+        "month": "2012-12",
+        "crimeType": "Robbery",
+        "reportedCrimes": "468"
+      },
+      {
+        "month": "2013-01",
+        "crimeType": "Robbery",
+        "reportedCrimes": "471"
+      },
+      {
+        "month": "2013-02",
+        "crimeType": "Robbery",
+        "reportedCrimes": "460"
+      },
+      {
+        "month": "2013-03",
+        "crimeType": "Robbery",
+        "reportedCrimes": "455"
+      },
+      {
+        "month": "2013-04",
+        "crimeType": "Robbery",
+        "reportedCrimes": "448"
+      },
+      {
+        "month": "2013-05",
+        "crimeType": "Robbery",
+        "reportedCrimes": "460"
+      },
+      {
+        "month": "2013-06",
+        "crimeType": "Robbery",
+        "reportedCrimes": "459"
+      },
+      {
+        "month": "2013-07",
+        "crimeType": "Robbery",
+        "reportedCrimes": "431"
+      },
+      {
+        "month": "2013-08",
+        "crimeType": "Robbery",
+        "reportedCrimes": "445"
+      },
+      {
+        "month": "2013-09",
+        "crimeType": "Robbery",
+        "reportedCrimes": "426"
+      },
+      {
+        "month": "2013-10",
+        "crimeType": "Robbery",
+        "reportedCrimes": "451"
+      },
+      {
+        "month": "2013-11",
+        "crimeType": "Robbery",
+        "reportedCrimes": "396"
+      },
+      {
+        "month": "2013-12",
+        "crimeType": "Robbery",
+        "reportedCrimes": "481"
+      },
+      {
+        "month": "2014-01",
+        "crimeType": "Robbery",
+        "reportedCrimes": "496"
+      },
+      {
+        "month": "2014-02",
+        "crimeType": "Robbery",
+        "reportedCrimes": "477"
+      },
+      {
+        "month": "2014-03",
+        "crimeType": "Robbery",
+        "reportedCrimes": "471"
+      },
+      {
+        "month": "2014-04",
+        "crimeType": "Robbery",
+        "reportedCrimes": "376"
+      },
+      {
+        "month": "2014-05",
+        "crimeType": "Robbery",
+        "reportedCrimes": "398"
+      },
+      {
+        "month": "2014-06",
+        "crimeType": "Robbery",
+        "reportedCrimes": "404"
+      },
+      {
+        "month": "2014-07",
+        "crimeType": "Robbery",
+        "reportedCrimes": "373"
+      },
+      {
+        "month": "2014-08",
+        "crimeType": "Robbery",
+        "reportedCrimes": "395"
+      },
+      {
+        "month": "2014-09",
+        "crimeType": "Robbery",
+        "reportedCrimes": "473"
+      },
+      {
+        "month": "2014-10",
+        "crimeType": "Robbery",
+        "reportedCrimes": "398"
+      },
+      {
+        "month": "2014-11",
+        "crimeType": "Robbery",
+        "reportedCrimes": "461"
+      },
+      {
+        "month": "2014-12",
+        "crimeType": "Robbery",
+        "reportedCrimes": "434"
+      },
+      {
+        "month": "2015-01",
+        "crimeType": "Robbery",
+        "reportedCrimes": "421"
+      },
+      {
+        "month": "2015-02",
+        "crimeType": "Robbery",
+        "reportedCrimes": "370"
+      },
+      {
+        "month": "2015-03",
+        "crimeType": "Robbery",
+        "reportedCrimes": "418"
+      },
+      {
+        "month": "2015-04",
+        "crimeType": "Robbery",
+        "reportedCrimes": "334"
+      },
+      {
+        "month": "2015-05",
+        "crimeType": "Robbery",
+        "reportedCrimes": "414"
+      },
+      {
+        "month": "2015-06",
+        "crimeType": "Robbery",
+        "reportedCrimes": "366"
+      },
+      {
+        "month": "2015-07",
+        "crimeType": "Robbery",
+        "reportedCrimes": "396"
+      },
+      {
+        "month": "2015-08",
+        "crimeType": "Robbery",
+        "reportedCrimes": "384"
+      },
+      {
+        "month": "2015-09",
+        "crimeType": "Robbery",
+        "reportedCrimes": "408"
+      },
+      {
+        "month": "2015-10",
+        "crimeType": "Robbery",
+        "reportedCrimes": "442"
+      },
+      {
+        "month": "2015-11",
+        "crimeType": "Robbery",
+        "reportedCrimes": "417"
+      },
+      {
+        "month": "2015-12",
+        "crimeType": "Robbery",
+        "reportedCrimes": "435"
+      },
+      {
+        "month": "2016-01",
+        "crimeType": "Robbery",
+        "reportedCrimes": "472"
+      },
+      {
+        "month": "2016-02",
+        "crimeType": "Robbery",
+        "reportedCrimes": "417"
+      },
+      {
+        "month": "2016-03",
+        "crimeType": "Robbery",
+        "reportedCrimes": "446"
+      },
+      {
+        "month": "2016-04",
+        "crimeType": "Robbery",
+        "reportedCrimes": "431"
+      },
+      {
+        "month": "2016-05",
+        "crimeType": "Robbery",
+        "reportedCrimes": "453"
+      },
+      {
+        "month": "2016-06",
+        "crimeType": "Robbery",
+        "reportedCrimes": "428"
+      },
+      {
+        "month": "2016-07",
+        "crimeType": "Robbery",
+        "reportedCrimes": "450"
+      },
+      {
+        "month": "2016-08",
+        "crimeType": "Robbery",
+        "reportedCrimes": "499"
+      },
+      {
+        "month": "2016-09",
+        "crimeType": "Robbery",
+        "reportedCrimes": "425"
+      },
+      {
+        "month": "2016-10",
+        "crimeType": "Robbery",
+        "reportedCrimes": "562"
+      },
+      {
+        "month": "2016-11",
+        "crimeType": "Robbery",
+        "reportedCrimes": "496"
+      },
+      {
+        "month": "2016-12",
+        "crimeType": "Robbery",
+        "reportedCrimes": "511"
+      },
+      {
+        "month": "2011-01",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2473"
+      },
+      {
+        "month": "2011-02",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2358"
+      },
+      {
+        "month": "2011-03",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2347"
+      },
+      {
+        "month": "2011-04",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2081"
+      },
+      {
+        "month": "2011-05",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2456"
+      },
+      {
+        "month": "2011-06",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2132"
+      },
+      {
+        "month": "2011-07",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1987"
+      },
+      {
+        "month": "2011-08",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2030"
+      },
+      {
+        "month": "2011-09",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2313"
+      },
+      {
+        "month": "2011-10",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2238"
+      },
+      {
+        "month": "2011-11",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2199"
+      },
+      {
+        "month": "2011-12",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1928"
+      },
+      {
+        "month": "2012-01",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1937"
+      },
+      {
+        "month": "2012-02",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1786"
+      },
+      {
+        "month": "2012-03",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2033"
+      },
+      {
+        "month": "2012-04",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1914"
+      },
+      {
+        "month": "2012-05",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1868"
+      },
+      {
+        "month": "2012-06",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1737"
+      },
+      {
+        "month": "2012-07",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1837"
+      },
+      {
+        "month": "2012-08",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1902"
+      },
+      {
+        "month": "2012-09",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2016"
+      },
+      {
+        "month": "2012-10",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2042"
+      },
+      {
+        "month": "2012-11",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2063"
+      },
+      {
+        "month": "2012-12",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1869"
+      },
+      {
+        "month": "2013-01",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1806"
+      },
+      {
+        "month": "2013-02",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1690"
+      },
+      {
+        "month": "2013-03",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2001"
+      },
+      {
+        "month": "2013-04",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1966"
+      },
+      {
+        "month": "2013-05",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1867"
+      },
+      {
+        "month": "2013-06",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1933"
+      },
+      {
+        "month": "2013-07",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1864"
+      },
+      {
+        "month": "2013-08",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1895"
+      },
+      {
+        "month": "2013-09",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1928"
+      },
+      {
+        "month": "2013-10",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2176"
+      },
+      {
+        "month": "2013-11",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2021"
+      },
+      {
+        "month": "2013-12",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1927"
+      },
+      {
+        "month": "2014-01",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1946"
+      },
+      {
+        "month": "2014-02",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1824"
+      },
+      {
+        "month": "2014-03",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2159"
+      },
+      {
+        "month": "2014-04",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1825"
+      },
+      {
+        "month": "2014-05",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1854"
+      },
+      {
+        "month": "2014-06",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1926"
+      },
+      {
+        "month": "2014-07",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1896"
+      },
+      {
+        "month": "2014-08",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1946"
+      },
+      {
+        "month": "2014-09",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2092"
+      },
+      {
+        "month": "2014-10",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2302"
+      },
+      {
+        "month": "2014-11",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2278"
+      },
+      {
+        "month": "2014-12",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2168"
+      },
+      {
+        "month": "2015-01",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2195"
+      },
+      {
+        "month": "2015-02",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1964"
+      },
+      {
+        "month": "2015-03",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1949"
+      },
+      {
+        "month": "2015-04",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "1817"
+      },
+      {
+        "month": "2015-05",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2087"
+      },
+      {
+        "month": "2015-06",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2040"
+      },
+      {
+        "month": "2015-07",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2122"
+      },
+      {
+        "month": "2015-08",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2058"
+      },
+      {
+        "month": "2015-09",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2210"
+      },
+      {
+        "month": "2015-10",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2179"
+      },
+      {
+        "month": "2015-11",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2264"
+      },
+      {
+        "month": "2015-12",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2192"
+      },
+      {
+        "month": "2016-01",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2263"
+      },
+      {
+        "month": "2016-02",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2018"
+      },
+      {
+        "month": "2016-03",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2218"
+      },
+      {
+        "month": "2016-04",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2046"
+      },
+      {
+        "month": "2016-05",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2158"
+      },
+      {
+        "month": "2016-06",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2102"
+      },
+      {
+        "month": "2016-07",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2358"
+      },
+      {
+        "month": "2016-08",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2488"
+      },
+      {
+        "month": "2016-09",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2753"
+      },
+      {
+        "month": "2016-10",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2966"
+      },
+      {
+        "month": "2016-11",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2963"
+      },
+      {
+        "month": "2016-12",
+        "crimeType": "Vehicle crime",
+        "reportedCrimes": "2773"
+      }
+    ],
+    "format": {
+      "parse": {
+        "month": "date"
+      }
+    }
+  },
+  "encoding": {
+    "color": {},
+    "opacity": {
+      "value": 1
+    },
+    "x": {
+      "field": "month",
+      "type": "temporal"
+    },
+    "y": {
+      "field": "reportedCrimes",
+      "title": "Reported crimes",
+      "type": "quantitative"
+    }
+  },
+  "mark": "circle",
+  "width": 540
+}

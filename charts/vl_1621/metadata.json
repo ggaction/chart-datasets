@@ -1,0 +1,124 @@
+{
+  "id": "vl_1621",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "a14740707a5c188d01d1f2f874f9380827907acc38cf4700417823e6380af789",
+      "actions": 8,
+      "topOptions": 17
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0412a85e52a6789b610dcc5963c2eedab1956747768178e0b8fb7357fe1ef901",
+      "actions": 9,
+      "topOptions": 19
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "44f0c09ebb2b76e7a502a784ee172ca5e8172819f0784d84d86f48cee4c18eb5",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0a085dc2d57d14fe36b369bdb8bfd32bb3974410b40fddcd14cc1a78e56f96f4",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7ea3ea4ce5dd14de11ab685428068ded131ff455de19db391e50bc162662c8b2",
+      "actions": 18,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ae9a5160fb1a45e1b3eb3deaaf738f9a11058b1a68af2865269b0a8792b2f90c",
+      "actions": 19,
+      "topOptions": 34
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "b69cff386890247b22ca7ecd9eb9bc981bda0fec4035a8aca848dfc54da95053",
+      "actions": 19,
+      "topOptions": 33
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "ffb1a5c4e5fe33ebffbe45740a6e0262e3665ef48aa3d399193c07e0582a4548",
+      "actions": 20,
+      "topOptions": 34
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/barley.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 8 genuine ownership stages, 379 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Authorized eight-stage cap reached."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "8574f642df8f211caa5f69fd9eb5fe0c39605ffd1c5a51b0950d3035070c1724",
+      "bytes": 961
+    },
+    "data.json": {
+      "sha256": "4e4664407841f694c40747996eda55db6c787041d3687969c320f79686659ec2",
+      "bytes": 11970
+    },
+    "resolved-source.vl.json": {
+      "sha256": "33b33d729eb355fadd14620b724b72c317fcf20c0939aec544ca21e2a44616c1",
+      "bytes": 15767
+    },
+    "G1.gg.mjs": {
+      "sha256": "a14740707a5c188d01d1f2f874f9380827907acc38cf4700417823e6380af789",
+      "bytes": 2064
+    },
+    "G2.gg.mjs": {
+      "sha256": "0412a85e52a6789b610dcc5963c2eedab1956747768178e0b8fb7357fe1ef901",
+      "bytes": 2004
+    },
+    "G3.gg.mjs": {
+      "sha256": "44f0c09ebb2b76e7a502a784ee172ca5e8172819f0784d84d86f48cee4c18eb5",
+      "bytes": 2134
+    },
+    "G4.gg.mjs": {
+      "sha256": "0a085dc2d57d14fe36b369bdb8bfd32bb3974410b40fddcd14cc1a78e56f96f4",
+      "bytes": 2094
+    },
+    "G5.gg.mjs": {
+      "sha256": "7ea3ea4ce5dd14de11ab685428068ded131ff455de19db391e50bc162662c8b2",
+      "bytes": 2120
+    },
+    "G6.gg.mjs": {
+      "sha256": "ae9a5160fb1a45e1b3eb3deaaf738f9a11058b1a68af2865269b0a8792b2f90c",
+      "bytes": 2146
+    },
+    "G7.gg.mjs": {
+      "sha256": "b69cff386890247b22ca7ecd9eb9bc981bda0fec4035a8aca848dfc54da95053",
+      "bytes": 2121
+    },
+    "G8.gg.mjs": {
+      "sha256": "ffb1a5c4e5fe33ebffbe45740a6e0262e3665ef48aa3d399193c07e0582a4548",
+      "bytes": 2175
+    },
+    "vega-lite.svg": {
+      "sha256": "2474f24715c91143cc6bc0aec6a5091a9729fb17730869233978ef7d9f1c567a",
+      "bytes": 12334
+    },
+    "ggaction.svg": {
+      "sha256": "2e79f2f0f7f55510c6de530f017dc7590a6d976797c83e8bc89925dc97d328f3",
+      "bytes": 7327
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "vl_1754",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f1ee51c8e321cc4aeb1359e55b325039e0968015d08d30570f6b4540205fcdd9",
+      "actions": 9,
+      "topOptions": 19
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "605847ae8c286b765849288718c0b35bbb4cbe4f6fa18c61accd5eaa35fd8f24",
+      "actions": 10,
+      "topOptions": 23
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "0bce9042aed2f0c4c5cee5c10184fab287a71e3e6335787a9ebad3c44b28dd5f",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "9f6a963a6284d5198b4ad340e1f2309920bc98214482ed34991dbe988b9a681e",
+      "actions": 14,
+      "topOptions": 25
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Reviewed high-level line scaffold remains, scales already explicit, both complete axes progress through whole-axis paint edits to focused line/title editors. Only fixed geometry and data bindings remain. Default-only grid refinements are excluded; no additional meaningful boundary. Source grid paint corrected using exact shared GLM color fragments, without changing action counts or decomposition."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "9dcf1800e472b87d81f5bcc492037b043a1f27d22dab6b0f28346853d07f8a54",
+      "bytes": 806
+    },
+    "data.json": {
+      "sha256": "7f6e539c8087251be094c09a80df2439d495ea4c9baac7ad0e764f7b37fe29e0",
+      "bytes": 273
+    },
+    "resolved-source.vl.json": {
+      "sha256": "9dcf1800e472b87d81f5bcc492037b043a1f27d22dab6b0f28346853d07f8a54",
+      "bytes": 806
+    },
+    "G1.gg.mjs": {
+      "sha256": "f1ee51c8e321cc4aeb1359e55b325039e0968015d08d30570f6b4540205fcdd9",
+      "bytes": 1764
+    },
+    "G2.gg.mjs": {
+      "sha256": "605847ae8c286b765849288718c0b35bbb4cbe4f6fa18c61accd5eaa35fd8f24",
+      "bytes": 1742
+    },
+    "G3.gg.mjs": {
+      "sha256": "0bce9042aed2f0c4c5cee5c10184fab287a71e3e6335787a9ebad3c44b28dd5f",
+      "bytes": 1790
+    },
+    "G4.gg.mjs": {
+      "sha256": "9f6a963a6284d5198b4ad340e1f2309920bc98214482ed34991dbe988b9a681e",
+      "bytes": 1804
+    },
+    "vega-lite.svg": {
+      "sha256": "8d17ec1ba099c78417c88efe6d92771e896b5517544d1de2320b32892c1e0d5f",
+      "bytes": 8515
+    },
+    "ggaction.svg": {
+      "sha256": "a4b30ca658f59b5f8461d38a53ec69cb90d7e284aa2fbf2eb209817a0547a6c1",
+      "bytes": 4833
+    }
+  }
+}

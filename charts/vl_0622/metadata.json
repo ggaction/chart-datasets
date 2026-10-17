@@ -1,0 +1,102 @@
+{
+  "id": "vl_0622",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8e0f5560ea30b520a8ab88bfdafea89fa0a12c7ba6798cd1250411adbb2e03df",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "94dd9eae19bc73dcbf68d66c5df2b772932aa17df99f62d7537fb6df4b46d402",
+      "actions": 23,
+      "topOptions": 54
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "deaaf32b2f3b6ef846bef2f6edf461b480cbf72ab9cc2606d6e1538132527dbe",
+      "actions": 24,
+      "topOptions": 55
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "45eabac8d16abee8052b54f4f38ff8ef2d48336d8d57dfb082ecee6aa9d0c66d",
+      "actions": 25,
+      "topOptions": 57
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ae9f0c8dccac80dfba039a119b01c023188c824c1a27bbe2d81495ccd90bdad4",
+      "actions": 27,
+      "topOptions": 59
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "57a6fc139abf256a0265ab570bb4d0a5e5b5e7cc10fc18100e747c12a474b7ec",
+      "actions": 31,
+      "topOptions": 61
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/e4e/ch2_Growth/solowModel.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 6 genuine ownership stages, 331 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Reviewed exact model-authored stop; stop before padded stages."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "b3491e6c7d9cd61dda627c9b0e0bedcbaeadb0586c567111c2719d72282fa1f6",
+      "bytes": 1503
+    },
+    "data.json": {
+      "sha256": "bd3b32449d9b67933b8913135a7abc64542140da5033d5923fb4d02c72089e02",
+      "bytes": 26589
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1c258a2e0c9cca7d116e5a894f6c1f5f0c607b9d6b1f48577fe6547df8c44ad0",
+      "bytes": 33714
+    },
+    "G1.gg.mjs": {
+      "sha256": "8e0f5560ea30b520a8ab88bfdafea89fa0a12c7ba6798cd1250411adbb2e03df",
+      "bytes": 2418
+    },
+    "G2.gg.mjs": {
+      "sha256": "94dd9eae19bc73dcbf68d66c5df2b772932aa17df99f62d7537fb6df4b46d402",
+      "bytes": 2410
+    },
+    "G3.gg.mjs": {
+      "sha256": "deaaf32b2f3b6ef846bef2f6edf461b480cbf72ab9cc2606d6e1538132527dbe",
+      "bytes": 2439
+    },
+    "G4.gg.mjs": {
+      "sha256": "45eabac8d16abee8052b54f4f38ff8ef2d48336d8d57dfb082ecee6aa9d0c66d",
+      "bytes": 2481
+    },
+    "G5.gg.mjs": {
+      "sha256": "ae9f0c8dccac80dfba039a119b01c023188c824c1a27bbe2d81495ccd90bdad4",
+      "bytes": 2583
+    },
+    "G6.gg.mjs": {
+      "sha256": "57a6fc139abf256a0265ab570bb4d0a5e5b5e7cc10fc18100e747c12a474b7ec",
+      "bytes": 2583
+    },
+    "vega-lite.svg": {
+      "sha256": "60db9b379f388984e5f139b3c8646b1cc7976398ccb68fe804ab7c2dd2c46d9f",
+      "bytes": 49658
+    },
+    "ggaction.svg": {
+      "sha256": "174b6a2e208705598a0eba644137d89266f71f37c61402933a5181865f75d23c",
+      "bytes": 51166
+    }
+  }
+}

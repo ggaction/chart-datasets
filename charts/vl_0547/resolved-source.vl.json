@@ -1,0 +1,950 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Forest area",
+  "data": {
+    "values": [
+      {
+        "Year": "1990",
+        "Country": "Brazil",
+        "Value 1": "70.45802056",
+        "Value 2": "0"
+      },
+      {
+        "Year": "1991",
+        "Country": "Brazil",
+        "Value 1": "70.00565437",
+        "Value 2": "-0.6"
+      },
+      {
+        "Year": "1992",
+        "Country": "Brazil",
+        "Value 1": "69.55328817",
+        "Value 2": "-1.3"
+      },
+      {
+        "Year": "1993",
+        "Country": "Brazil",
+        "Value 1": "69.10092198",
+        "Value 2": "-1.9"
+      },
+      {
+        "Year": "1994",
+        "Country": "Brazil",
+        "Value 1": "68.64855578",
+        "Value 2": "-2.6"
+      },
+      {
+        "Year": "1995",
+        "Country": "Brazil",
+        "Value 1": "68.19618958",
+        "Value 2": "-3.2"
+      },
+      {
+        "Year": "1996",
+        "Country": "Brazil",
+        "Value 1": "67.74382339",
+        "Value 2": "-3.9"
+      },
+      {
+        "Year": "1997",
+        "Country": "Brazil",
+        "Value 1": "67.29145719",
+        "Value 2": "-4.5"
+      },
+      {
+        "Year": "1998",
+        "Country": "Brazil",
+        "Value 1": "66.83909099",
+        "Value 2": "-5.1"
+      },
+      {
+        "Year": "1999",
+        "Country": "Brazil",
+        "Value 1": "66.3867248",
+        "Value 2": "-5.8"
+      },
+      {
+        "Year": "2000",
+        "Country": "Brazil",
+        "Value 1": "65.9343586",
+        "Value 2": "-6.4"
+      },
+      {
+        "Year": "2001",
+        "Country": "Brazil",
+        "Value 1": "65.4616709",
+        "Value 2": "-7.1"
+      },
+      {
+        "Year": "2002",
+        "Country": "Brazil",
+        "Value 1": "64.98898319",
+        "Value 2": "-7.8"
+      },
+      {
+        "Year": "2003",
+        "Country": "Brazil",
+        "Value 1": "64.51629549",
+        "Value 2": "-8.4"
+      },
+      {
+        "Year": "2004",
+        "Country": "Brazil",
+        "Value 1": "64.04360779",
+        "Value 2": "-9.1"
+      },
+      {
+        "Year": "2005",
+        "Country": "Brazil",
+        "Value 1": "63.57092009",
+        "Value 2": "-9.8"
+      },
+      {
+        "Year": "2006",
+        "Country": "Brazil",
+        "Value 1": "63.09823238",
+        "Value 2": "-10.5"
+      },
+      {
+        "Year": "2007",
+        "Country": "Brazil",
+        "Value 1": "62.62554468",
+        "Value 2": "-11.1"
+      },
+      {
+        "Year": "2008",
+        "Country": "Brazil",
+        "Value 1": "62.15285698",
+        "Value 2": "-11.8"
+      },
+      {
+        "Year": "2009",
+        "Country": "Brazil",
+        "Value 1": "61.68016927",
+        "Value 2": "-12.5"
+      },
+      {
+        "Year": "2010",
+        "Country": "Brazil",
+        "Value 1": "61.20748157",
+        "Value 2": "-13.1"
+      },
+      {
+        "Year": "2011",
+        "Country": "Brazil",
+        "Value 1": "61.02332816",
+        "Value 2": "-13.4"
+      },
+      {
+        "Year": "2012",
+        "Country": "Brazil",
+        "Value 1": "60.83917474",
+        "Value 2": "-13.7"
+      },
+      {
+        "Year": "2013",
+        "Country": "Brazil",
+        "Value 1": "60.65502133",
+        "Value 2": "-13.9"
+      },
+      {
+        "Year": "2014",
+        "Country": "Brazil",
+        "Value 1": "60.47086792",
+        "Value 2": "-14.2"
+      },
+      {
+        "Year": "2015",
+        "Country": "Brazil",
+        "Value 1": "60.28671451",
+        "Value 2": "-14.4"
+      },
+      {
+        "Year": "2016",
+        "Country": "Brazil",
+        "Value 1": "60.07103255",
+        "Value 2": "-14.7"
+      },
+      {
+        "Year": "2017",
+        "Country": "Brazil",
+        "Value 1": "59.83288148",
+        "Value 2": "-15.1"
+      },
+      {
+        "Year": "2018",
+        "Country": "Brazil",
+        "Value 1": "59.70842795",
+        "Value 2": "-15.3"
+      },
+      {
+        "Year": "1990",
+        "Country": "Indonesia",
+        "Value 1": "65.43771425",
+        "Value 2": "0"
+      },
+      {
+        "Year": "1991",
+        "Country": "Indonesia",
+        "Value 1": "64.48467352",
+        "Value 2": "-1.5"
+      },
+      {
+        "Year": "1992",
+        "Country": "Indonesia",
+        "Value 1": "63.53163278",
+        "Value 2": "-2.9"
+      },
+      {
+        "Year": "1993",
+        "Country": "Indonesia",
+        "Value 1": "62.57859205",
+        "Value 2": "-4.4"
+      },
+      {
+        "Year": "1994",
+        "Country": "Indonesia",
+        "Value 1": "61.62555132",
+        "Value 2": "-5.8"
+      },
+      {
+        "Year": "1995",
+        "Country": "Indonesia",
+        "Value 1": "60.67251058",
+        "Value 2": "-7.3"
+      },
+      {
+        "Year": "1996",
+        "Country": "Indonesia",
+        "Value 1": "59.71946985",
+        "Value 2": "-8.7"
+      },
+      {
+        "Year": "1997",
+        "Country": "Indonesia",
+        "Value 1": "58.76642912",
+        "Value 2": "-10.2"
+      },
+      {
+        "Year": "1998",
+        "Country": "Indonesia",
+        "Value 1": "57.81338839",
+        "Value 2": "-11.7"
+      },
+      {
+        "Year": "1999",
+        "Country": "Indonesia",
+        "Value 1": "56.86034765",
+        "Value 2": "-13.1"
+      },
+      {
+        "Year": "2000",
+        "Country": "Indonesia",
+        "Value 1": "55.90730692",
+        "Value 2": "-14.6"
+      },
+      {
+        "Year": "2001",
+        "Country": "Indonesia",
+        "Value 1": "55.81783757",
+        "Value 2": "-14.7"
+      },
+      {
+        "Year": "2002",
+        "Country": "Indonesia",
+        "Value 1": "55.72836821",
+        "Value 2": "-14.8"
+      },
+      {
+        "Year": "2003",
+        "Country": "Indonesia",
+        "Value 1": "55.63889886",
+        "Value 2": "-15"
+      },
+      {
+        "Year": "2004",
+        "Country": "Indonesia",
+        "Value 1": "55.5494295",
+        "Value 2": "-15.1"
+      },
+      {
+        "Year": "2005",
+        "Country": "Indonesia",
+        "Value 1": "55.45996015",
+        "Value 2": "-15.3"
+      },
+      {
+        "Year": "2006",
+        "Country": "Indonesia",
+        "Value 1": "55.37049079",
+        "Value 2": "-15.4"
+      },
+      {
+        "Year": "2007",
+        "Country": "Indonesia",
+        "Value 1": "55.28102143",
+        "Value 2": "-15.5"
+      },
+      {
+        "Year": "2008",
+        "Country": "Indonesia",
+        "Value 1": "55.19155208",
+        "Value 2": "-15.7"
+      },
+      {
+        "Year": "2009",
+        "Country": "Indonesia",
+        "Value 1": "55.10208272",
+        "Value 2": "-15.8"
+      },
+      {
+        "Year": "2010",
+        "Country": "Indonesia",
+        "Value 1": "55.01261337",
+        "Value 2": "-15.9"
+      },
+      {
+        "Year": "2011",
+        "Country": "Indonesia",
+        "Value 1": "54.50131102",
+        "Value 2": "-16.7"
+      },
+      {
+        "Year": "2012",
+        "Country": "Indonesia",
+        "Value 1": "53.99000867",
+        "Value 2": "-17.5"
+      },
+      {
+        "Year": "2013",
+        "Country": "Indonesia",
+        "Value 1": "53.47870632",
+        "Value 2": "-18.3"
+      },
+      {
+        "Year": "2014",
+        "Country": "Indonesia",
+        "Value 1": "52.96740396",
+        "Value 2": "-19.1"
+      },
+      {
+        "Year": "2015",
+        "Country": "Indonesia",
+        "Value 1": "52.45610161",
+        "Value 2": "-19.8"
+      },
+      {
+        "Year": "2016",
+        "Country": "Indonesia",
+        "Value 1": "50.74345453",
+        "Value 2": "-22.5"
+      },
+      {
+        "Year": "2017",
+        "Country": "Indonesia",
+        "Value 1": "50.03933382",
+        "Value 2": "-23.5"
+      },
+      {
+        "Year": "2018",
+        "Country": "Indonesia",
+        "Value 1": "49.71681778",
+        "Value 2": "-24"
+      },
+      {
+        "Year": "1990",
+        "Country": "North Korea",
+        "Value 1": "67.91416131",
+        "Value 2": "0"
+      },
+      {
+        "Year": "1991",
+        "Country": "North Korea",
+        "Value 1": "67.83640887",
+        "Value 2": "-0.1"
+      },
+      {
+        "Year": "1992",
+        "Country": "North Korea",
+        "Value 1": "67.75865644",
+        "Value 2": "-0.2"
+      },
+      {
+        "Year": "1993",
+        "Country": "North Korea",
+        "Value 1": "67.680904",
+        "Value 2": "-0.3"
+      },
+      {
+        "Year": "1994",
+        "Country": "North Korea",
+        "Value 1": "67.60315157",
+        "Value 2": "-0.5"
+      },
+      {
+        "Year": "1995",
+        "Country": "North Korea",
+        "Value 1": "67.52539913",
+        "Value 2": "-0.6"
+      },
+      {
+        "Year": "1996",
+        "Country": "North Korea",
+        "Value 1": "67.44764669",
+        "Value 2": "-0.7"
+      },
+      {
+        "Year": "1997",
+        "Country": "North Korea",
+        "Value 1": "67.36989426",
+        "Value 2": "-0.8"
+      },
+      {
+        "Year": "1998",
+        "Country": "North Korea",
+        "Value 1": "67.29214182",
+        "Value 2": "-0.9"
+      },
+      {
+        "Year": "1999",
+        "Country": "North Korea",
+        "Value 1": "67.21438938",
+        "Value 2": "-1"
+      },
+      {
+        "Year": "2000",
+        "Country": "North Korea",
+        "Value 1": "67.13663695",
+        "Value 2": "-1.1"
+      },
+      {
+        "Year": "2001",
+        "Country": "North Korea",
+        "Value 1": "66.85032045",
+        "Value 2": "-1.6"
+      },
+      {
+        "Year": "2002",
+        "Country": "North Korea",
+        "Value 1": "66.72383511",
+        "Value 2": "-1.8"
+      },
+      {
+        "Year": "2003",
+        "Country": "North Korea",
+        "Value 1": "66.625",
+        "Value 2": "-1.9"
+      },
+      {
+        "Year": "2004",
+        "Country": "North Korea",
+        "Value 1": "66.51931419",
+        "Value 2": "-2.1"
+      },
+      {
+        "Year": "2005",
+        "Country": "North Korea",
+        "Value 1": "66.40681466",
+        "Value 2": "-2.2"
+      },
+      {
+        "Year": "2006",
+        "Country": "North Korea",
+        "Value 1": "66.29438481",
+        "Value 2": "-2.4"
+      },
+      {
+        "Year": "2007",
+        "Country": "North Korea",
+        "Value 1": "66.17519604",
+        "Value 2": "-2.6"
+      },
+      {
+        "Year": "2008",
+        "Country": "North Korea",
+        "Value 1": "66.03567378",
+        "Value 2": "-2.8"
+      },
+      {
+        "Year": "2009",
+        "Country": "North Korea",
+        "Value 1": "65.89635277",
+        "Value 2": "-3"
+      },
+      {
+        "Year": "2010",
+        "Country": "North Korea",
+        "Value 1": "65.70987654",
+        "Value 2": "-3.3"
+      },
+      {
+        "Year": "2011",
+        "Country": "North Korea",
+        "Value 1": "65.61374627",
+        "Value 2": "-3.4"
+      },
+      {
+        "Year": "2012",
+        "Country": "North Korea",
+        "Value 1": "65.43006885",
+        "Value 2": "-3.7"
+      },
+      {
+        "Year": "2013",
+        "Country": "North Korea",
+        "Value 1": "65.24952271",
+        "Value 2": "-3.9"
+      },
+      {
+        "Year": "2014",
+        "Country": "North Korea",
+        "Value 1": "65.1442061",
+        "Value 2": "-4.1"
+      },
+      {
+        "Year": "2015",
+        "Country": "North Korea",
+        "Value 1": "65.03155626",
+        "Value 2": "-4.2"
+      },
+      {
+        "Year": "2016",
+        "Country": "North Korea",
+        "Value 1": "64.87911457",
+        "Value 2": "-4.5"
+      },
+      {
+        "Year": "2017",
+        "Country": "North Korea",
+        "Value 1": "64.78309917",
+        "Value 2": "-4.6"
+      },
+      {
+        "Year": "2018",
+        "Country": "North Korea",
+        "Value 1": "64.67391304",
+        "Value 2": "-4.8"
+      },
+      {
+        "Year": "1990",
+        "Country": "Tanzania",
+        "Value 1": "64.78890269",
+        "Value 2": "0"
+      },
+      {
+        "Year": "1991",
+        "Country": "Tanzania",
+        "Value 1": "64.36894333",
+        "Value 2": "-0.7"
+      },
+      {
+        "Year": "1992",
+        "Country": "Tanzania",
+        "Value 1": "63.94898397",
+        "Value 2": "-1.3"
+      },
+      {
+        "Year": "1993",
+        "Country": "Tanzania",
+        "Value 1": "63.52902461",
+        "Value 2": "-1.9"
+      },
+      {
+        "Year": "1994",
+        "Country": "Tanzania",
+        "Value 1": "63.10906525",
+        "Value 2": "-2.6"
+      },
+      {
+        "Year": "1995",
+        "Country": "Tanzania",
+        "Value 1": "62.68910589",
+        "Value 2": "-3.2"
+      },
+      {
+        "Year": "1996",
+        "Country": "Tanzania",
+        "Value 1": "62.26914653",
+        "Value 2": "-3.9"
+      },
+      {
+        "Year": "1997",
+        "Country": "Tanzania",
+        "Value 1": "61.84918718",
+        "Value 2": "-4.5"
+      },
+      {
+        "Year": "1998",
+        "Country": "Tanzania",
+        "Value 1": "61.42922782",
+        "Value 2": "-5.2"
+      },
+      {
+        "Year": "1999",
+        "Country": "Tanzania",
+        "Value 1": "61.00926846",
+        "Value 2": "-5.8"
+      },
+      {
+        "Year": "2000",
+        "Country": "Tanzania",
+        "Value 1": "60.5893091",
+        "Value 2": "-6.5"
+      },
+      {
+        "Year": "2001",
+        "Country": "Tanzania",
+        "Value 1": "60.16934974",
+        "Value 2": "-7.1"
+      },
+      {
+        "Year": "2002",
+        "Country": "Tanzania",
+        "Value 1": "59.74939038",
+        "Value 2": "-7.8"
+      },
+      {
+        "Year": "2003",
+        "Country": "Tanzania",
+        "Value 1": "59.32943102",
+        "Value 2": "-8.4"
+      },
+      {
+        "Year": "2004",
+        "Country": "Tanzania",
+        "Value 1": "58.90947166",
+        "Value 2": "-9.1"
+      },
+      {
+        "Year": "2005",
+        "Country": "Tanzania",
+        "Value 1": "58.48951231",
+        "Value 2": "-9.7"
+      },
+      {
+        "Year": "2006",
+        "Country": "Tanzania",
+        "Value 1": "58.06955295",
+        "Value 2": "-10.4"
+      },
+      {
+        "Year": "2007",
+        "Country": "Tanzania",
+        "Value 1": "57.64959359",
+        "Value 2": "-11"
+      },
+      {
+        "Year": "2008",
+        "Country": "Tanzania",
+        "Value 1": "57.22963423",
+        "Value 2": "-11.7"
+      },
+      {
+        "Year": "2009",
+        "Country": "Tanzania",
+        "Value 1": "56.80967487",
+        "Value 2": "-12.3"
+      },
+      {
+        "Year": "2010",
+        "Country": "Tanzania",
+        "Value 1": "56.38971551",
+        "Value 2": "-13"
+      },
+      {
+        "Year": "2011",
+        "Country": "Tanzania",
+        "Value 1": "55.96975389",
+        "Value 2": "-13.6"
+      },
+      {
+        "Year": "2012",
+        "Country": "Tanzania",
+        "Value 1": "55.54979228",
+        "Value 2": "-14.3"
+      },
+      {
+        "Year": "2013",
+        "Country": "Tanzania",
+        "Value 1": "55.12983066",
+        "Value 2": "-14.9"
+      },
+      {
+        "Year": "2014",
+        "Country": "Tanzania",
+        "Value 1": "54.70986904",
+        "Value 2": "-15.6"
+      },
+      {
+        "Year": "2015",
+        "Country": "Tanzania",
+        "Value 1": "54.28990743",
+        "Value 2": "-16.2"
+      },
+      {
+        "Year": "2016",
+        "Country": "Tanzania",
+        "Value 1": "53.76044254",
+        "Value 2": "-17"
+      },
+      {
+        "Year": "2017",
+        "Country": "Tanzania",
+        "Value 1": "53.23097765",
+        "Value 2": "-17.8"
+      },
+      {
+        "Year": "2018",
+        "Country": "Tanzania",
+        "Value 1": "52.70151276",
+        "Value 2": "-18.7"
+      },
+      {
+        "Year": "1990",
+        "Country": "Paraguay",
+        "Value 1": "64.298666",
+        "Value 2": "0"
+      },
+      {
+        "Year": "1991",
+        "Country": "Paraguay",
+        "Value 1": "63.65577397",
+        "Value 2": "-1"
+      },
+      {
+        "Year": "1992",
+        "Country": "Paraguay",
+        "Value 1": "63.01288195",
+        "Value 2": "-2"
+      },
+      {
+        "Year": "1993",
+        "Country": "Paraguay",
+        "Value 1": "62.36998993",
+        "Value 2": "-3"
+      },
+      {
+        "Year": "1994",
+        "Country": "Paraguay",
+        "Value 1": "61.72709791",
+        "Value 2": "-4"
+      },
+      {
+        "Year": "1995",
+        "Country": "Paraguay",
+        "Value 1": "61.08420589",
+        "Value 2": "-5"
+      },
+      {
+        "Year": "1996",
+        "Country": "Paraguay",
+        "Value 1": "60.44131387",
+        "Value 2": "-6"
+      },
+      {
+        "Year": "1997",
+        "Country": "Paraguay",
+        "Value 1": "59.79842185",
+        "Value 2": "-7"
+      },
+      {
+        "Year": "1998",
+        "Country": "Paraguay",
+        "Value 1": "59.15552983",
+        "Value 2": "-8"
+      },
+      {
+        "Year": "1999",
+        "Country": "Paraguay",
+        "Value 1": "58.51263781",
+        "Value 2": "-9"
+      },
+      {
+        "Year": "2000",
+        "Country": "Paraguay",
+        "Value 1": "57.86974578",
+        "Value 2": "-10"
+      },
+      {
+        "Year": "2001",
+        "Country": "Paraguay",
+        "Value 1": "57.00857287",
+        "Value 2": "-11.3"
+      },
+      {
+        "Year": "2002",
+        "Country": "Paraguay",
+        "Value 1": "56.14739995",
+        "Value 2": "-12.7"
+      },
+      {
+        "Year": "2003",
+        "Country": "Paraguay",
+        "Value 1": "55.28622703",
+        "Value 2": "-14"
+      },
+      {
+        "Year": "2004",
+        "Country": "Paraguay",
+        "Value 1": "54.42505412",
+        "Value 2": "-15.4"
+      },
+      {
+        "Year": "2005",
+        "Country": "Paraguay",
+        "Value 1": "53.5638812",
+        "Value 2": "-16.7"
+      },
+      {
+        "Year": "2006",
+        "Country": "Paraguay",
+        "Value 1": "52.70270828",
+        "Value 2": "-18"
+      },
+      {
+        "Year": "2007",
+        "Country": "Paraguay",
+        "Value 1": "51.84153536",
+        "Value 2": "-19.4"
+      },
+      {
+        "Year": "2008",
+        "Country": "Paraguay",
+        "Value 1": "50.98036245",
+        "Value 2": "-20.7"
+      },
+      {
+        "Year": "2009",
+        "Country": "Paraguay",
+        "Value 1": "50.11918953",
+        "Value 2": "-22.1"
+      },
+      {
+        "Year": "2010",
+        "Country": "Paraguay",
+        "Value 1": "49.25801661",
+        "Value 2": "-23.4"
+      },
+      {
+        "Year": "2011",
+        "Country": "Paraguay",
+        "Value 1": "48.21534357",
+        "Value 2": "-25"
+      },
+      {
+        "Year": "2012",
+        "Country": "Paraguay",
+        "Value 1": "47.17267053",
+        "Value 2": "-26.6"
+      },
+      {
+        "Year": "2013",
+        "Country": "Paraguay",
+        "Value 1": "46.12999748",
+        "Value 2": "-28.3"
+      },
+      {
+        "Year": "2014",
+        "Country": "Paraguay",
+        "Value 1": "45.08732444",
+        "Value 2": "-29.9"
+      },
+      {
+        "Year": "2015",
+        "Country": "Paraguay",
+        "Value 1": "44.0446514",
+        "Value 2": "-31.5"
+      },
+      {
+        "Year": "2016",
+        "Country": "Paraguay",
+        "Value 1": "43.62730934",
+        "Value 2": "-32.2"
+      },
+      {
+        "Year": "2017",
+        "Country": "Paraguay",
+        "Value 1": "42.63848477",
+        "Value 2": "-33.7"
+      },
+      {
+        "Year": "2018",
+        "Country": "Paraguay",
+        "Value 1": "41.93538887",
+        "Value 2": "-34.8"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "title": {
+    "text": "Forest area - by country",
+    "subtitle": "% change square km (Base year = 1990). Source: World Bank",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "height": 300,
+  "width": 300,
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {
+        "grid": false
+      },
+      "title": null
+    },
+    "y": {
+      "field": "Value 2",
+      "type": "quantitative",
+      "title": null,
+      "scale": {
+        "domain": [
+          -40,
+          5
+        ]
+      },
+      "axis": {
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "Country",
+      "type": "nominal",
+      "legend": {
+        "orient": "bottom-left",
+        "title": null
+      },
+      "scale": {
+        "scheme": "yellowgreenblue"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Year",
+        "type": "temporal",
+        "title": "Date",
+        "timeUnit": "year"
+      },
+      {
+        "field": "Value 2",
+        "type": "quantitative",
+        "title": "Reduction of forest area (%)"
+      },
+      {
+        "field": "Value 1",
+        "type": "quantitative",
+        "title": "Forest area (million square km)"
+      },
+      {
+        "field": "Country"
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/covid19pb/covid19pb.github.io/master/data/paraiba/dados_pb_covid19_pacientes_mortes.csv"
+  },
+  "config": {
+    "background": "transparent",
+    "view": {
+      "continuousWidth": 400,
+      "continuousHeight": 300
+    }
+  },
+  "transform": [
+    {
+      "calculate": "if((datum.localDoObito === ''),'Não Identificado',datum.key)",
+      "as": "key"
+    },
+    {
+      "calculate": "if((datum.localDoObito === 'SAMU'),'SAMU',datum.key)",
+      "as": "key"
+    },
+    {
+      "calculate": "if((datum.localDoObito === 'UPA'),'UPA',datum.key)",
+      "as": "key"
+    },
+    {
+      "calculate": "if((datum.localDoObito === 'hospital privado'),'Hospital Privado',datum.key)",
+      "as": "key"
+    },
+    {
+      "calculate": "if((datum.localDoObito === 'hospital público'),'Hospital Público',datum.key)",
+      "as": "key"
+    },
+    {
+      "calculate": "if((datum.localDoObito === 'maternidade pública'),'Maternidade Pública',datum.key)",
+      "as": "key"
+    },
+    {
+      "calculate": "if((datum.localDoObito === 'residência'),'Residência',datum.key)",
+      "as": "key"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "axis": {
+        "title": "Quantidade de óbitos",
+        "labelFontSize": 12,
+        "titleFontSize": 12
+      },
+      "field": "key",
+      "type": "quantitative",
+      "aggregate": "count"
+    },
+    "x": {
+      "axis": {
+        "labelAngle": 315,
+        "labelFontSize": 12,
+        "titleFontSize": 12
+      },
+      "field": "key",
+      "type": "nominal"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusEnd": 4,
+        "size": 30
+      },
+      "encoding": {
+        "color": {
+          "field": "key",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "SAMU",
+              "Não Identificado",
+              "UPA",
+              "Hospital Privado",
+              "Hospital Público",
+              "Maternidade Pública",
+              "Residência"
+            ],
+            "range": [
+              "#FE0312",
+              "#FFBD00",
+              "#FF5400",
+              "#FF0054",
+              "#9E0059",
+              "#390099",
+              "#000000"
+            ]
+          }
+        },
+        "opacity": {
+          "value": 0.7
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "baseline": "middle",
+        "stroke": "black",
+        "dy": -10,
+        "fontSize": 15
+      },
+      "encoding": {
+        "text": {
+          "field": "key",
+          "type": "quantitative",
+          "aggregate": "count"
+        }
+      }
+    }
+  ]
+}

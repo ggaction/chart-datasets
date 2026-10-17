@@ -1,0 +1,375 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A ranged dot plot that uses 'layer' to convey changing life expectancy for the five most populous countries (between 1955 and 2000).",
+  "data": {
+    "values": [
+      {
+        "nome_disciplina": "CALCULO DIFERENCIAL E INTEGRAL I",
+        "desempenho": "sucesso",
+        "value": "0.4035",
+        "perc": "40.35",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "CALCULO DIFERENCIAL E INTEGRAL II",
+        "desempenho": "sucesso",
+        "value": "0.4681",
+        "perc": "46.81",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "ALGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+        "desempenho": "sucesso",
+        "value": "0.472",
+        "perc": "47.199999999999996",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "ALGEBRA LINEAR I",
+        "desempenho": "sucesso",
+        "value": "0.5511",
+        "perc": "55.11000000000001",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "MATEMÁTICA DISCRETA",
+        "desempenho": "sucesso",
+        "value": "0.5091",
+        "perc": "50.91",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "PROBABILIDADE E ESTATÍSTICA",
+        "desempenho": "sucesso",
+        "value": "0.558",
+        "perc": "55.800000000000004",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "FUND DE MATEMATICA P/ C.DA COMPUTACAO II",
+        "desempenho": "sucesso",
+        "value": "0.6336",
+        "perc": "63.36000000000001",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "LABORATORIO DE ESTRUTURA DE DADOS",
+        "desempenho": "sucesso",
+        "value": "0.6738",
+        "perc": "67.38",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "ESTRUTURA DE DADOS E ALGORITMOS",
+        "desempenho": "sucesso",
+        "value": "0.6409",
+        "perc": "64.09",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "FUNDAMENTOS DE FÍSICA CLÁSSICA",
+        "desempenho": "sucesso",
+        "value": "0.6466",
+        "perc": "64.66",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "LAB.DE ESTRUTURA DE DADOS E ALGORITMOS",
+        "desempenho": "sucesso",
+        "value": "0.6663",
+        "perc": "66.63",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "ESTRUTURA DE DADOS",
+        "desempenho": "sucesso",
+        "value": "0.6783",
+        "perc": "67.83",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "LABORATÓRIO DE PROGRAMAÇÃO I",
+        "desempenho": "sucesso",
+        "value": "0.7063",
+        "perc": "70.63000000000001",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "PROGRAMAÇÃO I",
+        "desempenho": "sucesso",
+        "value": "0.7096",
+        "perc": "70.96000000000001",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "LABORATÓRIO DE PROGRAMAÇÃO II",
+        "desempenho": "sucesso",
+        "value": "0.7006",
+        "perc": "70.06",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "TEORIA DA COMPUTAÇÃO",
+        "desempenho": "sucesso",
+        "value": "0.7263",
+        "perc": "72.63",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "PROGRAMAÇÃO II",
+        "desempenho": "sucesso",
+        "value": "0.7187",
+        "perc": "71.87",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "INTRODUÇÃO À PROBABILIDADE",
+        "desempenho": "sucesso",
+        "value": "0.7441",
+        "perc": "74.41",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "PROJETO DE SOFTWARE",
+        "desempenho": "sucesso",
+        "value": "0.7617",
+        "perc": "76.17",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "FUND DE MATEMATICA P/ C.DA COMPUTACAO I",
+        "desempenho": "sucesso",
+        "value": "0.7517",
+        "perc": "75.17",
+        "sexo": "Masculino"
+      },
+      {
+        "nome_disciplina": "CALCULO DIFERENCIAL E INTEGRAL I",
+        "desempenho": "sucesso",
+        "value": "0.3992",
+        "perc": "39.92",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "CALCULO DIFERENCIAL E INTEGRAL II",
+        "desempenho": "sucesso",
+        "value": "0.4437",
+        "perc": "44.37",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "ALGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+        "desempenho": "sucesso",
+        "value": "0.489",
+        "perc": "48.9",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "ALGEBRA LINEAR I",
+        "desempenho": "sucesso",
+        "value": "0.527",
+        "perc": "52.7",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "MATEMÁTICA DISCRETA",
+        "desempenho": "sucesso",
+        "value": "0.5204",
+        "perc": "52.04",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "PROBABILIDADE E ESTATÍSTICA",
+        "desempenho": "sucesso",
+        "value": "0.5417",
+        "perc": "54.169999999999995",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "FUND DE MATEMATICA P/ C.DA COMPUTACAO II",
+        "desempenho": "sucesso",
+        "value": "0.7091",
+        "perc": "70.91",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "LABORATORIO DE ESTRUTURA DE DADOS",
+        "desempenho": "sucesso",
+        "value": "0.5775",
+        "perc": "57.75",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "ESTRUTURA DE DADOS E ALGORITMOS",
+        "desempenho": "sucesso",
+        "value": "0.622",
+        "perc": "62.2",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "FUNDAMENTOS DE FÍSICA CLÁSSICA",
+        "desempenho": "sucesso",
+        "value": "0.7297",
+        "perc": "72.97",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "LAB.DE ESTRUTURA DE DADOS E ALGORITMOS",
+        "desempenho": "sucesso",
+        "value": "0.6918",
+        "perc": "69.17999999999999",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "ESTRUTURA DE DADOS",
+        "desempenho": "sucesso",
+        "value": "0.6557",
+        "perc": "65.57",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "LABORATÓRIO DE PROGRAMAÇÃO I",
+        "desempenho": "sucesso",
+        "value": "0.5868",
+        "perc": "58.68",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "PROGRAMAÇÃO I",
+        "desempenho": "sucesso",
+        "value": "0.5881",
+        "perc": "58.809999999999995",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "LABORATÓRIO DE PROGRAMAÇÃO II",
+        "desempenho": "sucesso",
+        "value": "0.6887",
+        "perc": "68.87",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "TEORIA DA COMPUTAÇÃO",
+        "desempenho": "sucesso",
+        "value": "0.6697",
+        "perc": "66.97",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "PROGRAMAÇÃO II",
+        "desempenho": "sucesso",
+        "value": "0.7285",
+        "perc": "72.85000000000001",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "INTRODUÇÃO À PROBABILIDADE",
+        "desempenho": "sucesso",
+        "value": "0.62",
+        "perc": "62",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "PROJETO DE SOFTWARE",
+        "desempenho": "sucesso",
+        "value": "0.587",
+        "perc": "58.699999999999996",
+        "sexo": "Feminino"
+      },
+      {
+        "nome_disciplina": "FUND DE MATEMATICA P/ C.DA COMPUTACAO I",
+        "desempenho": "sucesso",
+        "value": "0.631",
+        "perc": "63.1",
+        "sexo": "Feminino"
+      }
+    ]
+  },
+  "title": {
+    "text": "Taxa de sucesso das top 20 disciplinas",
+    "fontSize": 15,
+    "anchor": "middle"
+  },
+  "width": 450,
+  "height": 250,
+  "encoding": {
+    "x": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Percentual de sucesso",
+      "scale": {
+        "domain": [
+          0.37,
+          0.8
+        ]
+      }
+    },
+    "y": {
+      "field": "nome_disciplina",
+      "type": "nominal",
+      "title": "Disciplinas",
+      "axis": {
+        "offset": 5,
+        "ticks": false,
+        "minExtent": 70,
+        "domain": false
+      }
+    },
+    "tooltip": [
+      {
+        "field": "nome_disciplina",
+        "type": "nominal",
+        "title": "Disciplina"
+      },
+      {
+        "field": "sexo",
+        "type": "nominal",
+        "title": "Sexo"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Sucesso(%)"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "detail": {
+          "field": "nome_disciplina",
+          "type": "nominal"
+        },
+        "color": {
+          "value": "#000000"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true
+      },
+      "encoding": {
+        "color": {
+          "scale": {
+            "range": [
+              "#d95f02",
+              "#1b9e77"
+            ]
+          },
+          "field": "sexo",
+          "type": "nominal",
+          "title": "Gênero"
+        },
+        "size": {
+          "value": 40
+        },
+        "opacity": {
+          "value": 1
+        }
+      }
+    }
+  ]
+}

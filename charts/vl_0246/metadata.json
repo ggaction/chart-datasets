@@ -1,0 +1,124 @@
+{
+  "id": "vl_0246",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c15cc466576a1441223b3cd38b4491e3d44ec83f44b92935851f8701b78c9bbc",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "6802802d01eb396b8bcc5c402cef2e3f5fb3954661e3c758a325e177b69e3a02",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "19392f0654a5909df5adaa968b0f1c9fb4ed90fab3d743292f76d855ecd0f2b8",
+      "actions": 13,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "bd87ee17b6d071bf828a0fc6961740c8cceecc0255459008bbacc488380238ae",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ef747c31d99ed606781a3f5ae3d5c39a3ad8f2053b7c9da49d81e45fd1f1d8eb",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0690f7b8ad37d26ffa0f23ce73bdc31c3d10e8c033214fa0c891adf35f7804b6",
+      "actions": 16,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "363a2565617264abe1bf83d30370071ff7c56e4e69c99ad92dfab568f4bc99dc",
+      "actions": 16,
+      "topOptions": 39
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "fc21032cc6b9d42dea0f9af8c5944c2c4ca03afdc574807d0ba1e1ef21b352c4",
+      "actions": 18,
+      "topOptions": 41
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/vikrajendran/vikrajendran.github.io/main/GenderPercentDiff.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Original eight-stage baseline ownership profile preserved. Source-bound exact GLM numeric axis-title correction replayed over all eight stages after native multiline fix; full source/DOM and exact SVG/PNG/graphics family checks pass. Remaining frontier is disclosed; exhaustive lowest-level decomposition is not claimed."
+  },
+  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "files": {
+    "source.vl.json": {
+      "sha256": "abd69f52b6186e9b3ccac9a3aaea6482a18539683645e6905848dd9eb6cef159",
+      "bytes": 2100
+    },
+    "data.json": {
+      "sha256": "4fccd7415cee75ff93213377f22e4c7a25df1a992d03a117e1e608d9c0e3de9c",
+      "bytes": 32155
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a59b81f77388ccf72ba88872a90466b1e3e11441cf252b7b2223a60ac6dc750b",
+      "bytes": 38953
+    },
+    "G1.gg.mjs": {
+      "sha256": "c15cc466576a1441223b3cd38b4491e3d44ec83f44b92935851f8701b78c9bbc",
+      "bytes": 2506
+    },
+    "G2.gg.mjs": {
+      "sha256": "6802802d01eb396b8bcc5c402cef2e3f5fb3954661e3c758a325e177b69e3a02",
+      "bytes": 2524
+    },
+    "G3.gg.mjs": {
+      "sha256": "19392f0654a5909df5adaa968b0f1c9fb4ed90fab3d743292f76d855ecd0f2b8",
+      "bytes": 2424
+    },
+    "G4.gg.mjs": {
+      "sha256": "bd87ee17b6d071bf828a0fc6961740c8cceecc0255459008bbacc488380238ae",
+      "bytes": 2459
+    },
+    "G5.gg.mjs": {
+      "sha256": "ef747c31d99ed606781a3f5ae3d5c39a3ad8f2053b7c9da49d81e45fd1f1d8eb",
+      "bytes": 2507
+    },
+    "G6.gg.mjs": {
+      "sha256": "0690f7b8ad37d26ffa0f23ce73bdc31c3d10e8c033214fa0c891adf35f7804b6",
+      "bytes": 2467
+    },
+    "G7.gg.mjs": {
+      "sha256": "363a2565617264abe1bf83d30370071ff7c56e4e69c99ad92dfab568f4bc99dc",
+      "bytes": 2467
+    },
+    "G8.gg.mjs": {
+      "sha256": "fc21032cc6b9d42dea0f9af8c5944c2c4ca03afdc574807d0ba1e1ef21b352c4",
+      "bytes": 2635
+    },
+    "vega-lite.svg": {
+      "sha256": "9b852ebcef3e11eca9478e7639403d4b0372e578f1c70d4918ee2f9797168ff4",
+      "bytes": 99971
+    },
+    "ggaction.svg": {
+      "sha256": "076ae388cffe31f56184076174f17d971bc922c6c020d184e1f17ab60ff1fe59",
+      "bytes": 21206
+    }
+  }
+}
