@@ -30,7 +30,7 @@ for(const id of ids){
    const hash=sha(svg);if(i===0){canonical=hash;await writeFile(path.join(root,'.validation/renders',id+'.svg'),svg);}
    stages.push({level:meta.stages[i].level,svgSha256:hash,sameFamily:hash===canonical,unchanged:hash===frozen});
   }
-  results.push({id,status:stages.every(s=>s.sameFamily&&s.unchanged)?'passed':'different',stages});
+  results.push({id,browser:browser.version(),status:stages.every(s=>s.sameFamily&&s.unchanged)?'passed':'different',stages});
  }catch(error){results.push({id,status:'failed',error:error.stack});}
  finally{await page.close();}
 }

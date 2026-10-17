@@ -3,8 +3,8 @@ import {spawn} from 'node:child_process';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('../',import.meta.url)),manifest=JSON.parse(await readFile(path.join(root,'manifest.json'),'utf8'));
-const browser=process.argv.includes('--browser');
-const requested=process.argv.slice(2).filter(arg=>arg!=='--browser'),ids=requested.includes('--all')?manifest.charts.map(c=>c.id):requested;
+const browser=!process.argv.includes('--node');
+const requested=process.argv.slice(2).filter(arg=>arg!=='--browser'&&arg!=='--node'),ids=requested.includes('--all')?manifest.charts.map(c=>c.id):requested;
 if(!ids.length||ids.some(id=>!manifest.charts.some(c=>c.id===id)))throw Error('Usage: npm run render -- vl_1180 [vl_#### ...] | --all');
 await mkdir(path.join(root,'.validation'),{recursive:true});
 const chunks=[];for(let i=0;i<ids.length;i+=12)chunks.push(ids.slice(i,i+12));
@@ -22,6 +22,7 @@ async function worker(){
 }
 await Promise.all(Array.from({length:Math.min(3,chunks.length)},worker));
 results.sort((a,b)=>a.id.localeCompare(b.id));
-const report={runtime:process.env.GGACTION_SOURCE?'local-release-candidate':manifest.runtime,backend:browser?'Chromium, en-US, UTC, 1280x960, DPR2':'Node, UTC',charts:results.length,programs:results.reduce((n,r)=>n+(r.stages?.length||0),0),passed:results.filter(r=>r.status==='passed').length,results};
+const identity=process.env.GGACTION_IDENTITY?JSON.parse(await readFile(process.env.GGACTION_IDENTITY,'utf8')):undefined;
+const report={runtime:identity??(process.env.GGACTION_SOURCE?'local-release-candidate':manifest.runtime),backend:browser?'Chromium, en-US, UTC, 1280x960, DPR2':'Node, UTC',browserVersions:browser?[...new Set(results.map(r=>r.browser).filter(Boolean))]:undefined,charts:results.length,programs:results.reduce((n,r)=>n+(r.stages?.length||0),0),passed:results.filter(r=>r.status==='passed').length,results};
 await writeFile(path.join(root,'.validation',browser?'runtime-sync-browser.json':'runtime-sync.json'),JSON.stringify(report,null,2)+'\n');
 if(report.passed!==ids.length)process.exitCode=1;

@@ -49,17 +49,36 @@ Large source specifications and raw data remain available in this repository.
 
 ## Runtime and verification
 
-The synchronized runtime is pinned in `runtime-lock.json` and the lockfile.
-Install with `npm ci`, then render a family with:
+The synchronized runtime is ggaction **0.0.18**, pinned in `runtime-lock.json` and the lockfile.
+The tagged artifact and npm archive match exactly. All **1,154 families / 8,335 programs**
+match their frozen browser SVGs; see [the runtime report](reports/runtime-sync.json)
+and [registry proof](reports/registry-proof.json).
+Install dependencies and the pinned Chromium build, then render a family with:
 
 ```sh
+npm ci
+npx playwright install chromium
 npm run render -- vl_1180
 ```
 
 This executes the distributed source modules against the pinned ggaction
-package and checks same-family output equality. Existing SVGs remain the frozen
+package in Chromium (UTC, en-US) and checks same-family output equality.
+`--all` checks every accepted family; `--node` selects the diagnostic Node
+backend, whose number formatting can differ from the frozen browser output.
+Existing SVGs remain the frozen
 translation evidence. A full release synchronization report records compatibility
 and output differences separately.
+
+For a release check, download the `ggaction-vVERSION` artifact from the tagged
+release workflow and run:
+
+```sh
+node scripts/verify-runtime.mjs /path/to/candidate.json
+```
+
+The script verifies the tarball digests, installs that exact artifact in an
+isolated local directory, executes every accepted program and writes
+`reports/runtime-sync.json` only when all families match the frozen outputs.
 
 Completed means the translations passed the recorded rendering, structure,
 data and geometry policy. It does not claim pixel-perfect equivalence to the
