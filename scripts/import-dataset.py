@@ -41,6 +41,7 @@ for chart_id in sorted(ids):
     for level in levels:
         item=accepted[level];attempt=src/level/item['attempt'];code=attempt/'candidate.gg.mjs'
         if sha(code)!=item['codeSha256']:raise RuntimeError(chart_id+'/'+level+' code hash mismatch')
+        if sha(attempt/'data.json')!=sha(src/'data.json'):raise RuntimeError(chart_id+'/'+level+' has a distinct input dataset')
         text=code.read_text()
         imports=re.findall(r'(?:from\s*|import\s*)["\']([^"\']+)["\']',text)
         if sorted(imports)!=['./data.json','ggaction']:raise RuntimeError('Unexpected dependency '+chart_id+'/'+level)
