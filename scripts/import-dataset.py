@@ -3,6 +3,9 @@
 import argparse, collections, hashlib, json, pathlib, re, shutil, xml.etree.ElementTree as ET
 parser=argparse.ArgumentParser();parser.add_argument('workspace',type=pathlib.Path);args=parser.parse_args()
 root=pathlib.Path(__file__).resolve().parents[1]; workspace=args.workspace.resolve()
+runtime_version=json.loads((root/'package.json').read_text())['dependencies']['ggaction']
+if not re.fullmatch(r'\d+\.\d+\.\d+',runtime_version):
+    raise RuntimeError('The ggaction dependency must use an exact release version')
 base=workspace/'artifacts/v12-glm-thousand-chart-adaptive'
 ids=json.loads((workspace/'experiments/glm-thousand-chart-adaptive/config.json').read_text())['sourceIds']
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
@@ -61,6 +64,6 @@ for chart_id in sorted(ids):
     charts.append(dict(id=chart_id,vegaLite='charts/'+chart_id+'/vega-lite.svg',ggaction='charts/'+chart_id+'/ggaction.svg',
         dimensions=dict(vegaLite=dimension(dest/'vega-lite.svg'),ggaction=dimension(dest/'ggaction.svg')),stageCount=len(stages)))
     maxbytes=max(maxbytes,*[(dest/name).stat().st_size for name in copied])
-manifest=dict(schemaVersion=1,chartCount=len(charts),programCount=total,runtime=dict(package='ggaction',version='0.0.18',status='release-pending'),charts=charts)
+manifest=dict(schemaVersion=1,chartCount=len(charts),programCount=total,runtime=dict(package='ggaction',version=runtime_version,status='release-pending'),charts=charts)
 save(root/'manifest.json',manifest)
 print(json.dumps(dict(charts=len(charts),programs=total,largestFileBytes=maxbytes)))

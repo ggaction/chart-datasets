@@ -1,4 +1,5 @@
-import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,rm} from 'node:fs/promises';
+import assert from 'node:assert/strict';
 import {spawn} from 'node:child_process';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -12,11 +13,19 @@ const results=[];let done=0,serial=0;
 async function worker(){
   for(;;){
     const chunk=chunks.shift();if(!chunk)return;const file=path.join(root,'.validation/chunk-'+serial+++'.json');
+    // A failed child must never reuse a successful chunk from an older run.
+    await rm(file,{force:true});
     await new Promise((resolve,reject)=>{
       const child=spawn(process.execPath,['--max-old-space-size=4096',path.join(root,'scripts',browser?'render-browser-family.mjs':'render-family.mjs'),JSON.stringify(chunk)],{cwd:root,env:{...process.env,TZ:'UTC',RESULT_FILE:file},stdio:['ignore','ignore','inherit']});
-      child.on('error',reject);child.on('exit',(code,signal)=>signal?reject(Error('Renderer stopped: '+signal)):resolve(code));
+      child.on('error',reject);child.on('exit',(code,signal)=>code===0?resolve():reject(Error('Renderer failed: '+(signal??code))));
     });
-    const rows=JSON.parse(await readFile(file,'utf8'));results.push(...rows);done+=rows.length;
+    const rows=JSON.parse(await readFile(file,'utf8'));
+    assert.ok(Array.isArray(rows),'Renderer chunk must be an array.');
+    assert.equal(rows.length,chunk.length,'Renderer chunk must contain every requested family.');
+    const returnedIds=rows.map(row=>row?.id);
+    assert.equal(new Set(returnedIds).size,chunk.length,'Renderer chunk must not duplicate families.');
+    assert.deepEqual(returnedIds,chunk,'Renderer chunk must preserve the exact requested family order.');
+    results.push(...rows);done+=rows.length;
     console.log(done+'/'+ids.length+' families; '+results.filter(r=>r.status!=='passed').length+' differences/errors');
   }
 }

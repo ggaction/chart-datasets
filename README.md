@@ -49,10 +49,13 @@ Large source specifications and raw data remain available in this repository.
 
 ## Runtime and verification
 
-The synchronized runtime is ggaction **0.0.18**, pinned in `runtime-lock.json` and the lockfile.
+The synchronized runtime is ggaction **0.0.19**, pinned in `runtime-lock.json` and the lockfile.
 The tagged artifact and npm archive match exactly. All **1,154 families / 8,335 programs**
 match their frozen browser SVGs; see [the runtime report](reports/runtime-sync.json)
-and [registry proof](reports/registry-proof.json).
+and [registry proof](reports/registry-proof.json). The official npm installation contains
+the same 591 files as the verified artifact. The [0.0.19 release](https://github.com/ggaction/ggaction/releases/tag/v0.0.19)
+and [published documentation](https://ggaction.github.io/ggaction/) are synchronized;
+[documentation provenance](reports/documentation-release.json) records their contract identity.
 Install dependencies and the pinned Chromium build, then render a family with:
 
 ```sh
@@ -79,6 +82,17 @@ node scripts/verify-runtime.mjs /path/to/candidate.json
 The script verifies the tarball digests, installs that exact artifact in an
 isolated local directory, executes every accepted program and writes
 `reports/runtime-sync.json` only when all families match the frozen outputs.
+
+For an unpublished candidate, pass an ignored output path so the published
+runtime report remains unchanged:
+
+```sh
+node scripts/verify-runtime.mjs /path/to/candidate.json .validation/candidate-runtime.json
+```
+
+Renderer validation rejects a failed child, stale chunk, missing or duplicate
+family, and mismatched result order. `npm test` exercises those failure cases
+before the Pages build.
 
 Completed means the translations passed the recorded rendering, structure,
 data and geometry policy. It does not claim pixel-perfect equivalence to the

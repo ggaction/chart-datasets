@@ -7,7 +7,8 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const manifestFile=path.resolve(process.argv[2]||'');
-if(!process.argv[2])throw Error('Usage: node scripts/verify-runtime.mjs /path/to/candidate.json');
+if(!process.argv[2])throw Error('Usage: node scripts/verify-runtime.mjs /path/to/candidate.json [report.json]');
+const reportFile=path.resolve(process.argv[3]||path.join(root,'reports/runtime-sync.json'));
 const candidate=JSON.parse(await readFile(manifestFile,'utf8'));
 assert.equal(candidate.name,'ggaction');
 assert.match(candidate.version,/^\d+\.\d+\.\d+$/);
@@ -37,6 +38,6 @@ const dataset=JSON.parse(await readFile(path.join(root,'manifest.json'),'utf8'))
 assert.equal(report.charts,dataset.chartCount);assert.equal(report.programs,dataset.programCount);
 assert.equal(report.passed,report.charts);
 assert.ok(report.results.every(r=>r.stages.every(s=>s.sameFamily&&s.unchanged)));
-await mkdir(path.join(root,'reports'),{recursive:true});
-await writeFile(path.join(root,'reports/runtime-sync.json'),JSON.stringify(report,null,2)+'\n');
+await mkdir(path.dirname(reportFile),{recursive:true});
+await writeFile(reportFile,JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({status:'passed',runtime:identity,charts:report.charts,programs:report.programs,browserVersions:report.browserVersions}));
