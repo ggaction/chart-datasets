@@ -20,6 +20,14 @@ Each `charts/vl_####/` directory contains:
 | `vega-lite.svg`, `ggaction.svg` | Original and canonical G1 renderings |
 | `metadata.json` | SHA-256 inventory, source URLs and translation notes |
 
+Some confidence-interval sources use an approved seeded reference-rendering
+environment for reproducibility. For these families, `source-reference-policy.json`
+records the environment seed and hashes of the seven original unseeded reference
+files, and `vega-lite-unseeded.svg` preserves the earlier SVG. The seed is not an
+authored Vega-Lite property; the original specification and data remain unchanged.
+Incremental synchronization verifies and preserves this provenance when those
+families are imported.
+
 The repository includes 8,732 raw accepted programs. Families have up to eight
 stages; the historical baseline retains its original accepted stages, including
 stages omitted by a later editorial curation. A chart is included only when
