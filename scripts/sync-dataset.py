@@ -49,6 +49,67 @@ def urls(value):
     return sorted(set(found))
 
 
+def reference_policy(source_dir, staging, chart_id, files):
+    """Preserve an explicitly approved reference environment and original history."""
+    adoption_file = source_dir / 'source-reference-seed1-adoption.json'
+    if not adoption_file.exists():
+        return None
+    adoption = read(adoption_file)
+    policy = adoption['approvedReferenceRandomPolicy']
+    require(adoption['sourceSha256'] == digest(files['source.vl.json'])
+            and adoption['dataSha256'] == digest(files['data.json']),
+            f'{chart_id}: reference policy source/data mismatch')
+    require(adoption['allOriginalAuthoredSourceAndDataBytesUnchanged'] is True
+            and policy['sourceSpecAndRawRowsUnchanged'] is True
+            and policy['reviewer'] == 'codex' and policy['seed'] == 1
+            and policy['sourceSha256'] == adoption['sourceSha256']
+            and isinstance(policy['expectedDraws'], int) and policy['expectedDraws'] > 0
+            and re.fullmatch(r'[a-f0-9]{64}', policy['approvalRecordSha256']),
+            f'{chart_id}: missing reviewed reference environment')
+    archived = adoption['archivedOriginalReference']
+    reference_names = {'chart.svg', 'chart.png', 'compiled.vega.json', 'initial-state.json',
+                       'reference-evidence.json', 'render.json', 'source.vl.json'}
+    require(len(archived) == 7 and len({row['path'] for row in archived}) == 7,
+            f'{chart_id}: incomplete unseeded reference history')
+    require({pathlib.PurePosixPath(row['path']).name for row in archived} == reference_names,
+            f'{chart_id}: missing original reference file')
+    require(len(adoption['newReference']) == 7
+            and {pathlib.PurePosixPath(row['path']).name for row in adoption['newReference']} == reference_names,
+            f'{chart_id}: incomplete adopted reference history')
+    history = []
+    for row in archived:
+        relative = pathlib.PurePosixPath(row['path'])
+        require(len(relative.parts) == 2 and relative.parts[0] == 'reference-before-approved-seed1'
+                and relative.name not in ('.', '..'), f'{chart_id}: unsafe reference history path')
+        require(digest(source_dir / row['path']) == row['sha256'],
+                f'{chart_id}: original unseeded reference changed')
+        history.append(dict(name=relative.name, sha256=row['sha256']))
+    for row in adoption['newReference']:
+        relative = pathlib.PurePosixPath(row['path'])
+        require(len(relative.parts) == 2 and relative.parts[0] == 'reference',
+                f'{chart_id}: unsafe adopted reference path')
+        require(digest(source_dir / row['path']) == row['sha256'],
+                f'{chart_id}: adopted reference changed')
+    require(any(row['path'] == 'reference/chart.svg' for row in adoption['newReference']),
+            f'{chart_id}: adopted reference SVG proof missing')
+    record = dict(schemaVersion=1, policy=policy['policy'],
+                  settingOrigin='approved-reference-rendering-environment',
+                  originalSourceAuthoredSeed=False, seed=policy['seed'],
+                  expectedDraws=policy['expectedDraws'],
+                  sourceSha256=adoption['sourceSha256'], dataSha256=adoption['dataSha256'],
+                  originalSourceAndDataUnchanged=True,
+                  adoptionRecordSha256=digest(adoption_file),
+                  approvalRecordSha256=policy['approvalRecordSha256'],
+                  historicalUnseededReference=history,
+                  historicalUnseededSvg='vega-lite-unseeded.svg')
+    record_file = staging / (chart_id + '-reference-policy.json')
+    save(record_file, record)
+    files['source-reference-policy.json'] = record_file
+    files['vega-lite-unseeded.svg'] = source_dir / 'reference-before-approved-seed1/chart.svg'
+    return dict(metadata='source-reference-policy.json', environmentSeed=1,
+                originalSourceAuthoredSeed=False, historicalUnseededSvg='vega-lite-unseeded.svg')
+
+
 def sync(root, workspace, apply=False):
     manifest_path = root / 'manifest.json'
     manifest = read(manifest_path)
@@ -130,6 +191,7 @@ def sync(root, workspace, apply=False):
                 f'{chart_id}: stale completion')
         files['vega-lite.svg'] = source_dir / 'reference/chart.svg'
         files['ggaction.svg'] = source_dir / 'G1' / accepted['G1']['attempt'] / 'render/chart.svg'
+        policy = reference_policy(source_dir, staging, chart_id, files)
         destination = root / 'charts' / chart_id
         incoming_proofs = {name: dict(sha256=digest(file), bytes=file.stat().st_size) for name, file in files.items()}
         old = read(destination / 'metadata.json') if chart_id in existing else None
@@ -137,6 +199,11 @@ def sync(root, workspace, apply=False):
             for name in ('source.vl.json', 'resolved-source.vl.json', 'data.json', 'vega-lite.svg'):
                 require(old['files'][name] == incoming_proofs[name],
                         f'{chart_id}: original input changed: {name}; review separately')
+            if old.get('referencePolicy'):
+                require(policy == old['referencePolicy'], f'{chart_id}: reference policy was dropped or changed')
+                for name in ('source-reference-policy.json', 'vega-lite-unseeded.svg'):
+                    require(old['files'][name] == incoming_proofs[name],
+                            f'{chart_id}: original reference provenance changed: {name}')
         changed = old is None or old['files'] != incoming_proofs or old['stages'] != stages
         if changed:
             prepared = staging / chart_id
@@ -148,6 +215,8 @@ def sync(root, workspace, apply=False):
             metadata = dict(id=chart_id, status='completed', stages=stages, sourceUrls=urls(spec),
                             notes=notes, historicalRuntimeCommits=sorted(runtimes),
                             historicalVerificationRuntimeUnrecordedStages=unrecorded_runtimes, files=incoming_proofs)
+            if policy:
+                metadata['referencePolicy'] = policy
             save(prepared / 'metadata.json', metadata)
             (refreshed if old else added).append(chart_id)
         programs += len(stages)

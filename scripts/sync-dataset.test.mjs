@@ -58,3 +58,44 @@ test('rejects changes to original rows even when the new stage uses those same c
 test('never drops an existing family if its workspace completion becomes partial',async()=>{
  const f=await fixture();try{assert.equal(f.run(true).status,0);await json(f.family+'/completion.json',{status:'partial'});const run=f.run(true);assert.notEqual(run.status,0);assert.match(run.stderr,/Refusing to drop/);assert.equal((await load(f.root+'/manifest.json')).chartCount,1);}finally{await f.cleanup();}
 });
+
+async function seededReference(f) {
+ const names=['chart.svg','chart.png','compiled.vega.json','initial-state.json','reference-evidence.json','render.json','source.vl.json'];
+ await mkdir(f.family+'/reference-before-approved-seed1');
+ const archived=[];
+ for(const name of names){
+  const bytes=name==='chart.svg'?svg.replace('L10 10','L11 10'):'historical '+name;
+  await writeFile(f.family+'/reference-before-approved-seed1/'+name,bytes);
+  archived.push({path:'reference-before-approved-seed1/'+name,sha256:hash(bytes)});
+  if(name!=='chart.svg')await writeFile(f.family+'/reference/'+name,'adopted '+name);
+ }
+ const adoption={sourceSha256:hash(await readFile(f.family+'/source.vl.json')),dataSha256:hash(await readFile(f.family+'/data.json')),
+  allOriginalAuthoredSourceAndDataBytesUnchanged:true,
+  approvedReferenceRandomPolicy:{reviewer:'codex',policy:'source0001-approved-seed1-bootstrap-reference-v1',seed:1,expectedDraws:1000,sourceSpecAndRawRowsUnchanged:true,approvalRecordSha256:'b'.repeat(64),sourceSha256:hash(await readFile(f.family+'/source.vl.json'))},
+  archivedOriginalReference:archived,newReference:await Promise.all(names.map(async name=>({path:'reference/'+name,sha256:hash(await readFile(f.family+'/reference/'+name))})))};
+ await json(f.family+'/source-reference-seed1-adoption.json',adoption);
+ return adoption;
+}
+
+test('publishes reference environment provenance and original unseeded SVG without changing authored input',async()=>{
+ const f=await fixture();try{await seededReference(f);const original=await readFile(f.family+'/source.vl.json');const run=f.run(true);assert.equal(run.status,0,run.stderr);
+  const base=f.root+'/charts/vl_0001',metadata=await load(base+'/metadata.json'),policy=await load(base+'/source-reference-policy.json');
+  assert.equal(metadata.referencePolicy.originalSourceAuthoredSeed,false);assert.equal(policy.seed,1);assert.equal(policy.settingOrigin,'approved-reference-rendering-environment');
+  assert.equal(policy.historicalUnseededReference.length,7);assert.equal(metadata.files['source-reference-policy.json'].sha256,hash(await readFile(base+'/source-reference-policy.json')));
+  assert.deepEqual(await readFile(base+'/vega-lite-unseeded.svg'),await readFile(f.family+'/reference-before-approved-seed1/chart.svg'));
+  assert.deepEqual(await readFile(base+'/source.vl.json'),original);assert(!JSON.stringify(policy).includes(f.home));
+ }finally{await f.cleanup();}
+});
+
+test('rejects changed history or mismatched policy data before distributing a reference',async()=>{
+ for(const mutation of ['history','data','path']){const f=await fixture();try{const adoption=await seededReference(f);
+  if(mutation==='history')await writeFile(f.family+'/reference-before-approved-seed1/chart.svg','changed');
+  if(mutation==='data')adoption.dataSha256='0'.repeat(64);
+  if(mutation==='path')adoption.archivedOriginalReference[0].path='../data.json';
+  await json(f.family+'/source-reference-seed1-adoption.json',adoption);const run=f.run(true);assert.notEqual(run.status,0);assert.equal((await load(f.root+'/manifest.json')).chartCount,0);
+ }finally{await f.cleanup();}}
+});
+
+test('cannot silently drop previously distributed reference provenance',async()=>{
+ const f=await fixture();try{await seededReference(f);assert.equal(f.run(true).status,0);await rm(f.family+'/source-reference-seed1-adoption.json');const run=f.run(true);assert.notEqual(run.status,0);assert.match(run.stderr,/reference policy was dropped or changed/);assert.equal((await load(f.root+'/manifest.json')).chartCount,1);}finally{await f.cleanup();}
+});
