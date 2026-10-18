@@ -91,8 +91,22 @@ node scripts/verify-runtime.mjs /path/to/candidate.json .validation/candidate-ru
 ```
 
 Renderer validation rejects a failed child, stale chunk, missing or duplicate
-family, and mismatched result order. `npm test` exercises those failure cases
+family, and mismatched result order. Runtime sweeps construct one chart at a time
+and remove stale aggregate reports before starting. `npm test` exercises those failure cases
 before the Pages build.
+
+To preview an incremental import from the translation workspace:
+
+```sh
+python3 scripts/sync-dataset.py /path/to/translation-workspace
+```
+
+The preview stages completed, reviewed families and checks all existing file hashes.
+Add `--apply` to add new families and refresh verified corrections. The importer
+rejects changed original inputs, stale reviews, unequal stages and removal of an
+existing family. Previous versions of refreshed families remain in the ignored
+staging directory and Git history. Applied data stays marked pending until a full
+runtime compatibility check succeeds; importing alone is not release verification.
 
 Completed means the translations passed the recorded rendering, structure,
 data and geometry policy. It does not claim pixel-perfect equivalence to the
