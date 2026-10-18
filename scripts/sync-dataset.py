@@ -151,10 +151,16 @@ def sync(root, workspace, apply=False):
             save(prepared / 'metadata.json', metadata)
             (refreshed if old else added).append(chart_id)
         programs += len(stages)
-        charts.append(dict(id=chart_id, vegaLite=f'charts/{chart_id}/vega-lite.svg',
-                           ggaction=f'charts/{chart_id}/ggaction.svg', stageCount=len(stages),
-                           dimensions=dict(vegaLite=dimensions(files['vega-lite.svg']),
-                                           ggaction=dimensions(files['ggaction.svg']))))
+        chart_entry = dict(existing.get(chart_id, {}))
+        incoming_entry = dict(id=chart_id, vegaLite=f'charts/{chart_id}/vega-lite.svg',
+                              ggaction=f'charts/{chart_id}/ggaction.svg',
+                              dimensions=dict(vegaLite=dimensions(files['vega-lite.svg']),
+                                              ggaction=dimensions(files['ggaction.svg'])),
+                              stageCount=len(stages))
+        for key, value in incoming_entry.items():
+            if key not in chart_entry or chart_entry[key] != value:
+                chart_entry[key] = value
+        charts.append(chart_entry)
     require(existing.keys() <= {chart['id'] for chart in charts}, 'Refusing to drop a distributed family')
     runtime = dict(manifest['runtime'])
     runtime.update(version=version, status='pending-current-runtime-validation')
