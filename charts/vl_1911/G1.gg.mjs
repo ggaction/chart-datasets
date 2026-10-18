@@ -62,6 +62,7 @@ export function buildChart() {
     .editPointMark({ opacity: 0.7 })
     .encodePointRadius({ value: 2.7386127875258306 })
     .createRuleMark({ id: "rule", opacity: 0.1, stroke: "black" })
+    .editRuleMark({ strokeWidth: 1 })
 .encodeX({ field: "Date", target: "rule", fieldType: "temporal" })
     .removeEncoding({ target: "rule", channel: "y" })
     .createGuides({

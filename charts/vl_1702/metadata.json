@@ -1,0 +1,127 @@
+{
+  "id": "vl_1702",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "bec0ae89298c25233997556f5bf19e05f3d829647850884d5ba840fb3d2a2f68",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f04e2d5473b7d0e169d96e8f5781c29824e43115576df7c4dbcf19baa066cb7c",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "344095c869daf57090a07a1a2152cafbef1b2bf5537a5f268ae559c69a6fc99d",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "f3187c076e1ddae6105ca79d1253e577d8c8834e6f30bf64d406431c8d364263",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "6df5ecaf2dba593d9c18c214093f3f21fdc823d5be44ed61b320344139f8071d",
+      "actions": 20,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "1aa73ab10cd435924ffcc6d3c8d998d68f1685b0e0fa0102a3c90b059a0f4b81",
+      "actions": 22,
+      "topOptions": 42
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "4631a857633477e33b4a292adb57f3b1065bd9b826d1c860679efa2bab45e381",
+      "actions": 23,
+      "topOptions": 44
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "f8e34cc64b698d35baccba9a6d9799608bb8b8483b0e806984ee3dc0423e936d",
+      "actions": 24,
+      "topOptions": 47
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/stocks.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful existing-public-API stages: complete minimalG1, paired scales, individualcompleteaxes, wholeaxisappearance, componenteditors, focusedticks/labels, wholegridpaint, focusedgridpaint. Raw560/3strings/currenttypedDateMs+PriceN/original24GOOGrows retained; UTC calendarYear filter lowered exactly tohalfopen2006..2008dateinterval. All24linevertices and17actualsourceglyphline texts/styles exact; measuredwordwrap22.25/12pitch preservesJan+years, sourcefont15typedprofile included first schoolresponse. Source451x261/400x200inner unchanged. Conditional8tick/gridstrokeDashMap and30length sourceexact. Nativeomittedlinepaint default#4c78a8/2 savesredundanteditor, sourcecalibratedprivateSVG exactsame asG1. Sourceintegergridroundingvsnativefractional max.497854px/nativeforegroundguides disclosed, no sourcepixelidentity or widenedglobaltolerance. No GG changes, no schoolrepairs."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "208d1ba5375dc31105c816b6cc656d91bb0c2299b3628fe1b35a34ebe6bb30f3",
+      "bytes": 1597
+    },
+    "data.json": {
+      "sha256": "1bdaf793f6aae36096d9946eaddc54f313be476f70ff874ed70e2c0b676bac8c",
+      "bytes": 43591
+    },
+    "resolved-source.vl.json": {
+      "sha256": "43b8882a290e0a8a7a0a31e1f39fc47b9671fa6f13e08650057e2c4bf4d7a4ae",
+      "bytes": 56416
+    },
+    "G1.gg.mjs": {
+      "sha256": "bec0ae89298c25233997556f5bf19e05f3d829647850884d5ba840fb3d2a2f68",
+      "bytes": 6412
+    },
+    "G2.gg.mjs": {
+      "sha256": "f04e2d5473b7d0e169d96e8f5781c29824e43115576df7c4dbcf19baa066cb7c",
+      "bytes": 6452
+    },
+    "G3.gg.mjs": {
+      "sha256": "344095c869daf57090a07a1a2152cafbef1b2bf5537a5f268ae559c69a6fc99d",
+      "bytes": 6306
+    },
+    "G4.gg.mjs": {
+      "sha256": "f3187c076e1ddae6105ca79d1253e577d8c8834e6f30bf64d406431c8d364263",
+      "bytes": 6438
+    },
+    "G5.gg.mjs": {
+      "sha256": "6df5ecaf2dba593d9c18c214093f3f21fdc823d5be44ed61b320344139f8071d",
+      "bytes": 6466
+    },
+    "G6.gg.mjs": {
+      "sha256": "1aa73ab10cd435924ffcc6d3c8d998d68f1685b0e0fa0102a3c90b059a0f4b81",
+      "bytes": 6460
+    },
+    "G7.gg.mjs": {
+      "sha256": "4631a857633477e33b4a292adb57f3b1065bd9b826d1c860679efa2bab45e381",
+      "bytes": 6530
+    },
+    "G8.gg.mjs": {
+      "sha256": "f8e34cc64b698d35baccba9a6d9799608bb8b8483b0e806984ee3dc0423e936d",
+      "bytes": 6510
+    },
+    "vega-lite.svg": {
+      "sha256": "ebd1bd9525a72a901c40064ad568a9651d3f4c1a3fe836ad62481e7a6a143920",
+      "bytes": 8657
+    },
+    "ggaction.svg": {
+      "sha256": "02e92a47873157acd0e665246591e608832296a3bb46ccbe8f661f509605e2a5",
+      "bytes": 7582
+    }
+  }
+}

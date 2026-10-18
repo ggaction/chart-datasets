@@ -1,0 +1,116 @@
+{
+  "id": "vl_0343",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5197a8fa52bc4950b53ed8341cdccc09116e1fef664788642546d64953a9a466",
+      "actions": 18,
+      "topOptions": 41
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f7462d3112405fa59f4c95cf902cd5c17d66dac753db57950d186da96c579283",
+      "actions": 19,
+      "topOptions": 45
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "76d4404cd083a1d0f577eb29bce0eb15da82cb7d75dffe579424558a3ba33b60",
+      "actions": 21,
+      "topOptions": 47
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "b864eab9c8b22da1bf9c17f474fda6a09ed30e9c55d51620de61de1d3ce20057",
+      "actions": 23,
+      "topOptions": 51
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4920561db697cc7f031a0a38df534ec6347d0f4f15fcf1757212b4d19b9132db",
+      "actions": 25,
+      "topOptions": 52
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b00eba064e2aa0ccd4a3004c067794bad3162a1ba557907ca2b9dc46426cfe9c",
+      "actions": 26,
+      "topOptions": 54
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "e60f6a2af71d531eaec795eaa92747e8e3e24b262e4ad11a35e46be503734be4",
+      "actions": 28,
+      "topOptions": 54
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/usa/data_FRED-DGS10.json"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Seven meaningful equivalent stages; all remaining data/group/scale/curve/axis geometry/title/frame/metrics are focused or protected. No source grid/legend; same-owner title scalar splitting is padding. Source raw rows/gaps/vertices/styles exact; documented subpixel curve convention retained in every stage."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "5e6e544c5eb4fc17310f211a87613c232b2cfa14fcdbe5a1ac56335983e73363",
+      "bytes": 1043
+    },
+    "data.json": {
+      "sha256": "cefda06dff885eec9d664c41176f1b3a8f830043f62b862f325109b4fec99708",
+      "bytes": 1944502
+    },
+    "resolved-source.vl.json": {
+      "sha256": "3df7af3be0e68d56b32d63ba0199920b4bec42282a8d2930394a8806451b5b15",
+      "bytes": 2318879
+    },
+    "G1.gg.mjs": {
+      "sha256": "5197a8fa52bc4950b53ed8341cdccc09116e1fef664788642546d64953a9a466",
+      "bytes": 4694
+    },
+    "G2.gg.mjs": {
+      "sha256": "f7462d3112405fa59f4c95cf902cd5c17d66dac753db57950d186da96c579283",
+      "bytes": 4656
+    },
+    "G3.gg.mjs": {
+      "sha256": "76d4404cd083a1d0f577eb29bce0eb15da82cb7d75dffe579424558a3ba33b60",
+      "bytes": 4812
+    },
+    "G4.gg.mjs": {
+      "sha256": "b864eab9c8b22da1bf9c17f474fda6a09ed30e9c55d51620de61de1d3ce20057",
+      "bytes": 4826
+    },
+    "G5.gg.mjs": {
+      "sha256": "4920561db697cc7f031a0a38df534ec6347d0f4f15fcf1757212b4d19b9132db",
+      "bytes": 4826
+    },
+    "G6.gg.mjs": {
+      "sha256": "b00eba064e2aa0ccd4a3004c067794bad3162a1ba557907ca2b9dc46426cfe9c",
+      "bytes": 4880
+    },
+    "G7.gg.mjs": {
+      "sha256": "e60f6a2af71d531eaec795eaa92747e8e3e24b262e4ad11a35e46be503734be4",
+      "bytes": 4922
+    },
+    "vega-lite.svg": {
+      "sha256": "603dcea7ec23df3a9ac4b28c72303334b5ad04b5b293ea8d0ebe262dec349c47",
+      "bytes": 656014
+    },
+    "ggaction.svg": {
+      "sha256": "4ab4858cb9c3cd8cb61f2af84803f0226dc24d49e108810ccd0bac8a48abf6ed",
+      "bytes": 1327391
+    }
+  }
+}

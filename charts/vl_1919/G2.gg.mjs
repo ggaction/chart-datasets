@@ -17,6 +17,7 @@ export function buildChart() {
     .createRuleMark({ id: "rule", data: "bond", opacity: 0.1 })
     .editRuleMark({ target: "rule", stroke: "black" })
     .encodeX({ field: "Date", target: "rule", fieldType: "temporal" })
+    .editRuleMark({ target: "rule", strokeWidth: 1 })
     .editXScale({ domain: [160358400000, 1498780800000], nice: false })
     .editYScale({ domain: [0, 18], nice: false })
     .applyTextMetrics({ profile: { schemaVersion: 1, id: "source-actual-font-metrics", measurements: [

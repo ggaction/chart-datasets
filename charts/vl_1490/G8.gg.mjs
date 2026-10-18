@@ -42,7 +42,7 @@ export function buildChart() {
     .editTickMark({ strokeWidth: 1 })
     .encodeX({ target: "tick", field: "median_value" })
     .encodeY({ target: "tick", field: "column", fieldType: "nominal" })
-    .createGrid({ vertical: { values: [0, 2, 4, 6, 8] } })
+    .createGrid({ horizontal: false, vertical: { values: [0, 2, 4, 6, 8] } })
     .editVerticalGrid({ color: "#ddd" })
     .createXAxis({
       ticksAndLabels: {

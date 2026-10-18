@@ -1,0 +1,127 @@
+{
+  "id": "vl_1587",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "48bea02c6a10ab973572415357613969b907d848b1d3fbeadcae84bd7dbec8a4",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9ae0366628ce1e94ff96f24ae81fe51cf92d5ca3e724bc10eee11a0d6e4f4b6a",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a256d51704f594cbeaf25918f631e0f348b598b2b1f4f5222faaf1ea7ea7cc87",
+      "actions": 19,
+      "topOptions": 44
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8882c0eb4cd0edf6f8c85ad7bc8da2ab1703b531a27fd5d19a8825ffdeb457aa",
+      "actions": 20,
+      "topOptions": 46
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "221601707464f3f3a46f792b49b1b1b6a280f936ce7247309b050efa9c1dd289",
+      "actions": 26,
+      "topOptions": 50
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8023a7fa02287431ec46533b5b2bc451e1eb7a99daa411e0b9669f73465611bc",
+      "actions": 27,
+      "topOptions": 50
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "450f14b6097e07e48724251251d270023a8ce0e269559db2459df732fd9f4848",
+      "actions": 27,
+      "topOptions": 50
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "69bbf20ea0778d35347f54e7664219da4afc48d0d2c4efe17dabf6b0347adf3c",
+      "actions": 29,
+      "topOptions": 53
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful GLM-authored equivalent programs; exact source392point geometry/nativeD50colors and all406rawrows/realZscore retained. Plot200x200 with measured default-legend outer342x249, all normal source/DOM/collision checks and exact family SVG/PNG/graphics passed on0.0.19. No code padding or chart-pixel inspection."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "62240b7d3671ef8d8c9f65a5f9fb89b9678c8da08d09301e61ab51f097e820a8",
+      "bytes": 789
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "665fefc4ba74d096f8ad93e4a766a036f35f45f2f36769c17e1ce4dd93590e7e",
+      "bytes": 114637
+    },
+    "G1.gg.mjs": {
+      "sha256": "48bea02c6a10ab973572415357613969b907d848b1d3fbeadcae84bd7dbec8a4",
+      "bytes": 2320
+    },
+    "G2.gg.mjs": {
+      "sha256": "9ae0366628ce1e94ff96f24ae81fe51cf92d5ca3e724bc10eee11a0d6e4f4b6a",
+      "bytes": 2375
+    },
+    "G3.gg.mjs": {
+      "sha256": "a256d51704f594cbeaf25918f631e0f348b598b2b1f4f5222faaf1ea7ea7cc87",
+      "bytes": 2541
+    },
+    "G4.gg.mjs": {
+      "sha256": "8882c0eb4cd0edf6f8c85ad7bc8da2ab1703b531a27fd5d19a8825ffdeb457aa",
+      "bytes": 2593
+    },
+    "G5.gg.mjs": {
+      "sha256": "221601707464f3f3a46f792b49b1b1b6a280f936ce7247309b050efa9c1dd289",
+      "bytes": 2619
+    },
+    "G6.gg.mjs": {
+      "sha256": "8023a7fa02287431ec46533b5b2bc451e1eb7a99daa411e0b9669f73465611bc",
+      "bytes": 2625
+    },
+    "G7.gg.mjs": {
+      "sha256": "450f14b6097e07e48724251251d270023a8ce0e269559db2459df732fd9f4848",
+      "bytes": 2513
+    },
+    "G8.gg.mjs": {
+      "sha256": "69bbf20ea0778d35347f54e7664219da4afc48d0d2c4efe17dabf6b0347adf3c",
+      "bytes": 2564
+    },
+    "vega-lite.svg": {
+      "sha256": "bd99a96f6121e46906c828ef800e026176f43bf9284b2061717f7faea6b5e21d",
+      "bytes": 124913
+    },
+    "ggaction.svg": {
+      "sha256": "ed8cb755abde8d94a37aa544c9a4721b0b48513bd34aba3cbc9528e880709032",
+      "bytes": 63769
+    }
+  }
+}

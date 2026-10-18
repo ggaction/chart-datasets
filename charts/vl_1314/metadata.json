@@ -1,0 +1,125 @@
+{
+  "id": "vl_1314",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d6a6d0d32ab32efb5659d02ba0eb9ca673494ed41613ee92d1cfa5caac435e65",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "40c3cd08268c7c1a46bb11bbc49b78cef0cb1076dff47480dabd82a391c8cff1",
+      "actions": 14,
+      "topOptions": 27
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "568b9821c3ce2a6a0427d8fbb950fea426f374f837664970e113155e867fe2d0",
+      "actions": 16,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ed537e3ea46b95d307e93ed0c4f7d1aa19165175810031a7ea09adff0af92f5e",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "735f72c77752de633e18ada9ebe2f947f3b337a9aac047d06cd56d4813703a62",
+      "actions": 21,
+      "topOptions": 40
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "6ba6ab8e7b7d52ce966efce5252e453ecb662290a683b2c14ca2d0e6fbee1d43",
+      "actions": 23,
+      "topOptions": 40
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ddea36c9c05430f25a21a782023880544cfca470bd50e23c6cf6a4d9dc17feec",
+      "actions": 24,
+      "topOptions": 42
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "5ca7c954b915a2d009c18791a81e1facfae3ec6572f020fc1a0e18c2ce4e1fed",
+      "actions": 25,
+      "topOptions": 42
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful progressively finer equivalent programs accepted and reviewed. Source Lab-D50 neutral-midpoint equivalence, 36 raw cells, source typography and plot preserved. Color scale, axes, axis components and legend are refined; eight-stage ceiling reached, not exhaustion."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "b5174567c6b12083eee10a265bb2e77223cf422a7fedca9506732d6b712ed40d",
+      "bytes": 4051
+    },
+    "data.json": {
+      "sha256": "f22172f22d45143e565af5808f75e9d81e1359abec03c9afe247d963378658d5",
+      "bytes": 2025
+    },
+    "resolved-source.vl.json": {
+      "sha256": "fdf1577e4b596587ae59fc65c52684a86eb6e81e1b1bf4fddaab59d98787f162",
+      "bytes": 4052
+    },
+    "G1.gg.mjs": {
+      "sha256": "d6a6d0d32ab32efb5659d02ba0eb9ca673494ed41613ee92d1cfa5caac435e65",
+      "bytes": 5378
+    },
+    "G2.gg.mjs": {
+      "sha256": "40c3cd08268c7c1a46bb11bbc49b78cef0cb1076dff47480dabd82a391c8cff1",
+      "bytes": 5403
+    },
+    "G3.gg.mjs": {
+      "sha256": "568b9821c3ce2a6a0427d8fbb950fea426f374f837664970e113155e867fe2d0",
+      "bytes": 5384
+    },
+    "G4.gg.mjs": {
+      "sha256": "ed537e3ea46b95d307e93ed0c4f7d1aa19165175810031a7ea09adff0af92f5e",
+      "bytes": 5583
+    },
+    "G5.gg.mjs": {
+      "sha256": "735f72c77752de633e18ada9ebe2f947f3b337a9aac047d06cd56d4813703a62",
+      "bytes": 5599
+    },
+    "G6.gg.mjs": {
+      "sha256": "6ba6ab8e7b7d52ce966efce5252e453ecb662290a683b2c14ca2d0e6fbee1d43",
+      "bytes": 5593
+    },
+    "G7.gg.mjs": {
+      "sha256": "ddea36c9c05430f25a21a782023880544cfca470bd50e23c6cf6a4d9dc17feec",
+      "bytes": 5657
+    },
+    "G8.gg.mjs": {
+      "sha256": "5ca7c954b915a2d009c18791a81e1facfae3ec6572f020fc1a0e18c2ce4e1fed",
+      "bytes": 5664
+    },
+    "vega-lite.svg": {
+      "sha256": "8e9172d0963606463754fa8f8d4e15faf8c77e71ce62e42ca6eaa5333ae7d843",
+      "bytes": 17425
+    },
+    "ggaction.svg": {
+      "sha256": "24930ef4a27ed774f037048e64c994f1396e08aa7052d165abf384aa98851a5b",
+      "bytes": 20088
+    }
+  }
+}

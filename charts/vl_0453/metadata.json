@@ -1,0 +1,105 @@
+{
+  "id": "vl_0453",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "43d8e1655f75df981b6756a821cfbb865dd8b4a4dd97bd4bb55cbc0728a04e31",
+      "actions": 17,
+      "topOptions": 42
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9cae1086d8285977563a2b4a382edf524353d21cfaaf87eb3bf915387ae9919f",
+      "actions": 18,
+      "topOptions": 46
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8f350ffdae90269bc856e5ff34441b141db330b94f9327a6fc0fa9ae3853bafa",
+      "actions": 20,
+      "topOptions": 50
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "cd9e659ffe8218eb8c9754507f41abf4b1fcf5f2476f05a49cd0a5991b693fe7",
+      "actions": 24,
+      "topOptions": 56
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "d493e1fc8e4858f472da6e98bdbc23cdf79f34a93e246f27bf14feb5a2ebc5ad",
+      "actions": 26,
+      "topOptions": 58
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "f51b87eddeed64dd12bab034747d0dc7fef79eaf1d2aa8da829e98ed434375b2",
+      "actions": 27,
+      "topOptions": 60
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/prices/master/analysis/priceChangesByDivision.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Six meaningful equivalent programs: exact source bin-index Heatmap/completeaxes, separate completeaxes, wholeaxispaint, components, ticks/labels, titlepaint. All19rawfields/4613rows and4351members/1214counts/size/RGB preserved, only documentedcompiled halfpixel offset/native convention. Sourcebin4keycreation and hiding/fontgeometry irreducible; stop honestly at6."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "66c01af485e380518aa83ee32611812bd5ea4bc97cb60594a82011ddb3964b13",
+      "bytes": 1399
+    },
+    "data.json": {
+      "sha256": "773854fbf33a423f182892ac6c79db1b1a0093f2fb7204ac9993c92e866c0cff",
+      "bytes": 2271058
+    },
+    "resolved-source.vl.json": {
+      "sha256": "db7e7f616b9dfecb331bbdd3f014cbc9de5ff85e6e40adf6d74f19c68d7b546a",
+      "bytes": 2659859
+    },
+    "G1.gg.mjs": {
+      "sha256": "43d8e1655f75df981b6756a821cfbb865dd8b4a4dd97bd4bb55cbc0728a04e31",
+      "bytes": 10484
+    },
+    "G2.gg.mjs": {
+      "sha256": "9cae1086d8285977563a2b4a382edf524353d21cfaaf87eb3bf915387ae9919f",
+      "bytes": 10444
+    },
+    "G3.gg.mjs": {
+      "sha256": "8f350ffdae90269bc856e5ff34441b141db330b94f9327a6fc0fa9ae3853bafa",
+      "bytes": 10666
+    },
+    "G4.gg.mjs": {
+      "sha256": "cd9e659ffe8218eb8c9754507f41abf4b1fcf5f2476f05a49cd0a5991b693fe7",
+      "bytes": 10650
+    },
+    "G5.gg.mjs": {
+      "sha256": "d493e1fc8e4858f472da6e98bdbc23cdf79f34a93e246f27bf14feb5a2ebc5ad",
+      "bytes": 10604
+    },
+    "G6.gg.mjs": {
+      "sha256": "f51b87eddeed64dd12bab034747d0dc7fef79eaf1d2aa8da829e98ed434375b2",
+      "bytes": 10674
+    },
+    "vega-lite.svg": {
+      "sha256": "32eb554260446d5a4f9c9f3a41032d1e714f2e405334c7ebe61a83df9a374699",
+      "bytes": 293525
+    },
+    "ggaction.svg": {
+      "sha256": "631277e130fc363492b7e2b9fe65626249aa1916bdc45f36cce9b283112548fd",
+      "bytes": 155162
+    }
+  }
+}

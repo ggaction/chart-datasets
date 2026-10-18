@@ -41,7 +41,7 @@ export function buildChart() {
     .encodeStroke({ value: "#4c78a8" })
     .editPointMark({ fill: "transparent", strokeWidth: 2 })
     .encodeOpacity({ value: 0.7 })
-    .createRuleMark({ stroke: "black", opacity: 0.1 })
+    .createRuleMark({ stroke: "black", opacity: 0.1, strokeWidth: 1 })
     .encodeX({ field: "Date", target: "rule", fieldType: "temporal" })
     .removeEncoding({ target: "rule", channel: "y" })
     .editXScale({ domain: [-213235200000, 1609372800000], nice: false })

@@ -1,0 +1,127 @@
+{
+  "id": "vl_1765",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "71f62d04c1474bdd9e32f7e7d79d682f086a765b6345084e0fe338b6e929cb7d",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f825faced3905dd465933daa77c06d19ba0867efea4d36245c80f4866360233c",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "10223b8ca5f53b06b1ccdc258d21e54adf06f0210515075a04a1be310d221831",
+      "actions": 14,
+      "topOptions": 31
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "072a9aad542ad4e04f19ea53b80ae540e90d098d0f3766b775b4546f232817a5",
+      "actions": 15,
+      "topOptions": 33
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "00ecac0a6a130050841f2ac319bb856b88a9375f24249b7f6e1ad0c90ed7ee1d",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0c125fd87f41e9621b32fe3176be67caff702b5e16130bf0e1047ba42c27eef7",
+      "actions": 18,
+      "topOptions": 36
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "631dc69b141c7f5be427b130ccc76c7906e13a264b743bc327a4400006ebb2c5",
+      "actions": 19,
+      "topOptions": 38
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "924e2c180f6659813b7731da5c8dfcca1f4c84bea9eedac7d9db858a2efd5e5b",
+      "actions": 20,
+      "topOptions": 40
+    }
+  ],
+  "sourceUrls": [
+    "https://gicentre.github.io/data/tests/timeTest.tsv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight genuine progressive stages: initial complete line facade; paired scale ownership; complete axes; whole X-axis style; components; tick versus label styles; grid paint; directional grid paint. Same source data, 800x200 plot, all coordinates and visible/hidden guide glyphs preserved. All code model-authored and reviewed before execution; no chart pixels inspected."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "accc0f9da43c0fed408ffdf6ec536e4cec1db9a8d9db76e76787034f20c85417",
+      "bytes": 502
+    },
+    "data.json": {
+      "sha256": "1ae3e91972addcbdba23e94c13e30fce6708b402efe315403b1ed8b2d23ffd02",
+      "bytes": 1838553
+    },
+    "resolved-source.vl.json": {
+      "sha256": "afa73993876cdf23f5512b7a2bed4655d0a08bdaf31c1a1863d7e4a89a2a119a",
+      "bytes": 2259321
+    },
+    "G1.gg.mjs": {
+      "sha256": "71f62d04c1474bdd9e32f7e7d79d682f086a765b6345084e0fe338b6e929cb7d",
+      "bytes": 8868
+    },
+    "G2.gg.mjs": {
+      "sha256": "f825faced3905dd465933daa77c06d19ba0867efea4d36245c80f4866360233c",
+      "bytes": 8886
+    },
+    "G3.gg.mjs": {
+      "sha256": "10223b8ca5f53b06b1ccdc258d21e54adf06f0210515075a04a1be310d221831",
+      "bytes": 8786
+    },
+    "G4.gg.mjs": {
+      "sha256": "072a9aad542ad4e04f19ea53b80ae540e90d098d0f3766b775b4546f232817a5",
+      "bytes": 8865
+    },
+    "G5.gg.mjs": {
+      "sha256": "00ecac0a6a130050841f2ac319bb856b88a9375f24249b7f6e1ad0c90ed7ee1d",
+      "bytes": 8863
+    },
+    "G6.gg.mjs": {
+      "sha256": "0c125fd87f41e9621b32fe3176be67caff702b5e16130bf0e1047ba42c27eef7",
+      "bytes": 8856
+    },
+    "G7.gg.mjs": {
+      "sha256": "631dc69b141c7f5be427b130ccc76c7906e13a264b743bc327a4400006ebb2c5",
+      "bytes": 8932
+    },
+    "G8.gg.mjs": {
+      "sha256": "924e2c180f6659813b7731da5c8dfcca1f4c84bea9eedac7d9db858a2efd5e5b",
+      "bytes": 8910
+    },
+    "vega-lite.svg": {
+      "sha256": "2e2972e26d48366ff2874225d2ab45983e563fe9a9a9465320ddd52885477c40",
+      "bytes": 303332
+    },
+    "ggaction.svg": {
+      "sha256": "0a6e045f902fa4f05156122a361361c06724756589c5ba149f695707e39b14f9",
+      "bytes": 717163
+    }
+  }
+}

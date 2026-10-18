@@ -113,6 +113,6 @@ export function buildChart() {
       ticks: { color: "#888" },
       title: { fontWeight: 700 }
     })
-    .createGrid({ vertical: { color: "#ddd" } })
+    .editBarMark({ stroke: false }).createGrid({ horizontal: false, vertical:  { color: "#ddd" } })
     .createLegend({ position: "top", labels: { fontSize: 10 }, titleStyle: { fontSize: 11, fontWeight: 700 } });
 }

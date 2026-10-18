@@ -39,6 +39,7 @@ export function buildChart() {
     .createData({ values: data })
     .createRuleMark({ id: "ciRule", stroke: "black" })
     .encodeXRange({ target: "ciRule", lower: "ci1", upper: "ci2" })
+    .editRuleMark({ target: "ciRule", strokeWidth: 1 })
     .encodeY({ field: "key", fieldType: "ordinal", scale: { type: "band", domain: ["Continuous (Square)", "Continuous (Wedge)", "Juxtaposed (Continuous)", "Juxtaposed (Discrete)", "Traditional (Square)", "Traditional (Wedge)", "VSUP (Wedge)", "VSUP (Square)"], paddingInner: 0, paddingOuter: 0 } })
     .createScatterPlot({ x: "midmean", y: { field: "key", fieldType: "ordinal" }, guides: false })
     .encodePointRadius({ value: 3.5355339059327378 })

@@ -1,0 +1,1323 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "UK Weekly rent vs price rise",
+  "title": {
+    "text": "UK Weekly rent vs price rise 2020-21",
+    "subtitle": [
+      "Source: 0NS and own calculations"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "": "8",
+        "Area": "North East",
+        "Lower and Single Tier Authority Data": "Darlington",
+        "2020-21": "78.67",
+        "Price rise ": "8.415499031"
+      },
+      {
+        "": "12",
+        "Area": "North East",
+        "Lower and Single Tier Authority Data": "Gateshead",
+        "2020-21": "76.51",
+        "Price rise ": "2.747593944"
+      },
+      {
+        "": "13",
+        "Area": "North East",
+        "Lower and Single Tier Authority Data": "Hartlepool",
+        "2020-21": "84.76",
+        "Price rise ": "0.319564445"
+      },
+      {
+        "": "15",
+        "Area": "North East",
+        "Lower and Single Tier Authority Data": "Newcastle upon Tyne",
+        "2020-21": "77.03",
+        "Price rise ": "3.354749249"
+      },
+      {
+        "": "16",
+        "Area": "North East",
+        "Lower and Single Tier Authority Data": "North Tyneside",
+        "2020-21": "75.85",
+        "Price rise ": "2.724450844"
+      },
+      {
+        "": "17",
+        "Area": "North East",
+        "Lower and Single Tier Authority Data": "Northumberland",
+        "2020-21": "68.77",
+        "Price rise ": "4.700159502"
+      },
+      {
+        "": "20",
+        "Area": "North East",
+        "Lower and Single Tier Authority Data": "South Tyneside",
+        "2020-21": "72.83",
+        "Price rise ": "2.289325843"
+      },
+      {
+        "": "31",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Barrow-in-Furness",
+        "2020-21": "75.65",
+        "Price rise ": "1.055303233"
+      },
+      {
+        "": "33",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Blackpool",
+        "2020-21": "72.04",
+        "Price rise ": "3.139469979"
+      },
+      {
+        "": "36",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Bury",
+        "2020-21": "74.28",
+        "Price rise ": "2.998787517"
+      },
+      {
+        "": "39",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Cheshire West and Chester",
+        "2020-21": "78.83",
+        "Price rise ": "2.885291338"
+      },
+      {
+        "": "41",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Chorley",
+        "2020-21": "151.1",
+        "Price rise ": "-21.64894996"
+      },
+      {
+        "": "51",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Lancaster",
+        "2020-21": "72.77",
+        "Price rise ": "3.029873991"
+      },
+      {
+        "": "52",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Liverpool",
+        "2020-21": "85.54",
+        "Price rise ": "0.105324751"
+      },
+      {
+        "": "54",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Manchester",
+        "2020-21": "76.18",
+        "Price rise ": "2.686207537"
+      },
+      {
+        "": "55",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Oldham",
+        "2020-21": "82.91",
+        "Price rise ": "3.923289045"
+      },
+      {
+        "": "58",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Ribble Valley",
+        "2020-21": "87.97",
+        "Price rise ": "3.934310019"
+      },
+      {
+        "": "60",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Rossendale",
+        "2020-21": "82.03",
+        "Price rise ": "1.38425411"
+      },
+      {
+        "": "61",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Salford",
+        "2020-21": "84.23",
+        "Price rise ": "2.669429547"
+      },
+      {
+        "": "66",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Stockport",
+        "2020-21": "76.42",
+        "Price rise ": "1.855554599"
+      },
+      {
+        "": "70",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Warrington",
+        "2020-21": "106.18",
+        "Price rise ": "0"
+      },
+      {
+        "": "71",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "West Lancashire",
+        "2020-21": "76.68",
+        "Price rise ": "2.37086923"
+      },
+      {
+        "": "72",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Wigan",
+        "2020-21": "77.73",
+        "Price rise ": "2.721833005"
+      },
+      {
+        "": "73",
+        "Area": "North West",
+        "Lower and Single Tier Authority Data": "Wirral",
+        "2020-21": "76.67",
+        "Price rise ": "2.692204661"
+      },
+      {
+        "": "78",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "Barnsley",
+        "2020-21": "74.32",
+        "Price rise ": "2.651933702"
+      },
+      {
+        "": "79",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "Bradford",
+        "2020-21": "103.65",
+        "Price rise ": "3.577451977"
+      },
+      {
+        "": "82",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "Doncaster",
+        "2020-21": "71.88",
+        "Price rise ": "2.974541108"
+      },
+      {
+        "": "83",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "East Riding of Yorkshire",
+        "2020-21": "82.04",
+        "Price rise ": "2.997759695"
+      },
+      {
+        "": "85",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "Harrogate",
+        "2020-21": "81.59",
+        "Price rise ": "2.716009107"
+      },
+      {
+        "": "86",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "Kingston upon Hull, City of",
+        "2020-21": "74.16",
+        "Price rise ": "2.690746512"
+      },
+      {
+        "": "87",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "Kirklees",
+        "2020-21": "70.13",
+        "Price rise ": "2.694391565"
+      },
+      {
+        "": "88",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "Leeds",
+        "2020-21": "74.04",
+        "Price rise ": "2.827067893"
+      },
+      {
+        "": "91",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "Richmondshire",
+        "2020-21": "78.53",
+        "Price rise ": "4.650852878"
+      },
+      {
+        "": "92",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "Rotherham",
+        "2020-21": "74.39",
+        "Price rise ": "2.749388912"
+      },
+      {
+        "": "94",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "Selby",
+        "2020-21": "78.58",
+        "Price rise ": "4.759307967"
+      },
+      {
+        "": "95",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "Sheffield",
+        "2020-21": "73.77",
+        "Price rise ": "3.704139435"
+      },
+      {
+        "": "97",
+        "Area": "Yorkshire and The Humber",
+        "Lower and Single Tier Authority Data": "York",
+        "2020-21": "80.6",
+        "Price rise ": "4.829004977"
+      },
+      {
+        "": "102",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Ashfield",
+        "2020-21": "68.69",
+        "Price rise ": "3.114973605"
+      },
+      {
+        "": "103",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Bassetlaw",
+        "2020-21": "74.37",
+        "Price rise ": "2.20002309"
+      },
+      {
+        "": "105",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Bolsover",
+        "2020-21": "80.19",
+        "Price rise ": "4.946787223"
+      },
+      {
+        "": "107",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Broxtowe",
+        "2020-21": "67.26",
+        "Price rise ": "3.143689618"
+      },
+      {
+        "": "108",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Charnwood",
+        "2020-21": "74.1",
+        "Price rise ": "2.489626556"
+      },
+      {
+        "": "109",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Chesterfield",
+        "2020-21": "78.26",
+        "Price rise ": "2.865714479"
+      },
+      {
+        "": "110",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Corby",
+        "2020-21": "92.59",
+        "Price rise ": "21.37526039"
+      },
+      {
+        "": "112",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Derby",
+        "2020-21": "79.66",
+        "Price rise ": "3.110619079"
+      },
+      {
+        "": "119",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "High Peak",
+        "2020-21": "71.62",
+        "Price rise ": "2.857963521"
+      },
+      {
+        "": "120",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Hinckley and Bosworth",
+        "2020-21": "77.34",
+        "Price rise ": "2.893870399"
+      },
+      {
+        "": "121",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Kettering",
+        "2020-21": "81.18",
+        "Price rise ": "2.913460174"
+      },
+      {
+        "": "122",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Leicester",
+        "2020-21": "72.17",
+        "Price rise ": "3.730812608"
+      },
+      {
+        "": "123",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Lincoln",
+        "2020-21": "70.7",
+        "Price rise ": "3.081454496"
+      },
+      {
+        "": "124",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Mansfield",
+        "2020-21": "74.56",
+        "Price rise ": "2.520502211"
+      },
+      {
+        "": "125",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Melton",
+        "2020-21": "76.2",
+        "Price rise ": "2.743593722"
+      },
+      {
+        "": "126",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Newark and Sherwood",
+        "2020-21": "80.1",
+        "Price rise ": "2.950837416"
+      },
+      {
+        "": "127",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "North East Derbyshire",
+        "2020-21": "78.88",
+        "Price rise ": "1.979027575"
+      },
+      {
+        "": "128",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "North Kesteven",
+        "2020-21": "76.97",
+        "Price rise ": "4.928478627"
+      },
+      {
+        "": "129",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "North West Leicestershire",
+        "2020-21": "79.99",
+        "Price rise ": "2.898125846"
+      },
+      {
+        "": "130",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Northampton",
+        "2020-21": "85",
+        "Price rise ": "2.83515298"
+      },
+      {
+        "": "131",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Nottingham",
+        "2020-21": "75.12",
+        "Price rise ": "3.216444312"
+      },
+      {
+        "": "132",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "Oadby and Wigston",
+        "2020-21": "77.54",
+        "Price rise ": "4.67062635"
+      },
+      {
+        "": "135",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "South Derbyshire",
+        "2020-21": "80.87",
+        "Price rise ": "3.584174913"
+      },
+      {
+        "": "136",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "South Holland",
+        "2020-21": "77.18",
+        "Price rise ": "1.983000325"
+      },
+      {
+        "": "137",
+        "Area": "East Midlands",
+        "Lower and Single Tier Authority Data": "South Kesteven",
+        "2020-21": "79.68",
+        "Price rise ": "2.635272545"
+      },
+      {
+        "": "144",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Birmingham",
+        "2020-21": "82.12",
+        "Price rise ": "2.550918442"
+      },
+      {
+        "": "147",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Cannock Chase",
+        "2020-21": "73.74",
+        "Price rise ": "1.670545976"
+      },
+      {
+        "": "149",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Dudley",
+        "2020-21": "78.9",
+        "Price rise ": "4.816580219"
+      },
+      {
+        "": "156",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "North Warwickshire",
+        "2020-21": "85.73",
+        "Price rise ": "2.812847855"
+      },
+      {
+        "": "157",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Nuneaton and Bedworth",
+        "2020-21": "78.7",
+        "Price rise ": "2.818895315"
+      },
+      {
+        "": "159",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Redditch",
+        "2020-21": "79.39",
+        "Price rise ": "2.725409995"
+      },
+      {
+        "": "160",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Rugby",
+        "2020-21": "84.75",
+        "Price rise ": "2.955422061"
+      },
+      {
+        "": "161",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Sandwell",
+        "2020-21": "80.6",
+        "Price rise ": "1.954086712"
+      },
+      {
+        "": "163",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Shropshire",
+        "2020-21": "83.26",
+        "Price rise ": "2.51736768"
+      },
+      {
+        "": "164",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Solihull",
+        "2020-21": "81.65",
+        "Price rise ": "2.893992625"
+      },
+      {
+        "": "169",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Stoke-on-Trent",
+        "2020-21": "71.2",
+        "Price rise ": "3.135058405"
+      },
+      {
+        "": "171",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Tamworth",
+        "2020-21": "83.18",
+        "Price rise ": "3.586763827"
+      },
+      {
+        "": "174",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Warwick",
+        "2020-21": "91.96",
+        "Price rise ": "2.891212639"
+      },
+      {
+        "": "175",
+        "Area": "West Midlands",
+        "Lower and Single Tier Authority Data": "Wolverhampton",
+        "2020-21": "79.58",
+        "Price rise ": "2.892049461"
+      },
+      {
+        "": "182",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Babergh",
+        "2020-21": "91.6",
+        "Price rise ": "2.941727279"
+      },
+      {
+        "": "183",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Basildon",
+        "2020-21": "88.67",
+        "Price rise ": "3.200651769"
+      },
+      {
+        "": "188",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Brentwood",
+        "2020-21": "96.04",
+        "Price rise ": "2.594561182"
+      },
+      {
+        "": "191",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Cambridge",
+        "2020-21": "104.44",
+        "Price rise ": "3.314182733"
+      },
+      {
+        "": "192",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Castle Point",
+        "2020-21": "89.74",
+        "Price rise ": "2.893636172"
+      },
+      {
+        "": "193",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Central Bedfordshire",
+        "2020-21": "103",
+        "Price rise ": "2.958524923"
+      },
+      {
+        "": "195",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Colchester",
+        "2020-21": "87.62",
+        "Price rise ": "2.743902439"
+      },
+      {
+        "": "196",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Dacorum",
+        "2020-21": "105.36",
+        "Price rise ": "3.273867869"
+      },
+      {
+        "": "199",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "East Suffolk",
+        "2020-21": "84.15",
+        "Price rise ": "1.903802453"
+      },
+      {
+        "": "200",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Epping Forest",
+        "2020-21": "99.89",
+        "Price rise ": "3.430654168"
+      },
+      {
+        "": "203",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Great Yarmouth",
+        "2020-21": "73.85",
+        "Price rise ": "5.195253521"
+      },
+      {
+        "": "204",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Harlow",
+        "2020-21": "91.66",
+        "Price rise ": "2.037181343"
+      },
+      {
+        "": "207",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Ipswich",
+        "2020-21": "83.21",
+        "Price rise ": "3.611007347"
+      },
+      {
+        "": "209",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Luton",
+        "2020-21": "84.96",
+        "Price rise ": "3.148488153"
+      },
+      {
+        "": "212",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Mid Suffolk",
+        "2020-21": "84.97",
+        "Price rise ": "3.137625096"
+      },
+      {
+        "": "215",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Norwich",
+        "2020-21": "76.13",
+        "Price rise ": "2.836687829"
+      },
+      {
+        "": "219",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "South Cambridgeshire",
+        "2020-21": "105.36",
+        "Price rise ": "3.127292022"
+      },
+      {
+        "": "221",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Southend-on-Sea",
+        "2020-21": "88.13",
+        "Price rise ": "3.343159741"
+      },
+      {
+        "": "222",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "St Albans",
+        "2020-21": "107.76",
+        "Price rise ": "5.792263892"
+      },
+      {
+        "": "224",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Stevenage",
+        "2020-21": "97.68",
+        "Price rise ": "2.668100748"
+      },
+      {
+        "": "226",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Tendring",
+        "2020-21": "82.2",
+        "Price rise ": "3.461296413"
+      },
+      {
+        "": "228",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Thurrock",
+        "2020-21": "87.5",
+        "Price rise ": "3.489669363"
+      },
+      {
+        "": "229",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Uttlesford",
+        "2020-21": "102.51",
+        "Price rise ": "0.818834572"
+      },
+      {
+        "": "232",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "Welwyn Hatfield",
+        "2020-21": "107.68",
+        "Price rise ": "3.616252817"
+      },
+      {
+        "": "233",
+        "Area": "East of England",
+        "Lower and Single Tier Authority Data": "West Suffolk",
+        "2020-21": "110.93",
+        "Price rise ": "8.652134942"
+      },
+      {
+        "": "237",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Barking and Dagenham",
+        "2020-21": "97.02",
+        "Price rise ": "1.57282385"
+      },
+      {
+        "": "238",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Barnet",
+        "2020-21": "104.61",
+        "Price rise ": "3.190820188"
+      },
+      {
+        "": "240",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Brent",
+        "2020-21": "118.17",
+        "Price rise ": "4.894193089"
+      },
+      {
+        "": "242",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Camden",
+        "2020-21": "113.68",
+        "Price rise ": "1.973448152"
+      },
+      {
+        "": "243",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "City of London",
+        "2020-21": "106.01",
+        "Price rise ": "2.842452464"
+      },
+      {
+        "": "244",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Croydon",
+        "2020-21": "106.24",
+        "Price rise ": "2.671040215"
+      },
+      {
+        "": "245",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Ealing",
+        "2020-21": "98.34",
+        "Price rise ": "3.018789851"
+      },
+      {
+        "": "246",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Enfield",
+        "2020-21": "105.19",
+        "Price rise ": "4.184876276"
+      },
+      {
+        "": "247",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Greenwich",
+        "2020-21": "91.68",
+        "Price rise ": "2.826379542"
+      },
+      {
+        "": "248",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Hackney",
+        "2020-21": "101.58",
+        "Price rise ": "3.357753358"
+      },
+      {
+        "": "249",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Hammersmith and Fulham",
+        "2020-21": "106.87",
+        "Price rise ": "2.73985772"
+      },
+      {
+        "": "250",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Haringey",
+        "2020-21": "104.78",
+        "Price rise ": "1.016341458"
+      },
+      {
+        "": "251",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Harrow",
+        "2020-21": "115.53",
+        "Price rise ": "2.911219704"
+      },
+      {
+        "": "252",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Havering",
+        "2020-21": "100.53",
+        "Price rise ": "4.176670509"
+      },
+      {
+        "": "253",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Hillingdon",
+        "2020-21": "111.47",
+        "Price rise ": "2.755747709"
+      },
+      {
+        "": "254",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Hounslow",
+        "2020-21": "105.29",
+        "Price rise ": "2.696957676"
+      },
+      {
+        "": "255",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Islington",
+        "2020-21": "121.17",
+        "Price rise ": "2.890650606"
+      },
+      {
+        "": "256",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Kensington and Chelsea",
+        "2020-21": "123.25",
+        "Price rise ": "2.716893074"
+      },
+      {
+        "": "257",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Kingston upon Thames",
+        "2020-21": "113.96",
+        "Price rise ": "1.010091808"
+      },
+      {
+        "": "258",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Lambeth",
+        "2020-21": "109.88",
+        "Price rise ": "2.452214452"
+      },
+      {
+        "": "259",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Lewisham",
+        "2020-21": "99.19",
+        "Price rise ": "4.608732335"
+      },
+      {
+        "": "260",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Merton",
+        "2020-21": "100.92",
+        "Price rise ": "18.03508772"
+      },
+      {
+        "": "261",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Newham",
+        "2020-21": "104.64",
+        "Price rise ": "2.609944043"
+      },
+      {
+        "": "262",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Redbridge",
+        "2020-21": "108.8",
+        "Price rise ": "3.766043409"
+      },
+      {
+        "": "264",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Southwark",
+        "2020-21": "104.99",
+        "Price rise ": "2.110484342"
+      },
+      {
+        "": "265",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Sutton",
+        "2020-21": "112.24",
+        "Price rise ": "3.79882178"
+      },
+      {
+        "": "266",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Tower Hamlets",
+        "2020-21": "112.29",
+        "Price rise ": "2.979883005"
+      },
+      {
+        "": "267",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Waltham Forest",
+        "2020-21": "104.72",
+        "Price rise ": "2.01656113"
+      },
+      {
+        "": "268",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Wandsworth",
+        "2020-21": "129.17",
+        "Price rise ": "2.101282794"
+      },
+      {
+        "": "269",
+        "Area": "London",
+        "Lower and Single Tier Authority Data": "Westminster",
+        "2020-21": "124.56",
+        "Price rise ": "2.712954564"
+      },
+      {
+        "": "273",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Adur",
+        "2020-21": "92.71",
+        "Price rise ": "2.965348734"
+      },
+      {
+        "": "274",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Arun",
+        "2020-21": "92.4",
+        "Price rise ": "5.191256831"
+      },
+      {
+        "": "275",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Ashford",
+        "2020-21": "97.25",
+        "Price rise ": "4.974521484"
+      },
+      {
+        "": "279",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Brighton and Hove",
+        "2020-21": "87.49",
+        "Price rise ": "4.046136205"
+      },
+      {
+        "": "281",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Canterbury",
+        "2020-21": "88.96",
+        "Price rise ": "2.796394731"
+      },
+      {
+        "": "282",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Cherwell",
+        "2020-21": "154.99",
+        "Price rise ": "-1.687281954"
+      },
+      {
+        "": "285",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Crawley",
+        "2020-21": "108.57",
+        "Price rise ": "2.802675379"
+      },
+      {
+        "": "286",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Dartford",
+        "2020-21": "91.48",
+        "Price rise ": "3.114801595"
+      },
+      {
+        "": "287",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Dover",
+        "2020-21": "85.64",
+        "Price rise ": "2.704329737"
+      },
+      {
+        "": "289",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Eastbourne",
+        "2020-21": "79.63",
+        "Price rise ": "7.499268353"
+      },
+      {
+        "": "293",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Fareham",
+        "2020-21": "93.01",
+        "Price rise ": "4.283440918"
+      },
+      {
+        "": "294",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Gosport",
+        "2020-21": "78.14",
+        "Price rise ": "2.578273081"
+      },
+      {
+        "": "295",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Gravesham",
+        "2020-21": "90.52",
+        "Price rise ": "3.148330117"
+      },
+      {
+        "": "296",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Guildford",
+        "2020-21": "113.9",
+        "Price rise ": "2.981401659"
+      },
+      {
+        "": "302",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Lewes",
+        "2020-21": "90.47",
+        "Price rise ": "3.968206415"
+      },
+      {
+        "": "304",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Medway",
+        "2020-21": "83.53",
+        "Price rise ": "3.211966674"
+      },
+      {
+        "": "306",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Milton Keynes",
+        "2020-21": "86.53",
+        "Price rise ": "3.084975604"
+      },
+      {
+        "": "307",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Mole Valley",
+        "2020-21": "124.44",
+        "Price rise ": "2.167487685"
+      },
+      {
+        "": "308",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "New Forest",
+        "2020-21": "100.39",
+        "Price rise ": "2.517503998"
+      },
+      {
+        "": "309",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Oxford",
+        "2020-21": "106.07",
+        "Price rise ": "2.488757032"
+      },
+      {
+        "": "310",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Portsmouth",
+        "2020-21": "88.62",
+        "Price rise ": "3.473152012"
+      },
+      {
+        "": "311",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Reading",
+        "2020-21": "103.93",
+        "Price rise ": "4.651641671"
+      },
+      {
+        "": "314",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Runnymede",
+        "2020-21": "110.21",
+        "Price rise ": "2.6325767"
+      },
+      {
+        "": "317",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Shepway",
+        "2020-21": "85.57",
+        "Price rise ": "3.133379566"
+      },
+      {
+        "": "318",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Slough",
+        "2020-21": "106.22",
+        "Price rise ": "3.297640485"
+      },
+      {
+        "": "321",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Southampton",
+        "2020-21": "86.12",
+        "Price rise ": "2.584271032"
+      },
+      {
+        "": "325",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Tandridge",
+        "2020-21": "101.21",
+        "Price rise ": "2.646783203"
+      },
+      {
+        "": "327",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Thanet",
+        "2020-21": "83.33",
+        "Price rise ": "3.449244597"
+      },
+      {
+        "": "331",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Waverley",
+        "2020-21": "117.42",
+        "Price rise ": "2.637301116"
+      },
+      {
+        "": "332",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Wealden",
+        "2020-21": "90.82",
+        "Price rise ": "3.076657326"
+      },
+      {
+        "": "335",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Winchester",
+        "2020-21": "103.61",
+        "Price rise ": "3.243518427"
+      },
+      {
+        "": "337",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Woking",
+        "2020-21": "104.6",
+        "Price rise ": "2.902115101"
+      },
+      {
+        "": "338",
+        "Area": "South East",
+        "Lower and Single Tier Authority Data": "Wokingham",
+        "2020-21": "110.55",
+        "Price rise ": "2.617655249"
+      },
+      {
+        "": "346",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Bournemouth, Christchurch & Poole",
+        "2020-21": "86.42",
+        "Price rise ": "2.694160075"
+      },
+      {
+        "": "347",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Bristol, City of",
+        "2020-21": "81.37",
+        "Price rise ": "2.623281624"
+      },
+      {
+        "": "350",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Cheltenham",
+        "2020-21": "82.43",
+        "Price rise ": "3.018246696"
+      },
+      {
+        "": "352",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Cornwall",
+        "2020-21": "72.13",
+        "Price rise ": "3.033616905"
+      },
+      {
+        "": "355",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "East Devon",
+        "2020-21": "81.72",
+        "Price rise ": "2.785083222"
+      },
+      {
+        "": "357",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Exeter",
+        "2020-21": "76.33",
+        "Price rise ": "4.810530016"
+      },
+      {
+        "": "360",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Isles of Scilly",
+        "2020-21": "75.8",
+        "Price rise ": "-10.65570823"
+      },
+      {
+        "": "365",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Mid Devon",
+        "2020-21": "80.45",
+        "Price rise ": "4.572597151"
+      },
+      {
+        "": "377",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Sedgemoor",
+        "2020-21": "78.47",
+        "Price rise ": "3.426154559"
+      },
+      {
+        "": "378",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Somerset West and Taunton",
+        "2020-21": "82.94",
+        "Price rise ": "2.324045267"
+      },
+      {
+        "": "380",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "South Hams",
+        "2020-21": "140.33",
+        "Price rise ": "0.007126568"
+      },
+      {
+        "": "382",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Stroud",
+        "2020-21": "83.45",
+        "Price rise ": "0.940961764"
+      },
+      {
+        "": "383",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Swindon",
+        "2020-21": "82.87",
+        "Price rise ": "3.035801318"
+      },
+      {
+        "": "385",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Teignbridge",
+        "2020-21": "138",
+        "Price rise ": "-0.339423702"
+      },
+      {
+        "": "394",
+        "Area": "South West",
+        "Lower and Single Tier Authority Data": "Wiltshire",
+        "2020-21": "90.45",
+        "Price rise ": "2.813766924"
+      }
+    ]
+  },
+  "height": 300,
+  "width": 300,
+  "mark": "circle",
+  "encoding": {
+    "x": {
+      "field": "Price rise ",
+      "type": "quantitative",
+      "title": "% price rise from previous year"
+    },
+    "y": {
+      "field": "2020-21",
+      "type": "quantitative",
+      "title": "Weekly private rent"
+    },
+    "color": {
+      "field": "Area",
+      "type": "ordinal",
+      "scale": {
+        "scheme": "turbo"
+      }
+    },
+    "opacity": {
+      "value": 0.7
+    },
+    "size": {
+      "field": "up_ch12_longRunMean",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "Area",
+        "type": "ordinal",
+        "title": "Area"
+      },
+      {
+        "field": "Lower and Single Tier Authority Data",
+        "type": "ordinal",
+        "title": "Local area"
+      },
+      {
+        "field": "2020-21",
+        "type": "quantitative",
+        "title": " Weekly private rent"
+      },
+      {
+        "field": "Price rise ",
+        "type": "quantitative",
+        "title": "% price rise from previous year"
+      }
+    ]
+  },
+  "config": {}
+}

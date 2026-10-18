@@ -1,0 +1,127 @@
+{
+  "id": "vl_0804",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "201823ee88ae4178e9bcf6506e56c27d35708cc792cdab8d261f5f35c30eb7b1",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2876e65ad5f8e202427717b1e06df6574c6d773940e78573cc85674c85cd2735",
+      "actions": 16,
+      "topOptions": 31
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "92162fcd20191434ed46f88713a361a8d5be782891b40d8d60fb454a57487664",
+      "actions": 17,
+      "topOptions": 35
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "aded6aa01ce74788af6313005aa2f9bb80cb687590c52ca156a245a8990473d8",
+      "actions": 19,
+      "topOptions": 39
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "25232a16bb080ff4d715e033e1cde2ec14fd0b6b0775f06e5b32ce914c775514",
+      "actions": 23,
+      "topOptions": 43
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "787f81f4d6773021ef1f6ab26d37320daadda9ab0cd09ddc3f560e938f0d91ea",
+      "actions": 25,
+      "topOptions": 43
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "de3b979329c3232d1b752d4a409c59dd6375e61ef309645314a7f9040849ee05",
+      "actions": 26,
+      "topOptions": 45
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "977f8555df234726b0308d8c818e82c20cd7e2985a25c5e23cb6d3ee581149ad",
+      "actions": 27,
+      "topOptions": 47
+    }
+  ],
+  "sourceUrls": [
+    "https://gist.githubusercontent.com/khang-dao/fb9b1496e9456a5a7bf680674ee39b4c/raw/0813ce882839dedb9b76a250dff0cd4aa7238474/olympics-1986-2016-cleaned-4-america.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight source-correct equivalent programs: facade nested scales -> scale editors -> separate complete axes -> whole-axis paint -> component paint -> focused tick/label -> grid paint -> directional grid paint. All raw rows/types and source style/geometry retained; no chart pixels inspected."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "f3a8550b09b7b761e670b8290be982d902a0793bce8d00ee846ab949c0e2384b",
+      "bytes": 1160
+    },
+    "data.json": {
+      "sha256": "d63c96f99e459e7f61a3721cb1476c05aa3b5c6365131f7d067e67126333ceb7",
+      "bytes": 1678112
+    },
+    "resolved-source.vl.json": {
+      "sha256": "2f273e6eca98c55e4e8fee6751beb36c1a99067e3cfd49ccd0c9b07f9527da18",
+      "bytes": 2093254
+    },
+    "G1.gg.mjs": {
+      "sha256": "201823ee88ae4178e9bcf6506e56c27d35708cc792cdab8d261f5f35c30eb7b1",
+      "bytes": 3446
+    },
+    "G2.gg.mjs": {
+      "sha256": "2876e65ad5f8e202427717b1e06df6574c6d773940e78573cc85674c85cd2735",
+      "bytes": 3464
+    },
+    "G3.gg.mjs": {
+      "sha256": "92162fcd20191434ed46f88713a361a8d5be782891b40d8d60fb454a57487664",
+      "bytes": 3440
+    },
+    "G4.gg.mjs": {
+      "sha256": "aded6aa01ce74788af6313005aa2f9bb80cb687590c52ca156a245a8990473d8",
+      "bytes": 3618
+    },
+    "G5.gg.mjs": {
+      "sha256": "25232a16bb080ff4d715e033e1cde2ec14fd0b6b0775f06e5b32ce914c775514",
+      "bytes": 3698
+    },
+    "G6.gg.mjs": {
+      "sha256": "787f81f4d6773021ef1f6ab26d37320daadda9ab0cd09ddc3f560e938f0d91ea",
+      "bytes": 3692
+    },
+    "G7.gg.mjs": {
+      "sha256": "de3b979329c3232d1b752d4a409c59dd6375e61ef309645314a7f9040849ee05",
+      "bytes": 3756
+    },
+    "G8.gg.mjs": {
+      "sha256": "977f8555df234726b0308d8c818e82c20cd7e2985a25c5e23cb6d3ee581149ad",
+      "bytes": 3778
+    },
+    "vega-lite.svg": {
+      "sha256": "9e0f938cd3c9044d9e3a3ecfeae51062ef03922623bb950a3dd2206151ce3c51",
+      "bytes": 5049600
+    },
+    "ggaction.svg": {
+      "sha256": "c639db451adea50eef65a41b905a9f30dcd167d8b554ed454e7d2f74ac88075b",
+      "bytes": 2428341
+    }
+  }
+}

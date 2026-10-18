@@ -19,6 +19,7 @@ export function buildChart() {
     .encodeStroke({ target: "linePlot", value: "#4c78a8" })
     .encodeStrokeWidth({ target: "linePlot", value: 2 })
     .createRuleMark({ id: "rule", data: "wage", stroke: "black" })
+    .editRuleMark({ strokeWidth: 1 })
     .encodeX({ target: "rule", field: "Year", fieldType: "temporal" })
     
     .createPointMark({ id: "points", data: "wage", fill: "white" })

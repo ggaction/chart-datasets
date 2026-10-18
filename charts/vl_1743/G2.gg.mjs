@@ -1,0 +1,120 @@
+import { chart } from "ggaction";
+import data from "./data.json";
+
+// DOCS: doc-2b2e3149e57e859d, doc-8c1e8e710e83918a, doc-74c3587ffe505cc0
+
+export function buildChart() {
+  return chart()
+    .createCanvas({
+      width: 244,
+      height: 242,
+      margin: { left: 39, top: 5, right: 5, bottom: 37 }
+    })
+    .editCanvas({
+      plotBorder: { color: "#ddd", lineWidth: 1 }
+    })
+    .applyTextMetrics({
+      profile: {
+        schemaVersion: 1,
+        id: "vl_1743-original-source-font-widths",
+        measurements: [
+          { text: "0", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 5.5625 },
+          { text: "50", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 11.125 },
+          { text: "100", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 16.6875 },
+          { text: "150", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 16.6875 },
+          { text: "200", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 16.6875 },
+          { text: "Horsepower", fontFamily: "sans-serif", fontSize: 11, fontWeight: 700, fontStyle: "normal", width: 63.578125 },
+          { text: "5", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 5.5625 },
+          { text: "10", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 11.125 },
+          { text: "15", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 11.125 },
+          { text: "20", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 11.125 },
+          { text: "25", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 11.125 },
+          { text: "Miles_per_Gallon", fontFamily: "sans-serif", fontSize: 11, fontWeight: 700, fontStyle: "normal", width: 91.09375 }
+        ]
+      }
+    })
+    .createData({
+      values: data
+    })
+    .createComputedData({
+      id: "YearOfManufacture",
+      as: "YearOfManufacture",
+      expression: {
+        op: "datePart",
+        part: "year",
+        operand: { op: "parseTime", operand: { field: "Year" }, format: "%Y-%m-%d" }
+      }
+    })
+    .filterData({
+      id: "year1970",
+      field: "YearOfManufacture",
+      oneOf: [1970]
+    })
+    .filterData({
+      id: "horsepowerValid",
+      field: "Horsepower",
+      noneOf: [null]
+    })
+    .filterData({
+      id: "mpgValid",
+      field: "Miles_per_Gallon",
+      noneOf: [null]
+    })
+    .createScatterPlot({
+      x: "Horsepower",
+      y: "Miles_per_Gallon",
+      guides: false
+    })
+    .editXScale({ domain: [0, 240], nice: false })
+    .editYScale({ domain: [0, 28], nice: false })
+    .editPointMark({
+      shape: "arrow",
+      stroke: false,
+      opacity: 0.6
+    })
+    .editPointMark({
+      fill: "#4c78a8"
+    })
+    .encodePointRadius({
+      value: Math.sqrt(141 / (28 * Math.PI))
+    })
+    .createGrid({
+      vertical: { values: [0, 50, 100, 150, 200], color: "#ddd", lineWidth: 1 },
+      horizontal: { values: [0, 5, 10, 15, 20, 25], color: "#ddd", lineWidth: 1 }
+    })
+    .createAxes({
+      x: {
+        line: { color: "#888", lineWidth: 1 },
+        ticksAndLabels: {
+          values: [0, 50, 100, 150, 200],
+          ticks: { length: 5, color: "#888" },
+          labels: { fontSize: 10, color: "black", offset: 5.5, alongOffset: 0.5, flush: true }
+        },
+        title: {
+          text: "Horsepower",
+          fontSize: 11,
+          fontWeight: 700,
+          color: "black",
+          offset: 27.578125,
+          alongOffset: 0.5
+        }
+      },
+      y: {
+        line: { color: "#888", lineWidth: 1 },
+        ticksAndLabels: {
+          values: [0, 5, 10, 15, 20, 25],
+          ticks: { length: 5, color: "#888" },
+          labels: { fontSize: 10, color: "black", offset: 6.5, alongOffset: 0.890625 }
+        },
+        title: {
+          text: "Miles_per_Gallon",
+          fontSize: 11,
+          fontWeight: 700,
+          color: "black",
+          offset: 26.544921875,
+          alongOffset: 0.5,
+          rotation: { value: -90, unit: "degrees" }
+        }
+      }
+    });
+}

@@ -105,6 +105,6 @@ export function buildChart() {
       ticksAndLabels: { ticks: { color: "#888" }, labels: { fontSize: 10, offset: 7 } },
       title: { text: "age", fontSize: 11, fontWeight: 700, offset: 27 }
     })
-    .createGrid({ vertical: { color: "#ddd" } })
+    .editBarMark({ stroke: false }).createGrid({ horizontal: false, vertical:  { color: "#ddd" } })
     .createLegend({ position: "top", labels: { fontSize: 10 }, titleStyle: { fontSize: 11, fontWeight: 700 } });
 }

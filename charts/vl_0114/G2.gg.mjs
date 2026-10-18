@@ -30,7 +30,7 @@ export function buildChart() {
     .encodeY({ field: "ix_n", target: "rules", fieldType: "quantitative" })
     .encodeStroke({ target: "rules", field: "cluster_size_n", fieldType: "quantitative" })
     .editStrokeScale({ target: "rules", domain: [2, 1865], range: { palette: "blues" } })
-    .editRuleMark({ strokeWidth: 2 })
+    .editRuleMark({ strokeWidth: 1 })
 .createGuides({ axes: false, grid: false, legend: { target: "rules", channels: ["stroke"], title: "Cluster size", titleStyle: { fontSize: 11, fontWeight: 700, fontFamily: "sans-serif" }, labels: { format: ",.0f", fontSize: 10, fontFamily: "sans-serif" }, gradient: { length: 200, opacity: 0.7 }, position: "right" } })
     .createGuides({ axes: false, grid: false, legend: { target: "scatterPlot", channels: ["size"], title: "Cluster size", titleStyle: { fontSize: 11, fontWeight: 700, fontFamily: "sans-serif" }, labels: { format: ",.0f", fontSize: 10, fontFamily: "sans-serif" }, values: [0, 500, 1000, 1500], position: "right" } })
     .editLegendBlock({ target: "scatterPlot", channel: "size", symbol: { fill: "transparent", stroke: "rgb(136, 136, 136)", strokeWidth: 1.5, opacity: 0.7 } });

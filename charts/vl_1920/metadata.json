@@ -5,58 +5,58 @@
     {
       "level": "G1",
       "code": "G1.gg.mjs",
-      "sha256": "3251aecf6cea8cdabe6f0653acdf45d35c9e1ce4c6d2160e8fb59aaa2cab7d29",
-      "actions": 19,
-      "topOptions": 41
+      "sha256": "edcd2aac0b64d0611a453e26016934b33fceb816806e89dc804a64e6345ce8b7",
+      "actions": 20,
+      "topOptions": 42
     },
     {
       "level": "G2",
       "code": "G2.gg.mjs",
-      "sha256": "9fcb980b71903d5fc477178a65dd0af0b0c58ca3f4c612ae8f73927723e6b8af",
-      "actions": 20,
-      "topOptions": 45
+      "sha256": "c71ba0be37b87dbb16b6a022f823d499fcf7bc8d9937f9e2ac03b074336cf30e",
+      "actions": 21,
+      "topOptions": 46
     },
     {
       "level": "G3",
       "code": "G3.gg.mjs",
-      "sha256": "03a106d525356f5abf8e2e6cd2b07a79994c6f798d60109695eda1f257024b80",
-      "actions": 22,
-      "topOptions": 45
+      "sha256": "57ed745f8fc4bbc8cdac5819f08d243c539ecf608490203290e6ea5790b6d813",
+      "actions": 23,
+      "topOptions": 46
     },
     {
       "level": "G4",
       "code": "G4.gg.mjs",
-      "sha256": "529785c617c18cbef8a18d63b556fc543ffa84cc45a3b69a9975dfcf0ff7f53d",
-      "actions": 22,
-      "topOptions": 46
+      "sha256": "5563044e81fc182cfc3caa8dd47aa54072d3d23a96af88f3ebe31cfef9cece4b",
+      "actions": 23,
+      "topOptions": 47
     },
     {
       "level": "G5",
       "code": "G5.gg.mjs",
-      "sha256": "bf7f5ec4b49c6b600fc2b8a02b0392ae2d69154a0766b3b3cf9039a464ce424e",
-      "actions": 24,
-      "topOptions": 52
+      "sha256": "d762e676cce758bd4bcaf255389e47cd97a9780469decbfcbb5efaa7ffdc154c",
+      "actions": 25,
+      "topOptions": 53
     },
     {
       "level": "G6",
       "code": "G6.gg.mjs",
-      "sha256": "4d7036bf0f79c1e9fbe8693f42c982ae2dcdf0e2dbba04be07d8323b38306411",
-      "actions": 28,
-      "topOptions": 56
+      "sha256": "89336078b6e81df0f7fe38b26528ac22ff5fd172e85f7c00d637997d7362d6a4",
+      "actions": 29,
+      "topOptions": 57
     },
     {
       "level": "G7",
       "code": "G7.gg.mjs",
-      "sha256": "46aa72d759273864a51de0f1c86db7b19e9b10b935ad9a031af479ee66fccff1",
-      "actions": 30,
-      "topOptions": 56
+      "sha256": "f52cf6ce23a39c95acd8102121b9abd191754ab2928afd6a1fd37e20dae2c6ac",
+      "actions": 31,
+      "topOptions": 57
     },
     {
       "level": "G8",
       "code": "G8.gg.mjs",
-      "sha256": "fe1a66ffbedb5de9d0fc5ca285cdca69441e4fb0ccb4f3415ad0e597bef7008f",
-      "actions": 31,
-      "topOptions": 56
+      "sha256": "48b08fe39cc0d65d1be4f9143a44c5da23beeaea09d591b620d8201a1560f995",
+      "actions": 32,
+      "topOptions": 57
     }
   ],
   "sourceUrls": [
@@ -64,9 +64,12 @@
   ],
   "notes": {
     "reason": "eight-stage-cap",
-    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 8 genuine ownership stages, 763 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Authorized eight-stage cap reached."
+    "explanation": "All current source/data/mark/guide and native rendering checks passed after exact actual-model correction of visible Rule width to 1px. Original meaningful stage boundaries and same-family SVG/PNG identity retained; historical wider outputs preserved."
   },
-  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
   "files": {
     "source.vl.json": {
       "sha256": "e6bc208254fac41e22f73efacbbb9c7f13a4a858c5bd1f2d98606981e4d7b071",
@@ -81,43 +84,43 @@
       "bytes": 25357
     },
     "G1.gg.mjs": {
-      "sha256": "3251aecf6cea8cdabe6f0653acdf45d35c9e1ce4c6d2160e8fb59aaa2cab7d29",
-      "bytes": 5125
+      "sha256": "edcd2aac0b64d0611a453e26016934b33fceb816806e89dc804a64e6345ce8b7",
+      "bytes": 5163
     },
     "G2.gg.mjs": {
-      "sha256": "9fcb980b71903d5fc477178a65dd0af0b0c58ca3f4c612ae8f73927723e6b8af",
-      "bytes": 5031
+      "sha256": "c71ba0be37b87dbb16b6a022f823d499fcf7bc8d9937f9e2ac03b074336cf30e",
+      "bytes": 5069
     },
     "G3.gg.mjs": {
-      "sha256": "03a106d525356f5abf8e2e6cd2b07a79994c6f798d60109695eda1f257024b80",
-      "bytes": 5070
+      "sha256": "57ed745f8fc4bbc8cdac5819f08d243c539ecf608490203290e6ea5790b6d813",
+      "bytes": 5108
     },
     "G4.gg.mjs": {
-      "sha256": "529785c617c18cbef8a18d63b556fc543ffa84cc45a3b69a9975dfcf0ff7f53d",
-      "bytes": 5086
+      "sha256": "5563044e81fc182cfc3caa8dd47aa54072d3d23a96af88f3ebe31cfef9cece4b",
+      "bytes": 5124
     },
     "G5.gg.mjs": {
-      "sha256": "bf7f5ec4b49c6b600fc2b8a02b0392ae2d69154a0766b3b3cf9039a464ce424e",
-      "bytes": 5252
+      "sha256": "d762e676cce758bd4bcaf255389e47cd97a9780469decbfcbb5efaa7ffdc154c",
+      "bytes": 5290
     },
     "G6.gg.mjs": {
-      "sha256": "4d7036bf0f79c1e9fbe8693f42c982ae2dcdf0e2dbba04be07d8323b38306411",
-      "bytes": 5292
+      "sha256": "89336078b6e81df0f7fe38b26528ac22ff5fd172e85f7c00d637997d7362d6a4",
+      "bytes": 5330
     },
     "G7.gg.mjs": {
-      "sha256": "46aa72d759273864a51de0f1c86db7b19e9b10b935ad9a031af479ee66fccff1",
-      "bytes": 5278
+      "sha256": "f52cf6ce23a39c95acd8102121b9abd191754ab2928afd6a1fd37e20dae2c6ac",
+      "bytes": 5316
     },
     "G8.gg.mjs": {
-      "sha256": "fe1a66ffbedb5de9d0fc5ca285cdca69441e4fb0ccb4f3415ad0e597bef7008f",
-      "bytes": 5299
+      "sha256": "48b08fe39cc0d65d1be4f9143a44c5da23beeaea09d591b620d8201a1560f995",
+      "bytes": 5337
     },
     "vega-lite.svg": {
       "sha256": "9c2ea65547ecec93435ef05c033d6c81c9b56c4ead4c98bdbf4a008d9a426148",
       "bytes": 108430
     },
     "ggaction.svg": {
-      "sha256": "67fc6a2a58e9e6b04aebd2c561636490cfefe6d8ff09ac3900900bd126b4ac69",
+      "sha256": "84e57facf57cbb7b1750c8387b14735c2456bdd858abe6a93fd92bfbb496f177",
       "bytes": 69446
     }
   }

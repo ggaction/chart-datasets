@@ -50,6 +50,7 @@ export function buildChart() {
     .encodeStroke({ target: "rule", value: "black" })
     .encodeOpacity({ target: "rule", value: 0.1 })
     .encodeX({ field: "Date", target: "rule", fieldType: "temporal" })
+    .editRuleMark({ target: "rule", strokeWidth: 1 })
     .removeEncoding({ target: "rule", channel: "y" })
     .editXScale({ domain: [159408000000, 1584576000000], nice: false })
     .editYScale({ domain: [0, 18], nice: false })

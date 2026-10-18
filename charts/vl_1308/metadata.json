@@ -1,0 +1,132 @@
+{
+  "id": "vl_1308",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1622d7eccee2e9760c573a5fcc010d8c6ebbdd49c754315ab2e04cc02398c417",
+      "actions": 37,
+      "topOptions": 91
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b49b36cf692ed59b072365a69548906e44f0db5f21c1447d3cd5aa76091a6d06",
+      "actions": 41,
+      "topOptions": 99
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "028c430e74a7b5fc0218781dad95019763463cee773b9c605e83cd2e38e2935a",
+      "actions": 41,
+      "topOptions": 102
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "197963eacc5f27ff4d7f98105c2ede1bfb7240700b21bf1b27c3548d47f3368a",
+      "actions": 44,
+      "topOptions": 108
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "040dff0fb0acc7022afae56a556c7bc593daae1f1a08f76866febc60039e6d20",
+      "actions": 50,
+      "topOptions": 117
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "1857cfc16e87d7a0d09da6b979887426ce93759ecf77e69c341a9a3c6a866ae7",
+      "actions": 53,
+      "topOptions": 124
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "2dbb1965311b7532a069eaee94464c9dc83cdb6c42693eb638b6cfdb6571c3b2",
+      "actions": 55,
+      "topOptions": 124
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "c3a3cbb057edbc28f0174066b85e27a5fc13c776e94283f77bf121ba9d2c886d",
+      "actions": 57,
+      "topOptions": 128
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight source-faithful distinct model programs, strict current source/native and identical-family output. No scalar padding, all original/retry/provenance artifacts retained; fragment-only prompting leaves full validation unchanged."
+  },
+  "historicalRuntimeCommits": [],
+  "historicalVerificationRuntimeUnrecordedStages": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "G8"
+  ],
+  "files": {
+    "source.vl.json": {
+      "sha256": "bb971c31fe4cc422d2bb2b35d9207b277989dc201b8d6a2136d36e3547fc5ae6",
+      "bytes": 4803
+    },
+    "data.json": {
+      "sha256": "6fc9b54fa518c480dfb15342272fb8606d66863be6d5eef232d56e815ae318f6",
+      "bytes": 3412
+    },
+    "resolved-source.vl.json": {
+      "sha256": "50b362eced5c42de288259446203d790642a3748464fd72a44abb71e0eed5443",
+      "bytes": 4684
+    },
+    "G1.gg.mjs": {
+      "sha256": "1622d7eccee2e9760c573a5fcc010d8c6ebbdd49c754315ab2e04cc02398c417",
+      "bytes": 8570
+    },
+    "G2.gg.mjs": {
+      "sha256": "b49b36cf692ed59b072365a69548906e44f0db5f21c1447d3cd5aa76091a6d06",
+      "bytes": 8546
+    },
+    "G3.gg.mjs": {
+      "sha256": "028c430e74a7b5fc0218781dad95019763463cee773b9c605e83cd2e38e2935a",
+      "bytes": 8466
+    },
+    "G4.gg.mjs": {
+      "sha256": "197963eacc5f27ff4d7f98105c2ede1bfb7240700b21bf1b27c3548d47f3368a",
+      "bytes": 8721
+    },
+    "G5.gg.mjs": {
+      "sha256": "040dff0fb0acc7022afae56a556c7bc593daae1f1a08f76866febc60039e6d20",
+      "bytes": 8745
+    },
+    "G6.gg.mjs": {
+      "sha256": "1857cfc16e87d7a0d09da6b979887426ce93759ecf77e69c341a9a3c6a866ae7",
+      "bytes": 8724
+    },
+    "G7.gg.mjs": {
+      "sha256": "2dbb1965311b7532a069eaee94464c9dc83cdb6c42693eb638b6cfdb6571c3b2",
+      "bytes": 8776
+    },
+    "G8.gg.mjs": {
+      "sha256": "c3a3cbb057edbc28f0174066b85e27a5fc13c776e94283f77bf121ba9d2c886d",
+      "bytes": 8827
+    },
+    "vega-lite.svg": {
+      "sha256": "b7cd0194e4600ae594e44e5159efbc6e3c7d9000fed73eb70646ef8248586a9f",
+      "bytes": 18816
+    },
+    "ggaction.svg": {
+      "sha256": "64a67ef7702a4b618b51612d4c637b60ceae282e11027b4a76426f6e11714f0e",
+      "bytes": 10775
+    }
+  }
+}

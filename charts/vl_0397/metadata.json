@@ -1,0 +1,127 @@
+{
+  "id": "vl_0397",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "a1371afa01ffa155c77d9452090a4d96f3a32bb0927274c4575a33822f2ab1db",
+      "actions": 14,
+      "topOptions": 33
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "eea7f5ba9a371fc484ad47e863c9788132823f0361f9e469617cfb64fa310899",
+      "actions": 16,
+      "topOptions": 37
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "65a613ac3204e6cc373ac131d4f8d8f520607b59a753d3157f296138ad74ea95",
+      "actions": 17,
+      "topOptions": 41
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a875bb2eaea513d860c5fd0ef699a9d2f87b0f3e359b23f7d76ad7615114d5c6",
+      "actions": 19,
+      "topOptions": 45
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "a45f30c136462ece40c8705ef202789da398932b28fe35cd22487217d4df246d",
+      "actions": 23,
+      "topOptions": 49
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "83947ba883c802abf08f0b47d270abef1760d9933a2182d912b924ef40a9e279",
+      "actions": 25,
+      "topOptions": 49
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "f257472318ca55174d86adf658e124729cd056cd1c00008c925a4c19ab5fbd7f",
+      "actions": 26,
+      "topOptions": 52
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "74a65fe96871589f22f831af2880e729dd465c46f744dd766baa83a3f19831fa",
+      "actions": 27,
+      "topOptions": 53
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/productivity/BSD_SizeRLP.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful exact-equivalent stages: complete highlevel G1, paired XY scale edits, complete individual axes, whole axis appearance edits, grouped component editors, focused ticks/labels, whole legend paint edit, focused title/labels. Raw75/7strings and all original fold values/sourceyear timestamps retained; D50 sourceRGB75exact, circle30/outline2/.7; sourcecanvas495x347/450x300 unchanged. Native sourcevisible endpoint count2 preserves date texts without new collisions; source middle hidden. Report source endpoint text overlap15.65625/native centered endpoint convention, native stroke ramp strips/foreground guides; no sourcepixelidentity claim. No GG runtime changes or oracle tolerance widening."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "3e66e3f49139de9d92e0725a6d762379270ca60a39af2e47569cebdcacd0e136",
+      "bytes": 1087
+    },
+    "data.json": {
+      "sha256": "06b7a59a9030dda46706ad5e02ad487dd048631c70951e762fb10dfaf10e5871",
+      "bytes": 11755
+    },
+    "resolved-source.vl.json": {
+      "sha256": "c9dd3304eb52a71b30293476851e281dbeceb3a377eccc26c0a87b5101aa71de",
+      "bytes": 15510
+    },
+    "G1.gg.mjs": {
+      "sha256": "a1371afa01ffa155c77d9452090a4d96f3a32bb0927274c4575a33822f2ab1db",
+      "bytes": 6025
+    },
+    "G2.gg.mjs": {
+      "sha256": "eea7f5ba9a371fc484ad47e863c9788132823f0361f9e469617cfb64fa310899",
+      "bytes": 6021
+    },
+    "G3.gg.mjs": {
+      "sha256": "65a613ac3204e6cc373ac131d4f8d8f520607b59a753d3157f296138ad74ea95",
+      "bytes": 5981
+    },
+    "G4.gg.mjs": {
+      "sha256": "a875bb2eaea513d860c5fd0ef699a9d2f87b0f3e359b23f7d76ad7615114d5c6",
+      "bytes": 6159
+    },
+    "G5.gg.mjs": {
+      "sha256": "a45f30c136462ece40c8705ef202789da398932b28fe35cd22487217d4df246d",
+      "bytes": 6155
+    },
+    "G6.gg.mjs": {
+      "sha256": "83947ba883c802abf08f0b47d270abef1760d9933a2182d912b924ef40a9e279",
+      "bytes": 6141
+    },
+    "G7.gg.mjs": {
+      "sha256": "f257472318ca55174d86adf658e124729cd056cd1c00008c925a4c19ab5fbd7f",
+      "bytes": 6230
+    },
+    "G8.gg.mjs": {
+      "sha256": "74a65fe96871589f22f831af2880e729dd465c46f744dd766baa83a3f19831fa",
+      "bytes": 6262
+    },
+    "vega-lite.svg": {
+      "sha256": "cae517d61562f5e9b717687388f1d14927276fa03c62a9069c578627054b0169",
+      "bytes": 33556
+    },
+    "ggaction.svg": {
+      "sha256": "36a77602cbc99934adce4d85a77466da3a3d61aa73d0a4ac8cd869cfadada0e5",
+      "bytes": 28168
+    }
+  }
+}

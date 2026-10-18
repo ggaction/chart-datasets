@@ -5,45 +5,48 @@
     {
       "level": "G1",
       "code": "G1.gg.mjs",
-      "sha256": "3ab3e0e198f3b9806cfbd026555ad1fa4f125dcc77e09c23bcc8b5d075777acf",
+      "sha256": "05d5d6184e19db1ddcc3f81b081caeebcb3668a80e2c9f8e0d6bab4c8ce327e3",
       "actions": 17,
-      "topOptions": 40
+      "topOptions": 41
     },
     {
       "level": "G2",
       "code": "G2.gg.mjs",
-      "sha256": "7bd9fb3e32adb09bb582127adeba2eb62112add1b5b6c66a96dfef9f7b5dd733",
+      "sha256": "071fb53a4aa02d1e998f49806f32fd59a83c9d2457c8a23a586edb77b0edc55f",
       "actions": 18,
-      "topOptions": 40
+      "topOptions": 41
     },
     {
       "level": "G3",
       "code": "G3.gg.mjs",
-      "sha256": "c9446203745e66b8c5871a046475edbceff8c54db60971c6cccc25d3c11c7a20",
+      "sha256": "90ea65e00f8a9b8a410ff82360f1b296e61af83eb6506f86c693a2828d8f5543",
       "actions": 19,
-      "topOptions": 43
+      "topOptions": 44
     },
     {
       "level": "G4",
       "code": "G4.gg.mjs",
-      "sha256": "fdd400c4ee8e01c29203c6f75d49c2b1c66884febad41405f3aa4a26c2a19627",
+      "sha256": "f3df336fd8a3b7de293d20a734094170954ccdee27fa2d7c540b28eafcde0dc4",
       "actions": 21,
-      "topOptions": 45
+      "topOptions": 46
     },
     {
       "level": "G5",
       "code": "G5.gg.mjs",
-      "sha256": "7888783e9b267935767ecf1a35b77e678760be6754c88f7300c0a7df5af09a44",
+      "sha256": "0d4e34eb306edb90d653c37210f89cbf00ab98883d5c29c17671b5ee991355b5",
       "actions": 22,
-      "topOptions": 45
+      "topOptions": 46
     }
   ],
   "sourceUrls": [],
   "notes": {
     "reason": "frontier-exhausted",
-    "explanation": "Full original244rowtips source and exactG5 finalprogram reread. Native min/q1/median/q3/max summary retainsallrawvalues, exactrule→bar→tick painterorder,200x20innerplot, source18pxbox/18x1median and fullsourceXlabels/fonts/grid. Fivegenuine boundaries exhausted; noYaxis/legend/title inoriginal. Retained GLMstop fullreason reviewed, no furthermeaningful ownership. No extra paidrequest, alloriginalsource/runtime/familychecks current."
+    "explanation": "All current source/data/mark/guide and native rendering checks passed after exact actual-model correction of visible Rule width to 1px. Original meaningful stage boundaries and same-family SVG/PNG identity retained; historical wider outputs preserved."
   },
-  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
   "files": {
     "source.vl.json": {
       "sha256": "df619ccb26db1a2eecd3125d7954c1fe012b8f7de8df6ed346b84b44dfd98ea6",
@@ -58,31 +61,31 @@
       "bytes": 10057
     },
     "G1.gg.mjs": {
-      "sha256": "3ab3e0e198f3b9806cfbd026555ad1fa4f125dcc77e09c23bcc8b5d075777acf",
-      "bytes": 2037
+      "sha256": "05d5d6184e19db1ddcc3f81b081caeebcb3668a80e2c9f8e0d6bab4c8ce327e3",
+      "bytes": 2053
     },
     "G2.gg.mjs": {
-      "sha256": "7bd9fb3e32adb09bb582127adeba2eb62112add1b5b6c66a96dfef9f7b5dd733",
-      "bytes": 2063
+      "sha256": "071fb53a4aa02d1e998f49806f32fd59a83c9d2457c8a23a586edb77b0edc55f",
+      "bytes": 2079
     },
     "G3.gg.mjs": {
-      "sha256": "c9446203745e66b8c5871a046475edbceff8c54db60971c6cccc25d3c11c7a20",
-      "bytes": 2168
+      "sha256": "90ea65e00f8a9b8a410ff82360f1b296e61af83eb6506f86c693a2828d8f5543",
+      "bytes": 2184
     },
     "G4.gg.mjs": {
-      "sha256": "fdd400c4ee8e01c29203c6f75d49c2b1c66884febad41405f3aa4a26c2a19627",
-      "bytes": 2166
+      "sha256": "f3df336fd8a3b7de293d20a734094170954ccdee27fa2d7c540b28eafcde0dc4",
+      "bytes": 2182
     },
     "G5.gg.mjs": {
-      "sha256": "7888783e9b267935767ecf1a35b77e678760be6754c88f7300c0a7df5af09a44",
-      "bytes": 2159
+      "sha256": "0d4e34eb306edb90d653c37210f89cbf00ab98883d5c29c17671b5ee991355b5",
+      "bytes": 2175
     },
     "vega-lite.svg": {
       "sha256": "defbd42bee4c9ee83dc05ebef58ab1ee88edd8a135f3b803cfdb6f735001aab1",
       "bytes": 4629
     },
     "ggaction.svg": {
-      "sha256": "2484d7c2477bafa79f2fb618d82c42edb099bbd4b169f324ecc7bef2996c2aca",
+      "sha256": "6a232287cb74d3f48a58a5b7f89c7728fc5731bebb76e86eec1b2e451f7a48dd",
       "bytes": 3341
     }
   }

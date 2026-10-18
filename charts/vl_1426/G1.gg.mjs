@@ -13,6 +13,7 @@ export function buildChart() {
     .editBarMark({ fill: "blue" })
     .encodeBarWidth({ band: 1 })
     .createRuleMark({ id: "minmaxRule", stroke: "blue", opacity: 0.5 })
+    .editRuleMark({ strokeWidth: 1 })
     .encodeXRange({ target: "minmaxRule", lower: "min", upper: "max" })
     .encodeY({ field: "library_sample", fieldType: "nominal", target: "minmaxRule" })
     .createTickMark({ id: "medianBar", length: 12.6 })

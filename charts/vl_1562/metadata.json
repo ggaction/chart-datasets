@@ -1,0 +1,105 @@
+{
+  "id": "vl_1562",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "fd755e75ff98cc2396a91d0eae24004a61baf76814003511457507828afd3347",
+      "actions": 17,
+      "topOptions": 40
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e570dc54b3072b1aab63db30a54923f8998ab83e91f9f071277fbe629f65a6db",
+      "actions": 18,
+      "topOptions": 44
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a9024f37020b68c3065c0a22d4b83c2371be6a0352801771e7325f55a3186c4c",
+      "actions": 20,
+      "topOptions": 50
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7a3230bd8aedc7437f7490226d75927a5633ad00b3acf1f37300662af2ebcd25",
+      "actions": 26,
+      "topOptions": 55
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "2c1547b221dfceb5b5b1eb2846bd932dcee7aeeeb5eb75fa85bd57f19aa762c9",
+      "actions": 27,
+      "topOptions": 57
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8d2a381c75f57db60e681d03e0c38d599c4b9acf27e280112d71568851bb47b5",
+      "actions": 28,
+      "topOptions": 57
+    }
+  ],
+  "sourceUrls": [
+    "https://uiuc-ischool-dataviz.github.io/classwork/files/data/building_inventory.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Six distinct model-authored stages pass46/51normalchecks with exact8862row membership/fields,171peer integer prefixes/final101700546, source scales/fonts/200x200plot/55logticks/7Ylabels/60grids and identical family SVG/PNG/graphics. Honest Codex frontier stop, no quota padding."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "8032ddced8c564c166193df65c434b7c80cd1f0389892fa90c2464af0def05f7",
+      "bytes": 1212
+    },
+    "data.json": {
+      "sha256": "507558091cef27e2ae5f8e70202df822e205d8b9eed0d286c801692e61f75bd1",
+      "bytes": 6783275
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1434074b1499cd1e991476068b5f85a183efd998d75ce9cf3848064085cee7d0",
+      "bytes": 7635242
+    },
+    "G1.gg.mjs": {
+      "sha256": "fd755e75ff98cc2396a91d0eae24004a61baf76814003511457507828afd3347",
+      "bytes": 7354
+    },
+    "G2.gg.mjs": {
+      "sha256": "e570dc54b3072b1aab63db30a54923f8998ab83e91f9f071277fbe629f65a6db",
+      "bytes": 7314
+    },
+    "G3.gg.mjs": {
+      "sha256": "a9024f37020b68c3065c0a22d4b83c2371be6a0352801771e7325f55a3186c4c",
+      "bytes": 7524
+    },
+    "G4.gg.mjs": {
+      "sha256": "7a3230bd8aedc7437f7490226d75927a5633ad00b3acf1f37300662af2ebcd25",
+      "bytes": 7506
+    },
+    "G5.gg.mjs": {
+      "sha256": "2c1547b221dfceb5b5b1eb2846bd932dcee7aeeeb5eb75fa85bd57f19aa762c9",
+      "bytes": 7570
+    },
+    "G6.gg.mjs": {
+      "sha256": "8d2a381c75f57db60e681d03e0c38d599c4b9acf27e280112d71568851bb47b5",
+      "bytes": 7560
+    },
+    "vega-lite.svg": {
+      "sha256": "9f47f9d0cd0f5cb0e4bd0ac6a9288393a617f988c05bb1b34846f59bf5eeb904",
+      "bytes": 154516
+    },
+    "ggaction.svg": {
+      "sha256": "83dc55638b663ae22ed39d3f8381bfa4d4750881f199535a5e3982e219deee4d",
+      "bytes": 349646
+    }
+  }
+}

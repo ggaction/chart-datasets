@@ -1,0 +1,127 @@
+{
+  "id": "vl_0459",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "75f2411ff159ef0160d956ca05dd3d9743a9fe5c040421aa82e737ed54f1b91b",
+      "actions": 18,
+      "topOptions": 46
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f1aef2d08b42e12ccd86f6ceb8d5d61917c73aba964224f7994abc9e5b39dd29",
+      "actions": 20,
+      "topOptions": 50
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a47fc2bbf570ab90ef5c9392178aa7590ff468314f4dd3d84fcb6558801e10e0",
+      "actions": 21,
+      "topOptions": 54
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "58b81be4bcfe7b2e4b14fb52f6c5caaae0e6b4331e7221b6c81c60eb01ae94e8",
+      "actions": 23,
+      "topOptions": 58
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "1eee913efaf25e059b5f293808f19c7f38c2357fe16ec7a08a519002c9efc5f7",
+      "actions": 27,
+      "topOptions": 62
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3292f270cb0e292d89c8a146a0866454928031bf344c2756e5f9d14aab4b11f6",
+      "actions": 29,
+      "topOptions": 62
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "7f687c4e665a0424b865e1bc4a7a24229f5e83422973961ba8502cb7145b9233",
+      "actions": 31,
+      "topOptions": 68
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4ee6fcdb0d0afa2fda587a2076b0782cf29d4f3e7b26d278839366e0f62c6606",
+      "actions": 33,
+      "topOptions": 70
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/prices/8357f5fba93bec983b3e606cee4ae40ecb0b4433/dbLatestRelease.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight-stage cap: positional scales, completeaxis split, wholeaxis/component/ticklabel paint refinement, wholelegend andfocusedlegendtext editors. All602sourcepoints/18stringfields/35metrics/sourceaxis-header geometry/12colorcategories/32emptycategorypoints/explicitlegendcorners+2columns retained. Native spacing/autosample differences disclosed, source-bound85pxouterbottom fixed; no exhaustion claim."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "c374bce112b8fdb2d0908088db9dad26146f958bf3bcc49055e4b07bf44528a1",
+      "bytes": 2174
+    },
+    "data.json": {
+      "sha256": "0f596825d2fbc08b13426cb671734b0008d0e6df48eb5813d9b86c062c72fef0",
+      "bytes": 283607
+    },
+    "resolved-source.vl.json": {
+      "sha256": "8ef4f502271e92ed924e26092e9d624efd0075f5c1e02a8c86fba81dec4bd830",
+      "bytes": 333833
+    },
+    "G1.gg.mjs": {
+      "sha256": "75f2411ff159ef0160d956ca05dd3d9743a9fe5c040421aa82e737ed54f1b91b",
+      "bytes": 8968
+    },
+    "G2.gg.mjs": {
+      "sha256": "f1aef2d08b42e12ccd86f6ceb8d5d61917c73aba964224f7994abc9e5b39dd29",
+      "bytes": 8986
+    },
+    "G3.gg.mjs": {
+      "sha256": "a47fc2bbf570ab90ef5c9392178aa7590ff468314f4dd3d84fcb6558801e10e0",
+      "bytes": 8946
+    },
+    "G4.gg.mjs": {
+      "sha256": "58b81be4bcfe7b2e4b14fb52f6c5caaae0e6b4331e7221b6c81c60eb01ae94e8",
+      "bytes": 9124
+    },
+    "G5.gg.mjs": {
+      "sha256": "1eee913efaf25e059b5f293808f19c7f38c2357fe16ec7a08a519002c9efc5f7",
+      "bytes": 9120
+    },
+    "G6.gg.mjs": {
+      "sha256": "3292f270cb0e292d89c8a146a0866454928031bf344c2756e5f9d14aab4b11f6",
+      "bytes": 9106
+    },
+    "G7.gg.mjs": {
+      "sha256": "7f687c4e665a0424b865e1bc4a7a24229f5e83422973961ba8502cb7145b9233",
+      "bytes": 9237
+    },
+    "G8.gg.mjs": {
+      "sha256": "4ee6fcdb0d0afa2fda587a2076b0782cf29d4f3e7b26d278839366e0f62c6606",
+      "bytes": 9278
+    },
+    "vega-lite.svg": {
+      "sha256": "1e78b39d47f215cd20f10ba0683e805ed3ac6616484ef4fb75619a5459a6d961",
+      "bytes": 292642
+    },
+    "ggaction.svg": {
+      "sha256": "ad23aaae4c515b6b8192022e2ae05a0d0140a37303e927535e0f6cc48999245a",
+      "bytes": 94974
+    }
+  }
+}

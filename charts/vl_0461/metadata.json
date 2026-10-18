@@ -1,0 +1,127 @@
+{
+  "id": "vl_0461",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "b59479fb3463faabafca605e885f71f9670a39021419f0355f6aff79f4e7dfc3",
+      "actions": 20,
+      "topOptions": 51
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "7c0da5824c4fe0929e11ec397b389608ac5884700bea17f388bf3af3b32cb313",
+      "actions": 22,
+      "topOptions": 57
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "afe057fb19c08e85ce7f41967412f5d10d00551930b7cc427fb0a64ec0b1b120",
+      "actions": 23,
+      "topOptions": 61
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "377d57a18a70feab5eb71d962b24c1afd796439842f0bda71920e15462a0f91e",
+      "actions": 25,
+      "topOptions": 65
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "3ed5d6e57f00801a7959a1a3554668cd4035354f2855b5d178f746b74a259a20",
+      "actions": 29,
+      "topOptions": 68
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0f724c8b6f94744c39e1679ea650e4588d6f8ca7f9c824b40f4d5f879cdbd4c8",
+      "actions": 30,
+      "topOptions": 68
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "eeea84f657642b85f58fe6f7b28de2b3c981414464b576dada6248e03d22e822",
+      "actions": 32,
+      "topOptions": 74
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "acc6af6cd36d9df6115191216b663231e6b6f49cc627cd2f28e6b9f6b25598c6",
+      "actions": 34,
+      "topOptions": 78
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/prices/8357f5fba93bec983b3e606cee4ae40ecb0b4433/dbLatestRelease.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight-stage cap: positional scale extraction, completeaxes split, wholeaxis paint, components, groupedticks split without inventingYlabels, wholelegend andfocusedtext paint. Raw602all18stringfields/down calculation/36actualsourcepoints/6color categories/emptydisplaylabel/independentcorners unchanged; source fonts and innerplot exact. No claim frontier exhausted."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "a9c882d9e70b810858b7530336624346b40b5b59e0b0971e241c44ef06796082",
+      "bytes": 2194
+    },
+    "data.json": {
+      "sha256": "0f596825d2fbc08b13426cb671734b0008d0e6df48eb5813d9b86c062c72fef0",
+      "bytes": 283607
+    },
+    "resolved-source.vl.json": {
+      "sha256": "ac7218017d3bbf8277dfea8d2f5c260347172293e7c41baad23fc3d8a23432da",
+      "bytes": 333853
+    },
+    "G1.gg.mjs": {
+      "sha256": "b59479fb3463faabafca605e885f71f9670a39021419f0355f6aff79f4e7dfc3",
+      "bytes": 7481
+    },
+    "G2.gg.mjs": {
+      "sha256": "7c0da5824c4fe0929e11ec397b389608ac5884700bea17f388bf3af3b32cb313",
+      "bytes": 7523
+    },
+    "G3.gg.mjs": {
+      "sha256": "afe057fb19c08e85ce7f41967412f5d10d00551930b7cc427fb0a64ec0b1b120",
+      "bytes": 7499
+    },
+    "G4.gg.mjs": {
+      "sha256": "377d57a18a70feab5eb71d962b24c1afd796439842f0bda71920e15462a0f91e",
+      "bytes": 7621
+    },
+    "G5.gg.mjs": {
+      "sha256": "3ed5d6e57f00801a7959a1a3554668cd4035354f2855b5d178f746b74a259a20",
+      "bytes": 7661
+    },
+    "G6.gg.mjs": {
+      "sha256": "0f724c8b6f94744c39e1679ea650e4588d6f8ca7f9c824b40f4d5f879cdbd4c8",
+      "bytes": 7634
+    },
+    "G7.gg.mjs": {
+      "sha256": "eeea84f657642b85f58fe6f7b28de2b3c981414464b576dada6248e03d22e822",
+      "bytes": 7765
+    },
+    "G8.gg.mjs": {
+      "sha256": "acc6af6cd36d9df6115191216b663231e6b6f49cc627cd2f28e6b9f6b25598c6",
+      "bytes": 7852
+    },
+    "vega-lite.svg": {
+      "sha256": "2055752defb802f9001853ef02831595601ef76f7ea558af27c61e6169d4b566",
+      "bytes": 30410
+    },
+    "ggaction.svg": {
+      "sha256": "d61080a093f404e569f2a960f909b11187561495e20fb887b1b3496573833363",
+      "bytes": 13024
+    }
+  }
+}

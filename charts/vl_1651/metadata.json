@@ -5,66 +5,69 @@
     {
       "level": "G1",
       "code": "G1.gg.mjs",
-      "sha256": "583a01987e514a35310034fb139246a3d05ba241dd9434518f56384b336d8a4d",
-      "actions": 13,
-      "topOptions": 33
-    },
-    {
-      "level": "G2",
-      "code": "G2.gg.mjs",
-      "sha256": "5447a69c37a6c9f19078ab966e89f1e8122f42560a2b0e831d0939af61c8aac0",
+      "sha256": "c13280504d702c16a7938f3fe7aeabcfffcd702847da7a4b43d9fe9f51a286f1",
       "actions": 14,
       "topOptions": 34
     },
     {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "fe4181e3da407bdf560086ba9c63e6de1b14166107893c1bb98c6eee0ba73679",
+      "actions": 15,
+      "topOptions": 35
+    },
+    {
       "level": "G3",
       "code": "G3.gg.mjs",
-      "sha256": "f94e2a66020d64eb430fd61c6d5d913771f39ddb59d07b3bf445c6a38151602a",
-      "actions": 16,
-      "topOptions": 38
+      "sha256": "db2f272d29703560c7461b81d9c907ef829a4f8b598c7dad6e47e59f04fe070b",
+      "actions": 17,
+      "topOptions": 39
     },
     {
       "level": "G4",
       "code": "G4.gg.mjs",
-      "sha256": "4a76605031b56d3b27e703d9d12cfc1d211e0a631c62213be305804ab0fd6e8c",
-      "actions": 18,
-      "topOptions": 42
+      "sha256": "b68dfaa45f5ac394a435300683f51cb61d912418333bd98bc3212526618bde9d",
+      "actions": 19,
+      "topOptions": 43
     },
     {
       "level": "G5",
       "code": "G5.gg.mjs",
-      "sha256": "ffd6bf3de5d8dbc70c292463a7596880fc933a414b97445cd4838dec69d2db8c",
-      "actions": 19,
-      "topOptions": 46
+      "sha256": "d5accce9a048aa49f6070d0d40f0d211fdb9fc888cb65570090b445cb6a637f1",
+      "actions": 20,
+      "topOptions": 47
     },
     {
       "level": "G6",
       "code": "G6.gg.mjs",
-      "sha256": "bad247f0471837e9e91cda12d2c033d01a0095d26b699be1391d3e8e6e16fcc0",
-      "actions": 20,
-      "topOptions": 48
+      "sha256": "510381cc05dc4cbcc76d7cad8ffe11c50a4b7c1945eb803983e9ec97fcaa9de9",
+      "actions": 21,
+      "topOptions": 49
     },
     {
       "level": "G7",
       "code": "G7.gg.mjs",
-      "sha256": "9a8f970f3dd0318313036fd280d6b7a3e13d61da7d412d4c82a8dccccfe737c4",
-      "actions": 22,
-      "topOptions": 50
+      "sha256": "30073aecb950ad137bf086645f475fc9294eb87ed76419672de82e73fe8bbee9",
+      "actions": 23,
+      "topOptions": 51
     },
     {
       "level": "G8",
       "code": "G8.gg.mjs",
-      "sha256": "edae4cda03c64d7fb57beac87424425a9e173ad902b05ccd2079b0bc00fc971b",
-      "actions": 24,
-      "topOptions": 54
+      "sha256": "07d0343d236260c4cb50fba8afc80c2b67cf6cb3c8d4fd995cb80fbfe2fb1cf3",
+      "actions": 25,
+      "topOptions": 55
     }
   ],
   "sourceUrls": [],
   "notes": {
     "reason": "eight-stage-cap",
-    "explanation": "Codex reviewed full source/G1 and every subsequent exact model diff. Final full program reread; concreteOwnershipFrontier has no mandatory items. 8 genuine ownership stages, 339 actual verification checks pass with source/current runtime and exact SVG/PNG family identity. Final source plot/data/marks/labels retained; remaining creation geometry and native font-family defaults are not padding boundaries. Authorized eight-stage cap reached."
+    "explanation": "All current source/data/mark/guide and native rendering checks passed after exact actual-model correction of visible Rule width to 1px. Original meaningful stage boundaries and same-family SVG/PNG identity retained; historical wider outputs preserved."
   },
-  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
   "files": {
     "source.vl.json": {
       "sha256": "bc8a145f83bef4bae5dcb02e979ea011c27bdc17b33dd4a77a652fc2f723baad",
@@ -79,43 +82,43 @@
       "bytes": 885
     },
     "G1.gg.mjs": {
-      "sha256": "583a01987e514a35310034fb139246a3d05ba241dd9434518f56384b336d8a4d",
-      "bytes": 3511
+      "sha256": "c13280504d702c16a7938f3fe7aeabcfffcd702847da7a4b43d9fe9f51a286f1",
+      "bytes": 3549
     },
     "G2.gg.mjs": {
-      "sha256": "5447a69c37a6c9f19078ab966e89f1e8122f42560a2b0e831d0939af61c8aac0",
-      "bytes": 3436
+      "sha256": "fe4181e3da407bdf560086ba9c63e6de1b14166107893c1bb98c6eee0ba73679",
+      "bytes": 3474
     },
     "G3.gg.mjs": {
-      "sha256": "f94e2a66020d64eb430fd61c6d5d913771f39ddb59d07b3bf445c6a38151602a",
-      "bytes": 3556
+      "sha256": "db2f272d29703560c7461b81d9c907ef829a4f8b598c7dad6e47e59f04fe070b",
+      "bytes": 3594
     },
     "G4.gg.mjs": {
-      "sha256": "4a76605031b56d3b27e703d9d12cfc1d211e0a631c62213be305804ab0fd6e8c",
-      "bytes": 3530
+      "sha256": "b68dfaa45f5ac394a435300683f51cb61d912418333bd98bc3212526618bde9d",
+      "bytes": 3568
     },
     "G5.gg.mjs": {
-      "sha256": "ffd6bf3de5d8dbc70c292463a7596880fc933a414b97445cd4838dec69d2db8c",
-      "bytes": 3492
+      "sha256": "d5accce9a048aa49f6070d0d40f0d211fdb9fc888cb65570090b445cb6a637f1",
+      "bytes": 3530
     },
     "G6.gg.mjs": {
-      "sha256": "bad247f0471837e9e91cda12d2c033d01a0095d26b699be1391d3e8e6e16fcc0",
-      "bytes": 3522
+      "sha256": "510381cc05dc4cbcc76d7cad8ffe11c50a4b7c1945eb803983e9ec97fcaa9de9",
+      "bytes": 3560
     },
     "G7.gg.mjs": {
-      "sha256": "9a8f970f3dd0318313036fd280d6b7a3e13d61da7d412d4c82a8dccccfe737c4",
-      "bytes": 3570
+      "sha256": "30073aecb950ad137bf086645f475fc9294eb87ed76419672de82e73fe8bbee9",
+      "bytes": 3608
     },
     "G8.gg.mjs": {
-      "sha256": "edae4cda03c64d7fb57beac87424425a9e173ad902b05ccd2079b0bc00fc971b",
-      "bytes": 3620
+      "sha256": "07d0343d236260c4cb50fba8afc80c2b67cf6cb3c8d4fd995cb80fbfe2fb1cf3",
+      "bytes": 3658
     },
     "vega-lite.svg": {
       "sha256": "1141231895f15d8abb55816b43f4bd0f4648aa57d1802700e3ed2bde08fdb88a",
       "bytes": 8309
     },
     "ggaction.svg": {
-      "sha256": "9a5f9b5e2920d4841db6b1d9b9fe5f1c3e0530d6957ee34dbd8e82b3cb0447f2",
+      "sha256": "af1842ab53fa134abbdbfdb3e284058360f3fad8f41bd86eca7eeb353fd9933c",
       "bytes": 6260
     }
   }

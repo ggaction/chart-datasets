@@ -1,0 +1,125 @@
+{
+  "id": "vl_1391",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "49564aeafff445efa36d5fd49a856d8e5f1beb57fdb2a320ec02639af0b7c820",
+      "actions": 19,
+      "topOptions": 38
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e6dd4547d680b2695e79055596f2314ae24abc079f8561977b235d54aa7844db",
+      "actions": 21,
+      "topOptions": 42
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "983a430349ebb1afe096724ad724d0916041a2484ce2f8ea1a6efeba0fe40f53",
+      "actions": 22,
+      "topOptions": 46
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "58f1825e512d946e84199c925f5f74302f9967f999b73724ab3fdd1fb6eb2724",
+      "actions": 24,
+      "topOptions": 52
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "069447c2378b1e1ef3a2fd947133f6216e2cfe52d9655e7555d9fad4fa55f2b7",
+      "actions": 28,
+      "topOptions": 54
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "c71eccd277bb7ac8356a7afdef01cd1362cd606e191d47312e9caada4f3dc321",
+      "actions": 30,
+      "topOptions": 54
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "96ff7d062bb50a3db5e2de0a3718bea02da44b3093773c26c099da009cad99b7",
+      "actions": 31,
+      "topOptions": 56
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "a6e22eda216eb11afed99737f5c8bec7725788688d7f6c0200dec532c9a438b0",
+      "actions": 32,
+      "topOptions": 58
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful equivalent source-preserving programs, 19/21/22/24/28/30/31/32 actions. Original root58 and two separate5-row inline inputs retained exactly; source fixed pixel annotations reproduced through documented datum180+dy212. Source axes/20ticks/29font metrics/line legend/canvas preserved. Complete axes survive every later refinement; no primitive renderer operations, dummy styles or duplicate moved fields."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "b7f5aa30a404f30c16f6686e0e7c57219bc1c528579709fe3a9743615d2ab503",
+      "bytes": 6949
+    },
+    "data.json": {
+      "sha256": "125f54e76e9fd0e1b1b48cde39bbabb74c7e81bd76d9edffbafe1d3e6e519a3b",
+      "bytes": 3822
+    },
+    "resolved-source.vl.json": {
+      "sha256": "47f7cfaa546c307943f7d377acfb0dc76cfc246804740bc77add8e22151c37b7",
+      "bytes": 6950
+    },
+    "G1.gg.mjs": {
+      "sha256": "49564aeafff445efa36d5fd49a856d8e5f1beb57fdb2a320ec02639af0b7c820",
+      "bytes": 6716
+    },
+    "G2.gg.mjs": {
+      "sha256": "e6dd4547d680b2695e79055596f2314ae24abc079f8561977b235d54aa7844db",
+      "bytes": 6718
+    },
+    "G3.gg.mjs": {
+      "sha256": "983a430349ebb1afe096724ad724d0916041a2484ce2f8ea1a6efeba0fe40f53",
+      "bytes": 6678
+    },
+    "G4.gg.mjs": {
+      "sha256": "58f1825e512d946e84199c925f5f74302f9967f999b73724ab3fdd1fb6eb2724",
+      "bytes": 6888
+    },
+    "G5.gg.mjs": {
+      "sha256": "069447c2378b1e1ef3a2fd947133f6216e2cfe52d9655e7555d9fad4fa55f2b7",
+      "bytes": 6884
+    },
+    "G6.gg.mjs": {
+      "sha256": "c71eccd277bb7ac8356a7afdef01cd1362cd606e191d47312e9caada4f3dc321",
+      "bytes": 6870
+    },
+    "G7.gg.mjs": {
+      "sha256": "96ff7d062bb50a3db5e2de0a3718bea02da44b3093773c26c099da009cad99b7",
+      "bytes": 6934
+    },
+    "G8.gg.mjs": {
+      "sha256": "a6e22eda216eb11afed99737f5c8bec7725788688d7f6c0200dec532c9a438b0",
+      "bytes": 6956
+    },
+    "vega-lite.svg": {
+      "sha256": "3b795c3175a259a3b930158705465ad3d3bcb8652ad0bd6a33008a07c95a7287",
+      "bytes": 16082
+    },
+    "ggaction.svg": {
+      "sha256": "c709fcd04b658972952a52235d616f5e9c46c4cf709935fce97040e08b1e1606",
+      "bytes": 13506
+    }
+  }
+}
