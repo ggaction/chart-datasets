@@ -27,7 +27,7 @@ export function buildChart() {
     .editPointMark({ shape: "square", fill: "#4c78a8", opacity: 0.7 })
     .encodePointRadius({ value: Math.sqrt(70 / Math.PI) })
     .createRuleMark({ id: "rulePlot", data: "data", missing: "skip" })
-    .editRuleMark({ stroke: "black" })
+    .editRuleMark({ stroke: "black", strokeWidth: 1 })
     .encodeXRange({ target: "rulePlot", lower: "lowerBound", upper: "upperBound" })
     .encodeY({ target: "rulePlot", field: "title", fieldType: "ordinal" })
     .createGrid({ horizontal: false, vertical: { color: "#ddd", lineWidth: 1 } })

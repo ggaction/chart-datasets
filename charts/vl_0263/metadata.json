@@ -1,0 +1,127 @@
+{
+  "id": "vl_0263",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "e479bc303439c3c425ded9a580d2e3531e282fc8371c29d912e8fb335041d5f4",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "c7a3a8a2dc573b7456a6278ef725c0b609790ba7909c167235a6baf28b066b0e",
+      "actions": 13,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "dcc81af6b51237a32335784908129660081f65984d1b749a6deea7f7427402f1",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4c58157df36e67663531c6093a07f519fe43e278234494a6fc0a14efd559df14",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "da954b4f49c12e1719c2d1ada0e1116fcff48bb372d6e3a0058a97e6719e7d39",
+      "actions": 16,
+      "topOptions": 31
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "19b8b82c25667314f31af05912b5414fd01548a7fbedf089a4268f63b95e2a9e",
+      "actions": 17,
+      "topOptions": 32
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "9253385f7d4e6d253b8da6e290524d0f7ef04f6602a2e5b90f9d6987a87b43a5",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "88ab8b4c6b76ceaa27c51e273882eb2ccac55771ac7a1de4f1da1009f42e7b33",
+      "actions": 18,
+      "topOptions": 34
+    }
+  ],
+  "sourceUrls": [
+    "https://www.trafforddatalab.io/analysis/local_election/2022/data/political_control_2022.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Root reviewed every actual school G1 and stage patch before execution. Both rejected unexecuted drafts and paid repairs retained; normal source and independent nativegolden proof pass for all8. Three-option budget respected and complete-axis-first flow preserved. Eight-stagecap not exhausted frontier."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "beddfc586b224debb3a3daf5cfdf62e80e1c8412fd003c99e9dddc03a1d2d41c",
+      "bytes": 2807
+    },
+    "data.json": {
+      "sha256": "96ab46b284e833cb32bf18546e06474942ce198f519ab6febe7bd60791d3532a",
+      "bytes": 14262
+    },
+    "resolved-source.vl.json": {
+      "sha256": "836eab98a4276fcf940a88aa9ecfac094909e44e055e1f0935b1e30fe8170d1a",
+      "bytes": 18999
+    },
+    "G1.gg.mjs": {
+      "sha256": "e479bc303439c3c425ded9a580d2e3531e282fc8371c29d912e8fb335041d5f4",
+      "bytes": 6536
+    },
+    "G2.gg.mjs": {
+      "sha256": "c7a3a8a2dc573b7456a6278ef725c0b609790ba7909c167235a6baf28b066b0e",
+      "bytes": 6520
+    },
+    "G3.gg.mjs": {
+      "sha256": "dcc81af6b51237a32335784908129660081f65984d1b749a6deea7f7427402f1",
+      "bytes": 6450
+    },
+    "G4.gg.mjs": {
+      "sha256": "4c58157df36e67663531c6093a07f519fe43e278234494a6fc0a14efd559df14",
+      "bytes": 6484
+    },
+    "G5.gg.mjs": {
+      "sha256": "da954b4f49c12e1719c2d1ada0e1116fcff48bb372d6e3a0058a97e6719e7d39",
+      "bytes": 6501
+    },
+    "G6.gg.mjs": {
+      "sha256": "19b8b82c25667314f31af05912b5414fd01548a7fbedf089a4268f63b95e2a9e",
+      "bytes": 6502
+    },
+    "G7.gg.mjs": {
+      "sha256": "9253385f7d4e6d253b8da6e290524d0f7ef04f6602a2e5b90f9d6987a87b43a5",
+      "bytes": 6534
+    },
+    "G8.gg.mjs": {
+      "sha256": "88ab8b4c6b76ceaa27c51e273882eb2ccac55771ac7a1de4f1da1009f42e7b33",
+      "bytes": 6576
+    },
+    "vega-lite.svg": {
+      "sha256": "b60d32f9eca07600ed6dd0aa3454c3bb1f17d8b24b50c9f5b5eb2afabffa5ac2",
+      "bytes": 20794
+    },
+    "ggaction.svg": {
+      "sha256": "7bd4e8c0acf7ef561b0aed3195cc11fde57cfd03bf9f948f4d01253e06910cdb",
+      "bytes": 14328
+    }
+  }
+}

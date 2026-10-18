@@ -1,0 +1,132 @@
+{
+  "id": "vl_1395",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "977a20378b5ccc6823dc0475d3d9fb1e943e5aecfc2f3c249c7b19ea0246a05d",
+      "actions": 236,
+      "topOptions": 512
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1681acb46f2dbb64c9c60b831eb320159de014962d5088075bdff3dd5264df9a",
+      "actions": 256,
+      "topOptions": 562
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "8320fda5b0b2be495c11939fbdf3beb53248d3612b73e3944ee7565ffa4aee09",
+      "actions": 266,
+      "topOptions": 572
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "da0c377f38ea8f450b82672fb802c190999e286ee257dfd6feafb561e743bcb9",
+      "actions": 277,
+      "topOptions": 584
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7c5cb22e97dc5bf15db7ea8d51ab891ffcf3bf522f5eee6533abaeb19e45f93d",
+      "actions": 289,
+      "topOptions": 607
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "5bfccb4c910d0f0841c54d0d722429485350f6dc995fb3ec98407cdf79025e6b",
+      "actions": 300,
+      "topOptions": 623
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "435ac7dc96c56da476f09396f2c8a906d06f7ac963187cf9aef5a74bcb92161f",
+      "actions": 310,
+      "topOptions": 633
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "88b0b92f51a189eea7e59aa7fa6b45641ae2aa12074c0ee0bc9b733675166b46",
+      "actions": 312,
+      "topOptions": 636
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight equivalent meaningful stages: complete source chart, positional scales, color scales, whole axis appearance, axis components, focused ticks/labels, grid paint, focused legend. Source30raw/zeros/oneOfpartitions, Y0..26, 10inner60x200plots, exactsourcefonts/headers/title/caption/defaultlegend, exactfamilySVG/PNG/graphics pass. Allactions<=3 and model-authored, no chartpixelinspection."
+  },
+  "historicalRuntimeCommits": [],
+  "historicalVerificationRuntimeUnrecordedStages": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "G8"
+  ],
+  "files": {
+    "source.vl.json": {
+      "sha256": "3516ae3cb531e8759cdcfdcbe29c475d3408f08da588b8178f00a76319b2f1b4",
+      "bytes": 3900
+    },
+    "data.json": {
+      "sha256": "b8403ca270d9fa292ec8aab5b430ad8247e36187cbfd0b8be5fd9e1a94feb218",
+      "bytes": 2624
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0a5e226c5364d7519e4222ac4312674e94409f9c9aee5ca52c637e5c7dd45075",
+      "bytes": 3901
+    },
+    "G1.gg.mjs": {
+      "sha256": "977a20378b5ccc6823dc0475d3d9fb1e943e5aecfc2f3c249c7b19ea0246a05d",
+      "bytes": 31487
+    },
+    "G2.gg.mjs": {
+      "sha256": "1681acb46f2dbb64c9c60b831eb320159de014962d5088075bdff3dd5264df9a",
+      "bytes": 31367
+    },
+    "G3.gg.mjs": {
+      "sha256": "8320fda5b0b2be495c11939fbdf3beb53248d3612b73e3944ee7565ffa4aee09",
+      "bytes": 31412
+    },
+    "G4.gg.mjs": {
+      "sha256": "da0c377f38ea8f450b82672fb802c190999e286ee257dfd6feafb561e743bcb9",
+      "bytes": 32105
+    },
+    "G5.gg.mjs": {
+      "sha256": "7c5cb22e97dc5bf15db7ea8d51ab891ffcf3bf522f5eee6533abaeb19e45f93d",
+      "bytes": 32195
+    },
+    "G6.gg.mjs": {
+      "sha256": "5bfccb4c910d0f0841c54d0d722429485350f6dc995fb3ec98407cdf79025e6b",
+      "bytes": 32118
+    },
+    "G7.gg.mjs": {
+      "sha256": "435ac7dc96c56da476f09396f2c8a906d06f7ac963187cf9aef5a74bcb92161f",
+      "bytes": 32458
+    },
+    "G8.gg.mjs": {
+      "sha256": "88b0b92f51a189eea7e59aa7fa6b45641ae2aa12074c0ee0bc9b733675166b46",
+      "bytes": 32516
+    },
+    "vega-lite.svg": {
+      "sha256": "7b94a1032de9e13daee2a93e049cfb821f95ed018e2d0e2a9d8464e4bb9a1857",
+      "bytes": 50784
+    },
+    "ggaction.svg": {
+      "sha256": "8aa8b02d7ce95fa7f470a934620c53bbc66e59f2d563bbe3e8f733ca9b2b41e1",
+      "bytes": 32348
+    }
+  }
+}

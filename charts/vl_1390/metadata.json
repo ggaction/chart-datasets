@@ -1,0 +1,125 @@
+{
+  "id": "vl_1390",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "5aba00f43913fefdbfb058d47ef7b5f12ab68501bd78294f5193c91e757d7406",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b350b7a16e1d0334fa41dd58582e0139726bb39b317dfa06e16c567405fb8f04",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "fd30b722060ff2e92fd99224c5ee7906cfc148962d407ff7ae54fa5964289ffd",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "33f0ce20155c86b416d62882438fdb55c8aeb71e0ba07e87907a6b0542226df2",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "1c4e0ea0278b85f47d79909f5a820f9fcdf9860ba1826ad7ddf5f8a2acd6631f",
+      "actions": 22,
+      "topOptions": 44
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "28e704d07975af2d620af755e47ec2d0b84e74ab081ee62c225e7f6a9c037005",
+      "actions": 24,
+      "topOptions": 44
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "36e2320eb7dd3866b293bcec3f25b7ae4da83e13b3cb02d53d7ac8162d68c5ca",
+      "actions": 24,
+      "topOptions": 45
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "fc6ada03ee5e1321d629d2647e922d1c4f649c5f2c2bf30cac4816b1eabd0d9c",
+      "actions": 25,
+      "topOptions": 46
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful progressively finer equivalent programs accepted. Native attached count labels refine to Text+encodeText while the main bar facade remains. All9 raw rows,18 marks,21 guide glyphs, source600x180 plot/706x239 canvas and17 background vertical grids preserved. Eight-stage cap, not exhaustion."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "35cc42e6b964c9df00197f39efdb7cbc6937f1a6fa8787ba9125f85d69e68f52",
+      "bytes": 1910
+    },
+    "data.json": {
+      "sha256": "a7c083426d8fc081f8f3abafbc0ce35cfbd607c80d78aab1d05796b969391d74",
+      "bytes": 502
+    },
+    "resolved-source.vl.json": {
+      "sha256": "19d6952d6ddb4bb62245430d54dfe75462a6d9eca8e6d967df9a9baf42109814",
+      "bytes": 1911
+    },
+    "G1.gg.mjs": {
+      "sha256": "5aba00f43913fefdbfb058d47ef7b5f12ab68501bd78294f5193c91e757d7406",
+      "bytes": 8096
+    },
+    "G2.gg.mjs": {
+      "sha256": "b350b7a16e1d0334fa41dd58582e0139726bb39b317dfa06e16c567405fb8f04",
+      "bytes": 8114
+    },
+    "G3.gg.mjs": {
+      "sha256": "fd30b722060ff2e92fd99224c5ee7906cfc148962d407ff7ae54fa5964289ffd",
+      "bytes": 8036
+    },
+    "G4.gg.mjs": {
+      "sha256": "33f0ce20155c86b416d62882438fdb55c8aeb71e0ba07e87907a6b0542226df2",
+      "bytes": 8214
+    },
+    "G5.gg.mjs": {
+      "sha256": "1c4e0ea0278b85f47d79909f5a820f9fcdf9860ba1826ad7ddf5f8a2acd6631f",
+      "bytes": 8294
+    },
+    "G6.gg.mjs": {
+      "sha256": "28e704d07975af2d620af755e47ec2d0b84e74ab081ee62c225e7f6a9c037005",
+      "bytes": 8288
+    },
+    "G7.gg.mjs": {
+      "sha256": "36e2320eb7dd3866b293bcec3f25b7ae4da83e13b3cb02d53d7ac8162d68c5ca",
+      "bytes": 8303
+    },
+    "G8.gg.mjs": {
+      "sha256": "fc6ada03ee5e1321d629d2647e922d1c4f649c5f2c2bf30cac4816b1eabd0d9c",
+      "bytes": 8348
+    },
+    "vega-lite.svg": {
+      "sha256": "f3ca669763987d66adb4a245c55656d8742f72f57bb7d85dedb0f6aa6f741b7e",
+      "bytes": 15847
+    },
+    "ggaction.svg": {
+      "sha256": "59b25a219a09afc0e98e1ffded2abe0fca1aa1131f1f610fb82818ef14ea4db8",
+      "bytes": 11262
+    }
+  }
+}

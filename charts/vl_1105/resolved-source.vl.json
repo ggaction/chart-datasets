@@ -1,0 +1,233 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 100,
+  "width": 400,
+  "data": {
+    "values": [
+      {
+        "gender": "Women",
+        "group": "White majority",
+        "value": "-0.016494845",
+        "model": "Uncontrolled",
+        "min": "-0.030412371",
+        "max": "-0.004123711",
+        "action": ""
+      },
+      {
+        "gender": "Women",
+        "group": "White other",
+        "value": "-0.03814433",
+        "model": "Uncontrolled",
+        "min": "-0.109278351",
+        "max": "0.042268041",
+        "action": ""
+      },
+      {
+        "gender": "Women",
+        "group": "Indian",
+        "value": "0.015979381",
+        "model": "Uncontrolled",
+        "min": "-0.079896907",
+        "max": "0.113402062",
+        "action": ""
+      },
+      {
+        "gender": "Women",
+        "group": "Pakistani & Bangladeshi",
+        "value": "-0.195876289",
+        "model": "Uncontrolled",
+        "min": "-0.359793814",
+        "max": "-0.035051546",
+        "action": ""
+      },
+      {
+        "gender": "Women",
+        "group": "South East Asian",
+        "value": "-0.117010309",
+        "model": "Uncontrolled",
+        "min": "-0.353608247",
+        "max": "0.114948454",
+        "action": ""
+      },
+      {
+        "gender": "Women",
+        "group": "Black groups",
+        "value": "-0.109278351",
+        "model": "Uncontrolled",
+        "min": "-0.219072165",
+        "max": "-0.008762887",
+        "action": ""
+      },
+      {
+        "gender": "Women",
+        "group": "White majority",
+        "value": "-0.01761658",
+        "model": "Controlled",
+        "min": "-0.026943005",
+        "max": "0.001036269",
+        "action": ""
+      },
+      {
+        "gender": "Women",
+        "group": "White other",
+        "value": "-0.053367876",
+        "model": "Controlled",
+        "min": "-0.123316062",
+        "max": "0.021243523",
+        "action": ""
+      },
+      {
+        "gender": "Women",
+        "group": "Indian",
+        "value": "0.02746114",
+        "model": "Controlled",
+        "min": "-0.075129534",
+        "max": "0.130051813",
+        "action": ""
+      },
+      {
+        "gender": "Women",
+        "group": "Pakistani & Bangladeshi",
+        "value": "-0.143523316",
+        "model": "Controlled",
+        "min": "-0.281865285",
+        "max": "-0.003626943",
+        "action": ""
+      },
+      {
+        "gender": "Women",
+        "group": "South East Asian",
+        "value": "-0.132642487",
+        "model": "Controlled",
+        "min": "-0.372020725",
+        "max": "0.111398964",
+        "action": ""
+      },
+      {
+        "gender": "Women",
+        "group": "Black groups",
+        "value": "-0.121761658",
+        "model": "Controlled",
+        "min": "-0.225906736",
+        "max": "-0.019170984",
+        "action": ""
+      },
+      {
+        "gender": "Men",
+        "group": "White majority",
+        "value": "-0.02",
+        "model": "Uncontrolled",
+        "min": "-0.03",
+        "max": "-0.01",
+        "action": "Physically and verbally attacked"
+      },
+      {
+        "gender": "Men",
+        "group": "White majority",
+        "value": "-0.02",
+        "model": "Controlled",
+        "min": "-0.03",
+        "max": "0",
+        "action": "Physically and verbally attacked"
+      },
+      {
+        "gender": "Men",
+        "group": "White majority",
+        "value": "-0.01",
+        "model": "Uncontrolled",
+        "min": "-0.02",
+        "max": "-0.002",
+        "action": "Felt unsafe"
+      },
+      {
+        "gender": "Men",
+        "group": "White majority",
+        "value": "-0.01",
+        "model": "Controlled",
+        "min": "-0.02",
+        "max": "-0.002",
+        "action": "Felt unsafe"
+      }
+    ]
+  },
+  "transform": [
+    {
+      "calculate": "datum.action+datum.group+datum.model",
+      "as": "groupaction"
+    },
+    {
+      "filter": "datum.gender=='Men'"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "size": 50,
+        "opacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "value",
+          "type": "quantitative",
+          "axis": {}
+        },
+        "shape": {
+          "field": "model",
+          "type": "nominal",
+          "legend": {
+            "labelColor": "grey",
+            "symbolFillColor": "grey",
+            "title": "Model",
+            "titleColor": "grey"
+          }
+        },
+        "y": {
+          "field": "groupaction",
+          "type": "nominal",
+          "axis": {
+            "labels": false,
+            "ticks": false
+          }
+        },
+        "color": {
+          "field": "action",
+          "type": "nominal",
+          "scale": {
+            "scheme": "dark2"
+          }
+        },
+        "fill": {
+          "field": "action",
+          "type": "nominal",
+          "scale": {
+            "scheme": "dark2"
+          },
+          "legend": {}
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "rule"
+      },
+      "encoding": {
+        "x": {
+          "field": "min",
+          "type": "quantitative"
+        },
+        "x2": {
+          "field": "max"
+        },
+        "y": {
+          "field": "groupaction",
+          "type": "nominal"
+        },
+        "color": {
+          "field": "action",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

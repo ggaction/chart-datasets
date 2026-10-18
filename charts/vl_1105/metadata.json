@@ -1,0 +1,127 @@
+{
+  "id": "vl_1105",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6340505b8cd3c0691828ff17a17b1995b2613399cc622c853dac73a98c757bef",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "08cb7e9790bc54e2966a689bb4499c4611953fc90e8d7e879431ca04cbe1d31c",
+      "actions": 22,
+      "topOptions": 49
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "d9e3430a050c462a2a1a3a3553736b4e3d35abef8a0ae9bdf02310c30e869bec",
+      "actions": 25,
+      "topOptions": 59
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "29d8b68ea45ea22c2aa8347eed53168ea1fa961f8a6304824ca0e480cebe98cc",
+      "actions": 29,
+      "topOptions": 64
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7a54c4c35c04f701c171b80857093b46c1821faef1d777aef8ef81d85a89319c",
+      "actions": 30,
+      "topOptions": 68
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "912e18abf26669d05a6677df9451dd4b3b1787ed5ad29d89115ccb7943e87f42",
+      "actions": 32,
+      "topOptions": 71
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "3f7718ed0fac4b4aafbe5d5cc6566bfd5e3d7f2817abac456d8d04f640ba9178",
+      "actions": 35,
+      "topOptions": 76
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4ca5328d6bbd1db7ce1386a9bfca8cd169ee52370f3477256568869d78eadfd7",
+      "actions": 36,
+      "topOptions": 76
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/EconomicsObservatory/ECOvisualisations/main/articles/how-did-levels-of-uk-hate-crime-change-during-and-after-covid-19/data/f5.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful equivalent programs; complete axes then focused edits, no fake sourceY components. Eight-stage cap only, source legend ownership refinements remain possible beyond cap. All actual glyph contours and source data/style/geometry validated against corrected v3 proof."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "6d82a43cef5bae42758b9e53881ac1dbc5b6cdb91bc0d2e81fd250ed87dfa628",
+      "bytes": 1879
+    },
+    "data.json": {
+      "sha256": "b7422a65a1fc7e79b27ac87f3d53aab1dc9a43199cd37e71cf20761a42127410",
+      "bytes": 3035
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e8b5184a800a851bd82ac623fb0de86cf56621cdbd9bc81973be2afd76d87e5c",
+      "bytes": 5332
+    },
+    "G1.gg.mjs": {
+      "sha256": "6340505b8cd3c0691828ff17a17b1995b2613399cc622c853dac73a98c757bef",
+      "bytes": 8178
+    },
+    "G2.gg.mjs": {
+      "sha256": "08cb7e9790bc54e2966a689bb4499c4611953fc90e8d7e879431ca04cbe1d31c",
+      "bytes": 8187
+    },
+    "G3.gg.mjs": {
+      "sha256": "d9e3430a050c462a2a1a3a3553736b4e3d35abef8a0ae9bdf02310c30e869bec",
+      "bytes": 8112
+    },
+    "G4.gg.mjs": {
+      "sha256": "29d8b68ea45ea22c2aa8347eed53168ea1fa961f8a6304824ca0e480cebe98cc",
+      "bytes": 8187
+    },
+    "G5.gg.mjs": {
+      "sha256": "7a54c4c35c04f701c171b80857093b46c1821faef1d777aef8ef81d85a89319c",
+      "bytes": 8139
+    },
+    "G6.gg.mjs": {
+      "sha256": "912e18abf26669d05a6677df9451dd4b3b1787ed5ad29d89115ccb7943e87f42",
+      "bytes": 8290
+    },
+    "G7.gg.mjs": {
+      "sha256": "3f7718ed0fac4b4aafbe5d5cc6566bfd5e3d7f2817abac456d8d04f640ba9178",
+      "bytes": 8337
+    },
+    "G8.gg.mjs": {
+      "sha256": "4ca5328d6bbd1db7ce1386a9bfca8cd169ee52370f3477256568869d78eadfd7",
+      "bytes": 8334
+    },
+    "vega-lite.svg": {
+      "sha256": "0dd61869cba6e2d84ae443f953b7ecf8c5c43f5aaa3857644473d3e42c2d3570",
+      "bytes": 17865
+    },
+    "ggaction.svg": {
+      "sha256": "b5c40c76ad18ab2fb092088135cd20645eddde4494eaa4f8c95696b6ea7542ad",
+      "bytes": 9626
+    }
+  }
+}

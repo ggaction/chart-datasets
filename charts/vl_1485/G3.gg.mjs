@@ -22,7 +22,7 @@ export function buildChart() {
         { field: "x", op: "max", as: "max_x" }
       ]
     })
-    .createRuleMark({ id: "rangeRule", stroke: "black" })
+    .createRuleMark({ id: "rangeRule", stroke: "black", strokeWidth: 1 })
     .encodeY({
       field: "proofSingleGroup",
       fieldType: "nominal",

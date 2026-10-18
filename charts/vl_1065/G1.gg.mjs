@@ -110,6 +110,6 @@ export function buildChart() {
         title: { text: "age", fontSize: 11, fontWeight: 700, offset: 27 }
       }
     })
-    .createGrid({ vertical: { color: "#ddd" } })
+    .editBarMark({ stroke: false }).createGrid({ horizontal: false, vertical:  { color: "#ddd" } })
     .createLegend({ position: "top", labels: { fontSize: 10 }, titleStyle: { fontSize: 11, fontWeight: 700 } });
 }

@@ -37,7 +37,7 @@ export function buildChart() {
     .encodeY({ field: "ix_n", target: "rules", fieldType: "quantitative" })
     .encodeStroke({ target: "rules", field: "cluster_size_n", fieldType: "quantitative" })
     .editStrokeScale({ target: "rules", domain: [2, 1865], range: { palette: "blues" } })
-    .editRuleMark({ strokeWidth: 2 })
+    .editRuleMark({ strokeWidth: 1 })
 .createGuides({ axes: false, grid: false, legend: { target: "rules", channels: ["stroke"], title: "Cluster size", titleStyle: { fontSize: 11, fontFamily: "sans-serif" }, labels: { format: ",.0f", fontSize: 10, fontFamily: "sans-serif" }, position: "right" } })
     .editLegendTitle({ target: "rules", fontWeight: 700 })
     .editLegend({ target: "rules", gradient: { length: 200, opacity: 0.7 } })

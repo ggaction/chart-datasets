@@ -5,51 +5,51 @@
     {
       "level": "G1",
       "code": "G1.gg.mjs",
-      "sha256": "3adb88adc5b5db306e44a8d5735e197f0d92831c871bb834fe5d54480b7f37d2",
+      "sha256": "b4c71cd58b132f6748b2565294fe33c3dcf018e79b9795b016360043f0c78e25",
       "actions": 14,
-      "topOptions": 33
+      "topOptions": 34
     },
     {
       "level": "G2",
       "code": "G2.gg.mjs",
-      "sha256": "0dccabf6658fa4ddff493f451004906bd72bce35040eade94ebf84c1bef95e52",
+      "sha256": "3f51a0fb1289be7928dc13f8bc75467304307025f1bdc04ae57c932b2cb7d8a1",
       "actions": 15,
-      "topOptions": 37
+      "topOptions": 38
     },
     {
       "level": "G3",
       "code": "G3.gg.mjs",
-      "sha256": "12e5a9462c93a9cf6f85c2fbf7d473d3e626ca830a746e2622814ced4276f8cb",
+      "sha256": "cf008dde6bb9b4b9cefc0024b3fb2762fef41ffcd1e1d9f3e4ff19eab66c7edf",
       "actions": 16,
-      "topOptions": 38
+      "topOptions": 39
     },
     {
       "level": "G4",
       "code": "G4.gg.mjs",
-      "sha256": "af2a85e36212103c58135a3e451233c28fd6f128363c9f87820d299dd0e23da9",
+      "sha256": "7d930405cc0c235c9218f3a0f2b0d85daec15709a9d7a7a175b1e5ca872d68bb",
       "actions": 18,
-      "topOptions": 44
+      "topOptions": 45
     },
     {
       "level": "G5",
       "code": "G5.gg.mjs",
-      "sha256": "a3dbc6d8424df51c5199b8a3eec3612b5e41797992e1a4e7d8996127280fa12d",
+      "sha256": "1d1331bc4c2d85f95103121763cb6c58b36e8fb5102430337c2a84b3d4539f8f",
       "actions": 22,
-      "topOptions": 44
+      "topOptions": 45
     },
     {
       "level": "G6",
       "code": "G6.gg.mjs",
-      "sha256": "fee8f647a7b61e1e339123a5b7e2f10446e54e7fd1339ee43b646bb5c322f0d0",
+      "sha256": "170092fa275efd50e4d1d4c80e999071fce63c941c21b5cd6f4d469d4c14e88d",
       "actions": 23,
-      "topOptions": 45
+      "topOptions": 46
     },
     {
       "level": "G7",
       "code": "G7.gg.mjs",
-      "sha256": "74f188d8ad4de92dc2a5063e4455f7449adc13e5b47db30b64d8ccaee348aa9d",
+      "sha256": "175e8d3e4afcc27abbb4c601d3a4a2cfe1e9308345f3f1c1455aa651b95628cd",
       "actions": 24,
-      "topOptions": 46
+      "topOptions": 47
     }
   ],
   "sourceUrls": [
@@ -57,9 +57,12 @@
   ],
   "notes": {
     "reason": "frontier-exhausted",
-    "explanation": "Codex full final G7 source/data/mark/axis review: all meaningful paint and scale boundaries exhausted. Source five-entry ellipsis display map must stay at Y-axis creation: independent current public canary reproduces full-name margin failure and passes with exact map/glyph metrics; protection is source/hash-bound. Source point opacity bridge is optional, default grid width1 is not a stage. Rejected G8 model attempts remain historical with actual usage, no new model response or chart pixels."
+    "explanation": "All current source/data/mark/guide and native rendering checks passed after exact actual-model correction of visible Rule width to 1px. Original meaningful stage boundaries and same-family SVG/PNG identity retained; historical wider outputs preserved."
   },
-  "historicalRuntimeCommit": "690767d53415b93d22321c7915b0e2eddda24071",
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
   "files": {
     "source.vl.json": {
       "sha256": "977ce1cf691d95aa1b972fd94d0d3ce2c1496cc460a7c64f426e9ac55a619ea5",
@@ -74,39 +77,39 @@
       "bytes": 2483
     },
     "G1.gg.mjs": {
-      "sha256": "3adb88adc5b5db306e44a8d5735e197f0d92831c871bb834fe5d54480b7f37d2",
-      "bytes": 5729
+      "sha256": "b4c71cd58b132f6748b2565294fe33c3dcf018e79b9795b016360043f0c78e25",
+      "bytes": 5745
     },
     "G2.gg.mjs": {
-      "sha256": "0dccabf6658fa4ddff493f451004906bd72bce35040eade94ebf84c1bef95e52",
-      "bytes": 5723
+      "sha256": "3f51a0fb1289be7928dc13f8bc75467304307025f1bdc04ae57c932b2cb7d8a1",
+      "bytes": 5739
     },
     "G3.gg.mjs": {
-      "sha256": "12e5a9462c93a9cf6f85c2fbf7d473d3e626ca830a746e2622814ced4276f8cb",
-      "bytes": 5732
+      "sha256": "cf008dde6bb9b4b9cefc0024b3fb2762fef41ffcd1e1d9f3e4ff19eab66c7edf",
+      "bytes": 5748
     },
     "G4.gg.mjs": {
-      "sha256": "af2a85e36212103c58135a3e451233c28fd6f128363c9f87820d299dd0e23da9",
-      "bytes": 5868
+      "sha256": "7d930405cc0c235c9218f3a0f2b0d85daec15709a9d7a7a175b1e5ca872d68bb",
+      "bytes": 5884
     },
     "G5.gg.mjs": {
-      "sha256": "a3dbc6d8424df51c5199b8a3eec3612b5e41797992e1a4e7d8996127280fa12d",
-      "bytes": 5883
+      "sha256": "1d1331bc4c2d85f95103121763cb6c58b36e8fb5102430337c2a84b3d4539f8f",
+      "bytes": 5899
     },
     "G6.gg.mjs": {
-      "sha256": "fee8f647a7b61e1e339123a5b7e2f10446e54e7fd1339ee43b646bb5c322f0d0",
-      "bytes": 5927
+      "sha256": "170092fa275efd50e4d1d4c80e999071fce63c941c21b5cd6f4d469d4c14e88d",
+      "bytes": 5943
     },
     "G7.gg.mjs": {
-      "sha256": "74f188d8ad4de92dc2a5063e4455f7449adc13e5b47db30b64d8ccaee348aa9d",
-      "bytes": 5948
+      "sha256": "175e8d3e4afcc27abbb4c601d3a4a2cfe1e9308345f3f1c1455aa651b95628cd",
+      "bytes": 5964
     },
     "vega-lite.svg": {
       "sha256": "e337324d278549df30432d77354fd64484a39c466f9c39cfabb9fd58798a1b20",
       "bytes": 11866
     },
     "ggaction.svg": {
-      "sha256": "09a19119344af21660c39525dc346ab5e8f3bf6ff39b6668e7331b084d9a70e7",
+      "sha256": "e6b1886406ba1f2191dc205d4310278b50302a01acaf0db557f0b87f6d9a5924",
       "bytes": 7415
     }
   }

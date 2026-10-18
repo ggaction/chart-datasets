@@ -1,0 +1,473 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "values": [
+      {
+        "Year": 2022,
+        "Series": "Nominal Revenue",
+        "Revenue": 26210000000,
+        "Value": 26210000000
+      },
+      {
+        "Year": 2021,
+        "Series": "Nominal Revenue",
+        "Revenue": 25800000000,
+        "Value": 25800000000
+      },
+      {
+        "Year": 2020,
+        "Series": "Nominal Revenue",
+        "Revenue": 25440000000,
+        "Value": 25440000000
+      },
+      {
+        "Year": 2019,
+        "Series": "Nominal Revenue",
+        "Revenue": 26070000000,
+        "Value": 26070000000
+      },
+      {
+        "Year": 2018,
+        "Series": "Nominal Revenue",
+        "Revenue": 26460000000,
+        "Value": 26460000000
+      },
+      {
+        "Year": 2017,
+        "Series": "Nominal Revenue",
+        "Revenue": 26650000000,
+        "Value": 26650000000
+      },
+      {
+        "Year": 2016,
+        "Series": "Nominal Revenue",
+        "Revenue": 26040000000,
+        "Value": 26040000000
+      },
+      {
+        "Year": 2015,
+        "Series": "Nominal Revenue",
+        "Revenue": 14420000000,
+        "Value": 14420000000
+      },
+      {
+        "Year": 2014,
+        "Series": "Nominal Revenue",
+        "Revenue": 16520000000,
+        "Value": 16520000000
+      },
+      {
+        "Year": 2013,
+        "Series": "Nominal Revenue",
+        "Revenue": 16329999999.999998,
+        "Value": 16329999999.999998
+      },
+      {
+        "Year": 2012,
+        "Series": "Nominal Revenue",
+        "Revenue": 39270000000,
+        "Value": 39270000000
+      },
+      {
+        "Year": 2011,
+        "Series": "Nominal Revenue",
+        "Revenue": 53280000000,
+        "Value": 53280000000
+      },
+      {
+        "Year": 2010,
+        "Series": "Nominal Revenue",
+        "Revenue": 67560000000,
+        "Value": 67560000000
+      },
+      {
+        "Year": 2009,
+        "Series": "Nominal Revenue",
+        "Revenue": 57750000000,
+        "Value": 57750000000
+      },
+      {
+        "Year": 2008,
+        "Series": "Nominal Revenue",
+        "Revenue": 75830000000,
+        "Value": 75830000000
+      },
+      {
+        "Year": 2007,
+        "Series": "Nominal Revenue",
+        "Revenue": 71750000000,
+        "Value": 71750000000
+      },
+      {
+        "Year": 2006,
+        "Series": "Nominal Revenue",
+        "Revenue": 52420000000,
+        "Value": 52420000000
+      },
+      {
+        "Year": 2005,
+        "Series": "Nominal Revenue",
+        "Revenue": 41610000000,
+        "Value": 41610000000
+      },
+      {
+        "Year": 2004,
+        "Series": "Nominal Revenue",
+        "Revenue": 37120000000,
+        "Value": 37120000000
+      },
+      {
+        "Year": 2003,
+        "Series": "Nominal Revenue",
+        "Revenue": 35050000000,
+        "Value": 35050000000
+      },
+      {
+        "Year": 2002,
+        "Series": "Nominal Revenue",
+        "Revenue": 33060000000.000004,
+        "Value": 33060000000.000004
+      },
+      {
+        "Year": 2001,
+        "Series": "Nominal Revenue",
+        "Revenue": 32900000000,
+        "Value": 32900000000
+      },
+      {
+        "Year": 2022,
+        "Series": "Real_Revenue",
+        "Revenue": 26210000000,
+        "Value": 26210000000
+      },
+      {
+        "Year": 2021,
+        "Series": "Real_Revenue",
+        "Revenue": 25800000000,
+        "Value": 25800000000
+      },
+      {
+        "Year": 2020,
+        "Series": "Real_Revenue",
+        "Revenue": 26635135294.91,
+        "Value": 26635135294.91
+      },
+      {
+        "Year": 2019,
+        "Series": "Real_Revenue",
+        "Revenue": 27631435358.32,
+        "Value": 27631435358.32
+      },
+      {
+        "Year": 2018,
+        "Series": "Real_Revenue",
+        "Revenue": 28553024582.5,
+        "Value": 28553024582.5
+      },
+      {
+        "Year": 2017,
+        "Series": "Real_Revenue",
+        "Revenue": 29460493279.64,
+        "Value": 29460493279.64
+      },
+      {
+        "Year": 2016,
+        "Series": "Real_Revenue",
+        "Revenue": 29399339978.04,
+        "Value": 29399339978.04
+      },
+      {
+        "Year": 2015,
+        "Series": "Real_Revenue",
+        "Revenue": 16485668939.36,
+        "Value": 16485668939.36
+      },
+      {
+        "Year": 2014,
+        "Series": "Real_Revenue",
+        "Revenue": 18908899020.5,
+        "Value": 18908899020.5
+      },
+      {
+        "Year": 2013,
+        "Series": "Real_Revenue",
+        "Revenue": 18994640361.15,
+        "Value": 18994640361.15
+      },
+      {
+        "Year": 2012,
+        "Series": "Real_Revenue",
+        "Revenue": 46346968756.79,
+        "Value": 46346968756.79
+      },
+      {
+        "Year": 2011,
+        "Series": "Real_Revenue",
+        "Revenue": 64182989978.77,
+        "Value": 64182989978.77
+      },
+      {
+        "Year": 2010,
+        "Series": "Real_Revenue",
+        "Revenue": 83954389180.74,
+        "Value": 83954389180.74
+      },
+      {
+        "Year": 2009,
+        "Series": "Real_Revenue",
+        "Revenue": 72940812365.7,
+        "Value": 72940812365.7
+      },
+      {
+        "Year": 2008,
+        "Series": "Real_Revenue",
+        "Revenue": 95436124255.41,
+        "Value": 95436124255.41
+      },
+      {
+        "Year": 2007,
+        "Series": "Real_Revenue",
+        "Revenue": 93767979919.69,
+        "Value": 93767979919.69
+      },
+      {
+        "Year": 2006,
+        "Series": "Real_Revenue",
+        "Revenue": 70460423934.52,
+        "Value": 70460423934.52
+      },
+      {
+        "Year": 2005,
+        "Series": "Real_Revenue",
+        "Revenue": 57734420981.44,
+        "Value": 57734420981.44
+      },
+      {
+        "Year": 2004,
+        "Series": "Real_Revenue",
+        "Revenue": 53251903926.59,
+        "Value": 53251903926.59
+      },
+      {
+        "Year": 2003,
+        "Series": "Real_Revenue",
+        "Revenue": 51628483284.26,
+        "Value": 51628483284.26
+      },
+      {
+        "Year": 2002,
+        "Series": "Real_Revenue",
+        "Revenue": 49802695955.52,
+        "Value": 49802695955.52
+      },
+      {
+        "Year": 2001,
+        "Series": "Real_Revenue",
+        "Revenue": 50347730280.5,
+        "Value": 50347730280.5
+      },
+      {
+        "Year": 2013,
+        "Series": "Event",
+        "Revenue": null,
+        "Value": "MSFT Aquires Handset Div"
+      },
+      {
+        "Year": 2007,
+        "Series": "Event",
+        "Revenue": null,
+        "Value": "iPhone Launch"
+      },
+      {
+        "Year": 2003,
+        "Series": "Event",
+        "Revenue": null,
+        "Value": "Nokia 1100 Launch"
+      },
+      {
+        "Year": 2011,
+        "Series": "Event",
+        "Revenue": null,
+        "Value": "First Nokia Windows Phones"
+      }
+    ]
+  },
+  "config": {
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    }
+  },
+  "width": 500,
+  "height": 350,
+  "title": {
+    "text": "Nokia's Decline",
+    "subtitle": [
+      "Revenue, Billions of USD, 2022 Prices",
+      "Data: Nokia",
+      ""
+    ],
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitleFontStyle": "italic",
+    "anchor": "start",
+    "color": "black"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar"
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "scale": {
+            "paddingInner": 0.09,
+            "paddingOuter": 0
+          },
+          "type": "nominal",
+          "axis": {
+            "labelAngle": 90,
+            "labelFlush": false
+          },
+          "sort": {
+            "field": "Year"
+          },
+          "title": null
+        },
+        "y": {
+          "field": "divRevenue",
+          "scale": {
+            "domainMax": 110
+          },
+          "type": "quantitative",
+          "axis": {
+            "format": "2s",
+            "titleFontWeight": "normal",
+            "grid": false
+          },
+          "title": "Billions USD"
+        },
+        "color": {
+          "value": "rgb(128,0,0)"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.Series == 'Real_Revenue'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "bar"
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "scale": {
+            "paddingInner": 0.09,
+            "paddingOuter": 0
+          },
+          "type": "nominal",
+          "axis": {
+            "labelAngle": 0,
+            "labelFlush": false
+          },
+          "sort": {
+            "field": "Year"
+          },
+          "title": null
+        },
+        "y": {
+          "field": "divRevenue",
+          "scale": {
+            "domainMax": 110
+          },
+          "type": "quantitative",
+          "axis": {
+            "format": "2s",
+            "titleFontWeight": "normal",
+            "grid": false
+          },
+          "title": "Billions USD"
+        },
+        "color": {
+          "value": "rgb(128,0,0)"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.Series == 'Real_Revenue'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dy": -10,
+        "fontSize": 10,
+        "fontWeight": 200
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "scale": {
+            "paddingInner": 0.09,
+            "paddingOuter": 0
+          },
+          "type": "nominal",
+          "axis": {
+            "labelAngle": 0,
+            "labelFlush": false
+          },
+          "sort": {
+            "field": "Year"
+          },
+          "title": null
+        },
+        "y": {
+          "field": "divRevenue",
+          "type": "quantitative",
+          "axis": {
+            "format": "2s",
+            "titleFontWeight": "normal"
+          },
+          "title": "Billions USD"
+        },
+        "color": {
+          "value": "rgb(100,0,0)"
+        },
+        "text": {
+          "field": "divRevenue",
+          "format": "0d"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.Series == 'Real_Revenue'"
+        },
+        {
+          "calculate": "datum.Year == '2001' | datum.Year == '2022' ? datum.Year : ' ’' + substring(datum.Year, 2,4) ",
+          "as": "shortYear"
+        },
+        {
+          "calculate": "datum.Revenue / 1000000000 ",
+          "as": "divRevenue"
+        }
+      ]
+    }
+  ],
+  "transform": [
+    {
+      "calculate": "datum.Year == '2001' | datum.Year == '2022' ? datum.Year : ' ’' + substring(datum.Year, 2,4) ",
+      "as": "shortYear"
+    },
+    {
+      "calculate": "datum.Revenue / 1000000000 ",
+      "as": "divRevenue"
+    }
+  ]
+}

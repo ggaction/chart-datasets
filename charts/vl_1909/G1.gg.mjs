@@ -53,7 +53,7 @@ export function buildChart() {
     .editPointMark({ fill: "transparent", stroke: "#4c78a8", strokeWidth: 2 })
     .editPointMark({ opacity: 0.7 })
     .encodePointRadius({ value: 2.7386127875258306, target: "scatterPlot" })
-    .createRuleMark({ id: "rule", data: "mortgageNum" })
+    .createRuleMark({ id: "rule", data: "mortgageNum", strokeWidth: 1 })
     .editRuleMark({ target: "rule", stroke: "black", opacity: 0.1 })
     .encodeX({ target: "rule", field: "Date", fieldType: "temporal" })
     

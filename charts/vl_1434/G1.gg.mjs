@@ -24,7 +24,7 @@ export function buildChart() {
     })
     .editBarMark({ fill: "blue" })
     .encodeBarWidth({ band: 1 })
-    .createRuleMark({ id: "rule" })
+    .createRuleMark({ id: "rule", strokeWidth: 1 })
     .editRuleMark({ target: "rule", stroke: "blue", opacity: 0.5 })
     .encodeXRange({ target: "rule", lower: "min", upper: "max" })
     .encodeY({ target: "rule", field: "library_sample", fieldType: "nominal" })

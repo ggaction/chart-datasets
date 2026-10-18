@@ -1,0 +1,110 @@
+{
+  "id": "vl_0998",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1cf97cc69ad84405077e535cd2573df51cd71f925dbe73a855b0e37f946eaee5",
+      "actions": 121,
+      "topOptions": 250
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "b6b104508c052a945c4772bf886c02dc9a03dce82fb21168299d2ede2f9d3df1",
+      "actions": 128,
+      "topOptions": 257
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "25e5070f64b74f340cfb1968e1ed92019277fa020a682ff2754b0d6c72e8606d",
+      "actions": 136,
+      "topOptions": 280
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0231e010841142c6416e94fb8a9f269ee9610f1b56233747bd3e8cd2b3f22583",
+      "actions": 151,
+      "topOptions": 295
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c8e608369a0914095323d0834f08b86ef0934dcaf061bfa89b60b3c796cc919c",
+      "actions": 159,
+      "topOptions": 303
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "79dfc6985bce2f3408c70a4208ad2535ddc77a3cbd09f62739350541914ac516",
+      "actions": 159,
+      "topOptions": 304
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/harrywright25/harrywright25.github.io/main/data-project-CAP2.csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Six genuinely distinct stages, all exact current-runtime checks pass. No remaining design ownership boundary; geometry, default-only declarations and focused subtitle editor are not padded into artificial stages."
+  },
+  "historicalRuntimeCommits": [],
+  "historicalVerificationRuntimeUnrecordedStages": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6"
+  ],
+  "files": {
+    "source.vl.json": {
+      "sha256": "1834264c984d25e7c0454841e24851dccf66c14e64a72ac171ebb0a8d92d73fd",
+      "bytes": 1365
+    },
+    "data.json": {
+      "sha256": "4ed84c335c73eaa1af5c8a6c00b754ac3160f4324ed95031c57e3b05602d76f3",
+      "bytes": 118185
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d1320c977ff6c20b3e75d220549e24cd04f47703bf53c0462a7479ac64a900c7",
+      "bytes": 138344
+    },
+    "G1.gg.mjs": {
+      "sha256": "1cf97cc69ad84405077e535cd2573df51cd71f925dbe73a855b0e37f946eaee5",
+      "bytes": 18226
+    },
+    "G2.gg.mjs": {
+      "sha256": "b6b104508c052a945c4772bf886c02dc9a03dce82fb21168299d2ede2f9d3df1",
+      "bytes": 18324
+    },
+    "G3.gg.mjs": {
+      "sha256": "25e5070f64b74f340cfb1968e1ed92019277fa020a682ff2754b0d6c72e8606d",
+      "bytes": 18977
+    },
+    "G4.gg.mjs": {
+      "sha256": "0231e010841142c6416e94fb8a9f269ee9610f1b56233747bd3e8cd2b3f22583",
+      "bytes": 19124
+    },
+    "G5.gg.mjs": {
+      "sha256": "c8e608369a0914095323d0834f08b86ef0934dcaf061bfa89b60b3c796cc919c",
+      "bytes": 19068
+    },
+    "G6.gg.mjs": {
+      "sha256": "79dfc6985bce2f3408c70a4208ad2535ddc77a3cbd09f62739350541914ac516",
+      "bytes": 19084
+    },
+    "vega-lite.svg": {
+      "sha256": "ae8feefc2c99b9ec0e2681a532462c79d83c68f161a74e4c4ada4da1d158ef4b",
+      "bytes": 224513
+    },
+    "ggaction.svg": {
+      "sha256": "d27be0882eeb55a53448746c21b9ebebcb2268f44e1bcf119e1edecc7f92c979",
+      "bytes": 101782
+    }
+  }
+}

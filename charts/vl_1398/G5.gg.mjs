@@ -37,7 +37,7 @@ export function buildChart() {
     .encodeStroke({ target: "scatterPlot", field: "Key", fieldType: "nominal" })
     .editPointMark({ fill: "transparent", strokeWidth: 2, opacity: 0.7 })
     .encodePointRadius({ value: Math.sqrt(30) / 2 })
-    .createRuleMark({ id: "rule", data: "estHi" })
+    .createRuleMark({ id: "rule", data: "estHi", strokeWidth: 1 })
     .encodeXRange({ target: "rule", lower: "estLo", upper: "estHi" })
     .encodeY({ target: "rule", field: "Parameter", fieldType: "nominal" })
     .encodeStroke({ target: "rule", field: "Key", fieldType: "nominal" })

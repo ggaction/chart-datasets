@@ -1,0 +1,127 @@
+{
+  "id": "vl_1410",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f5dd5b5aed7d3adaef569a9ddc070e5f07cd745c897354d6b02df316cacf2160",
+      "actions": 19,
+      "topOptions": 47
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "c244a3a0f3d7632814c3e5e0dc13a1d0ecbd4a1e5566f5b01a2023e7a61020c8",
+      "actions": 21,
+      "topOptions": 51
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "9f62ead791a3aabf10325a766efde03035512502c91bce8cc47ade86a977a939",
+      "actions": 22,
+      "topOptions": 55
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "af8a5d2f5b7fc9ec86a6ce35cc10f867d546f55e8e83c524677da0891c7d3a2c",
+      "actions": 24,
+      "topOptions": 59
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "f6d6f562f0c3a4e86bc6a543120f3eea7d13940dcdc568609f1d6ac64fef4d48",
+      "actions": 28,
+      "topOptions": 63
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ebb76e800845b4e649f4595fa6f31c85f6da6a38b01879038af75f8b5d71e938",
+      "actions": 30,
+      "topOptions": 65
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "53d86a3ea6629567937659f761ce87466833c569596f43a167da49e8c94afa1a",
+      "actions": 34,
+      "topOptions": 69
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "55dd1ec55c0a3116cc72c3f504d2098b501cb67776fa3e62b4b18a3d830be952",
+      "actions": 36,
+      "topOptions": 72
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/antoniolch/KickstarterProjectDetails/master/data/whole_kickstarter_projects_filtered_vis2.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight progressively finer meaningful programs: complete scatter facade, paired XYscales, complete axes, both whole-axis paint edits, components, ticks/labels, four appearance-scale editors, focused legend style editors. All source data/conditions/percentage/400x400plot/guidefont/labelhiding/inplotcorner preserved; samefamilySVG/PNG/graphics exact. Source-only four-triangle native anchor convention difference explicitly measured and every stage checked strictly otherwise. No chart pixels inspected."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "65da3946069708e67c3cfd7453de300eaa16af7daaa6a1e0046a3fba510db33d",
+      "bytes": 2577
+    },
+    "data.json": {
+      "sha256": "686d2f2fccc0cfd97742d75410c61df6929d29e6423c96814eacb1a55d6decb4",
+      "bytes": 5438155
+    },
+    "resolved-source.vl.json": {
+      "sha256": "195b77e8d527f60eb272cf3b96b58a84f1744b95ca2c59fde4d40acd43b597fa",
+      "bytes": 6306167
+    },
+    "G1.gg.mjs": {
+      "sha256": "f5dd5b5aed7d3adaef569a9ddc070e5f07cd745c897354d6b02df316cacf2160",
+      "bytes": 6881
+    },
+    "G2.gg.mjs": {
+      "sha256": "c244a3a0f3d7632814c3e5e0dc13a1d0ecbd4a1e5566f5b01a2023e7a61020c8",
+      "bytes": 6899
+    },
+    "G3.gg.mjs": {
+      "sha256": "9f62ead791a3aabf10325a766efde03035512502c91bce8cc47ade86a977a939",
+      "bytes": 6823
+    },
+    "G4.gg.mjs": {
+      "sha256": "af8a5d2f5b7fc9ec86a6ce35cc10f867d546f55e8e83c524677da0891c7d3a2c",
+      "bytes": 7045
+    },
+    "G5.gg.mjs": {
+      "sha256": "f6d6f562f0c3a4e86bc6a543120f3eea7d13940dcdc568609f1d6ac64fef4d48",
+      "bytes": 7081
+    },
+    "G6.gg.mjs": {
+      "sha256": "ebb76e800845b4e649f4595fa6f31c85f6da6a38b01879038af75f8b5d71e938",
+      "bytes": 7087
+    },
+    "G7.gg.mjs": {
+      "sha256": "53d86a3ea6629567937659f761ce87466833c569596f43a167da49e8c94afa1a",
+      "bytes": 7140
+    },
+    "G8.gg.mjs": {
+      "sha256": "55dd1ec55c0a3116cc72c3f504d2098b501cb67776fa3e62b4b18a3d830be952",
+      "bytes": 7196
+    },
+    "vega-lite.svg": {
+      "sha256": "55f7f159d4c268594c5151caaef77eb72e52b6eb43fc70e68a2b7efb7f9d2bfe",
+      "bytes": 10963511
+    },
+    "ggaction.svg": {
+      "sha256": "582a942c41e5b215b9db63826e690637cceee250d13e4edfea17d47c40e437e9",
+      "bytes": 3022244
+    }
+  }
+}

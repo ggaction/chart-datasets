@@ -16,7 +16,7 @@ export function buildChart() {
         else: { constant: "#ae1325" }
       }
     })
-    .createRuleMark({ id: "rule", data: "fillColor" })
+    .createRuleMark({ id: "rule", data: "fillColor", strokeWidth: 1 })
     .encodeX({ field: "date", fieldType: "temporal" })
     .encodeYRange({ lower: "low", upper: "high" })
     .encodeStroke({

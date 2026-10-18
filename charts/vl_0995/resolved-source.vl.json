@@ -1,0 +1,4776 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Renewables LCOE",
+    "subtitle": [
+      "LCOE estimates the average cost per unit of energy generated",
+      "across the lifetime of a power plant, Source: Our World in Data"
+    ],
+    "subtitleFontSize": 8,
+    "subtitleFontStyle": "italic",
+    "anchor": "start"
+  },
+  "height": 80,
+  "width": 80,
+  "data": {
+    "values": [
+      {
+        "": "490",
+        "Year": "2010",
+        "Cost": "0.07818927",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1025434.392",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "491",
+        "Year": "2010",
+        "Cost": "0.07818927",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "177810.947",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "492",
+        "Year": "2010",
+        "Cost": "0.07818927",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "3055.35",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "493",
+        "Year": "2010",
+        "Cost": "0.07818927",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "40337.81",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "494",
+        "Year": "2010",
+        "Cost": "0.07818927",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1265.82",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "495",
+        "Year": "2010",
+        "Cost": "0.07818927",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "65593.861",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "496",
+        "Year": "2010",
+        "Cost": "0.07818927",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "10235.165",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "497",
+        "Year": "2010",
+        "Cost": "0.05044529",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1025434.392",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "498",
+        "Year": "2010",
+        "Cost": "0.05044529",
+        "Energy Cost": "Geothermal",
+        "Capacity": "177810.947",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "499",
+        "Year": "2010",
+        "Cost": "0.05044529",
+        "Energy Cost": "Geothermal",
+        "Capacity": "3055.35",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "500",
+        "Year": "2010",
+        "Cost": "0.05044529",
+        "Energy Cost": "Geothermal",
+        "Capacity": "40337.81",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "501",
+        "Year": "2010",
+        "Cost": "0.05044529",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1265.82",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "502",
+        "Year": "2010",
+        "Cost": "0.05044529",
+        "Energy Cost": "Geothermal",
+        "Capacity": "65593.861",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "503",
+        "Year": "2010",
+        "Cost": "0.05044529",
+        "Energy Cost": "Geothermal",
+        "Capacity": "10235.165",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "504",
+        "Year": "2010",
+        "Cost": "0.18785676",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1025434.392",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "505",
+        "Year": "2010",
+        "Cost": "0.18785676",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "177810.947",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "506",
+        "Year": "2010",
+        "Cost": "0.18785676",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "3055.35",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "507",
+        "Year": "2010",
+        "Cost": "0.18785676",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "40337.81",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "508",
+        "Year": "2010",
+        "Cost": "0.18785676",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1265.82",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "509",
+        "Year": "2010",
+        "Cost": "0.18785676",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "65593.861",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "510",
+        "Year": "2010",
+        "Cost": "0.18785676",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "10235.165",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "511",
+        "Year": "2010",
+        "Cost": "0.41714868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1025434.392",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "512",
+        "Year": "2010",
+        "Cost": "0.41714868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "177810.947",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "513",
+        "Year": "2010",
+        "Cost": "0.41714868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "3055.35",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "514",
+        "Year": "2010",
+        "Cost": "0.41714868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "40337.81",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "515",
+        "Year": "2010",
+        "Cost": "0.41714868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1265.82",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "516",
+        "Year": "2010",
+        "Cost": "0.41714868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "65593.861",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "517",
+        "Year": "2010",
+        "Cost": "0.41714868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "10235.165",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "518",
+        "Year": "2010",
+        "Cost": "0.3580038",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1025434.392",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "519",
+        "Year": "2010",
+        "Cost": "0.3580038",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "177810.947",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "520",
+        "Year": "2010",
+        "Cost": "0.3580038",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "3055.35",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "521",
+        "Year": "2010",
+        "Cost": "0.3580038",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "40337.81",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "522",
+        "Year": "2010",
+        "Cost": "0.3580038",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1265.82",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "523",
+        "Year": "2010",
+        "Cost": "0.3580038",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "65593.861",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "524",
+        "Year": "2010",
+        "Cost": "0.3580038",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "10235.165",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "525",
+        "Year": "2010",
+        "Cost": "0.038882706",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1025434.392",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "526",
+        "Year": "2010",
+        "Cost": "0.038882706",
+        "Energy Cost": "Hydropower",
+        "Capacity": "177810.947",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "527",
+        "Year": "2010",
+        "Cost": "0.038882706",
+        "Energy Cost": "Hydropower",
+        "Capacity": "3055.35",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "528",
+        "Year": "2010",
+        "Cost": "0.038882706",
+        "Energy Cost": "Hydropower",
+        "Capacity": "40337.81",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "529",
+        "Year": "2010",
+        "Cost": "0.038882706",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1265.82",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "530",
+        "Year": "2010",
+        "Cost": "0.038882706",
+        "Energy Cost": "Hydropower",
+        "Capacity": "65593.861",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "531",
+        "Year": "2010",
+        "Cost": "0.038882706",
+        "Energy Cost": "Hydropower",
+        "Capacity": "10235.165",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "532",
+        "Year": "2010",
+        "Cost": "0.102061465",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1025434.392",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "533",
+        "Year": "2010",
+        "Cost": "0.102061465",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "177810.947",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "534",
+        "Year": "2010",
+        "Cost": "0.102061465",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "3055.35",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "535",
+        "Year": "2010",
+        "Cost": "0.102061465",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "40337.81",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "536",
+        "Year": "2010",
+        "Cost": "0.102061465",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1265.82",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "537",
+        "Year": "2010",
+        "Cost": "0.102061465",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "65593.861",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "538",
+        "Year": "2010",
+        "Cost": "0.102061465",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "10235.165",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "539",
+        "Year": "2011",
+        "Cost": "0.056684334",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1056907.82",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "540",
+        "Year": "2011",
+        "Cost": "0.056684334",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "216344.815",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "541",
+        "Year": "2011",
+        "Cost": "0.056684334",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "3775.81",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "542",
+        "Year": "2011",
+        "Cost": "0.056684334",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "72215.973",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "543",
+        "Year": "2011",
+        "Cost": "0.056684334",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1704.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "544",
+        "Year": "2011",
+        "Cost": "0.056684334",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "71832.048",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "545",
+        "Year": "2011",
+        "Cost": "0.056684334",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "10375.965",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "546",
+        "Year": "2011",
+        "Cost": "",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1056907.82",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "547",
+        "Year": "2011",
+        "Cost": "",
+        "Energy Cost": "Geothermal",
+        "Capacity": "216344.815",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "548",
+        "Year": "2011",
+        "Cost": "",
+        "Energy Cost": "Geothermal",
+        "Capacity": "3775.81",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "549",
+        "Year": "2011",
+        "Cost": "",
+        "Energy Cost": "Geothermal",
+        "Capacity": "72215.973",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "550",
+        "Year": "2011",
+        "Cost": "",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1704.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "551",
+        "Year": "2011",
+        "Cost": "",
+        "Energy Cost": "Geothermal",
+        "Capacity": "71832.048",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "552",
+        "Year": "2011",
+        "Cost": "",
+        "Energy Cost": "Geothermal",
+        "Capacity": "10375.965",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "553",
+        "Year": "2011",
+        "Cost": "0.19754878",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1056907.82",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "554",
+        "Year": "2011",
+        "Cost": "0.19754878",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "216344.815",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "555",
+        "Year": "2011",
+        "Cost": "0.19754878",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "3775.81",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "556",
+        "Year": "2011",
+        "Cost": "0.19754878",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "72215.973",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "557",
+        "Year": "2011",
+        "Cost": "0.19754878",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1704.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "558",
+        "Year": "2011",
+        "Cost": "0.19754878",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "71832.048",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "559",
+        "Year": "2011",
+        "Cost": "0.19754878",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "10375.965",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "560",
+        "Year": "2011",
+        "Cost": "0.31129825",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1056907.82",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "561",
+        "Year": "2011",
+        "Cost": "0.31129825",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "216344.815",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "562",
+        "Year": "2011",
+        "Cost": "0.31129825",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "3775.81",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "563",
+        "Year": "2011",
+        "Cost": "0.31129825",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "72215.973",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "564",
+        "Year": "2011",
+        "Cost": "0.31129825",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1704.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "565",
+        "Year": "2011",
+        "Cost": "0.31129825",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "71832.048",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "566",
+        "Year": "2011",
+        "Cost": "0.31129825",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "10375.965",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "567",
+        "Year": "2011",
+        "Cost": "0.34665465",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1056907.82",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "568",
+        "Year": "2011",
+        "Cost": "0.34665465",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "216344.815",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "569",
+        "Year": "2011",
+        "Cost": "0.34665465",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "3775.81",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "570",
+        "Year": "2011",
+        "Cost": "0.34665465",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "72215.973",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "571",
+        "Year": "2011",
+        "Cost": "0.34665465",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1704.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "572",
+        "Year": "2011",
+        "Cost": "0.34665465",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "71832.048",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "573",
+        "Year": "2011",
+        "Cost": "0.34665465",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "10375.965",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "574",
+        "Year": "2011",
+        "Cost": "0.03656066",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1056907.82",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "575",
+        "Year": "2011",
+        "Cost": "0.03656066",
+        "Energy Cost": "Hydropower",
+        "Capacity": "216344.815",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "576",
+        "Year": "2011",
+        "Cost": "0.03656066",
+        "Energy Cost": "Hydropower",
+        "Capacity": "3775.81",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "577",
+        "Year": "2011",
+        "Cost": "0.03656066",
+        "Energy Cost": "Hydropower",
+        "Capacity": "72215.973",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "578",
+        "Year": "2011",
+        "Cost": "0.03656066",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1704.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "579",
+        "Year": "2011",
+        "Cost": "0.03656066",
+        "Energy Cost": "Hydropower",
+        "Capacity": "71832.048",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "580",
+        "Year": "2011",
+        "Cost": "0.03656066",
+        "Energy Cost": "Hydropower",
+        "Capacity": "10375.965",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "581",
+        "Year": "2011",
+        "Cost": "0.09648669",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1056907.82",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "582",
+        "Year": "2011",
+        "Cost": "0.09648669",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "216344.815",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "583",
+        "Year": "2011",
+        "Cost": "0.09648669",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "3775.81",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "584",
+        "Year": "2011",
+        "Cost": "0.09648669",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "72215.973",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "585",
+        "Year": "2011",
+        "Cost": "0.09648669",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1704.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "586",
+        "Year": "2011",
+        "Cost": "0.09648669",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "71832.048",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "587",
+        "Year": "2011",
+        "Cost": "0.09648669",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "10375.965",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "588",
+        "Year": "2012",
+        "Cost": "0.06187914",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1090156.228",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "589",
+        "Year": "2012",
+        "Cost": "0.06187914",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "261582.869",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "590",
+        "Year": "2012",
+        "Cost": "0.06187914",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "5333.95",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "591",
+        "Year": "2012",
+        "Cost": "0.06187914",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "101746.325",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "592",
+        "Year": "2012",
+        "Cost": "0.06187914",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "2566.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "593",
+        "Year": "2012",
+        "Cost": "0.06187914",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "76918.652",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "594",
+        "Year": "2012",
+        "Cost": "0.06187914",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "10748.065",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "595",
+        "Year": "2012",
+        "Cost": "0.08569454",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1090156.228",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "596",
+        "Year": "2012",
+        "Cost": "0.08569454",
+        "Energy Cost": "Geothermal",
+        "Capacity": "261582.869",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "597",
+        "Year": "2012",
+        "Cost": "0.08569454",
+        "Energy Cost": "Geothermal",
+        "Capacity": "5333.95",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "598",
+        "Year": "2012",
+        "Cost": "0.08569454",
+        "Energy Cost": "Geothermal",
+        "Capacity": "101746.325",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "599",
+        "Year": "2012",
+        "Cost": "0.08569454",
+        "Energy Cost": "Geothermal",
+        "Capacity": "2566.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "600",
+        "Year": "2012",
+        "Cost": "0.08569454",
+        "Energy Cost": "Geothermal",
+        "Capacity": "76918.652",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "601",
+        "Year": "2012",
+        "Cost": "0.08569454",
+        "Energy Cost": "Geothermal",
+        "Capacity": "10748.065",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "602",
+        "Year": "2012",
+        "Cost": "0.16660058",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1090156.228",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "603",
+        "Year": "2012",
+        "Cost": "0.16660058",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "261582.869",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "604",
+        "Year": "2012",
+        "Cost": "0.16660058",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "5333.95",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "605",
+        "Year": "2012",
+        "Cost": "0.16660058",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "101746.325",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "606",
+        "Year": "2012",
+        "Cost": "0.16660058",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "2566.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "607",
+        "Year": "2012",
+        "Cost": "0.16660058",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "76918.652",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "608",
+        "Year": "2012",
+        "Cost": "0.16660058",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "10748.065",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "609",
+        "Year": "2012",
+        "Cost": "0.23263325",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1090156.228",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "610",
+        "Year": "2012",
+        "Cost": "0.23263325",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "261582.869",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "611",
+        "Year": "2012",
+        "Cost": "0.23263325",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "5333.95",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "612",
+        "Year": "2012",
+        "Cost": "0.23263325",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "101746.325",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "613",
+        "Year": "2012",
+        "Cost": "0.23263325",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "2566.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "614",
+        "Year": "2012",
+        "Cost": "0.23263325",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "76918.652",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "615",
+        "Year": "2012",
+        "Cost": "0.23263325",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "10748.065",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "616",
+        "Year": "2012",
+        "Cost": "0.3375742",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1090156.228",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "617",
+        "Year": "2012",
+        "Cost": "0.3375742",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "261582.869",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "618",
+        "Year": "2012",
+        "Cost": "0.3375742",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "5333.95",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "619",
+        "Year": "2012",
+        "Cost": "0.3375742",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "101746.325",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "620",
+        "Year": "2012",
+        "Cost": "0.3375742",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "2566.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "621",
+        "Year": "2012",
+        "Cost": "0.3375742",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "76918.652",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "622",
+        "Year": "2012",
+        "Cost": "0.3375742",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "10748.065",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "623",
+        "Year": "2012",
+        "Cost": "0.038037654",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1090156.228",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "624",
+        "Year": "2012",
+        "Cost": "0.038037654",
+        "Energy Cost": "Hydropower",
+        "Capacity": "261582.869",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "625",
+        "Year": "2012",
+        "Cost": "0.038037654",
+        "Energy Cost": "Hydropower",
+        "Capacity": "5333.95",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "626",
+        "Year": "2012",
+        "Cost": "0.038037654",
+        "Energy Cost": "Hydropower",
+        "Capacity": "101746.325",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "627",
+        "Year": "2012",
+        "Cost": "0.038037654",
+        "Energy Cost": "Hydropower",
+        "Capacity": "2566.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "628",
+        "Year": "2012",
+        "Cost": "0.038037654",
+        "Energy Cost": "Hydropower",
+        "Capacity": "76918.652",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "629",
+        "Year": "2012",
+        "Cost": "0.038037654",
+        "Energy Cost": "Hydropower",
+        "Capacity": "10748.065",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "630",
+        "Year": "2012",
+        "Cost": "0.08839028",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1090156.228",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "631",
+        "Year": "2012",
+        "Cost": "0.08839028",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "261582.869",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "632",
+        "Year": "2012",
+        "Cost": "0.08839028",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "5333.95",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "633",
+        "Year": "2012",
+        "Cost": "0.08839028",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "101746.325",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "634",
+        "Year": "2012",
+        "Cost": "0.08839028",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "2566.52",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "635",
+        "Year": "2012",
+        "Cost": "0.08839028",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "76918.652",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "636",
+        "Year": "2012",
+        "Cost": "0.08839028",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "10748.065",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "637",
+        "Year": "2013",
+        "Cost": "0.08219819",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1137117.021",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "638",
+        "Year": "2013",
+        "Cost": "0.08219819",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "292667.092",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "639",
+        "Year": "2013",
+        "Cost": "0.08219819",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "7171.25",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "640",
+        "Year": "2013",
+        "Cost": "0.08219819",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "137227.964",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "641",
+        "Year": "2013",
+        "Cost": "0.08219819",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "3941.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "642",
+        "Year": "2013",
+        "Cost": "0.08219819",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "84412.695",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "643",
+        "Year": "2013",
+        "Cost": "0.08219819",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "10988.865",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "644",
+        "Year": "2013",
+        "Cost": "0.06411118",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1137117.021",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "645",
+        "Year": "2013",
+        "Cost": "0.06411118",
+        "Energy Cost": "Geothermal",
+        "Capacity": "292667.092",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "646",
+        "Year": "2013",
+        "Cost": "0.06411118",
+        "Energy Cost": "Geothermal",
+        "Capacity": "7171.25",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "647",
+        "Year": "2013",
+        "Cost": "0.06411118",
+        "Energy Cost": "Geothermal",
+        "Capacity": "137227.964",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "648",
+        "Year": "2013",
+        "Cost": "0.06411118",
+        "Energy Cost": "Geothermal",
+        "Capacity": "3941.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "649",
+        "Year": "2013",
+        "Cost": "0.06411118",
+        "Energy Cost": "Geothermal",
+        "Capacity": "84412.695",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "650",
+        "Year": "2013",
+        "Cost": "0.06411118",
+        "Energy Cost": "Geothermal",
+        "Capacity": "10988.865",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "651",
+        "Year": "2013",
+        "Cost": "0.16666164",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1137117.021",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "652",
+        "Year": "2013",
+        "Cost": "0.16666164",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "292667.092",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "653",
+        "Year": "2013",
+        "Cost": "0.16666164",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "7171.25",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "654",
+        "Year": "2013",
+        "Cost": "0.16666164",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "137227.964",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "655",
+        "Year": "2013",
+        "Cost": "0.16666164",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "3941.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "656",
+        "Year": "2013",
+        "Cost": "0.16666164",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "84412.695",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "657",
+        "Year": "2013",
+        "Cost": "0.16666164",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "10988.865",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "658",
+        "Year": "2013",
+        "Cost": "0.1794014",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1137117.021",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "659",
+        "Year": "2013",
+        "Cost": "0.1794014",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "292667.092",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "660",
+        "Year": "2013",
+        "Cost": "0.1794014",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "7171.25",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "661",
+        "Year": "2013",
+        "Cost": "0.1794014",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "137227.964",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "662",
+        "Year": "2013",
+        "Cost": "0.1794014",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "3941.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "663",
+        "Year": "2013",
+        "Cost": "0.1794014",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "84412.695",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "664",
+        "Year": "2013",
+        "Cost": "0.1794014",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "10988.865",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "665",
+        "Year": "2013",
+        "Cost": "0.24888833",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1137117.021",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "666",
+        "Year": "2013",
+        "Cost": "0.24888833",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "292667.092",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "667",
+        "Year": "2013",
+        "Cost": "0.24888833",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "7171.25",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "668",
+        "Year": "2013",
+        "Cost": "0.24888833",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "137227.964",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "669",
+        "Year": "2013",
+        "Cost": "0.24888833",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "3941.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "670",
+        "Year": "2013",
+        "Cost": "0.24888833",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "84412.695",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "671",
+        "Year": "2013",
+        "Cost": "0.24888833",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "10988.865",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "672",
+        "Year": "2013",
+        "Cost": "0.042512473",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1137117.021",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "673",
+        "Year": "2013",
+        "Cost": "0.042512473",
+        "Energy Cost": "Hydropower",
+        "Capacity": "292667.092",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "674",
+        "Year": "2013",
+        "Cost": "0.042512473",
+        "Energy Cost": "Hydropower",
+        "Capacity": "7171.25",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "675",
+        "Year": "2013",
+        "Cost": "0.042512473",
+        "Energy Cost": "Hydropower",
+        "Capacity": "137227.964",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "676",
+        "Year": "2013",
+        "Cost": "0.042512473",
+        "Energy Cost": "Hydropower",
+        "Capacity": "3941.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "677",
+        "Year": "2013",
+        "Cost": "0.042512473",
+        "Energy Cost": "Hydropower",
+        "Capacity": "84412.695",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "678",
+        "Year": "2013",
+        "Cost": "0.042512473",
+        "Energy Cost": "Hydropower",
+        "Capacity": "10988.865",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "679",
+        "Year": "2013",
+        "Cost": "0.08920628",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1137117.021",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "680",
+        "Year": "2013",
+        "Cost": "0.08920628",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "292667.092",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "681",
+        "Year": "2013",
+        "Cost": "0.08920628",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "7171.25",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "682",
+        "Year": "2013",
+        "Cost": "0.08920628",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "137227.964",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "683",
+        "Year": "2013",
+        "Cost": "0.08920628",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "3941.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "684",
+        "Year": "2013",
+        "Cost": "0.08920628",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "84412.695",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "685",
+        "Year": "2013",
+        "Cost": "0.08920628",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "10988.865",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "686",
+        "Year": "2014",
+        "Cost": "0.08237512",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1175547.927",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "687",
+        "Year": "2014",
+        "Cost": "0.08237512",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "340814.044",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "688",
+        "Year": "2014",
+        "Cost": "0.08237512",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "8491.77",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "689",
+        "Year": "2014",
+        "Cost": "0.08237512",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "175617.173",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "690",
+        "Year": "2014",
+        "Cost": "0.08237512",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "4598.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "691",
+        "Year": "2014",
+        "Cost": "0.08237512",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "90484.375",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "692",
+        "Year": "2014",
+        "Cost": "0.08237512",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "11429.415",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "693",
+        "Year": "2014",
+        "Cost": "0.06533503",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1175547.927",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "694",
+        "Year": "2014",
+        "Cost": "0.06533503",
+        "Energy Cost": "Geothermal",
+        "Capacity": "340814.044",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "695",
+        "Year": "2014",
+        "Cost": "0.06533503",
+        "Energy Cost": "Geothermal",
+        "Capacity": "8491.77",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "696",
+        "Year": "2014",
+        "Cost": "0.06533503",
+        "Energy Cost": "Geothermal",
+        "Capacity": "175617.173",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "697",
+        "Year": "2014",
+        "Cost": "0.06533503",
+        "Energy Cost": "Geothermal",
+        "Capacity": "4598.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "698",
+        "Year": "2014",
+        "Cost": "0.06533503",
+        "Energy Cost": "Geothermal",
+        "Capacity": "90484.375",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "699",
+        "Year": "2014",
+        "Cost": "0.06533503",
+        "Energy Cost": "Geothermal",
+        "Capacity": "11429.415",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "700",
+        "Year": "2014",
+        "Cost": "0.17219925",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1175547.927",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "701",
+        "Year": "2014",
+        "Cost": "0.17219925",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "340814.044",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "702",
+        "Year": "2014",
+        "Cost": "0.17219925",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "8491.77",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "703",
+        "Year": "2014",
+        "Cost": "0.17219925",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "175617.173",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "704",
+        "Year": "2014",
+        "Cost": "0.17219925",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "4598.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "705",
+        "Year": "2014",
+        "Cost": "0.17219925",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "90484.375",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "706",
+        "Year": "2014",
+        "Cost": "0.17219925",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "11429.415",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "707",
+        "Year": "2014",
+        "Cost": "0.16125813",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1175547.927",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "708",
+        "Year": "2014",
+        "Cost": "0.16125813",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "340814.044",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "709",
+        "Year": "2014",
+        "Cost": "0.16125813",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "8491.77",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "710",
+        "Year": "2014",
+        "Cost": "0.16125813",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "175617.173",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "711",
+        "Year": "2014",
+        "Cost": "0.16125813",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "4598.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "712",
+        "Year": "2014",
+        "Cost": "0.16125813",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "90484.375",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "713",
+        "Year": "2014",
+        "Cost": "0.16125813",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "11429.415",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "714",
+        "Year": "2014",
+        "Cost": "0.21637706",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1175547.927",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "715",
+        "Year": "2014",
+        "Cost": "0.21637706",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "340814.044",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "716",
+        "Year": "2014",
+        "Cost": "0.21637706",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "8491.77",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "717",
+        "Year": "2014",
+        "Cost": "0.21637706",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "175617.173",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "718",
+        "Year": "2014",
+        "Cost": "0.21637706",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "4598.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "719",
+        "Year": "2014",
+        "Cost": "0.21637706",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "90484.375",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "720",
+        "Year": "2014",
+        "Cost": "0.21637706",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "11429.415",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "721",
+        "Year": "2014",
+        "Cost": "0.042456634",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1175547.927",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "722",
+        "Year": "2014",
+        "Cost": "0.042456634",
+        "Energy Cost": "Hydropower",
+        "Capacity": "340814.044",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "723",
+        "Year": "2014",
+        "Cost": "0.042456634",
+        "Energy Cost": "Hydropower",
+        "Capacity": "8491.77",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "724",
+        "Year": "2014",
+        "Cost": "0.042456634",
+        "Energy Cost": "Hydropower",
+        "Capacity": "175617.173",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "725",
+        "Year": "2014",
+        "Cost": "0.042456634",
+        "Energy Cost": "Hydropower",
+        "Capacity": "4598.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "726",
+        "Year": "2014",
+        "Cost": "0.042456634",
+        "Energy Cost": "Hydropower",
+        "Capacity": "90484.375",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "727",
+        "Year": "2014",
+        "Cost": "0.042456634",
+        "Energy Cost": "Hydropower",
+        "Capacity": "11429.415",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "728",
+        "Year": "2014",
+        "Cost": "0.080203146",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1175547.927",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "729",
+        "Year": "2014",
+        "Cost": "0.080203146",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "340814.044",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "730",
+        "Year": "2014",
+        "Cost": "0.080203146",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "8491.77",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "731",
+        "Year": "2014",
+        "Cost": "0.080203146",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "175617.173",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "732",
+        "Year": "2014",
+        "Cost": "0.080203146",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "4598.933",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "733",
+        "Year": "2014",
+        "Cost": "0.080203146",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "90484.375",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "734",
+        "Year": "2014",
+        "Cost": "0.080203146",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "11429.415",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "735",
+        "Year": "2015",
+        "Cost": "0.07277113",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1210201.798",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "736",
+        "Year": "2015",
+        "Cost": "0.07277113",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "404451.601",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "737",
+        "Year": "2015",
+        "Cost": "0.07277113",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "11717.57",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "738",
+        "Year": "2015",
+        "Cost": "0.07277113",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "223203.629",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "739",
+        "Year": "2015",
+        "Cost": "0.07277113",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "4850.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "740",
+        "Year": "2015",
+        "Cost": "0.07277113",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "96257.066",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "741",
+        "Year": "2015",
+        "Cost": "0.07277113",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "12091.425",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "742",
+        "Year": "2015",
+        "Cost": "0.05884901",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1210201.798",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "743",
+        "Year": "2015",
+        "Cost": "0.05884901",
+        "Energy Cost": "Geothermal",
+        "Capacity": "404451.601",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "744",
+        "Year": "2015",
+        "Cost": "0.05884901",
+        "Energy Cost": "Geothermal",
+        "Capacity": "11717.57",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "745",
+        "Year": "2015",
+        "Cost": "0.05884901",
+        "Energy Cost": "Geothermal",
+        "Capacity": "223203.629",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "746",
+        "Year": "2015",
+        "Cost": "0.05884901",
+        "Energy Cost": "Geothermal",
+        "Capacity": "4850.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "747",
+        "Year": "2015",
+        "Cost": "0.05884901",
+        "Energy Cost": "Geothermal",
+        "Capacity": "96257.066",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "748",
+        "Year": "2015",
+        "Cost": "0.05884901",
+        "Energy Cost": "Geothermal",
+        "Capacity": "12091.425",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "749",
+        "Year": "2015",
+        "Cost": "0.14052741",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1210201.798",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "750",
+        "Year": "2015",
+        "Cost": "0.14052741",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "404451.601",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "751",
+        "Year": "2015",
+        "Cost": "0.14052741",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "11717.57",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "752",
+        "Year": "2015",
+        "Cost": "0.14052741",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "223203.629",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "753",
+        "Year": "2015",
+        "Cost": "0.14052741",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "4850.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "754",
+        "Year": "2015",
+        "Cost": "0.14052741",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "96257.066",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "755",
+        "Year": "2015",
+        "Cost": "0.14052741",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "12091.425",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "756",
+        "Year": "2015",
+        "Cost": "0.12107989",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1210201.798",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "757",
+        "Year": "2015",
+        "Cost": "0.12107989",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "404451.601",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "758",
+        "Year": "2015",
+        "Cost": "0.12107989",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "11717.57",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "759",
+        "Year": "2015",
+        "Cost": "0.12107989",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "223203.629",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "760",
+        "Year": "2015",
+        "Cost": "0.12107989",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "4850.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "761",
+        "Year": "2015",
+        "Cost": "0.12107989",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "96257.066",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "762",
+        "Year": "2015",
+        "Cost": "0.12107989",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "12091.425",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "763",
+        "Year": "2015",
+        "Cost": "0.223889",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1210201.798",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "764",
+        "Year": "2015",
+        "Cost": "0.223889",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "404451.601",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "765",
+        "Year": "2015",
+        "Cost": "0.223889",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "11717.57",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "766",
+        "Year": "2015",
+        "Cost": "0.223889",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "223203.629",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "767",
+        "Year": "2015",
+        "Cost": "0.223889",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "4850.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "768",
+        "Year": "2015",
+        "Cost": "0.223889",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "96257.066",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "769",
+        "Year": "2015",
+        "Cost": "0.223889",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "12091.425",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "770",
+        "Year": "2015",
+        "Cost": "0.036572017",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1210201.798",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "771",
+        "Year": "2015",
+        "Cost": "0.036572017",
+        "Energy Cost": "Hydropower",
+        "Capacity": "404451.601",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "772",
+        "Year": "2015",
+        "Cost": "0.036572017",
+        "Energy Cost": "Hydropower",
+        "Capacity": "11717.57",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "773",
+        "Year": "2015",
+        "Cost": "0.036572017",
+        "Energy Cost": "Hydropower",
+        "Capacity": "223203.629",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "774",
+        "Year": "2015",
+        "Cost": "0.036572017",
+        "Energy Cost": "Hydropower",
+        "Capacity": "4850.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "775",
+        "Year": "2015",
+        "Cost": "0.036572017",
+        "Energy Cost": "Hydropower",
+        "Capacity": "96257.066",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "776",
+        "Year": "2015",
+        "Cost": "0.036572017",
+        "Energy Cost": "Hydropower",
+        "Capacity": "12091.425",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "777",
+        "Year": "2015",
+        "Cost": "0.068961546",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1210201.798",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "778",
+        "Year": "2015",
+        "Cost": "0.068961546",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "404451.601",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "779",
+        "Year": "2015",
+        "Cost": "0.068961546",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "11717.57",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "780",
+        "Year": "2015",
+        "Cost": "0.068961546",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "223203.629",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "781",
+        "Year": "2015",
+        "Cost": "0.068961546",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "4850.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "782",
+        "Year": "2015",
+        "Cost": "0.068961546",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "96257.066",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "783",
+        "Year": "2015",
+        "Cost": "0.068961546",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "12091.425",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "784",
+        "Year": "2016",
+        "Cost": "0.071178205",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1245460.4",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "785",
+        "Year": "2016",
+        "Cost": "0.071178205",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "452524.173",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "786",
+        "Year": "2016",
+        "Cost": "0.071178205",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "14341.85",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "787",
+        "Year": "2016",
+        "Cost": "0.071178205",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "295228.957",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "788",
+        "Year": "2016",
+        "Cost": "0.071178205",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "4970.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "789",
+        "Year": "2016",
+        "Cost": "0.071178205",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "105209.275",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "790",
+        "Year": "2016",
+        "Cost": "0.071178205",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "12411.334",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "791",
+        "Year": "2016",
+        "Cost": "0.06780182",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1245460.4",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "792",
+        "Year": "2016",
+        "Cost": "0.06780182",
+        "Energy Cost": "Geothermal",
+        "Capacity": "452524.173",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "793",
+        "Year": "2016",
+        "Cost": "0.06780182",
+        "Energy Cost": "Geothermal",
+        "Capacity": "14341.85",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "794",
+        "Year": "2016",
+        "Cost": "0.06780182",
+        "Energy Cost": "Geothermal",
+        "Capacity": "295228.957",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "795",
+        "Year": "2016",
+        "Cost": "0.06780182",
+        "Energy Cost": "Geothermal",
+        "Capacity": "4970.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "796",
+        "Year": "2016",
+        "Cost": "0.06780182",
+        "Energy Cost": "Geothermal",
+        "Capacity": "105209.275",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "797",
+        "Year": "2016",
+        "Cost": "0.06780182",
+        "Energy Cost": "Geothermal",
+        "Capacity": "12411.334",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "798",
+        "Year": "2016",
+        "Cost": "0.11632308",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1245460.4",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "799",
+        "Year": "2016",
+        "Cost": "0.11632308",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "452524.173",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "800",
+        "Year": "2016",
+        "Cost": "0.11632308",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "14341.85",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "801",
+        "Year": "2016",
+        "Cost": "0.11632308",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "295228.957",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "802",
+        "Year": "2016",
+        "Cost": "0.11632308",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "4970.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "803",
+        "Year": "2016",
+        "Cost": "0.11632308",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "105209.275",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "804",
+        "Year": "2016",
+        "Cost": "0.11632308",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "12411.334",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "805",
+        "Year": "2016",
+        "Cost": "0.106340416",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1245460.4",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "806",
+        "Year": "2016",
+        "Cost": "0.106340416",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "452524.173",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "807",
+        "Year": "2016",
+        "Cost": "0.106340416",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "14341.85",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "808",
+        "Year": "2016",
+        "Cost": "0.106340416",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "295228.957",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "809",
+        "Year": "2016",
+        "Cost": "0.106340416",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "4970.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "810",
+        "Year": "2016",
+        "Cost": "0.106340416",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "105209.275",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "811",
+        "Year": "2016",
+        "Cost": "0.106340416",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "12411.334",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "812",
+        "Year": "2016",
+        "Cost": "0.24726917",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1245460.4",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "813",
+        "Year": "2016",
+        "Cost": "0.24726917",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "452524.173",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "814",
+        "Year": "2016",
+        "Cost": "0.24726917",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "14341.85",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "815",
+        "Year": "2016",
+        "Cost": "0.24726917",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "295228.957",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "816",
+        "Year": "2016",
+        "Cost": "0.24726917",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "4970.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "817",
+        "Year": "2016",
+        "Cost": "0.24726917",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "105209.275",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "818",
+        "Year": "2016",
+        "Cost": "0.24726917",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "12411.334",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "819",
+        "Year": "2016",
+        "Cost": "0.04838911",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1245460.4",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "820",
+        "Year": "2016",
+        "Cost": "0.04838911",
+        "Energy Cost": "Hydropower",
+        "Capacity": "452524.173",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "821",
+        "Year": "2016",
+        "Cost": "0.04838911",
+        "Energy Cost": "Hydropower",
+        "Capacity": "14341.85",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "822",
+        "Year": "2016",
+        "Cost": "0.04838911",
+        "Energy Cost": "Hydropower",
+        "Capacity": "295228.957",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "823",
+        "Year": "2016",
+        "Cost": "0.04838911",
+        "Energy Cost": "Hydropower",
+        "Capacity": "4970.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "824",
+        "Year": "2016",
+        "Cost": "0.04838911",
+        "Energy Cost": "Hydropower",
+        "Capacity": "105209.275",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "825",
+        "Year": "2016",
+        "Cost": "0.04838911",
+        "Energy Cost": "Hydropower",
+        "Capacity": "12411.334",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "826",
+        "Year": "2016",
+        "Cost": "0.06385536",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1245460.4",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "827",
+        "Year": "2016",
+        "Cost": "0.06385536",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "452524.173",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "828",
+        "Year": "2016",
+        "Cost": "0.06385536",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "14341.85",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "829",
+        "Year": "2016",
+        "Cost": "0.06385536",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "295228.957",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "830",
+        "Year": "2016",
+        "Cost": "0.06385536",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "4970.043",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "831",
+        "Year": "2016",
+        "Cost": "0.06385536",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "105209.275",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "832",
+        "Year": "2016",
+        "Cost": "0.06385536",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "12411.334",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "833",
+        "Year": "2017",
+        "Cost": "0.07107003",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1270469.91",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "834",
+        "Year": "2017",
+        "Cost": "0.07107003",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "495359.5",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "835",
+        "Year": "2017",
+        "Cost": "0.07107003",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "18836.75",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "836",
+        "Year": "2017",
+        "Cost": "0.07107003",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "390203.6141",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "837",
+        "Year": "2017",
+        "Cost": "0.07107003",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "5069.113",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "838",
+        "Year": "2017",
+        "Cost": "0.07107003",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "110811.03",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "839",
+        "Year": "2017",
+        "Cost": "0.07107003",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "13030.773",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "840",
+        "Year": "2017",
+        "Cost": "0.07091718",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1270469.91",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "841",
+        "Year": "2017",
+        "Cost": "0.07091718",
+        "Energy Cost": "Geothermal",
+        "Capacity": "495359.5",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "842",
+        "Year": "2017",
+        "Cost": "0.07091718",
+        "Energy Cost": "Geothermal",
+        "Capacity": "18836.75",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "843",
+        "Year": "2017",
+        "Cost": "0.07091718",
+        "Energy Cost": "Geothermal",
+        "Capacity": "390203.6141",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "844",
+        "Year": "2017",
+        "Cost": "0.07091718",
+        "Energy Cost": "Geothermal",
+        "Capacity": "5069.113",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "845",
+        "Year": "2017",
+        "Cost": "0.07091718",
+        "Energy Cost": "Geothermal",
+        "Capacity": "110811.03",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "846",
+        "Year": "2017",
+        "Cost": "0.07091718",
+        "Energy Cost": "Geothermal",
+        "Capacity": "13030.773",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "847",
+        "Year": "2017",
+        "Cost": "0.10615218",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1270469.91",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "848",
+        "Year": "2017",
+        "Cost": "0.10615218",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "495359.5",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "849",
+        "Year": "2017",
+        "Cost": "0.10615218",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "18836.75",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "850",
+        "Year": "2017",
+        "Cost": "0.10615218",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "390203.6141",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "851",
+        "Year": "2017",
+        "Cost": "0.10615218",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "5069.113",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "852",
+        "Year": "2017",
+        "Cost": "0.10615218",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "110811.03",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "853",
+        "Year": "2017",
+        "Cost": "0.10615218",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "13030.773",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "854",
+        "Year": "2017",
+        "Cost": "0.083659746",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1270469.91",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "855",
+        "Year": "2017",
+        "Cost": "0.083659746",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "495359.5",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "856",
+        "Year": "2017",
+        "Cost": "0.083659746",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "18836.75",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "857",
+        "Year": "2017",
+        "Cost": "0.083659746",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "390203.6141",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "858",
+        "Year": "2017",
+        "Cost": "0.083659746",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "5069.113",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "859",
+        "Year": "2017",
+        "Cost": "0.083659746",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "110811.03",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "860",
+        "Year": "2017",
+        "Cost": "0.083659746",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "13030.773",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "861",
+        "Year": "2017",
+        "Cost": "0.20621318",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1270469.91",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "862",
+        "Year": "2017",
+        "Cost": "0.20621318",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "495359.5",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "863",
+        "Year": "2017",
+        "Cost": "0.20621318",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "18836.75",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "864",
+        "Year": "2017",
+        "Cost": "0.20621318",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "390203.6141",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "865",
+        "Year": "2017",
+        "Cost": "0.20621318",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "5069.113",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "866",
+        "Year": "2017",
+        "Cost": "0.20621318",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "110811.03",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "867",
+        "Year": "2017",
+        "Cost": "0.20621318",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "13030.773",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "868",
+        "Year": "2017",
+        "Cost": "0.05072171",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1270469.91",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "869",
+        "Year": "2017",
+        "Cost": "0.05072171",
+        "Energy Cost": "Hydropower",
+        "Capacity": "495359.5",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "870",
+        "Year": "2017",
+        "Cost": "0.05072171",
+        "Energy Cost": "Hydropower",
+        "Capacity": "18836.75",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "871",
+        "Year": "2017",
+        "Cost": "0.05072171",
+        "Energy Cost": "Hydropower",
+        "Capacity": "390203.6141",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "872",
+        "Year": "2017",
+        "Cost": "0.05072171",
+        "Energy Cost": "Hydropower",
+        "Capacity": "5069.113",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "873",
+        "Year": "2017",
+        "Cost": "0.05072171",
+        "Energy Cost": "Hydropower",
+        "Capacity": "110811.03",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "874",
+        "Year": "2017",
+        "Cost": "0.05072171",
+        "Energy Cost": "Hydropower",
+        "Capacity": "13030.773",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "875",
+        "Year": "2017",
+        "Cost": "0.05995916",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1270469.91",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "876",
+        "Year": "2017",
+        "Cost": "0.05995916",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "495359.5",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "877",
+        "Year": "2017",
+        "Cost": "0.05995916",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "18836.75",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "878",
+        "Year": "2017",
+        "Cost": "0.05995916",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "390203.6141",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "879",
+        "Year": "2017",
+        "Cost": "0.05995916",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "5069.113",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "880",
+        "Year": "2017",
+        "Cost": "0.05995916",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "110811.03",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "881",
+        "Year": "2017",
+        "Cost": "0.05995916",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "13030.773",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "882",
+        "Year": "2018",
+        "Cost": "0.055360332",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1293203.746",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "883",
+        "Year": "2018",
+        "Cost": "0.055360332",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "540726.356",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "884",
+        "Year": "2018",
+        "Cost": "0.055360332",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "23589.6",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "885",
+        "Year": "2018",
+        "Cost": "0.055360332",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "482990.3126",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "886",
+        "Year": "2018",
+        "Cost": "0.055360332",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "5810.934",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "887",
+        "Year": "2018",
+        "Cost": "0.055360332",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "117993.89",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "888",
+        "Year": "2018",
+        "Cost": "0.055360332",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "13477.021",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "889",
+        "Year": "2018",
+        "Cost": "0.06758344",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1293203.746",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "890",
+        "Year": "2018",
+        "Cost": "0.06758344",
+        "Energy Cost": "Geothermal",
+        "Capacity": "540726.356",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "891",
+        "Year": "2018",
+        "Cost": "0.06758344",
+        "Energy Cost": "Geothermal",
+        "Capacity": "23589.6",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "892",
+        "Year": "2018",
+        "Cost": "0.06758344",
+        "Energy Cost": "Geothermal",
+        "Capacity": "482990.3126",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "893",
+        "Year": "2018",
+        "Cost": "0.06758344",
+        "Energy Cost": "Geothermal",
+        "Capacity": "5810.934",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "894",
+        "Year": "2018",
+        "Cost": "0.06758344",
+        "Energy Cost": "Geothermal",
+        "Capacity": "117993.89",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "895",
+        "Year": "2018",
+        "Cost": "0.06758344",
+        "Energy Cost": "Geothermal",
+        "Capacity": "13477.021",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "896",
+        "Year": "2018",
+        "Cost": "0.10004871",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1293203.746",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "897",
+        "Year": "2018",
+        "Cost": "0.10004871",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "540726.356",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "898",
+        "Year": "2018",
+        "Cost": "0.10004871",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "23589.6",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "899",
+        "Year": "2018",
+        "Cost": "0.10004871",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "482990.3126",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "900",
+        "Year": "2018",
+        "Cost": "0.10004871",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "5810.934",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "901",
+        "Year": "2018",
+        "Cost": "0.10004871",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "117993.89",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "902",
+        "Year": "2018",
+        "Cost": "0.10004871",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "13477.021",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "903",
+        "Year": "2018",
+        "Cost": "0.07113868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1293203.746",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "904",
+        "Year": "2018",
+        "Cost": "0.07113868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "540726.356",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "905",
+        "Year": "2018",
+        "Cost": "0.07113868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "23589.6",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "906",
+        "Year": "2018",
+        "Cost": "0.07113868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "482990.3126",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "907",
+        "Year": "2018",
+        "Cost": "0.07113868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "5810.934",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "908",
+        "Year": "2018",
+        "Cost": "0.07113868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "117993.89",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "909",
+        "Year": "2018",
+        "Cost": "0.07113868",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "13477.021",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "910",
+        "Year": "2018",
+        "Cost": "0.14910279",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1293203.746",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "911",
+        "Year": "2018",
+        "Cost": "0.14910279",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "540726.356",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "912",
+        "Year": "2018",
+        "Cost": "0.14910279",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "23589.6",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "913",
+        "Year": "2018",
+        "Cost": "0.14910279",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "482990.3126",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "914",
+        "Year": "2018",
+        "Cost": "0.14910279",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "5810.934",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "915",
+        "Year": "2018",
+        "Cost": "0.14910279",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "117993.89",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "916",
+        "Year": "2018",
+        "Cost": "0.14910279",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "13477.021",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "917",
+        "Year": "2018",
+        "Cost": "0.039836742",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1293203.746",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "918",
+        "Year": "2018",
+        "Cost": "0.039836742",
+        "Energy Cost": "Hydropower",
+        "Capacity": "540726.356",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "919",
+        "Year": "2018",
+        "Cost": "0.039836742",
+        "Energy Cost": "Hydropower",
+        "Capacity": "23589.6",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "920",
+        "Year": "2018",
+        "Cost": "0.039836742",
+        "Energy Cost": "Hydropower",
+        "Capacity": "482990.3126",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "921",
+        "Year": "2018",
+        "Cost": "0.039836742",
+        "Energy Cost": "Hydropower",
+        "Capacity": "5810.934",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "922",
+        "Year": "2018",
+        "Cost": "0.039836742",
+        "Energy Cost": "Hydropower",
+        "Capacity": "117993.89",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "923",
+        "Year": "2018",
+        "Cost": "0.039836742",
+        "Energy Cost": "Hydropower",
+        "Capacity": "13477.021",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "924",
+        "Year": "2018",
+        "Cost": "0.05087996",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1293203.746",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "925",
+        "Year": "2018",
+        "Cost": "0.05087996",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "540726.356",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "926",
+        "Year": "2018",
+        "Cost": "0.05087996",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "23589.6",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "927",
+        "Year": "2018",
+        "Cost": "0.05087996",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "482990.3126",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "928",
+        "Year": "2018",
+        "Cost": "0.05087996",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "5810.934",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "929",
+        "Year": "2018",
+        "Cost": "0.05087996",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "117993.89",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "930",
+        "Year": "2018",
+        "Cost": "0.05087996",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "13477.021",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "931",
+        "Year": "2019",
+        "Cost": "0.06393309",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1311570.859",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "932",
+        "Year": "2019",
+        "Cost": "0.06393309",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "592780.904",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "933",
+        "Year": "2019",
+        "Cost": "0.06393309",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "28302.3",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "934",
+        "Year": "2019",
+        "Cost": "0.06393309",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "584623.1626",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "935",
+        "Year": "2019",
+        "Cost": "0.06393309",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "6376.884",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "936",
+        "Year": "2019",
+        "Cost": "0.06393309",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "123812.523",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "937",
+        "Year": "2019",
+        "Cost": "0.06393309",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "14095.061",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "938",
+        "Year": "2019",
+        "Cost": "0.067305215",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1311570.859",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "939",
+        "Year": "2019",
+        "Cost": "0.067305215",
+        "Energy Cost": "Geothermal",
+        "Capacity": "592780.904",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "940",
+        "Year": "2019",
+        "Cost": "0.067305215",
+        "Energy Cost": "Geothermal",
+        "Capacity": "28302.3",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "941",
+        "Year": "2019",
+        "Cost": "0.067305215",
+        "Energy Cost": "Geothermal",
+        "Capacity": "584623.1626",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "942",
+        "Year": "2019",
+        "Cost": "0.067305215",
+        "Energy Cost": "Geothermal",
+        "Capacity": "6376.884",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "943",
+        "Year": "2019",
+        "Cost": "0.067305215",
+        "Energy Cost": "Geothermal",
+        "Capacity": "123812.523",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "944",
+        "Year": "2019",
+        "Cost": "0.067305215",
+        "Energy Cost": "Geothermal",
+        "Capacity": "14095.061",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "945",
+        "Year": "2019",
+        "Cost": "0.08638764",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1311570.859",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "946",
+        "Year": "2019",
+        "Cost": "0.08638764",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "592780.904",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "947",
+        "Year": "2019",
+        "Cost": "0.08638764",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "28302.3",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "948",
+        "Year": "2019",
+        "Cost": "0.08638764",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "584623.1626",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "949",
+        "Year": "2019",
+        "Cost": "0.08638764",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "6376.884",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "950",
+        "Year": "2019",
+        "Cost": "0.08638764",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "123812.523",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "951",
+        "Year": "2019",
+        "Cost": "0.08638764",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "14095.061",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "952",
+        "Year": "2019",
+        "Cost": "0.062119152",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1311570.859",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "953",
+        "Year": "2019",
+        "Cost": "0.062119152",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "592780.904",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "954",
+        "Year": "2019",
+        "Cost": "0.062119152",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "28302.3",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "955",
+        "Year": "2019",
+        "Cost": "0.062119152",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "584623.1626",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "956",
+        "Year": "2019",
+        "Cost": "0.062119152",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "6376.884",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "957",
+        "Year": "2019",
+        "Cost": "0.062119152",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "123812.523",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "958",
+        "Year": "2019",
+        "Cost": "0.062119152",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "14095.061",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "959",
+        "Year": "2019",
+        "Cost": "0.21183106",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1311570.859",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "960",
+        "Year": "2019",
+        "Cost": "0.21183106",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "592780.904",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "961",
+        "Year": "2019",
+        "Cost": "0.21183106",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "28302.3",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "962",
+        "Year": "2019",
+        "Cost": "0.21183106",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "584623.1626",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "963",
+        "Year": "2019",
+        "Cost": "0.21183106",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "6376.884",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "964",
+        "Year": "2019",
+        "Cost": "0.21183106",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "123812.523",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "965",
+        "Year": "2019",
+        "Cost": "0.21183106",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "14095.061",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "966",
+        "Year": "2019",
+        "Cost": "0.041408572",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1311570.859",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "967",
+        "Year": "2019",
+        "Cost": "0.041408572",
+        "Energy Cost": "Hydropower",
+        "Capacity": "592780.904",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "968",
+        "Year": "2019",
+        "Cost": "0.041408572",
+        "Energy Cost": "Hydropower",
+        "Capacity": "28302.3",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "969",
+        "Year": "2019",
+        "Cost": "0.041408572",
+        "Energy Cost": "Hydropower",
+        "Capacity": "584623.1626",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "970",
+        "Year": "2019",
+        "Cost": "0.041408572",
+        "Energy Cost": "Hydropower",
+        "Capacity": "6376.884",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "971",
+        "Year": "2019",
+        "Cost": "0.041408572",
+        "Energy Cost": "Hydropower",
+        "Capacity": "123812.523",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "972",
+        "Year": "2019",
+        "Cost": "0.041408572",
+        "Energy Cost": "Hydropower",
+        "Capacity": "14095.061",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "973",
+        "Year": "2019",
+        "Cost": "0.044592004",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1311570.859",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "974",
+        "Year": "2019",
+        "Cost": "0.044592004",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "592780.904",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "975",
+        "Year": "2019",
+        "Cost": "0.044592004",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "28302.3",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "976",
+        "Year": "2019",
+        "Cost": "0.044592004",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "584623.1626",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "977",
+        "Year": "2019",
+        "Cost": "0.044592004",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "6376.884",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "978",
+        "Year": "2019",
+        "Cost": "0.044592004",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "123812.523",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "979",
+        "Year": "2019",
+        "Cost": "0.044592004",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "14095.061",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "980",
+        "Year": "2020",
+        "Cost": "0.07247308",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1335495.792",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "981",
+        "Year": "2020",
+        "Cost": "0.07247308",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "697265.503",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "982",
+        "Year": "2020",
+        "Cost": "0.07247308",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "34357.65",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "983",
+        "Year": "2020",
+        "Cost": "0.07247308",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "710700.2416",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "984",
+        "Year": "2020",
+        "Cost": "0.07247308",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "6510.684",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "985",
+        "Year": "2020",
+        "Cost": "0.07247308",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "132870.774",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "986",
+        "Year": "2020",
+        "Cost": "0.07247308",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "14437.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "987",
+        "Year": "2020",
+        "Cost": "0.054264043",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1335495.792",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "988",
+        "Year": "2020",
+        "Cost": "0.054264043",
+        "Energy Cost": "Geothermal",
+        "Capacity": "697265.503",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "989",
+        "Year": "2020",
+        "Cost": "0.054264043",
+        "Energy Cost": "Geothermal",
+        "Capacity": "34357.65",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "990",
+        "Year": "2020",
+        "Cost": "0.054264043",
+        "Energy Cost": "Geothermal",
+        "Capacity": "710700.2416",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "991",
+        "Year": "2020",
+        "Cost": "0.054264043",
+        "Energy Cost": "Geothermal",
+        "Capacity": "6510.684",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "992",
+        "Year": "2020",
+        "Cost": "0.054264043",
+        "Energy Cost": "Geothermal",
+        "Capacity": "132870.774",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "993",
+        "Year": "2020",
+        "Cost": "0.054264043",
+        "Energy Cost": "Geothermal",
+        "Capacity": "14437.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "994",
+        "Year": "2020",
+        "Cost": "0.08626575",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1335495.792",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "995",
+        "Year": "2020",
+        "Cost": "0.08626575",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "697265.503",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "996",
+        "Year": "2020",
+        "Cost": "0.08626575",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "34357.65",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "997",
+        "Year": "2020",
+        "Cost": "0.08626575",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "710700.2416",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "998",
+        "Year": "2020",
+        "Cost": "0.08626575",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "6510.684",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "999",
+        "Year": "2020",
+        "Cost": "0.08626575",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "132870.774",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1000",
+        "Year": "2020",
+        "Cost": "0.08626575",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "14437.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "1001",
+        "Year": "2020",
+        "Cost": "0.055443965",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1335495.792",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "1002",
+        "Year": "2020",
+        "Cost": "0.055443965",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "697265.503",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "1003",
+        "Year": "2020",
+        "Cost": "0.055443965",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "34357.65",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "1004",
+        "Year": "2020",
+        "Cost": "0.055443965",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "710700.2416",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "1005",
+        "Year": "2020",
+        "Cost": "0.055443965",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "6510.684",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "1006",
+        "Year": "2020",
+        "Cost": "0.055443965",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "132870.774",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1007",
+        "Year": "2020",
+        "Cost": "0.055443965",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "14437.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "1008",
+        "Year": "2020",
+        "Cost": "0.10665299",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1335495.792",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "1009",
+        "Year": "2020",
+        "Cost": "0.10665299",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "697265.503",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "1010",
+        "Year": "2020",
+        "Cost": "0.10665299",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "34357.65",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "1011",
+        "Year": "2020",
+        "Cost": "0.10665299",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "710700.2416",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "1012",
+        "Year": "2020",
+        "Cost": "0.10665299",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "6510.684",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "1013",
+        "Year": "2020",
+        "Cost": "0.10665299",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "132870.774",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1014",
+        "Year": "2020",
+        "Cost": "0.10665299",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "14437.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "1015",
+        "Year": "2020",
+        "Cost": "0.045965873",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1335495.792",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "1016",
+        "Year": "2020",
+        "Cost": "0.045965873",
+        "Energy Cost": "Hydropower",
+        "Capacity": "697265.503",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "1017",
+        "Year": "2020",
+        "Cost": "0.045965873",
+        "Energy Cost": "Hydropower",
+        "Capacity": "34357.65",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "1018",
+        "Year": "2020",
+        "Cost": "0.045965873",
+        "Energy Cost": "Hydropower",
+        "Capacity": "710700.2416",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "1019",
+        "Year": "2020",
+        "Cost": "0.045965873",
+        "Energy Cost": "Hydropower",
+        "Capacity": "6510.684",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "1020",
+        "Year": "2020",
+        "Cost": "0.045965873",
+        "Energy Cost": "Hydropower",
+        "Capacity": "132870.774",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1021",
+        "Year": "2020",
+        "Cost": "0.045965873",
+        "Energy Cost": "Hydropower",
+        "Capacity": "14437.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "1022",
+        "Year": "2020",
+        "Cost": "0.03713682",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1335495.792",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "1023",
+        "Year": "2020",
+        "Cost": "0.03713682",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "697265.503",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "1024",
+        "Year": "2020",
+        "Cost": "0.03713682",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "34357.65",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "1025",
+        "Year": "2020",
+        "Cost": "0.03713682",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "710700.2416",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "1026",
+        "Year": "2020",
+        "Cost": "0.03713682",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "6510.684",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "1027",
+        "Year": "2020",
+        "Cost": "0.03713682",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "132870.774",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1028",
+        "Year": "2020",
+        "Cost": "0.03713682",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "14437.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "1029",
+        "Year": "2021",
+        "Cost": "0.067342535",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "1360502.05",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "1030",
+        "Year": "2021",
+        "Cost": "0.067342535",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "769227.387",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "1031",
+        "Year": "2021",
+        "Cost": "0.067342535",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "54256.98",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "1032",
+        "Year": "2021",
+        "Cost": "0.067342535",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "848404.5486",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "1033",
+        "Year": "2021",
+        "Cost": "0.067342535",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "6390.554",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "1034",
+        "Year": "2021",
+        "Cost": "0.067342535",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "143194.631",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1035",
+        "Year": "2021",
+        "Cost": "0.067342535",
+        "Energy Cost": "Bioenergy",
+        "Capacity": "15959.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "1036",
+        "Year": "2021",
+        "Cost": "0.06761599",
+        "Energy Cost": "Geothermal",
+        "Capacity": "1360502.05",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "1037",
+        "Year": "2021",
+        "Cost": "0.06761599",
+        "Energy Cost": "Geothermal",
+        "Capacity": "769227.387",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "1038",
+        "Year": "2021",
+        "Cost": "0.06761599",
+        "Energy Cost": "Geothermal",
+        "Capacity": "54256.98",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "1039",
+        "Year": "2021",
+        "Cost": "0.06761599",
+        "Energy Cost": "Geothermal",
+        "Capacity": "848404.5486",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "1040",
+        "Year": "2021",
+        "Cost": "0.06761599",
+        "Energy Cost": "Geothermal",
+        "Capacity": "6390.554",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "1041",
+        "Year": "2021",
+        "Cost": "0.06761599",
+        "Energy Cost": "Geothermal",
+        "Capacity": "143194.631",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1042",
+        "Year": "2021",
+        "Cost": "0.06761599",
+        "Energy Cost": "Geothermal",
+        "Capacity": "15959.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "1043",
+        "Year": "2021",
+        "Cost": "0.07516697",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "1360502.05",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "1044",
+        "Year": "2021",
+        "Cost": "0.07516697",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "769227.387",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "1045",
+        "Year": "2021",
+        "Cost": "0.07516697",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "54256.98",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "1046",
+        "Year": "2021",
+        "Cost": "0.07516697",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "848404.5486",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "1047",
+        "Year": "2021",
+        "Cost": "0.07516697",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "6390.554",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "1048",
+        "Year": "2021",
+        "Cost": "0.07516697",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "143194.631",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1049",
+        "Year": "2021",
+        "Cost": "0.07516697",
+        "Energy Cost": "Offshore wind",
+        "Capacity": "15959.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "1050",
+        "Year": "2021",
+        "Cost": "0.04834554",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "1360502.05",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "1051",
+        "Year": "2021",
+        "Cost": "0.04834554",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "769227.387",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "1052",
+        "Year": "2021",
+        "Cost": "0.04834554",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "54256.98",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "1053",
+        "Year": "2021",
+        "Cost": "0.04834554",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "848404.5486",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "1054",
+        "Year": "2021",
+        "Cost": "0.04834554",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "6390.554",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "1055",
+        "Year": "2021",
+        "Cost": "0.04834554",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "143194.631",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1056",
+        "Year": "2021",
+        "Cost": "0.04834554",
+        "Energy Cost": "Solar photovoltaic",
+        "Capacity": "15959.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "1057",
+        "Year": "2021",
+        "Cost": "0.11424175",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "1360502.05",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "1058",
+        "Year": "2021",
+        "Cost": "0.11424175",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "769227.387",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "1059",
+        "Year": "2021",
+        "Cost": "0.11424175",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "54256.98",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "1060",
+        "Year": "2021",
+        "Cost": "0.11424175",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "848404.5486",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "1061",
+        "Year": "2021",
+        "Cost": "0.11424175",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "6390.554",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "1062",
+        "Year": "2021",
+        "Cost": "0.11424175",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "143194.631",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1063",
+        "Year": "2021",
+        "Cost": "0.11424175",
+        "Energy Cost": "Concentrated solar power",
+        "Capacity": "15959.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "1064",
+        "Year": "2021",
+        "Cost": "0.04829987",
+        "Energy Cost": "Hydropower",
+        "Capacity": "1360502.05",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "1065",
+        "Year": "2021",
+        "Cost": "0.04829987",
+        "Energy Cost": "Hydropower",
+        "Capacity": "769227.387",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "1066",
+        "Year": "2021",
+        "Cost": "0.04829987",
+        "Energy Cost": "Hydropower",
+        "Capacity": "54256.98",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "1067",
+        "Year": "2021",
+        "Cost": "0.04829987",
+        "Energy Cost": "Hydropower",
+        "Capacity": "848404.5486",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "1068",
+        "Year": "2021",
+        "Cost": "0.04829987",
+        "Energy Cost": "Hydropower",
+        "Capacity": "6390.554",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "1069",
+        "Year": "2021",
+        "Cost": "0.04829987",
+        "Energy Cost": "Hydropower",
+        "Capacity": "143194.631",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1070",
+        "Year": "2021",
+        "Cost": "0.04829987",
+        "Energy Cost": "Hydropower",
+        "Capacity": "15959.561",
+        "Energy Source": "Geothermal"
+      },
+      {
+        "": "1071",
+        "Year": "2021",
+        "Cost": "0.033123367",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "1360502.05",
+        "Energy Source": "Hydropower"
+      },
+      {
+        "": "1072",
+        "Year": "2021",
+        "Cost": "0.033123367",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "769227.387",
+        "Energy Source": "Onshore wind energy"
+      },
+      {
+        "": "1073",
+        "Year": "2021",
+        "Cost": "0.033123367",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "54256.98",
+        "Energy Source": "Offshore wind energy"
+      },
+      {
+        "": "1074",
+        "Year": "2021",
+        "Cost": "0.033123367",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "848404.5486",
+        "Energy Source": "Solar photovoltaic"
+      },
+      {
+        "": "1075",
+        "Year": "2021",
+        "Cost": "0.033123367",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "6390.554",
+        "Energy Source": "Concentrated solar power"
+      },
+      {
+        "": "1076",
+        "Year": "2021",
+        "Cost": "0.033123367",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "143194.631",
+        "Energy Source": "Bioenergy"
+      },
+      {
+        "": "1077",
+        "Year": "2021",
+        "Cost": "0.033123367",
+        "Energy Cost": "Onshore wind",
+        "Capacity": "15959.561",
+        "Energy Source": "Geothermal"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "mark": {
+    "type": "circle",
+    "size": 10
+  },
+  "encoding": {
+    "row": {
+      "field": "Energy Cost"
+    },
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {
+        "grid": false
+      },
+      "title": null,
+      "scale": {
+        "zero": false
+      }
+    },
+    "y": {
+      "field": "Cost",
+      "type": "quantitative",
+      "scale": {
+        "zero": true
+      },
+      "axis": {
+        "grid": false
+      },
+      "title": "LCOE $/kWh"
+    },
+    "opacity": {
+      "value": 1
+    },
+    "color": {
+      "field": "Energy Cost",
+      "scale": {
+        "scheme": "darkmulti"
+      },
+      "legend": null
+    },
+    "tooltip": [
+      {
+        "field": "Cost",
+        "type": "quantitative",
+        "title": "$/kWh"
+      }
+    ]
+  }
+}

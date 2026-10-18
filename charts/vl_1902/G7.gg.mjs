@@ -47,6 +47,7 @@ export function buildChart() {
     .encodePointRadius({ value: 2.7386127875258306 })
     .createRuleMark({ stroke: "black", opacity: 0.1 })
     .encodeX({ field: "Date", fieldType: "temporal", target: "rule" })
+    .editRuleMark({ target: "rule", strokeWidth: 1 })
     .removeEncoding({ target: "rule", channel: "y" })
     .createTitle({ text: "Debt/GDP ratio", titleStyle: { fontSize: 13 }, alongOffset: -33.123046875 })
     .editTitle({ offset: -10.953125, gap: 3.34375, titleStyle: { fontWeight: 700, color: "black" } })

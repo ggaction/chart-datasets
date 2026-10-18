@@ -1,0 +1,127 @@
+{
+  "id": "vl_1773",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "824c5f1553ae94772f7dc814982575371b6d3980cd4a0f8f11b0c7853567f7f3",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2641e85bbe3c01878ab8443d2ddb06b92ce9cae6bad7a569329d0a089b130a41",
+      "actions": 13,
+      "topOptions": 28
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ace52277ebc98d9a04374116d604476952b010736d2871432c8cad5b0ada7856",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "43a188bd2e9be6d38e034e21ae96996f602d5ecf936ebf51c82a78a51b13da1c",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ab989756e836c09c626765ab4d6e2831c476ef349144db92aa8271e027bd44da",
+      "actions": 20,
+      "topOptions": 40
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ddf4b1106d9242b1a54231500bcb76395ac664438bf8cfb3c6d67ec5f2e236ea",
+      "actions": 22,
+      "topOptions": 40
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "aefa367a1288407ad316a93295f99600ea9257ea55b99063a017695216f0c4d3",
+      "actions": 23,
+      "topOptions": 42
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4e6d1246e8da15131f0ad0bc6d85e446628046833f71ed668771472493c6f438",
+      "actions": 24,
+      "topOptions": 44
+    }
+  ],
+  "sourceUrls": [
+    "https://gicentre.github.io/data/tests/timeTest.tsv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful programs: native highlevel hourly mean with integrated scales and axes -> focused scales -> complete X/Y axes -> whole-axis paint -> component paint -> tick/label editors -> grid paint -> directional grid paint. All source data and glyph appearance retained; source hiding map remains at creation. Eight-stage cap, not an exhaustive decomposition claim."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "786176e9ba410d8e4c0e549153023386399f6b5426c9270d5737a1cd6f61fca9",
+      "bytes": 501
+    },
+    "data.json": {
+      "sha256": "1ae3e91972addcbdba23e94c13e30fce6708b402efe315403b1ed8b2d23ffd02",
+      "bytes": 1838553
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0241ac93299b84f9c62c3afccb3304ca14a69a312f27dd4fb8fe28b6f74a5003",
+      "bytes": 2259320
+    },
+    "G1.gg.mjs": {
+      "sha256": "824c5f1553ae94772f7dc814982575371b6d3980cd4a0f8f11b0c7853567f7f3",
+      "bytes": 6859
+    },
+    "G2.gg.mjs": {
+      "sha256": "2641e85bbe3c01878ab8443d2ddb06b92ce9cae6bad7a569329d0a089b130a41",
+      "bytes": 6861
+    },
+    "G3.gg.mjs": {
+      "sha256": "ace52277ebc98d9a04374116d604476952b010736d2871432c8cad5b0ada7856",
+      "bytes": 6735
+    },
+    "G4.gg.mjs": {
+      "sha256": "43a188bd2e9be6d38e034e21ae96996f602d5ecf936ebf51c82a78a51b13da1c",
+      "bytes": 6921
+    },
+    "G5.gg.mjs": {
+      "sha256": "ab989756e836c09c626765ab4d6e2831c476ef349144db92aa8271e027bd44da",
+      "bytes": 6957
+    },
+    "G6.gg.mjs": {
+      "sha256": "ddf4b1106d9242b1a54231500bcb76395ac664438bf8cfb3c6d67ec5f2e236ea",
+      "bytes": 6951
+    },
+    "G7.gg.mjs": {
+      "sha256": "aefa367a1288407ad316a93295f99600ea9257ea55b99063a017695216f0c4d3",
+      "bytes": 6999
+    },
+    "G8.gg.mjs": {
+      "sha256": "4e6d1246e8da15131f0ad0bc6d85e446628046833f71ed668771472493c6f438",
+      "bytes": 7021
+    },
+    "vega-lite.svg": {
+      "sha256": "4633995c3d2aaeb36b53058936a0bd6a3b98db631ae55b8b02494aa164566dbb",
+      "bytes": 171975
+    },
+    "ggaction.svg": {
+      "sha256": "7b1e07a71bcbe2bd18b63ba75001896455c16d607b9849a7d34a07c067c2eb88",
+      "bytes": 410228
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "vl_0962",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "0ec2c36a082028d817346f550b913b5c711f4dcad890eaca7eea9dbbaa016795",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1e699294b3b5f31e8ac2044400c31c8fd2fa3fe1420a59be0317a34d81a37035",
+      "actions": 21,
+      "topOptions": 43
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ee63f24fc260b5cbf1808e0f53cbe37c493e5b52541c82ce1305f67816b7026a",
+      "actions": 22,
+      "topOptions": 45
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "af4e9c2141eb3252fdea052ddd8a6b628a75c0dca24d2528babe5da7331556d7",
+      "actions": 24,
+      "topOptions": 49
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "d7ce0074154170ded34fe92ad116810ddc862660193ed611bbb771a4cb075914",
+      "actions": 26,
+      "topOptions": 53
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "db0fd6010d824f5410d27ec1be7379d7cb6530a300f20ac0a23fed7d8280088e",
+      "actions": 28,
+      "topOptions": 53
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "109a31ff45e9105d73a7bfad4e40922a4b84fb9948d36204e1e43742eb86ee85",
+      "actions": 29,
+      "topOptions": 55
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "c36783a1f479ac03d89a6938b614f6dc0aaedfc2a788e9795e6fac77abea4b2f",
+      "actions": 30,
+      "topOptions": 55
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/harrywright25/harrywright25.github.io/main/data-pps2.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Root reviewed all eight actual school-authored stages and both rejected host-caused G3 plans, preserved every paid response and failed control. All accepted source/family/runtime checks pass; eight meaningful stages are a cap, not a claim of exhausted refinement."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "c1239cecd74d3fb9c03693c96fb4f95ab430e4eb3411223ccf36ec470b595213",
+      "bytes": 1181
+    },
+    "data.json": {
+      "sha256": "48d4f52380526810a2afd3292448e4ee5b7d93004be604834abda6e7bd47a77b",
+      "bytes": 4772
+    },
+    "resolved-source.vl.json": {
+      "sha256": "a81d0a7db783764d2fa524cb5c519c91434fd6f90dc1732a19fb2cece55c7f9a",
+      "bytes": 6636
+    },
+    "G1.gg.mjs": {
+      "sha256": "0ec2c36a082028d817346f550b913b5c711f4dcad890eaca7eea9dbbaa016795",
+      "bytes": 6562
+    },
+    "G2.gg.mjs": {
+      "sha256": "1e699294b3b5f31e8ac2044400c31c8fd2fa3fe1420a59be0317a34d81a37035",
+      "bytes": 6601
+    },
+    "G3.gg.mjs": {
+      "sha256": "ee63f24fc260b5cbf1808e0f53cbe37c493e5b52541c82ce1305f67816b7026a",
+      "bytes": 6657
+    },
+    "G4.gg.mjs": {
+      "sha256": "af4e9c2141eb3252fdea052ddd8a6b628a75c0dca24d2528babe5da7331556d7",
+      "bytes": 6817
+    },
+    "G5.gg.mjs": {
+      "sha256": "d7ce0074154170ded34fe92ad116810ddc862660193ed611bbb771a4cb075914",
+      "bytes": 6819
+    },
+    "G6.gg.mjs": {
+      "sha256": "db0fd6010d824f5410d27ec1be7379d7cb6530a300f20ac0a23fed7d8280088e",
+      "bytes": 6813
+    },
+    "G7.gg.mjs": {
+      "sha256": "109a31ff45e9105d73a7bfad4e40922a4b84fb9948d36204e1e43742eb86ee85",
+      "bytes": 6861
+    },
+    "G8.gg.mjs": {
+      "sha256": "c36783a1f479ac03d89a6938b614f6dc0aaedfc2a788e9795e6fac77abea4b2f",
+      "bytes": 6865
+    },
+    "vega-lite.svg": {
+      "sha256": "e9e88ce2fe1b2a65ed5c92776c6a6fe65e6ef8a6e6d81e68e17245f7ddb20f2f",
+      "bytes": 16994
+    },
+    "ggaction.svg": {
+      "sha256": "940d861db5f11c51ce1b6af3d86f5c6acb95d5804e48ae7e7fd0de52fe2260ea",
+      "bytes": 16906
+    }
+  }
+}

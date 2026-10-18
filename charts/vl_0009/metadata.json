@@ -1,0 +1,125 @@
+{
+  "id": "vl_0009",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "41c317c586eb3bef29f973ff0aa4b89401570aa9b9707d416ad96a5314ba7e7c",
+      "actions": 34,
+      "topOptions": 73
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e650bfbf8741a58e0f296d205eb6b62b92b94a90b568a1cdee91dea329185f0d",
+      "actions": 36,
+      "topOptions": 77
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "32ad03799e0cc66a0cc358071feffb2095a490806929e5bff9de0348e767cfbf",
+      "actions": 37,
+      "topOptions": 81
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0c0a323b0f8f24188fdd3360a8561980023480ac36d2b1d6d3c2d3cc84fed0fd",
+      "actions": 39,
+      "topOptions": 85
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "300916123eadf5d76819897c73297ca278d9312a6da4aa59e1165c34a1f9d49b",
+      "actions": 43,
+      "topOptions": 91
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8426428d483488640d9f34a3719d2e44c0d910a22552421a7c05f6b8689235e3",
+      "actions": 45,
+      "topOptions": 93
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "fd9b01fe9d1631f1059c45e37df54439cf368245c240fe3764b2c54387f673d2",
+      "actions": 46,
+      "topOptions": 95
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4ef69999fe1e70c2caba50e17ac5a1bab3e699a69af963ed38e9011770543b63",
+      "actions": 47,
+      "topOptions": 97
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful stages retain source layers/data/geometry, correct source Rule default width 1 explicitly, preserve ordinary complete-axis-then-edit progression and exact current-family SVG/PNG identity. All original attempts retained."
+  },
+  "historicalRuntimeCommits": [
+    "f6b50bf55a9de1857f106c7aa519326ce7a86d76"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "bfd61205f98cdf42aa523ffeca9e9f35efb95c7885750ffc40544b41124615c3",
+      "bytes": 67013
+    },
+    "data.json": {
+      "sha256": "039cd4624a8cc7438924d2d95b2b2712ca134f6b222f6f23acf75c8e2813b8c8",
+      "bytes": 50898
+    },
+    "resolved-source.vl.json": {
+      "sha256": "fed7589d8a4334fe74e0d0fb6f39e88c30c014d7c79065154d0c21f87579b878",
+      "bytes": 67014
+    },
+    "G1.gg.mjs": {
+      "sha256": "41c317c586eb3bef29f973ff0aa4b89401570aa9b9707d416ad96a5314ba7e7c",
+      "bytes": 10567
+    },
+    "G2.gg.mjs": {
+      "sha256": "e650bfbf8741a58e0f296d205eb6b62b92b94a90b568a1cdee91dea329185f0d",
+      "bytes": 10569
+    },
+    "G3.gg.mjs": {
+      "sha256": "32ad03799e0cc66a0cc358071feffb2095a490806929e5bff9de0348e767cfbf",
+      "bytes": 10471
+    },
+    "G4.gg.mjs": {
+      "sha256": "0c0a323b0f8f24188fdd3360a8561980023480ac36d2b1d6d3c2d3cc84fed0fd",
+      "bytes": 10641
+    },
+    "G5.gg.mjs": {
+      "sha256": "300916123eadf5d76819897c73297ca278d9312a6da4aa59e1165c34a1f9d49b",
+      "bytes": 10625
+    },
+    "G6.gg.mjs": {
+      "sha256": "8426428d483488640d9f34a3719d2e44c0d910a22552421a7c05f6b8689235e3",
+      "bytes": 10611
+    },
+    "G7.gg.mjs": {
+      "sha256": "fd9b01fe9d1631f1059c45e37df54439cf368245c240fe3764b2c54387f673d2",
+      "bytes": 10687
+    },
+    "G8.gg.mjs": {
+      "sha256": "4ef69999fe1e70c2caba50e17ac5a1bab3e699a69af963ed38e9011770543b63",
+      "bytes": 10665
+    },
+    "vega-lite.svg": {
+      "sha256": "0dc4fee73caacb5bb1a5212545691c92ae074a319715e6afddd1cbdfb1c48d5b",
+      "bytes": 574353
+    },
+    "ggaction.svg": {
+      "sha256": "0fd22b85e85cb08d7639d6705547d9d85b35156adacab830b0560970cd800f52",
+      "bytes": 278523
+    }
+  }
+}

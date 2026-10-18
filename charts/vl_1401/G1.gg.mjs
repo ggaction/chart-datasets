@@ -28,7 +28,7 @@ export function buildChart() {
     .editPointMark({ fill: "transparent", strokeWidth: 2, opacity: 0.7 })
     .encodePointRadius({ value: Math.sqrt(30) / 2 })
     .editStrokeScale({ target: "scatterPlot", domain: [""], range: ["#4c78a8"] })
-    .createRuleMark({ id: "layer_1_marks", data: "data_estHi" })
+    .createRuleMark({ id: "layer_1_marks", data: "data_estHi", strokeWidth: 1 })
     .encodeXRange({ target: "layer_1_marks", lower: "estLo", upper: "estHi" })
     .encodeY({ field: "Parameter", target: "layer_1_marks", fieldType: "nominal" })
     .encodeStroke({ field: "Key", target: "layer_1_marks", fieldType: "nominal" })

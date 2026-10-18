@@ -31,7 +31,7 @@ export function buildChart() {
     .editPointMark({ fill: "transparent", stroke: "#4c78a8", strokeWidth: 2 })
     .encodePointRadius({ value: 2.7386127875258306 })
     .encodeOpacity({ value: 0.7, target: "scatterPlot" })
-    .createRuleMark({ stroke: "black", opacity: 0.1 })
+    .createRuleMark({ stroke: "black", opacity: 0.1, strokeWidth: 1 })
     .encodeX({ field: "Year", target: "rule", fieldType: "temporal" })
     .removeEncoding({ target: "rule", channel: "y" })
     .editXScale({ domain: [-5648659200000, 1577836800000], nice: false })

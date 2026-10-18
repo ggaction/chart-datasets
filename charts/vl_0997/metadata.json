@@ -1,0 +1,134 @@
+{
+  "id": "vl_0997",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "be12f9c502d036ac991f9854c18cff3f7f164cc9313e20feaadee8ccbb968bc9",
+      "actions": 103,
+      "topOptions": 237
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "3f42954dad2aa422bd3719e40a30399db1b0efc4742d91ade8795960e30e94ea",
+      "actions": 124,
+      "topOptions": 265
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7ee4673b10e9de43269c0d2a207fbbde44a51ba446c753997e80b8bcdd18f649",
+      "actions": 132,
+      "topOptions": 288
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "df83b2f685891371a0b644abbbbfa27ce227c1c3863fb7d5c43affdf201f0ea4",
+      "actions": 147,
+      "topOptions": 303
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c94985bfafee34f8c75821103943e255ed9bcb38fc5fdb34815b7bfa673970c5",
+      "actions": 155,
+      "topOptions": 311
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0794775d0175a011472585c92156545283e82a7d11530b180cd19a28add01956",
+      "actions": 155,
+      "topOptions": 313
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "415f4111fccf360975c4f10bfcf2465226cb3e4df86b9212de5dac8a47ebd24f",
+      "actions": 156,
+      "topOptions": 314
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "d5c859c2e732ea97250f7e7b8f6f37c9cb1bc76bdf0bca1dca652b4e70635cf5",
+      "actions": 155,
+      "topOptions": 314
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/harrywright25/harrywright25.github.io/main/data-project-CAP2.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight genuinely distinct GLM-authored parent programs; all source/DOM/raw/style/size/current-runtime checks pass and all exact SVG/PNG/graphics are identical. Last mandatory whole-X-axis label format moved into the existing labels editor; no redundant extra labels action. Published0.0.19 independent calibration verified; no chart pixels inspected."
+  },
+  "historicalRuntimeCommits": [],
+  "historicalVerificationRuntimeUnrecordedStages": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "G8"
+  ],
+  "files": {
+    "source.vl.json": {
+      "sha256": "d47aa1bdfa378c686093354657cc419204a53af75cd521768cc1fd708a47e138",
+      "bytes": 1344
+    },
+    "data.json": {
+      "sha256": "4ed84c335c73eaa1af5c8a6c00b754ac3160f4324ed95031c57e3b05602d76f3",
+      "bytes": 118185
+    },
+    "resolved-source.vl.json": {
+      "sha256": "bb71b60423c3f0d170bd8b69affe28659078ce980623b162dbd4a58cee9ec7b6",
+      "bytes": 138323
+    },
+    "G1.gg.mjs": {
+      "sha256": "be12f9c502d036ac991f9854c18cff3f7f164cc9313e20feaadee8ccbb968bc9",
+      "bytes": 21092
+    },
+    "G2.gg.mjs": {
+      "sha256": "3f42954dad2aa422bd3719e40a30399db1b0efc4742d91ade8795960e30e94ea",
+      "bytes": 21043
+    },
+    "G3.gg.mjs": {
+      "sha256": "7ee4673b10e9de43269c0d2a207fbbde44a51ba446c753997e80b8bcdd18f649",
+      "bytes": 21558
+    },
+    "G4.gg.mjs": {
+      "sha256": "df83b2f685891371a0b644abbbbfa27ce227c1c3863fb7d5c43affdf201f0ea4",
+      "bytes": 21630
+    },
+    "G5.gg.mjs": {
+      "sha256": "c94985bfafee34f8c75821103943e255ed9bcb38fc5fdb34815b7bfa673970c5",
+      "bytes": 21534
+    },
+    "G6.gg.mjs": {
+      "sha256": "0794775d0175a011472585c92156545283e82a7d11530b180cd19a28add01956",
+      "bytes": 21569
+    },
+    "G7.gg.mjs": {
+      "sha256": "415f4111fccf360975c4f10bfcf2465226cb3e4df86b9212de5dac8a47ebd24f",
+      "bytes": 21615
+    },
+    "G8.gg.mjs": {
+      "sha256": "d5c859c2e732ea97250f7e7b8f6f37c9cb1bc76bdf0bca1dca652b4e70635cf5",
+      "bytes": 21569
+    },
+    "vega-lite.svg": {
+      "sha256": "eec78efb5447e5b8d30374615116b7d484cb79dcfefd772d91cf157a8e16a9e6",
+      "bytes": 230260
+    },
+    "ggaction.svg": {
+      "sha256": "4b7dd34ca02394e432524d8e64c9bbf365cb19ee4c655abac1065e91a7b7ab9d",
+      "bytes": 109793
+    }
+  }
+}

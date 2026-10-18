@@ -1,0 +1,98 @@
+{
+  "id": "vl_0995",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "7b4d855c8fc78c292045c1f5ea99c9eb2f36c408e1201667d7dee42a3f444ef7",
+      "actions": 107,
+      "topOptions": 256
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a6cdfab08a11707db9595a19a54dcf6dbfba3c52ce38f39de637e3f9184bdcbe",
+      "actions": 128,
+      "topOptions": 284
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "9221fd02a146cd5a3e042f1c37e13813a0dcda6976e0d4be4796528aaa3c3b2e",
+      "actions": 143,
+      "topOptions": 315
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "b46a1c806c52148662f2331a3ba1c7f7eb05a4419b4ad99b6f50a6717db196a4",
+      "actions": 143,
+      "topOptions": 316
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e9b2d75ebf623238f9b705074c9867105a71d78acc11a551b721c0767d14cc59",
+      "actions": 159,
+      "topOptions": 331
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/harrywright25/harrywright25.github.io/main/data-project-CAP2%20(1).csv"
+  ],
+  "notes": {
+    "reason": "frontier-exhausted",
+    "explanation": "Five distinct GLM-authored stages verified on published0.0.19 with exact source/native and interstage checks. Codex audited exhausted ownership frontier; no additional model calls."
+  },
+  "historicalRuntimeCommits": [],
+  "historicalVerificationRuntimeUnrecordedStages": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5"
+  ],
+  "files": {
+    "source.vl.json": {
+      "sha256": "d342b1917517bd3690b5a9f020cb4d53042073079742682a25a190195c24e9a8",
+      "bytes": 1322
+    },
+    "data.json": {
+      "sha256": "6a0fe6d6de40e9d2165552a0ff778bc4ee1136a8bfa71c253bc78ff42b466e30",
+      "bytes": 103380
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d8973996a4c8277f28ad6a7f2a22958563f39940b65809440185632e797aaaa5",
+      "bytes": 123490
+    },
+    "G1.gg.mjs": {
+      "sha256": "7b4d855c8fc78c292045c1f5ea99c9eb2f36c408e1201667d7dee42a3f444ef7",
+      "bytes": 16982
+    },
+    "G2.gg.mjs": {
+      "sha256": "a6cdfab08a11707db9595a19a54dcf6dbfba3c52ce38f39de637e3f9184bdcbe",
+      "bytes": 17199
+    },
+    "G3.gg.mjs": {
+      "sha256": "9221fd02a146cd5a3e042f1c37e13813a0dcda6976e0d4be4796528aaa3c3b2e",
+      "bytes": 17825
+    },
+    "G4.gg.mjs": {
+      "sha256": "b46a1c806c52148662f2331a3ba1c7f7eb05a4419b4ad99b6f50a6717db196a4",
+      "bytes": 17841
+    },
+    "G5.gg.mjs": {
+      "sha256": "e9b2d75ebf623238f9b705074c9867105a71d78acc11a551b721c0767d14cc59",
+      "bytes": 17844
+    },
+    "vega-lite.svg": {
+      "sha256": "7731b34711dd40493f4283a2d97089ea675ff618a62a593f03764b6dbc41164e",
+      "bytes": 223248
+    },
+    "ggaction.svg": {
+      "sha256": "2cd2a3c8337547abbe740b57d213d71cbc69688c69620530aa4cc67786ec4140",
+      "bytes": 102567
+    }
+  }
+}
