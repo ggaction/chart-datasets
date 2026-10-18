@@ -2,7 +2,7 @@
 
 [Open the comparison viewer](https://ggaction.github.io/chart-datasets/)
 
-A minimal side-by-side viewer for 1,206 completed Vega-Lite → ggaction chart
+A minimal side-by-side viewer for 1,213 completed Vega-Lite → ggaction chart
 translations. Vega-Lite appears on the left and ggaction on the right. Use the
 slider, arrow buttons, keyboard arrows, Home or End. Link directly to a chart
 with a hash such as [#vl_1180](https://ggaction.github.io/chart-datasets/#vl_1180).
@@ -28,7 +28,7 @@ authored Vega-Lite property; the original specification and data remain unchange
 Incremental synchronization verifies and preserves this provenance when those
 families are imported.
 
-The repository includes 8,732 raw accepted programs. Families have up to eight
+The repository includes 8,788 raw accepted programs. Families have up to eight
 stages; the historical baseline retains its original accepted stages, including
 stages omitted by a later editorial curation. A chart is included only when
 its family was marked completed. Held and incomplete families remain excluded. Translation continues sequentially
@@ -57,11 +57,11 @@ Large source specifications and raw data remain available in this repository.
 
 ## Runtime and verification
 
-The synchronized runtime is ggaction **0.0.20**, pinned in `runtime-lock.json` and the lockfile.
-The tagged artifact and npm archive match exactly. All **1,206 families / 8,732 programs**
+The synchronized runtime is ggaction **0.0.21**, pinned in `runtime-lock.json` and the lockfile.
+The tagged artifact and npm archive match exactly. All **1,213 families / 8,788 programs**
 match their frozen browser SVGs; see [the runtime report](reports/runtime-sync.json)
 and [registry proof](reports/registry-proof.json). The official npm installation contains
-the same 591 files as the verified artifact. The [0.0.20 release](https://github.com/ggaction/ggaction/releases/tag/v0.0.20)
+the same 591 files as the verified artifact. The [0.0.21 release](https://github.com/ggaction/ggaction/releases/tag/v0.0.21)
 and [published documentation](https://ggaction.github.io/ggaction/) are synchronized;
 [documentation provenance](reports/documentation-release.json) records their contract identity.
 Install dependencies and the pinned Chromium build, then render a family with:
@@ -119,9 +119,10 @@ runtime compatibility check succeeds; importing alone is not release verificatio
 Completed means the translations passed the recorded rendering, structure,
 data and geometry policy. It does not claim pixel-perfect equivalence to the
 source. Source-specific approximations and historical corrections remain in
-per-chart metadata. The latest update adds 52 completed families and refreshes 30 previously reviewed
-corrections while preserving every original source, frozen dataset and source SVG.
+per-chart metadata. The latest update adds seven completed families while preserving every original
+source, frozen dataset and previously distributed SVG. It also preserves the
+original unseeded SVGs for five sources with approved reference environments.
 [Update evidence](reports/dataset-sync.json) and the
-[previous release record](reports/previous-release-0.0.19.json) preserve that history.
+[previous release records](reports/previous-release-0.0.20.json) preserve that history.
 
 See [DATA_SOURCES.md](DATA_SOURCES.md) for attribution and licensing.

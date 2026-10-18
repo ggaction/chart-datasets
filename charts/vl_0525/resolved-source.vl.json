@@ -1,0 +1,317 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Sugar 4b",
+  "width": 260,
+  "height": 300,
+  "data": {
+    "values": [
+      {
+        "Sugar intensity (g per 100ml)": "0",
+        "Number of products ": "40",
+        "Tax (pence per g sugar)": "0",
+        "Detail": "2019"
+      },
+      {
+        "Sugar intensity (g per 100ml)": "0.5",
+        "Number of products ": "8",
+        "Tax (pence per g sugar)": "0",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "1",
+        "Number of products ": "17",
+        "Tax (pence per g sugar)": "0",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "1.5",
+        "Number of products ": "11",
+        "Tax (pence per g sugar)": "0",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "2",
+        "Number of products ": "18",
+        "Tax (pence per g sugar)": "0",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "2.5",
+        "Number of products ": "37",
+        "Tax (pence per g sugar)": "0",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "3",
+        "Number of products ": "39",
+        "Tax (pence per g sugar)": "0",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "3.5",
+        "Number of products ": "75",
+        "Tax (pence per g sugar)": "0",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "4",
+        "Number of products ": "160",
+        "Tax (pence per g sugar)": "0",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "4.5",
+        "Number of products ": "333",
+        "Tax (pence per g sugar)": "0",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "5",
+        "Number of products ": "244",
+        "Tax (pence per g sugar)": "0.3529412",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "5.5",
+        "Number of products ": "35",
+        "Tax (pence per g sugar)": "0.3396226",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "6",
+        "Number of products ": "25",
+        "Tax (pence per g sugar)": "0.3130435",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "6.5",
+        "Number of products ": "44",
+        "Tax (pence per g sugar)": "0.2866242",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "7",
+        "Number of products ": "117",
+        "Tax (pence per g sugar)": "0.2647059",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "7.5",
+        "Number of products ": "244",
+        "Tax (pence per g sugar)": "0.2465753",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "8",
+        "Number of products ": "217",
+        "Tax (pence per g sugar)": "0.2996255",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "8.5",
+        "Number of products ": "125",
+        "Tax (pence per g sugar)": "0.2891566",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "9",
+        "Number of products ": "175",
+        "Tax (pence per g sugar)": "0.2733485",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "9.5",
+        "Number of products ": "145",
+        "Tax (pence per g sugar)": "0.2594595",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "10",
+        "Number of products ": "168",
+        "Tax (pence per g sugar)": "0.2461538",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "10.5",
+        "Number of products ": "123",
+        "Tax (pence per g sugar)": "0.2330097",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "11",
+        "Number of products ": "163",
+        "Tax (pence per g sugar)": "0.2222222",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "11.5",
+        "Number of products ": "35",
+        "Tax (pence per g sugar)": "0.2123894",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "12",
+        "Number of products ": "38",
+        "Tax (pence per g sugar)": "0.2033898",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "12.5",
+        "Number of products ": "33",
+        "Tax (pence per g sugar)": "0.1951219",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "13",
+        "Number of products ": "40",
+        "Tax (pence per g sugar)": "0.1875",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "13.5",
+        "Number of products ": "10",
+        "Tax (pence per g sugar)": "0.1804511",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "14",
+        "Number of products ": "12",
+        "Tax (pence per g sugar)": "0.173913",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "14.5",
+        "Number of products ": "5",
+        "Tax (pence per g sugar)": "0.1678322",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "15",
+        "Number of products ": "5",
+        "Tax (pence per g sugar)": "0.1626016",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "15.5",
+        "Number of products ": "2",
+        "Tax (pence per g sugar)": "0.157377",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "16",
+        "Number of products ": "7",
+        "Tax (pence per g sugar)": "0.1509434",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "16.5",
+        "Number of products ": "3",
+        "Tax (pence per g sugar)": "0.1472393",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "17",
+        "Number of products ": "0",
+        "Tax (pence per g sugar)": "0.14180145",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "17.5",
+        "Number of products ": "1",
+        "Tax (pence per g sugar)": "0.1363636",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "18",
+        "Number of products ": "1",
+        "Tax (pence per g sugar)": "0.1340782",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "18.5",
+        "Number of products ": "0",
+        "Tax (pence per g sugar)": "0.130197",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "19",
+        "Number of products ": "0",
+        "Tax (pence per g sugar)": "0.1263158",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "19.5",
+        "Number of products ": "0",
+        "Tax (pence per g sugar)": "0.1231579",
+        "Detail": ""
+      },
+      {
+        "Sugar intensity (g per 100ml)": "20",
+        "Number of products ": "0",
+        "Tax (pence per g sugar)": "0.12",
+        "Detail": ""
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "Sugar intensity (g per 100ml)",
+      "type": "nominal",
+      "sort": [
+        "0"
+      ],
+      "title": "Sugar intensity (g per 100g)",
+      "axis": {
+        "labelAngle": 60,
+        "labelFontSize": 6
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "opacity": 0.5,
+        "type": "bar",
+        "color": "#e6224b"
+      },
+      "encoding": {
+        "y": {
+          "field": "Number of products ",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              350
+            ]
+          },
+          "title": "Number of products",
+          "axis": {
+            "titleColor": "#e6224b"
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "stroke": "#36b7b4",
+        "type": "line",
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "y": {
+          "field": "Tax (pence per g sugar)",
+          "type": "quantitative",
+          "title": "Tax (pence per g sugar)",
+          "axis": {
+            "titleColor": "#36b7b4"
+          }
+        }
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  }
+}

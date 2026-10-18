@@ -1,20 +1,22 @@
 {
   "runtime": {
+    "schemaVersion": 1,
     "name": "ggaction",
-    "version": "0.0.20",
-    "tag": "v0.0.20",
-    "commit": "c219b993f31530051420857cca6c430a7df9aefa",
-    "sha1": "852c812f2c3323c3cd337db58f8ff4e46426b77e",
-    "sha256": "dfa3d3afc44343ff40941fccb331827ebd607687ecc4e63fc96be7eab8c76744",
-    "packedBytes": 841935
+    "version": "0.0.21",
+    "tag": "v0.0.21",
+    "commit": "e93500081b6dde6be7614e3e9352e947bec5908d",
+    "filename": "ggaction-0.0.21.tgz",
+    "sha1": "17d41e0cd1644d733e6e80f9333f5d8df2b759e8",
+    "sha256": "a54ca29cec8b49d11392f92a08beea2bdf2570fc98205c266de3ede01ce5e5fb",
+    "entryCount": 591,
+    "packedBytes": 841982,
+    "unpackedBytes": 4074223,
+    "releaseNotes": "ggaction-0.0.21-release-notes.md"
   },
   "backend": "Chromium, en-US, UTC, 1280x960, DPR2",
-  "browserVersions": [
-    "153.0.8010.12"
-  ],
-  "charts": 1206,
-  "programs": 8732,
-  "passed": 1206,
+  "charts": 1213,
+  "programs": 8788,
+  "passed": 1213,
   "results": [
     {
       "id": "vl_0002",
@@ -11728,6 +11730,61 @@
       ]
     },
     {
+      "id": "vl_0448",
+      "browser": "153.0.8010.12",
+      "status": "passed",
+      "stages": [
+        {
+          "level": "G1",
+          "svgSha256": "81018f6d66c39f28194c2d79f1d2b1c70f0ed36449e2d2381fda5096c90233a2",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G2",
+          "svgSha256": "81018f6d66c39f28194c2d79f1d2b1c70f0ed36449e2d2381fda5096c90233a2",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G3",
+          "svgSha256": "81018f6d66c39f28194c2d79f1d2b1c70f0ed36449e2d2381fda5096c90233a2",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G4",
+          "svgSha256": "81018f6d66c39f28194c2d79f1d2b1c70f0ed36449e2d2381fda5096c90233a2",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G5",
+          "svgSha256": "81018f6d66c39f28194c2d79f1d2b1c70f0ed36449e2d2381fda5096c90233a2",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G6",
+          "svgSha256": "81018f6d66c39f28194c2d79f1d2b1c70f0ed36449e2d2381fda5096c90233a2",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G7",
+          "svgSha256": "81018f6d66c39f28194c2d79f1d2b1c70f0ed36449e2d2381fda5096c90233a2",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G8",
+          "svgSha256": "81018f6d66c39f28194c2d79f1d2b1c70f0ed36449e2d2381fda5096c90233a2",
+          "sameFamily": true,
+          "unchanged": true
+        }
+      ]
+    },
+    {
       "id": "vl_0450",
       "browser": "153.0.8010.12",
       "status": "passed",
@@ -12719,6 +12776,61 @@
         {
           "level": "G8",
           "svgSha256": "133328db72d21ff153c63e06da6468bbbee261af6077271904f49596286cfece",
+          "sameFamily": true,
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "vl_0525",
+      "browser": "153.0.8010.12",
+      "status": "passed",
+      "stages": [
+        {
+          "level": "G1",
+          "svgSha256": "68af15922df5ba378d2410fa4fcd13d56b82c9b3cd3da2e30f3447716b246073",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G2",
+          "svgSha256": "68af15922df5ba378d2410fa4fcd13d56b82c9b3cd3da2e30f3447716b246073",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G3",
+          "svgSha256": "68af15922df5ba378d2410fa4fcd13d56b82c9b3cd3da2e30f3447716b246073",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G4",
+          "svgSha256": "68af15922df5ba378d2410fa4fcd13d56b82c9b3cd3da2e30f3447716b246073",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G5",
+          "svgSha256": "68af15922df5ba378d2410fa4fcd13d56b82c9b3cd3da2e30f3447716b246073",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G6",
+          "svgSha256": "68af15922df5ba378d2410fa4fcd13d56b82c9b3cd3da2e30f3447716b246073",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G7",
+          "svgSha256": "68af15922df5ba378d2410fa4fcd13d56b82c9b3cd3da2e30f3447716b246073",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G8",
+          "svgSha256": "68af15922df5ba378d2410fa4fcd13d56b82c9b3cd3da2e30f3447716b246073",
           "sameFamily": true,
           "unchanged": true
         }
@@ -36656,6 +36768,281 @@
         {
           "level": "G8",
           "svgSha256": "57dd3cf1d87417a9b0373bb10bf5a40d47686d008f12197b8010e3d0cb5dbd4b",
+          "sameFamily": true,
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "vl_1255",
+      "browser": "153.0.8010.12",
+      "status": "passed",
+      "stages": [
+        {
+          "level": "G1",
+          "svgSha256": "3a9c0305609fca24d9cbfed4300767b6c5b70973ee9f867921f069f498697fd8",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G2",
+          "svgSha256": "3a9c0305609fca24d9cbfed4300767b6c5b70973ee9f867921f069f498697fd8",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G3",
+          "svgSha256": "3a9c0305609fca24d9cbfed4300767b6c5b70973ee9f867921f069f498697fd8",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G4",
+          "svgSha256": "3a9c0305609fca24d9cbfed4300767b6c5b70973ee9f867921f069f498697fd8",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G5",
+          "svgSha256": "3a9c0305609fca24d9cbfed4300767b6c5b70973ee9f867921f069f498697fd8",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G6",
+          "svgSha256": "3a9c0305609fca24d9cbfed4300767b6c5b70973ee9f867921f069f498697fd8",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G7",
+          "svgSha256": "3a9c0305609fca24d9cbfed4300767b6c5b70973ee9f867921f069f498697fd8",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G8",
+          "svgSha256": "3a9c0305609fca24d9cbfed4300767b6c5b70973ee9f867921f069f498697fd8",
+          "sameFamily": true,
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "vl_1256",
+      "browser": "153.0.8010.12",
+      "status": "passed",
+      "stages": [
+        {
+          "level": "G1",
+          "svgSha256": "99bbbca091c6a515b947da3a6058f124cfd1c706ea7e826a161addc6856b57bc",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G2",
+          "svgSha256": "99bbbca091c6a515b947da3a6058f124cfd1c706ea7e826a161addc6856b57bc",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G3",
+          "svgSha256": "99bbbca091c6a515b947da3a6058f124cfd1c706ea7e826a161addc6856b57bc",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G4",
+          "svgSha256": "99bbbca091c6a515b947da3a6058f124cfd1c706ea7e826a161addc6856b57bc",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G5",
+          "svgSha256": "99bbbca091c6a515b947da3a6058f124cfd1c706ea7e826a161addc6856b57bc",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G6",
+          "svgSha256": "99bbbca091c6a515b947da3a6058f124cfd1c706ea7e826a161addc6856b57bc",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G7",
+          "svgSha256": "99bbbca091c6a515b947da3a6058f124cfd1c706ea7e826a161addc6856b57bc",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G8",
+          "svgSha256": "99bbbca091c6a515b947da3a6058f124cfd1c706ea7e826a161addc6856b57bc",
+          "sameFamily": true,
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "vl_1259",
+      "browser": "153.0.8010.12",
+      "status": "passed",
+      "stages": [
+        {
+          "level": "G1",
+          "svgSha256": "54b980a74f38ca2b82449f725c992688f873a55140daef07ede30d51d2f36a71",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G2",
+          "svgSha256": "54b980a74f38ca2b82449f725c992688f873a55140daef07ede30d51d2f36a71",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G3",
+          "svgSha256": "54b980a74f38ca2b82449f725c992688f873a55140daef07ede30d51d2f36a71",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G4",
+          "svgSha256": "54b980a74f38ca2b82449f725c992688f873a55140daef07ede30d51d2f36a71",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G5",
+          "svgSha256": "54b980a74f38ca2b82449f725c992688f873a55140daef07ede30d51d2f36a71",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G6",
+          "svgSha256": "54b980a74f38ca2b82449f725c992688f873a55140daef07ede30d51d2f36a71",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G7",
+          "svgSha256": "54b980a74f38ca2b82449f725c992688f873a55140daef07ede30d51d2f36a71",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G8",
+          "svgSha256": "54b980a74f38ca2b82449f725c992688f873a55140daef07ede30d51d2f36a71",
+          "sameFamily": true,
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "vl_1263",
+      "browser": "153.0.8010.12",
+      "status": "passed",
+      "stages": [
+        {
+          "level": "G1",
+          "svgSha256": "96b67e8149ea59bbc5261802fa73be8ec28f60f6b9791fa6879f9fd5bac6ce19",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G2",
+          "svgSha256": "96b67e8149ea59bbc5261802fa73be8ec28f60f6b9791fa6879f9fd5bac6ce19",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G3",
+          "svgSha256": "96b67e8149ea59bbc5261802fa73be8ec28f60f6b9791fa6879f9fd5bac6ce19",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G4",
+          "svgSha256": "96b67e8149ea59bbc5261802fa73be8ec28f60f6b9791fa6879f9fd5bac6ce19",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G5",
+          "svgSha256": "96b67e8149ea59bbc5261802fa73be8ec28f60f6b9791fa6879f9fd5bac6ce19",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G6",
+          "svgSha256": "96b67e8149ea59bbc5261802fa73be8ec28f60f6b9791fa6879f9fd5bac6ce19",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G7",
+          "svgSha256": "96b67e8149ea59bbc5261802fa73be8ec28f60f6b9791fa6879f9fd5bac6ce19",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G8",
+          "svgSha256": "96b67e8149ea59bbc5261802fa73be8ec28f60f6b9791fa6879f9fd5bac6ce19",
+          "sameFamily": true,
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "id": "vl_1264",
+      "browser": "153.0.8010.12",
+      "status": "passed",
+      "stages": [
+        {
+          "level": "G1",
+          "svgSha256": "ee1cc48440d8ef7f62ada48bcb4bd23d4a100f972e26544882ca9425c223acca",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G2",
+          "svgSha256": "ee1cc48440d8ef7f62ada48bcb4bd23d4a100f972e26544882ca9425c223acca",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G3",
+          "svgSha256": "ee1cc48440d8ef7f62ada48bcb4bd23d4a100f972e26544882ca9425c223acca",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G4",
+          "svgSha256": "ee1cc48440d8ef7f62ada48bcb4bd23d4a100f972e26544882ca9425c223acca",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G5",
+          "svgSha256": "ee1cc48440d8ef7f62ada48bcb4bd23d4a100f972e26544882ca9425c223acca",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G6",
+          "svgSha256": "ee1cc48440d8ef7f62ada48bcb4bd23d4a100f972e26544882ca9425c223acca",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G7",
+          "svgSha256": "ee1cc48440d8ef7f62ada48bcb4bd23d4a100f972e26544882ca9425c223acca",
+          "sameFamily": true,
+          "unchanged": true
+        },
+        {
+          "level": "G8",
+          "svgSha256": "ee1cc48440d8ef7f62ada48bcb4bd23d4a100f972e26544882ca9425c223acca",
           "sameFamily": true,
           "unchanged": true
         }
@@ -60850,5 +61237,20 @@
         }
       ]
     }
-  ]
+  ],
+  "verification": {
+    "status": "published-canonical-current-cohort-exact",
+    "sourceCodeRawDataAndExistingSvgPreserved": true,
+    "registryCanonicalArchiveExact": true,
+    "all591InstalledPackageFilesExact": true,
+    "sequence": "One chart construction at a time",
+    "candidateExecutionInputsUnchanged": "First1212 families used executable/type/JSON files identical to the protected artifact; the sole intervening file change shortened CHANGELOG.md. Final candidate all591files match the protected/registry artifact. Additional1256 was replayed directly against that artifact.",
+    "original1212SequentialReportSha256": "60c0cdfa8ce405ed4e097d0c8324afda3c6c81fce5b3bdb93703551bac175c2b",
+    "originalInputsSha256": "468ac2faff873cafa60b8e7b74ae4625648b16643581696c3b59d2eec77030e1",
+    "documentationOnlyChangeProofSha256": "b462302175b5c9e4fa0a589a42ca9af4e78698a1c13c15229314001c9a1e02dd",
+    "protectedCanonicalFileProofSha256": "9b0d274209d6175df1bc06eb8661b654cd2ecf651f64b3d7ab46f7b9bdafc72c",
+    "additional1256DirectCanonicalReportSha256": "203a064336a21cd603d352374b03e3aedb2ca351fd6b3b0b05cdae6ddbbcbae3",
+    "paidRequests": 0,
+    "chartPixelsInspected": false
+  }
 }
