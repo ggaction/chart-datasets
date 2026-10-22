@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "policy": "source-bound-exact-rgba-v1",
+  "runtimeVersion": "0.0.22",
+  "causeCommit": "92d907b8ac28936d55df9991fc68b3bade8c2e61",
+  "cause": "Preserve exact continuous-legend domain endpoints instead of rounded endpoints. No source, accepted code, data or frozen SVG is changed.",
+  "manualImagesInspected": false,
+  "approvalBasis": "Existing human approval of in-scope ggaction fixes and approximate visual agreement; no numerical or pixel tolerance is introduced.",
+  "families": [
+    {
+      "id": "vl_0237",
+      "inputSha256": "53df04c6be3698fea3c2d5cd2274f1e2061fbcfe21a42e6a32c4fc9432fa3795",
+      "runtimeSha256": "08a2a5cb5440be209aa631f5f6353537d96949282d6a3bf6c9df90974597a430",
+      "runtimeVersion": "0.0.22",
+      "frozenSvgSha256": "986b9440ece8a71939f45ce783ff790a59a618d9290619efa29de5704ac9eb32",
+      "renderedSvgSha256": "de7776fde25c0f1ea7b2b97a96f52a7c9ae8bf7f85c8c636531df1798f582345",
+      "rasterChecks": [
+        {
+          "pixelRatio": 1,
+          "width": 498,
+          "height": 439,
+          "identical": true,
+          "changedChannels": 0,
+          "rgbaSha256": "d27a3d69fd515c821f2917bb4da685763495c3fd927d72e49bff6cd09f562e98",
+          "browser": "153.0.8010.12"
+        },
+        {
+          "pixelRatio": 2,
+          "width": 996,
+          "height": 878,
+          "identical": true,
+          "changedChannels": 0,
+          "rgbaSha256": "596b9096524328569cd269cd75113a6ace93df17c66533bcc5f8f07fa82c40c6",
+          "browser": "153.0.8010.12"
+        },
+        {
+          "pixelRatio": 4,
+          "width": 1992,
+          "height": 1756,
+          "identical": true,
+          "changedChannels": 0,
+          "rgbaSha256": "f7a39c5dc0141aea639eabd9f7c5b268f0db71b1e0592647fcda3e726ad191fe",
+          "browser": "153.0.8010.12"
+        }
+      ]
+    },
+    {
+      "id": "vl_1417",
+      "inputSha256": "005a5e86ccc73b63f6a354b10a0f9cf4189026607d03f49bb3c87a06286b6618",
+      "runtimeSha256": "08a2a5cb5440be209aa631f5f6353537d96949282d6a3bf6c9df90974597a430",
+      "runtimeVersion": "0.0.22",
+      "frozenSvgSha256": "51b4a7dfe1289193aa22293b76587f264f16bd150e5f13f28918a3e7fb8c9f87",
+      "renderedSvgSha256": "0fd88fb96e4a6924adbd36f2af071d96cdfd854be3a5073707a039d2cc4aaae8",
+      "rasterChecks": [
+        {
+          "pixelRatio": 1,
+          "width": 555,
+          "height": 347,
+          "identical": true,
+          "changedChannels": 0,
+          "rgbaSha256": "51723c912b95477ae2818b2eb23ce40a4f3546cca7190d732d625238b3b66c63",
+          "browser": "153.0.8010.12"
+        },
+        {
+          "pixelRatio": 2,
+          "width": 1110,
+          "height": 694,
+          "identical": true,
+          "changedChannels": 0,
+          "rgbaSha256": "d544368057105d74583ea4645dd4c2b9ba8e4a03f854ca6caec9ea20b95bb5be",
+          "browser": "153.0.8010.12"
+        },
+        {
+          "pixelRatio": 4,
+          "width": 2220,
+          "height": 1388,
+          "identical": true,
+          "changedChannels": 0,
+          "rgbaSha256": "39d846daabf101b4c7d9df71fdb6c491a1c4eff62a9e9c1f99b36f1250c01ad8",
+          "browser": "153.0.8010.12"
+        }
+      ]
+    }
+  ]
+}

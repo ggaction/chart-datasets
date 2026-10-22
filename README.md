@@ -151,3 +151,20 @@ original unseeded SVGs for five sources with approved reference environments.
 See [DATA_SOURCES.md](DATA_SOURCES.md) for attribution and licensing.
 
 Explicit URL and inline owners in layered sources use `explicit-source-owner-raw-inputs-v1` (schema 2). Each descriptor binds its original source pointer, frozen rows, file hash, and original descriptor hash. Identical original descriptors may explicitly alias one frozen file; unrelated owners cannot. Empty original root tables are retained even when only local tables are used by marks. When a reviewed resolved analysis root aliases the first layer, `resolvedContextAliasOf` records that exact link while the separate original empty table remains empty. Export and public validation reject missing owners, changed rows, ambiguous file matches, and invalid aliases. Accepted module bytes and historical authoring runtimes remain unchanged.
+
+### Exact-pixel qualifications
+
+The default SVG replay remains byte-strict. Version0.0.22 preserves exact
+continuous-legend domain endpoints; this changes only floating-point SVG
+coordinates in `vl_0237` and `vl_1417` (at most 5.7e-14 CSS pixels).
+Their historical source, accepted code, inputs and frozen SVGs remain unchanged.
+An explicitly supplied [qualification record](reports/runtime-equivalence-0.0.22.json)
+binds each family to all file hashes and one exact runtime archive, and requires
+zero differing decoded RGBA channels at DPR1,2,4. Every stage must still agree.
+This is automated raster evidence; no images were manually inspected. The strict
+byte report is retained alongside any qualified report, including `unchanged:false`.
+No general numerical or image tolerance is added.
+
+```sh
+node scripts/verify-runtime.mjs /path/to/candidate.json reports/runtime-sync.json reports/runtime-equivalence-0.0.22.json
+```
