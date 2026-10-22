@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "qualified-export-awaiting-published-runtime",
+  "status": "qualified-export-with-two-source-built-numeric-differences-under-review",
   "cutoff": {
     "families": 1336,
     "programs": 9766,
@@ -15,12 +15,12 @@
     "added": 123,
     "refreshed": 0,
     "originalInputsPreserved": true,
-    "testsPassed": 72,
+    "testsPassed": 74,
     "inventoryValidation": "passed",
     "manifestSha256": "b197bf515a276fb62fd069cab6d134540f709c843e221ff6a7350778ede50657"
   },
   "candidateSmoke": {
-    "runtimeSourceCommit": "0384b927-and-integration-followup-pending",
+    "runtimeSourceCommit": "ab4d5f35bebbadd44a4c1eb959fd17665297b9a1",
     "note": "This smoke preceded the late Canvas scene merge; it verifies the earlier candidate only and is not final release evidence.",
     "families": 11,
     "programs": 87,
@@ -44,5 +44,24 @@
     ]
   },
   "published": false,
-  "createdAt": "2026-10-22T22:48:19.732855+00:00"
+  "createdAt": "2026-10-22T22:48:19.732855+00:00",
+  "fullSourceBuiltReplay": {
+    "runtime": {
+      "name": "ggaction",
+      "version": "0.0.22",
+      "status": "unpublished-source-built-candidate",
+      "sourceCommit": "d8daac0f5906eb92a1a82aed89d3a4e0ddbcc5d3",
+      "sha256": "08a2a5cb5440be209aa631f5f6353537d96949282d6a3bf6c9df90974597a430"
+    },
+    "families": 1336,
+    "programs": 9766,
+    "byteIdenticalFamilies": 1334,
+    "allSameFamily": true,
+    "differentFamilies": [
+      "vl_0237",
+      "vl_1417"
+    ],
+    "originalSvgCodeAndDataUnchanged": true,
+    "pixelQualificationPending": true
+  }
 }

@@ -106,7 +106,7 @@ node scripts/verify-runtime.mjs /path/to/candidate.json .validation/candidate-ru
 
 Renderer validation rejects a failed child, stale chunk, missing or duplicate
 family, and mismatched result order. Runtime sweeps construct one chart at a time
-and remove stale aggregate reports before starting. `npm test` exercises those failure cases
+and remove stale aggregate reports before starting. A valid fresh chunk reporting explicit rendering differences is retained while later chunks run; the full run still fails. Crashes, signals and malformed or contradictory chunks fail closed. `npm test` exercises those failure cases
 before the Pages build.
 
 To preview an incremental import from the translation workspace:

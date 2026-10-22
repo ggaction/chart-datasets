@@ -17,9 +17,9 @@ async function worker(){
     const chunk=chunks.shift();if(!chunk)return;const file=path.join(root,'.validation/chunk-'+serial+++'.json');
     // A failed child must never reuse a successful chunk from an older run.
     await rm(file,{force:true});
-    await new Promise((resolve,reject)=>{
+    const exit = await new Promise((resolve,reject)=>{
       const child=spawn(process.execPath,['--max-old-space-size=4096',path.join(root,'scripts',browser?'render-browser-family.mjs':'render-family.mjs'),JSON.stringify(chunk)],{cwd:root,env:{...process.env,TZ:'UTC',RESULT_FILE:file},stdio:['ignore','ignore','inherit']});
-      child.on('error',reject);child.on('exit',(code,signal)=>code===0?resolve():reject(Error('Renderer failed: '+(signal??code))));
+      child.on('error',reject);child.on('exit',(code,signal)=>signal||![0,1].includes(code)?reject(Error('Renderer failed: '+(signal??code))):resolve(code));
     });
     const rows=JSON.parse(await readFile(file,'utf8'));
     assert.ok(Array.isArray(rows),'Renderer chunk must be an array.');
@@ -27,6 +27,7 @@ async function worker(){
     const returnedIds=rows.map(row=>row?.id);
     assert.equal(new Set(returnedIds).size,chunk.length,'Renderer chunk must not duplicate families.');
     assert.deepEqual(returnedIds,chunk,'Renderer chunk must preserve the exact requested family order.');
+    assert.ok(exit===0||rows.some(row=>row.status!=='passed'),'A nonzero renderer exit requires an explicit fresh failure result.');
     results.push(...rows);done+=rows.length;
     console.log(done+'/'+ids.length+' families; '+results.filter(r=>r.status!=='passed').length+' differences/errors');
   }
