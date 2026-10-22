@@ -15,7 +15,10 @@ Each `charts/vl_####/` directory contains:
 | --- | --- |
 | `source.vl.json` | Original source specification, unchanged |
 | `resolved-source.vl.json` | Frozen self-contained source specification |
-| `data.json` | Frozen input rows, unchanged |
+| `data.json` | Frozen primary input rows, unchanged |
+| `data-lookup-*.json`, `*-data.json` | Additional original lookup or named-layer tables, when present |
+| `raw-inputs.json` | Original descriptor ownership, file hashes and code-to-dataset bindings for multi-table sources |
+| `source-epoch.json` | Explicit reviewed authoring epoch, when a source was requalified |
 | `G1.gg.mjs` … `G8.gg.mjs` | Accepted high-to-low-level action programs |
 | `vega-lite.svg`, `ggaction.svg` | Original and canonical G1 renderings |
 | `metadata.json` | SHA-256 inventory, source URLs and translation notes |
@@ -44,12 +47,13 @@ pair. Small screens scale the pair down without rewriting chart sizes.
 Requires Node.js 20+ and Python 3.
 
 ```sh
+npm ci
 npm run validate
 npm run serve
 ```
 
 Open `http://127.0.0.1:4317`. Serving avoids browser restrictions on local
-`fetch`. No install is required for the pre-rendered viewer.
+`fetch`. Serving the pre-rendered viewer requires no install. Input validation for multi-table families also uses the pinned Acorn parser from `npm ci`.
 
 `npm run build` produces `_site/` with only HTML, CSS, JavaScript, a manifest
 and the chart SVGs. GitHub Actions deploys that directory to GitHub Pages.
@@ -110,11 +114,28 @@ python3 scripts/sync-dataset.py /path/to/translation-workspace
 ```
 
 The preview stages completed, reviewed families and checks all existing file hashes.
+It preserves every independently frozen source table, including an unimported
+reference snapshot that happens to equal another table. Original module bytes and
+import paths stay unchanged. For multi-table sources, an Acorn syntax-tree audit
+binds each `createData` call to its imported file and literal dataset ID (or the
+public default `data`); the recorded native dataset must contain the exact typed
+rows in the same key and row order, including signed zero. File names never
+supply dataset IDs. The generated `raw-inputs.json` contains no local host paths.
+
+Explicit requalification records select a source's current completed authoring
+epoch while preserving its historical contract. Contract and summary hashes and
+unchanged original inputs are checked before exporting an epoch. Historical
+single-table modules retain their recorded validation policy; the new strict
+multi-table binding rule is not retroactively used to rewrite their code.
+Unknown, missing, swapped, path-escaping or modified raw inputs fail before apply.
 Add `--apply` to add new families and refresh verified corrections. The importer
 rejects changed original inputs, stale reviews, unequal stages and removal of an
 existing family. Previous versions of refreshed families remain in the ignored
 staging directory and Git history. Applied data stays marked pending until a full
 runtime compatibility check succeeds; importing alone is not release verification.
+The [next-batch exporter preflight](reports/batch200-lossless-export-preflight.json)
+records the complete preview and focused browser replay; its local candidates are
+separate from the published cohort above.
 
 Completed means the translations passed the recorded rendering, structure,
 data and geometry policy. It does not claim pixel-perfect equivalence to the

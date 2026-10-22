@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import {mkdtemp,mkdir,writeFile,readFile,copyFile,rm} from 'node:fs/promises';
+import {mkdtemp,mkdir,writeFile,readFile,copyFile,rm,symlink} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
@@ -13,7 +13,8 @@ const svg='<svg xmlns="http://www.w3.org/2000/svg" width="100" height="80"><g><p
 async function fixture(){
  const home=await mkdtemp(path.join(tmpdir(),'chart-dataset-sync-')),root=path.join(home,'repo'),workspace=path.join(home,'workspace');
  for(const directory of [root+'/scripts',root+'/charts',root+'/reports',workspace+'/experiments/glm-thousand-chart-adaptive',workspace+'/artifacts/v12-glm-thousand-chart-adaptive/vl_0001/G1/attempt-01/render'])await mkdir(directory,{recursive:true});
- await copyFile(new URL('./sync-dataset.py',import.meta.url),root+'/scripts/sync-dataset.py');
+ for(const file of ['sync-dataset.py','dataset_inputs.py','audit-module-inputs.mjs'])await copyFile(new URL('./'+file,import.meta.url),root+'/scripts/'+file);
+ await symlink(new URL('../node_modules',import.meta.url).pathname,root+'/node_modules','dir');
  await json(root+'/package.json',{dependencies:{ggaction:'0.0.19'}});
  await json(root+'/manifest.json',{schemaVersion:1,chartCount:0,programCount:0,runtime:{version:'0.0.19',status:'verified'},charts:[]});
  await json(workspace+'/experiments/glm-thousand-chart-adaptive/config.json',{sourceIds:['vl_0001','vl_0002']});
@@ -99,3 +100,56 @@ test('rejects changed history or mismatched policy data before distributing a re
 test('cannot silently drop previously distributed reference provenance',async()=>{
  const f=await fixture();try{await seededReference(f);assert.equal(f.run(true).status,0);await rm(f.family+'/source-reference-seed1-adoption.json');const run=f.run(true);assert.notEqual(run.status,0);assert.match(run.stderr,/reference policy was dropped or changed/);assert.equal((await load(f.root+'/manifest.json')).chartCount,1);}finally{await f.cleanup();}
 });
+
+async function multiResource(f){
+ const source={data:{values:[{key:'a',v:' 1 '}]},transform:[{lookup:'key',from:{data:{values:[{key:'a',name:'Ref'}]},key:'key'}},{lookup:'key',from:{data:{values:[{key:'a',name:'Ref'}]},key:'key'}}],mark:'point'};
+ const rows=source.data.values,refs=source.transform[0].from.data.values;
+ await json(f.family+'/source.vl.json',source);await json(f.family+'/resolved-source.vl.json',source);
+ for(const [file,value]of [['data.json',rows],['data-lookup-0.json',refs],['data-lookup-1.json',refs]])await json(f.family+'/'+file,value);
+ for(const file of ['data.json','data-lookup-0.json'])await copyFile(f.family+'/'+file,f.attempt+'/'+file);
+ await json(f.attempt+'/render/semantic.json',{datasets:[{id:'data',values:refs},{id:'terms',values:rows}]});
+ const descriptors=[];for(const [pointer,file,value]of [['/data','data.json',rows],['/transform/0/from/data','data-lookup-0.json',refs],['/transform/1/from/data','data-lookup-1.json',refs]])descriptors.push({pointer,file,kind:'inline',rowCount:value.length,dataSha256:hash(await readFile(f.family+'/'+file))});
+ await json(f.family+'/data-resolution.json',{schemaVersion:2,kind:'lookup-multi-input-v1',sourceSha256:hash(await readFile(f.family+'/source.vl.json')),resolvedSourceSha256:hash(await readFile(f.family+'/resolved-source.vl.json')),dataSha256:hash(await readFile(f.family+'/data.json')),totalRows:3,dataDescriptors:descriptors});
+ await f.setCode('import {chart} from "ggaction";import terms from "./data.json";import people from "./data-lookup-0.json";export function buildChart(){return chart().createData({values:people}).createData({id:"terms",values:terms});}');
+}
+
+test('exports every original table including an unimported identical reference, preserving module bytes and native ID bindings',async()=>{
+ const f=await fixture();try{await multiResource(f);let run=f.run(true);assert.equal(run.status,0,run.stderr);const dest=f.root+'/charts/vl_0001',raw=await load(dest+'/raw-inputs.json');assert.equal(raw.descriptors.length,3);assert.equal(raw.stages[0].bindings.find(b=>b.datasetId==='data').file,'data-lookup-0.json');assert(raw.stages[0].actualNativeRawDatasetBindingsExact);assert.deepEqual(await readFile(dest+'/G1.gg.mjs'),await readFile(f.attempt+'/candidate.gg.mjs'));assert.deepEqual(await readFile(dest+'/data-lookup-1.json'),await readFile(f.family+'/data-lookup-1.json'));assert(!JSON.stringify(raw).includes(f.home));assert.equal(f.run().status,0);}finally{await f.cleanup();}
+});
+for(const mutation of ['missing','swapped-descriptor','unknown-file','changed-stage','swapped-native-id','path-escape','changed-resolved-source'])test('rejects multi-resource '+mutation+' without publishing',async()=>{
+ const f=await fixture();try{await multiResource(f);if(mutation==='missing')await rm(f.family+'/data-lookup-1.json');
+ if(mutation==='swapped-descriptor'){let r=await load(f.family+'/data-resolution.json');[r.dataDescriptors[0].file,r.dataDescriptors[1].file]=[r.dataDescriptors[1].file,r.dataDescriptors[0].file];await json(f.family+'/data-resolution.json',r);}
+ if(mutation==='unknown-file')await json(f.family+'/data-lookup-9.json',[]);
+ if(mutation==='changed-stage')await json(f.attempt+'/data-lookup-0.json',[{key:'changed'}]);
+ if(mutation==='swapped-native-id'){const s=await load(f.attempt+'/render/semantic.json');s.datasets.reverse();[s.datasets[0].id,s.datasets[1].id]=[s.datasets[1].id,s.datasets[0].id];await json(f.attempt+'/render/semantic.json',s);}
+ if(mutation==='path-escape'){let r=await load(f.family+'/data-resolution.json');r.dataDescriptors[1].file='../data.json';await json(f.family+'/data-resolution.json',r);}
+ if(mutation==='changed-resolved-source'){let r=await load(f.family+'/resolved-source.vl.json');r.transform[0].from.data.values[0].name='changed';await json(f.family+'/resolved-source.vl.json',r);}
+ let run=f.run(true);assert.notEqual(run.status,0);assert.equal((await load(f.root+'/manifest.json')).chartCount,0);assert.match(run.stderr,/raw|descriptor|resolution|binding|input/i);
+ }finally{await f.cleanup();}
+});
+async function requalifiedEpoch(f){
+ const current=f.workspace+'/artifacts/explicit-epoch/vl_0001';await mkdir(current,{recursive:true});const {cp}=await import('node:fs/promises');await cp(f.family,current,{recursive:true});
+ await json(f.family+'/contract.json',{historical:true});await json(current+'/contract.json',{current:true});
+ await json(f.workspace+'/epoch-summary.json',{status:'completed',source:'vl_0001'});
+ const directory=f.workspace+'/experiments/glm-thousand-chart-adaptive',parent={schemaVersion:1,sources:{}};await json(directory+'/requalified-source-families-v1.json',parent);
+ const registry={schemaVersion:2,parent:{path:'experiments/glm-thousand-chart-adaptive/requalified-source-families-v1.json',sha256:hash(await readFile(directory+'/requalified-source-families-v1.json'))},sources:{vl_0001:{family:'artifacts/explicit-epoch/vl_0001',artifactRoot:'artifacts/explicit-epoch',historicalFamily:'artifacts/v12-glm-thousand-chart-adaptive/vl_0001',successful:true,sourceOriginalAndRawUnchanged:true,exportAt1413MustResolveThisExplicitEpoch:true,historicalContractSha256:hash(await readFile(f.family+'/contract.json')),currentContractSha256:hash(await readFile(current+'/contract.json')),runtimeCommit:'a'.repeat(40),completionSummary:'epoch-summary.json',completionSummarySha256:hash(await readFile(f.workspace+'/epoch-summary.json'))}}};
+ // These legacy synthetic inputs had no resolved copy; both epochs must explicitly freeze it.
+ for(const dir of [f.family,current])await copyFile(dir+'/source.vl.json',dir+'/resolved-source.vl.json');
+ await json(directory+'/requalified-source-families-v2.json',registry);await json(f.family+'/completion.json',{status:'held'});return current;
+}
+test('selects a completed explicit authoring epoch while retaining the historical held contract',async()=>{const f=await fixture();try{let current=await requalifiedEpoch(f),run=f.run(true);assert.equal(run.status,0,run.stderr);let d=f.root+'/charts/vl_0001';assert.equal((await load(d+'/source-epoch.json')).selection,'explicit-reviewed-authoring-epoch');assert.deepEqual(await readFile(d+'/G1.gg.mjs'),await readFile(current+'/G1/attempt-01/candidate.gg.mjs'));assert.equal((await load(f.family+'/completion.json')).status,'held');}finally{await f.cleanup();}});
+for(const mutation of ['contract','raw','summary','unsafe-path','missing-runtime'])test('rejects changed explicit authoring epoch '+mutation,async()=>{const f=await fixture();try{const current=await requalifiedEpoch(f);if(mutation==='contract')await json(current+'/contract.json',{changed:true});if(mutation==='raw')await json(current+'/data.json',[{x:'changed'}]);if(mutation==='summary')await json(f.workspace+'/epoch-summary.json',{changed:true});if(mutation==='missing-runtime'){let p=current+'/G1/attempt-01/verification.json',r=await load(p);delete r.runtimeCommit;await json(p,r);}if(mutation==='unsafe-path'){let p=f.workspace+'/experiments/glm-thousand-chart-adaptive/requalified-source-families-v2.json',r=await load(p);r.sources.vl_0001.family='../vl_0001';await json(p,r);}let run=f.run(true);assert.notEqual(run.status,0);assert.equal((await load(f.root+'/manifest.json')).chartCount,0);}finally{await f.cleanup();}});
+async function namedLayers(f){
+ const rows=[{x:1,y:2}],lines=[{x:1,y:3}],source={layer:[{data:{name:'points'},mark:'point'},{data:{name:'lines'},mark:'line'}],datasets:{points:rows,lines}},resolved={layer:[{data:{values:rows},mark:'point'},{data:{values:lines},mark:'line'}],data:{values:rows}};
+ await json(f.family+'/source.vl.json',source);await json(f.family+'/resolved-source.vl.json',resolved);await json(f.family+'/data.json',rows);await json(f.family+'/line-data.json',lines);for(const file of ['data.json','line-data.json'])await copyFile(f.family+'/'+file,f.attempt+'/'+file);
+ const resolution={kind:'named-independent-layer-owners-v1',totalRawRows:2,owners:[{sourceLayerIndex:0,pointer:'/layer/0/data',name:'points',datasetPointer:'/datasets/points',rowCount:1},{sourceLayerIndex:1,pointer:'/layer/1/data',name:'lines',datasetPointer:'/datasets/lines',rowCount:1}]},profile={sourceSha256:hash(await readFile(f.family+'/source.vl.json'))};
+ await json(f.family+'/data-resolution.json',resolution);await json(f.family+'/source-layer-profile.json',profile);await json(f.family+'/contract.json',{sourceSha256:profile.sourceSha256,sourceLayerProfile:profile,dataResolution:resolution});
+ await json(f.attempt+'/render/semantic.json',{datasets:[{id:'data',values:rows},{id:'trend',values:lines}]});
+ await f.setCode('import {chart} from "ggaction";import data from "./data.json";import lines from "./line-data.json";export function buildChart(){return chart().createData({values:data}).createData({id:"trend",values:lines})}');
+}
+test('exports distinct named layer inputs with original owner pointers and exact code bytes',async()=>{const f=await fixture();try{await namedLayers(f);let run=f.run(true);assert.equal(run.status,0,run.stderr);let p=await load(f.root+'/charts/vl_0001/raw-inputs.json');assert.equal(p.kind,'named-layer-raw-inputs-v1');assert.deepEqual(p.descriptors.map(d=>[d.pointer,d.file]),[['/layer/0/data','data.json'],['/layer/1/data','line-data.json']]);assert.equal(p.stages[0].bindings.find(b=>b.datasetId==='trend').file,'line-data.json');}finally{await f.cleanup();}});
+for(const mutation of ['missing','ambiguous-file','wrong-source-owner','negative-zero'])test('rejects named layer '+mutation,async()=>{const f=await fixture();try{await namedLayers(f);if(mutation==='missing')await rm(f.family+'/line-data.json');if(mutation==='ambiguous-file')await copyFile(f.family+'/line-data.json',f.family+'/extra-data.json');if(mutation==='wrong-source-owner'){let s=await load(f.family+'/source.vl.json');s.layer[1].data.name='points';await json(f.family+'/source.vl.json',s);}if(mutation==='negative-zero'){await writeFile(f.family+'/line-data.json','[{"x":1,"y":-0}]\n');await copyFile(f.family+'/line-data.json',f.attempt+'/line-data.json');}assert.notEqual(f.run(true).status,0);assert.equal((await load(f.root+'/manifest.json')).chartCount,0);}finally{await f.cleanup();}});
+async function initialImport(f){await copyFile(new URL('./import-dataset.py',import.meta.url),f.root+'/scripts/import-dataset.py');return spawnSync('python3',['scripts/import-dataset.py',f.workspace],{cwd:f.root,encoding:'utf8'});}
+test('initial import uses the same multi-table source and native binding checks',async()=>{const f=await fixture();try{await multiResource(f);await rm(f.root+'/manifest.json');let run=await initialImport(f);assert.equal(run.status,0,run.stderr);assert.equal((await load(f.root+'/manifest.json')).chartCount,1);assert.equal((await load(f.root+'/charts/vl_0001/raw-inputs.json')).descriptors.length,3);}finally{await f.cleanup();}});
+test('failed initial import remains retryable without creating a published manifest',async()=>{const f=await fixture();try{await multiResource(f);await rm(f.root+'/manifest.json');await rm(f.family+'/data-lookup-1.json');assert.notEqual((await initialImport(f)).status,0);await assert.rejects(()=>readFile(f.root+'/manifest.json'));}finally{await f.cleanup();}});
+test('initial import refuses to overwrite an existing chart directory without a manifest',async()=>{const f=await fixture();try{await rm(f.root+'/manifest.json');await mkdir(f.root+'/charts/vl_0001');await writeFile(f.root+'/charts/vl_0001/sentinel','preserve');assert.notEqual((await initialImport(f)).status,0);assert.equal(await readFile(f.root+'/charts/vl_0001/sentinel','utf8'),'preserve');}finally{await f.cleanup();}});

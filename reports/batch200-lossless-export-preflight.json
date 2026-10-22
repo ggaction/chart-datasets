@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "status": "verified-local-exporter-ready-for-next-200-family-release-not-published",
+  "authorization": "Standing user approval for all in-scope questions; public releases every200 additional completed families.",
+  "nextRegularReleaseAtCompletedFamilies": 1413,
+  "publicDataset": {
+    "families": 1213,
+    "programs": 8788,
+    "manifestSha256": "4f3b88dc1a805487dc7a46817c4192a00477c9fb83e4e9a23f783d2c69cb075c",
+    "unchanged": true
+  },
+  "preview": {
+    "families": 1309,
+    "programs": 9550,
+    "added": 96,
+    "refreshed": 0,
+    "applied": false,
+    "sourceAndAcceptedCodeBytesUnchanged": true,
+    "implementationSha256": {
+      "scripts/sync-dataset.py": "b9abe2041485b2bb72bcec598538c2b018435ba7e9bf9e13bd91e03e981b5cb4",
+      "scripts/dataset_inputs.py": "e9958a2a85e8845fc0a4baecd0b6cde73476a6908645c15c14f6fc345723d1c0",
+      "scripts/audit-module-inputs.mjs": "acfddd7d3492f77db2e228c94a8cce6cdff2bd3123e15b69f5f193b54b0b9fb6",
+      "package-lock.json": "0701a31d34d24ebebcbd857c8cb95e8c33a253adf0681d2ab669378480aaa538"
+    }
+  },
+  "moduleDependencyAudit": {
+    "families": 1309,
+    "programs": 9550,
+    "failures": 0,
+    "strictNewMultiTableBinding": true,
+    "historicalSingleInputPolicyPreserved": true
+  },
+  "multiTableInputs": {
+    "lookupFamilies": [
+      "vl_1557",
+      "vl_1558",
+      "vl_1681",
+      "vl_1856",
+      "vl_1857",
+      "vl_1858",
+      "vl_1859",
+      "vl_1860"
+    ],
+    "namedLayerFamilies": [
+      "vl_0167",
+      "vl_1459",
+      "vl_1460",
+      "vl_1492",
+      "vl_1496",
+      "vl_1534",
+      "vl_1536"
+    ],
+    "separateUnimportedOriginalDescriptorsPreserved": true,
+    "datasetIdsReadFromActualCodeAndRetainedNativeSemantics": true,
+    "signedZeroKeyOrderRowOrderAndTypesCompared": true,
+    "source1557ReferenceDatasetId": "data",
+    "source1557PrimaryDatasetId": "terms",
+    "sourceTablesPrejoined": false,
+    "modelModulesRewritten": false
+  },
+  "explicitAuthoringEpochs": {
+    "sources": [
+      "vl_0702",
+      "vl_1029"
+    ],
+    "registryVersion": 2,
+    "contractSummaryRuntimeAndOriginalInputsVerified": true,
+    "historicalContractsRewritten": false
+  },
+  "checks": {
+    "unitTests": 52,
+    "passedUnitTests": 52,
+    "sourceAndInventoryValidation": {
+      "publicFamilies": 1213,
+      "publicPrograms": 8788,
+      "isolatedFamilies": 19,
+      "isolatedPrograms": 148
+    },
+    "freshSequentialBrowser": {
+      "families": 19,
+      "programs": 148,
+      "exactFrozenSvgMatches": 148,
+      "failures": 0,
+      "sources": [
+        "vl_0167",
+        "vl_0702",
+        "vl_0859",
+        "vl_0860",
+        "vl_1029",
+        "vl_1459",
+        "vl_1460",
+        "vl_1492",
+        "vl_1496",
+        "vl_1534",
+        "vl_1536",
+        "vl_1557",
+        "vl_1558",
+        "vl_1681",
+        "vl_1856",
+        "vl_1857",
+        "vl_1858",
+        "vl_1859",
+        "vl_1860"
+      ],
+      "evidence": "reports/batch200-lossless-export-browser.json"
+    },
+    "privateSiteBuild": {
+      "pairs": 19,
+      "svgFiles": 38
+    },
+    "finalExporterStagingInventoriesEqualFreshBrowserInputs": true
+  },
+  "privateBrowserRuntime": {
+    "version": "0.0.21",
+    "commit": "c7cbee6f9d703b7f81b75894e1c2c90938353d5a",
+    "archiveSha256": "e711f2ea99c287cb45aa5217a38b9e528cdad3ef5ef200181ca150e4dcf4a164",
+    "published": false
+  },
+  "limitations": [
+    "Fresh browser replay covers19 affected/representative exported families, not a new full1309-family runtime sweep.",
+    "Public dataset and its runtime remain at the prior1213-family release.",
+    "The data in ignored preview staging is private verification evidence; this checkpoint does not import or deploy the96 additions."
+  ],
+  "SchoolRequests": 0,
+  "SchoolTokens": 0,
+  "providerCost": null,
+  "hostModelUsageMetered": false,
+  "chartPixelsInspected": false,
+  "published": false
+}
