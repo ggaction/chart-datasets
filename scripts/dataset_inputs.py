@@ -88,6 +88,8 @@ def raw_inputs(family, source, resolved):
     resolution = read(resolution_file) if resolution_file.exists() else {}
     if resolution.get('kind') in ('named-independent-layer-owners-v1', 'root-named-independent-layer-owners-v1'):
         return named_layer_inputs(family, source, resolved, resolution)
+    if len(source_data_owners(source)) > 1 and any(is_raw_file(p.name) for p in family.glob('*-data.json')):
+        return explicit_source_inputs(family, source, resolved)
     descriptors = resolution.get('dataDescriptors')
     files = {'data.json': family / 'data.json'}
     if descriptors is None:
@@ -166,19 +168,34 @@ def validate_public_raw_inputs(directory, metadata):
         return
     require('raw-inputs.json' in metadata['files'], 'Uninventoried raw-input manifest')
     record = read(file)
-    require(record['schemaVersion'] == 1 and record['primary'] == 'data.json'
+    if record.get('kind') == 'explicit-source-owner-raw-inputs-v1':
+        validate_explicit_source_inputs(directory, metadata, record, reference_files)
+        return
+    shared_named = record.get('schemaVersion') == 2 and record.get('kind') == 'named-layer-raw-inputs-v2'
+    require((record['schemaVersion'] == 1 or shared_named) and record['primary'] == 'data.json'
             and record['sourceSha256'] == digest(directory / 'source.vl.json')
             and record['resolvedSourceSha256'] == digest(directory / 'resolved-source.vl.json'),
             'Distributed raw-input source binding changed')
     source, resolved = read(directory / 'source.vl.json'), read(directory / 'resolved-source.vl.json')
-    seen, pointers = set(), set()
+    seen, pointers, owners_by_pointer = set(), set(), {}
     for row in record['descriptors']:
         name = row['file']
-        require(is_raw_file(name) and name not in seen,
-                'Unsafe or duplicate distributed raw input')
+        require(is_raw_file(name), 'Unsafe distributed raw input')
+        if name in seen:
+            canonical = owners_by_pointer.get(row.get('aliasOf'))
+            require(shared_named and canonical is not None and 'aliasOf' not in canonical
+                    and canonical['file'] == name
+                    and canonical.get('originalDatasetName') == row.get('originalDatasetName')
+                    and isinstance(row.get('originalDatasetName'), str),
+                    'Repeated raw file requires an explicit identical named source alias')
+            require(pointer(source, canonical['pointer']) == pointer(source, row['pointer'])
+                    == {'name': row['originalDatasetName']}, 'Named alias source identity changed')
+        else:
+            require('aliasOf' not in row, 'A primary raw owner cannot alias a missing owner')
         require(row['pointer'] not in pointers, 'Duplicate distributed source descriptor')
         pointers.add(row['pointer'])
         seen.add(name)
+        owners_by_pointer[row['pointer']] = row
         require(not (directory / name).is_symlink() and name in metadata['files'] and row['sha256'] == digest(directory / name)
                 and row['bytes'] == (directory / name).stat().st_size, 'Distributed raw input changed')
         rows = read(directory / name)
@@ -191,14 +208,21 @@ def validate_public_raw_inputs(directory, metadata):
         elif 'values' in original:
             require(ordered(original['values']) == ordered(rows), 'Distributed inline source table changed')
         elif 'name' in original:
+            if record.get('kind') in ['named-layer-raw-inputs-v1', 'named-layer-raw-inputs-v2']:
+                require(row.get('originalDatasetName') == original['name'], 'Named source identity changed')
             require(ordered(source['datasets'][original['name']]) == ordered(rows), 'Distributed named source table changed')
         else:
             raise RuntimeError('Unbound distributed source table')
     expected = ({f'/layer/{i}/data' for i in range(len(source['layer']))}
-                if record.get('kind') == 'named-layer-raw-inputs-v1' else
+                if record.get('kind') in ['named-layer-raw-inputs-v1', 'named-layer-raw-inputs-v2'] else
                 {'/data'} | {f'/transform/{i}/from/data' for i, transform in enumerate(source.get('transform', []))
                             if isinstance(transform, dict) and 'lookup' in transform and 'data' in transform.get('from', {})})
     require(pointers == expected and seen == reference_files | {'data.json'}, 'Incomplete distributed raw descriptor set')
+    if shared_named:
+        require(any('aliasOf' in row for row in record['descriptors'])
+                and record.get('distinctRawRows') == sum(len(read(directory / name)) for name in seen)
+                and record.get('sourceOwnerRows') == sum(row['rowCount'] for row in record['descriptors']),
+                'Named alias row accounting changed')
     stages = [dict(level=row['level'], path=str(directory / row['code'])) for row in metadata['stages']]
     actual = audit_stages(pathlib.Path(__file__).resolve().parent, stages, seen)
     require(len(actual) == len(record['stages']), 'Missing distributed stage input binding')
@@ -228,7 +252,7 @@ def named_layer_inputs(family, source, resolved, resolution):
     candidates = {p.name: p for p in family.iterdir() if is_raw_file(p.name)}
     require('data.json' in candidates, 'Missing primary named-layer table')
     decoded = {name: read(file) for name, file in candidates.items()}
-    descriptors, used = [], set()
+    descriptors, used, canonical_owners = [], set(), {}
     for index, owner in enumerate(owners):
         ptr = f'/layer/{index}/data'
         original = pointer(source, ptr)
@@ -242,19 +266,153 @@ def named_layer_inputs(family, source, resolved, resolution):
         matches = [name for name, values in decoded.items() if ordered(values) == ordered(rows)]
         require(len(matches) == 1, 'Named-layer raw file ownership is missing or ambiguous')
         name = matches[0]
-        require(name not in used, 'Named-layer files cannot silently merge source owners')
+        alias = {}
+        if name in used:
+            canonical = canonical_owners[name]
+            require(canonical['originalDatasetName'] == owner['name'],
+                    'Equal-valued independent named owners cannot share a raw file')
+            alias = {'aliasOf': canonical['pointer']}
         used.add(name)
-        descriptors.append(dict(pointer=ptr, file=name, sha256=digest(candidates[name]),
-                                bytes=candidates[name].stat().st_size, rowCount=len(rows),
-                                kind='named-inline', originalDatasetName=owner['name']))
+        descriptor = dict(pointer=ptr, file=name, sha256=digest(candidates[name]),
+                          bytes=candidates[name].stat().st_size, rowCount=len(rows),
+                          kind='named-inline', originalDatasetName=owner['name'], **alias)
+        descriptors.append(descriptor)
+        canonical_owners.setdefault(name, descriptor)
     require(used == set(candidates), 'Unmanifested named-layer raw file')
     if source.get('data') is not None:
         require(source['data'] == pointer(source, '/layer/0/data'), 'Unexpected named-layer root alias')
-    require(descriptors[0]['file'] == 'data.json' and sum(d['rowCount'] for d in descriptors) == resolution['totalRawRows'],
-            'Named-layer primary or total raw rows changed')
-    return candidates, dict(schemaVersion=1, kind='named-layer-raw-inputs-v1', primary='data.json',
+    require(descriptors[0]['file'] == 'data.json', 'Named-layer primary raw owner changed')
+    if 'totalRawRows' in resolution:
+        require(sum(d['rowCount'] for d in descriptors) == resolution['totalRawRows'],
+                'Named-layer total owner rows changed')
+    elif 'totalUniqueRawRows' in resolution:
+        require(sum(len(decoded[name]) for name in used) == resolution['totalUniqueRawRows'],
+                'Named-layer total unique raw rows changed')
+    else:
+        raise RuntimeError('Missing named-layer row accounting')
+    aliases = any('aliasOf' in row for row in descriptors)
+    accounting = dict(distinctRawRows=sum(len(decoded[name]) for name in used),
+                      sourceOwnerRows=sum(row['rowCount'] for row in descriptors)) if aliases else {}
+    return candidates, dict(schemaVersion=2 if aliases else 1,
+                            kind='named-layer-raw-inputs-v2' if aliases else 'named-layer-raw-inputs-v1', primary='data.json',
+                            **accounting,
                             sourceSha256=digest(family / 'source.vl.json'), resolvedSourceSha256=digest(resolved),
                             resolutionSha256=digest(family / 'data-resolution.json'),
                             profileSha256=digest(family / 'source-layer-profile.json'),
                             **({'rootSourceAlias': '/layer/0/data'} if source.get('data') is not None else {}),
                             descriptors=descriptors)
+
+
+def source_data_owners(spec, path=''):
+    """Only walk specification owners, never raw row objects."""
+    result = []
+    if isinstance(spec.get('data'), dict):
+        result.append(path + '/data')
+    for i, transform in enumerate(spec.get('transform', [])):
+        if isinstance(transform, dict) and 'lookup' in transform and isinstance(transform.get('from', {}).get('data'), dict):
+            result.append(f'{path}/transform/{i}/from/data')
+    for key in ('layer', 'concat', 'vconcat', 'hconcat'):
+        for i, child in enumerate(spec.get(key, [])):
+            result.extend(source_data_owners(child, f'{path}/{key}/{i}'))
+    if isinstance(spec.get('spec'), dict):
+        result.extend(source_data_owners(spec['spec'], path + '/spec'))
+    return result
+
+
+def explicit_source_inputs(family, source, resolved):
+    """Bind each explicit original owner to its exact independently frozen rows."""
+    frozen = read(resolved)
+    candidates = {p.name: p for p in family.iterdir() if is_raw_file(p.name)}
+    rows = {name: read(file) for name, file in candidates.items()}
+    descriptors, used, canonical = [], set(), {}
+    for ptr in source_data_owners(source):
+        original, materialized = pointer(source, ptr), pointer(frozen, ptr)
+        require(isinstance(materialized.get('values'), list), 'Unresolved explicit source owner: ' + ptr)
+        context_alias = unused_root_context_alias(source, frozen, ptr)
+        expected_rows = original['values'] if context_alias else materialized['values']
+        matches = [name for name, values in rows.items() if ordered(values) == ordered(expected_rows)]
+        require(len(matches) == 1, 'Ambiguous or missing frozen source owner: ' + ptr)
+        name = matches[0]
+        if 'values' in original:
+            require(ordered(original['values']) == ordered(rows[name]), 'Original inline rows changed')
+        elif 'name' in original:
+            require(ordered(source['datasets'][original['name']]) == ordered(rows[name]), 'Original named rows changed')
+        else:
+            require(isinstance(original.get('url'), str), 'Unbound explicit source descriptor')
+        alias = {}
+        if name in canonical:
+            require(ordered(original) == ordered(pointer(source, canonical[name])),
+                    'Independent source descriptors cannot alias one raw file')
+            alias = dict(aliasOf=canonical[name])
+        else:
+            canonical[name] = ptr
+        used.add(name)
+        descriptors.append(dict(pointer=ptr, file=name, sha256=digest(candidates[name]),
+                                bytes=candidates[name].stat().st_size, rowCount=len(rows[name]),
+                                originalDescriptorSha256=hashlib.sha256(ordered(original).encode()).hexdigest(),
+                                **(dict(resolvedContextAliasOf=context_alias) if context_alias else {}), **alias))
+    require('data.json' in used and used == set(candidates), 'Unmanifested explicit source raw input')
+    return candidates, dict(schemaVersion=2, kind='explicit-source-owner-raw-inputs-v1', primary='data.json',
+                            sourceSha256=digest(family / 'source.vl.json'), resolvedSourceSha256=digest(resolved),
+                            distinctRawRows=sum(len(rows[name]) for name in used),
+                            sourceOwnerRows=sum(row['rowCount'] for row in descriptors), descriptors=descriptors)
+
+
+def validate_explicit_source_inputs(directory, metadata, record, reference_files):
+    source_file, resolved_file = directory / 'source.vl.json', directory / 'resolved-source.vl.json'
+    source, resolved = read(source_file), read(resolved_file)
+    require(record.get('schemaVersion') == 2 and record.get('primary') == 'data.json'
+            and record.get('sourceSha256') == digest(source_file)
+            and record.get('resolvedSourceSha256') == digest(resolved_file), 'Explicit source binding changed')
+    owners = source_data_owners(source)
+    require([r['pointer'] for r in record['descriptors']] == owners, 'Explicit source owner set changed')
+    seen, canonical, total = set(), {}, 0
+    for row in record['descriptors']:
+        name, ptr = row['file'], row['pointer']
+        require(is_raw_file(name) and name in metadata['files'] and not (directory / name).is_symlink(),
+                'Unsafe explicit source raw input')
+        file, original = directory / name, pointer(source, ptr)
+        require(row['sha256'] == digest(file) and row['bytes'] == file.stat().st_size
+                and row['originalDescriptorSha256'] == hashlib.sha256(ordered(original).encode()).hexdigest(),
+                'Explicit raw input or original descriptor changed')
+        values = read(file)
+        context_alias = unused_root_context_alias(source, resolved, ptr)
+        require(row.get('resolvedContextAliasOf') == context_alias, 'Unused root context binding changed')
+        expected_rows = original['values'] if context_alias else pointer(resolved, ptr)['values']
+        require(isinstance(values, list) and len(values) == row['rowCount']
+                and ordered(expected_rows) == ordered(values), 'Explicit frozen rows changed')
+        if 'values' in original:
+            require(ordered(original['values']) == ordered(values), 'Explicit inline rows changed')
+        elif 'name' in original:
+            require(ordered(source['datasets'][original['name']]) == ordered(values), 'Explicit named rows changed')
+        else:
+            require(isinstance(original.get('url'), str), 'Explicit URL owner missing')
+        if name in seen:
+            require(row.get('aliasOf') == canonical[name]
+                    and ordered(original) == ordered(pointer(source, canonical[name])), 'Invalid explicit source alias')
+        else:
+            require('aliasOf' not in row, 'Explicit primary owner cannot alias')
+            canonical[name] = ptr
+        seen.add(name)
+        total += len(values)
+    require(seen == reference_files | {'data.json'}
+            and record.get('distinctRawRows') == sum(len(read(directory / name)) for name in seen)
+            and record.get('sourceOwnerRows') == total, 'Explicit source accounting changed')
+    stages = [dict(level=row['level'], path=str(directory / row['code'])) for row in metadata['stages']]
+    actual = audit_stages(pathlib.Path(__file__).resolve().parent, stages, seen)
+    require(len(actual) == len(record['stages']), 'Missing explicit stage bindings')
+    for audit, retained in zip(actual, record['stages']):
+        require(retained.get('actualNativeRawDatasetBindingsExact') is True
+                and audit == {k: v for k, v in retained.items() if k != 'actualNativeRawDatasetBindingsExact'},
+                'Explicit module/raw input binding changed')
+
+
+def unused_root_context_alias(source, resolved, ptr):
+    if ptr != '/data' or source.get('data') != {'values': []} or resolved.get('data') == {'values': []}:
+        return None
+    layers = source.get('layer')
+    require(isinstance(layers, list) and len(layers) > 1
+            and all(isinstance(layer.get('data'), dict) for layer in layers)
+            and ordered(resolved['data']) == ordered(pointer(resolved, '/layer/0/data')),
+            'An unused empty root requires an exact first-layer analysis alias')
+    return '/layer/0/data'

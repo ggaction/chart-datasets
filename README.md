@@ -23,6 +23,8 @@ Each `charts/vl_####/` directory contains:
 | `vega-lite.svg`, `ggaction.svg` | Original and canonical G1 renderings |
 | `metadata.json` | SHA-256 inventory, source URLs and translation notes |
 
+When several layers explicitly reference the same named original table, raw-input schema version2 records each source pointer and an `aliasOf` link to its first owner. The original rows are stored once; `distinctRawRows` and `sourceOwnerRows` distinguish physical tables from repeated layer references. Equal-valued tables with different original names are never merged.
+
 Some confidence-interval sources use an approved seeded reference-rendering
 environment for reproducibility. For these families, `source-reference-policy.json`
 records the environment seed and hashes of the seven original unseeded reference
@@ -147,3 +149,5 @@ original unseeded SVGs for five sources with approved reference environments.
 [previous release records](reports/previous-release-0.0.20.json) preserve that history.
 
 See [DATA_SOURCES.md](DATA_SOURCES.md) for attribution and licensing.
+
+Explicit URL and inline owners in layered sources use `explicit-source-owner-raw-inputs-v1` (schema 2). Each descriptor binds its original source pointer, frozen rows, file hash, and original descriptor hash. Identical original descriptors may explicitly alias one frozen file; unrelated owners cannot. Empty original root tables are retained even when only local tables are used by marks. When a reviewed resolved analysis root aliases the first layer, `resolvedContextAliasOf` records that exact link while the separate original empty table remains empty. Export and public validation reject missing owners, changed rows, ambiguous file matches, and invalid aliases. Accepted module bytes and historical authoring runtimes remain unchanged.

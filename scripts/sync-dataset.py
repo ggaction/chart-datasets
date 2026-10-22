@@ -154,7 +154,10 @@ def sync(root, workspace, apply=False):
             require(not urls(spec), f'{chart_id}: unresolved source resources')
             resolved = source_dir / 'source.vl.json'
         files['resolved-source.vl.json'] = resolved
-        raw_files, raw_manifest = raw_inputs(source_dir, spec, resolved)
+        try:
+            raw_files, raw_manifest = raw_inputs(source_dir, spec, resolved)
+        except RuntimeError as error:
+            raise RuntimeError(f'{chart_id}: {error}') from error
         files.update(raw_files)
         stage_requests = []
         stages, runtimes, unrecorded_runtimes = [], set(), []
@@ -193,7 +196,10 @@ def sync(root, workspace, apply=False):
                 runtimes.add(recorded_runtime)
             else:
                 unrecorded_runtimes.append(level)
-        module_audits = audit_stages(pathlib.Path(__file__).resolve().parent, stage_requests, raw_files, strict_bindings=raw_manifest is not None)
+        try:
+            module_audits = audit_stages(pathlib.Path(__file__).resolve().parent, stage_requests, raw_files, strict_bindings=raw_manifest is not None)
+        except RuntimeError as error:
+            raise RuntimeError(f'{chart_id}: {error}') from error
         for audit, request in zip(module_audits, stage_requests):
             attempt = pathlib.Path(request['path']).parent
             for name in {binding['file'] for binding in audit['bindings']}:

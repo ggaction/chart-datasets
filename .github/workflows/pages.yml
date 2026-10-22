@@ -16,6 +16,7 @@ jobs:
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
         with:
           node-version: 22
+      - run: npm ci
       - run: npm test
       - run: npm run validate
       - run: npm run build
