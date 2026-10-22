@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "status": "qualified-export-awaiting-published-runtime",
+  "cutoff": {
+    "families": 1336,
+    "programs": 9766,
+    "newTranslationsStopped": true
+  },
+  "previousPublished": {
+    "families": 1213,
+    "programs": 8788,
+    "runtime": "0.0.21"
+  },
+  "export": {
+    "added": 123,
+    "refreshed": 0,
+    "originalInputsPreserved": true,
+    "testsPassed": 72,
+    "inventoryValidation": "passed",
+    "manifestSha256": "b197bf515a276fb62fd069cab6d134540f709c843e221ff6a7350778ede50657"
+  },
+  "candidateSmoke": {
+    "runtimeSourceCommit": "0384b927-and-integration-followup-pending",
+    "note": "This smoke preceded the late Canvas scene merge; it verifies the earlier candidate only and is not final release evidence.",
+    "families": 11,
+    "programs": 87,
+    "allFrozenSvgEqual": true
+  },
+  "viewer": {
+    "status": "passed",
+    "chartCount": 1336,
+    "decodedImages": 2672,
+    "checks": [
+      "navigation",
+      "keyboard",
+      "range keys",
+      "fast range changes",
+      "hash deep link",
+      "boundaries",
+      "desktop/mobile shared scale",
+      "all SVGs decode",
+      "no external requests",
+      "no JavaScript errors"
+    ]
+  },
+  "published": false,
+  "createdAt": "2026-10-22T22:48:19.732855+00:00"
+}

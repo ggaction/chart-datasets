@@ -2,7 +2,7 @@
 
 [Open the comparison viewer](https://ggaction.github.io/chart-datasets/)
 
-A minimal side-by-side viewer for 1,213 completed Vega-Lite → ggaction chart
+A minimal side-by-side viewer for 1,336 completed Vega-Lite → ggaction chart
 translations. Vega-Lite appears on the left and ggaction on the right. Use the
 slider, arrow buttons, keyboard arrows, Home or End. Link directly to a chart
 with a hash such as [#vl_1180](https://ggaction.github.io/chart-datasets/#vl_1180).
@@ -33,11 +33,11 @@ authored Vega-Lite property; the original specification and data remain unchange
 Incremental synchronization verifies and preserves this provenance when those
 families are imported.
 
-The repository includes 8,788 raw accepted programs. Families have up to eight
+The repository includes 9,766 raw accepted programs. Families have up to eight
 stages; the historical baseline retains its original accepted stages, including
 stages omitted by a later editorial curation. A chart is included only when
-its family was marked completed. Held and incomplete families remain excluded. Translation continues sequentially
-toward 1,500 completed families; this viewer contains only the verified cohort.
+its family was marked completed. Held and incomplete families remain excluded. New chart translation has stopped at the human-approved 1,336-family cutoff.
+This release adds 123 families while preserving every previously published original input.
 
 Stages express the same ggaction result through progressively smaller actions.
 The viewer shows one canonical output per family, not eight duplicate images.
