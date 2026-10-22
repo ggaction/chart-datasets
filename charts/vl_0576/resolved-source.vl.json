@@ -1,0 +1,1154 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "House Prices: New York and Las Vegas",
+    "subtitle": [
+      "All transactions house price index. Rebased to 2005. Source: FRED.",
+      ""
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Date": "1978-01-01",
+        "New York": "83.4",
+        "Las Vegas": "45.84",
+        "seriesCodes": "NYSTHPI"
+      },
+      {
+        "Date": "1978-04-01",
+        "New York": "87.53",
+        "Las Vegas": "46.86",
+        "seriesCodes": "ATNHPIUS29820Q"
+      },
+      {
+        "Date": "1978-07-01",
+        "New York": "84.02",
+        "Las Vegas": "50.8",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1978-10-01",
+        "New York": "83.97",
+        "Las Vegas": "53.52",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1979-01-01",
+        "New York": "96.64",
+        "Las Vegas": "54.99",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1979-04-01",
+        "New York": "95.92",
+        "Las Vegas": "57.35",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1979-07-01",
+        "New York": "94.74",
+        "Las Vegas": "61.51",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1979-10-01",
+        "New York": "98.17",
+        "Las Vegas": "59.02",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1980-01-01",
+        "New York": "100",
+        "Las Vegas": "61.34",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1980-04-01",
+        "New York": "107.18",
+        "Las Vegas": "60.73",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1980-07-01",
+        "New York": "114.95",
+        "Las Vegas": "68",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1980-10-01",
+        "New York": "111.26",
+        "Las Vegas": "68.02",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1981-01-01",
+        "New York": "112.13",
+        "Las Vegas": "61.03",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1981-04-01",
+        "New York": "108.36",
+        "Las Vegas": "77.22",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1981-07-01",
+        "New York": "115.72",
+        "Las Vegas": "76.55",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1981-10-01",
+        "New York": "114.38",
+        "Las Vegas": "68.08",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1982-01-01",
+        "New York": "123.33",
+        "Las Vegas": "73.79",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1982-04-01",
+        "New York": "125.18",
+        "Las Vegas": "77.41",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1982-07-01",
+        "New York": "122.4",
+        "Las Vegas": "78.86",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1982-10-01",
+        "New York": "126.45",
+        "Las Vegas": "85.47",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1983-01-01",
+        "New York": "128.72",
+        "Las Vegas": "76.53",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1983-04-01",
+        "New York": "132.77",
+        "Las Vegas": "75.48",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1983-07-01",
+        "New York": "138.25",
+        "Las Vegas": "72.11",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1983-10-01",
+        "New York": "147.16",
+        "Las Vegas": "69.6",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1984-01-01",
+        "New York": "150.69",
+        "Las Vegas": "74.88",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1984-04-01",
+        "New York": "156.64",
+        "Las Vegas": "75.41",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1984-07-01",
+        "New York": "162.17",
+        "Las Vegas": "71.34",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1984-10-01",
+        "New York": "169.19",
+        "Las Vegas": "67.87",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1985-01-01",
+        "New York": "176.23",
+        "Las Vegas": "74.87",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1985-04-01",
+        "New York": "184.56",
+        "Las Vegas": "71.96",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1985-07-01",
+        "New York": "191.05",
+        "Las Vegas": "72.47",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1985-10-01",
+        "New York": "198.57",
+        "Las Vegas": "74.54",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1986-01-01",
+        "New York": "206.47",
+        "Las Vegas": "75.05",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1986-04-01",
+        "New York": "217.16",
+        "Las Vegas": "77.04",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1986-07-01",
+        "New York": "227.03",
+        "Las Vegas": "76.92",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1986-10-01",
+        "New York": "237.21",
+        "Las Vegas": "75.85",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1987-01-01",
+        "New York": "246.64",
+        "Las Vegas": "78.18",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1987-04-01",
+        "New York": "255.26",
+        "Las Vegas": "76.88",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1987-07-01",
+        "New York": "266.94",
+        "Las Vegas": "76.97",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1987-10-01",
+        "New York": "270.87",
+        "Las Vegas": "76.05",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1988-01-01",
+        "New York": "277.2",
+        "Las Vegas": "76.99",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1988-04-01",
+        "New York": "280.71",
+        "Las Vegas": "77.9",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1988-07-01",
+        "New York": "282.76",
+        "Las Vegas": "78.79",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1988-10-01",
+        "New York": "283.61",
+        "Las Vegas": "80.32",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1989-01-01",
+        "New York": "283.38",
+        "Las Vegas": "80.22",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1989-04-01",
+        "New York": "282.88",
+        "Las Vegas": "82.02",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1989-07-01",
+        "New York": "285.9",
+        "Las Vegas": "84.3",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1989-10-01",
+        "New York": "286.55",
+        "Las Vegas": "85.61",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1990-01-01",
+        "New York": "286.51",
+        "Las Vegas": "87.53",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1990-04-01",
+        "New York": "283.3",
+        "Las Vegas": "89.29",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1990-07-01",
+        "New York": "281.67",
+        "Las Vegas": "91.78",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1990-10-01",
+        "New York": "278.72",
+        "Las Vegas": "92.62",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1991-01-01",
+        "New York": "278.31",
+        "Las Vegas": "94.38",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1991-04-01",
+        "New York": "280.12",
+        "Las Vegas": "95.39",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1991-07-01",
+        "New York": "279.25",
+        "Las Vegas": "95.45",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1991-10-01",
+        "New York": "281.52",
+        "Las Vegas": "98.13",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1992-01-01",
+        "New York": "286.8",
+        "Las Vegas": "98.36",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1992-04-01",
+        "New York": "282.83",
+        "Las Vegas": "97.92",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1992-07-01",
+        "New York": "285.96",
+        "Las Vegas": "99.54",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1992-10-01",
+        "New York": "288",
+        "Las Vegas": "99.6",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1993-01-01",
+        "New York": "282.66",
+        "Las Vegas": "99.4",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1993-04-01",
+        "New York": "289.34",
+        "Las Vegas": "100.37",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1993-07-01",
+        "New York": "288.43",
+        "Las Vegas": "100.39",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1993-10-01",
+        "New York": "289.57",
+        "Las Vegas": "100.68",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1994-01-01",
+        "New York": "286.23",
+        "Las Vegas": "100.37",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1994-04-01",
+        "New York": "282.4",
+        "Las Vegas": "99.84",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1994-07-01",
+        "New York": "280.92",
+        "Las Vegas": "99.74",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1994-10-01",
+        "New York": "275.69",
+        "Las Vegas": "99.35",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1995-01-01",
+        "New York": "274.36",
+        "Las Vegas": "100",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1995-04-01",
+        "New York": "279.11",
+        "Las Vegas": "102.19",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1995-07-01",
+        "New York": "283.76",
+        "Las Vegas": "103.54",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1995-10-01",
+        "New York": "282.88",
+        "Las Vegas": "104.31",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1996-01-01",
+        "New York": "287.64",
+        "Las Vegas": "105.52",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1996-04-01",
+        "New York": "285.93",
+        "Las Vegas": "104.73",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1996-07-01",
+        "New York": "283.85",
+        "Las Vegas": "104.54",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1996-10-01",
+        "New York": "283.58",
+        "Las Vegas": "105.7",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1997-01-01",
+        "New York": "283.68",
+        "Las Vegas": "106.09",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1997-04-01",
+        "New York": "287.04",
+        "Las Vegas": "106.16",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1997-07-01",
+        "New York": "289.52",
+        "Las Vegas": "107.58",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1997-10-01",
+        "New York": "292.44",
+        "Las Vegas": "108.85",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1998-01-01",
+        "New York": "298.99",
+        "Las Vegas": "110.35",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1998-04-01",
+        "New York": "301.25",
+        "Las Vegas": "110.48",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1998-07-01",
+        "New York": "303.58",
+        "Las Vegas": "110.97",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1998-10-01",
+        "New York": "307.67",
+        "Las Vegas": "111.91",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1999-01-01",
+        "New York": "310",
+        "Las Vegas": "112.29",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1999-04-01",
+        "New York": "315.75",
+        "Las Vegas": "112.24",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1999-07-01",
+        "New York": "324.7",
+        "Las Vegas": "113.09",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "1999-10-01",
+        "New York": "330.84",
+        "Las Vegas": "113.22",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2000-01-01",
+        "New York": "335.6",
+        "Las Vegas": "114.6",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2000-04-01",
+        "New York": "345.65",
+        "Las Vegas": "116.08",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2000-07-01",
+        "New York": "355.77",
+        "Las Vegas": "117.43",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2000-10-01",
+        "New York": "361.18",
+        "Las Vegas": "119.3",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2001-01-01",
+        "New York": "369.35",
+        "Las Vegas": "121.9",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2001-04-01",
+        "New York": "377.54",
+        "Las Vegas": "123.68",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2001-07-01",
+        "New York": "387.91",
+        "Las Vegas": "125.8",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2001-10-01",
+        "New York": "394.75",
+        "Las Vegas": "127.45",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2002-01-01",
+        "New York": "404.42",
+        "Las Vegas": "129.05",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2002-04-01",
+        "New York": "417.22",
+        "Las Vegas": "130.87",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2002-07-01",
+        "New York": "429.85",
+        "Las Vegas": "133.57",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2002-10-01",
+        "New York": "439.14",
+        "Las Vegas": "134.5",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2003-01-01",
+        "New York": "448.97",
+        "Las Vegas": "136.72",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2003-04-01",
+        "New York": "459.87",
+        "Las Vegas": "139.31",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2003-07-01",
+        "New York": "466.92",
+        "Las Vegas": "143.17",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2003-10-01",
+        "New York": "488.83",
+        "Las Vegas": "152.49",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2004-01-01",
+        "New York": "499.16",
+        "Las Vegas": "162.1",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2004-04-01",
+        "New York": "513.8",
+        "Las Vegas": "179.96",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2004-07-01",
+        "New York": "538.85",
+        "Las Vegas": "206.48",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2004-10-01",
+        "New York": "552.47",
+        "Las Vegas": "212.85",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2005-01-01",
+        "New York": "567.14",
+        "Las Vegas": "219.34",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2005-04-01",
+        "New York": "585.9",
+        "Las Vegas": "228.91",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2005-07-01",
+        "New York": "605.1",
+        "Las Vegas": "235.27",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2005-10-01",
+        "New York": "618.77",
+        "Las Vegas": "245.08",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2006-01-01",
+        "New York": "629.8",
+        "Las Vegas": "252.29",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2006-04-01",
+        "New York": "631.74",
+        "Las Vegas": "254.49",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2006-07-01",
+        "New York": "631.07",
+        "Las Vegas": "255.95",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2006-10-01",
+        "New York": "639.16",
+        "Las Vegas": "257.28",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2007-01-01",
+        "New York": "642.3",
+        "Las Vegas": "255.09",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2007-04-01",
+        "New York": "640.13",
+        "Las Vegas": "251.05",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2007-07-01",
+        "New York": "630.95",
+        "Las Vegas": "243.43",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2007-10-01",
+        "New York": "632.91",
+        "Las Vegas": "235.87",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2008-01-01",
+        "New York": "636.22",
+        "Las Vegas": "218.62",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2008-04-01",
+        "New York": "624.24",
+        "Las Vegas": "195.58",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2008-07-01",
+        "New York": "608.03",
+        "Las Vegas": "168.96",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2008-10-01",
+        "New York": "602.29",
+        "Las Vegas": "152.29",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2009-01-01",
+        "New York": "609.45",
+        "Las Vegas": "150.75",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2009-04-01",
+        "New York": "596.36",
+        "Las Vegas": "140.12",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2009-07-01",
+        "New York": "582.19",
+        "Las Vegas": "127.95",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2009-10-01",
+        "New York": "577.02",
+        "Las Vegas": "122.1",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2010-01-01",
+        "New York": "573.31",
+        "Las Vegas": "120.58",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2010-04-01",
+        "New York": "569.7",
+        "Las Vegas": "119.26",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2010-07-01",
+        "New York": "577.78",
+        "Las Vegas": "118.45",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2010-10-01",
+        "New York": "577.58",
+        "Las Vegas": "115.09",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2011-01-01",
+        "New York": "568.9",
+        "Las Vegas": "108.83",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2011-04-01",
+        "New York": "560.86",
+        "Las Vegas": "102.8",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2011-07-01",
+        "New York": "558.29",
+        "Las Vegas": "101.54",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2011-10-01",
+        "New York": "562.65",
+        "Las Vegas": "101.31",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2012-01-01",
+        "New York": "558.39",
+        "Las Vegas": "100.16",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2012-04-01",
+        "New York": "552.63",
+        "Las Vegas": "100.76",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2012-07-01",
+        "New York": "554.5",
+        "Las Vegas": "103.88",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2012-10-01",
+        "New York": "556.27",
+        "Las Vegas": "107.02",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2013-01-01",
+        "New York": "557.01",
+        "Las Vegas": "111.33",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2013-04-01",
+        "New York": "558.51",
+        "Las Vegas": "119.52",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2013-07-01",
+        "New York": "561.3",
+        "Las Vegas": "127.79",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2013-10-01",
+        "New York": "560.34",
+        "Las Vegas": "135.49",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2014-01-01",
+        "New York": "560.77",
+        "Las Vegas": "140.05",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2014-04-01",
+        "New York": "566.52",
+        "Las Vegas": "144.05",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2014-07-01",
+        "New York": "574.72",
+        "Las Vegas": "149.56",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2014-10-01",
+        "New York": "578.01",
+        "Las Vegas": "151.16",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2015-01-01",
+        "New York": "583.41",
+        "Las Vegas": "154.33",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2015-04-01",
+        "New York": "588.22",
+        "Las Vegas": "157.73",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2015-07-01",
+        "New York": "593.17",
+        "Las Vegas": "161.12",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2015-10-01",
+        "New York": "594.03",
+        "Las Vegas": "165.16",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2016-01-01",
+        "New York": "597.16",
+        "Las Vegas": "166.14",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2016-04-01",
+        "New York": "606.76",
+        "Las Vegas": "170.34",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2016-07-01",
+        "New York": "615.1",
+        "Las Vegas": "174",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2016-10-01",
+        "New York": "620.53",
+        "Las Vegas": "176.56",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2017-01-01",
+        "New York": "622.27",
+        "Las Vegas": "179.48",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2017-04-01",
+        "New York": "632.25",
+        "Las Vegas": "185.92",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2017-07-01",
+        "New York": "644.67",
+        "Las Vegas": "192.84",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2017-10-01",
+        "New York": "650.8",
+        "Las Vegas": "199.3",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2018-01-01",
+        "New York": "657.8",
+        "Las Vegas": "206.66",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2018-04-01",
+        "New York": "665.83",
+        "Las Vegas": "216.07",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2018-07-01",
+        "New York": "676.74",
+        "Las Vegas": "223.81",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2018-10-01",
+        "New York": "676.99",
+        "Las Vegas": "227.21",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2019-01-01",
+        "New York": "682.79",
+        "Las Vegas": "230.01",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2019-04-01",
+        "New York": "693.7",
+        "Las Vegas": "232.71",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2019-07-01",
+        "New York": "703.85",
+        "Las Vegas": "232.69",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2019-10-01",
+        "New York": "711.34",
+        "Las Vegas": "235.25",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2020-01-01",
+        "New York": "718.02",
+        "Las Vegas": "238.01",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2020-04-01",
+        "New York": "723.79",
+        "Las Vegas": "240.69",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2020-07-01",
+        "New York": "735.5",
+        "Las Vegas": "243.57",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2020-10-01",
+        "New York": "751.67",
+        "Las Vegas": "248.35",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2021-01-01",
+        "New York": "769.55",
+        "Las Vegas": "255.65",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2021-04-01",
+        "New York": "796.82",
+        "Las Vegas": "271.18",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2021-07-01",
+        "New York": "837.65",
+        "Las Vegas": "293.43",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2021-10-01",
+        "New York": "856.67",
+        "Las Vegas": "308.58",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2022-01-01",
+        "New York": "878.38",
+        "Las Vegas": "322.7",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2022-04-01",
+        "New York": "931.03",
+        "Las Vegas": "347.96",
+        "seriesCodes": ""
+      },
+      {
+        "Date": "2022-07-01",
+        "New York": "951.57",
+        "Las Vegas": "352.86",
+        "seriesCodes": ""
+      }
+    ],
+    "format": {
+      "parse": {
+        "Date": "date"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum['New York']/567.14",
+      "as": "New York index"
+    },
+    {
+      "calculate": "datum['Las Vegas']/219.34",
+      "as": "Las Vegas index"
+    },
+    {
+      "calculate": "year(datum.Date)",
+      "as": "year"
+    },
+    {
+      "fold": [
+        "New York index",
+        "Las Vegas index"
+      ],
+      "as": [
+        "city",
+        "housePrice"
+      ]
+    },
+    {
+      "filter": {
+        "field": "year",
+        "gt": 2004
+      }
+    }
+  ],
+  "height": 400,
+  "width": 250,
+  "mark": {
+    "type": "line",
+    "color": "rgb(128, 0, 0)",
+    "strokeWidth": 2
+  },
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "title": null,
+      "axis": {
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "housePrice",
+      "type": "quantitative",
+      "title": null
+    },
+    "facet": {
+      "field": "city",
+      "columns": 2,
+      "title": null
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 2,
+  "kind": "explicit-source-owner-raw-inputs-v1",
+  "primary": "data.json",
+  "sourceSha256": "a7aebaf2d51c6fe880fc1b30d586f571ff8de57b56fdc26c743745272a585373",
+  "resolvedSourceSha256": "53b6f8645f58635f0e6e3226dfe5b50c870b5351f1132ba04aedeb5ddcafd977",
+  "distinctRawRows": 66,
+  "sourceOwnerRows": 66,
+  "descriptors": [
+    {
+      "pointer": "/layer/0/data",
+      "file": "data.json",
+      "sha256": "37f22f3a5893c207e60ec567df545a76fa7746ec7b961fe21a0aaa19411702a0",
+      "bytes": 5241,
+      "rowCount": 61,
+      "originalDescriptorSha256": "4c6c7f56ac7cfdad7c86fe39942c4a3ea12c48775c2844bd60b727a5b1fa30d8"
+    },
+    {
+      "pointer": "/layer/1/data",
+      "file": "hardware-data.json",
+      "sha256": "60d59d49b04b2473c737062d69c5154d5c57454fc198d72d6f12b770e18008a4",
+      "bytes": 453,
+      "rowCount": 5,
+      "originalDescriptorSha256": "c9bfe7f9955f2a57660297f8d354b756bd814869b8fc66991781be78a85631e2"
+    }
+  ],
+  "stages": [
+    {
+      "level": "G1",
+      "codeSha256": "48036a713f393b9d29df61e437f37aaeea2dddaa5998e5302d447c12b4017854",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "hardwareData",
+          "file": "hardware-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "hardware-data.json",
+          "local": "hardwareData",
+          "datasetId": "hardware",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G2",
+      "codeSha256": "4b4050c781804244511dc3b1be6bc4f113fb0827163f4456dfe1b73f4e91f96a",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "hardwareData",
+          "file": "hardware-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "hardware-data.json",
+          "local": "hardwareData",
+          "datasetId": "hardware",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G3",
+      "codeSha256": "ced9a113e3cf9d3f8649719def3708278115f58d33db4a6d50d1227dd21b5ca6",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "hardwareData",
+          "file": "hardware-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "hardware-data.json",
+          "local": "hardwareData",
+          "datasetId": "hardware",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G4",
+      "codeSha256": "73b57cc3fbb2a073a157d970fcdbcea395c5709ec43ea0aa2c5ee2bb9ed0d17d",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "hardwareData",
+          "file": "hardware-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "hardware-data.json",
+          "local": "hardwareData",
+          "datasetId": "hardware",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G5",
+      "codeSha256": "e8a62c9d2c9138434518842512eec98422326245c1e748b285d9cba385e8f310",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "hardwareData",
+          "file": "hardware-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "hardware-data.json",
+          "local": "hardwareData",
+          "datasetId": "hardware",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G6",
+      "codeSha256": "9642e9d928c7444e1774c011277034f977d9aed1c418f63c565129dac2a1fc90",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "hardwareData",
+          "file": "hardware-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "hardware-data.json",
+          "local": "hardwareData",
+          "datasetId": "hardware",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G7",
+      "codeSha256": "2dba1b2e1e9a32a52cecf090c325f994c8748fd8250dc0d6fa866cecc02ae1ce",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "hardwareData",
+          "file": "hardware-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "hardware-data.json",
+          "local": "hardwareData",
+          "datasetId": "hardware",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G8",
+      "codeSha256": "c6549e1060406a9a3ff52e70100fdf2b93aa1123632663c4e6f606b44abaa94b",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "hardwareData",
+          "file": "hardware-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "hardware-data.json",
+          "local": "hardwareData",
+          "datasetId": "hardware",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    }
+  ]
+}

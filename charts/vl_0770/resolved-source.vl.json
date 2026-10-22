@@ -1,0 +1,4162 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Regressing WGI Overall Score on Median Age for all countries featured in the 2018 to 2022 editions of the CAF World Giving Index Report (exploring data for 2019-2021). I ran the regression in Colab in order to ascertain the equation for the regression line",
+  "title": {
+    "text": [
+      "Regressing WGI Overall Score on GDP per capita using data from 2018-2022"
+    ],
+    "fontSize": 12,
+    "subtitle": [
+      "GDP per capita measured in current US$",
+      "Sources: CAF, World Bank and World Population Review"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Country": "Albania",
+        "year": "2017",
+        "GDPpc": "4531.02",
+        "WGI": "26"
+      },
+      {
+        "Country": "Argentina",
+        "year": "2017",
+        "GDPpc": "14613.04",
+        "WGI": "28"
+      },
+      {
+        "Country": "Australia",
+        "year": "2017",
+        "GDPpc": "53936.14",
+        "WGI": "59"
+      },
+      {
+        "Country": "Austria",
+        "year": "2017",
+        "GDPpc": "47429.16",
+        "WGI": "44"
+      },
+      {
+        "Country": "Benin",
+        "year": "2017",
+        "GDPpc": "1095.27",
+        "WGI": "26"
+      },
+      {
+        "Country": "Bolivia (Plurinational State of)",
+        "year": "2017",
+        "GDPpc": "3280.01",
+        "WGI": "28"
+      },
+      {
+        "Country": "Brazil",
+        "year": "2017",
+        "GDPpc": "9896.68",
+        "WGI": "23"
+      },
+      {
+        "Country": "Bulgaria",
+        "year": "2017",
+        "GDPpc": "8366.29",
+        "WGI": "22"
+      },
+      {
+        "Country": "Cambodia",
+        "year": "2017",
+        "GDPpc": "1400.9",
+        "WGI": "18"
+      },
+      {
+        "Country": "Cameroon",
+        "year": "2017",
+        "GDPpc": "1479.86",
+        "WGI": "34"
+      },
+      {
+        "Country": "Canada",
+        "year": "2017",
+        "GDPpc": "45129.43",
+        "WGI": "49"
+      },
+      {
+        "Country": "Chile",
+        "year": "2017",
+        "GDPpc": "15045.53",
+        "WGI": "34"
+      },
+      {
+        "Country": "China",
+        "year": "2017",
+        "GDPpc": "8816.99",
+        "WGI": "17"
+      },
+      {
+        "Country": "Colombia",
+        "year": "2017",
+        "GDPpc": "6450.32",
+        "WGI": "29"
+      },
+      {
+        "Country": "Costa Rica",
+        "year": "2017",
+        "GDPpc": "12118.13",
+        "WGI": "34"
+      },
+      {
+        "Country": "Croatia",
+        "year": "2017",
+        "GDPpc": "13655.82",
+        "WGI": "20"
+      },
+      {
+        "Country": "Cyprus",
+        "year": "2017",
+        "GDPpc": "26697.17",
+        "WGI": "43"
+      },
+      {
+        "Country": "Czechia",
+        "year": "2017",
+        "GDPpc": "20636.2",
+        "WGI": "22"
+      },
+      {
+        "Country": "Denmark",
+        "year": "2017",
+        "GDPpc": "57610.1",
+        "WGI": "46"
+      },
+      {
+        "Country": "Dominican Republic",
+        "year": "2017",
+        "GDPpc": "7513.49",
+        "WGI": "39"
+      },
+      {
+        "Country": "Ecuador",
+        "year": "2017",
+        "GDPpc": "6246.4",
+        "WGI": "24"
+      },
+      {
+        "Country": "El Salvador",
+        "year": "2017",
+        "GDPpc": "3986.05",
+        "WGI": "22"
+      },
+      {
+        "Country": "Estonia",
+        "year": "2017",
+        "GDPpc": "20437.77",
+        "WGI": "26"
+      },
+      {
+        "Country": "Finland",
+        "year": "2017",
+        "GDPpc": "46412.14",
+        "WGI": "40"
+      },
+      {
+        "Country": "France",
+        "year": "2017",
+        "GDPpc": "38781.05",
+        "WGI": "32"
+      },
+      {
+        "Country": "Gabon",
+        "year": "2017",
+        "GDPpc": "6975.7",
+        "WGI": "24"
+      },
+      {
+        "Country": "Georgia",
+        "year": "2017",
+        "GDPpc": "4357",
+        "WGI": "24"
+      },
+      {
+        "Country": "Germany",
+        "year": "2017",
+        "GDPpc": "44652.59",
+        "WGI": "46"
+      },
+      {
+        "Country": "Ghana",
+        "year": "2017",
+        "GDPpc": "1998.74",
+        "WGI": "42"
+      },
+      {
+        "Country": "Greece",
+        "year": "2017",
+        "GDPpc": "18582.09",
+        "WGI": "17"
+      },
+      {
+        "Country": "Hungary",
+        "year": "2017",
+        "GDPpc": "14621.24",
+        "WGI": "23"
+      },
+      {
+        "Country": "India",
+        "year": "2017",
+        "GDPpc": "1957.97",
+        "WGI": "22"
+      },
+      {
+        "Country": "Indonesia",
+        "year": "2017",
+        "GDPpc": "3839.79",
+        "WGI": "59"
+      },
+      {
+        "Country": "Iraq",
+        "year": "2017",
+        "GDPpc": "4725.19",
+        "WGI": "43"
+      },
+      {
+        "Country": "Ireland",
+        "year": "2017",
+        "GDPpc": "69970.95",
+        "WGI": "56"
+      },
+      {
+        "Country": "Israel",
+        "year": "2017",
+        "GDPpc": "41114.78",
+        "WGI": "42"
+      },
+      {
+        "Country": "Italy",
+        "year": "2017",
+        "GDPpc": "32406.72",
+        "WGI": "33"
+      },
+      {
+        "Country": "Japan",
+        "year": "2017",
+        "GDPpc": "38834.05",
+        "WGI": "22"
+      },
+      {
+        "Country": "Jordan",
+        "year": "2017",
+        "GDPpc": "4073.12",
+        "WGI": "30"
+      },
+      {
+        "Country": "Kazakhstan",
+        "year": "2017",
+        "GDPpc": "9247.58",
+        "WGI": "28"
+      },
+      {
+        "Country": "Kenya",
+        "year": "2017",
+        "GDPpc": "1675.97",
+        "WGI": "54"
+      },
+      {
+        "Country": "Latvia",
+        "year": "2017",
+        "GDPpc": "15695.12",
+        "WGI": "19"
+      },
+      {
+        "Country": "Lebanon",
+        "year": "2017",
+        "GDPpc": "8679.9",
+        "WGI": "28"
+      },
+      {
+        "Country": "Lithuania",
+        "year": "2017",
+        "GDPpc": "16885.41",
+        "WGI": "19"
+      },
+      {
+        "Country": "Mali",
+        "year": "2017",
+        "GDPpc": "795.68",
+        "WGI": "28"
+      },
+      {
+        "Country": "Malta",
+        "year": "2017",
+        "GDPpc": "28823.53",
+        "WGI": "47"
+      },
+      {
+        "Country": "Mexico",
+        "year": "2017",
+        "GDPpc": "9434.39",
+        "WGI": "24"
+      },
+      {
+        "Country": "Mongolia",
+        "year": "2017",
+        "GDPpc": "3708.25",
+        "WGI": "39"
+      },
+      {
+        "Country": "Morocco",
+        "year": "2017",
+        "GDPpc": "3288.5",
+        "WGI": "26"
+      },
+      {
+        "Country": "Myanmar",
+        "year": "2017",
+        "GDPpc": "1175.2",
+        "WGI": "54"
+      },
+      {
+        "Country": "Nepal",
+        "year": "2017",
+        "GDPpc": "1027.97",
+        "WGI": "37"
+      },
+      {
+        "Country": "Netherlands",
+        "year": "2017",
+        "GDPpc": "48675.22",
+        "WGI": "51"
+      },
+      {
+        "Country": "New Zealand",
+        "year": "2017",
+        "GDPpc": "42925",
+        "WGI": "58"
+      },
+      {
+        "Country": "Nicaragua",
+        "year": "2017",
+        "GDPpc": "2127.28",
+        "WGI": "33"
+      },
+      {
+        "Country": "Nigeria",
+        "year": "2017",
+        "GDPpc": "1941.88",
+        "WGI": "48"
+      },
+      {
+        "Country": "Pakistan",
+        "year": "2017",
+        "GDPpc": "1567.64",
+        "WGI": "28"
+      },
+      {
+        "Country": "Paraguay",
+        "year": "2017",
+        "GDPpc": "6136.06",
+        "WGI": "34"
+      },
+      {
+        "Country": "Peru",
+        "year": "2017",
+        "GDPpc": "6676.28",
+        "WGI": "27"
+      },
+      {
+        "Country": "Philippines",
+        "year": "2017",
+        "GDPpc": "3077.44",
+        "WGI": "28"
+      },
+      {
+        "Country": "Poland",
+        "year": "2017",
+        "GDPpc": "13815.62",
+        "WGI": "24"
+      },
+      {
+        "Country": "Portugal",
+        "year": "2017",
+        "GDPpc": "21490.43",
+        "WGI": "28"
+      },
+      {
+        "Country": "Romania",
+        "year": "2017",
+        "GDPpc": "10727.95",
+        "WGI": "27"
+      },
+      {
+        "Country": "Russian Federation",
+        "year": "2017",
+        "GDPpc": "10720.33",
+        "WGI": "25"
+      },
+      {
+        "Country": "Saudi Arabia",
+        "year": "2017",
+        "GDPpc": "20138.15",
+        "WGI": "37"
+      },
+      {
+        "Country": "Senegal",
+        "year": "2017",
+        "GDPpc": "1385.2",
+        "WGI": "28"
+      },
+      {
+        "Country": "Serbia",
+        "year": "2017",
+        "GDPpc": "6292.54",
+        "WGI": "21"
+      },
+      {
+        "Country": "Slovakia",
+        "year": "2017",
+        "GDPpc": "17585.2",
+        "WGI": "28"
+      },
+      {
+        "Country": "Slovenia",
+        "year": "2017",
+        "GDPpc": "23514.03",
+        "WGI": "39"
+      },
+      {
+        "Country": "South Africa",
+        "year": "2017",
+        "GDPpc": "6734.48",
+        "WGI": "41"
+      },
+      {
+        "Country": "Spain",
+        "year": "2017",
+        "GDPpc": "28185.32",
+        "WGI": "36"
+      },
+      {
+        "Country": "Sri Lanka",
+        "year": "2017",
+        "GDPpc": "4401.06",
+        "WGI": "45"
+      },
+      {
+        "Country": "Sweden",
+        "year": "2017",
+        "GDPpc": "53791.51",
+        "WGI": "41"
+      },
+      {
+        "Country": "Switzerland",
+        "year": "2017",
+        "GDPpc": "82254.38",
+        "WGI": "45"
+      },
+      {
+        "Country": "Tajikistan",
+        "year": "2017",
+        "GDPpc": "844.37",
+        "WGI": "42"
+      },
+      {
+        "Country": "Thailand",
+        "year": "2017",
+        "GDPpc": "6436.79",
+        "WGI": "34"
+      },
+      {
+        "Country": "Tunisia",
+        "year": "2017",
+        "GDPpc": "3569.76",
+        "WGI": "20"
+      },
+      {
+        "Country": "Uganda",
+        "year": "2017",
+        "GDPpc": "766.18",
+        "WGI": "39"
+      },
+      {
+        "Country": "Ukraine",
+        "year": "2017",
+        "GDPpc": "2638.33",
+        "WGI": "29"
+      },
+      {
+        "Country": "United Arab Emirates",
+        "year": "2017",
+        "GDPpc": "43063.97",
+        "WGI": "51"
+      },
+      {
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "year": "2017",
+        "GDPpc": "40621.33",
+        "WGI": "55"
+      },
+      {
+        "Country": "Uruguay",
+        "year": "2017",
+        "GDPpc": "18769.79",
+        "WGI": "30"
+      },
+      {
+        "Country": "Uzbekistan",
+        "year": "2017",
+        "GDPpc": "1916.76",
+        "WGI": "36"
+      },
+      {
+        "Country": "Zambia",
+        "year": "2017",
+        "GDPpc": "1495.75",
+        "WGI": "46"
+      },
+      {
+        "Country": "Zimbabwe",
+        "year": "2017",
+        "GDPpc": "1192.11",
+        "WGI": "30"
+      },
+      {
+        "Country": "Albania",
+        "year": "2018",
+        "GDPpc": "5287.66",
+        "WGI": "23"
+      },
+      {
+        "Country": "Argentina",
+        "year": "2018",
+        "GDPpc": "11795.16",
+        "WGI": "28"
+      },
+      {
+        "Country": "Australia",
+        "year": "2018",
+        "GDPpc": "57207.87",
+        "WGI": "56"
+      },
+      {
+        "Country": "Austria",
+        "year": "2018",
+        "GDPpc": "51466.56",
+        "WGI": "45"
+      },
+      {
+        "Country": "Benin",
+        "year": "2018",
+        "GDPpc": "1194.44",
+        "WGI": "23"
+      },
+      {
+        "Country": "Bolivia (Plurinational State of)",
+        "year": "2018",
+        "GDPpc": "3471.01",
+        "WGI": "31"
+      },
+      {
+        "Country": "Brazil",
+        "year": "2018",
+        "GDPpc": "9121.08",
+        "WGI": "28"
+      },
+      {
+        "Country": "Bulgaria",
+        "year": "2018",
+        "GDPpc": "9446.72",
+        "WGI": "19"
+      },
+      {
+        "Country": "Cambodia",
+        "year": "2018",
+        "GDPpc": "1533.32",
+        "WGI": "24"
+      },
+      {
+        "Country": "Cameroon",
+        "year": "2018",
+        "GDPpc": "1594.06",
+        "WGI": "33"
+      },
+      {
+        "Country": "Canada",
+        "year": "2018",
+        "GDPpc": "46548.64",
+        "WGI": "55"
+      },
+      {
+        "Country": "Chile",
+        "year": "2018",
+        "GDPpc": "15795.71",
+        "WGI": "37"
+      },
+      {
+        "Country": "China",
+        "year": "2018",
+        "GDPpc": "9905.34",
+        "WGI": "16"
+      },
+      {
+        "Country": "Colombia",
+        "year": "2018",
+        "GDPpc": "6782.04",
+        "WGI": "35"
+      },
+      {
+        "Country": "Costa Rica",
+        "year": "2018",
+        "GDPpc": "12383.15",
+        "WGI": "38"
+      },
+      {
+        "Country": "Croatia",
+        "year": "2018",
+        "GDPpc": "15244.43",
+        "WGI": "21"
+      },
+      {
+        "Country": "Cyprus",
+        "year": "2018",
+        "GDPpc": "29418.94",
+        "WGI": "41"
+      },
+      {
+        "Country": "Czechia",
+        "year": "2018",
+        "GDPpc": "23424.48",
+        "WGI": "22"
+      },
+      {
+        "Country": "Denmark",
+        "year": "2018",
+        "GDPpc": "61591.93",
+        "WGI": "44"
+      },
+      {
+        "Country": "Dominican Republic",
+        "year": "2018",
+        "GDPpc": "7947.16",
+        "WGI": "39"
+      },
+      {
+        "Country": "Ecuador",
+        "year": "2018",
+        "GDPpc": "6321.35",
+        "WGI": "24"
+      },
+      {
+        "Country": "El Salvador",
+        "year": "2018",
+        "GDPpc": "4145.86",
+        "WGI": "25"
+      },
+      {
+        "Country": "Estonia",
+        "year": "2018",
+        "GDPpc": "23165.85",
+        "WGI": "25"
+      },
+      {
+        "Country": "Finland",
+        "year": "2018",
+        "GDPpc": "49987.63",
+        "WGI": "41"
+      },
+      {
+        "Country": "France",
+        "year": "2018",
+        "GDPpc": "41557.85",
+        "WGI": "30"
+      },
+      {
+        "Country": "Gabon",
+        "year": "2018",
+        "GDPpc": "7694.91",
+        "WGI": "27"
+      },
+      {
+        "Country": "Georgia",
+        "year": "2018",
+        "GDPpc": "4722.04",
+        "WGI": "21"
+      },
+      {
+        "Country": "Germany",
+        "year": "2018",
+        "GDPpc": "47939.28",
+        "WGI": "43"
+      },
+      {
+        "Country": "Ghana",
+        "year": "2018",
+        "GDPpc": "2180.04",
+        "WGI": "38"
+      },
+      {
+        "Country": "Greece",
+        "year": "2018",
+        "GDPpc": "19756.99",
+        "WGI": "16"
+      },
+      {
+        "Country": "Hungary",
+        "year": "2018",
+        "GDPpc": "16425.1",
+        "WGI": "23"
+      },
+      {
+        "Country": "India",
+        "year": "2018",
+        "GDPpc": "1974.38",
+        "WGI": "26"
+      },
+      {
+        "Country": "Indonesia",
+        "year": "2018",
+        "GDPpc": "3902.66",
+        "WGI": "50"
+      },
+      {
+        "Country": "Iraq",
+        "year": "2018",
+        "GDPpc": "5601.47",
+        "WGI": "34"
+      },
+      {
+        "Country": "Ireland",
+        "year": "2018",
+        "GDPpc": "79250.39",
+        "WGI": "56"
+      },
+      {
+        "Country": "Israel",
+        "year": "2018",
+        "GDPpc": "42406.85",
+        "WGI": "39"
+      },
+      {
+        "Country": "Italy",
+        "year": "2018",
+        "GDPpc": "34622.17",
+        "WGI": "33"
+      },
+      {
+        "Country": "Japan",
+        "year": "2018",
+        "GDPpc": "39727.12",
+        "WGI": "23"
+      },
+      {
+        "Country": "Jordan",
+        "year": "2018",
+        "GDPpc": "4146.41",
+        "WGI": "25"
+      },
+      {
+        "Country": "Kazakhstan",
+        "year": "2018",
+        "GDPpc": "9812.63",
+        "WGI": "26"
+      },
+      {
+        "Country": "Kenya",
+        "year": "2018",
+        "GDPpc": "1845.78",
+        "WGI": "47"
+      },
+      {
+        "Country": "Latvia",
+        "year": "2018",
+        "GDPpc": "17865.03",
+        "WGI": "22"
+      },
+      {
+        "Country": "Lebanon",
+        "year": "2018",
+        "GDPpc": "9225.85",
+        "WGI": "30"
+      },
+      {
+        "Country": "Lithuania",
+        "year": "2018",
+        "GDPpc": "19186.36",
+        "WGI": "19"
+      },
+      {
+        "Country": "Mali",
+        "year": "2018",
+        "GDPpc": "856.36",
+        "WGI": "24"
+      },
+      {
+        "Country": "Malta",
+        "year": "2018",
+        "GDPpc": "31567.94",
+        "WGI": "47"
+      },
+      {
+        "Country": "Mexico",
+        "year": "2018",
+        "GDPpc": "9857.03",
+        "WGI": "28"
+      },
+      {
+        "Country": "Mongolia",
+        "year": "2018",
+        "GDPpc": "4165.02",
+        "WGI": "38"
+      },
+      {
+        "Country": "Morocco",
+        "year": "2018",
+        "GDPpc": "3492.67",
+        "WGI": "26"
+      },
+      {
+        "Country": "Myanmar",
+        "year": "2018",
+        "GDPpc": "1274.92",
+        "WGI": "58"
+      },
+      {
+        "Country": "Nepal",
+        "year": "2018",
+        "GDPpc": "1161.53",
+        "WGI": "33"
+      },
+      {
+        "Country": "Netherlands",
+        "year": "2018",
+        "GDPpc": "53044.53",
+        "WGI": "53"
+      },
+      {
+        "Country": "New Zealand",
+        "year": "2018",
+        "GDPpc": "43250.44",
+        "WGI": "57"
+      },
+      {
+        "Country": "Nicaragua",
+        "year": "2018",
+        "GDPpc": "1981.86",
+        "WGI": "30"
+      },
+      {
+        "Country": "Nigeria",
+        "year": "2018",
+        "GDPpc": "2125.83",
+        "WGI": "42"
+      },
+      {
+        "Country": "Pakistan",
+        "year": "2018",
+        "GDPpc": "1620.74",
+        "WGI": "29"
+      },
+      {
+        "Country": "Paraguay",
+        "year": "2018",
+        "GDPpc": "6242.96",
+        "WGI": "32"
+      },
+      {
+        "Country": "Peru",
+        "year": "2018",
+        "GDPpc": "6912.11",
+        "WGI": "28"
+      },
+      {
+        "Country": "Philippines",
+        "year": "2018",
+        "GDPpc": "3194.67",
+        "WGI": "39"
+      },
+      {
+        "Country": "Poland",
+        "year": "2018",
+        "GDPpc": "15504.58",
+        "WGI": "25"
+      },
+      {
+        "Country": "Portugal",
+        "year": "2018",
+        "GDPpc": "23562.55",
+        "WGI": "25"
+      },
+      {
+        "Country": "Romania",
+        "year": "2018",
+        "GDPpc": "12494.48",
+        "WGI": "24"
+      },
+      {
+        "Country": "Russian Federation",
+        "year": "2018",
+        "GDPpc": "11287.36",
+        "WGI": "21"
+      },
+      {
+        "Country": "Saudi Arabia",
+        "year": "2018",
+        "GDPpc": "23318.74",
+        "WGI": "34"
+      },
+      {
+        "Country": "Senegal",
+        "year": "2018",
+        "GDPpc": "1484.24",
+        "WGI": "28"
+      },
+      {
+        "Country": "Serbia",
+        "year": "2018",
+        "GDPpc": "7252.4",
+        "WGI": "19"
+      },
+      {
+        "Country": "Slovakia",
+        "year": "2018",
+        "GDPpc": "19486.39",
+        "WGI": "25"
+      },
+      {
+        "Country": "Slovenia",
+        "year": "2018",
+        "GDPpc": "26123.75",
+        "WGI": "38"
+      },
+      {
+        "Country": "South Africa",
+        "year": "2018",
+        "GDPpc": "7048.52",
+        "WGI": "36"
+      },
+      {
+        "Country": "Spain",
+        "year": "2018",
+        "GDPpc": "30379.72",
+        "WGI": "32"
+      },
+      {
+        "Country": "Sri Lanka",
+        "year": "2018",
+        "GDPpc": "4360.58",
+        "WGI": "51"
+      },
+      {
+        "Country": "Sweden",
+        "year": "2018",
+        "GDPpc": "54589.06",
+        "WGI": "40"
+      },
+      {
+        "Country": "Switzerland",
+        "year": "2018",
+        "GDPpc": "85217.37",
+        "WGI": "45"
+      },
+      {
+        "Country": "Tajikistan",
+        "year": "2018",
+        "GDPpc": "850.67",
+        "WGI": "36"
+      },
+      {
+        "Country": "Thailand",
+        "year": "2018",
+        "GDPpc": "7124.56",
+        "WGI": "42"
+      },
+      {
+        "Country": "Tunisia",
+        "year": "2018",
+        "GDPpc": "3577.12",
+        "WGI": "24"
+      },
+      {
+        "Country": "Uganda",
+        "year": "2018",
+        "GDPpc": "793.13",
+        "WGI": "38"
+      },
+      {
+        "Country": "Ukraine",
+        "year": "2018",
+        "GDPpc": "3096.56",
+        "WGI": "24"
+      },
+      {
+        "Country": "United Arab Emirates",
+        "year": "2018",
+        "GDPpc": "46722.27",
+        "WGI": "45"
+      },
+      {
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "year": "2018",
+        "GDPpc": "43306.31",
+        "WGI": "54"
+      },
+      {
+        "Country": "Uruguay",
+        "year": "2018",
+        "GDPpc": "18825.28",
+        "WGI": "30"
+      },
+      {
+        "Country": "Uzbekistan",
+        "year": "2018",
+        "GDPpc": "1597.07",
+        "WGI": "41"
+      },
+      {
+        "Country": "Zambia",
+        "year": "2018",
+        "GDPpc": "1475.2",
+        "WGI": "39"
+      },
+      {
+        "Country": "Zimbabwe",
+        "year": "2018",
+        "GDPpc": "2269.18",
+        "WGI": "29"
+      },
+      {
+        "Country": "Albania",
+        "year": "2020",
+        "GDPpc": "5332.16",
+        "WGI": "33"
+      },
+      {
+        "Country": "Argentina",
+        "year": "2020",
+        "GDPpc": "8496.42",
+        "WGI": "32"
+      },
+      {
+        "Country": "Australia",
+        "year": "2020",
+        "GDPpc": "51720.37",
+        "WGI": "49"
+      },
+      {
+        "Country": "Austria",
+        "year": "2020",
+        "GDPpc": "48809.23",
+        "WGI": "34"
+      },
+      {
+        "Country": "Benin",
+        "year": "2020",
+        "GDPpc": "1237.95",
+        "WGI": "29"
+      },
+      {
+        "Country": "Bolivia (Plurinational State of)",
+        "year": "2020",
+        "GDPpc": "3068.81",
+        "WGI": "35"
+      },
+      {
+        "Country": "Brazil",
+        "year": "2020",
+        "GDPpc": "6794.49",
+        "WGI": "35"
+      },
+      {
+        "Country": "Bulgaria",
+        "year": "2020",
+        "GDPpc": "10129.81",
+        "WGI": "37"
+      },
+      {
+        "Country": "Cambodia",
+        "year": "2020",
+        "GDPpc": "1577.91",
+        "WGI": "28"
+      },
+      {
+        "Country": "Cameroon",
+        "year": "2020",
+        "GDPpc": "1539.13",
+        "WGI": "43"
+      },
+      {
+        "Country": "Canada",
+        "year": "2020",
+        "GDPpc": "43258.26",
+        "WGI": "38"
+      },
+      {
+        "Country": "Chile",
+        "year": "2020",
+        "GDPpc": "13094.46",
+        "WGI": "39"
+      },
+      {
+        "Country": "China",
+        "year": "2020",
+        "GDPpc": "10408.67",
+        "WGI": "28"
+      },
+      {
+        "Country": "Colombia",
+        "year": "2020",
+        "GDPpc": "5307.22",
+        "WGI": "35"
+      },
+      {
+        "Country": "Costa Rica",
+        "year": "2020",
+        "GDPpc": "12132.88",
+        "WGI": "30"
+      },
+      {
+        "Country": "Croatia",
+        "year": "2020",
+        "GDPpc": "14198.75",
+        "WGI": "30"
+      },
+      {
+        "Country": "Cyprus",
+        "year": "2020",
+        "GDPpc": "28036.19",
+        "WGI": "32"
+      },
+      {
+        "Country": "Czechia",
+        "year": "2020",
+        "GDPpc": "22992.88",
+        "WGI": "30"
+      },
+      {
+        "Country": "Denmark",
+        "year": "2020",
+        "GDPpc": "60915.42",
+        "WGI": "37"
+      },
+      {
+        "Country": "Dominican Republic",
+        "year": "2020",
+        "GDPpc": "7167.92",
+        "WGI": "39"
+      },
+      {
+        "Country": "Ecuador",
+        "year": "2020",
+        "GDPpc": "5645.2",
+        "WGI": "29"
+      },
+      {
+        "Country": "El Salvador",
+        "year": "2020",
+        "GDPpc": "3903.4",
+        "WGI": "31"
+      },
+      {
+        "Country": "Estonia",
+        "year": "2020",
+        "GDPpc": "23595.24",
+        "WGI": "30"
+      },
+      {
+        "Country": "Finland",
+        "year": "2020",
+        "GDPpc": "49170.75",
+        "WGI": "31"
+      },
+      {
+        "Country": "France",
+        "year": "2020",
+        "GDPpc": "39055.28",
+        "WGI": "25"
+      },
+      {
+        "Country": "Gabon",
+        "year": "2020",
+        "GDPpc": "6680.08",
+        "WGI": "26"
+      },
+      {
+        "Country": "Georgia",
+        "year": "2020",
+        "GDPpc": "4255.74",
+        "WGI": "40"
+      },
+      {
+        "Country": "Germany",
+        "year": "2020",
+        "GDPpc": "46772.83",
+        "WGI": "30"
+      },
+      {
+        "Country": "Ghana",
+        "year": "2020",
+        "GDPpc": "2176.58",
+        "WGI": "47"
+      },
+      {
+        "Country": "Greece",
+        "year": "2020",
+        "GDPpc": "17658.95",
+        "WGI": "26"
+      },
+      {
+        "Country": "Hungary",
+        "year": "2020",
+        "GDPpc": "16120.99",
+        "WGI": "31"
+      },
+      {
+        "Country": "India",
+        "year": "2020",
+        "GDPpc": "1910.42",
+        "WGI": "44"
+      },
+      {
+        "Country": "Indonesia",
+        "year": "2020",
+        "GDPpc": "3894.27",
+        "WGI": "69"
+      },
+      {
+        "Country": "Iraq",
+        "year": "2020",
+        "GDPpc": "4332.3",
+        "WGI": "39"
+      },
+      {
+        "Country": "Ireland",
+        "year": "2020",
+        "GDPpc": "85420.19",
+        "WGI": "40"
+      },
+      {
+        "Country": "Israel",
+        "year": "2020",
+        "GDPpc": "44846.79",
+        "WGI": "28"
+      },
+      {
+        "Country": "Italy",
+        "year": "2020",
+        "GDPpc": "31911.04",
+        "WGI": "22"
+      },
+      {
+        "Country": "Japan",
+        "year": "2020",
+        "GDPpc": "39918.17",
+        "WGI": "12"
+      },
+      {
+        "Country": "Jordan",
+        "year": "2020",
+        "GDPpc": "4042.77",
+        "WGI": "26"
+      },
+      {
+        "Country": "Kazakhstan",
+        "year": "2020",
+        "GDPpc": "9121.64",
+        "WGI": "28"
+      },
+      {
+        "Country": "Kenya",
+        "year": "2020",
+        "GDPpc": "1936.42",
+        "WGI": "58"
+      },
+      {
+        "Country": "Latvia",
+        "year": "2020",
+        "GDPpc": "18207.14",
+        "WGI": "25"
+      },
+      {
+        "Country": "Lebanon",
+        "year": "2020",
+        "GDPpc": "5599.96",
+        "WGI": "24"
+      },
+      {
+        "Country": "Lithuania",
+        "year": "2020",
+        "GDPpc": "20339.52",
+        "WGI": "28"
+      },
+      {
+        "Country": "Mali",
+        "year": "2020",
+        "GDPpc": "822.91",
+        "WGI": "31"
+      },
+      {
+        "Country": "Malta",
+        "year": "2020",
+        "GDPpc": "28977.57",
+        "WGI": "31"
+      },
+      {
+        "Country": "Mexico",
+        "year": "2020",
+        "GDPpc": "8655",
+        "WGI": "32"
+      },
+      {
+        "Country": "Mongolia",
+        "year": "2020",
+        "GDPpc": "4041.17",
+        "WGI": "44"
+      },
+      {
+        "Country": "Morocco",
+        "year": "2020",
+        "GDPpc": "3258.12",
+        "WGI": "23"
+      },
+      {
+        "Country": "Myanmar",
+        "year": "2020",
+        "GDPpc": "1477.45",
+        "WGI": "51"
+      },
+      {
+        "Country": "Nepal",
+        "year": "2020",
+        "GDPpc": "1139.19",
+        "WGI": "40"
+      },
+      {
+        "Country": "Netherlands",
+        "year": "2020",
+        "GDPpc": "52162.57",
+        "WGI": "37"
+      },
+      {
+        "Country": "New Zealand",
+        "year": "2020",
+        "GDPpc": "41596.51",
+        "WGI": "47"
+      },
+      {
+        "Country": "Nicaragua",
+        "year": "2020",
+        "GDPpc": "1863.11",
+        "WGI": "37"
+      },
+      {
+        "Country": "Nigeria",
+        "year": "2020",
+        "GDPpc": "2074.61",
+        "WGI": "52"
+      },
+      {
+        "Country": "Pakistan",
+        "year": "2020",
+        "GDPpc": "1322.32",
+        "WGI": "25"
+      },
+      {
+        "Country": "Paraguay",
+        "year": "2020",
+        "GDPpc": "5353.35",
+        "WGI": "41"
+      },
+      {
+        "Country": "Peru",
+        "year": "2020",
+        "GDPpc": "6056.34",
+        "WGI": "34"
+      },
+      {
+        "Country": "Philippines",
+        "year": "2020",
+        "GDPpc": "3224.42",
+        "WGI": "33"
+      },
+      {
+        "Country": "Poland",
+        "year": "2020",
+        "GDPpc": "15816.99",
+        "WGI": "38"
+      },
+      {
+        "Country": "Portugal",
+        "year": "2020",
+        "GDPpc": "22242.41",
+        "WGI": "20"
+      },
+      {
+        "Country": "Romania",
+        "year": "2020",
+        "GDPpc": "13047.43",
+        "WGI": "28"
+      },
+      {
+        "Country": "Russian Federation",
+        "year": "2020",
+        "GDPpc": "10169.09",
+        "WGI": "33"
+      },
+      {
+        "Country": "Saudi Arabia",
+        "year": "2020",
+        "GDPpc": "19539.57",
+        "WGI": "35"
+      },
+      {
+        "Country": "Senegal",
+        "year": "2020",
+        "GDPpc": "1490.2",
+        "WGI": "35"
+      },
+      {
+        "Country": "Serbia",
+        "year": "2020",
+        "GDPpc": "7733.8",
+        "WGI": "35"
+      },
+      {
+        "Country": "Slovakia",
+        "year": "2020",
+        "GDPpc": "19545.74",
+        "WGI": "32"
+      },
+      {
+        "Country": "Slovenia",
+        "year": "2020",
+        "GDPpc": "25545.24",
+        "WGI": "28"
+      },
+      {
+        "Country": "South Africa",
+        "year": "2020",
+        "GDPpc": "5741.64",
+        "WGI": "41"
+      },
+      {
+        "Country": "Spain",
+        "year": "2020",
+        "GDPpc": "26959.68",
+        "WGI": "27"
+      },
+      {
+        "Country": "Sri Lanka",
+        "year": "2020",
+        "GDPpc": "3893.84",
+        "WGI": "34"
+      },
+      {
+        "Country": "Sweden",
+        "year": "2020",
+        "GDPpc": "52837.9",
+        "WGI": "34"
+      },
+      {
+        "Country": "Switzerland",
+        "year": "2020",
+        "GDPpc": "85656.32",
+        "WGI": "28"
+      },
+      {
+        "Country": "Tajikistan",
+        "year": "2020",
+        "GDPpc": "852.33",
+        "WGI": "45"
+      },
+      {
+        "Country": "Thailand",
+        "year": "2020",
+        "GDPpc": "6990.94",
+        "WGI": "46"
+      },
+      {
+        "Country": "Tunisia",
+        "year": "2020",
+        "GDPpc": "3497.68",
+        "WGI": "29"
+      },
+      {
+        "Country": "Uganda",
+        "year": "2020",
+        "GDPpc": "846.77",
+        "WGI": "46"
+      },
+      {
+        "Country": "Ukraine",
+        "year": "2020",
+        "GDPpc": "3751.74",
+        "WGI": "43"
+      },
+      {
+        "Country": "United Arab Emirates",
+        "year": "2020",
+        "GDPpc": "37629.17",
+        "WGI": "44"
+      },
+      {
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "year": "2020",
+        "GDPpc": "40318.56",
+        "WGI": "41"
+      },
+      {
+        "Country": "Uruguay",
+        "year": "2020",
+        "GDPpc": "15619.54",
+        "WGI": "32"
+      },
+      {
+        "Country": "Uzbekistan",
+        "year": "2020",
+        "GDPpc": "1749.66",
+        "WGI": "40"
+      },
+      {
+        "Country": "Zambia",
+        "year": "2020",
+        "GDPpc": "956.83",
+        "WGI": "43"
+      },
+      {
+        "Country": "Zimbabwe",
+        "year": "2020",
+        "GDPpc": "1372.7",
+        "WGI": "37"
+      },
+      {
+        "Country": "Albania",
+        "year": "2021",
+        "GDPpc": "6492.87",
+        "WGI": "34"
+      },
+      {
+        "Country": "Argentina",
+        "year": "2021",
+        "GDPpc": "10636.12",
+        "WGI": "47"
+      },
+      {
+        "Country": "Australia",
+        "year": "2021",
+        "GDPpc": "60443.11",
+        "WGI": "55"
+      },
+      {
+        "Country": "Austria",
+        "year": "2021",
+        "GDPpc": "53637.71",
+        "WGI": "45"
+      },
+      {
+        "Country": "Benin",
+        "year": "2021",
+        "GDPpc": "1319.15",
+        "WGI": "32"
+      },
+      {
+        "Country": "Bolivia (Plurinational State of)",
+        "year": "2021",
+        "GDPpc": "3345.2",
+        "WGI": "43"
+      },
+      {
+        "Country": "Brazil",
+        "year": "2021",
+        "GDPpc": "7507.16",
+        "WGI": "47"
+      },
+      {
+        "Country": "Bulgaria",
+        "year": "2021",
+        "GDPpc": "12221.5",
+        "WGI": "41"
+      },
+      {
+        "Country": "Cambodia",
+        "year": "2021",
+        "GDPpc": "1625.24",
+        "WGI": "19"
+      },
+      {
+        "Country": "Cameroon",
+        "year": "2021",
+        "GDPpc": "1666.93",
+        "WGI": "37"
+      },
+      {
+        "Country": "Canada",
+        "year": "2021",
+        "GDPpc": "51987.94",
+        "WGI": "51"
+      },
+      {
+        "Country": "Chile",
+        "year": "2021",
+        "GDPpc": "16265.1",
+        "WGI": "38"
+      },
+      {
+        "Country": "China",
+        "year": "2021",
+        "GDPpc": "12556.33",
+        "WGI": "42"
+      },
+      {
+        "Country": "Colombia",
+        "year": "2021",
+        "GDPpc": "6104.14",
+        "WGI": "42"
+      },
+      {
+        "Country": "Costa Rica",
+        "year": "2021",
+        "GDPpc": "12472.44",
+        "WGI": "44"
+      },
+      {
+        "Country": "Croatia",
+        "year": "2021",
+        "GDPpc": "17685.33",
+        "WGI": "37"
+      },
+      {
+        "Country": "Cyprus",
+        "year": "2021",
+        "GDPpc": "31551.82",
+        "WGI": "40"
+      },
+      {
+        "Country": "Czechia",
+        "year": "2021",
+        "GDPpc": "26821.25",
+        "WGI": "48"
+      },
+      {
+        "Country": "Denmark",
+        "year": "2021",
+        "GDPpc": "68007.76",
+        "WGI": "46"
+      },
+      {
+        "Country": "Dominican Republic",
+        "year": "2021",
+        "GDPpc": "8476.75",
+        "WGI": "44"
+      },
+      {
+        "Country": "Ecuador",
+        "year": "2021",
+        "GDPpc": "5965.13",
+        "WGI": "42"
+      },
+      {
+        "Country": "El Salvador",
+        "year": "2021",
+        "GDPpc": "4551.18",
+        "WGI": "36"
+      },
+      {
+        "Country": "Estonia",
+        "year": "2021",
+        "GDPpc": "27943.7",
+        "WGI": "40"
+      },
+      {
+        "Country": "Finland",
+        "year": "2021",
+        "GDPpc": "53654.75",
+        "WGI": "37"
+      },
+      {
+        "Country": "France",
+        "year": "2021",
+        "GDPpc": "43658.98",
+        "WGI": "32"
+      },
+      {
+        "Country": "Gabon",
+        "year": "2021",
+        "GDPpc": "8635.33",
+        "WGI": "34"
+      },
+      {
+        "Country": "Georgia",
+        "year": "2021",
+        "GDPpc": "5023.27",
+        "WGI": "31"
+      },
+      {
+        "Country": "Germany",
+        "year": "2021",
+        "GDPpc": "51203.55",
+        "WGI": "41"
+      },
+      {
+        "Country": "Ghana",
+        "year": "2021",
+        "GDPpc": "2363.3",
+        "WGI": "43"
+      },
+      {
+        "Country": "Greece",
+        "year": "2021",
+        "GDPpc": "20192.6",
+        "WGI": "32"
+      },
+      {
+        "Country": "Hungary",
+        "year": "2021",
+        "GDPpc": "18728.12",
+        "WGI": "40"
+      },
+      {
+        "Country": "India",
+        "year": "2021",
+        "GDPpc": "2256.59",
+        "WGI": "40"
+      },
+      {
+        "Country": "Indonesia",
+        "year": "2021",
+        "GDPpc": "4332.71",
+        "WGI": "68"
+      },
+      {
+        "Country": "Iraq",
+        "year": "2021",
+        "GDPpc": "4775.38",
+        "WGI": "37"
+      },
+      {
+        "Country": "Ireland",
+        "year": "2021",
+        "GDPpc": "100172.08",
+        "WGI": "49"
+      },
+      {
+        "Country": "Israel",
+        "year": "2021",
+        "GDPpc": "52170.71",
+        "WGI": "37"
+      },
+      {
+        "Country": "Italy",
+        "year": "2021",
+        "GDPpc": "35657.5",
+        "WGI": "29"
+      },
+      {
+        "Country": "Japan",
+        "year": "2021",
+        "GDPpc": "39312.66",
+        "WGI": "20"
+      },
+      {
+        "Country": "Jordan",
+        "year": "2021",
+        "GDPpc": "4103.26",
+        "WGI": "32"
+      },
+      {
+        "Country": "Kazakhstan",
+        "year": "2021",
+        "GDPpc": "10373.79",
+        "WGI": "34"
+      },
+      {
+        "Country": "Kenya",
+        "year": "2021",
+        "GDPpc": "2081.8",
+        "WGI": "61"
+      },
+      {
+        "Country": "Latvia",
+        "year": "2021",
+        "GDPpc": "21148.16",
+        "WGI": "29"
+      },
+      {
+        "Country": "Lebanon",
+        "year": "2021",
+        "GDPpc": "4136.15",
+        "WGI": "24"
+      },
+      {
+        "Country": "Lithuania",
+        "year": "2021",
+        "GDPpc": "23723.34",
+        "WGI": "37"
+      },
+      {
+        "Country": "Mali",
+        "year": "2021",
+        "GDPpc": "873.79",
+        "WGI": "38"
+      },
+      {
+        "Country": "Malta",
+        "year": "2021",
+        "GDPpc": "33486.67",
+        "WGI": "45"
+      },
+      {
+        "Country": "Mexico",
+        "year": "2021",
+        "GDPpc": "10045.68",
+        "WGI": "44"
+      },
+      {
+        "Country": "Mongolia",
+        "year": "2021",
+        "GDPpc": "4566.14",
+        "WGI": "46"
+      },
+      {
+        "Country": "Morocco",
+        "year": "2021",
+        "GDPpc": "3795.38",
+        "WGI": "31"
+      },
+      {
+        "Country": "Myanmar",
+        "year": "2021",
+        "GDPpc": "1209.93",
+        "WGI": "52"
+      },
+      {
+        "Country": "Nepal",
+        "year": "2021",
+        "GDPpc": "1208.22",
+        "WGI": "40"
+      },
+      {
+        "Country": "Netherlands",
+        "year": "2021",
+        "GDPpc": "57767.88",
+        "WGI": "46"
+      },
+      {
+        "Country": "New Zealand",
+        "year": "2021",
+        "GDPpc": "48781.03",
+        "WGI": "54"
+      },
+      {
+        "Country": "Nicaragua",
+        "year": "2021",
+        "GDPpc": "2045.54",
+        "WGI": "40"
+      },
+      {
+        "Country": "Nigeria",
+        "year": "2021",
+        "GDPpc": "2065.75",
+        "WGI": "48"
+      },
+      {
+        "Country": "Pakistan",
+        "year": "2021",
+        "GDPpc": "1505.01",
+        "WGI": "29"
+      },
+      {
+        "Country": "Paraguay",
+        "year": "2021",
+        "GDPpc": "5891.5",
+        "WGI": "44"
+      },
+      {
+        "Country": "Peru",
+        "year": "2021",
+        "GDPpc": "6621.57",
+        "WGI": "39"
+      },
+      {
+        "Country": "Philippines",
+        "year": "2021",
+        "GDPpc": "3460.53",
+        "WGI": "47"
+      },
+      {
+        "Country": "Poland",
+        "year": "2021",
+        "GDPpc": "17999.91",
+        "WGI": "47"
+      },
+      {
+        "Country": "Portugal",
+        "year": "2021",
+        "GDPpc": "24567.51",
+        "WGI": "26"
+      },
+      {
+        "Country": "Romania",
+        "year": "2021",
+        "GDPpc": "14858.23",
+        "WGI": "30"
+      },
+      {
+        "Country": "Russian Federation",
+        "year": "2021",
+        "GDPpc": "12194.78",
+        "WGI": "46"
+      },
+      {
+        "Country": "Saudi Arabia",
+        "year": "2021",
+        "GDPpc": "23185.87",
+        "WGI": "36"
+      },
+      {
+        "Country": "Senegal",
+        "year": "2021",
+        "GDPpc": "1636.89",
+        "WGI": "40"
+      },
+      {
+        "Country": "Serbia",
+        "year": "2021",
+        "GDPpc": "9230.18",
+        "WGI": "46"
+      },
+      {
+        "Country": "Slovakia",
+        "year": "2021",
+        "GDPpc": "21391.93",
+        "WGI": "41"
+      },
+      {
+        "Country": "Slovenia",
+        "year": "2021",
+        "GDPpc": "29291.4",
+        "WGI": "39"
+      },
+      {
+        "Country": "South Africa",
+        "year": "2021",
+        "GDPpc": "7055.04",
+        "WGI": "35"
+      },
+      {
+        "Country": "Spain",
+        "year": "2021",
+        "GDPpc": "30103.51",
+        "WGI": "32"
+      },
+      {
+        "Country": "Sri Lanka",
+        "year": "2021",
+        "GDPpc": "4013.69",
+        "WGI": "44"
+      },
+      {
+        "Country": "Sweden",
+        "year": "2021",
+        "GDPpc": "61028.74",
+        "WGI": "42"
+      },
+      {
+        "Country": "Switzerland",
+        "year": "2021",
+        "GDPpc": "91991.6",
+        "WGI": "37"
+      },
+      {
+        "Country": "Tajikistan",
+        "year": "2021",
+        "GDPpc": "897.05",
+        "WGI": "39"
+      },
+      {
+        "Country": "Thailand",
+        "year": "2021",
+        "GDPpc": "7066.19",
+        "WGI": "48"
+      },
+      {
+        "Country": "Tunisia",
+        "year": "2021",
+        "GDPpc": "3807.14",
+        "WGI": "28"
+      },
+      {
+        "Country": "Uganda",
+        "year": "2021",
+        "GDPpc": "883.89",
+        "WGI": "46"
+      },
+      {
+        "Country": "Ukraine",
+        "year": "2021",
+        "GDPpc": "4835.57",
+        "WGI": "49"
+      },
+      {
+        "Country": "United Arab Emirates",
+        "year": "2021",
+        "GDPpc": "44315.55",
+        "WGI": "47"
+      },
+      {
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "year": "2021",
+        "GDPpc": "46510.28",
+        "WGI": "47"
+      },
+      {
+        "Country": "Uruguay",
+        "year": "2021",
+        "GDPpc": "17313.19",
+        "WGI": "40"
+      },
+      {
+        "Country": "Uzbekistan",
+        "year": "2021",
+        "GDPpc": "1983.06",
+        "WGI": "38"
+      },
+      {
+        "Country": "Zambia",
+        "year": "2021",
+        "GDPpc": "1137.34",
+        "WGI": "50"
+      },
+      {
+        "Country": "Zimbabwe",
+        "year": "2021",
+        "GDPpc": "1773.92",
+        "WGI": "31"
+      }
+    ]
+  },
+  "height": 300,
+  "width": 300,
+  "encoding": {
+    "x": {
+      "field": "GDPpc",
+      "type": "quantitative",
+      "title": "GDP per capita (current US$)",
+      "axis": {
+        "grid": false
+      },
+      "scale": {
+        "domain": [
+          0,
+          110000
+        ]
+      }
+    },
+    "y": {
+      "field": "WGI",
+      "type": "quantitative",
+      "title": "WGI overall score (out of 100)",
+      "axis": {
+        "grid": false
+      },
+      "scale": {
+        "domain": [
+          0,
+          70
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "WGI",
+        "type": "quantitative",
+        "title": "WGI Score"
+      },
+      {
+        "field": "GDPpc",
+        "type": "quantitative",
+        "title": "GDP per capita"
+      },
+      {
+        "field": "year",
+        "type": "nominal",
+        "title": "Year"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "WGI": 33.06,
+            "GDPpc": 0
+          },
+          {
+            "WGI": 47.36,
+            "GDPpc": 110000
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "color": "#603881",
+        "clip": true
+      },
+      "encoding": {
+        "tooltip": null
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Country": "Albania",
+            "year": "2017",
+            "GDPpc": "4531.02",
+            "WGI": "26"
+          },
+          {
+            "Country": "Argentina",
+            "year": "2017",
+            "GDPpc": "14613.04",
+            "WGI": "28"
+          },
+          {
+            "Country": "Australia",
+            "year": "2017",
+            "GDPpc": "53936.14",
+            "WGI": "59"
+          },
+          {
+            "Country": "Austria",
+            "year": "2017",
+            "GDPpc": "47429.16",
+            "WGI": "44"
+          },
+          {
+            "Country": "Benin",
+            "year": "2017",
+            "GDPpc": "1095.27",
+            "WGI": "26"
+          },
+          {
+            "Country": "Bolivia (Plurinational State of)",
+            "year": "2017",
+            "GDPpc": "3280.01",
+            "WGI": "28"
+          },
+          {
+            "Country": "Brazil",
+            "year": "2017",
+            "GDPpc": "9896.68",
+            "WGI": "23"
+          },
+          {
+            "Country": "Bulgaria",
+            "year": "2017",
+            "GDPpc": "8366.29",
+            "WGI": "22"
+          },
+          {
+            "Country": "Cambodia",
+            "year": "2017",
+            "GDPpc": "1400.9",
+            "WGI": "18"
+          },
+          {
+            "Country": "Cameroon",
+            "year": "2017",
+            "GDPpc": "1479.86",
+            "WGI": "34"
+          },
+          {
+            "Country": "Canada",
+            "year": "2017",
+            "GDPpc": "45129.43",
+            "WGI": "49"
+          },
+          {
+            "Country": "Chile",
+            "year": "2017",
+            "GDPpc": "15045.53",
+            "WGI": "34"
+          },
+          {
+            "Country": "China",
+            "year": "2017",
+            "GDPpc": "8816.99",
+            "WGI": "17"
+          },
+          {
+            "Country": "Colombia",
+            "year": "2017",
+            "GDPpc": "6450.32",
+            "WGI": "29"
+          },
+          {
+            "Country": "Costa Rica",
+            "year": "2017",
+            "GDPpc": "12118.13",
+            "WGI": "34"
+          },
+          {
+            "Country": "Croatia",
+            "year": "2017",
+            "GDPpc": "13655.82",
+            "WGI": "20"
+          },
+          {
+            "Country": "Cyprus",
+            "year": "2017",
+            "GDPpc": "26697.17",
+            "WGI": "43"
+          },
+          {
+            "Country": "Czechia",
+            "year": "2017",
+            "GDPpc": "20636.2",
+            "WGI": "22"
+          },
+          {
+            "Country": "Denmark",
+            "year": "2017",
+            "GDPpc": "57610.1",
+            "WGI": "46"
+          },
+          {
+            "Country": "Dominican Republic",
+            "year": "2017",
+            "GDPpc": "7513.49",
+            "WGI": "39"
+          },
+          {
+            "Country": "Ecuador",
+            "year": "2017",
+            "GDPpc": "6246.4",
+            "WGI": "24"
+          },
+          {
+            "Country": "El Salvador",
+            "year": "2017",
+            "GDPpc": "3986.05",
+            "WGI": "22"
+          },
+          {
+            "Country": "Estonia",
+            "year": "2017",
+            "GDPpc": "20437.77",
+            "WGI": "26"
+          },
+          {
+            "Country": "Finland",
+            "year": "2017",
+            "GDPpc": "46412.14",
+            "WGI": "40"
+          },
+          {
+            "Country": "France",
+            "year": "2017",
+            "GDPpc": "38781.05",
+            "WGI": "32"
+          },
+          {
+            "Country": "Gabon",
+            "year": "2017",
+            "GDPpc": "6975.7",
+            "WGI": "24"
+          },
+          {
+            "Country": "Georgia",
+            "year": "2017",
+            "GDPpc": "4357",
+            "WGI": "24"
+          },
+          {
+            "Country": "Germany",
+            "year": "2017",
+            "GDPpc": "44652.59",
+            "WGI": "46"
+          },
+          {
+            "Country": "Ghana",
+            "year": "2017",
+            "GDPpc": "1998.74",
+            "WGI": "42"
+          },
+          {
+            "Country": "Greece",
+            "year": "2017",
+            "GDPpc": "18582.09",
+            "WGI": "17"
+          },
+          {
+            "Country": "Hungary",
+            "year": "2017",
+            "GDPpc": "14621.24",
+            "WGI": "23"
+          },
+          {
+            "Country": "India",
+            "year": "2017",
+            "GDPpc": "1957.97",
+            "WGI": "22"
+          },
+          {
+            "Country": "Indonesia",
+            "year": "2017",
+            "GDPpc": "3839.79",
+            "WGI": "59"
+          },
+          {
+            "Country": "Iraq",
+            "year": "2017",
+            "GDPpc": "4725.19",
+            "WGI": "43"
+          },
+          {
+            "Country": "Ireland",
+            "year": "2017",
+            "GDPpc": "69970.95",
+            "WGI": "56"
+          },
+          {
+            "Country": "Israel",
+            "year": "2017",
+            "GDPpc": "41114.78",
+            "WGI": "42"
+          },
+          {
+            "Country": "Italy",
+            "year": "2017",
+            "GDPpc": "32406.72",
+            "WGI": "33"
+          },
+          {
+            "Country": "Japan",
+            "year": "2017",
+            "GDPpc": "38834.05",
+            "WGI": "22"
+          },
+          {
+            "Country": "Jordan",
+            "year": "2017",
+            "GDPpc": "4073.12",
+            "WGI": "30"
+          },
+          {
+            "Country": "Kazakhstan",
+            "year": "2017",
+            "GDPpc": "9247.58",
+            "WGI": "28"
+          },
+          {
+            "Country": "Kenya",
+            "year": "2017",
+            "GDPpc": "1675.97",
+            "WGI": "54"
+          },
+          {
+            "Country": "Latvia",
+            "year": "2017",
+            "GDPpc": "15695.12",
+            "WGI": "19"
+          },
+          {
+            "Country": "Lebanon",
+            "year": "2017",
+            "GDPpc": "8679.9",
+            "WGI": "28"
+          },
+          {
+            "Country": "Lithuania",
+            "year": "2017",
+            "GDPpc": "16885.41",
+            "WGI": "19"
+          },
+          {
+            "Country": "Mali",
+            "year": "2017",
+            "GDPpc": "795.68",
+            "WGI": "28"
+          },
+          {
+            "Country": "Malta",
+            "year": "2017",
+            "GDPpc": "28823.53",
+            "WGI": "47"
+          },
+          {
+            "Country": "Mexico",
+            "year": "2017",
+            "GDPpc": "9434.39",
+            "WGI": "24"
+          },
+          {
+            "Country": "Mongolia",
+            "year": "2017",
+            "GDPpc": "3708.25",
+            "WGI": "39"
+          },
+          {
+            "Country": "Morocco",
+            "year": "2017",
+            "GDPpc": "3288.5",
+            "WGI": "26"
+          },
+          {
+            "Country": "Myanmar",
+            "year": "2017",
+            "GDPpc": "1175.2",
+            "WGI": "54"
+          },
+          {
+            "Country": "Nepal",
+            "year": "2017",
+            "GDPpc": "1027.97",
+            "WGI": "37"
+          },
+          {
+            "Country": "Netherlands",
+            "year": "2017",
+            "GDPpc": "48675.22",
+            "WGI": "51"
+          },
+          {
+            "Country": "New Zealand",
+            "year": "2017",
+            "GDPpc": "42925",
+            "WGI": "58"
+          },
+          {
+            "Country": "Nicaragua",
+            "year": "2017",
+            "GDPpc": "2127.28",
+            "WGI": "33"
+          },
+          {
+            "Country": "Nigeria",
+            "year": "2017",
+            "GDPpc": "1941.88",
+            "WGI": "48"
+          },
+          {
+            "Country": "Pakistan",
+            "year": "2017",
+            "GDPpc": "1567.64",
+            "WGI": "28"
+          },
+          {
+            "Country": "Paraguay",
+            "year": "2017",
+            "GDPpc": "6136.06",
+            "WGI": "34"
+          },
+          {
+            "Country": "Peru",
+            "year": "2017",
+            "GDPpc": "6676.28",
+            "WGI": "27"
+          },
+          {
+            "Country": "Philippines",
+            "year": "2017",
+            "GDPpc": "3077.44",
+            "WGI": "28"
+          },
+          {
+            "Country": "Poland",
+            "year": "2017",
+            "GDPpc": "13815.62",
+            "WGI": "24"
+          },
+          {
+            "Country": "Portugal",
+            "year": "2017",
+            "GDPpc": "21490.43",
+            "WGI": "28"
+          },
+          {
+            "Country": "Romania",
+            "year": "2017",
+            "GDPpc": "10727.95",
+            "WGI": "27"
+          },
+          {
+            "Country": "Russian Federation",
+            "year": "2017",
+            "GDPpc": "10720.33",
+            "WGI": "25"
+          },
+          {
+            "Country": "Saudi Arabia",
+            "year": "2017",
+            "GDPpc": "20138.15",
+            "WGI": "37"
+          },
+          {
+            "Country": "Senegal",
+            "year": "2017",
+            "GDPpc": "1385.2",
+            "WGI": "28"
+          },
+          {
+            "Country": "Serbia",
+            "year": "2017",
+            "GDPpc": "6292.54",
+            "WGI": "21"
+          },
+          {
+            "Country": "Slovakia",
+            "year": "2017",
+            "GDPpc": "17585.2",
+            "WGI": "28"
+          },
+          {
+            "Country": "Slovenia",
+            "year": "2017",
+            "GDPpc": "23514.03",
+            "WGI": "39"
+          },
+          {
+            "Country": "South Africa",
+            "year": "2017",
+            "GDPpc": "6734.48",
+            "WGI": "41"
+          },
+          {
+            "Country": "Spain",
+            "year": "2017",
+            "GDPpc": "28185.32",
+            "WGI": "36"
+          },
+          {
+            "Country": "Sri Lanka",
+            "year": "2017",
+            "GDPpc": "4401.06",
+            "WGI": "45"
+          },
+          {
+            "Country": "Sweden",
+            "year": "2017",
+            "GDPpc": "53791.51",
+            "WGI": "41"
+          },
+          {
+            "Country": "Switzerland",
+            "year": "2017",
+            "GDPpc": "82254.38",
+            "WGI": "45"
+          },
+          {
+            "Country": "Tajikistan",
+            "year": "2017",
+            "GDPpc": "844.37",
+            "WGI": "42"
+          },
+          {
+            "Country": "Thailand",
+            "year": "2017",
+            "GDPpc": "6436.79",
+            "WGI": "34"
+          },
+          {
+            "Country": "Tunisia",
+            "year": "2017",
+            "GDPpc": "3569.76",
+            "WGI": "20"
+          },
+          {
+            "Country": "Uganda",
+            "year": "2017",
+            "GDPpc": "766.18",
+            "WGI": "39"
+          },
+          {
+            "Country": "Ukraine",
+            "year": "2017",
+            "GDPpc": "2638.33",
+            "WGI": "29"
+          },
+          {
+            "Country": "United Arab Emirates",
+            "year": "2017",
+            "GDPpc": "43063.97",
+            "WGI": "51"
+          },
+          {
+            "Country": "United Kingdom of Great Britain and Northern Ireland",
+            "year": "2017",
+            "GDPpc": "40621.33",
+            "WGI": "55"
+          },
+          {
+            "Country": "Uruguay",
+            "year": "2017",
+            "GDPpc": "18769.79",
+            "WGI": "30"
+          },
+          {
+            "Country": "Uzbekistan",
+            "year": "2017",
+            "GDPpc": "1916.76",
+            "WGI": "36"
+          },
+          {
+            "Country": "Zambia",
+            "year": "2017",
+            "GDPpc": "1495.75",
+            "WGI": "46"
+          },
+          {
+            "Country": "Zimbabwe",
+            "year": "2017",
+            "GDPpc": "1192.11",
+            "WGI": "30"
+          },
+          {
+            "Country": "Albania",
+            "year": "2018",
+            "GDPpc": "5287.66",
+            "WGI": "23"
+          },
+          {
+            "Country": "Argentina",
+            "year": "2018",
+            "GDPpc": "11795.16",
+            "WGI": "28"
+          },
+          {
+            "Country": "Australia",
+            "year": "2018",
+            "GDPpc": "57207.87",
+            "WGI": "56"
+          },
+          {
+            "Country": "Austria",
+            "year": "2018",
+            "GDPpc": "51466.56",
+            "WGI": "45"
+          },
+          {
+            "Country": "Benin",
+            "year": "2018",
+            "GDPpc": "1194.44",
+            "WGI": "23"
+          },
+          {
+            "Country": "Bolivia (Plurinational State of)",
+            "year": "2018",
+            "GDPpc": "3471.01",
+            "WGI": "31"
+          },
+          {
+            "Country": "Brazil",
+            "year": "2018",
+            "GDPpc": "9121.08",
+            "WGI": "28"
+          },
+          {
+            "Country": "Bulgaria",
+            "year": "2018",
+            "GDPpc": "9446.72",
+            "WGI": "19"
+          },
+          {
+            "Country": "Cambodia",
+            "year": "2018",
+            "GDPpc": "1533.32",
+            "WGI": "24"
+          },
+          {
+            "Country": "Cameroon",
+            "year": "2018",
+            "GDPpc": "1594.06",
+            "WGI": "33"
+          },
+          {
+            "Country": "Canada",
+            "year": "2018",
+            "GDPpc": "46548.64",
+            "WGI": "55"
+          },
+          {
+            "Country": "Chile",
+            "year": "2018",
+            "GDPpc": "15795.71",
+            "WGI": "37"
+          },
+          {
+            "Country": "China",
+            "year": "2018",
+            "GDPpc": "9905.34",
+            "WGI": "16"
+          },
+          {
+            "Country": "Colombia",
+            "year": "2018",
+            "GDPpc": "6782.04",
+            "WGI": "35"
+          },
+          {
+            "Country": "Costa Rica",
+            "year": "2018",
+            "GDPpc": "12383.15",
+            "WGI": "38"
+          },
+          {
+            "Country": "Croatia",
+            "year": "2018",
+            "GDPpc": "15244.43",
+            "WGI": "21"
+          },
+          {
+            "Country": "Cyprus",
+            "year": "2018",
+            "GDPpc": "29418.94",
+            "WGI": "41"
+          },
+          {
+            "Country": "Czechia",
+            "year": "2018",
+            "GDPpc": "23424.48",
+            "WGI": "22"
+          },
+          {
+            "Country": "Denmark",
+            "year": "2018",
+            "GDPpc": "61591.93",
+            "WGI": "44"
+          },
+          {
+            "Country": "Dominican Republic",
+            "year": "2018",
+            "GDPpc": "7947.16",
+            "WGI": "39"
+          },
+          {
+            "Country": "Ecuador",
+            "year": "2018",
+            "GDPpc": "6321.35",
+            "WGI": "24"
+          },
+          {
+            "Country": "El Salvador",
+            "year": "2018",
+            "GDPpc": "4145.86",
+            "WGI": "25"
+          },
+          {
+            "Country": "Estonia",
+            "year": "2018",
+            "GDPpc": "23165.85",
+            "WGI": "25"
+          },
+          {
+            "Country": "Finland",
+            "year": "2018",
+            "GDPpc": "49987.63",
+            "WGI": "41"
+          },
+          {
+            "Country": "France",
+            "year": "2018",
+            "GDPpc": "41557.85",
+            "WGI": "30"
+          },
+          {
+            "Country": "Gabon",
+            "year": "2018",
+            "GDPpc": "7694.91",
+            "WGI": "27"
+          },
+          {
+            "Country": "Georgia",
+            "year": "2018",
+            "GDPpc": "4722.04",
+            "WGI": "21"
+          },
+          {
+            "Country": "Germany",
+            "year": "2018",
+            "GDPpc": "47939.28",
+            "WGI": "43"
+          },
+          {
+            "Country": "Ghana",
+            "year": "2018",
+            "GDPpc": "2180.04",
+            "WGI": "38"
+          },
+          {
+            "Country": "Greece",
+            "year": "2018",
+            "GDPpc": "19756.99",
+            "WGI": "16"
+          },
+          {
+            "Country": "Hungary",
+            "year": "2018",
+            "GDPpc": "16425.1",
+            "WGI": "23"
+          },
+          {
+            "Country": "India",
+            "year": "2018",
+            "GDPpc": "1974.38",
+            "WGI": "26"
+          },
+          {
+            "Country": "Indonesia",
+            "year": "2018",
+            "GDPpc": "3902.66",
+            "WGI": "50"
+          },
+          {
+            "Country": "Iraq",
+            "year": "2018",
+            "GDPpc": "5601.47",
+            "WGI": "34"
+          },
+          {
+            "Country": "Ireland",
+            "year": "2018",
+            "GDPpc": "79250.39",
+            "WGI": "56"
+          },
+          {
+            "Country": "Israel",
+            "year": "2018",
+            "GDPpc": "42406.85",
+            "WGI": "39"
+          },
+          {
+            "Country": "Italy",
+            "year": "2018",
+            "GDPpc": "34622.17",
+            "WGI": "33"
+          },
+          {
+            "Country": "Japan",
+            "year": "2018",
+            "GDPpc": "39727.12",
+            "WGI": "23"
+          },
+          {
+            "Country": "Jordan",
+            "year": "2018",
+            "GDPpc": "4146.41",
+            "WGI": "25"
+          },
+          {
+            "Country": "Kazakhstan",
+            "year": "2018",
+            "GDPpc": "9812.63",
+            "WGI": "26"
+          },
+          {
+            "Country": "Kenya",
+            "year": "2018",
+            "GDPpc": "1845.78",
+            "WGI": "47"
+          },
+          {
+            "Country": "Latvia",
+            "year": "2018",
+            "GDPpc": "17865.03",
+            "WGI": "22"
+          },
+          {
+            "Country": "Lebanon",
+            "year": "2018",
+            "GDPpc": "9225.85",
+            "WGI": "30"
+          },
+          {
+            "Country": "Lithuania",
+            "year": "2018",
+            "GDPpc": "19186.36",
+            "WGI": "19"
+          },
+          {
+            "Country": "Mali",
+            "year": "2018",
+            "GDPpc": "856.36",
+            "WGI": "24"
+          },
+          {
+            "Country": "Malta",
+            "year": "2018",
+            "GDPpc": "31567.94",
+            "WGI": "47"
+          },
+          {
+            "Country": "Mexico",
+            "year": "2018",
+            "GDPpc": "9857.03",
+            "WGI": "28"
+          },
+          {
+            "Country": "Mongolia",
+            "year": "2018",
+            "GDPpc": "4165.02",
+            "WGI": "38"
+          },
+          {
+            "Country": "Morocco",
+            "year": "2018",
+            "GDPpc": "3492.67",
+            "WGI": "26"
+          },
+          {
+            "Country": "Myanmar",
+            "year": "2018",
+            "GDPpc": "1274.92",
+            "WGI": "58"
+          },
+          {
+            "Country": "Nepal",
+            "year": "2018",
+            "GDPpc": "1161.53",
+            "WGI": "33"
+          },
+          {
+            "Country": "Netherlands",
+            "year": "2018",
+            "GDPpc": "53044.53",
+            "WGI": "53"
+          },
+          {
+            "Country": "New Zealand",
+            "year": "2018",
+            "GDPpc": "43250.44",
+            "WGI": "57"
+          },
+          {
+            "Country": "Nicaragua",
+            "year": "2018",
+            "GDPpc": "1981.86",
+            "WGI": "30"
+          },
+          {
+            "Country": "Nigeria",
+            "year": "2018",
+            "GDPpc": "2125.83",
+            "WGI": "42"
+          },
+          {
+            "Country": "Pakistan",
+            "year": "2018",
+            "GDPpc": "1620.74",
+            "WGI": "29"
+          },
+          {
+            "Country": "Paraguay",
+            "year": "2018",
+            "GDPpc": "6242.96",
+            "WGI": "32"
+          },
+          {
+            "Country": "Peru",
+            "year": "2018",
+            "GDPpc": "6912.11",
+            "WGI": "28"
+          },
+          {
+            "Country": "Philippines",
+            "year": "2018",
+            "GDPpc": "3194.67",
+            "WGI": "39"
+          },
+          {
+            "Country": "Poland",
+            "year": "2018",
+            "GDPpc": "15504.58",
+            "WGI": "25"
+          },
+          {
+            "Country": "Portugal",
+            "year": "2018",
+            "GDPpc": "23562.55",
+            "WGI": "25"
+          },
+          {
+            "Country": "Romania",
+            "year": "2018",
+            "GDPpc": "12494.48",
+            "WGI": "24"
+          },
+          {
+            "Country": "Russian Federation",
+            "year": "2018",
+            "GDPpc": "11287.36",
+            "WGI": "21"
+          },
+          {
+            "Country": "Saudi Arabia",
+            "year": "2018",
+            "GDPpc": "23318.74",
+            "WGI": "34"
+          },
+          {
+            "Country": "Senegal",
+            "year": "2018",
+            "GDPpc": "1484.24",
+            "WGI": "28"
+          },
+          {
+            "Country": "Serbia",
+            "year": "2018",
+            "GDPpc": "7252.4",
+            "WGI": "19"
+          },
+          {
+            "Country": "Slovakia",
+            "year": "2018",
+            "GDPpc": "19486.39",
+            "WGI": "25"
+          },
+          {
+            "Country": "Slovenia",
+            "year": "2018",
+            "GDPpc": "26123.75",
+            "WGI": "38"
+          },
+          {
+            "Country": "South Africa",
+            "year": "2018",
+            "GDPpc": "7048.52",
+            "WGI": "36"
+          },
+          {
+            "Country": "Spain",
+            "year": "2018",
+            "GDPpc": "30379.72",
+            "WGI": "32"
+          },
+          {
+            "Country": "Sri Lanka",
+            "year": "2018",
+            "GDPpc": "4360.58",
+            "WGI": "51"
+          },
+          {
+            "Country": "Sweden",
+            "year": "2018",
+            "GDPpc": "54589.06",
+            "WGI": "40"
+          },
+          {
+            "Country": "Switzerland",
+            "year": "2018",
+            "GDPpc": "85217.37",
+            "WGI": "45"
+          },
+          {
+            "Country": "Tajikistan",
+            "year": "2018",
+            "GDPpc": "850.67",
+            "WGI": "36"
+          },
+          {
+            "Country": "Thailand",
+            "year": "2018",
+            "GDPpc": "7124.56",
+            "WGI": "42"
+          },
+          {
+            "Country": "Tunisia",
+            "year": "2018",
+            "GDPpc": "3577.12",
+            "WGI": "24"
+          },
+          {
+            "Country": "Uganda",
+            "year": "2018",
+            "GDPpc": "793.13",
+            "WGI": "38"
+          },
+          {
+            "Country": "Ukraine",
+            "year": "2018",
+            "GDPpc": "3096.56",
+            "WGI": "24"
+          },
+          {
+            "Country": "United Arab Emirates",
+            "year": "2018",
+            "GDPpc": "46722.27",
+            "WGI": "45"
+          },
+          {
+            "Country": "United Kingdom of Great Britain and Northern Ireland",
+            "year": "2018",
+            "GDPpc": "43306.31",
+            "WGI": "54"
+          },
+          {
+            "Country": "Uruguay",
+            "year": "2018",
+            "GDPpc": "18825.28",
+            "WGI": "30"
+          },
+          {
+            "Country": "Uzbekistan",
+            "year": "2018",
+            "GDPpc": "1597.07",
+            "WGI": "41"
+          },
+          {
+            "Country": "Zambia",
+            "year": "2018",
+            "GDPpc": "1475.2",
+            "WGI": "39"
+          },
+          {
+            "Country": "Zimbabwe",
+            "year": "2018",
+            "GDPpc": "2269.18",
+            "WGI": "29"
+          },
+          {
+            "Country": "Albania",
+            "year": "2020",
+            "GDPpc": "5332.16",
+            "WGI": "33"
+          },
+          {
+            "Country": "Argentina",
+            "year": "2020",
+            "GDPpc": "8496.42",
+            "WGI": "32"
+          },
+          {
+            "Country": "Australia",
+            "year": "2020",
+            "GDPpc": "51720.37",
+            "WGI": "49"
+          },
+          {
+            "Country": "Austria",
+            "year": "2020",
+            "GDPpc": "48809.23",
+            "WGI": "34"
+          },
+          {
+            "Country": "Benin",
+            "year": "2020",
+            "GDPpc": "1237.95",
+            "WGI": "29"
+          },
+          {
+            "Country": "Bolivia (Plurinational State of)",
+            "year": "2020",
+            "GDPpc": "3068.81",
+            "WGI": "35"
+          },
+          {
+            "Country": "Brazil",
+            "year": "2020",
+            "GDPpc": "6794.49",
+            "WGI": "35"
+          },
+          {
+            "Country": "Bulgaria",
+            "year": "2020",
+            "GDPpc": "10129.81",
+            "WGI": "37"
+          },
+          {
+            "Country": "Cambodia",
+            "year": "2020",
+            "GDPpc": "1577.91",
+            "WGI": "28"
+          },
+          {
+            "Country": "Cameroon",
+            "year": "2020",
+            "GDPpc": "1539.13",
+            "WGI": "43"
+          },
+          {
+            "Country": "Canada",
+            "year": "2020",
+            "GDPpc": "43258.26",
+            "WGI": "38"
+          },
+          {
+            "Country": "Chile",
+            "year": "2020",
+            "GDPpc": "13094.46",
+            "WGI": "39"
+          },
+          {
+            "Country": "China",
+            "year": "2020",
+            "GDPpc": "10408.67",
+            "WGI": "28"
+          },
+          {
+            "Country": "Colombia",
+            "year": "2020",
+            "GDPpc": "5307.22",
+            "WGI": "35"
+          },
+          {
+            "Country": "Costa Rica",
+            "year": "2020",
+            "GDPpc": "12132.88",
+            "WGI": "30"
+          },
+          {
+            "Country": "Croatia",
+            "year": "2020",
+            "GDPpc": "14198.75",
+            "WGI": "30"
+          },
+          {
+            "Country": "Cyprus",
+            "year": "2020",
+            "GDPpc": "28036.19",
+            "WGI": "32"
+          },
+          {
+            "Country": "Czechia",
+            "year": "2020",
+            "GDPpc": "22992.88",
+            "WGI": "30"
+          },
+          {
+            "Country": "Denmark",
+            "year": "2020",
+            "GDPpc": "60915.42",
+            "WGI": "37"
+          },
+          {
+            "Country": "Dominican Republic",
+            "year": "2020",
+            "GDPpc": "7167.92",
+            "WGI": "39"
+          },
+          {
+            "Country": "Ecuador",
+            "year": "2020",
+            "GDPpc": "5645.2",
+            "WGI": "29"
+          },
+          {
+            "Country": "El Salvador",
+            "year": "2020",
+            "GDPpc": "3903.4",
+            "WGI": "31"
+          },
+          {
+            "Country": "Estonia",
+            "year": "2020",
+            "GDPpc": "23595.24",
+            "WGI": "30"
+          },
+          {
+            "Country": "Finland",
+            "year": "2020",
+            "GDPpc": "49170.75",
+            "WGI": "31"
+          },
+          {
+            "Country": "France",
+            "year": "2020",
+            "GDPpc": "39055.28",
+            "WGI": "25"
+          },
+          {
+            "Country": "Gabon",
+            "year": "2020",
+            "GDPpc": "6680.08",
+            "WGI": "26"
+          },
+          {
+            "Country": "Georgia",
+            "year": "2020",
+            "GDPpc": "4255.74",
+            "WGI": "40"
+          },
+          {
+            "Country": "Germany",
+            "year": "2020",
+            "GDPpc": "46772.83",
+            "WGI": "30"
+          },
+          {
+            "Country": "Ghana",
+            "year": "2020",
+            "GDPpc": "2176.58",
+            "WGI": "47"
+          },
+          {
+            "Country": "Greece",
+            "year": "2020",
+            "GDPpc": "17658.95",
+            "WGI": "26"
+          },
+          {
+            "Country": "Hungary",
+            "year": "2020",
+            "GDPpc": "16120.99",
+            "WGI": "31"
+          },
+          {
+            "Country": "India",
+            "year": "2020",
+            "GDPpc": "1910.42",
+            "WGI": "44"
+          },
+          {
+            "Country": "Indonesia",
+            "year": "2020",
+            "GDPpc": "3894.27",
+            "WGI": "69"
+          },
+          {
+            "Country": "Iraq",
+            "year": "2020",
+            "GDPpc": "4332.3",
+            "WGI": "39"
+          },
+          {
+            "Country": "Ireland",
+            "year": "2020",
+            "GDPpc": "85420.19",
+            "WGI": "40"
+          },
+          {
+            "Country": "Israel",
+            "year": "2020",
+            "GDPpc": "44846.79",
+            "WGI": "28"
+          },
+          {
+            "Country": "Italy",
+            "year": "2020",
+            "GDPpc": "31911.04",
+            "WGI": "22"
+          },
+          {
+            "Country": "Japan",
+            "year": "2020",
+            "GDPpc": "39918.17",
+            "WGI": "12"
+          },
+          {
+            "Country": "Jordan",
+            "year": "2020",
+            "GDPpc": "4042.77",
+            "WGI": "26"
+          },
+          {
+            "Country": "Kazakhstan",
+            "year": "2020",
+            "GDPpc": "9121.64",
+            "WGI": "28"
+          },
+          {
+            "Country": "Kenya",
+            "year": "2020",
+            "GDPpc": "1936.42",
+            "WGI": "58"
+          },
+          {
+            "Country": "Latvia",
+            "year": "2020",
+            "GDPpc": "18207.14",
+            "WGI": "25"
+          },
+          {
+            "Country": "Lebanon",
+            "year": "2020",
+            "GDPpc": "5599.96",
+            "WGI": "24"
+          },
+          {
+            "Country": "Lithuania",
+            "year": "2020",
+            "GDPpc": "20339.52",
+            "WGI": "28"
+          },
+          {
+            "Country": "Mali",
+            "year": "2020",
+            "GDPpc": "822.91",
+            "WGI": "31"
+          },
+          {
+            "Country": "Malta",
+            "year": "2020",
+            "GDPpc": "28977.57",
+            "WGI": "31"
+          },
+          {
+            "Country": "Mexico",
+            "year": "2020",
+            "GDPpc": "8655",
+            "WGI": "32"
+          },
+          {
+            "Country": "Mongolia",
+            "year": "2020",
+            "GDPpc": "4041.17",
+            "WGI": "44"
+          },
+          {
+            "Country": "Morocco",
+            "year": "2020",
+            "GDPpc": "3258.12",
+            "WGI": "23"
+          },
+          {
+            "Country": "Myanmar",
+            "year": "2020",
+            "GDPpc": "1477.45",
+            "WGI": "51"
+          },
+          {
+            "Country": "Nepal",
+            "year": "2020",
+            "GDPpc": "1139.19",
+            "WGI": "40"
+          },
+          {
+            "Country": "Netherlands",
+            "year": "2020",
+            "GDPpc": "52162.57",
+            "WGI": "37"
+          },
+          {
+            "Country": "New Zealand",
+            "year": "2020",
+            "GDPpc": "41596.51",
+            "WGI": "47"
+          },
+          {
+            "Country": "Nicaragua",
+            "year": "2020",
+            "GDPpc": "1863.11",
+            "WGI": "37"
+          },
+          {
+            "Country": "Nigeria",
+            "year": "2020",
+            "GDPpc": "2074.61",
+            "WGI": "52"
+          },
+          {
+            "Country": "Pakistan",
+            "year": "2020",
+            "GDPpc": "1322.32",
+            "WGI": "25"
+          },
+          {
+            "Country": "Paraguay",
+            "year": "2020",
+            "GDPpc": "5353.35",
+            "WGI": "41"
+          },
+          {
+            "Country": "Peru",
+            "year": "2020",
+            "GDPpc": "6056.34",
+            "WGI": "34"
+          },
+          {
+            "Country": "Philippines",
+            "year": "2020",
+            "GDPpc": "3224.42",
+            "WGI": "33"
+          },
+          {
+            "Country": "Poland",
+            "year": "2020",
+            "GDPpc": "15816.99",
+            "WGI": "38"
+          },
+          {
+            "Country": "Portugal",
+            "year": "2020",
+            "GDPpc": "22242.41",
+            "WGI": "20"
+          },
+          {
+            "Country": "Romania",
+            "year": "2020",
+            "GDPpc": "13047.43",
+            "WGI": "28"
+          },
+          {
+            "Country": "Russian Federation",
+            "year": "2020",
+            "GDPpc": "10169.09",
+            "WGI": "33"
+          },
+          {
+            "Country": "Saudi Arabia",
+            "year": "2020",
+            "GDPpc": "19539.57",
+            "WGI": "35"
+          },
+          {
+            "Country": "Senegal",
+            "year": "2020",
+            "GDPpc": "1490.2",
+            "WGI": "35"
+          },
+          {
+            "Country": "Serbia",
+            "year": "2020",
+            "GDPpc": "7733.8",
+            "WGI": "35"
+          },
+          {
+            "Country": "Slovakia",
+            "year": "2020",
+            "GDPpc": "19545.74",
+            "WGI": "32"
+          },
+          {
+            "Country": "Slovenia",
+            "year": "2020",
+            "GDPpc": "25545.24",
+            "WGI": "28"
+          },
+          {
+            "Country": "South Africa",
+            "year": "2020",
+            "GDPpc": "5741.64",
+            "WGI": "41"
+          },
+          {
+            "Country": "Spain",
+            "year": "2020",
+            "GDPpc": "26959.68",
+            "WGI": "27"
+          },
+          {
+            "Country": "Sri Lanka",
+            "year": "2020",
+            "GDPpc": "3893.84",
+            "WGI": "34"
+          },
+          {
+            "Country": "Sweden",
+            "year": "2020",
+            "GDPpc": "52837.9",
+            "WGI": "34"
+          },
+          {
+            "Country": "Switzerland",
+            "year": "2020",
+            "GDPpc": "85656.32",
+            "WGI": "28"
+          },
+          {
+            "Country": "Tajikistan",
+            "year": "2020",
+            "GDPpc": "852.33",
+            "WGI": "45"
+          },
+          {
+            "Country": "Thailand",
+            "year": "2020",
+            "GDPpc": "6990.94",
+            "WGI": "46"
+          },
+          {
+            "Country": "Tunisia",
+            "year": "2020",
+            "GDPpc": "3497.68",
+            "WGI": "29"
+          },
+          {
+            "Country": "Uganda",
+            "year": "2020",
+            "GDPpc": "846.77",
+            "WGI": "46"
+          },
+          {
+            "Country": "Ukraine",
+            "year": "2020",
+            "GDPpc": "3751.74",
+            "WGI": "43"
+          },
+          {
+            "Country": "United Arab Emirates",
+            "year": "2020",
+            "GDPpc": "37629.17",
+            "WGI": "44"
+          },
+          {
+            "Country": "United Kingdom of Great Britain and Northern Ireland",
+            "year": "2020",
+            "GDPpc": "40318.56",
+            "WGI": "41"
+          },
+          {
+            "Country": "Uruguay",
+            "year": "2020",
+            "GDPpc": "15619.54",
+            "WGI": "32"
+          },
+          {
+            "Country": "Uzbekistan",
+            "year": "2020",
+            "GDPpc": "1749.66",
+            "WGI": "40"
+          },
+          {
+            "Country": "Zambia",
+            "year": "2020",
+            "GDPpc": "956.83",
+            "WGI": "43"
+          },
+          {
+            "Country": "Zimbabwe",
+            "year": "2020",
+            "GDPpc": "1372.7",
+            "WGI": "37"
+          },
+          {
+            "Country": "Albania",
+            "year": "2021",
+            "GDPpc": "6492.87",
+            "WGI": "34"
+          },
+          {
+            "Country": "Argentina",
+            "year": "2021",
+            "GDPpc": "10636.12",
+            "WGI": "47"
+          },
+          {
+            "Country": "Australia",
+            "year": "2021",
+            "GDPpc": "60443.11",
+            "WGI": "55"
+          },
+          {
+            "Country": "Austria",
+            "year": "2021",
+            "GDPpc": "53637.71",
+            "WGI": "45"
+          },
+          {
+            "Country": "Benin",
+            "year": "2021",
+            "GDPpc": "1319.15",
+            "WGI": "32"
+          },
+          {
+            "Country": "Bolivia (Plurinational State of)",
+            "year": "2021",
+            "GDPpc": "3345.2",
+            "WGI": "43"
+          },
+          {
+            "Country": "Brazil",
+            "year": "2021",
+            "GDPpc": "7507.16",
+            "WGI": "47"
+          },
+          {
+            "Country": "Bulgaria",
+            "year": "2021",
+            "GDPpc": "12221.5",
+            "WGI": "41"
+          },
+          {
+            "Country": "Cambodia",
+            "year": "2021",
+            "GDPpc": "1625.24",
+            "WGI": "19"
+          },
+          {
+            "Country": "Cameroon",
+            "year": "2021",
+            "GDPpc": "1666.93",
+            "WGI": "37"
+          },
+          {
+            "Country": "Canada",
+            "year": "2021",
+            "GDPpc": "51987.94",
+            "WGI": "51"
+          },
+          {
+            "Country": "Chile",
+            "year": "2021",
+            "GDPpc": "16265.1",
+            "WGI": "38"
+          },
+          {
+            "Country": "China",
+            "year": "2021",
+            "GDPpc": "12556.33",
+            "WGI": "42"
+          },
+          {
+            "Country": "Colombia",
+            "year": "2021",
+            "GDPpc": "6104.14",
+            "WGI": "42"
+          },
+          {
+            "Country": "Costa Rica",
+            "year": "2021",
+            "GDPpc": "12472.44",
+            "WGI": "44"
+          },
+          {
+            "Country": "Croatia",
+            "year": "2021",
+            "GDPpc": "17685.33",
+            "WGI": "37"
+          },
+          {
+            "Country": "Cyprus",
+            "year": "2021",
+            "GDPpc": "31551.82",
+            "WGI": "40"
+          },
+          {
+            "Country": "Czechia",
+            "year": "2021",
+            "GDPpc": "26821.25",
+            "WGI": "48"
+          },
+          {
+            "Country": "Denmark",
+            "year": "2021",
+            "GDPpc": "68007.76",
+            "WGI": "46"
+          },
+          {
+            "Country": "Dominican Republic",
+            "year": "2021",
+            "GDPpc": "8476.75",
+            "WGI": "44"
+          },
+          {
+            "Country": "Ecuador",
+            "year": "2021",
+            "GDPpc": "5965.13",
+            "WGI": "42"
+          },
+          {
+            "Country": "El Salvador",
+            "year": "2021",
+            "GDPpc": "4551.18",
+            "WGI": "36"
+          },
+          {
+            "Country": "Estonia",
+            "year": "2021",
+            "GDPpc": "27943.7",
+            "WGI": "40"
+          },
+          {
+            "Country": "Finland",
+            "year": "2021",
+            "GDPpc": "53654.75",
+            "WGI": "37"
+          },
+          {
+            "Country": "France",
+            "year": "2021",
+            "GDPpc": "43658.98",
+            "WGI": "32"
+          },
+          {
+            "Country": "Gabon",
+            "year": "2021",
+            "GDPpc": "8635.33",
+            "WGI": "34"
+          },
+          {
+            "Country": "Georgia",
+            "year": "2021",
+            "GDPpc": "5023.27",
+            "WGI": "31"
+          },
+          {
+            "Country": "Germany",
+            "year": "2021",
+            "GDPpc": "51203.55",
+            "WGI": "41"
+          },
+          {
+            "Country": "Ghana",
+            "year": "2021",
+            "GDPpc": "2363.3",
+            "WGI": "43"
+          },
+          {
+            "Country": "Greece",
+            "year": "2021",
+            "GDPpc": "20192.6",
+            "WGI": "32"
+          },
+          {
+            "Country": "Hungary",
+            "year": "2021",
+            "GDPpc": "18728.12",
+            "WGI": "40"
+          },
+          {
+            "Country": "India",
+            "year": "2021",
+            "GDPpc": "2256.59",
+            "WGI": "40"
+          },
+          {
+            "Country": "Indonesia",
+            "year": "2021",
+            "GDPpc": "4332.71",
+            "WGI": "68"
+          },
+          {
+            "Country": "Iraq",
+            "year": "2021",
+            "GDPpc": "4775.38",
+            "WGI": "37"
+          },
+          {
+            "Country": "Ireland",
+            "year": "2021",
+            "GDPpc": "100172.08",
+            "WGI": "49"
+          },
+          {
+            "Country": "Israel",
+            "year": "2021",
+            "GDPpc": "52170.71",
+            "WGI": "37"
+          },
+          {
+            "Country": "Italy",
+            "year": "2021",
+            "GDPpc": "35657.5",
+            "WGI": "29"
+          },
+          {
+            "Country": "Japan",
+            "year": "2021",
+            "GDPpc": "39312.66",
+            "WGI": "20"
+          },
+          {
+            "Country": "Jordan",
+            "year": "2021",
+            "GDPpc": "4103.26",
+            "WGI": "32"
+          },
+          {
+            "Country": "Kazakhstan",
+            "year": "2021",
+            "GDPpc": "10373.79",
+            "WGI": "34"
+          },
+          {
+            "Country": "Kenya",
+            "year": "2021",
+            "GDPpc": "2081.8",
+            "WGI": "61"
+          },
+          {
+            "Country": "Latvia",
+            "year": "2021",
+            "GDPpc": "21148.16",
+            "WGI": "29"
+          },
+          {
+            "Country": "Lebanon",
+            "year": "2021",
+            "GDPpc": "4136.15",
+            "WGI": "24"
+          },
+          {
+            "Country": "Lithuania",
+            "year": "2021",
+            "GDPpc": "23723.34",
+            "WGI": "37"
+          },
+          {
+            "Country": "Mali",
+            "year": "2021",
+            "GDPpc": "873.79",
+            "WGI": "38"
+          },
+          {
+            "Country": "Malta",
+            "year": "2021",
+            "GDPpc": "33486.67",
+            "WGI": "45"
+          },
+          {
+            "Country": "Mexico",
+            "year": "2021",
+            "GDPpc": "10045.68",
+            "WGI": "44"
+          },
+          {
+            "Country": "Mongolia",
+            "year": "2021",
+            "GDPpc": "4566.14",
+            "WGI": "46"
+          },
+          {
+            "Country": "Morocco",
+            "year": "2021",
+            "GDPpc": "3795.38",
+            "WGI": "31"
+          },
+          {
+            "Country": "Myanmar",
+            "year": "2021",
+            "GDPpc": "1209.93",
+            "WGI": "52"
+          },
+          {
+            "Country": "Nepal",
+            "year": "2021",
+            "GDPpc": "1208.22",
+            "WGI": "40"
+          },
+          {
+            "Country": "Netherlands",
+            "year": "2021",
+            "GDPpc": "57767.88",
+            "WGI": "46"
+          },
+          {
+            "Country": "New Zealand",
+            "year": "2021",
+            "GDPpc": "48781.03",
+            "WGI": "54"
+          },
+          {
+            "Country": "Nicaragua",
+            "year": "2021",
+            "GDPpc": "2045.54",
+            "WGI": "40"
+          },
+          {
+            "Country": "Nigeria",
+            "year": "2021",
+            "GDPpc": "2065.75",
+            "WGI": "48"
+          },
+          {
+            "Country": "Pakistan",
+            "year": "2021",
+            "GDPpc": "1505.01",
+            "WGI": "29"
+          },
+          {
+            "Country": "Paraguay",
+            "year": "2021",
+            "GDPpc": "5891.5",
+            "WGI": "44"
+          },
+          {
+            "Country": "Peru",
+            "year": "2021",
+            "GDPpc": "6621.57",
+            "WGI": "39"
+          },
+          {
+            "Country": "Philippines",
+            "year": "2021",
+            "GDPpc": "3460.53",
+            "WGI": "47"
+          },
+          {
+            "Country": "Poland",
+            "year": "2021",
+            "GDPpc": "17999.91",
+            "WGI": "47"
+          },
+          {
+            "Country": "Portugal",
+            "year": "2021",
+            "GDPpc": "24567.51",
+            "WGI": "26"
+          },
+          {
+            "Country": "Romania",
+            "year": "2021",
+            "GDPpc": "14858.23",
+            "WGI": "30"
+          },
+          {
+            "Country": "Russian Federation",
+            "year": "2021",
+            "GDPpc": "12194.78",
+            "WGI": "46"
+          },
+          {
+            "Country": "Saudi Arabia",
+            "year": "2021",
+            "GDPpc": "23185.87",
+            "WGI": "36"
+          },
+          {
+            "Country": "Senegal",
+            "year": "2021",
+            "GDPpc": "1636.89",
+            "WGI": "40"
+          },
+          {
+            "Country": "Serbia",
+            "year": "2021",
+            "GDPpc": "9230.18",
+            "WGI": "46"
+          },
+          {
+            "Country": "Slovakia",
+            "year": "2021",
+            "GDPpc": "21391.93",
+            "WGI": "41"
+          },
+          {
+            "Country": "Slovenia",
+            "year": "2021",
+            "GDPpc": "29291.4",
+            "WGI": "39"
+          },
+          {
+            "Country": "South Africa",
+            "year": "2021",
+            "GDPpc": "7055.04",
+            "WGI": "35"
+          },
+          {
+            "Country": "Spain",
+            "year": "2021",
+            "GDPpc": "30103.51",
+            "WGI": "32"
+          },
+          {
+            "Country": "Sri Lanka",
+            "year": "2021",
+            "GDPpc": "4013.69",
+            "WGI": "44"
+          },
+          {
+            "Country": "Sweden",
+            "year": "2021",
+            "GDPpc": "61028.74",
+            "WGI": "42"
+          },
+          {
+            "Country": "Switzerland",
+            "year": "2021",
+            "GDPpc": "91991.6",
+            "WGI": "37"
+          },
+          {
+            "Country": "Tajikistan",
+            "year": "2021",
+            "GDPpc": "897.05",
+            "WGI": "39"
+          },
+          {
+            "Country": "Thailand",
+            "year": "2021",
+            "GDPpc": "7066.19",
+            "WGI": "48"
+          },
+          {
+            "Country": "Tunisia",
+            "year": "2021",
+            "GDPpc": "3807.14",
+            "WGI": "28"
+          },
+          {
+            "Country": "Uganda",
+            "year": "2021",
+            "GDPpc": "883.89",
+            "WGI": "46"
+          },
+          {
+            "Country": "Ukraine",
+            "year": "2021",
+            "GDPpc": "4835.57",
+            "WGI": "49"
+          },
+          {
+            "Country": "United Arab Emirates",
+            "year": "2021",
+            "GDPpc": "44315.55",
+            "WGI": "47"
+          },
+          {
+            "Country": "United Kingdom of Great Britain and Northern Ireland",
+            "year": "2021",
+            "GDPpc": "46510.28",
+            "WGI": "47"
+          },
+          {
+            "Country": "Uruguay",
+            "year": "2021",
+            "GDPpc": "17313.19",
+            "WGI": "40"
+          },
+          {
+            "Country": "Uzbekistan",
+            "year": "2021",
+            "GDPpc": "1983.06",
+            "WGI": "38"
+          },
+          {
+            "Country": "Zambia",
+            "year": "2021",
+            "GDPpc": "1137.34",
+            "WGI": "50"
+          },
+          {
+            "Country": "Zimbabwe",
+            "year": "2021",
+            "GDPpc": "1773.92",
+            "WGI": "31"
+          }
+        ]
+      },
+      "mark": {
+        "type": "circle",
+        "color": "#646fac",
+        "fillOpacity": 0.9
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "WGI": 42,
+            "GDPpc": 95000,
+            "text": "R² = 0.07"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "color": "red",
+        "fontWeight": "normal",
+        "fontSize": 12
+      },
+      "encoding": {
+        "tooltip": null,
+        "text": {
+          "field": "text",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

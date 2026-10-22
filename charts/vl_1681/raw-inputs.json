@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "0579888b640f7085f5580940b948e441bf578dbf7786139c2316f33365f73700",
+  "resolvedSourceSha256": "128160923f7b12ac93e54eb472c15d6e48b65d28442cabdf96814a10393e3196",
+  "resolutionSha256": "5cb02e9ac8a194c3166497b14c75542de3625ea9bb6e0d8529d96798b7dd9289",
+  "primary": "data.json",
+  "descriptors": [
+    {
+      "pointer": "/data",
+      "file": "data.json",
+      "sha256": "5b941bc559e3c4342978a1ffc5c95bc487100dfee4ba147616597810c01943e4",
+      "bytes": 437,
+      "rowCount": 9,
+      "kind": "cached-url",
+      "format": {
+        "originalCompiledOrAuthored": {
+          "type": "csv"
+        },
+        "parserWithoutFieldParse": {
+          "type": "csv",
+          "delimiter": ","
+        },
+        "retainedFieldParse": null
+      },
+      "resource": {
+        "requestedUrl": "https://vega.github.io/vega-lite/data/lookup_groups.csv",
+        "resolvedUrl": "https://vega.github.io/vega-lite/data/lookup_groups.csv",
+        "sha256": "6023ce0381d2d34b9fa2b215a3433d0d4ed88d286da7e77f5854872f6a381b24"
+      }
+    },
+    {
+      "pointer": "/transform/0/from/data",
+      "file": "data-lookup-0.json",
+      "sha256": "f108850318421281a63837c87bb88d30b461e710cdbd3800ee9cf7769dec7f0c",
+      "bytes": 599,
+      "rowCount": 9,
+      "kind": "cached-url",
+      "format": {
+        "originalCompiledOrAuthored": {
+          "type": "csv"
+        },
+        "parserWithoutFieldParse": {
+          "type": "csv",
+          "delimiter": ","
+        },
+        "retainedFieldParse": null
+      },
+      "resource": {
+        "requestedUrl": "https://vega.github.io/vega-lite/data/lookup_people.csv",
+        "resolvedUrl": "https://vega.github.io/vega-lite/data/lookup_people.csv",
+        "sha256": "d8f9d1380bfd67917cc0a2d01ca64aa0a01566332a5c5f9159f6a0ce0da66f93"
+      }
+    }
+  ],
+  "stages": [
+    {
+      "level": "G1",
+      "codeSha256": "6d12a62ade9c58824e31dd490f8ec63f640ee9d2ef55c953fb7ef2e7020a1fe5",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "groups",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "groups",
+          "datasetId": "groups",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "people",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G2",
+      "codeSha256": "348acd685b5244d65a1a230a109b420119f3938f21e346360b8aaf56d5f0b6bf",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "groups",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "groups",
+          "datasetId": "groups",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "people",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G3",
+      "codeSha256": "3144a675971f2e390eca25a9cdb0f3fb348009f224bcad8b0d05b2669c7abcfb",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "groups",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "groups",
+          "datasetId": "groups",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "people",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G4",
+      "codeSha256": "8d5ef0b05ce2de76e2fd5889182ebf4cb4a1ba39022b38a84d4a54f01d5dcbff",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "groups",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "groups",
+          "datasetId": "groups",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "people",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G5",
+      "codeSha256": "cfa4a4c77baf623b5b9070470c1ac6ffcc249b1e28ea08a4430d4fc8203b322e",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "groups",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "groups",
+          "datasetId": "groups",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "people",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G6",
+      "codeSha256": "2514b331310891ae11458f6b65dc025907f88e6ff934815eef34aecfff3a6aa6",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "groups",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "groups",
+          "datasetId": "groups",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "people",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G7",
+      "codeSha256": "d2c1eba06f45e76c7b5ed636f3184315dfe9eb89bf57524f311a7bb410044794",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "groups",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "groups",
+          "datasetId": "groups",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "people",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G8",
+      "codeSha256": "a6a1b8a0fb7c3516d31266c8d8c89bc672f74b02fc357601ed133aaf2aa8bcad",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "groups",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "groups",
+          "datasetId": "groups",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "people",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    }
+  ]
+}

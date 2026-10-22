@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "23a650011443a9f69102c807c6eecebce2566a66c64688c5b00960a8ee86ac20",
+  "resolvedSourceSha256": "11163a82ed2b1308997ad4be37649917af03784eab63c18543cda7a9d90d94f4",
+  "resolutionSha256": "68d39168535fc20c16bd11c5afc893d6c8b40184aea075fb971598f49ee5b1c0",
+  "primary": "data.json",
+  "descriptors": [
+    {
+      "pointer": "/data",
+      "file": "data.json",
+      "sha256": "6846436829a913e223e6f0eb58864ea4276d2c5e0b29f7e15f99d1c83cc716d4",
+      "bytes": 213618,
+      "rowCount": 802,
+      "kind": "cached-url",
+      "format": {
+        "originalCompiledOrAuthored": {
+          "type": "csv"
+        },
+        "parserWithoutFieldParse": {
+          "type": "csv",
+          "delimiter": ","
+        },
+        "retainedFieldParse": null
+      },
+      "resource": {
+        "requestedUrl": "https://gicentre.github.io/scrc/data/flows/scotLAsFlows.csv",
+        "resolvedUrl": "https://gicentre.github.io/scrc/data/flows/scotLAsFlows.csv",
+        "sha256": "4bba582e5babdd8685ad17265c15eb8b7922983d02a0ee5adc421519f50453c4"
+      }
+    },
+    {
+      "pointer": "/transform/0/from/data",
+      "file": "data-lookup-0.json",
+      "sha256": "cfa27da9fac4f684cbdc0a869785955cc764239df02cf2309ab903d8f823a900",
+      "bytes": 3467,
+      "rowCount": 32,
+      "kind": "cached-url",
+      "format": {
+        "originalCompiledOrAuthored": {
+          "type": "csv"
+        },
+        "parserWithoutFieldParse": {
+          "type": "csv",
+          "delimiter": ","
+        },
+        "retainedFieldParse": null
+      },
+      "resource": {
+        "requestedUrl": "https://gicentre.github.io/scrc/data/geo/scotLACentroids.csv",
+        "resolvedUrl": "https://gicentre.github.io/scrc/data/geo/scotLACentroids.csv",
+        "sha256": "3be7725b715507952d7c93425c61777b2f6d717ee5895246dc76dc0c0731d570"
+      }
+    },
+    {
+      "pointer": "/transform/1/from/data",
+      "file": "data-lookup-1.json",
+      "sha256": "cfa27da9fac4f684cbdc0a869785955cc764239df02cf2309ab903d8f823a900",
+      "bytes": 3467,
+      "rowCount": 32,
+      "kind": "cached-url",
+      "format": {
+        "originalCompiledOrAuthored": {
+          "type": "csv"
+        },
+        "parserWithoutFieldParse": {
+          "type": "csv",
+          "delimiter": ","
+        },
+        "retainedFieldParse": null
+      },
+      "resource": {
+        "requestedUrl": "https://gicentre.github.io/scrc/data/geo/scotLACentroids.csv",
+        "resolvedUrl": "https://gicentre.github.io/scrc/data/geo/scotLACentroids.csv",
+        "sha256": "3be7725b715507952d7c93425c61777b2f6d717ee5895246dc76dc0c0731d570"
+      }
+    }
+  ],
+  "stages": [
+    {
+      "level": "G1",
+      "codeSha256": "808500689fb53d5adbc7c5fe079b2e3754641c4d292d9e11fd7b857cf55f602b",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "flows",
+          "file": "data.json"
+        },
+        {
+          "local": "names",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "flows",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "names",
+          "datasetId": "names",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G2",
+      "codeSha256": "ca7ef88d455a2892c14563204449a0b9a0899e4c702471667faa6004d0e9f1f6",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "flows",
+          "file": "data.json"
+        },
+        {
+          "local": "names",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "flows",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "names",
+          "datasetId": "names",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G3",
+      "codeSha256": "b81574e9639ee8d64d34f6cbc65a1888f81d028e3db1dfb5bf27aa40135835bc",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "flows",
+          "file": "data.json"
+        },
+        {
+          "local": "names",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "flows",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "names",
+          "datasetId": "names",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G4",
+      "codeSha256": "68f8f4cf00654365bbad899f7d3f5ca36ee5cd06facf24e7378c7ac7d41c62d2",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "flows",
+          "file": "data.json"
+        },
+        {
+          "local": "names",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "flows",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "names",
+          "datasetId": "names",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G5",
+      "codeSha256": "1e40647d3149a6fee8215e98c364f04ba7b9bd8c325b2b2d702c99820b46c580",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "flows",
+          "file": "data.json"
+        },
+        {
+          "local": "names",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "flows",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "names",
+          "datasetId": "names",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G6",
+      "codeSha256": "4ae2ab1277629c69341c9f0d4bca61bc87c3bec6d3a1b16784a398b834d79981",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "flows",
+          "file": "data.json"
+        },
+        {
+          "local": "names",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "flows",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "names",
+          "datasetId": "names",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G7",
+      "codeSha256": "4a92ed9904c865f53cf4a35d5ba235cbfe18b84e9ca94f00b80f33b36ffc7fa6",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "flows",
+          "file": "data.json"
+        },
+        {
+          "local": "names",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "flows",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "names",
+          "datasetId": "names",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G8",
+      "codeSha256": "cbc53e2a0fd6b17a99ad91997531dbbf3c46bd6e4bfa62db4825d7900cda9195",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "flows",
+          "file": "data.json"
+        },
+        {
+          "local": "names",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "flows",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "names",
+          "datasetId": "names",
+          "datasetIdOrigin": "explicit-code-option"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    }
+  ]
+}

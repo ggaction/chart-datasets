@@ -1,0 +1,127 @@
+{
+  "id": "vl_1737",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "c6f2ed15682fa88e014fc1e1f777f4299ac7d25de56007350d2331cea4b77bd4",
+      "actions": 12,
+      "topOptions": 31
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "70ae34ea1fca1fa2cfb0507a05ec9412bbbe5ff26c520cb316d406a627328557",
+      "actions": 14,
+      "topOptions": 35
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "668e5a3844656f1fabc69dfa8cca7ae1272c74d01e350603e69afad13ca10ddf",
+      "actions": 15,
+      "topOptions": 39
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "afdc3c7e43270bb54a07c0c86d198b89cfb35408506b918c78d1ed29c9a4d9ad",
+      "actions": 17,
+      "topOptions": 43
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c30570d6f080d676c7a7db0a7586f8d3b29727e549a74a51e26edf5532b9d06a",
+      "actions": 21,
+      "topOptions": 45
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "a65f4ea9b5d1f1161576aa075e29aacd27ea944b0b1f0c7c58936201134cf40d",
+      "actions": 23,
+      "topOptions": 45
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "40431f99b1359630b8c085023b5458c51a5493d33ded2338ea5587761f9338b7",
+      "actions": 24,
+      "topOptions": 46
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "581a8fe71596e51930f96161a3db78123e23d9fc2085b5e426a8b197171fc78d",
+      "actions": 25,
+      "topOptions": 47
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School-only meaningful stages12/14/15/17/21/23/24/25actions; every call<=3.531ordinary+fresh531ordinary/69coldchecks pass. Preserve406originaltypedrows/29mixedshapes/21glyphstyles/6legend-symbolpaints and313x242Canvas/200x200plot. Existing sequentialguidecreation preserves Origin-before-Cylinders with native offset8/itemGap18;18triangle centroid-versus-bounds conventions are individuallysealed, no global tolerance or source pixel identity claim. High-level plot and complete axes precede focused edits. Eight-stage cap, not exhaustion; no images."
+  },
+  "historicalRuntimeCommits": [
+    "b924cba9842ddcd625e22835bc8ad76624530454"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "f2b83a4399f9d4ebf4c32ababf070d02f6a42b540a56a60956190f47616323bc",
+      "bytes": 917
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "ac71efd195b4c52fdfe32b79b2c341b2afa2b057efccd722f85491f076888b27",
+      "bytes": 114765
+    },
+    "G1.gg.mjs": {
+      "sha256": "c6f2ed15682fa88e014fc1e1f777f4299ac7d25de56007350d2331cea4b77bd4",
+      "bytes": 2373
+    },
+    "G2.gg.mjs": {
+      "sha256": "70ae34ea1fca1fa2cfb0507a05ec9412bbbe5ff26c520cb316d406a627328557",
+      "bytes": 2419
+    },
+    "G3.gg.mjs": {
+      "sha256": "668e5a3844656f1fabc69dfa8cca7ae1272c74d01e350603e69afad13ca10ddf",
+      "bytes": 2429
+    },
+    "G4.gg.mjs": {
+      "sha256": "afdc3c7e43270bb54a07c0c86d198b89cfb35408506b918c78d1ed29c9a4d9ad",
+      "bytes": 2555
+    },
+    "G5.gg.mjs": {
+      "sha256": "c30570d6f080d676c7a7db0a7586f8d3b29727e549a74a51e26edf5532b9d06a",
+      "bytes": 2599
+    },
+    "G6.gg.mjs": {
+      "sha256": "a65f4ea9b5d1f1161576aa075e29aacd27ea944b0b1f0c7c58936201134cf40d",
+      "bytes": 2589
+    },
+    "G7.gg.mjs": {
+      "sha256": "40431f99b1359630b8c085023b5458c51a5493d33ded2338ea5587761f9338b7",
+      "bytes": 2602
+    },
+    "G8.gg.mjs": {
+      "sha256": "581a8fe71596e51930f96161a3db78123e23d9fc2085b5e426a8b197171fc78d",
+      "bytes": 2614
+    },
+    "vega-lite.svg": {
+      "sha256": "02d9eb6cdd3b44b96ef1f9bb36ff7dedc5bd6f218c0f2b4f4981489057f8c3af",
+      "bytes": 20523
+    },
+    "ggaction.svg": {
+      "sha256": "e6c197bc6087b1d7da0b2c30ffdb8b23d03e83850a0913b9efd91e882947f091",
+      "bytes": 11380
+    }
+  }
+}

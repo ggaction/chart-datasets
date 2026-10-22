@@ -1,0 +1,131 @@
+{
+  "id": "vl_0702",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "7f4d1815529e995bcae11fa5dfeaddb8700ce8a04b791b157d67f4a5c4c80f5b",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5586bb99206a0a819e892a6e6e34200f648c075a224cd4e70b529d1e1c5b0e37",
+      "actions": 23,
+      "topOptions": 53
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "0a9e37e82b62bc55c29632bb77aaaa891f6b477aa492537481d608559a83942f",
+      "actions": 24,
+      "topOptions": 54
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e4c5fbfafee04bf884243f33b483a178c1e478dfde6e67d01b9268d2b27be7f4",
+      "actions": 25,
+      "topOptions": 55
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "5077c89fac690503340e8a7923dd7eb0630dff6df43ea8a356ac25d3d58de52a",
+      "actions": 26,
+      "topOptions": 56
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "9f67fc63b64377e9b5d41b9e3537460d266eb546545c76fc3f65a69584b25cf4",
+      "actions": 27,
+      "topOptions": 60
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "ea447497649636adca47dc81cc55227d973af909e8dd67e669b189a7afaaa8c4",
+      "actions": 28,
+      "topOptions": 61
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4426c4003805ccdfe6bd21ba9bde8d67b2a554b7c16f51b89ca44d85dd9c79dd",
+      "actions": 29,
+      "topOptions": 62
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/matsim-scenarios/matsim-duesseldorf/b160620ef3d645969b5060b436391be3bc378cb6/src/main/simwrapper/overview/validate.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School programs retain the complete scatter/line facade, then complete guides, X/Y scales, complete axes, separate complete X/Y axis owners, and focused label paint. Every actual AFTER was read before execution; all source data/1484 vertices/41 glyphs, painter order and same-family SVG/PNG pass. Stop is the eight-stage cap, without an exhaustion claim."
+  },
+  "historicalRuntimeCommits": [
+    "47270e126e881c378c3e66aa32dbaccecdc913b1"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "0b5b78228ed1c6b87c0e03b8f453bb60b2796198a3a1b2143f2393886b166e58",
+      "bytes": 2429
+    },
+    "data.json": {
+      "sha256": "5b26f60ab07bfd13a8c60e308467fb41283c2d1e7c7f8163392cf320ca90afbc",
+      "bytes": 202012
+    },
+    "resolved-source.vl.json": {
+      "sha256": "b8c33c97731da43e3eb1fca4232805215adbf5596d889088f0c54d2659a24446",
+      "bytes": 236365
+    },
+    "G1.gg.mjs": {
+      "sha256": "7f4d1815529e995bcae11fa5dfeaddb8700ce8a04b791b157d67f4a5c4c80f5b",
+      "bytes": 4433
+    },
+    "G2.gg.mjs": {
+      "sha256": "5586bb99206a0a819e892a6e6e34200f648c075a224cd4e70b529d1e1c5b0e37",
+      "bytes": 4348
+    },
+    "G3.gg.mjs": {
+      "sha256": "0a9e37e82b62bc55c29632bb77aaaa891f6b477aa492537481d608559a83942f",
+      "bytes": 4357
+    },
+    "G4.gg.mjs": {
+      "sha256": "e4c5fbfafee04bf884243f33b483a178c1e478dfde6e67d01b9268d2b27be7f4",
+      "bytes": 4366
+    },
+    "G5.gg.mjs": {
+      "sha256": "5077c89fac690503340e8a7923dd7eb0630dff6df43ea8a356ac25d3d58de52a",
+      "bytes": 4225
+    },
+    "G6.gg.mjs": {
+      "sha256": "9f67fc63b64377e9b5d41b9e3537460d266eb546545c76fc3f65a69584b25cf4",
+      "bytes": 4127
+    },
+    "G7.gg.mjs": {
+      "sha256": "ea447497649636adca47dc81cc55227d973af909e8dd67e669b189a7afaaa8c4",
+      "bytes": 4142
+    },
+    "G8.gg.mjs": {
+      "sha256": "4426c4003805ccdfe6bd21ba9bde8d67b2a554b7c16f51b89ca44d85dd9c79dd",
+      "bytes": 4157
+    },
+    "source-epoch.json": {
+      "sha256": "16b015ea9adab60889555da2b2320a38e0e76251a672d201bd2d3b94227e3e76",
+      "bytes": 553
+    },
+    "vega-lite.svg": {
+      "sha256": "270afaad48b4d739130ffa38c47684820cc1d912c112b1d53dcd803cc3469614",
+      "bytes": 178656
+    },
+    "ggaction.svg": {
+      "sha256": "6721df3d4576c390fbed64fea449710f8cfb111b143ab75c0839667120156034",
+      "bytes": 102150
+    }
+  }
+}

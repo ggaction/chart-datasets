@@ -1,0 +1,141 @@
+{
+  "id": "vl_1325",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6a31a5432aa1a927d78cce456363b32a37d2b61200ad1bf3ae21dca67cd950f3",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "2249d560106914aedcc523dedea95cebe112990b69dc18b987b0bd138bc9ce58",
+      "actions": 13,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "69fe4d04b3fc84d158f8aecb2e05db11b004eb3ba10afd28b54d1d5a63c47cb0",
+      "actions": 15,
+      "topOptions": 29
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "91098d52495336f217db1b07449c582863351fad6cb93d0524665cc88fe536a9",
+      "actions": 16,
+      "topOptions": 31
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "3d253d099f8352d67ee2eadfa3232d59030495a35029f6c06afc281b32603067",
+      "actions": 18,
+      "topOptions": 37
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "29d4abe189e25453560a2d32a760aef2557e5d2077217d45bae3f54a86958899",
+      "actions": 22,
+      "topOptions": 41
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "251afc94ce8c4c3d14698fe40e3a11450e7b4ac75eb719555faf6575b76a2b5a",
+      "actions": 24,
+      "topOptions": 41
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "05c69f4b6cf7ef65c0bab001add0856516cef8e4fd149692362a495579589a33",
+      "actions": 25,
+      "topOptions": 42
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/ACampero/dopamine/0f7dd25bfb85e9881bb8953a1fbd213ceeef942f/baselines/data/centipede.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful equivalent progressively finer programs with bothfacades and fullsource/raw proofs; retained syntaxfailure G5attempt01 and schoolrepair attempt02, capnotexhaustion."
+  },
+  "historicalRuntimeCommits": [
+    "e93500081b6dde6be7614e3e9352e947bec5908d"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "29b4074ab41deb2d3b17d546b18d4d4089b053992811a7bd5e62e9866454d307",
+      "bytes": 1396
+    },
+    "data.json": {
+      "sha256": "3de172ed24b0976c9586126bb93d566ffbff1348a9e22c84d5ede61949d7bd97",
+      "bytes": 311222
+    },
+    "resolved-source.vl.json": {
+      "sha256": "802917c18a6a8a22f68c8b67b86b64df24304e89aa6f51407280b5567752f5ce",
+      "bytes": 392210
+    },
+    "G1.gg.mjs": {
+      "sha256": "6a31a5432aa1a927d78cce456363b32a37d2b61200ad1bf3ae21dca67cd950f3",
+      "bytes": 6513
+    },
+    "G2.gg.mjs": {
+      "sha256": "2249d560106914aedcc523dedea95cebe112990b69dc18b987b0bd138bc9ce58",
+      "bytes": 6531
+    },
+    "G3.gg.mjs": {
+      "sha256": "69fe4d04b3fc84d158f8aecb2e05db11b004eb3ba10afd28b54d1d5a63c47cb0",
+      "bytes": 6539
+    },
+    "G4.gg.mjs": {
+      "sha256": "91098d52495336f217db1b07449c582863351fad6cb93d0524665cc88fe536a9",
+      "bytes": 6579
+    },
+    "G5.gg.mjs": {
+      "sha256": "3d253d099f8352d67ee2eadfa3232d59030495a35029f6c06afc281b32603067",
+      "bytes": 6725
+    },
+    "G6.gg.mjs": {
+      "sha256": "29d4abe189e25453560a2d32a760aef2557e5d2077217d45bae3f54a86958899",
+      "bytes": 6765
+    },
+    "G7.gg.mjs": {
+      "sha256": "251afc94ce8c4c3d14698fe40e3a11450e7b4ac75eb719555faf6575b76a2b5a",
+      "bytes": 6751
+    },
+    "G8.gg.mjs": {
+      "sha256": "05c69f4b6cf7ef65c0bab001add0856516cef8e4fd149692362a495579589a33",
+      "bytes": 6764
+    },
+    "vega-lite.svg": {
+      "sha256": "8329dc8f5ed9665ca56b62f75e92e7954da1f3172a049dbb43e8d791f01c4a04",
+      "bytes": 47815
+    },
+    "ggaction.svg": {
+      "sha256": "24616bae4a3fdc73f331e0554abdc1d8f517ee54b2a9af6651443f1b0dd53329",
+      "bytes": 67792
+    },
+    "source-reference-policy.json": {
+      "sha256": "c9dd6b9d7b2c7b51a62a21811428ad45651ae4662b6a59d69a745ae97e453fa3",
+      "bytes": 1624
+    },
+    "vega-lite-unseeded.svg": {
+      "sha256": "6b4d5b5c3c402604e3b1a2984876ec1716827bb975b9dc6d0d95a35cd5d59d0c",
+      "bytes": 47821
+    }
+  },
+  "referencePolicy": {
+    "metadata": "source-reference-policy.json",
+    "environmentSeed": 1,
+    "originalSourceAuthoredSeed": false,
+    "historicalUnseededSvg": "vega-lite-unseeded.svg"
+  }
+}

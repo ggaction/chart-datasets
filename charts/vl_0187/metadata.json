@@ -1,0 +1,133 @@
+{
+  "id": "vl_0187",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8ddb6926a5b82394ae36969b01526ed974e4b5f8266b2165854595cb79f1ef11",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "3782c47f7cb978f8ae0844f54fd843430509f4de75fe5b0b3682d9110dfe356b",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7ba7b053cdc63786245abce31336d2d028fa6bbb893fb104fe3982eabc4bf894",
+      "actions": 16,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "32389c8dade690bc658b1f7b2269c6193d710d7024e12b4118bd3a287a18d40b",
+      "actions": 17,
+      "topOptions": 34
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ff19e6b6261f8fb5f3dc823cf2cc0eecbf257858e30c75316d8251bd031dd471",
+      "actions": 20,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "4c1574e8c76ae5a53a5e6283cf03b17940e1367e0487011e4839fdb97bb33596",
+      "actions": 26,
+      "topOptions": 49
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "0a2db51c0da355b2b426d2b3acd80c593c324837801214e4a37fd3667f11698d",
+      "actions": 26,
+      "topOptions": 49
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "334e6f3b8a2d391f44c608c3eb48019341a42e2336e73b5c0919ae9559907a42",
+      "actions": 30,
+      "topOptions": 59
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful progressively finer equivalent programs verified; cap reached without claiming all possible smaller design edits exhausted. Complete axes precede part editors. All365daily and106weekly original records, signed zeros and final weekly overflow retained."
+  },
+  "historicalRuntimeCommits": [
+    "c7cbee6f9d703b7f81b75894e1c2c90938353d5a"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "bf9767c3313b8ccc729ded775ffa2ca1e10103c52be9417b01ed15b4a80e8bfe",
+      "bytes": 207640
+    },
+    "data.json": {
+      "sha256": "176aede7e9374f8dfe394ec3b918f312a6926e55c4e710443f524f6979bc76a4",
+      "bytes": 163923
+    },
+    "resolved-source.vl.json": {
+      "sha256": "4f65880652f283785eaadfa108c88e5794a1a6f40c613a3f3053036ee56eb22d",
+      "bytes": 427896
+    },
+    "bar-data.json": {
+      "sha256": "c632c438eea97defebb6899a5e9310cc58679f87213e6fc79e5033977f10b043",
+      "bytes": 10167
+    },
+    "G1.gg.mjs": {
+      "sha256": "8ddb6926a5b82394ae36969b01526ed974e4b5f8266b2165854595cb79f1ef11",
+      "bytes": 4870
+    },
+    "G2.gg.mjs": {
+      "sha256": "3782c47f7cb978f8ae0844f54fd843430509f4de75fe5b0b3682d9110dfe356b",
+      "bytes": 4704
+    },
+    "G3.gg.mjs": {
+      "sha256": "7ba7b053cdc63786245abce31336d2d028fa6bbb893fb104fe3982eabc4bf894",
+      "bytes": 4731
+    },
+    "G4.gg.mjs": {
+      "sha256": "32389c8dade690bc658b1f7b2269c6193d710d7024e12b4118bd3a287a18d40b",
+      "bytes": 4754
+    },
+    "G5.gg.mjs": {
+      "sha256": "ff19e6b6261f8fb5f3dc823cf2cc0eecbf257858e30c75316d8251bd031dd471",
+      "bytes": 5103
+    },
+    "G6.gg.mjs": {
+      "sha256": "4c1574e8c76ae5a53a5e6283cf03b17940e1367e0487011e4839fdb97bb33596",
+      "bytes": 5269
+    },
+    "G7.gg.mjs": {
+      "sha256": "0a2db51c0da355b2b426d2b3acd80c593c324837801214e4a37fd3667f11698d",
+      "bytes": 5149
+    },
+    "G8.gg.mjs": {
+      "sha256": "334e6f3b8a2d391f44c608c3eb48019341a42e2336e73b5c0919ae9559907a42",
+      "bytes": 5306
+    },
+    "raw-inputs.json": {
+      "sha256": "a38c7e4fcd3275e018a70f76e6a11da3fba40916d4a131efd08f5227b278353a",
+      "bytes": 7271
+    },
+    "vega-lite.svg": {
+      "sha256": "96374320712f90a33b3fd36f7384758ee08f2c47a95da2c768837e393303229d",
+      "bytes": 44475
+    },
+    "ggaction.svg": {
+      "sha256": "e94752850fd898933a39b7196c33d16d6472a3dbb65066992e9a35baa9e45777",
+      "bytes": 38801
+    }
+  }
+}

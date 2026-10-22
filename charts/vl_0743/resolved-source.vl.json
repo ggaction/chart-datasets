@@ -1,0 +1,1141 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Regressing WGI Overall Score on Religiosity for all countries featured in the 2022 edition of the CAF World Giving Index Report (which explores data from the year before - 2021). I ran the regression in Colab in order to ascertain the equation for the regression line",
+  "title": {
+    "text": [
+      "Regressing WGI Score on Religiosity"
+    ],
+    "fontSize": 12,
+    "subtitle": [
+      "Religiosity measured as percentage of the",
+      "population who consider religion important",
+      "Sources: CAF and Wikipedia"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Country": "Indonesia",
+        "CAF": "68",
+        "Religiosity": "96"
+      },
+      {
+        "Country": "Australia",
+        "CAF": "55",
+        "Religiosity": "33"
+      },
+      {
+        "Country": "New Zealand",
+        "CAF": "54",
+        "Religiosity": "18"
+      },
+      {
+        "Country": "United States of America",
+        "CAF": "59",
+        "Religiosity": "67"
+      },
+      {
+        "Country": "Ireland",
+        "CAF": "49",
+        "Religiosity": "54"
+      },
+      {
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "CAF": "47",
+        "Religiosity": "25"
+      },
+      {
+        "Country": "Singapore",
+        "CAF": "45",
+        "Religiosity": "70"
+      },
+      {
+        "Country": "Kenya",
+        "CAF": "61",
+        "Religiosity": "94"
+      },
+      {
+        "Country": "Myanmar",
+        "CAF": "52",
+        "Religiosity": "96"
+      },
+      {
+        "Country": "Netherlands",
+        "CAF": "46",
+        "Religiosity": "33"
+      },
+      {
+        "Country": "United Arab Emirates",
+        "CAF": "47",
+        "Religiosity": "76"
+      },
+      {
+        "Country": "Norway",
+        "CAF": "45",
+        "Religiosity": "22"
+      },
+      {
+        "Country": "Canada",
+        "CAF": "51",
+        "Religiosity": "22"
+      },
+      {
+        "Country": "Nigeria",
+        "CAF": "48",
+        "Religiosity": "77"
+      },
+      {
+        "Country": "Malta",
+        "CAF": "45",
+        "Religiosity": "86"
+      },
+      {
+        "Country": "Zambia",
+        "CAF": "50",
+        "Religiosity": "95"
+      },
+      {
+        "Country": "Germany",
+        "CAF": "41",
+        "Religiosity": "40"
+      },
+      {
+        "Country": "Denmark",
+        "CAF": "46",
+        "Religiosity": "19"
+      },
+      {
+        "Country": "Switzerland",
+        "CAF": "37",
+        "Religiosity": "23"
+      },
+      {
+        "Country": "Sri Lanka",
+        "CAF": "44",
+        "Religiosity": "97"
+      },
+      {
+        "Country": "Iran (Islamic Republic of)",
+        "CAF": "43",
+        "Religiosity": "78"
+      },
+      {
+        "Country": "Hong Kong",
+        "CAF": "37",
+        "Religiosity": "24"
+      },
+      {
+        "Country": "Austria",
+        "CAF": "45",
+        "Religiosity": "17"
+      },
+      {
+        "Country": "Iraq",
+        "CAF": "37",
+        "Religiosity": "89"
+      },
+      {
+        "Country": "Cyprus",
+        "CAF": "40",
+        "Religiosity": "25"
+      },
+      {
+        "Country": "Tajikistan",
+        "CAF": "39",
+        "Religiosity": "85"
+      },
+      {
+        "Country": "Ghana",
+        "CAF": "43",
+        "Religiosity": "95"
+      },
+      {
+        "Country": "Israel",
+        "CAF": "37",
+        "Religiosity": "51"
+      },
+      {
+        "Country": "South Africa",
+        "CAF": "35",
+        "Religiosity": "85"
+      },
+      {
+        "Country": "Sweden",
+        "CAF": "42",
+        "Religiosity": "16"
+      },
+      {
+        "Country": "Finland",
+        "CAF": "37",
+        "Religiosity": "23"
+      },
+      {
+        "Country": "Slovenia",
+        "CAF": "39",
+        "Religiosity": "47"
+      },
+      {
+        "Country": "Dominican Republic",
+        "CAF": "44",
+        "Religiosity": "87"
+      },
+      {
+        "Country": "Uganda",
+        "CAF": "46",
+        "Religiosity": "93"
+      },
+      {
+        "Country": "Saudi Arabia",
+        "CAF": "36",
+        "Religiosity": "96"
+      },
+      {
+        "Country": "Nepal",
+        "CAF": "40",
+        "Religiosity": "93"
+      },
+      {
+        "Country": "Uzbekistan",
+        "CAF": "38",
+        "Religiosity": "55"
+      },
+      {
+        "Country": "Spain",
+        "CAF": "32",
+        "Religiosity": "49"
+      },
+      {
+        "Country": "Kyrgyzstan",
+        "CAF": "44",
+        "Religiosity": "72"
+      },
+      {
+        "Country": "Jamaica",
+        "CAF": "46",
+        "Religiosity": "70"
+      },
+      {
+        "Country": "Malawi",
+        "CAF": "39",
+        "Religiosity": "97"
+      },
+      {
+        "Country": "Paraguay",
+        "CAF": "44",
+        "Religiosity": "92"
+      },
+      {
+        "Country": "Chile",
+        "CAF": "38",
+        "Religiosity": "60"
+      },
+      {
+        "Country": "Thailand",
+        "CAF": "48",
+        "Religiosity": "98"
+      },
+      {
+        "Country": "Costa Rica",
+        "CAF": "44",
+        "Religiosity": "79"
+      },
+      {
+        "Country": "Cameroon",
+        "CAF": "37",
+        "Religiosity": "96"
+      },
+      {
+        "Country": "Nicaragua",
+        "CAF": "40",
+        "Religiosity": "70"
+      },
+      {
+        "Country": "Italy",
+        "CAF": "29",
+        "Religiosity": "72"
+      },
+      {
+        "Country": "Guinea",
+        "CAF": "47",
+        "Religiosity": "96"
+      },
+      {
+        "Country": "France",
+        "CAF": "32",
+        "Religiosity": "30"
+      },
+      {
+        "Country": "Namibia",
+        "CAF": "35",
+        "Religiosity": "92"
+      },
+      {
+        "Country": "Jordan",
+        "CAF": "32",
+        "Religiosity": "96"
+      },
+      {
+        "Country": "Zimbabwe",
+        "CAF": "31",
+        "Religiosity": "88"
+      },
+      {
+        "Country": "Uruguay",
+        "CAF": "40",
+        "Religiosity": "40"
+      },
+      {
+        "Country": "Panama",
+        "CAF": "36",
+        "Religiosity": "88"
+      },
+      {
+        "Country": "Mozambique",
+        "CAF": "34",
+        "Religiosity": "86"
+      },
+      {
+        "Country": "Colombia",
+        "CAF": "42",
+        "Religiosity": "83"
+      },
+      {
+        "Country": "Ukraine",
+        "CAF": "49",
+        "Religiosity": "46"
+      },
+      {
+        "Country": "Burkina Faso",
+        "CAF": "39",
+        "Religiosity": "88"
+      },
+      {
+        "Country": "Portugal",
+        "CAF": "26",
+        "Religiosity": "72"
+      },
+      {
+        "Country": "Lebanon",
+        "CAF": "24",
+        "Religiosity": "87"
+      },
+      {
+        "Country": "Bolivia (Plurinational State of)",
+        "CAF": "43",
+        "Religiosity": "89"
+      },
+      {
+        "Country": "Senegal",
+        "CAF": "40",
+        "Religiosity": "96"
+      },
+      {
+        "Country": "Slovakia",
+        "CAF": "41",
+        "Religiosity": "47"
+      },
+      {
+        "Country": "Philippines",
+        "CAF": "47",
+        "Religiosity": "77"
+      },
+      {
+        "Country": "Bosnia and Herzegovina",
+        "CAF": "44",
+        "Religiosity": "75"
+      },
+      {
+        "Country": "Pakistan",
+        "CAF": "29",
+        "Religiosity": "92"
+      },
+      {
+        "Country": "Algeria",
+        "CAF": "30",
+        "Religiosity": "95"
+      },
+      {
+        "Country": "Mali",
+        "CAF": "38",
+        "Religiosity": "95"
+      },
+      {
+        "Country": "Argentina",
+        "CAF": "47",
+        "Religiosity": "65"
+      },
+      {
+        "Country": "Kazakhstan",
+        "CAF": "34",
+        "Religiosity": "53"
+      },
+      {
+        "Country": "Peru",
+        "CAF": "39",
+        "Religiosity": "84"
+      },
+      {
+        "Country": "Romania",
+        "CAF": "30",
+        "Religiosity": "84"
+      },
+      {
+        "Country": "Morocco",
+        "CAF": "31",
+        "Religiosity": "96"
+      },
+      {
+        "Country": "Benin",
+        "CAF": "32",
+        "Religiosity": "93"
+      },
+      {
+        "Country": "Egypt",
+        "CAF": "23",
+        "Religiosity": "96"
+      },
+      {
+        "Country": "Venezuela (Bolivarian Republic of)",
+        "CAF": "45",
+        "Religiosity": "79"
+      },
+      {
+        "Country": "Albania",
+        "CAF": "34",
+        "Religiosity": "50"
+      },
+      {
+        "Country": "Estonia",
+        "CAF": "40",
+        "Religiosity": "16"
+      },
+      {
+        "Country": "Russian Federation",
+        "CAF": "46",
+        "Religiosity": "34"
+      },
+      {
+        "Country": "Poland",
+        "CAF": "47",
+        "Religiosity": "50"
+      },
+      {
+        "Country": "Mexico",
+        "CAF": "44",
+        "Religiosity": "73"
+      },
+      {
+        "Country": "Togo",
+        "CAF": "34",
+        "Religiosity": "80"
+      },
+      {
+        "Country": "Georgia",
+        "CAF": "31",
+        "Religiosity": "81"
+      },
+      {
+        "Country": "Ecuador",
+        "CAF": "42",
+        "Religiosity": "82"
+      },
+      {
+        "Country": "Hungary",
+        "CAF": "40",
+        "Religiosity": "39"
+      },
+      {
+        "Country": "Brazil",
+        "CAF": "47",
+        "Religiosity": "85"
+      },
+      {
+        "Country": "Armenia",
+        "CAF": "29",
+        "Religiosity": "79"
+      },
+      {
+        "Country": "India",
+        "CAF": "40",
+        "Religiosity": "90"
+      },
+      {
+        "Country": "Czechia",
+        "CAF": "48",
+        "Religiosity": "16"
+      },
+      {
+        "Country": "Bulgaria",
+        "CAF": "41",
+        "Religiosity": "34"
+      },
+      {
+        "Country": "El Salvador",
+        "CAF": "36",
+        "Religiosity": "77"
+      },
+      {
+        "Country": "Japan",
+        "CAF": "20",
+        "Religiosity": "14"
+      },
+      {
+        "Country": "Serbia",
+        "CAF": "46",
+        "Religiosity": "54"
+      },
+      {
+        "Country": "Croatia",
+        "CAF": "37",
+        "Religiosity": "70"
+      },
+      {
+        "Country": "Tunisia",
+        "CAF": "28",
+        "Religiosity": "93"
+      },
+      {
+        "Country": "Afghanistan",
+        "CAF": "21",
+        "Religiosity": "97"
+      },
+      {
+        "Country": "Latvia",
+        "CAF": "29",
+        "Religiosity": "29"
+      },
+      {
+        "Country": "Lithuania",
+        "CAF": "37",
+        "Religiosity": "40"
+      },
+      {
+        "Country": "Cambodia",
+        "CAF": "19",
+        "Religiosity": "96"
+      },
+      {
+        "Country": "Greece",
+        "CAF": "32",
+        "Religiosity": "71"
+      }
+    ]
+  },
+  "height": 200,
+  "width": 200,
+  "encoding": {
+    "x": {
+      "field": "Religiosity",
+      "type": "quantitative",
+      "title": "Religiosity (%)",
+      "axis": {
+        "grid": false
+      },
+      "scale": {
+        "domain": [
+          0,
+          100
+        ]
+      }
+    },
+    "y": {
+      "field": "CAF",
+      "type": "quantitative",
+      "title": "WGI overall score (out of 100)",
+      "axis": {
+        "grid": false
+      },
+      "scale": {
+        "domain": [
+          0,
+          70
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "CAF",
+        "type": "quantitative",
+        "title": "WGI Score"
+      },
+      {
+        "field": "Religiosity",
+        "type": "quantitative",
+        "title": "Religiosity (%)"
+      },
+      {
+        "field": "Country",
+        "type": "nominal",
+        "title": "Country"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "CAF": 42.2,
+            "Religiosity": 14
+          },
+          {
+            "CAF": 38.7,
+            "Religiosity": 98
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "color": "#2c2a2e",
+        "clip": true
+      },
+      "encoding": {
+        "tooltip": null
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Country": "Indonesia",
+            "CAF": "68",
+            "Religiosity": "96"
+          },
+          {
+            "Country": "Australia",
+            "CAF": "55",
+            "Religiosity": "33"
+          },
+          {
+            "Country": "New Zealand",
+            "CAF": "54",
+            "Religiosity": "18"
+          },
+          {
+            "Country": "United States of America",
+            "CAF": "59",
+            "Religiosity": "67"
+          },
+          {
+            "Country": "Ireland",
+            "CAF": "49",
+            "Religiosity": "54"
+          },
+          {
+            "Country": "United Kingdom of Great Britain and Northern Ireland",
+            "CAF": "47",
+            "Religiosity": "25"
+          },
+          {
+            "Country": "Singapore",
+            "CAF": "45",
+            "Religiosity": "70"
+          },
+          {
+            "Country": "Kenya",
+            "CAF": "61",
+            "Religiosity": "94"
+          },
+          {
+            "Country": "Myanmar",
+            "CAF": "52",
+            "Religiosity": "96"
+          },
+          {
+            "Country": "Netherlands",
+            "CAF": "46",
+            "Religiosity": "33"
+          },
+          {
+            "Country": "United Arab Emirates",
+            "CAF": "47",
+            "Religiosity": "76"
+          },
+          {
+            "Country": "Norway",
+            "CAF": "45",
+            "Religiosity": "22"
+          },
+          {
+            "Country": "Canada",
+            "CAF": "51",
+            "Religiosity": "22"
+          },
+          {
+            "Country": "Nigeria",
+            "CAF": "48",
+            "Religiosity": "77"
+          },
+          {
+            "Country": "Malta",
+            "CAF": "45",
+            "Religiosity": "86"
+          },
+          {
+            "Country": "Zambia",
+            "CAF": "50",
+            "Religiosity": "95"
+          },
+          {
+            "Country": "Germany",
+            "CAF": "41",
+            "Religiosity": "40"
+          },
+          {
+            "Country": "Denmark",
+            "CAF": "46",
+            "Religiosity": "19"
+          },
+          {
+            "Country": "Switzerland",
+            "CAF": "37",
+            "Religiosity": "23"
+          },
+          {
+            "Country": "Sri Lanka",
+            "CAF": "44",
+            "Religiosity": "97"
+          },
+          {
+            "Country": "Iran (Islamic Republic of)",
+            "CAF": "43",
+            "Religiosity": "78"
+          },
+          {
+            "Country": "Hong Kong",
+            "CAF": "37",
+            "Religiosity": "24"
+          },
+          {
+            "Country": "Austria",
+            "CAF": "45",
+            "Religiosity": "17"
+          },
+          {
+            "Country": "Iraq",
+            "CAF": "37",
+            "Religiosity": "89"
+          },
+          {
+            "Country": "Cyprus",
+            "CAF": "40",
+            "Religiosity": "25"
+          },
+          {
+            "Country": "Tajikistan",
+            "CAF": "39",
+            "Religiosity": "85"
+          },
+          {
+            "Country": "Ghana",
+            "CAF": "43",
+            "Religiosity": "95"
+          },
+          {
+            "Country": "Israel",
+            "CAF": "37",
+            "Religiosity": "51"
+          },
+          {
+            "Country": "South Africa",
+            "CAF": "35",
+            "Religiosity": "85"
+          },
+          {
+            "Country": "Sweden",
+            "CAF": "42",
+            "Religiosity": "16"
+          },
+          {
+            "Country": "Finland",
+            "CAF": "37",
+            "Religiosity": "23"
+          },
+          {
+            "Country": "Slovenia",
+            "CAF": "39",
+            "Religiosity": "47"
+          },
+          {
+            "Country": "Dominican Republic",
+            "CAF": "44",
+            "Religiosity": "87"
+          },
+          {
+            "Country": "Uganda",
+            "CAF": "46",
+            "Religiosity": "93"
+          },
+          {
+            "Country": "Saudi Arabia",
+            "CAF": "36",
+            "Religiosity": "96"
+          },
+          {
+            "Country": "Nepal",
+            "CAF": "40",
+            "Religiosity": "93"
+          },
+          {
+            "Country": "Uzbekistan",
+            "CAF": "38",
+            "Religiosity": "55"
+          },
+          {
+            "Country": "Spain",
+            "CAF": "32",
+            "Religiosity": "49"
+          },
+          {
+            "Country": "Kyrgyzstan",
+            "CAF": "44",
+            "Religiosity": "72"
+          },
+          {
+            "Country": "Jamaica",
+            "CAF": "46",
+            "Religiosity": "70"
+          },
+          {
+            "Country": "Malawi",
+            "CAF": "39",
+            "Religiosity": "97"
+          },
+          {
+            "Country": "Paraguay",
+            "CAF": "44",
+            "Religiosity": "92"
+          },
+          {
+            "Country": "Chile",
+            "CAF": "38",
+            "Religiosity": "60"
+          },
+          {
+            "Country": "Thailand",
+            "CAF": "48",
+            "Religiosity": "98"
+          },
+          {
+            "Country": "Costa Rica",
+            "CAF": "44",
+            "Religiosity": "79"
+          },
+          {
+            "Country": "Cameroon",
+            "CAF": "37",
+            "Religiosity": "96"
+          },
+          {
+            "Country": "Nicaragua",
+            "CAF": "40",
+            "Religiosity": "70"
+          },
+          {
+            "Country": "Italy",
+            "CAF": "29",
+            "Religiosity": "72"
+          },
+          {
+            "Country": "Guinea",
+            "CAF": "47",
+            "Religiosity": "96"
+          },
+          {
+            "Country": "France",
+            "CAF": "32",
+            "Religiosity": "30"
+          },
+          {
+            "Country": "Namibia",
+            "CAF": "35",
+            "Religiosity": "92"
+          },
+          {
+            "Country": "Jordan",
+            "CAF": "32",
+            "Religiosity": "96"
+          },
+          {
+            "Country": "Zimbabwe",
+            "CAF": "31",
+            "Religiosity": "88"
+          },
+          {
+            "Country": "Uruguay",
+            "CAF": "40",
+            "Religiosity": "40"
+          },
+          {
+            "Country": "Panama",
+            "CAF": "36",
+            "Religiosity": "88"
+          },
+          {
+            "Country": "Mozambique",
+            "CAF": "34",
+            "Religiosity": "86"
+          },
+          {
+            "Country": "Colombia",
+            "CAF": "42",
+            "Religiosity": "83"
+          },
+          {
+            "Country": "Ukraine",
+            "CAF": "49",
+            "Religiosity": "46"
+          },
+          {
+            "Country": "Burkina Faso",
+            "CAF": "39",
+            "Religiosity": "88"
+          },
+          {
+            "Country": "Portugal",
+            "CAF": "26",
+            "Religiosity": "72"
+          },
+          {
+            "Country": "Lebanon",
+            "CAF": "24",
+            "Religiosity": "87"
+          },
+          {
+            "Country": "Bolivia (Plurinational State of)",
+            "CAF": "43",
+            "Religiosity": "89"
+          },
+          {
+            "Country": "Senegal",
+            "CAF": "40",
+            "Religiosity": "96"
+          },
+          {
+            "Country": "Slovakia",
+            "CAF": "41",
+            "Religiosity": "47"
+          },
+          {
+            "Country": "Philippines",
+            "CAF": "47",
+            "Religiosity": "77"
+          },
+          {
+            "Country": "Bosnia and Herzegovina",
+            "CAF": "44",
+            "Religiosity": "75"
+          },
+          {
+            "Country": "Pakistan",
+            "CAF": "29",
+            "Religiosity": "92"
+          },
+          {
+            "Country": "Algeria",
+            "CAF": "30",
+            "Religiosity": "95"
+          },
+          {
+            "Country": "Mali",
+            "CAF": "38",
+            "Religiosity": "95"
+          },
+          {
+            "Country": "Argentina",
+            "CAF": "47",
+            "Religiosity": "65"
+          },
+          {
+            "Country": "Kazakhstan",
+            "CAF": "34",
+            "Religiosity": "53"
+          },
+          {
+            "Country": "Peru",
+            "CAF": "39",
+            "Religiosity": "84"
+          },
+          {
+            "Country": "Romania",
+            "CAF": "30",
+            "Religiosity": "84"
+          },
+          {
+            "Country": "Morocco",
+            "CAF": "31",
+            "Religiosity": "96"
+          },
+          {
+            "Country": "Benin",
+            "CAF": "32",
+            "Religiosity": "93"
+          },
+          {
+            "Country": "Egypt",
+            "CAF": "23",
+            "Religiosity": "96"
+          },
+          {
+            "Country": "Venezuela (Bolivarian Republic of)",
+            "CAF": "45",
+            "Religiosity": "79"
+          },
+          {
+            "Country": "Albania",
+            "CAF": "34",
+            "Religiosity": "50"
+          },
+          {
+            "Country": "Estonia",
+            "CAF": "40",
+            "Religiosity": "16"
+          },
+          {
+            "Country": "Russian Federation",
+            "CAF": "46",
+            "Religiosity": "34"
+          },
+          {
+            "Country": "Poland",
+            "CAF": "47",
+            "Religiosity": "50"
+          },
+          {
+            "Country": "Mexico",
+            "CAF": "44",
+            "Religiosity": "73"
+          },
+          {
+            "Country": "Togo",
+            "CAF": "34",
+            "Religiosity": "80"
+          },
+          {
+            "Country": "Georgia",
+            "CAF": "31",
+            "Religiosity": "81"
+          },
+          {
+            "Country": "Ecuador",
+            "CAF": "42",
+            "Religiosity": "82"
+          },
+          {
+            "Country": "Hungary",
+            "CAF": "40",
+            "Religiosity": "39"
+          },
+          {
+            "Country": "Brazil",
+            "CAF": "47",
+            "Religiosity": "85"
+          },
+          {
+            "Country": "Armenia",
+            "CAF": "29",
+            "Religiosity": "79"
+          },
+          {
+            "Country": "India",
+            "CAF": "40",
+            "Religiosity": "90"
+          },
+          {
+            "Country": "Czechia",
+            "CAF": "48",
+            "Religiosity": "16"
+          },
+          {
+            "Country": "Bulgaria",
+            "CAF": "41",
+            "Religiosity": "34"
+          },
+          {
+            "Country": "El Salvador",
+            "CAF": "36",
+            "Religiosity": "77"
+          },
+          {
+            "Country": "Japan",
+            "CAF": "20",
+            "Religiosity": "14"
+          },
+          {
+            "Country": "Serbia",
+            "CAF": "46",
+            "Religiosity": "54"
+          },
+          {
+            "Country": "Croatia",
+            "CAF": "37",
+            "Religiosity": "70"
+          },
+          {
+            "Country": "Tunisia",
+            "CAF": "28",
+            "Religiosity": "93"
+          },
+          {
+            "Country": "Afghanistan",
+            "CAF": "21",
+            "Religiosity": "97"
+          },
+          {
+            "Country": "Latvia",
+            "CAF": "29",
+            "Religiosity": "29"
+          },
+          {
+            "Country": "Lithuania",
+            "CAF": "37",
+            "Religiosity": "40"
+          },
+          {
+            "Country": "Cambodia",
+            "CAF": "19",
+            "Religiosity": "96"
+          },
+          {
+            "Country": "Greece",
+            "CAF": "32",
+            "Religiosity": "71"
+          }
+        ]
+      },
+      "mark": {
+        "type": "circle",
+        "color": "#865fa5",
+        "fillOpacity": 0.9
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "CAF": 38,
+            "Religiosity": 15,
+            "text": "R² = 0.02"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "color": "red",
+        "fontWeight": "normal",
+        "fontSize": 12
+      },
+      "encoding": {
+        "tooltip": null,
+        "text": {
+          "field": "text",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

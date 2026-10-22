@@ -1,0 +1,136 @@
+{
+  "id": "vl_0222",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "48036a713f393b9d29df61e437f37aaeea2dddaa5998e5302d447c12b4017854",
+      "actions": 14,
+      "topOptions": 35
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4b4050c781804244511dc3b1be6bc4f113fb0827163f4456dfe1b73f4e91f96a",
+      "actions": 15,
+      "topOptions": 36
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "ced9a113e3cf9d3f8649719def3708278115f58d33db4a6d50d1227dd21b5ca6",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "73b57cc3fbb2a073a157d970fcdbcea395c5709ec43ea0aa2c5ee2bb9ed0d17d",
+      "actions": 20,
+      "topOptions": 43
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e8a62c9d2c9138434518842512eec98422326245c1e748b285d9cba385e8f310",
+      "actions": 23,
+      "topOptions": 51
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "9642e9d928c7444e1774c011277034f977d9aed1c418f63c565129dac2a1fc90",
+      "actions": 26,
+      "topOptions": 59
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "2dba1b2e1e9a32a52cecf090c325f994c8748fd8250dc0d6fa866cecc02ae1ce",
+      "actions": 28,
+      "topOptions": 63
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "c6549e1060406a9a3ff52e70100fdf2b93aa1123632663c4e6f606b44abaa94b",
+      "actions": 29,
+      "topOptions": 63
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/xinyuelu2/xinyuelu2.github.io/main/pjchart5p1.csv",
+    "https://raw.githubusercontent.com/xinyuelu2/xinyuelu2.github.io/main/pjchart5p2.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful public ownership stages, complete axes before edits, original66CSV STRINGrows/66vertices/27glyphs/independentYscales/source752x374frame preserved. Fresh247cold and419normal checks pass. All actual GLM code root-read before execution."
+  },
+  "historicalRuntimeCommits": [
+    "ef8a79b94fca76cf41f90249ed822d2a1bcb95e3"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "a7aebaf2d51c6fe880fc1b30d586f571ff8de57b56fdc26c743745272a585373",
+      "bytes": 3046
+    },
+    "data.json": {
+      "sha256": "37f22f3a5893c207e60ec567df545a76fa7746ec7b961fe21a0aaa19411702a0",
+      "bytes": 5241
+    },
+    "resolved-source.vl.json": {
+      "sha256": "53b6f8645f58635f0e6e3226dfe5b50c870b5351f1132ba04aedeb5ddcafd977",
+      "bytes": 16995
+    },
+    "hardware-data.json": {
+      "sha256": "60d59d49b04b2473c737062d69c5154d5c57454fc198d72d6f12b770e18008a4",
+      "bytes": 453
+    },
+    "G1.gg.mjs": {
+      "sha256": "48036a713f393b9d29df61e437f37aaeea2dddaa5998e5302d447c12b4017854",
+      "bytes": 4140
+    },
+    "G2.gg.mjs": {
+      "sha256": "4b4050c781804244511dc3b1be6bc4f113fb0827163f4456dfe1b73f4e91f96a",
+      "bytes": 4009
+    },
+    "G3.gg.mjs": {
+      "sha256": "ced9a113e3cf9d3f8649719def3708278115f58d33db4a6d50d1227dd21b5ca6",
+      "bytes": 4027
+    },
+    "G4.gg.mjs": {
+      "sha256": "73b57cc3fbb2a073a157d970fcdbcea395c5709ec43ea0aa2c5ee2bb9ed0d17d",
+      "bytes": 4093
+    },
+    "G5.gg.mjs": {
+      "sha256": "e8a62c9d2c9138434518842512eec98422326245c1e748b285d9cba385e8f310",
+      "bytes": 4202
+    },
+    "G6.gg.mjs": {
+      "sha256": "9642e9d928c7444e1774c011277034f977d9aed1c418f63c565129dac2a1fc90",
+      "bytes": 4314
+    },
+    "G7.gg.mjs": {
+      "sha256": "2dba1b2e1e9a32a52cecf090c325f994c8748fd8250dc0d6fa866cecc02ae1ce",
+      "bytes": 4375
+    },
+    "G8.gg.mjs": {
+      "sha256": "c6549e1060406a9a3ff52e70100fdf2b93aa1123632663c4e6f606b44abaa94b",
+      "bytes": 4397
+    },
+    "raw-inputs.json": {
+      "sha256": "fb823779195273580acb6dfc67c393c8c5759540d3994f8adf951e5215a382a0",
+      "bytes": 7350
+    },
+    "vega-lite.svg": {
+      "sha256": "9b57c7b8fd247082869576091ffb67987b1f3f50353f75cd82ab9f0b9c6e4626",
+      "bytes": 13475
+    },
+    "ggaction.svg": {
+      "sha256": "cd5b53b82a7e9b66c054d29221fd981ce889edbf652c8a7ce11b56ef48742bda",
+      "bytes": 11947
+    }
+  }
+}

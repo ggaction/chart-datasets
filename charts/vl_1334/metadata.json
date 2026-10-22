@@ -1,0 +1,141 @@
+{
+  "id": "vl_1334",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "658267f029124ed8febaadf4588eb9770b90c00e3b158b635bdb787cd795852c",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a88963fb2556372ad332fc0c0b16fccc179320f639e6da4a9ff539190c8c57f1",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e2df6fb6984b7311ab91767c73b2ce42bc31df8bff486238afe5742cbbb7331d",
+      "actions": 14,
+      "topOptions": 28
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3b8823e111856f73c5d06c48bfa7cf6ee7d56dabe0dbb26c42c6cabf951211e7",
+      "actions": 15,
+      "topOptions": 30
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "77881ee7e091931906f058b15c80979f63a84a39b3aa74795c41327afddad781",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "6fefbacfcaf1088911eb3751705836bb17a40c941d4a26c7db994aabd4f07044",
+      "actions": 21,
+      "topOptions": 40
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "71a88756f19b700fad7875b7322332f79a7f5022c6ddb6e854584923273a40a1",
+      "actions": 23,
+      "topOptions": 40
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "40f90e20da9e4525a26005483ed3514610388695a9633aa355cf76f0dac4fe8b",
+      "actions": 24,
+      "topOptions": 41
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/ACampero/dopamine/0f7dd25bfb85e9881bb8953a1fbd213ceeef942f/baselines/data/gravitar.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight School-authored stages preserve940x447/raw3981incl{}/3980filter/796groups/3.98m actual source-native sample choices, allsourcefonts/axes/legend/paint and exact native SVG/PNG. New per-source proved implicitX resolves0..200 without redundantXsetter; Ydomain0..1600 remainsnecessary. Actions11/12/14/15/17/21/23/24; allcalls<=3topkeys, facades retained. Eight-stage cap notexhaustion."
+  },
+  "historicalRuntimeCommits": [
+    "e93500081b6dde6be7614e3e9352e947bec5908d"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "8007ea3e2917b84ba6c17977d5394be6a0ea1375d51eaf52013df1bd354cce6c",
+      "bytes": 1395
+    },
+    "data.json": {
+      "sha256": "9613f47edbb728156ab7052a933e10bde05f9151fb14e62f2e414204febb96fc",
+      "bytes": 310778
+    },
+    "resolved-source.vl.json": {
+      "sha256": "59baf456202e1dc3656991dabcfc1552917de26a983dbbcea06583889e51f75b",
+      "bytes": 391766
+    },
+    "G1.gg.mjs": {
+      "sha256": "658267f029124ed8febaadf4588eb9770b90c00e3b158b635bdb787cd795852c",
+      "bytes": 3028
+    },
+    "G2.gg.mjs": {
+      "sha256": "a88963fb2556372ad332fc0c0b16fccc179320f639e6da4a9ff539190c8c57f1",
+      "bytes": 3037
+    },
+    "G3.gg.mjs": {
+      "sha256": "e2df6fb6984b7311ab91767c73b2ce42bc31df8bff486238afe5742cbbb7331d",
+      "bytes": 2976
+    },
+    "G4.gg.mjs": {
+      "sha256": "3b8823e111856f73c5d06c48bfa7cf6ee7d56dabe0dbb26c42c6cabf951211e7",
+      "bytes": 3033
+    },
+    "G5.gg.mjs": {
+      "sha256": "77881ee7e091931906f058b15c80979f63a84a39b3aa74795c41327afddad781",
+      "bytes": 3155
+    },
+    "G6.gg.mjs": {
+      "sha256": "6fefbacfcaf1088911eb3751705836bb17a40c941d4a26c7db994aabd4f07044",
+      "bytes": 3195
+    },
+    "G7.gg.mjs": {
+      "sha256": "71a88756f19b700fad7875b7322332f79a7f5022c6ddb6e854584923273a40a1",
+      "bytes": 3181
+    },
+    "G8.gg.mjs": {
+      "sha256": "40f90e20da9e4525a26005483ed3514610388695a9633aa355cf76f0dac4fe8b",
+      "bytes": 3194
+    },
+    "vega-lite.svg": {
+      "sha256": "fe497d3b4cf2c63290ca02c64020ac9c40df624f8ebf384f828b8874bba9e6d6",
+      "bytes": 47971
+    },
+    "ggaction.svg": {
+      "sha256": "8c4a256e5e2bb6b208ed366ecdf018439b7c48d75ba2620255d512a9d9de5e33",
+      "bytes": 67116
+    },
+    "source-reference-policy.json": {
+      "sha256": "299c762d6c7a8112a729b735eff14e0e561accf7bdd55172e20a948687f00852",
+      "bytes": 1624
+    },
+    "vega-lite-unseeded.svg": {
+      "sha256": "4fd8d6f81747a5d14b65b5c656f247f3dc0b8812c2bdbc47e23fd99a189bf7bb",
+      "bytes": 47984
+    }
+  },
+  "referencePolicy": {
+    "metadata": "source-reference-policy.json",
+    "environmentSeed": 1,
+    "originalSourceAuthoredSeed": false,
+    "historicalUnseededSvg": "vega-lite-unseeded.svg"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "vl_1857",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "86ce8b5e3bbf977bec4361ca0b1ba40d5c6c8e7300a862440676371365039f5e",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "1ff0407e035361d953bc9ae2f046e975c12c737475230cd8ae644912ae6af218",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "76823494e4bf5e9fb5b978072f7b84b3e58370a0ab4ce482c621eb620f6d4563",
+      "actions": 15,
+      "topOptions": 38
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7c72f27821f1837fbe54aed7c40dab485e9c291372ff5ccae53b040a009f1f6e",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7ae001b10ebba2ac663fdf535ca16cc9f176e9a52f1fb866d8c7ecf48cb86d58",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8dc88c80d727d34e7774b07b4dcd354991fe44798c0a29777d961315e3f624a9",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "e685d74bb45521fd3d96cafffe760813c037e394322987856feed760a2b3c821",
+      "actions": 19,
+      "topOptions": 40
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "edd6cf200eec522f7207625e3bef064024dca1e980a95178545b02f824b1ac01",
+      "actions": 20,
+      "topOptions": 41
+    }
+  ],
+  "sourceUrls": [
+    "https://gicentre.github.io/scrc/data/flows/scotLAsFlows.csv",
+    "https://gicentre.github.io/scrc/data/geo/scotLACentroids.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Original rejected G1 was never executed; acceptedG1attempt02 is exact originalSchoolcode plus3actualSchoolAFTER repairs. Eight actual School stages13/14/15/16/17/18/19/20actions.802originalCSVSTRINGflows and32originalreference rows shared across two identical frozen descriptors, both key/alias/lineage lookups and separate numericValue preserved. All802cell positions/sizes/white2px outlines and existingRGB1 colors verified;67nonlegendglyphbounds/styles exact,sourcevisiblelegendvalues/one originalfont-boxpair retained anddisclosed.634x560frame/400x400plot, source-measured gradient spacing necessary versus native default634.25width. AllnativeSVG/PNG exact across8actualSchoolstages;complete axes precedeownededits,allcalls<=3,noFontMetrics. Eight-stagecap,notexhaustion;noimages."
+  },
+  "historicalRuntimeCommits": [
+    "f507da9795004bc7142a998f0ef0880ac9c00040"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "0bda31596f5dea6c7bc3da3e7ee51cd3c02626a8af346a194a5fb62a4b03b823",
+      "bytes": 1826
+    },
+    "data.json": {
+      "sha256": "6846436829a913e223e6f0eb58864ea4276d2c5e0b29f7e15f99d1c83cc716d4",
+      "bytes": 213618
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0eb947e81bd1521f2d3b00d01cab8b301b7454e97e66935062f3fc70e880f130",
+      "bytes": 264560
+    },
+    "data-lookup-0.json": {
+      "sha256": "cfa27da9fac4f684cbdc0a869785955cc764239df02cf2309ab903d8f823a900",
+      "bytes": 3467
+    },
+    "data-lookup-1.json": {
+      "sha256": "cfa27da9fac4f684cbdc0a869785955cc764239df02cf2309ab903d8f823a900",
+      "bytes": 3467
+    },
+    "G1.gg.mjs": {
+      "sha256": "86ce8b5e3bbf977bec4361ca0b1ba40d5c6c8e7300a862440676371365039f5e",
+      "bytes": 3625
+    },
+    "G2.gg.mjs": {
+      "sha256": "1ff0407e035361d953bc9ae2f046e975c12c737475230cd8ae644912ae6af218",
+      "bytes": 3642
+    },
+    "G3.gg.mjs": {
+      "sha256": "76823494e4bf5e9fb5b978072f7b84b3e58370a0ab4ce482c621eb620f6d4563",
+      "bytes": 3654
+    },
+    "G4.gg.mjs": {
+      "sha256": "7c72f27821f1837fbe54aed7c40dab485e9c291372ff5ccae53b040a009f1f6e",
+      "bytes": 3667
+    },
+    "G5.gg.mjs": {
+      "sha256": "7ae001b10ebba2ac663fdf535ca16cc9f176e9a52f1fb866d8c7ecf48cb86d58",
+      "bytes": 3680
+    },
+    "G6.gg.mjs": {
+      "sha256": "8dc88c80d727d34e7774b07b4dcd354991fe44798c0a29777d961315e3f624a9",
+      "bytes": 3705
+    },
+    "G7.gg.mjs": {
+      "sha256": "e685d74bb45521fd3d96cafffe760813c037e394322987856feed760a2b3c821",
+      "bytes": 3730
+    },
+    "G8.gg.mjs": {
+      "sha256": "edd6cf200eec522f7207625e3bef064024dca1e980a95178545b02f824b1ac01",
+      "bytes": 3742
+    },
+    "raw-inputs.json": {
+      "sha256": "92a3d5af5e75a24cb006df61af1d3a3f14eeaa486311296b302c7bb299384db4",
+      "bytes": 8869
+    },
+    "vega-lite.svg": {
+      "sha256": "667a17cd12d8d3fe7c71ea333a17e3ac773455f7f23af7bcba9b296065e12b5e",
+      "bytes": 252044
+    },
+    "ggaction.svg": {
+      "sha256": "f6071401505812427601bfda830c450c4fc55b26a931ddbfb8a8e66dac3ed426",
+      "bytes": 119191
+    }
+  }
+}

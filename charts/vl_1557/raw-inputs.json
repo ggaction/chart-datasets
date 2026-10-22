@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "e7b6ae3777cd1eea306c9141fdd9763a08b91d2a0eeb6a5c79c182f8b5a83a34",
+  "resolvedSourceSha256": "004630d23654059f8ed18fdda385fe23401292ba1160982b2f7e7eb10c9f9b06",
+  "resolutionSha256": "3e1ca680f9b485ec3ed98512bd10afab66e475008b75580dd68d8e0a22d99f9d",
+  "primary": "data.json",
+  "descriptors": [
+    {
+      "pointer": "/data",
+      "file": "data.json",
+      "sha256": "d0cd544a514ebf29c71491cf6267eaf65457d16b2343d160f520cf4c0303f84c",
+      "bytes": 18616312,
+      "rowCount": 40534,
+      "kind": "cached-url",
+      "format": {
+        "originalCompiledOrAuthored": {
+          "type": "csv"
+        },
+        "parserWithoutFieldParse": {
+          "type": "csv",
+          "delimiter": ","
+        },
+        "retainedFieldParse": null
+      },
+      "resource": {
+        "requestedUrl": "https://uiuc-ischool-dataviz.github.io/fall2019/data/govtrack-us-congress-legislators/data/legislators_historical_terms.csv",
+        "resolvedUrl": "https://uiuc-ischool-dataviz.github.io/fall2019/data/govtrack-us-congress-legislators/data/legislators_historical_terms.csv",
+        "sha256": "27a0aa74ddb5d2481216848ff8752babfa30213e6018339b76606178b3012bbe"
+      }
+    },
+    {
+      "pointer": "/transform/0/from/data",
+      "file": "data-lookup-0.json",
+      "sha256": "a56efe37517965c2acdd53b9f369afdcc6316601f10482fa5e4f403e275b3158",
+      "bytes": 8387085,
+      "rowCount": 11864,
+      "kind": "cached-url",
+      "format": {
+        "originalCompiledOrAuthored": {
+          "type": "csv"
+        },
+        "parserWithoutFieldParse": {
+          "type": "csv",
+          "delimiter": ","
+        },
+        "retainedFieldParse": null
+      },
+      "resource": {
+        "requestedUrl": "https://uiuc-ischool-dataviz.github.io/fall2019/data/govtrack-us-congress-legislators/data/legislators_historical.csv",
+        "resolvedUrl": "https://uiuc-ischool-dataviz.github.io/fall2019/data/govtrack-us-congress-legislators/data/legislators_historical.csv",
+        "sha256": "7da54984ece9994f3509f7614369aa5a93299606be8c6dd172e335d1bb4b9d63"
+      }
+    }
+  ],
+  "stages": [
+    {
+      "level": "G1",
+      "codeSha256": "1b6d0473704dabaf42cd5b73a5506bd3bb754f8a5e66a1006d12b4159790a047",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "terms",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "terms",
+          "datasetId": "terms",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G2",
+      "codeSha256": "811d5e80348cbdc143381b6b31def2b48f8bf5ff200e5cc9596e1f008e93cd38",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "terms",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "terms",
+          "datasetId": "terms",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G3",
+      "codeSha256": "2ce534f4f7e60ca84bcc86aae0faf3d7f7f8b2bda66b56be38afebae962ecaeb",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "terms",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "terms",
+          "datasetId": "terms",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G4",
+      "codeSha256": "45df5b805cb871fd5bb48ac33efc15b733ae3049195dfd1c00c1ee1559ffc7b7",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "terms",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "terms",
+          "datasetId": "terms",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G5",
+      "codeSha256": "fb6f838c1867699d4c9a1854d4effb0886cd30a59ac490e40d3bb36f66ad7652",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "terms",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "terms",
+          "datasetId": "terms",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G6",
+      "codeSha256": "8286cbcdb682416d4944f1d8cd59291e8a8c8186c399869002f2bc7de33592ab",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "terms",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "terms",
+          "datasetId": "terms",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G7",
+      "codeSha256": "e0a08aedf1ed3f36c4594eb5b2d922603ffadf04efef2f5c067e4698be0ddab2",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "terms",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "terms",
+          "datasetId": "terms",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G8",
+      "codeSha256": "b45b80111303c8206fa32679df3042e90c174c77196e246f72d2b488a16fa0ea",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "terms",
+          "file": "data.json"
+        },
+        {
+          "local": "people",
+          "file": "data-lookup-0.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "terms",
+          "datasetId": "terms",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data-lookup-0.json",
+          "local": "people",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    }
+  ]
+}

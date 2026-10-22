@@ -1,0 +1,136 @@
+{
+  "id": "vl_1681",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6d12a62ade9c58824e31dd490f8ec63f640ee9d2ef55c953fb7ef2e7020a1fe5",
+      "actions": 8,
+      "topOptions": 18
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "348acd685b5244d65a1a230a109b420119f3938f21e346360b8aaf56d5f0b6bf",
+      "actions": 9,
+      "topOptions": 20
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "3144a675971f2e390eca25a9cdb0f3fb348009f224bcad8b0d05b2669c7abcfb",
+      "actions": 10,
+      "topOptions": 21
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8d5ef0b05ce2de76e2fd5889182ebf4cb4a1ba39022b38a84d4a54f01d5dcbff",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "cfa4a4c77baf623b5b9070470c1ac6ffcc249b1e28ea08a4430d4fc8203b322e",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "2514b331310891ae11458f6b65dc025907f88e6ff934815eef34aecfff3a6aa6",
+      "actions": 13,
+      "topOptions": 25
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d2c1eba06f45e76c7b5ed636f3184315dfe9eb89bf57524f311a7bb410044794",
+      "actions": 14,
+      "topOptions": 26
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "a6a1b8a0fb7c3516d31266c8d8c89bc672f74b02fc357601ed133aaf2aa8bcad",
+      "actions": 15,
+      "topOptions": 27
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/lookup_groups.csv",
+    "https://vega.github.io/vega-lite/data/lookup_people.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages8/9/10/11/12/13/14/15actions. Both9rowCSVSTRINGinputs/keyedlookup/age+height/numericAgealias/threegroupmeans preserved. All12glyphstyles+bounds and104x243frame/60x200plot verified; full nativeSVG/PNG exact across8stages. Complete axes precede owned edits, allcalls<=3,zero4keyexceptions/noFontMetrics. Eight-stage cap,not exhaustion; no images."
+  },
+  "historicalRuntimeCommits": [
+    "f507da9795004bc7142a998f0ef0880ac9c00040"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "0579888b640f7085f5580940b948e441bf578dbf7786139c2316f33365f73700",
+      "bytes": 691
+    },
+    "data.json": {
+      "sha256": "5b941bc559e3c4342978a1ffc5c95bc487100dfee4ba147616597810c01943e4",
+      "bytes": 437
+    },
+    "resolved-source.vl.json": {
+      "sha256": "128160923f7b12ac93e54eb472c15d6e48b65d28442cabdf96814a10393e3196",
+      "bytes": 2226
+    },
+    "data-lookup-0.json": {
+      "sha256": "f108850318421281a63837c87bb88d30b461e710cdbd3800ee9cf7769dec7f0c",
+      "bytes": 599
+    },
+    "G1.gg.mjs": {
+      "sha256": "6d12a62ade9c58824e31dd490f8ec63f640ee9d2ef55c953fb7ef2e7020a1fe5",
+      "bytes": 2407
+    },
+    "G2.gg.mjs": {
+      "sha256": "348acd685b5244d65a1a230a109b420119f3938f21e346360b8aaf56d5f0b6bf",
+      "bytes": 2332
+    },
+    "G3.gg.mjs": {
+      "sha256": "3144a675971f2e390eca25a9cdb0f3fb348009f224bcad8b0d05b2669c7abcfb",
+      "bytes": 2220
+    },
+    "G4.gg.mjs": {
+      "sha256": "8d5ef0b05ce2de76e2fd5889182ebf4cb4a1ba39022b38a84d4a54f01d5dcbff",
+      "bytes": 2128
+    },
+    "G5.gg.mjs": {
+      "sha256": "cfa4a4c77baf623b5b9070470c1ac6ffcc249b1e28ea08a4430d4fc8203b322e",
+      "bytes": 2145
+    },
+    "G6.gg.mjs": {
+      "sha256": "2514b331310891ae11458f6b65dc025907f88e6ff934815eef34aecfff3a6aa6",
+      "bytes": 2162
+    },
+    "G7.gg.mjs": {
+      "sha256": "d2c1eba06f45e76c7b5ed636f3184315dfe9eb89bf57524f311a7bb410044794",
+      "bytes": 2200
+    },
+    "G8.gg.mjs": {
+      "sha256": "a6a1b8a0fb7c3516d31266c8d8c89bc672f74b02fc357601ed133aaf2aa8bcad",
+      "bytes": 2225
+    },
+    "raw-inputs.json": {
+      "sha256": "e9c994f11a4fb01a1b61c839396233ae58ddc40d727dd3dd72d7cd9ac8be7434",
+      "bytes": 8120
+    },
+    "vega-lite.svg": {
+      "sha256": "3d5cff0a04042924a01bf8698b08315a1d3b0ad701471d30aa411ba7da960263",
+      "bytes": 6351
+    },
+    "ggaction.svg": {
+      "sha256": "c4902e9de55dbf5da5fb888322f4714b74e6c69daed6cbf472a749c93233d11a",
+      "bytes": 4975
+    }
+  }
+}

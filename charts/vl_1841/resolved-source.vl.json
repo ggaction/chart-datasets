@@ -1,0 +1,104 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Two vertically concatenated charts that show a histogram of precipitation in Seattle and the relationship between min and max temperature.",
+  "title": {
+    "text": "Situação acadêmica entre homens e mulheres",
+    "fontSize": 15,
+    "anchor": "middle"
+  },
+  "data": {
+    "values": [
+      {
+        "forma_saida": "Evadido",
+        "sexo": "Feminino",
+        "count": "164"
+      },
+      {
+        "forma_saida": "Evadido",
+        "sexo": "Masculino",
+        "count": "844"
+      },
+      {
+        "forma_saida": "Graduado",
+        "sexo": "Feminino",
+        "count": "90"
+      },
+      {
+        "forma_saida": "Graduado",
+        "sexo": "Masculino",
+        "count": "488"
+      },
+      {
+        "forma_saida": "Outros",
+        "sexo": "Masculino",
+        "count": "2"
+      },
+      {
+        "forma_saida": "Regular",
+        "sexo": "Feminino",
+        "count": "116"
+      },
+      {
+        "forma_saida": "Regular",
+        "sexo": "Masculino",
+        "count": "669"
+      },
+      {
+        "forma_saida": "Reingresso",
+        "sexo": "Feminino",
+        "count": "52"
+      },
+      {
+        "forma_saida": "Reingresso",
+        "sexo": "Masculino",
+        "count": "217"
+      },
+      {
+        "forma_saida": "Outros",
+        "sexo": "Feminino",
+        "count": "0"
+      }
+    ]
+  },
+  "vconcat": [
+    {
+      "mark": "bar",
+      "width": 500,
+      "height": 250,
+      "encoding": {
+        "y": {
+          "field": "forma_saida",
+          "title": "Situação acadêmica"
+        },
+        "x": {
+          "field": "count",
+          "type": "quantitative",
+          "title": "Quantidade de estudantes"
+        },
+        "tooltip": [
+          {
+            "field": "sexo",
+            "type": "ordinal",
+            "title": "Sexo"
+          },
+          {
+            "field": "count",
+            "type": "quantitative",
+            "title": "Quantidade"
+          }
+        ],
+        "color": {
+          "field": "sexo",
+          "title": "Gênero",
+          "scale": {
+            "domain": [
+              "Masculino",
+              "Feminino"
+            ],
+            "scheme": "set2"
+          }
+        }
+      }
+    }
+  ]
+}

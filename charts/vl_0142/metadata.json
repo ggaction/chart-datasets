@@ -1,0 +1,135 @@
+{
+  "id": "vl_0142",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1600de22af7f787e74cf5ee18dca391a98ff6a75f9407a7793f21934917ac657",
+      "actions": 16,
+      "topOptions": 35
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "32da71d85dd49643b7d45a542109f3f57a90627f5350e83bb3916028490cb1c9",
+      "actions": 18,
+      "topOptions": 38
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4534b32f070d2b5addeff81898a90e5b4f9cfbbd022afaa5a00001b0cff5c888",
+      "actions": 20,
+      "topOptions": 40
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "ea6e2d6f5497915d637e5778d88d2bfe54be4ae4427eb513b221309f9f52beec",
+      "actions": 22,
+      "topOptions": 42
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "5bcea21b8b6813a1171acecfa5c29d654a56e73b53524ebc14578fe89e5b4b8b",
+      "actions": 24,
+      "topOptions": 48
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "fc67970fbbe1d85d78512b6360898cddda83b92937b3c59753fdfdee9948bc0c",
+      "actions": 26,
+      "topOptions": 52
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "494a33d79527e0f8e8426b6274e207bb723ee273b0f4c69010a398142ec2f205",
+      "actions": 27,
+      "topOptions": 53
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "153f14807860878ffbf1e6de0119ab2d0bffc8f21a40c5b6972627ca1dfea7ba",
+      "actions": 27,
+      "topOptions": 54
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/ECO2.TENREYO.C2.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School-authored equivalent programs with high-level line declaration followed by complete axes, focused scale/tick/label/legend/title edits. Exact original343 CSV strings plus3 inline rules, all original source dimensions, raw lineage and source-bound guide conventions independently verified. Eight is a cap, not an exhaustion claim."
+  },
+  "historicalRuntimeCommits": [
+    "c7cbee6f9d703b7f81b75894e1c2c90938353d5a"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "f5e3aa7b1ebee26328bd31054da70aebe750dbd44d0a9b886b8b23e6ce436f7f",
+      "bytes": 1720
+    },
+    "data.json": {
+      "sha256": "f5cfd446c25b52ceeb6371eed23a4bd236630e4f30f5455ee535498f04fca656",
+      "bytes": 46769
+    },
+    "resolved-source.vl.json": {
+      "sha256": "6b9bff073f9dd8f23ae7fbf7325fb5abef00a32c3eab0dc8147e7b7367d1fd3d",
+      "bytes": 58074
+    },
+    "rule-data.json": {
+      "sha256": "1542c8cc7284093ede767c9b43e442fceb0f98e26faefd323dc8d37498e3f106",
+      "bytes": 72
+    },
+    "G1.gg.mjs": {
+      "sha256": "1600de22af7f787e74cf5ee18dca391a98ff6a75f9407a7793f21934917ac657",
+      "bytes": 2686
+    },
+    "G2.gg.mjs": {
+      "sha256": "32da71d85dd49643b7d45a542109f3f57a90627f5350e83bb3916028490cb1c9",
+      "bytes": 3078
+    },
+    "G3.gg.mjs": {
+      "sha256": "4534b32f070d2b5addeff81898a90e5b4f9cfbbd022afaa5a00001b0cff5c888",
+      "bytes": 3096
+    },
+    "G4.gg.mjs": {
+      "sha256": "ea6e2d6f5497915d637e5778d88d2bfe54be4ae4427eb513b221309f9f52beec",
+      "bytes": 3118
+    },
+    "G5.gg.mjs": {
+      "sha256": "5bcea21b8b6813a1171acecfa5c29d654a56e73b53524ebc14578fe89e5b4b8b",
+      "bytes": 3124
+    },
+    "G6.gg.mjs": {
+      "sha256": "fc67970fbbe1d85d78512b6360898cddda83b92937b3c59753fdfdee9948bc0c",
+      "bytes": 3150
+    },
+    "G7.gg.mjs": {
+      "sha256": "494a33d79527e0f8e8426b6274e207bb723ee273b0f4c69010a398142ec2f205",
+      "bytes": 3174
+    },
+    "G8.gg.mjs": {
+      "sha256": "153f14807860878ffbf1e6de0119ab2d0bffc8f21a40c5b6972627ca1dfea7ba",
+      "bytes": 3187
+    },
+    "raw-inputs.json": {
+      "sha256": "29c316dc8b7fe975b5107682ac2e2746738459274777ad0f2373f5fa7db52e89",
+      "bytes": 7141
+    },
+    "vega-lite.svg": {
+      "sha256": "eb7d0c04f2af7a3d5718b14d4cc717adfccba247ce37c4fe77b34f8c2d3255dc",
+      "bytes": 22022
+    },
+    "ggaction.svg": {
+      "sha256": "110a04f538fc61aba95a0843032ac769dd0130ef38f31461dcb2540820701ea6",
+      "bytes": 17215
+    }
+  }
+}

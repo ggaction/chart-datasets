@@ -1,0 +1,466 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Number of privately rented houses in Bristol",
+    "subtitle": "Highlighted red if the area is over 3 miles from University of Bristol or University of West England",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "2016_ward_code": "E05010893",
+        "2016_ward_name": "Clifton",
+        "total_number_of_households": 5914,
+        "owned": 2553,
+        "owned0": 43.2,
+        "social_rented": 537,
+        "social_rented0": 9.1,
+        "private_and_other_rented": 2824,
+        "private_and_other_rented0": 47.8
+      },
+      {
+        "2016_ward_code": "E05010888",
+        "2016_ward_name": "Bishopston & Ashley Down",
+        "total_number_of_households": 4724,
+        "owned": 3108,
+        "owned0": 65.8,
+        "social_rented": 182,
+        "social_rented0": 3.9,
+        "private_and_other_rented": 1434,
+        "private_and_other_rented0": 30.4
+      },
+      {
+        "2016_ward_code": "E05010898",
+        "2016_ward_name": "Filwood",
+        "total_number_of_households": 5139,
+        "owned": 2332,
+        "owned0": 45.4,
+        "social_rented": 2122,
+        "social_rented0": 41.3,
+        "private_and_other_rented": 685,
+        "private_and_other_rented0": 13.3
+      },
+      {
+        "2016_ward_code": "E05010889",
+        "2016_ward_name": "Bishopsworth",
+        "total_number_of_households": 4568,
+        "owned": 3408,
+        "owned0": 74.6,
+        "social_rented": 600,
+        "social_rented0": 13.1,
+        "private_and_other_rented": 560,
+        "private_and_other_rented0": 12.3
+      },
+      {
+        "2016_ward_code": "E05010901",
+        "2016_ward_name": "Henbury & Brentry",
+        "total_number_of_households": 5320,
+        "owned": 2984,
+        "owned0": 56.1,
+        "social_rented": 1621,
+        "social_rented0": 30.5,
+        "private_and_other_rented": 715,
+        "private_and_other_rented0": 13.4
+      },
+      {
+        "2016_ward_code": "E05010911",
+        "2016_ward_name": "St George Troopers Hill",
+        "total_number_of_households": 2513,
+        "owned": 1915,
+        "owned0": 76.2,
+        "social_rented": 105,
+        "social_rented0": 4.2,
+        "private_and_other_rented": 493,
+        "private_and_other_rented0": 19.6
+      },
+      {
+        "2016_ward_code": "E05010909",
+        "2016_ward_name": "Redland",
+        "total_number_of_households": 5085,
+        "owned": 3325,
+        "owned0": 65.4,
+        "social_rented": 165,
+        "social_rented0": 3.2,
+        "private_and_other_rented": 1595,
+        "private_and_other_rented0": 31.4
+      },
+      {
+        "2016_ward_code": "E05010892",
+        "2016_ward_name": "Central",
+        "total_number_of_households": 5576,
+        "owned": 927,
+        "owned0": 16.6,
+        "social_rented": 1504,
+        "social_rented0": 27,
+        "private_and_other_rented": 3145,
+        "private_and_other_rented0": 56.4
+      },
+      {
+        "2016_ward_code": "E05010910",
+        "2016_ward_name": "St George Central",
+        "total_number_of_households": 5299,
+        "owned": 3346,
+        "owned0": 63.1,
+        "social_rented": 755,
+        "social_rented0": 14.2,
+        "private_and_other_rented": 1198,
+        "private_and_other_rented0": 22.6
+      },
+      {
+        "2016_ward_code": "E05010905",
+        "2016_ward_name": "Hotwells & Harbourside",
+        "total_number_of_households": 2380,
+        "owned": 977,
+        "owned0": 41.1,
+        "social_rented": 286,
+        "social_rented0": 12,
+        "private_and_other_rented": 1117,
+        "private_and_other_rented0": 46.9
+      },
+      {
+        "2016_ward_code": "E05010896",
+        "2016_ward_name": "Easton",
+        "total_number_of_households": 5859,
+        "owned": 3017,
+        "owned0": 51.5,
+        "social_rented": 742,
+        "social_rented0": 12.7,
+        "private_and_other_rented": 2100,
+        "private_and_other_rented0": 35.8
+      },
+      {
+        "2016_ward_code": "E05010885",
+        "2016_ward_name": "Ashley",
+        "total_number_of_households": 7700,
+        "owned": 2978,
+        "owned0": 38.7,
+        "social_rented": 1978,
+        "social_rented0": 25.7,
+        "private_and_other_rented": 2744,
+        "private_and_other_rented0": 35.6
+      },
+      {
+        "2016_ward_code": "E05010897",
+        "2016_ward_name": "Eastville",
+        "total_number_of_households": 5790,
+        "owned": 3167,
+        "owned0": 54.7,
+        "social_rented": 917,
+        "social_rented0": 15.8,
+        "private_and_other_rented": 1706,
+        "private_and_other_rented0": 29.5
+      },
+      {
+        "2016_ward_code": "E05010891",
+        "2016_ward_name": "Brislington West",
+        "total_number_of_households": 4641,
+        "owned": 3087,
+        "owned0": 66.5,
+        "social_rented": 647,
+        "social_rented0": 13.9,
+        "private_and_other_rented": 907,
+        "private_and_other_rented0": 19.5
+      },
+      {
+        "2016_ward_code": "E05010915",
+        "2016_ward_name": "Stockwood",
+        "total_number_of_households": 4905,
+        "owned": 3514,
+        "owned0": 71.6,
+        "social_rented": 944,
+        "social_rented0": 19.2,
+        "private_and_other_rented": 447,
+        "private_and_other_rented0": 9.1
+      },
+      {
+        "2016_ward_code": "E05010900",
+        "2016_ward_name": "Hartcliffe & Withywood",
+        "total_number_of_households": 7607,
+        "owned": 2988,
+        "owned0": 39.3,
+        "social_rented": 3986,
+        "social_rented0": 52.4,
+        "private_and_other_rented": 633,
+        "private_and_other_rented0": 8.3
+      },
+      {
+        "2016_ward_code": "E05010908",
+        "2016_ward_name": "Lockleaze",
+        "total_number_of_households": 4837,
+        "owned": 2497,
+        "owned0": 51.6,
+        "social_rented": 1382,
+        "social_rented0": 28.6,
+        "private_and_other_rented": 958,
+        "private_and_other_rented0": 19.8
+      },
+      {
+        "2016_ward_code": "E05010913",
+        "2016_ward_name": "Southmead",
+        "total_number_of_households": 5113,
+        "owned": 2541,
+        "owned0": 49.7,
+        "social_rented": 1834,
+        "social_rented0": 35.9,
+        "private_and_other_rented": 738,
+        "private_and_other_rented0": 14.4
+      },
+      {
+        "2016_ward_code": "E05010916",
+        "2016_ward_name": "Stoke Bishop",
+        "total_number_of_households": 4292,
+        "owned": 3230,
+        "owned0": 75.3,
+        "social_rented": 511,
+        "social_rented0": 11.9,
+        "private_and_other_rented": 551,
+        "private_and_other_rented0": 12.8
+      },
+      {
+        "2016_ward_code": "E05010906",
+        "2016_ward_name": "Knowle",
+        "total_number_of_households": 5262,
+        "owned": 3560,
+        "owned0": 67.7,
+        "social_rented": 953,
+        "social_rented0": 18.1,
+        "private_and_other_rented": 749,
+        "private_and_other_rented0": 14.2
+      },
+      {
+        "2016_ward_code": "E05010902",
+        "2016_ward_name": "Hengrove & Whitchurch Park",
+        "total_number_of_households": 7287,
+        "owned": 5452,
+        "owned0": 74.8,
+        "social_rented": 1010,
+        "social_rented0": 13.9,
+        "private_and_other_rented": 825,
+        "private_and_other_rented0": 11.3
+      },
+      {
+        "2016_ward_code": "E05010894",
+        "2016_ward_name": "Clifton Down",
+        "total_number_of_households": 5007,
+        "owned": 1936,
+        "owned0": 38.7,
+        "social_rented": 201,
+        "social_rented0": 4,
+        "private_and_other_rented": 2870,
+        "private_and_other_rented0": 57.3
+      },
+      {
+        "2016_ward_code": "E05010899",
+        "2016_ward_name": "Frome Vale",
+        "total_number_of_households": 5176,
+        "owned": 3141,
+        "owned0": 60.7,
+        "social_rented": 1085,
+        "social_rented0": 21,
+        "private_and_other_rented": 950,
+        "private_and_other_rented0": 18.4
+      },
+      {
+        "2016_ward_code": "E05010904",
+        "2016_ward_name": "Horfield",
+        "total_number_of_households": 4907,
+        "owned": 2625,
+        "owned0": 53.5,
+        "social_rented": 1094,
+        "social_rented0": 22.3,
+        "private_and_other_rented": 1188,
+        "private_and_other_rented0": 24.2
+      },
+      {
+        "2016_ward_code": "E05010890",
+        "2016_ward_name": "Brislington East",
+        "total_number_of_households": 4972,
+        "owned": 3321,
+        "owned0": 66.8,
+        "social_rented": 786,
+        "social_rented0": 15.8,
+        "private_and_other_rented": 865,
+        "private_and_other_rented0": 17.4
+      },
+      {
+        "2016_ward_code": "E05010917",
+        "2016_ward_name": "Westbury-on-Trym & Henleaze",
+        "total_number_of_households": 8035,
+        "owned": 6593,
+        "owned0": 82.1,
+        "social_rented": 458,
+        "social_rented0": 5.7,
+        "private_and_other_rented": 984,
+        "private_and_other_rented0": 12.2
+      },
+      {
+        "2016_ward_code": "E05010907",
+        "2016_ward_name": "Lawrence Hill",
+        "total_number_of_households": 7077,
+        "owned": 1475,
+        "owned0": 20.8,
+        "social_rented": 3545,
+        "social_rented0": 50.1,
+        "private_and_other_rented": 2057,
+        "private_and_other_rented0": 29.1
+      },
+      {
+        "2016_ward_code": "E05010903",
+        "2016_ward_name": "Hillfields",
+        "total_number_of_households": 4871,
+        "owned": 3024,
+        "owned0": 62.1,
+        "social_rented": 871,
+        "social_rented0": 17.9,
+        "private_and_other_rented": 976,
+        "private_and_other_rented0": 20
+      },
+      {
+        "2016_ward_code": "E05010886",
+        "2016_ward_name": "Avonmouth & Lawrence Weston",
+        "total_number_of_households": 8668,
+        "owned": 4740,
+        "owned0": 54.7,
+        "social_rented": 2903,
+        "social_rented0": 33.5,
+        "private_and_other_rented": 1025,
+        "private_and_other_rented0": 11.8
+      },
+      {
+        "2016_ward_code": "E05010887",
+        "2016_ward_name": "Bedminster",
+        "total_number_of_households": 5288,
+        "owned": 3236,
+        "owned0": 61.2,
+        "social_rented": 697,
+        "social_rented0": 13.2,
+        "private_and_other_rented": 1355,
+        "private_and_other_rented0": 25.6
+      },
+      {
+        "2016_ward_code": "E05010912",
+        "2016_ward_name": "St George West",
+        "total_number_of_households": 2915,
+        "owned": 1452,
+        "owned0": 49.8,
+        "social_rented": 469,
+        "social_rented0": 16.1,
+        "private_and_other_rented": 994,
+        "private_and_other_rented0": 34.1
+      },
+      {
+        "2016_ward_code": "E05010895",
+        "2016_ward_name": "Cotham",
+        "total_number_of_households": 4855,
+        "owned": 1984,
+        "owned0": 40.9,
+        "social_rented": 345,
+        "social_rented0": 7.1,
+        "private_and_other_rented": 2526,
+        "private_and_other_rented0": 52
+      },
+      {
+        "2016_ward_code": "E05010918",
+        "2016_ward_name": "Windmill Hill",
+        "total_number_of_households": 5834,
+        "owned": 3188,
+        "owned0": 54.6,
+        "social_rented": 878,
+        "social_rented0": 15,
+        "private_and_other_rented": 1768,
+        "private_and_other_rented0": 30.3
+      },
+      {
+        "2016_ward_code": "E05010914",
+        "2016_ward_name": "Southville",
+        "total_number_of_households": 5331,
+        "owned": 2472,
+        "owned0": 46.4,
+        "social_rented": 970,
+        "social_rented0": 18.2,
+        "private_and_other_rented": 1889,
+        "private_and_other_rented0": 35.4
+      }
+    ]
+  },
+  "height": 300,
+  "width": 350,
+  "mark": {
+    "type": "bar",
+    "color": "#3f0abb"
+  },
+  "transform": [
+    {
+      "sort": [
+        {
+          "field": "private_and_other_rented"
+        }
+      ],
+      "window": [
+        {
+          "op": "sum",
+          "field": "private_and_other_rented",
+          "as": "Cumulative Count"
+        }
+      ],
+      "frame": [
+        null,
+        0
+      ]
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "2016_ward_name",
+      "type": "nominal",
+      "sort": "y",
+      "axis": {
+        "title": null,
+        "grid": false,
+        "ticks": false
+      }
+    },
+    "y": {
+      "field": "private_and_other_rented",
+      "type": "quantitative",
+      "title": "Number of rented properties",
+      "axis": {
+        "grid": false
+      }
+    },
+    "tooltip": [
+      {
+        "field": "private_and_other_rented",
+        "title": "Number of rented houses"
+      },
+      {
+        "field": "2016_ward_name",
+        "title": "Area"
+      }
+    ],
+    "color": {
+      "condition": [
+        {
+          "value": "red",
+          "test": {
+            "field": "2016_ward_name",
+            "oneOf": [
+              "Bishopsworth",
+              "Henbury & Brentry",
+              "Stockwood",
+              "Hartcliffe & Withywood",
+              "Hengrove & Whitchurch Park",
+              "Brislington East",
+              "Westbury-on-Trym & Henleaze",
+              "Avonmouth & Lawrence Weston"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,141 @@
+{
+  "id": "vl_1253",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "681902d81ef95777cbcf8247072ebad07744c736188ee59870bb6b6e6454e8e8",
+      "actions": 10,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0ab9daea2681d8979500503ccf45aaa9aee4326f90aac626da41cb2cc76edc24",
+      "actions": 12,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b06edb4e44b9af1dc1244878bdcfd8bddf7efb21187c217619ab07cbc345f356",
+      "actions": 14,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "5160cdd9e8ccaa8b7d21349beeee207baff9de26e293c4f1acb55b9409114438",
+      "actions": 15,
+      "topOptions": 28
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "3f3c188e8ab5a9e63494b5c51174bf08f1ebe4d9f82f3163ae2967cae66db7dc",
+      "actions": 17,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "7c3f117961bb90eb24cc212286be8760001e0755007308c8f41f1b9dd0f6c457",
+      "actions": 21,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "828ce3c7e5116a4dabdd4044103e3b3aee2f643dcd18ba25f3b794263a498b28",
+      "actions": 23,
+      "topOptions": 38
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "768dbb864d6491e9e2a7863040b5e58ef4887ae1fb92b242e76ce4e7a4c7e711",
+      "actions": 24,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/google/dopamine/a6f414ca01a81e933359a4922965178a40e0f38a/baselines/atari/data/hero.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful equivalent programs preserve source/raw/CI/math/geometry and both requiredhighlevel facades. Gridrequires onlysourcecolor; no duplicated values/scales. Two redundant defaultlinewidth leaves omitted during wholepaint refinement. Allactions<=3options/all8exactnativeSVG. Stop at cap, notexhaustion."
+  },
+  "historicalRuntimeCommits": [
+    "e93500081b6dde6be7614e3e9352e947bec5908d"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "4b6fb26a14b9b7f9cfc83ff56082cb7cb98777ad639fb0d42a4a20607d2635c7",
+      "bytes": 986
+    },
+    "data.json": {
+      "sha256": "866134e5dad4b58ad5ab16801dcafee0ac031612fbab4f3329b0c52d24b1a9be",
+      "bytes": 520147
+    },
+    "resolved-source.vl.json": {
+      "sha256": "00ef78f5788c7b1bc93ab20e34550541d2f8069af4b547ce43a0df277752973a",
+      "bytes": 640495
+    },
+    "G1.gg.mjs": {
+      "sha256": "681902d81ef95777cbcf8247072ebad07744c736188ee59870bb6b6e6454e8e8",
+      "bytes": 7745
+    },
+    "G2.gg.mjs": {
+      "sha256": "0ab9daea2681d8979500503ccf45aaa9aee4326f90aac626da41cb2cc76edc24",
+      "bytes": 7753
+    },
+    "G3.gg.mjs": {
+      "sha256": "b06edb4e44b9af1dc1244878bdcfd8bddf7efb21187c217619ab07cbc345f356",
+      "bytes": 7691
+    },
+    "G4.gg.mjs": {
+      "sha256": "5160cdd9e8ccaa8b7d21349beeee207baff9de26e293c4f1acb55b9409114438",
+      "bytes": 7739
+    },
+    "G5.gg.mjs": {
+      "sha256": "3f3c188e8ab5a9e63494b5c51174bf08f1ebe4d9f82f3163ae2967cae66db7dc",
+      "bytes": 7869
+    },
+    "G6.gg.mjs": {
+      "sha256": "7c3f117961bb90eb24cc212286be8760001e0755007308c8f41f1b9dd0f6c457",
+      "bytes": 7873
+    },
+    "G7.gg.mjs": {
+      "sha256": "828ce3c7e5116a4dabdd4044103e3b3aee2f643dcd18ba25f3b794263a498b28",
+      "bytes": 7855
+    },
+    "G8.gg.mjs": {
+      "sha256": "768dbb864d6491e9e2a7863040b5e58ef4887ae1fb92b242e76ce4e7a4c7e711",
+      "bytes": 7859
+    },
+    "vega-lite.svg": {
+      "sha256": "b50d8eea1c92fce7474c5f57b2640a33a34a1cdf7b211175b324df9a96719372",
+      "bytes": 66710
+    },
+    "ggaction.svg": {
+      "sha256": "9f0af632348cdf4e8b8da74d51f77fbaac3a67c465837800aef35f82fb41a84e",
+      "bytes": 101807
+    },
+    "source-reference-policy.json": {
+      "sha256": "b0eb05e0cfe91fc191db111da5608b5727df950067fa9c2905792914657f09a7",
+      "bytes": 1624
+    },
+    "vega-lite-unseeded.svg": {
+      "sha256": "425105ddd519c45b4b306dcde88f0caa4d02fe93da6badbfd7adc0633847604f",
+      "bytes": 66712
+    }
+  },
+  "referencePolicy": {
+    "metadata": "source-reference-policy.json",
+    "environmentSeed": 1,
+    "originalSourceAuthoredSeed": false,
+    "historicalUnseededSvg": "vega-lite-unseeded.svg"
+  }
+}
