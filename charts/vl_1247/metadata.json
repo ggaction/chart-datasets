@@ -1,0 +1,141 @@
+{
+  "id": "vl_1247",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ca00569992eea810637ba8745dfb08d77d85d5473edc9662c9ae6bc0a1d12410",
+      "actions": 10,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f89a7cbc38795d988232909a131e087e64bd65a217965f3159ef901afb877689",
+      "actions": 12,
+      "topOptions": 24
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "69c568553391c2da58943a7e1c2ea7fe1fa1ced15b8fcd3f8dadce5548d73919",
+      "actions": 13,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3c790403f2c3bfd95daec1029970a488a1f54fbdf22491cb07f9f1acd9dc1435",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c620629020e4e09598b4befc5973e2bb12f40ac76880d7088d46214fa3a9485b",
+      "actions": 19,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "11231b9506e89f46ec823a3fecfa02a5490248c5637ab0e6259457bb2b3f2013",
+      "actions": 21,
+      "topOptions": 36
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "95a7862350bd351b47f3d6c6577b403c7fa78f3e8a5425e965520b09b5016de3",
+      "actions": 22,
+      "topOptions": 37
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "99334820ee72a7686d2ec47ce71a17aede4b8a8f0fbc0439c41d845f77831021",
+      "actions": 23,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/google/dopamine/a6f414ca01a81e933359a4922965178a40e0f38a/baselines/atari/data/wizardofwor.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "RootreadwholeactualSchoolG1and everyactualSchoolAFTERbeforeexecution; eightmeaningful10/12/13/15/19/21/22/23actions retainbothfacades/source5970raw/5.97mdraws/34axisglyphs/41styles andnativeSVGPNG exact, allcalls<=3keys. HeaderV2 firstuseactualimports present; redundantgridscales removedONLYwithinmeaningfulG2, noextraStage. Cap8notexhaustion."
+  },
+  "historicalRuntimeCommits": [
+    "e93500081b6dde6be7614e3e9352e947bec5908d"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "83f51aa8df0b5c1ee460aa0734a2baffe546d44b8052177c4ba13936ee7f350a",
+      "bytes": 993
+    },
+    "data.json": {
+      "sha256": "e73adacfd554a391c40ec05c941500683825090debea9176d3a5f3c87ccd76a6",
+      "bytes": 518967
+    },
+    "resolved-source.vl.json": {
+      "sha256": "34367402d20ceeb070c50274c8163dd70407382146ab40147c437868a4da93f7",
+      "bytes": 639315
+    },
+    "G1.gg.mjs": {
+      "sha256": "ca00569992eea810637ba8745dfb08d77d85d5473edc9662c9ae6bc0a1d12410",
+      "bytes": 3009
+    },
+    "G2.gg.mjs": {
+      "sha256": "f89a7cbc38795d988232909a131e087e64bd65a217965f3159ef901afb877689",
+      "bytes": 2919
+    },
+    "G3.gg.mjs": {
+      "sha256": "69c568553391c2da58943a7e1c2ea7fe1fa1ced15b8fcd3f8dadce5548d73919",
+      "bytes": 2975
+    },
+    "G4.gg.mjs": {
+      "sha256": "3c790403f2c3bfd95daec1029970a488a1f54fbdf22491cb07f9f1acd9dc1435",
+      "bytes": 3135
+    },
+    "G5.gg.mjs": {
+      "sha256": "c620629020e4e09598b4befc5973e2bb12f40ac76880d7088d46214fa3a9485b",
+      "bytes": 3131
+    },
+    "G6.gg.mjs": {
+      "sha256": "11231b9506e89f46ec823a3fecfa02a5490248c5637ab0e6259457bb2b3f2013",
+      "bytes": 3121
+    },
+    "G7.gg.mjs": {
+      "sha256": "95a7862350bd351b47f3d6c6577b403c7fa78f3e8a5425e965520b09b5016de3",
+      "bytes": 3146
+    },
+    "G8.gg.mjs": {
+      "sha256": "99334820ee72a7686d2ec47ce71a17aede4b8a8f0fbc0439c41d845f77831021",
+      "bytes": 3198
+    },
+    "vega-lite.svg": {
+      "sha256": "a0b4e6b25b6d17364211c5c89e2bd79a1e623f9836e6445b55ff000fc10182bd",
+      "bytes": 66317
+    },
+    "ggaction.svg": {
+      "sha256": "6976a989dc2c39970b83fb2b216a4409f6cb6424ea4c2ccf7c585186d42c6fce",
+      "bytes": 100715
+    },
+    "source-reference-policy.json": {
+      "sha256": "6863c7e463d42cd428a1a5d02a4c88c7c89738e1c7e491f21749a4ec15b0d915",
+      "bytes": 1624
+    },
+    "vega-lite-unseeded.svg": {
+      "sha256": "7bdd9a97f384bbb707b17cbd0559855db39f1925a74d3c9e5f900138e8bdda11",
+      "bytes": 66295
+    }
+  },
+  "referencePolicy": {
+    "metadata": "source-reference-policy.json",
+    "environmentSeed": 1,
+    "originalSourceAuthoredSeed": false,
+    "historicalUnseededSvg": "vega-lite-unseeded.svg"
+  }
+}

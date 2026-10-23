@@ -1,0 +1,140 @@
+{
+  "id": "vl_1858",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "808500689fb53d5adbc7c5fe079b2e3754641c4d292d9e11fd7b857cf55f602b",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ca7ef88d455a2892c14563204449a0b9a0899e4c702471667faa6004d0e9f1f6",
+      "actions": 14,
+      "topOptions": 34
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b81574e9639ee8d64d34f6cbc65a1888f81d028e3db1dfb5bf27aa40135835bc",
+      "actions": 15,
+      "topOptions": 38
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "68f8f4cf00654365bbad899f7d3f5ca36ee5cd06facf24e7378c7ac7d41c62d2",
+      "actions": 16,
+      "topOptions": 38
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "1e40647d3149a6fee8215e98c364f04ba7b9bd8c325b2b2d702c99820b46c580",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "4ae2ab1277629c69341c9f0d4bca61bc87c3bec6d3a1b16784a398b834d79981",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "4a92ed9904c865f53cf4a35d5ba235cbfe18b84e9ca94f00b80f33b36ffc7fa6",
+      "actions": 19,
+      "topOptions": 40
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "cbc53e2a0fd6b17a99ad91997531dbbf3c46bd6e4bfa62db4825d7900cda9195",
+      "actions": 20,
+      "topOptions": 41
+    }
+  ],
+  "sourceUrls": [
+    "https://gicentre.github.io/scrc/data/flows/scotLAsFlows.csv",
+    "https://gicentre.github.io/scrc/data/geo/scotLACentroids.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages13/14/15/16/17/18/19/20actions.802originalCSVSTRINGflows and32originalreference rows shared across two identical frozen descriptors, both key/alias/lineage lookups and separate numericValue preserved. All802cell positions/sizes/white2px outlines and existingRGB1 colors verified;67nonlegendglyphbounds/styles exact,sourcevisiblelegendvalues/one originalfont-boxpair retained anddisclosed.617x560frame/400x400plot, source-measured gradient spacing necessary versus native default619.75width. AllnativeSVG/PNG exact across8actualSchoolstages;complete axes precedeownededits,allcalls<=3,noFontMetrics. Eight-stagecap,notexhaustion;noimages."
+  },
+  "historicalRuntimeCommits": [
+    "f507da9795004bc7142a998f0ef0880ac9c00040"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "23a650011443a9f69102c807c6eecebce2566a66c64688c5b00960a8ee86ac20",
+      "bytes": 1814
+    },
+    "data.json": {
+      "sha256": "6846436829a913e223e6f0eb58864ea4276d2c5e0b29f7e15f99d1c83cc716d4",
+      "bytes": 213618
+    },
+    "resolved-source.vl.json": {
+      "sha256": "11163a82ed2b1308997ad4be37649917af03784eab63c18543cda7a9d90d94f4",
+      "bytes": 264548
+    },
+    "data-lookup-0.json": {
+      "sha256": "cfa27da9fac4f684cbdc0a869785955cc764239df02cf2309ab903d8f823a900",
+      "bytes": 3467
+    },
+    "data-lookup-1.json": {
+      "sha256": "cfa27da9fac4f684cbdc0a869785955cc764239df02cf2309ab903d8f823a900",
+      "bytes": 3467
+    },
+    "G1.gg.mjs": {
+      "sha256": "808500689fb53d5adbc7c5fe079b2e3754641c4d292d9e11fd7b857cf55f602b",
+      "bytes": 4510
+    },
+    "G2.gg.mjs": {
+      "sha256": "ca7ef88d455a2892c14563204449a0b9a0899e4c702471667faa6004d0e9f1f6",
+      "bytes": 4457
+    },
+    "G3.gg.mjs": {
+      "sha256": "b81574e9639ee8d64d34f6cbc65a1888f81d028e3db1dfb5bf27aa40135835bc",
+      "bytes": 4378
+    },
+    "G4.gg.mjs": {
+      "sha256": "68f8f4cf00654365bbad899f7d3f5ca36ee5cd06facf24e7378c7ac7d41c62d2",
+      "bytes": 4385
+    },
+    "G5.gg.mjs": {
+      "sha256": "1e40647d3149a6fee8215e98c364f04ba7b9bd8c325b2b2d702c99820b46c580",
+      "bytes": 4392
+    },
+    "G6.gg.mjs": {
+      "sha256": "4ae2ab1277629c69341c9f0d4bca61bc87c3bec6d3a1b16784a398b834d79981",
+      "bytes": 4407
+    },
+    "G7.gg.mjs": {
+      "sha256": "4a92ed9904c865f53cf4a35d5ba235cbfe18b84e9ca94f00b80f33b36ffc7fa6",
+      "bytes": 4432
+    },
+    "G8.gg.mjs": {
+      "sha256": "cbc53e2a0fd6b17a99ad91997531dbbf3c46bd6e4bfa62db4825d7900cda9195",
+      "bytes": 4444
+    },
+    "raw-inputs.json": {
+      "sha256": "b03f7b133fd7c3b0ae84afd38741dfd99ba5a70933bd5d4358ee45cdafcb6a2e",
+      "bytes": 8869
+    },
+    "vega-lite.svg": {
+      "sha256": "5f2fabd75f3e7bf02a00fef9f4682ced8bf92f1730ffc69c8a17f49132d3054d",
+      "bytes": 248792
+    },
+    "ggaction.svg": {
+      "sha256": "f8d830288139e052627c6b42f07f61636a7b7f8d5b6fc23fe7b2dfba8922409d",
+      "bytes": 119183
+    }
+  }
+}

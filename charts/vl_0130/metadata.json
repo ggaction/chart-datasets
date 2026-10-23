@@ -1,0 +1,133 @@
+{
+  "id": "vl_0130",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f1635b721d1a1bbc787add3a1ff30b17ef759cc9a6d4c64b22897a6c498e869d",
+      "actions": 12,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "808cb333e5015a15bf1a1b8fdbce5205346695cb8e9c1eb1d79816d0bba3fd61",
+      "actions": 14,
+      "topOptions": 30
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "019ec7ef687593b19652a5f8fff75fef6c2bef2fffe32370ea2e75ee28989802",
+      "actions": 16,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4e59327016119d6e98e50e2410f678ab4478f4dfda0dc72e3e71e00814c27d6d",
+      "actions": 17,
+      "topOptions": 34
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "6b9c82a6bab0a7009d04b0a1310c25338b16f58a359eaead9e7dbd5c0e80e7c3",
+      "actions": 20,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "68609c61ef0cca6e095c73119cde104d0179358d068d52840e3a91863218f363",
+      "actions": 26,
+      "topOptions": 49
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "551f140322ba165e90e13fe1bc49db019464a2cfa85ff62290b4d5ceac3e6794",
+      "actions": 26,
+      "topOptions": 49
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "e2e8ee6206fb64d34adaf23c4f69fb6fa0aeeb541adbcaf742f2acb26e0ae2df",
+      "actions": 30,
+      "topOptions": 59
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful source-equivalent levels verified; cap reached without claiming all finer design edits are exhausted. All original raw rows including the exactzero are retained; only its proven empty-ink primitive is omitted."
+  },
+  "historicalRuntimeCommits": [
+    "c7cbee6f9d703b7f81b75894e1c2c90938353d5a"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "73bae244db638c9648a5181f71da94afa680170d72194383ffacd34e4d5a2d10",
+      "bytes": 207656
+    },
+    "data.json": {
+      "sha256": "d4c35d94da1c802aff1fe4eae692866ad45d8e576c73b55b4f867fca8cbf52f4",
+      "bytes": 163951
+    },
+    "resolved-source.vl.json": {
+      "sha256": "4b5c0db97a4d47702ef208f6e38271bf55a03ef5ec25bd009a651361ebe8e720",
+      "bytes": 427868
+    },
+    "bar-data.json": {
+      "sha256": "22abf935282435e699875a61601d49e222527f18a2d6f299e68971fa8d23f59e",
+      "bytes": 10179
+    },
+    "G1.gg.mjs": {
+      "sha256": "f1635b721d1a1bbc787add3a1ff30b17ef759cc9a6d4c64b22897a6c498e869d",
+      "bytes": 4751
+    },
+    "G2.gg.mjs": {
+      "sha256": "808cb333e5015a15bf1a1b8fdbce5205346695cb8e9c1eb1d79816d0bba3fd61",
+      "bytes": 4585
+    },
+    "G3.gg.mjs": {
+      "sha256": "019ec7ef687593b19652a5f8fff75fef6c2bef2fffe32370ea2e75ee28989802",
+      "bytes": 4644
+    },
+    "G4.gg.mjs": {
+      "sha256": "4e59327016119d6e98e50e2410f678ab4478f4dfda0dc72e3e71e00814c27d6d",
+      "bytes": 4669
+    },
+    "G5.gg.mjs": {
+      "sha256": "6b9c82a6bab0a7009d04b0a1310c25338b16f58a359eaead9e7dbd5c0e80e7c3",
+      "bytes": 4934
+    },
+    "G6.gg.mjs": {
+      "sha256": "68609c61ef0cca6e095c73119cde104d0179358d068d52840e3a91863218f363",
+      "bytes": 5060
+    },
+    "G7.gg.mjs": {
+      "sha256": "551f140322ba165e90e13fe1bc49db019464a2cfa85ff62290b4d5ceac3e6794",
+      "bytes": 4994
+    },
+    "G8.gg.mjs": {
+      "sha256": "e2e8ee6206fb64d34adaf23c4f69fb6fa0aeeb541adbcaf742f2acb26e0ae2df",
+      "bytes": 5157
+    },
+    "raw-inputs.json": {
+      "sha256": "d8b1089beedf2799e60d7c559fcc96871e7d604cc25a0d98b7463ed7173fc1f5",
+      "bytes": 7271
+    },
+    "vega-lite.svg": {
+      "sha256": "69473b1f9a2cf7a6b8ecf42f19e019a372bc5c5d0ded62d2a50cddb294c95315",
+      "bytes": 44336
+    },
+    "ggaction.svg": {
+      "sha256": "c8fb603abf1f6745705dabcc76145996686f101ef24385d0d5b3d131d7488b00",
+      "bytes": 39057
+    }
+  }
+}

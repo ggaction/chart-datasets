@@ -19,7 +19,10 @@ let rows=ids.map(id=>({id,browser:'controlled-test-renderer',status:'passed',sta
 if(mode==='duplicate')rows[1]={...rows[1],id:rows[0].id};
 if(mode==='wrong-count')rows.pop();
 if(mode==='wrong-order')rows.reverse();
+if(mode==='reported-difference'&&ids.includes('vl_0001'))rows[0].status='different';
 await writeFile(process.env.RESULT_FILE,JSON.stringify(rows));
+if(mode==='reported-difference'&&ids.includes('vl_0001'))process.exit(1);
+if(mode==='contradictory-exit')process.exit(1);
 `;
 async function exists(file){try{await access(file);return true;}catch(error){if(error.code==='ENOENT')return false;throw error;}}
 async function fixture(mode,sourceIds=ids){
@@ -63,4 +66,13 @@ test('runs separate chart chunks without overlapping renderer processes',async()
   assert.equal(report.charts,13);assert.equal(report.passed,13);
   assert.deepEqual(report.results.map(row=>row.id),sourceIds);
  }finally{await rm(f.root,{recursive:true,force:true});}
+});
+
+test('a fresh explicit difference is collected with later chunks and the complete report still fails',async()=>{
+ const sourceIds=Array.from({length:13},(_,index)=>'vl_'+String(index+1).padStart(4,'0'));
+ const f=await fixture('reported-difference',sourceIds);
+ try{assert.notEqual(f.run.status,0);const r=JSON.parse(await readFile(f.report,'utf8'));assert.equal(r.charts,13);assert.equal(r.passed,12);assert.equal(r.results[0].status,'different');assert.equal(r.results.at(-1).id,'vl_0013');}finally{await rm(f.root,{recursive:true,force:true});}
+});
+test('a failed child cannot claim success through a fresh all-passed chunk',async()=>{
+ const f=await fixture('contradictory-exit');try{assert.notEqual(f.run.status,0);assert.equal(await exists(f.report),false);}finally{await rm(f.root,{recursive:true,force:true});}
 });

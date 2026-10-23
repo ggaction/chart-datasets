@@ -1,0 +1,162 @@
+import { chart } from "ggaction";
+import terms from "./data.json";
+import people from "./data-lookup-0.json";
+
+// encodeStroke maps gender_bio to the point outline (doc-0aeb285fc35388df)
+export function buildChart() {
+  return chart()
+    .createCanvas({
+      plot: { width: 200, height: 1340 },
+      margin: { left: 155, top: 5, right: 83, bottom: 37 },
+      plotBorder: {}
+    })
+    .createData({ values: people })
+    .createData({ id: "terms", values: terms })
+    .createLookupData({
+      id: "joined",
+      field: "bioguide",
+      lookup: { data: "data", key: "bioguide_id", fields: ["gender_bio", "birthday_bio"] }
+    })
+    .createComputedData({
+      id: "sourceTime",
+      as: "sourceBirthdayYear",
+      expression: {
+        op: "if",
+        condition: { op: "eq", left: { field: "birthday_bio" }, right: { constant: "" } },
+        then: { constant: 0 },
+        else: { constant: null }
+      }
+    })
+    .createScatterPlot({
+      x: { field: "sourceBirthdayYear", fieldType: "temporal", scale: { unknown: 155 } },
+      y: {
+        field: "party",
+        fieldType: "nominal",
+        scale: {
+          domain: [
+            "",
+            "AL",
+            "Adams",
+            "Adams Democrat",
+            "American",
+            "American Labor",
+            "Anti Jackson",
+            "Anti Jacksonian",
+            "Anti Mason",
+            "Anti Masonic",
+            "Anti-Administration",
+            "Anti-Jacksonian",
+            "Anti-Lecompton Democrat",
+            "Anti-administration",
+            "Coalitionist",
+            "Conservative",
+            "Conservative Republican",
+            "Constitutional Unionist",
+            "Crawford Republican",
+            "Democrat",
+            "Democrat-Liberal",
+            "Democratic Republican",
+            "Democratic and Union Labor",
+            "Farmer-Labor",
+            "Federalist",
+            "Free Silver",
+            "Free Soil",
+            "Ind. Democrat",
+            "Ind. Republican",
+            "Ind. Republican-Democrat",
+            "Ind. Whig",
+            "Independent",
+            "Independent Democrat",
+            "Jackson",
+            "Jackson Republican",
+            "Jacksonian",
+            "Jacksonian Republican",
+            "Law and Order",
+            "Liberal",
+            "Liberal Republican",
+            "Liberty",
+            "National Greenbacker",
+            "New Progressive",
+            "Nonpartisan",
+            "Nullifier",
+            "Popular Democrat",
+            "Populist",
+            "Pro-Administration",
+            "Pro-administration",
+            "Progressive",
+            "Progressive Republican",
+            "Prohibitionist",
+            "Readjuster",
+            "Readjuster Democrat",
+            "Republican",
+            "Republican-Conservative",
+            "Silver",
+            "Silver Republican",
+            "Socialist",
+            "States Rights",
+            "Unconditional Unionist",
+            "Union",
+            "Union Democrat",
+            "Union Labor",
+            "Unionist",
+            "Unknown",
+            "Whig"
+          ]
+        }
+      },
+      guides: false
+    })
+    .encodeStroke({ field: "gender_bio" })
+    .editStrokeScale({ target: "scatterPlot", domain: ["F", "M"] })
+    .editPointMark({ fill: "transparent", strokeWidth: 2, opacity: 0.7 })
+    .encodePointRadius({ value: 2.739 })
+    .createXAxis({
+      ticksAndLabels: {
+        ticks: { length: 5 },
+        labels: { fontSize: 10, offset: 5.5, alongOffset: 0.5, flush: true, format: "%Y" }
+      },
+      title: {
+        text: "birthday_bio (year)",
+        fontSize: 11,
+        fontWeight: 700,
+        offset: 27.578125,
+        alongOffset: 0.5
+      }
+    })
+    .createYAxis({
+      ticksAndLabels: {
+        ticks: { length: 5 },
+        labels: {
+          fontSize: 10,
+          offset: 6.5,
+          alongOffset: 0.890625,
+          labelMap: [{ value: "", label: "" }]
+        }
+      },
+      title: {
+        text: "party",
+        fontSize: 11,
+        fontWeight: 700,
+        offset: 142.7119140625,
+        alongOffset: 0.5
+      }
+    })
+    .editXAxisLine({ color: "#888" })
+    .editXAxisTicks({ color: "#888" })
+    .editXAxisLabels({ color: "black" })
+    .editXAxisTitle({ color: "black" })
+    .editYAxisLine({ color: "#888" })
+    .editYAxisTicks({ color: "#888" })
+    .editYAxisLabels({ color: "black" })
+    .editYAxisTitle({ color: "black" })
+    .createGuides({
+      axes: false,
+      grid: { vertical: { color: "#ddd" }, horizontal: false },
+      legend: {
+        labels: { fontSize: 10, color: "black" },
+        titleStyle: { fontSize: 11, fontWeight: 700, color: "black" },
+        symbol: { layers: [{ type: "point", size: 5, fill: "transparent", strokeWidth: 1.5, opacity: 0.7 }] },
+        titlePadding: 3.25
+      }
+    });
+}

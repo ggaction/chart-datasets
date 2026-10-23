@@ -1,0 +1,125 @@
+{
+  "id": "vl_1506",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "bd755cf19c4e5b068046f1ed892dc426eac050f761c7a1d91be4dedb77bc7984",
+      "actions": 9,
+      "topOptions": 18
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "34640b5dfc191ca74705c5050af948d0753b691c406e4f06b40abbe0e4014cdf",
+      "actions": 11,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a93030dbadfae84c4923914e22e36114110189eada6344983a66366f1f1d7750",
+      "actions": 13,
+      "topOptions": 25
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "70657c6154fe728efda9fc12c0febf7d388beb5c5ca7b5baa006714f8d01a5e7",
+      "actions": 14,
+      "topOptions": 29
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "a38e52c4cadfbdf5bf196e4c21841fe040eeb5d78ae0c49cb3d47937ca283f92",
+      "actions": 16,
+      "topOptions": 33
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "ad793fc3e10da932c834e754898a259dff074dafbff5546f50ae42f21cf2a301",
+      "actions": 20,
+      "topOptions": 35
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "8a567d21e6a1ba9200602400daea754abd95c8224be9f0128377a2ccd6fb6f26",
+      "actions": 22,
+      "topOptions": 35
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "7c20a1fe1532ae2efd0fb0dc93f3f0bd179440a9d4667d8aae327cc41dbda5d5",
+      "actions": 23,
+      "topOptions": 36
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight source-equivalent meaningful School-only stages9/11/13/14/16/20/22/23actions, allcalls<=3keys.443ordinary+fresh443ordinary/70independentcoldchecks pass; original42typedrows/42bars/56glyphstyles,49glyphbounds exact plus2literalfloatlabels and5native-defaultlegendconventions. Singleoriginalconcat-child context preserves originalsource bytewise. Noimages."
+  },
+  "historicalRuntimeCommits": [
+    "c2659fbfcb2e22517e80fb33feba6e99226d9ef0"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "7d7d9241eb73bfb0ca710ef005385e7897480204c09e279d935144cf8cae6732",
+      "bytes": 5690
+    },
+    "data.json": {
+      "sha256": "72e99001766084354e60376f1a7d0890730edde9280deddb5a52c3369ca890a9",
+      "bytes": 3628
+    },
+    "resolved-source.vl.json": {
+      "sha256": "67da04f2bc63a18371617c80f86ff3424637b75ea69d6f9ed95c8bbcb850cf68",
+      "bytes": 5587
+    },
+    "G1.gg.mjs": {
+      "sha256": "bd755cf19c4e5b068046f1ed892dc426eac050f761c7a1d91be4dedb77bc7984",
+      "bytes": 3624
+    },
+    "G2.gg.mjs": {
+      "sha256": "34640b5dfc191ca74705c5050af948d0753b691c406e4f06b40abbe0e4014cdf",
+      "bytes": 3604
+    },
+    "G3.gg.mjs": {
+      "sha256": "a93030dbadfae84c4923914e22e36114110189eada6344983a66366f1f1d7750",
+      "bytes": 3608
+    },
+    "G4.gg.mjs": {
+      "sha256": "70657c6154fe728efda9fc12c0febf7d388beb5c5ca7b5baa006714f8d01a5e7",
+      "bytes": 3554
+    },
+    "G5.gg.mjs": {
+      "sha256": "a38e52c4cadfbdf5bf196e4c21841fe040eeb5d78ae0c49cb3d47937ca283f92",
+      "bytes": 3722
+    },
+    "G6.gg.mjs": {
+      "sha256": "ad793fc3e10da932c834e754898a259dff074dafbff5546f50ae42f21cf2a301",
+      "bytes": 3778
+    },
+    "G7.gg.mjs": {
+      "sha256": "8a567d21e6a1ba9200602400daea754abd95c8224be9f0128377a2ccd6fb6f26",
+      "bytes": 3784
+    },
+    "G8.gg.mjs": {
+      "sha256": "7c20a1fe1532ae2efd0fb0dc93f3f0bd179440a9d4667d8aae327cc41dbda5d5",
+      "bytes": 3822
+    },
+    "vega-lite.svg": {
+      "sha256": "8b05815f48d48fd3c5e58993e96723c7141142c8316aef6ec1b8e07fa4aeece0",
+      "bytes": 30243
+    },
+    "ggaction.svg": {
+      "sha256": "391111b7d1d717207b7b23242f7ac5f7372b07796617595c7255077eb6b512f0",
+      "bytes": 26181
+    }
+  }
+}

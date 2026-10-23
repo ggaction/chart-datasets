@@ -1,0 +1,3258 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Volume of Spending",
+    "subtitle": [
+      "Retail Sales Data showing the volume of spending by different sectors",
+      "Source: ONS"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Date": "2015-01-01",
+        "Measure": " Volume ",
+        "Value": " 95.0 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-02-01",
+        "Measure": " Volume ",
+        "Value": " 97.2 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-03-01",
+        "Measure": " Volume ",
+        "Value": " 98.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-04-01",
+        "Measure": " Volume ",
+        "Value": " 100.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-05-01",
+        "Measure": " Volume ",
+        "Value": " 97.3 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-06-01",
+        "Measure": " Volume ",
+        "Value": " 98.7 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-07-01",
+        "Measure": " Volume ",
+        "Value": " 94.4 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-08-01",
+        "Measure": " Volume ",
+        "Value": " 97.4 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-09-01",
+        "Measure": " Volume ",
+        "Value": " 96.8 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-10-01",
+        "Measure": " Volume ",
+        "Value": " 95.2 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-11-01",
+        "Measure": " Volume ",
+        "Value": " 95.9 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-12-01",
+        "Measure": " Volume ",
+        "Value": " 93.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-01-01",
+        "Measure": " Volume ",
+        "Value": " 94.2 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-02-01",
+        "Measure": " Volume ",
+        "Value": " 93.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-03-01",
+        "Measure": " Volume ",
+        "Value": " 90.2 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-04-01",
+        "Measure": " Volume ",
+        "Value": " 91.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-05-01",
+        "Measure": " Volume ",
+        "Value": " 93.3 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-06-01",
+        "Measure": " Volume ",
+        "Value": " 92.0 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-07-01",
+        "Measure": " Volume ",
+        "Value": " 95.5 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-08-01",
+        "Measure": " Volume ",
+        "Value": " 94.3 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-09-01",
+        "Measure": " Volume ",
+        "Value": " 91.9 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-10-01",
+        "Measure": " Volume ",
+        "Value": " 99.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-11-01",
+        "Measure": " Volume ",
+        "Value": " 94.8 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2016-12-01",
+        "Measure": " Volume ",
+        "Value": " 94.5 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-01-01",
+        "Measure": " Volume ",
+        "Value": " 96.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-02-01",
+        "Measure": " Volume ",
+        "Value": " 97.3 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-03-01",
+        "Measure": " Volume ",
+        "Value": " 98.2 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-04-01",
+        "Measure": " Volume ",
+        "Value": " 97.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-05-01",
+        "Measure": " Volume ",
+        "Value": " 96.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-06-01",
+        "Measure": " Volume ",
+        "Value": " 97.5 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-07-01",
+        "Measure": " Volume ",
+        "Value": " 97.0 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-08-01",
+        "Measure": " Volume ",
+        "Value": " 98.8 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-09-01",
+        "Measure": " Volume ",
+        "Value": " 97.4 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-10-01",
+        "Measure": " Volume ",
+        "Value": " 97.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-11-01",
+        "Measure": " Volume ",
+        "Value": " 97.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2017-12-01",
+        "Measure": " Volume ",
+        "Value": " 96.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-01-01",
+        "Measure": " Volume ",
+        "Value": " 95.7 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-02-01",
+        "Measure": " Volume ",
+        "Value": " 95.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-03-01",
+        "Measure": " Volume ",
+        "Value": " 94.3 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-04-01",
+        "Measure": " Volume ",
+        "Value": " 96.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-05-01",
+        "Measure": " Volume ",
+        "Value": " 98.5 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-06-01",
+        "Measure": " Volume ",
+        "Value": " 97.9 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-07-01",
+        "Measure": " Volume ",
+        "Value": " 99.0 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-08-01",
+        "Measure": " Volume ",
+        "Value": " 97.4 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-09-01",
+        "Measure": " Volume ",
+        "Value": " 98.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-10-01",
+        "Measure": " Volume ",
+        "Value": " 98.7 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-11-01",
+        "Measure": " Volume ",
+        "Value": " 99.4 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2018-12-01",
+        "Measure": " Volume ",
+        "Value": " 101.4 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-01-01",
+        "Measure": " Volume ",
+        "Value": " 99.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-02-01",
+        "Measure": " Volume ",
+        "Value": " 99.7 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-03-01",
+        "Measure": " Volume ",
+        "Value": " 102.9 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-04-01",
+        "Measure": " Volume ",
+        "Value": " 104.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-05-01",
+        "Measure": " Volume ",
+        "Value": " 98.2 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-06-01",
+        "Measure": " Volume ",
+        "Value": " 100.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-07-01",
+        "Measure": " Volume ",
+        "Value": " 99.7 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-08-01",
+        "Measure": " Volume ",
+        "Value": " 99.9 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-09-01",
+        "Measure": " Volume ",
+        "Value": " 99.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-10-01",
+        "Measure": " Volume ",
+        "Value": " 99.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-11-01",
+        "Measure": " Volume ",
+        "Value": " 97.0 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2019-12-01",
+        "Measure": " Volume ",
+        "Value": " 98.8 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-01-01",
+        "Measure": " Volume ",
+        "Value": " 101.3 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-02-01",
+        "Measure": " Volume ",
+        "Value": " 101.0 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-03-01",
+        "Measure": " Volume ",
+        "Value": " 65.8 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-04-01",
+        "Measure": " Volume ",
+        "Value": " 32.2 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-05-01",
+        "Measure": " Volume ",
+        "Value": " 39.3 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-06-01",
+        "Measure": " Volume ",
+        "Value": " 66.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-07-01",
+        "Measure": " Volume ",
+        "Value": " 76.8 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-08-01",
+        "Measure": " Volume ",
+        "Value": " 85.5 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-09-01",
+        "Measure": " Volume ",
+        "Value": " 85.8 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-10-01",
+        "Measure": " Volume ",
+        "Value": " 85.9 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-11-01",
+        "Measure": " Volume ",
+        "Value": " 68.2 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2020-12-01",
+        "Measure": " Volume ",
+        "Value": " 83.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-01-01",
+        "Measure": " Volume ",
+        "Value": " 53.0 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-02-01",
+        "Measure": " Volume ",
+        "Value": " 51.0 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-03-01",
+        "Measure": " Volume ",
+        "Value": " 59.4 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-04-01",
+        "Measure": " Volume ",
+        "Value": " 98.9 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-05-01",
+        "Measure": " Volume ",
+        "Value": " 93.3 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-06-01",
+        "Measure": " Volume ",
+        "Value": " 90.5 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-07-01",
+        "Measure": " Volume ",
+        "Value": " 88.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-08-01",
+        "Measure": " Volume ",
+        "Value": " 94.2 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-09-01",
+        "Measure": " Volume ",
+        "Value": " 95.4 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-10-01",
+        "Measure": " Volume ",
+        "Value": " 99.5 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-11-01",
+        "Measure": " Volume ",
+        "Value": " 100.8 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2021-12-01",
+        "Measure": " Volume ",
+        "Value": " 90.4 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2022-01-01",
+        "Measure": " Volume ",
+        "Value": " 89.3 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2022-02-01",
+        "Measure": " Volume ",
+        "Value": " 99.0 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2022-03-01",
+        "Measure": " Volume ",
+        "Value": " 98.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2022-04-01",
+        "Measure": " Volume ",
+        "Value": " 98.6 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2022-05-01",
+        "Measure": " Volume ",
+        "Value": " 101.1 ",
+        "Category": "Clothing"
+      },
+      {
+        "Date": "2015-01-01",
+        "Measure": " Volume ",
+        "Value": " 93.4 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-02-01",
+        "Measure": " Volume ",
+        "Value": " 93.6 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-03-01",
+        "Measure": " Volume ",
+        "Value": " 94.3 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-04-01",
+        "Measure": " Volume ",
+        "Value": " 94.2 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-05-01",
+        "Measure": " Volume ",
+        "Value": " 94.3 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-06-01",
+        "Measure": " Volume ",
+        "Value": " 94.5 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-07-01",
+        "Measure": " Volume ",
+        "Value": " 94.3 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-08-01",
+        "Measure": " Volume ",
+        "Value": " 93.2 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-09-01",
+        "Measure": " Volume ",
+        "Value": " 96.2 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-10-01",
+        "Measure": " Volume ",
+        "Value": " 94.5 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-11-01",
+        "Measure": " Volume ",
+        "Value": " 94.9 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-12-01",
+        "Measure": " Volume ",
+        "Value": " 96.1 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-01-01",
+        "Measure": " Volume ",
+        "Value": " 96.8 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-02-01",
+        "Measure": " Volume ",
+        "Value": " 96.6 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-03-01",
+        "Measure": " Volume ",
+        "Value": " 96.8 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-04-01",
+        "Measure": " Volume ",
+        "Value": " 96.2 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-05-01",
+        "Measure": " Volume ",
+        "Value": " 97.5 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-06-01",
+        "Measure": " Volume ",
+        "Value": " 96.9 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-07-01",
+        "Measure": " Volume ",
+        "Value": " 97.3 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-08-01",
+        "Measure": " Volume ",
+        "Value": " 98.0 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-09-01",
+        "Measure": " Volume ",
+        "Value": " 98.4 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-10-01",
+        "Measure": " Volume ",
+        "Value": " 98.9 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-11-01",
+        "Measure": " Volume ",
+        "Value": " 97.8 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2016-12-01",
+        "Measure": " Volume ",
+        "Value": " 97.4 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-01-01",
+        "Measure": " Volume ",
+        "Value": " 97.6 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-02-01",
+        "Measure": " Volume ",
+        "Value": " 98.2 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-03-01",
+        "Measure": " Volume ",
+        "Value": " 98.5 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-04-01",
+        "Measure": " Volume ",
+        "Value": " 98.6 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-05-01",
+        "Measure": " Volume ",
+        "Value": " 97.8 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-06-01",
+        "Measure": " Volume ",
+        "Value": " 97.5 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-07-01",
+        "Measure": " Volume ",
+        "Value": " 97.8 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-08-01",
+        "Measure": " Volume ",
+        "Value": " 98.0 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-09-01",
+        "Measure": " Volume ",
+        "Value": " 98.0 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-10-01",
+        "Measure": " Volume ",
+        "Value": " 98.6 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-11-01",
+        "Measure": " Volume ",
+        "Value": " 98.5 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2017-12-01",
+        "Measure": " Volume ",
+        "Value": " 98.7 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-01-01",
+        "Measure": " Volume ",
+        "Value": " 97.5 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-02-01",
+        "Measure": " Volume ",
+        "Value": " 98.6 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-03-01",
+        "Measure": " Volume ",
+        "Value": " 97.3 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-04-01",
+        "Measure": " Volume ",
+        "Value": " 98.2 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-05-01",
+        "Measure": " Volume ",
+        "Value": " 99.9 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-06-01",
+        "Measure": " Volume ",
+        "Value": " 100.5 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-07-01",
+        "Measure": " Volume ",
+        "Value": " 100.3 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-08-01",
+        "Measure": " Volume ",
+        "Value": " 99.6 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-09-01",
+        "Measure": " Volume ",
+        "Value": " 99.0 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-10-01",
+        "Measure": " Volume ",
+        "Value": " 99.3 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-11-01",
+        "Measure": " Volume ",
+        "Value": " 100.0 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2018-12-01",
+        "Measure": " Volume ",
+        "Value": " 100.5 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-01-01",
+        "Measure": " Volume ",
+        "Value": " 101.1 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-02-01",
+        "Measure": " Volume ",
+        "Value": " 99.9 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-03-01",
+        "Measure": " Volume ",
+        "Value": " 100.1 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-04-01",
+        "Measure": " Volume ",
+        "Value": " 100.4 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-05-01",
+        "Measure": " Volume ",
+        "Value": " 100.0 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-06-01",
+        "Measure": " Volume ",
+        "Value": " 100.0 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-07-01",
+        "Measure": " Volume ",
+        "Value": " 100.0 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-08-01",
+        "Measure": " Volume ",
+        "Value": " 100.2 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-09-01",
+        "Measure": " Volume ",
+        "Value": " 100.4 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-10-01",
+        "Measure": " Volume ",
+        "Value": " 100.4 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-11-01",
+        "Measure": " Volume ",
+        "Value": " 100.1 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2019-12-01",
+        "Measure": " Volume ",
+        "Value": " 97.9 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-01-01",
+        "Measure": " Volume ",
+        "Value": " 101.4 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-02-01",
+        "Measure": " Volume ",
+        "Value": " 99.9 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-03-01",
+        "Measure": " Volume ",
+        "Value": " 109.9 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-04-01",
+        "Measure": " Volume ",
+        "Value": " 107.6 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-05-01",
+        "Measure": " Volume ",
+        "Value": " 108.9 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-06-01",
+        "Measure": " Volume ",
+        "Value": " 108.7 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-07-01",
+        "Measure": " Volume ",
+        "Value": " 103.7 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-08-01",
+        "Measure": " Volume ",
+        "Value": " 104.8 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-09-01",
+        "Measure": " Volume ",
+        "Value": " 105.3 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-10-01",
+        "Measure": " Volume ",
+        "Value": " 104.4 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-11-01",
+        "Measure": " Volume ",
+        "Value": " 107.2 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2020-12-01",
+        "Measure": " Volume ",
+        "Value": " 103.3 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-01-01",
+        "Measure": " Volume ",
+        "Value": " 107.0 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-02-01",
+        "Measure": " Volume ",
+        "Value": " 107.8 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-03-01",
+        "Measure": " Volume ",
+        "Value": " 110.2 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-04-01",
+        "Measure": " Volume ",
+        "Value": " 108.3 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-05-01",
+        "Measure": " Volume ",
+        "Value": " 103.1 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-06-01",
+        "Measure": " Volume ",
+        "Value": " 106.8 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-07-01",
+        "Measure": " Volume ",
+        "Value": " 104.2 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-08-01",
+        "Measure": " Volume ",
+        "Value": " 102.5 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-09-01",
+        "Measure": " Volume ",
+        "Value": " 102.0 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-10-01",
+        "Measure": " Volume ",
+        "Value": " 102.4 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-11-01",
+        "Measure": " Volume ",
+        "Value": " 101.6 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2021-12-01",
+        "Measure": " Volume ",
+        "Value": " 101.6 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2022-01-01",
+        "Measure": " Volume ",
+        "Value": " 99.1 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2022-02-01",
+        "Measure": " Volume ",
+        "Value": " 99.1 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2022-03-01",
+        "Measure": " Volume ",
+        "Value": " 98.7 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2022-04-01",
+        "Measure": " Volume ",
+        "Value": " 98.6 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2022-05-01",
+        "Measure": " Volume ",
+        "Value": " 97.1 ",
+        "Category": "Supermarkets"
+      },
+      {
+        "Date": "2015-01-01",
+        "Measure": " Volume ",
+        "Value": " 86.7 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-02-01",
+        "Measure": " Volume ",
+        "Value": " 88.2 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-03-01",
+        "Measure": " Volume ",
+        "Value": " 88.0 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-04-01",
+        "Measure": " Volume ",
+        "Value": " 89.7 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-05-01",
+        "Measure": " Volume ",
+        "Value": " 90.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-06-01",
+        "Measure": " Volume ",
+        "Value": " 90.8 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-07-01",
+        "Measure": " Volume ",
+        "Value": " 89.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-08-01",
+        "Measure": " Volume ",
+        "Value": " 87.0 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-09-01",
+        "Measure": " Volume ",
+        "Value": " 88.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-10-01",
+        "Measure": " Volume ",
+        "Value": " 87.5 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-11-01",
+        "Measure": " Volume ",
+        "Value": " 96.3 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-12-01",
+        "Measure": " Volume ",
+        "Value": " 96.4 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-01-01",
+        "Measure": " Volume ",
+        "Value": " 91.2 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-02-01",
+        "Measure": " Volume ",
+        "Value": " 94.7 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-03-01",
+        "Measure": " Volume ",
+        "Value": " 96.5 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-04-01",
+        "Measure": " Volume ",
+        "Value": " 91.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-05-01",
+        "Measure": " Volume ",
+        "Value": " 90.7 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-06-01",
+        "Measure": " Volume ",
+        "Value": " 93.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-07-01",
+        "Measure": " Volume ",
+        "Value": " 93.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-08-01",
+        "Measure": " Volume ",
+        "Value": " 94.2 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-09-01",
+        "Measure": " Volume ",
+        "Value": " 96.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-10-01",
+        "Measure": " Volume ",
+        "Value": " 94.8 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-11-01",
+        "Measure": " Volume ",
+        "Value": " 105.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2016-12-01",
+        "Measure": " Volume ",
+        "Value": " 90.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-01-01",
+        "Measure": " Volume ",
+        "Value": " 89.5 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-02-01",
+        "Measure": " Volume ",
+        "Value": " 90.9 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-03-01",
+        "Measure": " Volume ",
+        "Value": " 85.9 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-04-01",
+        "Measure": " Volume ",
+        "Value": " 88.3 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-05-01",
+        "Measure": " Volume ",
+        "Value": " 88.0 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-06-01",
+        "Measure": " Volume ",
+        "Value": " 76.9 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-07-01",
+        "Measure": " Volume ",
+        "Value": " 85.4 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-08-01",
+        "Measure": " Volume ",
+        "Value": " 87.5 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-09-01",
+        "Measure": " Volume ",
+        "Value": " 84.7 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-10-01",
+        "Measure": " Volume ",
+        "Value": " 83.4 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-11-01",
+        "Measure": " Volume ",
+        "Value": " 85.5 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2017-12-01",
+        "Measure": " Volume ",
+        "Value": " 87.1 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-01-01",
+        "Measure": " Volume ",
+        "Value": " 86.9 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-02-01",
+        "Measure": " Volume ",
+        "Value": " 86.2 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-03-01",
+        "Measure": " Volume ",
+        "Value": " 90.8 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-04-01",
+        "Measure": " Volume ",
+        "Value": " 93.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-05-01",
+        "Measure": " Volume ",
+        "Value": " 96.1 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-06-01",
+        "Measure": " Volume ",
+        "Value": " 90.4 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-07-01",
+        "Measure": " Volume ",
+        "Value": " 103.3 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-08-01",
+        "Measure": " Volume ",
+        "Value": " 99.4 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-09-01",
+        "Measure": " Volume ",
+        "Value": " 95.5 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-10-01",
+        "Measure": " Volume ",
+        "Value": " 95.8 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-11-01",
+        "Measure": " Volume ",
+        "Value": " 96.2 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2018-12-01",
+        "Measure": " Volume ",
+        "Value": " 93.2 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-01-01",
+        "Measure": " Volume ",
+        "Value": " 96.0 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-02-01",
+        "Measure": " Volume ",
+        "Value": " 94.7 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-03-01",
+        "Measure": " Volume ",
+        "Value": " 100.2 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-04-01",
+        "Measure": " Volume ",
+        "Value": " 99.0 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-05-01",
+        "Measure": " Volume ",
+        "Value": " 99.4 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-06-01",
+        "Measure": " Volume ",
+        "Value": " 101.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-07-01",
+        "Measure": " Volume ",
+        "Value": " 101.8 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-08-01",
+        "Measure": " Volume ",
+        "Value": " 100.0 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-09-01",
+        "Measure": " Volume ",
+        "Value": " 100.8 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-10-01",
+        "Measure": " Volume ",
+        "Value": " 100.1 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-11-01",
+        "Measure": " Volume ",
+        "Value": " 99.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2019-12-01",
+        "Measure": " Volume ",
+        "Value": " 104.8 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-01-01",
+        "Measure": " Volume ",
+        "Value": " 87.8 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-02-01",
+        "Measure": " Volume ",
+        "Value": " 100.5 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-03-01",
+        "Measure": " Volume ",
+        "Value": " 99.4 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-04-01",
+        "Measure": " Volume ",
+        "Value": " 65.5 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-05-01",
+        "Measure": " Volume ",
+        "Value": " 73.3 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-06-01",
+        "Measure": " Volume ",
+        "Value": " 75.0 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-07-01",
+        "Measure": " Volume ",
+        "Value": " 92.9 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-08-01",
+        "Measure": " Volume ",
+        "Value": " 90.8 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-09-01",
+        "Measure": " Volume ",
+        "Value": " 98.4 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-10-01",
+        "Measure": " Volume ",
+        "Value": " 96.3 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-11-01",
+        "Measure": " Volume ",
+        "Value": " 96.4 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2020-12-01",
+        "Measure": " Volume ",
+        "Value": " 93.1 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-01-01",
+        "Measure": " Volume ",
+        "Value": " 80.2 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-02-01",
+        "Measure": " Volume ",
+        "Value": " 86.8 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-03-01",
+        "Measure": " Volume ",
+        "Value": " 92.7 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-04-01",
+        "Measure": " Volume ",
+        "Value": " 92.3 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-05-01",
+        "Measure": " Volume ",
+        "Value": " 93.7 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-06-01",
+        "Measure": " Volume ",
+        "Value": " 97.4 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-07-01",
+        "Measure": " Volume ",
+        "Value": " 96.5 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-08-01",
+        "Measure": " Volume ",
+        "Value": " 98.9 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-09-01",
+        "Measure": " Volume ",
+        "Value": " 101.0 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-10-01",
+        "Measure": " Volume ",
+        "Value": " 103.3 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-11-01",
+        "Measure": " Volume ",
+        "Value": " 105.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2021-12-01",
+        "Measure": " Volume ",
+        "Value": " 106.6 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2022-01-01",
+        "Measure": " Volume ",
+        "Value": " 108.9 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2022-02-01",
+        "Measure": " Volume ",
+        "Value": " 106.1 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2022-03-01",
+        "Measure": " Volume ",
+        "Value": " 104.7 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2022-04-01",
+        "Measure": " Volume ",
+        "Value": " 105.3 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2022-05-01",
+        "Measure": " Volume ",
+        "Value": " 103.0 ",
+        "Category": "Specialist food stores"
+      },
+      {
+        "Date": "2015-01-01",
+        "Measure": " Volume ",
+        "Value": " 108.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-02-01",
+        "Measure": " Volume ",
+        "Value": " 96.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-03-01",
+        "Measure": " Volume ",
+        "Value": " 96.1 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-04-01",
+        "Measure": " Volume ",
+        "Value": " 106.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-05-01",
+        "Measure": " Volume ",
+        "Value": " 99.3 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-06-01",
+        "Measure": " Volume ",
+        "Value": " 99.1 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-07-01",
+        "Measure": " Volume ",
+        "Value": " 92.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-08-01",
+        "Measure": " Volume ",
+        "Value": " 95.7 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-09-01",
+        "Measure": " Volume ",
+        "Value": " 95.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-10-01",
+        "Measure": " Volume ",
+        "Value": " 94.0 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-11-01",
+        "Measure": " Volume ",
+        "Value": " 93.6 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-12-01",
+        "Measure": " Volume ",
+        "Value": " 96.7 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-01-01",
+        "Measure": " Volume ",
+        "Value": " 93.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-02-01",
+        "Measure": " Volume ",
+        "Value": " 93.5 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-03-01",
+        "Measure": " Volume ",
+        "Value": " 93.6 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-04-01",
+        "Measure": " Volume ",
+        "Value": " 97.4 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-05-01",
+        "Measure": " Volume ",
+        "Value": " 105.5 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-06-01",
+        "Measure": " Volume ",
+        "Value": " 98.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-07-01",
+        "Measure": " Volume ",
+        "Value": " 99.3 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-08-01",
+        "Measure": " Volume ",
+        "Value": " 102.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-09-01",
+        "Measure": " Volume ",
+        "Value": " 98.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-10-01",
+        "Measure": " Volume ",
+        "Value": " 98.7 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-11-01",
+        "Measure": " Volume ",
+        "Value": " 100.6 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2016-12-01",
+        "Measure": " Volume ",
+        "Value": " 93.4 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-01-01",
+        "Measure": " Volume ",
+        "Value": " 94.0 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-02-01",
+        "Measure": " Volume ",
+        "Value": " 91.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-03-01",
+        "Measure": " Volume ",
+        "Value": " 99.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-04-01",
+        "Measure": " Volume ",
+        "Value": " 109.0 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-05-01",
+        "Measure": " Volume ",
+        "Value": " 97.4 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-06-01",
+        "Measure": " Volume ",
+        "Value": " 89.0 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-07-01",
+        "Measure": " Volume ",
+        "Value": " 100.1 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-08-01",
+        "Measure": " Volume ",
+        "Value": " 97.6 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-09-01",
+        "Measure": " Volume ",
+        "Value": " 94.4 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-10-01",
+        "Measure": " Volume ",
+        "Value": " 93.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-11-01",
+        "Measure": " Volume ",
+        "Value": " 94.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2017-12-01",
+        "Measure": " Volume ",
+        "Value": " 95.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-01-01",
+        "Measure": " Volume ",
+        "Value": " 102.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-02-01",
+        "Measure": " Volume ",
+        "Value": " 99.5 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-03-01",
+        "Measure": " Volume ",
+        "Value": " 90.4 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-04-01",
+        "Measure": " Volume ",
+        "Value": " 96.1 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-05-01",
+        "Measure": " Volume ",
+        "Value": " 99.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-06-01",
+        "Measure": " Volume ",
+        "Value": " 100.1 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-07-01",
+        "Measure": " Volume ",
+        "Value": " 96.5 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-08-01",
+        "Measure": " Volume ",
+        "Value": " 98.6 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-09-01",
+        "Measure": " Volume ",
+        "Value": " 105.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-10-01",
+        "Measure": " Volume ",
+        "Value": " 110.7 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-11-01",
+        "Measure": " Volume ",
+        "Value": " 98.8 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2018-12-01",
+        "Measure": " Volume ",
+        "Value": " 109.7 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-01-01",
+        "Measure": " Volume ",
+        "Value": " 104.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-02-01",
+        "Measure": " Volume ",
+        "Value": " 105.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-03-01",
+        "Measure": " Volume ",
+        "Value": " 99.5 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-04-01",
+        "Measure": " Volume ",
+        "Value": " 97.7 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-05-01",
+        "Measure": " Volume ",
+        "Value": " 99.7 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-06-01",
+        "Measure": " Volume ",
+        "Value": " 94.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-07-01",
+        "Measure": " Volume ",
+        "Value": " 99.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-08-01",
+        "Measure": " Volume ",
+        "Value": " 98.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-09-01",
+        "Measure": " Volume ",
+        "Value": " 95.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-10-01",
+        "Measure": " Volume ",
+        "Value": " 91.8 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-11-01",
+        "Measure": " Volume ",
+        "Value": " 101.8 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2019-12-01",
+        "Measure": " Volume ",
+        "Value": " 111.1 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-01-01",
+        "Measure": " Volume ",
+        "Value": " 115.0 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-02-01",
+        "Measure": " Volume ",
+        "Value": " 89.5 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-03-01",
+        "Measure": " Volume ",
+        "Value": " 99.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-04-01",
+        "Measure": " Volume ",
+        "Value": " 54.0 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-05-01",
+        "Measure": " Volume ",
+        "Value": " 102.4 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-06-01",
+        "Measure": " Volume ",
+        "Value": " 113.3 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-07-01",
+        "Measure": " Volume ",
+        "Value": " 112.3 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-08-01",
+        "Measure": " Volume ",
+        "Value": " 113.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-09-01",
+        "Measure": " Volume ",
+        "Value": " 118.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-10-01",
+        "Measure": " Volume ",
+        "Value": " 115.8 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-11-01",
+        "Measure": " Volume ",
+        "Value": " 116.9 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2020-12-01",
+        "Measure": " Volume ",
+        "Value": " 109.6 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-01-01",
+        "Measure": " Volume ",
+        "Value": " 109.4 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-02-01",
+        "Measure": " Volume ",
+        "Value": " 116.5 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-03-01",
+        "Measure": " Volume ",
+        "Value": " 155.4 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-04-01",
+        "Measure": " Volume ",
+        "Value": " 131.8 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-05-01",
+        "Measure": " Volume ",
+        "Value": " 120.7 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-06-01",
+        "Measure": " Volume ",
+        "Value": " 120.5 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-07-01",
+        "Measure": " Volume ",
+        "Value": " 120.6 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-08-01",
+        "Measure": " Volume ",
+        "Value": " 122.3 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-09-01",
+        "Measure": " Volume ",
+        "Value": " 121.5 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-10-01",
+        "Measure": " Volume ",
+        "Value": " 125.1 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-11-01",
+        "Measure": " Volume ",
+        "Value": " 124.7 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2021-12-01",
+        "Measure": " Volume ",
+        "Value": " 121.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2022-01-01",
+        "Measure": " Volume ",
+        "Value": " 162.1 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2022-02-01",
+        "Measure": " Volume ",
+        "Value": " 126.4 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2022-03-01",
+        "Measure": " Volume ",
+        "Value": " 113.8 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2022-04-01",
+        "Measure": " Volume ",
+        "Value": " 112.2 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2022-05-01",
+        "Measure": " Volume ",
+        "Value": " 112.5 ",
+        "Category": "Flowers plants seeds fertilisers and pet foods"
+      },
+      {
+        "Date": "2015-01-01",
+        "Measure": " Volume ",
+        "Value": " 80.3 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-02-01",
+        "Measure": " Volume ",
+        "Value": " 85.4 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-03-01",
+        "Measure": " Volume ",
+        "Value": " 87.4 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-04-01",
+        "Measure": " Volume ",
+        "Value": " 85.5 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-05-01",
+        "Measure": " Volume ",
+        "Value": " 84.8 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-06-01",
+        "Measure": " Volume ",
+        "Value": " 81.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-07-01",
+        "Measure": " Volume ",
+        "Value": " 83.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-08-01",
+        "Measure": " Volume ",
+        "Value": " 83.0 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-09-01",
+        "Measure": " Volume ",
+        "Value": " 84.6 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-10-01",
+        "Measure": " Volume ",
+        "Value": " 81.7 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-11-01",
+        "Measure": " Volume ",
+        "Value": " 82.4 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-12-01",
+        "Measure": " Volume ",
+        "Value": " 87.2 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-01-01",
+        "Measure": " Volume ",
+        "Value": " 85.1 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-02-01",
+        "Measure": " Volume ",
+        "Value": " 82.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-03-01",
+        "Measure": " Volume ",
+        "Value": " 83.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-04-01",
+        "Measure": " Volume ",
+        "Value": " 88.3 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-05-01",
+        "Measure": " Volume ",
+        "Value": " 85.5 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-06-01",
+        "Measure": " Volume ",
+        "Value": " 90.1 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-07-01",
+        "Measure": " Volume ",
+        "Value": " 89.6 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-08-01",
+        "Measure": " Volume ",
+        "Value": " 84.5 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-09-01",
+        "Measure": " Volume ",
+        "Value": " 89.0 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-10-01",
+        "Measure": " Volume ",
+        "Value": " 87.2 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-11-01",
+        "Measure": " Volume ",
+        "Value": " 85.4 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2016-12-01",
+        "Measure": " Volume ",
+        "Value": " 86.2 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-01-01",
+        "Measure": " Volume ",
+        "Value": " 82.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-02-01",
+        "Measure": " Volume ",
+        "Value": " 83.2 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-03-01",
+        "Measure": " Volume ",
+        "Value": " 70.3 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-04-01",
+        "Measure": " Volume ",
+        "Value": " 91.4 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-05-01",
+        "Measure": " Volume ",
+        "Value": " 86.8 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-06-01",
+        "Measure": " Volume ",
+        "Value": " 82.7 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-07-01",
+        "Measure": " Volume ",
+        "Value": " 83.3 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-08-01",
+        "Measure": " Volume ",
+        "Value": " 87.3 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-09-01",
+        "Measure": " Volume ",
+        "Value": " 83.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-10-01",
+        "Measure": " Volume ",
+        "Value": " 88.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-11-01",
+        "Measure": " Volume ",
+        "Value": " 87.1 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2017-12-01",
+        "Measure": " Volume ",
+        "Value": " 88.6 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-01-01",
+        "Measure": " Volume ",
+        "Value": " 85.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-02-01",
+        "Measure": " Volume ",
+        "Value": " 90.1 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-03-01",
+        "Measure": " Volume ",
+        "Value": " 85.0 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-04-01",
+        "Measure": " Volume ",
+        "Value": " 83.6 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-05-01",
+        "Measure": " Volume ",
+        "Value": " 87.2 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-06-01",
+        "Measure": " Volume ",
+        "Value": " 88.6 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-07-01",
+        "Measure": " Volume ",
+        "Value": " 80.3 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-08-01",
+        "Measure": " Volume ",
+        "Value": " 87.3 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-09-01",
+        "Measure": " Volume ",
+        "Value": " 93.1 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-10-01",
+        "Measure": " Volume ",
+        "Value": " 89.7 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-11-01",
+        "Measure": " Volume ",
+        "Value": " 104.8 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2018-12-01",
+        "Measure": " Volume ",
+        "Value": " 82.0 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-01-01",
+        "Measure": " Volume ",
+        "Value": " 96.2 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-02-01",
+        "Measure": " Volume ",
+        "Value": " 92.1 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-03-01",
+        "Measure": " Volume ",
+        "Value": " 95.6 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-04-01",
+        "Measure": " Volume ",
+        "Value": " 88.3 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-05-01",
+        "Measure": " Volume ",
+        "Value": " 97.8 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-06-01",
+        "Measure": " Volume ",
+        "Value": " 102.1 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-07-01",
+        "Measure": " Volume ",
+        "Value": " 106.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-08-01",
+        "Measure": " Volume ",
+        "Value": " 111.2 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-09-01",
+        "Measure": " Volume ",
+        "Value": " 105.2 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-10-01",
+        "Measure": " Volume ",
+        "Value": " 100.5 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-11-01",
+        "Measure": " Volume ",
+        "Value": " 103.5 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2019-12-01",
+        "Measure": " Volume ",
+        "Value": " 99.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-01-01",
+        "Measure": " Volume ",
+        "Value": " 102.7 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-02-01",
+        "Measure": " Volume ",
+        "Value": " 99.1 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-03-01",
+        "Measure": " Volume ",
+        "Value": " 73.8 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-04-01",
+        "Measure": " Volume ",
+        "Value": " 45.8 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-05-01",
+        "Measure": " Volume ",
+        "Value": " 52.8 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-06-01",
+        "Measure": " Volume ",
+        "Value": " 84.2 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-07-01",
+        "Measure": " Volume ",
+        "Value": " 96.7 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-08-01",
+        "Measure": " Volume ",
+        "Value": " 100.0 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-09-01",
+        "Measure": " Volume ",
+        "Value": " 101.3 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-10-01",
+        "Measure": " Volume ",
+        "Value": " 139.6 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-11-01",
+        "Measure": " Volume ",
+        "Value": " 111.5 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2020-12-01",
+        "Measure": " Volume ",
+        "Value": " 127.7 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-01-01",
+        "Measure": " Volume ",
+        "Value": " 82.8 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-02-01",
+        "Measure": " Volume ",
+        "Value": " 80.8 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-03-01",
+        "Measure": " Volume ",
+        "Value": " 92.6 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-04-01",
+        "Measure": " Volume ",
+        "Value": " 128.2 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-05-01",
+        "Measure": " Volume ",
+        "Value": " 130.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-06-01",
+        "Measure": " Volume ",
+        "Value": " 126.0 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-07-01",
+        "Measure": " Volume ",
+        "Value": " 123.1 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-08-01",
+        "Measure": " Volume ",
+        "Value": " 118.7 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-09-01",
+        "Measure": " Volume ",
+        "Value": " 122.8 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-10-01",
+        "Measure": " Volume ",
+        "Value": " 125.1 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-11-01",
+        "Measure": " Volume ",
+        "Value": " 123.3 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2021-12-01",
+        "Measure": " Volume ",
+        "Value": " 106.0 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2022-01-01",
+        "Measure": " Volume ",
+        "Value": " 110.2 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2022-02-01",
+        "Measure": " Volume ",
+        "Value": " 118.5 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2022-03-01",
+        "Measure": " Volume ",
+        "Value": " 112.9 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2022-04-01",
+        "Measure": " Volume ",
+        "Value": " 115.1 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2022-05-01",
+        "Measure": " Volume ",
+        "Value": " 113.5 ",
+        "Category": "Sports equipment games and toys"
+      },
+      {
+        "Date": "2015-01-01",
+        "Measure": " Volume ",
+        "Value": " 126.5 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2015-02-01",
+        "Measure": " Volume ",
+        "Value": " 127.8 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2015-03-01",
+        "Measure": " Volume ",
+        "Value": " 130.0 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2015-04-01",
+        "Measure": " Volume ",
+        "Value": " 118.3 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2015-05-01",
+        "Measure": " Volume ",
+        "Value": " 126.8 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2015-06-01",
+        "Measure": " Volume ",
+        "Value": " 129.0 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2015-07-01",
+        "Measure": " Volume ",
+        "Value": " 130.5 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2015-08-01",
+        "Measure": " Volume ",
+        "Value": " 130.5 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2015-09-01",
+        "Measure": " Volume ",
+        "Value": " 128.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2015-10-01",
+        "Measure": " Volume ",
+        "Value": " 127.3 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2015-11-01",
+        "Measure": " Volume ",
+        "Value": " 123.0 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2015-12-01",
+        "Measure": " Volume ",
+        "Value": " 112.9 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-01-01",
+        "Measure": " Volume ",
+        "Value": " 120.5 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-02-01",
+        "Measure": " Volume ",
+        "Value": " 122.8 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-03-01",
+        "Measure": " Volume ",
+        "Value": " 116.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-04-01",
+        "Measure": " Volume ",
+        "Value": " 120.3 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-05-01",
+        "Measure": " Volume ",
+        "Value": " 122.6 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-06-01",
+        "Measure": " Volume ",
+        "Value": " 113.7 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-07-01",
+        "Measure": " Volume ",
+        "Value": " 115.4 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-08-01",
+        "Measure": " Volume ",
+        "Value": " 111.1 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-09-01",
+        "Measure": " Volume ",
+        "Value": " 115.4 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-10-01",
+        "Measure": " Volume ",
+        "Value": " 116.6 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-11-01",
+        "Measure": " Volume ",
+        "Value": " 113.9 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2016-12-01",
+        "Measure": " Volume ",
+        "Value": " 110.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-01-01",
+        "Measure": " Volume ",
+        "Value": " 111.3 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-02-01",
+        "Measure": " Volume ",
+        "Value": " 108.5 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-03-01",
+        "Measure": " Volume ",
+        "Value": " 97.3 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-04-01",
+        "Measure": " Volume ",
+        "Value": " 107.0 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-05-01",
+        "Measure": " Volume ",
+        "Value": " 106.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-06-01",
+        "Measure": " Volume ",
+        "Value": " 115.5 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-07-01",
+        "Measure": " Volume ",
+        "Value": " 114.5 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-08-01",
+        "Measure": " Volume ",
+        "Value": " 114.1 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-09-01",
+        "Measure": " Volume ",
+        "Value": " 110.3 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-10-01",
+        "Measure": " Volume ",
+        "Value": " 121.1 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-11-01",
+        "Measure": " Volume ",
+        "Value": " 110.4 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2017-12-01",
+        "Measure": " Volume ",
+        "Value": " 104.8 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-01-01",
+        "Measure": " Volume ",
+        "Value": " 107.4 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-02-01",
+        "Measure": " Volume ",
+        "Value": " 107.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-03-01",
+        "Measure": " Volume ",
+        "Value": " 110.0 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-04-01",
+        "Measure": " Volume ",
+        "Value": " 115.7 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-05-01",
+        "Measure": " Volume ",
+        "Value": " 112.7 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-06-01",
+        "Measure": " Volume ",
+        "Value": " 107.4 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-07-01",
+        "Measure": " Volume ",
+        "Value": " 110.9 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-08-01",
+        "Measure": " Volume ",
+        "Value": " 112.1 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-09-01",
+        "Measure": " Volume ",
+        "Value": " 111.7 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-10-01",
+        "Measure": " Volume ",
+        "Value": " 110.1 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-11-01",
+        "Measure": " Volume ",
+        "Value": " 105.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2018-12-01",
+        "Measure": " Volume ",
+        "Value": " 107.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-01-01",
+        "Measure": " Volume ",
+        "Value": " 98.8 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-02-01",
+        "Measure": " Volume ",
+        "Value": " 88.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-03-01",
+        "Measure": " Volume ",
+        "Value": " 107.3 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-04-01",
+        "Measure": " Volume ",
+        "Value": " 93.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-05-01",
+        "Measure": " Volume ",
+        "Value": " 91.0 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-06-01",
+        "Measure": " Volume ",
+        "Value": " 95.1 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-07-01",
+        "Measure": " Volume ",
+        "Value": " 92.7 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-08-01",
+        "Measure": " Volume ",
+        "Value": " 94.7 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-09-01",
+        "Measure": " Volume ",
+        "Value": " 96.1 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-10-01",
+        "Measure": " Volume ",
+        "Value": " 103.7 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-11-01",
+        "Measure": " Volume ",
+        "Value": " 113.8 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2019-12-01",
+        "Measure": " Volume ",
+        "Value": " 120.5 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-01-01",
+        "Measure": " Volume ",
+        "Value": " 139.4 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-02-01",
+        "Measure": " Volume ",
+        "Value": " 110.9 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-03-01",
+        "Measure": " Volume ",
+        "Value": " 69.0 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-04-01",
+        "Measure": " Volume ",
+        "Value": " 43.6 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-05-01",
+        "Measure": " Volume ",
+        "Value": " 45.7 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-06-01",
+        "Measure": " Volume ",
+        "Value": " 71.3 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-07-01",
+        "Measure": " Volume ",
+        "Value": " 99.6 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-08-01",
+        "Measure": " Volume ",
+        "Value": " 103.1 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-09-01",
+        "Measure": " Volume ",
+        "Value": " 109.7 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-10-01",
+        "Measure": " Volume ",
+        "Value": " 107.8 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-11-01",
+        "Measure": " Volume ",
+        "Value": " 70.7 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2020-12-01",
+        "Measure": " Volume ",
+        "Value": " 82.4 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-01-01",
+        "Measure": " Volume ",
+        "Value": " 57.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-02-01",
+        "Measure": " Volume ",
+        "Value": " 45.0 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-03-01",
+        "Measure": " Volume ",
+        "Value": " 41.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-04-01",
+        "Measure": " Volume ",
+        "Value": " 83.1 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-05-01",
+        "Measure": " Volume ",
+        "Value": " 94.0 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-06-01",
+        "Measure": " Volume ",
+        "Value": " 85.3 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-07-01",
+        "Measure": " Volume ",
+        "Value": " 89.2 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-08-01",
+        "Measure": " Volume ",
+        "Value": " 91.0 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-09-01",
+        "Measure": " Volume ",
+        "Value": " 86.0 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-10-01",
+        "Measure": " Volume ",
+        "Value": " 82.3 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-11-01",
+        "Measure": " Volume ",
+        "Value": " 83.4 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2021-12-01",
+        "Measure": " Volume ",
+        "Value": " 79.8 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2022-01-01",
+        "Measure": " Volume ",
+        "Value": " 78.7 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2022-02-01",
+        "Measure": " Volume ",
+        "Value": " 79.8 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2022-03-01",
+        "Measure": " Volume ",
+        "Value": " 82.8 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2022-04-01",
+        "Measure": " Volume ",
+        "Value": " 81.8 ",
+        "Category": "Books newspapers and stationary"
+      },
+      {
+        "Date": "2022-05-01",
+        "Measure": " Volume ",
+        "Value": " 85.9 ",
+        "Category": "Books newspapers and stationary"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Date": "date"
+      }
+    }
+  },
+  "facet": {
+    "column": {
+      "field": "Category"
+    }
+  },
+  "spec": {
+    "mark": {
+      "type": "line",
+      "color": "#557A95"
+    },
+    "encoding": {
+      "y": {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "Volume of Spending"
+      },
+      "x": {
+        "field": "Date",
+        "type": "temporal",
+        "axis": {
+          "labelAngle": 45
+        }
+      }
+    }
+  },
+  "columns": 3,
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  }
+}

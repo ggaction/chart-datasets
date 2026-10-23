@@ -1,0 +1,127 @@
+{
+  "id": "vl_1588",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "cb945c5eec5d6be8056038b8adda5e53d9c65be63592bcb7e63fd5e120658f93",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "84823ef76fdb81b8006542f79cd19752b303e3f9717533daf2d12372332b4f1b",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "feb0ef96961d75484f10a1869735ee217dcc44789c21ba230b91a9db2bfb9532",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "06cec91517ec8f5942e9d9556d7268cc9c3900d4111f9a4733210b0e55f6ffce",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "2532e68d4414e58e574fbaf3b616b5618134f939c3546c8ae058da37d71e9232",
+      "actions": 22,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "a42c8302a56c8a86c6f926ae68a4b720cbe9c33a8b1924cd85b1119831d4d1d2",
+      "actions": 24,
+      "topOptions": 42
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "288bff8ed942bde0b32ab8912946c64b23a977d904004d04afa0d1e6d0fb36f4",
+      "actions": 25,
+      "topOptions": 44
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "d1293b037e3fec59219d5a5fe4be7f80b3901e9288b58d93bff3f9f2f4d442d0",
+      "actions": 26,
+      "topOptions": 44
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful School-authored stages preserve the same329x247 native SVG/PNG and original406rawrecords/392circles. High-level ScatterPlot and complete axes are retained; scale, axis-paint, component and grid ownership progressively split. Stop at8cap, not an exhaustion claim. Independent cold73checks and443ordinary checks pass; literal small source-only guide conventions and necessary original18pxlegendgap recorded. No publicrelease until1413."
+  },
+  "historicalRuntimeCommits": [
+    "c2659fbfcb2e22517e80fb33feba6e99226d9ef0"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "810012227568e787a33697fe9c9b391fb916e15ccc0ed25bc93910e9df33ea89",
+      "bytes": 905
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "eaecc1345d38ab31425695ca2b85df0c8b6300dbe9ce74023054b47e40eea749",
+      "bytes": 114753
+    },
+    "G1.gg.mjs": {
+      "sha256": "cb945c5eec5d6be8056038b8adda5e53d9c65be63592bcb7e63fd5e120658f93",
+      "bytes": 3221
+    },
+    "G2.gg.mjs": {
+      "sha256": "84823ef76fdb81b8006542f79cd19752b303e3f9717533daf2d12372332b4f1b",
+      "bytes": 3217
+    },
+    "G3.gg.mjs": {
+      "sha256": "feb0ef96961d75484f10a1869735ee217dcc44789c21ba230b91a9db2bfb9532",
+      "bytes": 3131
+    },
+    "G4.gg.mjs": {
+      "sha256": "06cec91517ec8f5942e9d9556d7268cc9c3900d4111f9a4733210b0e55f6ffce",
+      "bytes": 3317
+    },
+    "G5.gg.mjs": {
+      "sha256": "2532e68d4414e58e574fbaf3b616b5618134f939c3546c8ae058da37d71e9232",
+      "bytes": 3301
+    },
+    "G6.gg.mjs": {
+      "sha256": "a42c8302a56c8a86c6f926ae68a4b720cbe9c33a8b1924cd85b1119831d4d1d2",
+      "bytes": 3295
+    },
+    "G7.gg.mjs": {
+      "sha256": "288bff8ed942bde0b32ab8912946c64b23a977d904004d04afa0d1e6d0fb36f4",
+      "bytes": 3359
+    },
+    "G8.gg.mjs": {
+      "sha256": "d1293b037e3fec59219d5a5fe4be7f80b3901e9288b58d93bff3f9f2f4d442d0",
+      "bytes": 3349
+    },
+    "vega-lite.svg": {
+      "sha256": "483222df47b712d0b301103de1a470e307e5925227e3523f7cd788fdc9914824",
+      "bytes": 124717
+    },
+    "ggaction.svg": {
+      "sha256": "85519ff77dde1b760b53ba10418a9fa2febc41ca225e28de3466d0124de48cdd",
+      "bytes": 63494
+    }
+  }
+}

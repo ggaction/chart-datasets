@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "kind": "named-layer-raw-inputs-v1",
+  "primary": "data.json",
+  "sourceSha256": "73bae244db638c9648a5181f71da94afa680170d72194383ffacd34e4d5a2d10",
+  "resolvedSourceSha256": "4b5c0db97a4d47702ef208f6e38271bf55a03ef5ec25bd009a651361ebe8e720",
+  "resolutionSha256": "03123e92f3109214a29e648d0e5697141ae360ac0934968923e7c05e2266d019",
+  "profileSha256": "d4f8ffb64afbf258949a67f027fd02a68724a0985307ea7dbd8bbd45c76bdc92",
+  "rootSourceAlias": "/layer/0/data",
+  "descriptors": [
+    {
+      "pointer": "/layer/0/data",
+      "file": "data.json",
+      "sha256": "d4c35d94da1c802aff1fe4eae692866ad45d8e576c73b55b4f867fca8cbf52f4",
+      "bytes": 163951,
+      "rowCount": 365,
+      "kind": "named-inline",
+      "originalDatasetName": "data-2aed173cf5b06a8abfb39aa93e326470"
+    },
+    {
+      "pointer": "/layer/1/data",
+      "file": "bar-data.json",
+      "sha256": "22abf935282435e699875a61601d49e222527f18a2d6f299e68971fa8d23f59e",
+      "bytes": 10179,
+      "rowCount": 106,
+      "kind": "named-inline",
+      "originalDatasetName": "data-e52d3d5fdd020a1164bb1583759dcacf"
+    }
+  ],
+  "stages": [
+    {
+      "level": "G1",
+      "codeSha256": "f1635b721d1a1bbc787add3a1ff30b17ef759cc9a6d4c64b22897a6c498e869d",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "bars",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "bar-data.json",
+          "local": "bars",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G2",
+      "codeSha256": "808cb333e5015a15bf1a1b8fdbce5205346695cb8e9c1eb1d79816d0bba3fd61",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "bars",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "bar-data.json",
+          "local": "bars",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G3",
+      "codeSha256": "019ec7ef687593b19652a5f8fff75fef6c2bef2fffe32370ea2e75ee28989802",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "bars",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "bar-data.json",
+          "local": "bars",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G4",
+      "codeSha256": "4e59327016119d6e98e50e2410f678ab4478f4dfda0dc72e3e71e00814c27d6d",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "bars",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "bar-data.json",
+          "local": "bars",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G5",
+      "codeSha256": "6b9c82a6bab0a7009d04b0a1310c25338b16f58a359eaead9e7dbd5c0e80e7c3",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "bars",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "bar-data.json",
+          "local": "bars",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G6",
+      "codeSha256": "68609c61ef0cca6e095c73119cde104d0179358d068d52840e3a91863218f363",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "bars",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "bar-data.json",
+          "local": "bars",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G7",
+      "codeSha256": "551f140322ba165e90e13fe1bc49db019464a2cfa85ff62290b4d5ceac3e6794",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "bars",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "bar-data.json",
+          "local": "bars",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G8",
+      "codeSha256": "e2e8ee6206fb64d34adaf23c4f69fb6fa0aeeb541adbcaf742f2acb26e0ae2df",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "bars",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "bar-data.json",
+          "local": "bars",
+          "datasetId": "flows",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    }
+  ]
+}

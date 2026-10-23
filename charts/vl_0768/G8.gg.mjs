@@ -1,0 +1,122 @@
+// DOCS: doc-8a4f6f06e0d37d5e — docs/tutorials/line-chart.md
+import { chart } from "ggaction";
+import data from "./data.json";
+import lineData from "./line-data.json";
+import textData from "./text-data.json";
+
+export function buildChart() {
+  return chart()
+    .createCanvas({
+      plot: { width: 300, height: 300 },
+      margin: { left: 39, right: 66, top: 53, bottom: 37 },
+      plotBorder: { underlay: true }
+    })
+    .applyTextMetrics({
+      profile: {
+        schemaVersion: 1,
+        id: "source0768-two-original-SVG-widths",
+        measurements: [
+          { text: "0", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 5.5625 },
+          { text: "100", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 16.6875 }
+        ]
+      }
+    })
+    .createTitle({
+      text: "Regressing WGI Overall Score on Religiosity using data from 2022",
+      titleStyle: { fontSize: 12, fontWeight: 700 },
+      alongOffset: -33.123046875
+    })
+    .editTitle({ offset: -6.390625 })
+    .editTitle({
+      titleStyle: { color: "black" },
+      subtitleStyle: { color: "black" }
+    })
+    .editTitle({
+      subtitle: "Religiosity measured as the percentage of the population who consider religion important\nSources: CAF and Wikipedia",
+      subtitleStyle: { fontSize: 10, fontWeight: 400, fontStyle: "italic" },
+      gap: 3.578125
+    })
+    .createData({ values: lineData })
+    .createLinePlot({
+      x: { field: "Religiosity" },
+      y: { field: "CAF" },
+      guides: false
+    })
+    .editXScale({ domain: [0, 100] })
+    .editYScale({ domain: [0, 70] })
+    .editLineMark({ stroke: "#603881", strokeWidth: 2, clip: true })
+    .createData({ id: "countries", values: data })
+    .createComputedData({
+      id: "numericX",
+      as: "sourceReligiosity",
+      expression: { op: "toNumber", operand: { field: "Religiosity" } }
+    })
+    .createComputedData({
+      id: "numericY",
+      as: "sourceCAF",
+      expression: { op: "toNumber", operand: { field: "CAF" } }
+    })
+    .createScatterPlot({
+      x: { field: "sourceReligiosity", scale: { id: "x" } },
+      y: { field: "sourceCAF", scale: { id: "y" } },
+      guides: false
+    })
+    .encodePointRadius({ value: 2.7386127875258306 })
+    .editPointMark({ fill: "#1327a8", stroke: false, opacity: 0.9 })
+    .createData({ id: "annotation", values: textData })
+    .createTextMark({ fill: "red", fontSize: 12, align: "center" })
+    .editTextMark({ baseline: "middle", dy: 0.859375 })
+    .encodeX({ field: "Religiosity", scale: { id: "x" } })
+    .encodeY({ field: "CAF", scale: { id: "y" } })
+    .encodeText({ field: "text" })
+    .createAxes({
+      x: {
+        scale: "x",
+        ticksAndLabels: {
+          values: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+          labels: { fontSize: 10, offset: 5.5, flush: true }
+        },
+        title: { text: "Religiosity (%)", fontSize: 11, fontWeight: 700, offset: 27.578125, alongOffset: 0.5 },
+        underlay: true
+      },
+      y: {
+        scale: "y",
+        ticksAndLabels: {
+          values: [0, 10, 20, 30, 40, 50, 60, 70],
+          labels: { fontSize: 10, offset: 6.5 }
+        },
+        title: { text: "WGI overall score (out of 100)", fontSize: 11, fontWeight: 700, offset: 26.544921875, alongOffset: 0.5 },
+        underlay: true
+      }
+    })
+    .editXAxis({
+      line: { color: "#888" }
+    })
+    .editYAxis({
+      line: { color: "#888" }
+    })
+    .editXAxisTicks({
+      length: 5,
+      color: "#888",
+      alongOffset: 0.5
+    })
+    .editYAxisTicks({
+      length: 5,
+      color: "#888",
+      alongOffset: 0.5
+    })
+    .editXAxisLabels({
+      color: "#000",
+      alongOffset: 0.5
+    })
+    .editYAxisLabels({
+      color: "#000",
+      alongOffset: 0.890625
+    })
+    .editXAxisTitle({
+      color: "#000"
+    })
+    .editYAxisTitle({
+      color: "#000"
+    });
+}

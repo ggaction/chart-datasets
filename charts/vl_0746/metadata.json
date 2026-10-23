@@ -1,0 +1,139 @@
+{
+  "id": "vl_0746",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "4a96daa5be5a84cd34aa3c063c00facf8fa86a093c1622129c6093d4a2d02462",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4417f9e7ebc2db57cfd26b2a3235547b30e85efc0fe2190df4114e3cebc750d7",
+      "actions": 21,
+      "topOptions": 47
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "5bbda96c010e28685e5b08e2c7afc22362fecb1547ba63a3147a1933e6935bc2",
+      "actions": 23,
+      "topOptions": 49
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "8f45aa6bd8af4778d5930c4b4c473c22fb3da01ee88f1da0fc7022359e00b345",
+      "actions": 25,
+      "topOptions": 51
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "62f6b6996b995120b24dbcff9c1ccaa453341462212b985479240245c0dc8dc0",
+      "actions": 27,
+      "topOptions": 57
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "a51d2437dd1fd24a8e64b60aec1c058159a1ef0f0cf8afdb54e3bd1312285c80",
+      "actions": 29,
+      "topOptions": 61
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "5b30f14e4236e98f6617073c0a8564a7717ab1a4a4c2b5800f2217e5ac964ee3",
+      "actions": 31,
+      "topOptions": 63
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "15a120586c61c957089cb274bf763fcbe27526ca507d7d30a2348230c9f583b7",
+      "actions": 32,
+      "topOptions": 65
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_GDP_2018-22_SHIFTED_new.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School-authored stages, all separately root-read before execution. 443 ordinary checks and fresh443 repeat,234 independent cold checks; exact263x302 native SVG/PNG, all336 raw CSV string rows plus2 authored line observations and1 original literal annotation retained; no images inspected."
+  },
+  "historicalRuntimeCommits": [
+    "c7cbee6f9d703b7f81b75894e1c2c90938353d5a"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "77fe7cb6c89868448db7477552cd71fedf83308ecd44214035b87a0e94d7641b",
+      "bytes": 2803
+    },
+    "data.json": {
+      "sha256": "5e0151cf92b12e4e6b99751b98f3551fd8855504c074cc7ca53e39f67da908c2",
+      "bytes": 32524
+    },
+    "resolved-source.vl.json": {
+      "sha256": "763529bb9b043983d6becf6aed2ea4f8ca4d41c27dbe64861ddddb3253ead6e6",
+      "bytes": 91854
+    },
+    "line-data.json": {
+      "sha256": "c9e442615c1a67424c7126fccec42222e286b061c6e55169a65d780c37baf05e",
+      "bytes": 92
+    },
+    "text-data.json": {
+      "sha256": "f40a8dadedecf53a97542db94a4a7603c996f2325bcb9c63c7b4976b19ccbf6c",
+      "bytes": 72
+    },
+    "G1.gg.mjs": {
+      "sha256": "4a96daa5be5a84cd34aa3c063c00facf8fa86a093c1622129c6093d4a2d02462",
+      "bytes": 3558
+    },
+    "G2.gg.mjs": {
+      "sha256": "4417f9e7ebc2db57cfd26b2a3235547b30e85efc0fe2190df4114e3cebc750d7",
+      "bytes": 3450
+    },
+    "G3.gg.mjs": {
+      "sha256": "5bbda96c010e28685e5b08e2c7afc22362fecb1547ba63a3147a1933e6935bc2",
+      "bytes": 3488
+    },
+    "G4.gg.mjs": {
+      "sha256": "8f45aa6bd8af4778d5930c4b4c473c22fb3da01ee88f1da0fc7022359e00b345",
+      "bytes": 3530
+    },
+    "G5.gg.mjs": {
+      "sha256": "62f6b6996b995120b24dbcff9c1ccaa453341462212b985479240245c0dc8dc0",
+      "bytes": 3580
+    },
+    "G6.gg.mjs": {
+      "sha256": "a51d2437dd1fd24a8e64b60aec1c058159a1ef0f0cf8afdb54e3bd1312285c80",
+      "bytes": 3662
+    },
+    "G7.gg.mjs": {
+      "sha256": "5b30f14e4236e98f6617073c0a8564a7717ab1a4a4c2b5800f2217e5ac964ee3",
+      "bytes": 3730
+    },
+    "G8.gg.mjs": {
+      "sha256": "15a120586c61c957089cb274bf763fcbe27526ca507d7d30a2348230c9f583b7",
+      "bytes": 3800
+    },
+    "raw-inputs.json": {
+      "sha256": "35bb6d76e71367f1ac98877d320a4bd57d2ccdf011895857c65567fb5dfc8c46",
+      "bytes": 9967
+    },
+    "vega-lite.svg": {
+      "sha256": "88c880e13209bab3e819dd65743b372957183ed99869a55b2faadb338df1e3e0",
+      "bytes": 133625
+    },
+    "ggaction.svg": {
+      "sha256": "5e7cf492a3669c0686254fd139ad6733b23bd66aaba6e78a038ff9e97013d069",
+      "bytes": 54482
+    }
+  }
+}

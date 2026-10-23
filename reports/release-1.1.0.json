@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "status": "published-library-and-verified-local-viewer",
+  "charts": 1336,
+  "programs": 9766,
+  "addedFamilies": 123,
+  "originalInputsAndAcceptedProgramsPreserved": true,
+  "newTranslationStopped": true,
+  "newSchoolCallsDuringRelease": 0,
+  "library": {
+    "version": "0.0.22",
+    "commit": "202b7afd4146a691c136964c4cc53f9c37444513",
+    "release": "https://github.com/ggaction/ggaction/releases/tag/v0.0.22",
+    "workflow": "https://github.com/ggaction/ggaction/actions/runs/39881207750",
+    "pullRequestsMerged": [
+      252,
+      263
+    ],
+    "openPullRequests": 0,
+    "normalTestsPassed": 5499,
+    "browserTestsPassed": 163,
+    "renderTestsPassed": 261,
+    "issuesReviewed": 39,
+    "issuesClosed": 35,
+    "unfinishedIssues": [
+      238,
+      244,
+      253,
+      258
+    ],
+    "remoteBranchesReviewed": 35,
+    "remoteBranchesDeleted": 33,
+    "alreadyAbsentBranches": 2,
+    "archivalTags": 15,
+    "remainingRemoteBranches": [
+      "main"
+    ]
+  },
+  "runtime": {
+    "officialRegistryInstallation": "passed-621-files-exact",
+    "canonicalFamiliesPassed": 1336,
+    "canonicalPrograms": 9766,
+    "byteIdenticalFamilies": 1334,
+    "exactPixelEquivalentFamilies": 2,
+    "exactPixelRatios": [
+      1,
+      2,
+      4
+    ],
+    "manualImageInspection": false
+  },
+  "viewer": {
+    "url": "https://ggaction.github.io/chart-datasets/",
+    "localInteractionsAndAllSVGDecode": "passed",
+    "localDecodedImages": 2672,
+    "publicDeployment": "checked-after-merge-in-release-asset"
+  },
+  "createdAt": "2026-10-23T01:22:07.615679+00:00"
+}

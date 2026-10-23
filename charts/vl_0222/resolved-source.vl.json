@@ -1,0 +1,647 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Semiconductor production index and Nintendo's hardware sale volumes",
+    "subtitle": [
+      "The industrial production index refer to the real output of all Semiconductor and Other Electronic Component, located in the United States, regardless of their ownership",
+      "Source:https://fred.stlouisfed.org/series/IPG3344S."
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start"
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "width": 400,
+  "height": 300,
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "date": "2017-11-01",
+            "industrial production (IP) index": "103.6753"
+          },
+          {
+            "date": "2017-12-01",
+            "industrial production (IP) index": "105.1716"
+          },
+          {
+            "date": "2018-01-01",
+            "industrial production (IP) index": "105.4829"
+          },
+          {
+            "date": "2018-02-01",
+            "industrial production (IP) index": "105.6235"
+          },
+          {
+            "date": "2018-03-01",
+            "industrial production (IP) index": "105.9109"
+          },
+          {
+            "date": "2018-04-01",
+            "industrial production (IP) index": "106.7085"
+          },
+          {
+            "date": "2018-05-01",
+            "industrial production (IP) index": "106.8187"
+          },
+          {
+            "date": "2018-06-01",
+            "industrial production (IP) index": "107.9924"
+          },
+          {
+            "date": "2018-07-01",
+            "industrial production (IP) index": "108.5101"
+          },
+          {
+            "date": "2018-08-01",
+            "industrial production (IP) index": "108.9194"
+          },
+          {
+            "date": "2018-09-01",
+            "industrial production (IP) index": "107.7834"
+          },
+          {
+            "date": "2018-10-01",
+            "industrial production (IP) index": "106.1456"
+          },
+          {
+            "date": "2018-11-01",
+            "industrial production (IP) index": "103.5462"
+          },
+          {
+            "date": "2018-12-01",
+            "industrial production (IP) index": "102.508"
+          },
+          {
+            "date": "2019-01-01",
+            "industrial production (IP) index": "103.7119"
+          },
+          {
+            "date": "2019-02-01",
+            "industrial production (IP) index": "104.8438"
+          },
+          {
+            "date": "2019-03-01",
+            "industrial production (IP) index": "105.229"
+          },
+          {
+            "date": "2019-04-01",
+            "industrial production (IP) index": "105.735"
+          },
+          {
+            "date": "2019-05-01",
+            "industrial production (IP) index": "105.4185"
+          },
+          {
+            "date": "2019-06-01",
+            "industrial production (IP) index": "106.1078"
+          },
+          {
+            "date": "2019-07-01",
+            "industrial production (IP) index": "107.0556"
+          },
+          {
+            "date": "2019-08-01",
+            "industrial production (IP) index": "108.2936"
+          },
+          {
+            "date": "2019-09-01",
+            "industrial production (IP) index": "108.0755"
+          },
+          {
+            "date": "2019-10-01",
+            "industrial production (IP) index": "108.3111"
+          },
+          {
+            "date": "2019-11-01",
+            "industrial production (IP) index": "110.3629"
+          },
+          {
+            "date": "2019-12-01",
+            "industrial production (IP) index": "111.8644"
+          },
+          {
+            "date": "2020-01-01",
+            "industrial production (IP) index": "109.657"
+          },
+          {
+            "date": "2020-02-01",
+            "industrial production (IP) index": "106.9659"
+          },
+          {
+            "date": "2020-03-01",
+            "industrial production (IP) index": "107.5007"
+          },
+          {
+            "date": "2020-04-01",
+            "industrial production (IP) index": "105.1227"
+          },
+          {
+            "date": "2020-05-01",
+            "industrial production (IP) index": "104.443"
+          },
+          {
+            "date": "2020-06-01",
+            "industrial production (IP) index": "106.9192"
+          },
+          {
+            "date": "2020-07-01",
+            "industrial production (IP) index": "110.0324"
+          },
+          {
+            "date": "2020-08-01",
+            "industrial production (IP) index": "110.067"
+          },
+          {
+            "date": "2020-09-01",
+            "industrial production (IP) index": "112.4326"
+          },
+          {
+            "date": "2020-10-01",
+            "industrial production (IP) index": "115.3715"
+          },
+          {
+            "date": "2020-11-01",
+            "industrial production (IP) index": "115.9573"
+          },
+          {
+            "date": "2020-12-01",
+            "industrial production (IP) index": "115.9329"
+          },
+          {
+            "date": "2021-01-01",
+            "industrial production (IP) index": "116.9196"
+          },
+          {
+            "date": "2021-02-01",
+            "industrial production (IP) index": "117.8156"
+          },
+          {
+            "date": "2021-03-01",
+            "industrial production (IP) index": "120.2769"
+          },
+          {
+            "date": "2021-04-01",
+            "industrial production (IP) index": "121.7455"
+          },
+          {
+            "date": "2021-05-01",
+            "industrial production (IP) index": "123.3242"
+          },
+          {
+            "date": "2021-06-01",
+            "industrial production (IP) index": "121.6047"
+          },
+          {
+            "date": "2021-07-01",
+            "industrial production (IP) index": "121.9787"
+          },
+          {
+            "date": "2021-08-01",
+            "industrial production (IP) index": "122.4545"
+          },
+          {
+            "date": "2021-09-01",
+            "industrial production (IP) index": "123.3063"
+          },
+          {
+            "date": "2021-10-01",
+            "industrial production (IP) index": "124.7061"
+          },
+          {
+            "date": "2021-11-01",
+            "industrial production (IP) index": "125.9588"
+          },
+          {
+            "date": "2021-12-01",
+            "industrial production (IP) index": "126.5509"
+          },
+          {
+            "date": "2022-01-01",
+            "industrial production (IP) index": "125.529"
+          },
+          {
+            "date": "2022-02-01",
+            "industrial production (IP) index": "128.7518"
+          },
+          {
+            "date": "2022-03-01",
+            "industrial production (IP) index": "129.253"
+          },
+          {
+            "date": "2022-04-01",
+            "industrial production (IP) index": "125.1958"
+          },
+          {
+            "date": "2022-05-01",
+            "industrial production (IP) index": "124.2725"
+          },
+          {
+            "date": "2022-06-01",
+            "industrial production (IP) index": "125.2538"
+          },
+          {
+            "date": "2022-07-01",
+            "industrial production (IP) index": "124.7579"
+          },
+          {
+            "date": "2022-08-01",
+            "industrial production (IP) index": "122.8931"
+          },
+          {
+            "date": "2022-09-01",
+            "industrial production (IP) index": "121.3735"
+          },
+          {
+            "date": "2022-10-01",
+            "industrial production (IP) index": "119.7677"
+          },
+          {
+            "date": "2022-11-01",
+            "industrial production (IP) index": "120.2309"
+          }
+        ]
+      },
+      "mark": {
+        "opacity": 1,
+        "type": "line",
+        "size": 2.7,
+        "color": "#e6224b"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "title": null
+        },
+        "y": {
+          "field": "industrial production (IP) index",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              100,
+              140
+            ]
+          },
+          "title": "industrial production (IP) index",
+          "axis": {
+            "titleColor": "#e6224b",
+            "grid": true
+          }
+        },
+        "tooltip": [
+          {
+            "field": "DATE",
+            "title": "date",
+            "type": "temporal",
+            "timeUnit": "yearmonth"
+          },
+          {
+            "field": "industrial production (IP) index",
+            "type": "quantitative",
+            "title": "IP index"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "date": "2018",
+            "main_products": "Hardware",
+            "total_sales": "1505.0"
+          },
+          {
+            "date": "2019",
+            "main_products": "Hardware",
+            "total_sales": "1695.0"
+          },
+          {
+            "date": "2020",
+            "main_products": "Hardware",
+            "total_sales": "2103.0"
+          },
+          {
+            "date": "2021",
+            "main_products": "Hardware",
+            "total_sales": "2883.0"
+          },
+          {
+            "date": "2022",
+            "main_products": "Hardware",
+            "total_sales": "2306.0"
+          }
+        ]
+      },
+      "transform": [
+        {
+          "calculate": "datum.total_sales*10",
+          "as": "sale_volumes"
+        }
+      ],
+      "mark": {
+        "stroke": "#122b39 ",
+        "type": "line",
+        "size": 2.3
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "title": null
+        },
+        "y": {
+          "field": "sale_volumes",
+          "type": "quantitative",
+          "title": "nintendo hardware sales volumes('000)",
+          "scale": {
+            "domain": [
+              15000,
+              30000
+            ]
+          },
+          "axis": {
+            "titleColor": "#122b39"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "title": "date",
+            "type": "temporal",
+            "timeUnit": "year"
+          },
+          {
+            "field": "sale_volumes",
+            "type": "quantitative",
+            "title": "hardware sales units ('000)"
+          }
+        ]
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  },
+  "autosize": {
+    "type": "pad",
+    "contains": "padding",
+    "resize": true
+  },
+  "data": {
+    "values": [
+      {
+        "date": "2017-11-01",
+        "industrial production (IP) index": "103.6753"
+      },
+      {
+        "date": "2017-12-01",
+        "industrial production (IP) index": "105.1716"
+      },
+      {
+        "date": "2018-01-01",
+        "industrial production (IP) index": "105.4829"
+      },
+      {
+        "date": "2018-02-01",
+        "industrial production (IP) index": "105.6235"
+      },
+      {
+        "date": "2018-03-01",
+        "industrial production (IP) index": "105.9109"
+      },
+      {
+        "date": "2018-04-01",
+        "industrial production (IP) index": "106.7085"
+      },
+      {
+        "date": "2018-05-01",
+        "industrial production (IP) index": "106.8187"
+      },
+      {
+        "date": "2018-06-01",
+        "industrial production (IP) index": "107.9924"
+      },
+      {
+        "date": "2018-07-01",
+        "industrial production (IP) index": "108.5101"
+      },
+      {
+        "date": "2018-08-01",
+        "industrial production (IP) index": "108.9194"
+      },
+      {
+        "date": "2018-09-01",
+        "industrial production (IP) index": "107.7834"
+      },
+      {
+        "date": "2018-10-01",
+        "industrial production (IP) index": "106.1456"
+      },
+      {
+        "date": "2018-11-01",
+        "industrial production (IP) index": "103.5462"
+      },
+      {
+        "date": "2018-12-01",
+        "industrial production (IP) index": "102.508"
+      },
+      {
+        "date": "2019-01-01",
+        "industrial production (IP) index": "103.7119"
+      },
+      {
+        "date": "2019-02-01",
+        "industrial production (IP) index": "104.8438"
+      },
+      {
+        "date": "2019-03-01",
+        "industrial production (IP) index": "105.229"
+      },
+      {
+        "date": "2019-04-01",
+        "industrial production (IP) index": "105.735"
+      },
+      {
+        "date": "2019-05-01",
+        "industrial production (IP) index": "105.4185"
+      },
+      {
+        "date": "2019-06-01",
+        "industrial production (IP) index": "106.1078"
+      },
+      {
+        "date": "2019-07-01",
+        "industrial production (IP) index": "107.0556"
+      },
+      {
+        "date": "2019-08-01",
+        "industrial production (IP) index": "108.2936"
+      },
+      {
+        "date": "2019-09-01",
+        "industrial production (IP) index": "108.0755"
+      },
+      {
+        "date": "2019-10-01",
+        "industrial production (IP) index": "108.3111"
+      },
+      {
+        "date": "2019-11-01",
+        "industrial production (IP) index": "110.3629"
+      },
+      {
+        "date": "2019-12-01",
+        "industrial production (IP) index": "111.8644"
+      },
+      {
+        "date": "2020-01-01",
+        "industrial production (IP) index": "109.657"
+      },
+      {
+        "date": "2020-02-01",
+        "industrial production (IP) index": "106.9659"
+      },
+      {
+        "date": "2020-03-01",
+        "industrial production (IP) index": "107.5007"
+      },
+      {
+        "date": "2020-04-01",
+        "industrial production (IP) index": "105.1227"
+      },
+      {
+        "date": "2020-05-01",
+        "industrial production (IP) index": "104.443"
+      },
+      {
+        "date": "2020-06-01",
+        "industrial production (IP) index": "106.9192"
+      },
+      {
+        "date": "2020-07-01",
+        "industrial production (IP) index": "110.0324"
+      },
+      {
+        "date": "2020-08-01",
+        "industrial production (IP) index": "110.067"
+      },
+      {
+        "date": "2020-09-01",
+        "industrial production (IP) index": "112.4326"
+      },
+      {
+        "date": "2020-10-01",
+        "industrial production (IP) index": "115.3715"
+      },
+      {
+        "date": "2020-11-01",
+        "industrial production (IP) index": "115.9573"
+      },
+      {
+        "date": "2020-12-01",
+        "industrial production (IP) index": "115.9329"
+      },
+      {
+        "date": "2021-01-01",
+        "industrial production (IP) index": "116.9196"
+      },
+      {
+        "date": "2021-02-01",
+        "industrial production (IP) index": "117.8156"
+      },
+      {
+        "date": "2021-03-01",
+        "industrial production (IP) index": "120.2769"
+      },
+      {
+        "date": "2021-04-01",
+        "industrial production (IP) index": "121.7455"
+      },
+      {
+        "date": "2021-05-01",
+        "industrial production (IP) index": "123.3242"
+      },
+      {
+        "date": "2021-06-01",
+        "industrial production (IP) index": "121.6047"
+      },
+      {
+        "date": "2021-07-01",
+        "industrial production (IP) index": "121.9787"
+      },
+      {
+        "date": "2021-08-01",
+        "industrial production (IP) index": "122.4545"
+      },
+      {
+        "date": "2021-09-01",
+        "industrial production (IP) index": "123.3063"
+      },
+      {
+        "date": "2021-10-01",
+        "industrial production (IP) index": "124.7061"
+      },
+      {
+        "date": "2021-11-01",
+        "industrial production (IP) index": "125.9588"
+      },
+      {
+        "date": "2021-12-01",
+        "industrial production (IP) index": "126.5509"
+      },
+      {
+        "date": "2022-01-01",
+        "industrial production (IP) index": "125.529"
+      },
+      {
+        "date": "2022-02-01",
+        "industrial production (IP) index": "128.7518"
+      },
+      {
+        "date": "2022-03-01",
+        "industrial production (IP) index": "129.253"
+      },
+      {
+        "date": "2022-04-01",
+        "industrial production (IP) index": "125.1958"
+      },
+      {
+        "date": "2022-05-01",
+        "industrial production (IP) index": "124.2725"
+      },
+      {
+        "date": "2022-06-01",
+        "industrial production (IP) index": "125.2538"
+      },
+      {
+        "date": "2022-07-01",
+        "industrial production (IP) index": "124.7579"
+      },
+      {
+        "date": "2022-08-01",
+        "industrial production (IP) index": "122.8931"
+      },
+      {
+        "date": "2022-09-01",
+        "industrial production (IP) index": "121.3735"
+      },
+      {
+        "date": "2022-10-01",
+        "industrial production (IP) index": "119.7677"
+      },
+      {
+        "date": "2022-11-01",
+        "industrial production (IP) index": "120.2309"
+      }
+    ]
+  }
+}

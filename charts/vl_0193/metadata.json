@@ -1,0 +1,127 @@
+{
+  "id": "vl_0193",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ebff8bba64fa8e85e3a9c5d60c16b8d608dcc8d031d95ca609f60e7f798386a4",
+      "actions": 12,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "e5e2306ee08dbfc918c2c78b7fcfdf06a3a7fb5ce066748b44b43f8f9363b62f",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "073be56bf4af6e7f9ee7f2630e60f34b81dcb99e1871643b05184ada00aa1d59",
+      "actions": 15,
+      "topOptions": 37
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a92b80aa4bd30ea0addab41e47f9f35f576dc96bf039ae5e211426a70ef83797",
+      "actions": 19,
+      "topOptions": 39
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "a69419bd8a6d342f6500c9769ea4697f08edba01481a624bca985948addb3484",
+      "actions": 19,
+      "topOptions": 39
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "cd2527205c29ed9f4ff7c5fa4f96b0af0fadc994bddde1c54d35f60035026531",
+      "actions": 20,
+      "topOptions": 41
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "71a0f39ac049b5861ada55f52202a1db81e9206ba8ab2f577137a7b8a0a537ba",
+      "actions": 21,
+      "topOptions": 42
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "6139cefa585bc370ed9215952edbd1a02b619fe83a1a9b57533bb90c4cb07f65",
+      "actions": 22,
+      "topOptions": 44
+    }
+  ],
+  "sourceUrls": [
+    "https://www.trafforddatalab.io/interactive_graphics_companion/data/gapminder.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School-authored equivalent stages with retained high-level Rug/Guides, source raw rows and dimensions, independently verified Tick rectangles and explicit source-only palette/legend conventions. G6 font-at-birth repair and original unexecuted response retained; no frontier exhaustion claim."
+  },
+  "historicalRuntimeCommits": [
+    "953679bac4f40c9d81c86d40d866b00d8e131c95"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "88354ff9c84e54819ef7774df4f440114ff4ebce6970ead2913dab2fbd91499b",
+      "bytes": 1324
+    },
+    "data.json": {
+      "sha256": "1586280bdbb4a2d64951d8f5a351cd7a86d24301d69ee0abe9228eba17fd6afb",
+      "bytes": 461856
+    },
+    "resolved-source.vl.json": {
+      "sha256": "10f8c2aad67c6e8c09d77a2275502d8f92da9bd3f889fa21077a9c9c370c0e41",
+      "bytes": 557424
+    },
+    "G1.gg.mjs": {
+      "sha256": "ebff8bba64fa8e85e3a9c5d60c16b8d608dcc8d031d95ca609f60e7f798386a4",
+      "bytes": 3112
+    },
+    "G2.gg.mjs": {
+      "sha256": "e5e2306ee08dbfc918c2c78b7fcfdf06a3a7fb5ce066748b44b43f8f9363b62f",
+      "bytes": 3121
+    },
+    "G3.gg.mjs": {
+      "sha256": "073be56bf4af6e7f9ee7f2630e60f34b81dcb99e1871643b05184ada00aa1d59",
+      "bytes": 3257
+    },
+    "G4.gg.mjs": {
+      "sha256": "a92b80aa4bd30ea0addab41e47f9f35f576dc96bf039ae5e211426a70ef83797",
+      "bytes": 3297
+    },
+    "G5.gg.mjs": {
+      "sha256": "a69419bd8a6d342f6500c9769ea4697f08edba01481a624bca985948addb3484",
+      "bytes": 3225
+    },
+    "G6.gg.mjs": {
+      "sha256": "cd2527205c29ed9f4ff7c5fa4f96b0af0fadc994bddde1c54d35f60035026531",
+      "bytes": 3250
+    },
+    "G7.gg.mjs": {
+      "sha256": "71a0f39ac049b5861ada55f52202a1db81e9206ba8ab2f577137a7b8a0a537ba",
+      "bytes": 3269
+    },
+    "G8.gg.mjs": {
+      "sha256": "6139cefa585bc370ed9215952edbd1a02b619fe83a1a9b57533bb90c4cb07f65",
+      "bytes": 3295
+    },
+    "vega-lite.svg": {
+      "sha256": "acba5a4c528a9af5d23b281cd1078cd7851ea470a2a22e5e82e9abd73ad926a3",
+      "bytes": 47099
+    },
+    "ggaction.svg": {
+      "sha256": "c72e0eb7c263293f8a537cf9f1b5271ee608ccd9c66066f376c65d5abdd74dc7",
+      "bytes": 35365
+    }
+  }
+}

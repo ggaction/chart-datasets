@@ -1,0 +1,141 @@
+{
+  "id": "vl_1261",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "4493b59338aaf55df64bfdbe8d7e2745f23858ac387a2f4a1753a5103990f374",
+      "actions": 10,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a7c72685a61884e16c28382efb7fc8b0f990609085d7584bc5cdccaa80620c86",
+      "actions": 12,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a5b531e58175552ad7865075ee1be5ceaa4da89a035e7e3c41c73933a1f10c49",
+      "actions": 14,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "3255fd6a5962c07ab10bfb9fed8da8baa35a415807349aa73204a00e9698dcbd",
+      "actions": 15,
+      "topOptions": 28
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e4c7b7162df5f04e100376e40566b680e496837858db507f7b1b837fd987424d",
+      "actions": 17,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "979d5b8e94584ae3e71551ede29cf39e0c9c33905f56cd57c1f79c049aa0f5ba",
+      "actions": 21,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "87baf3120e0fb88adf737eba796acf7adb58b103f30525bcfca73c13487ce361",
+      "actions": 23,
+      "topOptions": 38
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "303d7c06b6cac88d91a254bb22ab0f3c5c5bc310a790305700359ae7ed269e64",
+      "actions": 24,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/google/dopamine/a6f414ca01a81e933359a4922965178a40e0f38a/baselines/atari/data/riverraid.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful equivalents retain source/raw/CI/math/geometry and bothfacades. Allcalls<=3options/all8exactnativeSVG. CorrectYlabeloffsetpositive and nativeinferredgrids maintained. Stop at cap, notexhaustion; school-only onevalue correction preserved."
+  },
+  "historicalRuntimeCommits": [
+    "e93500081b6dde6be7614e3e9352e947bec5908d"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "5bbfb702cde661c7e2f850b250ba35d9faaae6a472ddc715df32fefda920ef25",
+      "bytes": 991
+    },
+    "data.json": {
+      "sha256": "cc3c83aeae2fd8f252ecf8328552f96840a87ed61539711aefb2da1be26a0898",
+      "bytes": 521216
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e5678ea3d1b7fb57fd8391ab28e027bc083e789b0bffdb7a152c849adabc30ec",
+      "bytes": 641564
+    },
+    "G1.gg.mjs": {
+      "sha256": "4493b59338aaf55df64bfdbe8d7e2745f23858ac387a2f4a1753a5103990f374",
+      "bytes": 7510
+    },
+    "G2.gg.mjs": {
+      "sha256": "a7c72685a61884e16c28382efb7fc8b0f990609085d7584bc5cdccaa80620c86",
+      "bytes": 7528
+    },
+    "G3.gg.mjs": {
+      "sha256": "a5b531e58175552ad7865075ee1be5ceaa4da89a035e7e3c41c73933a1f10c49",
+      "bytes": 7536
+    },
+    "G4.gg.mjs": {
+      "sha256": "3255fd6a5962c07ab10bfb9fed8da8baa35a415807349aa73204a00e9698dcbd",
+      "bytes": 7576
+    },
+    "G5.gg.mjs": {
+      "sha256": "e4c7b7162df5f04e100376e40566b680e496837858db507f7b1b837fd987424d",
+      "bytes": 7722
+    },
+    "G6.gg.mjs": {
+      "sha256": "979d5b8e94584ae3e71551ede29cf39e0c9c33905f56cd57c1f79c049aa0f5ba",
+      "bytes": 7762
+    },
+    "G7.gg.mjs": {
+      "sha256": "87baf3120e0fb88adf737eba796acf7adb58b103f30525bcfca73c13487ce361",
+      "bytes": 7748
+    },
+    "G8.gg.mjs": {
+      "sha256": "303d7c06b6cac88d91a254bb22ab0f3c5c5bc310a790305700359ae7ed269e64",
+      "bytes": 7761
+    },
+    "vega-lite.svg": {
+      "sha256": "8660e3ea5a169dfc4a83a4d4e85147b8d56d703ca061ed09f8df7bec26758aba",
+      "bytes": 66908
+    },
+    "ggaction.svg": {
+      "sha256": "86c5c5b9a79f9eb5e01ba301da79e68cac0c0e0d8203acfae2df7053c4039477",
+      "bytes": 102332
+    },
+    "source-reference-policy.json": {
+      "sha256": "f48122267d24f6327722790b08c5ad037b77882368e125350ea8f815b6b3e9ee",
+      "bytes": 1624
+    },
+    "vega-lite-unseeded.svg": {
+      "sha256": "b0659ae6f9eb0e6d7fd558d549092d55bd5cbc8def99b2e1e7640de999fbc665",
+      "bytes": 66492
+    }
+  },
+  "referencePolicy": {
+    "metadata": "source-reference-policy.json",
+    "environmentSeed": 1,
+    "originalSourceAuthoredSeed": false,
+    "historicalUnseededSvg": "vega-lite-unseeded.svg"
+  }
+}

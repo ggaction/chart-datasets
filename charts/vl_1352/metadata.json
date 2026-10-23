@@ -1,0 +1,134 @@
+{
+  "id": "vl_1352",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "e9e51378fb97e05e26d0392e0c7248300f7b26899b100ec63f0d62f6813ddbb0",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f879f6503ca307d417235ebe9991af1715c48e2f18c9cb068b3561e5267ac843",
+      "actions": 14,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "b02fcc6dc381d7346a617e4c0ce0d328560d255eaa30f266c5a66cc8050c8dfd",
+      "actions": 17,
+      "topOptions": 38
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7f020b413425a87dd673bc95f3b9fa17ce64e19f15da42220e9492b177b1e697",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "1cc37df7b286a8eeaa3261ccd94197a60b2056ed7016855c7088da6bd871758b",
+      "actions": 21,
+      "topOptions": 44
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "e3ac24a40a8b68157700470cf403de1abb2da90e18c70ab5fe4496208755da7c",
+      "actions": 23,
+      "topOptions": 44
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "dedfd28e60facaee4ea04613c03fbb3e35a5252437116f47e9f21191ef566952",
+      "actions": 24,
+      "topOptions": 44
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "5a9f572942cb6637b274a9a614692e06b2c7d02f705972ea11f2861ef6be2e56",
+      "actions": 25,
+      "topOptions": 46
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/Emilysquires02/Emilysquires02.github.io/main/error.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School-only whole-chart stages13/14/17/19/21/23/24/25actions preserve1075originalCSVSTRINGrows/fivekeysincludingempty/5rowpanels/45guides/37glyphs and428x367Canvas. Allcalls<=3, nofontmeasurements.1040ordinary plusfresh1040ordinary/independentcoldchecks pass, exactfamilySVG/PNG. Complete high-level plot and axes precede owned edits; original absent legend preserved. Eight-stage cap, not exhaustion; no image inspection."
+  },
+  "historicalRuntimeCommits": [],
+  "historicalVerificationRuntimeUnrecordedStages": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "G8"
+  ],
+  "files": {
+    "source.vl.json": {
+      "sha256": "1d9952fd79630881bae8aba4761d17219fd8766858053a433b30142eaf837a29",
+      "bytes": 1091
+    },
+    "data.json": {
+      "sha256": "84736877552ba19383b0186ba7b5f5095bb312359a8d88d56b9546d622626ace",
+      "bytes": 139904
+    },
+    "resolved-source.vl.json": {
+      "sha256": "da043b7b827e6420caadab125a6ae2de100279747fd1e15e29580a11b9d5b98c",
+      "bytes": 171083
+    },
+    "G1.gg.mjs": {
+      "sha256": "e9e51378fb97e05e26d0392e0c7248300f7b26899b100ec63f0d62f6813ddbb0",
+      "bytes": 3334
+    },
+    "G2.gg.mjs": {
+      "sha256": "f879f6503ca307d417235ebe9991af1715c48e2f18c9cb068b3561e5267ac843",
+      "bytes": 3196
+    },
+    "G3.gg.mjs": {
+      "sha256": "b02fcc6dc381d7346a617e4c0ce0d328560d255eaa30f266c5a66cc8050c8dfd",
+      "bytes": 3166
+    },
+    "G4.gg.mjs": {
+      "sha256": "7f020b413425a87dd673bc95f3b9fa17ce64e19f15da42220e9492b177b1e697",
+      "bytes": 3388
+    },
+    "G5.gg.mjs": {
+      "sha256": "1cc37df7b286a8eeaa3261ccd94197a60b2056ed7016855c7088da6bd871758b",
+      "bytes": 3358
+    },
+    "G6.gg.mjs": {
+      "sha256": "e3ac24a40a8b68157700470cf403de1abb2da90e18c70ab5fe4496208755da7c",
+      "bytes": 3312
+    },
+    "G7.gg.mjs": {
+      "sha256": "dedfd28e60facaee4ea04613c03fbb3e35a5252437116f47e9f21191ef566952",
+      "bytes": 3315
+    },
+    "G8.gg.mjs": {
+      "sha256": "5a9f572942cb6637b274a9a614692e06b2c7d02f705972ea11f2861ef6be2e56",
+      "bytes": 3325
+    },
+    "vega-lite.svg": {
+      "sha256": "c6ddd5817934585dbcbba677dcc474e7de6ab0624f0498954d4b460691439fea",
+      "bytes": 39357
+    },
+    "ggaction.svg": {
+      "sha256": "d04f96948d8a2f0ce40c6d0f149da11c31799f5547da9c568813b02edac4526b",
+      "bytes": 54862
+    }
+  }
+}

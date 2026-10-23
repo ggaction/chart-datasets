@@ -1,0 +1,127 @@
+{
+  "id": "vl_1774",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "0089af52b3c91aee8c3b75b1ca6be550fe2e15a9573f90fed1c7b032b2a89f68",
+      "actions": 7,
+      "topOptions": 16
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "3b1353edf902ac38764aa57692555ac79d05bcbfcee60dafdcab5b977eb51447",
+      "actions": 8,
+      "topOptions": 19
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "700d0cb28232a59f90a9feff6293ada665e87526f637ab57ef0895c4e308c599",
+      "actions": 9,
+      "topOptions": 21
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "1c486339d8a7b68aeddaaf4a489916e6b86ee264e702d37d5532ee9a15db2772",
+      "actions": 11,
+      "topOptions": 23
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "96799546184f01ba3e6c336302c9daf03c561f2c17a12b3a93c3f14df7a4eb6a",
+      "actions": 13,
+      "topOptions": 27
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "42ed145f90c48291357d63d8505866f4b223faddd7ef2c2cfba4bcec1599a42a",
+      "actions": 17,
+      "topOptions": 29
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d2543fe54d1e688997caf96be9f207d99c890546a2ac5df2047096212ce92ecd",
+      "actions": 17,
+      "topOptions": 29
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "80c741d68f33d80b27ca61dfc9aa86f297d69451fe8af5babfb239223054aac4",
+      "actions": 19,
+      "topOptions": 33
+    }
+  ],
+  "sourceUrls": [
+    "https://gicentre.github.io/data/tests/timeTest.tsv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful actual School-authored stages7/8/9/11/13/17/17/19actions; unchanged403normalchecks, fresh403normal plus71independentcoldchecks, all26265rawSTRINGrows and25909UTCminute mean vertices preserved. Allcalls<=3keys andsamefamilySVG/PNG. Source/native guide snapping and browserFloat32 conventions disclosed; eight-stage cap, no frontier exhaustion claim."
+  },
+  "historicalRuntimeCommits": [
+    "c9d8d6eaf78c2cce5abfc3a2cd96d6db2a8a4e80"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "d303043c94a32d7a5f465ae33e9b8d29d9de88ac1a698aa9446962bdc6f867eb",
+      "bytes": 508
+    },
+    "data.json": {
+      "sha256": "1ae3e91972addcbdba23e94c13e30fce6708b402efe315403b1ed8b2d23ffd02",
+      "bytes": 1838553
+    },
+    "resolved-source.vl.json": {
+      "sha256": "3a492e85c63e83f203d5df9438e053c5f22aac00dccc57d1dd90670fb41233e3",
+      "bytes": 2259327
+    },
+    "G1.gg.mjs": {
+      "sha256": "0089af52b3c91aee8c3b75b1ca6be550fe2e15a9573f90fed1c7b032b2a89f68",
+      "bytes": 3444
+    },
+    "G2.gg.mjs": {
+      "sha256": "3b1353edf902ac38764aa57692555ac79d05bcbfcee60dafdcab5b977eb51447",
+      "bytes": 3600
+    },
+    "G3.gg.mjs": {
+      "sha256": "700d0cb28232a59f90a9feff6293ada665e87526f637ab57ef0895c4e308c599",
+      "bytes": 3434
+    },
+    "G4.gg.mjs": {
+      "sha256": "1c486339d8a7b68aeddaaf4a489916e6b86ee264e702d37d5532ee9a15db2772",
+      "bytes": 3431
+    },
+    "G5.gg.mjs": {
+      "sha256": "96799546184f01ba3e6c336302c9daf03c561f2c17a12b3a93c3f14df7a4eb6a",
+      "bytes": 3627
+    },
+    "G6.gg.mjs": {
+      "sha256": "42ed145f90c48291357d63d8505866f4b223faddd7ef2c2cfba4bcec1599a42a",
+      "bytes": 3691
+    },
+    "G7.gg.mjs": {
+      "sha256": "d2543fe54d1e688997caf96be9f207d99c890546a2ac5df2047096212ce92ecd",
+      "bytes": 3611
+    },
+    "G8.gg.mjs": {
+      "sha256": "80c741d68f33d80b27ca61dfc9aa86f297d69451fe8af5babfb239223054aac4",
+      "bytes": 3651
+    },
+    "vega-lite.svg": {
+      "sha256": "1298d6e394f5e82d1fc859741c0ca2fc5ab6a9daefe6d1aaa6a9f8221363f43d",
+      "bytes": 401844
+    },
+    "ggaction.svg": {
+      "sha256": "803927cc406656a2538de172a9e9ffe36263edc00707c270dd708cae9dd8e3c4",
+      "bytes": 958401
+    }
+  }
+}

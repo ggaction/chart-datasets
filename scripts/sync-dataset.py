@@ -9,10 +9,11 @@ import re
 import shutil
 import tempfile
 import xml.etree.ElementTree as ET
+from dataset_inputs import source_family, raw_inputs, audit_stages, ordered, is_raw_file
 
 
 def read(path):
-    return json.loads(path.read_text())
+    return json.loads(path.read_text(), parse_int=lambda text: -0.0 if text == '-0' else int(text))
 
 
 def digest(path):
@@ -137,7 +138,7 @@ def sync(root, workspace, apply=False):
     programs = 0
     for chart_id in sorted(set(config['sourceIds'])):
         require(re.fullmatch(r'vl_\d{4}', chart_id), 'Invalid source id')
-        source_dir = base / chart_id
+        source_dir, epoch = source_family(workspace, chart_id, base)
         completion_file = source_dir / 'completion.json'
         if not completion_file.exists() or read(completion_file).get('status') != 'completed':
             continue
@@ -153,6 +154,12 @@ def sync(root, workspace, apply=False):
             require(not urls(spec), f'{chart_id}: unresolved source resources')
             resolved = source_dir / 'source.vl.json'
         files['resolved-source.vl.json'] = resolved
+        try:
+            raw_files, raw_manifest = raw_inputs(source_dir, spec, resolved)
+        except RuntimeError as error:
+            raise RuntimeError(f'{chart_id}: {error}') from error
+        files.update(raw_files)
+        stage_requests = []
         stages, runtimes, unrecorded_runtimes = [], set(), []
         for level in levels:
             item = accepted[level]
@@ -175,18 +182,46 @@ def sync(root, workspace, apply=False):
             require(digest(attempt / 'render/chart.svg') == item['svgSha256'] == verification['svgSha256'],
                     f'{chart_id}/{level}: stale rendered SVG')
             require(item['svgSha256'] == accepted['G1']['svgSha256'], f'{chart_id}: unequal family stages')
-            imports = re.findall(r'(?:from\s*|import\s*)["\']([^"\']+)["\']', code.read_text())
-            require(sorted(imports) == ['./data.json', 'ggaction'], f'{chart_id}/{level}: unexpected dependency')
+            stage_requests.append(dict(level=level, path=str(code)))
             name = level + '.gg.mjs'
             files[name] = code
             stages.append(dict(level=level, code=name, sha256=code_hash,
                                actions=item.get('actions'), topOptions=item.get('topOptions')))
             recorded_runtime = verification.get('runtimeCommit')
+            require(epoch is None or recorded_runtime is not None, f'{chart_id}/{level}: selected epoch runtime missing')
             if recorded_runtime is not None:
                 require(re.fullmatch(r'[a-f0-9]{40}', recorded_runtime), f'{chart_id}/{level}: invalid runtime commit')
+                if epoch is not None:
+                    require(recorded_runtime == epoch['runtimeCommit'], f'{chart_id}/{level}: selected epoch runtime changed')
                 runtimes.add(recorded_runtime)
             else:
                 unrecorded_runtimes.append(level)
+        try:
+            module_audits = audit_stages(pathlib.Path(__file__).resolve().parent, stage_requests, raw_files, strict_bindings=raw_manifest is not None)
+        except RuntimeError as error:
+            raise RuntimeError(f'{chart_id}: {error}') from error
+        for audit, request in zip(module_audits, stage_requests):
+            attempt = pathlib.Path(request['path']).parent
+            for name in {binding['file'] for binding in audit['bindings']}:
+                require(digest(attempt / name) == digest(raw_files[name]),
+                        f'{chart_id}/{audit["level"]}: stage raw table changed: {name}')
+        if raw_manifest is not None:
+            for audit, request in zip(module_audits, stage_requests):
+                semantic = read(pathlib.Path(request['path']).parent / 'render/semantic.json')
+                datasets = {dataset['id']: dataset for dataset in semantic['datasets']}
+                for binding in audit['bindings']:
+                    require(binding['datasetId'] in datasets
+                            and ordered(datasets[binding['datasetId']]['values']) == ordered(read(raw_files[binding['file']])),
+                            f'{chart_id}/{audit["level"]}: actual native raw dataset binding mismatch')
+                audit['actualNativeRawDatasetBindingsExact'] = True
+            raw_manifest['stages'] = module_audits
+            prepared_raw = staging / (chart_id + '-raw-inputs.json')
+            save(prepared_raw, raw_manifest)
+            files['raw-inputs.json'] = prepared_raw
+        if epoch is not None:
+            prepared_epoch = staging / (chart_id + '-source-epoch.json')
+            save(prepared_epoch, epoch)
+            files['source-epoch.json'] = prepared_epoch
         require(completion['lastCodeSha256'] == accepted[levels[-1]]['codeSha256'],
                 f'{chart_id}: stale completion')
         files['vega-lite.svg'] = source_dir / 'reference/chart.svg'
@@ -199,6 +234,17 @@ def sync(root, workspace, apply=False):
             for name in ('source.vl.json', 'resolved-source.vl.json', 'data.json', 'vega-lite.svg'):
                 require(old['files'][name] == incoming_proofs[name],
                         f'{chart_id}: original input changed: {name}; review separately')
+            for name in ('source-epoch.json',):
+                if name in old['files']:
+                    require(name in incoming_proofs and old['files'][name] == incoming_proofs[name],
+                            f'{chart_id}: distributed input provenance changed: {name}')
+            for name in old['files']:
+                if is_raw_file(name) and name != 'data.json':
+                    require(old['files'][name] == incoming_proofs.get(name),
+                            f'{chart_id}: original reference table changed: {name}')
+            if 'raw-inputs.json' in old['files']:
+                require(raw_manifest is not None and read(destination / 'raw-inputs.json')['descriptors'] == raw_manifest['descriptors'],
+                        f'{chart_id}: original raw descriptors changed')
             if old.get('referencePolicy'):
                 require(policy == old['referencePolicy'], f'{chart_id}: reference policy was dropped or changed')
                 for name in ('source-reference-policy.json', 'vega-lite-unseeded.svg'):

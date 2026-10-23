@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "kind": "named-layer-raw-inputs-v1",
+  "primary": "data.json",
+  "sourceSha256": "dc7933486ebcee44d7eb5d389c51d2e0d28b2c9bd46ee373587d7916f4485a57",
+  "resolvedSourceSha256": "e4f86b3a6145a72654a09010d27fe3bc6dafc01a6e1b149c51af6eb806a6b9f8",
+  "resolutionSha256": "7a3bf3a126e942a7c3d8f4b6e57002b68d857bf599c4953d5a40cc6e362ccf5b",
+  "profileSha256": "32597bcd59fa55148e41ece2c8ff99d56f5a3ff0af5e4e9db8877561988ff37d",
+  "descriptors": [
+    {
+      "pointer": "/layer/0/data",
+      "file": "data.json",
+      "sha256": "ad44431e058032b8ab2de3687c92076ab88e3ac093d6188730ad6ae69f6f6793",
+      "bytes": 6507,
+      "rowCount": 100,
+      "kind": "named-inline",
+      "originalDatasetName": "data-d77d4f31777d11718b31df3feb164da9"
+    },
+    {
+      "pointer": "/layer/1/data",
+      "file": "line-data.json",
+      "sha256": "2eb5eb16fa1785bd9989b431869cd90d0e3af8d913330607a5fd32eedbe9b284",
+      "bytes": 6516,
+      "rowCount": 100,
+      "kind": "named-inline",
+      "originalDatasetName": "data-fe04dd34dbf1c590d7ac876197c4c736"
+    }
+  ],
+  "stages": [
+    {
+      "level": "G1",
+      "codeSha256": "7e34f9197b899c3697028593f3d68b7f892a813680e65aa13bdd5acc19354e67",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "lineData",
+          "file": "line-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "line-data.json",
+          "local": "lineData",
+          "datasetId": "line",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G2",
+      "codeSha256": "36425af3b098fbf69b5fa3dd71c446c57066944ca19a0fe1dabe63e96f205ed1",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "lineData",
+          "file": "line-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "line-data.json",
+          "local": "lineData",
+          "datasetId": "line",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G3",
+      "codeSha256": "f8cfa857beae42629838c54683d506026c0eb04851108cb7943769f074ce5cf1",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "lineData",
+          "file": "line-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "line-data.json",
+          "local": "lineData",
+          "datasetId": "line",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G4",
+      "codeSha256": "844c7ed4f8f3921756b457f36e5ee869aace122deb0113d04ebdda357093a4d0",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "lineData",
+          "file": "line-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "line-data.json",
+          "local": "lineData",
+          "datasetId": "line",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G5",
+      "codeSha256": "e7eb29a55d5ccb1357df8c38232db25cf602821215eb39286d778d61cc61605e",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "lineData",
+          "file": "line-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "line-data.json",
+          "local": "lineData",
+          "datasetId": "line",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G6",
+      "codeSha256": "7437702165c95dad9e7b64046ee7d333668fbdceffb1445ad413814894be39df",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "lineData",
+          "file": "line-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "line-data.json",
+          "local": "lineData",
+          "datasetId": "line",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G7",
+      "codeSha256": "f48dd218d01ddad489fa7a4a02e1acdaead9e95044d59b802069f619e2475893",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "lineData",
+          "file": "line-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "line-data.json",
+          "local": "lineData",
+          "datasetId": "line",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G8",
+      "codeSha256": "d2fb3496794fcc751a97075107631ab5c5a0d62e866e4654a221eb6e5834e273",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "lineData",
+          "file": "line-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "line-data.json",
+          "local": "lineData",
+          "datasetId": "line",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    }
+  ]
+}

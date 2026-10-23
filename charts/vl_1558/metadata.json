@@ -1,0 +1,136 @@
+{
+  "id": "vl_1558",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "6e4bc69fe13e34d2e217f7a4dae1f0a60cb19025beed10ab47c6e2a4abcc5459",
+      "actions": 11,
+      "topOptions": 27
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0d7012c53f25d8403ad613a4d4d0650e6d441631c65afe3c9b24576352aad0d2",
+      "actions": 12,
+      "topOptions": 29
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "e3489cbc78c16ebe6e0d0ed2c118012af569c129ccf0b1155a68ab474e93d03f",
+      "actions": 13,
+      "topOptions": 33
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "86bed411dc6f9c65a5cf441b9570b6189a8e823981ff034f5d5c30faade17d71",
+      "actions": 15,
+      "topOptions": 37
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9da7b7d9a3cb08b69f9707c1b25958a90141e576657c2fa99eea5cab6d6229c6",
+      "actions": 19,
+      "topOptions": 39
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "d6659d1e73231cc6c707c6c18a9194c773b5c64dbe04e168bbf9381e33b94dfa",
+      "actions": 21,
+      "topOptions": 39
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "e5006f4d9dd81139f8be7c754edc91e27284414b8951506abece86a8972595b4",
+      "actions": 22,
+      "topOptions": 40
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "77f653f2efe7de89b0427d7ef2ce0dea9740ea3726fb0630a072cce6a1845f93",
+      "actions": 24,
+      "topOptions": 42
+    }
+  ],
+  "sourceUrls": [
+    "https://uiuc-ischool-dataviz.github.io/fall2019/data/govtrack-us-congress-legislators/data/legislators_historical.csv",
+    "https://uiuc-ischool-dataviz.github.io/fall2019/data/govtrack-us-congress-legislators/data/legislators_historical_terms.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages11/12/13/15/19/21/22/24actions.40534rawterms+11864rawpeople preserveeveryCSVSTRINGcell/key/row/columnorder. Actualoriginalround(year,10)keepsintegerbirthyears,NOTdecadebins:39296finite/1238NaN;followingoriginaltimeUnit-year numeric-ms behavior gives39296epoch0/1238InvalidDates. Nativecalendar preservesactualintegerdecade values (derivedNaN representednull),separatesourceDecadeYear0/null isexplicitclosed-source singletonlowering,notgeneralcalendartransform. All40534pointpositions/paint/order and69nonglegendglyphbounds/styles exact;438x1382/200x1340frame,defaultlegend8offset/18pitch/literalguideconventionsretained.451normal+fresh451normal/79cold andall8raw+derivedcolumnorderchecks pass. Allcalls<=3/0fontmetrics/bothaxespaired;8stagecapnotexhaustion;School-only/rootreadbeforeexecution/noimages/nopaidretry. OptionalGG253nonblocking;nonewGGAPI/release."
+  },
+  "historicalRuntimeCommits": [
+    "f507da9795004bc7142a998f0ef0880ac9c00040"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "cd4928195c37e9b9f71d52e4bbd2a103f4fe8f1f1d6465f6a4d42e96fd15f76a",
+      "bytes": 947
+    },
+    "data.json": {
+      "sha256": "d0cd544a514ebf29c71491cf6267eaf65457d16b2343d160f520cf4c0303f84c",
+      "bytes": 18616312
+    },
+    "resolved-source.vl.json": {
+      "sha256": "023409600ae4bf99d4841fafbfc7a3dfb180f492e1b041e15427f576505517fe",
+      "bytes": 34098663
+    },
+    "data-lookup-0.json": {
+      "sha256": "a56efe37517965c2acdd53b9f369afdcc6316601f10482fa5e4f403e275b3158",
+      "bytes": 8387085
+    },
+    "G1.gg.mjs": {
+      "sha256": "6e4bc69fe13e34d2e217f7a4dae1f0a60cb19025beed10ab47c6e2a4abcc5459",
+      "bytes": 4199
+    },
+    "G2.gg.mjs": {
+      "sha256": "0d7012c53f25d8403ad613a4d4d0650e6d441631c65afe3c9b24576352aad0d2",
+      "bytes": 4188
+    },
+    "G3.gg.mjs": {
+      "sha256": "e3489cbc78c16ebe6e0d0ed2c118012af569c129ccf0b1155a68ab474e93d03f",
+      "bytes": 4151
+    },
+    "G4.gg.mjs": {
+      "sha256": "86bed411dc6f9c65a5cf441b9570b6189a8e823981ff034f5d5c30faade17d71",
+      "bytes": 4331
+    },
+    "G5.gg.mjs": {
+      "sha256": "9da7b7d9a3cb08b69f9707c1b25958a90141e576657c2fa99eea5cab6d6229c6",
+      "bytes": 4403
+    },
+    "G6.gg.mjs": {
+      "sha256": "d6659d1e73231cc6c707c6c18a9194c773b5c64dbe04e168bbf9381e33b94dfa",
+      "bytes": 4399
+    },
+    "G7.gg.mjs": {
+      "sha256": "e5006f4d9dd81139f8be7c754edc91e27284414b8951506abece86a8972595b4",
+      "bytes": 4436
+    },
+    "G8.gg.mjs": {
+      "sha256": "77f653f2efe7de89b0427d7ef2ce0dea9740ea3726fb0630a072cce6a1845f93",
+      "bytes": 4509
+    },
+    "raw-inputs.json": {
+      "sha256": "3b92424885a65226a34b17f0a65af3a1f5b906103e445943fd9a686efa86be22",
+      "bytes": 8397
+    },
+    "vega-lite.svg": {
+      "sha256": "56863bd78dfd86872437f7d20ca6a93d4f51650a7f091494ae9cc8f835bfff2c",
+      "bytes": 10972170
+    },
+    "ggaction.svg": {
+      "sha256": "f99c1c29543ab9acb6ea7c1bac4e4c7de3ffd304aa02b9d4841b9868211ef8c5",
+      "bytes": 4253916
+    }
+  }
+}

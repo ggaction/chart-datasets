@@ -1,0 +1,127 @@
+{
+  "id": "vl_1589",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "3aab80ebe258c81ac305e100d8cad9e9fe95712d4b195107433f273565dece2f",
+      "actions": 13,
+      "topOptions": 30
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "bdb29c57453057cee63eb43fbae5ecec4fc3e971880c8781a6c886232c7cee2b",
+      "actions": 15,
+      "topOptions": 32
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a2482e3166649afe6be2f1c9833857f106e7389feeb43e1dcc256d823e3e078e",
+      "actions": 16,
+      "topOptions": 36
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "cb7f1d1b965e2f218fcc2f2bba8385a9553b1ab4d8f859e930badf8599db6552",
+      "actions": 18,
+      "topOptions": 40
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "4a9c75b79f26b0680c63b2b1a0671eb148dc8750ba0a17df58f6b6ec633215df",
+      "actions": 22,
+      "topOptions": 42
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3ec4a433bb29bf5f2344d9ead4764510889dc064bae085341c5cf4e9371ddc9c",
+      "actions": 24,
+      "topOptions": 42
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d45b4db3c7cba1f4b0e8f27f311a3528a73f40b32337d086903ea82048205c97",
+      "actions": 25,
+      "topOptions": 44
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "1a2860e9cc577f834dea0ac90160b028d702dce5f453d4ed72c33b5539edbe87",
+      "actions": 26,
+      "topOptions": 44
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/cars.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight progressively finer source-equivalent School stages. All actual bytes root-read before execution; 443 ordinary plus fresh443 ordinary/70 independent cold checks pass. All calls <=3 options; 406 raw rows and 392 original point colors, radii, opacity and datum order retained. Original-sized329x247 with literal source-only guide conventions; no images inspected."
+  },
+  "historicalRuntimeCommits": [
+    "c2659fbfcb2e22517e80fb33feba6e99226d9ef0"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "6601e3e94b94128442251fb061962a9ef4f60a2ca693bc36d6ec9aac94174379",
+      "bytes": 899
+    },
+    "data.json": {
+      "sha256": "af9e24643751704b580c07454b197229447aa0fe6c8ffe664d63979cec33bd47",
+      "bytes": 96026
+    },
+    "resolved-source.vl.json": {
+      "sha256": "6ecd614969a5073c8c684e2dceb33cb3a3f9715ba64ce9dec1183f00d8d28ed1",
+      "bytes": 114747
+    },
+    "G1.gg.mjs": {
+      "sha256": "3aab80ebe258c81ac305e100d8cad9e9fe95712d4b195107433f273565dece2f",
+      "bytes": 3188
+    },
+    "G2.gg.mjs": {
+      "sha256": "bdb29c57453057cee63eb43fbae5ecec4fc3e971880c8781a6c886232c7cee2b",
+      "bytes": 3184
+    },
+    "G3.gg.mjs": {
+      "sha256": "a2482e3166649afe6be2f1c9833857f106e7389feeb43e1dcc256d823e3e078e",
+      "bytes": 3098
+    },
+    "G4.gg.mjs": {
+      "sha256": "cb7f1d1b965e2f218fcc2f2bba8385a9553b1ab4d8f859e930badf8599db6552",
+      "bytes": 3284
+    },
+    "G5.gg.mjs": {
+      "sha256": "4a9c75b79f26b0680c63b2b1a0671eb148dc8750ba0a17df58f6b6ec633215df",
+      "bytes": 3268
+    },
+    "G6.gg.mjs": {
+      "sha256": "3ec4a433bb29bf5f2344d9ead4764510889dc064bae085341c5cf4e9371ddc9c",
+      "bytes": 3222
+    },
+    "G7.gg.mjs": {
+      "sha256": "d45b4db3c7cba1f4b0e8f27f311a3528a73f40b32337d086903ea82048205c97",
+      "bytes": 3286
+    },
+    "G8.gg.mjs": {
+      "sha256": "1a2860e9cc577f834dea0ac90160b028d702dce5f453d4ed72c33b5539edbe87",
+      "bytes": 3276
+    },
+    "vega-lite.svg": {
+      "sha256": "43011c63adb7d9d996a32e2f47db82b7831e1db75e88f6375f02b65da6904585",
+      "bytes": 124770
+    },
+    "ggaction.svg": {
+      "sha256": "b8d81788a587f638bbde57d8cb2d3fce16a133a662ec36d4a15ac5d582201a67",
+      "bytes": 63494
+    }
+  }
+}

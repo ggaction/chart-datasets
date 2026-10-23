@@ -1,0 +1,1715 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Regressing WGI Overall Score on Median Age for all countries featured in the 2022 edition of the CAF World Giving Index Report (which explores data from the year before - 2021). I ran the regression in Colab in order to ascertain the equation for the regression line",
+  "title": {
+    "text": [
+      "Regressing WGI Score on Median Age"
+    ],
+    "fontSize": 12,
+    "subtitle": [
+      "Median Age measured in years",
+      "",
+      "Sources: CAF and Worldometers"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Country": "China",
+        "Median_Age_2022": "38",
+        "Total_Population_2022": "1439323776",
+        "CAF_2018": "17",
+        "CAF_2019": "16",
+        "CAF_2021": "28",
+        "CAF_2022": "42"
+      },
+      {
+        "Country": "India",
+        "Median_Age_2022": "28",
+        "Total_Population_2022": "1380004385",
+        "CAF_2018": "22",
+        "CAF_2019": "26",
+        "CAF_2021": "44",
+        "CAF_2022": "40"
+      },
+      {
+        "Country": "Indonesia",
+        "Median_Age_2022": "30",
+        "Total_Population_2022": "273523615",
+        "CAF_2018": "59",
+        "CAF_2019": "50",
+        "CAF_2021": "69",
+        "CAF_2022": "68"
+      },
+      {
+        "Country": "Pakistan",
+        "Median_Age_2022": "23",
+        "Total_Population_2022": "220892340",
+        "CAF_2018": "28",
+        "CAF_2019": "29",
+        "CAF_2021": "25",
+        "CAF_2022": "29"
+      },
+      {
+        "Country": "Brazil",
+        "Median_Age_2022": "33",
+        "Total_Population_2022": "212559417",
+        "CAF_2018": "23",
+        "CAF_2019": "28",
+        "CAF_2021": "35",
+        "CAF_2022": "47"
+      },
+      {
+        "Country": "Nigeria",
+        "Median_Age_2022": "18",
+        "Total_Population_2022": "206139589",
+        "CAF_2018": "48",
+        "CAF_2019": "42",
+        "CAF_2021": "52",
+        "CAF_2022": "48"
+      },
+      {
+        "Country": "Russian Federation",
+        "Median_Age_2022": "40",
+        "Total_Population_2022": "145934462",
+        "CAF_2018": "25",
+        "CAF_2019": "21",
+        "CAF_2021": "33",
+        "CAF_2022": "46"
+      },
+      {
+        "Country": "Mexico",
+        "Median_Age_2022": "29",
+        "Total_Population_2022": "128932753",
+        "CAF_2018": "24",
+        "CAF_2019": "28",
+        "CAF_2021": "32",
+        "CAF_2022": "44"
+      },
+      {
+        "Country": "Japan",
+        "Median_Age_2022": "48",
+        "Total_Population_2022": "126476461",
+        "CAF_2018": "22",
+        "CAF_2019": "23",
+        "CAF_2021": "12",
+        "CAF_2022": "20"
+      },
+      {
+        "Country": "Philippines",
+        "Median_Age_2022": "26",
+        "Total_Population_2022": "109581078",
+        "CAF_2018": "28",
+        "CAF_2019": "39",
+        "CAF_2021": "33",
+        "CAF_2022": "47"
+      },
+      {
+        "Country": "Egypt",
+        "Median_Age_2022": "25",
+        "Total_Population_2022": "102334404",
+        "CAF_2018": "26",
+        "CAF_2019": "23",
+        "CAF_2021": "33",
+        "CAF_2022": "23"
+      },
+      {
+        "Country": "Iran (Islamic Republic of)",
+        "Median_Age_2022": "32",
+        "Total_Population_2022": "83992949",
+        "CAF_2018": "45",
+        "CAF_2019": "41",
+        "CAF_2021": "39",
+        "CAF_2022": "43"
+      },
+      {
+        "Country": "Germany",
+        "Median_Age_2022": "46",
+        "Total_Population_2022": "83783942",
+        "CAF_2018": "46",
+        "CAF_2019": "43",
+        "CAF_2021": "30",
+        "CAF_2022": "41"
+      },
+      {
+        "Country": "Thailand",
+        "Median_Age_2022": "40",
+        "Total_Population_2022": "69799978",
+        "CAF_2018": "34",
+        "CAF_2019": "42",
+        "CAF_2021": "46",
+        "CAF_2022": "48"
+      },
+      {
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "Median_Age_2022": "40",
+        "Total_Population_2022": "67886011",
+        "CAF_2018": "55",
+        "CAF_2019": "54",
+        "CAF_2021": "41",
+        "CAF_2022": "47"
+      },
+      {
+        "Country": "France",
+        "Median_Age_2022": "42",
+        "Total_Population_2022": "65273511",
+        "CAF_2018": "32",
+        "CAF_2019": "30",
+        "CAF_2021": "25",
+        "CAF_2022": "32"
+      },
+      {
+        "Country": "Italy",
+        "Median_Age_2022": "47",
+        "Total_Population_2022": "60461826",
+        "CAF_2018": "33",
+        "CAF_2019": "33",
+        "CAF_2021": "22",
+        "CAF_2022": "29"
+      },
+      {
+        "Country": "South Africa",
+        "Median_Age_2022": "28",
+        "Total_Population_2022": "59308690",
+        "CAF_2018": "41",
+        "CAF_2019": "36",
+        "CAF_2021": "41",
+        "CAF_2022": "35"
+      },
+      {
+        "Country": "Myanmar",
+        "Median_Age_2022": "29",
+        "Total_Population_2022": "54409800",
+        "CAF_2018": "54",
+        "CAF_2019": "58",
+        "CAF_2021": "51",
+        "CAF_2022": "52"
+      },
+      {
+        "Country": "Kenya",
+        "Median_Age_2022": "20",
+        "Total_Population_2022": "53771296",
+        "CAF_2018": "54",
+        "CAF_2019": "47",
+        "CAF_2021": "58",
+        "CAF_2022": "61"
+      },
+      {
+        "Country": "Colombia",
+        "Median_Age_2022": "31",
+        "Total_Population_2022": "50882891",
+        "CAF_2018": "29",
+        "CAF_2019": "35",
+        "CAF_2021": "35",
+        "CAF_2022": "42"
+      },
+      {
+        "Country": "Spain",
+        "Median_Age_2022": "45",
+        "Total_Population_2022": "46754778",
+        "CAF_2018": "36",
+        "CAF_2019": "32",
+        "CAF_2021": "27",
+        "CAF_2022": "32"
+      },
+      {
+        "Country": "Uganda",
+        "Median_Age_2022": "17",
+        "Total_Population_2022": "45741007",
+        "CAF_2018": "39",
+        "CAF_2019": "38",
+        "CAF_2021": "46",
+        "CAF_2022": "46"
+      },
+      {
+        "Country": "Argentina",
+        "Median_Age_2022": "32",
+        "Total_Population_2022": "45195774",
+        "CAF_2018": "28",
+        "CAF_2019": "28",
+        "CAF_2021": "32",
+        "CAF_2022": "47"
+      },
+      {
+        "Country": "Ukraine",
+        "Median_Age_2022": "41",
+        "Total_Population_2022": "43733762",
+        "CAF_2018": "29",
+        "CAF_2019": "24",
+        "CAF_2021": "43",
+        "CAF_2022": "49"
+      },
+      {
+        "Country": "Iraq",
+        "Median_Age_2022": "21",
+        "Total_Population_2022": "40222493",
+        "CAF_2018": "43",
+        "CAF_2019": "34",
+        "CAF_2021": "39",
+        "CAF_2022": "37"
+      },
+      {
+        "Country": "Poland",
+        "Median_Age_2022": "42",
+        "Total_Population_2022": "37846611",
+        "CAF_2018": "24",
+        "CAF_2019": "25",
+        "CAF_2021": "38",
+        "CAF_2022": "47"
+      },
+      {
+        "Country": "Canada",
+        "Median_Age_2022": "41",
+        "Total_Population_2022": "37742154",
+        "CAF_2018": "49",
+        "CAF_2019": "55",
+        "CAF_2021": "38",
+        "CAF_2022": "51"
+      },
+      {
+        "Country": "Morocco",
+        "Median_Age_2022": "30",
+        "Total_Population_2022": "36910560",
+        "CAF_2018": "26",
+        "CAF_2019": "26",
+        "CAF_2021": "23",
+        "CAF_2022": "31"
+      },
+      {
+        "Country": "Saudi Arabia",
+        "Median_Age_2022": "32",
+        "Total_Population_2022": "34813871",
+        "CAF_2018": "37",
+        "CAF_2019": "34",
+        "CAF_2021": "35",
+        "CAF_2022": "36"
+      },
+      {
+        "Country": "Uzbekistan",
+        "Median_Age_2022": "28",
+        "Total_Population_2022": "33469203",
+        "CAF_2018": "36",
+        "CAF_2019": "41",
+        "CAF_2021": "40",
+        "CAF_2022": "38"
+      },
+      {
+        "Country": "Peru",
+        "Median_Age_2022": "31",
+        "Total_Population_2022": "32971854",
+        "CAF_2018": "27",
+        "CAF_2019": "28",
+        "CAF_2021": "34",
+        "CAF_2022": "39"
+      },
+      {
+        "Country": "Ghana",
+        "Median_Age_2022": "22",
+        "Total_Population_2022": "31072940",
+        "CAF_2018": "42",
+        "CAF_2019": "38",
+        "CAF_2021": "47",
+        "CAF_2022": "43"
+      },
+      {
+        "Country": "Nepal",
+        "Median_Age_2022": "25",
+        "Total_Population_2022": "29136808",
+        "CAF_2018": "37",
+        "CAF_2019": "33",
+        "CAF_2021": "40",
+        "CAF_2022": "40"
+      },
+      {
+        "Country": "Venezuela (Bolivarian Republic of)",
+        "Median_Age_2022": "30",
+        "Total_Population_2022": "28435940",
+        "CAF_2018": "26",
+        "CAF_2019": "23",
+        "CAF_2021": "35",
+        "CAF_2022": "45"
+      },
+      {
+        "Country": "Cameroon",
+        "Median_Age_2022": "19",
+        "Total_Population_2022": "26545863",
+        "CAF_2018": "34",
+        "CAF_2019": "33",
+        "CAF_2021": "43",
+        "CAF_2022": "37"
+      },
+      {
+        "Country": "Australia",
+        "Median_Age_2022": "38",
+        "Total_Population_2022": "25499884",
+        "CAF_2018": "59",
+        "CAF_2019": "56",
+        "CAF_2021": "49",
+        "CAF_2022": "55"
+      },
+      {
+        "Country": "Sri Lanka",
+        "Median_Age_2022": "34",
+        "Total_Population_2022": "21413249",
+        "CAF_2018": "45",
+        "CAF_2019": "51",
+        "CAF_2021": "34",
+        "CAF_2022": "44"
+      },
+      {
+        "Country": "Mali",
+        "Median_Age_2022": "16",
+        "Total_Population_2022": "20250833",
+        "CAF_2018": "28",
+        "CAF_2019": "24",
+        "CAF_2021": "31",
+        "CAF_2022": "38"
+      },
+      {
+        "Country": "Romania",
+        "Median_Age_2022": "43",
+        "Total_Population_2022": "19237691",
+        "CAF_2018": "27",
+        "CAF_2019": "24",
+        "CAF_2021": "28",
+        "CAF_2022": "30"
+      },
+      {
+        "Country": "Chile",
+        "Median_Age_2022": "35",
+        "Total_Population_2022": "19116201",
+        "CAF_2018": "34",
+        "CAF_2019": "37",
+        "CAF_2021": "39",
+        "CAF_2022": "38"
+      },
+      {
+        "Country": "Kazakhstan",
+        "Median_Age_2022": "31",
+        "Total_Population_2022": "18776707",
+        "CAF_2018": "28",
+        "CAF_2019": "26",
+        "CAF_2021": "28",
+        "CAF_2022": "34"
+      },
+      {
+        "Country": "Zambia",
+        "Median_Age_2022": "18",
+        "Total_Population_2022": "18383955",
+        "CAF_2018": "46",
+        "CAF_2019": "39",
+        "CAF_2021": "43",
+        "CAF_2022": "50"
+      },
+      {
+        "Country": "Ecuador",
+        "Median_Age_2022": "28",
+        "Total_Population_2022": "17643054",
+        "CAF_2018": "24",
+        "CAF_2019": "24",
+        "CAF_2021": "29",
+        "CAF_2022": "42"
+      },
+      {
+        "Country": "Netherlands",
+        "Median_Age_2022": "43",
+        "Total_Population_2022": "17134872",
+        "CAF_2018": "51",
+        "CAF_2019": "53",
+        "CAF_2021": "37",
+        "CAF_2022": "46"
+      },
+      {
+        "Country": "Senegal",
+        "Median_Age_2022": "19",
+        "Total_Population_2022": "16743927",
+        "CAF_2018": "28",
+        "CAF_2019": "28",
+        "CAF_2021": "35",
+        "CAF_2022": "40"
+      },
+      {
+        "Country": "Cambodia",
+        "Median_Age_2022": "26",
+        "Total_Population_2022": "16718965",
+        "CAF_2018": "18",
+        "CAF_2019": "24",
+        "CAF_2021": "28",
+        "CAF_2022": "19"
+      },
+      {
+        "Country": "Zimbabwe",
+        "Median_Age_2022": "19",
+        "Total_Population_2022": "14862924",
+        "CAF_2018": "30",
+        "CAF_2019": "29",
+        "CAF_2021": "37",
+        "CAF_2022": "31"
+      },
+      {
+        "Country": "Benin",
+        "Median_Age_2022": "19",
+        "Total_Population_2022": "12123200",
+        "CAF_2018": "26",
+        "CAF_2019": "23",
+        "CAF_2021": "29",
+        "CAF_2022": "32"
+      },
+      {
+        "Country": "Tunisia",
+        "Median_Age_2022": "33",
+        "Total_Population_2022": "11818619",
+        "CAF_2018": "20",
+        "CAF_2019": "24",
+        "CAF_2021": "29",
+        "CAF_2022": "28"
+      },
+      {
+        "Country": "Bolivia (Plurinational State of)",
+        "Median_Age_2022": "26",
+        "Total_Population_2022": "11673021",
+        "CAF_2018": "28",
+        "CAF_2019": "31",
+        "CAF_2021": "35",
+        "CAF_2022": "43"
+      },
+      {
+        "Country": "Dominican Republic",
+        "Median_Age_2022": "28",
+        "Total_Population_2022": "10847910",
+        "CAF_2018": "39",
+        "CAF_2019": "39",
+        "CAF_2021": "39",
+        "CAF_2022": "44"
+      },
+      {
+        "Country": "Czechia",
+        "Median_Age_2022": "43",
+        "Total_Population_2022": "10708981",
+        "CAF_2018": "22",
+        "CAF_2019": "22",
+        "CAF_2021": "30",
+        "CAF_2022": "48"
+      },
+      {
+        "Country": "Greece",
+        "Median_Age_2022": "46",
+        "Total_Population_2022": "10423054",
+        "CAF_2018": "17",
+        "CAF_2019": "16",
+        "CAF_2021": "26",
+        "CAF_2022": "32"
+      },
+      {
+        "Country": "Jordan",
+        "Median_Age_2022": "24",
+        "Total_Population_2022": "10203134",
+        "CAF_2018": "30",
+        "CAF_2019": "25",
+        "CAF_2021": "26",
+        "CAF_2022": "32"
+      },
+      {
+        "Country": "Portugal",
+        "Median_Age_2022": "46",
+        "Total_Population_2022": "10196709",
+        "CAF_2018": "28",
+        "CAF_2019": "25",
+        "CAF_2021": "20",
+        "CAF_2022": "26"
+      },
+      {
+        "Country": "Sweden",
+        "Median_Age_2022": "41",
+        "Total_Population_2022": "10099265",
+        "CAF_2018": "41",
+        "CAF_2019": "40",
+        "CAF_2021": "34",
+        "CAF_2022": "42"
+      },
+      {
+        "Country": "United Arab Emirates",
+        "Median_Age_2022": "33",
+        "Total_Population_2022": "9890402",
+        "CAF_2018": "51",
+        "CAF_2019": "45",
+        "CAF_2021": "44",
+        "CAF_2022": "47"
+      },
+      {
+        "Country": "Hungary",
+        "Median_Age_2022": "43",
+        "Total_Population_2022": "9660351",
+        "CAF_2018": "23",
+        "CAF_2019": "23",
+        "CAF_2021": "31",
+        "CAF_2022": "40"
+      },
+      {
+        "Country": "Tajikistan",
+        "Median_Age_2022": "22",
+        "Total_Population_2022": "9537645",
+        "CAF_2018": "42",
+        "CAF_2019": "36",
+        "CAF_2021": "45",
+        "CAF_2022": "39"
+      },
+      {
+        "Country": "Austria",
+        "Median_Age_2022": "43",
+        "Total_Population_2022": "9006398",
+        "CAF_2018": "44",
+        "CAF_2019": "45",
+        "CAF_2021": "34",
+        "CAF_2022": "45"
+      },
+      {
+        "Country": "Serbia",
+        "Median_Age_2022": "42",
+        "Total_Population_2022": "8737371",
+        "CAF_2018": "21",
+        "CAF_2019": "19",
+        "CAF_2021": "35",
+        "CAF_2022": "46"
+      },
+      {
+        "Country": "Israel",
+        "Median_Age_2022": "30",
+        "Total_Population_2022": "8655535",
+        "CAF_2018": "42",
+        "CAF_2019": "39",
+        "CAF_2021": "28",
+        "CAF_2022": "37"
+      },
+      {
+        "Country": "Switzerland",
+        "Median_Age_2022": "43",
+        "Total_Population_2022": "8654622",
+        "CAF_2018": "45",
+        "CAF_2019": "45",
+        "CAF_2021": "28",
+        "CAF_2022": "37"
+      },
+      {
+        "Country": "Paraguay",
+        "Median_Age_2022": "26",
+        "Total_Population_2022": "7132538",
+        "CAF_2018": "34",
+        "CAF_2019": "32",
+        "CAF_2021": "41",
+        "CAF_2022": "44"
+      },
+      {
+        "Country": "Bulgaria",
+        "Median_Age_2022": "45",
+        "Total_Population_2022": "6948445",
+        "CAF_2018": "22",
+        "CAF_2019": "19",
+        "CAF_2021": "37",
+        "CAF_2022": "41"
+      },
+      {
+        "Country": "Lebanon",
+        "Median_Age_2022": "30",
+        "Total_Population_2022": "6825445",
+        "CAF_2018": "28",
+        "CAF_2019": "30",
+        "CAF_2021": "24",
+        "CAF_2022": "24"
+      },
+      {
+        "Country": "Nicaragua",
+        "Median_Age_2022": "26",
+        "Total_Population_2022": "6624554",
+        "CAF_2018": "33",
+        "CAF_2019": "30",
+        "CAF_2021": "37",
+        "CAF_2022": "40"
+      },
+      {
+        "Country": "Kyrgyzstan",
+        "Median_Age_2022": "26",
+        "Total_Population_2022": "6524195",
+        "CAF_2018": "36",
+        "CAF_2019": "33",
+        "CAF_2021": "38",
+        "CAF_2022": "44"
+      },
+      {
+        "Country": "El Salvador",
+        "Median_Age_2022": "28",
+        "Total_Population_2022": "6486205",
+        "CAF_2018": "22",
+        "CAF_2019": "25",
+        "CAF_2021": "31",
+        "CAF_2022": "36"
+      },
+      {
+        "Country": "Denmark",
+        "Median_Age_2022": "42",
+        "Total_Population_2022": "5792202",
+        "CAF_2018": "46",
+        "CAF_2019": "44",
+        "CAF_2021": "37",
+        "CAF_2022": "46"
+      },
+      {
+        "Country": "Finland",
+        "Median_Age_2022": "43",
+        "Total_Population_2022": "5540720",
+        "CAF_2018": "40",
+        "CAF_2019": "41",
+        "CAF_2021": "31",
+        "CAF_2022": "37"
+      },
+      {
+        "Country": "Slovakia",
+        "Median_Age_2022": "41",
+        "Total_Population_2022": "5459642",
+        "CAF_2018": "28",
+        "CAF_2019": "25",
+        "CAF_2021": "32",
+        "CAF_2022": "41"
+      },
+      {
+        "Country": "Costa Rica",
+        "Median_Age_2022": "33",
+        "Total_Population_2022": "5094118",
+        "CAF_2018": "34",
+        "CAF_2019": "38",
+        "CAF_2021": "30",
+        "CAF_2022": "44"
+      },
+      {
+        "Country": "Ireland",
+        "Median_Age_2022": "38",
+        "Total_Population_2022": "4937786",
+        "CAF_2018": "56",
+        "CAF_2019": "56",
+        "CAF_2021": "40",
+        "CAF_2022": "49"
+      },
+      {
+        "Country": "New Zealand",
+        "Median_Age_2022": "38",
+        "Total_Population_2022": "4822233",
+        "CAF_2018": "58",
+        "CAF_2019": "57",
+        "CAF_2021": "47",
+        "CAF_2022": "54"
+      },
+      {
+        "Country": "Croatia",
+        "Median_Age_2022": "44",
+        "Total_Population_2022": "4105267",
+        "CAF_2018": "20",
+        "CAF_2019": "21",
+        "CAF_2021": "30",
+        "CAF_2022": "37"
+      },
+      {
+        "Country": "Georgia",
+        "Median_Age_2022": "38",
+        "Total_Population_2022": "3989167",
+        "CAF_2018": "24",
+        "CAF_2019": "21",
+        "CAF_2021": "40",
+        "CAF_2022": "31"
+      },
+      {
+        "Country": "Uruguay",
+        "Median_Age_2022": "36",
+        "Total_Population_2022": "3473730",
+        "CAF_2018": "30",
+        "CAF_2019": "30",
+        "CAF_2021": "32",
+        "CAF_2022": "40"
+      },
+      {
+        "Country": "Mongolia",
+        "Median_Age_2022": "28",
+        "Total_Population_2022": "3278290",
+        "CAF_2018": "39",
+        "CAF_2019": "38",
+        "CAF_2021": "44",
+        "CAF_2022": "46"
+      },
+      {
+        "Country": "Albania",
+        "Median_Age_2022": "36",
+        "Total_Population_2022": "2877797",
+        "CAF_2018": "26",
+        "CAF_2019": "23",
+        "CAF_2021": "33",
+        "CAF_2022": "34"
+      },
+      {
+        "Country": "Lithuania",
+        "Median_Age_2022": "45",
+        "Total_Population_2022": "2722289",
+        "CAF_2018": "19",
+        "CAF_2019": "19",
+        "CAF_2021": "28",
+        "CAF_2022": "37"
+      },
+      {
+        "Country": "Gabon",
+        "Median_Age_2022": "23",
+        "Total_Population_2022": "2225734",
+        "CAF_2018": "24",
+        "CAF_2019": "27",
+        "CAF_2021": "26",
+        "CAF_2022": "34"
+      },
+      {
+        "Country": "Slovenia",
+        "Median_Age_2022": "45",
+        "Total_Population_2022": "2078938",
+        "CAF_2018": "39",
+        "CAF_2019": "38",
+        "CAF_2021": "28",
+        "CAF_2022": "39"
+      },
+      {
+        "Country": "Latvia",
+        "Median_Age_2022": "44",
+        "Total_Population_2022": "1886198",
+        "CAF_2018": "19",
+        "CAF_2019": "22",
+        "CAF_2021": "25",
+        "CAF_2022": "29"
+      },
+      {
+        "Country": "Estonia",
+        "Median_Age_2022": "42",
+        "Total_Population_2022": "1326535",
+        "CAF_2018": "26",
+        "CAF_2019": "25",
+        "CAF_2021": "30",
+        "CAF_2022": "40"
+      },
+      {
+        "Country": "Cyprus",
+        "Median_Age_2022": "37",
+        "Total_Population_2022": "1207359",
+        "CAF_2018": "43",
+        "CAF_2019": "41",
+        "CAF_2021": "32",
+        "CAF_2022": "40"
+      },
+      {
+        "Country": "Malta",
+        "Median_Age_2022": "43",
+        "Total_Population_2022": "441543",
+        "CAF_2018": "47",
+        "CAF_2019": "47",
+        "CAF_2021": "31",
+        "CAF_2022": "45"
+      }
+    ]
+  },
+  "height": 200,
+  "width": 200,
+  "encoding": {
+    "x": {
+      "field": "Median_Age_2022",
+      "type": "quantitative",
+      "title": "Median Age (years)",
+      "axis": {
+        "grid": false
+      },
+      "scale": {
+        "domain": [
+          0,
+          50
+        ]
+      }
+    },
+    "y": {
+      "field": "CAF_2022",
+      "type": "quantitative",
+      "title": "WGI overall score (out of 100)",
+      "axis": {
+        "grid": false
+      },
+      "scale": {
+        "domain": [
+          0,
+          70
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "CAF_2022",
+        "type": "quantitative",
+        "title": "WGI Score"
+      },
+      {
+        "field": "Median_Age_2022",
+        "type": "quantitative",
+        "title": "Median Age"
+      },
+      {
+        "field": "Country",
+        "type": "nominal",
+        "title": "Country"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "CAF_2022": 41.15,
+            "Median_Age_2022": 16
+          },
+          {
+            "CAF_2022": 39.43,
+            "Median_Age_2022": 48
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "color": "#2c2a2e",
+        "clip": true
+      },
+      "encoding": {
+        "tooltip": null
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Country": "China",
+            "Median_Age_2022": "38",
+            "Total_Population_2022": "1439323776",
+            "CAF_2018": "17",
+            "CAF_2019": "16",
+            "CAF_2021": "28",
+            "CAF_2022": "42"
+          },
+          {
+            "Country": "India",
+            "Median_Age_2022": "28",
+            "Total_Population_2022": "1380004385",
+            "CAF_2018": "22",
+            "CAF_2019": "26",
+            "CAF_2021": "44",
+            "CAF_2022": "40"
+          },
+          {
+            "Country": "Indonesia",
+            "Median_Age_2022": "30",
+            "Total_Population_2022": "273523615",
+            "CAF_2018": "59",
+            "CAF_2019": "50",
+            "CAF_2021": "69",
+            "CAF_2022": "68"
+          },
+          {
+            "Country": "Pakistan",
+            "Median_Age_2022": "23",
+            "Total_Population_2022": "220892340",
+            "CAF_2018": "28",
+            "CAF_2019": "29",
+            "CAF_2021": "25",
+            "CAF_2022": "29"
+          },
+          {
+            "Country": "Brazil",
+            "Median_Age_2022": "33",
+            "Total_Population_2022": "212559417",
+            "CAF_2018": "23",
+            "CAF_2019": "28",
+            "CAF_2021": "35",
+            "CAF_2022": "47"
+          },
+          {
+            "Country": "Nigeria",
+            "Median_Age_2022": "18",
+            "Total_Population_2022": "206139589",
+            "CAF_2018": "48",
+            "CAF_2019": "42",
+            "CAF_2021": "52",
+            "CAF_2022": "48"
+          },
+          {
+            "Country": "Russian Federation",
+            "Median_Age_2022": "40",
+            "Total_Population_2022": "145934462",
+            "CAF_2018": "25",
+            "CAF_2019": "21",
+            "CAF_2021": "33",
+            "CAF_2022": "46"
+          },
+          {
+            "Country": "Mexico",
+            "Median_Age_2022": "29",
+            "Total_Population_2022": "128932753",
+            "CAF_2018": "24",
+            "CAF_2019": "28",
+            "CAF_2021": "32",
+            "CAF_2022": "44"
+          },
+          {
+            "Country": "Japan",
+            "Median_Age_2022": "48",
+            "Total_Population_2022": "126476461",
+            "CAF_2018": "22",
+            "CAF_2019": "23",
+            "CAF_2021": "12",
+            "CAF_2022": "20"
+          },
+          {
+            "Country": "Philippines",
+            "Median_Age_2022": "26",
+            "Total_Population_2022": "109581078",
+            "CAF_2018": "28",
+            "CAF_2019": "39",
+            "CAF_2021": "33",
+            "CAF_2022": "47"
+          },
+          {
+            "Country": "Egypt",
+            "Median_Age_2022": "25",
+            "Total_Population_2022": "102334404",
+            "CAF_2018": "26",
+            "CAF_2019": "23",
+            "CAF_2021": "33",
+            "CAF_2022": "23"
+          },
+          {
+            "Country": "Iran (Islamic Republic of)",
+            "Median_Age_2022": "32",
+            "Total_Population_2022": "83992949",
+            "CAF_2018": "45",
+            "CAF_2019": "41",
+            "CAF_2021": "39",
+            "CAF_2022": "43"
+          },
+          {
+            "Country": "Germany",
+            "Median_Age_2022": "46",
+            "Total_Population_2022": "83783942",
+            "CAF_2018": "46",
+            "CAF_2019": "43",
+            "CAF_2021": "30",
+            "CAF_2022": "41"
+          },
+          {
+            "Country": "Thailand",
+            "Median_Age_2022": "40",
+            "Total_Population_2022": "69799978",
+            "CAF_2018": "34",
+            "CAF_2019": "42",
+            "CAF_2021": "46",
+            "CAF_2022": "48"
+          },
+          {
+            "Country": "United Kingdom of Great Britain and Northern Ireland",
+            "Median_Age_2022": "40",
+            "Total_Population_2022": "67886011",
+            "CAF_2018": "55",
+            "CAF_2019": "54",
+            "CAF_2021": "41",
+            "CAF_2022": "47"
+          },
+          {
+            "Country": "France",
+            "Median_Age_2022": "42",
+            "Total_Population_2022": "65273511",
+            "CAF_2018": "32",
+            "CAF_2019": "30",
+            "CAF_2021": "25",
+            "CAF_2022": "32"
+          },
+          {
+            "Country": "Italy",
+            "Median_Age_2022": "47",
+            "Total_Population_2022": "60461826",
+            "CAF_2018": "33",
+            "CAF_2019": "33",
+            "CAF_2021": "22",
+            "CAF_2022": "29"
+          },
+          {
+            "Country": "South Africa",
+            "Median_Age_2022": "28",
+            "Total_Population_2022": "59308690",
+            "CAF_2018": "41",
+            "CAF_2019": "36",
+            "CAF_2021": "41",
+            "CAF_2022": "35"
+          },
+          {
+            "Country": "Myanmar",
+            "Median_Age_2022": "29",
+            "Total_Population_2022": "54409800",
+            "CAF_2018": "54",
+            "CAF_2019": "58",
+            "CAF_2021": "51",
+            "CAF_2022": "52"
+          },
+          {
+            "Country": "Kenya",
+            "Median_Age_2022": "20",
+            "Total_Population_2022": "53771296",
+            "CAF_2018": "54",
+            "CAF_2019": "47",
+            "CAF_2021": "58",
+            "CAF_2022": "61"
+          },
+          {
+            "Country": "Colombia",
+            "Median_Age_2022": "31",
+            "Total_Population_2022": "50882891",
+            "CAF_2018": "29",
+            "CAF_2019": "35",
+            "CAF_2021": "35",
+            "CAF_2022": "42"
+          },
+          {
+            "Country": "Spain",
+            "Median_Age_2022": "45",
+            "Total_Population_2022": "46754778",
+            "CAF_2018": "36",
+            "CAF_2019": "32",
+            "CAF_2021": "27",
+            "CAF_2022": "32"
+          },
+          {
+            "Country": "Uganda",
+            "Median_Age_2022": "17",
+            "Total_Population_2022": "45741007",
+            "CAF_2018": "39",
+            "CAF_2019": "38",
+            "CAF_2021": "46",
+            "CAF_2022": "46"
+          },
+          {
+            "Country": "Argentina",
+            "Median_Age_2022": "32",
+            "Total_Population_2022": "45195774",
+            "CAF_2018": "28",
+            "CAF_2019": "28",
+            "CAF_2021": "32",
+            "CAF_2022": "47"
+          },
+          {
+            "Country": "Ukraine",
+            "Median_Age_2022": "41",
+            "Total_Population_2022": "43733762",
+            "CAF_2018": "29",
+            "CAF_2019": "24",
+            "CAF_2021": "43",
+            "CAF_2022": "49"
+          },
+          {
+            "Country": "Iraq",
+            "Median_Age_2022": "21",
+            "Total_Population_2022": "40222493",
+            "CAF_2018": "43",
+            "CAF_2019": "34",
+            "CAF_2021": "39",
+            "CAF_2022": "37"
+          },
+          {
+            "Country": "Poland",
+            "Median_Age_2022": "42",
+            "Total_Population_2022": "37846611",
+            "CAF_2018": "24",
+            "CAF_2019": "25",
+            "CAF_2021": "38",
+            "CAF_2022": "47"
+          },
+          {
+            "Country": "Canada",
+            "Median_Age_2022": "41",
+            "Total_Population_2022": "37742154",
+            "CAF_2018": "49",
+            "CAF_2019": "55",
+            "CAF_2021": "38",
+            "CAF_2022": "51"
+          },
+          {
+            "Country": "Morocco",
+            "Median_Age_2022": "30",
+            "Total_Population_2022": "36910560",
+            "CAF_2018": "26",
+            "CAF_2019": "26",
+            "CAF_2021": "23",
+            "CAF_2022": "31"
+          },
+          {
+            "Country": "Saudi Arabia",
+            "Median_Age_2022": "32",
+            "Total_Population_2022": "34813871",
+            "CAF_2018": "37",
+            "CAF_2019": "34",
+            "CAF_2021": "35",
+            "CAF_2022": "36"
+          },
+          {
+            "Country": "Uzbekistan",
+            "Median_Age_2022": "28",
+            "Total_Population_2022": "33469203",
+            "CAF_2018": "36",
+            "CAF_2019": "41",
+            "CAF_2021": "40",
+            "CAF_2022": "38"
+          },
+          {
+            "Country": "Peru",
+            "Median_Age_2022": "31",
+            "Total_Population_2022": "32971854",
+            "CAF_2018": "27",
+            "CAF_2019": "28",
+            "CAF_2021": "34",
+            "CAF_2022": "39"
+          },
+          {
+            "Country": "Ghana",
+            "Median_Age_2022": "22",
+            "Total_Population_2022": "31072940",
+            "CAF_2018": "42",
+            "CAF_2019": "38",
+            "CAF_2021": "47",
+            "CAF_2022": "43"
+          },
+          {
+            "Country": "Nepal",
+            "Median_Age_2022": "25",
+            "Total_Population_2022": "29136808",
+            "CAF_2018": "37",
+            "CAF_2019": "33",
+            "CAF_2021": "40",
+            "CAF_2022": "40"
+          },
+          {
+            "Country": "Venezuela (Bolivarian Republic of)",
+            "Median_Age_2022": "30",
+            "Total_Population_2022": "28435940",
+            "CAF_2018": "26",
+            "CAF_2019": "23",
+            "CAF_2021": "35",
+            "CAF_2022": "45"
+          },
+          {
+            "Country": "Cameroon",
+            "Median_Age_2022": "19",
+            "Total_Population_2022": "26545863",
+            "CAF_2018": "34",
+            "CAF_2019": "33",
+            "CAF_2021": "43",
+            "CAF_2022": "37"
+          },
+          {
+            "Country": "Australia",
+            "Median_Age_2022": "38",
+            "Total_Population_2022": "25499884",
+            "CAF_2018": "59",
+            "CAF_2019": "56",
+            "CAF_2021": "49",
+            "CAF_2022": "55"
+          },
+          {
+            "Country": "Sri Lanka",
+            "Median_Age_2022": "34",
+            "Total_Population_2022": "21413249",
+            "CAF_2018": "45",
+            "CAF_2019": "51",
+            "CAF_2021": "34",
+            "CAF_2022": "44"
+          },
+          {
+            "Country": "Mali",
+            "Median_Age_2022": "16",
+            "Total_Population_2022": "20250833",
+            "CAF_2018": "28",
+            "CAF_2019": "24",
+            "CAF_2021": "31",
+            "CAF_2022": "38"
+          },
+          {
+            "Country": "Romania",
+            "Median_Age_2022": "43",
+            "Total_Population_2022": "19237691",
+            "CAF_2018": "27",
+            "CAF_2019": "24",
+            "CAF_2021": "28",
+            "CAF_2022": "30"
+          },
+          {
+            "Country": "Chile",
+            "Median_Age_2022": "35",
+            "Total_Population_2022": "19116201",
+            "CAF_2018": "34",
+            "CAF_2019": "37",
+            "CAF_2021": "39",
+            "CAF_2022": "38"
+          },
+          {
+            "Country": "Kazakhstan",
+            "Median_Age_2022": "31",
+            "Total_Population_2022": "18776707",
+            "CAF_2018": "28",
+            "CAF_2019": "26",
+            "CAF_2021": "28",
+            "CAF_2022": "34"
+          },
+          {
+            "Country": "Zambia",
+            "Median_Age_2022": "18",
+            "Total_Population_2022": "18383955",
+            "CAF_2018": "46",
+            "CAF_2019": "39",
+            "CAF_2021": "43",
+            "CAF_2022": "50"
+          },
+          {
+            "Country": "Ecuador",
+            "Median_Age_2022": "28",
+            "Total_Population_2022": "17643054",
+            "CAF_2018": "24",
+            "CAF_2019": "24",
+            "CAF_2021": "29",
+            "CAF_2022": "42"
+          },
+          {
+            "Country": "Netherlands",
+            "Median_Age_2022": "43",
+            "Total_Population_2022": "17134872",
+            "CAF_2018": "51",
+            "CAF_2019": "53",
+            "CAF_2021": "37",
+            "CAF_2022": "46"
+          },
+          {
+            "Country": "Senegal",
+            "Median_Age_2022": "19",
+            "Total_Population_2022": "16743927",
+            "CAF_2018": "28",
+            "CAF_2019": "28",
+            "CAF_2021": "35",
+            "CAF_2022": "40"
+          },
+          {
+            "Country": "Cambodia",
+            "Median_Age_2022": "26",
+            "Total_Population_2022": "16718965",
+            "CAF_2018": "18",
+            "CAF_2019": "24",
+            "CAF_2021": "28",
+            "CAF_2022": "19"
+          },
+          {
+            "Country": "Zimbabwe",
+            "Median_Age_2022": "19",
+            "Total_Population_2022": "14862924",
+            "CAF_2018": "30",
+            "CAF_2019": "29",
+            "CAF_2021": "37",
+            "CAF_2022": "31"
+          },
+          {
+            "Country": "Benin",
+            "Median_Age_2022": "19",
+            "Total_Population_2022": "12123200",
+            "CAF_2018": "26",
+            "CAF_2019": "23",
+            "CAF_2021": "29",
+            "CAF_2022": "32"
+          },
+          {
+            "Country": "Tunisia",
+            "Median_Age_2022": "33",
+            "Total_Population_2022": "11818619",
+            "CAF_2018": "20",
+            "CAF_2019": "24",
+            "CAF_2021": "29",
+            "CAF_2022": "28"
+          },
+          {
+            "Country": "Bolivia (Plurinational State of)",
+            "Median_Age_2022": "26",
+            "Total_Population_2022": "11673021",
+            "CAF_2018": "28",
+            "CAF_2019": "31",
+            "CAF_2021": "35",
+            "CAF_2022": "43"
+          },
+          {
+            "Country": "Dominican Republic",
+            "Median_Age_2022": "28",
+            "Total_Population_2022": "10847910",
+            "CAF_2018": "39",
+            "CAF_2019": "39",
+            "CAF_2021": "39",
+            "CAF_2022": "44"
+          },
+          {
+            "Country": "Czechia",
+            "Median_Age_2022": "43",
+            "Total_Population_2022": "10708981",
+            "CAF_2018": "22",
+            "CAF_2019": "22",
+            "CAF_2021": "30",
+            "CAF_2022": "48"
+          },
+          {
+            "Country": "Greece",
+            "Median_Age_2022": "46",
+            "Total_Population_2022": "10423054",
+            "CAF_2018": "17",
+            "CAF_2019": "16",
+            "CAF_2021": "26",
+            "CAF_2022": "32"
+          },
+          {
+            "Country": "Jordan",
+            "Median_Age_2022": "24",
+            "Total_Population_2022": "10203134",
+            "CAF_2018": "30",
+            "CAF_2019": "25",
+            "CAF_2021": "26",
+            "CAF_2022": "32"
+          },
+          {
+            "Country": "Portugal",
+            "Median_Age_2022": "46",
+            "Total_Population_2022": "10196709",
+            "CAF_2018": "28",
+            "CAF_2019": "25",
+            "CAF_2021": "20",
+            "CAF_2022": "26"
+          },
+          {
+            "Country": "Sweden",
+            "Median_Age_2022": "41",
+            "Total_Population_2022": "10099265",
+            "CAF_2018": "41",
+            "CAF_2019": "40",
+            "CAF_2021": "34",
+            "CAF_2022": "42"
+          },
+          {
+            "Country": "United Arab Emirates",
+            "Median_Age_2022": "33",
+            "Total_Population_2022": "9890402",
+            "CAF_2018": "51",
+            "CAF_2019": "45",
+            "CAF_2021": "44",
+            "CAF_2022": "47"
+          },
+          {
+            "Country": "Hungary",
+            "Median_Age_2022": "43",
+            "Total_Population_2022": "9660351",
+            "CAF_2018": "23",
+            "CAF_2019": "23",
+            "CAF_2021": "31",
+            "CAF_2022": "40"
+          },
+          {
+            "Country": "Tajikistan",
+            "Median_Age_2022": "22",
+            "Total_Population_2022": "9537645",
+            "CAF_2018": "42",
+            "CAF_2019": "36",
+            "CAF_2021": "45",
+            "CAF_2022": "39"
+          },
+          {
+            "Country": "Austria",
+            "Median_Age_2022": "43",
+            "Total_Population_2022": "9006398",
+            "CAF_2018": "44",
+            "CAF_2019": "45",
+            "CAF_2021": "34",
+            "CAF_2022": "45"
+          },
+          {
+            "Country": "Serbia",
+            "Median_Age_2022": "42",
+            "Total_Population_2022": "8737371",
+            "CAF_2018": "21",
+            "CAF_2019": "19",
+            "CAF_2021": "35",
+            "CAF_2022": "46"
+          },
+          {
+            "Country": "Israel",
+            "Median_Age_2022": "30",
+            "Total_Population_2022": "8655535",
+            "CAF_2018": "42",
+            "CAF_2019": "39",
+            "CAF_2021": "28",
+            "CAF_2022": "37"
+          },
+          {
+            "Country": "Switzerland",
+            "Median_Age_2022": "43",
+            "Total_Population_2022": "8654622",
+            "CAF_2018": "45",
+            "CAF_2019": "45",
+            "CAF_2021": "28",
+            "CAF_2022": "37"
+          },
+          {
+            "Country": "Paraguay",
+            "Median_Age_2022": "26",
+            "Total_Population_2022": "7132538",
+            "CAF_2018": "34",
+            "CAF_2019": "32",
+            "CAF_2021": "41",
+            "CAF_2022": "44"
+          },
+          {
+            "Country": "Bulgaria",
+            "Median_Age_2022": "45",
+            "Total_Population_2022": "6948445",
+            "CAF_2018": "22",
+            "CAF_2019": "19",
+            "CAF_2021": "37",
+            "CAF_2022": "41"
+          },
+          {
+            "Country": "Lebanon",
+            "Median_Age_2022": "30",
+            "Total_Population_2022": "6825445",
+            "CAF_2018": "28",
+            "CAF_2019": "30",
+            "CAF_2021": "24",
+            "CAF_2022": "24"
+          },
+          {
+            "Country": "Nicaragua",
+            "Median_Age_2022": "26",
+            "Total_Population_2022": "6624554",
+            "CAF_2018": "33",
+            "CAF_2019": "30",
+            "CAF_2021": "37",
+            "CAF_2022": "40"
+          },
+          {
+            "Country": "Kyrgyzstan",
+            "Median_Age_2022": "26",
+            "Total_Population_2022": "6524195",
+            "CAF_2018": "36",
+            "CAF_2019": "33",
+            "CAF_2021": "38",
+            "CAF_2022": "44"
+          },
+          {
+            "Country": "El Salvador",
+            "Median_Age_2022": "28",
+            "Total_Population_2022": "6486205",
+            "CAF_2018": "22",
+            "CAF_2019": "25",
+            "CAF_2021": "31",
+            "CAF_2022": "36"
+          },
+          {
+            "Country": "Denmark",
+            "Median_Age_2022": "42",
+            "Total_Population_2022": "5792202",
+            "CAF_2018": "46",
+            "CAF_2019": "44",
+            "CAF_2021": "37",
+            "CAF_2022": "46"
+          },
+          {
+            "Country": "Finland",
+            "Median_Age_2022": "43",
+            "Total_Population_2022": "5540720",
+            "CAF_2018": "40",
+            "CAF_2019": "41",
+            "CAF_2021": "31",
+            "CAF_2022": "37"
+          },
+          {
+            "Country": "Slovakia",
+            "Median_Age_2022": "41",
+            "Total_Population_2022": "5459642",
+            "CAF_2018": "28",
+            "CAF_2019": "25",
+            "CAF_2021": "32",
+            "CAF_2022": "41"
+          },
+          {
+            "Country": "Costa Rica",
+            "Median_Age_2022": "33",
+            "Total_Population_2022": "5094118",
+            "CAF_2018": "34",
+            "CAF_2019": "38",
+            "CAF_2021": "30",
+            "CAF_2022": "44"
+          },
+          {
+            "Country": "Ireland",
+            "Median_Age_2022": "38",
+            "Total_Population_2022": "4937786",
+            "CAF_2018": "56",
+            "CAF_2019": "56",
+            "CAF_2021": "40",
+            "CAF_2022": "49"
+          },
+          {
+            "Country": "New Zealand",
+            "Median_Age_2022": "38",
+            "Total_Population_2022": "4822233",
+            "CAF_2018": "58",
+            "CAF_2019": "57",
+            "CAF_2021": "47",
+            "CAF_2022": "54"
+          },
+          {
+            "Country": "Croatia",
+            "Median_Age_2022": "44",
+            "Total_Population_2022": "4105267",
+            "CAF_2018": "20",
+            "CAF_2019": "21",
+            "CAF_2021": "30",
+            "CAF_2022": "37"
+          },
+          {
+            "Country": "Georgia",
+            "Median_Age_2022": "38",
+            "Total_Population_2022": "3989167",
+            "CAF_2018": "24",
+            "CAF_2019": "21",
+            "CAF_2021": "40",
+            "CAF_2022": "31"
+          },
+          {
+            "Country": "Uruguay",
+            "Median_Age_2022": "36",
+            "Total_Population_2022": "3473730",
+            "CAF_2018": "30",
+            "CAF_2019": "30",
+            "CAF_2021": "32",
+            "CAF_2022": "40"
+          },
+          {
+            "Country": "Mongolia",
+            "Median_Age_2022": "28",
+            "Total_Population_2022": "3278290",
+            "CAF_2018": "39",
+            "CAF_2019": "38",
+            "CAF_2021": "44",
+            "CAF_2022": "46"
+          },
+          {
+            "Country": "Albania",
+            "Median_Age_2022": "36",
+            "Total_Population_2022": "2877797",
+            "CAF_2018": "26",
+            "CAF_2019": "23",
+            "CAF_2021": "33",
+            "CAF_2022": "34"
+          },
+          {
+            "Country": "Lithuania",
+            "Median_Age_2022": "45",
+            "Total_Population_2022": "2722289",
+            "CAF_2018": "19",
+            "CAF_2019": "19",
+            "CAF_2021": "28",
+            "CAF_2022": "37"
+          },
+          {
+            "Country": "Gabon",
+            "Median_Age_2022": "23",
+            "Total_Population_2022": "2225734",
+            "CAF_2018": "24",
+            "CAF_2019": "27",
+            "CAF_2021": "26",
+            "CAF_2022": "34"
+          },
+          {
+            "Country": "Slovenia",
+            "Median_Age_2022": "45",
+            "Total_Population_2022": "2078938",
+            "CAF_2018": "39",
+            "CAF_2019": "38",
+            "CAF_2021": "28",
+            "CAF_2022": "39"
+          },
+          {
+            "Country": "Latvia",
+            "Median_Age_2022": "44",
+            "Total_Population_2022": "1886198",
+            "CAF_2018": "19",
+            "CAF_2019": "22",
+            "CAF_2021": "25",
+            "CAF_2022": "29"
+          },
+          {
+            "Country": "Estonia",
+            "Median_Age_2022": "42",
+            "Total_Population_2022": "1326535",
+            "CAF_2018": "26",
+            "CAF_2019": "25",
+            "CAF_2021": "30",
+            "CAF_2022": "40"
+          },
+          {
+            "Country": "Cyprus",
+            "Median_Age_2022": "37",
+            "Total_Population_2022": "1207359",
+            "CAF_2018": "43",
+            "CAF_2019": "41",
+            "CAF_2021": "32",
+            "CAF_2022": "40"
+          },
+          {
+            "Country": "Malta",
+            "Median_Age_2022": "43",
+            "Total_Population_2022": "441543",
+            "CAF_2018": "47",
+            "CAF_2019": "47",
+            "CAF_2021": "31",
+            "CAF_2022": "45"
+          }
+        ]
+      },
+      "mark": {
+        "type": "circle",
+        "color": "#3188cf",
+        "fillOpacity": 0.9
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "CAF_2022": 40,
+            "Median_Age_2022": 8,
+            "text": "R² = 0.00"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "color": "red",
+        "fontWeight": "normal",
+        "fontSize": 12
+      },
+      "encoding": {
+        "tooltip": null,
+        "text": {
+          "field": "text",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "vl_1258",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "08d4e1f4a51dd6896f908a18f6c1156305f2a8b102445fb68ad23941b0f1053c",
+      "actions": 10,
+      "topOptions": 20
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "fc75044e75b913e1794c53efbcc52e9f4f9ed424d1b51d616abe7c069b5e8137",
+      "actions": 12,
+      "topOptions": 22
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "cafcc37dd8b025048bb00dfa01655689818bd413228ad54de67a59524ab699ae",
+      "actions": 14,
+      "topOptions": 26
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "568f5d64dfb6956444ebeb27b31f340d6ca4c560dc6d467a67386e86c5c0b28c",
+      "actions": 15,
+      "topOptions": 28
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c8c91c65cfd062b64de1159f519828043a7ea783924d927c1264e8a6adeceda8",
+      "actions": 17,
+      "topOptions": 34
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "66d189633333156942143fa8bceeaefa6d6912eac066b60732507ae2b2a8d06f",
+      "actions": 21,
+      "topOptions": 38
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "f04f1e7b1cc311ee1833a8832c12969a36bdbe53732d1015ad2044c0b58f3145",
+      "actions": 23,
+      "topOptions": 38
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "0779a33ce9361467b95afcaefe5f878f29c81b1be1a8f95f68e1270a53a2f0b8",
+      "actions": 24,
+      "topOptions": 39
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/google/dopamine/a6f414ca01a81e933359a4922965178a40e0f38a/baselines/atari/data/beamrider.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningfully distinct programs preserve exact source/raw/CI/math/geometry. Complete guides then focusededits, allactions<=3options. ErrorBand+Line retained and exactreviewednativeSVG all8. Stop at eightstagecap, not exhaustion."
+  },
+  "historicalRuntimeCommits": [
+    "e93500081b6dde6be7614e3e9352e947bec5908d"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "d755a388c15e3565b8e0172183efb1eaaa5ca8fbac4181e6d445b01b0c16cf8e",
+      "bytes": 991
+    },
+    "data.json": {
+      "sha256": "eb3a58487d0c1446878302720bcaca9cd80cb6c4b3cfa8b3b42db24231fcdc59",
+      "bytes": 514016
+    },
+    "resolved-source.vl.json": {
+      "sha256": "d07a7d462172e808d12a4b76c4838d44985827ac91d25194846f1f03c871878f",
+      "bytes": 634364
+    },
+    "G1.gg.mjs": {
+      "sha256": "08d4e1f4a51dd6896f908a18f6c1156305f2a8b102445fb68ad23941b0f1053c",
+      "bytes": 7309
+    },
+    "G2.gg.mjs": {
+      "sha256": "fc75044e75b913e1794c53efbcc52e9f4f9ed424d1b51d616abe7c069b5e8137",
+      "bytes": 7327
+    },
+    "G3.gg.mjs": {
+      "sha256": "cafcc37dd8b025048bb00dfa01655689818bd413228ad54de67a59524ab699ae",
+      "bytes": 7235
+    },
+    "G4.gg.mjs": {
+      "sha256": "568f5d64dfb6956444ebeb27b31f340d6ca4c560dc6d467a67386e86c5c0b28c",
+      "bytes": 7291
+    },
+    "G5.gg.mjs": {
+      "sha256": "c8c91c65cfd062b64de1159f519828043a7ea783924d927c1264e8a6adeceda8",
+      "bytes": 7509
+    },
+    "G6.gg.mjs": {
+      "sha256": "66d189633333156942143fa8bceeaefa6d6912eac066b60732507ae2b2a8d06f",
+      "bytes": 7493
+    },
+    "G7.gg.mjs": {
+      "sha256": "f04f1e7b1cc311ee1833a8832c12969a36bdbe53732d1015ad2044c0b58f3145",
+      "bytes": 7447
+    },
+    "G8.gg.mjs": {
+      "sha256": "0779a33ce9361467b95afcaefe5f878f29c81b1be1a8f95f68e1270a53a2f0b8",
+      "bytes": 7470
+    },
+    "vega-lite.svg": {
+      "sha256": "df2b3d716519cd76824fe77f03b6fa6a008257a58ec676f755586a8dd259f7b1",
+      "bytes": 66411
+    },
+    "ggaction.svg": {
+      "sha256": "e79c7a74126dee0a3724417398769591f3b80e354fe244a4b9870645e3675768",
+      "bytes": 101340
+    },
+    "source-reference-policy.json": {
+      "sha256": "5f6e5f5678f06a844c0a46bd6030f0f5f7316ef830b737a6c43f90cb903078ef",
+      "bytes": 1624
+    },
+    "vega-lite-unseeded.svg": {
+      "sha256": "866ae428f4a01e5bc22a94f21e46ad5a6b24f7f277fd878299c82e0d095708a6",
+      "bytes": 66423
+    }
+  },
+  "referencePolicy": {
+    "metadata": "source-reference-policy.json",
+    "environmentSeed": 1,
+    "originalSourceAuthoredSeed": false,
+    "historicalUnseededSvg": "vega-lite-unseeded.svg"
+  }
+}

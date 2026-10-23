@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate every distributed input, accepted module and rendered SVG."""
 import hashlib,json,pathlib,re,xml.etree.ElementTree as ET
+from dataset_inputs import validate_public_raw_inputs
 root=pathlib.Path(__file__).resolve().parents[1];m=json.loads((root/'manifest.json').read_text());ids=[];programs=0
 for chart in m['charts']:
     i=chart['id'];assert re.fullmatch(r'vl_\d{4}',i);ids.append(i);d=root/'charts'/i
@@ -18,6 +19,7 @@ for chart in m['charts']:
             for attr,value in el.attrib.items():
                 if attr.endswith('href') and not el.tag.endswith('}a'):assert not value.startswith(('http:','https:','file:')),(i,key,'external SVG resource')
     for name in ['source.vl.json','resolved-source.vl.json','data.json']:json.loads((d/name).read_text())
+    validate_public_raw_inputs(d, metadata)
     assert len(metadata['stages'])==chart['stageCount'];programs+=chart['stageCount']
 assert ids==sorted(set(ids));assert len(ids)==m['chartCount'];assert programs==m['programCount']
 print(json.dumps(dict(status='passed',charts=len(ids),programs=programs,runtime=m['runtime'])))
