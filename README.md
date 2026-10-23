@@ -3,7 +3,8 @@
 [Open the comparison viewer](https://ggaction.github.io/chart-datasets/)
 
 A minimal side-by-side viewer for 1,336 completed Vega-Lite → ggaction chart
-translations. Vega-Lite appears on the left and ggaction on the right. Use the
+translations. Visible headings identify Vega-Lite on the left and ggaction on
+the right. Use the
 slider, arrow buttons, keyboard arrows, Home or End. Link directly to a chart
 with a hash such as [#vl_1180](https://ggaction.github.io/chart-datasets/#vl_1180).
 

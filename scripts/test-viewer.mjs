@@ -23,10 +23,20 @@ try{
  await settled(charts[0].id);
  for(const width of [1440,800,390]){
   await page.setViewportSize({width,height:800});
-  await page.waitForFunction(()=>[...document.images].every(img=>img.getBoundingClientRect().width<=img.parentElement.clientWidth+0.1));
-  const sizes=await page.evaluate(()=>[...document.images].map(img=>({w:img.getBoundingClientRect().width,h:img.getBoundingClientRect().height,nw:img.naturalWidth,nh:img.naturalHeight,parent:img.parentElement.getBoundingClientRect().width})));
+  await page.waitForFunction(()=>[...document.images].every(img=>img.getBoundingClientRect().width<=img.parentElement.clientWidth+0.1&&img.getBoundingClientRect().height<=img.parentElement.clientHeight+0.1));
+  const labels=page.getByRole('heading',{level:2});
+  assert.deepEqual(await labels.allTextContents(),['Vega-Lite','ggaction']);
+  for(const label of await labels.all())assert.equal(await label.isVisible(),true);
+  const layout=await page.evaluate(()=>[...document.querySelectorAll('#comparison section')].map(section=>{
+   const heading=section.querySelector('h2'),label=heading.getBoundingClientRect(),picture=section.querySelector('.picture').getBoundingClientRect();
+   return {name:section.getAttribute('aria-labelledby'),labelId:heading.id,left:label.left,right:label.right,top:label.top,bottom:label.bottom,pictureTop:picture.top};
+  }));
+  assert(layout[0].right<layout[1].left,'Vega-Lite heading stays left of ggaction');
+  assert.equal(layout[0].top,layout[1].top);
+  for(const item of layout){assert.equal(item.name,item.labelId);assert(item.top>=0);assert(item.bottom<item.pictureTop);}
+  const sizes=await page.evaluate(()=>[...document.images].map(img=>({w:img.getBoundingClientRect().width,h:img.getBoundingClientRect().height,nw:img.naturalWidth,nh:img.naturalHeight,parent:img.parentElement.getBoundingClientRect().width,parentHeight:img.parentElement.clientHeight})));
   assert.equal(sizes.length,2);
-  for(const s of sizes){assert(s.w<=s.parent+0.1);assert(Math.abs(s.w/s.nw-s.h/s.nh)<0.01);}
+  for(const s of sizes){assert(s.w<=s.parent+0.1);assert(s.h<=s.parentHeight+0.1);assert(Math.abs(s.w/s.nw-s.h/s.nh)<0.01);}
   assert(Math.abs(sizes[0].w/sizes[0].nw-sizes[1].w/sizes[1].nw)<0.001);
  }
  const decoded=await page.evaluate(async charts=>{
@@ -35,6 +45,6 @@ try{
   return total;
  },charts);
  assert.equal(decoded,charts.length*2);assert.deepEqual(errors,[]);assert.deepEqual(external,[]);
- const report={status:'passed',chartCount:charts.length,decodedImages:decoded,checks:['navigation','keyboard','range keys','fast range changes','hash deep link','boundaries','desktop/mobile shared scale','all SVGs decode','no external requests','no JavaScript errors']};
+ const report={status:'passed',chartCount:charts.length,decodedImages:decoded,checks:['navigation','keyboard','range keys','fast range changes','hash deep link','boundaries','visible left/right headings at desktop/mobile widths','desktop/mobile shared scale and height fit','all SVGs decode','no external requests','no JavaScript errors']};
  await mkdir('.validation',{recursive:true});await writeFile('.validation/viewer.json',JSON.stringify(report,null,2)+'\n');console.log(report);
 }finally{await browser.close();}
