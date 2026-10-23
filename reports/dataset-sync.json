@@ -1,5 +1,5 @@
 {
-  "status": "applied-pending-runtime-validation",
+  "status": "applied-published-runtime-verified",
   "apply": true,
   "charts": 1336,
   "programs": 9766,
@@ -130,8 +130,11 @@
   ],
   "refreshed": [],
   "originalInputsPreserved": true,
-  "currentRuntimeValidationPending": true,
+  "currentRuntimeValidationPending": false,
   "staging": ".validation/dataset-sync-yuvjytgm",
   "previousManifestSha256": "4f3b88dc1a805487dc7a46817c4192a00477c9fb83e4e9a23f783d2c69cb075c",
-  "createdAt": "2026-10-22T22:30:37.140536+00:00"
+  "createdAt": "2026-10-22T22:30:37.140536+00:00",
+  "runtime": "0.0.22",
+  "runtimeReport": "reports/runtime-sync.json",
+  "registryProof": "reports/registry-proof.json"
 }

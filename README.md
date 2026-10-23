@@ -63,11 +63,14 @@ Large source specifications and raw data remain available in this repository.
 
 ## Runtime and verification
 
-The synchronized runtime is ggaction **0.0.21**, pinned in `runtime-lock.json` and the lockfile.
-The tagged artifact and npm archive match exactly. All **1,213 families / 8,788 programs**
-match their frozen browser SVGs; see [the runtime report](reports/runtime-sync.json)
-and [registry proof](reports/registry-proof.json). The official npm installation contains
-the same 591 files as the verified artifact. The [0.0.21 release](https://github.com/ggaction/ggaction/releases/tag/v0.0.21)
+The synchronized runtime is ggaction **0.0.22**, pinned in `runtime-lock.json` and the lockfile.
+The tagged artifact and npm archive match exactly. All **1,336 families / 9,766 programs**
+pass the canonical browser replay: 1,334 families retain byte-identical SVGs, and two
+retain exact decoded pixels at DPR1,2,4 under the explicit qualifications below.
+See [the runtime report](reports/runtime-sync.json), the preserved
+[byte comparison](reports/runtime-sync-byte-comparison.json) and
+[registry proof](reports/registry-proof.json). The official npm installation contains
+the same 621 files as the verified artifact. The [0.0.22 release](https://github.com/ggaction/ggaction/releases/tag/v0.0.22)
 and [published documentation](https://ggaction.github.io/ggaction/) are synchronized;
 [documentation provenance](reports/documentation-release.json) records their contract identity.
 Install dependencies and the pinned Chromium build, then render a family with:
@@ -95,7 +98,9 @@ node scripts/verify-runtime.mjs /path/to/candidate.json
 
 The script verifies the tarball digests, installs that exact artifact in an
 isolated local directory, executes every accepted program and writes
-`reports/runtime-sync.json` only when all families match the frozen outputs.
+`reports/runtime-sync.json` only when all families match the frozen SVG bytes.
+The explicit qualification invocation below separately verifies the two reviewed
+exact-pixel equivalents while retaining the failed byte comparisons.
 
 For an unpublished candidate, pass an ignored output path so the published
 runtime report remains unchanged:
@@ -142,7 +147,7 @@ separate from the published cohort above.
 Completed means the translations passed the recorded rendering, structure,
 data and geometry policy. It does not claim pixel-perfect equivalence to the
 source. Source-specific approximations and historical corrections remain in
-per-chart metadata. The latest update adds seven completed families while preserving every original
+per-chart metadata. This release adds 123 completed families while preserving every original
 source, frozen dataset and previously distributed SVG. It also preserves the
 original unseeded SVGs for five sources with approved reference environments.
 [Update evidence](reports/dataset-sync.json) and the
@@ -168,3 +173,14 @@ No general numerical or image tolerance is added.
 ```sh
 node scripts/verify-runtime.mjs /path/to/candidate.json reports/runtime-sync.json reports/runtime-equivalence-0.0.22.json
 ```
+
+## Library integration and cleanup
+
+The [0.0.22 closeout](reports/release-1.1.0.json) includes merged PRs #252 and #263,
+35 [released issue closures](reports/library-issue-closeout-0.0.22.json), and
+33 [obsolete remote branch removals](reports/library-branch-cleanup-0.0.22.json).
+Fifteen original branch heads remain recoverable through annotated archival tags;
+local branches and worktrees are preserved. The library has no open PRs and only
+`main` remains as a remote branch. Issues #238, #244, #253 and #258 stay open with
+explicit implementation gaps; preparation and workarounds are not reported as
+completed public features.
