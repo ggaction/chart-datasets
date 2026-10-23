@@ -86,6 +86,9 @@ This executes the distributed source modules against the pinned ggaction
 package in Chromium (UTC, en-US) and checks same-family output equality.
 `--all` checks every accepted family; `--node` selects the diagnostic Node
 backend, whose number formatting can differ from the frozen browser output.
+Replays use one worker by default. Set `RENDER_WORKERS=2` or `RENDER_WORKERS=3`
+to process independent chunks concurrently; larger counts are rejected. Each
+worker writes its own chunk report, and the final report records the worker count.
 Existing SVGs remain the frozen
 translation evidence. A full release synchronization report records compatibility
 and output differences separately.
@@ -111,8 +114,8 @@ node scripts/verify-runtime.mjs /path/to/candidate.json .validation/candidate-ru
 ```
 
 Renderer validation rejects a failed child, stale chunk, missing or duplicate
-family, and mismatched result order. Runtime sweeps construct one chart at a time
-and remove stale aggregate reports before starting. A valid fresh chunk reporting explicit rendering differences is retained while later chunks run; the full run still fails. Crashes, signals and malformed or contradictory chunks fail closed. `npm test` exercises those failure cases
+family, and mismatched result order. Each worker constructs one chart at a time;
+runtime sweeps remove stale aggregate reports before starting. A valid fresh chunk reporting explicit rendering differences is retained while later chunks run; the full run still fails. Crashes, signals and malformed or contradictory chunks fail closed. `npm test` exercises those failure cases
 before the Pages build.
 
 To preview an incremental import from the translation workspace:
