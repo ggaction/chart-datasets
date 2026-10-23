@@ -138,7 +138,7 @@ def sync(root, workspace, apply=False):
     programs = 0
     for chart_id in sorted(set(config['sourceIds'])):
         require(re.fullmatch(r'vl_\d{4}', chart_id), 'Invalid source id')
-        source_dir, epoch = source_family(workspace, chart_id, base)
+        source_dir, epoch = source_family(workspace, chart_id, base, config.get('requalifiedSourceFamiliesV3'))
         completion_file = source_dir / 'completion.json'
         if not completion_file.exists() or read(completion_file).get('status') != 'completed':
             continue

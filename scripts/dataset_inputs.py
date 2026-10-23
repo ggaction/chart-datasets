@@ -49,19 +49,36 @@ def contained(root, relative):
     return result
 
 
-def source_family(workspace, chart_id, base):
+def source_family(workspace, chart_id, base, registry_descriptor=None):
     registry_file = workspace / 'experiments/glm-thousand-chart-adaptive/requalified-source-families-v2.json'
+    if registry_descriptor is not None:
+        registry_file = contained(workspace, registry_descriptor['path'])
+        require(digest(registry_file) == registry_descriptor['sha256'], 'Epoch registry descriptor changed')
     if not registry_file.exists():
         return base / chart_id, None
     registry = read(registry_file)
-    require(registry['schemaVersion'] == 2, 'Unknown authoring epoch registry')
+    expected_version = 3 if registry_descriptor is not None else 2
+    require(registry['schemaVersion'] == expected_version, 'Unknown authoring epoch registry')
     parent = registry['parent']
-    require(digest(contained(workspace, parent['path'])) == parent['sha256'], 'Epoch registry parent changed')
+    parent_file = contained(workspace, parent['path'])
+    require(digest(parent_file) == parent['sha256'], 'Epoch registry parent changed')
+    if expected_version == 3:
+        require(parent_file == workspace / 'experiments/glm-thousand-chart-adaptive/requalified-source-families-v2.json',
+                'Epoch registry requires the canonical v2 parent')
+        previous = read(parent_file)
+        require(previous['schemaVersion'] == 2, 'Unknown parent authoring epoch registry')
+        ancestor = previous['parent']
+        require(digest(contained(workspace, ancestor['path'])) == ancestor['sha256'],
+                'Epoch registry ancestor changed')
+        require(all(key in registry['sources'] and ordered(registry['sources'][key]) == ordered(value)
+                    for key, value in previous['sources'].items()), 'Epoch registry lost or changed a parent entry')
     epoch = registry['sources'].get(chart_id)
     if epoch is None:
         return base / chart_id, None
+    resolution_flag = ('mustResolveExplicitEpoch' if expected_version == 3
+                       and chart_id not in previous['sources'] else 'exportAt1413MustResolveThisExplicitEpoch')
     require(epoch['successful'] is True and epoch['sourceOriginalAndRawUnchanged'] is True
-            and epoch['exportAt1413MustResolveThisExplicitEpoch'] is True, 'Unapproved authoring epoch')
+            and epoch.get(resolution_flag) is True, 'Unapproved authoring epoch')
     selected = contained(workspace, epoch['family'])
     historical = contained(workspace, epoch['historicalFamily'])
     require(selected.name == historical.name == chart_id

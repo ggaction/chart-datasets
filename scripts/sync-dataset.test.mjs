@@ -139,6 +139,27 @@ async function requalifiedEpoch(f){
 }
 test('selects a completed explicit authoring epoch while retaining the historical held contract',async()=>{const f=await fixture();try{let current=await requalifiedEpoch(f),run=f.run(true);assert.equal(run.status,0,run.stderr);let d=f.root+'/charts/vl_0001';assert.equal((await load(d+'/source-epoch.json')).selection,'explicit-reviewed-authoring-epoch');assert.deepEqual(await readFile(d+'/G1.gg.mjs'),await readFile(current+'/G1/attempt-01/candidate.gg.mjs'));assert.equal((await load(f.family+'/completion.json')).status,'held');}finally{await f.cleanup();}});
 for(const mutation of ['contract','raw','summary','unsafe-path','missing-runtime'])test('rejects changed explicit authoring epoch '+mutation,async()=>{const f=await fixture();try{const current=await requalifiedEpoch(f);if(mutation==='contract')await json(current+'/contract.json',{changed:true});if(mutation==='raw')await json(current+'/data.json',[{x:'changed'}]);if(mutation==='summary')await json(f.workspace+'/epoch-summary.json',{changed:true});if(mutation==='missing-runtime'){let p=current+'/G1/attempt-01/verification.json',r=await load(p);delete r.runtimeCommit;await json(p,r);}if(mutation==='unsafe-path'){let p=f.workspace+'/experiments/glm-thousand-chart-adaptive/requalified-source-families-v2.json',r=await load(p);r.sources.vl_0001.family='../vl_0001';await json(p,r);}let run=f.run(true);assert.notEqual(run.status,0);assert.equal((await load(f.root+'/manifest.json')).chartCount,0);}finally{await f.cleanup();}});
+async function completionCatalogV3(f, retained=false){
+ const current=await requalifiedEpoch(f),directory=f.workspace+'/experiments/glm-thousand-chart-adaptive';
+ const parentPath=directory+'/requalified-source-families-v2.json',previous=await load(parentPath),entry=structuredClone(previous.sources.vl_0001);
+ if(!retained){delete previous.sources.vl_0001;previous.sources.vl_9999={preserved:'parent-entry'};await json(parentPath,previous);delete entry.exportAt1413MustResolveThisExplicitEpoch;entry.mustResolveExplicitEpoch=true;}
+ const registry={schemaVersion:3,parent:{path:'experiments/glm-thousand-chart-adaptive/requalified-source-families-v2.json',sha256:hash(await readFile(parentPath))},sources:{...previous.sources,vl_0001:entry}};
+ const file=directory+'/requalified-source-families-v3.json';
+ async function save(){await json(file,registry);const configPath=directory+'/config.json',config=await load(configPath);config.requalifiedSourceFamiliesV3={path:'experiments/glm-thousand-chart-adaptive/requalified-source-families-v3.json',sha256:hash(await readFile(file))};await json(configPath,config);}
+ await save();return {current,directory,file,parentPath,registry,save};
+}
+for(const retained of [false,true])test('v3 completion catalog selects '+(retained?'unchanged v2 parent':'new completed')+' epoch',async()=>{const f=await fixture();try{const e=await completionCatalogV3(f,retained),run=f.run(true);assert.equal(run.status,0,run.stderr);assert.deepEqual(await readFile(f.root+'/charts/vl_0001/G1.gg.mjs'),await readFile(e.current+'/G1/attempt-01/candidate.gg.mjs'));const proof=await load(f.root+'/charts/vl_0001/source-epoch.json');assert.equal(proof.registrySha256,hash(await readFile(e.file)));assert(!JSON.stringify(proof).includes(f.home));}finally{await f.cleanup();}});
+for(const mutation of ['descriptor-hash','parent-hash','ancestor-hash','lost-parent','changed-parent','unfinished','raw-changed','missing-resolution','unsafe-descriptor'])test('v3 completion catalog rejects '+mutation+' before publication',async()=>{const f=await fixture();try{const e=await completionCatalogV3(f);
+ if(mutation==='parent-hash')await json(e.parentPath,{schemaVersion:2,sources:{}});
+ if(mutation==='ancestor-hash')await json(e.directory+'/requalified-source-families-v1.json',{changed:true});
+ if(mutation==='lost-parent'){delete e.registry.sources.vl_9999;await e.save();}
+ if(mutation==='changed-parent'){e.registry.sources.vl_9999.preserved='changed';await e.save();}
+ if(mutation==='unfinished')await json(e.current+'/completion.json',{status:'held'});
+ if(mutation==='raw-changed')await json(e.current+'/data.json',[{x:'changed'}]);
+ if(mutation==='missing-resolution'){delete e.registry.sources.vl_0001.mustResolveExplicitEpoch;await e.save();}
+ if(mutation==='descriptor-hash'||mutation==='unsafe-descriptor'){const p=e.directory+'/config.json',c=await load(p);if(mutation==='descriptor-hash')c.requalifiedSourceFamiliesV3.sha256='0'.repeat(64);else c.requalifiedSourceFamiliesV3.path='../outside.json';await json(p,c);}
+ const run=f.run(true);assert.notEqual(run.status,0);assert.equal((await load(f.root+'/manifest.json')).chartCount,0);assert.match(run.stderr,/epoch|registry|input|workspace/i);
+ }finally{await f.cleanup();}});
 async function namedLayers(f){
  const rows=[{x:1,y:2}],lines=[{x:1,y:3}],source={layer:[{data:{name:'points'},mark:'point'},{data:{name:'lines'},mark:'line'}],datasets:{points:rows,lines}},resolved={layer:[{data:{values:rows},mark:'point'},{data:{values:lines},mark:'line'}],data:{values:rows}};
  await json(f.family+'/source.vl.json',source);await json(f.family+'/resolved-source.vl.json',resolved);await json(f.family+'/data.json',rows);await json(f.family+'/line-data.json',lines);for(const file of ['data.json','line-data.json'])await copyFile(f.family+'/'+file,f.attempt+'/'+file);
