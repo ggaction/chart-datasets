@@ -13,7 +13,7 @@ const svg='<svg xmlns="http://www.w3.org/2000/svg" width="100" height="80"><g><p
 async function fixture(){
  const home=await mkdtemp(path.join(tmpdir(),'chart-dataset-sync-')),root=path.join(home,'repo'),workspace=path.join(home,'workspace');
  for(const directory of [root+'/scripts',root+'/charts',root+'/reports',workspace+'/experiments/glm-thousand-chart-adaptive',workspace+'/artifacts/v12-glm-thousand-chart-adaptive/vl_0001/G1/attempt-01/render'])await mkdir(directory,{recursive:true});
- for(const file of ['sync-dataset.py','dataset_inputs.py','audit-module-inputs.mjs'])await copyFile(new URL('./'+file,import.meta.url),root+'/scripts/'+file);
+ for(const file of ['sync-dataset.py','dataset_inputs.py','audit-module-inputs.mjs','audit-concat-input-owners.mjs'])await copyFile(new URL('./'+file,import.meta.url),root+'/scripts/'+file);
  await symlink(new URL('../node_modules',import.meta.url).pathname,root+'/node_modules','dir');
  await json(root+'/package.json',{dependencies:{ggaction:'0.0.19'}});
  await json(root+'/manifest.json',{schemaVersion:1,chartCount:0,programCount:0,runtime:{version:'0.0.19',status:'verified'},charts:[]});

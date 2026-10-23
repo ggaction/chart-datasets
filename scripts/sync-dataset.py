@@ -197,7 +197,13 @@ def sync(root, workspace, apply=False):
             else:
                 unrecorded_runtimes.append(level)
         try:
-            module_audits = audit_stages(pathlib.Path(__file__).resolve().parent, stage_requests, raw_files, strict_bindings=raw_manifest is not None)
+            scoped_concat = raw_manifest is not None and raw_manifest.get('nativeScopePolicy') == 'flat-two-owner-hconcat-v1'
+            native_inputs = (dict(source=spec, manifest=raw_manifest,
+                                  rawTables={name: read(file) for name, file in raw_files.items()})
+                             if scoped_concat else None)
+            module_audits = audit_stages(pathlib.Path(__file__).resolve().parent, stage_requests, raw_files,
+                                        strict_bindings=raw_manifest is not None, concat_scope=scoped_concat,
+                                        native_inputs=native_inputs)
         except RuntimeError as error:
             raise RuntimeError(f'{chart_id}: {error}') from error
         for audit, request in zip(module_audits, stage_requests):
@@ -207,12 +213,15 @@ def sync(root, workspace, apply=False):
                         f'{chart_id}/{audit["level"]}: stage raw table changed: {name}')
         if raw_manifest is not None:
             for audit, request in zip(module_audits, stage_requests):
-                semantic = read(pathlib.Path(request['path']).parent / 'render/semantic.json')
-                datasets = {dataset['id']: dataset for dataset in semantic['datasets']}
-                for binding in audit['bindings']:
-                    require(binding['datasetId'] in datasets
-                            and ordered(datasets[binding['datasetId']]['values']) == ordered(read(raw_files[binding['file']])),
-                            f'{chart_id}/{audit["level"]}: actual native raw dataset binding mismatch')
+                if not scoped_concat:
+                    semantic = read(pathlib.Path(request['path']).parent / 'render/semantic.json')
+                    datasets = {dataset['id']: dataset for dataset in semantic['datasets']}
+                    for binding in audit['bindings']:
+                        require(binding['datasetId'] in datasets
+                                and ordered(datasets[binding['datasetId']]['values']) == ordered(read(raw_files[binding['file']])),
+                                f'{chart_id}/{audit["level"]}: actual native raw dataset binding mismatch')
+                # Scoped concat proof already ran against the current verification-bound
+                # parent capture and both AST-derived child owners in audit_stages.
                 audit['actualNativeRawDatasetBindingsExact'] = True
             raw_manifest['stages'] = module_audits
             prepared_raw = staging / (chart_id + '-raw-inputs.json')

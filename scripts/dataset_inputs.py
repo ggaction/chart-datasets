@@ -163,8 +163,21 @@ def raw_inputs(family, source, resolved):
                        primary='data.json', descriptors=public)
 
 
-def audit_stages(script_directory, stages, raw_files, strict_bindings=True):
+def audit_stages(script_directory, stages, raw_files, strict_bindings=True, concat_scope=False, native_inputs=None):
     request = dict(rawFiles=sorted(raw_files), stages=stages, strictBindings=strict_bindings)
+    if concat_scope:
+        require(strict_bindings, 'Concat ownership requires strict module bindings')
+        request['concatScope'] = True
+        if native_inputs is not None:
+            request['nativeConcatInputs'] = native_inputs
+            request['stages'] = []
+            for stage in stages:
+                attempt = pathlib.Path(stage['path']).parent
+                capture = attempt / 'render/composition-capture.json'
+                verification = read(attempt / 'verification.json')
+                require(digest(capture) == verification['compositionCaptureSha256'],
+                        'Current concat capture is not bound by source verification')
+                request['stages'].append(dict(stage, nativeCapture=read(capture)))
     result = subprocess.run(['node', str(script_directory / 'audit-module-inputs.mjs')],
                             input=json.dumps(request), capture_output=True, text=True, check=False)
     require(result.returncode == 0, 'Module input binding rejected: ' + result.stderr.strip())
@@ -342,14 +355,17 @@ def explicit_source_inputs(family, source, resolved):
     candidates = {p.name: p for p in family.iterdir() if is_raw_file(p.name)}
     rows = {name: read(file) for name, file in candidates.items()}
     descriptors, used, canonical = [], set(), {}
+    scopes = qualified_concat_owner_files(family, source, candidates)
     for ptr in source_data_owners(source):
         original, materialized = pointer(source, ptr), pointer(frozen, ptr)
         require(isinstance(materialized.get('values'), list), 'Unresolved explicit source owner: ' + ptr)
         context_alias = unused_root_context_alias(source, frozen, ptr)
         expected_rows = original['values'] if context_alias else materialized['values']
-        matches = [name for name, values in rows.items() if ordered(values) == ordered(expected_rows)]
+        matches = ([scopes[ptr]] if scopes is not None else
+                   [name for name, values in rows.items() if ordered(values) == ordered(expected_rows)])
         require(len(matches) == 1, 'Ambiguous or missing frozen source owner: ' + ptr)
         name = matches[0]
+        require(ordered(rows[name]) == ordered(expected_rows), 'Qualified original owner rows changed: ' + ptr)
         if 'values' in original:
             require(ordered(original['values']) == ordered(rows[name]), 'Original inline rows changed')
         elif 'name' in original:
@@ -372,7 +388,53 @@ def explicit_source_inputs(family, source, resolved):
     return candidates, dict(schemaVersion=2, kind='explicit-source-owner-raw-inputs-v1', primary='data.json',
                             sourceSha256=digest(family / 'source.vl.json'), resolvedSourceSha256=digest(resolved),
                             distinctRawRows=sum(len(rows[name]) for name in used),
-                            sourceOwnerRows=sum(row['rowCount'] for row in descriptors), descriptors=descriptors)
+                            sourceOwnerRows=sum(row['rowCount'] for row in descriptors), descriptors=descriptors,
+                            **({'nativeScopePolicy': 'flat-two-owner-hconcat-v1'} if scopes is not None else {}))
+
+
+def qualified_concat_owner_files(family, source, candidates):
+    """An explicit original-name/pointer/import mapping disambiguates equal row values."""
+    contract_file = family / 'contract.json'
+    contract = read(contract_file) if contract_file.exists() else {}
+    profile = contract.get('sourceTwoOwnerConcatProof')
+    if profile is None:
+        return None
+    require(profile.get('kind') == 'source-qualified-flat-two-owner-concat-v1'
+            and profile.get('sourceSha256') == contract.get('sourceSha256') == digest(family / 'source.vl.json'),
+            'Invalid source-qualified concat ownership profile')
+    require(contract.get('sourceComposition') == 'concat'
+            and contract.get('v13Qualification', {}).get('stageShapeFormat') == 'v13-two-owner-concat-stage-v1',
+            'Concat owner policy requires its explicit qualified grammar')
+    require('data' not in source and 'transform' not in source
+            and isinstance(source.get('hconcat'), list) and len(source['hconcat']) == 2
+            and source_data_owners(source) == ['/hconcat/0/data', '/hconcat/1/data'],
+            'Only two independent flat hconcat inputs are qualified')
+    require(not any(key in source for key in ('mark', 'layer', 'facet', 'repeat', 'concat', 'vconcat', 'spec', 'projection'))
+            and all(not any(key in child for key in ('layer', 'facet', 'repeat', 'concat', 'vconcat', 'hconcat', 'spec', 'projection', 'datasets'))
+                    for child in source['hconcat']), 'Nested or mixed concat ownership is not qualified')
+    imports = contract.get('rawImports')
+    require(isinstance(imports, list) and len(imports) == 2, 'Missing qualified concat raw imports')
+    result, names, bindings = {}, set(), set()
+    for index, raw in enumerate(imports):
+        pointer_name = f'/hconcat/{index}/data'
+        original = source['hconcat'][index]['data']
+        require(set(original) == {'name'} and isinstance(original['name'], str)
+                and original['name'] not in names and 'transform' not in source['hconcat'][index],
+                'Concat children require two distinct original named owners')
+        names.add(original['name'])
+        require(raw.get('pointer') == pointer_name and raw.get('ownerName') == original['name']
+                and re.fullmatch(r'\./[a-z][a-z0-9-]*\.json', raw.get('specifier', ''))
+                and re.fullmatch(r'[A-Za-z_$][A-Za-z0-9_$]*', raw.get('binding', ''))
+                and raw['binding'] not in bindings and raw['binding'] not in ('chart', 'hconcat', 'buildChart'),
+                'Concat original owner/import mapping changed')
+        bindings.add(raw['binding'])
+        name = raw['specifier'][2:]
+        require(name in candidates and name not in result.values()
+                and digest(candidates[name]) == raw.get('sha256'), 'Concat raw file mapping changed')
+        result[pointer_name] = name
+    require(set(source.get('datasets', {})) == names and set(result.values()) == set(candidates)
+            and result['/hconcat/0/data'] == 'data.json', 'Incomplete independent concat owner set')
+    return result
 
 
 def validate_explicit_source_inputs(directory, metadata, record, reference_files):
@@ -382,6 +444,17 @@ def validate_explicit_source_inputs(directory, metadata, record, reference_files
             and record.get('sourceSha256') == digest(source_file)
             and record.get('resolvedSourceSha256') == digest(resolved_file), 'Explicit source binding changed')
     owners = source_data_owners(source)
+    policy = record.get('nativeScopePolicy')
+    require(policy is None or policy == 'flat-two-owner-hconcat-v1', 'Unknown native input scope policy')
+    if policy is not None:
+        require('data' not in source and 'transform' not in source
+                and owners == ['/hconcat/0/data', '/hconcat/1/data']
+                and len({pointer(source, ptr).get('name') for ptr in owners}) == 2
+                and all(set(pointer(source, ptr)) == {'name'} for ptr in owners)
+                and not any(key in source for key in ('mark', 'layer', 'facet', 'repeat', 'concat', 'vconcat', 'spec', 'projection'))
+                and all(not any(key in child for key in ('transform', 'layer', 'facet', 'repeat', 'concat', 'vconcat', 'hconcat', 'spec', 'projection', 'datasets'))
+                        for child in source['hconcat']),
+                'Distributed concat scope requires two distinct original named owners')
     require([r['pointer'] for r in record['descriptors']] == owners, 'Explicit source owner set changed')
     seen, canonical, total = set(), {}, 0
     for row in record['descriptors']:
@@ -416,7 +489,7 @@ def validate_explicit_source_inputs(directory, metadata, record, reference_files
             and record.get('distinctRawRows') == sum(len(read(directory / name)) for name in seen)
             and record.get('sourceOwnerRows') == total, 'Explicit source accounting changed')
     stages = [dict(level=row['level'], path=str(directory / row['code'])) for row in metadata['stages']]
-    actual = audit_stages(pathlib.Path(__file__).resolve().parent, stages, seen)
+    actual = audit_stages(pathlib.Path(__file__).resolve().parent, stages, seen, concat_scope=policy is not None)
     require(len(actual) == len(record['stages']), 'Missing explicit stage bindings')
     for audit, retained in zip(actual, record['stages']):
         require(retained.get('actualNativeRawDatasetBindingsExact') is True

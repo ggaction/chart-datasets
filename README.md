@@ -161,6 +161,17 @@ See [DATA_SOURCES.md](DATA_SOURCES.md) for attribution and licensing.
 
 Explicit URL and inline owners in layered sources use `explicit-source-owner-raw-inputs-v1` (schema 2). Each descriptor binds its original source pointer, frozen rows, file hash, and original descriptor hash. Identical original descriptors may explicitly alias one frozen file; unrelated owners cannot. Empty original root tables are retained even when only local tables are used by marks. When a reviewed resolved analysis root aliases the first layer, `resolvedContextAliasOf` records that exact link while the separate original empty table remains empty. Export and public validation reject missing owners, changed rows, ambiguous file matches, and invalid aliases. Accepted module bytes and historical authoring runtimes remain unchanged.
 
+New source-qualified flat `hconcat` families can additionally record
+`nativeScopePolicy: "flat-two-owner-hconcat-v1"`. This explicit policy preserves
+two independently named source tables, including equal-valued tables. The module
+AST binds each returned child program to its own JSON import and actual scoped
+dataset ID; `nativeChildId` and `sourcePointer` are retained in each stage input
+binding. Export checks both child datasets against the current verified native
+composition capture. Public validation recalculates the same AST scopes. Original
+source, raw files and translated code remain byte-exact; the resolved analysis
+view materializes the two original data references as independent `values`
+arrays. See [scope checks and recovery](docs/concat-input-owners.md).
+
 ### Exact-pixel qualifications
 
 The default SVG replay remains byte-strict. Version0.0.22 preserves exact
