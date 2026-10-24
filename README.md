@@ -62,6 +62,8 @@ Open `http://127.0.0.1:4317`. Serving avoids browser restrictions on local
 and the chart SVGs. GitHub Actions deploys that directory to GitHub Pages.
 Large source specifications and raw data remain available in this repository.
 
+When a completed source declares `contract.rawImports`, export first verifies the complete pointer-to-file mapping against the original and resolved source hashes, each raw file hash and ordered rows, and any bound owner descriptor or cached URL evidence. This preserves independently owned inputs even when two tables contain identical values. Incomplete, ambiguous or changed declarations fail before export; sources without an explicit mapping retain the existing resolution path. This input check does not change the pinned runtime or publish the viewer.
+
 ## Runtime and verification
 
 The synchronized runtime is ggaction **0.0.22**, pinned in `runtime-lock.json` and the lockfile.
