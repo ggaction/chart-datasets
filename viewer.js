@@ -17,7 +17,7 @@ function image(src){
 }
 async function text(path,expected){
  const key=path+':'+expected;
- if(!texts.has(key)){texts.set(key,fetch(path).then(async r=>{if(!r.ok)throw Error('Could not load code. Please retry.');const bytes=await r.arrayBuffer();if(await digest(bytes)!==expected)throw Error('Code does not match this catalog. Please reload.');return new TextDecoder().decode(bytes);}).catch(e=>{texts.delete(key);throw e;}));while(texts.size>10)texts.delete(texts.keys().next().value);}
+ if(!texts.has(key)){texts.set(key,fetch(path,{cache:'no-cache'}).then(async r=>{if(!r.ok)throw Error('Could not load code. Please retry.');const bytes=await r.arrayBuffer();if(await digest(bytes)!==expected)throw Error('Code does not match this catalog. Please reload.');return new TextDecoder().decode(bytes);}).catch(e=>{texts.delete(key);throw e;}));while(texts.size>10)texts.delete(texts.keys().next().value);}
  return texts.get(key);
 }
 function fit(){
