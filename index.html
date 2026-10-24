@@ -2,7 +2,26 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'">
 <title>Chart datasets</title><link rel="stylesheet" href="styles.css"><script type="module" src="viewer.js"></script></head>
-<body><header><h1 id="number">—</h1></header>
-<main id="comparison" aria-label="Chart comparison"><section aria-labelledby="vega-lite-label"><h2 id="vega-lite-label">Vega-Lite</h2><div class="picture" id="left"></div></section><section aria-labelledby="ggaction-label"><h2 id="ggaction-label">ggaction</h2><div class="picture" id="right"></div></section></main>
-<footer><button id="previous" aria-label="Previous chart" disabled>←</button><input id="slider" type="range" min="0" max="0" value="0" aria-label="Chart" disabled><button id="next" aria-label="Next chart" disabled>→</button><output id="position" class="sr-only"></output></footer>
-<p id="status" role="status" aria-live="polite">Loading…</p><noscript>This viewer requires JavaScript.</noscript></body></html>
+<body>
+<header><h1>Chart datasets <span id="total"></span></h1><nav aria-label="View"><button id="gallery-view" aria-pressed="true">Gallery</button><button id="compare-view" aria-pressed="false">Compare</button></nav></header>
+<form id="toolbar" role="search" aria-label="Explore charts">
+<label class="search"><span class="sr-only">Search charts</span><input id="search" type="search" placeholder="Search number, title, or field…" maxlength="200" autocomplete="off"></label>
+<label><span class="sr-only">Chart type</span><select id="type"><option value="">All chart types</option></select></label>
+<label><span class="sr-only">Chart structure</span><select id="structure"><option value="">All structures</option></select></label>
+<label><span class="sr-only">Design feature</span><select id="feature"><option value="">All features</option></select></label>
+<label><span class="sr-only">Sort charts</span><select id="sort"><option value="id">Chart number</option><option value="complexity-asc">Structure: simple first</option><option value="complexity-desc">Structure: complex first</option><option value="actions-asc">G1 actions: low first</option><option value="actions-desc">G1 actions: high first</option><option value="rows-asc">Primary rows: low first</option><option value="rows-desc">Primary rows: high first</option></select></label>
+<button id="reset" type="button" class="quiet">Clear</button></form>
+<div id="workspace">
+<section id="gallery" aria-label="Chart gallery">
+<div class="gallery-bar"><output id="results" aria-live="polite"></output><label class="preview-label">Preview <select id="preview"><option value="vega">Vega-Lite</option><option value="ggaction">ggaction</option><option value="both">Both</option></select></label></div>
+<div id="grid"></div><p id="gallery-empty" hidden>No charts match. Try another search or clear the filters.</p><button id="more" class="load-more" hidden>Load more</button></section>
+<section id="detail" aria-label="Chart detail" hidden>
+<div class="detail-bar"><h2 id="number">—</h2><p id="chart-meta"></p><button id="share" class="quiet">Copy link</button></div>
+<main id="comparison" aria-label="Chart comparison"><section aria-labelledby="vega-lite-label"><h3 id="vega-lite-label">Vega-Lite</h3><div class="picture" id="left"></div></section><section aria-labelledby="ggaction-label"><h3 id="ggaction-label">ggaction</h3><div class="picture" id="right"></div></section></main>
+<footer><button id="previous" aria-label="Previous chart" disabled>←</button><input id="slider" type="range" min="0" max="0" value="0" aria-label="Chart" disabled><button id="next" aria-label="Next chart" disabled>→</button><output id="position"></output></footer>
+<details id="code-panel"><summary>Code &amp; translation stages <span id="stage-summary"></span></summary>
+<div class="code-body"><div class="code-controls"><label>Stage <select id="stage" aria-label="Translation stage"></select></label><output id="stage-metrics"></output><label><input id="diff" type="checkbox"> Changes from previous stage</label><span id="diff-key" hidden><span class="added-key">+ Added</span> <span class="removed-key">− Removed</span></span></div>
+<div class="code-panes"><section><div class="code-heading"><h3>Vega-Lite source</h3><a id="source-link" target="_blank" rel="noopener">Open file ↗</a></div><pre id="source-code" tabindex="0" aria-label="Original Vega-Lite code"></pre></section><section><div class="code-heading"><h3 id="gg-code-title">ggaction</h3><a id="gg-link" target="_blank" rel="noopener">Open file ↗</a></div><pre id="gg-code" tabindex="0" aria-label="ggaction code"></pre></section></div></div></details>
+</section></div>
+<div class="bottom-bar"><details id="about"><summary>About the measures</summary><div><p id="score-description"></p><p>G1 actions and options describe the first accepted program. Options are summed across actions, not a per-function maximum. Primary rows count the original primary data.json array before transformations; additional input tables are not included. Missing values sort last.</p><p>Types and structures are tags extracted from the original specification. A chart may belong to several groups. Translation stages share one canonical ggaction image; changing stage changes the code, not the chart.</p></div></details><p id="status" role="status" aria-live="polite">Loading charts…</p></div>
+<noscript>This viewer requires JavaScript.</noscript></body></html>

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "chartCount": 1387,
+  "programCount": 10174,
+  "checks": [
+    "gallery pagination and paired preview",
+    "multiple type/structure filters and structural ordering",
+    "search and empty state/reset",
+    "filtered comparison boundaries",
+    "browser back and gallery scroll preservation",
+    "every actual stage of1180 code equals frozen module bytes",
+    "stage diff and unchanged canonical image",
+    "URL/reload and legacy hash links",
+    "arrow/range/rapid navigation",
+    "left Vega-Lite/right ggaction at1440/800/390/320",
+    "mobile code panel and no horizontal page overflow",
+    "mixed deployment and corrupted code fail closed",
+    "no external or failed requests, no JS errors"
+  ],
+  "manualImageInspection": false,
+  "checkedAt": "2026-10-24T11:42:31.543518+00:00",
+  "unitTestsPassed": 152,
+  "datasetValidation": {
+    "charts": 1387,
+    "programs": 10174,
+    "ggaction": "0.0.24"
+  },
+  "catalogBytes": 1905974,
+  "classification": "Deterministic source tags and transparent structural score; static channels only.",
+  "codeIntegrity": "SHA256 checked before displaying original source and accepted stage modules.",
+  "browserCodePanelBoundsChecked": true,
+  "originalDatasetChanges": false,
+  "schoolCalls": 0,
+  "sourceFiles": {
+    "index.html": "84fdc644dd92ff474d59663598d0707a5a923f8f2eeca306e3d2edf895c2b654",
+    "viewer.js": "0efe2b8e8b87581740dc11f578060f01724a7e26b6af5624f8c79119169dc66b",
+    "styles.css": "11dca28a75064dc2b05fa535f675f118115217758a5f3b025040b6c852d60c16",
+    "explorer-model.js": "6a65196c4dbe9013da6ca7cd6e8dfcb0acea46c6b64a4f92b781e2295f7e9d18",
+    "scripts/build-catalog.mjs": "a895a7cce3940c1c4f6287bdd44742de83a4372773242357f673fe011f45f9f1",
+    "scripts/build-site.mjs": "3f33d54cdb0d0cda3a86920acf125ffae16577f50887278b411d3b3c698cdd4e",
+    "scripts/test-viewer.mjs": "b18cd1fde54ba722a53850659543a17a4a643d6c46ebcd1d8db62e8ecf3cd6e9"
+  }
+}
