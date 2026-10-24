@@ -3,9 +3,28 @@
 [Open the comparison viewer](https://ggaction.github.io/chart-datasets/)
 
 **1,387 completed Vega-Lite → ggaction chart families**, containing **10,174 accepted programs**.
-The viewer shows Vega-Lite on the left and ggaction on the right, on a white background.
-Use the slider, arrow buttons, keyboard arrows, Home or End. A direct link such as
+The minimal gallery supports chart-type, composition and explicit-design filters,
+number/title/field search, structural-complexity and G1-action sorting, and Vega-Lite,
+ggaction or paired previews. Cards load in batches of60 with lazy-loaded images.
+Opening a card shows Vega-Lite on the left and ggaction on the right.
+Use the slider, arrow buttons, keyboard arrows, Home or End within the filtered results.
+A direct link such as
 [#vl_1180](https://ggaction.github.io/chart-datasets/#vl_1180) opens one chart.
+
+The collapsed code panel displays the unchanged source and each accepted G1…Gn
+program, action/option counts and changes from the preceding stage. Stages keep the
+same canonical image. Filters, sort, preview, chart, stage and code/diff state are
+encoded in the URL; browser Back returns to the gallery with its scroll position.
+Code files are fetched on demand and checked against their recorded SHA256.
+
+Structural score = declared mark units + static encoding channels +2×declared
+transforms +3×composition nodes. Tooltip and other interactive channels are excluded.
+This transparent heuristic describes specification structure, not visual difficulty;
+it is separate from G1 action count and accepted-stage count. Primary rows measure
+the original primary data.json array only, before transforms; additional tables are
+not included. Missing measurements sort last. Features reflect explicit declarations,
+not expanded Vega-Lite defaults. All catalog metadata is generated deterministically
+from the published source/metadata files, without model calls or chart re-rendering.
 
 ## Files
 
@@ -40,12 +59,17 @@ Requires Node.js 20+ and Python 3.
 ```sh
 npm ci
 npm run validate
+npm run build
 npm run serve
 ```
 
 Open `http://127.0.0.1:4317`. The pre-rendered viewer can be served without
-installing dependencies. `npm run build` creates `_site/`, containing only the
-viewer, manifest and chart SVGs. Original code and data remain in this repository.
+installing dependencies after building. `npm run build` creates `_site/`, containing
+the viewer, manifest, generated catalog, frozen SVGs and original source/accepted
+program files. Additional raw input tables remain in this repository.
+`npm run test:viewer` checks the built site with Chromium; it accepts an optional
+published URL. The test checks controls, source/code identity, shared image scaling,
+mobile layout, deep links and stale-deployment/corrupt-code handling without VLM inspection.
 
 To execute accepted programs against the pinned browser runtime:
 
