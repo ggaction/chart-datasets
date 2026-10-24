@@ -1,0 +1,139 @@
+{
+  "id": "vl_1125",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8e9189e8d548d9ef67066de9d86d7f7d8410a2fd6f915dde19bce6076ca255f6",
+      "actions": 27,
+      "topOptions": 61
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "f96d1883a9803f1ff6a0f02480eb51b700d4350d581329af09ccc5672a9abb71",
+      "actions": 28,
+      "topOptions": 65
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7dffd61a740f4ef26deabce4a938d441e4f0cf05aafb0fb834e8bbc7349a4b7f",
+      "actions": 30,
+      "topOptions": 65
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0f3279a2c1bf4f393c718198124d6f5efe9c0fbb4e49143e3b9393a9a1bb18dd",
+      "actions": 32,
+      "topOptions": 69
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "78357e4c72bed2ee74bc15291e0352918c41946320e9a314ec283614843b0953",
+      "actions": 34,
+      "topOptions": 71
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "31bdbf0e7a598e8069b56058767c6e28bf1a0b527d283d11ce32b215ba4bf099",
+      "actions": 36,
+      "topOptions": 75
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "b8547cb1f403f682949f34dc1b6b9348d915f68115f2913b97f97f9ae84eaa94",
+      "actions": 38,
+      "topOptions": 77
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "b4c690bcf565012ee5ca6032a33819d7d0c82c8c69731d081a878c14daba8b86",
+      "actions": 40,
+      "topOptions": 81
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/DataScienceLiam/DataScienceLiam.github.io/main/Daily%20Stock%20Data.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct source-qualified actual School stages passed normal and independent cold verification; final provenance audit required before counting."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "9b7032baf8d5ab59988e92b50fe3da083f23eb46d81c4ef0ca98dd8bb3c03ef8",
+      "bytes": 2884
+    },
+    "data.json": {
+      "sha256": "b171d0806b390027a1e1cc261b7135b48709eab4f3249c9135cbf0236e49a333",
+      "bytes": 221877
+    },
+    "resolved-source.vl.json": {
+      "sha256": "2e74690c9c2536e9473bac91f7253746e2793d5df4a2615143519ef406629bec",
+      "bytes": 274096
+    },
+    "vertical-reference-data.json": {
+      "sha256": "efc447dc0355e4eaf43e00c72b302a8ba42da50ee72f361bc5f4c2a70f484b33",
+      "bytes": 9
+    },
+    "reference-data.json": {
+      "sha256": "efc447dc0355e4eaf43e00c72b302a8ba42da50ee72f361bc5f4c2a70f484b33",
+      "bytes": 9
+    },
+    "G1.gg.mjs": {
+      "sha256": "8e9189e8d548d9ef67066de9d86d7f7d8410a2fd6f915dde19bce6076ca255f6",
+      "bytes": 6528
+    },
+    "G2.gg.mjs": {
+      "sha256": "f96d1883a9803f1ff6a0f02480eb51b700d4350d581329af09ccc5672a9abb71",
+      "bytes": 6468
+    },
+    "G3.gg.mjs": {
+      "sha256": "7dffd61a740f4ef26deabce4a938d441e4f0cf05aafb0fb834e8bbc7349a4b7f",
+      "bytes": 6472
+    },
+    "G4.gg.mjs": {
+      "sha256": "0f3279a2c1bf4f393c718198124d6f5efe9c0fbb4e49143e3b9393a9a1bb18dd",
+      "bytes": 6452
+    },
+    "G5.gg.mjs": {
+      "sha256": "78357e4c72bed2ee74bc15291e0352918c41946320e9a314ec283614843b0953",
+      "bytes": 6490
+    },
+    "G6.gg.mjs": {
+      "sha256": "31bdbf0e7a598e8069b56058767c6e28bf1a0b527d283d11ce32b215ba4bf099",
+      "bytes": 6530
+    },
+    "G7.gg.mjs": {
+      "sha256": "b8547cb1f403f682949f34dc1b6b9348d915f68115f2913b97f97f9ae84eaa94",
+      "bytes": 6568
+    },
+    "G8.gg.mjs": {
+      "sha256": "b4c690bcf565012ee5ca6032a33819d7d0c82c8c69731d081a878c14daba8b86",
+      "bytes": 6596
+    },
+    "raw-inputs.json": {
+      "sha256": "3cb3634383e09bf4336dca9b3a5d6e2076f0868d845e3331101e8ab452b1e4fa",
+      "bytes": 10306
+    },
+    "vega-lite.svg": {
+      "sha256": "642b45aaaf4ffaae645bfab0ddec5a9d33ed2b41e473c67daf7d775f774f8959",
+      "bytes": 150410
+    },
+    "ggaction.svg": {
+      "sha256": "f38258d471fe5f79b55c13eac6fb0c485997d0a0eb2f5f7419ea6f35b1fbfe9c",
+      "bytes": 93334
+    }
+  }
+}

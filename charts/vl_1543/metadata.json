@@ -1,0 +1,127 @@
+{
+  "id": "vl_1543",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "8575e035a9d4828fb0318ca1e56df4f7c26bc6ec34c1d5bd8271601d476d0ccb",
+      "actions": 24,
+      "topOptions": 50
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4ce6859579d991eb8c9bbdcd71a26abc2d5f7ba1f373ebd0751f823e9a5ac294",
+      "actions": 25,
+      "topOptions": 53
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "48f1a0554441ef74c7b9d8e1bc4ca7ef7776ed0c266acbb59167b06f77156861",
+      "actions": 25,
+      "topOptions": 52
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "62f2c9b5afdb593c43abea92df5386ea81a643d529bd383828586c093306d1fb",
+      "actions": 28,
+      "topOptions": 58
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9d489d3ab91032cde26f1301896cd4f75fde79215d84eeb42640cabb90aa4898",
+      "actions": 28,
+      "topOptions": 58
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8e10b98cef24c60c2d591e8d4c155dd4795479a6a33297462615825bf8a587bf",
+      "actions": 30,
+      "topOptions": 60
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "a7b2568270feb4c76872e1d1923964f88d64ee2f4febb5592216d2c802a5ace3",
+      "actions": 32,
+      "topOptions": 64
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "350890e88ebca0988dfb8c69d6cc49c471ff8d6535974d42ab558b6acc667f8c",
+      "actions": 34,
+      "topOptions": 67
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/db_wages_real.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful source-qualified School stages at the eight-stage cap, not an irreducibility claim: original672 STRING rows retained; filter192 then typed year/wage; original unit line(point:true) sugar mapped to four native leaves in two facets, eight lines/192 vertices and192 filled circles,27 glyphs,601x295 frame. Source-measured SVG2020 font metric preserves endpoint positions; default legend8/18 retained. Source SVG rounding/centered borders versus native full precision/inside borders are disclosed; no source pixel identity. G8 decomposes primary line while secondary scatter facade remains. Normal plus independent cold provenance audit required before counting."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "ebbbdc6b605cde065b200e7a9d45ed814219562a9293cc01a10389d6e7b289ce",
+      "bytes": 1926
+    },
+    "data.json": {
+      "sha256": "216e98031b7ac90a551774b9beed9126b814bd686ebb309698b4bc354a51f567",
+      "bytes": 137412
+    },
+    "resolved-source.vl.json": {
+      "sha256": "2de0ab0d6b50c2ea219e26de65655723fc10ff302e2414e4468c23c5381026c2",
+      "bytes": 166227
+    },
+    "G1.gg.mjs": {
+      "sha256": "8575e035a9d4828fb0318ca1e56df4f7c26bc6ec34c1d5bd8271601d476d0ccb",
+      "bytes": 4106
+    },
+    "G2.gg.mjs": {
+      "sha256": "4ce6859579d991eb8c9bbdcd71a26abc2d5f7ba1f373ebd0751f823e9a5ac294",
+      "bytes": 4087
+    },
+    "G3.gg.mjs": {
+      "sha256": "48f1a0554441ef74c7b9d8e1bc4ca7ef7776ed0c266acbb59167b06f77156861",
+      "bytes": 4021
+    },
+    "G4.gg.mjs": {
+      "sha256": "62f2c9b5afdb593c43abea92df5386ea81a643d529bd383828586c093306d1fb",
+      "bytes": 4050
+    },
+    "G5.gg.mjs": {
+      "sha256": "9d489d3ab91032cde26f1301896cd4f75fde79215d84eeb42640cabb90aa4898",
+      "bytes": 4042
+    },
+    "G6.gg.mjs": {
+      "sha256": "8e10b98cef24c60c2d591e8d4c155dd4795479a6a33297462615825bf8a587bf",
+      "bytes": 4112
+    },
+    "G7.gg.mjs": {
+      "sha256": "a7b2568270feb4c76872e1d1923964f88d64ee2f4febb5592216d2c802a5ace3",
+      "bytes": 4148
+    },
+    "G8.gg.mjs": {
+      "sha256": "350890e88ebca0988dfb8c69d6cc49c471ff8d6535974d42ab558b6acc667f8c",
+      "bytes": 4136
+    },
+    "vega-lite.svg": {
+      "sha256": "fd80ff9a24a4ec95b9eefc49014de01e76e4a51895ff862041fa55d2fedeb896",
+      "bytes": 83571
+    },
+    "ggaction.svg": {
+      "sha256": "c94c095bbcf40eea785c01a744cda15891f3f8de49c91b86fd388cbfcca7aa2e",
+      "bytes": 43106
+    }
+  }
+}

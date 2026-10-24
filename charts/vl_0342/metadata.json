@@ -1,0 +1,127 @@
+{
+  "id": "vl_0342",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "739faff482719d3d320c4b75827dbcdd524475467ee67dc4ec0ccd1401513186",
+      "actions": 18,
+      "topOptions": 42
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a93459d191327c19630a169a97588d7bbe999121c59df9277feb6acd26811eb6",
+      "actions": 19,
+      "topOptions": 45
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "4fba09ad54a0231a04324a6eff7ee8f47e55d96382aac2cde5be751db6718038",
+      "actions": 20,
+      "topOptions": 46
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "4cd6cb08c9381c703b1f5431744be20a53d9a83cf398c5f5306c04a5ca46c11d",
+      "actions": 22,
+      "topOptions": 48
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "e3460759d41424c56fa2039f6d90718cacd3b228dbfa617f1e497f974b8f7649",
+      "actions": 22,
+      "topOptions": 48
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "96b43ad51afc03bfacccd311fa5d7ca6d7df2ddffaa0734f7251d7a6761ed4b0",
+      "actions": 24,
+      "topOptions": 50
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "44d075457854e85c88fdc96c13b0d1c3cc0da2d323310f18630ec98829135645",
+      "actions": 26,
+      "topOptions": 52
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "1909f7b0fbfe8a07e0d613c6f039de8097edefa3dcc690e55c09d4793b355341",
+      "actions": 28,
+      "topOptions": 57
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/hyungkwonko/tmp-data/main/observation.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages passed current normal, all-source geometry and independent cold audit."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "2b2a125af9dd82a2c00c53e6cfb6e723124c1eb8fe7cc1ca6536b2ec821a904b",
+      "bytes": 2031
+    },
+    "data.json": {
+      "sha256": "858e7b01ad45f87b5f60e8e4fdb79acbc748c9ca3005dffc76e9bb599480432f",
+      "bytes": 98090
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1d9c523741ac9d894da4d41f55e985527925c99e52537be48af61bac2142dd18",
+      "bytes": 118571
+    },
+    "G1.gg.mjs": {
+      "sha256": "739faff482719d3d320c4b75827dbcdd524475467ee67dc4ec0ccd1401513186",
+      "bytes": 3847
+    },
+    "G2.gg.mjs": {
+      "sha256": "a93459d191327c19630a169a97588d7bbe999121c59df9277feb6acd26811eb6",
+      "bytes": 3819
+    },
+    "G3.gg.mjs": {
+      "sha256": "4fba09ad54a0231a04324a6eff7ee8f47e55d96382aac2cde5be751db6718038",
+      "bytes": 3736
+    },
+    "G4.gg.mjs": {
+      "sha256": "4cd6cb08c9381c703b1f5431744be20a53d9a83cf398c5f5306c04a5ca46c11d",
+      "bytes": 3758
+    },
+    "G5.gg.mjs": {
+      "sha256": "e3460759d41424c56fa2039f6d90718cacd3b228dbfa617f1e497f974b8f7649",
+      "bytes": 3746
+    },
+    "G6.gg.mjs": {
+      "sha256": "96b43ad51afc03bfacccd311fa5d7ca6d7df2ddffaa0734f7251d7a6761ed4b0",
+      "bytes": 3794
+    },
+    "G7.gg.mjs": {
+      "sha256": "44d075457854e85c88fdc96c13b0d1c3cc0da2d323310f18630ec98829135645",
+      "bytes": 3844
+    },
+    "G8.gg.mjs": {
+      "sha256": "1909f7b0fbfe8a07e0d613c6f039de8097edefa3dcc690e55c09d4793b355341",
+      "bytes": 3861
+    },
+    "vega-lite.svg": {
+      "sha256": "8f069a971e6c41d74fd7dac1bb493449d1c13b7bba77488383a289e9545e2f10",
+      "bytes": 442992
+    },
+    "ggaction.svg": {
+      "sha256": "aae7d31779c13a2106336fce08db681b1de5470587ba9d4415a07fc6df945940",
+      "bytes": 304800
+    }
+  }
+}

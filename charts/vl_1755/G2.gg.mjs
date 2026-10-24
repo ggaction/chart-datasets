@@ -1,0 +1,39 @@
+import { chart } from "ggaction";
+import data from "./data.json";
+
+export function buildChart() {
+  return chart()
+    // DOCS: doc-a51b86c4bf006bea
+    .createCanvas({ plot: { width: 100, height: 200 }, margin: { left: 59, top: 57, right: 6, bottom: 136 }, plotBorder: { color: "#ddd", lineWidth: 1, underlay: true } })
+    .createData({ values: data })
+    .createComputedData({ id: "dated", as: "sourceMonth", expression: { op: "parseTime", operand: { field: "month" } } })
+    .filterData({ id: "effectiveDates", field: "sourceMonth", predicate: { op: "gte", value: 2016 } })
+    .createComputedData({ id: "numeric", as: "sourceValue", expression: { op: "toNumber", operand: { field: "reportedCrimes" } } })
+    .createSummaryData({ id: "totals", groupBy: ["crimeType", "sourceMonth"], aggregates: [{ op: "sum", field: "sourceValue", as: "totalCrimes" }] }).createBarPlot({
+      x: { field: "crimeType", fieldType: "nominal", scale: { domain: ["Anti-social behaviour", "Burglary", "Criminal damage and arson", "Drugs", "Robbery", "Vehicle crime"], paddingInner: 0.1, paddingOuter: 0.05 } },
+      y: { field: "totalCrimes", scale: { domain: [0, 14000] } },
+      guides: false
+    })
+    .createGuides({
+      axes: {
+        x: { line: { color: "#888" }, ticksAndLabels: { values: ["Anti-social behaviour", "Burglary", "Criminal damage and arson", "Drugs", "Robbery", "Vehicle crime"], ticks: { length: 5, color: "#888", alongOffset: 0.5 }, labels: { fontFamily: "sans-serif", fontSize: 10, color: "black", rotation: { value: 270, unit: "degrees" }, align: "right", offset: 8.5, alongOffset: 0.390625 } }, title: false },
+        y: { line: { color: "#888" }, ticksAndLabels: { values: [0, 2000, 4000, 6000, 8000, 10000, 12000, 14000], ticks: { length: 5, color: "#888", alongOffset: 0.5 }, labels: { fontFamily: "sans-serif", fontSize: 10, color: "black", format: ",.0f", offset: 7.5, alongOffset: 0.890625 } }, title: { text: "Sum of reportedCrimes", fontFamily: "sans-serif", fontSize: 11, fontWeight: 700, color: "black", offset: 47.0078125, alongOffset: 0.5 } }
+      },
+      grid: { horizontal: { color: "#ddd" }, vertical: false },
+      legend: false
+    })
+    .encodeColor({ field: "crimeType", scale: { domain: ["Anti-social behaviour", "Burglary", "Criminal damage and arson", "Drugs", "Robbery", "Vehicle crime"], range: ["#4c78a8", "#f58518", "#e45756", "#72b7b2", "#54a24b", "#eeca3b"] }, layout: "overlay" })
+    .encodeBarWidth({ band: 1 })
+    .editBarMark({ stroke: false, opacity: 1 })
+    // DOCS: doc-8270cd43de503558
+    .facet({ field: "sourceMonth", data: "numeric", values: [1293840000000, 1296518400000, 1298937600000, 1301616000000, 1304208000000, 1306886400000, 1309478400000, 1312156800000, 1314835200000, 1317427200000, 1320105600000, 1322697600000, 1325376000000, 1328054400000, 1330560000000, 1333238400000, 1335830400000, 1338508800000, 1341100800000, 1343779200000, 1346457600000, 1349049600000, 1351728000000, 1354320000000, 1356998400000, 1359676800000, 1362096000000, 1364774400000, 1367366400000, 1370044800000, 1372636800000, 1375315200000, 1377993600000, 1380585600000, 1383264000000, 1385856000000, 1388534400000, 1391212800000, 1393632000000, 1396310400000, 1398902400000, 1401580800000, 1404172800000, 1406851200000, 1409529600000, 1412121600000, 1414800000000, 1417392000000, 1420070400000, 1422748800000, 1425168000000, 1427846400000, 1430438400000, 1433116800000, 1435708800000, 1438387200000, 1441065600000, 1443657600000, 1446336000000, 1448928000000, 1451606400000, 1454284800000, 1456790400000, 1459468800000, 1462060800000, 1464739200000, 1467331200000, 1470009600000, 1472688000000, 1475280000000, 1477958400000, 1480550400000] })
+    .editFacetHeaders({ fontSize: 10, fontWeight: 400, color: "black" })
+    .editFacetHeaders({ role: "column", side: "top", offset: 10.609375 })
+    .editFacetHeaders({ role: "column", title: { text: "month", fontSize: 11, fontWeight: 700, offset: 40.421875 } })
+    // DOCS: doc-d8d22d3671e96045
+    .editFacetHeaders({ labelMap: [{ value: 1293840000000, label: "Jan 11" }, { value: 1296518400000, label: "Feb 11" }, { value: 1298937600000, label: "Mar 11" }, { value: 1301616000000, label: "Apr 11" }, { value: 1304208000000, label: "May 11" }, { value: 1306886400000, label: "Jun 11" }, { value: 1309478400000, label: "Jul 11" }, { value: 1312156800000, label: "Aug 11" }, { value: 1314835200000, label: "Sep 11" }, { value: 1317427200000, label: "Oct 11" }, { value: 1320105600000, label: "Nov 11" }, { value: 1322697600000, label: "Dec 11" }, { value: 1325376000000, label: "Jan 12" }, { value: 1328054400000, label: "Feb 12" }, { value: 1330560000000, label: "Mar 12" }, { value: 1333238400000, label: "Apr 12" }, { value: 1335830400000, label: "May 12" }, { value: 1338508800000, label: "Jun 12" }, { value: 1341100800000, label: "Jul 12" }, { value: 1343779200000, label: "Aug 12" }, { value: 1346457600000, label: "Sep 12" }, { value: 1349049600000, label: "Oct 12" }, { value: 1351728000000, label: "Nov 12" }, { value: 1354320000000, label: "Dec 12" }, { value: 1356998400000, label: "Jan 13" }, { value: 1359676800000, label: "Feb 13" }, { value: 1362096000000, label: "Mar 13" }, { value: 1364774400000, label: "Apr 13" }, { value: 1367366400000, label: "May 13" }, { value: 1370044800000, label: "Jun 13" }, { value: 1372636800000, label: "Jul 13" }, { value: 1375315200000, label: "Aug 13" }, { value: 1377993600000, label: "Sep 13" }, { value: 1380585600000, label: "Oct 13" }, { value: 1383264000000, label: "Nov 13" }, { value: 1385856000000, label: "Dec 13" }, { value: 1388534400000, label: "Jan 14" }, { value: 1391212800000, label: "Feb 14" }, { value: 1393632000000, label: "Mar 14" }, { value: 1396310400000, label: "Apr 14" }, { value: 1398902400000, label: "May 14" }, { value: 1401580800000, label: "Jun 14" }, { value: 1404172800000, label: "Jul 14" }, { value: 1406851200000, label: "Aug 14" }, { value: 1409529600000, label: "Sep 14" }, { value: 1412121600000, label: "Oct 14" }, { value: 1414800000000, label: "Nov 14" }, { value: 1417392000000, label: "Dec 14" }, { value: 1420070400000, label: "Jan 15" }, { value: 1422748800000, label: "Feb 15" }, { value: 1425168000000, label: "Mar 15" }, { value: 1427846400000, label: "Apr 15" }, { value: 1430438400000, label: "May 15" }, { value: 1433116800000, label: "Jun 15" }, { value: 1435708800000, label: "Jul 15" }, { value: 1438387200000, label: "Aug 15" }, { value: 1441065600000, label: "Sep 15" }, { value: 1443657600000, label: "Oct 15" }, { value: 1446336000000, label: "Nov 15" }, { value: 1448928000000, label: "Dec 15" }, { value: 1451606400000, label: "Jan 16" }, { value: 1454284800000, label: "Feb 16" }, { value: 1456790400000, label: "Mar 16" }, { value: 1459468800000, label: "Apr 16" }, { value: 1462060800000, label: "May 16" }, { value: 1464739200000, label: "Jun 16" }, { value: 1467331200000, label: "Jul 16" }, { value: 1470009600000, label: "Aug 16" }, { value: 1472688000000, label: "Sep 16" }, { value: 1475280000000, label: "Oct 16" }, { value: 1477958400000, label: "Nov 16" }, { value: 1480550400000, label: "Dec 16" }] })
+    .editFacetGuides({ axes: "outer", legend: false })
+    // DOCS: doc-9b8ffb4e65fb646c
+    .editCompositionLayout({ columns: 72, gap: 22, spacing: "plot" })
+    .editCompositionLayout({ topLane: "shared" });
+}

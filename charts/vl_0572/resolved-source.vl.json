@@ -1,0 +1,1230 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "": "0",
+        "Year": "1962",
+        "Value": "2.398",
+        "Type": "Social Security"
+      },
+      {
+        "": "1",
+        "Year": "1963",
+        "Value": "2.5",
+        "Type": "Social Security"
+      },
+      {
+        "": "2",
+        "Year": "1964",
+        "Value": "2.455",
+        "Type": "Social Security"
+      },
+      {
+        "": "3",
+        "Year": "1965",
+        "Value": "2.408",
+        "Type": "Social Security"
+      },
+      {
+        "": "4",
+        "Year": "1966",
+        "Value": "2.595",
+        "Type": "Social Security"
+      },
+      {
+        "": "5",
+        "Year": "1967",
+        "Value": "2.545",
+        "Type": "Social Security"
+      },
+      {
+        "": "6",
+        "Year": "1968",
+        "Value": "2.595",
+        "Type": "Social Security"
+      },
+      {
+        "": "7",
+        "Year": "1969",
+        "Value": "2.724",
+        "Type": "Social Security"
+      },
+      {
+        "": "8",
+        "Year": "1970",
+        "Value": "2.832",
+        "Type": "Social Security"
+      },
+      {
+        "": "9",
+        "Year": "1971",
+        "Value": "3.146",
+        "Type": "Social Security"
+      },
+      {
+        "": "10",
+        "Year": "1972",
+        "Value": "3.237",
+        "Type": "Social Security"
+      },
+      {
+        "": "11",
+        "Year": "1973",
+        "Value": "3.561",
+        "Type": "Social Security"
+      },
+      {
+        "": "12",
+        "Year": "1974",
+        "Value": "3.708",
+        "Type": "Social Security"
+      },
+      {
+        "": "13",
+        "Year": "1975",
+        "Value": "3.955",
+        "Type": "Social Security"
+      },
+      {
+        "": "14",
+        "Year": "1976",
+        "Value": "4.07",
+        "Type": "Social Security"
+      },
+      {
+        "": "15",
+        "Year": "1977",
+        "Value": "4.134",
+        "Type": "Social Security"
+      },
+      {
+        "": "16",
+        "Year": "1978",
+        "Value": "4.066",
+        "Type": "Social Security"
+      },
+      {
+        "": "17",
+        "Year": "1979",
+        "Value": "3.999",
+        "Type": "Social Security"
+      },
+      {
+        "": "18",
+        "Year": "1980",
+        "Value": "4.193",
+        "Type": "Social Security"
+      },
+      {
+        "": "19",
+        "Year": "1981",
+        "Value": "4.401",
+        "Type": "Social Security"
+      },
+      {
+        "": "20",
+        "Year": "1982",
+        "Value": "4.645",
+        "Type": "Social Security"
+      },
+      {
+        "": "21",
+        "Year": "1983",
+        "Value": "4.766",
+        "Type": "Social Security"
+      },
+      {
+        "": "22",
+        "Year": "1984",
+        "Value": "4.458",
+        "Type": "Social Security"
+      },
+      {
+        "": "23",
+        "Year": "1985",
+        "Value": "4.371",
+        "Type": "Social Security"
+      },
+      {
+        "": "24",
+        "Year": "1986",
+        "Value": "4.342",
+        "Type": "Social Security"
+      },
+      {
+        "": "25",
+        "Year": "1987",
+        "Value": "4.301",
+        "Type": "Social Security"
+      },
+      {
+        "": "26",
+        "Year": "1988",
+        "Value": "4.219",
+        "Type": "Social Security"
+      },
+      {
+        "": "27",
+        "Year": "1989",
+        "Value": "4.148",
+        "Type": "Social Security"
+      },
+      {
+        "": "28",
+        "Year": "1990",
+        "Value": "4.179",
+        "Type": "Social Security"
+      },
+      {
+        "": "29",
+        "Year": "1991",
+        "Value": "4.378",
+        "Type": "Social Security"
+      },
+      {
+        "": "30",
+        "Year": "1992",
+        "Value": "4.444",
+        "Type": "Social Security"
+      },
+      {
+        "": "31",
+        "Year": "1993",
+        "Value": "4.457",
+        "Type": "Social Security"
+      },
+      {
+        "": "32",
+        "Year": "1994",
+        "Value": "4.416",
+        "Type": "Social Security"
+      },
+      {
+        "": "33",
+        "Year": "1995",
+        "Value": "4.408",
+        "Type": "Social Security"
+      },
+      {
+        "": "34",
+        "Year": "1996",
+        "Value": "4.365",
+        "Type": "Social Security"
+      },
+      {
+        "": "35",
+        "Year": "1997",
+        "Value": "4.287",
+        "Type": "Social Security"
+      },
+      {
+        "": "36",
+        "Year": "1998",
+        "Value": "4.211",
+        "Type": "Social Security"
+      },
+      {
+        "": "37",
+        "Year": "1999",
+        "Value": "4.082",
+        "Type": "Social Security"
+      },
+      {
+        "": "38",
+        "Year": "2000",
+        "Value": "4.013",
+        "Type": "Social Security"
+      },
+      {
+        "": "39",
+        "Year": "2001",
+        "Value": "4.079",
+        "Type": "Social Security"
+      },
+      {
+        "": "40",
+        "Year": "2002",
+        "Value": "4.175",
+        "Type": "Social Security"
+      },
+      {
+        "": "41",
+        "Year": "2003",
+        "Value": "4.171",
+        "Type": "Social Security"
+      },
+      {
+        "": "42",
+        "Year": "2004",
+        "Value": "4.086",
+        "Type": "Social Security"
+      },
+      {
+        "": "43",
+        "Year": "2005",
+        "Value": "4.04",
+        "Type": "Social Security"
+      },
+      {
+        "": "44",
+        "Year": "2006",
+        "Value": "3.989",
+        "Type": "Social Security"
+      },
+      {
+        "": "45",
+        "Year": "2007",
+        "Value": "4.065",
+        "Type": "Social Security"
+      },
+      {
+        "": "46",
+        "Year": "2008",
+        "Value": "4.137",
+        "Type": "Social Security"
+      },
+      {
+        "": "47",
+        "Year": "2009",
+        "Value": "4.685",
+        "Type": "Social Security"
+      },
+      {
+        "": "48",
+        "Year": "2010",
+        "Value": "4.708",
+        "Type": "Social Security"
+      },
+      {
+        "": "49",
+        "Year": "2011",
+        "Value": "4.687",
+        "Type": "Social Security"
+      },
+      {
+        "": "50",
+        "Year": "2012",
+        "Value": "4.766",
+        "Type": "Social Security"
+      },
+      {
+        "": "51",
+        "Year": "2013",
+        "Value": "4.848",
+        "Type": "Social Security"
+      },
+      {
+        "": "52",
+        "Year": "2014",
+        "Value": "4.864",
+        "Type": "Social Security"
+      },
+      {
+        "": "53",
+        "Year": "2015",
+        "Value": "4.876",
+        "Type": "Social Security"
+      },
+      {
+        "": "54",
+        "Year": "2016",
+        "Value": "4.911",
+        "Type": "Social Security"
+      },
+      {
+        "": "55",
+        "Year": "2017",
+        "Value": "4.88",
+        "Type": "Social Security"
+      },
+      {
+        "": "56",
+        "Year": "2018",
+        "Value": "4.837",
+        "Type": "Social Security"
+      },
+      {
+        "": "57",
+        "Year": "2019",
+        "Value": "4.908",
+        "Type": "Social Security"
+      },
+      {
+        "": "58",
+        "Year": "2020",
+        "Value": "5.175",
+        "Type": "Social Security"
+      },
+      {
+        "": "59",
+        "Year": "2021",
+        "Value": "4.983",
+        "Type": "Social Security"
+      },
+      {
+        "": "60",
+        "Year": "2022",
+        "Value": "4.847",
+        "Type": "Social Security"
+      },
+      {
+        "": "0",
+        "Year": "1962",
+        "Value": "1.042",
+        "Type": "Income Security"
+      },
+      {
+        "": "1",
+        "Year": "1963",
+        "Value": "0.968",
+        "Type": "Income Security"
+      },
+      {
+        "": "2",
+        "Year": "1964",
+        "Value": "0.9",
+        "Type": "Income Security"
+      },
+      {
+        "": "3",
+        "Year": "1965",
+        "Value": "0.765",
+        "Type": "Income Security"
+      },
+      {
+        "": "4",
+        "Year": "1966",
+        "Value": "0.652",
+        "Type": "Income Security"
+      },
+      {
+        "": "5",
+        "Year": "1967",
+        "Value": "0.613",
+        "Type": "Income Security"
+      },
+      {
+        "": "6",
+        "Year": "1968",
+        "Value": "0.661",
+        "Type": "Income Security"
+      },
+      {
+        "": "7",
+        "Year": "1969",
+        "Value": "0.663",
+        "Type": "Income Security"
+      },
+      {
+        "": "8",
+        "Year": "1970",
+        "Value": "0.781",
+        "Type": "Income Security"
+      },
+      {
+        "": "9",
+        "Year": "1971",
+        "Value": "1.201",
+        "Type": "Income Security"
+      },
+      {
+        "": "10",
+        "Year": "1972",
+        "Value": "1.35",
+        "Type": "Income Security"
+      },
+      {
+        "": "11",
+        "Year": "1973",
+        "Value": "1.068",
+        "Type": "Income Security"
+      },
+      {
+        "": "12",
+        "Year": "1974",
+        "Value": "1.173",
+        "Type": "Income Security"
+      },
+      {
+        "": "13",
+        "Year": "1975",
+        "Value": "1.798",
+        "Type": "Income Security"
+      },
+      {
+        "": "14",
+        "Year": "1976",
+        "Value": "2.105",
+        "Type": "Income Security"
+      },
+      {
+        "": "15",
+        "Year": "1977",
+        "Value": "1.709",
+        "Type": "Income Security"
+      },
+      {
+        "": "16",
+        "Year": "1978",
+        "Value": "1.413",
+        "Type": "Income Security"
+      },
+      {
+        "": "17",
+        "Year": "1979",
+        "Value": "1.255",
+        "Type": "Income Security"
+      },
+      {
+        "": "18",
+        "Year": "1980",
+        "Value": "1.587",
+        "Type": "Income Security"
+      },
+      {
+        "": "19",
+        "Year": "1981",
+        "Value": "1.593",
+        "Type": "Income Security"
+      },
+      {
+        "": "20",
+        "Year": "1982",
+        "Value": "1.605",
+        "Type": "Income Security"
+      },
+      {
+        "": "21",
+        "Year": "1983",
+        "Value": "1.809",
+        "Type": "Income Security"
+      },
+      {
+        "": "22",
+        "Year": "1984",
+        "Value": "1.309",
+        "Type": "Income Security"
+      },
+      {
+        "": "23",
+        "Year": "1985",
+        "Value": "1.225",
+        "Type": "Income Security"
+      },
+      {
+        "": "24",
+        "Year": "1986",
+        "Value": "1.197",
+        "Type": "Income Security"
+      },
+      {
+        "": "25",
+        "Year": "1987",
+        "Value": "1.154",
+        "Type": "Income Security"
+      },
+      {
+        "": "26",
+        "Year": "1988",
+        "Value": "1.115",
+        "Type": "Income Security"
+      },
+      {
+        "": "27",
+        "Year": "1989",
+        "Value": "1.135",
+        "Type": "Income Security"
+      },
+      {
+        "": "28",
+        "Year": "1990",
+        "Value": "1.165",
+        "Type": "Income Security"
+      },
+      {
+        "": "29",
+        "Year": "1991",
+        "Value": "1.427",
+        "Type": "Income Security"
+      },
+      {
+        "": "30",
+        "Year": "1992",
+        "Value": "1.726",
+        "Type": "Income Security"
+      },
+      {
+        "": "31",
+        "Year": "1993",
+        "Value": "1.728",
+        "Type": "Income Security"
+      },
+      {
+        "": "32",
+        "Year": "1994",
+        "Value": "1.618",
+        "Type": "Income Security"
+      },
+      {
+        "": "33",
+        "Year": "1995",
+        "Value": "1.543",
+        "Type": "Income Security"
+      },
+      {
+        "": "34",
+        "Year": "1996",
+        "Value": "1.529",
+        "Type": "Income Security"
+      },
+      {
+        "": "35",
+        "Year": "1997",
+        "Value": "1.449",
+        "Type": "Income Security"
+      },
+      {
+        "": "36",
+        "Year": "1998",
+        "Value": "1.368",
+        "Type": "Income Security"
+      },
+      {
+        "": "37",
+        "Year": "1999",
+        "Value": "1.361",
+        "Type": "Income Security"
+      },
+      {
+        "": "38",
+        "Year": "2000",
+        "Value": "1.324",
+        "Type": "Income Security"
+      },
+      {
+        "": "39",
+        "Year": "2001",
+        "Value": "1.36",
+        "Type": "Income Security"
+      },
+      {
+        "": "40",
+        "Year": "2002",
+        "Value": "1.665",
+        "Type": "Income Security"
+      },
+      {
+        "": "41",
+        "Year": "2003",
+        "Value": "1.739",
+        "Type": "Income Security"
+      },
+      {
+        "": "42",
+        "Year": "2004",
+        "Value": "1.585",
+        "Type": "Income Security"
+      },
+      {
+        "": "43",
+        "Year": "2005",
+        "Value": "1.533",
+        "Type": "Income Security"
+      },
+      {
+        "": "44",
+        "Year": "2006",
+        "Value": "1.467",
+        "Type": "Income Security"
+      },
+      {
+        "": "45",
+        "Year": "2007",
+        "Value": "1.42",
+        "Type": "Income Security"
+      },
+      {
+        "": "46",
+        "Year": "2008",
+        "Value": "1.658",
+        "Type": "Income Security"
+      },
+      {
+        "": "47",
+        "Year": "2009",
+        "Value": "2.407",
+        "Type": "Income Security"
+      },
+      {
+        "": "48",
+        "Year": "2010",
+        "Value": "2.937",
+        "Type": "Income Security"
+      },
+      {
+        "": "49",
+        "Year": "2011",
+        "Value": "2.614",
+        "Type": "Income Security"
+      },
+      {
+        "": "50",
+        "Year": "2012",
+        "Value": "2.195",
+        "Type": "Income Security"
+      },
+      {
+        "": "51",
+        "Year": "2013",
+        "Value": "2.037",
+        "Type": "Income Security"
+      },
+      {
+        "": "52",
+        "Year": "2014",
+        "Value": "1.79",
+        "Type": "Income Security"
+      },
+      {
+        "": "53",
+        "Year": "2015",
+        "Value": "1.664",
+        "Type": "Income Security"
+      },
+      {
+        "": "54",
+        "Year": "2016",
+        "Value": "1.639",
+        "Type": "Income Security"
+      },
+      {
+        "": "55",
+        "Year": "2017",
+        "Value": "1.527",
+        "Type": "Income Security"
+      },
+      {
+        "": "56",
+        "Year": "2018",
+        "Value": "1.405",
+        "Type": "Income Security"
+      },
+      {
+        "": "57",
+        "Year": "2019",
+        "Value": "1.43",
+        "Type": "Income Security"
+      },
+      {
+        "": "58",
+        "Year": "2020",
+        "Value": "4.99",
+        "Type": "Income Security"
+      },
+      {
+        "": "59",
+        "Year": "2021",
+        "Value": "6.076",
+        "Type": "Income Security"
+      },
+      {
+        "": "60",
+        "Year": "2022",
+        "Value": "2.322",
+        "Type": "Income Security"
+      },
+      {
+        "": "0",
+        "Year": "1962",
+        "Value": "0.018",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "1",
+        "Year": "1963",
+        "Value": "0.025",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "2",
+        "Year": "1964",
+        "Value": "0.032",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "3",
+        "Year": "1965",
+        "Value": "0.038",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "4",
+        "Year": "1966",
+        "Value": "0.099",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "5",
+        "Year": "1967",
+        "Value": "0.442",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "6",
+        "Year": "1968",
+        "Value": "0.694",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "7",
+        "Year": "1969",
+        "Value": "0.784",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "8",
+        "Year": "1970",
+        "Value": "0.819",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "9",
+        "Year": "1971",
+        "Value": "0.859",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "10",
+        "Year": "1972",
+        "Value": "0.956",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "11",
+        "Year": "1973",
+        "Value": "0.903",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "12",
+        "Year": "1974",
+        "Value": "0.997",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "13",
+        "Year": "1975",
+        "Value": "1.186",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "14",
+        "Year": "1976",
+        "Value": "1.319",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "15",
+        "Year": "1977",
+        "Value": "1.406",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "16",
+        "Year": "1978",
+        "Value": "1.43",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "17",
+        "Year": "1979",
+        "Value": "1.478",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "18",
+        "Year": "1980",
+        "Value": "1.611",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "19",
+        "Year": "1981",
+        "Value": "1.748",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "20",
+        "Year": "1982",
+        "Value": "1.892",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "21",
+        "Year": "1983",
+        "Value": "1.986",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "22",
+        "Year": "1984",
+        "Value": "1.926",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "23",
+        "Year": "1985",
+        "Value": "2.034",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "24",
+        "Year": "1986",
+        "Value": "2.064",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "25",
+        "Year": "1987",
+        "Value": "2.115",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "26",
+        "Year": "1988",
+        "Value": "2.089",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "27",
+        "Year": "1989",
+        "Value": "2.112",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "28",
+        "Year": "1990",
+        "Value": "2.321",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "29",
+        "Year": "1991",
+        "Value": "2.537",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "30",
+        "Year": "1992",
+        "Value": "2.868",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "31",
+        "Year": "1993",
+        "Value": "3.006",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "32",
+        "Year": "1994",
+        "Value": "3.119",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "33",
+        "Year": "1995",
+        "Value": "3.253",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "34",
+        "Year": "1996",
+        "Value": "3.311",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "35",
+        "Year": "1997",
+        "Value": "3.349",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "36",
+        "Year": "1998",
+        "Value": "3.264",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "37",
+        "Year": "1999",
+        "Value": "3.126",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "38",
+        "Year": "2000",
+        "Value": "3.096",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "39",
+        "Year": "2001",
+        "Value": "3.298",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "40",
+        "Year": "2002",
+        "Value": "3.499",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "41",
+        "Year": "2003",
+        "Value": "3.642",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "42",
+        "Year": "2004",
+        "Value": "3.706",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "43",
+        "Year": "2005",
+        "Value": "3.748",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "44",
+        "Year": "2006",
+        "Value": "3.747",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "45",
+        "Year": "2007",
+        "Value": "3.966",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "46",
+        "Year": "2008",
+        "Value": "4.015",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "47",
+        "Year": "2009",
+        "Value": "4.725",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "48",
+        "Year": "2010",
+        "Value": "4.885",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "49",
+        "Year": "2011",
+        "Value": "4.937",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "50",
+        "Year": "2012",
+        "Value": "4.505",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "51",
+        "Year": "2013",
+        "Value": "4.606",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "52",
+        "Year": "2014",
+        "Value": "4.784",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "53",
+        "Year": "2015",
+        "Value": "5.178",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "54",
+        "Year": "2016",
+        "Value": "5.463",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "55",
+        "Year": "2017",
+        "Value": "5.354",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "56",
+        "Year": "2018",
+        "Value": "5.111",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "57",
+        "Year": "2019",
+        "Value": "5.324",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "58",
+        "Year": "2020",
+        "Value": "6.18",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "59",
+        "Year": "2021",
+        "Value": "5.726",
+        "Type": "Major Health Care Programs"
+      },
+      {
+        "": "60",
+        "Year": "2022",
+        "Value": "5.765",
+        "Type": "Major Health Care Programs"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "height": 350,
+  "width": 350,
+  "title": {
+    "text": "Spending Growth",
+    "anchor": "start",
+    "subtitle": [
+      "Source: CBO",
+      ""
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {
+        "gridOpacity": 0.2
+      },
+      "title": ""
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "Type",
+          "type": "nominal",
+          "legend": {
+            "title": ""
+          },
+          "scale": {
+            "range": [
+              "#880000",
+              "#ff0303",
+              "#000"
+            ]
+          }
+        },
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "axis": {
+            "gridOpacity": 0.2
+          },
+          "title": "% of GDP"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "interpolate": "monotone"
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": {
+                "param": "hover",
+                "empty": false
+              }
+            }
+          ],
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "pivot": "Type",
+          "value": "Value",
+          "groupby": [
+            "Year"
+          ]
+        }
+      ],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "value": 0.5,
+            "param": "hover",
+            "empty": false
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {
+            "field": "Social Security",
+            "type": "quantitative",
+            "title": "% of GDP spent on social security"
+          },
+          {
+            "field": "Income Security",
+            "type": "quantitative",
+            "title": "% of GDP spent on income security"
+          },
+          {
+            "field": "Major Health Care Programs",
+            "type": "quantitative",
+            "title": "% of GDP spent on major health care programs"
+          }
+        ]
+      },
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": [
+              "Year"
+            ],
+            "nearest": true,
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ]
+    }
+  ]
+}

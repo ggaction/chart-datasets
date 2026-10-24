@@ -1,0 +1,737 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Year": "1962",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.0"
+      },
+      {
+        "Year": "1963",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.2"
+      },
+      {
+        "Year": "1964",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.0"
+      },
+      {
+        "Year": "1965",
+        "Category": "Revenues",
+        "OutlayRevenue": "16.5"
+      },
+      {
+        "Year": "1966",
+        "Category": "Revenues",
+        "OutlayRevenue": "16.8"
+      },
+      {
+        "Year": "1967",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.8"
+      },
+      {
+        "Year": "1968",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.0"
+      },
+      {
+        "Year": "1969",
+        "Category": "Revenues",
+        "OutlayRevenue": "19.1"
+      },
+      {
+        "Year": "1970",
+        "Category": "Revenues",
+        "OutlayRevenue": "18.4"
+      },
+      {
+        "Year": "1971",
+        "Category": "Revenues",
+        "OutlayRevenue": "16.8"
+      },
+      {
+        "Year": "1972",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.0"
+      },
+      {
+        "Year": "1973",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.1"
+      },
+      {
+        "Year": "1974",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.8"
+      },
+      {
+        "Year": "1975",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.4"
+      },
+      {
+        "Year": "1976",
+        "Category": "Revenues",
+        "OutlayRevenue": "16.7"
+      },
+      {
+        "Year": "1977",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.6"
+      },
+      {
+        "Year": "1978",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.6"
+      },
+      {
+        "Year": "1979",
+        "Category": "Revenues",
+        "OutlayRevenue": "18.1"
+      },
+      {
+        "Year": "1980",
+        "Category": "Revenues",
+        "OutlayRevenue": "18.5"
+      },
+      {
+        "Year": "1981",
+        "Category": "Revenues",
+        "OutlayRevenue": "19.1"
+      },
+      {
+        "Year": "1982",
+        "Category": "Revenues",
+        "OutlayRevenue": "18.6"
+      },
+      {
+        "Year": "1983",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.0"
+      },
+      {
+        "Year": "1984",
+        "Category": "Revenues",
+        "OutlayRevenue": "16.9"
+      },
+      {
+        "Year": "1985",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.2"
+      },
+      {
+        "Year": "1986",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.0"
+      },
+      {
+        "Year": "1987",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.9"
+      },
+      {
+        "Year": "1988",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.7"
+      },
+      {
+        "Year": "1989",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.8"
+      },
+      {
+        "Year": "1990",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.5"
+      },
+      {
+        "Year": "1991",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.3"
+      },
+      {
+        "Year": "1992",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.0"
+      },
+      {
+        "Year": "1993",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.0"
+      },
+      {
+        "Year": "1994",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.5"
+      },
+      {
+        "Year": "1995",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.9"
+      },
+      {
+        "Year": "1996",
+        "Category": "Revenues",
+        "OutlayRevenue": "18.3"
+      },
+      {
+        "Year": "1997",
+        "Category": "Revenues",
+        "OutlayRevenue": "18.7"
+      },
+      {
+        "Year": "1998",
+        "Category": "Revenues",
+        "OutlayRevenue": "19.3"
+      },
+      {
+        "Year": "1999",
+        "Category": "Revenues",
+        "OutlayRevenue": "19.3"
+      },
+      {
+        "Year": "2000",
+        "Category": "Revenues",
+        "OutlayRevenue": "20.0"
+      },
+      {
+        "Year": "2001",
+        "Category": "Revenues",
+        "OutlayRevenue": "18.9"
+      },
+      {
+        "Year": "2002",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.1"
+      },
+      {
+        "Year": "2003",
+        "Category": "Revenues",
+        "OutlayRevenue": "15.8"
+      },
+      {
+        "Year": "2004",
+        "Category": "Revenues",
+        "OutlayRevenue": "15.6"
+      },
+      {
+        "Year": "2005",
+        "Category": "Revenues",
+        "OutlayRevenue": "16.8"
+      },
+      {
+        "Year": "2006",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.7"
+      },
+      {
+        "Year": "2007",
+        "Category": "Revenues",
+        "OutlayRevenue": "18.0"
+      },
+      {
+        "Year": "2008",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.1"
+      },
+      {
+        "Year": "2009",
+        "Category": "Revenues",
+        "OutlayRevenue": "14.6"
+      },
+      {
+        "Year": "2010",
+        "Category": "Revenues",
+        "OutlayRevenue": "14.5"
+      },
+      {
+        "Year": "2011",
+        "Category": "Revenues",
+        "OutlayRevenue": "14.9"
+      },
+      {
+        "Year": "2012",
+        "Category": "Revenues",
+        "OutlayRevenue": "15.2"
+      },
+      {
+        "Year": "2013",
+        "Category": "Revenues",
+        "OutlayRevenue": "16.7"
+      },
+      {
+        "Year": "2014",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.4"
+      },
+      {
+        "Year": "2015",
+        "Category": "Revenues",
+        "OutlayRevenue": "18.0"
+      },
+      {
+        "Year": "2016",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.6"
+      },
+      {
+        "Year": "2017",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.2"
+      },
+      {
+        "Year": "2018",
+        "Category": "Revenues",
+        "OutlayRevenue": "16.4"
+      },
+      {
+        "Year": "2019",
+        "Category": "Revenues",
+        "OutlayRevenue": "16.4"
+      },
+      {
+        "Year": "2020",
+        "Category": "Revenues",
+        "OutlayRevenue": "16.2"
+      },
+      {
+        "Year": "2021",
+        "Category": "Revenues",
+        "OutlayRevenue": "17.9"
+      },
+      {
+        "Year": "2022",
+        "Category": "Revenues",
+        "OutlayRevenue": "19.6"
+      },
+      {
+        "Year": "1962",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.2"
+      },
+      {
+        "Year": "1963",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.0"
+      },
+      {
+        "Year": "1964",
+        "Category": "Outlays",
+        "OutlayRevenue": "17.9"
+      },
+      {
+        "Year": "1965",
+        "Category": "Outlays",
+        "OutlayRevenue": "16.7"
+      },
+      {
+        "Year": "1966",
+        "Category": "Outlays",
+        "OutlayRevenue": "17.2"
+      },
+      {
+        "Year": "1967",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.8"
+      },
+      {
+        "Year": "1968",
+        "Category": "Outlays",
+        "OutlayRevenue": "19.8"
+      },
+      {
+        "Year": "1969",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.7"
+      },
+      {
+        "Year": "1970",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.7"
+      },
+      {
+        "Year": "1971",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.8"
+      },
+      {
+        "Year": "1972",
+        "Category": "Outlays",
+        "OutlayRevenue": "19.0"
+      },
+      {
+        "Year": "1973",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.2"
+      },
+      {
+        "Year": "1974",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.2"
+      },
+      {
+        "Year": "1975",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.7"
+      },
+      {
+        "Year": "1976",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.8"
+      },
+      {
+        "Year": "1977",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.2"
+      },
+      {
+        "Year": "1978",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.2"
+      },
+      {
+        "Year": "1979",
+        "Category": "Outlays",
+        "OutlayRevenue": "19.6"
+      },
+      {
+        "Year": "1980",
+        "Category": "Outlays",
+        "OutlayRevenue": "21.2"
+      },
+      {
+        "Year": "1981",
+        "Category": "Outlays",
+        "OutlayRevenue": "21.6"
+      },
+      {
+        "Year": "1982",
+        "Category": "Outlays",
+        "OutlayRevenue": "22.5"
+      },
+      {
+        "Year": "1983",
+        "Category": "Outlays",
+        "OutlayRevenue": "22.9"
+      },
+      {
+        "Year": "1984",
+        "Category": "Outlays",
+        "OutlayRevenue": "21.6"
+      },
+      {
+        "Year": "1985",
+        "Category": "Outlays",
+        "OutlayRevenue": "22.2"
+      },
+      {
+        "Year": "1986",
+        "Category": "Outlays",
+        "OutlayRevenue": "21.9"
+      },
+      {
+        "Year": "1987",
+        "Category": "Outlays",
+        "OutlayRevenue": "21.1"
+      },
+      {
+        "Year": "1988",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.7"
+      },
+      {
+        "Year": "1989",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.6"
+      },
+      {
+        "Year": "1990",
+        "Category": "Outlays",
+        "OutlayRevenue": "21.2"
+      },
+      {
+        "Year": "1991",
+        "Category": "Outlays",
+        "OutlayRevenue": "21.7"
+      },
+      {
+        "Year": "1992",
+        "Category": "Outlays",
+        "OutlayRevenue": "21.5"
+      },
+      {
+        "Year": "1993",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.8"
+      },
+      {
+        "Year": "1994",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.4"
+      },
+      {
+        "Year": "1995",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.0"
+      },
+      {
+        "Year": "1996",
+        "Category": "Outlays",
+        "OutlayRevenue": "19.6"
+      },
+      {
+        "Year": "1997",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.9"
+      },
+      {
+        "Year": "1998",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.5"
+      },
+      {
+        "Year": "1999",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.0"
+      },
+      {
+        "Year": "2000",
+        "Category": "Outlays",
+        "OutlayRevenue": "17.7"
+      },
+      {
+        "Year": "2001",
+        "Category": "Outlays",
+        "OutlayRevenue": "17.7"
+      },
+      {
+        "Year": "2002",
+        "Category": "Outlays",
+        "OutlayRevenue": "18.6"
+      },
+      {
+        "Year": "2003",
+        "Category": "Outlays",
+        "OutlayRevenue": "19.2"
+      },
+      {
+        "Year": "2004",
+        "Category": "Outlays",
+        "OutlayRevenue": "19.1"
+      },
+      {
+        "Year": "2005",
+        "Category": "Outlays",
+        "OutlayRevenue": "19.3"
+      },
+      {
+        "Year": "2006",
+        "Category": "Outlays",
+        "OutlayRevenue": "19.5"
+      },
+      {
+        "Year": "2007",
+        "Category": "Outlays",
+        "OutlayRevenue": "19.1"
+      },
+      {
+        "Year": "2008",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.2"
+      },
+      {
+        "Year": "2009",
+        "Category": "Outlays",
+        "OutlayRevenue": "24.3"
+      },
+      {
+        "Year": "2010",
+        "Category": "Outlays",
+        "OutlayRevenue": "23.2"
+      },
+      {
+        "Year": "2011",
+        "Category": "Outlays",
+        "OutlayRevenue": "23.3"
+      },
+      {
+        "Year": "2012",
+        "Category": "Outlays",
+        "OutlayRevenue": "21.9"
+      },
+      {
+        "Year": "2013",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.7"
+      },
+      {
+        "Year": "2014",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.2"
+      },
+      {
+        "Year": "2015",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.4"
+      },
+      {
+        "Year": "2016",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.8"
+      },
+      {
+        "Year": "2017",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.7"
+      },
+      {
+        "Year": "2018",
+        "Category": "Outlays",
+        "OutlayRevenue": "20.2"
+      },
+      {
+        "Year": "2019",
+        "Category": "Outlays",
+        "OutlayRevenue": "21.0"
+      },
+      {
+        "Year": "2020",
+        "Category": "Outlays",
+        "OutlayRevenue": "31.1"
+      },
+      {
+        "Year": "2021",
+        "Category": "Outlays",
+        "OutlayRevenue": "30.1"
+      },
+      {
+        "Year": "2022",
+        "Category": "Outlays",
+        "OutlayRevenue": "25.1"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "title": {
+    "text": "USA: Surplus or Shortfall?",
+    "anchor": "start",
+    "subtitle": [
+      "Revenues and Outlays held by the public since 1962, as a share of GDP",
+      "Sources: Congressional Budget Office and Office of Management and Budget",
+      ""
+    ]
+  },
+  "height": 300,
+  "width": 500,
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {
+        "gridOpacity": 0
+      },
+      "title": ""
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "Category",
+          "type": "nominal",
+          "legend": {
+            "title": ""
+          },
+          "scale": {
+            "range": [
+              "#ff0303",
+              "#880000"
+            ]
+          }
+        },
+        "y": {
+          "field": "OutlayRevenue",
+          "type": "quantitative",
+          "axis": {
+            "gridOpacity": 1
+          },
+          "title": "Percentage of GDP"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "interpolate": "monotone"
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": {
+                "param": "hover",
+                "empty": false
+              }
+            }
+          ],
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "pivot": "Category",
+          "value": "OutlayRevenue",
+          "groupby": [
+            "Year"
+          ]
+        }
+      ],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "value": 1,
+            "param": "hover",
+            "empty": false
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {
+            "field": "Revenues",
+            "title": "Revenues (% of GDP)",
+            "type": "quantitative"
+          },
+          {
+            "field": "Outlays",
+            "title": "Outlays (% of GDP)",
+            "type": "quantitative"
+          }
+        ]
+      },
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "fields": [
+              "Year"
+            ],
+            "type": "point",
+            "on": "mouseover",
+            "clear": "mouseout",
+            "nearest": true
+          }
+        }
+      ]
+    }
+  ]
+}

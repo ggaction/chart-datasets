@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Coronavirus cases",
+  "data": {
+    "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/xmasDrinks.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "config": {
+    "background": "#FcFdFd"
+  },
+  "facet": {
+    "column": {
+      "field": "name",
+      "type": "nominal",
+      "title": "Region"
+    }
+  },
+  "spec": {
+    "mark": {
+      "type": "line",
+      "point": false
+    },
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "temporal",
+        "title": "Year"
+      },
+      "y": {
+        "field": "price",
+        "type": "quantitative",
+        "title": "Price, £"
+      },
+      "color": {
+        "field": "region_s",
+        "type": "nominal",
+        "scale": {
+          "scheme": "set1"
+        },
+        "title": "Region"
+      },
+      "opacity": {
+        "value": 1
+      }
+    },
+    "transform": [
+      {
+        "filter": {
+          "field": "name",
+          "oneOf": [
+            "Bitter",
+            "Stout",
+            "Sherry",
+            "Brandy"
+          ]
+        }
+      }
+    ]
+  },
+  "columns": 2,
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  }
+}

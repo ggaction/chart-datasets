@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "(F1) Total UK tax revenue",
+  "title": {
+    "text": "Expenditure vs tax revenue",
+    "subtitle": "£ million. Source: ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/F1.2.FiscalRevVExp.csv"
+  },
+  "height": 300,
+  "width": 285,
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "axis": {
+        "grid": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "axis": {
+            "grid": false
+          }
+        },
+        "color": {
+          "field": "Measure",
+          "legend": {
+            "orient": "top-right"
+          },
+          "type": "nominal",
+          "scale": {
+            "range": [
+              "mediumvioletred",
+              "pink"
+            ]
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "color": ""
+          }
+        },
+        {
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "value": 0.1
+        },
+        "tooltip": [
+          {
+            "field": "Date",
+            "type": "temporal",
+            "format": "%B, %Y"
+          },
+          {
+            "field": "Value",
+            "type": "quantitative",
+            "format": ""
+          },
+          {
+            "field": "Measure",
+            "type": "nominal",
+            "format": ""
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "vl_0574",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "2e93301c69f3b4e82b4a60e6aa973cf781e3e5d5da84cb6643b8d72737bd9977",
+      "actions": 26,
+      "topOptions": 62
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "0a96d3796e4da0eb0c2e82f57838716b6c86a771e254ca1c556b06284ad69c15",
+      "actions": 27,
+      "topOptions": 65
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "d366972a7df85e8b698d32004f3a9cf96ef4e5dc74f653dd41273a0bd9269434",
+      "actions": 27,
+      "topOptions": 64
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "49f396d0b66a0ef30cb5656c6111370952ed0f8a755e26814ff3a65fff9bdc97",
+      "actions": 29,
+      "topOptions": 66
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "d3b40fd9553c4a028f2a2ec65c34f38c9b01d3990d277ee73ff17b1433d12137",
+      "actions": 29,
+      "topOptions": 66
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "3ba4388ed1cad5c76d80c9ca77f0cd47fbf4433c80e731150d72e3e92c98130f",
+      "actions": 30,
+      "topOptions": 70
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d3f3979e727ec1a4f554962129c43b0e4631ac17f17dc33891d33d3418f4af37",
+      "actions": 32,
+      "topOptions": 73
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "7cf22a91a6b9b9146bdcc0adb5cc05e8957f13b1d02063f146eb186288139b85",
+      "actions": 34,
+      "topOptions": 76
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/JamesFKean/RA_work/main/chart3v2.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages passed current normal and independent cold audit. Original122 CSV STRING rows and the unnamed column remain exact, with61 pivot rows, empty-hover point carrier and61 hidden rules retained. Original monotone and public monotone-steffen names are equivalent only after full514 source checks of both D3 curves and current SVG. User-required native default legend offset8/itemGap18 differs from original implicit spacing; label and symbol design remain exact. Zero fontMetrics overrides are applied after a five-output identity control. Source three-decimal D3 paths, pixel-snapped grid and centered border versus native full-precision paths, analytic guides and inside border are disclosed conventions; original pixel identity is not claimed."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "8a2907368f259d6e4a905e4ebea097e7e2ed10c5e728602d007bd5c6b179e479",
+      "bytes": 2348
+    },
+    "data.json": {
+      "sha256": "b1292b3fbf4217ea1d7ce20fa61988358fb31fbc5eb27ab85f5be1eaf9b1be7e",
+      "bytes": 10959
+    },
+    "resolved-source.vl.json": {
+      "sha256": "689b0909018eb40be2b7b0bd6342082f22423258e93be66b9b642af1e999e0a4",
+      "bytes": 16241
+    },
+    "G1.gg.mjs": {
+      "sha256": "2e93301c69f3b4e82b4a60e6aa973cf781e3e5d5da84cb6643b8d72737bd9977",
+      "bytes": 4953
+    },
+    "G2.gg.mjs": {
+      "sha256": "0a96d3796e4da0eb0c2e82f57838716b6c86a771e254ca1c556b06284ad69c15",
+      "bytes": 4968
+    },
+    "G3.gg.mjs": {
+      "sha256": "d366972a7df85e8b698d32004f3a9cf96ef4e5dc74f653dd41273a0bd9269434",
+      "bytes": 4904
+    },
+    "G4.gg.mjs": {
+      "sha256": "49f396d0b66a0ef30cb5656c6111370952ed0f8a755e26814ff3a65fff9bdc97",
+      "bytes": 4928
+    },
+    "G5.gg.mjs": {
+      "sha256": "d3b40fd9553c4a028f2a2ec65c34f38c9b01d3990d277ee73ff17b1433d12137",
+      "bytes": 4920
+    },
+    "G6.gg.mjs": {
+      "sha256": "3ba4388ed1cad5c76d80c9ca77f0cd47fbf4433c80e731150d72e3e92c98130f",
+      "bytes": 4965
+    },
+    "G7.gg.mjs": {
+      "sha256": "d3f3979e727ec1a4f554962129c43b0e4631ac17f17dc33891d33d3418f4af37",
+      "bytes": 4976
+    },
+    "G8.gg.mjs": {
+      "sha256": "7cf22a91a6b9b9146bdcc0adb5cc05e8957f13b1d02063f146eb186288139b85",
+      "bytes": 4983
+    },
+    "vega-lite.svg": {
+      "sha256": "d807c7b0ae72e3f6f17957166a6563c2a84d1f19d558e9bc5efba014aafbaafb",
+      "bytes": 44002
+    },
+    "ggaction.svg": {
+      "sha256": "9bdaadea94e6ea2bcef283da57609b06e1106368ddebb70a1b31b89ae4f3f799",
+      "bytes": 29960
+    }
+  }
+}

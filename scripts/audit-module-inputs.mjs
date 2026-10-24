@@ -3,9 +3,10 @@ import {parse} from 'acorn';
 import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {pathToFileURL} from 'node:url';
+import {concatInputScopes,auditConcatNativeOwners} from './audit-concat-input-owners.mjs';
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const require=(v,m)=>{if(!v)throw Error(m);};
-export function auditModuleInputs(code,rawFiles,{strictBindings=true}={}){
+export function auditModuleInputs(code,rawFiles,{strictBindings=true,concatScope=false}={}){
  const allowed=new Set(rawFiles);require(allowed.has('data.json'),'Missing primary raw file');
  const ast=parse(code,{ecmaVersion:'latest',sourceType:'module'}),imports=new Map();let runtime=0;
  for(const n of ast.body.filter(n=>n.type==='ImportDeclaration')){
@@ -39,6 +40,7 @@ export function auditModuleInputs(code,rawFiles,{strictBindings=true}={}){
   for(const [k,v]of Object.entries(n)){if(k==='specifiers'&&n.type==='ImportDeclaration')continue;if(Array.isArray(v))v.forEach(walk);else if(v&&typeof v==='object')walk(v);}
  }
  walk(ast);if(strictBindings){require(bindings.length>0,'Missing bound createData');for(const local of imports.keys())require(used.has(local),'Unused raw import: '+local);}
- return {codeSha256:hash(code),policy:strictBindings?'strict-frozen-raw-bindings':'historical-single-input-dependencies-only',imports:[...imports].map(([local,file])=>({local,file})),bindings};
+ require(!concatScope||strictBindings,'Concat ownership requires strict bindings');
+ return {codeSha256:hash(code),policy:strictBindings?'strict-frozen-raw-bindings':'historical-single-input-dependencies-only',imports:[...imports].map(([local,file])=>({local,file})),bindings:concatScope?concatInputScopes(code,bindings):bindings};
 }
-if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){try{let bytes='';for await(const c of process.stdin)bytes+=c;const request=JSON.parse(bytes),stages=[];for(const s of request.stages){const code=await readFile(s.path,'utf8');stages.push({level:s.level,...auditModuleInputs(code,request.rawFiles,{strictBindings:request.strictBindings!==false})});}process.stdout.write(JSON.stringify({stages})+'\n');}catch(e){process.stderr.write(e.message+'\n');process.exitCode=1;}}
+if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){try{let bytes='';for await(const c of process.stdin)bytes+=c;const request=JSON.parse(bytes),stages=[];for(const s of request.stages){const code=await readFile(s.path,'utf8'),audit=auditModuleInputs(code,request.rawFiles,{strictBindings:request.strictBindings!==false,concatScope:request.concatScope===true});if(request.nativeConcatInputs){require(request.concatScope===true,'Native concat proof requires explicit scope');auditConcatNativeOwners({...request.nativeConcatInputs,bindings:audit.bindings,capture:s.nativeCapture});}stages.push({level:s.level,...audit});}process.stdout.write(JSON.stringify({stages})+'\n');}catch(e){process.stderr.write(e.message+'\n');process.exitCode=1;}}

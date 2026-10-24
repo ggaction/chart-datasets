@@ -1,0 +1,133 @@
+{
+  "id": "vl_1498",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "f8f3b854cee6a4338873d415cf757ad1c7e2e27b168ef4cd31bc94c459ea60d0",
+      "actions": 22,
+      "topOptions": 43
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "c9ba3b6723f3d6e33143598beb1fc5a3aaa186190a8c70a1aca2b6b01587bbc1",
+      "actions": 24,
+      "topOptions": 45
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "6829405eda1766f6feda3741a9b25f93112a2594e1e305c0a7432ef10b85ed93",
+      "actions": 26,
+      "topOptions": 53
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "0373e674136df723bb5d4253b268244b144658be26b682c4b35386d48cb1c867",
+      "actions": 28,
+      "topOptions": 61
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "5a60856396e649a794286461a8af930b9ad2a66b6736c117c1c1089d8870a347",
+      "actions": 32,
+      "topOptions": 61
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "48b94c6cc8e6ba580e7211948a6af09b38b4e392f405dae6bfc51aedfd7bee45",
+      "actions": 36,
+      "topOptions": 65
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "0623a1a201fe99ea5f6636a943dbedea2437b2c6c06c077afcf295d17661145d",
+      "actions": 40,
+      "topOptions": 73
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "ac5dd1d35801ed5ec6524825e3975ff2c9603602e50ab3097e3d7fcd3ff77e80",
+      "actions": 44,
+      "topOptions": 82
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School two-owner concat stages passed the explicitly versioned reviewed entry, normal source proof and independent cold audit."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "fdf61383957fa5c30023ad90aac7b47751a6c16e4bdee5a41b7e38aed0083cf8",
+      "bytes": 6978
+    },
+    "data.json": {
+      "sha256": "6e9f3febcf4de061f3043697a0712558c0ad6d07a8df9f5df7d4f296b3e0a361",
+      "bytes": 2089
+    },
+    "resolved-source.vl.json": {
+      "sha256": "dca63240708fec9b27961ba3ed0b73ee4fe7511bb584099c2aebb59636274e44",
+      "bytes": 14085
+    },
+    "bar-data.json": {
+      "sha256": "85808228f1d68e7f723d3c246eb4e1e94c44d2829455b86a6324fefc95fbbc42",
+      "bytes": 2481
+    },
+    "G1.gg.mjs": {
+      "sha256": "f8f3b854cee6a4338873d415cf757ad1c7e2e27b168ef4cd31bc94c459ea60d0",
+      "bytes": 10177
+    },
+    "G2.gg.mjs": {
+      "sha256": "c9ba3b6723f3d6e33143598beb1fc5a3aaa186190a8c70a1aca2b6b01587bbc1",
+      "bytes": 10141
+    },
+    "G3.gg.mjs": {
+      "sha256": "6829405eda1766f6feda3741a9b25f93112a2594e1e305c0a7432ef10b85ed93",
+      "bytes": 10157
+    },
+    "G4.gg.mjs": {
+      "sha256": "0373e674136df723bb5d4253b268244b144658be26b682c4b35386d48cb1c867",
+      "bytes": 10125
+    },
+    "G5.gg.mjs": {
+      "sha256": "5a60856396e649a794286461a8af930b9ad2a66b6736c117c1c1089d8870a347",
+      "bytes": 10165
+    },
+    "G6.gg.mjs": {
+      "sha256": "48b94c6cc8e6ba580e7211948a6af09b38b4e392f405dae6bfc51aedfd7bee45",
+      "bytes": 10234
+    },
+    "G7.gg.mjs": {
+      "sha256": "0623a1a201fe99ea5f6636a943dbedea2437b2c6c06c077afcf295d17661145d",
+      "bytes": 10306
+    },
+    "G8.gg.mjs": {
+      "sha256": "ac5dd1d35801ed5ec6524825e3975ff2c9603602e50ab3097e3d7fcd3ff77e80",
+      "bytes": 10372
+    },
+    "raw-inputs.json": {
+      "sha256": "93446a13e115b0f44e7890292f8e28c0216db1191cedcdaf85c89cebc4c84633",
+      "bytes": 8579
+    },
+    "vega-lite.svg": {
+      "sha256": "a2ab20de2ea1db81570c7fcba2d555cde0f711a6cd29e5bd44c34e4affddeaba",
+      "bytes": 26171
+    },
+    "ggaction.svg": {
+      "sha256": "0f0d30b0ea837c9b80145e04f7f0abcc99c950fc447727a73e2723a56c3187d9",
+      "bytes": 23551
+    }
+  }
+}

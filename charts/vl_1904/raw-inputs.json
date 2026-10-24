@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 2,
+  "kind": "explicit-source-owner-raw-inputs-v1",
+  "primary": "data.json",
+  "sourceSha256": "c2d4dfe587e09e3a10042072b9027745291888f0df080fa92c76f44cddfb1ac6",
+  "resolvedSourceSha256": "cdbdb2276d2efa98559d32792405e196420fc930e78f73ce0150fecd8f0b6b55",
+  "distinctRawRows": 73,
+  "sourceOwnerRows": 73,
+  "descriptors": [
+    {
+      "pointer": "/data",
+      "file": "data.json",
+      "sha256": "488daf2483307486d8bb86911162b9420e61566ead6483e8ca90ed001bfda565",
+      "bytes": 4786,
+      "rowCount": 72,
+      "originalDescriptorSha256": "8e70ee6f9009dba92b8d1337cec70934450e9231c0728f6ac1ac3dbc475b421d"
+    },
+    {
+      "pointer": "/layer/2/data",
+      "file": "zero-data.json",
+      "sha256": "a475ccba89dfdd5b78a5f33b3a1deb88b418b9e7e0131b71648ba1cfc79e30fa",
+      "bytes": 29,
+      "rowCount": 1,
+      "originalDescriptorSha256": "41bb75d91e128596aaa6410d850eecdead019209f2baafaa039b36d9f2f18a54"
+    }
+  ],
+  "stages": [
+    {
+      "level": "G1",
+      "codeSha256": "8142401a3c43d33f3a992d6b8af11c12eee6ab2d7e18f8a8dbda686afabda9bc",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "zeroData",
+          "file": "zero-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "zero-data.json",
+          "local": "zeroData",
+          "datasetId": "zeroData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G2",
+      "codeSha256": "3d9671874829fca0446b68e719af1ab0bcfbab6fc68022267d4adab1bc922d9f",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "zeroData",
+          "file": "zero-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "zero-data.json",
+          "local": "zeroData",
+          "datasetId": "zeroData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G3",
+      "codeSha256": "6313249baedaa2b7bf6a1837e5f9970e9a81ebb6a7f4c33ce958b91086f15fb2",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "zeroData",
+          "file": "zero-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "zero-data.json",
+          "local": "zeroData",
+          "datasetId": "zeroData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G4",
+      "codeSha256": "5b5185a80ed749c6fbd74868b2e58098253a95543f0d38dd4f0ef92d12c56e03",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "zeroData",
+          "file": "zero-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "zero-data.json",
+          "local": "zeroData",
+          "datasetId": "zeroData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G5",
+      "codeSha256": "a34b9741c802461b0491311779ea7c20f561d914ff3792109fcaae68e53afad3",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "zeroData",
+          "file": "zero-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "zero-data.json",
+          "local": "zeroData",
+          "datasetId": "zeroData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G6",
+      "codeSha256": "1ef41d6191285e843fa2294d80da37562956d6bea989f273def22de3973c79a1",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "zeroData",
+          "file": "zero-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "zero-data.json",
+          "local": "zeroData",
+          "datasetId": "zeroData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G7",
+      "codeSha256": "e9cc8a99d5d0e7c2f0211454aa79d0678dbe9e197e95496e11248570beff5d72",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "zeroData",
+          "file": "zero-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "zero-data.json",
+          "local": "zeroData",
+          "datasetId": "zeroData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G8",
+      "codeSha256": "e04e62ae5d90fb712373d40d2eac4df8465efcec9ade2763d459efbb1441510f",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "zeroData",
+          "file": "zero-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "zero-data.json",
+          "local": "zeroData",
+          "datasetId": "zeroData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    }
+  ]
+}

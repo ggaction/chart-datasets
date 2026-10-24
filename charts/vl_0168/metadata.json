@@ -1,0 +1,137 @@
+{
+  "id": "vl_0168",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "756a29987f367f474909a552081816f177b8d0433631ff0cfd514dbbedb23240",
+      "actions": 20,
+      "topOptions": 50
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "3b2137a0ade28e232f6e346fcc8666f47afe1c463caf96ed9a07b21daa814eb7",
+      "actions": 21,
+      "topOptions": 51
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7dd309474ff3fd0e204df692be98e6e613bca672f5adfe4bf21cffbff8288fd5",
+      "actions": 23,
+      "topOptions": 53
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7e852f0548008a47b3a5ab9f4735165d45a1c2623985709686144f518cd87ebd",
+      "actions": 23,
+      "topOptions": 53
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "18acf6525a631a37e7c996e0beccc261d1c9777347a92628f253126eb4787c93",
+      "actions": 25,
+      "topOptions": 55
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "413148b74f388811c3df5d72ba2f0c07ba85732ad63489843e1171c5d0c9d079",
+      "actions": 27,
+      "topOptions": 57
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "a1d855c078ac3f1261cf6b4a57ca5156d48669e8d068b98ce51ab224fa11b775",
+      "actions": 29,
+      "topOptions": 61
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "c3d74b23809c0d5694e545a3cf2c1b3c26173bf812c6870a6f07472b61c260ff",
+      "actions": 31,
+      "topOptions": 65
+    }
+  ],
+  "sourceUrls": [],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct source-qualified actual School stages passed normal and independent cold verification; final provenance audit required before counting."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "0073982203b80114ed60654a396e2c33db2d8615732a1f74ee6b37b9d70168b3",
+      "bytes": 18584
+    },
+    "data.json": {
+      "sha256": "f56daa9e908a23efba6f572ee46db2737084e717e1bfcc4f947c713adc6f1172",
+      "bytes": 889
+    },
+    "resolved-source.vl.json": {
+      "sha256": "ef5c35b390d327cb8163ed2a2fa1f0198ead7e2dfa6e1969b635a2fdeaf9e1dc",
+      "bytes": 22252
+    },
+    "mutation-data.json": {
+      "sha256": "c15e84bd4a0f4ad94f03e931f23e0065793ae9facf3c213895dcaf1a98b42edc",
+      "bytes": 10842
+    },
+    "cdr-data.json": {
+      "sha256": "b2fe59d941808e2e8b0c870a4b27e2a9b76b54d97ebed2b37a2a0e1fc0be7198",
+      "bytes": 1731
+    },
+    "G1.gg.mjs": {
+      "sha256": "756a29987f367f474909a552081816f177b8d0433631ff0cfd514dbbedb23240",
+      "bytes": 3765
+    },
+    "G2.gg.mjs": {
+      "sha256": "3b2137a0ade28e232f6e346fcc8666f47afe1c463caf96ed9a07b21daa814eb7",
+      "bytes": 3686
+    },
+    "G3.gg.mjs": {
+      "sha256": "7dd309474ff3fd0e204df692be98e6e613bca672f5adfe4bf21cffbff8288fd5",
+      "bytes": 3710
+    },
+    "G4.gg.mjs": {
+      "sha256": "7e852f0548008a47b3a5ab9f4735165d45a1c2623985709686144f518cd87ebd",
+      "bytes": 3702
+    },
+    "G5.gg.mjs": {
+      "sha256": "18acf6525a631a37e7c996e0beccc261d1c9777347a92628f253126eb4787c93",
+      "bytes": 3736
+    },
+    "G6.gg.mjs": {
+      "sha256": "413148b74f388811c3df5d72ba2f0c07ba85732ad63489843e1171c5d0c9d079",
+      "bytes": 3772
+    },
+    "G7.gg.mjs": {
+      "sha256": "a1d855c078ac3f1261cf6b4a57ca5156d48669e8d068b98ce51ab224fa11b775",
+      "bytes": 3806
+    },
+    "G8.gg.mjs": {
+      "sha256": "c3d74b23809c0d5694e545a3cf2c1b3c26173bf812c6870a6f07472b61c260ff",
+      "bytes": 3823
+    },
+    "raw-inputs.json": {
+      "sha256": "8fe55b8ca70a03d8a4e932fb37b783dba13559f2cac239ca21eb8d2148c43feb",
+      "bytes": 9893
+    },
+    "vega-lite.svg": {
+      "sha256": "db357dfe4129e0128cc97949aa7d0daba2981dbc47851b478c74a9794becba5d",
+      "bytes": 19815
+    },
+    "ggaction.svg": {
+      "sha256": "8680c9f071b6dbf1011bf3bdb011edb8c97e3fdc639d73bd7fda3d75a507173d",
+      "bytes": 13343
+    }
+  }
+}

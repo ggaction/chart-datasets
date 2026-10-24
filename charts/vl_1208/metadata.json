@@ -1,0 +1,127 @@
+{
+  "id": "vl_1208",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "85524f3e8408e0a54749fd1849212991faea70fcc13a2c348d34697073dfd2ba",
+      "actions": 35,
+      "topOptions": 90
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4cdfbdd63d257a9928b6fab209925e236d9aeae9a677ad5fe2102d631b328f6a",
+      "actions": 36,
+      "topOptions": 92
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a557000a37dd68912d2257e2df71802c07398595013c737797c023815e64193f",
+      "actions": 36,
+      "topOptions": 92
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "05e13f97c4ccf73fd4c9d76e5ebbd1fd41947b64f161974b68a0dcedaee6b5f4",
+      "actions": 38,
+      "topOptions": 94
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7eea61d66cf33764d45041228e00451b6e239970c1bfb4f479eb7ee7fdb070e3",
+      "actions": 38,
+      "topOptions": 94
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "8141cba1738b0d5298600732d9bec3f5441fba11d55465d20116955bb90281de",
+      "actions": 39,
+      "topOptions": 98
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "8dc58aec60c805abcd31359cb01ee31650624bbbe2d5689bc44c511920ab10c5",
+      "actions": 41,
+      "topOptions": 101
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "89fc200ed25e4072ba33b7e0c4da9cd8300d1add527c271dfb9db494c987ea3f",
+      "actions": 43,
+      "topOptions": 104
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/Ben25Walker/Ben25Walker.github.io/main/EnergyCost.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages preserve all123 original CSV STRING rows and the blank-key column. Initial2010..2021 retains83 vertices in7 line paths: Geothermal has11 points with2011 absent; six other series have12. Original sparse pivot has12 rows: nonmatching aliases use public null and summary sum(empty) yields undefined in BOTH live runtimes, omitted in BOTH JSON tables; no invented0/null pivot cell. Original y1!=0 is a bounded no-op over123 rows without that key. Empty hover points,12 opacity0 fullheight pivot rules and12 compiler-transparent interaction regions are independently retained. Six original opacity0 odd-year labels become ONLY empty display strings while all12 ticks remain. Two actual original subtitle tspans become two native multiline text runs, content/font/paint and.0001 bounds strict. One own-source SVG2010 width22.25 metric restores endpoint flush; exact zero-profile control isolates only that label. Five original legend ellipsis labels and all7 source colors/open symbols/owner/opacity remain strict; only native default8/18/topalignment placement differs. Public createLegend top-left then editLegendBlock exact labels then editLegend right avoids invalid transient overflow, without extra renderer primitives. Original3decimal Math.round SVG and integer grid conventions are independently verified. No source pixel identity is claimed."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "25aa202394e1a19d894c6a28f1999f898a02720bf3517af4c494abc1534a3843",
+      "bytes": 3557
+    },
+    "data.json": {
+      "sha256": "4f2d2ae0ab1740c1fe0fda2b972ac0d860d83fc089ddd85d81e4e6cc64515b4c",
+      "bytes": 16169
+    },
+    "resolved-source.vl.json": {
+      "sha256": "06f1f55c4eacd803f0c0be363e3f32ca15bed345bc1b455c60d7515870873823",
+      "bytes": 22667
+    },
+    "G1.gg.mjs": {
+      "sha256": "85524f3e8408e0a54749fd1849212991faea70fcc13a2c348d34697073dfd2ba",
+      "bytes": 9258
+    },
+    "G2.gg.mjs": {
+      "sha256": "4cdfbdd63d257a9928b6fab209925e236d9aeae9a677ad5fe2102d631b328f6a",
+      "bytes": 9273
+    },
+    "G3.gg.mjs": {
+      "sha256": "a557000a37dd68912d2257e2df71802c07398595013c737797c023815e64193f",
+      "bytes": 9248
+    },
+    "G4.gg.mjs": {
+      "sha256": "05e13f97c4ccf73fd4c9d76e5ebbd1fd41947b64f161974b68a0dcedaee6b5f4",
+      "bytes": 9276
+    },
+    "G5.gg.mjs": {
+      "sha256": "7eea61d66cf33764d45041228e00451b6e239970c1bfb4f479eb7ee7fdb070e3",
+      "bytes": 9264
+    },
+    "G6.gg.mjs": {
+      "sha256": "8141cba1738b0d5298600732d9bec3f5441fba11d55465d20116955bb90281de",
+      "bytes": 9279
+    },
+    "G7.gg.mjs": {
+      "sha256": "8dc58aec60c805abcd31359cb01ee31650624bbbe2d5689bc44c511920ab10c5",
+      "bytes": 9290
+    },
+    "G8.gg.mjs": {
+      "sha256": "89fc200ed25e4072ba33b7e0c4da9cd8300d1add527c271dfb9db494c987ea3f",
+      "bytes": 9297
+    },
+    "vega-lite.svg": {
+      "sha256": "f2cf1adf3014eac0871f394e2192e4085d95b88b6ad9b9322ca878e0568e5031",
+      "bytes": 28026
+    },
+    "ggaction.svg": {
+      "sha256": "b83d37734541b568465062282cb75bf6bc708743d133cf533848189e18810911",
+      "bytes": 16708
+    }
+  }
+}

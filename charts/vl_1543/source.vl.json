@@ -1,0 +1,97 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/db_wages_real.csv"
+  },
+  "config": {
+    "background": "#FcFdFd"
+  },
+  "facet": {
+    "column": {
+      "field": "type",
+      "type": "nominal",
+      "sort": [
+        "Annual Values",
+        "Adjusted: 1997 prices"
+      ]
+    }
+  },
+  "spec": {
+    "mark": {
+      "type": "line",
+      "point": true
+    },
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "temporal",
+        "timeUnit": "year",
+        "axis": {
+          "title": "Date",
+          "grid": false,
+          "tickCount": 7,
+          "labelOverlap": "greedy"
+        }
+      },
+      "y": {
+        "field": "wage",
+        "type": "quantitative",
+        "axis": {
+          "title": "Hourly wage (£) (median)",
+          "grid": false,
+          "format": ".2f"
+        },
+        "scale": {
+          "domain": [
+            5,
+            16
+          ]
+        }
+      },
+      "color": {
+        "field": "region",
+        "type": "nominal",
+        "scale": {
+          "scheme": "set1"
+        },
+        "title": "Country"
+      },
+      "opacity": {
+        "value": 1
+      },
+      "tooltip": [
+        {
+          "field": "year",
+          "type": "temporal",
+          "timeUnit": "year",
+          "title": "Date"
+        },
+        {
+          "field": "wage",
+          "type": "quantitative",
+          "title": "Median wage",
+          "format": ".2f"
+        },
+        {
+          "field": "region",
+          "type": "nominal",
+          "title": "Country"
+        }
+      ]
+    },
+    "transform": [
+      {
+        "filter": {
+          "field": "region",
+          "oneOf": [
+            "England",
+            "Scotland",
+            "Wales",
+            "Northern Ireland"
+          ]
+        }
+      }
+    ]
+  },
+  "columns": 2
+}

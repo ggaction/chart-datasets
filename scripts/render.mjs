@@ -5,6 +5,8 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('../',import.meta.url)),manifest=JSON.parse(await readFile(path.join(root,'manifest.json'),'utf8'));
 const browser=!process.argv.includes('--node');
+const workers=Number(process.env.RENDER_WORKERS??1);
+assert.ok(Number.isInteger(workers)&&workers>=1&&workers<=3,'RENDER_WORKERS must be 1, 2 or 3');
 const requested=process.argv.slice(2).filter(arg=>arg!=='--browser'&&arg!=='--node'),ids=requested.includes('--all')?manifest.charts.map(c=>c.id):requested;
 if(!ids.length||ids.some(id=>!manifest.charts.some(c=>c.id===id)))throw Error('Usage: npm run render -- vl_1180 [vl_#### ...] | --all');
 await mkdir(path.join(root,'.validation'),{recursive:true});
@@ -32,10 +34,11 @@ async function worker(){
     console.log(done+'/'+ids.length+' families; '+results.filter(r=>r.status!=='passed').length+' differences/errors');
   }
 }
-// Keep chart construction sequential, including runtime compatibility sweeps.
-await worker();
+// Explicitly bounded workers share only the queue; each chunk owns its result file.
+const outcomes=await Promise.allSettled(Array.from({length:workers},()=>worker()));
+for(const outcome of outcomes)if(outcome.status==='rejected')throw outcome.reason;
 results.sort((a,b)=>a.id.localeCompare(b.id));
 const identity=process.env.GGACTION_IDENTITY?JSON.parse(await readFile(process.env.GGACTION_IDENTITY,'utf8')):undefined;
-const report={runtime:identity??(process.env.GGACTION_SOURCE?'local-release-candidate':manifest.runtime),backend:browser?'Chromium, en-US, UTC, 1280x960, DPR2':'Node, UTC',browserVersions:browser?[...new Set(results.map(r=>r.browser).filter(Boolean))]:undefined,charts:results.length,programs:results.reduce((n,r)=>n+(r.stages?.length||0),0),passed:results.filter(r=>r.status==='passed').length,results};
+const report={runtime:identity??(process.env.GGACTION_SOURCE?'local-release-candidate':manifest.runtime),workers,backend:browser?'Chromium, en-US, UTC, 1280x960, DPR2':'Node, UTC',browserVersions:browser?[...new Set(results.map(r=>r.browser).filter(Boolean))]:undefined,charts:results.length,programs:results.reduce((n,r)=>n+(r.stages?.length||0),0),passed:results.filter(r=>r.status==='passed').length,results};
 await writeFile(aggregateFile,JSON.stringify(report,null,2)+'\n');
 if(report.passed!==ids.length)process.exitCode=1;

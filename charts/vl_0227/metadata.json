@@ -1,0 +1,127 @@
+{
+  "id": "vl_0227",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "a0ad1bbf3e9236af22528597513e5ab0d4ca18b951061a0ba04300a7659b1a6f",
+      "actions": 10,
+      "topOptions": 22
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "4067daa5de3b92eee7b0ba7fa99fb4bafa52d0f5e0a89c313b55d7d6009f7c53",
+      "actions": 11,
+      "topOptions": 25
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "1551f1ace13b4fd8129b2afcc0465f062bea1e63c4b61dbebcc3c4ada05f8dee",
+      "actions": 12,
+      "topOptions": 25
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c50854ade6c22a16378eaf841b50bd9b00e1650990276a662e8b04d31d1e507a",
+      "actions": 14,
+      "topOptions": 27
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "1a58e0163dd4857c8b947e704d3f939bcbafaad3659d5184c721a86c5715348c",
+      "actions": 14,
+      "topOptions": 27
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "08230c995772c6b2180643fe3fd7d9f01c0d57b80bf69bb0f4ea78acc3c07c07",
+      "actions": 15,
+      "topOptions": 31
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "b65135239b07a85b1d010cedc1cf6b653d8222d48e091113b589ab5163d5df4c",
+      "actions": 17,
+      "topOptions": 33
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "d2e51cc921831bc2e2f9afc8a519f525fddc70338291c7d2cf3b4024282380e1",
+      "actions": 19,
+      "topOptions": 37
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/xinyuelu2/xinyuelu2.github.io/main/homework3_version4.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages retain all930 original ordered commodity/date/commodity_price_indices JSON rows with STRING/STRING/NUMBER types. The unchanged original sole URL owner stays /layer/0/data without an invented root data owner. Original initial selectedDate=2021 filter selects15 single-observation commodity groups. Every original singleton stack starts at0 and ends at its raw value; public mean bar with unstacked zero baseline independently retains all15 actual footprints. Authored selectedDate color field is absent in all raw and terminal rows: original undefined ordinal color domain paints all15 bars RGB69/180/194, and native reproduces that initial uniform paint without inventing a raw field or dynamic behavior. Source responsive viewport yields exact1280x482 frame/1231x300 plot. All30 glyphs retain content/font/paint/angle and0.0001 four-corner bounds with0 applied font metrics; original centered versus native inside plot border is disclosed. Ordinary bar/encoding/axis actions stay within3 top-level options, whole axes precede focused editors. Existing other canonical checks remain unchanged; sole source-specific exact typed baseline diagnostic interpretation follows full current115 proof. No source pixel identity or interactive implementation is claimed."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "f74f8425a17b45e2af90d8e62a5231f6a17033fa5793c418f2cebd5d254f1475",
+      "bytes": 1765
+    },
+    "data.json": {
+      "sha256": "3b23ef7b341d32721e4c19276a6cf6a36aa5ff415ca9f8505a9917820bc72b4c",
+      "bytes": 91343
+    },
+    "resolved-source.vl.json": {
+      "sha256": "1cbb92f6ded388e1f619814e510ac858a199fbfba76c68ae19747b85dbcf9a1e",
+      "bytes": 130225
+    },
+    "G1.gg.mjs": {
+      "sha256": "a0ad1bbf3e9236af22528597513e5ab0d4ca18b951061a0ba04300a7659b1a6f",
+      "bytes": 4488
+    },
+    "G2.gg.mjs": {
+      "sha256": "4067daa5de3b92eee7b0ba7fa99fb4bafa52d0f5e0a89c313b55d7d6009f7c53",
+      "bytes": 4362
+    },
+    "G3.gg.mjs": {
+      "sha256": "1551f1ace13b4fd8129b2afcc0465f062bea1e63c4b61dbebcc3c4ada05f8dee",
+      "bytes": 4185
+    },
+    "G4.gg.mjs": {
+      "sha256": "c50854ade6c22a16378eaf841b50bd9b00e1650990276a662e8b04d31d1e507a",
+      "bytes": 4202
+    },
+    "G5.gg.mjs": {
+      "sha256": "1a58e0163dd4857c8b947e704d3f939bcbafaad3659d5184c721a86c5715348c",
+      "bytes": 4176
+    },
+    "G6.gg.mjs": {
+      "sha256": "08230c995772c6b2180643fe3fd7d9f01c0d57b80bf69bb0f4ea78acc3c07c07",
+      "bytes": 3529
+    },
+    "G7.gg.mjs": {
+      "sha256": "b65135239b07a85b1d010cedc1cf6b653d8222d48e091113b589ab5163d5df4c",
+      "bytes": 3563
+    },
+    "G8.gg.mjs": {
+      "sha256": "d2e51cc921831bc2e2f9afc8a519f525fddc70338291c7d2cf3b4024282380e1",
+      "bytes": 3525
+    },
+    "vega-lite.svg": {
+      "sha256": "6cb838dd6a08b57281969b2619f93aa0dd7bd828ee157be587d7a5e820d35325",
+      "bytes": 15482
+    },
+    "ggaction.svg": {
+      "sha256": "65003fdd5a2052507a0c2fbe5b59eb3a5778b31f78f72d0e244fe206e2f9b207",
+      "bytes": 12983
+    }
+  }
+}

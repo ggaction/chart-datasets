@@ -1,0 +1,127 @@
+{
+  "id": "vl_1839",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "96d8c5ad8f65063e7b2b9d391424a96ddad88bc62c424ef960d2420f12bd0370",
+      "actions": 19,
+      "topOptions": 43
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "a4acdddf68b5a5d94e40cd13c4d87420fddc26efe5977bb5f54364646e0b2203",
+      "actions": 20,
+      "topOptions": 46
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "d50a8430ff4778c3fb6e242858de65c42c60481c722a7d55e963bfb227f59db5",
+      "actions": 21,
+      "topOptions": 46
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "7054fb7464afbb76ed0dd864a6799bad5e3481102b8152ec93a783f32a2ada3b",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "79834b76b4034d1c2519ff475317f829afaf0f1658c6fbdb7f07412aef3a6721",
+      "actions": 24,
+      "topOptions": 50
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "49014230556c462a77b4e95943b29763e1ab49cfae61856ee1f8348b91b7b2e0",
+      "actions": 26,
+      "topOptions": 52
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "5b725fa6388d21981c37ee179eb994cec2d92f2ea6e40b07ce17533c30d29e2b",
+      "actions": 26,
+      "topOptions": 52
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "20235a08b7b0c21d59be20cd591f64a90c42dc945d47cddc921634be7ee1108f",
+      "actions": 28,
+      "topOptions": 55
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/elasComputacao/raio-x-dados/main/data/dados-processados/notas.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct source-qualified actual School stages passed normal and independent cold verification; final provenance audit required before counting."
+  },
+  "historicalRuntimeCommits": [
+    "9820e3665cfbca546924ef1f4a17a8c8f9c17760"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "ecbb42ac466be8c391e7d8e2a2a53319f7077135ddf3461d46c8f74cc099fb54",
+      "bytes": 1714
+    },
+    "data.json": {
+      "sha256": "f83cdbce3382f707c188c0305a8d2b4b5e4f08d9bf4de2c8672863dbff34afe4",
+      "bytes": 8463
+    },
+    "resolved-source.vl.json": {
+      "sha256": "e6a2ab6ad9f7bc51c8261371a8f7681722d99767d272c6667bed8e8bebe4e9a8",
+      "bytes": 12051
+    },
+    "G1.gg.mjs": {
+      "sha256": "96d8c5ad8f65063e7b2b9d391424a96ddad88bc62c424ef960d2420f12bd0370",
+      "bytes": 5369
+    },
+    "G2.gg.mjs": {
+      "sha256": "a4acdddf68b5a5d94e40cd13c4d87420fddc26efe5977bb5f54364646e0b2203",
+      "bytes": 5348
+    },
+    "G3.gg.mjs": {
+      "sha256": "d50a8430ff4778c3fb6e242858de65c42c60481c722a7d55e963bfb227f59db5",
+      "bytes": 5281
+    },
+    "G4.gg.mjs": {
+      "sha256": "7054fb7464afbb76ed0dd864a6799bad5e3481102b8152ec93a783f32a2ada3b",
+      "bytes": 5240
+    },
+    "G5.gg.mjs": {
+      "sha256": "79834b76b4034d1c2519ff475317f829afaf0f1658c6fbdb7f07412aef3a6721",
+      "bytes": 5286
+    },
+    "G6.gg.mjs": {
+      "sha256": "49014230556c462a77b4e95943b29763e1ab49cfae61856ee1f8348b91b7b2e0",
+      "bytes": 5354
+    },
+    "G7.gg.mjs": {
+      "sha256": "5b725fa6388d21981c37ee179eb994cec2d92f2ea6e40b07ce17533c30d29e2b",
+      "bytes": 5342
+    },
+    "G8.gg.mjs": {
+      "sha256": "20235a08b7b0c21d59be20cd591f64a90c42dc945d47cddc921634be7ee1108f",
+      "bytes": 5342
+    },
+    "vega-lite.svg": {
+      "sha256": "464ccd0ecd9547609f3043c6961125b02e7b2af033156891ba65b93b49c9e9be",
+      "bytes": 51890
+    },
+    "ggaction.svg": {
+      "sha256": "5db82f6712724e8616d7d3d14c8511690d20ea4f57a1523ac0fd2afd16043b6c",
+      "bytes": 32797
+    }
+  }
+}

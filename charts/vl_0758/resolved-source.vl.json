@@ -1,0 +1,166 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Public v Private Average Hourly Earnings",
+    "subtitle": "Mean nominal wages in UK between 2016-2021, by sector. Source: ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Sector": "Private sector",
+        "Hourly Earnings": "15.18",
+        "Year": "2016"
+      },
+      {
+        "Sector": "Public sector",
+        "Hourly Earnings": "17.24",
+        "Year": "2016"
+      },
+      {
+        "Sector": "Private sector",
+        "Hourly Earnings": "15.69",
+        "Year": "2017"
+      },
+      {
+        "Sector": "Public sector",
+        "Hourly Earnings": "17.46",
+        "Year": "2017"
+      },
+      {
+        "Sector": "Private sector",
+        "Hourly Earnings": "16.33",
+        "Year": "2018"
+      },
+      {
+        "Sector": "Public sector",
+        "Hourly Earnings": "17.83",
+        "Year": "2018"
+      },
+      {
+        "Sector": "Private sector",
+        "Hourly Earnings": "16.86",
+        "Year": "2019"
+      },
+      {
+        "Sector": "Public sector",
+        "Hourly Earnings": "18.5",
+        "Year": "2019"
+      },
+      {
+        "Sector": "Private sector",
+        "Hourly Earnings": "17.13",
+        "Year": "2020"
+      },
+      {
+        "Sector": "Public sector",
+        "Hourly Earnings": "18.76",
+        "Year": "2020"
+      },
+      {
+        "Sector": "Private sector",
+        "Hourly Earnings": "17.55",
+        "Year": "2021"
+      },
+      {
+        "Sector": "Public sector",
+        "Hourly Earnings": "19.12",
+        "Year": "2021"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "width": 300,
+  "height": 350,
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": null
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "Sector",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Hourly Earnings",
+          "type": "quantitative",
+          "title": "Mean Hourly Earnings"
+        }
+      },
+      "layer": [
+        {
+          "mark": "line"
+        },
+        {
+          "transform": [
+            {
+              "filter": {
+                "param": "hover",
+                "empty": false
+              }
+            }
+          ],
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "pivot": "Sector",
+          "value": "Hourly Earnings",
+          "groupby": [
+            "Year"
+          ]
+        }
+      ],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "value": 0.3,
+            "param": "hover",
+            "empty": false
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {
+            "field": "Private sector",
+            "type": "quantitative"
+          },
+          {
+            "field": "Public sector",
+            "type": "quantitative"
+          }
+        ]
+      },
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": [
+              "Year"
+            ],
+            "nearest": true,
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ]
+    }
+  ]
+}

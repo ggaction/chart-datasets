@@ -29,6 +29,16 @@ def require(condition, message):
         raise RuntimeError(message)
 
 
+def preserve_epoch_origin(incoming, published, parent_sha256):
+    """Keep a published epoch's original registry when V3 inherits it unchanged."""
+    require({key: value for key, value in incoming.items() if key != 'registrySha256'}
+            == {key: value for key, value in published.items() if key != 'registrySha256'},
+            'Published authoring epoch identity changed')
+    require(published['registrySha256'] == parent_sha256,
+            'Published authoring epoch is not bound to the verified parent registry')
+    return published
+
+
 def dimensions(path):
     svg = ET.parse(path).getroot()
     if 'width' in svg.attrib and 'height' in svg.attrib:
@@ -138,7 +148,7 @@ def sync(root, workspace, apply=False):
     programs = 0
     for chart_id in sorted(set(config['sourceIds'])):
         require(re.fullmatch(r'vl_\d{4}', chart_id), 'Invalid source id')
-        source_dir, epoch = source_family(workspace, chart_id, base)
+        source_dir, epoch = source_family(workspace, chart_id, base, config.get('requalifiedSourceFamiliesV3'))
         completion_file = source_dir / 'completion.json'
         if not completion_file.exists() or read(completion_file).get('status') != 'completed':
             continue
@@ -197,7 +207,13 @@ def sync(root, workspace, apply=False):
             else:
                 unrecorded_runtimes.append(level)
         try:
-            module_audits = audit_stages(pathlib.Path(__file__).resolve().parent, stage_requests, raw_files, strict_bindings=raw_manifest is not None)
+            scoped_concat = raw_manifest is not None and raw_manifest.get('nativeScopePolicy') == 'flat-two-owner-hconcat-v1'
+            native_inputs = (dict(source=spec, manifest=raw_manifest,
+                                  rawTables={name: read(file) for name, file in raw_files.items()})
+                             if scoped_concat else None)
+            module_audits = audit_stages(pathlib.Path(__file__).resolve().parent, stage_requests, raw_files,
+                                        strict_bindings=raw_manifest is not None, concat_scope=scoped_concat,
+                                        native_inputs=native_inputs)
         except RuntimeError as error:
             raise RuntimeError(f'{chart_id}: {error}') from error
         for audit, request in zip(module_audits, stage_requests):
@@ -207,18 +223,37 @@ def sync(root, workspace, apply=False):
                         f'{chart_id}/{audit["level"]}: stage raw table changed: {name}')
         if raw_manifest is not None:
             for audit, request in zip(module_audits, stage_requests):
-                semantic = read(pathlib.Path(request['path']).parent / 'render/semantic.json')
-                datasets = {dataset['id']: dataset for dataset in semantic['datasets']}
-                for binding in audit['bindings']:
-                    require(binding['datasetId'] in datasets
-                            and ordered(datasets[binding['datasetId']]['values']) == ordered(read(raw_files[binding['file']])),
-                            f'{chart_id}/{audit["level"]}: actual native raw dataset binding mismatch')
+                if not scoped_concat:
+                    semantic = read(pathlib.Path(request['path']).parent / 'render/semantic.json')
+                    datasets = {dataset['id']: dataset for dataset in semantic['datasets']}
+                    for binding in audit['bindings']:
+                        require(binding['datasetId'] in datasets
+                                and ordered(datasets[binding['datasetId']]['values']) == ordered(read(raw_files[binding['file']])),
+                                f'{chart_id}/{audit["level"]}: actual native raw dataset binding mismatch')
+                # Scoped concat proof already ran against the current verification-bound
+                # parent capture and both AST-derived child owners in audit_stages.
                 audit['actualNativeRawDatasetBindingsExact'] = True
             raw_manifest['stages'] = module_audits
             prepared_raw = staging / (chart_id + '-raw-inputs.json')
             save(prepared_raw, raw_manifest)
             files['raw-inputs.json'] = prepared_raw
         if epoch is not None:
+            prior_epoch = root / 'charts' / chart_id / 'source-epoch.json'
+            if chart_id in existing and prior_epoch.exists() and read(prior_epoch) != epoch:
+                descriptor = config.get('requalifiedSourceFamiliesV3')
+                require(descriptor is not None, f'{chart_id}: epoch changed without an explicit V3 registry')
+                registry_file = workspace / descriptor['path']
+                require(digest(registry_file) == descriptor['sha256'], 'V3 registry changed')
+                registry = read(registry_file)
+                parent = registry['parent']
+                parent_file = workspace / parent['path']
+                require(parent_file.resolve() == (workspace / 'experiments/glm-thousand-chart-adaptive/requalified-source-families-v2.json').resolve()
+                        and digest(parent_file) == parent['sha256'], 'V3 parent registry changed')
+                previous = read(parent_file)
+                require(chart_id in previous['sources']
+                        and ordered(previous['sources'][chart_id]) == ordered(registry['sources'][chart_id]),
+                        f'{chart_id}: published epoch is not an unchanged inherited entry')
+                epoch = preserve_epoch_origin(epoch, read(prior_epoch), parent['sha256'])
             prepared_epoch = staging / (chart_id + '-source-epoch.json')
             save(prepared_epoch, epoch)
             files['source-epoch.json'] = prepared_epoch

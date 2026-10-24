@@ -49,19 +49,36 @@ def contained(root, relative):
     return result
 
 
-def source_family(workspace, chart_id, base):
+def source_family(workspace, chart_id, base, registry_descriptor=None):
     registry_file = workspace / 'experiments/glm-thousand-chart-adaptive/requalified-source-families-v2.json'
+    if registry_descriptor is not None:
+        registry_file = contained(workspace, registry_descriptor['path'])
+        require(digest(registry_file) == registry_descriptor['sha256'], 'Epoch registry descriptor changed')
     if not registry_file.exists():
         return base / chart_id, None
     registry = read(registry_file)
-    require(registry['schemaVersion'] == 2, 'Unknown authoring epoch registry')
+    expected_version = 3 if registry_descriptor is not None else 2
+    require(registry['schemaVersion'] == expected_version, 'Unknown authoring epoch registry')
     parent = registry['parent']
-    require(digest(contained(workspace, parent['path'])) == parent['sha256'], 'Epoch registry parent changed')
+    parent_file = contained(workspace, parent['path'])
+    require(digest(parent_file) == parent['sha256'], 'Epoch registry parent changed')
+    if expected_version == 3:
+        require(parent_file == workspace / 'experiments/glm-thousand-chart-adaptive/requalified-source-families-v2.json',
+                'Epoch registry requires the canonical v2 parent')
+        previous = read(parent_file)
+        require(previous['schemaVersion'] == 2, 'Unknown parent authoring epoch registry')
+        ancestor = previous['parent']
+        require(digest(contained(workspace, ancestor['path'])) == ancestor['sha256'],
+                'Epoch registry ancestor changed')
+        require(all(key in registry['sources'] and ordered(registry['sources'][key]) == ordered(value)
+                    for key, value in previous['sources'].items()), 'Epoch registry lost or changed a parent entry')
     epoch = registry['sources'].get(chart_id)
     if epoch is None:
         return base / chart_id, None
+    resolution_flag = ('mustResolveExplicitEpoch' if expected_version == 3
+                       and chart_id not in previous['sources'] else 'exportAt1413MustResolveThisExplicitEpoch')
     require(epoch['successful'] is True and epoch['sourceOriginalAndRawUnchanged'] is True
-            and epoch['exportAt1413MustResolveThisExplicitEpoch'] is True, 'Unapproved authoring epoch')
+            and epoch.get(resolution_flag) is True, 'Unapproved authoring epoch')
     selected = contained(workspace, epoch['family'])
     historical = contained(workspace, epoch['historicalFamily'])
     require(selected.name == historical.name == chart_id
@@ -146,8 +163,21 @@ def raw_inputs(family, source, resolved):
                        primary='data.json', descriptors=public)
 
 
-def audit_stages(script_directory, stages, raw_files, strict_bindings=True):
+def audit_stages(script_directory, stages, raw_files, strict_bindings=True, concat_scope=False, native_inputs=None):
     request = dict(rawFiles=sorted(raw_files), stages=stages, strictBindings=strict_bindings)
+    if concat_scope:
+        require(strict_bindings, 'Concat ownership requires strict module bindings')
+        request['concatScope'] = True
+        if native_inputs is not None:
+            request['nativeConcatInputs'] = native_inputs
+            request['stages'] = []
+            for stage in stages:
+                attempt = pathlib.Path(stage['path']).parent
+                capture = attempt / 'render/composition-capture.json'
+                verification = read(attempt / 'verification.json')
+                require(digest(capture) == verification['compositionCaptureSha256'],
+                        'Current concat capture is not bound by source verification')
+                request['stages'].append(dict(stage, nativeCapture=read(capture)))
     result = subprocess.run(['node', str(script_directory / 'audit-module-inputs.mjs')],
                             input=json.dumps(request), capture_output=True, text=True, check=False)
     require(result.returncode == 0, 'Module input binding rejected: ' + result.stderr.strip())
@@ -319,23 +349,129 @@ def source_data_owners(spec, path=''):
     return result
 
 
+def qualified_explicit_owner_files(family, source, resolved, candidates):
+    """Use complete frozen import identities before comparing possibly equal tables."""
+    contract_file = family / 'contract.json'
+    contract = read(contract_file) if contract_file.exists() else {}
+    if 'rawImports' not in contract:
+        return None
+    imports = contract['rawImports']
+    owners = source_data_owners(source)
+    require(isinstance(imports, list) and len(imports) == len(owners)
+            and len(set(owners)) == len(owners), 'Incomplete explicit raw import ownership')
+    require(contract.get('sourceSha256') == digest(family / 'source.vl.json')
+            and contract.get('resolvedSourceSha256') == digest(resolved)
+            and contract.get('dataSha256') == digest(family / 'data.json'),
+            'Explicit raw import source authority changed')
+    frozen = read(resolved)
+    resolution_file = family / 'data-resolution.json'
+    resolution = read(resolution_file) if resolution_file.exists() else {}
+    # A separately hash-bound owner descriptor, when present, also fixes binding identity.
+    descriptor = contract.get('v13Qualification', {}).get('inlineRawOwners')
+    declared = None
+    if descriptor is not None:
+        require(isinstance(descriptor, dict) and set(descriptor) == {'path', 'sha256'},
+                'Invalid explicit owner descriptor binding')
+        relative = pathlib.PurePosixPath(descriptor['path'])
+        require(not relative.is_absolute() and '..' not in relative.parts and '\\' not in descriptor['path'],
+                'Unsafe explicit owner descriptor path')
+        parents = relative.parts[:-1]
+        require(not parents or tuple(family.parts[-len(parents):]) == parents,
+                'Explicit owner descriptor is outside its current source family')
+        descriptor_file = family / relative.name
+        require(descriptor_file.is_file() and not descriptor_file.is_symlink()
+                and descriptor_file.resolve().parent == family.resolve()
+                and digest(descriptor_file) == descriptor['sha256'],
+                'Explicit owner descriptor changed, linked or outside its family')
+        declared = read(descriptor_file)
+        require(declared.get('sourceSha256') == contract['sourceSha256']
+                and isinstance(declared.get('owners'), list)
+                and len(declared['owners']) == len(owners), 'Incomplete bound original owners')
+    result, bindings = {}, set()
+    for index, raw in enumerate(imports):
+        ptr = owners[index]
+        require(isinstance(raw, dict) and raw.get('pointer') == ptr
+                and re.fullmatch(r'\./[a-z][a-z0-9-]*\.json', raw.get('specifier', ''))
+                and re.fullmatch(r'[A-Za-z_$][A-Za-z0-9_$]*', raw.get('binding', ''))
+                and raw['binding'] not in bindings
+                and raw['binding'] not in ('chart', 'hconcat', 'buildChart'),
+                'Explicit original owner/import mapping changed')
+        bindings.add(raw['binding'])
+        name = raw['specifier'][2:]
+        require(is_raw_file(name) and name in candidates and name not in result.values()
+                and candidates[name].is_file() and not candidates[name].is_symlink()
+                and digest(candidates[name]) == raw.get('sha256'), 'Explicit raw file mapping changed')
+        values = read(candidates[name])
+        original, materialized = pointer(source, ptr), pointer(frozen, ptr)
+        context_alias = unused_root_context_alias(source, frozen, ptr)
+        expected_rows = original['values'] if context_alias else materialized.get('values')
+        require(isinstance(values, list) and isinstance(materialized.get('values'), list)
+                and ordered(expected_rows) == ordered(values), 'Explicit resolved owner rows changed')
+        require(not ('url' in original and 'values' in original), 'Ambiguous concrete original owner')
+        if declared is not None:
+            owner = declared['owners'][index]
+            require(all(owner.get(key) == raw.get(key) for key in ('pointer', 'specifier', 'binding')),
+                    'Bound original owner/import identity changed')
+            if 'dataSha256' in owner:
+                require(owner['dataSha256'] == raw['sha256'], 'Bound original raw hash changed')
+            if 'rows' in owner:
+                require(owner['rows'] == len(values), 'Bound original row count changed')
+        if 'values' in original:
+            require(ordered(original['values']) == ordered(values), 'Explicit original inline rows changed')
+            if declared is not None:
+                require(declared['owners'][index].get('kind') == 'inline'
+                        and ordered(declared['owners'][index].get('values')) == ordered(values),
+                        'Bound inline original authority changed')
+        elif set(original) == {'name'}:
+            require(ordered(source['datasets'][original['name']]) == ordered(values),
+                    'Explicit original named rows changed')
+        else:
+            require(isinstance(original.get('url'), str), 'Missing explicit original input authority')
+            # URL rows must retain the same hash-bound resolver resource, not a substitute URL.
+            resource = resolution.get('resource') if ptr == '/data' else None
+            require(resource is not None and resolution.get('sourceSha256') == contract['sourceSha256']
+                    and resolution.get('resolvedSourceSha256') == contract['resolvedSourceSha256']
+                    and resolution.get('dataSha256') == raw['sha256']
+                    and resolution.get('rowCount') == len(values)
+                    and resource.get('requestedUrl') == original['url']
+                    and isinstance(resource.get('resolvedUrl'), str), 'Explicit URL authority changed')
+            body, metadata = pathlib.Path(resource['bodyFile']), pathlib.Path(resource['metadataFile'])
+            require(body.is_file() and metadata.is_file() and digest(body) == resource.get('sha256')
+                    and digest(metadata) == resource.get('metadataSha256'), 'Explicit cached URL evidence changed')
+            if declared is not None:
+                require(declared['owners'][index].get('kind') == 'root-url'
+                        and declared['owners'][index].get('url') == original['url'],
+                        'Bound URL original authority changed')
+        result[ptr] = name
+    require(set(result) == set(owners) and set(result.values()) == set(candidates)
+            and list(result.values())[0] == 'data.json', 'Incomplete explicit raw owner coverage')
+    return result
+
+
 def explicit_source_inputs(family, source, resolved):
     """Bind each explicit original owner to its exact independently frozen rows."""
     frozen = read(resolved)
     candidates = {p.name: p for p in family.iterdir() if is_raw_file(p.name)}
     rows = {name: read(file) for name, file in candidates.items()}
     descriptors, used, canonical = [], set(), {}
+    concat_scopes = qualified_concat_owner_files(family, source, candidates)
+    declared_scopes = qualified_explicit_owner_files(family, source, resolved, candidates)
+    require(concat_scopes is None or declared_scopes is None or concat_scopes == declared_scopes,
+            "Conflicting qualified raw owner mappings")
+    scopes = declared_scopes if declared_scopes is not None else concat_scopes
     for ptr in source_data_owners(source):
         original, materialized = pointer(source, ptr), pointer(frozen, ptr)
         require(isinstance(materialized.get('values'), list), 'Unresolved explicit source owner: ' + ptr)
         context_alias = unused_root_context_alias(source, frozen, ptr)
         expected_rows = original['values'] if context_alias else materialized['values']
-        matches = [name for name, values in rows.items() if ordered(values) == ordered(expected_rows)]
+        matches = ([scopes[ptr]] if scopes is not None else
+                   [name for name, values in rows.items() if ordered(values) == ordered(expected_rows)])
         require(len(matches) == 1, 'Ambiguous or missing frozen source owner: ' + ptr)
         name = matches[0]
+        require(ordered(rows[name]) == ordered(expected_rows), 'Qualified original owner rows changed: ' + ptr)
         if 'values' in original:
             require(ordered(original['values']) == ordered(rows[name]), 'Original inline rows changed')
-        elif 'name' in original:
+        elif 'url' not in original and set(original) == {'name'}:
             require(ordered(source['datasets'][original['name']]) == ordered(rows[name]), 'Original named rows changed')
         else:
             require(isinstance(original.get('url'), str), 'Unbound explicit source descriptor')
@@ -355,7 +491,53 @@ def explicit_source_inputs(family, source, resolved):
     return candidates, dict(schemaVersion=2, kind='explicit-source-owner-raw-inputs-v1', primary='data.json',
                             sourceSha256=digest(family / 'source.vl.json'), resolvedSourceSha256=digest(resolved),
                             distinctRawRows=sum(len(rows[name]) for name in used),
-                            sourceOwnerRows=sum(row['rowCount'] for row in descriptors), descriptors=descriptors)
+                            sourceOwnerRows=sum(row['rowCount'] for row in descriptors), descriptors=descriptors,
+                            **({'nativeScopePolicy': 'flat-two-owner-hconcat-v1'} if concat_scopes is not None else {}))
+
+
+def qualified_concat_owner_files(family, source, candidates):
+    """An explicit original-name/pointer/import mapping disambiguates equal row values."""
+    contract_file = family / 'contract.json'
+    contract = read(contract_file) if contract_file.exists() else {}
+    profile = contract.get('sourceTwoOwnerConcatProof')
+    if profile is None:
+        return None
+    require(profile.get('kind') == 'source-qualified-flat-two-owner-concat-v1'
+            and profile.get('sourceSha256') == contract.get('sourceSha256') == digest(family / 'source.vl.json'),
+            'Invalid source-qualified concat ownership profile')
+    require(contract.get('sourceComposition') == 'concat'
+            and contract.get('v13Qualification', {}).get('stageShapeFormat') == 'v13-two-owner-concat-stage-v1',
+            'Concat owner policy requires its explicit qualified grammar')
+    require('data' not in source and 'transform' not in source
+            and isinstance(source.get('hconcat'), list) and len(source['hconcat']) == 2
+            and source_data_owners(source) == ['/hconcat/0/data', '/hconcat/1/data'],
+            'Only two independent flat hconcat inputs are qualified')
+    require(not any(key in source for key in ('mark', 'layer', 'facet', 'repeat', 'concat', 'vconcat', 'spec', 'projection'))
+            and all(not any(key in child for key in ('layer', 'facet', 'repeat', 'concat', 'vconcat', 'hconcat', 'spec', 'projection', 'datasets'))
+                    for child in source['hconcat']), 'Nested or mixed concat ownership is not qualified')
+    imports = contract.get('rawImports')
+    require(isinstance(imports, list) and len(imports) == 2, 'Missing qualified concat raw imports')
+    result, names, bindings = {}, set(), set()
+    for index, raw in enumerate(imports):
+        pointer_name = f'/hconcat/{index}/data'
+        original = source['hconcat'][index]['data']
+        require(set(original) == {'name'} and isinstance(original['name'], str)
+                and original['name'] not in names and 'transform' not in source['hconcat'][index],
+                'Concat children require two distinct original named owners')
+        names.add(original['name'])
+        require(raw.get('pointer') == pointer_name and raw.get('ownerName') == original['name']
+                and re.fullmatch(r'\./[a-z][a-z0-9-]*\.json', raw.get('specifier', ''))
+                and re.fullmatch(r'[A-Za-z_$][A-Za-z0-9_$]*', raw.get('binding', ''))
+                and raw['binding'] not in bindings and raw['binding'] not in ('chart', 'hconcat', 'buildChart'),
+                'Concat original owner/import mapping changed')
+        bindings.add(raw['binding'])
+        name = raw['specifier'][2:]
+        require(name in candidates and name not in result.values()
+                and digest(candidates[name]) == raw.get('sha256'), 'Concat raw file mapping changed')
+        result[pointer_name] = name
+    require(set(source.get('datasets', {})) == names and set(result.values()) == set(candidates)
+            and result['/hconcat/0/data'] == 'data.json', 'Incomplete independent concat owner set')
+    return result
 
 
 def validate_explicit_source_inputs(directory, metadata, record, reference_files):
@@ -365,6 +547,17 @@ def validate_explicit_source_inputs(directory, metadata, record, reference_files
             and record.get('sourceSha256') == digest(source_file)
             and record.get('resolvedSourceSha256') == digest(resolved_file), 'Explicit source binding changed')
     owners = source_data_owners(source)
+    policy = record.get('nativeScopePolicy')
+    require(policy is None or policy == 'flat-two-owner-hconcat-v1', 'Unknown native input scope policy')
+    if policy is not None:
+        require('data' not in source and 'transform' not in source
+                and owners == ['/hconcat/0/data', '/hconcat/1/data']
+                and len({pointer(source, ptr).get('name') for ptr in owners}) == 2
+                and all(set(pointer(source, ptr)) == {'name'} for ptr in owners)
+                and not any(key in source for key in ('mark', 'layer', 'facet', 'repeat', 'concat', 'vconcat', 'spec', 'projection'))
+                and all(not any(key in child for key in ('transform', 'layer', 'facet', 'repeat', 'concat', 'vconcat', 'hconcat', 'spec', 'projection', 'datasets'))
+                        for child in source['hconcat']),
+                'Distributed concat scope requires two distinct original named owners')
     require([r['pointer'] for r in record['descriptors']] == owners, 'Explicit source owner set changed')
     seen, canonical, total = set(), {}, 0
     for row in record['descriptors']:
@@ -383,7 +576,7 @@ def validate_explicit_source_inputs(directory, metadata, record, reference_files
                 and ordered(expected_rows) == ordered(values), 'Explicit frozen rows changed')
         if 'values' in original:
             require(ordered(original['values']) == ordered(values), 'Explicit inline rows changed')
-        elif 'name' in original:
+        elif 'url' not in original and set(original) == {'name'}:
             require(ordered(source['datasets'][original['name']]) == ordered(values), 'Explicit named rows changed')
         else:
             require(isinstance(original.get('url'), str), 'Explicit URL owner missing')
@@ -399,7 +592,7 @@ def validate_explicit_source_inputs(directory, metadata, record, reference_files
             and record.get('distinctRawRows') == sum(len(read(directory / name)) for name in seen)
             and record.get('sourceOwnerRows') == total, 'Explicit source accounting changed')
     stages = [dict(level=row['level'], path=str(directory / row['code'])) for row in metadata['stages']]
-    actual = audit_stages(pathlib.Path(__file__).resolve().parent, stages, seen)
+    actual = audit_stages(pathlib.Path(__file__).resolve().parent, stages, seen, concat_scope=policy is not None)
     require(len(actual) == len(record['stages']), 'Missing explicit stage bindings')
     for audit, retained in zip(actual, record['stages']):
         require(retained.get('actualNativeRawDatasetBindingsExact') is True

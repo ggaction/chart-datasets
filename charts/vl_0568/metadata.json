@@ -1,0 +1,127 @@
+{
+  "id": "vl_0568",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "d50df4a33dfd41c4773891f00501d12fba405cc2391fcc671e7f209a8ea81954",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "6570da7218a7695e7f41fd9fafbdea03f8d034abcdc62498fb0756b4e1129952",
+      "actions": 22,
+      "topOptions": 51
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "33d7c2b35e1cbac02715d25efe5a04ecb478238a7f4c3c917a7861ee31a44a3b",
+      "actions": 23,
+      "topOptions": 52
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c1d5407a5f77b066a3fd4979fa165e622fa2bb5a815ff7e72b787be8d8bdac27",
+      "actions": 24,
+      "topOptions": 56
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c25fd3615772ae65ffb77d786da0be8d51f616b790283399ce0629fad62a1d59",
+      "actions": 25,
+      "topOptions": 58
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "29741e260892873b034989cc9ba1bf552378fcb41414d43e0c9990b85204ad4b",
+      "actions": 27,
+      "topOptions": 58
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "e9cc3d2e467ac61adab864702688bb9e048be90510f9c17153a5267f6b71d2b2",
+      "actions": 29,
+      "topOptions": 60
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "f8f1dabd3c36f722bf3493715a7f584136b69085cbb2ca670747b987caa1f73f",
+      "actions": 31,
+      "topOptions": 63
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/JamesFKean/RA_work/main/tradedta.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct source-qualified actual School stages passed normal and independent cold verification; final provenance audit required before counting."
+  },
+  "historicalRuntimeCommits": [
+    "2f6bf496b85cb0af8bf11ca40770510a92043216"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "91fad2e25856cc81661154a97ffd2c3d48b043c37bb0f1cb947d6cdd7baf0996",
+      "bytes": 1621
+    },
+    "data.json": {
+      "sha256": "a1c3c20ea334201497712748015ef0513bde5da9ae85f5c93625875ffd2bcefa",
+      "bytes": 3994
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0bcf3a92fd66d449c796a86993e94e1abdb9528871c1d8def1bc68e661065e8f",
+      "bytes": 6665
+    },
+    "G1.gg.mjs": {
+      "sha256": "d50df4a33dfd41c4773891f00501d12fba405cc2391fcc671e7f209a8ea81954",
+      "bytes": 4481
+    },
+    "G2.gg.mjs": {
+      "sha256": "6570da7218a7695e7f41fd9fafbdea03f8d034abcdc62498fb0756b4e1129952",
+      "bytes": 4454
+    },
+    "G3.gg.mjs": {
+      "sha256": "33d7c2b35e1cbac02715d25efe5a04ecb478238a7f4c3c917a7861ee31a44a3b",
+      "bytes": 4371
+    },
+    "G4.gg.mjs": {
+      "sha256": "c1d5407a5f77b066a3fd4979fa165e622fa2bb5a815ff7e72b787be8d8bdac27",
+      "bytes": 4193
+    },
+    "G5.gg.mjs": {
+      "sha256": "c25fd3615772ae65ffb77d786da0be8d51f616b790283399ce0629fad62a1d59",
+      "bytes": 4175
+    },
+    "G6.gg.mjs": {
+      "sha256": "29741e260892873b034989cc9ba1bf552378fcb41414d43e0c9990b85204ad4b",
+      "bytes": 4195
+    },
+    "G7.gg.mjs": {
+      "sha256": "e9cc3d2e467ac61adab864702688bb9e048be90510f9c17153a5267f6b71d2b2",
+      "bytes": 4229
+    },
+    "G8.gg.mjs": {
+      "sha256": "f8f1dabd3c36f722bf3493715a7f584136b69085cbb2ca670747b987caa1f73f",
+      "bytes": 4203
+    },
+    "vega-lite.svg": {
+      "sha256": "914ca3216c04d573334bc2077963918d0c219c4054038f8abdc0f679937f1bb5",
+      "bytes": 41686
+    },
+    "ggaction.svg": {
+      "sha256": "544bf25464b15cef0bb121943ac94bcc663cd2ca7b6fdf2e6343a2f0c0caefe8",
+      "bytes": 26049
+    }
+  }
+}

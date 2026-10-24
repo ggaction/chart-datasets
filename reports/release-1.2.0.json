@@ -1,0 +1,112 @@
+{
+  "status": "verified-release-content",
+  "datasetVersion": "1.2.0",
+  "charts": 1387,
+  "programs": 10174,
+  "addedFamilies": 51,
+  "addedPrograms": 408,
+  "previousDatasetRelease": "v1.1.0",
+  "originalPublishedFamiliesUnchanged": 1336,
+  "runtime": {
+    "schemaVersion": 1,
+    "package": "ggaction",
+    "version": "0.0.24",
+    "status": "published",
+    "sourceCommit": "5f952f59b9ca236e8e9cff477c4f51067f2f8ea9",
+    "contractId": "sha256:e755591a2e5f5e2b494867583876e28020a478c5220b77bdc6ad469a6224891d",
+    "releasePullRequest": "https://github.com/ggaction/ggaction/pull/270",
+    "tag": "v0.0.24",
+    "releaseCommit": "fd5c4073fc80295c513bd099ac0ff0aa83059371",
+    "sha1": "798b04408b4ba252f29f5f38afd0f8ddcab84bd0",
+    "sha256": "ab6dce015ef4698aa9b1691ce91448c03ce6ad5244d0918a84d3f6f758413889",
+    "integrity": "sha512-dJBd8L9K9tOOXpXIWx5VkTJUrnx7QLj47eOlMJmiHVkCeBsW6sprC0I2qHuIrWi5KBeEpkGx/ode9usaOgboDA==",
+    "registryArchive": "https://registry.npmjs.org/ggaction/-/ggaction-0.0.24.tgz",
+    "releaseWorkflow": "https://github.com/ggaction/ggaction/actions/runs/40078934064",
+    "releaseUrl": "https://github.com/ggaction/ggaction/releases/tag/v0.0.24",
+    "previousRelease": "v0.0.22",
+    "previousReleaseCommit": "202b7afd4146a691c136964c4cc53f9c37444513"
+  },
+  "fullReplay": {
+    "passed": 1387,
+    "programs": 10174,
+    "byteIdenticalFamilies": 1385,
+    "exactPixelEquivalentFamilies": 2,
+    "freshCertificate": "reports/runtime-equivalence-0.0.24.json",
+    "report": "reports/runtime-sync.json",
+    "strictBytes": "reports/runtime-sync-byte-comparison.json",
+    "interruptedSweepRecovery": {
+      "retainedCompleted": 1375,
+      "newFamiliesRendered": 12,
+      "completedFamilyRerenders": 0,
+      "originalSupervisorExitCode": 75,
+      "originalFailure": "bounded-disk-scan-timeout",
+      "originalWorkers": 3,
+      "missingRecoveryWorkers": 1,
+      "preflightSha256": "4bc671aa5aa3d502db79270d9a2e1e6f9a3b38a6c2f235a1044ebc585df30da7",
+      "receiptSha256": "81876d0f8d3197b5bdf0212ceb48ffb134d24a4227095898e32ca0f2c9ffedb1"
+    }
+  },
+  "validation": {
+    "tests": 145,
+    "failures": 0,
+    "losslessInputs": "passed",
+    "siteBuild": "passed",
+    "localViewer": {
+      "status": "passed",
+      "chartCount": 1387,
+      "decodedImages": 2774,
+      "checks": [
+        "navigation",
+        "keyboard",
+        "range keys",
+        "fast range changes",
+        "hash deep link",
+        "boundaries",
+        "visible left/right headings at desktop/mobile widths",
+        "desktop/mobile shared scale and height fit",
+        "all SVGs decode",
+        "no external requests",
+        "no JavaScript errors"
+      ]
+    }
+  },
+  "libraryCleanup": {
+    "mergedPullRequests": [
+      270
+    ],
+    "releasedIssues": [
+      265,
+      266,
+      267,
+      268,
+      269,
+      272,
+      273
+    ],
+    "heldUnimplementedIssues": [
+      258,
+      271,
+      274
+    ],
+    "openLibraryPRs": 0,
+    "remoteLibraryBranches": [
+      "main"
+    ]
+  },
+  "viewer": "https://ggaction.github.io/chart-datasets/",
+  "publicationProof": "https://github.com/ggaction/chart-datasets/releases/tag/v1.2.0",
+  "publicationVerificationScope": "This tracked record verifies release content. The GitHub Release publication-proof asset records the actual merge, deployment and live checks.",
+  "translationStopped": true,
+  "newSchoolCallsDuringRelease": 0,
+  "School": {
+    "completedKnownTokens": 264153966,
+    "completedResponses": 18130,
+    "new51KnownTokens": 3462721,
+    "new51Responses": 493,
+    "held0206KnownTokens": 82878,
+    "held0206UnknownMeters": 1,
+    "historicalUnknownMeters": 2,
+    "providerCost": null
+  },
+  "createdAt": "2026-10-24T10:01:59.460508+00:00"
+}

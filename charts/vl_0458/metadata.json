@@ -1,0 +1,127 @@
+{
+  "id": "vl_0458",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "4e8b0baf1de66ff129dc4a5f012889245d4d13f70bd7a3997ad95f105761ec7b",
+      "actions": 18,
+      "topOptions": 44
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "fd7f3276b1a8e680c240f0d16830c3d9e8f489e5bb919c4b3a32038c36dd5fe3",
+      "actions": 19,
+      "topOptions": 47
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "1362203d41ea32e67712a6e26442555e40bd12a750415fb86cd51a13f97d47c8",
+      "actions": 20,
+      "topOptions": 48
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "035502dd64901fef9ca22050289c90672ad1a15c310a1c2283692d73ffd64d51",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "8ad554a589db6e42b4947cd2fdee33fcfcb0b44a6f5646870bf6aaf1d91573a3",
+      "actions": 22,
+      "topOptions": 50
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "034bb3ad7e5a08353cbc090bb2e9d00786d6e1f1f8b63c7456f47f96095205b5",
+      "actions": 24,
+      "topOptions": 52
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "3078c57fb539a8ac5b3a76fb846ae7f3b74f78398093c31a6b10231083c5c65e",
+      "actions": 26,
+      "topOptions": 54
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "3a6adb9881b31ed4b8116f278be9486e7e61088499c5981dff9583da8f846ee2",
+      "actions": 28,
+      "topOptions": 59
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/prices/master/analysis/db_AdjustmentFrequency.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages passed current normal, all-source geometry and independent cold audit."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "3f6aa9a7f72823542657419602d268fe6da54a6d080919f388bb4cdab1f04763",
+      "bytes": 1874
+    },
+    "data.json": {
+      "sha256": "c250001365ee3d6cb8cbc7d788fa9338e8960d8027c17822d0092a23e08c9dcd",
+      "bytes": 265900
+    },
+    "resolved-source.vl.json": {
+      "sha256": "295b156b9825d872da2343ccafe54f6c93014ace972544b5a0f1fbe454f92d26",
+      "bytes": 314311
+    },
+    "G1.gg.mjs": {
+      "sha256": "4e8b0baf1de66ff129dc4a5f012889245d4d13f70bd7a3997ad95f105761ec7b",
+      "bytes": 3589
+    },
+    "G2.gg.mjs": {
+      "sha256": "fd7f3276b1a8e680c240f0d16830c3d9e8f489e5bb919c4b3a32038c36dd5fe3",
+      "bytes": 3570
+    },
+    "G3.gg.mjs": {
+      "sha256": "1362203d41ea32e67712a6e26442555e40bd12a750415fb86cd51a13f97d47c8",
+      "bytes": 3516
+    },
+    "G4.gg.mjs": {
+      "sha256": "035502dd64901fef9ca22050289c90672ad1a15c310a1c2283692d73ffd64d51",
+      "bytes": 3540
+    },
+    "G5.gg.mjs": {
+      "sha256": "8ad554a589db6e42b4947cd2fdee33fcfcb0b44a6f5646870bf6aaf1d91573a3",
+      "bytes": 3532
+    },
+    "G6.gg.mjs": {
+      "sha256": "034bb3ad7e5a08353cbc090bb2e9d00786d6e1f1f8b63c7456f47f96095205b5",
+      "bytes": 3566
+    },
+    "G7.gg.mjs": {
+      "sha256": "3078c57fb539a8ac5b3a76fb846ae7f3b74f78398093c31a6b10231083c5c65e",
+      "bytes": 3602
+    },
+    "G8.gg.mjs": {
+      "sha256": "3a6adb9881b31ed4b8116f278be9486e7e61088499c5981dff9583da8f846ee2",
+      "bytes": 3648
+    },
+    "vega-lite.svg": {
+      "sha256": "5545bb7253600bc98af1f67d58735913b3a811bf6f7fe7af87a6658f93656594",
+      "bytes": 225346
+    },
+    "ggaction.svg": {
+      "sha256": "acc3a2fa2023ad75640965974cb5f56705c5fada2dec928d594ff7f9ba831dd2",
+      "bytes": 136366
+    }
+  }
+}

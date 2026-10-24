@@ -1,0 +1,4737 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Commodity Markets Outlook",
+    "subtitle": "commodity price index, a weighted average of selected commodity prices based on spot or futures prices",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": "container",
+  "height": 300,
+  "encoding": {
+    "x": {
+      "field": "commodity",
+      "type": "ordinal",
+      "title": "commodity type"
+    },
+    "y": {
+      "field": "commodity_price_indices",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          200
+        ]
+      },
+      "title": "index",
+      "axis": {
+        "format": "r"
+      },
+      "stack": true
+    },
+    "color": {
+      "field": "selectedDate",
+      "type": "ordinal",
+      "title": null,
+      "legend": null,
+      "scale": {
+        "scheme": "yellowgreenblue"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "commodity",
+        "title": "commodity name"
+      },
+      {
+        "field": "commodity_price_indices",
+        "title": "index",
+        "format": "r"
+      }
+    ]
+  },
+  "params": [
+    {
+      "name": "selectedDate",
+      "value": 2021,
+      "bind": {
+        "input": "range",
+        "min": 1960,
+        "max": 2021,
+        "step": 1,
+        "name": "Select year:"
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "commodity": "Energy",
+            "date": "1960",
+            "commodity_price_indices": 2.13
+          },
+          {
+            "commodity": "Energy",
+            "date": "1961",
+            "commodity_price_indices": 2.08
+          },
+          {
+            "commodity": "Energy",
+            "date": "1962",
+            "commodity_price_indices": 2.04
+          },
+          {
+            "commodity": "Energy",
+            "date": "1963",
+            "commodity_price_indices": 2.01
+          },
+          {
+            "commodity": "Energy",
+            "date": "1964",
+            "commodity_price_indices": 1.94
+          },
+          {
+            "commodity": "Energy",
+            "date": "1965",
+            "commodity_price_indices": 1.94
+          },
+          {
+            "commodity": "Energy",
+            "date": "1966",
+            "commodity_price_indices": 1.88
+          },
+          {
+            "commodity": "Energy",
+            "date": "1967",
+            "commodity_price_indices": 1.87
+          },
+          {
+            "commodity": "Energy",
+            "date": "1968",
+            "commodity_price_indices": 1.85
+          },
+          {
+            "commodity": "Energy",
+            "date": "1969",
+            "commodity_price_indices": 1.81
+          },
+          {
+            "commodity": "Energy",
+            "date": "1970",
+            "commodity_price_indices": 2.11
+          },
+          {
+            "commodity": "Energy",
+            "date": "1971",
+            "commodity_price_indices": 2.71
+          },
+          {
+            "commodity": "Energy",
+            "date": "1972",
+            "commodity_price_indices": 2.93
+          },
+          {
+            "commodity": "Energy",
+            "date": "1973",
+            "commodity_price_indices": 4.17
+          },
+          {
+            "commodity": "Energy",
+            "date": "1974",
+            "commodity_price_indices": 13.8
+          },
+          {
+            "commodity": "Energy",
+            "date": "1975",
+            "commodity_price_indices": 13.85
+          },
+          {
+            "commodity": "Energy",
+            "date": "1976",
+            "commodity_price_indices": 15.37
+          },
+          {
+            "commodity": "Energy",
+            "date": "1977",
+            "commodity_price_indices": 16.85
+          },
+          {
+            "commodity": "Energy",
+            "date": "1978",
+            "commodity_price_indices": 17.67
+          },
+          {
+            "commodity": "Energy",
+            "date": "1979",
+            "commodity_price_indices": 39.04
+          },
+          {
+            "commodity": "Energy",
+            "date": "1980",
+            "commodity_price_indices": 46.78
+          },
+          {
+            "commodity": "Energy",
+            "date": "1981",
+            "commodity_price_indices": 46.86
+          },
+          {
+            "commodity": "Energy",
+            "date": "1982",
+            "commodity_price_indices": 44.01
+          },
+          {
+            "commodity": "Energy",
+            "date": "1983",
+            "commodity_price_indices": 39.34
+          },
+          {
+            "commodity": "Energy",
+            "date": "1984",
+            "commodity_price_indices": 37.82
+          },
+          {
+            "commodity": "Energy",
+            "date": "1985",
+            "commodity_price_indices": 36.15
+          },
+          {
+            "commodity": "Energy",
+            "date": "1986",
+            "commodity_price_indices": 21.85
+          },
+          {
+            "commodity": "Energy",
+            "date": "1987",
+            "commodity_price_indices": 24.52
+          },
+          {
+            "commodity": "Energy",
+            "date": "1988",
+            "commodity_price_indices": 21.19
+          },
+          {
+            "commodity": "Energy",
+            "date": "1989",
+            "commodity_price_indices": 24.66
+          },
+          {
+            "commodity": "Energy",
+            "date": "1990",
+            "commodity_price_indices": 30.95
+          },
+          {
+            "commodity": "Energy",
+            "date": "1991",
+            "commodity_price_indices": 27.01
+          },
+          {
+            "commodity": "Energy",
+            "date": "1992",
+            "commodity_price_indices": 26.21
+          },
+          {
+            "commodity": "Energy",
+            "date": "1993",
+            "commodity_price_indices": 23.95
+          },
+          {
+            "commodity": "Energy",
+            "date": "1994",
+            "commodity_price_indices": 22.33
+          },
+          {
+            "commodity": "Energy",
+            "date": "1995",
+            "commodity_price_indices": 23.88
+          },
+          {
+            "commodity": "Energy",
+            "date": "1996",
+            "commodity_price_indices": 29.02
+          },
+          {
+            "commodity": "Energy",
+            "date": "1997",
+            "commodity_price_indices": 26.86
+          },
+          {
+            "commodity": "Energy",
+            "date": "1998",
+            "commodity_price_indices": 19.07
+          },
+          {
+            "commodity": "Energy",
+            "date": "1999",
+            "commodity_price_indices": 24.42
+          },
+          {
+            "commodity": "Energy",
+            "date": "2000",
+            "commodity_price_indices": 39.22
+          },
+          {
+            "commodity": "Energy",
+            "date": "2001",
+            "commodity_price_indices": 35.05
+          },
+          {
+            "commodity": "Energy",
+            "date": "2002",
+            "commodity_price_indices": 33.97
+          },
+          {
+            "commodity": "Energy",
+            "date": "2003",
+            "commodity_price_indices": 41.4
+          },
+          {
+            "commodity": "Energy",
+            "date": "2004",
+            "commodity_price_indices": 53.44
+          },
+          {
+            "commodity": "Energy",
+            "date": "2005",
+            "commodity_price_indices": 75.39
+          },
+          {
+            "commodity": "Energy",
+            "date": "2006",
+            "commodity_price_indices": 85.4
+          },
+          {
+            "commodity": "Energy",
+            "date": "2007",
+            "commodity_price_indices": 94.37
+          },
+          {
+            "commodity": "Energy",
+            "date": "2008",
+            "commodity_price_indices": 129.03
+          },
+          {
+            "commodity": "Energy",
+            "date": "2009",
+            "commodity_price_indices": 79.36
+          },
+          {
+            "commodity": "Energy",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Energy",
+            "date": "2011",
+            "commodity_price_indices": 135.22
+          },
+          {
+            "commodity": "Energy",
+            "date": "2012",
+            "commodity_price_indices": 134.12
+          },
+          {
+            "commodity": "Energy",
+            "date": "2013",
+            "commodity_price_indices": 131.65
+          },
+          {
+            "commodity": "Energy",
+            "date": "2014",
+            "commodity_price_indices": 120.4
+          },
+          {
+            "commodity": "Energy",
+            "date": "2015",
+            "commodity_price_indices": 66.1
+          },
+          {
+            "commodity": "Energy",
+            "date": "2016",
+            "commodity_price_indices": 56.02
+          },
+          {
+            "commodity": "Energy",
+            "date": "2017",
+            "commodity_price_indices": 69.36
+          },
+          {
+            "commodity": "Energy",
+            "date": "2018",
+            "commodity_price_indices": 89.36
+          },
+          {
+            "commodity": "Energy",
+            "date": "2019",
+            "commodity_price_indices": 78.25
+          },
+          {
+            "commodity": "Energy",
+            "date": "2020",
+            "commodity_price_indices": 52.68
+          },
+          {
+            "commodity": "Energy",
+            "date": "2021",
+            "commodity_price_indices": 95.38
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1960",
+            "commodity_price_indices": 18.51
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1961",
+            "commodity_price_indices": 18.48
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1962",
+            "commodity_price_indices": 18.23
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1963",
+            "commodity_price_indices": 19.24
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1964",
+            "commodity_price_indices": 20.07
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1965",
+            "commodity_price_indices": 20.37
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1966",
+            "commodity_price_indices": 21.17
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1967",
+            "commodity_price_indices": 20.38
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1968",
+            "commodity_price_indices": 19.95
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1969",
+            "commodity_price_indices": 21.03
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1970",
+            "commodity_price_indices": 22.06
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1971",
+            "commodity_price_indices": 21.58
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1972",
+            "commodity_price_indices": 22.54
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1973",
+            "commodity_price_indices": 35.17
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1974",
+            "commodity_price_indices": 47.39
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1975",
+            "commodity_price_indices": 38.61
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1976",
+            "commodity_price_indices": 40.22
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1977",
+            "commodity_price_indices": 46.73
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1978",
+            "commodity_price_indices": 47.14
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1979",
+            "commodity_price_indices": 54.84
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1980",
+            "commodity_price_indices": 60
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1981",
+            "commodity_price_indices": 52.49
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1982",
+            "commodity_price_indices": 44.6
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1983",
+            "commodity_price_indices": 49.12
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1984",
+            "commodity_price_indices": 49.9
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1985",
+            "commodity_price_indices": 42.67
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1986",
+            "commodity_price_indices": 41
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1987",
+            "commodity_price_indices": 44.59
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1988",
+            "commodity_price_indices": 55.94
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1989",
+            "commodity_price_indices": 54.74
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1990",
+            "commodity_price_indices": 51.25
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1991",
+            "commodity_price_indices": 48.79
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1992",
+            "commodity_price_indices": 47.89
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1993",
+            "commodity_price_indices": 48.41
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1994",
+            "commodity_price_indices": 54.87
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1995",
+            "commodity_price_indices": 59.57
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1996",
+            "commodity_price_indices": 58.49
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1997",
+            "commodity_price_indices": 57.12
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1998",
+            "commodity_price_indices": 49.03
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "1999",
+            "commodity_price_indices": 44.56
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2000",
+            "commodity_price_indices": 45.05
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2001",
+            "commodity_price_indices": 42.63
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2002",
+            "commodity_price_indices": 44.52
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2003",
+            "commodity_price_indices": 48.76
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2004",
+            "commodity_price_indices": 56.6
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2005",
+            "commodity_price_indices": 61.29
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2006",
+            "commodity_price_indices": 75.56
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2007",
+            "commodity_price_indices": 89.82
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2008",
+            "commodity_price_indices": 105.72
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2009",
+            "commodity_price_indices": 83.94
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2011",
+            "commodity_price_indices": 119.56
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2012",
+            "commodity_price_indices": 109.51
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2013",
+            "commodity_price_indices": 101.29
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2014",
+            "commodity_price_indices": 96.47
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2015",
+            "commodity_price_indices": 81.62
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2016",
+            "commodity_price_indices": 79.36
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2017",
+            "commodity_price_indices": 83.73
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2018",
+            "commodity_price_indices": 85.13
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2019",
+            "commodity_price_indices": 81.56
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2020",
+            "commodity_price_indices": 84.07
+          },
+          {
+            "commodity": "Non-energy",
+            "date": "2021",
+            "commodity_price_indices": 111.73
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1960",
+            "commodity_price_indices": 21.66
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1961",
+            "commodity_price_indices": 21.77
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1962",
+            "commodity_price_indices": 21.48
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1963",
+            "commodity_price_indices": 22.99
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1964",
+            "commodity_price_indices": 23
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1965",
+            "commodity_price_indices": 22.48
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1966",
+            "commodity_price_indices": 23.34
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1967",
+            "commodity_price_indices": 23.25
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1968",
+            "commodity_price_indices": 22.38
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1969",
+            "commodity_price_indices": 23.17
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1970",
+            "commodity_price_indices": 24.65
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1971",
+            "commodity_price_indices": 24.63
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1972",
+            "commodity_price_indices": 26.1
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1973",
+            "commodity_price_indices": 42.7
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1974",
+            "commodity_price_indices": 56.19
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1975",
+            "commodity_price_indices": 45.36
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1976",
+            "commodity_price_indices": 48.27
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1977",
+            "commodity_price_indices": 56.3
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1978",
+            "commodity_price_indices": 55.9
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1979",
+            "commodity_price_indices": 63.33
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1980",
+            "commodity_price_indices": 68.76
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1981",
+            "commodity_price_indices": 61.71
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1982",
+            "commodity_price_indices": 52.66
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1983",
+            "commodity_price_indices": 57.09
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1984",
+            "commodity_price_indices": 59.75
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1985",
+            "commodity_price_indices": 50.2
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1986",
+            "commodity_price_indices": 47.93
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1987",
+            "commodity_price_indices": 49.59
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1988",
+            "commodity_price_indices": 56.82
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1989",
+            "commodity_price_indices": 57.45
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1990",
+            "commodity_price_indices": 55.05
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1991",
+            "commodity_price_indices": 54.32
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1992",
+            "commodity_price_indices": 53.73
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1993",
+            "commodity_price_indices": 57.34
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1994",
+            "commodity_price_indices": 64.03
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1995",
+            "commodity_price_indices": 66.87
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1996",
+            "commodity_price_indices": 68.27
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1997",
+            "commodity_price_indices": 65.86
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1998",
+            "commodity_price_indices": 57.32
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "1999",
+            "commodity_price_indices": 50.64
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2000",
+            "commodity_price_indices": 48.86
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2001",
+            "commodity_price_indices": 47.08
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2002",
+            "commodity_price_indices": 50.63
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2003",
+            "commodity_price_indices": 54.94
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2004",
+            "commodity_price_indices": 60.52
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2005",
+            "commodity_price_indices": 62
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2006",
+            "commodity_price_indices": 68.38
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2007",
+            "commodity_price_indices": 81.25
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2008",
+            "commodity_price_indices": 102.75
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2009",
+            "commodity_price_indices": 89.51
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2011",
+            "commodity_price_indices": 121.52
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2012",
+            "commodity_price_indices": 114.29
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2013",
+            "commodity_price_indices": 105.68
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2014",
+            "commodity_price_indices": 101.88
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2015",
+            "commodity_price_indices": 87.86
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2016",
+            "commodity_price_indices": 87.45
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2017",
+            "commodity_price_indices": 86.95
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2018",
+            "commodity_price_indices": 86.56
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2019",
+            "commodity_price_indices": 83.13
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2020",
+            "commodity_price_indices": 87.08
+          },
+          {
+            "commodity": "Agriculture",
+            "date": "2021",
+            "commodity_price_indices": 108.31
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1960",
+            "commodity_price_indices": 24.76
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1961",
+            "commodity_price_indices": 22.61
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1962",
+            "commodity_price_indices": 22.05
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1963",
+            "commodity_price_indices": 22.48
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1964",
+            "commodity_price_indices": 24.4
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1965",
+            "commodity_price_indices": 22.49
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1966",
+            "commodity_price_indices": 23.28
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1967",
+            "commodity_price_indices": 23.46
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1968",
+            "commodity_price_indices": 24.44
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1969",
+            "commodity_price_indices": 26.37
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1970",
+            "commodity_price_indices": 27.69
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1971",
+            "commodity_price_indices": 24.99
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1972",
+            "commodity_price_indices": 27.17
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1973",
+            "commodity_price_indices": 35.72
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1974",
+            "commodity_price_indices": 44.37
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1975",
+            "commodity_price_indices": 41.17
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1976",
+            "commodity_price_indices": 73.35
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1977",
+            "commodity_price_indices": 127.34
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1978",
+            "commodity_price_indices": 96.83
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1979",
+            "commodity_price_indices": 100.35
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1980",
+            "commodity_price_indices": 87.86
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1981",
+            "commodity_price_indices": 69.89
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1982",
+            "commodity_price_indices": 69.14
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1983",
+            "commodity_price_indices": 77.29
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1984",
+            "commodity_price_indices": 88.46
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1985",
+            "commodity_price_indices": 78.96
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1986",
+            "commodity_price_indices": 88.44
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1987",
+            "commodity_price_indices": 67
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1988",
+            "commodity_price_indices": 65.16
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1989",
+            "commodity_price_indices": 54.84
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1990",
+            "commodity_price_indices": 50.4
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1991",
+            "commodity_price_indices": 45.8
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1992",
+            "commodity_price_indices": 39.68
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1993",
+            "commodity_price_indices": 42.41
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1994",
+            "commodity_price_indices": 67.77
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1995",
+            "commodity_price_indices": 69.24
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1996",
+            "commodity_price_indices": 59.77
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1997",
+            "commodity_price_indices": 75.94
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1998",
+            "commodity_price_indices": 67.18
+          },
+          {
+            "commodity": "Beverages",
+            "date": "1999",
+            "commodity_price_indices": 51.93
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2000",
+            "commodity_price_indices": 43.1
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2001",
+            "commodity_price_indices": 37.07
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2002",
+            "commodity_price_indices": 45.03
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2003",
+            "commodity_price_indices": 46.13
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2004",
+            "commodity_price_indices": 47.64
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2005",
+            "commodity_price_indices": 55.39
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2006",
+            "commodity_price_indices": 59.43
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2007",
+            "commodity_price_indices": 68.72
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2008",
+            "commodity_price_indices": 83.7
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2009",
+            "commodity_price_indices": 86.1
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2011",
+            "commodity_price_indices": 115.97
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2012",
+            "commodity_price_indices": 92.63
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2013",
+            "commodity_price_indices": 83.3
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2014",
+            "commodity_price_indices": 101.77
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2015",
+            "commodity_price_indices": 93.95
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2016",
+            "commodity_price_indices": 91.29
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2017",
+            "commodity_price_indices": 83.11
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2018",
+            "commodity_price_indices": 79.08
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2019",
+            "commodity_price_indices": 76.13
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2020",
+            "commodity_price_indices": 80.38
+          },
+          {
+            "commodity": "Beverages",
+            "date": "2021",
+            "commodity_price_indices": 93.49
+          },
+          {
+            "commodity": "Food",
+            "date": "1960",
+            "commodity_price_indices": 20.83
+          },
+          {
+            "commodity": "Food",
+            "date": "1961",
+            "commodity_price_indices": 22.02
+          },
+          {
+            "commodity": "Food",
+            "date": "1962",
+            "commodity_price_indices": 21.8
+          },
+          {
+            "commodity": "Food",
+            "date": "1963",
+            "commodity_price_indices": 24.41
+          },
+          {
+            "commodity": "Food",
+            "date": "1964",
+            "commodity_price_indices": 24.25
+          },
+          {
+            "commodity": "Food",
+            "date": "1965",
+            "commodity_price_indices": 23.76
+          },
+          {
+            "commodity": "Food",
+            "date": "1966",
+            "commodity_price_indices": 24.58
+          },
+          {
+            "commodity": "Food",
+            "date": "1967",
+            "commodity_price_indices": 24.7
+          },
+          {
+            "commodity": "Food",
+            "date": "1968",
+            "commodity_price_indices": 23.17
+          },
+          {
+            "commodity": "Food",
+            "date": "1969",
+            "commodity_price_indices": 24.05
+          },
+          {
+            "commodity": "Food",
+            "date": "1970",
+            "commodity_price_indices": 26.09
+          },
+          {
+            "commodity": "Food",
+            "date": "1971",
+            "commodity_price_indices": 26.62
+          },
+          {
+            "commodity": "Food",
+            "date": "1972",
+            "commodity_price_indices": 28.55
+          },
+          {
+            "commodity": "Food",
+            "date": "1973",
+            "commodity_price_indices": 50.03
+          },
+          {
+            "commodity": "Food",
+            "date": "1974",
+            "commodity_price_indices": 68.61
+          },
+          {
+            "commodity": "Food",
+            "date": "1975",
+            "commodity_price_indices": 52.95
+          },
+          {
+            "commodity": "Food",
+            "date": "1976",
+            "commodity_price_indices": 47.61
+          },
+          {
+            "commodity": "Food",
+            "date": "1977",
+            "commodity_price_indices": 49.35
+          },
+          {
+            "commodity": "Food",
+            "date": "1978",
+            "commodity_price_indices": 54.47
+          },
+          {
+            "commodity": "Food",
+            "date": "1979",
+            "commodity_price_indices": 61.68
+          },
+          {
+            "commodity": "Food",
+            "date": "1980",
+            "commodity_price_indices": 70.99
+          },
+          {
+            "commodity": "Food",
+            "date": "1981",
+            "commodity_price_indices": 66.05
+          },
+          {
+            "commodity": "Food",
+            "date": "1982",
+            "commodity_price_indices": 52.8
+          },
+          {
+            "commodity": "Food",
+            "date": "1983",
+            "commodity_price_indices": 57.47
+          },
+          {
+            "commodity": "Food",
+            "date": "1984",
+            "commodity_price_indices": 58.89
+          },
+          {
+            "commodity": "Food",
+            "date": "1985",
+            "commodity_price_indices": 48.61
+          },
+          {
+            "commodity": "Food",
+            "date": "1986",
+            "commodity_price_indices": 42.58
+          },
+          {
+            "commodity": "Food",
+            "date": "1987",
+            "commodity_price_indices": 45.45
+          },
+          {
+            "commodity": "Food",
+            "date": "1988",
+            "commodity_price_indices": 57.93
+          },
+          {
+            "commodity": "Food",
+            "date": "1989",
+            "commodity_price_indices": 58.69
+          },
+          {
+            "commodity": "Food",
+            "date": "1990",
+            "commodity_price_indices": 54.68
+          },
+          {
+            "commodity": "Food",
+            "date": "1991",
+            "commodity_price_indices": 54.1
+          },
+          {
+            "commodity": "Food",
+            "date": "1992",
+            "commodity_price_indices": 53.87
+          },
+          {
+            "commodity": "Food",
+            "date": "1993",
+            "commodity_price_indices": 54.12
+          },
+          {
+            "commodity": "Food",
+            "date": "1994",
+            "commodity_price_indices": 58.14
+          },
+          {
+            "commodity": "Food",
+            "date": "1995",
+            "commodity_price_indices": 63
+          },
+          {
+            "commodity": "Food",
+            "date": "1996",
+            "commodity_price_indices": 67.96
+          },
+          {
+            "commodity": "Food",
+            "date": "1997",
+            "commodity_price_indices": 62.81
+          },
+          {
+            "commodity": "Food",
+            "date": "1998",
+            "commodity_price_indices": 57.3
+          },
+          {
+            "commodity": "Food",
+            "date": "1999",
+            "commodity_price_indices": 48.14
+          },
+          {
+            "commodity": "Food",
+            "date": "2000",
+            "commodity_price_indices": 46.88
+          },
+          {
+            "commodity": "Food",
+            "date": "2001",
+            "commodity_price_indices": 48.73
+          },
+          {
+            "commodity": "Food",
+            "date": "2002",
+            "commodity_price_indices": 51.8
+          },
+          {
+            "commodity": "Food",
+            "date": "2003",
+            "commodity_price_indices": 56.19
+          },
+          {
+            "commodity": "Food",
+            "date": "2004",
+            "commodity_price_indices": 63.59
+          },
+          {
+            "commodity": "Food",
+            "date": "2005",
+            "commodity_price_indices": 62.46
+          },
+          {
+            "commodity": "Food",
+            "date": "2006",
+            "commodity_price_indices": 67.74
+          },
+          {
+            "commodity": "Food",
+            "date": "2007",
+            "commodity_price_indices": 83.87
+          },
+          {
+            "commodity": "Food",
+            "date": "2008",
+            "commodity_price_indices": 111.98
+          },
+          {
+            "commodity": "Food",
+            "date": "2009",
+            "commodity_price_indices": 92.99
+          },
+          {
+            "commodity": "Food",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Food",
+            "date": "2011",
+            "commodity_price_indices": 122.47
+          },
+          {
+            "commodity": "Food",
+            "date": "2012",
+            "commodity_price_indices": 124.15
+          },
+          {
+            "commodity": "Food",
+            "date": "2013",
+            "commodity_price_indices": 114.59
+          },
+          {
+            "commodity": "Food",
+            "date": "2014",
+            "commodity_price_indices": 106.02
+          },
+          {
+            "commodity": "Food",
+            "date": "2015",
+            "commodity_price_indices": 88.46
+          },
+          {
+            "commodity": "Food",
+            "date": "2016",
+            "commodity_price_indices": 89.63
+          },
+          {
+            "commodity": "Food",
+            "date": "2017",
+            "commodity_price_indices": 90.2
+          },
+          {
+            "commodity": "Food",
+            "date": "2018",
+            "commodity_price_indices": 90.45
+          },
+          {
+            "commodity": "Food",
+            "date": "2019",
+            "commodity_price_indices": 86.98
+          },
+          {
+            "commodity": "Food",
+            "date": "2020",
+            "commodity_price_indices": 93.12
+          },
+          {
+            "commodity": "Food",
+            "date": "2021",
+            "commodity_price_indices": 121.85
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1960",
+            "commodity_price_indices": 22.09
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1961",
+            "commodity_price_indices": 24.9
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1962",
+            "commodity_price_indices": 22.6
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1963",
+            "commodity_price_indices": 23.5
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1964",
+            "commodity_price_indices": 24.18
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1965",
+            "commodity_price_indices": 26.78
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1966",
+            "commodity_price_indices": 26.49
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1967",
+            "commodity_price_indices": 24.35
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1968",
+            "commodity_price_indices": 21.88
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1969",
+            "commodity_price_indices": 22.2
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1970",
+            "commodity_price_indices": 27.19
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1971",
+            "commodity_price_indices": 27.94
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1972",
+            "commodity_price_indices": 27.93
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1973",
+            "commodity_price_indices": 56.27
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1974",
+            "commodity_price_indices": 64.78
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1975",
+            "commodity_price_indices": 46.52
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1976",
+            "commodity_price_indices": 47.36
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1977",
+            "commodity_price_indices": 58.59
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1978",
+            "commodity_price_indices": 60.21
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1979",
+            "commodity_price_indices": 66.68
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1980",
+            "commodity_price_indices": 63.85
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1981",
+            "commodity_price_indices": 61.26
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1982",
+            "commodity_price_indices": 50.55
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1983",
+            "commodity_price_indices": 57.7
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1984",
+            "commodity_price_indices": 66.75
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1985",
+            "commodity_price_indices": 49.8
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1986",
+            "commodity_price_indices": 38.39
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1987",
+            "commodity_price_indices": 42.93
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1988",
+            "commodity_price_indices": 57.27
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1989",
+            "commodity_price_indices": 51.4
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1990",
+            "commodity_price_indices": 44.84
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1991",
+            "commodity_price_indices": 46.05
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1992",
+            "commodity_price_indices": 47.57
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1993",
+            "commodity_price_indices": 48.97
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1994",
+            "commodity_price_indices": 55.39
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1995",
+            "commodity_price_indices": 59.55
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1996",
+            "commodity_price_indices": 62.64
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1997",
+            "commodity_price_indices": 63.29
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1998",
+            "commodity_price_indices": 58.12
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "1999",
+            "commodity_price_indices": 45.34
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2000",
+            "commodity_price_indices": 42.29
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2001",
+            "commodity_price_indices": 40.57
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2002",
+            "commodity_price_indices": 46.52
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2003",
+            "commodity_price_indices": 56.28
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2004",
+            "commodity_price_indices": 62.62
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2005",
+            "commodity_price_indices": 56.44
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2006",
+            "commodity_price_indices": 57.74
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2007",
+            "commodity_price_indices": 85.57
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2008",
+            "commodity_price_indices": 115.71
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2009",
+            "commodity_price_indices": 91.05
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2011",
+            "commodity_price_indices": 120.54
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2012",
+            "commodity_price_indices": 125.35
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2013",
+            "commodity_price_indices": 114.34
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2014",
+            "commodity_price_indices": 106.35
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2015",
+            "commodity_price_indices": 84.36
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2016",
+            "commodity_price_indices": 88.27
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2017",
+            "commodity_price_indices": 87.57
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2018",
+            "commodity_price_indices": 85.01
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2019",
+            "commodity_price_indices": 77.46
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2020",
+            "commodity_price_indices": 89.79
+          },
+          {
+            "commodity": "Oils & Meals",
+            "date": "2021",
+            "commodity_price_indices": 127.1
+          },
+          {
+            "commodity": "Grains",
+            "date": "1960",
+            "commodity_price_indices": 23.43
+          },
+          {
+            "commodity": "Grains",
+            "date": "1961",
+            "commodity_price_indices": 24.33
+          },
+          {
+            "commodity": "Grains",
+            "date": "1962",
+            "commodity_price_indices": 26.82
+          },
+          {
+            "commodity": "Grains",
+            "date": "1963",
+            "commodity_price_indices": 27.42
+          },
+          {
+            "commodity": "Grains",
+            "date": "1964",
+            "commodity_price_indices": 27.64
+          },
+          {
+            "commodity": "Grains",
+            "date": "1965",
+            "commodity_price_indices": 26.85
+          },
+          {
+            "commodity": "Grains",
+            "date": "1966",
+            "commodity_price_indices": 29.49
+          },
+          {
+            "commodity": "Grains",
+            "date": "1967",
+            "commodity_price_indices": 31.62
+          },
+          {
+            "commodity": "Grains",
+            "date": "1968",
+            "commodity_price_indices": 29.51
+          },
+          {
+            "commodity": "Grains",
+            "date": "1969",
+            "commodity_price_indices": 29.08
+          },
+          {
+            "commodity": "Grains",
+            "date": "1970",
+            "commodity_price_indices": 27.45
+          },
+          {
+            "commodity": "Grains",
+            "date": "1971",
+            "commodity_price_indices": 27.35
+          },
+          {
+            "commodity": "Grains",
+            "date": "1972",
+            "commodity_price_indices": 28.83
+          },
+          {
+            "commodity": "Grains",
+            "date": "1973",
+            "commodity_price_indices": 56.36
+          },
+          {
+            "commodity": "Grains",
+            "date": "1974",
+            "commodity_price_indices": 82.58
+          },
+          {
+            "commodity": "Grains",
+            "date": "1975",
+            "commodity_price_indices": 65.58
+          },
+          {
+            "commodity": "Grains",
+            "date": "1976",
+            "commodity_price_indices": 55.5
+          },
+          {
+            "commodity": "Grains",
+            "date": "1977",
+            "commodity_price_indices": 49.3
+          },
+          {
+            "commodity": "Grains",
+            "date": "1978",
+            "commodity_price_indices": 59.19
+          },
+          {
+            "commodity": "Grains",
+            "date": "1979",
+            "commodity_price_indices": 64.35
+          },
+          {
+            "commodity": "Grains",
+            "date": "1980",
+            "commodity_price_indices": 74.22
+          },
+          {
+            "commodity": "Grains",
+            "date": "1981",
+            "commodity_price_indices": 78.7
+          },
+          {
+            "commodity": "Grains",
+            "date": "1982",
+            "commodity_price_indices": 60.43
+          },
+          {
+            "commodity": "Grains",
+            "date": "1983",
+            "commodity_price_indices": 65.18
+          },
+          {
+            "commodity": "Grains",
+            "date": "1984",
+            "commodity_price_indices": 63.27
+          },
+          {
+            "commodity": "Grains",
+            "date": "1985",
+            "commodity_price_indices": 53.54
+          },
+          {
+            "commodity": "Grains",
+            "date": "1986",
+            "commodity_price_indices": 44.83
+          },
+          {
+            "commodity": "Grains",
+            "date": "1987",
+            "commodity_price_indices": 43.92
+          },
+          {
+            "commodity": "Grains",
+            "date": "1988",
+            "commodity_price_indices": 58.67
+          },
+          {
+            "commodity": "Grains",
+            "date": "1989",
+            "commodity_price_indices": 63.85
+          },
+          {
+            "commodity": "Grains",
+            "date": "1990",
+            "commodity_price_indices": 57.91
+          },
+          {
+            "commodity": "Grains",
+            "date": "1991",
+            "commodity_price_indices": 58.08
+          },
+          {
+            "commodity": "Grains",
+            "date": "1992",
+            "commodity_price_indices": 58.39
+          },
+          {
+            "commodity": "Grains",
+            "date": "1993",
+            "commodity_price_indices": 54.48
+          },
+          {
+            "commodity": "Grains",
+            "date": "1994",
+            "commodity_price_indices": 58.77
+          },
+          {
+            "commodity": "Grains",
+            "date": "1995",
+            "commodity_price_indices": 69.38
+          },
+          {
+            "commodity": "Grains",
+            "date": "1996",
+            "commodity_price_indices": 83.61
+          },
+          {
+            "commodity": "Grains",
+            "date": "1997",
+            "commodity_price_indices": 64.76
+          },
+          {
+            "commodity": "Grains",
+            "date": "1998",
+            "commodity_price_indices": 57.43
+          },
+          {
+            "commodity": "Grains",
+            "date": "1999",
+            "commodity_price_indices": 49.59
+          },
+          {
+            "commodity": "Grains",
+            "date": "2000",
+            "commodity_price_indices": 46.65
+          },
+          {
+            "commodity": "Grains",
+            "date": "2001",
+            "commodity_price_indices": 46.89
+          },
+          {
+            "commodity": "Grains",
+            "date": "2002",
+            "commodity_price_indices": 52.94
+          },
+          {
+            "commodity": "Grains",
+            "date": "2003",
+            "commodity_price_indices": 54.32
+          },
+          {
+            "commodity": "Grains",
+            "date": "2004",
+            "commodity_price_indices": 59.28
+          },
+          {
+            "commodity": "Grains",
+            "date": "2005",
+            "commodity_price_indices": 58.79
+          },
+          {
+            "commodity": "Grains",
+            "date": "2006",
+            "commodity_price_indices": 70.02
+          },
+          {
+            "commodity": "Grains",
+            "date": "2007",
+            "commodity_price_indices": 88.98
+          },
+          {
+            "commodity": "Grains",
+            "date": "2008",
+            "commodity_price_indices": 130.69
+          },
+          {
+            "commodity": "Grains",
+            "date": "2009",
+            "commodity_price_indices": 98.95
+          },
+          {
+            "commodity": "Grains",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Grains",
+            "date": "2011",
+            "commodity_price_indices": 138.19
+          },
+          {
+            "commodity": "Grains",
+            "date": "2012",
+            "commodity_price_indices": 141.34
+          },
+          {
+            "commodity": "Grains",
+            "date": "2013",
+            "commodity_price_indices": 128.25
+          },
+          {
+            "commodity": "Grains",
+            "date": "2014",
+            "commodity_price_indices": 104.08
+          },
+          {
+            "commodity": "Grains",
+            "date": "2015",
+            "commodity_price_indices": 87.06
+          },
+          {
+            "commodity": "Grains",
+            "date": "2016",
+            "commodity_price_indices": 80.69
+          },
+          {
+            "commodity": "Grains",
+            "date": "2017",
+            "commodity_price_indices": 80.55
+          },
+          {
+            "commodity": "Grains",
+            "date": "2018",
+            "commodity_price_indices": 88.76
+          },
+          {
+            "commodity": "Grains",
+            "date": "2019",
+            "commodity_price_indices": 88.96
+          },
+          {
+            "commodity": "Grains",
+            "date": "2020",
+            "commodity_price_indices": 95.35
+          },
+          {
+            "commodity": "Grains",
+            "date": "2021",
+            "commodity_price_indices": 123.82
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1960",
+            "commodity_price_indices": 16.82
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1961",
+            "commodity_price_indices": 16.13
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1962",
+            "commodity_price_indices": 16.21
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1963",
+            "commodity_price_indices": 22.91
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1964",
+            "commodity_price_indices": 21.27
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1965",
+            "commodity_price_indices": 17
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1966",
+            "commodity_price_indices": 17.62
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1967",
+            "commodity_price_indices": 18.88
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1968",
+            "commodity_price_indices": 19.14
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1969",
+            "commodity_price_indices": 21.94
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1970",
+            "commodity_price_indices": 23.42
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1971",
+            "commodity_price_indices": 24.23
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1972",
+            "commodity_price_indices": 29.12
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1973",
+            "commodity_price_indices": 36.1
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1974",
+            "commodity_price_indices": 61
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1975",
+            "commodity_price_indices": 49.97
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1976",
+            "commodity_price_indices": 40.8
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1977",
+            "commodity_price_indices": 37.24
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1978",
+            "commodity_price_indices": 42.64
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1979",
+            "commodity_price_indices": 52.68
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1980",
+            "commodity_price_indices": 77.46
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1981",
+            "commodity_price_indices": 60.9
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1982",
+            "commodity_price_indices": 48.84
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1983",
+            "commodity_price_indices": 50.19
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1984",
+            "commodity_price_indices": 44.6
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1985",
+            "commodity_price_indices": 42.57
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1986",
+            "commodity_price_indices": 46.07
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1987",
+            "commodity_price_indices": 50.15
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1988",
+            "commodity_price_indices": 58.15
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1989",
+            "commodity_price_indices": 63.63
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1990",
+            "commodity_price_indices": 64.71
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1991",
+            "commodity_price_indices": 61.09
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1992",
+            "commodity_price_indices": 58.08
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1993",
+            "commodity_price_indices": 60.58
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1994",
+            "commodity_price_indices": 61.19
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1995",
+            "commodity_price_indices": 61.75
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1996",
+            "commodity_price_indices": 60.81
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1997",
+            "commodity_price_indices": 60.4
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1998",
+            "commodity_price_indices": 56.09
+          },
+          {
+            "commodity": "Other Food",
+            "date": "1999",
+            "commodity_price_indices": 50.5
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2000",
+            "commodity_price_indices": 53.15
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2001",
+            "commodity_price_indices": 61.14
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2002",
+            "commodity_price_indices": 57.71
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2003",
+            "commodity_price_indices": 57.75
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2004",
+            "commodity_price_indices": 68.78
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2005",
+            "commodity_price_indices": 73.71
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2006",
+            "commodity_price_indices": 78.82
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2007",
+            "commodity_price_indices": 77
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2008",
+            "commodity_price_indices": 90.15
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2009",
+            "commodity_price_indices": 90.15
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2011",
+            "commodity_price_indices": 110.77
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2012",
+            "commodity_price_indices": 107.02
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2013",
+            "commodity_price_indices": 102.56
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2014",
+            "commodity_price_indices": 107.33
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2015",
+            "commodity_price_indices": 95.13
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2016",
+            "commodity_price_indices": 99.5
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2017",
+            "commodity_price_indices": 102.41
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2018",
+            "commodity_price_indices": 99.13
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2019",
+            "commodity_price_indices": 97.71
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2020",
+            "commodity_price_indices": 95.49
+          },
+          {
+            "commodity": "Other Food",
+            "date": "2021",
+            "commodity_price_indices": 113.14
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1960",
+            "commodity_price_indices": 22.11
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1961",
+            "commodity_price_indices": 20.74
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1962",
+            "commodity_price_indices": 20.42
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1963",
+            "commodity_price_indices": 19.8
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1964",
+            "commodity_price_indices": 19.26
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1965",
+            "commodity_price_indices": 19.34
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1966",
+            "commodity_price_indices": 20.34
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1967",
+            "commodity_price_indices": 19.62
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1968",
+            "commodity_price_indices": 19.42
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1969",
+            "commodity_price_indices": 19.39
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1970",
+            "commodity_price_indices": 19.58
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1971",
+            "commodity_price_indices": 19.59
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1972",
+            "commodity_price_indices": 19.59
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1973",
+            "commodity_price_indices": 28.43
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1974",
+            "commodity_price_indices": 32.03
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1975",
+            "commodity_price_indices": 29.07
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1976",
+            "commodity_price_indices": 37.11
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1977",
+            "commodity_price_indices": 37.05
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1978",
+            "commodity_price_indices": 38.57
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1979",
+            "commodity_price_indices": 48.53
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1980",
+            "commodity_price_indices": 53.64
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1981",
+            "commodity_price_indices": 47.02
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1982",
+            "commodity_price_indices": 43.93
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1983",
+            "commodity_price_indices": 45.91
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1984",
+            "commodity_price_indices": 47.23
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1985",
+            "commodity_price_indices": 39.47
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1986",
+            "commodity_price_indices": 40.32
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1987",
+            "commodity_price_indices": 50.81
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1988",
+            "commodity_price_indices": 49.88
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1989",
+            "commodity_price_indices": 55.75
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1990",
+            "commodity_price_indices": 58.31
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1991",
+            "commodity_price_indices": 59.2
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1992",
+            "commodity_price_indices": 60.54
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1993",
+            "commodity_price_indices": 72.73
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1994",
+            "commodity_price_indices": 76.46
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1995",
+            "commodity_price_indices": 75.08
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1996",
+            "commodity_price_indices": 73.33
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1997",
+            "commodity_price_indices": 68.15
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1998",
+            "commodity_price_indices": 52.36
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "1999",
+            "commodity_price_indices": 56.07
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2000",
+            "commodity_price_indices": 56.6
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2001",
+            "commodity_price_indices": 48.15
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2002",
+            "commodity_price_indices": 50.65
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2003",
+            "commodity_price_indices": 56.38
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2004",
+            "commodity_price_indices": 59.59
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2005",
+            "commodity_price_indices": 64.23
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2006",
+            "commodity_price_indices": 74.48
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2007",
+            "commodity_price_indices": 81.28
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2008",
+            "commodity_price_indices": 90.02
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2009",
+            "commodity_price_indices": 82.79
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2011",
+            "commodity_price_indices": 122.04
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2012",
+            "commodity_price_indices": 101.34
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2013",
+            "commodity_price_indices": 95.41
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2014",
+            "commodity_price_indices": 91.91
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2015",
+            "commodity_price_indices": 83.29
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2016",
+            "commodity_price_indices": 80.2
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2017",
+            "commodity_price_indices": 81
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2018",
+            "commodity_price_indices": 80.9
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2019",
+            "commodity_price_indices": 77.34
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2020",
+            "commodity_price_indices": 75.79
+          },
+          {
+            "commodity": "Raw Materials",
+            "date": "2021",
+            "commodity_price_indices": 82.95
+          },
+          {
+            "commodity": "Timber",
+            "date": "1960",
+            "commodity_price_indices": 16.24
+          },
+          {
+            "commodity": "Timber",
+            "date": "1961",
+            "commodity_price_indices": 16.59
+          },
+          {
+            "commodity": "Timber",
+            "date": "1962",
+            "commodity_price_indices": 17.59
+          },
+          {
+            "commodity": "Timber",
+            "date": "1963",
+            "commodity_price_indices": 17.32
+          },
+          {
+            "commodity": "Timber",
+            "date": "1964",
+            "commodity_price_indices": 15.71
+          },
+          {
+            "commodity": "Timber",
+            "date": "1965",
+            "commodity_price_indices": 17.18
+          },
+          {
+            "commodity": "Timber",
+            "date": "1966",
+            "commodity_price_indices": 17.72
+          },
+          {
+            "commodity": "Timber",
+            "date": "1967",
+            "commodity_price_indices": 18.45
+          },
+          {
+            "commodity": "Timber",
+            "date": "1968",
+            "commodity_price_indices": 18.66
+          },
+          {
+            "commodity": "Timber",
+            "date": "1969",
+            "commodity_price_indices": 18.33
+          },
+          {
+            "commodity": "Timber",
+            "date": "1970",
+            "commodity_price_indices": 19.54
+          },
+          {
+            "commodity": "Timber",
+            "date": "1971",
+            "commodity_price_indices": 19.58
+          },
+          {
+            "commodity": "Timber",
+            "date": "1972",
+            "commodity_price_indices": 18.97
+          },
+          {
+            "commodity": "Timber",
+            "date": "1973",
+            "commodity_price_indices": 25.93
+          },
+          {
+            "commodity": "Timber",
+            "date": "1974",
+            "commodity_price_indices": 29.16
+          },
+          {
+            "commodity": "Timber",
+            "date": "1975",
+            "commodity_price_indices": 25.88
+          },
+          {
+            "commodity": "Timber",
+            "date": "1976",
+            "commodity_price_indices": 31.51
+          },
+          {
+            "commodity": "Timber",
+            "date": "1977",
+            "commodity_price_indices": 31.69
+          },
+          {
+            "commodity": "Timber",
+            "date": "1978",
+            "commodity_price_indices": 32.74
+          },
+          {
+            "commodity": "Timber",
+            "date": "1979",
+            "commodity_price_indices": 47.11
+          },
+          {
+            "commodity": "Timber",
+            "date": "1980",
+            "commodity_price_indices": 51.91
+          },
+          {
+            "commodity": "Timber",
+            "date": "1981",
+            "commodity_price_indices": 44.36
+          },
+          {
+            "commodity": "Timber",
+            "date": "1982",
+            "commodity_price_indices": 42.8
+          },
+          {
+            "commodity": "Timber",
+            "date": "1983",
+            "commodity_price_indices": 41.07
+          },
+          {
+            "commodity": "Timber",
+            "date": "1984",
+            "commodity_price_indices": 44.74
+          },
+          {
+            "commodity": "Timber",
+            "date": "1985",
+            "commodity_price_indices": 37.87
+          },
+          {
+            "commodity": "Timber",
+            "date": "1986",
+            "commodity_price_indices": 41.25
+          },
+          {
+            "commodity": "Timber",
+            "date": "1987",
+            "commodity_price_indices": 52.87
+          },
+          {
+            "commodity": "Timber",
+            "date": "1988",
+            "commodity_price_indices": 52.9
+          },
+          {
+            "commodity": "Timber",
+            "date": "1989",
+            "commodity_price_indices": 59.7
+          },
+          {
+            "commodity": "Timber",
+            "date": "1990",
+            "commodity_price_indices": 63.03
+          },
+          {
+            "commodity": "Timber",
+            "date": "1991",
+            "commodity_price_indices": 65.95
+          },
+          {
+            "commodity": "Timber",
+            "date": "1992",
+            "commodity_price_indices": 72.41
+          },
+          {
+            "commodity": "Timber",
+            "date": "1993",
+            "commodity_price_indices": 100.58
+          },
+          {
+            "commodity": "Timber",
+            "date": "1994",
+            "commodity_price_indices": 99.83
+          },
+          {
+            "commodity": "Timber",
+            "date": "1995",
+            "commodity_price_indices": 88.26
+          },
+          {
+            "commodity": "Timber",
+            "date": "1996",
+            "commodity_price_indices": 88.11
+          },
+          {
+            "commodity": "Timber",
+            "date": "1997",
+            "commodity_price_indices": 79.95
+          },
+          {
+            "commodity": "Timber",
+            "date": "1998",
+            "commodity_price_indices": 57.36
+          },
+          {
+            "commodity": "Timber",
+            "date": "1999",
+            "commodity_price_indices": 70.04
+          },
+          {
+            "commodity": "Timber",
+            "date": "2000",
+            "commodity_price_indices": 69.7
+          },
+          {
+            "commodity": "Timber",
+            "date": "2001",
+            "commodity_price_indices": 56.84
+          },
+          {
+            "commodity": "Timber",
+            "date": "2002",
+            "commodity_price_indices": 61.36
+          },
+          {
+            "commodity": "Timber",
+            "date": "2003",
+            "commodity_price_indices": 65.47
+          },
+          {
+            "commodity": "Timber",
+            "date": "2004",
+            "commodity_price_indices": 69.05
+          },
+          {
+            "commodity": "Timber",
+            "date": "2005",
+            "commodity_price_indices": 76.69
+          },
+          {
+            "commodity": "Timber",
+            "date": "2006",
+            "commodity_price_indices": 87.84
+          },
+          {
+            "commodity": "Timber",
+            "date": "2007",
+            "commodity_price_indices": 95.34
+          },
+          {
+            "commodity": "Timber",
+            "date": "2008",
+            "commodity_price_indices": 104.87
+          },
+          {
+            "commodity": "Timber",
+            "date": "2009",
+            "commodity_price_indices": 96.79
+          },
+          {
+            "commodity": "Timber",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Timber",
+            "date": "2011",
+            "commodity_price_indices": 117.29
+          },
+          {
+            "commodity": "Timber",
+            "date": "2012",
+            "commodity_price_indices": 109.11
+          },
+          {
+            "commodity": "Timber",
+            "date": "2013",
+            "commodity_price_indices": 102.58
+          },
+          {
+            "commodity": "Timber",
+            "date": "2014",
+            "commodity_price_indices": 104.87
+          },
+          {
+            "commodity": "Timber",
+            "date": "2015",
+            "commodity_price_indices": 96.07
+          },
+          {
+            "commodity": "Timber",
+            "date": "2016",
+            "commodity_price_indices": 89.65
+          },
+          {
+            "commodity": "Timber",
+            "date": "2017",
+            "commodity_price_indices": 85.56
+          },
+          {
+            "commodity": "Timber",
+            "date": "2018",
+            "commodity_price_indices": 88.27
+          },
+          {
+            "commodity": "Timber",
+            "date": "2019",
+            "commodity_price_indices": 85.6
+          },
+          {
+            "commodity": "Timber",
+            "date": "2020",
+            "commodity_price_indices": 86.41
+          },
+          {
+            "commodity": "Timber",
+            "date": "2021",
+            "commodity_price_indices": 90.43
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1960",
+            "commodity_price_indices": 28.53
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1961",
+            "commodity_price_indices": 25.28
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1962",
+            "commodity_price_indices": 23.51
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1963",
+            "commodity_price_indices": 22.52
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1964",
+            "commodity_price_indices": 23.14
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1965",
+            "commodity_price_indices": 21.71
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1966",
+            "commodity_price_indices": 23.21
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1967",
+            "commodity_price_indices": 20.89
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1968",
+            "commodity_price_indices": 20.24
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1969",
+            "commodity_price_indices": 20.55
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1970",
+            "commodity_price_indices": 19.63
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1971",
+            "commodity_price_indices": 19.61
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1972",
+            "commodity_price_indices": 20.28
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1973",
+            "commodity_price_indices": 31.15
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1974",
+            "commodity_price_indices": 35.17
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1975",
+            "commodity_price_indices": 32.56
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1976",
+            "commodity_price_indices": 43.23
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1977",
+            "commodity_price_indices": 42.91
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1978",
+            "commodity_price_indices": 44.95
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1979",
+            "commodity_price_indices": 50.08
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1980",
+            "commodity_price_indices": 55.53
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1981",
+            "commodity_price_indices": 49.92
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1982",
+            "commodity_price_indices": 45.17
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1983",
+            "commodity_price_indices": 51.2
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1984",
+            "commodity_price_indices": 49.95
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1985",
+            "commodity_price_indices": 41.21
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1986",
+            "commodity_price_indices": 39.3
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1987",
+            "commodity_price_indices": 48.55
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1988",
+            "commodity_price_indices": 46.58
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1989",
+            "commodity_price_indices": 51.43
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1990",
+            "commodity_price_indices": 53.14
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1991",
+            "commodity_price_indices": 51.82
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1992",
+            "commodity_price_indices": 47.57
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1993",
+            "commodity_price_indices": 42.28
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1994",
+            "commodity_price_indices": 50.9
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1995",
+            "commodity_price_indices": 60.66
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1996",
+            "commodity_price_indices": 57.17
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1997",
+            "commodity_price_indices": 55.24
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1998",
+            "commodity_price_indices": 46.89
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "1999",
+            "commodity_price_indices": 40.8
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2000",
+            "commodity_price_indices": 42.28
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2001",
+            "commodity_price_indices": 38.65
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2002",
+            "commodity_price_indices": 38.93
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2003",
+            "commodity_price_indices": 46.45
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2004",
+            "commodity_price_indices": 49.24
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2005",
+            "commodity_price_indices": 50.61
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2006",
+            "commodity_price_indices": 59.87
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2007",
+            "commodity_price_indices": 65.9
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2008",
+            "commodity_price_indices": 73.77
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2009",
+            "commodity_price_indices": 67.47
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2011",
+            "commodity_price_indices": 127.24
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2012",
+            "commodity_price_indices": 92.84
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2013",
+            "commodity_price_indices": 87.57
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2014",
+            "commodity_price_indices": 77.73
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2015",
+            "commodity_price_indices": 69.31
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2016",
+            "commodity_price_indices": 69.86
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2017",
+            "commodity_price_indices": 76.01
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2018",
+            "commodity_price_indices": 72.83
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2019",
+            "commodity_price_indices": 68.31
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2020",
+            "commodity_price_indices": 64.18
+          },
+          {
+            "commodity": "OTHERRAWMAT",
+            "date": "2021",
+            "commodity_price_indices": 74.77
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1960",
+            "commodity_price_indices": 12.86
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1961",
+            "commodity_price_indices": 12.9
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1962",
+            "commodity_price_indices": 12.6
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1963",
+            "commodity_price_indices": 12.66
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1964",
+            "commodity_price_indices": 15.64
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1965",
+            "commodity_price_indices": 16.5
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1966",
+            "commodity_price_indices": 15.06
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1967",
+            "commodity_price_indices": 13.07
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1968",
+            "commodity_price_indices": 10.5
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1969",
+            "commodity_price_indices": 9.17
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1970",
+            "commodity_price_indices": 8.69
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1971",
+            "commodity_price_indices": 8.51
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1972",
+            "commodity_price_indices": 11.89
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1973",
+            "commodity_price_indices": 19.69
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1974",
+            "commodity_price_indices": 70.51
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1975",
+            "commodity_price_indices": 51.21
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1976",
+            "commodity_price_indices": 25.99
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1977",
+            "commodity_price_indices": 36.08
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1978",
+            "commodity_price_indices": 33.61
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1979",
+            "commodity_price_indices": 40.51
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1980",
+            "commodity_price_indices": 52.53
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1981",
+            "commodity_price_indices": 49.79
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1982",
+            "commodity_price_indices": 37.52
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1983",
+            "commodity_price_indices": 34.91
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1984",
+            "commodity_price_indices": 39.33
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1985",
+            "commodity_price_indices": 33.67
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1986",
+            "commodity_price_indices": 27.18
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1987",
+            "commodity_price_indices": 29.18
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1988",
+            "commodity_price_indices": 35.56
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1989",
+            "commodity_price_indices": 33.83
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1990",
+            "commodity_price_indices": 34.77
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1991",
+            "commodity_price_indices": 38.85
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1992",
+            "commodity_price_indices": 35.5
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1993",
+            "commodity_price_indices": 30.46
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1994",
+            "commodity_price_indices": 32.85
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1995",
+            "commodity_price_indices": 38.69
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1996",
+            "commodity_price_indices": 44.08
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1997",
+            "commodity_price_indices": 38.59
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1998",
+            "commodity_price_indices": 33.75
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "1999",
+            "commodity_price_indices": 31.87
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2000",
+            "commodity_price_indices": 36.12
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2001",
+            "commodity_price_indices": 34.86
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2002",
+            "commodity_price_indices": 34.92
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2003",
+            "commodity_price_indices": 42.11
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2004",
+            "commodity_price_indices": 50.26
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2005",
+            "commodity_price_indices": 58.97
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2006",
+            "commodity_price_indices": 61.08
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2007",
+            "commodity_price_indices": 83.36
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2008",
+            "commodity_price_indices": 190.09
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2009",
+            "commodity_price_indices": 120.04
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2011",
+            "commodity_price_indices": 137.62
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2012",
+            "commodity_price_indices": 141.06
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2013",
+            "commodity_price_indices": 114.36
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2014",
+            "commodity_price_indices": 101.47
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2015",
+            "commodity_price_indices": 98.4
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2016",
+            "commodity_price_indices": 77.71
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2017",
+            "commodity_price_indices": 74.26
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2018",
+            "commodity_price_indices": 82.5
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2019",
+            "commodity_price_indices": 81.38
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2020",
+            "commodity_price_indices": 73.2
+          },
+          {
+            "commodity": "Fertilizers",
+            "date": "2021",
+            "commodity_price_indices": 132.15
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1960",
+            "commodity_price_indices": 12.68
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1961",
+            "commodity_price_indices": 12.37
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1962",
+            "commodity_price_indices": 12.21
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1963",
+            "commodity_price_indices": 12.29
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1964",
+            "commodity_price_indices": 14.57
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1965",
+            "commodity_price_indices": 16.5
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1966",
+            "commodity_price_indices": 17.43
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1967",
+            "commodity_price_indices": 15.33
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1968",
+            "commodity_price_indices": 16.04
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1969",
+            "commodity_price_indices": 17.99
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1970",
+            "commodity_price_indices": 18.27
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1971",
+            "commodity_price_indices": 16.8
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1972",
+            "commodity_price_indices": 16.46
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1973",
+            "commodity_price_indices": 21.49
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1974",
+            "commodity_price_indices": 26.71
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1975",
+            "commodity_price_indices": 23.34
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1976",
+            "commodity_price_indices": 25.34
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1977",
+            "commodity_price_indices": 28.33
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1978",
+            "commodity_price_indices": 30.7
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1979",
+            "commodity_price_indices": 39.05
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1980",
+            "commodity_price_indices": 42.88
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1981",
+            "commodity_price_indices": 33.88
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1982",
+            "commodity_price_indices": 28.89
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1983",
+            "commodity_price_indices": 34.39
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1984",
+            "commodity_price_indices": 30.89
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1985",
+            "commodity_price_indices": 28.24
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1986",
+            "commodity_price_indices": 28.35
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1987",
+            "commodity_price_indices": 36.07
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1988",
+            "commodity_price_indices": 56.43
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1989",
+            "commodity_price_indices": 51.57
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1990",
+            "commodity_price_indices": 45.34
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1991",
+            "commodity_price_indices": 38.57
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1992",
+            "commodity_price_indices": 37.32
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1993",
+            "commodity_price_indices": 32.14
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1994",
+            "commodity_price_indices": 38.57
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1995",
+            "commodity_price_indices": 46.96
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1996",
+            "commodity_price_indices": 40.06
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1997",
+            "commodity_price_indices": 41.29
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1998",
+            "commodity_price_indices": 33.76
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "1999",
+            "commodity_price_indices": 33.53
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2000",
+            "commodity_price_indices": 38.25
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2001",
+            "commodity_price_indices": 34.38
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2002",
+            "commodity_price_indices": 33.08
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2003",
+            "commodity_price_indices": 36.83
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2004",
+            "commodity_price_indices": 49.28
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2005",
+            "commodity_price_indices": 60.1
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2006",
+            "commodity_price_indices": 91.92
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2007",
+            "commodity_price_indices": 108.12
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2008",
+            "commodity_price_indices": 102.22
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2009",
+            "commodity_price_indices": 68.42
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2011",
+            "commodity_price_indices": 113.49
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2012",
+            "commodity_price_indices": 96.13
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2013",
+            "commodity_price_indices": 90.81
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2014",
+            "commodity_price_indices": 84.79
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2015",
+            "commodity_price_indices": 66.94
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2016",
+            "commodity_price_indices": 62.97
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2017",
+            "commodity_price_indices": 78.2
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2018",
+            "commodity_price_indices": 82.51
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2019",
+            "commodity_price_indices": 78.36
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2020",
+            "commodity_price_indices": 79.15
+          },
+          {
+            "commodity": "Metals  and Minerals",
+            "date": "2021",
+            "commodity_price_indices": 116.44
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1960",
+            "commodity_price_indices": 13.8
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1961",
+            "commodity_price_indices": 13.49
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1962",
+            "commodity_price_indices": 13.3
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1963",
+            "commodity_price_indices": 13.39
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1964",
+            "commodity_price_indices": 16.33
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1965",
+            "commodity_price_indices": 18.63
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1966",
+            "commodity_price_indices": 19.97
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1967",
+            "commodity_price_indices": 17.48
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1968",
+            "commodity_price_indices": 18.37
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1969",
+            "commodity_price_indices": 20.6
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1970",
+            "commodity_price_indices": 20.95
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1971",
+            "commodity_price_indices": 19.06
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1972",
+            "commodity_price_indices": 18.64
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1973",
+            "commodity_price_indices": 24.84
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1974",
+            "commodity_price_indices": 30.78
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1975",
+            "commodity_price_indices": 26.01
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1976",
+            "commodity_price_indices": 27.61
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1977",
+            "commodity_price_indices": 31.24
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1978",
+            "commodity_price_indices": 34.42
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1979",
+            "commodity_price_indices": 44.38
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1980",
+            "commodity_price_indices": 48.37
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1981",
+            "commodity_price_indices": 37.28
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1982",
+            "commodity_price_indices": 30.43
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1983",
+            "commodity_price_indices": 37.76
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1984",
+            "commodity_price_indices": 33.9
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1985",
+            "commodity_price_indices": 30.57
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1986",
+            "commodity_price_indices": 30.75
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1987",
+            "commodity_price_indices": 40.43
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1988",
+            "commodity_price_indices": 65.68
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1989",
+            "commodity_price_indices": 59.12
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1990",
+            "commodity_price_indices": 50.7
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1991",
+            "commodity_price_indices": 42
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1992",
+            "commodity_price_indices": 40.72
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1993",
+            "commodity_price_indices": 34.98
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1994",
+            "commodity_price_indices": 43.31
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1995",
+            "commodity_price_indices": 53.36
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1996",
+            "commodity_price_indices": 44.59
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1997",
+            "commodity_price_indices": 46.08
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1998",
+            "commodity_price_indices": 36.67
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "1999",
+            "commodity_price_indices": 36.92
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2000",
+            "commodity_price_indices": 42.55
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2001",
+            "commodity_price_indices": 37.59
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2002",
+            "commodity_price_indices": 36.1
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2003",
+            "commodity_price_indices": 40.3
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2004",
+            "commodity_price_indices": 54.7
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2005",
+            "commodity_price_indices": 63.72
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2006",
+            "commodity_price_indices": 102.24
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2007",
+            "commodity_price_indices": 113.66
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2008",
+            "commodity_price_indices": 101.13
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2009",
+            "commodity_price_indices": 71.57
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2011",
+            "commodity_price_indices": 113.14
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2012",
+            "commodity_price_indices": 98
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2013",
+            "commodity_price_indices": 90.35
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2014",
+            "commodity_price_indices": 89.05
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2015",
+            "commodity_price_indices": 73.6
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2016",
+            "commodity_price_indices": 68.29
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2017",
+            "commodity_price_indices": 84.94
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2018",
+            "commodity_price_indices": 90.57
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2019",
+            "commodity_price_indices": 81.62
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2020",
+            "commodity_price_indices": 80.19
+          },
+          {
+            "commodity": "Base Metals (ex. iron ore)",
+            "date": "2021",
+            "commodity_price_indices": 117.74
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1960",
+            "commodity_price_indices": 3.27
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1961",
+            "commodity_price_indices": 3.28
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1962",
+            "commodity_price_indices": 3.43
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1963",
+            "commodity_price_indices": 3.6
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1964",
+            "commodity_price_indices": 3.62
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1965",
+            "commodity_price_indices": 3.65
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1966",
+            "commodity_price_indices": 3.65
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1967",
+            "commodity_price_indices": 3.9
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1968",
+            "commodity_price_indices": 4.73
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1969",
+            "commodity_price_indices": 4.54
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1970",
+            "commodity_price_indices": 4.22
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1971",
+            "commodity_price_indices": 4.29
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1972",
+            "commodity_price_indices": 5.54
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1973",
+            "commodity_price_indices": 8.89
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1974",
+            "commodity_price_indices": 14.91
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1975",
+            "commodity_price_indices": 14.73
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1976",
+            "commodity_price_indices": 12.35
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1977",
+            "commodity_price_indices": 14.06
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1978",
+            "commodity_price_indices": 17.9
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1979",
+            "commodity_price_indices": 30.81
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1980",
+            "commodity_price_indices": 59.54
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1981",
+            "commodity_price_indices": 40
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1982",
+            "commodity_price_indices": 31.99
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1983",
+            "commodity_price_indices": 38.43
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1984",
+            "commodity_price_indices": 31.28
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1985",
+            "commodity_price_indices": 26.53
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1986",
+            "commodity_price_indices": 29.41
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1987",
+            "commodity_price_indices": 36.08
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1988",
+            "commodity_price_indices": 34.98
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1989",
+            "commodity_price_indices": 30.44
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1990",
+            "commodity_price_indices": 29.86
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1991",
+            "commodity_price_indices": 27.58
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1992",
+            "commodity_price_indices": 26.27
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1993",
+            "commodity_price_indices": 27.66
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1994",
+            "commodity_price_indices": 30.18
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1995",
+            "commodity_price_indices": 30.15
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1996",
+            "commodity_price_indices": 30.32
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1997",
+            "commodity_price_indices": 26.44
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1998",
+            "commodity_price_indices": 24.66
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "1999",
+            "commodity_price_indices": 23.37
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2000",
+            "commodity_price_indices": 23.49
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2001",
+            "commodity_price_indices": 22.4
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2002",
+            "commodity_price_indices": 25.11
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2003",
+            "commodity_price_indices": 29.08
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2004",
+            "commodity_price_indices": 33.97
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2005",
+            "commodity_price_indices": 36.95
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2006",
+            "commodity_price_indices": 51.57
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2007",
+            "commodity_price_indices": 59.49
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2008",
+            "commodity_price_indices": 72.66
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2009",
+            "commodity_price_indices": 78.01
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2010",
+            "commodity_price_indices": 100
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2011",
+            "commodity_price_indices": 136.27
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2012",
+            "commodity_price_indices": 138.46
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2013",
+            "commodity_price_indices": 115.09
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2014",
+            "commodity_price_indices": 101.12
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2015",
+            "commodity_price_indices": 90.64
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2016",
+            "commodity_price_indices": 97.45
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2017",
+            "commodity_price_indices": 97.84
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2018",
+            "commodity_price_indices": 97.17
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2019",
+            "commodity_price_indices": 105.44
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2020",
+            "commodity_price_indices": 133.54
+          },
+          {
+            "commodity": "Precious Metals",
+            "date": "2021",
+            "commodity_price_indices": 140.17
+          }
+        ],
+        "format": {
+          "type": "json"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.date==selectedDate"
+        }
+      ],
+      "mark": {
+        "type": "bar"
+      }
+    }
+  ]
+}

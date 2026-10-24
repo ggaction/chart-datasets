@@ -1,0 +1,1403 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "": "2",
+        "date": "2019",
+        "value": "12.6",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "3",
+        "date": "2018",
+        "value": "12.8",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "4",
+        "date": "2017",
+        "value": "13.2",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "5",
+        "date": "2016",
+        "value": "13.5",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "6",
+        "date": "2015",
+        "value": "13.7",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "7",
+        "date": "2014",
+        "value": "13.7",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "8",
+        "date": "2013",
+        "value": "14.3",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "9",
+        "date": "2012",
+        "value": "14.8",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "10",
+        "date": "2011",
+        "value": "15.1",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "11",
+        "date": "2010",
+        "value": "15.9",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "12",
+        "date": "2009",
+        "value": "17.0",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "13",
+        "date": "2008",
+        "value": "17.2",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "14",
+        "date": "2007",
+        "value": "18.3",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "15",
+        "date": "2006",
+        "value": "19.2",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "16",
+        "date": "2005",
+        "value": "20.1",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "17",
+        "date": "2004",
+        "value": "21.2",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "18",
+        "date": "2003",
+        "value": "22.7",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "19",
+        "date": "2002",
+        "value": "23.6",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "20",
+        "date": "2001",
+        "value": "24.6",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "21",
+        "date": "2000",
+        "value": "25.2",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "22",
+        "date": "1999",
+        "value": "25.3",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "23",
+        "date": "1998",
+        "value": "25.5",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "24",
+        "date": "1997",
+        "value": "25.8",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "25",
+        "date": "1996",
+        "value": "26.0",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "26",
+        "date": "1995",
+        "value": "26.8",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "27",
+        "date": "1994",
+        "value": "27.2",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "28",
+        "date": "1993",
+        "value": "26.6",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "29",
+        "date": "1992",
+        "value": "25.9",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "30",
+        "date": "1991",
+        "value": "24.9",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "31",
+        "date": "1990",
+        "value": "23.7",
+        "Region": "Sub-Saharan Africa"
+      },
+      {
+        "": "52",
+        "date": "2019",
+        "value": "1.5",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "53",
+        "date": "2018",
+        "value": "1.5",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "54",
+        "date": "2017",
+        "value": "1.5",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "55",
+        "date": "2016",
+        "value": "1.5",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "56",
+        "date": "2015",
+        "value": "1.4",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "57",
+        "date": "2014",
+        "value": "1.5",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "58",
+        "date": "2013",
+        "value": "1.6",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "59",
+        "date": "2012",
+        "value": "1.9",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "60",
+        "date": "2011",
+        "value": "2.4",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "61",
+        "date": "2010",
+        "value": "2.6",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "62",
+        "date": "2009",
+        "value": "2.8",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "63",
+        "date": "2008",
+        "value": "3.0",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "64",
+        "date": "2007",
+        "value": "3.3",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "65",
+        "date": "2006",
+        "value": "3.4",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "66",
+        "date": "2005",
+        "value": "4.2",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "67",
+        "date": "2004",
+        "value": "4.3",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "68",
+        "date": "2003",
+        "value": "4.9",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "69",
+        "date": "2002",
+        "value": "5.0",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "70",
+        "date": "2001",
+        "value": "5.6",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "71",
+        "date": "2000",
+        "value": "5.9",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "72",
+        "date": "1999",
+        "value": "6.4",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "73",
+        "date": "1998",
+        "value": "6.4",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "74",
+        "date": "1997",
+        "value": "6.8",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "75",
+        "date": "1996",
+        "value": "7.2",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "76",
+        "date": "1995",
+        "value": "6.2",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "77",
+        "date": "1994",
+        "value": "6.3",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "78",
+        "date": "1993",
+        "value": "6.8",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "79",
+        "date": "1992",
+        "value": "6.9",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "80",
+        "date": "1991",
+        "value": "6.8",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "81",
+        "date": "1990",
+        "value": "7.2",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "82",
+        "date": "1989",
+        "value": "6.8",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "83",
+        "date": "1988",
+        "value": "7.0",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "84",
+        "date": "1987",
+        "value": "6.2",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "85",
+        "date": "1986",
+        "value": "5.0",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "86",
+        "date": "1985",
+        "value": "6.9",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "87",
+        "date": "1984",
+        "value": "7.4",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "88",
+        "date": "1983",
+        "value": "7.6",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "89",
+        "date": "1982",
+        "value": "6.4",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "90",
+        "date": "1981",
+        "value": "6.1",
+        "Region": "Latin America & Caribbean"
+      },
+      {
+        "": "102",
+        "date": "2019",
+        "value": "1.5",
+        "Region": "South Asia"
+      },
+      {
+        "": "103",
+        "date": "2018",
+        "value": "1.9",
+        "Region": "South Asia"
+      },
+      {
+        "": "104",
+        "date": "2017",
+        "value": "2.4",
+        "Region": "South Asia"
+      },
+      {
+        "": "105",
+        "date": "2016",
+        "value": "3.1",
+        "Region": "South Asia"
+      },
+      {
+        "": "106",
+        "date": "2015",
+        "value": "3.3",
+        "Region": "South Asia"
+      },
+      {
+        "": "107",
+        "date": "2014",
+        "value": "3.5",
+        "Region": "South Asia"
+      },
+      {
+        "": "108",
+        "date": "2013",
+        "value": "3.7",
+        "Region": "South Asia"
+      },
+      {
+        "": "109",
+        "date": "2012",
+        "value": "3.9",
+        "Region": "South Asia"
+      },
+      {
+        "": "110",
+        "date": "2011",
+        "value": "4.4",
+        "Region": "South Asia"
+      },
+      {
+        "": "111",
+        "date": "2010",
+        "value": "5.7",
+        "Region": "South Asia"
+      },
+      {
+        "": "112",
+        "date": "2009",
+        "value": "6.5",
+        "Region": "South Asia"
+      },
+      {
+        "": "113",
+        "date": "2008",
+        "value": "6.9",
+        "Region": "South Asia"
+      },
+      {
+        "": "114",
+        "date": "2007",
+        "value": "7.3",
+        "Region": "South Asia"
+      },
+      {
+        "": "115",
+        "date": "2006",
+        "value": "7.8",
+        "Region": "South Asia"
+      },
+      {
+        "": "116",
+        "date": "2005",
+        "value": "8.3",
+        "Region": "South Asia"
+      },
+      {
+        "": "117",
+        "date": "2004",
+        "value": "8.9",
+        "Region": "South Asia"
+      },
+      {
+        "": "118",
+        "date": "2003",
+        "value": "9.4",
+        "Region": "South Asia"
+      },
+      {
+        "": "119",
+        "date": "2002",
+        "value": "9.8",
+        "Region": "South Asia"
+      },
+      {
+        "": "125",
+        "date": "1996",
+        "value": "10.8",
+        "Region": "South Asia"
+      },
+      {
+        "": "126",
+        "date": "1995",
+        "value": "11.3",
+        "Region": "South Asia"
+      },
+      {
+        "": "127",
+        "date": "1994",
+        "value": "12.0",
+        "Region": "South Asia"
+      },
+      {
+        "": "128",
+        "date": "1993",
+        "value": "12.4",
+        "Region": "South Asia"
+      },
+      {
+        "": "129",
+        "date": "1992",
+        "value": "12.9",
+        "Region": "South Asia"
+      },
+      {
+        "": "130",
+        "date": "1991",
+        "value": "13.8",
+        "Region": "South Asia"
+      },
+      {
+        "": "131",
+        "date": "1990",
+        "value": "14.3",
+        "Region": "South Asia"
+      },
+      {
+        "": "132",
+        "date": "1989",
+        "value": "14.4",
+        "Region": "South Asia"
+      },
+      {
+        "": "133",
+        "date": "1988",
+        "value": "14.7",
+        "Region": "South Asia"
+      },
+      {
+        "": "134",
+        "date": "1987",
+        "value": "15.4",
+        "Region": "South Asia"
+      },
+      {
+        "": "135",
+        "date": "1986",
+        "value": "15.9",
+        "Region": "South Asia"
+      },
+      {
+        "": "136",
+        "date": "1985",
+        "value": "16.4",
+        "Region": "South Asia"
+      },
+      {
+        "": "137",
+        "date": "1984",
+        "value": "17.2",
+        "Region": "South Asia"
+      },
+      {
+        "": "138",
+        "date": "1983",
+        "value": "18.1",
+        "Region": "South Asia"
+      },
+      {
+        "": "139",
+        "date": "1982",
+        "value": "19.0",
+        "Region": "South Asia"
+      },
+      {
+        "": "140",
+        "date": "1981",
+        "value": "19.4",
+        "Region": "South Asia"
+      },
+      {
+        "": "153",
+        "date": "2018",
+        "value": "2.3",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "154",
+        "date": "2017",
+        "value": "1.8",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "155",
+        "date": "2016",
+        "value": "1.6",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "156",
+        "date": "2015",
+        "value": "1.3",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "157",
+        "date": "2014",
+        "value": "0.6",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "158",
+        "date": "2013",
+        "value": "0.5",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "159",
+        "date": "2012",
+        "value": "0.5",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "160",
+        "date": "2011",
+        "value": "0.5",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "161",
+        "date": "2010",
+        "value": "0.4",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "162",
+        "date": "2009",
+        "value": "0.4",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "163",
+        "date": "2008",
+        "value": "0.5",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "164",
+        "date": "2007",
+        "value": "0.5",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "165",
+        "date": "2006",
+        "value": "0.5",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "166",
+        "date": "2005",
+        "value": "0.5",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "167",
+        "date": "2004",
+        "value": "0.5",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "168",
+        "date": "2003",
+        "value": "0.6",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "170",
+        "date": "2001",
+        "value": "0.7",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "171",
+        "date": "2000",
+        "value": "0.7",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "172",
+        "date": "1999",
+        "value": "0.8",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "173",
+        "date": "1998",
+        "value": "0.8",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "174",
+        "date": "1997",
+        "value": "0.9",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "175",
+        "date": "1996",
+        "value": "0.9",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "176",
+        "date": "1995",
+        "value": "1.0",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "177",
+        "date": "1994",
+        "value": "0.9",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "178",
+        "date": "1993",
+        "value": "1.0",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "179",
+        "date": "1992",
+        "value": "1.0",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "180",
+        "date": "1991",
+        "value": "1.3",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "181",
+        "date": "1990",
+        "value": "1.2",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "182",
+        "date": "1989",
+        "value": "1.5",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "183",
+        "date": "1988",
+        "value": "1.6",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "184",
+        "date": "1987",
+        "value": "1.6",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "185",
+        "date": "1986",
+        "value": "1.4",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "186",
+        "date": "1985",
+        "value": "1.4",
+        "Region": "Middle East & North Africa"
+      },
+      {
+        "": "202",
+        "date": "2019",
+        "value": "0.7",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "203",
+        "date": "2018",
+        "value": "0.7",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "204",
+        "date": "2017",
+        "value": "0.8",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "205",
+        "date": "2016",
+        "value": "0.9",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "206",
+        "date": "2015",
+        "value": "0.9",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "207",
+        "date": "2014",
+        "value": "1.1",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "208",
+        "date": "2013",
+        "value": "1.0",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "209",
+        "date": "2012",
+        "value": "1.2",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "210",
+        "date": "2011",
+        "value": "1.3",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "211",
+        "date": "2010",
+        "value": "1.4",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "212",
+        "date": "2009",
+        "value": "1.4",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "213",
+        "date": "2008",
+        "value": "1.6",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "214",
+        "date": "2007",
+        "value": "1.8",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "215",
+        "date": "2006",
+        "value": "2.1",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "216",
+        "date": "2005",
+        "value": "2.3",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "217",
+        "date": "2004",
+        "value": "2.4",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "218",
+        "date": "2003",
+        "value": "2.8",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "219",
+        "date": "2002",
+        "value": "2.6",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "220",
+        "date": "2001",
+        "value": "3.0",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "221",
+        "date": "2000",
+        "value": "3.3",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "222",
+        "date": "1999",
+        "value": "3.4",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "223",
+        "date": "1998",
+        "value": "2.8",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "224",
+        "date": "1997",
+        "value": "2.9",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "225",
+        "date": "1996",
+        "value": "2.9",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "226",
+        "date": "1995",
+        "value": "2.8",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "227",
+        "date": "1994",
+        "value": "2.7",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "228",
+        "date": "1993",
+        "value": "2.1",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "229",
+        "date": "1992",
+        "value": "1.8",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "230",
+        "date": "1991",
+        "value": "1.3",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "231",
+        "date": "1990",
+        "value": "1.2",
+        "Region": "Europe & Central Asia"
+      },
+      {
+        "": "252",
+        "date": "2019",
+        "value": "0.2",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "253",
+        "date": "2018",
+        "value": "0.3",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "254",
+        "date": "2017",
+        "value": "0.4",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "255",
+        "date": "2016",
+        "value": "0.4",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "256",
+        "date": "2015",
+        "value": "0.5",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "257",
+        "date": "2014",
+        "value": "0.7",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "258",
+        "date": "2013",
+        "value": "0.8",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "259",
+        "date": "2012",
+        "value": "1.9",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "260",
+        "date": "2011",
+        "value": "2.4",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "261",
+        "date": "2010",
+        "value": "3.3",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "262",
+        "date": "2009",
+        "value": "4.0",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "263",
+        "date": "2008",
+        "value": "4.7",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "264",
+        "date": "2007",
+        "value": "5.0",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "265",
+        "date": "2006",
+        "value": "5.8",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "266",
+        "date": "2005",
+        "value": "5.9",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "267",
+        "date": "2004",
+        "value": "7.7",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "268",
+        "date": "2003",
+        "value": "9.2",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "269",
+        "date": "2002",
+        "value": "10.7",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "270",
+        "date": "2001",
+        "value": "12.1",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "271",
+        "date": "2000",
+        "value": "13.0",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "272",
+        "date": "1999",
+        "value": "14.4",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "273",
+        "date": "1998",
+        "value": "16.1",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "274",
+        "date": "1997",
+        "value": "15.3",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "275",
+        "date": "1996",
+        "value": "15.1",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "276",
+        "date": "1995",
+        "value": "17.1",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "277",
+        "date": "1994",
+        "value": "19.3",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "278",
+        "date": "1993",
+        "value": "22.1",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "279",
+        "date": "1992",
+        "value": "23.5",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "280",
+        "date": "1991",
+        "value": "24.7",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "281",
+        "date": "1990",
+        "value": "25.6",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "282",
+        "date": "1989",
+        "value": "27.2",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "283",
+        "date": "1988",
+        "value": "21.7",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "284",
+        "date": "1987",
+        "value": "24.7",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "285",
+        "date": "1986",
+        "value": "26.7",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "286",
+        "date": "1985",
+        "value": "28.2",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "287",
+        "date": "1984",
+        "value": "30.7",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "288",
+        "date": "1983",
+        "value": "35.4",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "289",
+        "date": "1982",
+        "value": "38.9",
+        "Region": "East Asia & Pacific"
+      },
+      {
+        "": "290",
+        "date": "1981",
+        "value": "41.6",
+        "Region": "East Asia & Pacific"
+      }
+    ],
+    "format": {
+      "parse": {
+        "date": "date"
+      }
+    }
+  },
+  "title": {
+    "text": "Poverty Gap in different regions",
+    "subtitle": "Source: World Bank",
+    "fontSize": 15,
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "transform": [
+    {
+      "calculate": "year(datum.date)",
+      "as": "year"
+    },
+    {
+      "filter": "datum.year>=minYear"
+    },
+    {
+      "filter": "datum.year<=maxYear"
+    },
+    {
+      "filter": "datum.y1!=0"
+    }
+  ],
+  "params": [
+    {
+      "name": "minYear",
+      "value": 2003,
+      "bind": {
+        "input": "range",
+        "min": 1990,
+        "max": 2018,
+        "step": 1,
+        "name": "Start year:"
+      }
+    },
+    {
+      "name": "maxYear",
+      "value": 2018,
+      "bind": {
+        "input": "range",
+        "min": 1979,
+        "max": 2018,
+        "step": 1,
+        "name": "End year:"
+      }
+    }
+  ],
+  "width": 400,
+  "height": 300,
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "Region",
+          "type": "nominal",
+          "scale": {
+            "range": [
+              "#4c78a8",
+              "#f58518",
+              "#e45756",
+              "#72b7b2",
+              "#eeca3b",
+              "#b279a2",
+              "#ff9da6"
+            ]
+          }
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": null
+        }
+      },
+      "layer": [
+        {
+          "mark": "line"
+        },
+        {
+          "transform": [
+            {
+              "filter": {
+                "param": "hover",
+                "empty": false
+              }
+            }
+          ],
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "pivot": "Region",
+          "value": "value",
+          "groupby": [
+            "date"
+          ]
+        }
+      ],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "value": 0.3,
+            "param": "hover",
+            "empty": false
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {
+            "field": "East Asia & Pacific",
+            "type": "quantitative"
+          },
+          {
+            "field": "Europe & Central Asia",
+            "type": "quantitative"
+          },
+          {
+            "field": "Latin America & Caribbean",
+            "type": "quantitative"
+          },
+          {
+            "field": "Middle East & North Africa",
+            "type": "quantitative"
+          },
+          {
+            "field": "Sub-Saharan Africa",
+            "type": "quantitative"
+          },
+          {
+            "field": "South Asia",
+            "type": "quantitative"
+          }
+        ]
+      },
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": [
+              "date"
+            ],
+            "nearest": true,
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ]
+    }
+  ]
+}

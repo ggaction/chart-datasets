@@ -1,0 +1,127 @@
+{
+  "id": "vl_0136",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "3e81c9269a7fa3b43f34720493b9441deed58b7dc47a6842203c2b651840ce98",
+      "actions": 11,
+      "topOptions": 26
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "5c8d818e6e812c695bad04f2f7e9e4ef4ecff31bc5ed2f5a0e419ecda9c7d7c7",
+      "actions": 12,
+      "topOptions": 28
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "248f04be5d752d4fb61e2b807e36996ba319114df090dedf0973d8b29d21532e",
+      "actions": 13,
+      "topOptions": 32
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "13984a49c3585621d2637d6191411739938b7f00d1407db974be9422214ceb98",
+      "actions": 15,
+      "topOptions": 34
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "fb987eaca300abec1c9e00d6b0bf2aef531df4505a53e5ba2a0485429f31a788",
+      "actions": 17,
+      "topOptions": 36
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "0a4b337fd95e270e612eeda7658df58cd4af01a227f824c8c51c4fde7ed327c2",
+      "actions": 19,
+      "topOptions": 41
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "b208b22f20a282106caa7859b5916573e52f12b89421f5ea09af309e25a7b228",
+      "actions": 20,
+      "topOptions": 42
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "ecffbbc5094785b2afd1ea75d576b19d7d712a899651853d697bf8a132071614",
+      "actions": 22,
+      "topOptions": 46
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/traffordDataLab/interactive_graphics_companion/e70ef4d7c116ddee99d5b83fc0720079a3aba836/data/gapminder.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct source-qualified actual School stages passed normal and independent cold verification; final provenance audit required before counting."
+  },
+  "historicalRuntimeCommits": [
+    "55c8a634e144fd95bb754f1222e44a700e75a448"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "902a6ee8b97a1e7e10af982a47ef23153a2606915da33166559394a829834bd3",
+      "bytes": 1739
+    },
+    "data.json": {
+      "sha256": "1586280bdbb4a2d64951d8f5a351cd7a86d24301d69ee0abe9228eba17fd6afb",
+      "bytes": 461856
+    },
+    "resolved-source.vl.json": {
+      "sha256": "bc304a007ba04a9dc65404757ad6e5268aaef4d3fa4aae8ae27a5f8d1fbfea4a",
+      "bytes": 557779
+    },
+    "G1.gg.mjs": {
+      "sha256": "3e81c9269a7fa3b43f34720493b9441deed58b7dc47a6842203c2b651840ce98",
+      "bytes": 3475
+    },
+    "G2.gg.mjs": {
+      "sha256": "5c8d818e6e812c695bad04f2f7e9e4ef4ecff31bc5ed2f5a0e419ecda9c7d7c7",
+      "bytes": 3279
+    },
+    "G3.gg.mjs": {
+      "sha256": "248f04be5d752d4fb61e2b807e36996ba319114df090dedf0973d8b29d21532e",
+      "bytes": 3250
+    },
+    "G4.gg.mjs": {
+      "sha256": "13984a49c3585621d2637d6191411739938b7f00d1407db974be9422214ceb98",
+      "bytes": 3318
+    },
+    "G5.gg.mjs": {
+      "sha256": "fb987eaca300abec1c9e00d6b0bf2aef531df4505a53e5ba2a0485429f31a788",
+      "bytes": 3412
+    },
+    "G6.gg.mjs": {
+      "sha256": "0a4b337fd95e270e612eeda7658df58cd4af01a227f824c8c51c4fde7ed327c2",
+      "bytes": 3571
+    },
+    "G7.gg.mjs": {
+      "sha256": "b208b22f20a282106caa7859b5916573e52f12b89421f5ea09af309e25a7b228",
+      "bytes": 3574
+    },
+    "G8.gg.mjs": {
+      "sha256": "ecffbbc5094785b2afd1ea75d576b19d7d712a899651853d697bf8a132071614",
+      "bytes": 3571
+    },
+    "vega-lite.svg": {
+      "sha256": "cd2e17a868be45648cc817c06e07d10cc2033e2150e10f5082a64bf48eb6dcd5",
+      "bytes": 58640
+    },
+    "ggaction.svg": {
+      "sha256": "f22203b72d8a8d7ae7406e75f589f737aa4464b80fd09bcbacc252c6adf25203",
+      "bytes": 37014
+    }
+  }
+}

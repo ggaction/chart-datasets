@@ -1,0 +1,39 @@
+import { chart } from "ggaction";
+import data from "./data.json";
+export function buildChart() {
+  return chart()
+    // DOCS: doc-cffb363a4b862ced
+    .createCanvas({ width: 585, height: 364, margin: { left: 24, top: 42, right: 161, bottom: 22 } })
+    .editCanvas({ plotBorder: { color: "#ddd", lineWidth: 1, underlay: true } })
+    .applyTextMetrics({ profile: { schemaVersion: 1, id: "source1211-own-original-SVG", measurements: [{ text: "2018", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 22.25 }] } })
+    .createData({ values: data })
+    .createComputedData({ id: "numeric", as: "sourceValue", expression: { op: "toNumber", operand: { field: "value" } } })
+    .createComputedData({ id: "dated", as: "sourceDate", expression: { op: "parseTime", operand: { field: "date" } } })
+    .createComputedData({ id: "yearTyped", as: "year", expression: { op: "datePart", part: "year", operand: { field: "sourceDate" } } })
+    .filterData({ id: "initialYears", field: "year", range: { min: 2003, max: 2018 } })
+    .createComputedData({ id: "regionPivot0", as: "East Asia & Pacific", expression: { op: "if", condition: { op: "eq", left: { field: "Region" }, right: { constant: "East Asia & Pacific" } }, then: { field: "sourceValue" }, else: { constant: 0 } } })
+    .createComputedData({ id: "regionPivot1", as: "Europe & Central Asia", expression: { op: "if", condition: { op: "eq", left: { field: "Region" }, right: { constant: "Europe & Central Asia" } }, then: { field: "sourceValue" }, else: { constant: 0 } } })
+    .createComputedData({ id: "regionPivot2", as: "Latin America & Caribbean", expression: { op: "if", condition: { op: "eq", left: { field: "Region" }, right: { constant: "Latin America & Caribbean" } }, then: { field: "sourceValue" }, else: { constant: 0 } } })
+    .createComputedData({ id: "regionPivot3", as: "Middle East & North Africa", expression: { op: "if", condition: { op: "eq", left: { field: "Region" }, right: { constant: "Middle East & North Africa" } }, then: { field: "sourceValue" }, else: { constant: 0 } } })
+    .createComputedData({ id: "regionPivot4", as: "South Asia", expression: { op: "if", condition: { op: "eq", left: { field: "Region" }, right: { constant: "South Asia" } }, then: { field: "sourceValue" }, else: { constant: 0 } } })
+    .createComputedData({ id: "typedData", as: "Sub-Saharan Africa", expression: { op: "if", condition: { op: "eq", left: { field: "Region" }, right: { constant: "Sub-Saharan Africa" } }, then: { field: "sourceValue" }, else: { constant: 0 } } })
+    // DOCS: doc-76573a465e2b6a33
+    .createLinePlot({ x: { field: "sourceDate", fieldType: "temporal", scale: { id: "x", domain: [1041379200000, 1514764800000] } }, y: { field: "sourceValue", scale: { id: "y", domain: [0, 24] } }, guides: false }).createXAxis({coordinate: "main", ticksAndLabels: {values: [1072915200000, 1136073600000, 1199145600000, 1262304000000, 1325376000000, 1388534400000, 1451606400000, 1514764800000], ticks: {color: "#888", length: 5, alongOffset: 0.5}, labels: {fontFamily: "sans-serif", fontSize: 10, color: "black", format: "%Y", offset: 5.5, alongOffset: 0.5, flush: true}}, title: false}).createYAxis({coordinate: "main", ticksAndLabels: {values: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24], ticks: {color: "#888", length: 5, alongOffset: 0.5}, labels: {fontFamily: "sans-serif", fontSize: 10, color: "black", format: ".0f", offset: 6.5, alongOffset: 0.890625}}, title: false}).editXAxisLine({ color: "#888" }).editYAxisLine({ color: "#888" })
+    .encodeColor({ field: "Region", scale: { domain: ["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "South Asia", "Sub-Saharan Africa"], range: ["#4c78a8", "#f58518", "#e45756", "#72b7b2", "#eeca3b", "#b279a2", "#ff9da6"] } })
+    .filterData({ id: "hoverEmpty", field: "date", noneOf: ["2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2004", "2003"] })
+    .createScatterPlot({ x: { field: "sourceDate", fieldType: "temporal", scale: { id: "x", domain: [1041379200000, 1514764800000] } }, y: { field: "sourceValue", scale: { id: "y", domain: [0, 24] } }, guides: false })
+    .encodeStroke({ field: "Region", scale: { domain: ["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "South Asia", "Sub-Saharan Africa"], range: ["#4c78a8", "#f58518", "#e45756", "#72b7b2", "#eeca3b", "#b279a2", "#ff9da6"] } })
+    .editPointMark({ fill: "transparent", strokeWidth: 2, opacity: 0.7 })
+    .encodePointRadius({ value: 2.7386127875258306 })
+    .createSummaryData({ id: "ruleDates", source: "typedData", aggregates: [{ op: "sum", field: "East Asia & Pacific", as: "East Asia & Pacific" }, { op: "sum", field: "Europe & Central Asia", as: "Europe & Central Asia" }, { op: "sum", field: "Latin America & Caribbean", as: "Latin America & Caribbean" }, { op: "sum", field: "Middle East & North Africa", as: "Middle East & North Africa" }, { op: "sum", field: "South Asia", as: "South Asia" }, { op: "sum", field: "Sub-Saharan Africa", as: "Sub-Saharan Africa" }] })
+    .editSummaryData({ target: "ruleDates", groupBy: ["sourceDate"] })
+    .createRuleMark({ data: "ruleDates", strokeWidth: 1, opacity: 0 })
+    .encodeX({ field: "sourceDate", fieldType: "temporal", scale: { id: "x", domain: [1041379200000, 1514764800000] } })
+    .editRuleMark({ stroke: "black" })
+    .createGrid({ horizontal: { color: "#ddd", values: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24], alongOffset: 0.5 }, vertical: { color: "#ddd", values: [1072915200000, 1136073600000, 1199145600000, 1262304000000, 1325376000000, 1388534400000, 1451606400000, 1514764800000], alongOffset: 0.5 } })
+    .createLegend({ target: "scatterPlot", labels: { fontFamily: "sans-serif", fontSize: 10, color: "black" }, symbol: { layers: [{ type: "point", size: 5, fill: "transparent", strokeWidth: 1.5, opacity: 0.7 }] } })
+    .editLegend({ titleStyle: { fontFamily: "sans-serif", fontSize: 11, fontWeight: 700, color: "black" } })
+    .createTitle({ text: "Poverty Gap in different regions", titleStyle: { fontFamily: "sans-serif", fontSize: 15, fontWeight: 700, color: "black" }, offset: -10.484375 })
+    .editTitle({ subtitle: "Source: World Bank", subtitleStyle: { fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "italic", color: "black" }, gap: 2.875 })
+    .editTitle({ align: "left", alongOffset: -18.123046875 });
+}

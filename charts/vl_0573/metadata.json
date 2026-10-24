@@ -1,0 +1,127 @@
+{
+  "id": "vl_0573",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ef957638e32f9f2323f7877f24e48e18f8ef7751b1c1dd9bbd1477a02a9ae547",
+      "actions": 25,
+      "topOptions": 58
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9cf8e64010799d264a7325ab1c9d379ae7db4f77e6654f8272e3025a65e77c36",
+      "actions": 26,
+      "topOptions": 61
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "5292a6c10b18dd0fab05dfa3bef85abe971bf0479c847788ddab7b014d0253be",
+      "actions": 26,
+      "topOptions": 60
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "c72f697273a1816a1ecf6a02d65248335bd6abc92d0991422a76307edbf499b1",
+      "actions": 28,
+      "topOptions": 62
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "00b0d61bf93dc31d9a8ad7b873b93c5b51c84f995103aa19076460109c9a3354",
+      "actions": 28,
+      "topOptions": 62
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "4ea8f8e9937dc8d58a0b97e746827202ce59f280685c093577677b1e9649d016",
+      "actions": 29,
+      "topOptions": 66
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d6bd2e37373c762d2825fe382e225d3d4f355e400915d972ee47f85a051e7f30",
+      "actions": 31,
+      "topOptions": 69
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "d6e57d5eb920c08a07347978161e302c7c8d637f796109d4226ffd877b2eb856",
+      "actions": 33,
+      "topOptions": 72
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/JamesFKean/RA_work/main/chart3v2.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages passed current normal, all-source geometry and independent cold audit. Native default legend offset8 and pitch18 are retained; The single source legend item has no measurable inter-item pitch; only native default anchor placement differs, with exact symbol/font/color/content. Original integer-snapped grids and native analytic +0.5 grids are independently verified. No source pixel identity is claimed."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "88cf26e45527bb98205794132f24130a35892c2b68f57a047a2ad008736db8d6",
+      "bytes": 2258
+    },
+    "data.json": {
+      "sha256": "b1292b3fbf4217ea1d7ce20fa61988358fb31fbc5eb27ab85f5be1eaf9b1be7e",
+      "bytes": 10959
+    },
+    "resolved-source.vl.json": {
+      "sha256": "f27580db1a8a8da12edac973ae9e61d7d3f80cc2aae7743e7520d7c21dc3b486",
+      "bytes": 16151
+    },
+    "G1.gg.mjs": {
+      "sha256": "ef957638e32f9f2323f7877f24e48e18f8ef7751b1c1dd9bbd1477a02a9ae547",
+      "bytes": 4857
+    },
+    "G2.gg.mjs": {
+      "sha256": "9cf8e64010799d264a7325ab1c9d379ae7db4f77e6654f8272e3025a65e77c36",
+      "bytes": 4836
+    },
+    "G3.gg.mjs": {
+      "sha256": "5292a6c10b18dd0fab05dfa3bef85abe971bf0479c847788ddab7b014d0253be",
+      "bytes": 4555
+    },
+    "G4.gg.mjs": {
+      "sha256": "c72f697273a1816a1ecf6a02d65248335bd6abc92d0991422a76307edbf499b1",
+      "bytes": 4579
+    },
+    "G5.gg.mjs": {
+      "sha256": "00b0d61bf93dc31d9a8ad7b873b93c5b51c84f995103aa19076460109c9a3354",
+      "bytes": 4571
+    },
+    "G6.gg.mjs": {
+      "sha256": "4ea8f8e9937dc8d58a0b97e746827202ce59f280685c093577677b1e9649d016",
+      "bytes": 4616
+    },
+    "G7.gg.mjs": {
+      "sha256": "d6bd2e37373c762d2825fe382e225d3d4f355e400915d972ee47f85a051e7f30",
+      "bytes": 4590
+    },
+    "G8.gg.mjs": {
+      "sha256": "d6e57d5eb920c08a07347978161e302c7c8d637f796109d4226ffd877b2eb856",
+      "bytes": 4590
+    },
+    "vega-lite.svg": {
+      "sha256": "b85c8aabf554466e0f43bbd91364abe58b779476cd08a810a73d3a2494c2e283",
+      "bytes": 37937
+    },
+    "ggaction.svg": {
+      "sha256": "c2901aa899890301802e7757afa6bdf81f2dee9e032e7e277685f0b4e7608dde",
+      "bytes": 23651
+    }
+  }
+}

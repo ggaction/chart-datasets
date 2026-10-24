@@ -1,0 +1,4780 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": " Can Google Trends tell us anything?",
+    "subtitle": "Values scaled between 0 and 100 where 100 represents highest peak of interest over time period. Source: Scraped from Google Trends API",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "": "0",
+        "Week": "07/01/2018",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "1",
+        "Week": "07/01/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "2",
+        "Week": "07/01/2018",
+        "Trend": "Property Market Crash",
+        "Value": "53"
+      },
+      {
+        "": "3",
+        "Week": "14/01/2018",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "4",
+        "Week": "14/01/2018",
+        "Trend": "Housing Bubble",
+        "Value": "34"
+      },
+      {
+        "": "5",
+        "Week": "14/01/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "6",
+        "Week": "21/01/2018",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "7",
+        "Week": "21/01/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "8",
+        "Week": "21/01/2018",
+        "Trend": "Property Market Crash",
+        "Value": "64"
+      },
+      {
+        "": "9",
+        "Week": "28/01/2018",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "10",
+        "Week": "28/01/2018",
+        "Trend": "Housing Bubble",
+        "Value": "30"
+      },
+      {
+        "": "11",
+        "Week": "28/01/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "12",
+        "Week": "04/02/2018",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "13",
+        "Week": "04/02/2018",
+        "Trend": "Housing Bubble",
+        "Value": "39"
+      },
+      {
+        "": "14",
+        "Week": "04/02/2018",
+        "Trend": "Property Market Crash",
+        "Value": "32"
+      },
+      {
+        "": "15",
+        "Week": "11/02/2018",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "16",
+        "Week": "11/02/2018",
+        "Trend": "Housing Bubble",
+        "Value": "27"
+      },
+      {
+        "": "17",
+        "Week": "11/02/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "18",
+        "Week": "18/02/2018",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "19",
+        "Week": "18/02/2018",
+        "Trend": "Housing Bubble",
+        "Value": "33"
+      },
+      {
+        "": "20",
+        "Week": "18/02/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "21",
+        "Week": "25/02/2018",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "22",
+        "Week": "25/02/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "23",
+        "Week": "25/02/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "24",
+        "Week": "04/03/2018",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "25",
+        "Week": "04/03/2018",
+        "Trend": "Housing Bubble",
+        "Value": "37"
+      },
+      {
+        "": "26",
+        "Week": "04/03/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "27",
+        "Week": "11/03/2018",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "28",
+        "Week": "11/03/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "29",
+        "Week": "11/03/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "30",
+        "Week": "18/03/2018",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "31",
+        "Week": "18/03/2018",
+        "Trend": "Housing Bubble",
+        "Value": "31"
+      },
+      {
+        "": "32",
+        "Week": "18/03/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "33",
+        "Week": "25/03/2018",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "34",
+        "Week": "25/03/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "35",
+        "Week": "25/03/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "36",
+        "Week": "01/04/2018",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "37",
+        "Week": "01/04/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "38",
+        "Week": "01/04/2018",
+        "Trend": "Property Market Crash",
+        "Value": "31"
+      },
+      {
+        "": "39",
+        "Week": "08/04/2018",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "40",
+        "Week": "08/04/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "41",
+        "Week": "08/04/2018",
+        "Trend": "Property Market Crash",
+        "Value": "46"
+      },
+      {
+        "": "42",
+        "Week": "15/04/2018",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "43",
+        "Week": "15/04/2018",
+        "Trend": "Housing Bubble",
+        "Value": "37"
+      },
+      {
+        "": "44",
+        "Week": "15/04/2018",
+        "Trend": "Property Market Crash",
+        "Value": "33"
+      },
+      {
+        "": "45",
+        "Week": "22/04/2018",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "46",
+        "Week": "22/04/2018",
+        "Trend": "Housing Bubble",
+        "Value": "51"
+      },
+      {
+        "": "47",
+        "Week": "22/04/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "48",
+        "Week": "29/04/2018",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "49",
+        "Week": "29/04/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "50",
+        "Week": "29/04/2018",
+        "Trend": "Property Market Crash",
+        "Value": "43"
+      },
+      {
+        "": "51",
+        "Week": "06/05/2018",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "52",
+        "Week": "06/05/2018",
+        "Trend": "Housing Bubble",
+        "Value": "29"
+      },
+      {
+        "": "53",
+        "Week": "06/05/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "54",
+        "Week": "13/05/2018",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "55",
+        "Week": "13/05/2018",
+        "Trend": "Housing Bubble",
+        "Value": "72"
+      },
+      {
+        "": "56",
+        "Week": "13/05/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "57",
+        "Week": "20/05/2018",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "58",
+        "Week": "20/05/2018",
+        "Trend": "Housing Bubble",
+        "Value": "31"
+      },
+      {
+        "": "59",
+        "Week": "20/05/2018",
+        "Trend": "Property Market Crash",
+        "Value": "35"
+      },
+      {
+        "": "60",
+        "Week": "27/05/2018",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "61",
+        "Week": "27/05/2018",
+        "Trend": "Housing Bubble",
+        "Value": "21"
+      },
+      {
+        "": "62",
+        "Week": "27/05/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "63",
+        "Week": "03/06/2018",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "64",
+        "Week": "03/06/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "65",
+        "Week": "03/06/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "66",
+        "Week": "10/06/2018",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "67",
+        "Week": "10/06/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "68",
+        "Week": "10/06/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "69",
+        "Week": "17/06/2018",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "70",
+        "Week": "17/06/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "71",
+        "Week": "17/06/2018",
+        "Trend": "Property Market Crash",
+        "Value": "19"
+      },
+      {
+        "": "72",
+        "Week": "24/06/2018",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "73",
+        "Week": "24/06/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "74",
+        "Week": "24/06/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "75",
+        "Week": "01/07/2018",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "76",
+        "Week": "01/07/2018",
+        "Trend": "Housing Bubble",
+        "Value": "43"
+      },
+      {
+        "": "77",
+        "Week": "01/07/2018",
+        "Trend": "Property Market Crash",
+        "Value": "59"
+      },
+      {
+        "": "78",
+        "Week": "08/07/2018",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "79",
+        "Week": "08/07/2018",
+        "Trend": "Housing Bubble",
+        "Value": "79"
+      },
+      {
+        "": "80",
+        "Week": "08/07/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "81",
+        "Week": "15/07/2018",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "82",
+        "Week": "15/07/2018",
+        "Trend": "Housing Bubble",
+        "Value": "26"
+      },
+      {
+        "": "83",
+        "Week": "15/07/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "84",
+        "Week": "22/07/2018",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "85",
+        "Week": "22/07/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "86",
+        "Week": "22/07/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "87",
+        "Week": "29/07/2018",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "88",
+        "Week": "29/07/2018",
+        "Trend": "Housing Bubble",
+        "Value": "17"
+      },
+      {
+        "": "89",
+        "Week": "29/07/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "90",
+        "Week": "05/08/2018",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "91",
+        "Week": "05/08/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "92",
+        "Week": "05/08/2018",
+        "Trend": "Property Market Crash",
+        "Value": "33"
+      },
+      {
+        "": "93",
+        "Week": "12/08/2018",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "94",
+        "Week": "12/08/2018",
+        "Trend": "Housing Bubble",
+        "Value": "43"
+      },
+      {
+        "": "95",
+        "Week": "12/08/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "96",
+        "Week": "19/08/2018",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "97",
+        "Week": "19/08/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "98",
+        "Week": "19/08/2018",
+        "Trend": "Property Market Crash",
+        "Value": "55"
+      },
+      {
+        "": "99",
+        "Week": "26/08/2018",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "100",
+        "Week": "26/08/2018",
+        "Trend": "Housing Bubble",
+        "Value": "35"
+      },
+      {
+        "": "101",
+        "Week": "26/08/2018",
+        "Trend": "Property Market Crash",
+        "Value": "84"
+      },
+      {
+        "": "102",
+        "Week": "02/09/2018",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "103",
+        "Week": "02/09/2018",
+        "Trend": "Housing Bubble",
+        "Value": "35"
+      },
+      {
+        "": "104",
+        "Week": "02/09/2018",
+        "Trend": "Property Market Crash",
+        "Value": "23"
+      },
+      {
+        "": "105",
+        "Week": "09/09/2018",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "106",
+        "Week": "09/09/2018",
+        "Trend": "Housing Bubble",
+        "Value": "29"
+      },
+      {
+        "": "107",
+        "Week": "09/09/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "108",
+        "Week": "16/09/2018",
+        "Trend": "Housing Crash",
+        "Value": "13"
+      },
+      {
+        "": "109",
+        "Week": "16/09/2018",
+        "Trend": "Housing Bubble",
+        "Value": "21"
+      },
+      {
+        "": "110",
+        "Week": "16/09/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "111",
+        "Week": "23/09/2018",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "112",
+        "Week": "23/09/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "113",
+        "Week": "23/09/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "114",
+        "Week": "30/09/2018",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "115",
+        "Week": "30/09/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "116",
+        "Week": "30/09/2018",
+        "Trend": "Property Market Crash",
+        "Value": "26"
+      },
+      {
+        "": "117",
+        "Week": "07/10/2018",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "118",
+        "Week": "07/10/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "119",
+        "Week": "07/10/2018",
+        "Trend": "Property Market Crash",
+        "Value": "43"
+      },
+      {
+        "": "120",
+        "Week": "14/10/2018",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "121",
+        "Week": "14/10/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "122",
+        "Week": "14/10/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "123",
+        "Week": "21/10/2018",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "124",
+        "Week": "21/10/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "125",
+        "Week": "21/10/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "126",
+        "Week": "28/10/2018",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "127",
+        "Week": "28/10/2018",
+        "Trend": "Housing Bubble",
+        "Value": "22"
+      },
+      {
+        "": "128",
+        "Week": "28/10/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "129",
+        "Week": "04/11/2018",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "130",
+        "Week": "04/11/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "131",
+        "Week": "04/11/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "132",
+        "Week": "11/11/2018",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "133",
+        "Week": "11/11/2018",
+        "Trend": "Housing Bubble",
+        "Value": "17"
+      },
+      {
+        "": "134",
+        "Week": "11/11/2018",
+        "Trend": "Property Market Crash",
+        "Value": "19"
+      },
+      {
+        "": "135",
+        "Week": "18/11/2018",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "136",
+        "Week": "18/11/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "137",
+        "Week": "18/11/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "138",
+        "Week": "25/11/2018",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "139",
+        "Week": "25/11/2018",
+        "Trend": "Housing Bubble",
+        "Value": "19"
+      },
+      {
+        "": "140",
+        "Week": "25/11/2018",
+        "Trend": "Property Market Crash",
+        "Value": "30"
+      },
+      {
+        "": "141",
+        "Week": "02/12/2018",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "142",
+        "Week": "02/12/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "143",
+        "Week": "02/12/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "144",
+        "Week": "09/12/2018",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "145",
+        "Week": "09/12/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "146",
+        "Week": "09/12/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "147",
+        "Week": "16/12/2018",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "148",
+        "Week": "16/12/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "149",
+        "Week": "16/12/2018",
+        "Trend": "Property Market Crash",
+        "Value": "27"
+      },
+      {
+        "": "150",
+        "Week": "23/12/2018",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "151",
+        "Week": "23/12/2018",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "152",
+        "Week": "23/12/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "153",
+        "Week": "30/12/2018",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "154",
+        "Week": "30/12/2018",
+        "Trend": "Housing Bubble",
+        "Value": "19"
+      },
+      {
+        "": "155",
+        "Week": "30/12/2018",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "156",
+        "Week": "06/01/2019",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "157",
+        "Week": "06/01/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "158",
+        "Week": "06/01/2019",
+        "Trend": "Property Market Crash",
+        "Value": "31"
+      },
+      {
+        "": "159",
+        "Week": "13/01/2019",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "160",
+        "Week": "13/01/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "161",
+        "Week": "13/01/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "162",
+        "Week": "20/01/2019",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "163",
+        "Week": "20/01/2019",
+        "Trend": "Housing Bubble",
+        "Value": "20"
+      },
+      {
+        "": "164",
+        "Week": "20/01/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "165",
+        "Week": "27/01/2019",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "166",
+        "Week": "27/01/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "167",
+        "Week": "27/01/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "168",
+        "Week": "03/02/2019",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "169",
+        "Week": "03/02/2019",
+        "Trend": "Housing Bubble",
+        "Value": "79"
+      },
+      {
+        "": "170",
+        "Week": "03/02/2019",
+        "Trend": "Property Market Crash",
+        "Value": "17"
+      },
+      {
+        "": "171",
+        "Week": "10/02/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "172",
+        "Week": "10/02/2019",
+        "Trend": "Housing Bubble",
+        "Value": "45"
+      },
+      {
+        "": "173",
+        "Week": "10/02/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "174",
+        "Week": "17/02/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "175",
+        "Week": "17/02/2019",
+        "Trend": "Housing Bubble",
+        "Value": "20"
+      },
+      {
+        "": "176",
+        "Week": "17/02/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "177",
+        "Week": "24/02/2019",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "178",
+        "Week": "24/02/2019",
+        "Trend": "Housing Bubble",
+        "Value": "18"
+      },
+      {
+        "": "179",
+        "Week": "24/02/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "180",
+        "Week": "03/03/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "181",
+        "Week": "03/03/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "182",
+        "Week": "03/03/2019",
+        "Trend": "Property Market Crash",
+        "Value": "39"
+      },
+      {
+        "": "183",
+        "Week": "10/03/2019",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "184",
+        "Week": "10/03/2019",
+        "Trend": "Housing Bubble",
+        "Value": "100"
+      },
+      {
+        "": "185",
+        "Week": "10/03/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "186",
+        "Week": "17/03/2019",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "187",
+        "Week": "17/03/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "188",
+        "Week": "17/03/2019",
+        "Trend": "Property Market Crash",
+        "Value": "24"
+      },
+      {
+        "": "189",
+        "Week": "24/03/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "190",
+        "Week": "24/03/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "191",
+        "Week": "24/03/2019",
+        "Trend": "Property Market Crash",
+        "Value": "22"
+      },
+      {
+        "": "192",
+        "Week": "31/03/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "193",
+        "Week": "31/03/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "194",
+        "Week": "31/03/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "195",
+        "Week": "07/04/2019",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "196",
+        "Week": "07/04/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "197",
+        "Week": "07/04/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "198",
+        "Week": "14/04/2019",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "199",
+        "Week": "14/04/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "200",
+        "Week": "14/04/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "201",
+        "Week": "21/04/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "202",
+        "Week": "21/04/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "203",
+        "Week": "21/04/2019",
+        "Trend": "Property Market Crash",
+        "Value": "28"
+      },
+      {
+        "": "204",
+        "Week": "28/04/2019",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "205",
+        "Week": "28/04/2019",
+        "Trend": "Housing Bubble",
+        "Value": "17"
+      },
+      {
+        "": "206",
+        "Week": "28/04/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "207",
+        "Week": "05/05/2019",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "208",
+        "Week": "05/05/2019",
+        "Trend": "Housing Bubble",
+        "Value": "26"
+      },
+      {
+        "": "209",
+        "Week": "05/05/2019",
+        "Trend": "Property Market Crash",
+        "Value": "60"
+      },
+      {
+        "": "210",
+        "Week": "12/05/2019",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "211",
+        "Week": "12/05/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "212",
+        "Week": "12/05/2019",
+        "Trend": "Property Market Crash",
+        "Value": "35"
+      },
+      {
+        "": "213",
+        "Week": "19/05/2019",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "214",
+        "Week": "19/05/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "215",
+        "Week": "19/05/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "216",
+        "Week": "26/05/2019",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "217",
+        "Week": "26/05/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "218",
+        "Week": "26/05/2019",
+        "Trend": "Property Market Crash",
+        "Value": "21"
+      },
+      {
+        "": "219",
+        "Week": "02/06/2019",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "220",
+        "Week": "02/06/2019",
+        "Trend": "Housing Bubble",
+        "Value": "21"
+      },
+      {
+        "": "221",
+        "Week": "02/06/2019",
+        "Trend": "Property Market Crash",
+        "Value": "27"
+      },
+      {
+        "": "222",
+        "Week": "09/06/2019",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "223",
+        "Week": "09/06/2019",
+        "Trend": "Housing Bubble",
+        "Value": "18"
+      },
+      {
+        "": "224",
+        "Week": "09/06/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "225",
+        "Week": "16/06/2019",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "226",
+        "Week": "16/06/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "227",
+        "Week": "16/06/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "228",
+        "Week": "23/06/2019",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "229",
+        "Week": "23/06/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "230",
+        "Week": "23/06/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "231",
+        "Week": "30/06/2019",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "232",
+        "Week": "30/06/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "233",
+        "Week": "30/06/2019",
+        "Trend": "Property Market Crash",
+        "Value": "18"
+      },
+      {
+        "": "234",
+        "Week": "07/07/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "235",
+        "Week": "07/07/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "236",
+        "Week": "07/07/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "237",
+        "Week": "14/07/2019",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "238",
+        "Week": "14/07/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "239",
+        "Week": "14/07/2019",
+        "Trend": "Property Market Crash",
+        "Value": "26"
+      },
+      {
+        "": "240",
+        "Week": "21/07/2019",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "241",
+        "Week": "21/07/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "242",
+        "Week": "21/07/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "243",
+        "Week": "28/07/2019",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "244",
+        "Week": "28/07/2019",
+        "Trend": "Housing Bubble",
+        "Value": "25"
+      },
+      {
+        "": "245",
+        "Week": "28/07/2019",
+        "Trend": "Property Market Crash",
+        "Value": "28"
+      },
+      {
+        "": "246",
+        "Week": "04/08/2019",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "247",
+        "Week": "04/08/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "248",
+        "Week": "04/08/2019",
+        "Trend": "Property Market Crash",
+        "Value": "25"
+      },
+      {
+        "": "249",
+        "Week": "11/08/2019",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "250",
+        "Week": "11/08/2019",
+        "Trend": "Housing Bubble",
+        "Value": "19"
+      },
+      {
+        "": "251",
+        "Week": "11/08/2019",
+        "Trend": "Property Market Crash",
+        "Value": "27"
+      },
+      {
+        "": "252",
+        "Week": "18/08/2019",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "253",
+        "Week": "18/08/2019",
+        "Trend": "Housing Bubble",
+        "Value": "54"
+      },
+      {
+        "": "254",
+        "Week": "18/08/2019",
+        "Trend": "Property Market Crash",
+        "Value": "92"
+      },
+      {
+        "": "255",
+        "Week": "25/08/2019",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "256",
+        "Week": "25/08/2019",
+        "Trend": "Housing Bubble",
+        "Value": "21"
+      },
+      {
+        "": "257",
+        "Week": "25/08/2019",
+        "Trend": "Property Market Crash",
+        "Value": "36"
+      },
+      {
+        "": "258",
+        "Week": "01/09/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "259",
+        "Week": "01/09/2019",
+        "Trend": "Housing Bubble",
+        "Value": "61"
+      },
+      {
+        "": "260",
+        "Week": "01/09/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "261",
+        "Week": "08/09/2019",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "262",
+        "Week": "08/09/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "263",
+        "Week": "08/09/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "264",
+        "Week": "15/09/2019",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "265",
+        "Week": "15/09/2019",
+        "Trend": "Housing Bubble",
+        "Value": "34"
+      },
+      {
+        "": "266",
+        "Week": "15/09/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "267",
+        "Week": "22/09/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "268",
+        "Week": "22/09/2019",
+        "Trend": "Housing Bubble",
+        "Value": "43"
+      },
+      {
+        "": "269",
+        "Week": "22/09/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "270",
+        "Week": "29/09/2019",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "271",
+        "Week": "29/09/2019",
+        "Trend": "Housing Bubble",
+        "Value": "40"
+      },
+      {
+        "": "272",
+        "Week": "29/09/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "273",
+        "Week": "06/10/2019",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "274",
+        "Week": "06/10/2019",
+        "Trend": "Housing Bubble",
+        "Value": "28"
+      },
+      {
+        "": "275",
+        "Week": "06/10/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "276",
+        "Week": "13/10/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "277",
+        "Week": "13/10/2019",
+        "Trend": "Housing Bubble",
+        "Value": "18"
+      },
+      {
+        "": "278",
+        "Week": "13/10/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "279",
+        "Week": "20/10/2019",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "280",
+        "Week": "20/10/2019",
+        "Trend": "Housing Bubble",
+        "Value": "47"
+      },
+      {
+        "": "281",
+        "Week": "20/10/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "282",
+        "Week": "27/10/2019",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "283",
+        "Week": "27/10/2019",
+        "Trend": "Housing Bubble",
+        "Value": "30"
+      },
+      {
+        "": "284",
+        "Week": "27/10/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "285",
+        "Week": "03/11/2019",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "286",
+        "Week": "03/11/2019",
+        "Trend": "Housing Bubble",
+        "Value": "18"
+      },
+      {
+        "": "287",
+        "Week": "03/11/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "288",
+        "Week": "10/11/2019",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "289",
+        "Week": "10/11/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "290",
+        "Week": "10/11/2019",
+        "Trend": "Property Market Crash",
+        "Value": "18"
+      },
+      {
+        "": "291",
+        "Week": "17/11/2019",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "292",
+        "Week": "17/11/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "293",
+        "Week": "17/11/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "294",
+        "Week": "24/11/2019",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "295",
+        "Week": "24/11/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "296",
+        "Week": "24/11/2019",
+        "Trend": "Property Market Crash",
+        "Value": "14"
+      },
+      {
+        "": "297",
+        "Week": "01/12/2019",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "298",
+        "Week": "01/12/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "299",
+        "Week": "01/12/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "300",
+        "Week": "08/12/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "301",
+        "Week": "08/12/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "302",
+        "Week": "08/12/2019",
+        "Trend": "Property Market Crash",
+        "Value": "21"
+      },
+      {
+        "": "303",
+        "Week": "15/12/2019",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "304",
+        "Week": "15/12/2019",
+        "Trend": "Housing Bubble",
+        "Value": "41"
+      },
+      {
+        "": "305",
+        "Week": "15/12/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "306",
+        "Week": "22/12/2019",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "307",
+        "Week": "22/12/2019",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "308",
+        "Week": "22/12/2019",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "309",
+        "Week": "29/12/2019",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "310",
+        "Week": "29/12/2019",
+        "Trend": "Housing Bubble",
+        "Value": "17"
+      },
+      {
+        "": "311",
+        "Week": "29/12/2019",
+        "Trend": "Property Market Crash",
+        "Value": "31"
+      },
+      {
+        "": "312",
+        "Week": "05/01/2020",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "313",
+        "Week": "05/01/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "314",
+        "Week": "05/01/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "315",
+        "Week": "12/01/2020",
+        "Trend": "Housing Crash",
+        "Value": "0"
+      },
+      {
+        "": "316",
+        "Week": "12/01/2020",
+        "Trend": "Housing Bubble",
+        "Value": "38"
+      },
+      {
+        "": "317",
+        "Week": "12/01/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "318",
+        "Week": "19/01/2020",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "319",
+        "Week": "19/01/2020",
+        "Trend": "Housing Bubble",
+        "Value": "34"
+      },
+      {
+        "": "320",
+        "Week": "19/01/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "321",
+        "Week": "26/01/2020",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "322",
+        "Week": "26/01/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "323",
+        "Week": "26/01/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "324",
+        "Week": "02/02/2020",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "325",
+        "Week": "02/02/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "326",
+        "Week": "02/02/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "327",
+        "Week": "09/02/2020",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "328",
+        "Week": "09/02/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "329",
+        "Week": "09/02/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "330",
+        "Week": "16/02/2020",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "331",
+        "Week": "16/02/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "332",
+        "Week": "16/02/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "333",
+        "Week": "23/02/2020",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "334",
+        "Week": "23/02/2020",
+        "Trend": "Housing Bubble",
+        "Value": "28"
+      },
+      {
+        "": "335",
+        "Week": "23/02/2020",
+        "Trend": "Property Market Crash",
+        "Value": "26"
+      },
+      {
+        "": "336",
+        "Week": "01/03/2020",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "337",
+        "Week": "01/03/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "338",
+        "Week": "01/03/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "339",
+        "Week": "08/03/2020",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "340",
+        "Week": "08/03/2020",
+        "Trend": "Housing Bubble",
+        "Value": "40"
+      },
+      {
+        "": "341",
+        "Week": "08/03/2020",
+        "Trend": "Property Market Crash",
+        "Value": "54"
+      },
+      {
+        "": "342",
+        "Week": "15/03/2020",
+        "Trend": "Housing Crash",
+        "Value": "29"
+      },
+      {
+        "": "343",
+        "Week": "15/03/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "344",
+        "Week": "15/03/2020",
+        "Trend": "Property Market Crash",
+        "Value": "27"
+      },
+      {
+        "": "345",
+        "Week": "22/03/2020",
+        "Trend": "Housing Crash",
+        "Value": "24"
+      },
+      {
+        "": "346",
+        "Week": "22/03/2020",
+        "Trend": "Housing Bubble",
+        "Value": "25"
+      },
+      {
+        "": "347",
+        "Week": "22/03/2020",
+        "Trend": "Property Market Crash",
+        "Value": "24"
+      },
+      {
+        "": "348",
+        "Week": "29/03/2020",
+        "Trend": "Housing Crash",
+        "Value": "13"
+      },
+      {
+        "": "349",
+        "Week": "29/03/2020",
+        "Trend": "Housing Bubble",
+        "Value": "32"
+      },
+      {
+        "": "350",
+        "Week": "29/03/2020",
+        "Trend": "Property Market Crash",
+        "Value": "22"
+      },
+      {
+        "": "351",
+        "Week": "05/04/2020",
+        "Trend": "Housing Crash",
+        "Value": "18"
+      },
+      {
+        "": "352",
+        "Week": "05/04/2020",
+        "Trend": "Housing Bubble",
+        "Value": "22"
+      },
+      {
+        "": "353",
+        "Week": "05/04/2020",
+        "Trend": "Property Market Crash",
+        "Value": "31"
+      },
+      {
+        "": "354",
+        "Week": "12/04/2020",
+        "Trend": "Housing Crash",
+        "Value": "18"
+      },
+      {
+        "": "355",
+        "Week": "12/04/2020",
+        "Trend": "Housing Bubble",
+        "Value": "49"
+      },
+      {
+        "": "356",
+        "Week": "12/04/2020",
+        "Trend": "Property Market Crash",
+        "Value": "18"
+      },
+      {
+        "": "357",
+        "Week": "19/04/2020",
+        "Trend": "Housing Crash",
+        "Value": "13"
+      },
+      {
+        "": "358",
+        "Week": "19/04/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "359",
+        "Week": "19/04/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "360",
+        "Week": "26/04/2020",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "361",
+        "Week": "26/04/2020",
+        "Trend": "Housing Bubble",
+        "Value": "24"
+      },
+      {
+        "": "362",
+        "Week": "26/04/2020",
+        "Trend": "Property Market Crash",
+        "Value": "22"
+      },
+      {
+        "": "363",
+        "Week": "03/05/2020",
+        "Trend": "Housing Crash",
+        "Value": "13"
+      },
+      {
+        "": "364",
+        "Week": "03/05/2020",
+        "Trend": "Housing Bubble",
+        "Value": "17"
+      },
+      {
+        "": "365",
+        "Week": "03/05/2020",
+        "Trend": "Property Market Crash",
+        "Value": "26"
+      },
+      {
+        "": "366",
+        "Week": "10/05/2020",
+        "Trend": "Housing Crash",
+        "Value": "13"
+      },
+      {
+        "": "367",
+        "Week": "10/05/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "368",
+        "Week": "10/05/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "369",
+        "Week": "17/05/2020",
+        "Trend": "Housing Crash",
+        "Value": "12"
+      },
+      {
+        "": "370",
+        "Week": "17/05/2020",
+        "Trend": "Housing Bubble",
+        "Value": "21"
+      },
+      {
+        "": "371",
+        "Week": "17/05/2020",
+        "Trend": "Property Market Crash",
+        "Value": "14"
+      },
+      {
+        "": "372",
+        "Week": "24/05/2020",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "373",
+        "Week": "24/05/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "374",
+        "Week": "24/05/2020",
+        "Trend": "Property Market Crash",
+        "Value": "38"
+      },
+      {
+        "": "375",
+        "Week": "31/05/2020",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "376",
+        "Week": "31/05/2020",
+        "Trend": "Housing Bubble",
+        "Value": "37"
+      },
+      {
+        "": "377",
+        "Week": "31/05/2020",
+        "Trend": "Property Market Crash",
+        "Value": "15"
+      },
+      {
+        "": "378",
+        "Week": "07/06/2020",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "379",
+        "Week": "07/06/2020",
+        "Trend": "Housing Bubble",
+        "Value": "36"
+      },
+      {
+        "": "380",
+        "Week": "07/06/2020",
+        "Trend": "Property Market Crash",
+        "Value": "12"
+      },
+      {
+        "": "381",
+        "Week": "14/06/2020",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "382",
+        "Week": "14/06/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "383",
+        "Week": "14/06/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "384",
+        "Week": "21/06/2020",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "385",
+        "Week": "21/06/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "386",
+        "Week": "21/06/2020",
+        "Trend": "Property Market Crash",
+        "Value": "21"
+      },
+      {
+        "": "387",
+        "Week": "28/06/2020",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "388",
+        "Week": "28/06/2020",
+        "Trend": "Housing Bubble",
+        "Value": "20"
+      },
+      {
+        "": "389",
+        "Week": "28/06/2020",
+        "Trend": "Property Market Crash",
+        "Value": "22"
+      },
+      {
+        "": "390",
+        "Week": "05/07/2020",
+        "Trend": "Housing Crash",
+        "Value": "14"
+      },
+      {
+        "": "391",
+        "Week": "05/07/2020",
+        "Trend": "Housing Bubble",
+        "Value": "38"
+      },
+      {
+        "": "392",
+        "Week": "05/07/2020",
+        "Trend": "Property Market Crash",
+        "Value": "58"
+      },
+      {
+        "": "393",
+        "Week": "12/07/2020",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "394",
+        "Week": "12/07/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "395",
+        "Week": "12/07/2020",
+        "Trend": "Property Market Crash",
+        "Value": "14"
+      },
+      {
+        "": "396",
+        "Week": "19/07/2020",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "397",
+        "Week": "19/07/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "398",
+        "Week": "19/07/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "399",
+        "Week": "26/07/2020",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "400",
+        "Week": "26/07/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "401",
+        "Week": "26/07/2020",
+        "Trend": "Property Market Crash",
+        "Value": "15"
+      },
+      {
+        "": "402",
+        "Week": "02/08/2020",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "403",
+        "Week": "02/08/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "404",
+        "Week": "02/08/2020",
+        "Trend": "Property Market Crash",
+        "Value": "31"
+      },
+      {
+        "": "405",
+        "Week": "09/08/2020",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "406",
+        "Week": "09/08/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "407",
+        "Week": "09/08/2020",
+        "Trend": "Property Market Crash",
+        "Value": "18"
+      },
+      {
+        "": "408",
+        "Week": "16/08/2020",
+        "Trend": "Housing Crash",
+        "Value": "15"
+      },
+      {
+        "": "409",
+        "Week": "16/08/2020",
+        "Trend": "Housing Bubble",
+        "Value": "38"
+      },
+      {
+        "": "410",
+        "Week": "16/08/2020",
+        "Trend": "Property Market Crash",
+        "Value": "28"
+      },
+      {
+        "": "411",
+        "Week": "23/08/2020",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "412",
+        "Week": "23/08/2020",
+        "Trend": "Housing Bubble",
+        "Value": "28"
+      },
+      {
+        "": "413",
+        "Week": "23/08/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "414",
+        "Week": "30/08/2020",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "415",
+        "Week": "30/08/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "416",
+        "Week": "30/08/2020",
+        "Trend": "Property Market Crash",
+        "Value": "54"
+      },
+      {
+        "": "417",
+        "Week": "06/09/2020",
+        "Trend": "Housing Crash",
+        "Value": "16"
+      },
+      {
+        "": "418",
+        "Week": "06/09/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "419",
+        "Week": "06/09/2020",
+        "Trend": "Property Market Crash",
+        "Value": "38"
+      },
+      {
+        "": "420",
+        "Week": "13/09/2020",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "421",
+        "Week": "13/09/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "422",
+        "Week": "13/09/2020",
+        "Trend": "Property Market Crash",
+        "Value": "32"
+      },
+      {
+        "": "423",
+        "Week": "20/09/2020",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "424",
+        "Week": "20/09/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "425",
+        "Week": "20/09/2020",
+        "Trend": "Property Market Crash",
+        "Value": "57"
+      },
+      {
+        "": "426",
+        "Week": "27/09/2020",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "427",
+        "Week": "27/09/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "428",
+        "Week": "27/09/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "429",
+        "Week": "04/10/2020",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "430",
+        "Week": "04/10/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "431",
+        "Week": "04/10/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "432",
+        "Week": "11/10/2020",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "433",
+        "Week": "11/10/2020",
+        "Trend": "Housing Bubble",
+        "Value": "89"
+      },
+      {
+        "": "434",
+        "Week": "11/10/2020",
+        "Trend": "Property Market Crash",
+        "Value": "25"
+      },
+      {
+        "": "435",
+        "Week": "18/10/2020",
+        "Trend": "Housing Crash",
+        "Value": "11"
+      },
+      {
+        "": "436",
+        "Week": "18/10/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "437",
+        "Week": "18/10/2020",
+        "Trend": "Property Market Crash",
+        "Value": "46"
+      },
+      {
+        "": "438",
+        "Week": "25/10/2020",
+        "Trend": "Housing Crash",
+        "Value": "14"
+      },
+      {
+        "": "439",
+        "Week": "25/10/2020",
+        "Trend": "Housing Bubble",
+        "Value": "35"
+      },
+      {
+        "": "440",
+        "Week": "25/10/2020",
+        "Trend": "Property Market Crash",
+        "Value": "45"
+      },
+      {
+        "": "441",
+        "Week": "01/11/2020",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "442",
+        "Week": "01/11/2020",
+        "Trend": "Housing Bubble",
+        "Value": "40"
+      },
+      {
+        "": "443",
+        "Week": "01/11/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "444",
+        "Week": "08/11/2020",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "445",
+        "Week": "08/11/2020",
+        "Trend": "Housing Bubble",
+        "Value": "21"
+      },
+      {
+        "": "446",
+        "Week": "08/11/2020",
+        "Trend": "Property Market Crash",
+        "Value": "26"
+      },
+      {
+        "": "447",
+        "Week": "15/11/2020",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "448",
+        "Week": "15/11/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "449",
+        "Week": "15/11/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "450",
+        "Week": "22/11/2020",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "451",
+        "Week": "22/11/2020",
+        "Trend": "Housing Bubble",
+        "Value": "55"
+      },
+      {
+        "": "452",
+        "Week": "22/11/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "453",
+        "Week": "29/11/2020",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "454",
+        "Week": "29/11/2020",
+        "Trend": "Housing Bubble",
+        "Value": "69"
+      },
+      {
+        "": "455",
+        "Week": "29/11/2020",
+        "Trend": "Property Market Crash",
+        "Value": "20"
+      },
+      {
+        "": "456",
+        "Week": "06/12/2020",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "457",
+        "Week": "06/12/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "458",
+        "Week": "06/12/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "459",
+        "Week": "13/12/2020",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "460",
+        "Week": "13/12/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "461",
+        "Week": "13/12/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "462",
+        "Week": "20/12/2020",
+        "Trend": "Housing Crash",
+        "Value": "3"
+      },
+      {
+        "": "463",
+        "Week": "20/12/2020",
+        "Trend": "Housing Bubble",
+        "Value": "57"
+      },
+      {
+        "": "464",
+        "Week": "20/12/2020",
+        "Trend": "Property Market Crash",
+        "Value": "28"
+      },
+      {
+        "": "465",
+        "Week": "27/12/2020",
+        "Trend": "Housing Crash",
+        "Value": "15"
+      },
+      {
+        "": "466",
+        "Week": "27/12/2020",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "467",
+        "Week": "27/12/2020",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "468",
+        "Week": "03/01/2021",
+        "Trend": "Housing Crash",
+        "Value": "14"
+      },
+      {
+        "": "469",
+        "Week": "03/01/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "470",
+        "Week": "03/01/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "471",
+        "Week": "10/01/2021",
+        "Trend": "Housing Crash",
+        "Value": "13"
+      },
+      {
+        "": "472",
+        "Week": "10/01/2021",
+        "Trend": "Housing Bubble",
+        "Value": "21"
+      },
+      {
+        "": "473",
+        "Week": "10/01/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "474",
+        "Week": "17/01/2021",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "475",
+        "Week": "17/01/2021",
+        "Trend": "Housing Bubble",
+        "Value": "14"
+      },
+      {
+        "": "476",
+        "Week": "17/01/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "477",
+        "Week": "24/01/2021",
+        "Trend": "Housing Crash",
+        "Value": "11"
+      },
+      {
+        "": "478",
+        "Week": "24/01/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "479",
+        "Week": "24/01/2021",
+        "Trend": "Property Market Crash",
+        "Value": "17"
+      },
+      {
+        "": "480",
+        "Week": "31/01/2021",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "481",
+        "Week": "31/01/2021",
+        "Trend": "Housing Bubble",
+        "Value": "35"
+      },
+      {
+        "": "482",
+        "Week": "31/01/2021",
+        "Trend": "Property Market Crash",
+        "Value": "28"
+      },
+      {
+        "": "483",
+        "Week": "07/02/2021",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "484",
+        "Week": "07/02/2021",
+        "Trend": "Housing Bubble",
+        "Value": "32"
+      },
+      {
+        "": "485",
+        "Week": "07/02/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "486",
+        "Week": "14/02/2021",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "487",
+        "Week": "14/02/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "488",
+        "Week": "14/02/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "489",
+        "Week": "21/02/2021",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "490",
+        "Week": "21/02/2021",
+        "Trend": "Housing Bubble",
+        "Value": "30"
+      },
+      {
+        "": "491",
+        "Week": "21/02/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "492",
+        "Week": "28/02/2021",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "493",
+        "Week": "28/02/2021",
+        "Trend": "Housing Bubble",
+        "Value": "48"
+      },
+      {
+        "": "494",
+        "Week": "28/02/2021",
+        "Trend": "Property Market Crash",
+        "Value": "28"
+      },
+      {
+        "": "495",
+        "Week": "07/03/2021",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "496",
+        "Week": "07/03/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "497",
+        "Week": "07/03/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "498",
+        "Week": "14/03/2021",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "499",
+        "Week": "14/03/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "500",
+        "Week": "14/03/2021",
+        "Trend": "Property Market Crash",
+        "Value": "23"
+      },
+      {
+        "": "501",
+        "Week": "21/03/2021",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "502",
+        "Week": "21/03/2021",
+        "Trend": "Housing Bubble",
+        "Value": "31"
+      },
+      {
+        "": "503",
+        "Week": "21/03/2021",
+        "Trend": "Property Market Crash",
+        "Value": "32"
+      },
+      {
+        "": "504",
+        "Week": "28/03/2021",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "505",
+        "Week": "28/03/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "506",
+        "Week": "28/03/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "507",
+        "Week": "04/04/2021",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "508",
+        "Week": "04/04/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "509",
+        "Week": "04/04/2021",
+        "Trend": "Property Market Crash",
+        "Value": "26"
+      },
+      {
+        "": "510",
+        "Week": "11/04/2021",
+        "Trend": "Housing Crash",
+        "Value": "13"
+      },
+      {
+        "": "511",
+        "Week": "11/04/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "512",
+        "Week": "11/04/2021",
+        "Trend": "Property Market Crash",
+        "Value": "22"
+      },
+      {
+        "": "513",
+        "Week": "18/04/2021",
+        "Trend": "Housing Crash",
+        "Value": "12"
+      },
+      {
+        "": "514",
+        "Week": "18/04/2021",
+        "Trend": "Housing Bubble",
+        "Value": "89"
+      },
+      {
+        "": "515",
+        "Week": "18/04/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "516",
+        "Week": "25/04/2021",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "517",
+        "Week": "25/04/2021",
+        "Trend": "Housing Bubble",
+        "Value": "17"
+      },
+      {
+        "": "518",
+        "Week": "25/04/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "519",
+        "Week": "02/05/2021",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "520",
+        "Week": "02/05/2021",
+        "Trend": "Housing Bubble",
+        "Value": "63"
+      },
+      {
+        "": "521",
+        "Week": "02/05/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "522",
+        "Week": "09/05/2021",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "523",
+        "Week": "09/05/2021",
+        "Trend": "Housing Bubble",
+        "Value": "49"
+      },
+      {
+        "": "524",
+        "Week": "09/05/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "525",
+        "Week": "16/05/2021",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "526",
+        "Week": "16/05/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "527",
+        "Week": "16/05/2021",
+        "Trend": "Property Market Crash",
+        "Value": "27"
+      },
+      {
+        "": "528",
+        "Week": "23/05/2021",
+        "Trend": "Housing Crash",
+        "Value": "13"
+      },
+      {
+        "": "529",
+        "Week": "23/05/2021",
+        "Trend": "Housing Bubble",
+        "Value": "30"
+      },
+      {
+        "": "530",
+        "Week": "23/05/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "531",
+        "Week": "30/05/2021",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "532",
+        "Week": "30/05/2021",
+        "Trend": "Housing Bubble",
+        "Value": "48"
+      },
+      {
+        "": "533",
+        "Week": "30/05/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "534",
+        "Week": "06/06/2021",
+        "Trend": "Housing Crash",
+        "Value": "16"
+      },
+      {
+        "": "535",
+        "Week": "06/06/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "536",
+        "Week": "06/06/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "537",
+        "Week": "13/06/2021",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "538",
+        "Week": "13/06/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "539",
+        "Week": "13/06/2021",
+        "Trend": "Property Market Crash",
+        "Value": "30"
+      },
+      {
+        "": "540",
+        "Week": "20/06/2021",
+        "Trend": "Housing Crash",
+        "Value": "14"
+      },
+      {
+        "": "541",
+        "Week": "20/06/2021",
+        "Trend": "Housing Bubble",
+        "Value": "50"
+      },
+      {
+        "": "542",
+        "Week": "20/06/2021",
+        "Trend": "Property Market Crash",
+        "Value": "23"
+      },
+      {
+        "": "543",
+        "Week": "27/06/2021",
+        "Trend": "Housing Crash",
+        "Value": "12"
+      },
+      {
+        "": "544",
+        "Week": "27/06/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "545",
+        "Week": "27/06/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "546",
+        "Week": "04/07/2021",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "547",
+        "Week": "04/07/2021",
+        "Trend": "Housing Bubble",
+        "Value": "35"
+      },
+      {
+        "": "548",
+        "Week": "04/07/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "549",
+        "Week": "11/07/2021",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "550",
+        "Week": "11/07/2021",
+        "Trend": "Housing Bubble",
+        "Value": "33"
+      },
+      {
+        "": "551",
+        "Week": "11/07/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "552",
+        "Week": "18/07/2021",
+        "Trend": "Housing Crash",
+        "Value": "4"
+      },
+      {
+        "": "553",
+        "Week": "18/07/2021",
+        "Trend": "Housing Bubble",
+        "Value": "38"
+      },
+      {
+        "": "554",
+        "Week": "18/07/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "555",
+        "Week": "25/07/2021",
+        "Trend": "Housing Crash",
+        "Value": "17"
+      },
+      {
+        "": "556",
+        "Week": "25/07/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "557",
+        "Week": "25/07/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "558",
+        "Week": "01/08/2021",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "559",
+        "Week": "01/08/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "560",
+        "Week": "01/08/2021",
+        "Trend": "Property Market Crash",
+        "Value": "33"
+      },
+      {
+        "": "561",
+        "Week": "08/08/2021",
+        "Trend": "Housing Crash",
+        "Value": "11"
+      },
+      {
+        "": "562",
+        "Week": "08/08/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "563",
+        "Week": "08/08/2021",
+        "Trend": "Property Market Crash",
+        "Value": "37"
+      },
+      {
+        "": "564",
+        "Week": "15/08/2021",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "565",
+        "Week": "15/08/2021",
+        "Trend": "Housing Bubble",
+        "Value": "29"
+      },
+      {
+        "": "566",
+        "Week": "15/08/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "567",
+        "Week": "22/08/2021",
+        "Trend": "Housing Crash",
+        "Value": "11"
+      },
+      {
+        "": "568",
+        "Week": "22/08/2021",
+        "Trend": "Housing Bubble",
+        "Value": "44"
+      },
+      {
+        "": "569",
+        "Week": "22/08/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "570",
+        "Week": "29/08/2021",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "571",
+        "Week": "29/08/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "572",
+        "Week": "29/08/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "573",
+        "Week": "05/09/2021",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "574",
+        "Week": "05/09/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "575",
+        "Week": "05/09/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "576",
+        "Week": "12/09/2021",
+        "Trend": "Housing Crash",
+        "Value": "11"
+      },
+      {
+        "": "577",
+        "Week": "12/09/2021",
+        "Trend": "Housing Bubble",
+        "Value": "47"
+      },
+      {
+        "": "578",
+        "Week": "12/09/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "579",
+        "Week": "19/09/2021",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "580",
+        "Week": "19/09/2021",
+        "Trend": "Housing Bubble",
+        "Value": "61"
+      },
+      {
+        "": "581",
+        "Week": "19/09/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "582",
+        "Week": "26/09/2021",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "583",
+        "Week": "26/09/2021",
+        "Trend": "Housing Bubble",
+        "Value": "72"
+      },
+      {
+        "": "584",
+        "Week": "26/09/2021",
+        "Trend": "Property Market Crash",
+        "Value": "20"
+      },
+      {
+        "": "585",
+        "Week": "03/10/2021",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "586",
+        "Week": "03/10/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "587",
+        "Week": "03/10/2021",
+        "Trend": "Property Market Crash",
+        "Value": "40"
+      },
+      {
+        "": "588",
+        "Week": "10/10/2021",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "589",
+        "Week": "10/10/2021",
+        "Trend": "Housing Bubble",
+        "Value": "17"
+      },
+      {
+        "": "590",
+        "Week": "10/10/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "591",
+        "Week": "17/10/2021",
+        "Trend": "Housing Crash",
+        "Value": "23"
+      },
+      {
+        "": "592",
+        "Week": "17/10/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "593",
+        "Week": "17/10/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "594",
+        "Week": "24/10/2021",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "595",
+        "Week": "24/10/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "596",
+        "Week": "24/10/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "597",
+        "Week": "31/10/2021",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "598",
+        "Week": "31/10/2021",
+        "Trend": "Housing Bubble",
+        "Value": "34"
+      },
+      {
+        "": "599",
+        "Week": "31/10/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "600",
+        "Week": "07/11/2021",
+        "Trend": "Housing Crash",
+        "Value": "5"
+      },
+      {
+        "": "601",
+        "Week": "07/11/2021",
+        "Trend": "Housing Bubble",
+        "Value": "22"
+      },
+      {
+        "": "602",
+        "Week": "07/11/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "603",
+        "Week": "14/11/2021",
+        "Trend": "Housing Crash",
+        "Value": "14"
+      },
+      {
+        "": "604",
+        "Week": "14/11/2021",
+        "Trend": "Housing Bubble",
+        "Value": "36"
+      },
+      {
+        "": "605",
+        "Week": "14/11/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "606",
+        "Week": "21/11/2021",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "607",
+        "Week": "21/11/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "608",
+        "Week": "21/11/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "609",
+        "Week": "28/11/2021",
+        "Trend": "Housing Crash",
+        "Value": "15"
+      },
+      {
+        "": "610",
+        "Week": "28/11/2021",
+        "Trend": "Housing Bubble",
+        "Value": "17"
+      },
+      {
+        "": "611",
+        "Week": "28/11/2021",
+        "Trend": "Property Market Crash",
+        "Value": "38"
+      },
+      {
+        "": "612",
+        "Week": "05/12/2021",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "613",
+        "Week": "05/12/2021",
+        "Trend": "Housing Bubble",
+        "Value": "33"
+      },
+      {
+        "": "614",
+        "Week": "05/12/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "615",
+        "Week": "12/12/2021",
+        "Trend": "Housing Crash",
+        "Value": "6"
+      },
+      {
+        "": "616",
+        "Week": "12/12/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "617",
+        "Week": "12/12/2021",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "618",
+        "Week": "19/12/2021",
+        "Trend": "Housing Crash",
+        "Value": "2"
+      },
+      {
+        "": "619",
+        "Week": "19/12/2021",
+        "Trend": "Housing Bubble",
+        "Value": "23"
+      },
+      {
+        "": "620",
+        "Week": "19/12/2021",
+        "Trend": "Property Market Crash",
+        "Value": "29"
+      },
+      {
+        "": "621",
+        "Week": "26/12/2021",
+        "Trend": "Housing Crash",
+        "Value": "11"
+      },
+      {
+        "": "622",
+        "Week": "26/12/2021",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "623",
+        "Week": "26/12/2021",
+        "Trend": "Property Market Crash",
+        "Value": "32"
+      },
+      {
+        "": "624",
+        "Week": "02/01/2022",
+        "Trend": "Housing Crash",
+        "Value": "14"
+      },
+      {
+        "": "625",
+        "Week": "02/01/2022",
+        "Trend": "Housing Bubble",
+        "Value": "28"
+      },
+      {
+        "": "626",
+        "Week": "02/01/2022",
+        "Trend": "Property Market Crash",
+        "Value": "19"
+      },
+      {
+        "": "627",
+        "Week": "09/01/2022",
+        "Trend": "Housing Crash",
+        "Value": "8"
+      },
+      {
+        "": "628",
+        "Week": "09/01/2022",
+        "Trend": "Housing Bubble",
+        "Value": "35"
+      },
+      {
+        "": "629",
+        "Week": "09/01/2022",
+        "Trend": "Property Market Crash",
+        "Value": "24"
+      },
+      {
+        "": "630",
+        "Week": "16/01/2022",
+        "Trend": "Housing Crash",
+        "Value": "14"
+      },
+      {
+        "": "631",
+        "Week": "16/01/2022",
+        "Trend": "Housing Bubble",
+        "Value": "24"
+      },
+      {
+        "": "632",
+        "Week": "16/01/2022",
+        "Trend": "Property Market Crash",
+        "Value": "25"
+      },
+      {
+        "": "633",
+        "Week": "23/01/2022",
+        "Trend": "Housing Crash",
+        "Value": "13"
+      },
+      {
+        "": "634",
+        "Week": "23/01/2022",
+        "Trend": "Housing Bubble",
+        "Value": "26"
+      },
+      {
+        "": "635",
+        "Week": "23/01/2022",
+        "Trend": "Property Market Crash",
+        "Value": "42"
+      },
+      {
+        "": "636",
+        "Week": "30/01/2022",
+        "Trend": "Housing Crash",
+        "Value": "20"
+      },
+      {
+        "": "637",
+        "Week": "30/01/2022",
+        "Trend": "Housing Bubble",
+        "Value": "29"
+      },
+      {
+        "": "638",
+        "Week": "30/01/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "639",
+        "Week": "06/02/2022",
+        "Trend": "Housing Crash",
+        "Value": "22"
+      },
+      {
+        "": "640",
+        "Week": "06/02/2022",
+        "Trend": "Housing Bubble",
+        "Value": "24"
+      },
+      {
+        "": "641",
+        "Week": "06/02/2022",
+        "Trend": "Property Market Crash",
+        "Value": "76"
+      },
+      {
+        "": "642",
+        "Week": "13/02/2022",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "643",
+        "Week": "13/02/2022",
+        "Trend": "Housing Bubble",
+        "Value": "15"
+      },
+      {
+        "": "644",
+        "Week": "13/02/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "645",
+        "Week": "20/02/2022",
+        "Trend": "Housing Crash",
+        "Value": "14"
+      },
+      {
+        "": "646",
+        "Week": "20/02/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "647",
+        "Week": "20/02/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "648",
+        "Week": "27/02/2022",
+        "Trend": "Housing Crash",
+        "Value": "15"
+      },
+      {
+        "": "649",
+        "Week": "27/02/2022",
+        "Trend": "Housing Bubble",
+        "Value": "35"
+      },
+      {
+        "": "650",
+        "Week": "27/02/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "651",
+        "Week": "06/03/2022",
+        "Trend": "Housing Crash",
+        "Value": "16"
+      },
+      {
+        "": "652",
+        "Week": "06/03/2022",
+        "Trend": "Housing Bubble",
+        "Value": "39"
+      },
+      {
+        "": "653",
+        "Week": "06/03/2022",
+        "Trend": "Property Market Crash",
+        "Value": "40"
+      },
+      {
+        "": "654",
+        "Week": "13/03/2022",
+        "Trend": "Housing Crash",
+        "Value": "16"
+      },
+      {
+        "": "655",
+        "Week": "13/03/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "656",
+        "Week": "13/03/2022",
+        "Trend": "Property Market Crash",
+        "Value": "30"
+      },
+      {
+        "": "657",
+        "Week": "20/03/2022",
+        "Trend": "Housing Crash",
+        "Value": "18"
+      },
+      {
+        "": "658",
+        "Week": "20/03/2022",
+        "Trend": "Housing Bubble",
+        "Value": "20"
+      },
+      {
+        "": "659",
+        "Week": "20/03/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "660",
+        "Week": "27/03/2022",
+        "Trend": "Housing Crash",
+        "Value": "14"
+      },
+      {
+        "": "661",
+        "Week": "27/03/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "662",
+        "Week": "27/03/2022",
+        "Trend": "Property Market Crash",
+        "Value": "21"
+      },
+      {
+        "": "663",
+        "Week": "03/04/2022",
+        "Trend": "Housing Crash",
+        "Value": "31"
+      },
+      {
+        "": "664",
+        "Week": "03/04/2022",
+        "Trend": "Housing Bubble",
+        "Value": "23"
+      },
+      {
+        "": "665",
+        "Week": "03/04/2022",
+        "Trend": "Property Market Crash",
+        "Value": "54"
+      },
+      {
+        "": "666",
+        "Week": "10/04/2022",
+        "Trend": "Housing Crash",
+        "Value": "24"
+      },
+      {
+        "": "667",
+        "Week": "10/04/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "668",
+        "Week": "10/04/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "669",
+        "Week": "17/04/2022",
+        "Trend": "Housing Crash",
+        "Value": "20"
+      },
+      {
+        "": "670",
+        "Week": "17/04/2022",
+        "Trend": "Housing Bubble",
+        "Value": "21"
+      },
+      {
+        "": "671",
+        "Week": "17/04/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "672",
+        "Week": "24/04/2022",
+        "Trend": "Housing Crash",
+        "Value": "24"
+      },
+      {
+        "": "673",
+        "Week": "24/04/2022",
+        "Trend": "Housing Bubble",
+        "Value": "41"
+      },
+      {
+        "": "674",
+        "Week": "24/04/2022",
+        "Trend": "Property Market Crash",
+        "Value": "39"
+      },
+      {
+        "": "675",
+        "Week": "01/05/2022",
+        "Trend": "Housing Crash",
+        "Value": "24"
+      },
+      {
+        "": "676",
+        "Week": "01/05/2022",
+        "Trend": "Housing Bubble",
+        "Value": "44"
+      },
+      {
+        "": "677",
+        "Week": "01/05/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "678",
+        "Week": "08/05/2022",
+        "Trend": "Housing Crash",
+        "Value": "36"
+      },
+      {
+        "": "679",
+        "Week": "08/05/2022",
+        "Trend": "Housing Bubble",
+        "Value": "48"
+      },
+      {
+        "": "680",
+        "Week": "08/05/2022",
+        "Trend": "Property Market Crash",
+        "Value": "73"
+      },
+      {
+        "": "681",
+        "Week": "15/05/2022",
+        "Trend": "Housing Crash",
+        "Value": "28"
+      },
+      {
+        "": "682",
+        "Week": "15/05/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "683",
+        "Week": "15/05/2022",
+        "Trend": "Property Market Crash",
+        "Value": "75"
+      },
+      {
+        "": "684",
+        "Week": "22/05/2022",
+        "Trend": "Housing Crash",
+        "Value": "28"
+      },
+      {
+        "": "685",
+        "Week": "22/05/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "686",
+        "Week": "22/05/2022",
+        "Trend": "Property Market Crash",
+        "Value": "93"
+      },
+      {
+        "": "687",
+        "Week": "29/05/2022",
+        "Trend": "Housing Crash",
+        "Value": "18"
+      },
+      {
+        "": "688",
+        "Week": "29/05/2022",
+        "Trend": "Housing Bubble",
+        "Value": "24"
+      },
+      {
+        "": "689",
+        "Week": "29/05/2022",
+        "Trend": "Property Market Crash",
+        "Value": "17"
+      },
+      {
+        "": "690",
+        "Week": "05/06/2022",
+        "Trend": "Housing Crash",
+        "Value": "26"
+      },
+      {
+        "": "691",
+        "Week": "05/06/2022",
+        "Trend": "Housing Bubble",
+        "Value": "59"
+      },
+      {
+        "": "692",
+        "Week": "05/06/2022",
+        "Trend": "Property Market Crash",
+        "Value": "43"
+      },
+      {
+        "": "693",
+        "Week": "12/06/2022",
+        "Trend": "Housing Crash",
+        "Value": "29"
+      },
+      {
+        "": "694",
+        "Week": "12/06/2022",
+        "Trend": "Housing Bubble",
+        "Value": "45"
+      },
+      {
+        "": "695",
+        "Week": "12/06/2022",
+        "Trend": "Property Market Crash",
+        "Value": "39"
+      },
+      {
+        "": "696",
+        "Week": "19/06/2022",
+        "Trend": "Housing Crash",
+        "Value": "23"
+      },
+      {
+        "": "697",
+        "Week": "19/06/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "698",
+        "Week": "19/06/2022",
+        "Trend": "Property Market Crash",
+        "Value": "29"
+      },
+      {
+        "": "699",
+        "Week": "26/06/2022",
+        "Trend": "Housing Crash",
+        "Value": "100"
+      },
+      {
+        "": "700",
+        "Week": "26/06/2022",
+        "Trend": "Housing Bubble",
+        "Value": "85"
+      },
+      {
+        "": "701",
+        "Week": "26/06/2022",
+        "Trend": "Property Market Crash",
+        "Value": "83"
+      },
+      {
+        "": "702",
+        "Week": "03/07/2022",
+        "Trend": "Housing Crash",
+        "Value": "28"
+      },
+      {
+        "": "703",
+        "Week": "03/07/2022",
+        "Trend": "Housing Bubble",
+        "Value": "47"
+      },
+      {
+        "": "704",
+        "Week": "03/07/2022",
+        "Trend": "Property Market Crash",
+        "Value": "48"
+      },
+      {
+        "": "705",
+        "Week": "10/07/2022",
+        "Trend": "Housing Crash",
+        "Value": "28"
+      },
+      {
+        "": "706",
+        "Week": "10/07/2022",
+        "Trend": "Housing Bubble",
+        "Value": "19"
+      },
+      {
+        "": "707",
+        "Week": "10/07/2022",
+        "Trend": "Property Market Crash",
+        "Value": "32"
+      },
+      {
+        "": "708",
+        "Week": "17/07/2022",
+        "Trend": "Housing Crash",
+        "Value": "22"
+      },
+      {
+        "": "709",
+        "Week": "17/07/2022",
+        "Trend": "Housing Bubble",
+        "Value": "19"
+      },
+      {
+        "": "710",
+        "Week": "17/07/2022",
+        "Trend": "Property Market Crash",
+        "Value": "20"
+      },
+      {
+        "": "711",
+        "Week": "24/07/2022",
+        "Trend": "Housing Crash",
+        "Value": "27"
+      },
+      {
+        "": "712",
+        "Week": "24/07/2022",
+        "Trend": "Housing Bubble",
+        "Value": "33"
+      },
+      {
+        "": "713",
+        "Week": "24/07/2022",
+        "Trend": "Property Market Crash",
+        "Value": "42"
+      },
+      {
+        "": "714",
+        "Week": "31/07/2022",
+        "Trend": "Housing Crash",
+        "Value": "27"
+      },
+      {
+        "": "715",
+        "Week": "31/07/2022",
+        "Trend": "Housing Bubble",
+        "Value": "20"
+      },
+      {
+        "": "716",
+        "Week": "31/07/2022",
+        "Trend": "Property Market Crash",
+        "Value": "62"
+      },
+      {
+        "": "717",
+        "Week": "07/08/2022",
+        "Trend": "Housing Crash",
+        "Value": "21"
+      },
+      {
+        "": "718",
+        "Week": "07/08/2022",
+        "Trend": "Housing Bubble",
+        "Value": "41"
+      },
+      {
+        "": "719",
+        "Week": "07/08/2022",
+        "Trend": "Property Market Crash",
+        "Value": "45"
+      },
+      {
+        "": "720",
+        "Week": "14/08/2022",
+        "Trend": "Housing Crash",
+        "Value": "37"
+      },
+      {
+        "": "721",
+        "Week": "14/08/2022",
+        "Trend": "Housing Bubble",
+        "Value": "29"
+      },
+      {
+        "": "722",
+        "Week": "14/08/2022",
+        "Trend": "Property Market Crash",
+        "Value": "52"
+      },
+      {
+        "": "723",
+        "Week": "21/08/2022",
+        "Trend": "Housing Crash",
+        "Value": "28"
+      },
+      {
+        "": "724",
+        "Week": "21/08/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "725",
+        "Week": "21/08/2022",
+        "Trend": "Property Market Crash",
+        "Value": "58"
+      },
+      {
+        "": "726",
+        "Week": "28/08/2022",
+        "Trend": "Housing Crash",
+        "Value": "78"
+      },
+      {
+        "": "727",
+        "Week": "28/08/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "728",
+        "Week": "28/08/2022",
+        "Trend": "Property Market Crash",
+        "Value": "19"
+      },
+      {
+        "": "729",
+        "Week": "04/09/2022",
+        "Trend": "Housing Crash",
+        "Value": "20"
+      },
+      {
+        "": "730",
+        "Week": "04/09/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "731",
+        "Week": "04/09/2022",
+        "Trend": "Property Market Crash",
+        "Value": "20"
+      },
+      {
+        "": "732",
+        "Week": "11/09/2022",
+        "Trend": "Housing Crash",
+        "Value": "22"
+      },
+      {
+        "": "733",
+        "Week": "11/09/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "734",
+        "Week": "11/09/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "735",
+        "Week": "18/09/2022",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "736",
+        "Week": "18/09/2022",
+        "Trend": "Housing Bubble",
+        "Value": "49"
+      },
+      {
+        "": "737",
+        "Week": "18/09/2022",
+        "Trend": "Property Market Crash",
+        "Value": "40"
+      },
+      {
+        "": "738",
+        "Week": "25/09/2022",
+        "Trend": "Housing Crash",
+        "Value": "80"
+      },
+      {
+        "": "739",
+        "Week": "25/09/2022",
+        "Trend": "Housing Bubble",
+        "Value": "27"
+      },
+      {
+        "": "740",
+        "Week": "25/09/2022",
+        "Trend": "Property Market Crash",
+        "Value": "100"
+      },
+      {
+        "": "741",
+        "Week": "02/10/2022",
+        "Trend": "Housing Crash",
+        "Value": "54"
+      },
+      {
+        "": "742",
+        "Week": "02/10/2022",
+        "Trend": "Housing Bubble",
+        "Value": "16"
+      },
+      {
+        "": "743",
+        "Week": "02/10/2022",
+        "Trend": "Property Market Crash",
+        "Value": "93"
+      },
+      {
+        "": "744",
+        "Week": "09/10/2022",
+        "Trend": "Housing Crash",
+        "Value": "40"
+      },
+      {
+        "": "745",
+        "Week": "09/10/2022",
+        "Trend": "Housing Bubble",
+        "Value": "19"
+      },
+      {
+        "": "746",
+        "Week": "09/10/2022",
+        "Trend": "Property Market Crash",
+        "Value": "50"
+      },
+      {
+        "": "747",
+        "Week": "16/10/2022",
+        "Trend": "Housing Crash",
+        "Value": "62"
+      },
+      {
+        "": "748",
+        "Week": "16/10/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "749",
+        "Week": "16/10/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "750",
+        "Week": "23/10/2022",
+        "Trend": "Housing Crash",
+        "Value": "28"
+      },
+      {
+        "": "751",
+        "Week": "23/10/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "752",
+        "Week": "23/10/2022",
+        "Trend": "Property Market Crash",
+        "Value": "50"
+      },
+      {
+        "": "753",
+        "Week": "30/10/2022",
+        "Trend": "Housing Crash",
+        "Value": "28"
+      },
+      {
+        "": "754",
+        "Week": "30/10/2022",
+        "Trend": "Housing Bubble",
+        "Value": "24"
+      },
+      {
+        "": "755",
+        "Week": "30/10/2022",
+        "Trend": "Property Market Crash",
+        "Value": "60"
+      },
+      {
+        "": "756",
+        "Week": "06/11/2022",
+        "Trend": "Housing Crash",
+        "Value": "20"
+      },
+      {
+        "": "757",
+        "Week": "06/11/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "758",
+        "Week": "06/11/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "759",
+        "Week": "13/11/2022",
+        "Trend": "Housing Crash",
+        "Value": "20"
+      },
+      {
+        "": "760",
+        "Week": "13/11/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "761",
+        "Week": "13/11/2022",
+        "Trend": "Property Market Crash",
+        "Value": "20"
+      },
+      {
+        "": "762",
+        "Week": "20/11/2022",
+        "Trend": "Housing Crash",
+        "Value": "10"
+      },
+      {
+        "": "763",
+        "Week": "20/11/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "764",
+        "Week": "20/11/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "765",
+        "Week": "27/11/2022",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "766",
+        "Week": "27/11/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "767",
+        "Week": "27/11/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "768",
+        "Week": "04/12/2022",
+        "Trend": "Housing Crash",
+        "Value": "7"
+      },
+      {
+        "": "769",
+        "Week": "04/12/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "770",
+        "Week": "04/12/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "771",
+        "Week": "11/12/2022",
+        "Trend": "Housing Crash",
+        "Value": "11"
+      },
+      {
+        "": "772",
+        "Week": "11/12/2022",
+        "Trend": "Housing Bubble",
+        "Value": "48"
+      },
+      {
+        "": "773",
+        "Week": "11/12/2022",
+        "Trend": "Property Market Crash",
+        "Value": "28"
+      },
+      {
+        "": "774",
+        "Week": "18/12/2022",
+        "Trend": "Housing Crash",
+        "Value": "9"
+      },
+      {
+        "": "775",
+        "Week": "18/12/2022",
+        "Trend": "Housing Bubble",
+        "Value": "50"
+      },
+      {
+        "": "776",
+        "Week": "18/12/2022",
+        "Trend": "Property Market Crash",
+        "Value": "23"
+      },
+      {
+        "": "777",
+        "Week": "25/12/2022",
+        "Trend": "Housing Crash",
+        "Value": "14"
+      },
+      {
+        "": "778",
+        "Week": "25/12/2022",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "779",
+        "Week": "25/12/2022",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      },
+      {
+        "": "780",
+        "Week": "01/01/2023",
+        "Trend": "Housing Crash",
+        "Value": "23"
+      },
+      {
+        "": "781",
+        "Week": "01/01/2023",
+        "Trend": "Housing Bubble",
+        "Value": "0"
+      },
+      {
+        "": "782",
+        "Week": "01/01/2023",
+        "Trend": "Property Market Crash",
+        "Value": "0"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Week": "date"
+      }
+    }
+  },
+  "height": 200,
+  "width": 200,
+  "mark": {
+    "type": "line",
+    "strokeWidth": 2
+  },
+  "encoding": {
+    "x": {
+      "field": "Week",
+      "type": "temporal",
+      "title": null,
+      "axis": {
+        "grid": false,
+        "labelAngle": 60
+      }
+    },
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": null
+    },
+    "facet": {
+      "field": "Trend",
+      "columns": 3,
+      "title": "h",
+      "header": {
+        "titleColor": "white",
+        "labelColor": "black",
+        "titleFontSize": 5
+      }
+    },
+    "color": {
+      "value": "purple",
+      "condition": [
+        {
+          "test": "datum.Trend =='Housing Crash'",
+          "value": "darkred"
+        },
+        {
+          "test": "datum.Trend =='Property Market Crash'",
+          "value": "orange"
+        }
+      ]
+    },
+    "tooltip": [
+      {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "Relative number of Searches"
+      },
+      {
+        "field": "Week",
+        "type": "temporal",
+        "title": "Year"
+      }
+    ]
+  },
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  }
+}

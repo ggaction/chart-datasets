@@ -6,8 +6,16 @@ import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 const driver=new URL('./render.mjs',import.meta.url);
 const ids=['vl_0001','vl_0002'];
-const child=`import {writeFile,mkdir,rm} from 'node:fs/promises';
+const child=`import {writeFile,mkdir,rm,readdir} from 'node:fs/promises';
 const ids=JSON.parse(process.argv[2]),mode=process.env.RENDER_VALIDATION_CASE;
+if(mode==='parallel'){
+ await mkdir('active',{recursive:true});
+ const marker='active/'+process.pid;await writeFile(marker,'active');
+ await new Promise(resolve=>setTimeout(resolve,150));
+ if((await readdir('active')).length>1)await writeFile('overlap','confirmed');
+ await new Promise(resolve=>setTimeout(resolve,150));
+ await rm(marker);
+}
 if(mode==='sequential'){
  await mkdir('active-renderer-lock');
  await new Promise(resolve=>setTimeout(resolve,100));
@@ -25,7 +33,7 @@ if(mode==='reported-difference'&&ids.includes('vl_0001'))process.exit(1);
 if(mode==='contradictory-exit')process.exit(1);
 `;
 async function exists(file){try{await access(file);return true;}catch(error){if(error.code==='ENOENT')return false;throw error;}}
-async function fixture(mode,sourceIds=ids){
+async function fixture(mode,sourceIds=ids,workers='1'){
  const root=await mkdtemp(path.join(tmpdir(),'chart-render-validation-'));
  await mkdir(path.join(root,'scripts'));await mkdir(path.join(root,'.validation'));
  await copyFile(driver,path.join(root,'scripts/render.mjs'));
@@ -34,7 +42,7 @@ async function fixture(mode,sourceIds=ids){
  const stale=sourceIds.map(id=>({id,status:'passed',stages:[{level:'G1',svgSha256:'stale',sameFamily:true,unchanged:true}]}));
  await writeFile(path.join(root,'.validation/chunk-0.json'),JSON.stringify(stale));
  await writeFile(path.join(root,'.validation/runtime-sync-browser.json'),JSON.stringify({status:'stale-success'}));
- const run=spawnSync(process.execPath,['scripts/render.mjs','--all'],{cwd:root,encoding:'utf8',env:{...process.env,RENDER_VALIDATION_CASE:mode}});
+ const run=spawnSync(process.execPath,['scripts/render.mjs','--all'],{cwd:root,encoding:'utf8',env:{...process.env,RENDER_VALIDATION_CASE:mode,RENDER_WORKERS:workers}});
  return {root,run,report:path.join(root,'.validation/runtime-sync-browser.json'),chunk:path.join(root,'.validation/chunk-0.json')};
 }
 for(const mode of ['exit-before-write','signal-before-write','duplicate','wrong-count','wrong-order']){
@@ -66,6 +74,22 @@ test('runs separate chart chunks without overlapping renderer processes',async()
   assert.equal(report.charts,13);assert.equal(report.passed,13);
   assert.deepEqual(report.results.map(row=>row.id),sourceIds);
  }finally{await rm(f.root,{recursive:true,force:true});}
+});
+test('explicit two-worker replay overlaps chunks and retains every result exactly once',async()=>{
+ const sourceIds=Array.from({length:25},(_,index)=>'vl_'+String(index+1).padStart(4,'0'));
+ const f=await fixture('parallel',sourceIds,'2');
+ try{
+  assert.equal(f.run.status,0,f.run.stderr);
+  assert.equal(await readFile(path.join(f.root,'overlap'),'utf8'),'confirmed');
+  const report=JSON.parse(await readFile(f.report,'utf8'));
+  assert.equal(report.workers,2);assert.equal(report.passed,25);
+  assert.deepEqual(report.results.map(row=>row.id),sourceIds);
+ }finally{await rm(f.root,{recursive:true,force:true});}
+});
+test('rejects an unbounded worker count before rendering',async()=>{
+ const f=await fixture('success',ids,'4');
+ try{assert.notEqual(f.run.status,0);assert.match(f.run.stderr,/RENDER_WORKERS must be/);}
+ finally{await rm(f.root,{recursive:true,force:true});}
 });
 
 test('a fresh explicit difference is collected with later chunks and the complete report still fails',async()=>{

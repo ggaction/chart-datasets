@@ -1,0 +1,4613 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Country": "Australia",
+        "Year": "2000",
+        "General_government_deficit": "-1.292"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2001",
+        "General_government_deficit": "-0.743"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2002",
+        "General_government_deficit": "0.707"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2003",
+        "General_government_deficit": "0.794"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2004",
+        "General_government_deficit": "0.927"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2005",
+        "General_government_deficit": "1.598"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2006",
+        "General_government_deficit": "1.581"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2007",
+        "General_government_deficit": "0.655"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2008",
+        "General_government_deficit": "-3.838"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2009",
+        "General_government_deficit": "-5.641"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2010",
+        "General_government_deficit": "-4.560"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2011",
+        "General_government_deficit": "-4.628"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2012",
+        "General_government_deficit": "-2.848"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2013",
+        "General_government_deficit": "-2.783"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2014",
+        "General_government_deficit": "-2.238"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2015",
+        "General_government_deficit": "-2.224"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2016",
+        "General_government_deficit": "-1.585"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2017",
+        "General_government_deficit": "-1.210"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2018",
+        "General_government_deficit": "-1.384"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2019",
+        "General_government_deficit": "-7.014"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2020",
+        "General_government_deficit": "-9.162"
+      },
+      {
+        "Country": "Australia",
+        "Year": "2021",
+        "General_government_deficit": "-4.270"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2000",
+        "General_government_deficit": "-2.405"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2001",
+        "General_government_deficit": "-0.662"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2002",
+        "General_government_deficit": "-1.381"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2003",
+        "General_government_deficit": "-1.786"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2004",
+        "General_government_deficit": "-4.805"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2005",
+        "General_government_deficit": "-2.508"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2006",
+        "General_government_deficit": "-2.535"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2007",
+        "General_government_deficit": "-1.355"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2008",
+        "General_government_deficit": "-1.495"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2009",
+        "General_government_deficit": "-5.330"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2010",
+        "General_government_deficit": "-4.441"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2011",
+        "General_government_deficit": "-2.554"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2012",
+        "General_government_deficit": "-2.189"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2013",
+        "General_government_deficit": "-1.950"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2014",
+        "General_government_deficit": "-2.729"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2015",
+        "General_government_deficit": "-1.010"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2016",
+        "General_government_deficit": "-1.535"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2017",
+        "General_government_deficit": "-0.816"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2018",
+        "General_government_deficit": "0.170"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2019",
+        "General_government_deficit": "0.611"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2020",
+        "General_government_deficit": "-8.009"
+      },
+      {
+        "Country": "Austria",
+        "Year": "2021",
+        "General_government_deficit": "-5.930"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2000",
+        "General_government_deficit": "-0.079"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2001",
+        "General_government_deficit": "0.233"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2002",
+        "General_government_deficit": "-0.044"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2003",
+        "General_government_deficit": "-1.864"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2004",
+        "General_government_deficit": "-0.239"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2005",
+        "General_government_deficit": "-2.715"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2006",
+        "General_government_deficit": "0.240"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2007",
+        "General_government_deficit": "0.066"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2008",
+        "General_government_deficit": "-1.095"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2009",
+        "General_government_deficit": "-5.431"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2010",
+        "General_government_deficit": "-4.088"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2011",
+        "General_government_deficit": "-4.330"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2012",
+        "General_government_deficit": "-4.318"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2013",
+        "General_government_deficit": "-3.129"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2014",
+        "General_government_deficit": "-3.056"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2015",
+        "General_government_deficit": "-2.414"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2016",
+        "General_government_deficit": "-2.363"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2017",
+        "General_government_deficit": "-0.684"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2018",
+        "General_government_deficit": "-0.870"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2019",
+        "General_government_deficit": "-1.943"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2020",
+        "General_government_deficit": "-8.973"
+      },
+      {
+        "Country": "Belgium",
+        "Year": "2021",
+        "General_government_deficit": "-5.561"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2000",
+        "General_government_deficit": "2.640"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2001",
+        "General_government_deficit": "0.529"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2002",
+        "General_government_deficit": "-0.234"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2003",
+        "General_government_deficit": "-0.127"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2004",
+        "General_government_deficit": "0.768"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2005",
+        "General_government_deficit": "1.553"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2006",
+        "General_government_deficit": "1.828"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2007",
+        "General_government_deficit": "1.820"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2008",
+        "General_government_deficit": "0.184"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2009",
+        "General_government_deficit": "-3.881"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2010",
+        "General_government_deficit": "-4.738"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2011",
+        "General_government_deficit": "-3.309"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2012",
+        "General_government_deficit": "-2.525"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2013",
+        "General_government_deficit": "-1.495"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2014",
+        "General_government_deficit": "0.175"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2015",
+        "General_government_deficit": "-0.062"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2016",
+        "General_government_deficit": "-0.453"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2017",
+        "General_government_deficit": "-0.112"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2018",
+        "General_government_deficit": "0.351"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2019",
+        "General_government_deficit": "-0.017"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2020",
+        "General_government_deficit": "-10.910"
+      },
+      {
+        "Country": "Canada",
+        "Year": "2021",
+        "General_government_deficit": "-4.381"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2000",
+        "General_government_deficit": "-3.576"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2001",
+        "General_government_deficit": "-5.760"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2002",
+        "General_government_deficit": "-6.351"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2003",
+        "General_government_deficit": "-6.858"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2004",
+        "General_government_deficit": "-2.370"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2005",
+        "General_government_deficit": "-3.027"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2006",
+        "General_government_deficit": "-2.150"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2007",
+        "General_government_deficit": "-0.645"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2008",
+        "General_government_deficit": "-1.964"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2009",
+        "General_government_deficit": "-5.411"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2010",
+        "General_government_deficit": "-4.152"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2011",
+        "General_government_deficit": "-2.700"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2012",
+        "General_government_deficit": "-3.897"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2013",
+        "General_government_deficit": "-1.284"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2014",
+        "General_government_deficit": "-2.075"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2015",
+        "General_government_deficit": "-0.644"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2016",
+        "General_government_deficit": "0.712"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2017",
+        "General_government_deficit": "1.501"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2018",
+        "General_government_deficit": "0.893"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2019",
+        "General_government_deficit": "0.289"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2020",
+        "General_government_deficit": "-5.766"
+      },
+      {
+        "Country": "Czech Republic",
+        "Year": "2021",
+        "General_government_deficit": "-5.100"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2000",
+        "General_government_deficit": "1.887"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2001",
+        "General_government_deficit": "1.141"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2002",
+        "General_government_deficit": "-0.015"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2003",
+        "General_government_deficit": "-0.133"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2004",
+        "General_government_deficit": "2.073"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2005",
+        "General_government_deficit": "4.955"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2006",
+        "General_government_deficit": "4.987"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2007",
+        "General_government_deficit": "5.020"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2008",
+        "General_government_deficit": "3.174"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2009",
+        "General_government_deficit": "-2.798"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2010",
+        "General_government_deficit": "-2.710"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2011",
+        "General_government_deficit": "-2.056"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2012",
+        "General_government_deficit": "-3.490"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2013",
+        "General_government_deficit": "-1.236"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2014",
+        "General_government_deficit": "1.144"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2015",
+        "General_government_deficit": "-1.330"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2016",
+        "General_government_deficit": "-0.106"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2017",
+        "General_government_deficit": "1.786"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2018",
+        "General_government_deficit": "0.760"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2019",
+        "General_government_deficit": "4.132"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2020",
+        "General_government_deficit": "0.215"
+      },
+      {
+        "Country": "Denmark",
+        "Year": "2021",
+        "General_government_deficit": "3.634"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2000",
+        "General_government_deficit": "6.853"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2001",
+        "General_government_deficit": "4.976"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2002",
+        "General_government_deficit": "4.057"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2003",
+        "General_government_deficit": "2.424"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2004",
+        "General_government_deficit": "2.210"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2005",
+        "General_government_deficit": "2.652"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2006",
+        "General_government_deficit": "3.971"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2007",
+        "General_government_deficit": "5.108"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2008",
+        "General_government_deficit": "4.177"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2009",
+        "General_government_deficit": "-2.484"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2010",
+        "General_government_deficit": "-2.534"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2011",
+        "General_government_deficit": "-1.019"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2012",
+        "General_government_deficit": "-2.156"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2013",
+        "General_government_deficit": "-2.525"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2014",
+        "General_government_deficit": "-2.987"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2015",
+        "General_government_deficit": "-2.425"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2016",
+        "General_government_deficit": "-1.698"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2017",
+        "General_government_deficit": "-0.654"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2018",
+        "General_government_deficit": "-0.855"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2019",
+        "General_government_deficit": "-0.948"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2020",
+        "General_government_deficit": "-5.581"
+      },
+      {
+        "Country": "Finland",
+        "Year": "2021",
+        "General_government_deficit": "-2.758"
+      },
+      {
+        "Country": "France",
+        "Year": "2000",
+        "General_government_deficit": "-1.318"
+      },
+      {
+        "Country": "France",
+        "Year": "2001",
+        "General_government_deficit": "-1.379"
+      },
+      {
+        "Country": "France",
+        "Year": "2002",
+        "General_government_deficit": "-3.160"
+      },
+      {
+        "Country": "France",
+        "Year": "2003",
+        "General_government_deficit": "-4.016"
+      },
+      {
+        "Country": "France",
+        "Year": "2004",
+        "General_government_deficit": "-3.591"
+      },
+      {
+        "Country": "France",
+        "Year": "2005",
+        "General_government_deficit": "-3.356"
+      },
+      {
+        "Country": "France",
+        "Year": "2006",
+        "General_government_deficit": "-2.444"
+      },
+      {
+        "Country": "France",
+        "Year": "2007",
+        "General_government_deficit": "-2.636"
+      },
+      {
+        "Country": "France",
+        "Year": "2008",
+        "General_government_deficit": "-3.264"
+      },
+      {
+        "Country": "France",
+        "Year": "2009",
+        "General_government_deficit": "-7.175"
+      },
+      {
+        "Country": "France",
+        "Year": "2010",
+        "General_government_deficit": "-6.887"
+      },
+      {
+        "Country": "France",
+        "Year": "2011",
+        "General_government_deficit": "-5.155"
+      },
+      {
+        "Country": "France",
+        "Year": "2012",
+        "General_government_deficit": "-4.981"
+      },
+      {
+        "Country": "France",
+        "Year": "2013",
+        "General_government_deficit": "-4.084"
+      },
+      {
+        "Country": "France",
+        "Year": "2014",
+        "General_government_deficit": "-3.905"
+      },
+      {
+        "Country": "France",
+        "Year": "2015",
+        "General_government_deficit": "-3.625"
+      },
+      {
+        "Country": "France",
+        "Year": "2016",
+        "General_government_deficit": "-3.637"
+      },
+      {
+        "Country": "France",
+        "Year": "2017",
+        "General_government_deficit": "-2.958"
+      },
+      {
+        "Country": "France",
+        "Year": "2018",
+        "General_government_deficit": "-2.289"
+      },
+      {
+        "Country": "France",
+        "Year": "2019",
+        "General_government_deficit": "-3.065"
+      },
+      {
+        "Country": "France",
+        "Year": "2020",
+        "General_government_deficit": "-8.991"
+      },
+      {
+        "Country": "France",
+        "Year": "2021",
+        "General_government_deficit": "-6.531"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2000",
+        "General_government_deficit": "-1.585"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2001",
+        "General_government_deficit": "-3.025"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2002",
+        "General_government_deficit": "-3.875"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2003",
+        "General_government_deficit": "-3.704"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2004",
+        "General_government_deficit": "-3.334"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2005",
+        "General_government_deficit": "-3.319"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2006",
+        "General_government_deficit": "-1.653"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2007",
+        "General_government_deficit": "0.261"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2008",
+        "General_government_deficit": "-0.116"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2009",
+        "General_government_deficit": "-3.151"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2010",
+        "General_government_deficit": "-4.379"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2011",
+        "General_government_deficit": "-0.881"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2012",
+        "General_government_deficit": "0.009"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2013",
+        "General_government_deficit": "0.040"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2014",
+        "General_government_deficit": "0.580"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2015",
+        "General_government_deficit": "0.961"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2016",
+        "General_government_deficit": "1.160"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2017",
+        "General_government_deficit": "1.336"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2018",
+        "General_government_deficit": "1.950"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2019",
+        "General_government_deficit": "1.531"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2020",
+        "General_government_deficit": "-4.333"
+      },
+      {
+        "Country": "Germany",
+        "Year": "2021",
+        "General_government_deficit": "-3.727"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2000",
+        "General_government_deficit": "-4.063"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2001",
+        "General_government_deficit": "-5.466"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2002",
+        "General_government_deficit": "-6.024"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2003",
+        "General_government_deficit": "-7.830"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2004",
+        "General_government_deficit": "-8.828"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2005",
+        "General_government_deficit": "-6.188"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2006",
+        "General_government_deficit": "-5.946"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2007",
+        "General_government_deficit": "-6.707"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2008",
+        "General_government_deficit": "-10.176"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2009",
+        "General_government_deficit": "-15.215"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2010",
+        "General_government_deficit": "-11.397"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2011",
+        "General_government_deficit": "-10.508"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2012",
+        "General_government_deficit": "-9.099"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2013",
+        "General_government_deficit": "-13.374"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2014",
+        "General_government_deficit": "-3.689"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2015",
+        "General_government_deficit": "-5.855"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2016",
+        "General_government_deficit": "0.185"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2017",
+        "General_government_deficit": "0.573"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2018",
+        "General_government_deficit": "0.933"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2019",
+        "General_government_deficit": "1.147"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2020",
+        "General_government_deficit": "-9.933"
+      },
+      {
+        "Country": "Greece",
+        "Year": "2021",
+        "General_government_deficit": "-7.452"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2000",
+        "General_government_deficit": "-3.041"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2001",
+        "General_government_deficit": "-3.999"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2002",
+        "General_government_deficit": "-8.798"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2003",
+        "General_government_deficit": "-7.183"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2004",
+        "General_government_deficit": "-6.591"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2005",
+        "General_government_deficit": "-7.779"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2006",
+        "General_government_deficit": "-9.260"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2007",
+        "General_government_deficit": "-5.083"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2008",
+        "General_government_deficit": "-3.783"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2009",
+        "General_government_deficit": "-4.750"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2010",
+        "General_government_deficit": "-4.427"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2011",
+        "General_government_deficit": "-5.211"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2012",
+        "General_government_deficit": "-2.324"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2013",
+        "General_government_deficit": "-2.597"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2014",
+        "General_government_deficit": "-2.775"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2015",
+        "General_government_deficit": "-2.004"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2016",
+        "General_government_deficit": "-1.797"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2017",
+        "General_government_deficit": "-2.459"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2018",
+        "General_government_deficit": "-2.112"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2019",
+        "General_government_deficit": "-2.031"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2020",
+        "General_government_deficit": "-7.536"
+      },
+      {
+        "Country": "Hungary",
+        "Year": "2021",
+        "General_government_deficit": "-7.144"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2000",
+        "General_government_deficit": "1.446"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2001",
+        "General_government_deficit": "-0.281"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2002",
+        "General_government_deficit": "-2.274"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2003",
+        "General_government_deficit": "-2.324"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2004",
+        "General_government_deficit": "0.286"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2005",
+        "General_government_deficit": "5.006"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2006",
+        "General_government_deficit": "6.449"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2007",
+        "General_government_deficit": "5.599"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2008",
+        "General_government_deficit": "-12.138"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2009",
+        "General_government_deficit": "-8.579"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2010",
+        "General_government_deficit": "-6.663"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2011",
+        "General_government_deficit": "-6.530"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2012",
+        "General_government_deficit": "-2.625"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2013",
+        "General_government_deficit": "-1.248"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2014",
+        "General_government_deficit": "0.295"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2015",
+        "General_government_deficit": "-0.396"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2016",
+        "General_government_deficit": "12.549"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2017",
+        "General_government_deficit": "0.955"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2018",
+        "General_government_deficit": "0.912"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2019",
+        "General_government_deficit": "-1.514"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2020",
+        "General_government_deficit": "-8.925"
+      },
+      {
+        "Country": "Iceland",
+        "Year": "2021",
+        "General_government_deficit": "-7.941"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2000",
+        "General_government_deficit": "4.855"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2001",
+        "General_government_deficit": "0.959"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2002",
+        "General_government_deficit": "-0.519"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2003",
+        "General_government_deficit": "0.346"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2004",
+        "General_government_deficit": "1.298"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2005",
+        "General_government_deficit": "1.570"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2006",
+        "General_government_deficit": "2.775"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2007",
+        "General_government_deficit": "0.268"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2008",
+        "General_government_deficit": "-7.031"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2009",
+        "General_government_deficit": "-13.873"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2010",
+        "General_government_deficit": "-32.119"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2011",
+        "General_government_deficit": "-13.582"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2012",
+        "General_government_deficit": "-8.463"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2013",
+        "General_government_deficit": "-6.395"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2014",
+        "General_government_deficit": "-3.612"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2015",
+        "General_government_deficit": "-2.037"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2016",
+        "General_government_deficit": "-0.762"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2017",
+        "General_government_deficit": "-0.285"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2018",
+        "General_government_deficit": "0.137"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2019",
+        "General_government_deficit": "0.475"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2020",
+        "General_government_deficit": "-5.032"
+      },
+      {
+        "Country": "Ireland",
+        "Year": "2021",
+        "General_government_deficit": "-1.661"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2000",
+        "General_government_deficit": "-2.423"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2001",
+        "General_government_deficit": "-3.190"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2002",
+        "General_government_deficit": "-2.869"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2003",
+        "General_government_deficit": "-3.218"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2004",
+        "General_government_deficit": "-3.479"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2005",
+        "General_government_deficit": "-4.083"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2006",
+        "General_government_deficit": "-3.617"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2007",
+        "General_government_deficit": "-1.340"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2008",
+        "General_government_deficit": "-2.564"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2009",
+        "General_government_deficit": "-5.121"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2010",
+        "General_government_deficit": "-4.240"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2011",
+        "General_government_deficit": "-3.593"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2012",
+        "General_government_deficit": "-2.945"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2013",
+        "General_government_deficit": "-2.854"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2014",
+        "General_government_deficit": "-2.954"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2015",
+        "General_government_deficit": "-2.552"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2016",
+        "General_government_deficit": "-2.404"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2017",
+        "General_government_deficit": "-2.419"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2018",
+        "General_government_deficit": "-2.165"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2019",
+        "General_government_deficit": "-1.509"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2020",
+        "General_government_deficit": "-9.493"
+      },
+      {
+        "Country": "Italy",
+        "Year": "2021",
+        "General_government_deficit": "-7.233"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2005",
+        "General_government_deficit": "-4.438"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2006",
+        "General_government_deficit": "-3.029"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2007",
+        "General_government_deficit": "-2.901"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2008",
+        "General_government_deficit": "-4.110"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2009",
+        "General_government_deficit": "-9.693"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2010",
+        "General_government_deficit": "-9.076"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2011",
+        "General_government_deficit": "-8.986"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2012",
+        "General_government_deficit": "-8.196"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2013",
+        "General_government_deficit": "-7.611"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2014",
+        "General_government_deficit": "-5.616"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2015",
+        "General_government_deficit": "-3.678"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2016",
+        "General_government_deficit": "-3.600"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2017",
+        "General_government_deficit": "-3.099"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2018",
+        "General_government_deficit": "-2.471"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2019",
+        "General_government_deficit": "-3.045"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2020",
+        "General_government_deficit": "-9.077"
+      },
+      {
+        "Country": "Japan",
+        "Year": "2021",
+        "General_government_deficit": "-6.200"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2000",
+        "General_government_deficit": "4.167"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2001",
+        "General_government_deficit": "2.907"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2002",
+        "General_government_deficit": "3.111"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2003",
+        "General_government_deficit": "-2.133"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2004",
+        "General_government_deficit": "-0.078"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2005",
+        "General_government_deficit": "1.352"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2006",
+        "General_government_deficit": "1.969"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2007",
+        "General_government_deficit": "3.957"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2008",
+        "General_government_deficit": "2.131"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2009",
+        "General_government_deficit": "-1.276"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2010",
+        "General_government_deficit": "0.883"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2011",
+        "General_government_deficit": "0.983"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2012",
+        "General_government_deficit": "1.018"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2013",
+        "General_government_deficit": "1.283"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2014",
+        "General_government_deficit": "1.212"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2015",
+        "General_government_deficit": "1.180"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2016",
+        "General_government_deficit": "2.209"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2017",
+        "General_government_deficit": "2.682"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2018",
+        "General_government_deficit": "3.025"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2019",
+        "General_government_deficit": "0.956"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2020",
+        "General_government_deficit": "-2.695"
+      },
+      {
+        "Country": "Korea",
+        "Year": "2021",
+        "General_government_deficit": "-0.751"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2000",
+        "General_government_deficit": "5.545"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2001",
+        "General_government_deficit": "5.627"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2002",
+        "General_government_deficit": "2.031"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2003",
+        "General_government_deficit": "0.273"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2004",
+        "General_government_deficit": "-1.393"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2005",
+        "General_government_deficit": "-0.208"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2006",
+        "General_government_deficit": "1.912"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2007",
+        "General_government_deficit": "4.363"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2008",
+        "General_government_deficit": "3.374"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2009",
+        "General_government_deficit": "-0.210"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2010",
+        "General_government_deficit": "-0.317"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2011",
+        "General_government_deficit": "0.658"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2012",
+        "General_government_deficit": "0.506"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2013",
+        "General_government_deficit": "0.844"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2014",
+        "General_government_deficit": "1.339"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2015",
+        "General_government_deficit": "1.334"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2016",
+        "General_government_deficit": "1.893"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2017",
+        "General_government_deficit": "1.367"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2018",
+        "General_government_deficit": "2.977"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2019",
+        "General_government_deficit": "2.231"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2020",
+        "General_government_deficit": "-3.428"
+      },
+      {
+        "Country": "Luxembourg",
+        "Year": "2021",
+        "General_government_deficit": "0.794"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2003",
+        "General_government_deficit": "-1.323"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2004",
+        "General_government_deficit": "-0.853"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2005",
+        "General_government_deficit": "-0.721"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2006",
+        "General_government_deficit": "-0.971"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2007",
+        "General_government_deficit": "-0.711"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2008",
+        "General_government_deficit": "-0.935"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2009",
+        "General_government_deficit": "-3.080"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2010",
+        "General_government_deficit": "-2.972"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2011",
+        "General_government_deficit": "-5.297"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2012",
+        "General_government_deficit": "-4.727"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2013",
+        "General_government_deficit": "-4.547"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2014",
+        "General_government_deficit": "-4.223"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2015",
+        "General_government_deficit": "-5.168"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2016",
+        "General_government_deficit": "-2.882"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2017",
+        "General_government_deficit": "-2.508"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2018",
+        "General_government_deficit": "-5.104"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2019",
+        "General_government_deficit": "-3.677"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2020",
+        "General_government_deficit": "-5.355"
+      },
+      {
+        "Country": "Mexico",
+        "Year": "2021",
+        "General_government_deficit": "-5.953"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2000",
+        "General_government_deficit": "1.187"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2001",
+        "General_government_deficit": "-0.438"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2002",
+        "General_government_deficit": "-2.025"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2003",
+        "General_government_deficit": "-3.090"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2004",
+        "General_government_deficit": "-1.787"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2005",
+        "General_government_deficit": "-0.471"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2006",
+        "General_government_deficit": "-0.033"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2007",
+        "General_government_deficit": "-0.232"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2008",
+        "General_government_deficit": "0.125"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2009",
+        "General_government_deficit": "-5.217"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2010",
+        "General_government_deficit": "-5.340"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2011",
+        "General_government_deficit": "-4.442"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2012",
+        "General_government_deficit": "-3.932"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2013",
+        "General_government_deficit": "-2.957"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2014",
+        "General_government_deficit": "-2.254"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2015",
+        "General_government_deficit": "-1.944"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2016",
+        "General_government_deficit": "0.127"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2017",
+        "General_government_deficit": "1.371"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2018",
+        "General_government_deficit": "1.502"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2019",
+        "General_government_deficit": "1.799"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2020",
+        "General_government_deficit": "-3.715"
+      },
+      {
+        "Country": "Netherlands",
+        "Year": "2021",
+        "General_government_deficit": "-2.607"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2000",
+        "General_government_deficit": "15.065"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2001",
+        "General_government_deficit": "13.193"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2002",
+        "General_government_deficit": "9.045"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2003",
+        "General_government_deficit": "7.221"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2004",
+        "General_government_deficit": "10.866"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2005",
+        "General_government_deficit": "14.773"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2006",
+        "General_government_deficit": "17.951"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2007",
+        "General_government_deficit": "17.110"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2008",
+        "General_government_deficit": "18.638"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2009",
+        "General_government_deficit": "10.242"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2010",
+        "General_government_deficit": "10.930"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2011",
+        "General_government_deficit": "13.355"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2012",
+        "General_government_deficit": "13.767"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2013",
+        "General_government_deficit": "10.674"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2014",
+        "General_government_deficit": "8.629"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2015",
+        "General_government_deficit": "6.024"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2016",
+        "General_government_deficit": "4.060"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2017",
+        "General_government_deficit": "4.999"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2018",
+        "General_government_deficit": "7.864"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2019",
+        "General_government_deficit": "6.584"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2020",
+        "General_government_deficit": "-2.598"
+      },
+      {
+        "Country": "Norway",
+        "Year": "2021",
+        "General_government_deficit": "10.146"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2000",
+        "General_government_deficit": "-3.994"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2001",
+        "General_government_deficit": "-4.741"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2002",
+        "General_government_deficit": "-4.818"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2003",
+        "General_government_deficit": "-6.036"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2004",
+        "General_government_deficit": "-5.008"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2005",
+        "General_government_deficit": "-3.938"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2006",
+        "General_government_deficit": "-3.539"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2007",
+        "General_government_deficit": "-1.883"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2008",
+        "General_government_deficit": "-3.606"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2009",
+        "General_government_deficit": "-7.252"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2010",
+        "General_government_deficit": "-7.465"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2011",
+        "General_government_deficit": "-5.004"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2012",
+        "General_government_deficit": "-3.816"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2013",
+        "General_government_deficit": "-4.268"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2014",
+        "General_government_deficit": "-3.669"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2015",
+        "General_government_deficit": "-2.600"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2016",
+        "General_government_deficit": "-2.399"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2017",
+        "General_government_deficit": "-1.492"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2018",
+        "General_government_deficit": "-0.249"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2019",
+        "General_government_deficit": "-0.743"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2020",
+        "General_government_deficit": "-6.923"
+      },
+      {
+        "Country": "Poland",
+        "Year": "2021",
+        "General_government_deficit": "-1.837"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2000",
+        "General_government_deficit": "-3.216"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2001",
+        "General_government_deficit": "-4.790"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2002",
+        "General_government_deficit": "-3.334"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2003",
+        "General_government_deficit": "-5.656"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2004",
+        "General_government_deficit": "-6.184"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2005",
+        "General_government_deficit": "-6.130"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2006",
+        "General_government_deficit": "-4.180"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2007",
+        "General_government_deficit": "-2.899"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2008",
+        "General_government_deficit": "-3.700"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2009",
+        "General_government_deficit": "-9.873"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2010",
+        "General_government_deficit": "-11.398"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2011",
+        "General_government_deficit": "-7.663"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2012",
+        "General_government_deficit": "-6.180"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2013",
+        "General_government_deficit": "-5.105"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2014",
+        "General_government_deficit": "-7.356"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2015",
+        "General_government_deficit": "-4.449"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2016",
+        "General_government_deficit": "-1.935"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2017",
+        "General_government_deficit": "-2.956"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2018",
+        "General_government_deficit": "-0.349"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2019",
+        "General_government_deficit": "0.115"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2020",
+        "General_government_deficit": "-5.819"
+      },
+      {
+        "Country": "Portugal",
+        "Year": "2021",
+        "General_government_deficit": "-2.898"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2000",
+        "General_government_deficit": "-12.631"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2001",
+        "General_government_deficit": "-7.220"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2002",
+        "General_government_deficit": "-8.221"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2003",
+        "General_government_deficit": "-3.120"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2004",
+        "General_government_deficit": "-2.314"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2005",
+        "General_government_deficit": "-2.874"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2006",
+        "General_government_deficit": "-3.578"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2007",
+        "General_government_deficit": "-2.050"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2008",
+        "General_government_deficit": "-2.523"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2009",
+        "General_government_deficit": "-8.149"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2010",
+        "General_government_deficit": "-7.473"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2011",
+        "General_government_deficit": "-4.303"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2012",
+        "General_government_deficit": "-4.352"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2013",
+        "General_government_deficit": "-2.878"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2014",
+        "General_government_deficit": "-3.104"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2015",
+        "General_government_deficit": "-2.665"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2016",
+        "General_government_deficit": "-2.574"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2017",
+        "General_government_deficit": "-0.980"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2018",
+        "General_government_deficit": "-1.011"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2019",
+        "General_government_deficit": "-1.219"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2020",
+        "General_government_deficit": "-5.359"
+      },
+      {
+        "Country": "Slovak Republic",
+        "Year": "2021",
+        "General_government_deficit": "-5.462"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2000",
+        "General_government_deficit": "-1.161"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2001",
+        "General_government_deficit": "-0.455"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2002",
+        "General_government_deficit": "-0.317"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2003",
+        "General_government_deficit": "-0.375"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2004",
+        "General_government_deficit": "-0.109"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2005",
+        "General_government_deficit": "1.232"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2006",
+        "General_government_deficit": "2.124"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2007",
+        "General_government_deficit": "1.886"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2008",
+        "General_government_deficit": "-4.572"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2009",
+        "General_government_deficit": "-11.276"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2010",
+        "General_government_deficit": "-9.527"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2011",
+        "General_government_deficit": "-9.740"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2012",
+        "General_government_deficit": "-11.551"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2013",
+        "General_government_deficit": "-7.528"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2014",
+        "General_government_deficit": "-6.110"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2015",
+        "General_government_deficit": "-5.309"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2016",
+        "General_government_deficit": "-4.298"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2017",
+        "General_government_deficit": "-3.116"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2018",
+        "General_government_deficit": "-2.594"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2019",
+        "General_government_deficit": "-3.060"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2020",
+        "General_government_deficit": "-10.125"
+      },
+      {
+        "Country": "Spain",
+        "Year": "2021",
+        "General_government_deficit": "-6.873"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2000",
+        "General_government_deficit": "3.136"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2001",
+        "General_government_deficit": "1.406"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2002",
+        "General_government_deficit": "-1.409"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2003",
+        "General_government_deficit": "-1.216"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2004",
+        "General_government_deficit": "0.202"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2005",
+        "General_government_deficit": "1.803"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2006",
+        "General_government_deficit": "2.090"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2007",
+        "General_government_deficit": "3.295"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2008",
+        "General_government_deficit": "1.909"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2009",
+        "General_government_deficit": "-0.849"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2010",
+        "General_government_deficit": "-0.102"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2011",
+        "General_government_deficit": "-0.349"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2012",
+        "General_government_deficit": "-1.124"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2013",
+        "General_government_deficit": "-1.471"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2014",
+        "General_government_deficit": "-1.534"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2015",
+        "General_government_deficit": "0.003"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2016",
+        "General_government_deficit": "0.999"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2017",
+        "General_government_deficit": "1.409"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2018",
+        "General_government_deficit": "0.783"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2019",
+        "General_government_deficit": "0.564"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2020",
+        "General_government_deficit": "-2.771"
+      },
+      {
+        "Country": "Sweden",
+        "Year": "2021",
+        "General_government_deficit": "-0.078"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2000",
+        "General_government_deficit": "0.282"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2001",
+        "General_government_deficit": "0.208"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2002",
+        "General_government_deficit": "-1.747"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2003",
+        "General_government_deficit": "-1.359"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2004",
+        "General_government_deficit": "-1.391"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2005",
+        "General_government_deficit": "-0.646"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2006",
+        "General_government_deficit": "0.847"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2007",
+        "General_government_deficit": "1.576"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2008",
+        "General_government_deficit": "1.934"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2009",
+        "General_government_deficit": "0.498"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2010",
+        "General_government_deficit": "0.354"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2011",
+        "General_government_deficit": "0.683"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2012",
+        "General_government_deficit": "0.235"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2013",
+        "General_government_deficit": "-0.433"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2014",
+        "General_government_deficit": "-0.247"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2015",
+        "General_government_deficit": "0.546"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2016",
+        "General_government_deficit": "0.238"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2017",
+        "General_government_deficit": "1.130"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2018",
+        "General_government_deficit": "1.290"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2019",
+        "General_government_deficit": "1.341"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2020",
+        "General_government_deficit": "-3.059"
+      },
+      {
+        "Country": "Switzerland",
+        "Year": "2021",
+        "General_government_deficit": "-0.540"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2009",
+        "General_government_deficit": "-6.127"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2010",
+        "General_government_deficit": "-2.753"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2011",
+        "General_government_deficit": "-0.736"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2012",
+        "General_government_deficit": "-0.300"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2013",
+        "General_government_deficit": "0.204"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2014",
+        "General_government_deficit": "0.220"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2015",
+        "General_government_deficit": "0.497"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2016",
+        "General_government_deficit": "-1.323"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2017",
+        "General_government_deficit": "-2.784"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2018",
+        "General_government_deficit": "-2.876"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2019",
+        "General_government_deficit": "-4.425"
+      },
+      {
+        "Country": "Türkiye",
+        "Year": "2020",
+        "General_government_deficit": "-4.660"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2000",
+        "General_government_deficit": "1.319"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2001",
+        "General_government_deficit": "0.300"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2002",
+        "General_government_deficit": "-1.994"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2003",
+        "General_government_deficit": "-3.247"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2004",
+        "General_government_deficit": "-3.206"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2005",
+        "General_government_deficit": "-3.194"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2006",
+        "General_government_deficit": "-2.816"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2007",
+        "General_government_deficit": "-2.700"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2008",
+        "General_government_deficit": "-5.176"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2009",
+        "General_government_deficit": "-10.103"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2010",
+        "General_government_deficit": "-9.254"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2011",
+        "General_government_deficit": "-7.436"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2012",
+        "General_government_deficit": "-8.039"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2013",
+        "General_government_deficit": "-5.353"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2014",
+        "General_government_deficit": "-5.543"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2015",
+        "General_government_deficit": "-4.570"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2016",
+        "General_government_deficit": "-3.282"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2017",
+        "General_government_deficit": "-2.469"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2018",
+        "General_government_deficit": "-2.247"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2019",
+        "General_government_deficit": "-2.451"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2020",
+        "General_government_deficit": "-13.097"
+      },
+      {
+        "Country": "United Kingdom",
+        "Year": "2021",
+        "General_government_deficit": "-8.084"
+      },
+      {
+        "Country": "United States",
+        "Year": "2000",
+        "General_government_deficit": "0.336"
+      },
+      {
+        "Country": "United States",
+        "Year": "2001",
+        "General_government_deficit": "-1.847"
+      },
+      {
+        "Country": "United States",
+        "Year": "2002",
+        "General_government_deficit": "-5.303"
+      },
+      {
+        "Country": "United States",
+        "Year": "2003",
+        "General_government_deficit": "-6.414"
+      },
+      {
+        "Country": "United States",
+        "Year": "2004",
+        "General_government_deficit": "-5.775"
+      },
+      {
+        "Country": "United States",
+        "Year": "2005",
+        "General_government_deficit": "-4.448"
+      },
+      {
+        "Country": "United States",
+        "Year": "2006",
+        "General_government_deficit": "-3.333"
+      },
+      {
+        "Country": "United States",
+        "Year": "2007",
+        "General_government_deficit": "-3.979"
+      },
+      {
+        "Country": "United States",
+        "Year": "2008",
+        "General_government_deficit": "-7.343"
+      },
+      {
+        "Country": "United States",
+        "Year": "2009",
+        "General_government_deficit": "-13.100"
+      },
+      {
+        "Country": "United States",
+        "Year": "2010",
+        "General_government_deficit": "-12.380"
+      },
+      {
+        "Country": "United States",
+        "Year": "2011",
+        "General_government_deficit": "-10.956"
+      },
+      {
+        "Country": "United States",
+        "Year": "2012",
+        "General_government_deficit": "-9.187"
+      },
+      {
+        "Country": "United States",
+        "Year": "2013",
+        "General_government_deficit": "-5.802"
+      },
+      {
+        "Country": "United States",
+        "Year": "2014",
+        "General_government_deficit": "-5.187"
+      },
+      {
+        "Country": "United States",
+        "Year": "2015",
+        "General_government_deficit": "-4.599"
+      },
+      {
+        "Country": "United States",
+        "Year": "2016",
+        "General_government_deficit": "-5.403"
+      },
+      {
+        "Country": "United States",
+        "Year": "2017",
+        "General_government_deficit": "-4.423"
+      },
+      {
+        "Country": "United States",
+        "Year": "2018",
+        "General_government_deficit": "-6.093"
+      },
+      {
+        "Country": "United States",
+        "Year": "2019",
+        "General_government_deficit": "-6.658"
+      },
+      {
+        "Country": "United States",
+        "Year": "2020",
+        "General_government_deficit": "-14.860"
+      },
+      {
+        "Country": "United States",
+        "Year": "2021",
+        "General_government_deficit": "-12.064"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2007",
+        "General_government_deficit": "6.925"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2008",
+        "General_government_deficit": "4.811"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2009",
+        "General_government_deficit": "-4.658"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2010",
+        "General_government_deficit": "-0.683"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2011",
+        "General_government_deficit": "0.761"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2012",
+        "General_government_deficit": "0.203"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2013",
+        "General_government_deficit": "-0.759"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2014",
+        "General_government_deficit": "-1.949"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2015",
+        "General_government_deficit": "-2.469"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2016",
+        "General_government_deficit": "-2.920"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2017",
+        "General_government_deficit": "-3.090"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2018",
+        "General_government_deficit": "-1.426"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2019",
+        "General_government_deficit": "-3.640"
+      },
+      {
+        "Country": "Chile",
+        "Year": "2020",
+        "General_government_deficit": "-7.467"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2000",
+        "General_government_deficit": "-0.068"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2001",
+        "General_government_deficit": "0.199"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2002",
+        "General_government_deficit": "0.418"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2003",
+        "General_government_deficit": "1.795"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2004",
+        "General_government_deficit": "2.394"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2005",
+        "General_government_deficit": "1.125"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2006",
+        "General_government_deficit": "2.890"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2007",
+        "General_government_deficit": "2.741"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2008",
+        "General_government_deficit": "-2.648"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2009",
+        "General_government_deficit": "-2.191"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2010",
+        "General_government_deficit": "0.190"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2011",
+        "General_government_deficit": "1.085"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2012",
+        "General_government_deficit": "-0.287"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2013",
+        "General_government_deficit": "0.180"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2014",
+        "General_government_deficit": "0.708"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2015",
+        "General_government_deficit": "0.113"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2016",
+        "General_government_deficit": "-0.412"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2017",
+        "General_government_deficit": "-0.475"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2018",
+        "General_government_deficit": "-0.553"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2019",
+        "General_government_deficit": "0.121"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2020",
+        "General_government_deficit": "-5.469"
+      },
+      {
+        "Country": "Estonia",
+        "Year": "2021",
+        "General_government_deficit": "-2.406"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2000",
+        "General_government_deficit": "-0.782"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2001",
+        "General_government_deficit": "-4.040"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2002",
+        "General_government_deficit": "-8.210"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2003",
+        "General_government_deficit": "-4.986"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2004",
+        "General_government_deficit": "-3.383"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2005",
+        "General_government_deficit": "-2.712"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2006",
+        "General_government_deficit": "-0.916"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2007",
+        "General_government_deficit": "-0.336"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2008",
+        "General_government_deficit": "-3.487"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2009",
+        "General_government_deficit": "-6.549"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2010",
+        "General_government_deficit": "-3.722"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2011",
+        "General_government_deficit": "-3.420"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2012",
+        "General_government_deficit": "-4.413"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2013",
+        "General_government_deficit": "-4.079"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2014",
+        "General_government_deficit": "-2.284"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2015",
+        "General_government_deficit": "-1.160"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2016",
+        "General_government_deficit": "-1.693"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2017",
+        "General_government_deficit": "-1.176"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2018",
+        "General_government_deficit": "-3.588"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2019",
+        "General_government_deficit": "-3.875"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2020",
+        "General_government_deficit": "-10.757"
+      },
+      {
+        "Country": "Israel",
+        "Year": "2021",
+        "General_government_deficit": "-3.675"
+      },
+      {
+        "Country": "Russia",
+        "Year": "2011",
+        "General_government_deficit": "2.953"
+      },
+      {
+        "Country": "Russia",
+        "Year": "2012",
+        "General_government_deficit": "1.754"
+      },
+      {
+        "Country": "Russia",
+        "Year": "2013",
+        "General_government_deficit": "-0.567"
+      },
+      {
+        "Country": "Russia",
+        "Year": "2014",
+        "General_government_deficit": "-2.247"
+      },
+      {
+        "Country": "Russia",
+        "Year": "2015",
+        "General_government_deficit": "-1.392"
+      },
+      {
+        "Country": "Russia",
+        "Year": "2016",
+        "General_government_deficit": "-2.454"
+      },
+      {
+        "Country": "Russia",
+        "Year": "2017",
+        "General_government_deficit": "-0.634"
+      },
+      {
+        "Country": "Russia",
+        "Year": "2018",
+        "General_government_deficit": "3.484"
+      },
+      {
+        "Country": "Russia",
+        "Year": "2019",
+        "General_government_deficit": "3.669"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2000",
+        "General_government_deficit": "-3.645"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2001",
+        "General_government_deficit": "-4.450"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2002",
+        "General_government_deficit": "-2.374"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2003",
+        "General_government_deficit": "-2.595"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2004",
+        "General_government_deficit": "-1.941"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2005",
+        "General_government_deficit": "-1.324"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2006",
+        "General_government_deficit": "-1.231"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2007",
+        "General_government_deficit": "-0.049"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2008",
+        "General_government_deficit": "-1.394"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2009",
+        "General_government_deficit": "-5.813"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2010",
+        "General_government_deficit": "-5.600"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2011",
+        "General_government_deficit": "-6.629"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2012",
+        "General_government_deficit": "-3.995"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2013",
+        "General_government_deficit": "-14.579"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2014",
+        "General_government_deficit": "-5.507"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2015",
+        "General_government_deficit": "-2.847"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2016",
+        "General_government_deficit": "-1.919"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2017",
+        "General_government_deficit": "-0.053"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2018",
+        "General_government_deficit": "0.743"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2019",
+        "General_government_deficit": "0.572"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2020",
+        "General_government_deficit": "-7.723"
+      },
+      {
+        "Country": "Slovenia",
+        "Year": "2021",
+        "General_government_deficit": "-4.673"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2000",
+        "General_government_deficit": "-3.263"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2001",
+        "General_government_deficit": "-2.027"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2002",
+        "General_government_deficit": "-2.725"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2003",
+        "General_government_deficit": "-3.638"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2004",
+        "General_government_deficit": "-3.741"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2005",
+        "General_government_deficit": "-2.306"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2006",
+        "General_government_deficit": "0.148"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2007",
+        "General_government_deficit": "0.833"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2008",
+        "General_government_deficit": "-1.738"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2009",
+        "General_government_deficit": "-3.854"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2010",
+        "General_government_deficit": "-3.279"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2011",
+        "General_government_deficit": "-2.475"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2012",
+        "General_government_deficit": "-3.596"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2013",
+        "General_government_deficit": "-3.563"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2014",
+        "General_government_deficit": "-3.837"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2015",
+        "General_government_deficit": "-3.681"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2016",
+        "General_government_deficit": "-3.365"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2017",
+        "General_government_deficit": "-3.808"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2018",
+        "General_government_deficit": "-3.364"
+      },
+      {
+        "Country": "South Africa",
+        "Year": "2019",
+        "General_government_deficit": "-4.883"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2000",
+        "General_government_deficit": "-1.271"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2001",
+        "General_government_deficit": "-1.955"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2002",
+        "General_government_deficit": "-2.666"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2003",
+        "General_government_deficit": "-3.089"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2004",
+        "General_government_deficit": "-2.864"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2005",
+        "General_government_deficit": "-2.596"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2006",
+        "General_government_deficit": "-1.518"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2007",
+        "General_government_deficit": "-0.646"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2008",
+        "General_government_deficit": "-2.161"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2009",
+        "General_government_deficit": "-6.242"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2010",
+        "General_government_deficit": "-6.280"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2011",
+        "General_government_deficit": "-4.246"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2012",
+        "General_government_deficit": "-3.802"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2013",
+        "General_government_deficit": "-3.071"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2014",
+        "General_government_deficit": "-2.488"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2015",
+        "General_government_deficit": "-1.987"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2016",
+        "General_government_deficit": "-1.470"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2017",
+        "General_government_deficit": "-0.936"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2018",
+        "General_government_deficit": "-0.429"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2019",
+        "General_government_deficit": "-0.636"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2020",
+        "General_government_deficit": "-7.047"
+      },
+      {
+        "Country": "Euro Area",
+        "Year": "2021",
+        "General_government_deficit": "-5.116"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2000",
+        "General_government_deficit": "-1.173"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2001",
+        "General_government_deficit": "-1.909"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2002",
+        "General_government_deficit": "-2.707"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2003",
+        "General_government_deficit": "-3.088"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2004",
+        "General_government_deficit": "-2.716"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2005",
+        "General_government_deficit": "-2.348"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2006",
+        "General_government_deficit": "-1.381"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2007",
+        "General_government_deficit": "-0.499"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2008",
+        "General_government_deficit": "-2.007"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2009",
+        "General_government_deficit": "-6.048"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2010",
+        "General_government_deficit": "-5.983"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2011",
+        "General_government_deficit": "-4.088"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2012",
+        "General_government_deficit": "-3.679"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2013",
+        "General_government_deficit": "-2.971"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2014",
+        "General_government_deficit": "-2.413"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2015",
+        "General_government_deficit": "-1.887"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2016",
+        "General_government_deficit": "-1.356"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2017",
+        "General_government_deficit": "-0.793"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2018",
+        "General_government_deficit": "-0.376"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2019",
+        "General_government_deficit": "-0.537"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2020",
+        "General_government_deficit": "-6.728"
+      },
+      {
+        "Country": "European Union",
+        "Year": "2021",
+        "General_government_deficit": "-4.635"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2000",
+        "General_government_deficit": "1.624"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2001",
+        "General_government_deficit": "1.302"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2002",
+        "General_government_deficit": "3.256"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2003",
+        "General_government_deficit": "3.384"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2004",
+        "General_government_deficit": "3.827"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2005",
+        "General_government_deficit": "4.471"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2006",
+        "General_government_deficit": "5.027"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2007",
+        "General_government_deficit": "4.143"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2008",
+        "General_government_deficit": "0.313"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2009",
+        "General_government_deficit": "-2.961"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2010",
+        "General_government_deficit": "-7.053"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2011",
+        "General_government_deficit": "-4.268"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2012",
+        "General_government_deficit": "-2.348"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2013",
+        "General_government_deficit": "-0.724"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2014",
+        "General_government_deficit": "0.246"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2015",
+        "General_government_deficit": "0.037"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2016",
+        "General_government_deficit": "1.055"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2017",
+        "General_government_deficit": "1.523"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2018",
+        "General_government_deficit": "0.762"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2019",
+        "General_government_deficit": "-0.712"
+      },
+      {
+        "Country": "New Zealand",
+        "Year": "2020",
+        "General_government_deficit": "-7.325"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2000",
+        "General_government_deficit": "-4.854"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2001",
+        "General_government_deficit": "-6.522"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2002",
+        "General_government_deficit": "-6.142"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2003",
+        "General_government_deficit": "-4.751"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2004",
+        "General_government_deficit": "-2.962"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2005",
+        "General_government_deficit": "-2.782"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2006",
+        "General_government_deficit": "-4.502"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2007",
+        "General_government_deficit": "-4.666"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2008",
+        "General_government_deficit": "-2.740"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2009",
+        "General_government_deficit": "-4.476"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2010",
+        "General_government_deficit": "-2.960"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2011",
+        "General_government_deficit": "-2.539"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2012",
+        "General_government_deficit": "-2.318"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2013",
+        "General_government_deficit": "-3.309"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2014",
+        "General_government_deficit": "-5.877"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2015",
+        "General_government_deficit": "-7.751"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2016",
+        "General_government_deficit": "-7.152"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2017",
+        "General_government_deficit": "-7.064"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2018",
+        "General_government_deficit": "-6.128"
+      },
+      {
+        "Country": "Brazil",
+        "Year": "2019",
+        "General_government_deficit": "-5.002"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2000",
+        "General_government_deficit": "-2.724"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2001",
+        "General_government_deficit": "-1.945"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2002",
+        "General_government_deficit": "-2.320"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2003",
+        "General_government_deficit": "-1.565"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2004",
+        "General_government_deficit": "-1.185"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2005",
+        "General_government_deficit": "-0.479"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2006",
+        "General_government_deficit": "-0.530"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2007",
+        "General_government_deficit": "-0.560"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2008",
+        "General_government_deficit": "-4.253"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2009",
+        "General_government_deficit": "-9.545"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2010",
+        "General_government_deficit": "-8.615"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2011",
+        "General_government_deficit": "-4.286"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2012",
+        "General_government_deficit": "-1.411"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2013",
+        "General_government_deficit": "-1.221"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2014",
+        "General_government_deficit": "-1.583"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2015",
+        "General_government_deficit": "-1.425"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2016",
+        "General_government_deficit": "0.023"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2017",
+        "General_government_deficit": "-0.769"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2018",
+        "General_government_deficit": "-0.839"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2019",
+        "General_government_deficit": "-0.566"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2020",
+        "General_government_deficit": "-4.341"
+      },
+      {
+        "Country": "Latvia",
+        "Year": "2021",
+        "General_government_deficit": "-6.976"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2005",
+        "General_government_deficit": "-2.520"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2006",
+        "General_government_deficit": "-1.557"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2007",
+        "General_government_deficit": "-1.714"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2008",
+        "General_government_deficit": "-0.456"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2009",
+        "General_government_deficit": "-0.721"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2010",
+        "General_government_deficit": "-0.807"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2011",
+        "General_government_deficit": "-0.478"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2012",
+        "General_government_deficit": "-0.401"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2013",
+        "General_government_deficit": "-1.527"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2014",
+        "General_government_deficit": "-3.115"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2015",
+        "General_government_deficit": "-3.396"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2016",
+        "General_government_deficit": "-4.555"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2017",
+        "General_government_deficit": "-3.796"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2018",
+        "General_government_deficit": "-5.244"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2019",
+        "General_government_deficit": "-4.085"
+      },
+      {
+        "Country": "Colombia",
+        "Year": "2020",
+        "General_government_deficit": "-8.762"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2000",
+        "General_government_deficit": "-1.408"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2001",
+        "General_government_deficit": "-1.391"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2002",
+        "General_government_deficit": "-1.949"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2003",
+        "General_government_deficit": "-1.130"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2004",
+        "General_government_deficit": "-1.290"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2005",
+        "General_government_deficit": "-2.193"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2006",
+        "General_government_deficit": "0.124"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2007",
+        "General_government_deficit": "0.946"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2008",
+        "General_government_deficit": "-2.069"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2009",
+        "General_government_deficit": "-3.262"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2010",
+        "General_government_deficit": "-6.411"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2011",
+        "General_government_deficit": "-5.060"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2012",
+        "General_government_deficit": "-1.731"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2013",
+        "General_government_deficit": "-2.614"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2014",
+        "General_government_deficit": "-1.410"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2015",
+        "General_government_deficit": "-2.437"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2016",
+        "General_government_deficit": "-2.302"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2017",
+        "General_government_deficit": "-3.451"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2018",
+        "General_government_deficit": "-2.887"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2019",
+        "General_government_deficit": "-3.089"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2020",
+        "General_government_deficit": "-5.314"
+      },
+      {
+        "Country": "Costa Rica",
+        "Year": "2021",
+        "General_government_deficit": "-0.957"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2000",
+        "General_government_deficit": "-3.189"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2001",
+        "General_government_deficit": "-3.531"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2002",
+        "General_government_deficit": "-1.857"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2003",
+        "General_government_deficit": "-1.266"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2004",
+        "General_government_deficit": "-1.394"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2005",
+        "General_government_deficit": "-0.343"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2006",
+        "General_government_deficit": "-0.272"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2007",
+        "General_government_deficit": "-0.816"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2008",
+        "General_government_deficit": "-3.086"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2009",
+        "General_government_deficit": "-9.118"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2010",
+        "General_government_deficit": "-6.900"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2011",
+        "General_government_deficit": "-8.947"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2012",
+        "General_government_deficit": "-3.171"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2013",
+        "General_government_deficit": "-2.626"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2014",
+        "General_government_deficit": "-0.601"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2015",
+        "General_government_deficit": "-0.299"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2016",
+        "General_government_deficit": "0.252"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2017",
+        "General_government_deficit": "0.417"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2018",
+        "General_government_deficit": "0.537"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2019",
+        "General_government_deficit": "0.474"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2020",
+        "General_government_deficit": "-7.034"
+      },
+      {
+        "Country": "Lithuania",
+        "Year": "2021",
+        "General_government_deficit": "-0.988"
+      },
+      {
+        "Country": "Indonesia",
+        "Year": "2010",
+        "General_government_deficit": "-0.340"
+      },
+      {
+        "Country": "Indonesia",
+        "Year": "2011",
+        "General_government_deficit": "-1.035"
+      },
+      {
+        "Country": "Indonesia",
+        "Year": "2012",
+        "General_government_deficit": "-1.343"
+      },
+      {
+        "Country": "Indonesia",
+        "Year": "2013",
+        "General_government_deficit": "-2.074"
+      },
+      {
+        "Country": "Indonesia",
+        "Year": "2014",
+        "General_government_deficit": "-1.858"
+      },
+      {
+        "Country": "Indonesia",
+        "Year": "2015",
+        "General_government_deficit": "-2.554"
+      },
+      {
+        "Country": "Indonesia",
+        "Year": "2016",
+        "General_government_deficit": "-2.376"
+      },
+      {
+        "Country": "Indonesia",
+        "Year": "2017",
+        "General_government_deficit": "-1.957"
+      },
+      {
+        "Country": "Indonesia",
+        "Year": "2018",
+        "General_government_deficit": "-1.235"
+      },
+      {
+        "Country": "Indonesia",
+        "Year": "2019",
+        "General_government_deficit": "-2.126"
+      }
+    ],
+    "format": {
+      "parse": {
+        "Year": "date"
+      }
+    }
+  },
+  "hconcat": [
+    {
+      "mark": {
+        "type": "line"
+      },
+      "encoding": {
+        "color": {
+          "field": "Country",
+          "legend": {
+            "orient": "right",
+            "symbolSize": 25
+          },
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "United States",
+              "Indonesia",
+              "Brazil",
+              "Russia",
+              "Mexico",
+              "Japan",
+              "Türkiye",
+              "Germany",
+              "France",
+              "United Kingdom"
+            ]
+          }
+        },
+        "x": {
+          "field": "Year",
+          "type": "temporal",
+          "axis": {
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "General_government_deficit",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              -35,
+              20
+            ]
+          },
+          "sort": "ascending",
+          "title": "Government Deficit (% of GDP)"
+        },
+        "tooltip": [
+          {
+            "field": "Country"
+          },
+          {
+            "field": "General_government_deficit",
+            "title": "Government Deficit (% of GDP)"
+          }
+        ]
+      },
+      "title": {
+        "text": "General Government Deficit (% of GDP), 2000-2021",
+        "fontSize": 13,
+        "subtitle": [
+          "Source: OECD",
+          ""
+        ],
+        "anchor": "start",
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 13,
+        "color": "black"
+      }
+    }
+  ]
+}
