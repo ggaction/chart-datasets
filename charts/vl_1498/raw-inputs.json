@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 2,
+  "kind": "explicit-source-owner-raw-inputs-v1",
+  "primary": "data.json",
+  "sourceSha256": "fdf61383957fa5c30023ad90aac7b47751a6c16e4bdee5a41b7e38aed0083cf8",
+  "resolvedSourceSha256": "dca63240708fec9b27961ba3ed0b73ee4fe7511bb584099c2aebb59636274e44",
+  "distinctRawRows": 81,
+  "sourceOwnerRows": 81,
+  "descriptors": [
+    {
+      "pointer": "/hconcat/0/data",
+      "file": "data.json",
+      "sha256": "6e9f3febcf4de061f3043697a0712558c0ad6d07a8df9f5df7d4f296b3e0a361",
+      "bytes": 2089,
+      "rowCount": 40,
+      "originalDescriptorSha256": "eea7c6a946e8699bb50daa23fa8eefedcd11010e8da64b2382f99e60c212f93a"
+    },
+    {
+      "pointer": "/hconcat/1/data",
+      "file": "bar-data.json",
+      "sha256": "85808228f1d68e7f723d3c246eb4e1e94c44d2829455b86a6324fefc95fbbc42",
+      "bytes": 2481,
+      "rowCount": 41,
+      "originalDescriptorSha256": "466ae1d33c594fe4f7de294a776e79a690ec913549d307cd249da82f9789f66d"
+    }
+  ],
+  "nativeScopePolicy": "flat-two-owner-hconcat-v1",
+  "stages": [
+    {
+      "level": "G1",
+      "codeSha256": "f8f3b854cee6a4338873d415cf757ad1c7e2e27b168ef4cd31bc94c459ea60d0",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "barData",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel0",
+          "sourcePointer": "/hconcat/0/data"
+        },
+        {
+          "file": "bar-data.json",
+          "local": "barData",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel1",
+          "sourcePointer": "/hconcat/1/data"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G2",
+      "codeSha256": "c9ba3b6723f3d6e33143598beb1fc5a3aaa186190a8c70a1aca2b6b01587bbc1",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "barData",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel0",
+          "sourcePointer": "/hconcat/0/data"
+        },
+        {
+          "file": "bar-data.json",
+          "local": "barData",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel1",
+          "sourcePointer": "/hconcat/1/data"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G3",
+      "codeSha256": "6829405eda1766f6feda3741a9b25f93112a2594e1e305c0a7432ef10b85ed93",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "barData",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel0",
+          "sourcePointer": "/hconcat/0/data"
+        },
+        {
+          "file": "bar-data.json",
+          "local": "barData",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel1",
+          "sourcePointer": "/hconcat/1/data"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G4",
+      "codeSha256": "0373e674136df723bb5d4253b268244b144658be26b682c4b35386d48cb1c867",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "barData",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel0",
+          "sourcePointer": "/hconcat/0/data"
+        },
+        {
+          "file": "bar-data.json",
+          "local": "barData",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel1",
+          "sourcePointer": "/hconcat/1/data"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G5",
+      "codeSha256": "5a60856396e649a794286461a8af930b9ad2a66b6736c117c1c1089d8870a347",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "barData",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel0",
+          "sourcePointer": "/hconcat/0/data"
+        },
+        {
+          "file": "bar-data.json",
+          "local": "barData",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel1",
+          "sourcePointer": "/hconcat/1/data"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G6",
+      "codeSha256": "48b94c6cc8e6ba580e7211948a6af09b38b4e392f405dae6bfc51aedfd7bee45",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "barData",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel0",
+          "sourcePointer": "/hconcat/0/data"
+        },
+        {
+          "file": "bar-data.json",
+          "local": "barData",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel1",
+          "sourcePointer": "/hconcat/1/data"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G7",
+      "codeSha256": "0623a1a201fe99ea5f6636a943dbedea2437b2c6c06c077afcf295d17661145d",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "barData",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel0",
+          "sourcePointer": "/hconcat/0/data"
+        },
+        {
+          "file": "bar-data.json",
+          "local": "barData",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel1",
+          "sourcePointer": "/hconcat/1/data"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G8",
+      "codeSha256": "ac5dd1d35801ed5ec6524825e3975ff2c9603602e50ab3097e3d7fcd3ff77e80",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "barData",
+          "file": "bar-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel0",
+          "sourcePointer": "/hconcat/0/data"
+        },
+        {
+          "file": "bar-data.json",
+          "local": "barData",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default",
+          "nativeChildId": "panel1",
+          "sourcePointer": "/hconcat/1/data"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    }
+  ]
+}

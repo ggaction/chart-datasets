@@ -1,0 +1,127 @@
+{
+  "id": "vl_1023",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "07a26a2d236c52f1baf9c7c648dad29716a725c2d57c062f07c65c7eb4eee116",
+      "actions": 21,
+      "topOptions": 46
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "410f61176a12ff24582c572644ac0487e3ade13314cd9d20ffb0aaf644fb7309",
+      "actions": 22,
+      "topOptions": 49
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "7857191678e4d2c7a2d5fd659d36bdbcedeb70bd691d042d333b0a182f3640a7",
+      "actions": 22,
+      "topOptions": 48
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "21d3d1df9dbf15bdc939cd4936c2e189cd5ad2d7ca86be6974d2477c57f5e684",
+      "actions": 25,
+      "topOptions": 54
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "c18d04dbf67f050a32dca54a6deb7fc6f7dd9017f43f80c567406029d69f6416",
+      "actions": 25,
+      "topOptions": 54
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "a3f4861ddfc96abd37e13f47845ce2eaa400206218cf4ed15cf1a6b31ce658b8",
+      "actions": 27,
+      "topOptions": 56
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "9a6861ee24344bf03721a5b7cbe5d000cb2440e4f9a31a2e36045f58b7d30fc1",
+      "actions": 29,
+      "topOptions": 58
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "b992749ecbbbd564ce252ff143c4b2cfe77ca9ec7f6b5279ddd70a1b387e0fdd",
+      "actions": 31,
+      "topOptions": 62
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/GeorgeRobbin/GeorgeRobbin.github.io/main/Data/BTC_Volatility.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct source-qualified actual School stages passed normal and independent cold verification; final provenance audit required before counting."
+  },
+  "historicalRuntimeCommits": [
+    "55c8a634e144fd95bb754f1222e44a700e75a448"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "757135ee2bee4d499c16f4d36340c805494a9e1605d8375fc48a060f70e2e5e6",
+      "bytes": 1252
+    },
+    "data.json": {
+      "sha256": "312cd7fad9bd8361229fcc976a89cc233a324e37bb60b07ce6bd9a7c3b04d60c",
+      "bytes": 425416
+    },
+    "resolved-source.vl.json": {
+      "sha256": "258a07fccb3f8fe91f4a985ea3e673faab48376a2a74539301fcbd9417254111",
+      "bytes": 529215
+    },
+    "G1.gg.mjs": {
+      "sha256": "07a26a2d236c52f1baf9c7c648dad29716a725c2d57c062f07c65c7eb4eee116",
+      "bytes": 4535
+    },
+    "G2.gg.mjs": {
+      "sha256": "410f61176a12ff24582c572644ac0487e3ade13314cd9d20ffb0aaf644fb7309",
+      "bytes": 4143
+    },
+    "G3.gg.mjs": {
+      "sha256": "7857191678e4d2c7a2d5fd659d36bdbcedeb70bd691d042d333b0a182f3640a7",
+      "bytes": 4105
+    },
+    "G4.gg.mjs": {
+      "sha256": "21d3d1df9dbf15bdc939cd4936c2e189cd5ad2d7ca86be6974d2477c57f5e684",
+      "bytes": 4134
+    },
+    "G5.gg.mjs": {
+      "sha256": "c18d04dbf67f050a32dca54a6deb7fc6f7dd9017f43f80c567406029d69f6416",
+      "bytes": 4126
+    },
+    "G6.gg.mjs": {
+      "sha256": "a3f4861ddfc96abd37e13f47845ce2eaa400206218cf4ed15cf1a6b31ce658b8",
+      "bytes": 4160
+    },
+    "G7.gg.mjs": {
+      "sha256": "9a6861ee24344bf03721a5b7cbe5d000cb2440e4f9a31a2e36045f58b7d30fc1",
+      "bytes": 4194
+    },
+    "G8.gg.mjs": {
+      "sha256": "b992749ecbbbd564ce252ff143c4b2cfe77ca9ec7f6b5279ddd70a1b387e0fdd",
+      "bytes": 4232
+    },
+    "vega-lite.svg": {
+      "sha256": "ce034f9380ffd8d607c6376fb4cb2962caca6c6ef6695f978bad69f0f9bb75a9",
+      "bytes": 95433
+    },
+    "ggaction.svg": {
+      "sha256": "532ce25fe8007e34c78783dcec3075df85bc1d3dfe4584d123e875459fd684d8",
+      "bytes": 182609
+    }
+  }
+}

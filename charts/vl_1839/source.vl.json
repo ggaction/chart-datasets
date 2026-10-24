@@ -1,0 +1,82 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Distribuição da média de ingresso das mulheres e a média geral",
+    "fontSize": 15
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/elasComputacao/raio-x-dados/main/data/dados-processados/notas.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "periodo_ingresso",
+      "type": "nominal",
+      "title": "Período"
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "classe",
+          "type": "nominal",
+          "title": "Média",
+          "scale": {
+            "domain": [
+              "geral",
+              "mulheres"
+            ],
+            "scheme": "pastel1"
+          }
+        },
+        "y": {
+          "field": "media",
+          "type": "quantitative",
+          "title": "Nota média"
+        }
+      },
+      "layer": [
+        {
+          "mark": "line"
+        },
+        {
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "pivot": "classe",
+          "value": "media",
+          "groupby": [
+            "periodo_ingresso"
+          ]
+        }
+      ],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "value": 0.3
+        },
+        "tooltip": [
+          {
+            "field": "periodo_ingresso",
+            "type": "nominal",
+            "title": "Período"
+          },
+          {
+            "field": "geral",
+            "type": "quantitative",
+            "title": "Média geral"
+          },
+          {
+            "field": "mulheres",
+            "type": "quantitative",
+            "title": "Média mulheres"
+          }
+        ]
+      }
+    }
+  ]
+}

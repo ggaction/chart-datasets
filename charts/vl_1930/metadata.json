@@ -1,0 +1,127 @@
+{
+  "id": "vl_1930",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "556782f28d52fa074d8a7a4e579fd4121e6a1280e8d536e2c6cb876d70b6293e",
+      "actions": 18,
+      "topOptions": 39
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "38a2c2b67a84e6da1c0352d90d307af65b12a8522d8ff3da46c01cf5dee9de0a",
+      "actions": 19,
+      "topOptions": 42
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "37eabba9c0c4697b8d3a0c90daf030e01f0635d6a198cd5261b28fd51509fbca",
+      "actions": 20,
+      "topOptions": 44
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "9515fc9f5ae987754e04646bcac77557deaa8507934107f376a1eeaf6d9b950e",
+      "actions": 23,
+      "topOptions": 49
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "7f1809ce3190cb5bf736b959c12bafb71942df2fb3d8a2514c4ae8938d7eaed7",
+      "actions": 23,
+      "topOptions": 49
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "b6bb5d1771de06190eee0cabde9da01e62e54c0a6952b9c2ce120f331f16c8ad",
+      "actions": 25,
+      "topOptions": 51
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "1b3038b352e2fbb7d3a179d343022ecac77e4883a953e0a1ba04d6c022aa290d",
+      "actions": 27,
+      "topOptions": 53
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "6446d05d95b081d77db5c7d64a5dae02553e60cad425ecf0ae28738da2d78f0d",
+      "actions": 29,
+      "topOptions": 57
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/xmasDrinks.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct source-qualified actual School stages passed normal and independent cold verification; final provenance audit required before counting."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "0e272088e96c58d5454d9d20089812ff7388e40c33194147b4796ef88ea45a3b",
+      "bytes": 1253
+    },
+    "data.json": {
+      "sha256": "a5c459c0612774f96189d7bbc44d9128570be06ae418d563c1702c9ef8fddabf",
+      "bytes": 269675
+    },
+    "resolved-source.vl.json": {
+      "sha256": "eea87b5eb413dc7b12b4fab007e16510a7e46514113cbe55ca4411cc21cb3b94",
+      "bytes": 321583
+    },
+    "G1.gg.mjs": {
+      "sha256": "556782f28d52fa074d8a7a4e579fd4121e6a1280e8d536e2c6cb876d70b6293e",
+      "bytes": 5421
+    },
+    "G2.gg.mjs": {
+      "sha256": "38a2c2b67a84e6da1c0352d90d307af65b12a8522d8ff3da46c01cf5dee9de0a",
+      "bytes": 5446
+    },
+    "G3.gg.mjs": {
+      "sha256": "37eabba9c0c4697b8d3a0c90daf030e01f0635d6a198cd5261b28fd51509fbca",
+      "bytes": 5459
+    },
+    "G4.gg.mjs": {
+      "sha256": "9515fc9f5ae987754e04646bcac77557deaa8507934107f376a1eeaf6d9b950e",
+      "bytes": 5490
+    },
+    "G5.gg.mjs": {
+      "sha256": "7f1809ce3190cb5bf736b959c12bafb71942df2fb3d8a2514c4ae8938d7eaed7",
+      "bytes": 5478
+    },
+    "G6.gg.mjs": {
+      "sha256": "b6bb5d1771de06190eee0cabde9da01e62e54c0a6952b9c2ce120f331f16c8ad",
+      "bytes": 5516
+    },
+    "G7.gg.mjs": {
+      "sha256": "1b3038b352e2fbb7d3a179d343022ecac77e4883a953e0a1ba04d6c022aa290d",
+      "bytes": 5554
+    },
+    "G8.gg.mjs": {
+      "sha256": "6446d05d95b081d77db5c7d64a5dae02553e60cad425ecf0ae28738da2d78f0d",
+      "bytes": 5602
+    },
+    "vega-lite.svg": {
+      "sha256": "b7570197ab8e075cfb17a3242b17cc7a51e642bcea8b436aa7e75a2052219f0f",
+      "bytes": 85796
+    },
+    "ggaction.svg": {
+      "sha256": "90aaa36027c2d00db4659dab07c09cf325226cf78034d3e5868e2673639d9929",
+      "bytes": 79710
+    }
+  }
+}

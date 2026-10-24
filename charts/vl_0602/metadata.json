@@ -1,0 +1,127 @@
+{
+  "id": "vl_0602",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "501156c55a761c0590dc52feea6c77411780f298cb1c03c8af5ff9b2ccee664d",
+      "actions": 23,
+      "topOptions": 56
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "944c04853d30a3adcd888cee688ea7a805643822c8e46e7f8333da3cf9bbdaed",
+      "actions": 24,
+      "topOptions": 59
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "3ed73eeaa5adf82d0ca2ba7db9f5b70b6239da3d9e9aa941086f38172b970ffe",
+      "actions": 24,
+      "topOptions": 58
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e944f733c86c48122bca4ba79507cfda56935872800a2cdaab72fcca3a48a6c2",
+      "actions": 26,
+      "topOptions": 60
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "ec6d3dde3b1731c230099beacd1a0192240db6b8ded6b5e5509791b3d21691c1",
+      "actions": 26,
+      "topOptions": 60
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "a209442df9df999462d1022f25469792304c6e368da09f80632eb1abd1e01363",
+      "actions": 27,
+      "topOptions": 64
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "e30e7b0b0cfc4dddccfa1192b6111954dfe3f1717ace97c31608680a0b852f43",
+      "actions": 29,
+      "topOptions": 67
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "c4345310961ecf7cdc31d31f7fd834674ba63a4241ee1707aef025b13437044c",
+      "actions": 31,
+      "topOptions": 70
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/jhellingsdata/jhellingsdata.github.io/main/Data/FRED_UNEMPLOY.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight meaningful School stages at the cap, not irreducibility. Preserve all1802 original Date/Metric/Value CSV STRING rows, two901-row raw metrics but exactly one visible Unemployment line. Public numeric/null aliases and summary groupBy rawDate preserve original pivot901 complete dates before date parse/year1948..2023 filters; original Date is overwritten only in original derived rows, native original Date stays STRING with sourceDate/sourceYear numeric aliases. Own exact terminal projection proves all901Date/U/Persons/year values. Preserve901linear vertices/901opacity0fullheight rules/emptyhoverpoint0/901compilertransparentregions/26glyphs/540x412 frame500x350plot. All actualsource fonts/bbox existing.0001 exact withzero fontprofiles; no legend authored or invented. Source D3 3-decimal path and integer-snap grids versus native fullprecision/analytic+0.5 convention disclosed, no original pixelidentity. Emptyhover uses public Date eqnull on source-closed nonnull derived Date STRING rows; no lost original data. Fullsource/actualbody/firstG1/DOCS/acceptedprefix/cold and canonical audit mandatory."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "e32686a8cb3fff949b1185db763318f681f193f54c84c89ce42696948dee162d",
+      "bytes": 3036
+    },
+    "data.json": {
+      "sha256": "4ea03d2990b5e54542953ae240b7ca117d42fd660cc2b742aa5c63c22d51d1af",
+      "bytes": 165288
+    },
+    "resolved-source.vl.json": {
+      "sha256": "6521d59f52cf23878475a197c6497f9f3a30cb2dbd12981602ee8b1ee26f58bd",
+      "bytes": 204270
+    },
+    "G1.gg.mjs": {
+      "sha256": "501156c55a761c0590dc52feea6c77411780f298cb1c03c8af5ff9b2ccee664d",
+      "bytes": 3900
+    },
+    "G2.gg.mjs": {
+      "sha256": "944c04853d30a3adcd888cee688ea7a805643822c8e46e7f8333da3cf9bbdaed",
+      "bytes": 3915
+    },
+    "G3.gg.mjs": {
+      "sha256": "3ed73eeaa5adf82d0ca2ba7db9f5b70b6239da3d9e9aa941086f38172b970ffe",
+      "bytes": 3875
+    },
+    "G4.gg.mjs": {
+      "sha256": "e944f733c86c48122bca4ba79507cfda56935872800a2cdaab72fcca3a48a6c2",
+      "bytes": 3903
+    },
+    "G5.gg.mjs": {
+      "sha256": "ec6d3dde3b1731c230099beacd1a0192240db6b8ded6b5e5509791b3d21691c1",
+      "bytes": 3891
+    },
+    "G6.gg.mjs": {
+      "sha256": "a209442df9df999462d1022f25469792304c6e368da09f80632eb1abd1e01363",
+      "bytes": 3934
+    },
+    "G7.gg.mjs": {
+      "sha256": "e30e7b0b0cfc4dddccfa1192b6111954dfe3f1717ace97c31608680a0b852f43",
+      "bytes": 3945
+    },
+    "G8.gg.mjs": {
+      "sha256": "c4345310961ecf7cdc31d31f7fd834674ba63a4241ee1707aef025b13437044c",
+      "bytes": 3952
+    },
+    "vega-lite.svg": {
+      "sha256": "57b374bd580d6b07b06decbc78ad7a4d6aa9fcaf64357a561fc3ef44e58cc618",
+      "bytes": 361557
+    },
+    "ggaction.svg": {
+      "sha256": "94d2154bf4df202ee9205c4e5feed9a6609a91f70f4f3c618c06002c19563f39",
+      "bytes": 149128
+    }
+  }
+}

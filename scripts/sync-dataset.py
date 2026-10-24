@@ -29,6 +29,16 @@ def require(condition, message):
         raise RuntimeError(message)
 
 
+def preserve_epoch_origin(incoming, published, parent_sha256):
+    """Keep a published epoch's original registry when V3 inherits it unchanged."""
+    require({key: value for key, value in incoming.items() if key != 'registrySha256'}
+            == {key: value for key, value in published.items() if key != 'registrySha256'},
+            'Published authoring epoch identity changed')
+    require(published['registrySha256'] == parent_sha256,
+            'Published authoring epoch is not bound to the verified parent registry')
+    return published
+
+
 def dimensions(path):
     svg = ET.parse(path).getroot()
     if 'width' in svg.attrib and 'height' in svg.attrib:
@@ -228,6 +238,22 @@ def sync(root, workspace, apply=False):
             save(prepared_raw, raw_manifest)
             files['raw-inputs.json'] = prepared_raw
         if epoch is not None:
+            prior_epoch = root / 'charts' / chart_id / 'source-epoch.json'
+            if chart_id in existing and prior_epoch.exists() and read(prior_epoch) != epoch:
+                descriptor = config.get('requalifiedSourceFamiliesV3')
+                require(descriptor is not None, f'{chart_id}: epoch changed without an explicit V3 registry')
+                registry_file = workspace / descriptor['path']
+                require(digest(registry_file) == descriptor['sha256'], 'V3 registry changed')
+                registry = read(registry_file)
+                parent = registry['parent']
+                parent_file = workspace / parent['path']
+                require(parent_file.resolve() == (workspace / 'experiments/glm-thousand-chart-adaptive/requalified-source-families-v2.json').resolve()
+                        and digest(parent_file) == parent['sha256'], 'V3 parent registry changed')
+                previous = read(parent_file)
+                require(chart_id in previous['sources']
+                        and ordered(previous['sources'][chart_id]) == ordered(registry['sources'][chart_id]),
+                        f'{chart_id}: published epoch is not an unchanged inherited entry')
+                epoch = preserve_epoch_origin(epoch, read(prior_epoch), parent['sha256'])
             prepared_epoch = staging / (chart_id + '-source-epoch.json')
             save(prepared_epoch, epoch)
             files['source-epoch.json'] = prepared_epoch

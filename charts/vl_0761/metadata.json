@@ -1,0 +1,127 @@
+{
+  "id": "vl_0761",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "1fb5433a88cfdfd920dcc4d0512d86adb07b1c892f89f2928c1f6092134aab32",
+      "actions": 27,
+      "topOptions": 64
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "c55c85688fac00c68b182fd199c78c62940a1f20e3941603602e22a2de26a8c7",
+      "actions": 28,
+      "topOptions": 66
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "6ce88f3450e08c5c5bee83d466cb1a69bf3fd97ea3ade7e6c4f35bea604f5a27",
+      "actions": 28,
+      "topOptions": 66
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "bab20f4182504e4ab984ced2e37d95b9172319f247d339f5e73c5439d408ba91",
+      "actions": 30,
+      "topOptions": 68
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "5274620050035e37b476b5d296847cb94c66420f080b85c78fe62152e4801e14",
+      "actions": 30,
+      "topOptions": 68
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "2cd9e920c2648290c1f887f1b5a2954dd8f1475f476db2ca3e40296784104673",
+      "actions": 31,
+      "topOptions": 72
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "234e86e610adc03e47fe5b9eb7be2fefa78fe6c2bedc6dbbd90563c1b1af8880",
+      "actions": 33,
+      "topOptions": 75
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "e8fed2c45456bd6743ac3db0eb6d2c0cf879a9a590534e1a92da6eed82910fca",
+      "actions": 35,
+      "topOptions": 78
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/Week8TotalCompGrowth_1_shifted.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages passed current normal, all-source geometry and independent cold audit. Legend follows ggaction native default right offset8, row pitch18, plot-top aligned title; original Vega default gap20/pitch16 differs intentionally. Source content/fonts/symbol/color/opacity/ownership remain exact; source-centered/native-inside border and SVG grid/path serialization conventions are disclosed."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "2e814539d18fff983f556fd9bdab9dd6f9433ce29e1b21cc52d7f2c98b94eecd",
+      "bytes": 2147
+    },
+    "data.json": {
+      "sha256": "0db709bcdf78a79768e386a487fec76677fb8bad0b7a81e77036b3d08f4a2c49",
+      "bytes": 14985
+    },
+    "resolved-source.vl.json": {
+      "sha256": "0dd1ce701e0fafba4b9c6612afd0465d9096a47f54be51b5d3f68175c21ff84b",
+      "bytes": 20385
+    },
+    "G1.gg.mjs": {
+      "sha256": "1fb5433a88cfdfd920dcc4d0512d86adb07b1c892f89f2928c1f6092134aab32",
+      "bytes": 8750
+    },
+    "G2.gg.mjs": {
+      "sha256": "c55c85688fac00c68b182fd199c78c62940a1f20e3941603602e22a2de26a8c7",
+      "bytes": 8765
+    },
+    "G3.gg.mjs": {
+      "sha256": "6ce88f3450e08c5c5bee83d466cb1a69bf3fd97ea3ade7e6c4f35bea604f5a27",
+      "bytes": 8740
+    },
+    "G4.gg.mjs": {
+      "sha256": "bab20f4182504e4ab984ced2e37d95b9172319f247d339f5e73c5439d408ba91",
+      "bytes": 8768
+    },
+    "G5.gg.mjs": {
+      "sha256": "5274620050035e37b476b5d296847cb94c66420f080b85c78fe62152e4801e14",
+      "bytes": 8756
+    },
+    "G6.gg.mjs": {
+      "sha256": "2cd9e920c2648290c1f887f1b5a2954dd8f1475f476db2ca3e40296784104673",
+      "bytes": 8647
+    },
+    "G7.gg.mjs": {
+      "sha256": "234e86e610adc03e47fe5b9eb7be2fefa78fe6c2bedc6dbbd90563c1b1af8880",
+      "bytes": 8658
+    },
+    "G8.gg.mjs": {
+      "sha256": "e8fed2c45456bd6743ac3db0eb6d2c0cf879a9a590534e1a92da6eed82910fca",
+      "bytes": 8670
+    },
+    "vega-lite.svg": {
+      "sha256": "5237ac9edd5fd130244f2885d68db89a9ae866a3d560fdc3d10a00d094a4bcf9",
+      "bytes": 45513
+    },
+    "ggaction.svg": {
+      "sha256": "8f4098ad5e6e36d12e50d10cb1f440e5230f67a84611bf20de1f3984bd70c7f6",
+      "bytes": 23474
+    }
+  }
+}

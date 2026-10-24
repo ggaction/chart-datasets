@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/Deficit%20govt.csv"
+  },
+  "hconcat": [
+    {
+      "mark": {
+        "type": "line"
+      },
+      "encoding": {
+        "color": {
+          "field": "Country",
+          "legend": {
+            "orient": "right",
+            "symbolSize": 25
+          },
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "United States",
+              "Indonesia",
+              "Brazil",
+              "Russia",
+              "Mexico",
+              "Japan",
+              "Türkiye",
+              "Germany",
+              "France",
+              "United Kingdom"
+            ]
+          }
+        },
+        "x": {
+          "field": "Year",
+          "type": "temporal",
+          "axis": {
+            "grid": false
+          }
+        },
+        "y": {
+          "field": "General_government_deficit",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              -35,
+              20
+            ]
+          },
+          "sort": "ascending",
+          "title": "Government Deficit (% of GDP)"
+        },
+        "tooltip": [
+          {
+            "field": "Country"
+          },
+          {
+            "field": "General_government_deficit",
+            "title": "Government Deficit (% of GDP)"
+          }
+        ]
+      },
+      "title": {
+        "text": "General Government Deficit (% of GDP), 2000-2021",
+        "fontSize": 13,
+        "subtitle": [
+          "Source: OECD",
+          ""
+        ],
+        "anchor": "start",
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 13,
+        "color": "black"
+      }
+    }
+  ]
+}

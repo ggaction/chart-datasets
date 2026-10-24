@@ -1,0 +1,458 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "(GI2) GDP year on year growth (%)",
+  "title": {
+    "text": "GDP growth",
+    "subtitle": "Quarterly, year on year % change. Source: ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Date": "1949",
+        "Value": "3.3",
+        "Detail": "GDP: Year on year growth (CVM SA %)"
+      },
+      {
+        "Date": "1950",
+        "Value": "3.3",
+        "Detail": ""
+      },
+      {
+        "Date": "1951",
+        "Value": "3.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1952",
+        "Value": "1.5",
+        "Detail": ""
+      },
+      {
+        "Date": "1953",
+        "Value": "5.6",
+        "Detail": ""
+      },
+      {
+        "Date": "1954",
+        "Value": "4.4",
+        "Detail": ""
+      },
+      {
+        "Date": "1955",
+        "Value": "4",
+        "Detail": ""
+      },
+      {
+        "Date": "1956",
+        "Value": "1.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1957",
+        "Value": "2",
+        "Detail": ""
+      },
+      {
+        "Date": "1958",
+        "Value": "1.3",
+        "Detail": ""
+      },
+      {
+        "Date": "1959",
+        "Value": "4.3",
+        "Detail": ""
+      },
+      {
+        "Date": "1960",
+        "Value": "6.3",
+        "Detail": ""
+      },
+      {
+        "Date": "1961",
+        "Value": "2.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1962",
+        "Value": "1.1",
+        "Detail": ""
+      },
+      {
+        "Date": "1963",
+        "Value": "4.8",
+        "Detail": ""
+      },
+      {
+        "Date": "1964",
+        "Value": "5.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1965",
+        "Value": "2.1",
+        "Detail": ""
+      },
+      {
+        "Date": "1966",
+        "Value": "1.5",
+        "Detail": ""
+      },
+      {
+        "Date": "1967",
+        "Value": "2.8",
+        "Detail": ""
+      },
+      {
+        "Date": "1968",
+        "Value": "5.5",
+        "Detail": ""
+      },
+      {
+        "Date": "1969",
+        "Value": "1.9",
+        "Detail": ""
+      },
+      {
+        "Date": "1970",
+        "Value": "2.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1971",
+        "Value": "3.6",
+        "Detail": ""
+      },
+      {
+        "Date": "1972",
+        "Value": "4.3",
+        "Detail": ""
+      },
+      {
+        "Date": "1973",
+        "Value": "6.5",
+        "Detail": ""
+      },
+      {
+        "Date": "1974",
+        "Value": "-2.5",
+        "Detail": ""
+      },
+      {
+        "Date": "1975",
+        "Value": "-1.5",
+        "Detail": ""
+      },
+      {
+        "Date": "1976",
+        "Value": "3",
+        "Detail": ""
+      },
+      {
+        "Date": "1977",
+        "Value": "2.4",
+        "Detail": ""
+      },
+      {
+        "Date": "1978",
+        "Value": "4.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1979",
+        "Value": "3.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1980",
+        "Value": "-2.1",
+        "Detail": ""
+      },
+      {
+        "Date": "1981",
+        "Value": "-0.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1982",
+        "Value": "2",
+        "Detail": ""
+      },
+      {
+        "Date": "1983",
+        "Value": "4.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1984",
+        "Value": "2.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1985",
+        "Value": "4.1",
+        "Detail": ""
+      },
+      {
+        "Date": "1986",
+        "Value": "3.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1987",
+        "Value": "5.4",
+        "Detail": ""
+      },
+      {
+        "Date": "1988",
+        "Value": "5.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1989",
+        "Value": "2.6",
+        "Detail": ""
+      },
+      {
+        "Date": "1990",
+        "Value": "0.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1991",
+        "Value": "-1.1",
+        "Detail": ""
+      },
+      {
+        "Date": "1992",
+        "Value": "0.4",
+        "Detail": ""
+      },
+      {
+        "Date": "1993",
+        "Value": "2.5",
+        "Detail": ""
+      },
+      {
+        "Date": "1994",
+        "Value": "3.8",
+        "Detail": ""
+      },
+      {
+        "Date": "1995",
+        "Value": "2.5",
+        "Detail": ""
+      },
+      {
+        "Date": "1996",
+        "Value": "2.5",
+        "Detail": ""
+      },
+      {
+        "Date": "1997",
+        "Value": "5",
+        "Detail": ""
+      },
+      {
+        "Date": "1998",
+        "Value": "3.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1999",
+        "Value": "3.3",
+        "Detail": ""
+      },
+      {
+        "Date": "2000",
+        "Value": "3.5",
+        "Detail": ""
+      },
+      {
+        "Date": "2001",
+        "Value": "2.7",
+        "Detail": ""
+      },
+      {
+        "Date": "2002",
+        "Value": "2.2",
+        "Detail": ""
+      },
+      {
+        "Date": "2003",
+        "Value": "3.3",
+        "Detail": ""
+      },
+      {
+        "Date": "2004",
+        "Value": "2.3",
+        "Detail": ""
+      },
+      {
+        "Date": "2005",
+        "Value": "3",
+        "Detail": ""
+      },
+      {
+        "Date": "2006",
+        "Value": "2.7",
+        "Detail": ""
+      },
+      {
+        "Date": "2007",
+        "Value": "2.4",
+        "Detail": ""
+      },
+      {
+        "Date": "2008",
+        "Value": "-0.3",
+        "Detail": ""
+      },
+      {
+        "Date": "2009",
+        "Value": "-4.1",
+        "Detail": ""
+      },
+      {
+        "Date": "2010",
+        "Value": "2.1",
+        "Detail": ""
+      },
+      {
+        "Date": "2011",
+        "Value": "1.3",
+        "Detail": ""
+      },
+      {
+        "Date": "2012",
+        "Value": "1.4",
+        "Detail": ""
+      },
+      {
+        "Date": "2013",
+        "Value": "2.2",
+        "Detail": ""
+      },
+      {
+        "Date": "2014",
+        "Value": "2.9",
+        "Detail": ""
+      },
+      {
+        "Date": "2015",
+        "Value": "2.4",
+        "Detail": ""
+      },
+      {
+        "Date": "2016",
+        "Value": "1.7",
+        "Detail": ""
+      },
+      {
+        "Date": "2017",
+        "Value": "1.7",
+        "Detail": ""
+      },
+      {
+        "Date": "2018",
+        "Value": "1.3",
+        "Detail": ""
+      },
+      {
+        "Date": "2019",
+        "Value": "1.4",
+        "Detail": ""
+      },
+      {
+        "Date": "2020",
+        "Value": "-9.9",
+        "Detail": ""
+      }
+    ],
+    "format": {
+      "parse": {
+        "Date": "date"
+      }
+    }
+  },
+  "height": 300,
+  "width": 305,
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "axis": {
+        "grid": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "axis": {
+            "grid": false
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "color": "goldenrod",
+            "interpolate": "monotone"
+          }
+        },
+        {
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "value": 0.1
+        },
+        "tooltip": [
+          {
+            "field": "Date",
+            "type": "temporal",
+            "format": "%B, %Y"
+          },
+          {
+            "field": "Value",
+            "title": "GDP growth",
+            "type": "quantitative",
+            "format": ""
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "color": "darkgrey",
+        "size": 0.75
+      },
+      "encoding": {
+        "y": {
+          "field": "Value",
+          "type": "quantitative"
+        }
+      },
+      "data": {
+        "values": [
+          {
+            "Value": "0"
+          }
+        ]
+      }
+    }
+  ]
+}

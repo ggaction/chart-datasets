@@ -1,0 +1,127 @@
+{
+  "id": "vl_0600",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "fe1d953e8452ca0ab0208cfdf852bec26e0dee4a2d82dada61890d2e0e9dc2ae",
+      "actions": 28,
+      "topOptions": 69
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "fe71b12fbd36feb0c51b6784cb8dc5e9ad05aea9ee0d4505affa08cf32a3c2a8",
+      "actions": 29,
+      "topOptions": 71
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "5be236429809143ed220a3fe7aabf8fae0467c14c905090f73f8bbb2420960d6",
+      "actions": 29,
+      "topOptions": 71
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "014c5c07f1e1dffd14541478f01cf5cb31c9e7b2a6f0b72fb778f2a4106d0d4a",
+      "actions": 31,
+      "topOptions": 73
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "76b548564e9adb0d98d10d7275449812a402af812a9612de641455fd2eb4720b",
+      "actions": 31,
+      "topOptions": 73
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "def3b1327f9f7f31ebc279033aca8e158f48bd7d114e5d3f2ec1c5a6b188395e",
+      "actions": 32,
+      "topOptions": 77
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "1ca3a6499113bc4f19e50308b7abdd57557aadeb1de762a99cfbbe89af2d9504",
+      "actions": 34,
+      "topOptions": 80
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "096cf5fcdd9d5f3884b055f1b01128a0174dfa8ff09f29d58025b378f9b6811e",
+      "actions": 36,
+      "topOptions": 83
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/jhellingsdata/jhellingsdata.github.io/main/Data/ONS_UK_employment.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages retain all1866 ordered Date/Metric/Employment CSV STRING rows and1866 line vertices across3 paths, zero initial hover points,622 full3-metric pivot rules at opacity0, and622 separately classified compiler-transparent nearest regions. The unchanged source overwrites Employment /100 while the native public sourceValue alias preserves all original Employment strings. Actual hover={} and hover_store=[] plus every parsed sourceDate>0 prove compact max0 empty-set range only for the static initial frame; original interactivity is not implemented or claimed. Source color Total/Female/Male and dash Female/Male/Total domains remain independent; original visible legend samples are undashed. All26 glyph styles and23 nonlegend bounds obey the existing0.0001 criterion. One own source Female12px text-width record replaces26 records with all five outputs exact; no borrowed width. Native default legend offset8/pitch18 inside bottom-right differs from source inset18/pitch16 only in placement. Source raw compact110095 bytes uses exact source-only bounded resolution, global80000cap unchanged. Source grid RGB221 with strokeOpacity0.6 is represented exactly by native RGBA221/221/221/0.6. Source3decimal line serialization and integer-snapped grids are independently checked; original view border is transparent. No source pixel identity is claimed."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "8205a441dfddf29b43a3829e88fe09ba56d5ee031e325a5d79d20c6998d2afb9",
+      "bytes": 3385
+    },
+    "data.json": {
+      "sha256": "ecb094127f156317f23225df7c36a17f828579d9e92eb4957966a6d110d8487c",
+      "bytes": 154881
+    },
+    "resolved-source.vl.json": {
+      "sha256": "4f83a410a576276ecbc6ebf04ef4d99b73c3040c8400bde2c412f5c5337335c5",
+      "bytes": 195559
+    },
+    "G1.gg.mjs": {
+      "sha256": "fe1d953e8452ca0ab0208cfdf852bec26e0dee4a2d82dada61890d2e0e9dc2ae",
+      "bytes": 4790
+    },
+    "G2.gg.mjs": {
+      "sha256": "fe71b12fbd36feb0c51b6784cb8dc5e9ad05aea9ee0d4505affa08cf32a3c2a8",
+      "bytes": 4815
+    },
+    "G3.gg.mjs": {
+      "sha256": "5be236429809143ed220a3fe7aabf8fae0467c14c905090f73f8bbb2420960d6",
+      "bytes": 4763
+    },
+    "G4.gg.mjs": {
+      "sha256": "014c5c07f1e1dffd14541478f01cf5cb31c9e7b2a6f0b72fb778f2a4106d0d4a",
+      "bytes": 4787
+    },
+    "G5.gg.mjs": {
+      "sha256": "76b548564e9adb0d98d10d7275449812a402af812a9612de641455fd2eb4720b",
+      "bytes": 4779
+    },
+    "G6.gg.mjs": {
+      "sha256": "def3b1327f9f7f31ebc279033aca8e158f48bd7d114e5d3f2ec1c5a6b188395e",
+      "bytes": 4824
+    },
+    "G7.gg.mjs": {
+      "sha256": "1ca3a6499113bc4f19e50308b7abdd57557aadeb1de762a99cfbbe89af2d9504",
+      "bytes": 4845
+    },
+    "G8.gg.mjs": {
+      "sha256": "096cf5fcdd9d5f3884b055f1b01128a0174dfa8ff09f29d58025b378f9b6811e",
+      "bytes": 4867
+    },
+    "vega-lite.svg": {
+      "sha256": "1b294a4098db0de29f841ed58fa00c5b3b8ce2ff4f1ddf40c96e653c21efe3a8",
+      "bytes": 266875
+    },
+    "ggaction.svg": {
+      "sha256": "a08a7d894ddf38cec17b07027c49aca442baf91048bd35a26c12ed13388a3c32",
+      "bytes": 150222
+    }
+  }
+}

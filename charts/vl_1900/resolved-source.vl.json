@@ -1,0 +1,423 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "(F4) Current UK budget deficit (% GDP)",
+  "title": {
+    "text": "Deficit/GDP ratio",
+    "subtitle": "% GDP. Source: ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {
+        "Date": "1956-01-01",
+        "Value": "-3.8",
+        "Detail": "PS: Current Budget Deficit (excl. PS Banks) as a % of GDP: CPNSA"
+      },
+      {
+        "Date": "1957-01-01",
+        "Value": "-3.1",
+        "Detail": ""
+      },
+      {
+        "Date": "1958-01-01",
+        "Value": "-3.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1959-01-01",
+        "Value": "-3.1",
+        "Detail": ""
+      },
+      {
+        "Date": "1960-01-01",
+        "Value": "-1.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1961-01-01",
+        "Value": "-0.9",
+        "Detail": ""
+      },
+      {
+        "Date": "1962-01-01",
+        "Value": "-1.9",
+        "Detail": ""
+      },
+      {
+        "Date": "1963-01-01",
+        "Value": "-2.1",
+        "Detail": ""
+      },
+      {
+        "Date": "1964-01-01",
+        "Value": "-2.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1965-01-01",
+        "Value": "-3.6",
+        "Detail": ""
+      },
+      {
+        "Date": "1966-01-01",
+        "Value": "-4",
+        "Detail": ""
+      },
+      {
+        "Date": "1967-01-01",
+        "Value": "-3.9",
+        "Detail": ""
+      },
+      {
+        "Date": "1968-01-01",
+        "Value": "-3.6",
+        "Detail": ""
+      },
+      {
+        "Date": "1969-01-01",
+        "Value": "-6",
+        "Detail": ""
+      },
+      {
+        "Date": "1970-01-01",
+        "Value": "-7.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1971-01-01",
+        "Value": "-6.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1972-01-01",
+        "Value": "-4.3",
+        "Detail": ""
+      },
+      {
+        "Date": "1973-01-01",
+        "Value": "-2.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1974-01-01",
+        "Value": "-1.1",
+        "Detail": ""
+      },
+      {
+        "Date": "1975-01-01",
+        "Value": "0.1",
+        "Detail": ""
+      },
+      {
+        "Date": "1976-01-01",
+        "Value": "0.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1977-01-01",
+        "Value": "0.4",
+        "Detail": ""
+      },
+      {
+        "Date": "1978-01-01",
+        "Value": "0.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1979-01-01",
+        "Value": "1.8",
+        "Detail": ""
+      },
+      {
+        "Date": "1980-01-01",
+        "Value": "1.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1981-01-01",
+        "Value": "2.1",
+        "Detail": ""
+      },
+      {
+        "Date": "1982-01-01",
+        "Value": "0.6",
+        "Detail": ""
+      },
+      {
+        "Date": "1983-01-01",
+        "Value": "0.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1984-01-01",
+        "Value": "1.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1985-01-01",
+        "Value": "1.4",
+        "Detail": ""
+      },
+      {
+        "Date": "1986-01-01",
+        "Value": "0.6",
+        "Detail": ""
+      },
+      {
+        "Date": "1987-01-01",
+        "Value": "1",
+        "Detail": ""
+      },
+      {
+        "Date": "1988-01-01",
+        "Value": "0.9",
+        "Detail": ""
+      },
+      {
+        "Date": "1989-01-01",
+        "Value": "-0.9",
+        "Detail": ""
+      },
+      {
+        "Date": "1990-01-01",
+        "Value": "-0.6",
+        "Detail": ""
+      },
+      {
+        "Date": "1991-01-01",
+        "Value": "0.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1992-01-01",
+        "Value": "2.2",
+        "Detail": ""
+      },
+      {
+        "Date": "1993-01-01",
+        "Value": "5.3",
+        "Detail": ""
+      },
+      {
+        "Date": "1994-01-01",
+        "Value": "5.9",
+        "Detail": ""
+      },
+      {
+        "Date": "1995-01-01",
+        "Value": "4.6",
+        "Detail": ""
+      },
+      {
+        "Date": "1996-01-01",
+        "Value": "3.4",
+        "Detail": ""
+      },
+      {
+        "Date": "1997-01-01",
+        "Value": "2.8",
+        "Detail": ""
+      },
+      {
+        "Date": "1998-01-01",
+        "Value": "0.7",
+        "Detail": ""
+      },
+      {
+        "Date": "1999-01-01",
+        "Value": "-0.5",
+        "Detail": ""
+      },
+      {
+        "Date": "2000-01-01",
+        "Value": "-1.5",
+        "Detail": ""
+      },
+      {
+        "Date": "2001-01-01",
+        "Value": "-1.8",
+        "Detail": ""
+      },
+      {
+        "Date": "2002-01-01",
+        "Value": "-0.5",
+        "Detail": ""
+      },
+      {
+        "Date": "2003-01-01",
+        "Value": "1.6",
+        "Detail": ""
+      },
+      {
+        "Date": "2004-01-01",
+        "Value": "1.7",
+        "Detail": ""
+      },
+      {
+        "Date": "2005-01-01",
+        "Value": "1.8",
+        "Detail": ""
+      },
+      {
+        "Date": "2006-01-01",
+        "Value": "1.3",
+        "Detail": ""
+      },
+      {
+        "Date": "2007-01-01",
+        "Value": "0.9",
+        "Detail": ""
+      },
+      {
+        "Date": "2008-01-01",
+        "Value": "1.2",
+        "Detail": ""
+      },
+      {
+        "Date": "2009-01-01",
+        "Value": "4.5",
+        "Detail": ""
+      },
+      {
+        "Date": "2010-01-01",
+        "Value": "7.2",
+        "Detail": ""
+      },
+      {
+        "Date": "2011-01-01",
+        "Value": "6.2",
+        "Detail": ""
+      },
+      {
+        "Date": "2012-01-01",
+        "Value": "5.4",
+        "Detail": ""
+      },
+      {
+        "Date": "2013-01-01",
+        "Value": "5.3",
+        "Detail": ""
+      },
+      {
+        "Date": "2014-01-01",
+        "Value": "4.2",
+        "Detail": ""
+      },
+      {
+        "Date": "2015-01-01",
+        "Value": "3.2",
+        "Detail": ""
+      },
+      {
+        "Date": "2016-01-01",
+        "Value": "2.5",
+        "Detail": ""
+      },
+      {
+        "Date": "2017-01-01",
+        "Value": "0.7",
+        "Detail": ""
+      },
+      {
+        "Date": "2018-01-01",
+        "Value": "0.4",
+        "Detail": ""
+      },
+      {
+        "Date": "2019-01-01",
+        "Value": "-0.2",
+        "Detail": ""
+      },
+      {
+        "Date": "2020-01-01",
+        "Value": "0.6",
+        "Detail": ""
+      }
+    ],
+    "format": {
+      "parse": {
+        "Date": "date"
+      }
+    }
+  },
+  "height": 300,
+  "width": 305,
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "axis": {
+        "grid": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "axis": {
+            "grid": false
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "color": "mediumvioletred",
+            "interpolate": "monotone"
+          }
+        },
+        {
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "value": 0.1
+        },
+        "tooltip": [
+          {
+            "field": "Date",
+            "type": "temporal",
+            "format": "%B, %Y"
+          },
+          {
+            "field": "Value",
+            "title": "Deficit/GDP ratio",
+            "type": "quantitative",
+            "format": ""
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "color": "darkgrey",
+        "size": 0.75
+      },
+      "encoding": {
+        "y": {
+          "field": "Value",
+          "type": "quantitative"
+        }
+      },
+      "data": {
+        "values": [
+          {
+            "Value": "0"
+          }
+        ]
+      }
+    }
+  ]
+}

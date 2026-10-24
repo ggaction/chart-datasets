@@ -1,0 +1,127 @@
+{
+  "id": "vl_1688",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "68b0e11034c197b6a7be71fc1cbab5e89b46c934fcf6ee74d6363840546c7c6f",
+      "actions": 18,
+      "topOptions": 43
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "ef699c98df43ef7442f9b794ffd94125e85a2a68d211c539e0beed1b371f735e",
+      "actions": 19,
+      "topOptions": 46
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "5dd4a06de4dc7d9b1b3b63deb75d514b7319394a447e924baf8efab5f417dbc1",
+      "actions": 19,
+      "topOptions": 45
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "e549b0e1ac222ba04b02cf7cab6cfc8ef6b97293662c6cc4f0b00229f950498f",
+      "actions": 20,
+      "topOptions": 49
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "58cf5d99b5aa92c2adbaebe03334ce1ef5fd0741ebcec2377078d8b998d7f69f",
+      "actions": 22,
+      "topOptions": 51
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "fe48d045c7e5cc648087db2d4f5125df2a4f2c6fd6719bbfe3809cd73a072942",
+      "actions": 24,
+      "topOptions": 55
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "d297d114e0b7460a14be05c8b0e080351d8dda8beb7f6ee0112b5188e6ad98a1",
+      "actions": 25,
+      "topOptions": 56
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "5549d24a75e1728b7b49030a5ace734c646c2486e0114a5364e751403caab5e9",
+      "actions": 27,
+      "topOptions": 60
+    }
+  ],
+  "sourceUrls": [
+    "https://vega.github.io/vega-lite/data/population.json"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct source-qualified actual School stages passed normal and independent cold verification; final provenance audit required before counting."
+  },
+  "historicalRuntimeCommits": [
+    "2f6bf496b85cb0af8bf11ca40770510a92043216"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "dd12ab5612eb0ec74f2c12aad648def25ef166414ffef4807bc92011a0b40d4b",
+      "bytes": 1098
+    },
+    "data.json": {
+      "sha256": "785e0a1022aa22c16b822ee39b33a1d882b3d099c227b8d7bf2f94ebe8d0667e",
+      "bytes": 44198
+    },
+    "resolved-source.vl.json": {
+      "sha256": "48e66af5fd65bfc7a8dbbe9313aa294e3a5e411436f13cf91ac1b9056b46cdc1",
+      "bytes": 58928
+    },
+    "G1.gg.mjs": {
+      "sha256": "68b0e11034c197b6a7be71fc1cbab5e89b46c934fcf6ee74d6363840546c7c6f",
+      "bytes": 3152
+    },
+    "G2.gg.mjs": {
+      "sha256": "ef699c98df43ef7442f9b794ffd94125e85a2a68d211c539e0beed1b371f735e",
+      "bytes": 2995
+    },
+    "G3.gg.mjs": {
+      "sha256": "5dd4a06de4dc7d9b1b3b63deb75d514b7319394a447e924baf8efab5f417dbc1",
+      "bytes": 2955
+    },
+    "G4.gg.mjs": {
+      "sha256": "e549b0e1ac222ba04b02cf7cab6cfc8ef6b97293662c6cc4f0b00229f950498f",
+      "bytes": 2855
+    },
+    "G5.gg.mjs": {
+      "sha256": "58cf5d99b5aa92c2adbaebe03334ce1ef5fd0741ebcec2377078d8b998d7f69f",
+      "bytes": 2897
+    },
+    "G6.gg.mjs": {
+      "sha256": "fe48d045c7e5cc648087db2d4f5125df2a4f2c6fd6719bbfe3809cd73a072942",
+      "bytes": 3049
+    },
+    "G7.gg.mjs": {
+      "sha256": "d297d114e0b7460a14be05c8b0e080351d8dda8beb7f6ee0112b5188e6ad98a1",
+      "bytes": 3082
+    },
+    "G8.gg.mjs": {
+      "sha256": "5549d24a75e1728b7b49030a5ace734c646c2486e0114a5364e751403caab5e9",
+      "bytes": 3101
+    },
+    "vega-lite.svg": {
+      "sha256": "f457891992c0c12c3fbaf8aa901ec14752fb64298a2d5e214f7ca77713e5bfb5",
+      "bytes": 58331
+    },
+    "ggaction.svg": {
+      "sha256": "63fdf1978a3fdd0c1028761efabf98ddedcc48bcb15f01b68dcd354785a96295",
+      "bytes": 32751
+    }
+  }
+}

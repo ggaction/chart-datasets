@@ -1,0 +1,35 @@
+import { chart } from "ggaction";
+import data from "./data.json";
+export function buildChart() {
+  return chart()
+    // DOCS: doc-03a2b0935e71ba1f, doc-76573a465e2b6a33, doc-7f3d996fbd79a7ec, doc-f6b001159ab60adf, doc-48c72317a1a99e17
+    .createCanvas({ width: 514, height: 415, margin: { left: 58, top: 58, right: 6, bottom: 37 } })
+    .editCanvas({ plotBorder: { color: "#ddd", lineWidth: 1, underlay: true } })
+    .applyTextMetrics({ profile: { schemaVersion: 1, id: "source1004-own-endpoint-SVG", measurements: [ { text: "0", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 5.5625 }, { text: "16", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 11.125 }, { text: "−0.025", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 30.875 }, { text: "−0.020", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 30.875 }, { text: "−0.015", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 30.875 }, { text: "−0.010", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 30.875 }, { text: "−0.005", fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "normal", width: 30.875 } ] } })
+    .createData({ values: data })
+    .createComputedData({ id: "supplyTyped", as: "sourceSupply", expression: { op: "toNumber", operand: { field: "supply" } } })
+    .createComputedData({ id: "priceTyped", as: "sourcePrice", expression: { op: "toNumber", operand: { field: "price" } } })
+    .createComputedData({ id: "typed", as: "sourceDate", expression: { op: "parseTime", operand: { field: "date" } } }).createScatterPlot({ x: { field: "sourceSupply", scale: { id: "x", domain: [0, 16] } }, y: { field: "sourcePrice", scale: { id: "y", domain: [-0.025, 0.03] } }, guides: false }).createGuides({ axes: { x: { line: { color: "#888" }, ticksAndLabels: { values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], ticks: { color: "#888", length: 5, alongOffset: 0.5 }, labels: { fontFamily: "sans-serif", fontSize: 10, color: "black", format: ".0f", offset: 5.5, alongOffset: 0.5, flush: true, flushThreshold: 0 } }, title: { text: "Home Supply (Months)", fontFamily: "sans-serif", fontSize: 11, fontWeight: 700, color: "black", offset: 27.578125, alongOffset: 0.5 } }, y: { line: { color: "#888" }, ticksAndLabels: { values: [-0.025, -0.02, -0.015, -0.01, -0.005, 0, 0.005, 0.01, 0.015, 0.02, 0.025, 0.03], ticks: { color: "#888", length: 5, alongOffset: 0.5 }, labels: { fontFamily: "sans-serif", fontSize: 10, color: "black", format: ".3f", labelMap: [ { value: -0.025, label: "−0.025" }, { value: -0.02, label: "−0.020" }, { value: -0.015, label: "−0.015" }, { value: -0.01, label: "−0.010" }, { value: -0.005, label: "−0.005" }, { value: 0, label: "0.000" }, { value: 0.005, label: "0.005" }, { value: 0.01, label: "0.010" }, { value: 0.015, label: "0.015" }, { value: 0.02, label: "0.020" }, { value: 0.025, label: "0.025" }, { value: 0.03, label: "0.030" } ], offset: 6.5, alongOffset: 0.890625 } }, title: { text: "House Price Index (% change)", fontFamily: "sans-serif", fontSize: 11, fontWeight: 700, color: "black", offset: 46.2861328125, alongOffset: 0.5 } } }, grid: { vertical: { values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], color: "#ddd", alongOffset: 0.5 }, horizontal: { values: [-0.025, -0.02, -0.015, -0.01, -0.005, 0, 0.005, 0.01, 0.015, 0.02, 0.025, 0.03], color: "#ddd", alongOffset: 0.5 } }, legend: false })
+    .editPointMark({ fill: "rgb(0,47,167)", opacity: 0.7 })
+    .encodePointRadius({ value: 3.5355339059327378 })
+    .createRegressionData({ id: "fit", x: "sourcePrice", y: "sourceSupply" })
+    .editRegressionData({ target: "fit", predict: { domain: [-0.0001468087449073563, 0.00007672830507154949], steps: 2 }, interval: false })
+    .createComputedData({ id: "fitPoints", as: "displaySupply", expression: { field: "sourceSupply" } })
+    .createPointMark({ id: "highlight", data: "typed", fill: "red" })
+    .encodeX({ field: "sourceSupply", scale: { id: "x", domain: [0, 16] } })
+    .encodeY({ field: "sourcePrice", scale: { id: "y", domain: [-0.025, 0.03] } })
+    .editPointMark({ opacity: 0.7 })
+    .encodePointRadius({ value: 4.47213595499958 })
+    .filterMarks({ field: "sourceDate", op: "oneOf", values: [1199145600000, 1640995200000] })
+    .createLineMark({ id: "fitLine", data: "fitPoints", stroke: "firebrick" })
+    .encodeX({ field: "displaySupply", scale: { id: "x", domain: [0, 16] } })
+    .encodeY({ field: "sourcePrice", scale: { id: "y", domain: [-0.025, 0.03] } })
+    .createRegressionStatisticsData({ id: "statistics", source: "fit" })
+    .createComputedData({ id: "annotation", as: "sourceLabel", expression: { constant: "R²: 0.49" } })
+    .createTextPlot({ x: { datum: 16, fieldType: "quantitative", scale: { id: "x" } }, y: { datum: 0.03, fieldType: "quantitative", scale: { id: "y" } }, text: { field: "sourceLabel" } })
+    .editTextMark({ fontFamily: "sans-serif", fontSize: 11, fill: "firebrick" })
+    .editTextMark({ align: "right", baseline: "middle", dy: -4.875 })
+    .createTitle({ text: "House supply Vs. House price Growth", titleStyle: { fontFamily: "sans-serif", fontSize: 13, fontWeight: 700, color: "black" }, offset: -10.953125 })
+    .editTitle({ subtitle: "Total supply of new Houses (Months), % change in S&P/Case-Shiller U.S. National Home Price Index.\nSource: FRED API", subtitleStyle: { fontFamily: "sans-serif", fontSize: 10, fontWeight: 400, fontStyle: "italic", color: "black" }, gap: 3.34375 })
+    .editTitle({ align: "left", alongOffset: -52.8642578125 });
+}

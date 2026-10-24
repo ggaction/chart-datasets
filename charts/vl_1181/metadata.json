@@ -1,0 +1,127 @@
+{
+  "id": "vl_1181",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "ea1aef95b3ce74000e493286e71fd92c7387f511bad0591dde5b56da083a7f38",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "9413cef98b1338d36df73712efb9d0fb6e025f35923e3629adf7d1ee0341e6e1",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "69447d7bc0d341d61711f6ca3c4a0b6dc767ab608e360a9c77e7e31a0f4e07fd",
+      "actions": 22,
+      "topOptions": 49
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "289c5f8c36fa27e7319c7b4350aa681ddff029926999cb5ee61b53cfc68f9cbd",
+      "actions": 23,
+      "topOptions": 53
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "a2e35eeb7fb7adf827c6845d1efa27a87b6e356297b46495cff56718c2bdb512",
+      "actions": 24,
+      "topOptions": 55
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "f3ddd9a11b0bbad933c49392929ecc9b0fa2e116ea179e5c6b58057243ef3046",
+      "actions": 26,
+      "topOptions": 55
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "4ef8a02f46a89a2db57fe1b5467729b5275f0ea5117965b19deded7de921407c",
+      "actions": 28,
+      "topOptions": 57
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "b8e525e0859bb4fe7865b70fbcef7010f143ec3278b8a7787eadb0bcc8658bcc",
+      "actions": 31,
+      "topOptions": 61
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/cavalab/srbench/78f5d3d068621c4065f6bf84124fc904405e2438/docs/csv/pareto.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct source-qualified actual School stages passed normal and independent cold verification; final provenance audit required before counting."
+  },
+  "historicalRuntimeCommits": [
+    "9820e3665cfbca546924ef1f4a17a8c8f9c17760"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "cfcd1eaa82bd9ad06d646625c19e427b79629941e2a80752ef85960f300a85d2",
+      "bytes": 1584
+    },
+    "data.json": {
+      "sha256": "8da78e7081f7b0c63b911d6df1e5fa509cf8ba54ab14cc2144c5b865742c81bd",
+      "bytes": 4020
+    },
+    "resolved-source.vl.json": {
+      "sha256": "705827d8fdf953efe25352965915311c0792db22af747a61235aff7bedba2ca0",
+      "bytes": 6331
+    },
+    "G1.gg.mjs": {
+      "sha256": "ea1aef95b3ce74000e493286e71fd92c7387f511bad0591dde5b56da083a7f38",
+      "bytes": 5199
+    },
+    "G2.gg.mjs": {
+      "sha256": "9413cef98b1338d36df73712efb9d0fb6e025f35923e3629adf7d1ee0341e6e1",
+      "bytes": 5134
+    },
+    "G3.gg.mjs": {
+      "sha256": "69447d7bc0d341d61711f6ca3c4a0b6dc767ab608e360a9c77e7e31a0f4e07fd",
+      "bytes": 5008
+    },
+    "G4.gg.mjs": {
+      "sha256": "289c5f8c36fa27e7319c7b4350aa681ddff029926999cb5ee61b53cfc68f9cbd",
+      "bytes": 4930
+    },
+    "G5.gg.mjs": {
+      "sha256": "a2e35eeb7fb7adf827c6845d1efa27a87b6e356297b46495cff56718c2bdb512",
+      "bytes": 4922
+    },
+    "G6.gg.mjs": {
+      "sha256": "f3ddd9a11b0bbad933c49392929ecc9b0fa2e116ea179e5c6b58057243ef3046",
+      "bytes": 4948
+    },
+    "G7.gg.mjs": {
+      "sha256": "4ef8a02f46a89a2db57fe1b5467729b5275f0ea5117965b19deded7de921407c",
+      "bytes": 4996
+    },
+    "G8.gg.mjs": {
+      "sha256": "b8e525e0859bb4fe7865b70fbcef7010f143ec3278b8a7787eadb0bcc8658bcc",
+      "bytes": 5094
+    },
+    "vega-lite.svg": {
+      "sha256": "5fdaa67a0d4d36317fe41bffd4a86856e28cdd20c474cd121625f5cfe8391ef8",
+      "bytes": 34941
+    },
+    "ggaction.svg": {
+      "sha256": "7caf11f452eadf150da4293fe9027f3c23e802ee44b18300ffb1dba9bc1bc24f",
+      "bytes": 22828
+    }
+  }
+}

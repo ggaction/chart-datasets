@@ -1,0 +1,127 @@
+{
+  "id": "vl_0572",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "dddc3e72a0a266e8723529c79b1f151b9bd94fa311bdfe3a5ae307232ccbbde8",
+      "actions": 27,
+      "topOptions": 64
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "16122e743187666bfc786d19763e304b673523b5ac5ca2434ea77aa2c5cd4e3e",
+      "actions": 28,
+      "topOptions": 67
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "91728627b94e57ce071ffe684bdbc978364c31e8bb00637b7b2153c60ec878dd",
+      "actions": 28,
+      "topOptions": 66
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "b2077516e075f350c911e806fcfb5dba8be6f3d086efd4d61346ff1829415397",
+      "actions": 30,
+      "topOptions": 68
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "9213c889bc430d2c82bb64abb0f753d00626a3ebbb064158cdd3471a73463ab6",
+      "actions": 30,
+      "topOptions": 68
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "fafcf832c40bb3ee9f5980996384559fd549a48d29ac023f7a0d88d3a7fd8ab6",
+      "actions": 31,
+      "topOptions": 72
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "a09c8b8a9ec229b2df84fc150e2c2ba67ae0088c6b0721a7419c30043246d93f",
+      "actions": 33,
+      "topOptions": 75
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "4e9b4e1310609a0b139517a03e731232821c458153ce6da7d6571f10db703ca9",
+      "actions": 35,
+      "topOptions": 78
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/JamesFKean/RA_work/main/chart1_2v2.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight actual School stages passed current normal, all-source geometry and independent cold audit. Native default legend offset8 and pitch18 are retained; source legend pitch16/anchor differs, with exact symbol/font/color/content. Original integer-snapped grids and native analytic +0.5 grids are independently verified. Original trailing blank subtitle line is retained. No source pixel identity is claimed."
+  },
+  "historicalRuntimeCommits": [
+    "1a515fa46d973fb99787ad2e1f7429fa5e4eb451"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "400b8049a51a7cf4996896950d9693a9f3ba9550eeb081db25d711932f051cd4",
+      "bytes": 2585
+    },
+    "data.json": {
+      "sha256": "766be2733a0c1b520e0a3758abb304af59491aadcb6dc675dd78d027db358f4a",
+      "bytes": 18014
+    },
+    "resolved-source.vl.json": {
+      "sha256": "98d4259c3ce8ee152067f883750d4bfe853ee3a2d54c031ed1840ff793f72485",
+      "bytes": 24995
+    },
+    "G1.gg.mjs": {
+      "sha256": "dddc3e72a0a266e8723529c79b1f151b9bd94fa311bdfe3a5ae307232ccbbde8",
+      "bytes": 5726
+    },
+    "G2.gg.mjs": {
+      "sha256": "16122e743187666bfc786d19763e304b673523b5ac5ca2434ea77aa2c5cd4e3e",
+      "bytes": 5700
+    },
+    "G3.gg.mjs": {
+      "sha256": "91728627b94e57ce071ffe684bdbc978364c31e8bb00637b7b2153c60ec878dd",
+      "bytes": 5595
+    },
+    "G4.gg.mjs": {
+      "sha256": "b2077516e075f350c911e806fcfb5dba8be6f3d086efd4d61346ff1829415397",
+      "bytes": 5607
+    },
+    "G5.gg.mjs": {
+      "sha256": "9213c889bc430d2c82bb64abb0f753d00626a3ebbb064158cdd3471a73463ab6",
+      "bytes": 5595
+    },
+    "G6.gg.mjs": {
+      "sha256": "fafcf832c40bb3ee9f5980996384559fd549a48d29ac023f7a0d88d3a7fd8ab6",
+      "bytes": 5606
+    },
+    "G7.gg.mjs": {
+      "sha256": "a09c8b8a9ec229b2df84fc150e2c2ba67ae0088c6b0721a7419c30043246d93f",
+      "bytes": 5595
+    },
+    "G8.gg.mjs": {
+      "sha256": "4e9b4e1310609a0b139517a03e731232821c458153ce6da7d6571f10db703ca9",
+      "bytes": 5580
+    },
+    "vega-lite.svg": {
+      "sha256": "18095fef4f6de1f6ee01f220a9db7585c0869336e1cea7aeb001bbd8cff30a99",
+      "bytes": 51673
+    },
+    "ggaction.svg": {
+      "sha256": "d33cb11a85c8d565e7de1736eedd5bb1db7b80c5e29696ac499bf91cd1738897",
+      "bytes": 38181
+    }
+  }
+}

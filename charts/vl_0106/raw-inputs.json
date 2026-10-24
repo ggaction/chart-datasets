@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "kind": "named-layer-raw-inputs-v1",
+  "primary": "data.json",
+  "sourceSha256": "6c577f52118c95f7177fda8643de079ae05d50e74307342dcfcacc141333c60d",
+  "resolvedSourceSha256": "637498c827a7b716b412ab1fdf68629b409f62d6232cdee3cda0ca31b080692e",
+  "resolutionSha256": "d7450378e763e20dd4aa72b58a9a1341003fe6887b183185fa5c7581d9364fe6",
+  "profileSha256": "7b5e5dee54e0c4f4bc772f6c647aacdd1714c8314593cd8061930e3892844eed",
+  "rootSourceAlias": "/layer/0/data",
+  "descriptors": [
+    {
+      "pointer": "/layer/0/data",
+      "file": "data.json",
+      "sha256": "547f1ee4c9eb9ea926ef6a834b402306e2bfc641069de993daebfdd4296b656b",
+      "bytes": 1548,
+      "rowCount": 7,
+      "kind": "named-inline",
+      "originalDatasetName": "data-59b93b0351ba0b41273b8a2f937c8473"
+    },
+    {
+      "pointer": "/layer/1/data",
+      "file": "cdr-data.json",
+      "sha256": "ac1ccdeaa94848667d9faddb552029cbd4dd3be6065a51b70f705445781dba10",
+      "bytes": 1082,
+      "rowCount": 5,
+      "kind": "named-inline",
+      "originalDatasetName": "data-a6e2272690eaed6b036d181eb0f59825"
+    },
+    {
+      "pointer": "/layer/2/data",
+      "file": "mutation-data.json",
+      "sha256": "8766ce7d3703928c0aee55827745bf9bf7407a6263ab3cfa7d1db405c92147cb",
+      "bytes": 10906,
+      "rowCount": 48,
+      "kind": "named-inline",
+      "originalDatasetName": "data-ea34d3555056ba8f1d2aad02c01ddd71"
+    }
+  ],
+  "stages": [
+    {
+      "level": "G1",
+      "codeSha256": "19b03d0fb96675778338a6bc7c08b8009207579351dfbabcaf14940de949f5e7",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "cdrData",
+          "file": "cdr-data.json"
+        },
+        {
+          "local": "mutationData",
+          "file": "mutation-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "mutation-data.json",
+          "local": "mutationData",
+          "datasetId": "mutationData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "cdr-data.json",
+          "local": "cdrData",
+          "datasetId": "cdrData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G2",
+      "codeSha256": "6bc39dec01e4bc797e60a7b0b012eae2b1d2c7517260125a2bcec662fc99863b",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "cdrData",
+          "file": "cdr-data.json"
+        },
+        {
+          "local": "mutationData",
+          "file": "mutation-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "mutation-data.json",
+          "local": "mutationData",
+          "datasetId": "mutationData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "cdr-data.json",
+          "local": "cdrData",
+          "datasetId": "cdrData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G3",
+      "codeSha256": "d7004523f451d5cdc0275a87ea1bc42ad870090e0576c3a38d800bf55d4d42d8",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "cdrData",
+          "file": "cdr-data.json"
+        },
+        {
+          "local": "mutationData",
+          "file": "mutation-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "mutation-data.json",
+          "local": "mutationData",
+          "datasetId": "mutationData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "cdr-data.json",
+          "local": "cdrData",
+          "datasetId": "cdrData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G4",
+      "codeSha256": "006b9340ac978d60e872bfe09f18822b4bf52435bf8ece41b2f9f4ff9f7461f4",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "cdrData",
+          "file": "cdr-data.json"
+        },
+        {
+          "local": "mutationData",
+          "file": "mutation-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "mutation-data.json",
+          "local": "mutationData",
+          "datasetId": "mutationData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "cdr-data.json",
+          "local": "cdrData",
+          "datasetId": "cdrData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G5",
+      "codeSha256": "c19cf9a41f6d21d8bebc6f73a175e599441f5f5c6d166e8f083b3628478d51ac",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "cdrData",
+          "file": "cdr-data.json"
+        },
+        {
+          "local": "mutationData",
+          "file": "mutation-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "mutation-data.json",
+          "local": "mutationData",
+          "datasetId": "mutationData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "cdr-data.json",
+          "local": "cdrData",
+          "datasetId": "cdrData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G6",
+      "codeSha256": "6259207c3869500123ffabd0d21f6657bf64d71a436b32be5384a820678b56cd",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "cdrData",
+          "file": "cdr-data.json"
+        },
+        {
+          "local": "mutationData",
+          "file": "mutation-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "mutation-data.json",
+          "local": "mutationData",
+          "datasetId": "mutationData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "cdr-data.json",
+          "local": "cdrData",
+          "datasetId": "cdrData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G7",
+      "codeSha256": "52ea7036a7dc1778c7a73d8ec9ebec30b49416d0ea1d06d8487950000ee18208",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "cdrData",
+          "file": "cdr-data.json"
+        },
+        {
+          "local": "mutationData",
+          "file": "mutation-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "mutation-data.json",
+          "local": "mutationData",
+          "datasetId": "mutationData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "cdr-data.json",
+          "local": "cdrData",
+          "datasetId": "cdrData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    },
+    {
+      "level": "G8",
+      "codeSha256": "b7d961988b548a1d5fb078a91695ca6ad50deb31ce15d9e4a2aa4410ebdd364b",
+      "policy": "strict-frozen-raw-bindings",
+      "imports": [
+        {
+          "local": "data",
+          "file": "data.json"
+        },
+        {
+          "local": "cdrData",
+          "file": "cdr-data.json"
+        },
+        {
+          "local": "mutationData",
+          "file": "mutation-data.json"
+        }
+      ],
+      "bindings": [
+        {
+          "file": "mutation-data.json",
+          "local": "mutationData",
+          "datasetId": "mutationData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "cdr-data.json",
+          "local": "cdrData",
+          "datasetId": "cdrData",
+          "datasetIdOrigin": "explicit-code-option"
+        },
+        {
+          "file": "data.json",
+          "local": "data",
+          "datasetId": "data",
+          "datasetIdOrigin": "public-createData-default"
+        }
+      ],
+      "actualNativeRawDatasetBindingsExact": true
+    }
+  ]
+}

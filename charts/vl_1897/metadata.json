@@ -1,0 +1,127 @@
+{
+  "id": "vl_1897",
+  "status": "completed",
+  "stages": [
+    {
+      "level": "G1",
+      "code": "G1.gg.mjs",
+      "sha256": "cbb7d39fee2e54aadc37aa0c30b7b482e3521c1aca44ec6efb2378e8c876ddbe",
+      "actions": 20,
+      "topOptions": 45
+    },
+    {
+      "level": "G2",
+      "code": "G2.gg.mjs",
+      "sha256": "62afcce1ce1b134e3b9f3fccfaef93fb24ec176a991b08ce791cebdb73969996",
+      "actions": 21,
+      "topOptions": 48
+    },
+    {
+      "level": "G3",
+      "code": "G3.gg.mjs",
+      "sha256": "a3ac43af1aca512da32c3a89f95189949e27c57338d928915ae5e824a4cd9261",
+      "actions": 21,
+      "topOptions": 47
+    },
+    {
+      "level": "G4",
+      "code": "G4.gg.mjs",
+      "sha256": "a31f18aa94a2bfa810213ad1c7ae835eaf50d86d2ea01b9a6696caa28e6fa15c",
+      "actions": 22,
+      "topOptions": 51
+    },
+    {
+      "level": "G5",
+      "code": "G5.gg.mjs",
+      "sha256": "a682ae5d29a5ef316c4e72d3a9372a952d78a663e33a33440cffaa8baea7457a",
+      "actions": 24,
+      "topOptions": 51
+    },
+    {
+      "level": "G6",
+      "code": "G6.gg.mjs",
+      "sha256": "a2585e742ec0393614d1d49c6488479321a049c69a4ef4536ec71d07daaa3fc3",
+      "actions": 26,
+      "topOptions": 53
+    },
+    {
+      "level": "G7",
+      "code": "G7.gg.mjs",
+      "sha256": "196e54a80ce1ba13e22f5309496b25d2e4aed2716e76b7f9cbec9f58c5b2e55c",
+      "actions": 28,
+      "topOptions": 56
+    },
+    {
+      "level": "G8",
+      "code": "G8.gg.mjs",
+      "sha256": "60adabf0577d287b26b0d1ec88195df24ffd9867e24579afa05db1f1800bf493",
+      "actions": 30,
+      "topOptions": 59
+    }
+  ],
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/ukMacro/F1.2.FiscalRevVExp.csv"
+  ],
+  "notes": {
+    "reason": "eight-stage-cap",
+    "explanation": "Eight distinct source-qualified actual School stages passed normal and independent cold verification; final provenance audit required before counting."
+  },
+  "historicalRuntimeCommits": [
+    "9820e3665cfbca546924ef1f4a17a8c8f9c17760"
+  ],
+  "historicalVerificationRuntimeUnrecordedStages": [],
+  "files": {
+    "source.vl.json": {
+      "sha256": "a91360cc4bfbdcb41800d68450b0eedef5601aeb1cec1520ce4caced50210988",
+      "bytes": 1785
+    },
+    "data.json": {
+      "sha256": "1caba55880c6932c4b58650cb819ece4ad80ad4307d694a9cfd5ce78a7fd6bce",
+      "bytes": 3914
+    },
+    "resolved-source.vl.json": {
+      "sha256": "6c1f7481b8220928e1415a81e88817addab68ead177d21ddb5d353a3ee0f4d3c",
+      "bytes": 6585
+    },
+    "G1.gg.mjs": {
+      "sha256": "cbb7d39fee2e54aadc37aa0c30b7b482e3521c1aca44ec6efb2378e8c876ddbe",
+      "bytes": 4430
+    },
+    "G2.gg.mjs": {
+      "sha256": "62afcce1ce1b134e3b9f3fccfaef93fb24ec176a991b08ce791cebdb73969996",
+      "bytes": 4409
+    },
+    "G3.gg.mjs": {
+      "sha256": "a3ac43af1aca512da32c3a89f95189949e27c57338d928915ae5e824a4cd9261",
+      "bytes": 4112
+    },
+    "G4.gg.mjs": {
+      "sha256": "a31f18aa94a2bfa810213ad1c7ae835eaf50d86d2ea01b9a6696caa28e6fa15c",
+      "bytes": 4117
+    },
+    "G5.gg.mjs": {
+      "sha256": "a682ae5d29a5ef316c4e72d3a9372a952d78a663e33a33440cffaa8baea7457a",
+      "bytes": 4141
+    },
+    "G6.gg.mjs": {
+      "sha256": "a2585e742ec0393614d1d49c6488479321a049c69a4ef4536ec71d07daaa3fc3",
+      "bytes": 4175
+    },
+    "G7.gg.mjs": {
+      "sha256": "196e54a80ce1ba13e22f5309496b25d2e4aed2716e76b7f9cbec9f58c5b2e55c",
+      "bytes": 4159
+    },
+    "G8.gg.mjs": {
+      "sha256": "60adabf0577d287b26b0d1ec88195df24ffd9867e24579afa05db1f1800bf493",
+      "bytes": 4134
+    },
+    "vega-lite.svg": {
+      "sha256": "87ac7a3035afd95a66b90e09c669e4758099e1a6759094c987aae600746d8551",
+      "bytes": 37839
+    },
+    "ggaction.svg": {
+      "sha256": "5467b96d7452eabbeb147685937d2ffa9074083031e2f26ddd513aa388002f9f",
+      "bytes": 22704
+    }
+  }
+}

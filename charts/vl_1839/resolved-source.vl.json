@@ -1,0 +1,575 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Distribuição da média de ingresso das mulheres e a média geral",
+    "fontSize": 15
+  },
+  "data": {
+    "values": [
+      {
+        "": "0",
+        "periodo_ingresso": "2000.1",
+        "classe": "geral",
+        "media": "627.49"
+      },
+      {
+        "": "1",
+        "periodo_ingresso": "2000.2",
+        "classe": "geral",
+        "media": "573.5"
+      },
+      {
+        "": "2",
+        "periodo_ingresso": "2001.1",
+        "classe": "geral",
+        "media": "639.94"
+      },
+      {
+        "": "3",
+        "periodo_ingresso": "2001.2",
+        "classe": "geral",
+        "media": "599.58"
+      },
+      {
+        "": "4",
+        "periodo_ingresso": "2002.1",
+        "classe": "geral",
+        "media": "640.42"
+      },
+      {
+        "": "5",
+        "periodo_ingresso": "2002.2",
+        "classe": "geral",
+        "media": "594.53"
+      },
+      {
+        "": "6",
+        "periodo_ingresso": "2003.1",
+        "classe": "geral",
+        "media": "649.92"
+      },
+      {
+        "": "7",
+        "periodo_ingresso": "2003.2",
+        "classe": "geral",
+        "media": "600.4"
+      },
+      {
+        "": "8",
+        "periodo_ingresso": "2004.1",
+        "classe": "geral",
+        "media": "637.27"
+      },
+      {
+        "": "9",
+        "periodo_ingresso": "2004.2",
+        "classe": "geral",
+        "media": "592.93"
+      },
+      {
+        "": "10",
+        "periodo_ingresso": "2005.1",
+        "classe": "geral",
+        "media": "653.63"
+      },
+      {
+        "": "11",
+        "periodo_ingresso": "2005.2",
+        "classe": "geral",
+        "media": "598.74"
+      },
+      {
+        "": "12",
+        "periodo_ingresso": "2006.1",
+        "classe": "geral",
+        "media": "635.54"
+      },
+      {
+        "": "13",
+        "periodo_ingresso": "2006.2",
+        "classe": "geral",
+        "media": "585.79"
+      },
+      {
+        "": "14",
+        "periodo_ingresso": "2007.1",
+        "classe": "geral",
+        "media": "632.16"
+      },
+      {
+        "": "15",
+        "periodo_ingresso": "2007.2",
+        "classe": "geral",
+        "media": "585.7"
+      },
+      {
+        "": "16",
+        "periodo_ingresso": "2008.1",
+        "classe": "geral",
+        "media": "645.2"
+      },
+      {
+        "": "17",
+        "periodo_ingresso": "2008.2",
+        "classe": "geral",
+        "media": "597.58"
+      },
+      {
+        "": "18",
+        "periodo_ingresso": "2009.1",
+        "classe": "geral",
+        "media": "621.57"
+      },
+      {
+        "": "19",
+        "periodo_ingresso": "2009.2",
+        "classe": "geral",
+        "media": "559.64"
+      },
+      {
+        "": "20",
+        "periodo_ingresso": "2010.1",
+        "classe": "geral",
+        "media": "599.3"
+      },
+      {
+        "": "21",
+        "periodo_ingresso": "2010.2",
+        "classe": "geral",
+        "media": "543.58"
+      },
+      {
+        "": "22",
+        "periodo_ingresso": "2011.1",
+        "classe": "geral",
+        "media": "679.31"
+      },
+      {
+        "": "23",
+        "periodo_ingresso": "2011.2",
+        "classe": "geral",
+        "media": "638.69"
+      },
+      {
+        "": "24",
+        "periodo_ingresso": "2012.1",
+        "classe": "geral",
+        "media": "647.03"
+      },
+      {
+        "": "25",
+        "periodo_ingresso": "2012.2",
+        "classe": "geral",
+        "media": "603.68"
+      },
+      {
+        "": "26",
+        "periodo_ingresso": "2013.1",
+        "classe": "geral",
+        "media": "658.41"
+      },
+      {
+        "": "27",
+        "periodo_ingresso": "2013.2",
+        "classe": "geral",
+        "media": "617.29"
+      },
+      {
+        "": "28",
+        "periodo_ingresso": "2014.1",
+        "classe": "geral",
+        "media": "662.7"
+      },
+      {
+        "": "29",
+        "periodo_ingresso": "2014.2",
+        "classe": "geral",
+        "media": "612.36"
+      },
+      {
+        "": "30",
+        "periodo_ingresso": "2015.1",
+        "classe": "geral",
+        "media": "665.43"
+      },
+      {
+        "": "31",
+        "periodo_ingresso": "2015.2",
+        "classe": "geral",
+        "media": "629.62"
+      },
+      {
+        "": "32",
+        "periodo_ingresso": "2016.1",
+        "classe": "geral",
+        "media": "671.94"
+      },
+      {
+        "": "33",
+        "periodo_ingresso": "2016.2",
+        "classe": "geral",
+        "media": "624.43"
+      },
+      {
+        "": "34",
+        "periodo_ingresso": "2017.1",
+        "classe": "geral",
+        "media": "682.75"
+      },
+      {
+        "": "35",
+        "periodo_ingresso": "2017.2",
+        "classe": "geral",
+        "media": "638.41"
+      },
+      {
+        "": "36",
+        "periodo_ingresso": "2018.1",
+        "classe": "geral",
+        "media": "669.95"
+      },
+      {
+        "": "37",
+        "periodo_ingresso": "2018.2",
+        "classe": "geral",
+        "media": "642.67"
+      },
+      {
+        "": "38",
+        "periodo_ingresso": "2019.1",
+        "classe": "geral",
+        "media": "709.78"
+      },
+      {
+        "": "39",
+        "periodo_ingresso": "2019.2",
+        "classe": "geral",
+        "media": "666.89"
+      },
+      {
+        "": "40",
+        "periodo_ingresso": "2020.1",
+        "classe": "geral",
+        "media": "686.96"
+      },
+      {
+        "": "41",
+        "periodo_ingresso": "2000.1",
+        "classe": "mulheres",
+        "media": "623.4"
+      },
+      {
+        "": "42",
+        "periodo_ingresso": "2000.2",
+        "classe": "mulheres",
+        "media": "569.43"
+      },
+      {
+        "": "43",
+        "periodo_ingresso": "2001.1",
+        "classe": "mulheres",
+        "media": "646.86"
+      },
+      {
+        "": "44",
+        "periodo_ingresso": "2001.2",
+        "classe": "mulheres",
+        "media": "599.5"
+      },
+      {
+        "": "45",
+        "periodo_ingresso": "2002.1",
+        "classe": "mulheres",
+        "media": "628.48"
+      },
+      {
+        "": "46",
+        "periodo_ingresso": "2002.2",
+        "classe": "mulheres",
+        "media": "592.69"
+      },
+      {
+        "": "47",
+        "periodo_ingresso": "2003.1",
+        "classe": "mulheres",
+        "media": "661.98"
+      },
+      {
+        "": "48",
+        "periodo_ingresso": "2003.2",
+        "classe": "mulheres",
+        "media": "600.4"
+      },
+      {
+        "": "49",
+        "periodo_ingresso": "2004.1",
+        "classe": "mulheres",
+        "media": "643.0"
+      },
+      {
+        "": "50",
+        "periodo_ingresso": "2004.2",
+        "classe": "mulheres",
+        "media": "594.83"
+      },
+      {
+        "": "51",
+        "periodo_ingresso": "2005.1",
+        "classe": "mulheres",
+        "media": "643.26"
+      },
+      {
+        "": "52",
+        "periodo_ingresso": "2005.2",
+        "classe": "mulheres",
+        "media": "601.5"
+      },
+      {
+        "": "53",
+        "periodo_ingresso": "2006.1",
+        "classe": "mulheres",
+        "media": "620.86"
+      },
+      {
+        "": "54",
+        "periodo_ingresso": "2006.2",
+        "classe": "mulheres",
+        "media": "587.5"
+      },
+      {
+        "": "55",
+        "periodo_ingresso": "2007.1",
+        "classe": "mulheres",
+        "media": "621.9"
+      },
+      {
+        "": "56",
+        "periodo_ingresso": "2007.2",
+        "classe": "mulheres",
+        "media": "579.1"
+      },
+      {
+        "": "57",
+        "periodo_ingresso": "2008.1",
+        "classe": "mulheres",
+        "media": "643.1"
+      },
+      {
+        "": "58",
+        "periodo_ingresso": "2008.2",
+        "classe": "mulheres",
+        "media": "595.35"
+      },
+      {
+        "": "59",
+        "periodo_ingresso": "2009.1",
+        "classe": "mulheres",
+        "media": "630.43"
+      },
+      {
+        "": "60",
+        "periodo_ingresso": "2009.2",
+        "classe": "mulheres",
+        "media": "564.13"
+      },
+      {
+        "": "61",
+        "periodo_ingresso": "2010.1",
+        "classe": "mulheres",
+        "media": "593.43"
+      },
+      {
+        "": "62",
+        "periodo_ingresso": "2010.2",
+        "classe": "mulheres",
+        "media": "541.64"
+      },
+      {
+        "": "63",
+        "periodo_ingresso": "2011.1",
+        "classe": "mulheres",
+        "media": "679.32"
+      },
+      {
+        "": "64",
+        "periodo_ingresso": "2011.2",
+        "classe": "mulheres",
+        "media": "638.75"
+      },
+      {
+        "": "65",
+        "periodo_ingresso": "2012.1",
+        "classe": "mulheres",
+        "media": "671.65"
+      },
+      {
+        "": "66",
+        "periodo_ingresso": "2012.2",
+        "classe": "mulheres",
+        "media": "614.32"
+      },
+      {
+        "": "67",
+        "periodo_ingresso": "2013.1",
+        "classe": "mulheres",
+        "media": "668.16"
+      },
+      {
+        "": "68",
+        "periodo_ingresso": "2013.2",
+        "classe": "mulheres",
+        "media": "624.23"
+      },
+      {
+        "": "69",
+        "periodo_ingresso": "2014.1",
+        "classe": "mulheres",
+        "media": "665.16"
+      },
+      {
+        "": "70",
+        "periodo_ingresso": "2014.2",
+        "classe": "mulheres",
+        "media": "629.44"
+      },
+      {
+        "": "71",
+        "periodo_ingresso": "2015.1",
+        "classe": "mulheres",
+        "media": "662.5"
+      },
+      {
+        "": "72",
+        "periodo_ingresso": "2015.2",
+        "classe": "mulheres",
+        "media": "622.08"
+      },
+      {
+        "": "73",
+        "periodo_ingresso": "2016.1",
+        "classe": "mulheres",
+        "media": "673.96"
+      },
+      {
+        "": "74",
+        "periodo_ingresso": "2016.2",
+        "classe": "mulheres",
+        "media": "626.31"
+      },
+      {
+        "": "75",
+        "periodo_ingresso": "2017.1",
+        "classe": "mulheres",
+        "media": "670.63"
+      },
+      {
+        "": "76",
+        "periodo_ingresso": "2017.2",
+        "classe": "mulheres",
+        "media": "635.21"
+      },
+      {
+        "": "77",
+        "periodo_ingresso": "2018.1",
+        "classe": "mulheres",
+        "media": "662.74"
+      },
+      {
+        "": "78",
+        "periodo_ingresso": "2018.2",
+        "classe": "mulheres",
+        "media": "634.55"
+      },
+      {
+        "": "79",
+        "periodo_ingresso": "2019.1",
+        "classe": "mulheres",
+        "media": "706.31"
+      },
+      {
+        "": "80",
+        "periodo_ingresso": "2019.2",
+        "classe": "mulheres",
+        "media": "660.99"
+      },
+      {
+        "": "81",
+        "periodo_ingresso": "2020.1",
+        "classe": "mulheres",
+        "media": "669.6"
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "periodo_ingresso",
+      "type": "nominal",
+      "title": "Período"
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "classe",
+          "type": "nominal",
+          "title": "Média",
+          "scale": {
+            "domain": [
+              "geral",
+              "mulheres"
+            ],
+            "scheme": "pastel1"
+          }
+        },
+        "y": {
+          "field": "media",
+          "type": "quantitative",
+          "title": "Nota média"
+        }
+      },
+      "layer": [
+        {
+          "mark": "line"
+        },
+        {
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "pivot": "classe",
+          "value": "media",
+          "groupby": [
+            "periodo_ingresso"
+          ]
+        }
+      ],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "value": 0.3
+        },
+        "tooltip": [
+          {
+            "field": "periodo_ingresso",
+            "type": "nominal",
+            "title": "Período"
+          },
+          {
+            "field": "geral",
+            "type": "quantitative",
+            "title": "Média geral"
+          },
+          {
+            "field": "mulheres",
+            "type": "quantitative",
+            "title": "Média mulheres"
+          }
+        ]
+      }
+    }
+  ]
+}

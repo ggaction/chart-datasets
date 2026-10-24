@@ -149,6 +149,18 @@ async function completionCatalogV3(f, retained=false){
  await save();return {current,directory,file,parentPath,registry,save};
 }
 for(const retained of [false,true])test('v3 completion catalog selects '+(retained?'unchanged v2 parent':'new completed')+' epoch',async()=>{const f=await fixture();try{const e=await completionCatalogV3(f,retained),run=f.run(true);assert.equal(run.status,0,run.stderr);assert.deepEqual(await readFile(f.root+'/charts/vl_0001/G1.gg.mjs'),await readFile(e.current+'/G1/attempt-01/candidate.gg.mjs'));const proof=await load(f.root+'/charts/vl_0001/source-epoch.json');assert.equal(proof.registrySha256,hash(await readFile(e.file)));assert(!JSON.stringify(proof).includes(f.home));}finally{await f.cleanup();}});
+test('retains published V2 epoch bytes when an unchanged entry is inherited by V3',async()=>{
+ const f=await fixture();try{
+  const e=await completionCatalogV3(f,true),configFile=e.directory+'/config.json',config=await load(configFile);
+  const legacy=structuredClone(config);delete legacy.requalifiedSourceFamiliesV3;await json(configFile,legacy);
+  let run=f.run(true);assert.equal(run.status,0,run.stderr);
+  const target=f.root+'/charts/vl_0001/source-epoch.json',before=await readFile(target);
+  assert.equal(JSON.parse(before).registrySha256,hash(await readFile(e.parentPath)));
+  await json(configFile,config);run=f.run(true);assert.equal(run.status,0,run.stderr);
+  assert.deepEqual(await readFile(target),before);
+  assert.deepEqual(await readFile(f.root+'/charts/vl_0001/G1.gg.mjs'),await readFile(e.current+'/G1/attempt-01/candidate.gg.mjs'));
+ }finally{await f.cleanup();}
+});
 for(const mutation of ['descriptor-hash','parent-hash','ancestor-hash','lost-parent','changed-parent','unfinished','raw-changed','missing-resolution','unsafe-descriptor'])test('v3 completion catalog rejects '+mutation+' before publication',async()=>{const f=await fixture();try{const e=await completionCatalogV3(f);
  if(mutation==='parent-hash')await json(e.parentPath,{schemaVersion:2,sources:{}});
  if(mutation==='ancestor-hash')await json(e.directory+'/requalified-source-families-v1.json',{changed:true});

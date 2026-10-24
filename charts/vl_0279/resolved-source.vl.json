@@ -1,0 +1,355 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 450,
+  "height": 250,
+  "title": "Global Forcibly Displaced Population",
+  "description": "Rank of countries based on average rejection rate",
+  "data": {
+    "values": [
+      {
+        "year": "2010",
+        "DP type": "Refugees",
+        "Value": "10548835"
+      },
+      {
+        "year": "2010",
+        "DP type": "Asylum Seekers",
+        "Value": "835969"
+      },
+      {
+        "year": "2010",
+        "DP type": "Internally Displaced People",
+        "Value": "14697804"
+      },
+      {
+        "year": "2011",
+        "DP type": "Refugees",
+        "Value": "10403937"
+      },
+      {
+        "year": "2011",
+        "DP type": "Asylum Seekers",
+        "Value": "895691"
+      },
+      {
+        "year": "2011",
+        "DP type": "Internally Displaced People",
+        "Value": "15473378"
+      },
+      {
+        "year": "2012",
+        "DP type": "Refugees",
+        "Value": "10497017"
+      },
+      {
+        "year": "2012",
+        "DP type": "Asylum Seekers",
+        "Value": "941497"
+      },
+      {
+        "year": "2012",
+        "DP type": "Internally Displaced People",
+        "Value": "17670368"
+      },
+      {
+        "year": "2013",
+        "DP type": "Refugees",
+        "Value": "11698233"
+      },
+      {
+        "year": "2013",
+        "DP type": "Asylum Seekers",
+        "Value": "1162934"
+      },
+      {
+        "year": "2013",
+        "DP type": "Internally Displaced People",
+        "Value": "23925555"
+      },
+      {
+        "year": "2014",
+        "DP type": "Refugees",
+        "Value": "14384289"
+      },
+      {
+        "year": "2014",
+        "DP type": "Asylum Seekers",
+        "Value": "1794704"
+      },
+      {
+        "year": "2014",
+        "DP type": "Internally Displaced People",
+        "Value": "32274619"
+      },
+      {
+        "year": "2015",
+        "DP type": "Refugees",
+        "Value": "16110276"
+      },
+      {
+        "year": "2015",
+        "DP type": "Asylum Seekers",
+        "Value": "3223460"
+      },
+      {
+        "year": "2015",
+        "DP type": "Internally Displaced People",
+        "Value": "37494172"
+      },
+      {
+        "year": "2016",
+        "DP type": "Refugees",
+        "Value": "17184286"
+      },
+      {
+        "year": "2016",
+        "DP type": "Asylum Seekers",
+        "Value": "2729521"
+      },
+      {
+        "year": "2016",
+        "DP type": "Internally Displaced People",
+        "Value": "36627127"
+      },
+      {
+        "year": "2017",
+        "DP type": "Refugees",
+        "Value": "19940566"
+      },
+      {
+        "year": "2017",
+        "DP type": "Asylum Seekers",
+        "Value": "3089507"
+      },
+      {
+        "year": "2017",
+        "DP type": "Internally Displaced People",
+        "Value": "39118516"
+      },
+      {
+        "year": "2018",
+        "DP type": "Refugees",
+        "Value": "20359553"
+      },
+      {
+        "year": "2018",
+        "DP type": "Asylum Seekers",
+        "Value": "3501629"
+      },
+      {
+        "year": "2018",
+        "DP type": "Internally Displaced People",
+        "Value": "41425168"
+      },
+      {
+        "year": "2019",
+        "DP type": "Refugees",
+        "Value": "20414669"
+      },
+      {
+        "year": "2019",
+        "DP type": "Asylum Seekers",
+        "Value": "4148141"
+      },
+      {
+        "year": "2019",
+        "DP type": "Internally Displaced People",
+        "Value": "43503362"
+      },
+      {
+        "year": "2020",
+        "DP type": "Refugees",
+        "Value": "20661846"
+      },
+      {
+        "year": "2020",
+        "DP type": "Asylum Seekers",
+        "Value": "4184926"
+      },
+      {
+        "year": "2020",
+        "DP type": "Internally Displaced People",
+        "Value": "48557439"
+      },
+      {
+        "year": "2021",
+        "DP type": "Refugees",
+        "Value": "21327285"
+      },
+      {
+        "year": "2021",
+        "DP type": "Asylum Seekers",
+        "Value": "4616134"
+      },
+      {
+        "year": "2021",
+        "DP type": "Internally Displaced People",
+        "Value": "51322623"
+      }
+    ],
+    "format": {
+      "parse": {
+        "year": "date"
+      }
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "title": "Year"
+    }
+  },
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "DP type",
+          "type": "nominal",
+          "legend": {
+            "orient": "top-left",
+            "labelFontWeight": "bold"
+          },
+          "title": null
+        },
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "axis": {
+            "tickCount": 8
+          }
+        },
+        "opacity": {
+          "value": 1
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "interpolate": "natural"
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": {
+                "param": "hover",
+                "empty": false
+              }
+            }
+          ],
+          "mark": {
+            "type": "point",
+            "size": 100,
+            "filled": true
+          }
+        }
+      ]
+    },
+    {
+      "encoding": {
+        "color": {
+          "field": "DP type",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "title": ""
+        },
+        "opacity": {
+          "value": 1
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "interpolate": "natural"
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": {
+                "param": "hover",
+                "empty": false
+              }
+            }
+          ],
+          "mark": {
+            "type": "point",
+            "size": 500,
+            "filled": false
+          }
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "pivot": "DP type",
+          "value": "Value",
+          "groupby": [
+            "year"
+          ]
+        }
+      ],
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": [
+              "year"
+            ],
+            "nearest": true,
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ],
+      "mark": {
+        "type": "rule"
+      },
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "value": 0.5,
+            "param": "hover",
+            "empty": false
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {
+            "field": "Internally Displaced People",
+            "type": "quantitative",
+            "title": "Internally Displaced People",
+            "format": ","
+          },
+          {
+            "field": "Refugees",
+            "type": "quantitative",
+            "format": ","
+          },
+          {
+            "field": "Asylum Seekers",
+            "type": "quantitative",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "background": "#ff000000",
+    "axis": {
+      "gridColor": "#6e564b71"
+    }
+  }
+}
